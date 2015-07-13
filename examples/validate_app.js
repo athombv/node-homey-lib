@@ -8,9 +8,9 @@ var app = new devkit_lib.App( process.argv[2] );
 var result = app.validate();
 
 if( result.success ) {
-	console.log('Valid app!');
+	console.log('valid app!');
 } else {
-	console.log('Invalid app!');
+	console.log('invalid app!');
 	result.errors.forEach(function(error){
 		console.log('Error: ' + error);
 	})
