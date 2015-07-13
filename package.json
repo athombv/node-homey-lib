@@ -1,0 +1,19 @@
+{
+  "name": "devkit-lib",
+  "version": "1.0.0",
+  "description": "Library for developer tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://WeeJeWel@github.com/athombv/devkit-lib"
+  },
+  "author": "Emile Nijssen <emile@athom.nl> (https://www.athom.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/athombv/devkit-lib/issues"
+  },
+  "homepage": "https://github.com/athombv/devkit-lib"
+}
