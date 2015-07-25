@@ -1,6 +1,6 @@
 {
   "name": "devkit-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library for developer tools",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/athombv/devkit-lib/issues"
   },
-  "homepage": "https://github.com/athombv/devkit-lib"
+  "homepage": "https://github.com/athombv/devkit-lib",
+  "dependencies": {
+    "semver": "^5.0.1"
+  }
 }
