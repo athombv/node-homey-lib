@@ -1,9 +1,9 @@
-# Devkit tools
+# devkit-lib
 
 This is a library for Athom's developer tools (development kit, command line tools etc).
 
 ## Example
-```
+```javascript
 // require the module
 var tools = require('devkit-tools');
 
