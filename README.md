@@ -29,7 +29,7 @@ or:
 
 ## Methods
 
-### App( app_path* )
+### App( *app_path* )
 Create a new App instance.
 
 - ***app_path*** (string): A path to the folder where the app is located
