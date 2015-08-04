@@ -5,10 +5,10 @@ This is a library for Athom's developer tools (development kit, command line too
 ## Example
 ```javascript
 // require the module
-var tools = require('devkit-tools');
+var devkitlib = require('devkit-lib');
 
 // create an App instance
-var app = new tools.App("/path/to/my/app");
+var app = new devkitlib.App("/path/to/my/app");
 
 // validate the app
 var valid = app.validate();
