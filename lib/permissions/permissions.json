@@ -1,0 +1,26 @@
+{
+	"homey:manager:alarm": {
+		"en": "View, create and cancel alarms"
+	},
+	"homey:manager:devices": {
+		"en": "View, create and delete your devices"
+	},
+	"homey:manager:geolocation": {
+		"en": "View your Homey's location"
+	},
+	"homey:manager:insights": {
+		"en": "Read your insights"
+	},
+	"homey:manager:ledring": {
+		"en": "Control Homey's LED ring"
+	},
+	"homey:manager:media": {
+		"en": "Play and pause music"
+	},
+	"homey:manager:speech-input": {
+		"en": "React to your speech, or ask a question"
+	},
+	"homey:manager:speech-output": {
+		"en": "Let Homey say something"
+	}
+}
