@@ -5,7 +5,7 @@ if( typeof process.argv[2] == 'undefined' ) {
 }
 
 var app = new devkit_lib.App( process.argv[2] );
-var result = app.validate();
+var result = app.validate( true ); // true = check for app store
 
 if( result.success ) {
 	console.log('valid app!');
