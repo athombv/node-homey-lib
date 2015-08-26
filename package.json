@@ -1,6 +1,6 @@
 {
   "name": "devkit-lib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Library for developer tools",
   "main": "index.js",
   "scripts": {
