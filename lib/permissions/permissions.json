@@ -22,5 +22,14 @@
 	},
 	"homey:manager:speech-output": {
 		"en": "Let Homey say something"
+	},
+	"homey:wireless:433": {
+		"en": "Send and receive on the 433.92 MHz frequency"
+	},
+	"homey:wireless:868": {
+		"en": "Send and receive on the 868 MHz frequency"
+	},
+	"homey:wireless:nfc": {
+		"en": "Read and write NFC tags"
 	}
 }
