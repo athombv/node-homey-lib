@@ -1,14 +1,14 @@
-# devkit-lib
+# homey-lib
 
-This is a library for Athom's developer tools (development kit, command line tools etc).
+This is a library for Homey (development kit, command line tools etc).
 
 ## Example
 ```javascript
 // require the module
-var devkitlib = require('devkit-lib');
+var lib = require('homey-lib');
 
 // create an App instance
-var app = new devkitlib.App("/path/to/my/app");
+var app = new lib.App("/path/to/my/app");
 
 // validate the app
 var valid = app.validate();

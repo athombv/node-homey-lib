@@ -1,10 +1,10 @@
-var devkit_lib = require('..');
+var lib = require('..');
 
 if( typeof process.argv[2] == 'undefined' ) {
 	return console.error("Error: please specify the path to your app folder");
 }
 
-var app = new devkit_lib.App( process.argv[2] );
+var app = new lib.App( process.argv[2] );
 var result = app.validate( true ); // true = check for app store
 
 if( result.success ) {

@@ -1,21 +1,21 @@
 {
-  "name": "devkit-lib",
-  "version": "1.0.4",
-  "description": "Library for developer tools",
+  "name": "homey-lib",
+  "version": "1.0.5",
+  "description": "Library for Homey",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://WeeJeWel@github.com/athombv/devkit-lib"
+    "url": "https://github.com/athombv/node-homey-lib"
   },
   "author": "Emile Nijssen <emile@athom.nl> (https://www.athom.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/athombv/devkit-lib/issues"
+    "url": "https://github.com/athombv/node-homey-lib/issues"
   },
-  "homepage": "https://github.com/athombv/devkit-lib",
+  "homepage": "https://github.com/athombv/node-homey-lib",
   "dependencies": {
     "image-size": "^0.3.5",
     "semver": "^5.0.1"
