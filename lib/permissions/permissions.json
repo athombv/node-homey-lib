@@ -21,22 +21,22 @@
 	},
 	"homey:wireless:433": {
 		"en": "Send and receive on the 434 MHz frequency",
-		"en": "Verzenden en ontvangen op de 434 MHz frequentie"
+		"nl": "Verzenden en ontvangen op de 434 MHz frequentie"
 	},
 	"homey:wireless:868": {
 		"en": "Send and receive on the 868 MHz frequency",
-		"en": "Verzenden en ontvangen op de 868 MHz frequentie"
+		"nl": "Verzenden en ontvangen op de 868 MHz frequentie"
 	},
 	"homey:wireless:ir": {
 		"en": "Send and receive Infrared",
-		"en": "Infrarood verzenden en ontvangen"
+		"nl": "Infrarood verzenden en ontvangen"
 	},
 	"homey:wireless:zwave": {
 		"en": "Send and receive Z-Wave for specific devices",
-		"en": "Z-Wave verzenden en ontvangen voor specifieke apparaten"
+		"nl": "Z-Wave verzenden en ontvangen voor specifieke apparaten"
 	},
 	"homey:wireless:nfc": {
 		"en": "Read and write NFC tags",
-		"en": "NFC tags lezen en schrijven"
+		"nl": "NFC tags lezen en schrijven"
 	}
 }
