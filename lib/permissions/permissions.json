@@ -1,35 +1,42 @@
 {
-	"homey:manager:alarm": {
-		"en": "View, create and cancel alarms"
-	},
-	"homey:manager:devices": {
-		"en": "View, create and delete your devices"
-	},
 	"homey:manager:geolocation": {
-		"en": "View your Homey's location"
-	},
-	"homey:manager:insights": {
-		"en": "Read your insights"
+		"en": "Read your Homey's location",
+		"nl": "Je Homey's locatie uitlezen"
 	},
 	"homey:manager:ledring": {
-		"en": "Control Homey's LED ring"
+		"en": "Control your Homey's LED ring",
+		"nl": "Je Homey's LED ring besturen"
 	},
 	"homey:manager:media": {
-		"en": "Play and pause music"
+		"en": "Control your Homey's Music",
+		"nl": "Je Homey's Muziek besturen"
 	},
 	"homey:manager:speech-input": {
-		"en": "React to your speech, or ask a question"
+		"en": "React to your speech",
+		"nl": "Reageren op je spraak"
 	},
 	"homey:manager:speech-output": {
-		"en": "Let Homey say something"
+		"en": "Let Homey talk",
+		"nl": "Homey laten praten"
 	},
 	"homey:wireless:433": {
-		"en": "Send and receive on the 433.92 MHz frequency"
+		"en": "Send and receive on the 434 MHz frequency",
+		"nl": "Verzenden en ontvangen op de 434 MHz frequentie"
 	},
 	"homey:wireless:868": {
-		"en": "Send and receive on the 868 MHz frequency"
+		"en": "Send and receive on the 868 MHz frequency",
+		"nl": "Verzenden en ontvangen op de 868 MHz frequentie"
+	},
+	"homey:wireless:ir": {
+		"en": "Send and receive Infrared",
+		"nl": "Infrarood verzenden en ontvangen"
+	},
+	"homey:wireless:zwave": {
+		"en": "Send and receive Z-Wave for specific devices",
+		"nl": "Z-Wave verzenden en ontvangen voor specifieke apparaten"
 	},
 	"homey:wireless:nfc": {
-		"en": "Read and write NFC tags"
+		"en": "Read and write NFC tags",
+		"nl": "NFC tags lezen en schrijven"
 	}
 }
