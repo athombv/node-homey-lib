@@ -1,0 +1,747 @@
+{
+	"devices": {
+
+		"other": {
+			"name": {
+				"en": "Other"
+			},
+			"capabilities": []
+		},
+
+		"socket": {
+			"name": {
+				"en": "Wall Plug",
+				"nl": "Stopcontact schakelaar"
+			},
+			"capabilities": [ "onoff", "dim", "measure_power", "meter_power" ]
+		},
+
+		"light": {
+			"name": {
+				"en": "Light",
+				"nl": "Lamp"
+			},
+			"capabilities": [ "onoff", "dim", "light_hue", "light_saturation", "light_temperature", "light_mode" ]
+		},
+
+		"vacuumcleaner": {
+			"name": {
+				"en": "Vacuum Cleaner",
+				"nl": "Stofzuiger"
+			},
+			"capabilities": [ "vacuumcleaner_state" ]
+		},
+
+		"fan": {
+			"name": {
+				"en": "Fan",
+				"nl": "Ventilator"
+			},
+			"capabilities": [ "onoff", "dim" ]
+		},
+
+		"heater": {
+			"name": {
+				"en": "Heater",
+				"nl": "Heater"
+			},
+			"capabilities": [ "onoff", "dim" ]
+		},
+
+		"thermostat": {
+			"name": {
+				"en": "Thermostat",
+				"nl": "Thermostaat"
+			},
+			"capabilities": [ "measure_temperature", "target_temperature" ]
+		},
+
+		"sensor": {
+			"name": {
+				"en": "Sensor",
+				"nl": "Sensor"
+			},
+			"capabilities": [ "measure_temperature", "measure_co", "measure_co2", "measure_humidity", "measure_pressure", "measure_noise", "measure_rain", "measure_wind_strength", "measure_wind_angle", "measure_gust_strength", "measure_gust_angle", "measure_battery", "measure_power", "measure_luminance", "alarm_generic", "alarm_motion", "alarm_contact", "alarm_co", "alarm_co2", "alarm_tamper", "alarm_smoke", "alarm_fire", "alarm_water", "alarm_battery", "alarm_night", "meter_power", "meter_water", "meter_gas" ]
+		},
+
+		"kettle": {
+			"name": {
+				"en": "Kettle",
+				"nl": "Waterkoker"
+			},
+			"capabilities": [ "onoff", "target_temperature", "measure_temperature" ]
+		},
+
+		"coffeemachine": {
+			"name": {
+				"en": "Coffee machine",
+				"nl": "Koffiemachine"
+			},
+			"capabilities": [ "onoff", "target_temperature", "measure_temperature" ]
+		},
+
+		"homealarm": {
+			"name": {
+				"en": "Home Security",
+				"nl": "Huisbeveiliging"
+			},
+			"capabilities": [ "homealarm_state", "alarm_tamper" ]
+		},
+
+		"speaker": {
+			"name": {
+				"en": "Speaker",
+				"nl": "Speaker"
+			},
+			"capabilities": [ "volume_set", "volume_up", "volume_down", "volume_mute" ]
+		},
+
+		"button": {
+			"name": {
+				"en": "Button",
+				"nl": "Knop"
+			},
+			"capabilities": [ "alarm_generic", "onoff" ]
+		},
+
+		"doorbell": {
+			"name": {
+				"en": "Doorbell",
+				"nl": "Deurbel"
+			},
+			"capabilities": [ "alarm_generic" ]
+		},
+
+		"zwavecontroller": {
+			"name": {
+				"en": "Z-Wave Controller"
+			},
+			"capabilities": []
+		},
+
+		"lock": {
+			"name": {
+				"en": "Lock",
+				"nl": "Slot"
+			},
+			"capabilities": [ "locked", "lock_mode", "measure_battery" ]
+		},
+
+		"windowcoverings": {
+			"name": {
+				"en": "Curtains & Blinds",
+				"nl": "Gordijnen & Lamellen"
+			},
+			"capabilities": [ "onoff", "dim", "windowcoverings_state" ]
+		}
+
+	},
+
+	"capabilities": {
+		"onoff": {
+			"type": "boolean",
+			"title": {
+				"en": "Turned on"
+			},
+			"getable": true,
+			"setable": true
+		},
+		"dim": {
+			"type": "number",
+			"title": {
+				"en": "Dim level"
+			},
+			"min": 0,
+			"max": 1,
+			"decimals": 2,
+			"getable": true,
+			"setable": true
+		},
+		"light_hue": {
+			"type": "number",
+			"title": {
+				"en": "Hue"
+			},
+			"min": 0,
+			"max": 1,
+			"decimals": 2,
+			"getable": true,
+			"setable": true
+		},
+		"light_saturation": {
+			"type": "number",
+			"title": {
+				"en": "Saturation"
+			},
+			"min": 0,
+			"max": 1,
+			"decimals": 2,
+			"getable": true,
+			"setable": true
+		},
+		"light_temperature": {
+			"type": "number",
+			"title": {
+				"en": "Temperature"
+			},
+			"min": 0,
+			"max": 1,
+			"decimals": 2,
+			"getable": true,
+			"setable": true
+		},
+		"light_mode": {
+			"type": "enum",
+			"desc": {
+				"en": "Mode of the Light"
+			},
+			"values": [
+				{
+					"id": "color",
+					"title": {
+						"en": "Color"
+					}
+				},
+				{
+					"id": "temperature",
+					"title": {
+						"en": "Temperature"
+					}
+				}
+			],
+			"getable": true,
+			"setable": true
+		},
+
+		"vacuumcleaner_state": {
+			"type": "enum",
+			"values": [
+				{
+					"id": "cleaning",
+					"title": {
+						"en": ""
+					}
+				},
+				{
+					"id": "spot_cleaning",
+					"title": {
+						"en": "Spot cleaning"
+					}
+				},
+				{
+					"id": "docked",
+					"title": {
+						"en": "Docked"
+					}
+				},
+				{
+					"id": "charging",
+					"title": {
+						"en": "Charging"
+					}
+				},
+				{
+					"id": "stopped",
+					"title": {
+						"en": "Stopped"
+					}
+				}
+			],
+			"getable": true,
+			"setable": true
+		},
+
+		"target_temperature": {
+			"type": "number",
+			"min": 4,
+			"max": 35,
+			"title": {
+				"en": "Target temperature"
+			},
+			"units": {
+				"en": "°C"
+			},
+			"decimals": 2,
+			"getable": true,
+			"setable": true
+		},
+
+		"measure_temperature": {
+			"type": "number",
+			"desc": {
+				"en": "Temperature"
+			},
+			"title": {
+				"en": "Temperature"
+			},
+			"units": {
+				"en": "°C"
+			},
+			"decimals": 2,
+			"getable": true,
+			"setable": false
+		},
+		"measure_co": {
+			"type": "number",
+			"title": {
+				"en": "CO"
+			},
+			"units": "ppm",
+			"desc": {
+				"en": "CO in Parts-per-million (ppm)"
+			},
+			"decimals": 2,
+			"getable": true,
+			"setable": false
+		},
+		"measure_co2": {
+			"type": "number",
+			"title": {
+				"en": "CO"
+			},
+			"units": "ppm",
+			"desc": {
+				"en": "CO2 in Parts-per-million (ppm)"
+			},
+			"decimals": 2,
+			"getable": true,
+			"setable": false
+		},
+		"measure_humidity": {
+			"type": "number",
+			"title": {
+				"en": "Humidity"
+			},
+			"units": "%",
+			"desc": {
+				"en": "Humidity in percent (%)"
+			},
+			"decimals": 2,
+			"getable": true,
+			"setable": false
+		},
+		"measure_pressure": {
+			"type": "number",
+			"title": {
+				"en": "Pressure"
+			},
+			"units": "mbar",
+			"desc": {
+				"en": "Pressure in millibar (mbar)"
+			},
+			"decimals": 2,
+			"getable": true,
+			"setable": false
+		},
+		"measure_noise": {
+			"type": "number",
+			"title": {
+				"en": "Noise"
+			},
+			"units": "dB",
+			"desc": {
+				"en": "Noise in Decibel (db)"
+			},
+			"decimals": 2,
+			"getable": true,
+			"setable": false
+		},
+		"measure_rain": {
+			"type": "number",
+			"title": {
+				"en": "Rain"
+			},
+			"units": "mm",
+			"desc": {
+				"en": "Rain in millimeter (mm)"
+			},
+			"decimals": 2,
+			"getable": true,
+			"setable": false
+		},
+		"measure_wind_strength": {
+			"type": "number",
+			"title": {
+				"en": "Wind Strenth"
+			},
+			"units": "km/h",
+			"desc": {
+				"en": "Wind Strength n Kilometer per hour (km/h)"
+			},
+			"decimals": 2,
+			"getable": true,
+			"setable": false
+		},
+		"measure_wind_angle": {
+			"type": "number",
+			"title": {
+				"en": "Wind Angle"
+			},
+			"units": "°",
+			"desc": {
+				"en": "Wind Angle in Degrees (°)"
+			},
+			"decimals": 2,
+			"setable": false
+		},
+		"measure_gust_strength": {
+			"type": "number",
+			"title": {
+				"en": "Gust Strength"
+			},
+			"units": "km/h",
+			"desc": {
+				"en": "Gust Strength n Kilometer per hour (km/h)"
+			},
+			"decimals": 2,
+			"getable": true,
+			"setable": false
+		},
+		"measure_gust_angle": {
+			"type": "number",
+			"title": {
+				"en": "Gust Angle"
+			},
+			"units": "°",
+			"desc": {
+				"en": "Gust Angle in Degrees (°)"
+			},
+			"decimals": 2,
+			"getable": true,
+			"setable": false
+		},
+		"measure_battery": {
+			"type": "number",
+			"title": {
+				"en": "Battery"
+			},
+			"units": "%",
+			"min": 0,
+			"max": 100,
+			"desc": {
+				"en": "Battery charge in percentage (%)"
+			},
+			"decimals": 2,
+			"getable": true,
+			"setable": false
+		},
+		"measure_power": {
+			"type": "number",
+			"title": {
+				"en": "Power"
+			},
+			"units": {
+				"en": "W"
+			},
+			"desc": {
+				"en": "Power in Watt (W)"
+			},
+			"decimals": 2,
+			"getable": true,
+			"setable": false
+		},
+		"measure_luminance": {
+			"type": "number",
+			"title": {
+				"en": "Luminance"
+			},
+			"units": {
+				"en": "lx"
+			},
+			"desc": {
+				"en": "Luminance in Lux (lx)"
+			},
+			"decimals": 2,
+			"getable": true,
+			"setable": false
+		},
+		"alarm_generic": {
+			"type": "boolean",
+			"title": {
+				"en": "Generic Alarm"
+			},
+			"desc": {
+				"en": "Generic alarm"
+			},
+			"decimals": 2,
+			"getable": true,
+			"setable": true
+		},
+		"alarm_motion": {
+			"type": "boolean",
+			"title": {
+				"en": "Motion Alarm"
+			},
+			"desc": {
+				"en": "Motion detected (true/false)"
+			},
+			"getable": true,
+			"setable": false
+		},
+		"alarm_contact": {
+			"type": "boolean",
+			"title": {
+				"en": "Contact Alarm"
+			},
+			"desc": {
+				"en": "Contact sensor, e.g. for windows (true/false)"
+			},
+			"getable": true,
+			"setable": false
+		},
+		"alarm_co": {
+			"type": "boolean",
+			"title": {
+				"en": "CO Alarm"
+			},
+			"desc": {
+				"en": "True when dangerous CO values have been detected"
+			},
+			"getable": true,
+			"setable": false
+		},
+		"alarm_co2": {
+			"type": "boolean",
+			"title": {
+				"en": "CO2 Alarm"
+			},
+			"desc": {
+				"en": "True when dangerous CO2 values have been detected"
+			},
+			"getable": true,
+			"setable": false
+		},
+		"alarm_tamper": {
+			"type": "boolean",
+			"title": {
+				"en": "Tamper Alarm"
+			},
+			"desc": {
+				"en": "True when tampering has been detected"
+			},
+			"getable": true,
+			"setable": false
+		},
+		"alarm_smoke": {
+			"type": "boolean",
+			"title": {
+				"en": "Smoke Alarm"
+			},
+			"desc": {
+				"en": "True when smoke has been detected"
+			},
+			"getable": true,
+			"setable": false
+		},
+		"alarm_fire": {
+			"type": "boolean",
+			"title": {
+				"en": "Fire Alarm"
+			},
+			"desc": {
+				"en": "True when fire has been detected"
+			},
+			"getable": true,
+			"setable": false
+		},
+		"alarm_water": {
+			"type": "boolean",
+			"title": {
+				"en": "Water Alarm"
+			},
+			"desc": {
+				"en": "True when water has been detected"
+			},
+			"getable": true,
+			"setable": false
+		},
+		"alarm_battery": {
+			"type": "boolean",
+			"title": {
+				"en": "Battery Alarm"
+			},
+			"desc": {
+				"en": "True when it is battery"
+			},
+			"getable": true,
+			"setable": false
+		},
+		"alarm_night": {
+			"type": "boolean",
+			"title": {
+				"en": "Night Alarm"
+			},
+			"desc": {
+				"en": "True when it is night"
+			},
+			"getable": true,
+			"setable": false
+		},
+		"meter_power": {
+			"type": "number",
+			"title": {
+				"en": "Power Meter"
+			},
+			"min": 0,
+			"decimals": 2,
+			"units": "kWh",
+			"desc": {
+				"en": "Power usage in Watts per Hour (Wh)"
+			},
+			"getable": true,
+			"setable": false
+		},
+		"meter_water": {
+			"type": "number",
+			"title": {
+				"en": "Water Meter"
+			},
+			"decimals": 2,
+			"min": 0,
+			"units": "m³",
+			"desc": {
+				"en": "Water usage in Cubic Meter (m³)"
+			},
+			"getable": true,
+			"setable": false
+		},
+		"meter_gas": {
+			"type": "number",
+			"title": {
+				"en": "Gas Meter"
+			},
+			"min": 0,
+			"decimals": 2,
+			"units": "m³",
+			"desc": {
+				"en": "Gas usage in Cubic Meter (m³)"
+			},
+			"getable": true,
+			"setable": false
+		},
+		"homealarm_state": {
+			"type": "enum",
+			"desc": {
+				"en": "State of the Home Alarm"
+			},
+			"values": [
+
+				{
+					"id": "armed",
+					"title": {
+						"en": "Armed"
+					}
+				},
+				{
+					"id": "disarmed",
+					"title": {
+						"en": "Disarmed"
+					}
+				},
+				{
+					"id": "partially_armed",
+					"title": {
+						"en": "Partially armed"
+					}
+				}
+			],
+			"getable": true,
+			"setable": true
+		},
+		"volume_set": {
+			"type": "number",
+			"desc": {
+				"en": "Volume"
+			},
+			"min": 0,
+			"max": 1,
+			"decimals": 2,
+			"setable": true,
+			"getable": true
+		},
+		"volume_up": {
+			"type": false,
+			"desc": {
+				"en": "Increase volume"
+			},
+			"setable": true,
+			"getable": false
+		},
+		"volume_down": {
+			"type": false,
+			"desc": {
+				"en": "Decrease volume"
+			},
+			"setable": true,
+			"getable": false
+		},
+		"volume_mute": {
+			"type": "boolean",
+			"desc": {
+				"en": "Mute volume"
+			},
+			"setable": true,
+			"getable": true
+		},
+		"locked": {
+			"type": "boolean",
+			"title": {
+				"en": "Locked"
+			},
+			"desc": {
+				"en": "True when the lock is locked"
+			},
+			"getable": true,
+			"setable": true
+		},
+		"lock_mode": {
+			"type": "enum",
+			"title": {
+				"en": "Lock mode"
+			},
+			"values": [
+				{
+					"id": "always_locked",
+					"title": {
+						"en": "Always locked"
+					}
+				},
+				{
+					"id": "always_unlocked",
+					"title": {
+						"en": "Always unlocked"
+					}
+				},
+				{
+					"id": "locked_until_unlock",
+					"title": {
+						"en": "Locked until unlocked"
+					}
+				}
+			]
+		},
+		"windowcoverings_state": {
+			"type": "enum",
+			"values": [
+				{
+					"id": "up",
+					"title": {
+						"en": "Up"
+					}
+				},
+				{
+					"id": "idle",
+					"title": {
+						"en": "Idle"
+					}
+				},
+				{
+					"id": "down",
+					"title": {
+						"en": "Down"
+					}
+				}
+			]
+		}
+	}
+}
