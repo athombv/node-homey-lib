@@ -297,7 +297,7 @@
 		"measure_co2": {
 			"type": "number",
 			"title": {
-				"en": "CO"
+				"en": "CO2"
 			},
 			"units": "ppm",
 			"desc": {
