@@ -53,7 +53,7 @@
 				"en": "Thermostat",
 				"nl": "Thermostaat"
 			},
-			"capabilities": [ "measure_temperature", "target_temperature" ]
+			"capabilities": [ "measure_temperature", "target_temperature", "thermostat_mode" ]
 		},
 
 		"sensor": {
@@ -257,6 +257,43 @@
 					"title": {
 						"en": "Stopped",
 						"nl": "Gestopt"
+					}
+				}
+			],
+			"getable": true,
+			"setable": true
+		},
+
+		"thermostat_mode": {
+			"type": "enum",
+			"title": {
+				"en": "Thermostat mode",
+				"nl": "Thermostaat modus"
+			},
+			"desc": {
+				"en": "Mode of the thermostat",
+				"nl": "Modus van de thermostaat"
+			},
+			"values": [
+				{
+					"id": "auto",
+					"title": {
+						"en": "Automatic",
+						"nl": "Automatisch"
+					}
+				},
+				{
+					"id": "heat",
+					"title": {
+						"en": "Heat",
+						"nl": "Verhitten"
+					}
+				},
+				{
+					"id": "cool",
+					"title": {
+						"en": "Cool",
+						"nl": "Koelen"
 					}
 				}
 			],
