@@ -141,7 +141,8 @@
 		"onoff": {
 			"type": "boolean",
 			"title": {
-				"en": "Turned on"
+				"en": "Turned on",
+				"nl": "Aangezet"
 			},
 			"getable": true,
 			"setable": true
@@ -149,7 +150,8 @@
 		"dim": {
 			"type": "number",
 			"title": {
-				"en": "Dim level"
+				"en": "Dim level",
+				"nl": "Dim niveau"
 			},
 			"min": 0,
 			"max": 1,
@@ -160,7 +162,8 @@
 		"light_hue": {
 			"type": "number",
 			"title": {
-				"en": "Hue"
+				"en": "Hue",
+				"nl": "Hue"
 			},
 			"min": 0,
 			"max": 1,
@@ -171,7 +174,8 @@
 		"light_saturation": {
 			"type": "number",
 			"title": {
-				"en": "Saturation"
+				"en": "Saturation",
+				"nl": "Verzadiging"
 			},
 			"min": 0,
 			"max": 1,
@@ -182,7 +186,8 @@
 		"light_temperature": {
 			"type": "number",
 			"title": {
-				"en": "Temperature"
+				"en": "Temperature",
+				"nl": "Kleurtemperatuur"
 			},
 			"min": 0,
 			"max": 1,
@@ -193,19 +198,22 @@
 		"light_mode": {
 			"type": "enum",
 			"desc": {
-				"en": "Mode of the Light"
+				"en": "Mode of the Light",
+				"nl": "Lampmodus"
 			},
 			"values": [
 				{
 					"id": "color",
 					"title": {
-						"en": "Color"
+						"en": "Color",
+						"nl": "Kleur"
 					}
 				},
 				{
 					"id": "temperature",
 					"title": {
-						"en": "Temperature"
+						"en": "Temperature",
+						"nl": "Temperatuur"
 					}
 				}
 			],
@@ -219,31 +227,36 @@
 				{
 					"id": "cleaning",
 					"title": {
-						"en": ""
+						"en": "Cleaning",
+						"nl": "Stofzuigen"
 					}
 				},
 				{
 					"id": "spot_cleaning",
 					"title": {
-						"en": "Spot cleaning"
+						"en": "Spot cleaning",
+						"nl": "Vlek schoonmaken"
 					}
 				},
 				{
 					"id": "docked",
 					"title": {
-						"en": "Docked"
+						"en": "Docked",
+						"nl": "Op laadstation"
 					}
 				},
 				{
 					"id": "charging",
 					"title": {
-						"en": "Charging"
+						"en": "Charging",
+						"nl": "Aan het opladen"
 					}
 				},
 				{
 					"id": "stopped",
 					"title": {
-						"en": "Stopped"
+						"en": "Stopped",
+						"nl": "Gestopt"
 					}
 				}
 			],
@@ -256,10 +269,12 @@
 			"min": 4,
 			"max": 35,
 			"title": {
-				"en": "Target temperature"
+				"en": "Target temperature",
+				"nl": "Ingestelde temperatuur"
 			},
 			"units": {
-				"en": "°C"
+				"en": "°C",
+				"nl": "°C"
 			},
 			"decimals": 2,
 			"getable": true,
@@ -269,13 +284,16 @@
 		"measure_temperature": {
 			"type": "number",
 			"desc": {
-				"en": "Temperature"
+				"en": "Temperature",
+				"nl": "Temperatuur"
 			},
 			"title": {
-				"en": "Temperature"
+				"en": "Temperature",
+				"nl": "Temperatuur"
 			},
 			"units": {
-				"en": "°C"
+				"en": "°C",
+				"nl": "°C"
 			},
 			"decimals": 2,
 			"getable": true,
@@ -284,11 +302,13 @@
 		"measure_co": {
 			"type": "number",
 			"title": {
-				"en": "CO"
+				"en": "CO",
+				"nl": "CO"
 			},
 			"units": "ppm",
 			"desc": {
-				"en": "CO in Parts-per-million (ppm)"
+				"en": "CO in Parts-per-million (ppm)",
+				"nl": "CO deeltjes per miljoen (ppm)"
 			},
 			"decimals": 2,
 			"getable": true,
@@ -297,11 +317,13 @@
 		"measure_co2": {
 			"type": "number",
 			"title": {
-				"en": "CO2"
+				"en": "CO2",
+				"nl": "CO2"
 			},
 			"units": "ppm",
 			"desc": {
-				"en": "CO2 in Parts-per-million (ppm)"
+				"en": "CO2 in Parts-per-million (ppm)",
+				"nl": "CO2 deeltjes per miljoen (ppm)"
 			},
 			"decimals": 2,
 			"getable": true,
@@ -310,11 +332,13 @@
 		"measure_humidity": {
 			"type": "number",
 			"title": {
-				"en": "Humidity"
+				"en": "Humidity",
+				"nl": "Luchtvochtigheid"
 			},
 			"units": "%",
 			"desc": {
-				"en": "Humidity in percent (%)"
+				"en": "Humidity in percent (%)",
+				"nl": "Relatieve luchtvochtigheid (%)"
 			},
 			"decimals": 2,
 			"getable": true,
@@ -323,11 +347,13 @@
 		"measure_pressure": {
 			"type": "number",
 			"title": {
-				"en": "Pressure"
+				"en": "Pressure",
+				"nl": "Druk"
 			},
 			"units": "mbar",
 			"desc": {
-				"en": "Pressure in millibar (mbar)"
+				"en": "Pressure in millibar (mbar)",
+				"nl": "Druk in millibar (mbar)"
 			},
 			"decimals": 2,
 			"getable": true,
@@ -336,11 +362,13 @@
 		"measure_noise": {
 			"type": "number",
 			"title": {
-				"en": "Noise"
+				"en": "Noise",
+				"nl": "Geluid"
 			},
 			"units": "dB",
 			"desc": {
-				"en": "Noise in Decibel (db)"
+				"en": "Noise in Decibel (db)",
+				"nl": "Geluid in Decibel (db)"
 			},
 			"decimals": 2,
 			"getable": true,
@@ -349,11 +377,13 @@
 		"measure_rain": {
 			"type": "number",
 			"title": {
-				"en": "Rain"
+				"en": "Rain",
+				"nl": "Regen"
 			},
 			"units": "mm",
 			"desc": {
-				"en": "Rain in millimeter (mm)"
+				"en": "Rain in millimeter (mm)",
+				"nl": "Regen in millimeter (mm)"
 			},
 			"decimals": 2,
 			"getable": true,
@@ -362,11 +392,13 @@
 		"measure_wind_strength": {
 			"type": "number",
 			"title": {
-				"en": "Wind Strenth"
+				"en": "Wind Strenth",
+				"nl": "Windsnelheid"
 			},
 			"units": "km/h",
 			"desc": {
-				"en": "Wind Strength n Kilometer per hour (km/h)"
+				"en": "Wind Strength in Kilometer per hour (km/h)",
+				"nl": "Windsnelheid in Kilometer per uur (km/u)"
 			},
 			"decimals": 2,
 			"getable": true,
@@ -375,11 +407,13 @@
 		"measure_wind_angle": {
 			"type": "number",
 			"title": {
-				"en": "Wind Angle"
+				"en": "Wind Angle",
+				"nl": "Windrichting"
 			},
 			"units": "°",
 			"desc": {
-				"en": "Wind Angle in Degrees (°)"
+				"en": "Wind Angle in Degrees (°)",
+				"nl": "Windrichting in Graden (°)"
 			},
 			"decimals": 2,
 			"setable": false
@@ -387,11 +421,13 @@
 		"measure_gust_strength": {
 			"type": "number",
 			"title": {
-				"en": "Gust Strength"
+				"en": "Gust Strength",
+				"nl": "Windstoot kracht"
 			},
 			"units": "km/h",
 			"desc": {
-				"en": "Gust Strength n Kilometer per hour (km/h)"
+				"en": "Gust Strength n Kilometer per hour (km/h)",
+				"nl": "Windstoot snelheid in Kilometer per uur (km/u)"
 			},
 			"decimals": 2,
 			"getable": true,
@@ -400,11 +436,13 @@
 		"measure_gust_angle": {
 			"type": "number",
 			"title": {
-				"en": "Gust Angle"
+				"en": "Gust Angle",
+				"nl": "Windstoot richting"
 			},
 			"units": "°",
 			"desc": {
-				"en": "Gust Angle in Degrees (°)"
+				"en": "Gust Angle in Degrees (°)",
+				"nl": "Windstoot richting in Graden (°)"
 			},
 			"decimals": 2,
 			"getable": true,
@@ -413,13 +451,15 @@
 		"measure_battery": {
 			"type": "number",
 			"title": {
-				"en": "Battery"
+				"en": "Battery",
+				"nl": "Accuniveau"
 			},
 			"units": "%",
 			"min": 0,
 			"max": 100,
 			"desc": {
-				"en": "Battery charge in percentage (%)"
+				"en": "Battery charge in percentage (%)",
+				"nl": "Accuniveau in procenten (%)"
 			},
 			"decimals": 2,
 			"getable": true,
@@ -428,13 +468,15 @@
 		"measure_power": {
 			"type": "number",
 			"title": {
-				"en": "Power"
+				"en": "Power",
+				"nl": "Energie"
 			},
 			"units": {
 				"en": "W"
 			},
 			"desc": {
-				"en": "Power in Watt (W)"
+				"en": "Power in Watt (W)",
+				"nl": "Energie in Watt (W)"
 			},
 			"decimals": 2,
 			"getable": true,
@@ -443,13 +485,16 @@
 		"measure_luminance": {
 			"type": "number",
 			"title": {
-				"en": "Luminance"
+				"en": "Luminance",
+				"nl": "Helderheid"
 			},
 			"units": {
-				"en": "lx"
+				"en": "lx",
+				"nl": "lx"
 			},
 			"desc": {
-				"en": "Luminance in Lux (lx)"
+				"en": "Luminance in Lux (lx)",
+				"nl": "Helderheid in Lux (lx)"
 			},
 			"decimals": 2,
 			"getable": true,
@@ -458,10 +503,12 @@
 		"alarm_generic": {
 			"type": "boolean",
 			"title": {
-				"en": "Generic Alarm"
+				"en": "Generic Alarm",
+				"nl": "Algemeen Alarm"
 			},
 			"desc": {
-				"en": "Generic alarm"
+				"en": "Generic alarm",
+				"nl": "Algemeen alarm"
 			},
 			"decimals": 2,
 			"getable": true,
@@ -470,10 +517,12 @@
 		"alarm_motion": {
 			"type": "boolean",
 			"title": {
-				"en": "Motion Alarm"
+				"en": "Motion Alarm",
+				"nl": "Bewegingsalarm"
 			},
 			"desc": {
-				"en": "Motion detected (true/false)"
+				"en": "Detected motion",
+				"nl": "Gedetecteerde beweging"
 			},
 			"getable": true,
 			"setable": false
@@ -481,10 +530,12 @@
 		"alarm_contact": {
 			"type": "boolean",
 			"title": {
-				"en": "Contact Alarm"
+				"en": "Contact Alarm",
+				"nl": "Contact alarm"
 			},
 			"desc": {
-				"en": "Contact sensor, e.g. for windows (true/false)"
+				"en": "Contact sensor, e.g. for windows (true/false)",
+				"nl": "Contact sensor, bijvoorbeeld voor ramen"
 			},
 			"getable": true,
 			"setable": false
@@ -492,10 +543,12 @@
 		"alarm_co": {
 			"type": "boolean",
 			"title": {
-				"en": "CO Alarm"
+				"en": "CO Alarm",
+				"nl": "CO alarm"
 			},
 			"desc": {
-				"en": "True when dangerous CO values have been detected"
+				"en": "True when dangerous CO values have been detected",
+				"nl": "Gaat af bij gevaarlijke concentraties CO"
 			},
 			"getable": true,
 			"setable": false
@@ -503,10 +556,12 @@
 		"alarm_co2": {
 			"type": "boolean",
 			"title": {
-				"en": "CO2 Alarm"
+				"en": "CO2 Alarm",
+				"nl": "CO2 Alarm"
 			},
 			"desc": {
-				"en": "True when dangerous CO2 values have been detected"
+				"en": "True when dangerous CO2 values have been detected",
+				"nl": "Gaat af bij gevaarlijke concentraties CO2"
 			},
 			"getable": true,
 			"setable": false
@@ -514,10 +569,12 @@
 		"alarm_tamper": {
 			"type": "boolean",
 			"title": {
-				"en": "Tamper Alarm"
+				"en": "Tamper Alarm",
+				"nl": "Sabotagealarm"
 			},
 			"desc": {
-				"en": "True when tampering has been detected"
+				"en": "True when tampering has been detected",
+				"nl": "Gaat af als sabotage gedetecteerd wordt"
 			},
 			"getable": true,
 			"setable": false
@@ -525,10 +582,12 @@
 		"alarm_smoke": {
 			"type": "boolean",
 			"title": {
-				"en": "Smoke Alarm"
+				"en": "Smoke Alarm",
+				"nl": "Rookmelder"
 			},
 			"desc": {
-				"en": "True when smoke has been detected"
+				"en": "True when smoke has been detected",
+				"nl": "Gaat af als er rook gedetecteerd wordt"
 			},
 			"getable": true,
 			"setable": false
@@ -536,10 +595,12 @@
 		"alarm_fire": {
 			"type": "boolean",
 			"title": {
-				"en": "Fire Alarm"
+				"en": "Fire Alarm",
+				"nl": "Brandalarm"
 			},
 			"desc": {
-				"en": "True when fire has been detected"
+				"en": "True when fire has been detected",
+				"nl": "Gaat af als er brand gedetecteerd wordt"
 			},
 			"getable": true,
 			"setable": false
@@ -547,10 +608,12 @@
 		"alarm_water": {
 			"type": "boolean",
 			"title": {
-				"en": "Water Alarm"
+				"en": "Water Alarm",
+				"nl": "Wateralarm"
 			},
 			"desc": {
-				"en": "True when water has been detected"
+				"en": "True when water has been detected",
+				"nl": "Gaat af als er water gedetecteerd wordt"
 			},
 			"getable": true,
 			"setable": false
@@ -558,10 +621,12 @@
 		"alarm_battery": {
 			"type": "boolean",
 			"title": {
-				"en": "Battery Alarm"
+				"en": "Battery Alarm",
+				"nl": "Batterij alarm"
 			},
 			"desc": {
-				"en": "True when it is battery"
+				"en": "True when there is a battery warning",
+				"nl": "Geeft een batterijwaarschuwing"
 			},
 			"getable": true,
 			"setable": false
@@ -569,10 +634,12 @@
 		"alarm_night": {
 			"type": "boolean",
 			"title": {
-				"en": "Night Alarm"
+				"en": "Night Alarm",
+				"nl": "Nacht Alarm"
 			},
 			"desc": {
-				"en": "True when it is night"
+				"en": "True when it is night",
+				"nl": "Gaat af als het nacht is"
 			},
 			"getable": true,
 			"setable": false
@@ -580,13 +647,15 @@
 		"meter_power": {
 			"type": "number",
 			"title": {
-				"en": "Power Meter"
+				"en": "Power Meter",
+				"nl": "Stroommeter"
 			},
 			"min": 0,
 			"decimals": 2,
-			"units": "kWh",
+			"units": "Wh",
 			"desc": {
-				"en": "Power usage in Watts per Hour (Wh)"
+				"en": "Power usage in Watts per Hour (Wh)",
+				"nl": "Stroomverbuik in Watt per uur (Wh)"
 			},
 			"getable": true,
 			"setable": false
@@ -594,13 +663,15 @@
 		"meter_water": {
 			"type": "number",
 			"title": {
-				"en": "Water Meter"
+				"en": "Water Meter",
+				"nl": "Watermeter"
 			},
 			"decimals": 2,
 			"min": 0,
 			"units": "m³",
 			"desc": {
-				"en": "Water usage in Cubic Meter (m³)"
+				"en": "Water usage in Cubic Meter (m³)",
+				"nl": "Water gebruik in Kubieke Meter (m³)"
 			},
 			"getable": true,
 			"setable": false
@@ -608,13 +679,15 @@
 		"meter_gas": {
 			"type": "number",
 			"title": {
-				"en": "Gas Meter"
+				"en": "Gas Meter",
+				"nl": "Gasmeter"
 			},
 			"min": 0,
 			"decimals": 2,
 			"units": "m³",
 			"desc": {
-				"en": "Gas usage in Cubic Meter (m³)"
+				"en": "Gas usage in Cubic Meter (m³)",
+				"nl": "Gas gebruik in Kubieke Meter (m³)"
 			},
 			"getable": true,
 			"setable": false
@@ -622,26 +695,30 @@
 		"homealarm_state": {
 			"type": "enum",
 			"desc": {
-				"en": "State of the Home Alarm"
+				"en": "State of the Home Alarm",
+				"nl": "Thuisalarm Status"
 			},
 			"values": [
 
 				{
 					"id": "armed",
 					"title": {
-						"en": "Armed"
+						"en": "Armed",
+						"nl": "Geactiveerd"
 					}
 				},
 				{
 					"id": "disarmed",
 					"title": {
-						"en": "Disarmed"
+						"en": "Disarmed",
+						"nl": "Gedeactiveerd"
 					}
 				},
 				{
 					"id": "partially_armed",
 					"title": {
-						"en": "Partially armed"
+						"en": "Partially armed",
+						"nl": "Deels geactiveerd"
 					}
 				}
 			],
@@ -651,7 +728,8 @@
 		"volume_set": {
 			"type": "number",
 			"desc": {
-				"en": "Volume"
+				"en": "Volume",
+				"nl": "Volume"
 			},
 			"min": 0,
 			"max": 1,
@@ -662,7 +740,8 @@
 		"volume_up": {
 			"type": false,
 			"desc": {
-				"en": "Increase volume"
+				"en": "Increase volume",
+				"nl": "Volume omhoog"
 			},
 			"setable": true,
 			"getable": false
@@ -670,7 +749,8 @@
 		"volume_down": {
 			"type": false,
 			"desc": {
-				"en": "Decrease volume"
+				"en": "Decrease volume",
+				"nl": "Volume omlaag"
 			},
 			"setable": true,
 			"getable": false
@@ -678,7 +758,8 @@
 		"volume_mute": {
 			"type": "boolean",
 			"desc": {
-				"en": "Mute volume"
+				"en": "Mute volume",
+				"nl": "Stil"
 			},
 			"setable": true,
 			"getable": true
@@ -686,10 +767,12 @@
 		"locked": {
 			"type": "boolean",
 			"title": {
-				"en": "Locked"
+				"en": "Locked",
+				"nl": "Op slot"
 			},
 			"desc": {
-				"en": "True when the lock is locked"
+				"en": "True when the lock is locked",
+				"nl": "Geeft aan wanneer iets op slot is"
 			},
 			"getable": true,
 			"setable": true
@@ -697,25 +780,29 @@
 		"lock_mode": {
 			"type": "enum",
 			"title": {
-				"en": "Lock mode"
+				"en": "Lock mode",
+				"nl": "Slot modus"
 			},
 			"values": [
 				{
 					"id": "always_locked",
 					"title": {
-						"en": "Always locked"
+						"en": "Always locked",
+						"nl": "Altijd op slot"
 					}
 				},
 				{
 					"id": "always_unlocked",
 					"title": {
-						"en": "Always unlocked"
+						"en": "Always unlocked",
+						"nl": "Altijd open"
 					}
 				},
 				{
 					"id": "locked_until_unlock",
 					"title": {
-						"en": "Locked until unlocked"
+						"en": "Locked until unlocked",
+						"nl": "Op slot tot geopend"
 					}
 				}
 			]
@@ -726,19 +813,22 @@
 				{
 					"id": "up",
 					"title": {
-						"en": "Up"
+						"en": "Up",
+						"nl": "Omhoog"
 					}
 				},
 				{
 					"id": "idle",
 					"title": {
-						"en": "Idle"
+						"en": "Idle",
+						"nl": "Stil"
 					}
 				},
 				{
 					"id": "down",
 					"title": {
-						"en": "Down"
+						"en": "Down",
+						"nl": "Omlaag"
 					}
 				}
 			]
