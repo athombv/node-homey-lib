@@ -61,7 +61,7 @@
 				"en": "Sensor",
 				"nl": "Sensor"
 			},
-			"capabilities": [ "measure_temperature", "measure_co", "measure_co2", "measure_humidity", "measure_pressure", "measure_noise", "measure_rain", "measure_wind_strength", "measure_wind_angle", "measure_gust_strength", "measure_gust_angle", "measure_battery", "measure_power", "measure_luminance", "measure_ultraviolet", "alarm_generic", "alarm_motion", "alarm_contact", "alarm_co", "alarm_co2", "alarm_tamper", "alarm_smoke", "alarm_fire", "alarm_water", "alarm_battery", "alarm_night", "meter_power", "meter_water", "meter_gas" ]
+			"capabilities": [ "measure_temperature", "measure_co", "measure_co2", "measure_humidity", "measure_pressure", "measure_noise", "measure_rain", "measure_wind_strength", "measure_wind_angle", "measure_gust_strength", "measure_gust_angle", "measure_battery", "measure_power", "measure_luminance", "measure_ultraviolet", "alarm_generic", "alarm_motion", "alarm_contact", "alarm_co", "alarm_co2", "alarm_tamper", "alarm_smoke", "alarm_fire", "alarm_heat", "alarm_water", "alarm_battery", "alarm_night", "meter_power", "meter_water", "meter_gas" ]
 		},
 
 		"kettle": {
@@ -197,9 +197,13 @@
 		},
 		"light_mode": {
 			"type": "enum",
+			"title": {
+				"en": "Light mode",
+				"nl": "Lamp modus"
+			},
 			"desc": {
-				"en": "Mode of the Light",
-				"nl": "Lampmodus"
+				"en": "Switch between Color or Temperature mode",
+				"nl": "Schakel tussen Kleur of Temperatuur modus"
 			},
 			"values": [
 				{
@@ -223,6 +227,9 @@
 
 		"vacuumcleaner_state": {
 			"type": "enum",
+			"title": {
+				"en": "Vacuum cleaner state"
+			},
 			"values": [
 				{
 					"id": "cleaning",
@@ -310,8 +317,7 @@
 				"nl": "Ingestelde temperatuur"
 			},
 			"units": {
-				"en": "°C",
-				"nl": "°C"
+				"en": "°C"
 			},
 			"decimals": 2,
 			"getable": true,
@@ -329,8 +335,7 @@
 				"nl": "Temperatuur"
 			},
 			"units": {
-				"en": "°C",
-				"nl": "°C"
+				"en": "°C"
 			},
 			"decimals": 2,
 			"getable": true,
@@ -342,7 +347,9 @@
 				"en": "CO",
 				"nl": "CO"
 			},
-			"units": "ppm",
+			"units": {
+				"en": "ppm"
+			},
 			"desc": {
 				"en": "CO in Parts-per-million (ppm)",
 				"nl": "CO deeltjes per miljoen (ppm)"
@@ -357,7 +364,9 @@
 				"en": "CO2",
 				"nl": "CO2"
 			},
-			"units": "ppm",
+			"units": {
+				"en": "ppm"
+			},
 			"desc": {
 				"en": "CO2 in Parts-per-million (ppm)",
 				"nl": "CO2 deeltjes per miljoen (ppm)"
@@ -372,7 +381,9 @@
 				"en": "Humidity",
 				"nl": "Luchtvochtigheid"
 			},
-			"units": "%",
+			"units": {
+				"en": "%"
+			},
 			"desc": {
 				"en": "Humidity in percent (%)",
 				"nl": "Relatieve luchtvochtigheid (%)"
@@ -387,7 +398,9 @@
 				"en": "Pressure",
 				"nl": "Druk"
 			},
-			"units": "mbar",
+			"units": {
+				"en": "mbar"
+			},
 			"desc": {
 				"en": "Pressure in millibar (mbar)",
 				"nl": "Druk in millibar (mbar)"
@@ -402,7 +415,9 @@
 				"en": "Noise",
 				"nl": "Geluid"
 			},
-			"units": "dB",
+			"units": {
+				"en": "dB"
+			},
 			"desc": {
 				"en": "Noise in Decibel (db)",
 				"nl": "Geluid in Decibel (db)"
@@ -417,7 +432,9 @@
 				"en": "Rain",
 				"nl": "Regen"
 			},
-			"units": "mm",
+			"units": {
+				"en": "mm"
+			},
 			"desc": {
 				"en": "Rain in millimeter (mm)",
 				"nl": "Regen in millimeter (mm)"
@@ -432,7 +449,9 @@
 				"en": "Wind Strenth",
 				"nl": "Windsnelheid"
 			},
-			"units": "km/h",
+			"units": {
+				"en": "km/h"
+			},
 			"desc": {
 				"en": "Wind Strength in Kilometer per hour (km/h)",
 				"nl": "Windsnelheid in Kilometer per uur (km/u)"
@@ -447,12 +466,15 @@
 				"en": "Wind Angle",
 				"nl": "Windrichting"
 			},
-			"units": "°",
+			"units": {
+				"en": "°"
+			},
 			"desc": {
 				"en": "Wind Angle in Degrees (°)",
 				"nl": "Windrichting in Graden (°)"
 			},
 			"decimals": 2,
+			"getable": true,
 			"setable": false
 		},
 		"measure_gust_strength": {
@@ -461,7 +483,9 @@
 				"en": "Gust Strength",
 				"nl": "Windstoot kracht"
 			},
-			"units": "km/h",
+			"units": {
+				"en": "km/h"
+			},
 			"desc": {
 				"en": "Gust Strength n Kilometer per hour (km/h)",
 				"nl": "Windstoot snelheid in Kilometer per uur (km/u)"
@@ -476,7 +500,9 @@
 				"en": "Gust Angle",
 				"nl": "Windstoot richting"
 			},
-			"units": "°",
+			"units": {
+				"en": "°"
+			},
 			"desc": {
 				"en": "Gust Angle in Degrees (°)",
 				"nl": "Windstoot richting in Graden (°)"
@@ -491,7 +517,9 @@
 				"en": "Battery",
 				"nl": "Accuniveau"
 			},
-			"units": "%",
+			"units": {
+				"en": "%"
+			},
 			"min": 0,
 			"max": 100,
 			"desc": {
@@ -526,8 +554,7 @@
 				"nl": "Helderheid"
 			},
 			"units": {
-				"en": "lx",
-				"nl": "lx"
+				"en": "lx"
 			},
 			"desc": {
 				"en": "Luminance in Lux (lx)",
@@ -544,12 +571,10 @@
 				"nl": "Ultraviolet"
 			},
 			"units": {
-				"en": "UVI",
-				"nl": "UVI"
+				"en": "UVI"
 			},
 			"desc": {
-				"en": "Ultraviolet in UV index (UVI)",
-				"nl": "Ultraviolet in UV index (UVI)"
+				"en": "Ultraviolet in UV index (UVI)"
 			},
 			"decimals": 2,
 			"getable": true,
@@ -660,6 +685,19 @@
 			"getable": true,
 			"setable": false
 		},
+		"alarm_heat": {
+			"type": "boolean",
+			"title": {
+				"en": "Heat Alarm",
+				"nl": "Hittealarm"
+			},
+			"desc": {
+				"en": "True when extreme heat has been detected",
+				"nl": "Gaat af als er extreme hitte gedetecteerd wordt"
+			},
+			"getable": true,
+			"setable": false
+		},
 		"alarm_water": {
 			"type": "boolean",
 			"title": {
@@ -707,7 +745,9 @@
 			},
 			"min": 0,
 			"decimals": 2,
-			"units": "Wh",
+			"units": {
+				"en": "Wh"
+			},
 			"desc": {
 				"en": "Power usage in Watts per Hour (Wh)",
 				"nl": "Stroomverbuik in Watt per uur (Wh)"
@@ -723,7 +763,9 @@
 			},
 			"decimals": 2,
 			"min": 0,
-			"units": "m³",
+			"units": {
+				"en": "m³"
+			},
 			"desc": {
 				"en": "Water usage in Cubic Meter (m³)",
 				"nl": "Water gebruik in Kubieke Meter (m³)"
@@ -739,7 +781,9 @@
 			},
 			"min": 0,
 			"decimals": 2,
-			"units": "m³",
+			"units": {
+				"en": "m³"
+			},
 			"desc": {
 				"en": "Gas usage in Cubic Meter (m³)",
 				"nl": "Gas gebruik in Kubieke Meter (m³)"
@@ -749,9 +793,9 @@
 		},
 		"homealarm_state": {
 			"type": "enum",
-			"desc": {
-				"en": "State of the Home Alarm",
-				"nl": "Thuisalarm Status"
+			"title": {
+				"en": "Home Alarm state",
+				"nl": "Thuisalarm status"
 			},
 			"values": [
 
@@ -781,6 +825,9 @@
 			"setable": true
 		},
 		"volume_set": {
+			"title": {
+				"en": "Set volume"
+			},
 			"type": "number",
 			"desc": {
 				"en": "Volume",
@@ -789,33 +836,6 @@
 			"min": 0,
 			"max": 1,
 			"decimals": 2,
-			"setable": true,
-			"getable": true
-		},
-		"volume_up": {
-			"type": false,
-			"desc": {
-				"en": "Increase volume",
-				"nl": "Volume omhoog"
-			},
-			"setable": true,
-			"getable": false
-		},
-		"volume_down": {
-			"type": false,
-			"desc": {
-				"en": "Decrease volume",
-				"nl": "Volume omlaag"
-			},
-			"setable": true,
-			"getable": false
-		},
-		"volume_mute": {
-			"type": "boolean",
-			"desc": {
-				"en": "Mute volume",
-				"nl": "Stil"
-			},
 			"setable": true,
 			"getable": true
 		},
@@ -860,9 +880,14 @@
 						"nl": "Op slot tot geopend"
 					}
 				}
-			]
+			],
+			"getable": true,
+			"setable": true
 		},
 		"windowcoverings_state": {
+			"title": {
+				"en": "Window Coverings state"
+			},
 			"type": "enum",
 			"values": [
 				{
@@ -886,7 +911,9 @@
 						"nl": "Omlaag"
 					}
 				}
-			]
+			],
+			"getable": true,
+			"setable": true
 		}
 	}
 }
