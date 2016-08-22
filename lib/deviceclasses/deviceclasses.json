@@ -790,6 +790,23 @@
 			"getable": true,
 			"setable": false
 		},
+		"meter_rain": {
+			"type": "number",
+			"title": {
+				"en": "Rain Meter",
+				"nl": "Regenmeter"
+			},
+			"units": {
+				"en": "m³"
+			},
+			"desc": {
+				"en": "Rain in Cubic Meter (m³)",
+				"nl": "Regen in Kubieke Meter (m³)"
+			},
+			"decimals": 2,
+			"getable": true,
+			"setable": false
+		},
 		"homealarm_state": {
 			"type": "enum",
 			"title": {
