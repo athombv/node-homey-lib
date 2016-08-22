@@ -743,14 +743,13 @@
 				"en": "Power Meter",
 				"nl": "Stroommeter"
 			},
-			"min": 0,
 			"decimals": 2,
 			"units": {
-				"en": "Wh"
+				"en": "KWh"
 			},
 			"desc": {
-				"en": "Power usage in Watts per Hour (Wh)",
-				"nl": "Stroomverbuik in Watt per uur (Wh)"
+				"en": "Power usage in KiloWatts per Hour (kWh)",
+				"nl": "Stroomverbuik in KiloWatt per uur (kWh)"
 			},
 			"getable": true,
 			"setable": false
