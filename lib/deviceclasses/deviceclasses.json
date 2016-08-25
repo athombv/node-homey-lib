@@ -743,14 +743,13 @@
 				"en": "Power Meter",
 				"nl": "Stroommeter"
 			},
-			"min": 0,
 			"decimals": 2,
 			"units": {
-				"en": "Wh"
+				"en": "KWh"
 			},
 			"desc": {
-				"en": "Power usage in Watts per Hour (Wh)",
-				"nl": "Stroomverbuik in Watt per uur (Wh)"
+				"en": "Power usage in KiloWatts per Hour (kWh)",
+				"nl": "Stroomverbuik in KiloWatt per uur (kWh)"
 			},
 			"getable": true,
 			"setable": false
@@ -788,6 +787,23 @@
 				"en": "Gas usage in Cubic Meter (m³)",
 				"nl": "Gas gebruik in Kubieke Meter (m³)"
 			},
+			"getable": true,
+			"setable": false
+		},
+		"meter_rain": {
+			"type": "number",
+			"title": {
+				"en": "Rain Meter",
+				"nl": "Regenmeter"
+			},
+			"units": {
+				"en": "m³"
+			},
+			"desc": {
+				"en": "Rain in Cubic Meter (m³)",
+				"nl": "Regen in Kubieke Meter (m³)"
+			},
+			"decimals": 2,
 			"getable": true,
 			"setable": false
 		},
