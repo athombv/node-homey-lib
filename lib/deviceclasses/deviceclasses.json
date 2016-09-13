@@ -153,6 +153,7 @@
 				"en": "Dim level",
 				"nl": "Dim niveau"
 			},
+			"chartType": "stepLine",
 			"min": 0,
 			"max": 1,
 			"decimals": 2,
@@ -166,6 +167,7 @@
 				"nl": "Hue"
 			},
 			"min": 0,
+			"chartType": "stepLine",
 			"max": 1,
 			"decimals": 2,
 			"getable": true,
@@ -178,6 +180,7 @@
 				"nl": "Verzadiging"
 			},
 			"min": 0,
+			"chartType": "stepLine",
 			"max": 1,
 			"decimals": 2,
 			"getable": true,
@@ -190,6 +193,7 @@
 				"nl": "Kleurtemperatuur"
 			},
 			"min": 0,
+			"chartType": "stepLine",
 			"max": 1,
 			"decimals": 2,
 			"getable": true,
@@ -319,6 +323,7 @@
 			"units": {
 				"en": "°C"
 			},
+			"chartType": "stepLine",
 			"decimals": 2,
 			"getable": true,
 			"setable": true
@@ -338,6 +343,7 @@
 				"en": "°C"
 			},
 			"decimals": 2,
+			"chartType": "spline",
 			"getable": true,
 			"setable": false
 		},
@@ -354,6 +360,7 @@
 				"en": "CO in Parts-per-million (ppm)",
 				"nl": "CO deeltjes per miljoen (ppm)"
 			},
+			"chartType": "spline",
 			"decimals": 2,
 			"getable": true,
 			"setable": false
@@ -371,6 +378,7 @@
 				"en": "CO2 in Parts-per-million (ppm)",
 				"nl": "CO2 deeltjes per miljoen (ppm)"
 			},
+			"chartType": "spline",
 			"decimals": 2,
 			"getable": true,
 			"setable": false
@@ -388,6 +396,7 @@
 				"en": "Humidity in percent (%)",
 				"nl": "Relatieve luchtvochtigheid (%)"
 			},
+			"chartType": "spline",
 			"decimals": 2,
 			"getable": true,
 			"setable": false
@@ -405,6 +414,7 @@
 				"en": "Pressure in millibar (mbar)",
 				"nl": "Druk in millibar (mbar)"
 			},
+			"chartType": "spline",
 			"decimals": 2,
 			"getable": true,
 			"setable": false
@@ -422,6 +432,7 @@
 				"en": "Noise in Decibel (db)",
 				"nl": "Geluid in Decibel (db)"
 			},
+			"chartType": "spline",
 			"decimals": 2,
 			"getable": true,
 			"setable": false
@@ -439,6 +450,7 @@
 				"en": "Rain in millimeter (mm)",
 				"nl": "Regen in millimeter (mm)"
 			},
+			"chartType": "spline",
 			"decimals": 2,
 			"getable": true,
 			"setable": false
@@ -456,6 +468,7 @@
 				"en": "Wind Strength in Kilometer per hour (km/h)",
 				"nl": "Windsnelheid in Kilometer per uur (km/u)"
 			},
+			"chartType": "spline",
 			"decimals": 2,
 			"getable": true,
 			"setable": false
@@ -473,6 +486,7 @@
 				"en": "Wind Angle in Degrees (°)",
 				"nl": "Windrichting in Graden (°)"
 			},
+			"chartType": "spline",
 			"decimals": 2,
 			"getable": true,
 			"setable": false
@@ -490,6 +504,7 @@
 				"en": "Gust Strength n Kilometer per hour (km/h)",
 				"nl": "Windstoot snelheid in Kilometer per uur (km/u)"
 			},
+			"chartType": "stepLine",
 			"decimals": 2,
 			"getable": true,
 			"setable": false
@@ -507,6 +522,7 @@
 				"en": "Gust Angle in Degrees (°)",
 				"nl": "Windstoot richting in Graden (°)"
 			},
+			"chartType": "stepLine",
 			"decimals": 2,
 			"getable": true,
 			"setable": false
@@ -526,6 +542,7 @@
 				"en": "Battery charge in percentage (%)",
 				"nl": "Accuniveau in procenten (%)"
 			},
+			"chartType": "spline",
 			"decimals": 2,
 			"getable": true,
 			"setable": false
@@ -543,6 +560,7 @@
 				"en": "Power in Watt (W)",
 				"nl": "Energie in Watt (W)"
 			},
+			"chartType": "stepLine",
 			"decimals": 2,
 			"getable": true,
 			"setable": false
@@ -560,6 +578,7 @@
 				"en": "Luminance in Lux (lx)",
 				"nl": "Helderheid in Lux (lx)"
 			},
+			"chartType": "spline",
 			"decimals": 2,
 			"getable": true,
 			"setable": false
@@ -576,6 +595,7 @@
 			"desc": {
 				"en": "Ultraviolet in UV index (UVI)"
 			},
+			"chartType": "spline",
 			"decimals": 2,
 			"getable": true,
 			"setable": false
@@ -747,9 +767,10 @@
 			"units": {
 				"en": "KWh"
 			},
+			"chartType": "spline",
 			"desc": {
-				"en": "Power usage in KiloWatts per Hour (kWh)",
-				"nl": "Stroomverbuik in KiloWatt per uur (kWh)"
+				"en": "Power usage in KiloWattHour (kWh)",
+				"nl": "Stroomverbuik in KiloWattUur (kWh)"
 			},
 			"getable": true,
 			"setable": false
@@ -765,6 +786,7 @@
 			"units": {
 				"en": "m³"
 			},
+			"chartType": "spline",
 			"desc": {
 				"en": "Water usage in Cubic Meter (m³)",
 				"nl": "Water gebruik in Kubieke Meter (m³)"
@@ -780,6 +802,7 @@
 			},
 			"min": 0,
 			"decimals": 2,
+			"chartType": "spline",
 			"units": {
 				"en": "m³"
 			},
@@ -799,6 +822,7 @@
 			"units": {
 				"en": "m³"
 			},
+			"chartType": "spline",
 			"desc": {
 				"en": "Rain in Cubic Meter (m³)",
 				"nl": "Regen in Kubieke Meter (m³)"
@@ -849,6 +873,7 @@
 				"en": "Volume",
 				"nl": "Volume"
 			},
+			"chartType": "stepLine",
 			"min": 0,
 			"max": 1,
 			"decimals": 2,
