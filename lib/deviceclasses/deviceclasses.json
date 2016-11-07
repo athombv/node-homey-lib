@@ -101,7 +101,7 @@
 				"en": "Button",
 				"nl": "Knop"
 			},
-			"capabilities": [ "alarm_generic", "onoff" ]
+			"capabilities": [ "button" ]
 		},
 
 		"doorbell": {
@@ -954,6 +954,15 @@
 				}
 			],
 			"getable": true,
+			"setable": true
+		},
+		"button": {
+			"title": {
+				"en": "Button",
+				"nl": "Knop"
+			},
+			"type": "boolean",
+			"getable": false,
 			"setable": true
 		}
 	}
