@@ -93,7 +93,7 @@
 				"en": "Speaker",
 				"nl": "Speaker"
 			},
-			"capabilities": [ "volume_set", "volume_up", "volume_down", "volume_mute" ]
+			"capabilities": [ "speaker_playing", "speaker_next", "speaker_prev", "volume_set", "volume_up", "volume_down", "volume_mute" ]
 		},
 
 		"button": {
@@ -880,6 +880,33 @@
 			"setable": true,
 			"getable": true
 		},
+		"volume_up": {
+			"title": {
+				"en": "Volume up",
+				"nl": "Volume omhoog"
+			},
+			"type": "boolean",
+			"getable": false,
+			"setable": true
+		},
+		"volume_down": {
+			"title": {
+				"en": "Volme down",
+				"nl": "Volume omlaag"
+			},
+			"type": "boolean",
+			"getable": false,
+			"setable": true
+		},
+		"volume_mute": {
+			"title": {
+				"en": "Mute volume",
+				"nl": "Volume dempen"
+			},
+			"type": "boolean",
+			"getable": true,
+			"setable": true
+		},
 		"locked": {
 			"type": "boolean",
 			"title": {
@@ -960,6 +987,33 @@
 			"title": {
 				"en": "Button",
 				"nl": "Knop"
+			},
+			"type": "boolean",
+			"getable": false,
+			"setable": true
+		},
+		"speaker_playing": {
+			"title": {
+				"en": "Playing",
+				"nl": "Afspelen"
+			},
+			"type": "boolean",
+			"getable": true,
+			"setable": true
+		},
+		"speaker_next": {
+			"title": {
+				"en": "Next",
+				"nl": "Volgende"
+			},
+			"type": "boolean",
+			"getable": false,
+			"setable": true
+		},
+		"speaker_prev": {
+			"title": {
+				"en": "Previous",
+				"nl": "Vorige"
 			},
 			"type": "boolean",
 			"getable": false,
