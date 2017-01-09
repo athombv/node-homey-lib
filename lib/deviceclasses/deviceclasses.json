@@ -1,142 +1,211 @@
 {
 	"devices": {
-
 		"other": {
 			"name": {
 				"en": "Other"
 			},
 			"capabilities": []
 		},
-
 		"socket": {
 			"name": {
 				"en": "Wall Plug",
 				"nl": "Stopcontact schakelaar"
 			},
-			"capabilities": [ "onoff", "dim", "measure_power", "meter_power" ]
+			"capabilities": [
+				"onoff",
+				"dim",
+				"measure_power",
+				"meter_power"
+			]
 		},
-
 		"light": {
 			"name": {
 				"en": "Light",
 				"nl": "Lamp"
 			},
-			"capabilities": [ "onoff", "dim", "light_hue", "light_saturation", "light_temperature", "light_mode" ]
+			"capabilities": [
+				"onoff",
+				"dim",
+				"light_hue",
+				"light_saturation",
+				"light_temperature",
+				"light_mode"
+			]
 		},
-
 		"vacuumcleaner": {
 			"name": {
 				"en": "Vacuum Cleaner",
 				"nl": "Stofzuiger"
 			},
-			"capabilities": [ "vacuumcleaner_state" ]
+			"capabilities": [
+				"vacuumcleaner_state"
+			]
 		},
-
 		"fan": {
 			"name": {
 				"en": "Fan",
 				"nl": "Ventilator"
 			},
-			"capabilities": [ "onoff", "dim" ]
+			"capabilities": [
+				"onoff",
+				"dim"
+			]
 		},
-
 		"heater": {
 			"name": {
 				"en": "Heater",
 				"nl": "Heater"
 			},
-			"capabilities": [ "onoff", "dim" ]
+			"capabilities": [
+				"onoff",
+				"dim"
+			]
 		},
-
 		"thermostat": {
 			"name": {
 				"en": "Thermostat",
 				"nl": "Thermostaat"
 			},
-			"capabilities": [ "measure_temperature", "target_temperature", "thermostat_mode" ]
+			"capabilities": [
+				"measure_temperature",
+				"target_temperature",
+				"thermostat_mode"
+			]
 		},
-
 		"sensor": {
 			"name": {
 				"en": "Sensor",
 				"nl": "Sensor"
 			},
-			"capabilities": [ "measure_temperature", "measure_co", "measure_co2", "measure_humidity", "measure_pressure", "measure_noise", "measure_rain", "measure_wind_strength", "measure_wind_angle", "measure_gust_strength", "measure_gust_angle", "measure_battery", "measure_power", "measure_luminance", "measure_ultraviolet", "alarm_generic", "alarm_motion", "alarm_contact", "alarm_co", "alarm_co2", "alarm_tamper", "alarm_smoke", "alarm_fire", "alarm_heat", "alarm_water", "alarm_battery", "alarm_night", "meter_power", "meter_water", "meter_gas" ]
+			"capabilities": [
+				"measure_temperature",
+				"measure_co",
+				"measure_co2",
+				"measure_humidity",
+				"measure_pressure",
+				"measure_noise",
+				"measure_rain",
+				"measure_wind_strength",
+				"measure_wind_angle",
+				"measure_gust_strength",
+				"measure_gust_angle",
+				"measure_battery",
+				"measure_power",
+				"measure_voltage",
+				"measure_current",
+				"measure_luminance",
+				"measure_ultraviolet",
+				"alarm_generic",
+				"alarm_motion",
+				"alarm_contact",
+				"alarm_co",
+				"alarm_co2",
+				"alarm_tamper",
+				"alarm_smoke",
+				"alarm_fire",
+				"alarm_heat",
+				"alarm_water",
+				"alarm_battery",
+				"alarm_night",
+				"meter_power",
+				"meter_water",
+				"meter_gas"
+			]
 		},
-
 		"kettle": {
 			"name": {
 				"en": "Kettle",
 				"nl": "Waterkoker"
 			},
-			"capabilities": [ "onoff", "target_temperature", "measure_temperature" ]
+			"capabilities": [
+				"onoff",
+				"target_temperature",
+				"measure_temperature"
+			]
 		},
-
 		"coffeemachine": {
 			"name": {
 				"en": "Coffee machine",
 				"nl": "Koffiemachine"
 			},
-			"capabilities": [ "onoff", "target_temperature", "measure_temperature" ]
+			"capabilities": [
+				"onoff",
+				"target_temperature",
+				"measure_temperature"
+			]
 		},
-
 		"homealarm": {
 			"name": {
 				"en": "Home Security",
 				"nl": "Huisbeveiliging"
 			},
-			"capabilities": [ "homealarm_state", "alarm_tamper" ]
+			"capabilities": [
+				"homealarm_state",
+				"alarm_tamper"
+			]
 		},
-
 		"speaker": {
 			"name": {
 				"en": "Speaker",
 				"nl": "Speaker"
 			},
-			"capabilities": [ "speaker_playing", "speaker_next", "speaker_prev", "volume_set", "volume_up", "volume_down", "volume_mute" ]
+			"capabilities": [
+				"speaker_playing",
+				"speaker_next",
+				"speaker_prev",
+				"volume_set",
+				"volume_up",
+				"volume_down",
+				"volume_mute"
+			]
 		},
-
 		"button": {
 			"name": {
 				"en": "Button",
 				"nl": "Knop"
 			},
-			"capabilities": [ "button" ]
+			"capabilities": [
+				"button"
+			]
 		},
-
 		"doorbell": {
 			"name": {
 				"en": "Doorbell",
 				"nl": "Deurbel"
 			},
-			"capabilities": [ "alarm_generic" ]
+			"capabilities": [
+				"alarm_generic"
+			]
 		},
-
 		"zwavecontroller": {
 			"name": {
 				"en": "Z-Wave Controller"
 			},
 			"capabilities": []
 		},
-
 		"lock": {
 			"name": {
 				"en": "Lock",
 				"nl": "Slot"
 			},
-			"capabilities": [ "locked", "lock_mode", "measure_battery" ]
+			"capabilities": [
+				"locked",
+				"lock_mode",
+				"measure_battery"
+			]
 		},
-
 		"windowcoverings": {
 			"name": {
 				"en": "Curtains & Blinds",
 				"nl": "Gordijnen & Lamellen"
 			},
-			"capabilities": [ "onoff", "dim", "windowcoverings_state" ]
+			"capabilities": [
+				"onoff",
+				"dim",
+				"windowcoverings_state"
+			]
 		}
-
 	},
-
 	"capabilities": {
 		"onoff": {
 			"type": "boolean",
@@ -228,7 +297,6 @@
 			"getable": true,
 			"setable": true
 		},
-
 		"vacuumcleaner_state": {
 			"type": "enum",
 			"title": {
@@ -274,7 +342,6 @@
 			"getable": true,
 			"setable": true
 		},
-
 		"thermostat_mode": {
 			"type": "enum",
 			"title": {
@@ -311,7 +378,6 @@
 			"getable": true,
 			"setable": true
 		},
-
 		"target_temperature": {
 			"type": "number",
 			"min": 4,
@@ -328,7 +394,6 @@
 			"getable": true,
 			"setable": true
 		},
-
 		"measure_temperature": {
 			"type": "number",
 			"desc": {
@@ -559,6 +624,42 @@
 			"desc": {
 				"en": "Power in Watt (W)",
 				"nl": "Energie in Watt (W)"
+			},
+			"chartType": "stepLine",
+			"decimals": 2,
+			"getable": true,
+			"setable": false
+		},
+		"measure_voltage": {
+			"type": "number",
+			"title": {
+				"en": "Voltage",
+				"nl": "Voltage"
+			},
+			"units": {
+				"en": "V"
+			},
+			"desc": {
+				"en": "Voltage (V)",
+				"nl": "Voltage (V)"
+			},
+			"chartType": "stepLine",
+			"decimals": 2,
+			"getable": true,
+			"setable": false
+		},
+		"measure_current": {
+			"type": "number",
+			"title": {
+				"en": "Current",
+				"nl": "Stroom"
+			},
+			"units": {
+				"en": "A"
+			},
+			"desc": {
+				"en": "Electric current (A)",
+				"nl": "Elektrische stroom (A)"
 			},
 			"chartType": "stepLine",
 			"decimals": 2,
@@ -838,7 +939,6 @@
 				"nl": "Thuisalarm status"
 			},
 			"values": [
-
 				{
 					"id": "armed",
 					"title": {
