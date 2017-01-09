@@ -91,6 +91,8 @@
 				"measure_gust_angle",
 				"measure_battery",
 				"measure_power",
+				"measure_voltage",
+				"measure_current",
 				"measure_luminance",
 				"measure_ultraviolet",
 				"alarm_generic",
