@@ -295,6 +295,13 @@
 						"en": "Cool",
 						"nl": "Koelen"
 					}
+				},
+				{
+					"id": "off",
+					"title": {
+						"en": "Off",
+						"nl": "Uit"
+					}
 				}
 			],
 			"getable": true,
