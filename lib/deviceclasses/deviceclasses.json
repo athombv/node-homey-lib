@@ -26,6 +26,8 @@
 			"capabilities": [
 				"onoff",
 				"dim",
+				"measure_power",
+				"meter_power",
 				"light_hue",
 				"light_saturation",
 				"light_temperature",
@@ -48,7 +50,9 @@
 			},
 			"capabilities": [
 				"onoff",
-				"dim"
+				"dim",
+				"measure_power",
+				"meter_power"
 			]
 		},
 		"heater": {
@@ -58,7 +62,9 @@
 			},
 			"capabilities": [
 				"onoff",
-				"dim"
+				"dim",
+				"measure_power",
+				"meter_power"
 			]
 		},
 		"thermostat": {
@@ -119,6 +125,8 @@
 			},
 			"capabilities": [
 				"onoff",
+				"measure_power",
+				"meter_power",
 				"target_temperature",
 				"measure_temperature"
 			]
