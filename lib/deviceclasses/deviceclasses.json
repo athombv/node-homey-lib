@@ -212,6 +212,34 @@
 				"dim",
 				"windowcoverings_state"
 			]
+		},
+		"tv": {
+			"name": {
+				"en": "TV",
+				"nl": "TV"
+			},
+			"capabilities": [
+				"onoff",
+				"volume_set",
+				"volume_mute",
+				"volume_up",
+				"volume_down",
+				"channel_up",
+				"channel_down"
+			]
+		},
+		"amplifier": {
+			"name": {
+				"en": "Amplifier",
+				"nl": "Versterker"
+			},
+			"capabilities": [
+				"onoff",
+				"volume_set",
+				"volume_mute",
+				"volume_up",
+				"volume_down"
+			]
 		}
 	},
 	"capabilities": {
@@ -1036,6 +1064,24 @@
 			},
 			"type": "boolean",
 			"getable": true,
+			"setable": true
+		},
+		"channel_up": {
+			"title": {
+				"en": "Channel up",
+				"nl": "Kanaal omhoog"
+			},
+			"type": "boolean",
+			"getable": false,
+			"setable": true
+		},
+		"channel_down": {
+			"title": {
+				"en": "Channel down",
+				"nl": "Kanaal omlaag"
+			},
+			"type": "boolean",
+			"getable": false,
 			"setable": true
 		},
 		"locked": {
