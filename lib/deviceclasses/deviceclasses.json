@@ -101,6 +101,7 @@
 				"measure_current",
 				"measure_luminance",
 				"measure_ultraviolet",
+				"measure_water",
 				"alarm_generic",
 				"alarm_motion",
 				"alarm_contact",
@@ -756,6 +757,24 @@
 				"en": "Ultraviolet in UV index (UVI)"
 			},
 			"chartType": "spline",
+			"decimals": 2,
+			"getable": true,
+			"setable": false
+		},
+		"measure_water": {
+			"type": "number",
+			"title": {
+				"en": "Water flow",
+				"nl": "Waterdoorstroming"
+			},
+			"units": {
+				"en": "L/min"
+			},
+			"desc": {
+				"en": "Water flow in Liters per minute (L/min)",
+				"nl": "Waterdoorstroming in Liters per minuut (L/min)"
+			},
+			"chartType": "stepLine",
 			"decimals": 2,
 			"getable": true,
 			"setable": false
