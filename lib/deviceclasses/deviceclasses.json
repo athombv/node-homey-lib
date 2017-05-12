@@ -15,8 +15,7 @@
 				"onoff",
 				"dim",
 				"measure_power",
-				"meter_power",
-				"measure_temperature"
+				"meter_power"
 			]
 		},
 		"light": {
