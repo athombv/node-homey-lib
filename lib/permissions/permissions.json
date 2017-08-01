@@ -20,8 +20,8 @@
 		"nl": "Homey laten praten"
 	},
 	"homey:wireless:433": {
-		"en": "Send and receive on the 434 MHz frequency",
-		"nl": "Verzenden en ontvangen op de 434 MHz frequentie"
+		"en": "Send and receive on the 433 MHz frequency",
+		"nl": "Verzenden en ontvangen op de 433 MHz frequentie"
 	},
 	"homey:wireless:868": {
 		"en": "Send and receive on the 868 MHz frequency",
