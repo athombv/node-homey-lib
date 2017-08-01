@@ -1,19 +1,19 @@
 {
 	"homey:manager:geolocation": {
-		"en": "Read your Homey's location",
-		"nl": "Je Homey's locatie uitlezen"
+		"en": "Read Homey's location",
+		"nl": "Homey's locatie uitlezen"
 	},
 	"homey:manager:ledring": {
-		"en": "Control your Homey's LED ring",
-		"nl": "Je Homey's LED ring besturen"
+		"en": "Control Homey's LED ring",
+		"nl": "Homey's LED ring besturen"
 	},
 	"homey:manager:media": {
-		"en": "Control your Homey's Music",
-		"nl": "Je Homey's Muziek besturen"
+		"en": "Control Homey's Music",
+		"nl": "Homey's Muziek besturen"
 	},
 	"homey:manager:speech-input": {
-		"en": "React to your speech",
-		"nl": "Reageren op je spraak"
+		"en": "React to speech",
+		"nl": "Reageren op spraak"
 	},
 	"homey:manager:speech-output": {
 		"en": "Let Homey talk",
@@ -38,5 +38,9 @@
 	"homey:wireless:nfc": {
 		"en": "Read and write NFC tags",
 		"nl": "NFC tags lezen en schrijven"
+	},
+	"homey:manager:api": {
+		"en": "Gain full access to Homey to control everything on behalf of the user",
+		"nl": "Volledige toegang tot Homey om alles te bedienen namens de gebruiker"
 	}
 }
