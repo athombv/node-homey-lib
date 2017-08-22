@@ -20,5 +20,9 @@
     "homey-signal-validator": "^2.0.0",
     "image-size": "^0.6.0",
     "semver": "^5.0.1"
+  },
+  "config": {
+    "npmPublishTagProduction": "latest",
+    "npmPublishTagStaging": "beta"
   }
 }
