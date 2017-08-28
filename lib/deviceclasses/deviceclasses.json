@@ -872,8 +872,8 @@
 				"nl": "PM2.5 Alarm"
 			},
 			"desc": {
-				"en": "True when PM2.5 values exceeds specified values",
-				"nl": "Gaat wanneer de PM2.5 waarde overschreden wordt"
+				"en": "True when PM2.5 values exceeds threshold",
+				"nl": "Gaat af wanneer de PM2.5 waarde overschreden wordt"
 			},
 			"getable": true,
 			"setable": false
