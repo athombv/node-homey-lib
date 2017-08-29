@@ -88,6 +88,7 @@
 				"measure_co",
 				"measure_co2",
 				"measure_humidity",
+				"measure_pm25",
 				"measure_pressure",
 				"measure_noise",
 				"measure_rain",
@@ -111,6 +112,7 @@
 				"alarm_smoke",
 				"alarm_fire",
 				"alarm_heat",
+				"alarm_pm25",
 				"alarm_water",
 				"alarm_battery",
 				"alarm_night",
@@ -508,6 +510,24 @@
 			"getable": true,
 			"setable": false
 		},
+		"measure_pm25": {
+			"type": "number",
+			"title": {
+				"en": "PM2.5",
+				"nl": "PM2.5"
+			},
+			"units": {
+				"en": "ppm"
+			},
+			"desc": {
+				"en": "Atmospheric Particulate Matter (μg/m3)",
+				"nl": "Deeltjesvormige luchtverontreiniging (μg/m3)"
+			},
+			"chartType": "spline",
+			"decimals": 2,
+			"getable": true,
+			"setable": false
+		},
 		"measure_humidity": {
 			"type": "number",
 			"title": {
@@ -841,6 +861,19 @@
 			"desc": {
 				"en": "True when dangerous CO2 values have been detected",
 				"nl": "Gaat af bij gevaarlijke concentraties CO2"
+			},
+			"getable": true,
+			"setable": false
+		},
+		"alarm_pm25": {
+			"type": "boolean",
+			"title": {
+				"en": "PM2.5 Alarm",
+				"nl": "PM2.5 Alarm"
+			},
+			"desc": {
+				"en": "True when PM2.5 values exceeds threshold",
+				"nl": "Gaat af wanneer de PM2.5 waarde overschreden wordt"
 			},
 			"getable": true,
 			"setable": false
