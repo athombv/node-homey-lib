@@ -88,7 +88,7 @@
 				"measure_co",
 				"measure_co2",
 				"measure_humidity",
-				"measure_pm25"
+				"measure_pm25",
 				"measure_pressure",
 				"measure_noise",
 				"measure_rain",
@@ -112,7 +112,7 @@
 				"alarm_smoke",
 				"alarm_fire",
 				"alarm_heat",
-				"alarm_pm25"
+				"alarm_pm25",
 				"alarm_water",
 				"alarm_battery",
 				"alarm_night",
