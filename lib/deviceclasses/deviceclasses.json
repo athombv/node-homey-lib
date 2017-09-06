@@ -188,12 +188,6 @@
 				"alarm_generic"
 			]
 		},
-		"zwavecontroller": {
-			"name": {
-				"en": "Z-Wave Controller"
-			},
-			"capabilities": []
-		},
 		"lock": {
 			"name": {
 				"en": "Lock",
