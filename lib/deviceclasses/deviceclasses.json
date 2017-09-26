@@ -207,7 +207,10 @@
 			"capabilities": [
 				"onoff",
 				"dim",
-				"windowcoverings_state"
+				"windowcoverings_state",
+				"windowcoverings_tilt_up",
+				"windowcoverings_tilt_down",
+				"windowcoverings_tilt_set"
 			]
 		},
 		"tv": {
@@ -1203,6 +1206,33 @@
 					}
 				}
 			],
+			"getable": true,
+			"setable": true
+		},
+		"windowcoverings_tilt_up": {
+			"title": {
+				"en": "Window Coverings Tilt Up"
+			},
+			"type": "boolean",
+			"getable": false,
+			"setable": true
+		},
+		"windowcoverings_tilt_down": {
+			"title": {
+				"en": "Window Coverings Tilt Down"
+			},
+			"type": "boolean",
+			"getable": false,
+			"setable": true
+		},
+		"windowcoverings_tilt_set": {
+			"title": {
+				"en": "Window Coverings Tilt Set"
+			},
+			"type": "number",
+			"min": 0,
+			"max": 1,
+			"decimals": 2,
 			"getable": true,
 			"setable": true
 		},
