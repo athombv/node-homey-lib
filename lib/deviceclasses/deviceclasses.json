@@ -1099,7 +1099,7 @@
 		},
 		"volume_down": {
 			"title": {
-				"en": "Volme down",
+				"en": "Volume down",
 				"nl": "Volume omlaag"
 			},
 			"type": "boolean",
