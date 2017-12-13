@@ -196,7 +196,12 @@
 			"capabilities": [
 				"locked",
 				"lock_mode",
-				"measure_battery"
+				"measure_battery",
+				"alarm_generic",
+				"alarm_contact",
+				"alarm_tamper",
+				"alarm_heat",
+				"alarm_battery"
 			]
 		},
 		"windowcoverings": {
