@@ -700,7 +700,7 @@
 			},
 			"desc": {
 				"en": "Power in Watt (W)",
-				"nl": "Energie in Watt (W)"
+				"nl": "Vermogen in Watt (W)"
 			},
 			"chartType": "stepLine",
 			"decimals": 2,
@@ -970,7 +970,7 @@
 			"type": "number",
 			"title": {
 				"en": "Power Meter",
-				"nl": "Stroommeter"
+				"nl": "Energiemeter"
 			},
 			"decimals": 2,
 			"units": {
