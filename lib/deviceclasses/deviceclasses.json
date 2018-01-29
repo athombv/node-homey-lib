@@ -806,7 +806,6 @@
 				"en": "Generic alarm",
 				"nl": "Algemeen alarm"
 			},
-			"decimals": 2,
 			"getable": true,
 			"setable": true
 		},
