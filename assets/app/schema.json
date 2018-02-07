@@ -607,7 +607,90 @@
 			},
 			"additionalProperties": false
 		},
-		"speech": {},
+		"speech": {
+			"oneOf": [
+				{
+					"required": [ "en" ],
+					"additionalProperties": false,
+					"patternProperties": {
+						"^.*$": {
+							"type": "object",
+							"properties": {
+								"element": {
+									"type": "object",
+									"additionalProperties": false,
+									"patternProperties": {
+										"^.*$": {
+											"type": "object",
+											"properties": {
+												"type": {
+													"type": "string",
+													"enum": [ "string", "regex", "device", "pos" ]
+												},
+												"value": {
+													"oneOf": [
+														{
+															"type": "string"
+														},
+														{
+															"type": "object"
+														}
+													]
+												}
+											}
+										}
+									}
+								},
+								"group": {
+									"type": "object",
+									"additionalProperties": false,
+									"patternProperties": {
+										"^.*$": {
+											"type": "object",
+											"properties": {
+												"set": {
+													"type": "string"
+												},
+												"ordered": {
+													"type": "boolean"
+												},
+												"allowDisconnect": {
+													"type": "boolean"
+												},
+												"capturingGroup": {
+													"type": "boolean"
+												}
+											}
+										}
+									}									
+								}
+							}
+						}
+					}
+				},
+				{
+					"type": "array",
+					"_comment": "Apps SDK v1 speech (deprecated)",
+					"items": {
+						"type": "object",
+						"required": [ "id" ],
+						"properties": {
+							"id": {
+								"type": "string"
+							},
+							"importance": {
+								"type": "number",
+								"minimum": 0,
+								"maximum": 1
+							},
+							"triggers": {
+								"$ref": "#/definitions/i18nArray"
+							}
+						}
+					}
+				}
+			]
+		},
 		"speechExamples": {
 			"$ref": "#/definitions/i18nArray"			
 		}
