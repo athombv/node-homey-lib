@@ -2,7 +2,7 @@
 	"title": "Capability",
 	"type": "object",
 	"definitions": {
-		"i18n": {
+		"i18nObject": {
 			"oneOf": [
 				{
 					"type": "string",
@@ -24,7 +24,7 @@
 	"required": [ "title", "type" ],
 	"properties": {
 		"title": {
-			"$ref": "#/definitions/i18n"
+			"$ref": "#/definitions/i18nObject"
 		},
 		"desc": {
 			"type": "string"
@@ -59,7 +59,7 @@
 			"minimum": 0
 		},
 		"units": {
-			"$ref": "#/definitions/i18n"
+			"$ref": "#/definitions/i18nObject"
 		},
 		"values": {
 			"type": "array",
@@ -71,7 +71,7 @@
 						"type": "string"
 					},
 					"title": {
-						"$ref": "#/definitions/i18n"
+						"$ref": "#/definitions/i18nObject"
 					}
 				}
 			}

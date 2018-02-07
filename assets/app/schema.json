@@ -2,7 +2,7 @@
 	"title": "App",
 	"type": "object",
 	"definitions": {
-		"i18n": {
+		"i18nObject": {
 			"oneOf": [
 				{
 					"type": "string",
@@ -19,10 +19,223 @@
 					"additionalProperties": false
 				}
 			]
+		},
+		"i18nArray": {
+			"_level": "appstore",
+			"type": "object",
+			"patternProperties": {
+				"^.*$": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				}
+			},
+			"additionalProperties": false
+		},
+		"author": {
+			"required": [ "name" ],
+			"properties": {
+				"name": {
+					"type": "string"
+				},
+				"email": {
+					"type": "string"
+				},
+				"website": {
+					"type": "string"
+				}
+			}		
+		},
+		"images": {
+			"required": [ "large", "small" ],
+			"additionalProperties": false,
+			"properties": {
+				"large": {
+					"type": "string"
+				},
+				"small": {
+					"type": "string"
+				}
+			}
 		}
 	},
-	"required": [ "id" ],
+	"required": [
+		"id",
+		"name",
+		"version",
+		"compatibility"
+	],
 	"properties": {
+		"id": {
+			"type": "string"
+		},
+		"name": {
+			"$ref": "#/definitions/i18nObject"
+		},
+		"description": {
+			"$ref": "#/definitions/i18nObject"			
+		},
+		"author": {
+			"$ref": "#/definitions/author"
+		},
+		"images": {
+			"_level": "appstore",
+			"$ref": "#/definitions/images"
+		},
+		"version": {
+			"type": "string"
+		},
+		"compatibility": {
+			"type": "string"
+		},
+		"sdk": {
+			"type": "number",
+			"default": 1,
+			"minimum": 1,
+			"maximum": 2
+		},
+		"tags": {
+			"$ref": "#/definitions/i18nArray"
+		},
+		"permissions": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"bugs": {
+			"type": "object",
+			"properties": {
+				"url": {
+					"type": "string"
+				}
+			}
+		},
+		"category": {
+			"_level": "appstore",
+			"oneOf": [
+				{
+					"type": "string"
+				},
+				{
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				}
+			]		
+		},
+		"contributors": {
+			"_level": "appstore",
+			"type": "object",
+			"patternProperties": {
+				"^(developers|contributors)$": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/author"
+					}
+				}
+			},
+			"additionalProperties": false
+		},
+		"contributing": {
+			"type": "object",
+			"properties": {
+				"donate": {
+					"type": "object",
+					"additionalProperties": false,
+					"properties": {
+						"paypal": {
+							"type": "object",
+							"additionalProperties": false,
+							"patternProperties": {
+								"^(username|email)$": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"screensavers": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"name": {
+						"type": "string"
+					},
+					"title": {
+						"$ref": "#/definitions/i18nObject"								
+					}
+				}
+			}
+		},
+		"capabilities": {
+			"type": "object",
+			"patternProperties": {
+				"^.*$": {
+					"type": "object"
+				}
+			},
+			"additionalProperties": false
+		},
+		"drivers": {},
+		"flow": {
+			"type": "object",
+			"properties": {
+				"triggers": {
+					"type": "array",
+					"items": {
+						
+					}
+				},
+				"conditions": {
+					"type": "array",
+					"items": {
+						
+					}
+				},
+				"actions": {
+					"type": "array",
+					"items": {
+						
+					}
+				}
+			}
+		},
+		"media": {
+			"type": "array",
+			"items": {
+				"type": "string",
+				"enum": [
+					"play",
+					"search",
+					"getPlaylist",
+					"getPlaylists"
+				]
+			}
+		},
+		"signals": {
+			"type": "object",
+			"properties": {
+				"433": {
+					"type": "object"
+				},
+				"868": {
+					"type": "object"
+				},
+				"ir": {
+					"type": "object"
+				}
+			}
+		},
+		"speech": {},
+		"speechExamples": {
+			"$ref": "#/definitions/i18nArray"			
+		}
 		
 	}	
 }
