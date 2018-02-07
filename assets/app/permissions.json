@@ -53,6 +53,12 @@
 			"nl": "Z-Wave verzenden en ontvangen voor specifieke apparaten"
 		}
 	},
+	"homey:wireless:zigbee": {
+		"title": {
+			"en": "Send and receive Zigbee for specific devices",
+			"nl": "Zigbee verzenden en ontvangen voor specifieke apparaten"
+		}
+	},
 	"homey:wireless:nfc": {
 		"title": {
 			"en": "Read and write NFC tags",

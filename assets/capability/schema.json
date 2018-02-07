@@ -10,15 +10,13 @@
 				},
 				{
 					"type": "object",
-					"properties": {
-						"en": {
-							"type": "string"
-						},
-						"nl": {
+					"required": [ "en" ],
+					"patternProperties": {
+						"^.*$": {
 							"type": "string"
 						}
 					},
-					"required": [ "en" ]
+					"additionalProperties": false
 				}
 			]
 		}

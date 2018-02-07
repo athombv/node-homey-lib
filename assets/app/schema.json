@@ -1,0 +1,28 @@
+{
+	"title": "App",
+	"type": "object",
+	"definitions": {
+		"i18n": {
+			"oneOf": [
+				{
+					"type": "string",
+					"minLength": 1
+				},
+				{
+					"type": "object",
+					"required": [ "en" ],
+					"patternProperties": {
+						"^.*$": {
+							"type": "string"
+						}
+					},
+					"additionalProperties": false
+				}
+			]
+		}
+	},
+	"required": [ "id" ],
+	"properties": {
+		
+	}	
+}

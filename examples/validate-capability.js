@@ -5,14 +5,13 @@ const capability = new Capability({
 	title: {
 		en: 'My Capability',
 		nl: 'Mijn Capability',
+		de: 'Mein Capability',
 	},
 	type: 'enum',
 	values: [
 		{
-			id: 'foo',
-			title: {
-				en: 'bar'
-			}
+			id: 'my_id',
+			title: 'My Value',
 		}
 	],
 	getable: true,
