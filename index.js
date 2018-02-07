@@ -1,6 +1,6 @@
-var path = require('path');
+'use strict';
 
-module.exports.App 				     = require('./lib/app/index.js');
-module.exports.permissions 		= require('./lib/permissions/index.js');
-module.exports.deviceclasses 	= require('./lib/deviceclasses/index.js');
-module.exports.media 	        = require('./lib/media/index.js');
+module.exports.App = require('./lib/App');
+module.exports.Device = require('./lib/Device');
+module.exports.Capability = require('./lib/Capability');
+module.exports.Media = require('./lib/Media');

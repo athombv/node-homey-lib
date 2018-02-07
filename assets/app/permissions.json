@@ -1,0 +1,68 @@
+{
+	"homey:manager:geolocation": {
+		"title": {
+			"en": "Read Homey's location",
+			"nl": "Homey's locatie uitlezen"
+		}
+	},
+	"homey:manager:ledring": {
+		"title": {
+			"en": "Control Homey's LED ring",
+			"nl": "Homey's LED ring besturen"
+		}
+	},
+	"homey:manager:media": {
+		"title": {
+			"en": "Control Homey's Music",
+			"nl": "Homey's Muziek besturen"
+		}
+	},
+	"homey:manager:speech-input": {
+		"title": {
+			"en": "React to speech",
+			"nl": "Reageren op spraak"
+		}
+	},
+	"homey:manager:speech-output": {
+		"title": {
+			"en": "Let Homey talk",
+			"nl": "Homey laten praten"
+		}
+	},
+	"homey:wireless:433": {
+		"title": {
+			"en": "Send and receive on the 433 MHz frequency",
+			"nl": "Verzenden en ontvangen op de 433 MHz frequentie"
+		}
+	},
+	"homey:wireless:868": {
+		"title": {
+			"en": "Send and receive on the 868 MHz frequency",
+			"nl": "Verzenden en ontvangen op de 868 MHz frequentie"
+		}
+	},
+	"homey:wireless:ir": {
+		"title": {
+			"en": "Send and receive Infrared",
+			"nl": "Infrarood verzenden en ontvangen"
+		}
+	},
+	"homey:wireless:zwave": {
+		"title": {
+			"en": "Send and receive Z-Wave for specific devices",
+			"nl": "Z-Wave verzenden en ontvangen voor specifieke apparaten"
+		}
+	},
+	"homey:wireless:nfc": {
+		"title": {
+			"en": "Read and write NFC tags",
+			"nl": "NFC tags lezen en schrijven"
+		}
+	},
+	"homey:manager:api": {
+		"title": {
+			"en": "Gain full access to Homey to control everything on behalf of the user",
+			"nl": "Volledige toegang tot Homey om alles te bedienen namens de gebruiker"
+		}
+	}
+}
