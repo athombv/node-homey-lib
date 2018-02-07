@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/athombv/node-homey-lib/issues"
   },
-  "homepage": "https://github.com/athombv/node-homey-lib#readme"
+  "homepage": "https://github.com/athombv/node-homey-lib#readme",
+  "dependencies": {
+    "ajv": "^6.1.1"
+  }
 }

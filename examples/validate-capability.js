@@ -5,7 +5,19 @@ const capability = new Capability({
 	title: {
 		en: 'My Capability',
 		nl: 'Mijn Capability',
-	}
+	},
+	type: 'enum',
+	values: [
+		{
+			id: 'foo',
+			title: {
+				en: 'bar'
+			}
+		}
+	],
+	getable: true,
+	setable: true,
+	decimals: 2,
 });
 
 capability.validate({
