@@ -622,6 +622,7 @@
 									"patternProperties": {
 										"^.*$": {
 											"type": "object",
+											"required": [ "type", "value" ],
 											"properties": {
 												"type": {
 													"type": "string",
@@ -647,6 +648,7 @@
 									"patternProperties": {
 										"^.*$": {
 											"type": "object",
+											"required": [],
 											"properties": {
 												"set": {
 													"type": "string"
