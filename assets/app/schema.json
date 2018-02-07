@@ -179,6 +179,150 @@
 					}
 				}
 			}
+		},
+		"driverSettings": {
+			"type": "array",
+			"items": {
+				"oneOf": [
+					{
+						"type": "object",
+						"required": [ "id", "type", "label" ],
+						"properties": {
+							"type": {
+								"type": "string",
+								"enum": [ "text", "password", "textarea", "label" ]
+							},
+							"id": {
+								"type": "string"
+							},
+							"label": {
+								"$ref": "#/definitions/i18nObject"
+							},
+							"hint": {
+								"$ref": "#/definitions/i18nObject"							
+							},
+							"value": {
+								"type": "string"
+							},
+							"pattern": {
+								"type": "string"
+							}
+						}
+					},
+					{
+						"type": "object",
+						"required": [ "id", "type", "label" ],
+						"properties": {
+							"type": {
+								"type": "string",
+								"enum": [ "number", "slider" ]
+							},
+							"id": {
+								"type": "string"
+							},
+							"label": {
+								"$ref": "#/definitions/i18nObject"
+							},
+							"hint": {
+								"$ref": "#/definitions/i18nObject"							
+							},
+							"value": {
+								"type": "number"
+							},
+							"attr": {
+								"type": "object",
+								"properties": {
+									"min": {
+										"type": "number"
+									},
+									"max": {
+										"type": "number"
+									},
+									"step": {
+										"type": "number",
+										"minimum": 0
+									}
+								}
+							}
+						}
+					},
+					{
+						"type": "object",
+						"required": [ "id", "type", "label", "values" ],
+						"properties": {
+							"type": {
+								"type": "string",
+								"enum": [ "radio", "dropdown" ]
+							},
+							"id": {
+								"type": "string"
+							},
+							"label": {
+								"$ref": "#/definitions/i18nObject"
+							},
+							"hint": {
+								"$ref": "#/definitions/i18nObject"							
+							},
+							"value": {
+								"type": "string"
+							},
+							"values": {
+								"type": "array",
+								"items": {
+									"type": "object",
+									"required": [ "id", "label" ],
+									"properties": {
+										"id": {
+											"type": "string"
+										},
+										"label": {
+											"$ref": "#/definitions/i18nObject"
+										}
+									}
+								}
+							}
+						}
+					},
+					{
+						"type": "object",
+						"required": [ "id", "type", "label" ],
+						"properties": {
+							"type": {
+								"type": "string",
+								"enum": [ "checkbox" ]
+							},
+							"id": {
+								"type": "string"
+							},
+							"label": {
+								"$ref": "#/definitions/i18nObject"
+							},
+							"hint": {
+								"$ref": "#/definitions/i18nObject"							
+							},
+							"value": {
+								"type": "boolean"
+							}
+						}
+					},
+					{
+						"type": "object",
+						"required": [ "type", "label", "children" ],
+						"properties": {
+							"type": {
+								"type": "string",
+								"enum": [ "group" ]
+							},
+							"label": {
+								"$ref": "#/definitions/i18nObject"
+							},
+							"children": {
+								"$ref": "#/definitions/driverSettings"
+							}
+						}					
+					}				
+				]
+			}
 		}
 	},
 	"required": [
@@ -303,7 +447,122 @@
 			},
 			"additionalProperties": false
 		},
-		"drivers": {},
+		"drivers": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": [ "id", "name", "class", "capabilities" ],
+				"properties": {
+					"id": {
+						"type": "string"
+					},
+					"name": {
+						"$ref": "#/definitions/i18nObject"	
+					},
+					"class": {
+						"type": "string"
+					},
+					"capabilities": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						}
+					},
+					"capabilitiesOptions": {
+						"type": "object"
+					},
+					"pair": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"required": [ "id" ],
+							"properties": {
+								"id": {
+									"type": "string"
+								},
+								"template": {
+									"type": "string"
+								},
+								"options": {
+									"type": "object"
+								},
+								"navigation": {
+									"type": "object",
+									"properties": {
+										"prev": {
+											"type": "string"
+										},
+										"next": {
+											"type": "string"
+										}
+									}
+								}
+							}
+						}
+					},
+					"mobile": {
+						"type": "object",
+						"properties": {
+							"components": {
+								"type": "array",
+								"items": {
+									"type": "object",
+									"required": [ "id", "capabilities" ],
+									"properties": {
+										"id": {
+											"type": "string",
+											"enum": [
+												"icon",
+												"toggle",
+												"slider",
+												"battery",
+												"sensor",
+												"ternary",
+												"picker",
+												"color",
+												"thermostat",
+												"button"
+											]
+										},
+										"capabilities": {
+											"type": "array",
+											"items": {
+												"type": "string"
+											}
+										},
+										"options": {
+											"type": "object"
+										}
+									}
+								}
+							}
+						}
+					},
+					"settings": {
+						"$ref": "#/definitions/driverSettings"
+					},
+					"gtin": {
+						"oneOf": [
+							{
+								"type": "string"
+							},
+							{
+								"type": "array",
+								"items": {
+									"type": "string"
+								}
+							}
+						]
+					},
+					"zwave": {
+						"type": "object"
+					},
+					"zigbee": {
+						"type": "object"
+					}
+				}
+			}
+		},
 		"flow": {
 			"type": "object",
 			"properties": {
@@ -341,17 +600,12 @@
 		},
 		"signals": {
 			"type": "object",
-			"properties": {
-				"433": {
-					"type": "object"
-				},
-				"868": {
-					"type": "object"
-				},
-				"ir": {
+			"patternProperties": {
+				"^(433|868|ir)$": {
 					"type": "object"
 				}
-			}
+			},
+			"additionalProperties": false
 		},
 		"speech": {},
 		"speechExamples": {
