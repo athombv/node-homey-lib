@@ -27,7 +27,7 @@
 			"$ref": "#/definitions/i18nObject"
 		},
 		"desc": {
-			"type": "string"
+			"$ref": "#/definitions/i18nObject"
 		},
 		"type": {
 			"type": "string",
