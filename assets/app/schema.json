@@ -481,7 +481,15 @@
 			"type": "array",
 			"items": {
 				"type": "object",
-				"required": [ "id", "name", "class", "capabilities" ],
+				"required": [
+					"id",
+					"name",
+					"class",
+					"capabilities"
+				],				
+				"requiredPublish": [
+					"images"
+				],
 				"properties": {
 					"id": {
 						"type": "string"
@@ -500,6 +508,9 @@
 					},
 					"capabilitiesOptions": {
 						"type": "object"
+					},
+					"images": {
+						"$ref": "#/definitions/images"
 					},
 					"pair": {
 						"type": "array",
