@@ -21,7 +21,6 @@
 			]
 		},
 		"i18nArray": {
-			"_level": "appstore",
 			"type": "object",
 			"patternProperties": {
 				"^.*$": {
@@ -331,6 +330,10 @@
 		"version",
 		"compatibility"
 	],
+	"requiredPublish": [
+		"category",
+		"images"
+	],
 	"properties": {
 		"id": {
 			"type": "string"
@@ -345,7 +348,6 @@
 			"$ref": "#/definitions/author"
 		},
 		"images": {
-			"_level": "14",
 			"$ref": "#/definitions/images"
 		},
 		"version": {
@@ -378,7 +380,6 @@
 			}
 		},
 		"category": {
-			"_level": "appstore",
 			"oneOf": [
 				{
 					"type": "string"
@@ -392,7 +393,6 @@
 			]		
 		},
 		"contributors": {
-			"_level": "appstore",
 			"type": "object",
 			"patternProperties": {
 				"^(developers|contributors)$": {
@@ -507,7 +507,7 @@
 								"type": "array",
 								"items": {
 									"type": "object",
-									"required": [ "id", "capabilities" ],
+									"required": [ "id" ],
 									"properties": {
 										"id": {
 											"type": "string",
