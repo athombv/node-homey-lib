@@ -23,7 +23,7 @@
     "semver": "^5.5.0"
   },
   "config": {
-    "npmPublishTagProduction": "beta",
+    "npmPublishTagTesting": "beta",
     "nodeVersion": "8"
   }
 }
