@@ -107,6 +107,9 @@
 									},
 									{
 										"type": "number"
+									},
+									{
+										"type": "boolean"
 									}
 								]
 							}
