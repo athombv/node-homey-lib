@@ -1,6 +1,6 @@
 {
   "name": "homey-lib",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Shared Library for Homey",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "semver": "^5.5.0"
   },
   "config": {
-	"npmPublishTagProduction": "latest",
+    "npmPublishTagProduction": "latest",
     "npmPublishTagTesting": "beta",
     "nodeVersion": "8"
   }
