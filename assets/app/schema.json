@@ -1,0 +1,748 @@
+{
+	"title": "App",
+	"type": "object",
+	"definitions": {
+		"i18nObject": {
+			"oneOf": [
+				{
+					"type": "string",
+					"minLength": 1
+				},
+				{
+					"type": "object",
+					"required": [ "en" ],
+					"patternProperties": {
+						"^.*$": {
+							"type": "string"
+						}
+					},
+					"additionalProperties": false
+				}
+			]
+		},
+		"i18nArray": {
+			"type": "object",
+			"patternProperties": {
+				"^.*$": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				}
+			},
+			"additionalProperties": false
+		},
+		"author": {
+			"required": [ "name" ],
+			"properties": {
+				"name": {
+					"type": "string"
+				},
+				"email": {
+					"type": "string"
+				},
+				"website": {
+					"type": "string"
+				}
+			}		
+		},
+		"images": {
+			"required": [ "large", "small" ],
+			"additionalProperties": false,
+			"properties": {
+				"large": {
+					"type": "string"
+				},
+				"small": {
+					"type": "string"
+				}
+			}
+		},
+		"flowCard": {
+			"type": "object",
+			"required": [ "id", "title" ],
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"title": {
+					"$ref": "#/definitions/i18nObject"
+				},
+				"droptoken": {
+					"oneOf": [
+						{
+							"type": "string",
+							"enum": [ "boolean", "number", "string", "image" ]
+						},
+						{
+							"type": "array",
+							"items": {
+								"type": "string",
+								"enum": [ "boolean", "number", "string", "image" ]
+							}
+						}
+					]
+				},
+				"tokens": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"required": [ "name", "title" ],
+						"properties": {
+							"name": {
+								"type": "string"
+							},
+							"type": {
+								"type": "string",
+								"enum": [ "boolean", "number", "string", "image" ],
+								"default": "string"
+							},
+							"title": {
+								"$ref": "#/definitions/i18nObject"
+							},
+							"example": {
+								"oneOf": [
+									{
+										"$ref": "#/definitions/i18nObject"
+									},
+									{
+										"type": "number"
+									},
+									{
+										"type": "boolean"
+									}
+								]
+							}
+						}
+					}
+				},
+				"args": {
+					"type": "array",
+					"items": {
+						"oneOf": [
+							{
+								"type": "object",
+								"required": [ "name", "type" ],
+								"properties": {
+									"name": {
+										"type": "string"
+									},
+									"type": {
+										"type": "string",
+										"enum": [ "text", "autocomplete", "device", "date", "time", "color" ]
+									},
+									"placeholder": {
+										"$ref": "#/definitions/i18nObject"
+									},
+									"filter": {
+										"oneOf": [
+											{
+												"type": "string"										
+											},
+											{
+												"type": "object"
+											}
+										]
+									}
+								}
+							},
+							{
+								"type": "object",
+								"required": [ "name", "type" ],
+								"properties": {
+									"name": {
+										"type": "string"
+									},
+									"type": {
+										"type": "string",
+										"enum": [ "number", "range" ]
+									},	
+									"min": {
+										"type": "number"
+									},
+									"max": {
+										"type": "number"
+									},
+									"step": {
+										"type": "number",
+										"minimum": 0
+									},	
+									"label": {
+										"$ref": "#/definitions/i18nObject"
+									},
+									"labelMultiplier": {
+										"type": "number"
+									},
+									"labelDecimals": {
+										"type": "number",
+										"mimimum": 0,
+										"maximum": 10
+									}					
+								}
+							},
+							{
+								"type": "object",
+								"required": [ "name", "type", "values" ],
+								"properties": {
+									"name": {
+										"type": "string"
+									},
+									"type": {
+										"type": "string",
+										"enum": [ "dropdown" ]
+									},
+									"values": {
+										"type": "array",
+										"items": {
+											"type": "object",
+											"properties": {
+												"id": {
+													"type": "string"
+												},
+												"label": {
+													"$ref": "#/definitions/i18nObject"
+												}
+											}
+										}
+									}
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"driverSettings": {
+			"type": "array",
+			"items": {
+				"oneOf": [
+					{
+						"type": "object",
+						"required": [ "id", "type", "label" ],
+						"properties": {
+							"type": {
+								"type": "string",
+								"enum": [ "text", "password", "textarea", "label" ]
+							},
+							"id": {
+								"type": "string"
+							},
+							"label": {
+								"$ref": "#/definitions/i18nObject"
+							},
+							"hint": {
+								"$ref": "#/definitions/i18nObject"							
+							},
+							"value": {
+								"type": "string"
+							},
+							"pattern": {
+								"type": "string"
+							}
+						}
+					},
+					{
+						"type": "object",
+						"required": [ "id", "type", "label" ],
+						"properties": {
+							"type": {
+								"type": "string",
+								"enum": [ "number", "slider" ]
+							},
+							"id": {
+								"type": "string"
+							},
+							"label": {
+								"$ref": "#/definitions/i18nObject"
+							},
+							"hint": {
+								"$ref": "#/definitions/i18nObject"							
+							},
+							"value": {
+								"type": "number"
+							},
+							"attr": {
+								"type": "object",
+								"properties": {
+									"min": {
+										"type": "number"
+									},
+									"max": {
+										"type": "number"
+									},
+									"step": {
+										"type": "number",
+										"minimum": 0
+									}
+								}
+							}
+						}
+					},
+					{
+						"type": "object",
+						"required": [ "id", "type", "label", "values" ],
+						"properties": {
+							"type": {
+								"type": "string",
+								"enum": [ "radio", "dropdown" ]
+							},
+							"id": {
+								"type": "string"
+							},
+							"label": {
+								"$ref": "#/definitions/i18nObject"
+							},
+							"hint": {
+								"$ref": "#/definitions/i18nObject"							
+							},
+							"value": {
+								"type": "string"
+							},
+							"values": {
+								"type": "array",
+								"items": {
+									"type": "object",
+									"required": [ "id", "label" ],
+									"properties": {
+										"id": {
+											"type": "string"
+										},
+										"label": {
+											"$ref": "#/definitions/i18nObject"
+										}
+									}
+								}
+							}
+						}
+					},
+					{
+						"type": "object",
+						"required": [ "id", "type", "label" ],
+						"properties": {
+							"type": {
+								"type": "string",
+								"enum": [ "checkbox" ]
+							},
+							"id": {
+								"type": "string"
+							},
+							"label": {
+								"$ref": "#/definitions/i18nObject"
+							},
+							"hint": {
+								"$ref": "#/definitions/i18nObject"							
+							},
+							"value": {
+								"type": "boolean"
+							}
+						}
+					},
+					{
+						"type": "object",
+						"required": [ "type", "label", "children" ],
+						"properties": {
+							"type": {
+								"type": "string",
+								"enum": [ "group" ]
+							},
+							"label": {
+								"$ref": "#/definitions/i18nObject"
+							},
+							"children": {
+								"$ref": "#/definitions/driverSettings"
+							}
+						}					
+					}				
+				]
+			}
+		}
+	},
+	"required": [
+		"id",
+		"name",
+		"version",
+		"compatibility"
+	],
+	"requiredPublish": [
+		"category",
+		"images"
+	],
+	"properties": {
+		"id": {
+			"type": "string"
+		},
+		"name": {
+			"$ref": "#/definitions/i18nObject"
+		},
+		"description": {
+			"$ref": "#/definitions/i18nObject"			
+		},
+		"author": {
+			"$ref": "#/definitions/author"
+		},
+		"images": {
+			"$ref": "#/definitions/images"
+		},
+		"version": {
+			"type": "string"
+		},
+		"compatibility": {
+			"type": "string"
+		},
+		"sdk": {
+			"type": "number",
+			"default": 1,
+			"minimum": 1,
+			"maximum": 2
+		},
+		"tags": {
+			"$ref": "#/definitions/i18nArray"
+		},
+		"permissions": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"bugs": {
+			"type": "object",
+			"properties": {
+				"url": {
+					"type": "string"
+				}
+			}
+		},
+		"athomForumDiscussionId": {
+			"type": "number"
+		},
+		"category": {
+			"oneOf": [
+				{
+					"type": "string"
+				},
+				{
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				}
+			]		
+		},
+		"contributors": {
+			"type": "object",
+			"patternProperties": {
+				"^(developers|contributors)$": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/author"
+					}
+				}
+			},
+			"additionalProperties": false
+		},
+		"contributing": {
+			"type": "object",
+			"properties": {
+				"donate": {
+					"type": "object",
+					"additionalProperties": false,
+					"properties": {
+						"paypal": {
+							"type": "object",
+							"additionalProperties": false,
+							"patternProperties": {
+								"^(username|email)$": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"screensavers": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"name": {
+						"type": "string"
+					},
+					"title": {
+						"$ref": "#/definitions/i18nObject"								
+					}
+				}
+			}
+		},
+		"capabilities": {
+			"type": "object",
+			"patternProperties": {
+				"^.*$": {
+					"type": "object"
+				}
+			},
+			"additionalProperties": false
+		},
+		"drivers": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": [
+					"id",
+					"name",
+					"class",
+					"capabilities"
+				],				
+				"requiredPublish": [
+					"images"
+				],
+				"properties": {
+					"id": {
+						"type": "string"
+					},
+					"name": {
+						"$ref": "#/definitions/i18nObject"	
+					},
+					"class": {
+						"type": "string"
+					},
+					"capabilities": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						}
+					},
+					"capabilitiesOptions": {
+						"type": "object"
+					},
+					"images": {
+						"$ref": "#/definitions/images"
+					},
+					"pair": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"required": [ "id" ],
+							"properties": {
+								"id": {
+									"type": "string"
+								},
+								"template": {
+									"type": "string"
+								},
+								"options": {
+									"type": "object"
+								},
+								"navigation": {
+									"type": "object",
+									"properties": {
+										"prev": {
+											"type": "string"
+										},
+										"next": {
+											"type": "string"
+										}
+									}
+								}
+							}
+						}
+					},
+					"mobile": {
+						"type": "object",
+						"properties": {
+							"components": {
+								"type": "array",
+								"items": {
+									"type": "object",
+									"required": [ "id" ],
+									"properties": {
+										"id": {
+											"type": "string",
+											"enum": [
+												"icon",
+												"toggle",
+												"slider",
+												"battery",
+												"sensor",
+												"ternary",
+												"picker",
+												"color",
+												"thermostat",
+												"button"
+											]
+										},
+										"capabilities": {
+											"type": "array",
+											"items": {
+												"type": "string"
+											}
+										},
+										"options": {
+											"type": "object"
+										}
+									}
+								}
+							}
+						}
+					},
+					"settings": {
+						"$ref": "#/definitions/driverSettings"
+					},
+					"gtin": {
+						"oneOf": [
+							{
+								"type": "string"
+							},
+							{
+								"type": "array",
+								"items": {
+									"type": "string"
+								}
+							}
+						]
+					},
+					"zwave": {
+						"type": "object"
+					},
+					"zigbee": {
+						"type": "object"
+					}
+				}
+			}
+		},
+		"flow": {
+			"type": "object",
+			"properties": {
+				"triggers": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/flowCard"						
+					}
+				},
+				"conditions": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/flowCard"						
+					}
+				},
+				"actions": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/flowCard"						
+					}
+				}
+			}
+		},
+		"media": {
+			"type": "array",
+			"items": {
+				"type": "string",
+				"enum": [
+					"play",
+					"search",
+					"getPlaylist",
+					"getPlaylists"
+				]
+			}
+		},
+		"signals": {
+			"type": "object",
+			"patternProperties": {
+				"^(433|868|ir)$": {
+					"type": "object"
+				}
+			},
+			"additionalProperties": false
+		},
+		"speech": {
+			"oneOf": [
+				{
+					"required": [ "en" ],
+					"additionalProperties": false,
+					"patternProperties": {
+						"^.*$": {
+							"type": "object",
+							"properties": {
+								"element": {
+									"type": "object",
+									"additionalProperties": false,
+									"patternProperties": {
+										"^.*$": {
+											"type": "object",
+											"required": [ "type", "value" ],
+											"properties": {
+												"type": {
+													"type": "string",
+													"enum": [ "string", "regex", "device", "pos" ]
+												},
+												"value": {
+													"oneOf": [
+														{
+															"type": "string"
+														},
+														{
+															"type": "object"
+														}
+													]
+												}
+											}
+										}
+									}
+								},
+								"group": {
+									"type": "object",
+									"additionalProperties": false,
+									"patternProperties": {
+										"^.*$": {
+											"type": "object",
+											"required": [],
+											"properties": {
+												"set": {
+													"type": "string"
+												},
+												"ordered": {
+													"type": "boolean"
+												},
+												"allowDisconnect": {
+													"type": "boolean"
+												},
+												"capturingGroup": {
+													"type": "boolean"
+												}
+											}
+										}
+									}									
+								}
+							}
+						}
+					}
+				},
+				{
+					"type": "array",
+					"_comment": "Apps SDK v1 speech (deprecated)",
+					"items": {
+						"type": "object",
+						"required": [ "id" ],
+						"properties": {
+							"id": {
+								"type": "string"
+							},
+							"importance": {
+								"type": "number",
+								"minimum": 0,
+								"maximum": 1
+							},
+							"triggers": {
+								"$ref": "#/definitions/i18nArray"
+							}
+						}
+					}
+				}
+			]
+		},
+		"speechExamples": {
+			"$ref": "#/definitions/i18nArray"			
+		}
+		
+	}	
+}

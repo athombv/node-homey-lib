@@ -1,0 +1,118 @@
+
+{
+	"other": {
+		"title": {
+			"en": "Other",
+			"nl": "Overig"
+		}
+	},
+	"socket": {
+		"title": {
+			"en": "Wall Plug",
+			"nl": "Stopcontact schakelaar"
+		},
+		"allowedVirtual": [
+			"light",
+			"fan",
+			"heater",
+			"coffeemachine",
+			"kettle"
+		]
+	},
+	"light": {
+		"title": {
+			"en": "Light",
+			"nl": "Lamp"
+		}
+	},
+	"vacuumcleaner": {
+		"title": {
+			"en": "Vacuum Cleaner",
+			"nl": "Stofzuiger"
+		}
+	},
+	"fan": {
+		"title": {
+			"en": "Fan",
+			"nl": "Ventilator"
+		}
+	},
+	"heater": {
+		"title": {
+			"en": "Heater",
+			"nl": "Heater"
+		}
+	},
+	"thermostat": {
+		"title": {
+			"en": "Thermostat",
+			"nl": "Thermostaat"
+		}
+	},
+	"sensor": {
+		"title": {
+			"en": "Sensor",
+			"nl": "Sensor"
+		}
+	},
+	"kettle": {
+		"title": {
+			"en": "Kettle",
+			"nl": "Waterkoker"
+		}
+	},
+	"coffeemachine": {
+		"title": {
+			"en": "Coffee machine",
+			"nl": "Koffiemachine"
+		}
+	},
+	"homealarm": {
+		"title": {
+			"en": "Home Security",
+			"nl": "Huisbeveiliging"
+		}
+	},
+	"speaker": {
+		"title": {
+			"en": "Speaker",
+			"nl": "Speaker"
+		}
+	},
+	"button": {
+		"title": {
+			"en": "Button",
+			"nl": "Knop"
+		}
+	},
+	"doorbell": {
+		"title": {
+			"en": "Doorbell",
+			"nl": "Deurbel"
+		}
+	},
+	"lock": {
+		"title": {
+			"en": "Lock",
+			"nl": "Slot"
+		}
+	},
+	"windowcoverings": {
+		"title": {
+			"en": "Curtains & Blinds",
+			"nl": "Gordijnen & Lamellen"
+		}
+	},
+	"tv": {
+		"title": {
+			"en": "TV",
+			"nl": "TV"
+		}
+	},
+	"amplifier": {
+		"title": {
+			"en": "Amplifier",
+			"nl": "Versterker"
+		}
+	}
+}

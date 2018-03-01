@@ -1,28 +1,29 @@
 {
   "name": "homey-lib",
-  "version": "1.0.54",
-  "description": "Library for Homey",
+  "version": "2.0.8",
+  "description": "Shared Library for Homey",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/athombv/node-homey-lib"
+    "url": "git+https://github.com/athombv/node-homey-lib.git"
   },
-  "author": "Emile Nijssen <emile@athom.nl> (https://www.athom.com)",
+  "author": "Athom B.V.",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/athombv/node-homey-lib/issues"
   },
-  "homepage": "https://github.com/athombv/node-homey-lib",
+  "homepage": "https://github.com/athombv/node-homey-lib#readme",
   "dependencies": {
-    "homey-signal-validator": "^2.0.0",
-    "image-size": "^0.6.0",
-    "semver": "^5.0.1"
+    "ajv": "^6.1.1",
+    "homey-signal-validator": "^2.0.4",
+    "image-size": "^0.6.2",
+    "semver": "^5.5.0"
   },
   "config": {
-    "npmPublishTagProduction": "latest",
-    "npmPublishTagStaging": "beta"
+    "npmPublishTagTesting": "beta",
+    "nodeVersion": "8"
   }
 }
