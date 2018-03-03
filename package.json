@@ -1,6 +1,6 @@
 {
   "name": "homey-lib",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Shared Library for Homey",
   "main": "index.js",
   "scripts": {
@@ -18,12 +18,11 @@
   "homepage": "https://github.com/athombv/node-homey-lib#readme",
   "dependencies": {
     "ajv": "^6.1.1",
-    "homey-signal-validator": "^2.0.4",
     "image-size": "^0.6.2",
     "semver": "^5.5.0"
   },
   "config": {
-	"npmPublishTagProduction": "latest",
+    "npmPublishTagProduction": "latest",
     "npmPublishTagTesting": "beta",
     "nodeVersion": "8"
   }
