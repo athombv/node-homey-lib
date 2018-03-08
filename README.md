@@ -6,6 +6,7 @@ This library can, among other things:
 
 * Validate a Homey App
 * Validate a Capability
+* Validate a Signal
 * Return supported device classes
 * Return supported device capabilities
 * Return supported media codecs
