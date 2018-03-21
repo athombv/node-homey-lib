@@ -453,6 +453,9 @@
 							"patternProperties": {
 								"^(username|email)$": {
 									"type": "string"
+								},
+								"currency": {
+									"type": "string"
 								}
 							}
 						}
