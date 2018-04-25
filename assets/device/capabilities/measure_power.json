@@ -14,5 +14,27 @@
   "chartType": "stepLine",
   "decimals": 2,
   "getable": true,
-  "setable": false
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_power_changed",
+        "title": {
+          "en": "The power changed",
+          "nl": "De energie is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "measure_power",
+            "title": {
+              "en": "Power",
+              "nl": "Energie"
+            },
+            "type": "number",
+            "example": 7.5
+          }
+        ]
+      }
+    ]
+  }
 }

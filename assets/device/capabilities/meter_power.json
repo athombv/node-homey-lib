@@ -14,5 +14,27 @@
     "nl": "Stroomverbuik in KiloWattUur (kWh)"
   },
   "getable": true,
-  "setable": false
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "meter_power_changed",
+        "title": {
+          "en": "The power meter changed",
+          "nl": "De energiemeter is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "meter_power",
+            "title": {
+              "en": "Wh",
+              "nl": "Wh"
+            },
+            "type": "number",
+            "example": 75
+          }
+        ]
+      }
+    ]
+  }
 }
