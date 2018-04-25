@@ -14,5 +14,24 @@
   "chartType": "stepLine",
   "decimals": 2,
   "getable": true,
-  "setable": false
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_voltage_changed",
+        "title": {
+          "en": "The voltage changed",
+          "nl": "Het voltage is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 7.5
+          }
+        ]
+      }
+    ]
+  }
 }

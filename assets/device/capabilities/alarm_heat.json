@@ -9,5 +9,32 @@
     "nl": "Gaat af als er extreme hitte gedetecteerd wordt"
   },
   "getable": true,
-  "setable": false
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_heat_true",
+        "title": {
+          "en": "The heat alarm turned on",
+          "nl": "Het hitte alarm gaat aan"
+        }
+      },
+      {
+        "id": "alarm_heat_false",
+        "title": {
+          "en": "The heat alarm turned off",
+          "nl": "Het hitte alarm gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_heat",
+        "title": {
+          "en": "The heat alarm is !{{on|off}}",
+          "nl": "Het hitte alarm is !{{aan|uit}}"
+        }
+      }
+    ]
+  }
 }

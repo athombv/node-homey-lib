@@ -14,5 +14,24 @@
   },
   "decimals": 2,
   "getable": true,
-  "setable": false
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "meter_rain_changed",
+        "title": {
+          "en": "The rain meter changed",
+          "nl": "De regenmeter is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 1
+          }
+        ]
+      }
+    ]
+  }
 }

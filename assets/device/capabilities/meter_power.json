@@ -21,17 +21,14 @@
         "id": "meter_power_changed",
         "title": {
           "en": "The power meter changed",
-          "nl": "De energiemeter is veranderd"
+          "nl": "De stroommeter is veranderd"
         },
         "tokens": [
           {
-            "name": "meter_power",
-            "title": {
-              "en": "Wh",
-              "nl": "Wh"
-            },
-            "type": "number",
-            "example": 75
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 25
           }
         ]
       }

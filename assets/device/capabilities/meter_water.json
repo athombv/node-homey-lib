@@ -15,5 +15,24 @@
     "nl": "Water gebruik in Kubieke Meter (m³)"
   },
   "getable": true,
-  "setable": false
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "meter_water_changed",
+        "title": {
+          "en": "The water meter changed",
+          "nl": "De watermeter is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 25
+          }
+        ]
+      }
+    ]
+  }
 }

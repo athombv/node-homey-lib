@@ -13,5 +13,24 @@
   "chartType": "spline",
   "decimals": 2,
   "getable": true,
-  "setable": false
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_ultraviolet_changed",
+        "title": {
+          "en": "The ultraviolet value changed",
+          "nl": "De ultraviolet waarde is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 100
+          }
+        ]
+      }
+    ]
+  }
 }

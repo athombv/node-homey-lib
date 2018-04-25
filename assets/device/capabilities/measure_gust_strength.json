@@ -14,5 +14,24 @@
   "chartType": "stepLine",
   "decimals": 2,
   "getable": true,
-  "setable": false
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_gust_strength_changed",
+        "title": {
+          "en": "The gust strength changed",
+          "nl": "De windstoot snelheid is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 15
+          }
+        ]
+      }
+    ]
+  }
 }

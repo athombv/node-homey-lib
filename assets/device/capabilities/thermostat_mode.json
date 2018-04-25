@@ -39,5 +39,55 @@
     }
   ],
   "getable": true,
-  "setable": true
+  "setable": true,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "thermostat_mode_changed",
+        "title": {
+          "en": "Thermostat mode has changed",
+          "nl": "Thermostaat modus is veranderd"
+        },
+        "args": [
+          {
+            "name": "thermostat_mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "thermostat_mode_is",
+        "title": {
+          "en": "Thermostat mode is",
+          "nl": "Thermostaat modus is"
+        },
+        "args": [
+          {
+            "name": "thermostat_mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "thermostat_mode_set",
+        "title": {
+          "en": "Set the mode",
+          "nl": "Stel de modus in"
+        },
+        "args": [
+          {
+            "name": "thermostat_mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -16,5 +16,24 @@
   "chartType": "spline",
   "decimals": 2,
   "getable": true,
-  "setable": false
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_battery_changed",
+        "title": {
+          "en": "The battery level changed",
+          "nl": "Het accuniveau is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 99
+          }
+        ]
+      }
+    ]
+  }
 }

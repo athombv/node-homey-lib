@@ -5,5 +5,23 @@
   },
   "type": "boolean",
   "getable": true,
-  "setable": true
+  "setable": true,
+  "$flow": {
+    "actions": [
+      {
+        "id": "play",
+        "title": {
+          "en": "Play",
+          "nl": "Speel af"
+        }
+      },
+      {
+        "id": "pause",
+        "title": {
+          "en": "Pause",
+          "nl": "Pauzeer"
+        }
+      }
+    ]
+  }
 }

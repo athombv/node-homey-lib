@@ -5,5 +5,16 @@
   },
   "type": "boolean",
   "getable": false,
-  "setable": true
+  "setable": true,
+  "$flow": {
+    "actions": [
+      {
+        "id": "volume_down",
+        "title": {
+          "en": "Turn the volume down",
+          "nl": "Zet het geluid zachter"
+        }
+      }
+    ]
+  }
 }

@@ -28,5 +28,55 @@
     }
   ],
   "getable": true,
-  "setable": true
+  "setable": true,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "lock_mode_changed",
+        "title": {
+          "en": "Lock mode has changed",
+          "nl": "Slot modus is veranderd"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "lock_mode_is",
+        "title": {
+          "en": "Lock mode is",
+          "nl": "Slot modus is"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "mode",
+        "title": {
+          "en": "Set mode",
+          "nl": "Stel stand in"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
 }

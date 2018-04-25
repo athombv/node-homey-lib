@@ -14,5 +14,24 @@
   "chartType": "spline",
   "decimals": 2,
   "getable": true,
-  "setable": false
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_luminance_changed",
+        "title": {
+          "en": "The luminance changed",
+          "nl": "De helderheid is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 100
+          }
+        ]
+      }
+    ]
+  }
 }

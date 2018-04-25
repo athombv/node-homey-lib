@@ -25,12 +25,9 @@
         },
         "tokens": [
           {
-            "name": "measure_power",
-            "title": {
-              "en": "Power",
-              "nl": "Energie"
-            },
-            "type": "number",
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
             "example": 7.5
           }
         ]

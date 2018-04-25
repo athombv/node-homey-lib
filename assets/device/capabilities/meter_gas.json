@@ -15,5 +15,24 @@
     "nl": "Gas gebruik in Kubieke Meter (m³)"
   },
   "getable": true,
-  "setable": false
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "meter_gas_changed",
+        "title": {
+          "en": "The gas meter changed",
+          "nl": "De gasmeter is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 25
+          }
+        ]
+      }
+    ]
+  }
 }

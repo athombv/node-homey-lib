@@ -28,5 +28,60 @@
     }
   ],
   "getable": true,
-  "setable": true
+  "setable": true,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "homealarm_state_changed",
+        "title": {
+          "en": "The state changed",
+          "nl": "De status is veranderd"
+        },
+        "args": [
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "homealarm_state_is",
+        "title": {
+          "en": "The state is !{{|not}}",
+          "nl": "De status is !{{|niet}}"
+        },
+        "args": [
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_homealarm_state",
+        "title": {
+          "en": "Set state",
+          "nl": "Zet de status"
+        },
+        "args": [
+          {
+            "name": "device",
+            "type": "device",
+            "filter": "class=homealarm&capabilities=homealarm_state"
+          },
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
 }

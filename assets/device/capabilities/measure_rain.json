@@ -14,5 +14,24 @@
   "chartType": "spline",
   "decimals": 2,
   "getable": true,
-  "setable": false
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_rain_changed",
+        "title": {
+          "en": "The rain changed",
+          "nl": "De regen is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 3
+          }
+        ]
+      }
+    ]
+  }
 }

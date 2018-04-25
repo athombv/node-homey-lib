@@ -14,5 +14,24 @@
   "chartType": "spline",
   "decimals": 2,
   "getable": true,
-  "setable": false
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_wind_strength_changed",
+        "title": {
+          "en": "The wind strength changed",
+          "nl": "De windsnelheid is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 15
+          }
+        ]
+      }
+    ]
+  }
 }

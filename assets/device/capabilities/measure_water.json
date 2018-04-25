@@ -14,5 +14,24 @@
   "chartType": "stepLine",
   "decimals": 2,
   "getable": true,
-  "setable": false
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_water_changed",
+        "title": {
+          "en": "The waterflow has changed",
+          "nl": "De waterstroom veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  }
 }

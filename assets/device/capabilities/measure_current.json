@@ -14,5 +14,24 @@
   "chartType": "stepLine",
   "decimals": 2,
   "getable": true,
-  "setable": false
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_current_changed",
+        "title": {
+          "en": "The electric current changed",
+          "nl": "De elektrische stroom is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 7.5
+          }
+        ]
+      }
+    ]
+  }
 }

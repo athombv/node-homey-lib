@@ -12,5 +12,44 @@
   "chartType": "stepLine",
   "decimals": 2,
   "getable": true,
-  "setable": true
+  "setable": true,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "target_temperature_changed",
+        "title": {
+          "en": "The target temperature changed",
+          "nl": "De ingestelde temperatuur is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 23.5
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "target_temperature_set",
+        "title": {
+          "en": "Set the temperature",
+          "nl": "Stel de temperatuur in"
+        },
+        "args": [
+          {
+            "name": "target_temperature",
+            "type": "range",
+            "min": 5,
+            "max": 40,
+            "step": 0.5,
+            "label": "°C",
+            "labelDecimals": 1
+          }
+        ]
+      }
+    ]
+  }
 }

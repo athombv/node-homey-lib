@@ -14,5 +14,24 @@
   "chartType": "spline",
   "decimals": 2,
   "getable": true,
-  "setable": false
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_co2_changed",
+        "title": {
+          "en": "The CO2-level changed",
+          "nl": "Het CO2 niveau is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 20
+          }
+        ]
+      }
+    ]
+  }
 }

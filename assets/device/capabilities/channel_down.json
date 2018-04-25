@@ -5,5 +5,16 @@
   },
   "type": "boolean",
   "getable": false,
-  "setable": true
+  "setable": true,
+  "$flow": {
+    "actions": [
+      {
+        "id": "channel_down",
+        "title": {
+          "en": "One channel down",
+          "nl": "Eén kanaal omlaag"
+        }
+      }
+    ]
+  }
 }

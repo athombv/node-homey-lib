@@ -41,5 +41,69 @@
     }
   ],
   "getable": true,
-  "setable": true
+  "setable": true,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "vacuumcleaner_state_changed",
+        "title": {
+          "en": "The state changed to...",
+          "nl": "De status is veranderd naar..."
+        },
+        "args": [
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "vacuumcleaner_state_is",
+        "title": {
+          "en": "The vacuum cleaner !{{is|is not}}...",
+          "nl": "De stofzuiger !{{is|is niet}}..."
+        },
+        "args": [
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "clean",
+        "title": {
+          "en": "Start cleaning",
+          "nl": "Begin met stofzuigen"
+        }
+      },
+      {
+        "id": "spot_clean",
+        "title": {
+          "en": "Start spot cleaning",
+          "nl": "Begin met één plek stofzuigen"
+        }
+      },
+      {
+        "id": "dock",
+        "title": {
+          "en": "Return to dock",
+          "nl": "Terug naar laadstation"
+        }
+      },
+      {
+        "id": "stop",
+        "title": {
+          "en": "Stop",
+          "nl": "Stop"
+        }
+      }
+    ]
+  }
 }

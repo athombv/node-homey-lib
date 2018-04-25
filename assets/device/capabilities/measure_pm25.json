@@ -14,5 +14,24 @@
   "chartType": "spline",
   "decimals": 2,
   "getable": true,
-  "setable": false
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_pm25_changed",
+        "title": {
+          "en": "The PM2.5 value has changed",
+          "nl": "De PM2.5 waarde is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  }
 }
