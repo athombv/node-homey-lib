@@ -1,0 +1,16 @@
+{
+  "title": {
+    "en": "Set volume"
+  },
+  "type": "number",
+  "desc": {
+    "en": "Volume",
+    "nl": "Volume"
+  },
+  "chartType": "stepLine",
+  "min": 0,
+  "max": 1,
+  "decimals": 2,
+  "setable": true,
+  "getable": true
+}

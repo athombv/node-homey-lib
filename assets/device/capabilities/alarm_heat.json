@@ -1,0 +1,13 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Heat Alarm",
+    "nl": "Hittealarm"
+  },
+  "desc": {
+    "en": "True when extreme heat has been detected",
+    "nl": "Gaat af als er extreme hitte gedetecteerd wordt"
+  },
+  "getable": true,
+  "setable": false
+}

@@ -1,0 +1,13 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Temperature",
+    "nl": "Kleurtemperatuur"
+  },
+  "min": 0,
+  "chartType": "stepLine",
+  "max": 1,
+  "decimals": 2,
+  "getable": true,
+  "setable": true
+}

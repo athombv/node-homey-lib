@@ -1,0 +1,29 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Light mode",
+    "nl": "Lamp modus"
+  },
+  "desc": {
+    "en": "Switch between Color or Temperature mode",
+    "nl": "Schakel tussen Kleur of Temperatuur modus"
+  },
+  "values": [
+    {
+      "id": "color",
+      "title": {
+        "en": "Color",
+        "nl": "Kleur"
+      }
+    },
+    {
+      "id": "temperature",
+      "title": {
+        "en": "Temperature",
+        "nl": "Temperatuur"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true
+}

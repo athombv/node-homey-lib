@@ -1,0 +1,13 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "CO Alarm",
+    "nl": "CO alarm"
+  },
+  "desc": {
+    "en": "True when dangerous CO values have been detected",
+    "nl": "Gaat af bij gevaarlijke concentraties CO"
+  },
+  "getable": true,
+  "setable": false
+}

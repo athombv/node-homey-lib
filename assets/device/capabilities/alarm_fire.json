@@ -1,0 +1,13 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Fire Alarm",
+    "nl": "Brandalarm"
+  },
+  "desc": {
+    "en": "True when fire has been detected",
+    "nl": "Gaat af als er brand gedetecteerd wordt"
+  },
+  "getable": true,
+  "setable": false
+}

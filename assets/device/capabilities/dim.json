@@ -1,0 +1,38 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Dim level",
+    "nl": "Dim niveau"
+  },
+  "chartType": "stepLine",
+  "min": 0,
+  "max": 1,
+  "decimals": 2,
+  "units": "%",
+  "getable": true,
+  "setable": true,
+  "$flow": {
+    "actions": [
+      {
+        "id": "dim",
+        "title": {
+          "en": "Dim to",
+          "nl": "Dim naar"
+        },
+        "args": [
+          {
+            "name": "dim",
+            "type": "range",
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "value": 0.5,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
+          }
+        ]
+      }
+    ]
+  }
+}

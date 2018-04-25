@@ -1,0 +1,9 @@
+{
+  "title": {
+    "en": "Volume up",
+    "nl": "Volume omhoog"
+  },
+  "type": "boolean",
+  "getable": false,
+  "setable": true
+}

@@ -1,0 +1,13 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Contact Alarm",
+    "nl": "Contact alarm"
+  },
+  "desc": {
+    "en": "Contact sensor, e.g. for windows (true/false)",
+    "nl": "Contact sensor, bijvoorbeeld voor ramen"
+  },
+  "getable": true,
+  "setable": false
+}

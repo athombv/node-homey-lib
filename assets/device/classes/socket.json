@@ -1,0 +1,13 @@
+{
+  "title": {
+    "en": "Wall Plug",
+    "nl": "Stopcontact schakelaar"
+  },
+  "allowedVirtual": [
+    "light",
+    "fan",
+    "heater",
+    "coffeemachine",
+    "kettle"
+  ]
+}

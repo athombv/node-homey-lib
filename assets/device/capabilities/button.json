@@ -1,0 +1,9 @@
+{
+  "title": {
+    "en": "Button",
+    "nl": "Knop"
+  },
+  "type": "boolean",
+  "getable": false,
+  "setable": true
+}

@@ -1,0 +1,9 @@
+{
+  "title": {
+    "en": "Previous",
+    "nl": "Vorige"
+  },
+  "type": "boolean",
+  "getable": false,
+  "setable": true
+}

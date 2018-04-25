@@ -1,0 +1,32 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Home Alarm state",
+    "nl": "Thuisalarm status"
+  },
+  "values": [
+    {
+      "id": "armed",
+      "title": {
+        "en": "Armed",
+        "nl": "Geactiveerd"
+      }
+    },
+    {
+      "id": "disarmed",
+      "title": {
+        "en": "Disarmed",
+        "nl": "Gedeactiveerd"
+      }
+    },
+    {
+      "id": "partially_armed",
+      "title": {
+        "en": "Partially armed",
+        "nl": "Deels geactiveerd"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true
+}

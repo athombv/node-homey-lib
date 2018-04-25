@@ -1,0 +1,32 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Lock mode",
+    "nl": "Slot modus"
+  },
+  "values": [
+    {
+      "id": "always_locked",
+      "title": {
+        "en": "Always locked",
+        "nl": "Altijd op slot"
+      }
+    },
+    {
+      "id": "always_unlocked",
+      "title": {
+        "en": "Always unlocked",
+        "nl": "Altijd open"
+      }
+    },
+    {
+      "id": "locked_until_unlock",
+      "title": {
+        "en": "Locked until unlocked",
+        "nl": "Op slot tot geopend"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true
+}

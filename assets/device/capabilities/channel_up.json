@@ -1,0 +1,9 @@
+{
+  "title": {
+    "en": "Channel up",
+    "nl": "Kanaal omhoog"
+  },
+  "type": "boolean",
+  "getable": false,
+  "setable": true
+}

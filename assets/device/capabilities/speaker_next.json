@@ -1,0 +1,9 @@
+{
+  "title": {
+    "en": "Next",
+    "nl": "Volgende"
+  },
+  "type": "boolean",
+  "getable": false,
+  "setable": true
+}

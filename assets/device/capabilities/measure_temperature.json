@@ -1,0 +1,18 @@
+{
+  "type": "number",
+  "desc": {
+    "en": "Temperature",
+    "nl": "Temperatuur"
+  },
+  "title": {
+    "en": "Temperature",
+    "nl": "Temperatuur"
+  },
+  "units": {
+    "en": "°C"
+  },
+  "decimals": 2,
+  "chartType": "spline",
+  "getable": true,
+  "setable": false
+}

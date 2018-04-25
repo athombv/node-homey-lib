@@ -1,0 +1,13 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Generic Alarm",
+    "nl": "Algemeen Alarm"
+  },
+  "desc": {
+    "en": "Generic alarm",
+    "nl": "Algemeen alarm"
+  },
+  "getable": true,
+  "setable": true
+}

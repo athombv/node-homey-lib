@@ -1,0 +1,18 @@
+{
+  "type": "number",
+  "title": {
+    "en": "CO2",
+    "nl": "CO2"
+  },
+  "units": {
+    "en": "ppm"
+  },
+  "desc": {
+    "en": "CO2 in Parts-per-million (ppm)",
+    "nl": "CO2 deeltjes per miljoen (ppm)"
+  },
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false
+}

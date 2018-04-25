@@ -1,0 +1,43 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Thermostat mode",
+    "nl": "Thermostaat modus"
+  },
+  "desc": {
+    "en": "Mode of the thermostat",
+    "nl": "Modus van de thermostaat"
+  },
+  "values": [
+    {
+      "id": "auto",
+      "title": {
+        "en": "Automatic",
+        "nl": "Automatisch"
+      }
+    },
+    {
+      "id": "heat",
+      "title": {
+        "en": "Heat",
+        "nl": "Verhitten"
+      }
+    },
+    {
+      "id": "cool",
+      "title": {
+        "en": "Cool",
+        "nl": "Koelen"
+      }
+    },
+    {
+      "id": "off",
+      "title": {
+        "en": "Off",
+        "nl": "Uit"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true
+}

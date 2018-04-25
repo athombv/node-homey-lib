@@ -1,0 +1,9 @@
+{
+  "title": {
+    "en": "Playing",
+    "nl": "Afspelen"
+  },
+  "type": "boolean",
+  "getable": true,
+  "setable": true
+}

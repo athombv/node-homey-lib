@@ -1,0 +1,18 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Rain",
+    "nl": "Regen"
+  },
+  "units": {
+    "en": "mm"
+  },
+  "desc": {
+    "en": "Rain in millimeter (mm)",
+    "nl": "Regen in millimeter (mm)"
+  },
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false
+}

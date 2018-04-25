@@ -1,0 +1,16 @@
+{
+  "type": "number",
+  "min": 4,
+  "max": 35,
+  "title": {
+    "en": "Target temperature",
+    "nl": "Ingestelde temperatuur"
+  },
+  "units": {
+    "en": "°C"
+  },
+  "chartType": "stepLine",
+  "decimals": 2,
+  "getable": true,
+  "setable": true
+}

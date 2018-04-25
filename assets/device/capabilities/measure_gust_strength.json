@@ -1,0 +1,18 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Gust Strength",
+    "nl": "Windstoot kracht"
+  },
+  "units": {
+    "en": "km/h"
+  },
+  "desc": {
+    "en": "Gust Strength n Kilometer per hour (km/h)",
+    "nl": "Windstoot snelheid in Kilometer per uur (km/u)"
+  },
+  "chartType": "stepLine",
+  "decimals": 2,
+  "getable": true,
+  "setable": false
+}

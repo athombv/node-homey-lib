@@ -1,0 +1,9 @@
+{
+  "title": {
+    "en": "Channel down",
+    "nl": "Kanaal omlaag"
+  },
+  "type": "boolean",
+  "getable": false,
+  "setable": true
+}

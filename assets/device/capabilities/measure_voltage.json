@@ -1,0 +1,18 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Voltage",
+    "nl": "Voltage"
+  },
+  "units": {
+    "en": "V"
+  },
+  "desc": {
+    "en": "Voltage (V)",
+    "nl": "Voltage (V)"
+  },
+  "chartType": "stepLine",
+  "decimals": 2,
+  "getable": true,
+  "setable": false
+}

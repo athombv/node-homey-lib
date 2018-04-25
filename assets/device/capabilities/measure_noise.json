@@ -1,0 +1,18 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Noise",
+    "nl": "Geluid"
+  },
+  "units": {
+    "en": "dB"
+  },
+  "desc": {
+    "en": "Noise in Decibel (db)",
+    "nl": "Geluid in Decibel (db)"
+  },
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false
+}

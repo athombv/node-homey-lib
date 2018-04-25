@@ -1,0 +1,18 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Pressure",
+    "nl": "Druk"
+  },
+  "units": {
+    "en": "mbar"
+  },
+  "desc": {
+    "en": "Pressure in millibar (mbar)",
+    "nl": "Druk in millibar (mbar)"
+  },
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false
+}

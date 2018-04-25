@@ -1,0 +1,31 @@
+{
+  "title": {
+    "en": "Window Coverings state"
+  },
+  "type": "enum",
+  "values": [
+    {
+      "id": "up",
+      "title": {
+        "en": "Up",
+        "nl": "Omhoog"
+      }
+    },
+    {
+      "id": "idle",
+      "title": {
+        "en": "Idle",
+        "nl": "Stil"
+      }
+    },
+    {
+      "id": "down",
+      "title": {
+        "en": "Down",
+        "nl": "Omlaag"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true
+}

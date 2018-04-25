@@ -1,0 +1,13 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "CO2 Alarm",
+    "nl": "CO2 Alarm"
+  },
+  "desc": {
+    "en": "True when dangerous CO2 values have been detected",
+    "nl": "Gaat af bij gevaarlijke concentraties CO2"
+  },
+  "getable": true,
+  "setable": false
+}

@@ -1,0 +1,9 @@
+{
+  "title": {
+    "en": "Volume down",
+    "nl": "Volume omlaag"
+  },
+  "type": "boolean",
+  "getable": false,
+  "setable": true
+}

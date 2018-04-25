@@ -1,0 +1,13 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Locked",
+    "nl": "Op slot"
+  },
+  "desc": {
+    "en": "True when the lock is locked",
+    "nl": "Geeft aan wanneer iets op slot is"
+  },
+  "getable": true,
+  "setable": true
+}

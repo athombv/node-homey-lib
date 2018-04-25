@@ -1,0 +1,11 @@
+{
+  "title": {
+    "en": "Window Coverings Tilt Set"
+  },
+  "type": "number",
+  "min": 0,
+  "max": 1,
+  "decimals": 2,
+  "getable": true,
+  "setable": true
+}

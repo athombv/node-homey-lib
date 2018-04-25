@@ -1,0 +1,18 @@
+{
+  "type": "number",
+  "title": {
+    "en": "PM2.5",
+    "nl": "PM2.5"
+  },
+  "units": {
+    "en": "ppm"
+  },
+  "desc": {
+    "en": "Atmospheric Particulate Matter (μg/m3)",
+    "nl": "Deeltjesvormige luchtverontreiniging (μg/m3)"
+  },
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false
+}

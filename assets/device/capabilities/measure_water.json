@@ -1,0 +1,18 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Water flow",
+    "nl": "Waterdoorstroming"
+  },
+  "units": {
+    "en": "L/min"
+  },
+  "desc": {
+    "en": "Water flow in Liters per minute (L/min)",
+    "nl": "Waterdoorstroming in Liters per minuut (L/min)"
+  },
+  "chartType": "stepLine",
+  "decimals": 2,
+  "getable": true,
+  "setable": false
+}

@@ -1,0 +1,8 @@
+{
+  "title": {
+    "en": "Window Coverings Tilt Up"
+  },
+  "type": "boolean",
+  "getable": false,
+  "setable": true
+}

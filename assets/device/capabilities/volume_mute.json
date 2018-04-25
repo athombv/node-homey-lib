@@ -1,0 +1,9 @@
+{
+  "title": {
+    "en": "Mute volume",
+    "nl": "Volume dempen"
+  },
+  "type": "boolean",
+  "getable": true,
+  "setable": true
+}
