@@ -1,0 +1,93 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Thermostat mode",
+    "nl": "Thermostaat modus"
+  },
+  "desc": {
+    "en": "Mode of the thermostat",
+    "nl": "Modus van de thermostaat"
+  },
+  "values": [
+    {
+      "id": "auto",
+      "title": {
+        "en": "Automatic",
+        "nl": "Automatisch"
+      }
+    },
+    {
+      "id": "heat",
+      "title": {
+        "en": "Heat",
+        "nl": "Verhitten"
+      }
+    },
+    {
+      "id": "cool",
+      "title": {
+        "en": "Cool",
+        "nl": "Koelen"
+      }
+    },
+    {
+      "id": "off",
+      "title": {
+        "en": "Off",
+        "nl": "Uit"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "thermostat_mode_changed",
+        "title": {
+          "en": "Thermostat mode has changed",
+          "nl": "Thermostaat modus is veranderd"
+        },
+        "args": [
+          {
+            "name": "thermostat_mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "thermostat_mode_is",
+        "title": {
+          "en": "Thermostat mode is",
+          "nl": "Thermostaat modus is"
+        },
+        "args": [
+          {
+            "name": "thermostat_mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "thermostat_mode_set",
+        "title": {
+          "en": "Set the mode",
+          "nl": "Stel de modus in"
+        },
+        "args": [
+          {
+            "name": "thermostat_mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

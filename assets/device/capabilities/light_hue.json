@@ -1,0 +1,37 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Hue",
+    "nl": "Hue"
+  },
+  "min": 0,
+  "chartType": "stepLine",
+  "max": 1,
+  "decimals": 2,
+  "getable": true,
+  "setable": true,
+  "$flow": {
+    "actions": [
+      {
+        "id": "hue",
+        "title": {
+          "en": "Set the hue",
+          "nl": "Verander kleurtint"
+        },
+        "args": [
+          {
+            "name": "hue",
+            "type": "range",
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "value": 0,
+            "label": "°",
+            "labelMultiplier": 360,
+            "labelDecimals": 0
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": {
+    "en": "Next",
+    "nl": "Volgende"
+  },
+  "type": "boolean",
+  "getable": false,
+  "setable": true,
+  "$flow": {
+    "actions": [
+      {
+        "id": "next",
+        "title": {
+          "en": "Next",
+          "nl": "Volgende"
+        }
+      }
+    ]
+  }
+}

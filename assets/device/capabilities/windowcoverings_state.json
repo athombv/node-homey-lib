@@ -1,0 +1,81 @@
+{
+  "title": {
+    "en": "Window Coverings state"
+  },
+  "type": "enum",
+  "values": [
+    {
+      "id": "up",
+      "title": {
+        "en": "Up",
+        "nl": "Omhoog"
+      }
+    },
+    {
+      "id": "idle",
+      "title": {
+        "en": "Idle",
+        "nl": "Stil"
+      }
+    },
+    {
+      "id": "down",
+      "title": {
+        "en": "Down",
+        "nl": "Omlaag"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "windowcoverings_state_changed",
+        "title": {
+          "en": "The state changed",
+          "nl": "De status is veranderd"
+        },
+        "args": [
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "windowcoverings_state_is",
+        "title": {
+          "en": "The state is !{{|not}}",
+          "nl": "De status is !{{|niet}}"
+        },
+        "args": [
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_windowcoverings_state",
+        "title": {
+          "en": "Set state",
+          "nl": "Zet de status"
+        },
+        "args": [
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

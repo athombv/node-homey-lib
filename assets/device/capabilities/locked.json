@@ -1,0 +1,56 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Locked",
+    "nl": "Op slot"
+  },
+  "desc": {
+    "en": "True when the lock is locked",
+    "nl": "Geeft aan wanneer iets op slot is"
+  },
+  "getable": true,
+  "setable": true,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "locked_true",
+        "title": {
+          "en": "A lock just locked",
+          "nl": "Een slot werd vergrendeld"
+        }
+      },
+      {
+        "id": "locked_false",
+        "title": {
+          "en": "A lock just unlocked",
+          "nl": "Een slot werd ontgrendeld"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "locked",
+        "title": {
+          "en": "A lock is !{{locked|unlocked}}",
+          "nl": "Een slot is !{{vergrendeld|ontgrendeld}}"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "lock",
+        "title": {
+          "en": "Lock",
+          "nl": "Vergrendel"
+        }
+      },
+      {
+        "id": "unlock",
+        "title": {
+          "en": "Unlock",
+          "nl": "Ontgrendel"
+        }
+      }
+    ]
+  }
+}

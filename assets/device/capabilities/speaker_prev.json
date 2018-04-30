@@ -1,0 +1,20 @@
+{
+  "title": {
+    "en": "Previous",
+    "nl": "Vorige"
+  },
+  "type": "boolean",
+  "getable": false,
+  "setable": true,
+  "$flow": {
+    "actions": [
+      {
+        "id": "prev",
+        "title": {
+          "en": "Previous",
+          "nl": "Vorige"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Humidity",
+    "nl": "Luchtvochtigheid"
+  },
+  "units": {
+    "en": "%"
+  },
+  "desc": {
+    "en": "Humidity in percent (%)",
+    "nl": "Relatieve luchtvochtigheid (%)"
+  },
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_humidity_changed",
+        "title": {
+          "en": "The humidity changed",
+          "nl": "De luchtvochtigheid is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 35
+          }
+        ]
+      }
+    ]
+  }
+}

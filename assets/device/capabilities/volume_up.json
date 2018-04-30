@@ -1,0 +1,20 @@
+{
+  "title": {
+    "en": "Volume up",
+    "nl": "Volume omhoog"
+  },
+  "type": "boolean",
+  "getable": false,
+  "setable": true,
+  "$flow": {
+    "actions": [
+      {
+        "id": "volume_up",
+        "title": {
+          "en": "Turn the volume up",
+          "nl": "Zet het geluid harder"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Rain Meter",
+    "nl": "Regenmeter"
+  },
+  "units": {
+    "en": "m³"
+  },
+  "chartType": "spline",
+  "desc": {
+    "en": "Rain in Cubic Meter (m³)",
+    "nl": "Regen in Kubieke Meter (m³)"
+  },
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "meter_rain_changed",
+        "title": {
+          "en": "The rain meter changed",
+          "nl": "De regenmeter is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 1
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Color Temperature",
+    "nl": "Kleurtemperatuur"
+  },
+  "min": 0,
+  "chartType": "stepLine",
+  "max": 1,
+  "decimals": 2,
+  "getable": true,
+  "setable": true,
+  "$flow": {
+    "actions": [
+      {
+        "id": "temperature",
+        "title": {
+          "en": "Set a temperature",
+          "nl": "Verander naar temperatuur"
+        },
+        "args": [
+          {
+            "name": "temperature",
+            "type": "range",
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "value": 0.5,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
+          }
+        ],
+        "hint": {
+          "en": "Adjusts the temperature of the light. A higher value means a warmer color.",
+          "nl": "Verander de temperatuur van de lamp. Een hogere waarde betekent een warmere kleur."
+        }
+      }
+    ]
+  }
+}

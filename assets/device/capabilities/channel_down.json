@@ -1,0 +1,20 @@
+{
+  "title": {
+    "en": "Channel down",
+    "nl": "Kanaal omlaag"
+  },
+  "type": "boolean",
+  "getable": false,
+  "setable": true,
+  "$flow": {
+    "actions": [
+      {
+        "id": "channel_down",
+        "title": {
+          "en": "One channel down",
+          "nl": "Eén kanaal omlaag"
+        }
+      }
+    ]
+  }
+}

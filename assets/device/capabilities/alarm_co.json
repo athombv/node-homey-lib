@@ -1,0 +1,40 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "CO Alarm",
+    "nl": "CO alarm"
+  },
+  "desc": {
+    "en": "True when dangerous CO values have been detected",
+    "nl": "Gaat af bij gevaarlijke concentraties CO"
+  },
+  "getable": true,
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_co_true",
+        "title": {
+          "en": "The CO alarm turned on",
+          "nl": "Het CO alarm gaat aan"
+        }
+      },
+      {
+        "id": "alarm_co_false",
+        "title": {
+          "en": "The CO alarm turned off",
+          "nl": "Het CO alarm gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_co",
+        "title": {
+          "en": "The CO alarm is !{{on|off}}",
+          "nl": "Het CO alarm is !{{aan|uit}}"
+        }
+      }
+    ]
+  }
+}

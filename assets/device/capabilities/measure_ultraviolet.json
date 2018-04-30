@@ -1,0 +1,36 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Ultraviolet",
+    "nl": "Ultraviolet"
+  },
+  "units": {
+    "en": "UVI"
+  },
+  "desc": {
+    "en": "Ultraviolet in UV index (UVI)"
+  },
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_ultraviolet_changed",
+        "title": {
+          "en": "The ultraviolet value changed",
+          "nl": "De ultraviolet waarde is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 100
+          }
+        ]
+      }
+    ]
+  }
+}

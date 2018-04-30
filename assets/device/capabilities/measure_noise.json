@@ -1,0 +1,37 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Noise",
+    "nl": "Geluid"
+  },
+  "units": {
+    "en": "dB"
+  },
+  "desc": {
+    "en": "Noise in Decibel (db)",
+    "nl": "Geluid in Decibel (db)"
+  },
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_noise_changed",
+        "title": {
+          "en": "The noise changed",
+          "nl": "Het geluidsniveau is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 43
+          }
+        ]
+      }
+    ]
+  }
+}

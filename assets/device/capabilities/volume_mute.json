@@ -1,0 +1,27 @@
+{
+  "title": {
+    "en": "Volume muted",
+    "nl": "Gedempt volume"
+  },
+  "type": "boolean",
+  "getable": true,
+  "setable": true,
+  "$flow": {
+    "actions": [
+      {
+        "id": "volume_mute",
+        "title": {
+          "en": "Mute the volume",
+          "nl": "Demp het geluid"
+        }
+      },
+      {
+        "id": "volume_unmute",
+        "title": {
+          "en": "Unmute the volume",
+          "nl": "Demp het geluid niet meer"
+        }
+      }
+    ]
+  }
+}

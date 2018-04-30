@@ -1,0 +1,40 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Water Alarm",
+    "nl": "Wateralarm"
+  },
+  "desc": {
+    "en": "True when water has been detected",
+    "nl": "Gaat af als er water gedetecteerd wordt"
+  },
+  "getable": true,
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_water_true",
+        "title": {
+          "en": "The water alarm turned on",
+          "nl": "Het wateralarm gaat aan"
+        }
+      },
+      {
+        "id": "alarm_water_false",
+        "title": {
+          "en": "The water alarm turned off",
+          "nl": "Het wateralarm gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_water",
+        "title": {
+          "en": "The water alarm is !{{on|off}}",
+          "nl": "Het wateralarm is !{{aan|uit}}"
+        }
+      }
+    ]
+  }
+}
