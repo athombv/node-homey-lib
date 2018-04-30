@@ -364,7 +364,8 @@
 		"id",
 		"name",
 		"version",
-		"compatibility"
+		"compatibility",
+		"author"
 	],
 	"requiredPublish": [
 		"category",
