@@ -261,6 +261,9 @@
 							"value": {
 								"type": "number"
 							},
+							"units": {
+								"$ref": "#/definitions/i18nObject"
+							},
 							"attr": {
 								"type": "object",
 								"properties": {
