@@ -1,0 +1,40 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Smoke Alarm",
+    "nl": "Rookmelder"
+  },
+  "desc": {
+    "en": "True when smoke has been detected",
+    "nl": "Gaat af als er rook gedetecteerd wordt"
+  },
+  "getable": true,
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_smoke_true",
+        "title": {
+          "en": "The smoke alarm turned on",
+          "nl": "De rookmelder gaat aan"
+        }
+      },
+      {
+        "id": "alarm_smoke_false",
+        "title": {
+          "en": "The smoke alarm turned off",
+          "nl": "De rookmelder gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_smoke",
+        "title": {
+          "en": "The smoke alarm is !{{on|off}}",
+          "nl": "De rookmelder is !{{aan|uit}}"
+        }
+      }
+    ]
+  }
+}

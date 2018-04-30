@@ -1,0 +1,40 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "CO2 Alarm",
+    "nl": "CO2 Alarm"
+  },
+  "desc": {
+    "en": "True when dangerous CO2 values have been detected",
+    "nl": "Gaat af bij gevaarlijke concentraties CO2"
+  },
+  "getable": true,
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_co2_true",
+        "title": {
+          "en": "The CO2 alarm turned on",
+          "nl": "Het CO2 alarm gaat aan"
+        }
+      },
+      {
+        "id": "alarm_co2_false",
+        "title": {
+          "en": "The CO2 alarm turned off",
+          "nl": "Het CO2 alarm gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_co2",
+        "title": {
+          "en": "The CO2 alarm is !{{on|off}}",
+          "nl": "Het CO2 alarm is !{{aan|uit}}"
+        }
+      }
+    ]
+  }
+}

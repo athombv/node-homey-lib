@@ -1,0 +1,40 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Battery Alarm",
+    "nl": "Batterij alarm"
+  },
+  "desc": {
+    "en": "True when there is a battery warning",
+    "nl": "Geeft een batterijwaarschuwing"
+  },
+  "getable": true,
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_battery_true",
+        "title": {
+          "en": "The battery alarm turned on",
+          "nl": "De batterijwaarschuwing gaat aan"
+        }
+      },
+      {
+        "id": "alarm_battery_false",
+        "title": {
+          "en": "The battery alarm turned off",
+          "nl": "De batterijwaarschuwing gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_battery",
+        "title": {
+          "en": "The battery alarm is !{{on|off}}",
+          "nl": "De batterijwaarschuwing is !{{aan|uit}}"
+        }
+      }
+    ]
+  }
+}

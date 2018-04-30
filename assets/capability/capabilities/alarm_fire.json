@@ -1,0 +1,40 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Fire Alarm",
+    "nl": "Brandalarm"
+  },
+  "desc": {
+    "en": "True when fire has been detected",
+    "nl": "Gaat af als er brand gedetecteerd wordt"
+  },
+  "getable": true,
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_fire_true",
+        "title": {
+          "en": "The fire alarm turned on",
+          "nl": "Het brandalarm gaat aan"
+        }
+      },
+      {
+        "id": "alarm_fire_false",
+        "title": {
+          "en": "The fire alarm turned off",
+          "nl": "Het brandalarm gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_fire",
+        "title": {
+          "en": "The fire alarm is !{{on|off}}",
+          "nl": "Het brandalarm is !{{aan|uit}}"
+        }
+      }
+    ]
+  }
+}

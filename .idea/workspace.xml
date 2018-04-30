@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="decddad6-de13-489c-a9fa-a6b40d014c10" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/alarm_battery.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/alarm_battery.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/alarm_co.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/alarm_co.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/alarm_co2.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/alarm_co2.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/alarm_contact.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/alarm_contact.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/alarm_fire.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/alarm_fire.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/alarm_generic.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/alarm_generic.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/alarm_heat.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/alarm_heat.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/alarm_motion.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/alarm_motion.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/alarm_night.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/alarm_night.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/alarm_pm25.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/alarm_pm25.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/alarm_smoke.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/alarm_smoke.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/alarm_tamper.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/alarm_tamper.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/alarm_water.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/alarm_water.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/button.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/button.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/channel_down.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/channel_down.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/channel_up.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/channel_up.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/homealarm_state.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/homealarm_state.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/lock_mode.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/lock_mode.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/locked.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/locked.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/measure_battery.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/measure_battery.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/measure_co.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/measure_co.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/measure_co2.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/measure_co2.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/measure_current.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/measure_current.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/measure_gust_angle.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/measure_gust_angle.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/measure_gust_strength.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/measure_gust_strength.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/measure_humidity.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/measure_humidity.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/measure_luminance.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/measure_luminance.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/measure_noise.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/measure_noise.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/measure_pm25.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/measure_pm25.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/measure_power.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/measure_power.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/measure_pressure.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/measure_pressure.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/measure_rain.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/measure_rain.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/measure_temperature.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/measure_temperature.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/measure_ultraviolet.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/measure_ultraviolet.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/measure_voltage.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/measure_voltage.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/measure_water.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/measure_water.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/measure_wind_angle.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/measure_wind_angle.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/measure_wind_strength.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/measure_wind_strength.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/meter_gas.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/meter_gas.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/meter_power.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/meter_power.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/meter_rain.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/meter_rain.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/meter_water.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/meter_water.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/speaker_next.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/speaker_next.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/speaker_playing.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/speaker_playing.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/speaker_prev.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/speaker_prev.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/target_temperature.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/target_temperature.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/thermostat_mode.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/thermostat_mode.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/vacuumcleaner_state.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/vacuumcleaner_state.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/volume_down.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/volume_down.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/volume_mute.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/volume_mute.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/volume_set.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/volume_set.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/volume_up.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/volume_up.json" />
+      <change beforePath="$PROJECT_DIR$/assets/device/capabilities/windowcoverings_state.json" afterPath="$PROJECT_DIR$/assets/device/capabilities/windowcoverings_state.json" />
+      <change beforePath="$PROJECT_DIR$/lib/Device/index.js" afterPath="$PROJECT_DIR$/lib/Device/index.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>meter_power</find>
+      <find>dim_relative</find>
+      <find>locked_true</find>
+      <find>alarm_battery</find>
+      <find>alarm_contact</find>
+      <find>alarm_fire</find>
+      <find>alarm_generic</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>alarm_co</replace>
+      <replace>alarm_contact</replace>
+      <replace>alarm_smoke</replace>
+      <replace>alarm_fire</replace>
+      <replace>alarm_heat</replace>
+      <replace>alarm_motion</replace>
+      <replace>alarm_night</replace>
+      <replace>alarm_pm25</replace>
+      <replace>alarm_water</replace>
+      <replace>alarm_tamper</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/assets/device/capabilities/volume_down.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/volume_mute.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/button.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/homealarm_state.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/lock_mode.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/locked.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/windowcoverings_state.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/channel_up.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/channel_down.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/measure_temperature.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/thermostat_mode.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/speaker_playing.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/vacuumcleaner_state.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/target_temperature.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/speaker_prev.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/speaker_next.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/alarm_generic.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/alarm_contact.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/alarm_co.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/alarm_co2.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/alarm_smoke.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/alarm_battery.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/alarm_fire.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/alarm_heat.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/alarm_motion.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/alarm_night.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/alarm_pm25.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/alarm_water.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/alarm_tamper.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/measure_co.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/measure_battery.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/measure_co2.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/measure_current.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/measure_gust_angle.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/measure_gust_strength.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/measure_humidity.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/measure_luminance.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/measure_noise.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/measure_pm25.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/measure_power.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/measure_pressure.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/measure_rain.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/measure_ultraviolet.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/measure_voltage.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/measure_water.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/measure_wind_strength.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/measure_wind_angle.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/meter_gas.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/meter_power.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/meter_rain.json" />
+        <option value="$PROJECT_DIR$/assets/device/capabilities/meter_water.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="1058" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="node-homey-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-homey-lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-homey-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-homey-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-homey-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-homey-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="device" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node-homey-lib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node-homey-lib" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="device" type="462c0819:PsiDirectoryNode" />
+              <item name="capabilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="decddad6-de13-489c-a9fa-a6b40d014c10" name="Default" comment="" />
+      <created>1524659100511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524659100511</updated>
+      <workItem from="1524659101594" duration="66000" />
+      <workItem from="1524659214925" duration="9734000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9800000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="22" width="1920" height="1058" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18697916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/channel_up.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/volume_set.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/lock_mode.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="63" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/vacuumcleaner_state.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="4" lean-forward="false" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/target_temperature.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/speaker_next.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/speaker_prev.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/speaker_playing.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/thermostat_mode.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="61" column="33" lean-forward="false" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/alarm_contact.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/alarm_co.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/alarm_co2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/alarm_battery.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/alarm_fire.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="3" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="38" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/alarm_heat.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/alarm_motion.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/alarm_night.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/alarm_pm25.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/alarm_water.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/alarm_tamper.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/alarm_smoke.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/measure_co.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/measure_co2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/measure_current.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/measure_gust_angle.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/measure_gust_strength.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/measure_humidity.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/measure_noise.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/measure_pm25.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/measure_power.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/measure_pressure.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/measure_rain.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/measure_ultraviolet.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/measure_voltage.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/measure_water.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/measure_wind_strength.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="3" lean-forward="false" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/measure_wind_angle.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/measure_luminance.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/measure_temperature.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/meter_gas.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/meter_power.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/meter_rain.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/meter_water.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/measure_battery.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="3" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="37" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/alarm_generic.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="38" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/light_hue.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/light_mode.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/light_saturation.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/light_temperature.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/onoff.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/device/capabilities/windowcoverings_tilt_down.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

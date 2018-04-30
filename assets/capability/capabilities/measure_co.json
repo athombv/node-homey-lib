@@ -1,0 +1,37 @@
+{
+  "type": "number",
+  "title": {
+    "en": "CO",
+    "nl": "CO"
+  },
+  "units": {
+    "en": "ppm"
+  },
+  "desc": {
+    "en": "CO in Parts-per-million (ppm)",
+    "nl": "CO deeltjes per miljoen (ppm)"
+  },
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_co_changed",
+        "title": {
+          "en": "The CO-level changed",
+          "nl": "Het CO niveau is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 20
+          }
+        ]
+      }
+    ]
+  }
+}

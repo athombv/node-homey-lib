@@ -1,0 +1,33 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Temperature",
+    "nl": "Temperatuur"
+  },
+  "units": {
+    "en": "°C"
+  },
+  "decimals": 2,
+  "chartType": "spline",
+  "getable": true,
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_temperature_changed",
+        "title": {
+          "en": "The temperature changed",
+          "nl": "De temperatuur is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 23.5
+          }
+        ]
+      }
+    ]
+  }
+}

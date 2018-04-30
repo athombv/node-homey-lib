@@ -1,6 +1,6 @@
 'use strict';
 
-const Device = require('..').Device;
+const HomeyLib = require('..');
 
-console.log('Classes:', Object.keys(Device.getClasses()));
-console.log('Capabilities:', Object.keys(Device.getCapabilities()));
+console.log('Device Classes:', Object.keys(HomeyLib.getDeviceClasses()));
+console.log('Capabilities:', Object.keys(HomeyLib.getCapabilities()));

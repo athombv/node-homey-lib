@@ -1,0 +1,40 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Generic Alarm",
+    "nl": "Algemeen Alarm"
+  },
+  "desc": {
+    "en": "Generic alarm",
+    "nl": "Algemeen alarm"
+  },
+  "getable": true,
+  "setable": true,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_generic_true",
+        "title": {
+          "en": "The generic alarm turned on",
+          "nl": "Het algemene alarm gaat aan"
+        }
+      },
+      {
+        "id": "alarm_generic_false",
+        "title": {
+          "en": "The generic alarm turned on",
+          "nl": "Het algemene alarm gaat aan"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_generic",
+        "title": {
+          "en": "The generic alarm is !{{on|off}}",
+          "nl": "Het algemene alarm is !{{aan|uit}}"
+        }
+      }
+    ]
+  }
+}

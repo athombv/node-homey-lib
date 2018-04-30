@@ -1,0 +1,39 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Battery",
+    "nl": "Accuniveau"
+  },
+  "units": {
+    "en": "%"
+  },
+  "min": 0,
+  "max": 100,
+  "desc": {
+    "en": "Battery charge in percentage (%)",
+    "nl": "Accuniveau in procenten (%)"
+  },
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_battery_changed",
+        "title": {
+          "en": "The battery level changed",
+          "nl": "Het accuniveau is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 99
+          }
+        ]
+      }
+    ]
+  }
+}

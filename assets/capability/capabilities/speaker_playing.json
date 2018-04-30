@@ -1,0 +1,27 @@
+{
+  "title": {
+    "en": "Playing",
+    "nl": "Afspelen"
+  },
+  "type": "boolean",
+  "getable": true,
+  "setable": true,
+  "$flow": {
+    "actions": [
+      {
+        "id": "play",
+        "title": {
+          "en": "Play",
+          "nl": "Speel af"
+        }
+      },
+      {
+        "id": "pause",
+        "title": {
+          "en": "Pause",
+          "nl": "Pauzeer"
+        }
+      }
+    ]
+  }
+}

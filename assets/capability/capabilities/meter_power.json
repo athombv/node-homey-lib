@@ -1,0 +1,37 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Power Meter",
+    "nl": "Energiemeter"
+  },
+  "decimals": 2,
+  "units": {
+    "en": "KWh"
+  },
+  "chartType": "spline",
+  "desc": {
+    "en": "Power usage in KiloWattHour (kWh)",
+    "nl": "Stroomverbuik in KiloWattUur (kWh)"
+  },
+  "getable": true,
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "meter_power_changed",
+        "title": {
+          "en": "The power meter changed",
+          "nl": "De stroommeter is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 25
+          }
+        ]
+      }
+    ]
+  }
+}

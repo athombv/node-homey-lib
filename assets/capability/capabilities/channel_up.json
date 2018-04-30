@@ -1,0 +1,20 @@
+{
+  "title": {
+    "en": "Channel up",
+    "nl": "Kanaal omhoog"
+  },
+  "type": "boolean",
+  "getable": false,
+  "setable": true,
+  "$flow": {
+    "actions": [
+      {
+        "id": "channel_up",
+        "title": {
+          "en": "One channel up",
+          "nl": "Eén kanaal omhoog"
+        }
+      }
+    ]
+  }
+}

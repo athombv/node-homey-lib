@@ -1,0 +1,75 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Turned on",
+    "nl": "Aangezet"
+  },
+  "getable": true,
+  "setable": true,
+  "options": {
+    "setOnDim": {
+      "type": "boolean",
+      "default": true,
+      "desc": {
+        "en": "When a device has both an `onoff` and `dim` capability, and Homey wants to turn the device on AND to a specific dim value, set this capability to `false` to prevent Homey from sending a set command."
+      }
+    },
+    "greyout": {
+      "type": "boolean",
+      "default": false,
+      "desc": {
+        "en": "When this capability is false, give a visual hint to greyout the device."
+      }
+    }
+  },
+  "$flow": {
+    "triggers": [
+      {
+        "id": "onoff_true",
+        "title": {
+          "en": "Turned on",
+          "nl": "Aangezet "
+        }
+      },
+      {
+        "id": "onoff_false",
+        "title": {
+          "en": "Turned off",
+          "nl": "Uitgezet"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "on",
+        "title": {
+          "en": "Is turned !{{on|off}}",
+          "nl": "Is !{{aan|uit}}"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "on",
+        "title": {
+          "en": "Turn on",
+          "nl": "Zet aan"
+        }
+      },
+      {
+        "id": "off",
+        "title": {
+          "en": "Turn off",
+          "nl": "Zet uit"
+        }
+      },
+      {
+        "id": "toggle",
+        "title": {
+          "en": "Toggle on or off",
+          "nl": "Schakel aan of uit"
+        }
+      }
+    ]
+  }
+}

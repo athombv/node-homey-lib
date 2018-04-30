@@ -1,0 +1,37 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Pressure",
+    "nl": "Druk"
+  },
+  "units": {
+    "en": "mbar"
+  },
+  "desc": {
+    "en": "Pressure in millibar (mbar)",
+    "nl": "Druk in millibar (mbar)"
+  },
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_pressure_changed",
+        "title": {
+          "en": "The pressure changed",
+          "nl": "De druk is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 1000
+          }
+        ]
+      }
+    ]
+  }
+}

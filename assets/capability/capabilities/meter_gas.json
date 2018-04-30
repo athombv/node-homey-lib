@@ -1,0 +1,38 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Gas Meter",
+    "nl": "Gasmeter"
+  },
+  "min": 0,
+  "decimals": 2,
+  "chartType": "spline",
+  "units": {
+    "en": "m³"
+  },
+  "desc": {
+    "en": "Gas usage in Cubic Meter (m³)",
+    "nl": "Gas gebruik in Kubieke Meter (m³)"
+  },
+  "getable": true,
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "meter_gas_changed",
+        "title": {
+          "en": "The gas meter changed",
+          "nl": "De gasmeter is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 25
+          }
+        ]
+      }
+    ]
+  }
+}

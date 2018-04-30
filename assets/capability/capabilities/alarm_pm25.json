@@ -1,0 +1,40 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "PM2.5 Alarm",
+    "nl": "PM2.5 Alarm"
+  },
+  "desc": {
+    "en": "True when PM2.5 values exceeds threshold",
+    "nl": "Gaat af wanneer de PM2.5 waarde overschreden wordt"
+  },
+  "getable": true,
+  "setable": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_pm25_true",
+        "title": {
+          "en": "The PM2.5 alarm turned on",
+          "nl": "Het PM2.5 gaat aan"
+        }
+      },
+      {
+        "id": "alarm_pm25_false",
+        "title": {
+          "en": "The PM2.5 alarm turned off",
+          "nl": "Het PM2.5 gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_pm25",
+        "title": {
+          "en": "The PM2.5 alarm is !{{on|off}}",
+          "nl": "Het PM2.5 alarm is !{{aan|uit}}"
+        }
+      }
+    ]
+  }
+}
