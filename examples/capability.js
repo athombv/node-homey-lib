@@ -1,7 +1,7 @@
 'use strict';
 
-const Device = require('..').Device;
+const HomeyLib = require('..');
 
-const capabilities = Device.getCapabilities();
+const capabilities = HomeyLib.getCapabilities();
 const capabilityId = process.argv[2] || 'onoff';
 console.log(JSON.stringify({ [capabilityId]: capabilities[capabilityId] }, false, 2))
