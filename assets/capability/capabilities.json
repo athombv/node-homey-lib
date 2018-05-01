@@ -57,6 +57,7 @@
   "windowcoverings_tilt_up",
   "windowcoverings_tilt_down",
   "windowcoverings_tilt_set",
+  "windowcoverings_closed",
   "button",
   "speaker_playing",
   "speaker_next",
