@@ -2,5 +2,8 @@
   "title": {
     "en": "Lock",
     "nl": "Slot"
+  },
+  "description": {
+    "en": "Use this device class for lock devices, usually together with the `locked` and `lock_mode` capabilities."
   }
 }
