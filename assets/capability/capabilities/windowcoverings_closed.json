@@ -25,7 +25,7 @@
     ],
     "conditions": [
       {
-        "id": "on",
+        "id": "closed",
         "title": {
           "en": "Are !{{closed|opened}}",
           "nl": "Zijn !{{gesloten|geopend}}"

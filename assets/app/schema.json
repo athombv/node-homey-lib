@@ -44,7 +44,7 @@
 				"website": {
 					"type": "string"
 				}
-			}		
+			}
 		},
 		"images": {
 			"required": [ "large", "small" ],
@@ -137,7 +137,7 @@
 									"filter": {
 										"oneOf": [
 											{
-												"type": "string"										
+												"type": "string"
 											},
 											{
 												"type": "object"
@@ -156,7 +156,7 @@
 									"type": {
 										"type": "string",
 										"enum": [ "number", "range" ]
-									},	
+									},
 									"min": {
 										"type": "number"
 									},
@@ -166,7 +166,7 @@
 									"step": {
 										"type": "number",
 										"minimum": 0
-									},	
+									},
 									"label": {
 										"$ref": "#/definitions/i18nObject"
 									},
@@ -177,7 +177,7 @@
 										"type": "number",
 										"mimimum": 0,
 										"maximum": 10
-									}					
+									}
 								}
 							},
 							{
@@ -231,13 +231,16 @@
 								"$ref": "#/definitions/i18nObject"
 							},
 							"hint": {
-								"$ref": "#/definitions/i18nObject"							
+								"$ref": "#/definitions/i18nObject"
 							},
 							"value": {
 								"type": "string"
 							},
 							"pattern": {
 								"type": "string"
+							},
+							"zwave": {
+								"$ref": "#/definitions/zwaveSetting"
 							}
 						}
 					},
@@ -256,7 +259,7 @@
 								"$ref": "#/definitions/i18nObject"
 							},
 							"hint": {
-								"$ref": "#/definitions/i18nObject"							
+								"$ref": "#/definitions/i18nObject"
 							},
 							"value": {
 								"type": "number"
@@ -278,6 +281,9 @@
 										"minimum": 0
 									}
 								}
+							},
+							"zwave": {
+								"$ref": "#/definitions/zwaveSetting"
 							}
 						}
 					},
@@ -296,7 +302,7 @@
 								"$ref": "#/definitions/i18nObject"
 							},
 							"hint": {
-								"$ref": "#/definitions/i18nObject"							
+								"$ref": "#/definitions/i18nObject"
 							},
 							"value": {
 								"type": "string"
@@ -315,6 +321,9 @@
 										}
 									}
 								}
+							},
+							"zwave": {
+								"$ref": "#/definitions/zwaveSetting"
 							}
 						}
 					},
@@ -333,10 +342,13 @@
 								"$ref": "#/definitions/i18nObject"
 							},
 							"hint": {
-								"$ref": "#/definitions/i18nObject"							
+								"$ref": "#/definitions/i18nObject"
 							},
 							"value": {
 								"type": "boolean"
+							},
+							"zwave": {
+								"$ref": "#/definitions/zwaveSetting"
 							}
 						}
 					},
@@ -353,10 +365,160 @@
 							},
 							"children": {
 								"$ref": "#/definitions/driverSettings"
+							},
+							"zwave": {
+								"$ref": "#/definitions/zwaveSetting"
 							}
-						}					
-					}				
+						}
+					}
 				]
+			}
+		},
+		"zwaveDevice": {
+			"type": "object",
+			"required": ["manufacturerId", "productTypeId", "productId"],
+			"properties": {
+				"manufacturerId": {
+					"type": "number"
+				},
+				"productTypeId": {
+					"oneOf": [
+						{
+							"type": "number"
+						},
+						{
+							"type": "array",
+							"items": {
+								"type": "number"
+							}
+						}
+					]
+				},
+				"productId": {
+					"oneOf": [
+						{
+							"type": "number"
+						},
+						{
+							"type": "array",
+							"items": {
+								"type": "number"
+							}
+						}
+					]
+				},
+				"learnmode": {
+					"type": "object",
+					"required": ["instruction"],
+					"properties": {
+						"image": {
+							"type": "string"
+						},
+						"instruction": {
+							"$ref": "#/definitions/i18nObject"
+						}
+					}
+				},
+				"associationGroups": {
+					"type": "array",
+					"items": {
+						"type": "number"
+					}
+				},
+				"associationGroupsMultiChannel": {
+					"type": "array",
+					"items": {
+						"type": "number"
+					}
+				},
+				"associationGroupsOptions": {
+					"type": "object",
+					"properties": {
+						"type": "object",
+						"properties": {
+							"hint": {
+								"$ref": "#/definitions/i18nObject"
+							}
+						}
+					}
+				},
+				"wakeUpInterval": {
+					"type": "number"
+				},
+				"defaultConfiguration": {
+					"type": "array",
+					"items": {
+						"type": "object",
+						"required": ["id", "size", "value"],
+						"properties": {
+							"id": {
+								"type": "number"
+							},
+							"size": {
+								"type": "number",
+								"enum": [
+									1,
+									2,
+									4
+								]
+							},
+							"value": {
+								"oneOf": [
+									{
+										"type": "number"
+									},
+									{
+										"type": "string"
+									}
+								]
+							},
+							"multiChannelNodes": {
+                                "type": "object",
+                                "items": {
+                                    "type": "object",
+                                    "required": ["class", "capabilities", "name"],
+                                    "properties": {
+                                        "class": {
+                                            "type": "string"
+                                        },
+                                        "capabilities": {
+                                            "type": "array",
+                                            "items": {
+                                              "type": "string"
+                                            }
+                                        },
+                                        "icon": {
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "$ref": "#/definitions/i18nObject"
+                                        }
+                                    }
+                                }
+							}
+						}
+					}
+				}
+			}
+		},
+		"zwaveSetting": {
+			"type": "object",
+			"required": ["index", "size"],
+			"properties": {
+				"index": {
+					"type": "number"
+				},
+				"size": {
+					"type": "number",
+					"enum": [
+						1,
+						2,
+						4
+					]
+				},
+				"signed": {
+					"type": "boolean"
+				}
 			}
 		}
 	},
@@ -379,7 +541,7 @@
 			"$ref": "#/definitions/i18nObject"
 		},
 		"description": {
-			"$ref": "#/definitions/i18nObject"			
+			"$ref": "#/definitions/i18nObject"
 		},
 		"author": {
 			"$ref": "#/definitions/author"
@@ -430,7 +592,7 @@
 						"type": "string"
 					}
 				}
-			]		
+			]
 		},
 		"contributors": {
 			"type": "object",
@@ -476,7 +638,7 @@
 						"type": "string"
 					},
 					"title": {
-						"$ref": "#/definitions/i18nObject"								
+						"$ref": "#/definitions/i18nObject"
 					}
 				}
 			}
@@ -499,7 +661,7 @@
 					"name",
 					"class",
 					"capabilities"
-				],				
+				],
 				"requiredPublish": [
 					"images"
 				],
@@ -508,7 +670,7 @@
 						"type": "string"
 					},
 					"name": {
-						"$ref": "#/definitions/i18nObject"	
+						"$ref": "#/definitions/i18nObject"
 					},
 					"class": {
 						"type": "string"
@@ -609,7 +771,7 @@
 						]
 					},
 					"zwave": {
-						"type": "object"
+						"$ref": "#/definitions/zwaveDevice"
 					},
 					"zigbee": {
 						"type": "object"
@@ -623,19 +785,19 @@
 				"triggers": {
 					"type": "array",
 					"items": {
-						"$ref": "#/definitions/flowCard"						
+						"$ref": "#/definitions/flowCard"
 					}
 				},
 				"conditions": {
 					"type": "array",
 					"items": {
-						"$ref": "#/definitions/flowCard"						
+						"$ref": "#/definitions/flowCard"
 					}
 				},
 				"actions": {
 					"type": "array",
 					"items": {
-						"$ref": "#/definitions/flowCard"						
+						"$ref": "#/definitions/flowCard"
 					}
 				}
 			}
@@ -722,7 +884,7 @@
 												}
 											}
 										}
-									}									
+									}
 								}
 							}
 						}
@@ -752,8 +914,8 @@
 			]
 		},
 		"speechExamples": {
-			"$ref": "#/definitions/i18nArray"			
+			"$ref": "#/definitions/i18nArray"
 		}
-		
-	}	
+
+	}
 }
