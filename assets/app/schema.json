@@ -434,11 +434,8 @@
 				"associationGroupsOptions": {
 					"type": "object",
 					"properties": {
-						"type": "object",
-						"properties": {
-							"hint": {
-								"$ref": "#/definitions/i18nObject"
-							}
+						"hint": {
+							"$ref": "#/definitions/i18nObject"
 						}
 					}
 				},
