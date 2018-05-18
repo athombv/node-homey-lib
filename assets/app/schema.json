@@ -225,7 +225,14 @@
 								"enum": [ "text", "password", "textarea", "label" ]
 							},
 							"id": {
-								"type": "string"
+								"oneOf": [
+									{
+										"type": "string"
+									},
+									{
+										"type": "number"
+									}
+								]
 							},
 							"label": {
 								"$ref": "#/definitions/i18nObject"
@@ -253,7 +260,14 @@
 								"enum": [ "number", "slider" ]
 							},
 							"id": {
-								"type": "string"
+								"oneOf": [
+									{
+										"type": "string"
+									},
+									{
+										"type": "number"
+									}
+								]
 							},
 							"label": {
 								"$ref": "#/definitions/i18nObject"
@@ -296,7 +310,14 @@
 								"enum": [ "radio", "dropdown" ]
 							},
 							"id": {
-								"type": "string"
+								"oneOf": [
+									{
+										"type": "string"
+									},
+									{
+										"type": "number"
+									}
+								]
 							},
 							"label": {
 								"$ref": "#/definitions/i18nObject"
@@ -336,7 +357,14 @@
 								"enum": [ "checkbox" ]
 							},
 							"id": {
-								"type": "string"
+								"oneOf": [
+									{
+										"type": "string"
+									},
+									{
+										"type": "number"
+									}
+								]
 							},
 							"label": {
 								"$ref": "#/definitions/i18nObject"
@@ -379,7 +407,17 @@
 			"required": ["manufacturerId", "productTypeId", "productId"],
 			"properties": {
 				"manufacturerId": {
-					"type": "number"
+					"oneOf": [
+						{
+							"type": "number"
+						},
+						{
+							"type": "array",
+							"items": {
+								"type": "number"
+							}
+						}
+					]
 				},
 				"productTypeId": {
 					"oneOf": [
