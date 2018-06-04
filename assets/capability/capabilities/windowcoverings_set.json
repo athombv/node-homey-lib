@@ -39,7 +39,7 @@
     ],
     "actions": [
       {
-        "id": "windowcoverings_set_action",
+        "id": "windowcoverings_set",
         "title": {
           "en": "Set the position to",
           "nl": "Zet de positie naar"
