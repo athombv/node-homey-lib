@@ -70,5 +70,11 @@
 			"en": "Gain full access to Homey to control everything on behalf of the user",
 			"nl": "Volledige toegang tot Homey om alles te bedienen namens de gebruiker"
 		}
+	},
+	"homey:wireless:ble": {
+		"title": {
+			"en": "Communicate with Bluetooth Low Energy devices",
+			"nl": "Communiceren met Bluetooth Low Energy apparaten"
+		}
 	}
 }
