@@ -22,6 +22,68 @@
       }
     }
   },
+  "$speechExamples": {
+	  "en": [ "Turn all lights on", "Turn off all devices", "Toggle all lights" ],
+	  "nl": [ "Zet alle lichten aan", "Zet alle apparaten uit" ]
+  },
+  "$speech": {
+	"en": {
+      "element": {
+        "toggle": {
+          "type": "regex",
+          "value": "toggle"
+        },
+        "turn": {
+	        "type": "regex",
+	        "value": "turn"
+        },
+        "turnOnOrOff": {
+          "type": "regex",
+          "value": "(on)|off"
+        }
+      },
+      "group": {
+        "setDevices": {
+          "set": "(turn) && turnOnOrOff",
+          "ordered": false,
+          "allowDisconnect": true,
+          "capturingGroup": true,
+          "devices": {
+            "capabilities": [ "onoff" ]
+          }
+        },
+        "toggleDevices": {
+          "set": "toggle",
+          "ordered": false,
+          "allowDisconnect": true,
+          "capturingGroup": true,
+          "devices": {
+            "capabilities": [ "onoff" ]
+          }
+        }
+
+      }
+    },
+	"nl": {
+      "element": {
+        "turnOnOrOff": {
+          "type": "regex",
+          "value": "(zet|schakel) ((aan)|uit)"
+        }
+      },
+      "group": {
+        "setDevices": {
+          "set": "turnOnOrOff",
+          "ordered": false,
+          "allowDisconnect": true,
+          "capturingGroup": true,
+          "devices": {
+            "capabilities": [ "onoff" ]
+          }
+        }
+      }
+    }
+  },
   "$flow": {
     "triggers": [
       {
