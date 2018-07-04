@@ -22,6 +22,56 @@
       }
     }
   },
+  "$flow": {
+    "triggers": [
+      {
+        "id": "onoff_true",
+        "title": {
+          "en": "Turned on",
+          "nl": "Aangezet "
+        }
+      },
+      {
+        "id": "onoff_false",
+        "title": {
+          "en": "Turned off",
+          "nl": "Uitgezet"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "on",
+        "title": {
+          "en": "Is turned !{{on|off}}",
+          "nl": "Is !{{aan|uit}}"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "on",
+        "title": {
+          "en": "Turn on",
+          "nl": "Zet aan"
+        }
+      },
+      {
+        "id": "off",
+        "title": {
+          "en": "Turn off",
+          "nl": "Zet uit"
+        }
+      },
+      {
+        "id": "toggle",
+        "title": {
+          "en": "Toggle on or off",
+          "nl": "Schakel aan of uit"
+        }
+      }
+    ]
+  },
   "$speechExamples": {
 	  "en": [ "Turn all lights on", "Turn off all devices", "Toggle all lights" ],
 	  "nl": [ "Zet alle lichten aan", "Zet alle apparaten uit" ]
@@ -83,55 +133,5 @@
         }
       }
     }
-  },
-  "$flow": {
-    "triggers": [
-      {
-        "id": "onoff_true",
-        "title": {
-          "en": "Turned on",
-          "nl": "Aangezet "
-        }
-      },
-      {
-        "id": "onoff_false",
-        "title": {
-          "en": "Turned off",
-          "nl": "Uitgezet"
-        }
-      }
-    ],
-    "conditions": [
-      {
-        "id": "on",
-        "title": {
-          "en": "Is turned !{{on|off}}",
-          "nl": "Is !{{aan|uit}}"
-        }
-      }
-    ],
-    "actions": [
-      {
-        "id": "on",
-        "title": {
-          "en": "Turn on",
-          "nl": "Zet aan"
-        }
-      },
-      {
-        "id": "off",
-        "title": {
-          "en": "Turn off",
-          "nl": "Zet uit"
-        }
-      },
-      {
-        "id": "toggle",
-        "title": {
-          "en": "Toggle on or off",
-          "nl": "Schakel aan of uit"
-        }
-      }
-    ]
   }
 }

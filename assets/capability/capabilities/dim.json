@@ -74,5 +74,126 @@
         ]
       }
     ]
+  },
+  "$speechExamples": {
+	  "en": [ "Dim all lights to 50%", "Set My Light to full brightness" ],
+	  "nl": [ "Dim alle lampen naar 50%", "Zet Mijn Lamp naar volle helderheid" ]
+  },
+  "$speech": {
+	"en": {
+      "element": {
+        "verb": {
+          "type": "regex",
+          "value": "(switch|turn|set|put|change)"
+        },
+        "light": {
+          "type": "regex",
+          "value": "(all\\s|every\\s)?(?:the\\s)?(light(s)?|lamp(s)?)(to\\s)?"
+        },
+        "lightOrBright": {
+          "type": "regex",
+          "value": "(the\\s)?(brightness|(brightness\\sof\\s)?(the\\s)?(light(s)?|lamp(s)?))"
+        },
+        "percent": {
+          "type": "regex",
+          "value": "(?:to\\s)?(\\d+)\\spercent"
+        },
+        "max": {
+          "type": "regex",
+          "value": "(to\\s)?(max(imum|imal)(\\sbrightness)?|(the\\s|it(\\s)?s\\s)?high(est)?|(up\\s)?all\\sthe\\sway)"
+        },
+        "min": {
+          "type": "regex",
+          "value": "(to\\s)?(min(imum|imal)(\\sbrightness)?|(the\\s|it(\\s)?s\\s)?low(est)?|(up\\s)?all\\sthe\\sway)"
+        },
+        "up": {
+          "type": "regex",
+          "value": "(raise|increase|boost|(turn\\s)?up|brighter)"
+        },
+        "down": {
+          "type": "regex",
+          "value": "(lower|dim|(turn\\s)down|decrease|less\\sbright)"
+        }
+      },
+      "group": {
+        "changeBrightness": {
+          "set": "(verb) && upDown",
+          "ordered": false,
+          "allowDisconnect": true,
+          "capturingGroup": true,
+          "devices": {
+            "class": "light",
+            "capabilities": [
+              "dim"
+            ]
+          }
+        },
+        "upDown": {
+          "set": "up || down"
+        },
+        "toPercentage": {
+          "set": "(verb) && percent",
+          "ordered": false,
+          "allowDisconnect": true,
+          "capturingGroup": true,
+          "devices": {
+            "class": "light",
+            "capabilities": [ "dim" ]
+          }
+        },
+        "setMaxMin": {
+          "set": "(verb) && maxMin",
+          "ordered": false,
+          "allowDisconnect": true,
+          "capturingGroup": true,
+          "devices": {
+            "class": "light",
+            "capabilities": [ "dim" ]
+          }
+        },
+        "maxMin": {
+          "set": "max || min"
+        }
+      }
+    },
+    
+    "nl": {
+      "element": {
+        "verb": {
+          "type": "pos",
+          "value": {
+            "pos": "VERB"
+          }
+        },
+        "light": {
+          "type": "regex",
+          "value": "(?:(alle\\s|al\\sde\\s)|het\\s|de\\s|\\b)(licht|lamp|verlichting)(en)?"
+        },
+        "lightOrBright": {
+          "type": "regex",
+          "value": "(de\\s)?(helderheid\\s(van\\s)?)?(het\\s|de\\s)?(licht|lamp|verlichting)(en)?"
+        },
+        "percent": {
+          "type": "regex",
+          "value": "(?:naar\\s|op\\s)?(\\d+)\\sprocent"
+        },
+        "max": {
+          "type": "regex",
+          "value": "(naar\\s|op\\s)?(de\\s)?(maxim(um|ale|aal)(\\shelderheid)?|(het|zijn|z\\s?n)\\s(hoogste?|felst)|(helemaal|volledig)\\saan)"
+        },
+        "min": {
+          "type": "regex",
+          "value": "(naar\\s|op\\s)?(de\\s)?(minim(um|ale|aal)(\\shelderheid)?|(het|zijn|z\\s?n)\\slaagste?|(helemaal|compleeet|volledig)\\sgedimd)"
+        },
+        "up": {
+          "type": "regex",
+          "value": "(hoger|feller|verhoog)"
+        },
+        "down": {
+          "type": "regex",
+          "value": "(dim|lager|verlaag|reduceer|minder(\\sfel)?)"
+        }
+      }
+    }
   }
 }
