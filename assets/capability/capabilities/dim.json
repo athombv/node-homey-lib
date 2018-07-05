@@ -12,46 +12,39 @@
   "getable": true,
   "setable": true,
   "$flow": {
-    "triggers": [
-      {
-        "id": "dim_changed",
+    "triggers": [{
+      "id": "dim_changed",
+      "title": {
+        "en": "Dim-level changed",
+        "nl": "Dim-niveau veranderd"
+      },
+      "tokens": [{
+        "name": "dim",
+        "type": "number",
         "title": {
-          "en": "Dim-level changed",
-          "nl": "Dim-niveau veranderd"
+          "en": "Level",
+          "nl": "Niveau"
         },
-        "tokens": [
-          {
-            "name": "dim",
-            "type": "number",
-            "title": {
-              "en": "Level",
-              "nl": "Niveau"
-            },
-            "example": 0.5
-          }
-        ]
-      }
-    ],
-    "actions": [
-      {
+        "example": 0.5
+      }]
+    }],
+    "actions": [{
         "id": "dim",
         "title": {
           "en": "Dim to",
           "nl": "Dim naar"
         },
-        "args": [
-          {
-            "name": "dim",
-            "type": "range",
-            "min": 0,
-            "max": 1,
-            "step": 0.01,
-            "value": 0.5,
-            "label": "%",
-            "labelMultiplier": 100,
-            "labelDecimals": 0
-          }
-        ]
+        "args": [{
+          "name": "dim",
+          "type": "range",
+          "min": 0,
+          "max": 1,
+          "step": 0.01,
+          "value": 0.5,
+          "label": "%",
+          "labelMultiplier": 100,
+          "labelDecimals": 0
+        }]
       },
       {
         "id": "dim_relative",
@@ -59,28 +52,26 @@
           "en": "Set relative dim-level",
           "nl": "Zet relatief dim-niveau"
         },
-        "args": [
-          {
-            "name": "dim",
-            "type": "range",
-            "min": -1,
-            "max": 1,
-            "step": 0.01,
-            "value": 0.5,
-            "label": "%",
-            "labelMultiplier": 100,
-            "labelDecimals": 0
-          }
-        ]
+        "args": [{
+          "name": "dim",
+          "type": "range",
+          "min": -1,
+          "max": 1,
+          "step": 0.01,
+          "value": 0.5,
+          "label": "%",
+          "labelMultiplier": 100,
+          "labelDecimals": 0
+        }]
       }
     ]
   },
   "$speechExamples": {
-	  "en": [ "Dim all lights to 50%", "Set My Light to full brightness" ],
-	  "nl": [ "Dim alle lampen naar 50%", "Zet Mijn Lamp naar volle helderheid" ]
+    "en": ["Dim all lights to 50%", "Set My Light to full brightness"],
+    "nl": ["Dim alle lampen naar 50%", "Zet Mijn Lamp naar volle helderheid"]
   },
   "$speech": {
-	"en": {
+    "en": {
       "element": {
         "verb": {
           "type": "regex",
@@ -138,7 +129,7 @@
           "capturingGroup": true,
           "devices": {
             "class": "light",
-            "capabilities": [ "dim" ]
+            "capabilities": ["dim"]
           }
         },
         "setMaxMin": {
@@ -148,7 +139,7 @@
           "capturingGroup": true,
           "devices": {
             "class": "light",
-            "capabilities": [ "dim" ]
+            "capabilities": ["dim"]
           }
         },
         "maxMin": {
@@ -156,7 +147,7 @@
         }
       }
     },
-    
+
     "nl": {
       "element": {
         "verb": {
