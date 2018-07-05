@@ -33,5 +33,112 @@
         ]
       }
     ]
+  },
+  "$speech": {
+    "en": {
+      "group": {
+        "changeColor": {
+          "set": "(verb) && light && color",
+          "ordered": false,
+          "allowDisconnect": true,
+          "capturingGroup": true,
+          "devices": {
+            "class": "light",
+            "capabilities": [
+              "light_hue"
+            ]
+          }
+        },
+        "color": {
+          "set": "red || orange || yellow || green || cyan || magenta || pink || purple || blue"
+        }
+      },
+      "element": {
+				"light": {
+					"type": "regex",
+					"value": "(all\\s|every\\s)?(?:the\\s)?(light(s)?|lamp(s)?)(to\\s)?"
+				},
+				"verb": {
+					"type": "regex",
+					"value": "(switch|turn|set|put|change)"
+				},
+        "red": {
+          "type": "string",
+          "value": "red"
+        },
+        "orange": {
+          "type": "string",
+          "value": "orange"
+        },
+        "yellow": {
+          "type": "string",
+          "value": "yellow"
+        },
+        "green": {
+          "type": "string",
+          "value": "green"
+        },
+        "cyan": {
+          "type": "string",
+          "value": "cyan"
+        },
+        "magenta": {
+          "type": "string",
+          "value": "magenta"
+        },
+        "pink": {
+          "type": "string",
+          "value": "pink"
+        },
+        "purple": {
+          "type": "string",
+          "value": "purple"
+        },
+        "blue": {
+          "type": "string",
+          "value": "blue"
+        }
+      }
+    },
+    "nl": {
+      "element": {
+        "red": {
+          "type": "string",
+          "value": "rood"
+        },
+        "orange": {
+          "type": "string",
+          "value": "oranje"
+        },
+        "yellow": {
+          "type": "string",
+          "value": "geel"
+        },
+        "green": {
+          "type": "string",
+          "value": "groen"
+        },
+        "cyan": {
+          "type": "string",
+          "value": "cyaan"
+        },
+        "magenta": {
+          "type": "string",
+          "value": "magenta"
+        },
+        "pink": {
+          "type": "string",
+          "value": "roze"
+        },
+        "purple": {
+          "type": "string",
+          "value": "paars"
+        },
+        "blue": {
+          "type": "string",
+          "value": "blauw"
+        }
+      }
+    }
   }
 }
