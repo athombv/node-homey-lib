@@ -31,8 +31,32 @@
             "labelDecimals": 0
           }
         ]
+      },
+      {
+        "id": "color",
+        "title": {
+          "en": "Set a color",
+          "nl": "Verander naar kleur"
+        },
+        "args": [
+          {
+            "name": "color",
+            "type": "color"
+          }
+        ]
+      },
+      {
+        "id": "color_random",
+        "title": {
+          "en": "Set a random color",
+          "nl": "Verander naar een willekeurige kleur"
+        }
       }
     ]
+  },
+  "$speechExamples": {
+    "en": [ "Turn all lights to blue", "Turn My Light to pink" ],
+    "nl": [ "Zet alle lampen op blauw", "Zet Mijn Licht op blauw" ]
   },
   "$speech": {
     "en": {
@@ -102,6 +126,16 @@
     },
     "nl": {
       "element": {
+        "light": {
+          "type": "regex",
+          "value": "(?:(alle\\s|al\\sde\\s)|het\\s|de\\s|\\b)(licht|lamp|verlichting)(en)?"
+        },
+        "verb": {
+          "type": "pos",
+          "value": {
+            "pos": "VERB"
+          }
+        },
         "red": {
           "type": "string",
           "value": "rood"
