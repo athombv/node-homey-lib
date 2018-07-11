@@ -7,8 +7,7 @@
   "getable": true,
   "setable": true,
   "$flow": {
-    "actions": [
-      {
+    "actions": [{
         "id": "volume_mute",
         "title": {
           "en": "Mute the volume",
@@ -23,5 +22,38 @@
         }
       }
     ]
+  },
+  "$speechExamples": {
+    "en": ["Mute the volume of my amplifier"],
+    "nl": ["Demp het volume van mijn versterker"]
+  },
+  "$speech": {
+    "en": {
+      "element": {
+        "muteReg": {
+          "type": "regex",
+          "value": "(?:(unmute|(the\\s)?volume\\s(back\\s)?on)|mute|silence|shut\\sup)"
+        }
+      },
+      "group": {
+        "mute": {
+          "set": "muteReg",
+          "ordered": false,
+          "allowDisconnect": true,
+          "capturingGroup": true,
+          "devices": {
+            "capabilities": [
+              "volume_mute"
+            ]
+          }
+        }
+      }
+    },
+    "nl": {
+      "muteReg": {
+        "type": "regex",
+        "value": "(?:(weer\\saan|(het\\s)?volume\\s(aan|terug))|stil)"
+      }      
+    }
   }
 }
