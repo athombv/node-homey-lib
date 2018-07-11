@@ -37,5 +37,75 @@
         }
       }
     ]
+  },
+  "$speechExamples": {
+    "en": [ "Turn all lights to warm white", "Turn My Light to cool white" ],
+    "nl": [ "Zet alle lampen op warm wit", "Zet Mijn Licht op koel wit" ]
+  },
+  "$speech": {
+    "en": {
+      "group": {
+        "changeTemperature": {
+          "set": "(verb) && light && temperature",
+          "ordered": false,
+          "allowDisconnect": true,
+          "capturingGroup": true,
+          "devices": {
+            "class": "light"
+          }
+        },
+        "temperature": {
+          "set": "cool_white || white || warm_white"
+        }
+      },
+      "element": {
+				"light": {
+					"type": "regex",
+					"value": "(all\\s|every\\s)?(?:the\\s)?(light(s)?|lamp(s)?)(to\\s)?"
+				},
+				"verb": {
+					"type": "regex",
+					"value": "(switch|turn|set|put|change)"
+				},
+        "cool_white": {
+          "type": "string",
+          "value": [ "cool white", "cold white" ]
+        },
+        "warm_white": {
+          "type": "string",
+          "value": "warm white"
+        },
+        "white": {
+          "type": "string",
+          "value": "white"
+        }
+      }
+    },
+    "nl": {
+      "element": {
+        "light": {
+          "type": "regex",
+          "value": "(?:(alle\\s|al\\sde\\s)|het\\s|de\\s|\\b)(licht|lamp|verlichting)(en)?"
+        },
+        "verb": {
+          "type": "pos",
+          "value": {
+            "pos": "VERB"
+          }
+        },
+        "cool_white": {
+          "type": "string",
+          "value": [ "koel wit", "koud wit" ]
+        },
+        "warm_white": {
+          "type": "string",
+          "value": "warm wit"
+        },
+        "white": {
+          "type": "string",
+          "value": [ "wit", "normaal wit" ]
+        }
+      }
+    }
   }
 }

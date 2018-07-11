@@ -11,8 +11,7 @@
   "getable": true,
   "setable": true,
   "$flow": {
-    "triggers": [
-      {
+    "triggers": [{
         "id": "locked_true",
         "title": {
           "en": "A lock just locked",
@@ -27,17 +26,14 @@
         }
       }
     ],
-    "conditions": [
-      {
-        "id": "locked",
-        "title": {
-          "en": "A lock is !{{locked|unlocked}}",
-          "nl": "Een slot is !{{vergrendeld|ontgrendeld}}"
-        }
+    "conditions": [{
+      "id": "locked",
+      "title": {
+        "en": "A lock is !{{locked|unlocked}}",
+        "nl": "Een slot is !{{vergrendeld|ontgrendeld}}"
       }
-    ],
-    "actions": [
-      {
+    }],
+    "actions": [{
         "id": "lock",
         "title": {
           "en": "Lock",
@@ -52,5 +48,61 @@
         }
       }
     ]
+  },
+  "$speechExamples": {
+    "en": ["Did I lock My Lock?"],
+    "nl": ["Heb ik Mijn Slot op slot gedaan?"]
+  },
+  "$speech": {
+    "en": {
+      "element": {
+        "asking": {
+          "type": "regex",
+          "value": "(did(?:\\sI|\\swe|\\syou)?|are|is|have(?:\\sI|\\swe|\\syou)?(?:\\sleave)?)"
+        },
+        "lockReg": {
+          "type": "regex",
+          "value": "((un)?lock(ed)?(?:\\sthe\\s)?(door(s)?|window(s)?)?|(?:the\\s)?(door(s)?\\s|window(s)?\\s)?(un)?lock(ed)?)"
+        },
+        "lockedUnlocked": {
+          "type": "regex",
+          "value": "(un)?lock(ed)?"
+        }
+      },
+      "group": {
+        "locks": {
+          "set": "(asking) && lockReg",
+          "ordered": false,
+          "allowDisconnect": true,
+          "capturingGroup": true,
+          "devices": {
+            "class": "lock"
+          }
+        },
+        "lock": {
+          "set": "asking && lockedUnlocked",
+          "ordered": false,
+          "allowDisconnect": true,
+          "capturingGroup": true,
+          "devices": {
+            "class": "lock"
+          }
+        }
+      }
+    },
+    "nl": {
+      "asking": {
+        "type": "regex",
+        "value": "\\b(is|staat|heb\\sik|hebben\\swe|gelaten)\\b"
+      },
+      "lockReg": {
+        "type": "regex",
+        "value": "((op\\s|het\\s)?slot|open|dicht|(af)?gesloten|(ont|ver)grendeld?)"
+      },
+      "lockedUnlocked": {
+        "type": "regex",
+        "value": "(?:(open|geopend)|dicht|gesloten|op\\sslot)"
+      }
+    }
   }
 }
