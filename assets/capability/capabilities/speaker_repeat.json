@@ -1,0 +1,46 @@
+{
+  "title": {
+    "en": "Repeat"
+  },
+  "type": "enum",
+  "values": [
+	{
+		"id": "none",
+		"title": {
+			"en": "Off",
+			"nl": "Uit"
+		}
+	},
+	{
+		"id": "track",
+		"title": {
+			"en": "Repeat Track"
+		}
+	},
+	{
+		"id": "playlist",
+		"title": {
+			"en": "Repeat Playlist"
+		}
+	}
+  ],
+  "getable": true,
+  "setable": true,
+  "$flow": {
+    "actions": [
+      {
+        "id": "set_repeat",
+        "title": {
+          "en": "Repeat"
+        },
+        "args": [
+          {
+            "name": "value",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

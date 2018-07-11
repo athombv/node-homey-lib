@@ -1,0 +1,26 @@
+{
+  "title": {
+    "en": "Shuffle"
+  },
+  "type": "boolean",
+  "getable": true,
+  "setable": true,
+  "$flow": {
+    "actions": [
+      {
+        "id": "set_shuffle_true",
+        "title": {
+          "en": "Shuffle on",
+          "nl": "Shuffle aan"
+        }
+      },
+      {
+        "id": "set_shuffle_false",
+        "title": {
+          "en": "Shuffle off",
+          "nl": "Shuffle uit"
+        }
+      }
+    ]
+  }
+}
