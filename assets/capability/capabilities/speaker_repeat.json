@@ -35,7 +35,7 @@
         },
         "args": [
           {
-            "name": "state",
+            "name": "value",
             "type": "dropdown",
             "values": "$values"
           }
