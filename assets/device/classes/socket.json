@@ -12,5 +12,9 @@
     "heater",
     "coffeemachine",
     "kettle"
-  ]
+  ],
+  "$speechAlternatives": {
+    "en": [ "socket", "plug" ],
+    "nl": [ "schakelaar", "wandschakelaar", "stekkerdoos", "tussenstekker" ]
+  }
 }

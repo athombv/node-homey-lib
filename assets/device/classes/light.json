@@ -5,5 +5,9 @@
   },
   "description": {
     "en": "Use this device class for lights, usually together with the `onoff`, `dim` and `light_*` capabilities."
+  },
+  "$speechAlternatives": {
+    "en": [ "light", "lights", "lamp" ],
+    "nl": [ "licht", "lichten", "lamp", "verlichting" ]
   }
 }

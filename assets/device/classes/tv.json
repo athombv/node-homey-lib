@@ -5,5 +5,9 @@
   },
   "description": {
     "en": "Use this device class for TVs."
+  },
+  "$speechAlternatives": {
+    "en": [ "tvs", "televisions", "television", "tv" ],
+    "nl": [ "tv's", "televisie", "televisies", "tv" ]
   }
 }
