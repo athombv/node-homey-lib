@@ -52,5 +52,52 @@
         ]
       }
     ]
+  },
+  "$speech": {
+    "en": {
+      "element": {
+        "verb": {
+          "type": "regex",
+          "value": "(set|change|adjust|turn)"
+        },
+        "thermostat": {
+          "type": "regex",
+          "value": "(the\\s)?(temperature|thermostat|heating|heater)"
+        },
+        "degrees": {
+          "type": "regex",
+          "value": "(to\\s)?(\\d+)\\sdegree(s)?"
+        }
+      },
+      "group": {
+        "setTemp": {
+          "set": "(verb) && thermostat && degrees",
+          "ordered": false,
+          "allowDisconnect": true,
+          "capturingGroup": true,
+          "devices": {
+            "capabilities": [
+              "target_temperature"
+            ]
+          }
+        }
+      }
+    },
+    "nl": {
+      "element": {
+        "verb": {
+          "type": "regex",
+          "value": "(zet|draai|doe)"
+        },
+        "thermostat": {
+          "type": "regex",
+          "value": "(de\\s)?(temperatuur|thermostaat|verwarming|kachel)"
+        },
+        "degrees": {
+          "type": "regex",
+          "value": "(?:op\\s|naar\\s)?(\\d+)\\sgraden"
+        }
+      }
+    }
   }
 }
