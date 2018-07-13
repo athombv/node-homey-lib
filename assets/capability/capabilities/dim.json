@@ -11,6 +11,7 @@
   "units": "%",
   "getable": true,
   "setable": true,
+  "uiComponent": "slider",
   "$flow": {
     "triggers": [{
       "id": "dim_changed",

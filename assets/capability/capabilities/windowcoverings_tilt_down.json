@@ -4,5 +4,6 @@
   },
   "type": "boolean",
   "getable": false,
-  "setable": true
+  "setable": true,
+  "uiComponent": "button"
 }

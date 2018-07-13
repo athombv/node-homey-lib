@@ -5,5 +5,9 @@
   },
   "description": {
     "en": "Use this device class for curtains. "
+  },
+  "$speechAlternatives": {
+    "en": [ "curtains", "curtain" ],
+    "nl": [ "gordijnen", "gordijn" ]
   }
 }

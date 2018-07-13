@@ -5,5 +5,9 @@
   },
   "description": {
     "en": "Use this device class for thermostats, either for the entire home or radiator-mounted, usually together with the `measure_temperature`, `target_temperature` and `thermostat_mode` capabilities."
+  },
+  "$speechAlternatives": {
+    "en": [ "thermostat", "thermostats" ],
+    "nl": [ "thermostaat", "thermostaten" ]
   }
 }

@@ -5,5 +5,9 @@
   },
   "description": {
     "en": "Use this device class for lock devices, usually together with the `locked` and `lock_mode` capabilities."
+  },
+  "$speechAlternatives": {
+    "en": [ "lock", "locks" ],
+    "nl": [ "slot", "sloten" ]
   }
 }

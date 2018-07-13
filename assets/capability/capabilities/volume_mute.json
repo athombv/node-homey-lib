@@ -6,6 +6,7 @@
   "type": "boolean",
   "getable": true,
   "setable": true,
+  "uiComponent": "button",
   "$flow": {
     "actions": [{
         "id": "volume_mute",

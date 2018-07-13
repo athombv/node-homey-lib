@@ -11,6 +11,11 @@
     "fan",
     "heater",
     "coffeemachine",
-    "kettle"
-  ]
+    "kettle",
+    "tv"
+  ],
+  "$speechAlternatives": {
+    "en": [ "socket", "plug" ],
+    "nl": [ "schakelaar", "wandschakelaar", "stekkerdoos", "tussenstekker" ]
+  }
 }

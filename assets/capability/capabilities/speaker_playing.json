@@ -6,6 +6,8 @@
   "type": "boolean",
   "getable": true,
   "setable": true,
+  "uiComponent": "button",
+  "uiQuickAction": true,
   "$flow": {
     "actions": [
       {

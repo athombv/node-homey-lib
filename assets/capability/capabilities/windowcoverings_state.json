@@ -28,6 +28,7 @@
   ],
   "getable": true,
   "setable": true,
+  "uiComponent": "ternary",
   "$flow": {
     "triggers": [
       {
