@@ -6,7 +6,7 @@
   "type": "boolean",
   "getable": false,
   "setable": true,
-  "uiComponent": "button",
+  "uiComponent": "media",
   "$flow": {
     "actions": [
       {

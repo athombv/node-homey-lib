@@ -26,7 +26,7 @@
   ],
   "getable": true,
   "setable": true,
-  "uiComponent": "button",
+  "uiComponent": "media",
   "$flow": {
     "actions": [
       {

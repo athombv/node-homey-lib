@@ -106,5 +106,71 @@
         }
       }
     ]
+  },
+  "$speech": {
+     "en": {
+      "element": {
+        "vacuum": {
+          "type": "regex",
+          "value": "((vacuum\\s)?cleaning|vacuum\\scleaner|vacuum|vacuuming)"
+        },
+        "cleaning": {
+          "type": "regex",
+          "value": "(start|go|begin|on)"
+        },
+        "spot_cleaning": {
+          "type": "regex",
+          "value": "(start\\s)?spot(\\scleaning)?"
+        },
+        "docked": {
+          "type": "regex",
+          "value": "(finish|dock|docking\\sstation|charger?|charging(\\sstation)?|(return\\s)?home)"
+        },
+        "stopped": {
+          "type": "regex",
+          "value": "(stop|end|finish|off)"
+        }
+      },
+      "group": {
+        "changeState": {
+          "set": "vacuum && state",
+          "ordered": false,
+          "allowDisconnect": true,
+          "capturingGroup": true,
+          "devices": {
+            "capabilities": [
+              "vacuumcleaner_state"
+            ]
+          }
+        },
+        "state": {
+          "set": "cleaning || spot_cleaning || docked || stopped"
+        }
+      }
+    },
+    "nl": {
+      "element": {
+        "vacuum": {
+          "type": "regex",
+          "value": "((stof)?\\s?zuige(n|r)|schoon\\s?maken)"
+        },
+        "cleaning": {
+          "type": "regex",
+          "value": "(start|ga|begin(\\smet)?|aan)"
+        },
+        "spot_cleaning": {
+          "type": "regex",
+          "value": "(gericht|een\\splek|hier)(stof\\s?zuige(n|r)|schoon\\s?maken)"
+        },
+        "docked": {
+          "type": "regex",
+          "value": "(klaar|beëindig(en)?|dock|docking\\sstation|(op)?lade(r|n)|(op)?laa(d|t)\\s?station|(terug\\s)(naar\\s)?huis)"
+        },
+        "stopped": {
+          "type": "regex",
+          "value": "(stop|uit)"
+        }
+      }
+    }
   }
 }

@@ -17,7 +17,7 @@
   "decimals": 2,
   "getable": true,
   "setable": false,
-  "uiComponent": "sensor",
+  "uiComponent": "battery",
   "$flow": {
     "triggers": [
       {

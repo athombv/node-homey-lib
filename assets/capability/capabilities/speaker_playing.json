@@ -6,8 +6,7 @@
   "type": "boolean",
   "getable": true,
   "setable": true,
-  "uiComponent": "button",
-  "uiQuickAction": true,
+  "uiComponent": "media",
   "$flow": {
     "actions": [
       {
