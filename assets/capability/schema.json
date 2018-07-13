@@ -79,13 +79,14 @@
 		"uiComponent": {
   		"type": "string",
   		"enum": [
-        "toggle",
-        "button",
+        "thermostat",
         "music",
+        "media",
+        "toggle",
         "slider",
         "ternary",
+        "button",
         "color",
-        "thermostat",
         "picker",
         "sensor",
         "battery"
