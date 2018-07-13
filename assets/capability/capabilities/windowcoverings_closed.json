@@ -6,6 +6,7 @@
   },
   "getable": true,
   "setable": true,
+  "uiComponent": "toggle",
   "$flow": {
     "triggers": [
       {

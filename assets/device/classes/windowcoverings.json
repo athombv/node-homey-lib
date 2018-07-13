@@ -6,6 +6,11 @@
   "description": {
     "en": "Use this device class for window coverings, when the `curtains`, `blinds` or `sunshade` device class doesn't apply."
   },
+  "allowedVirtual": [
+    "sunshade",
+    "blinds",
+    "curtain"
+  ],
   "$speechAlternatives": {
     "en": [ "window coverings", "windowcoverings" ],
     "nl": [ "raambekleding", "raambedekking" ]

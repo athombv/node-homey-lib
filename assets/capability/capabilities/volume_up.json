@@ -6,6 +6,7 @@
   "type": "boolean",
   "getable": false,
   "setable": true,
+  "uiComponent": "button",
   "$flow": {
     "actions": [{
       "id": "volume_up",

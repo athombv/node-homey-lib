@@ -10,6 +10,7 @@
   "decimals": 2,
   "getable": true,
   "setable": true,
+  "uiComponent": "color",
   "$flow": {
     "actions": [
       {

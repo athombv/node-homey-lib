@@ -10,6 +10,7 @@
   },
   "getable": true,
   "setable": true,
+  "uiComponent": "sensor",
   "$flow": {
     "triggers": [
       {

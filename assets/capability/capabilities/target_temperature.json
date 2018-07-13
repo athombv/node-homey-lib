@@ -13,6 +13,7 @@
   "decimals": 2,
   "getable": true,
   "setable": true,
+  "uiComponent": "thermostat",
   "$flow": {
     "triggers": [
       {

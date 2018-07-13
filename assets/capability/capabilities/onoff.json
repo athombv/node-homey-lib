@@ -22,6 +22,8 @@
       }
     }
   },
+  "uiComponent": "toggle",
+  "uiQuickAction": true,
   "$flow": {
     "triggers": [
       {

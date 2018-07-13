@@ -10,6 +10,8 @@
   },
   "getable": true,
   "setable": true,
+  "uiComponent": "toggle",
+  "uiQuickAction": true,
   "$flow": {
     "triggers": [{
         "id": "locked_true",

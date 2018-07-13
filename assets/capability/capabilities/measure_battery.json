@@ -17,6 +17,7 @@
   "decimals": 2,
   "getable": true,
   "setable": false,
+  "uiComponent": "sensor",
   "$flow": {
     "triggers": [
       {

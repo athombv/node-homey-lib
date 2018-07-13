@@ -11,6 +11,7 @@
   "chartType": "spline",
   "getable": true,
   "setable": false,
+  "uiComponent": "sensor",
   "$flow": {
     "triggers": [
       {
@@ -31,8 +32,8 @@
     ]
   },
   "$speechExamples": {
-	"en": [ "What is the average temperature at home?" ],
-	"nl": [ "Wat is de gemiddelde temperatuur thuis?" ]
+	  "en": [ "What is the average temperature at home?" ],
+    "nl": [ "Wat is de gemiddelde temperatuur thuis?" ]
   },
   "$speech": {
 	"en": {

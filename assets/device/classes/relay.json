@@ -1,0 +1,19 @@
+{
+  "title": {
+    "en": "Relay",
+    "nl": "Relais"
+  },
+  "description": {
+    "en": "Use this device class for relays, which are connected to another device."
+  },
+  "allowedVirtual": [
+    "garagedoor",
+    "sunshade",
+    "blinds",
+    "curtain"
+  ],
+  "$speechAlternatives": {
+    "en": [ "relay", "relays" ],
+    "nl": [ "relais" ]
+  }
+}

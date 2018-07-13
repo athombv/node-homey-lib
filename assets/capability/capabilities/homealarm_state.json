@@ -29,6 +29,7 @@
   ],
   "getable": true,
   "setable": true,
+  "uiComponent": "picker",
   "$flow": {
     "triggers": [
       {

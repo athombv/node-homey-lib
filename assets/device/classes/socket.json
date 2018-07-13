@@ -11,7 +11,8 @@
     "fan",
     "heater",
     "coffeemachine",
-    "kettle"
+    "kettle",
+    "tv"
   ],
   "$speechAlternatives": {
     "en": [ "socket", "plug" ],

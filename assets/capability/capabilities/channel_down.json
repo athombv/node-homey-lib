@@ -17,6 +17,7 @@
       }
     ]
   },
+  "uiComponent": "button",
   "$speechExamples": {
     "en": ["Switch My TV to the previous channel"],
     "nl": ["Zet Mijn TV op het vorige kanaal"]
