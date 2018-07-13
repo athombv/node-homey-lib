@@ -80,7 +80,6 @@
   		"type": "string",
   		"enum": [
         "thermostat",
-        "music",
         "media",
         "toggle",
         "slider",
