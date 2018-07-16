@@ -56,7 +56,7 @@
   "$speechExamples": {
     "en": ["Set the temperature to 21 degrees"],
     "nl": ["Zet de temperatuur op 21 graden"]
-  }
+  },
   "$speech": {
     "en": {
       "element": {
