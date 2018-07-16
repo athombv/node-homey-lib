@@ -107,6 +107,10 @@
       }
     ]
   },
+  "$speechExamples": {
+    "en": ["Start the vacuum cleaner"],
+    "nl": ["Begin met stofzuigen"]
+  },
   "$speech": {
      "en": {
       "element": {
