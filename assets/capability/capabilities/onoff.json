@@ -79,7 +79,7 @@
 	  "nl": [ "Zet alle lichten aan", "Zet alle apparaten uit" ]
   },
   "$speech": {
-	"en": {
+  	"en": {
       "element": {
         "toggle": {
           "type": "regex",
@@ -116,7 +116,7 @@
 
       }
     },
-	"nl": {
+  	"nl": {
       "element": {
         "turnOnOrOff": {
           "type": "regex",
