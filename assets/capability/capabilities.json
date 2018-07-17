@@ -62,5 +62,6 @@
   "button",
   "speaker_playing",
   "speaker_next",
-  "speaker_prev"
+  "speaker_prev",
+  "speaker_shuffle"
 ]
