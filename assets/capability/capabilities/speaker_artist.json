@@ -1,0 +1,10 @@
+{
+  "title": {
+    "en": "Artist",
+    "nl": "Artiest"
+  },
+  "type": "string",
+  "getable": true,
+  "setable": false,
+  "uiComponent": "media"
+}

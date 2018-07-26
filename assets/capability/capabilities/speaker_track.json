@@ -1,0 +1,10 @@
+{
+  "title": {
+    "en": "Track",
+    "nl": "Track"
+  },
+  "type": "string",
+  "getable": true,
+  "setable": false,
+  "uiComponent": "media"
+}
