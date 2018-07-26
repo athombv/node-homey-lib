@@ -51,8 +51,8 @@
     }]
   },
   "$speechExamples": {
-    "en": ["Turn the volume of my amplifier to 50%"],
-    "nl": ["Zet het volume van mijn versterker op 50%"]
+    "en": ["Turn the volume of my speaker to 50%"],
+    "nl": ["Zet het volume van mijn speaker op 50%"]
   },
   "$speech": {
     "en": {

@@ -1,0 +1,10 @@
+{
+  "title": {
+    "en": "Album",
+    "nl": "Album"
+  },
+  "type": "string",
+  "getable": true,
+  "setable": false,
+  "uiComponent": "media"
+}
