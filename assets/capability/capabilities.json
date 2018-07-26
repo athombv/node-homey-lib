@@ -67,5 +67,7 @@
   "speaker_repeat",
   "speaker_artist",
   "speaker_album",
-  "speaker_track"
+  "speaker_track",
+  "speaker_duration",
+  "speaker_position"
 ]
