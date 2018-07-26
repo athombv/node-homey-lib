@@ -1,0 +1,10 @@
+{
+  "title": {
+    "en": "Position",
+    "nl": "Positie"
+  },
+  "type": "number",
+  "getable": true,
+  "setable": false,
+  "uiComponent": "media"
+}

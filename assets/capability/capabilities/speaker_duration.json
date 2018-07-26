@@ -1,0 +1,10 @@
+{
+  "title": {
+    "en": "Duration",
+    "nl": "Lengte"
+  },
+  "type": "number",
+  "getable": true,
+  "setable": false,
+  "uiComponent": "media"
+}
