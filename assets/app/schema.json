@@ -616,6 +616,9 @@
 		"athomForumDiscussionId": {
 			"type": "number"
 		},
+		"homeyCommunityTopicId": {
+			"type": "number"
+		},
 		"category": {
 			"oneOf": [
 				{
