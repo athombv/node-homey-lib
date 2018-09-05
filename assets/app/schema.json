@@ -953,7 +953,12 @@
 		},
 		"speechExamples": {
 			"$ref": "#/definitions/i18nArray"
+		},
+		"brandColor": {
+  		"type": "string",
+  		"minLength": 7,
+  		"maxLength": 7,
+      "pattern": "^#([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$"
 		}
-
 	}
 }
