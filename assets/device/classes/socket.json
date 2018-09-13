@@ -1,10 +1,14 @@
 {
   "title": {
     "en": "Wall Plug",
-    "nl": "Stopcontact schakelaar"
+    "nl": "Schakeldoos"
   },
   "description": {
     "en": "Use this device class for sockets (built-in or plug-in socket switches). When adding the `choose_slave` pair template, the user is presented a `What's plugged in?` question."
+  },
+  "virtualTitle": {
+    "en": "What's plugged in?",
+    "nl": "Wat is er ingeplugd?"
   },
   "allowedVirtual": [
     "light",
