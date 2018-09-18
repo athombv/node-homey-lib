@@ -2,6 +2,7 @@
 
 try {
   const fs = require('fs');
+  const path = require('path');
   const util = require('util');
   const imageSize = require('image-size');
   
@@ -13,6 +14,13 @@ try {
     module.exports.readDirAsync = util.promisify( fs.readdir );
     module.exports.lstatAsync = util.promisify( fs.lstat );
     module.exports.imageSizeAsync = util.promisify( imageSize );
+  }
+  
+  if( path ) {
+    module.exports.join = path.join;
+    module.exports.extname = path.extname;
+    module.exports.basename = path.basename;
+    module.exports.dirname = path.dirname;
   }
 } catch( err ) {
 }
