@@ -1,9 +1,10 @@
 {
   "name": "homey-lib",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Shared Library for Homey",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,5 +27,9 @@
     "npmPublishTagProduction": "latest",
     "npmPublishTagTesting": "beta",
     "nodeVersion": "8"
+  },
+  "devDependencies": {
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
   }
 }
