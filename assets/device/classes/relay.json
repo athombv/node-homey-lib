@@ -6,6 +6,10 @@
   "description": {
     "en": "Use this device class for relays, which are connected to another device."
   },
+  "virtualTitle": {
+    "en": "What's connected?",
+    "nl": "Wat is er verbonden?"
+  },
   "allowedVirtual": [
     "garagedoor",
     "sunshade",
