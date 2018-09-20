@@ -8,7 +8,7 @@ module.exports = {
     path: path.resolve(__dirname, 'webpack'),
     filename: 'index.js',
     library: 'HomeyLib',
-    libraryTarget: 'window',
+    libraryTarget: 'umd',
   },
   node: {
     fs: 'empty',
