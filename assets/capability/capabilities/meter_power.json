@@ -14,7 +14,7 @@
     "nl": "Stroomverbuik in KiloWattUur (kWh)"
   },
   "options": {
-    "generating": {
+    "isGenerator": {
       "type": "boolean",
       "default": false,
       "desc": {

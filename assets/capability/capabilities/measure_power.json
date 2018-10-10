@@ -12,7 +12,7 @@
     "nl": "Vermogen in Watt (W)"
   },
   "options": {
-    "generating": {
+    "isGenerator": {
       "type": "boolean",
       "default": false,
       "desc": {
