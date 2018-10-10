@@ -1,0 +1,9 @@
+{
+  "title": {
+    "en": "Home Energy Monitor",
+    "nl": "Energiemonitor"
+  },
+  "description": {
+    "en": "Use this device class for devices that monitor a house's energy usage."
+  }
+}
