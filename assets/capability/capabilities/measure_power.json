@@ -11,6 +11,15 @@
     "en": "Power in Watt (W)",
     "nl": "Vermogen in Watt (W)"
   },
+  "options": {
+    "generating": {
+      "type": "boolean",
+      "default": false,
+      "desc": {
+        "en": "This flag is used to determine whether this devices uses or generates power."
+      }
+    }
+  },
   "chartType": "stepLine",
   "decimals": 2,
   "getable": true,
