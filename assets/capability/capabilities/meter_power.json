@@ -13,6 +13,15 @@
     "en": "Power usage in KiloWattHour (kWh)",
     "nl": "Stroomverbuik in KiloWattUur (kWh)"
   },
+  "options": {
+    "isGenerator": {
+      "type": "boolean",
+      "default": false,
+      "desc": {
+        "en": "This flag is used to determine whether this devices uses or generates power."
+      }
+    }
+  },
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",
