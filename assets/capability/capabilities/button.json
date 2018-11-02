@@ -7,6 +7,7 @@
   "getable": false,
   "setable": true,
   "uiComponent": "button",
+  "uiQuickAction": true,
   "$flow": {
     "actions": [
       {
