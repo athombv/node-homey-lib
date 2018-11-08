@@ -1,0 +1,41 @@
+{
+	"type": "boolean",
+	"title": {
+		"en": "Tilt Alarm",
+		"nl": "Kantelalarm"
+	},
+	"desc": {
+		"en": "Detected tilt motion",
+		"nl": "Gedetecteerde kantel beweging"
+	},
+	"getable": true,
+	"setable": false,
+	"uiComponent": "sensor",
+	"$flow": {
+		"triggers": [
+			{
+				"id": "alarm_tilt_true",
+				"title": {
+					"en": "The tilt alarm turned on",
+					"nl": "Het kantelalarm gaat aan"
+				}
+      },
+			{
+				"id": "alarm_tilt_false",
+				"title": {
+					"en": "The tilt alarm turned off",
+					"nl": "Het kantelalarm gaat uit"
+				}
+      }
+    ],
+		"conditions": [
+			{
+				"id": "alarm_tilt",
+				"title": {
+					"en": "The tilt alarm is !{{on|off}}",
+					"nl": "Het kantelalarm is !{{aan|uit}}"
+				}
+      }
+    ]
+	}
+}

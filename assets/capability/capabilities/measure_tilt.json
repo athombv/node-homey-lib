@@ -1,0 +1,38 @@
+{
+	"type": "number",
+	"title": {
+		"en": "Tilt angle",
+		"nl": "Kantelhoek"
+	},
+	"units": {
+		"en": "°"
+	},
+	"desc": {
+		"en": "Tilt angle in degrees (°)",
+		"nl": "Kantelhoek in graden (°)"
+	},
+	"chartType": "spline",
+	"decimals": 2,
+	"getable": true,
+	"setable": false,
+	"uiComponent": "sensor",
+	"$flow": {
+		"triggers": [
+			{
+				"id": "measure_tilt_changed",
+				"title": {
+					"en": "The tilt angle changed",
+					"nl": "De Kantelhoek is veranderd"
+				},
+				"tokens": [
+					{
+						"name": "$id",
+						"title": "$title",
+						"type": "$type",
+						"example": 43
+          }
+        ]
+      }
+    ]
+	}
+}

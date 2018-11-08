@@ -1,0 +1,41 @@
+{
+	"type": "boolean",
+	"title": {
+		"en": "Vibration Alarm",
+		"nl": "Trillingsalarm"
+	},
+	"desc": {
+		"en": "Detected vibration",
+		"nl": "Gedetecteerde trilling"
+	},
+	"getable": true,
+	"setable": false,
+	"uiComponent": "sensor",
+	"$flow": {
+		"triggers": [
+			{
+				"id": "alarm_vibration_true",
+				"title": {
+					"en": "The vibration alarm turned on",
+					"nl": "Het trillingsalarm gaat aan"
+				}
+      },
+			{
+				"id": "alarm_vibration_false",
+				"title": {
+					"en": "The vibration alarm turned off",
+					"nl": "Het trillingsalarm gaat uit"
+				}
+      }
+    ],
+		"conditions": [
+			{
+				"id": "alarm_vibration",
+				"title": {
+					"en": "The vibration alarm is !{{on|off}}",
+					"nl": "Het trillingsalarm is !{{aan|uit}}"
+				}
+      }
+    ]
+	}
+}

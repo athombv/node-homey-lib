@@ -1,0 +1,41 @@
+{
+	"type": "boolean",
+	"title": {
+		"en": "Drop Alarm",
+		"nl": "Valalarm"
+	},
+	"desc": {
+		"en": "Detected drop motion",
+		"nl": "Gedetecteerde val beweging"
+	},
+	"getable": true,
+	"setable": false,
+	"uiComponent": "sensor",
+	"$flow": {
+		"triggers": [
+			{
+				"id": "alarm_drop_true",
+				"title": {
+					"en": "The drop alarm turned on",
+					"nl": "Het valalarm gaat aan"
+				}
+      },
+			{
+				"id": "alarm_drop_false",
+				"title": {
+					"en": "The drop alarm turned off",
+					"nl": "Het valalarm gaat uit"
+				}
+      }
+    ],
+		"conditions": [
+			{
+				"id": "alarm_drop",
+				"title": {
+					"en": "The drop alarm is !{{on|off}}",
+					"nl": "Het valalarm is !{{aan|uit}}"
+				}
+      }
+    ]
+	}
+}
