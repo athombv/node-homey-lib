@@ -81,10 +81,6 @@
   "$speech": {
   	"en": {
       "element": {
-        "toggle": {
-          "type": "regex",
-          "value": "toggle"
-        },
         "turn": {
 	        "type": "regex",
 	        "value": "turn"
@@ -103,35 +99,18 @@
           "devices": {
             "capabilities": [ "onoff" ]
           }
-        },
-        "toggleDevices": {
-          "set": "toggle",
-          "ordered": false,
-          "allowDisconnect": true,
-          "capturingGroup": true,
-          "devices": {
-            "capabilities": [ "onoff" ]
-          }
         }
-
       }
     },
   	"nl": {
       "element": {
+        "turn": {
+          "type": "regex",
+          "value": "zet"
+        },
         "turnOnOrOff": {
           "type": "regex",
-          "value": "(zet|schakel) ((aan)|uit)"
-        }
-      },
-      "group": {
-        "setDevices": {
-          "set": "turnOnOrOff",
-          "ordered": false,
-          "allowDisconnect": true,
-          "capturingGroup": true,
-          "devices": {
-            "capabilities": [ "onoff" ]
-          }
+          "value": "(aan)|uit"
         }
       }
     }
