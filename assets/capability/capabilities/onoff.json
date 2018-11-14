@@ -48,6 +48,16 @@
           "en": "Is turned !{{on|off}}",
           "nl": "Is !{{aan|uit}}"
         }
+      },
+      {
+        "id": "open",
+				"title": {
+					"en": "Is !{{open|closed}}",
+					"nl": "Is !{{geopend|gesloten}}"
+				},
+				"$filter": {
+          "class": "windowcoverings|curtain|blinds|sunshade"
+				}
       }
     ],
     "actions": [
@@ -71,6 +81,26 @@
           "en": "Toggle on or off",
           "nl": "Schakel aan of uit"
         }
+      },
+      {
+        "id": "open",
+				"title": {
+					"en": "Open curtain or blind",
+					"nl": "Open de gordijnen"
+				},
+				"$filter": {
+          "class": "windowcoverings|curtain|blinds|sunshade"
+				}
+      },
+      {
+        "id": "close",
+				"title": {
+					"en": "Close curtain or blind",
+					"nl": "Sluit de gordijnen"
+				},
+				"$filter": {
+          "class": "windowcoverings|curtain|blinds|sunshade"
+				}
       }
     ]
   },
