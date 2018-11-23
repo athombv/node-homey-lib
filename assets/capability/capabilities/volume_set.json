@@ -14,7 +14,7 @@
   "setable": true,
   "getable": true,
   "uiComponent": "slider",
-  "$opts": {
+  "$flow": {
     "triggers": [{
       "id": "volume_set_changed",
       "title": {
