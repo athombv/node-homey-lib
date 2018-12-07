@@ -11,6 +11,15 @@
   "$flow": {
     "actions": [
       {
+        "id": "is_playing",
+        "title": {
+          "en": "Is playing",
+          "nl": "Is aan het afspelen"
+        }
+      }
+    ],
+    "actions": [
+      {
         "id": "play",
         "title": {
           "en": "Play",
@@ -22,6 +31,13 @@
         "title": {
           "en": "Pause",
           "nl": "Pauzeer"
+        }
+      },
+      {
+        "id": "toggle_playing",
+        "title": {
+          "en": "Toggle Play/Pause",
+          "nl": "Toggle Afspelen/Pauze"
         }
       }
     ]
