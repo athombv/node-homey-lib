@@ -9,7 +9,7 @@
   "uiComponent": "media",
   "uiQuickAction": true,
   "$flow": {
-    "actions": [
+    "conditions": [
       {
         "id": "is_playing",
         "title": {
