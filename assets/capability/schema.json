@@ -86,20 +86,27 @@
 			}
 		},
 		"uiComponent": {
-  		"type": "string",
-  		"enum": [
-        "thermostat",
-        "media",
-        "toggle",
-        "slider",
-        "ternary",
-        "button",
-        "color",
-        "picker",
-        "sensor",
-        "battery"
-  		]
-		}
+  		"oneOf": [
+    		{
+      		"type": "string",
+      		"enum": [
+            "thermostat",
+            "media",
+            "toggle",
+            "slider",
+            "ternary",
+            "button",
+            "color",
+            "picker",
+            "sensor",
+            "battery"
+      		]
+    		},
+        {
+          "type": "null"
+        }
+      ]
+    }
 	},
 	
 	"_comment": "Require `values` array when `type` is `enum`",
