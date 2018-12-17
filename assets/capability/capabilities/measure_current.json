@@ -7,6 +7,7 @@
   "units": {
     "en": "A"
   },
+  "insights": true,
   "desc": {
     "en": "Electric current (A)",
     "nl": "Elektrische stroom (A)"

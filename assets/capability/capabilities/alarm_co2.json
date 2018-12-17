@@ -1,12 +1,21 @@
 {
   "type": "boolean",
   "title": {
-    "en": "CO2 Alarm",
-    "nl": "CO2 Alarm"
+    "en": "CO2 alarm",
+    "nl": "CO2 alarm"
   },
   "desc": {
     "en": "True when dangerous CO2 values have been detected",
     "nl": "Gaat af bij gevaarlijke concentraties CO2"
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "CO2 alarm turned on",
+    "nl": "CO2 alarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "CO2 alarm turned off",
+    "nl": "CO2 alarm ging uit"
   },
   "getable": true,
   "setable": false,

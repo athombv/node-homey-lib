@@ -1,12 +1,21 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Fire Alarm",
+    "en": "Fire alarm",
     "nl": "Brandalarm"
   },
   "desc": {
     "en": "True when fire has been detected",
     "nl": "Gaat af als er brand gedetecteerd wordt"
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Fire alarm turned on",
+    "nl": "Brandalarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Fire alarm turned off",
+    "nl": "Brandalarm ging uit"
   },
   "getable": true,
   "setable": false,

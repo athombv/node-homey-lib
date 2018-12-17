@@ -7,6 +7,7 @@
   "units": {
     "en": "ppm"
   },
+  "insights": true,
   "desc": {
     "en": "CO in Parts-per-million (ppm)",
     "nl": "CO deeltjes per miljoen (ppm)"

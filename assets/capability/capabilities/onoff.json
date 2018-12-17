@@ -6,6 +6,15 @@
   },
   "getable": true,
   "setable": true,
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Turned on",
+    "nl": "Aangezet"
+  },
+  "insightsTitleFalse": {
+    "en": "Turned off",
+    "nl": "Uitgezet"
+  },
   "options": {
     "setOnDim": {
       "type": "boolean",

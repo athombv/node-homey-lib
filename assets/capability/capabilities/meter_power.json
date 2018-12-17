@@ -22,6 +22,7 @@
       }
     }
   },
+  "insights": true,
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

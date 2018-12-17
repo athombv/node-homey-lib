@@ -7,6 +7,7 @@
   "units": {
     "en": "dB"
   },
+  "insights": true,
   "desc": {
     "en": "Noise in Decibel (db)",
     "nl": "Geluid in Decibel (db)"

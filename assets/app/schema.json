@@ -68,6 +68,10 @@
 				"title": {
 					"$ref": "#/definitions/i18nObject"
 				},
+				"deprecated": {
+					"type": "boolean",
+					"enum": [ true ]
+				},
 				"droptoken": {
 					"oneOf": [
 						{
@@ -733,6 +737,10 @@
 					},
 					"images": {
 						"$ref": "#/definitions/images"
+					},
+					"deprecated": {
+  					"type": "boolean",
+  					"enum": [ true ]
 					},
 					"pair": {
 						"type": "array",

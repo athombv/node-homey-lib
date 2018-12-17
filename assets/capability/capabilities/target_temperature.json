@@ -11,6 +11,7 @@
   },
   "chartType": "stepLine",
   "decimals": 2,
+  "insights": true,
   "getable": true,
   "setable": true,
   "uiComponent": "thermostat",

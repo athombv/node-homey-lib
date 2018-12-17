@@ -7,6 +7,7 @@
   "units": {
     "en": "%"
   },
+  "insights": true,
   "desc": {
     "en": "Humidity in percent (%)",
     "nl": "Relatieve luchtvochtigheid (%)"

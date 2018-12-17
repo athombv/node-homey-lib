@@ -11,6 +11,7 @@
     "en": "Wind Strength in Kilometer per hour (km/h)",
     "nl": "Windsnelheid in Kilometer per uur (km/u)"
   },
+  "insights": true,
   "chartType": "spline",
   "decimals": 2,
   "getable": true,

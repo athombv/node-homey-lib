@@ -1,12 +1,21 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Battery Alarm",
+    "en": "Battery alarm",
     "nl": "Batterij alarm"
   },
   "desc": {
     "en": "True when there is a battery warning",
     "nl": "Geeft een batterijwaarschuwing"
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Battery alarm turned on",
+    "nl": "Batterijalarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Battery alarm turned off",
+    "nl": "Batterijalarm ging uit"
   },
   "getable": true,
   "setable": false,

@@ -7,6 +7,7 @@
   "units": {
     "en": "km/h"
   },
+  "insights": true,
   "desc": {
     "en": "Gust Strength n Kilometer per hour (km/h)",
     "nl": "Windstoot snelheid in Kilometer per uur (km/u)"

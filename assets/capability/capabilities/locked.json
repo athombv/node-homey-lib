@@ -8,6 +8,15 @@
     "en": "True when the lock is locked",
     "nl": "Geeft aan wanneer iets op slot is"
   },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Locked",
+    "nl": "Vergrendeld"
+  },
+  "insightsTitleFalse": {
+    "en": "Unlocked",
+    "nl": "Ontgrendeld"
+  },
   "getable": true,
   "setable": true,
   "uiComponent": "toggle",

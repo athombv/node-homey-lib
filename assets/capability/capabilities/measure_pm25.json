@@ -7,6 +7,7 @@
   "units": {
     "en": "ppm"
   },
+  "insights": true,
   "desc": {
     "en": "Atmospheric Particulate Matter (μg/m3)",
     "nl": "Deeltjesvormige luchtverontreiniging (μg/m3)"

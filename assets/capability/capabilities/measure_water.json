@@ -11,6 +11,7 @@
     "en": "Water flow in Liters per minute (L/min)",
     "nl": "Waterdoorstroming in Liters per minuut (L/min)"
   },
+  "insights": true,
   "chartType": "stepLine",
   "decimals": 2,
   "getable": true,

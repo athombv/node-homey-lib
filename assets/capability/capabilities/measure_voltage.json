@@ -11,6 +11,7 @@
     "en": "Voltage (V)",
     "nl": "Voltage (V)"
   },
+  "insights": true,
   "chartType": "stepLine",
   "decimals": 2,
   "getable": true,

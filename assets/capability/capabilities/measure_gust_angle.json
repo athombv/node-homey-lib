@@ -7,6 +7,7 @@
   "units": {
     "en": "°"
   },
+  "insights": true,
   "desc": {
     "en": "Gust Angle in Degrees (°)",
     "nl": "Windstoot richting in Graden (°)"

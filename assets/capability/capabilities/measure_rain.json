@@ -7,6 +7,7 @@
   "units": {
     "en": "mm"
   },
+  "insights": true,
   "desc": {
     "en": "Rain in millimeter (mm)",
     "nl": "Regen in millimeter (mm)"

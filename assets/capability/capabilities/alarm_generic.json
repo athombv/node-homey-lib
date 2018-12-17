@@ -1,12 +1,21 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Generic Alarm",
-    "nl": "Algemeen Alarm"
+    "en": "Generic alarm",
+    "nl": "Algemeen alarm"
   },
   "desc": {
     "en": "Generic alarm",
     "nl": "Algemeen alarm"
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Generic alarm turned on",
+    "nl": "Algemeen alarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Generic alarm turned off",
+    "nl": "Algemeen alarm ging uit"
   },
   "getable": true,
   "setable": true,

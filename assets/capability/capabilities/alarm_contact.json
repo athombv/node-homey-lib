@@ -1,12 +1,21 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Contact Alarm",
+    "en": "Contact alarm",
     "nl": "Contact alarm"
   },
   "desc": {
     "en": "Contact sensor, e.g. for windows (true/false)",
     "nl": "Contact sensor, bijvoorbeeld voor ramen"
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Contact alarm turned on",
+    "nl": "Contact alarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Contact alarm turned off",
+    "nl": "Contact alarm ging uit"
   },
   "getable": true,
   "setable": false,
