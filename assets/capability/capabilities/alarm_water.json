@@ -1,12 +1,21 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Water Alarm",
+    "en": "Water alarm",
     "nl": "Wateralarm"
   },
   "desc": {
     "en": "True when water has been detected",
     "nl": "Gaat af als er water gedetecteerd wordt"
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Water alarm turned on",
+    "nl": "Water alarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Water alarm turned off",
+    "nl": "Water alarm ging uit"
   },
   "getable": true,
   "setable": false,

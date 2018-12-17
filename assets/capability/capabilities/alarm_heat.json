@@ -1,12 +1,21 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Heat Alarm",
+    "en": "Heat alarm",
     "nl": "Hittealarm"
   },
   "desc": {
     "en": "True when extreme heat has been detected",
     "nl": "Gaat af als er extreme hitte gedetecteerd wordt"
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Heat alarm turned on",
+    "nl": "Hittealarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Heat alarm turned off",
+    "nl": "Hittealarm ging uit"
   },
   "getable": true,
   "setable": false,

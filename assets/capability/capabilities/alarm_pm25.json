@@ -1,12 +1,21 @@
 {
   "type": "boolean",
   "title": {
-    "en": "PM2.5 Alarm",
-    "nl": "PM2.5 Alarm"
+    "en": "PM2.5 alarm",
+    "nl": "PM2.5 alarm"
   },
   "desc": {
     "en": "True when PM2.5 values exceeds threshold",
     "nl": "Gaat af wanneer de PM2.5 waarde overschreden wordt"
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "PM2.5 alarm turned on",
+    "nl": "PM2.5 alarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "PM2.5 alarm turned off",
+    "nl": "PM2.5 alarm ging uit"
   },
   "getable": true,
   "setable": false,

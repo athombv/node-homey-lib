@@ -10,6 +10,7 @@
   "desc": {
     "en": "Ultraviolet in UV index (UVI)"
   },
+  "insights": true,
   "chartType": "spline",
   "decimals": 2,
   "getable": true,

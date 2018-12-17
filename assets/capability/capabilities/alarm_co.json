@@ -1,12 +1,21 @@
 {
   "type": "boolean",
   "title": {
-    "en": "CO Alarm",
+    "en": "CO alarm",
     "nl": "CO alarm"
   },
   "desc": {
     "en": "True when dangerous CO values have been detected",
     "nl": "Gaat af bij gevaarlijke concentraties CO"
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "CO alarm turned on",
+    "nl": "CO alarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "CO alarm turned off",
+    "nl": "CO alarm ging uit"
   },
   "getable": true,
   "setable": false,

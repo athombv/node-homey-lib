@@ -1,12 +1,21 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Night Alarm",
-    "nl": "Nacht Alarm"
+    "en": "Night alarm",
+    "nl": "Nachtalarm"
   },
   "desc": {
     "en": "True when it is night",
     "nl": "Gaat af als het nacht is"
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Night alarm turned on",
+    "nl": "Nachtalarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Night alarm turned off",
+    "nl": "Nachtalarm ging uit"
   },
   "getable": true,
   "setable": false,

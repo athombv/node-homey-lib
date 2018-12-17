@@ -7,6 +7,7 @@
   "units": {
     "en": "°C"
   },
+  "insights": true,
   "decimals": 2,
   "chartType": "spline",
   "getable": true,

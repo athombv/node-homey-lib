@@ -1,12 +1,21 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Smoke Alarm",
+    "en": "Smoke alarm",
     "nl": "Rookmelder"
   },
   "desc": {
     "en": "True when smoke has been detected",
     "nl": "Gaat af als er rook gedetecteerd wordt"
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Smoke alarm turned on",
+    "nl": "Rookmelder ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Smoke alarm turned off",
+    "nl": "Rookmelder ging uit"
   },
   "getable": true,
   "setable": false,

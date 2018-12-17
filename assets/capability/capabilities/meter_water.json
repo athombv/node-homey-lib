@@ -14,6 +14,7 @@
     "en": "Water usage in Cubic Meter (m³)",
     "nl": "Water gebruik in Kubieke Meter (m³)"
   },
+  "insights": true,
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

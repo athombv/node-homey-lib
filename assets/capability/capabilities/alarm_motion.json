@@ -1,12 +1,17 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Motion Alarm",
+    "en": "Motion alarm",
     "nl": "Bewegingsalarm"
   },
-  "desc": {
-    "en": "Detected motion",
-    "nl": "Gedetecteerde beweging"
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Motion alarm turned on",
+    "nl": "Bewegingsalarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Motion alarm turned off",
+    "nl": "Bewegingsalarm ging uit"
   },
   "getable": true,
   "setable": false,

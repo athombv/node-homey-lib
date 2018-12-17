@@ -11,6 +11,7 @@
     "en": "Wind Angle in Degrees (°)",
     "nl": "Windrichting in Graden (°)"
   },
+  "insights": true,
   "chartType": "spline",
   "decimals": 2,
   "getable": true,
