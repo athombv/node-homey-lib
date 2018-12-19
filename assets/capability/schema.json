@@ -41,6 +41,9 @@
 			"type": "boolean",
 			"default": true
 		},
+    "icon": {
+      "type": "string"
+    },
 		"insights": {
   		"type": "boolean"
 		},
