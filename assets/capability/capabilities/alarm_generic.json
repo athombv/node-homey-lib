@@ -32,8 +32,8 @@
       {
         "id": "alarm_generic_false",
         "title": {
-          "en": "The generic alarm turned on",
-          "nl": "Het algemene alarm gaat aan"
+          "en": "The generic alarm turned off",
+          "nl": "Het algemene alarm ging uit"
         }
       }
     ],
