@@ -1,6 +1,7 @@
 {
   "title": {
-    "en": "Window Coverings state"
+    "en": "Window Coverings State",
+    "nl": "Raambekleding Status"
   },
   "type": "enum",
   "values": [
@@ -114,7 +115,7 @@
           "allowDisconnect": true,
           "capturingGroup": true,
           "devices": {
-            "class": "windowcoverings|curtain|blind|sunshade",
+            "class": "windowcoverings|curtain|blinds|sunshade",
             "capabilities": "windowcoverings_set|dim"
           }
         },
@@ -124,12 +125,36 @@
           "allowDisconnect": true,
           "capturingGroup": true,
           "devices": {
-            "class": "windowcoverings|curtain|blind|sunshade",
+            "class": "windowcoverings|curtain|blinds|sunshade",
             "capabilities": "windowcoverings_state|windowcoverings_closed|onoff"
           }
         },
         "windowCoveringsState": {
           "set": "up || idle || down"
+        }
+      }
+    },
+    "nl": {
+      "element": {
+        "windowCoverings": {
+          "type": "regex",
+          "value": "(zonnescherm|zonneschermen|zonwering|zonnewering|luifel|raambekleding|raambedekking|lamellen|jaloezien|luxaflex|rolluik|rolluiken)"
+        },
+        "up": {
+          "type": "regex",
+          "value": "(omhoog|verhoog)"
+        },
+        "down": {
+          "type": "regex",
+          "value": "(omlaag|verlaag)"
+        },
+        "idle": {
+          "type": "regex",
+          "value": "(stop)"
+        },
+        "percent": {
+          "type": "regex",
+          "value": "(?:to\\s)?(\\d+)\\sprocent"
         }
       }
     }
