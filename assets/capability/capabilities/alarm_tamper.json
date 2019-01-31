@@ -8,6 +8,15 @@
     "en": "True when tampering has been detected",
     "nl": "Gaat af als sabotage gedetecteerd wordt"
   },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Tamper alarm turned on",
+    "nl": "Sabotagealarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Tamper alarm turned off",
+    "nl": "Sabotagealarm ging uit"
+  },
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

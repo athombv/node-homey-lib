@@ -18,7 +18,7 @@
     "nl": "Algemeen alarm ging uit"
   },
   "getable": true,
-  "setable": true,
+  "setable": false,
   "uiComponent": "sensor",
   "$flow": {
     "triggers": [
