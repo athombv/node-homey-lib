@@ -1,7 +1,8 @@
 {
   "title": {
     "en": "Channel down",
-    "nl": "Kanaal omlaag"
+    "nl": "Kanaal omlaag",
+	"de": "Kanal runter"
   },
   "type": "boolean",
   "getable": false,
@@ -12,7 +13,8 @@
         "id": "channel_down",
         "title": {
           "en": "One channel down",
-          "nl": "Eén kanaal omlaag"
+          "nl": "Eén kanaal omlaag",
+		  "de": "Einen Kanal runter"
         }
       }
     ]
@@ -20,7 +22,8 @@
   "uiComponent": "button",
   "$speechExamples": {
     "en": ["Switch My TV to the previous channel"],
-    "nl": ["Zet Mijn TV op het vorige kanaal"]
+    "nl": ["Zet Mijn TV op het vorige kanaal"],
+	"de": ["Schalte meinen TV auf den vorherigen Kanal"]
   },
   "$speech": {
     "en": {

@@ -1,7 +1,8 @@
 {
   "title": {
     "en": "Volume muted",
-    "nl": "Gedempt volume"
+    "nl": "Gedempt volume",
+	"de": "Lautstärke stumm"
   },
   "type": "boolean",
   "getable": true,
@@ -12,21 +13,24 @@
         "id": "volume_mute",
         "title": {
           "en": "Mute the volume",
-          "nl": "Demp het geluid"
+          "nl": "Demp het geluid",
+		  "de": "Lautstärke stummschalten"
         }
       },
       {
         "id": "volume_unmute",
         "title": {
           "en": "Unmute the volume",
-          "nl": "Demp het geluid niet meer"
+          "nl": "Demp het geluid niet meer",
+		  "de": "Lautstärke nicht mehr stummschalten"
         }
       }
     ]
   },
   "$speechExamples": {
     "en": ["Mute the volume of my amplifier"],
-    "nl": ["Demp het volume van mijn versterker"]
+    "nl": ["Demp het volume van mijn versterker"],
+	"de": ["Die Lautstärke meines Verstärkers stummschalten"]
   },
   "$speech": {
     "en": {

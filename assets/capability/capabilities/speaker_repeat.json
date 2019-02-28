@@ -1,6 +1,7 @@
 {
   "title": {
-    "en": "Repeat"
+    "en": "Repeat",
+	"de": "Wiederholen"
   },
   "type": "enum",
   "values": [
@@ -8,19 +9,22 @@
 		"id": "none",
 		"title": {
 			"en": "Off",
-			"nl": "Uit"
+			"nl": "Uit",
+			"de": "Aus"
 		}
 	},
 	{
 		"id": "track",
 		"title": {
-			"en": "Repeat Track"
+			"en": "Repeat Track",
+			"de": "Titel wiederholen"
 		}
 	},
 	{
 		"id": "playlist",
 		"title": {
-			"en": "Repeat Playlist"
+			"en": "Repeat Playlist",
+			"de": "Playlist wiederholen"
 		}
 	}
   ],
@@ -32,7 +36,8 @@
       {
         "id": "set_repeat",
         "title": {
-          "en": "Repeat"
+          "en": "Repeat",
+		  "de": "Wiederholen"
         },
         "args": [
           {

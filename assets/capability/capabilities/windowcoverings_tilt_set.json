@@ -1,6 +1,7 @@
 {
   "title": {
-    "en": "Window Coverings Tilt Set"
+    "en": "Window Coverings Tilt Set",
+	"de": "Jalousien-Kippstellung setzen"
   },
   "type": "number",
   "min": 0,

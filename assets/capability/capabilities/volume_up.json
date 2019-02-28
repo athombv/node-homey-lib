@@ -1,7 +1,8 @@
 {
   "title": {
     "en": "Volume up",
-    "nl": "Volume omhoog"
+    "nl": "Volume omhoog",
+	"de": "Lautstärke hoch"
   },
   "type": "boolean",
   "getable": false,
@@ -12,13 +13,15 @@
       "id": "volume_up",
       "title": {
         "en": "Turn the volume up",
-        "nl": "Zet het geluid harder"
+        "nl": "Zet het geluid harder",
+		"de": "Dreh die Lautstärke hoch"
       }
     }]
   },
   "$speechExamples": {
     "en": ["Turn the volume of my speaker up"],
-    "nl": ["Zet het volume van mijn speaker hoger"]
+    "nl": ["Zet het volume van mijn speaker hoger"],
+	"de": ["Dreh die Lautstärke meines Lautsprechers hoch"]
   },
   "$speech": {
     "en": {

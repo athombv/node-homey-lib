@@ -2,39 +2,45 @@
   "type": "enum",
   "title": {
     "en": "Thermostat mode",
-    "nl": "Thermostaat modus"
+    "nl": "Thermostaat modus",
+	"de": "Thermostat-Modus"
   },
   "desc": {
     "en": "Mode of the thermostat",
-    "nl": "Modus van de thermostaat"
+    "nl": "Modus van de thermostaat",
+	"de": "Modus des Thermostates"
   },
   "values": [
     {
       "id": "auto",
       "title": {
         "en": "Automatic",
-        "nl": "Automatisch"
+        "nl": "Automatisch",
+		"de": "Automatisch"
       }
     },
     {
       "id": "heat",
       "title": {
         "en": "Heat",
-        "nl": "Verhitten"
+        "nl": "Verhitten",
+		"de": "Heizen"
       }
     },
     {
       "id": "cool",
       "title": {
         "en": "Cool",
-        "nl": "Koelen"
+        "nl": "Koelen",
+		"de": "Kühlen"
       }
     },
     {
       "id": "off",
       "title": {
         "en": "Off",
-        "nl": "Uit"
+        "nl": "Uit",
+		"de": "Aus"
       }
     }
   ],
@@ -47,7 +53,8 @@
         "id": "thermostat_mode_changed",
         "title": {
           "en": "Thermostat mode has changed",
-          "nl": "Thermostaat modus is veranderd"
+          "nl": "Thermostaat modus is veranderd",
+		  "de": "Thermostat-Modus hat sich geändert"
         },
         "args": [
           {
@@ -63,7 +70,8 @@
         "id": "thermostat_mode_is",
         "title": {
           "en": "Thermostat mode is",
-          "nl": "Thermostaat modus is"
+          "nl": "Thermostaat modus is",
+		  "de": "Thermostat-Modus ist"
         },
         "args": [
           {
@@ -79,7 +87,8 @@
         "id": "thermostat_mode_set",
         "title": {
           "en": "Set the mode",
-          "nl": "Stel de modus in"
+          "nl": "Stel de modus in",
+		  "de": "Modus setzen"
         },
         "args": [
           {

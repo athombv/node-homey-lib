@@ -2,7 +2,8 @@
   "type": "number",
   "title": {
     "en": "Hue",
-    "nl": "Hue"
+    "nl": "Hue",
+	"de": "Farbton"
   },
   "min": 0,
   "chartType": "stepLine",
@@ -17,7 +18,8 @@
         "id": "hue",
         "title": {
           "en": "Set the hue",
-          "nl": "Verander kleurtint"
+          "nl": "Verander kleurtint",
+		  "de": "Den Farbton setzen"
         },
         "args": [
           {
@@ -37,7 +39,8 @@
         "id": "color",
         "title": {
           "en": "Set a color",
-          "nl": "Verander naar kleur"
+          "nl": "Verander naar kleur",
+		  "de": "Eine Farbe setzen"
         },
         "args": [
           {
@@ -50,14 +53,16 @@
         "id": "color_random",
         "title": {
           "en": "Set a random color",
-          "nl": "Verander naar een willekeurige kleur"
+          "nl": "Verander naar een willekeurige kleur",
+		  "de": "Eine zufällige Farbe setzen"
         }
       }
     ]
   },
   "$speechExamples": {
     "en": [ "Turn all lights to blue", "Turn My Light to pink" ],
-    "nl": [ "Zet alle lampen op blauw", "Zet Mijn Licht op blauw" ]
+    "nl": [ "Zet alle lampen op blauw", "Zet Mijn Licht op blauw" ],
+	"de": ["Alle Lampen auf Blau schalten", "Mein Licht auf Pink schalten"]
   },
   "$speech": {
     "en": {

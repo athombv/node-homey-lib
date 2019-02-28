@@ -2,10 +2,12 @@
   "type": "number",
   "title": {
     "en": "Position",
-    "nl": "Positie"
+    "nl": "Positie",
+	"de": "Position"
   },
   "desc": {
-	"en": "Set the position of window coverings. 0% is closed, 100% is open"
+	"en": "Set the position of window coverings. 0% is closed, 100% is open",
+	"de": "Die Position der Jalousien setzen. 0% ist geschlossen, 100% ist offen"
   },
   "chartType": "stepLine",
   "min": 0,
@@ -23,7 +25,8 @@
         "id": "windowcoverings_set_changed",
         "title": {
           "en": "Position changed",
-          "nl": "Positie veranderd"
+          "nl": "Positie veranderd",
+		  "de": "Position hat sich geändert"
         },
         "tokens": [
           {
@@ -31,7 +34,8 @@
             "type": "number",
             "title": {
               "en": "Position",
-              "nl": "Positie"
+              "nl": "Positie",
+			  "de": "Position"
             },
             "example": 0.5
           }
@@ -43,7 +47,8 @@
         "id": "windowcoverings_set",
         "title": {
           "en": "Set the position to",
-          "nl": "Zet de positie naar"
+          "nl": "Zet de positie naar",
+		  "de": "Setze die Position auf"
         },
         "args": [
           {

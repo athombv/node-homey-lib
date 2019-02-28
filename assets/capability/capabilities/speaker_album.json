@@ -1,7 +1,8 @@
 {
   "title": {
     "en": "Album",
-    "nl": "Album"
+    "nl": "Album",
+	"de": "Album"
   },
   "type": "string",
   "getable": true,

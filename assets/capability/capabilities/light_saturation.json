@@ -2,7 +2,8 @@
   "type": "number",
   "title": {
     "en": "Color Saturation",
-    "nl": "Kleurverzadiging"
+    "nl": "Kleurverzadiging",
+	"de": "Farbsättigung"
   },
   "min": 0,
   "chartType": "stepLine",
@@ -16,7 +17,8 @@
         "id": "saturation",
         "title": {
           "en": "Set the saturation",
-          "nl": "Verander kleurverzadiging"
+          "nl": "Verander kleurverzadiging",
+		  "de": "Die Sättigung setzen"
         },
         "args": [
           {
