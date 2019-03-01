@@ -1,7 +1,8 @@
 {
   "title": {
     "en": "Garage door",
-    "nl": "Garagedeur"
+    "nl": "Garagedeur",
+	"de": "Garagentor"
   },
   "$speechAlternatives": {
     "en": [ "garagedoor", "garage door", "garage door" ],

@@ -1,10 +1,12 @@
 {
   "title": {
     "en": "Vacuum Cleaner",
-    "nl": "Stofzuiger"
+    "nl": "Stofzuiger",
+	"de": "Staubsauger"
   },
   "description": {
-    "en": "Use this device class for vacuum cleaners, usually together with the `vacuumcleaner_state` capability."
+    "en": "Use this device class for vacuum cleaners, usually together with the `vacuumcleaner_state` capability.",
+	"de": "Nutze diese Geräteklasse für Staubsauger - normalerweise zusammen mit der 'vacuumcleaner_state'-Fähigkeit."
   },
   "$speechAlternatives": {
     "en": [ "vacuum cleaner", "vacuumcleaner", "vacuum cleaners", "vacuumcleaners", "vacuum" ],
