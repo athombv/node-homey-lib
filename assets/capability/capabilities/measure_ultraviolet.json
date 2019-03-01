@@ -2,13 +2,15 @@
   "type": "number",
   "title": {
     "en": "Ultraviolet",
-    "nl": "Ultraviolet"
+    "nl": "Ultraviolet",
+	"de": "Ultraviolett"
   },
   "units": {
     "en": "UVI"
   },
   "desc": {
-    "en": "Ultraviolet in UV index (UVI)"
+    "en": "Ultraviolet in UV index (UVI)",
+	"de": "Ultraviolett in UV-Index (UVI)"
   },
   "insights": true,
   "chartType": "spline",
@@ -22,7 +24,8 @@
         "id": "measure_ultraviolet_changed",
         "title": {
           "en": "The ultraviolet value changed",
-          "nl": "De ultraviolet waarde is veranderd"
+          "nl": "De ultraviolet waarde is veranderd",
+		  "de": "Der Ultraviolett-Wert hat sich geändert"
         },
         "tokens": [
           {

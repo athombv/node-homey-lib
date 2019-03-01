@@ -2,7 +2,8 @@
   "type": "number",
   "title": {
     "en": "Power Meter",
-    "nl": "Energiemeter"
+    "nl": "Energiemeter",
+	"de": "Energiezähler"
   },
   "decimals": 2,
   "units": {
@@ -11,14 +12,16 @@
   "chartType": "spline",
   "desc": {
     "en": "Power usage in KiloWattHour (kWh)",
-    "nl": "Stroomverbuik in KiloWattUur (kWh)"
+    "nl": "Stroomverbuik in KiloWattUur (kWh)",
+	"de": "Energieverbrauch in Kilowattstunde (kWh)"
   },
   "options": {
     "isGenerator": {
       "type": "boolean",
       "default": false,
       "desc": {
-        "en": "This flag is used to determine whether this devices uses or generates power."
+        "en": "This flag is used to determine whether this devices uses or generates power.",
+		"de": "Dieser Flag wird benutzt, um zu bestimmen, ob diese Geräte Energie verbrauchen oder produzieren."
       }
     }
   },
@@ -32,7 +35,8 @@
         "id": "meter_power_changed",
         "title": {
           "en": "The power meter changed",
-          "nl": "De stroommeter is veranderd"
+          "nl": "De stroommeter is veranderd",
+		  "de": "Der Energiezähler hat sich geändert"
         },
         "tokens": [
           {

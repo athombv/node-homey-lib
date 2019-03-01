@@ -2,7 +2,8 @@
   "type": "boolean",
   "title": {
     "en": "Closed",
-    "nl": "Gesloten"
+    "nl": "Gesloten",
+	"de": "Geschlossen"
   },
   "getable": true,
   "setable": true,
@@ -13,14 +14,16 @@
         "id": "windowcoverings_closed_true",
         "title": {
           "en": "Closed",
-          "nl": "Gesloten"
+          "nl": "Gesloten",
+		  "de": "Geschlossen"
         }
       },
       {
         "id": "windowcoverings_closed_false",
         "title": {
           "en": "Opened",
-          "nl": "Geopend"
+          "nl": "Geopend",
+		  "de": "Offen"
         }
       }
     ],
@@ -29,7 +32,8 @@
         "id": "closed",
         "title": {
           "en": "Are !{{closed|opened}}",
-          "nl": "Zijn !{{gesloten|geopend}}"
+          "nl": "Zijn !{{gesloten|geopend}}",
+		  "de": "Sind !{{geschlossen|offen}}"
         }
       }
     ],
@@ -38,21 +42,24 @@
         "id": "close",
         "title": {
           "en": "Close",
-          "nl": "Sluiten"
+          "nl": "Sluiten",
+		  "de": "Schließen"
         }
       },
       {
         "id": "open",
         "title": {
           "en": "Open",
-          "nl": "Openen"
+          "nl": "Openen",
+		  "de": "Öffnen"
         }
       },
       {
         "id": "toggle",
         "title": {
           "en": "Toggle open or closed",
-          "nl": "Schakel tussen geopend en gesloten"
+          "nl": "Schakel tussen geopend en gesloten",
+		  "de": "Offen/Geschlossen umschalten"
         }
       }
     ]

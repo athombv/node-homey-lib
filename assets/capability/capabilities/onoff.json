@@ -2,32 +2,37 @@
   "type": "boolean",
   "title": {
     "en": "Turned on",
-    "nl": "Aangezet"
+    "nl": "Aangezet",
+	"de": "Angeschaltet"
   },
   "getable": true,
   "setable": true,
   "insights": true,
   "insightsTitleTrue": {
     "en": "Turned on",
-    "nl": "Aangezet"
+    "nl": "Aangezet",
+	"de": "Angeschaltet"
   },
   "insightsTitleFalse": {
     "en": "Turned off",
-    "nl": "Uitgezet"
+    "nl": "Uitgezet",
+	"de": "Ausgeschaltet"
   },
   "options": {
     "setOnDim": {
       "type": "boolean",
       "default": true,
       "desc": {
-        "en": "When a device has both an `onoff` and `dim` capability, and Homey wants to turn the device on AND to a specific dim value, set this capability to `false` to prevent Homey from sending a set command."
+        "en": "When a device has both an `onoff` and `dim` capability, and Homey wants to turn the device on AND to a specific dim value, set this capability to `false` to prevent Homey from sending a set command.",
+		"de": "Wenn ein Gerät sowohl 'An/Aus'- als auch 'Dimm'-Fähigkeit hat und Homey das Gerät anschalten UND auf einen bestimmten Wert dimmen will, setze diese Fähigkeit auf 'false', um Homey am Senden eines Setzen-Befehls zu hindern."
       }
     },
     "greyout": {
       "type": "boolean",
       "default": false,
       "desc": {
-        "en": "When this capability is false, give a visual hint to greyout the device."
+        "en": "When this capability is false, give a visual hint to greyout the device.",
+		"de": "wenn diese Fähigkeit 'false' ist, gibt es einen visuellenen Hinweis, um das Gerät auszugrauen."
       }
     }
   },
@@ -39,14 +44,16 @@
         "id": "onoff_true",
         "title": {
           "en": "Turned on",
-          "nl": "Aangezet "
+          "nl": "Aangezet ",
+		  "de": "Angeschaltet"
         }
       },
       {
         "id": "onoff_false",
         "title": {
           "en": "Turned off",
-          "nl": "Uitgezet"
+          "nl": "Uitgezet",
+		  "de": "Ausgeschaltet"
         }
       }
     ],
@@ -55,14 +62,16 @@
         "id": "on",
         "title": {
           "en": "Is turned !{{on|off}}",
-          "nl": "Is !{{aan|uit}}"
+          "nl": "Is !{{aan|uit}}",
+		  "de": "Ist !{{an|aus}}"
         }
       },
       {
         "id": "open",
 				"title": {
 					"en": "Is !{{open|closed}}",
-					"nl": "Is !{{geopend|gesloten}}"
+					"nl": "Is !{{geopend|gesloten}}",
+					"de": "Ist !{{offen|geschlossen}}"
 				},
 				"$filter": {
           "class": "windowcoverings|curtain|blinds|sunshade"
@@ -74,28 +83,32 @@
         "id": "on",
         "title": {
           "en": "Turn on",
-          "nl": "Zet aan"
+          "nl": "Zet aan",
+		  "de": "Anschalten"
         }
       },
       {
         "id": "off",
         "title": {
           "en": "Turn off",
-          "nl": "Zet uit"
+          "nl": "Zet uit",
+		  "de": "Ausschalten"
         }
       },
       {
         "id": "toggle",
         "title": {
           "en": "Toggle on or off",
-          "nl": "Schakel aan of uit"
+          "nl": "Schakel aan of uit",
+		  "de": "An- oder ausschalten"
         }
       },
       {
         "id": "open",
 				"title": {
 					"en": "Open curtain or blind",
-					"nl": "Open de gordijnen"
+					"nl": "Open de gordijnen",
+					"de": "Vorhang oder Rollladen öffnen"
 				},
 				"$filter": {
           "class": "windowcoverings|curtain|blinds|sunshade"
@@ -105,7 +118,8 @@
         "id": "close",
 				"title": {
 					"en": "Close curtain or blind",
-					"nl": "Sluit de gordijnen"
+					"nl": "Sluit de gordijnen",
+					"de": "Vorhang oder Rollladen schließen"
 				},
 				"$filter": {
           "class": "windowcoverings|curtain|blinds|sunshade"
@@ -115,7 +129,8 @@
   },
   "$speechExamples": {
 	  "en": [ "Turn all lights on", "Turn off all devices", "Toggle all lights" ],
-	  "nl": [ "Zet alle lichten aan", "Zet alle apparaten uit" ]
+	  "nl": [ "Zet alle lichten aan", "Zet alle apparaten uit" ],
+	  "de": ["Alle Lichter anschalten", "Alle Geräte ausschalten", "Alle Lichter an-/ausschalten"]
   },
   "$speech": {
   	"en": {

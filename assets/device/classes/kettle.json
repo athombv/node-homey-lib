@@ -1,10 +1,12 @@
 {
   "title": {
     "en": "Kettle",
-    "nl": "Waterkoker"
+    "nl": "Waterkoker",
+	"de": "Wasserkocher"
   },
   "description": {
-    "en": "Use this device class for kettle devices, that can heat water."
+    "en": "Use this device class for kettle devices, that can heat water.",
+	"de": "Nutze diese Geräteklasse für Kessel-Geräte, die Wasser kochen können."
   },
   "$speechAlternatives": {
     "en": [ "kettle", "kettles", "water cooker" ],

@@ -1,7 +1,8 @@
 {
   "title": {
     "en": "Artist",
-    "nl": "Artiest"
+    "nl": "Artiest",
+	"de": "Interpret"
   },
   "type": "string",
   "getable": true,

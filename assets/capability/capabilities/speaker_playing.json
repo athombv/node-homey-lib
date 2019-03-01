@@ -2,6 +2,7 @@
   "title": {
     "en": "Playing",
     "nl": "Afspelen"
+	"de": "Abspielen"
   },
   "type": "boolean",
   "getable": true,
@@ -14,7 +15,8 @@
         "id": "is_playing",
         "title": {
           "en": "Is playing",
-          "nl": "Is aan het afspelen"
+          "nl": "Is aan het afspelen",
+		  "de": "Wird abgespielt"
         }
       }
     ],
@@ -23,21 +25,24 @@
         "id": "play",
         "title": {
           "en": "Play",
-          "nl": "Speel af"
+          "nl": "Speel af",
+		  "de": "Play"
         }
       },
       {
         "id": "pause",
         "title": {
           "en": "Pause",
-          "nl": "Pauzeer"
+          "nl": "Pauzeer",
+		  "de": "Pause"
         }
       },
       {
         "id": "toggle_playing",
         "title": {
           "en": "Toggle Play/Pause",
-          "nl": "Toggle Afspelen/Pauze"
+          "nl": "Toggle Afspelen/Pauze",
+		  "de": "Play/Pause umschalten"
         }
       }
     ]

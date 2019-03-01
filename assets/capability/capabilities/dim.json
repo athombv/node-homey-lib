@@ -2,7 +2,8 @@
   "type": "number",
   "title": {
     "en": "Dim level",
-    "nl": "Dim niveau"
+    "nl": "Dim niveau",
+	"de": "Dimm-Niveau"
   },
   "chartType": "stepLine",
   "min": 0,
@@ -17,14 +18,16 @@
       "id": "dim_changed",
       "title": {
         "en": "Dim-level changed",
-        "nl": "Dim-niveau veranderd"
+        "nl": "Dim-niveau veranderd",
+		"de": "Dimm-Niveau geändert"
       },
       "tokens": [{
         "name": "dim",
         "type": "number",
         "title": {
           "en": "Level",
-          "nl": "Niveau"
+          "nl": "Niveau",
+		  "de": "Niveau"
         },
         "example": 0.5
       }]
@@ -33,7 +36,8 @@
         "id": "dim",
         "title": {
           "en": "Dim to",
-          "nl": "Dim naar"
+          "nl": "Dim naar",
+		  "de": "Dimmen auf"
         },
         "args": [{
           "name": "dim",
@@ -51,7 +55,8 @@
         "id": "dim_relative",
         "title": {
           "en": "Set relative dim-level",
-          "nl": "Zet relatief dim-niveau"
+          "nl": "Zet relatief dim-niveau",
+		  "de": "Relatives Dimm-Niveau setzen"
         },
         "args": [{
           "name": "dim",
@@ -69,7 +74,8 @@
   },
   "$speechExamples": {
     "en": ["Dim all lights to 50%", "Set My Light to full brightness"],
-    "nl": ["Dim alle lampen naar 50%", "Zet Mijn Lamp naar volle helderheid"]
+    "nl": ["Dim alle lampen naar 50%", "Zet Mijn Lamp naar volle helderheid"],
+	"de": ["Alle Lichter auf 50% dimmen", "Meine Lichter auf volle Helligkeit setzen"]
   },
   "$speech": {
     "en": {

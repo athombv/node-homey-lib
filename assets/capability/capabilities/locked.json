@@ -2,20 +2,24 @@
   "type": "boolean",
   "title": {
     "en": "Locked",
-    "nl": "Op slot"
+    "nl": "Op slot",
+	"de": "Verriegelt"
   },
   "desc": {
     "en": "True when the lock is locked",
-    "nl": "Geeft aan wanneer iets op slot is"
+    "nl": "Geeft aan wanneer iets op slot is",
+	"de": "True, wenn das Schloss verriegelt ist"
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Locked",
-    "nl": "Vergrendeld"
+    "nl": "Vergrendeld",
+	"de": "Verriegelt"
   },
   "insightsTitleFalse": {
     "en": "Unlocked",
-    "nl": "Ontgrendeld"
+    "nl": "Ontgrendeld",
+	"de": "Entriegelt"
   },
   "getable": true,
   "setable": true,
@@ -25,14 +29,16 @@
         "id": "locked_true",
         "title": {
           "en": "A lock just locked",
-          "nl": "Een slot werd vergrendeld"
+          "nl": "Een slot werd vergrendeld",
+		  "de": "Ein Schloss wurde gerade verriegelt"
         }
       },
       {
         "id": "locked_false",
         "title": {
           "en": "A lock just unlocked",
-          "nl": "Een slot werd ontgrendeld"
+          "nl": "Een slot werd ontgrendeld",
+		  "de": "Ein Schloss wurde gerade entriegelt"
         }
       }
     ],
@@ -40,28 +46,32 @@
       "id": "locked",
       "title": {
         "en": "A lock is !{{locked|unlocked}}",
-        "nl": "Een slot is !{{vergrendeld|ontgrendeld}}"
+        "nl": "Een slot is !{{vergrendeld|ontgrendeld}}",
+		"de": "Ein Schloss ist !{{verriegelt|entriegelt}}"
       }
     }],
     "actions": [{
         "id": "lock",
         "title": {
           "en": "Lock",
-          "nl": "Vergrendel"
+          "nl": "Vergrendel",
+		  "de": "Verriegeln"
         }
       },
       {
         "id": "unlock",
         "title": {
           "en": "Unlock",
-          "nl": "Ontgrendel"
+          "nl": "Ontgrendel",
+		  "de": "Entriegeln"
         }
       }
     ]
   },
   "$speechExamples": {
     "en": ["Did I lock My Lock?"],
-    "nl": ["Heb ik Mijn Slot op slot gedaan?"]
+    "nl": ["Heb ik Mijn Slot op slot gedaan?"],
+	"de": ["Habe ich mein Schloss verriegelt?"]
   },
   "$speech": {
     "en": {

@@ -1,6 +1,7 @@
 {
   "title": {
-    "en": "Shuffle"
+    "en": "Shuffle",
+	"de": "Zufallswiedergabe"
   },
   "type": "boolean",
   "getable": true,
@@ -12,14 +13,16 @@
         "id": "set_shuffle_true",
         "title": {
           "en": "Shuffle on",
-          "nl": "Shuffle aan"
+          "nl": "Shuffle aan",
+		  "de": "Zufallswiedergabe an"
         }
       },
       {
         "id": "set_shuffle_false",
         "title": {
           "en": "Shuffle off",
-          "nl": "Shuffle uit"
+          "nl": "Shuffle uit",
+		  "de": "Zufallswiedergabe aus"
         }
       }
     ]

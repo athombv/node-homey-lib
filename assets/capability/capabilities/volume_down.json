@@ -1,7 +1,8 @@
 {
   "title": {
     "en": "Volume down",
-    "nl": "Volume omlaag"
+    "nl": "Volume omlaag",
+	"de": "Lautstärke runter"
   },
   "type": "boolean",
   "getable": false,
@@ -12,13 +13,15 @@
       "id": "volume_down",
       "title": {
         "en": "Turn the volume down",
-        "nl": "Zet het geluid zachter"
+        "nl": "Zet het geluid zachter",
+		"de": "Dreh die Lautstärke runter"
       }
     }]
   },
   "$speechExamples": {
     "en": ["Turn up the volume of my speaker"],
-    "nl": ["Zet het volume van mijn speaker hoger"]
+    "nl": ["Zet het volume van mijn speaker hoger"],
+	"de": ["Dreh die Lautstärke meines Lautsprechers hoch"]
   },
   "$speech": {
     "en": {

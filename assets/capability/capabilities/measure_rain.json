@@ -2,7 +2,8 @@
   "type": "number",
   "title": {
     "en": "Rain",
-    "nl": "Regen"
+    "nl": "Regen",
+	"de": "Niederschlag"
   },
   "units": {
     "en": "mm"
@@ -10,7 +11,9 @@
   "insights": true,
   "desc": {
     "en": "Rain in millimeter (mm)",
-    "nl": "Regen in millimeter (mm)"
+    "nl": "Regen in millimeter (mm)",
+	"de": "Niederschlag in Millimeter (mm)"
+	
   },
   "chartType": "spline",
   "decimals": 2,
@@ -23,7 +26,8 @@
         "id": "measure_rain_changed",
         "title": {
           "en": "The rain changed",
-          "nl": "De regen is veranderd"
+          "nl": "De regen is veranderd",
+		  "de": "Der Niederschlag hat sich geändert"
         },
         "tokens": [
           {

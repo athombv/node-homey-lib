@@ -1,10 +1,12 @@
 {
   "title": {
     "en": "Coffee machine",
-    "nl": "Koffiemachine"
+    "nl": "Koffiemachine",
+	"de": "Kaffemaschine"
   },
   "description": {
-    "en": "Use this device class for coffee machines."
+    "en": "Use this device class for coffee machines.",
+	"de": "Nutze diese Geräteklasse für Kaffeemaschinen."
   },
   "$speechAlternatives": {
     "en": [ "coffee machine", "coffee machines" ],
