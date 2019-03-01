@@ -43,7 +43,7 @@
         "id": "alarm_motion",
         "title": {
           "en": "The motion alarm is !{{on|off}}",
-          "nl": "De bewegingsmelder is !{{aan|uit}}",s
+          "nl": "De bewegingsmelder is !{{aan|uit}}",
 		  "de": "Der Bewegungs-Alarm ist !{{an|aus}}"
         }
       }

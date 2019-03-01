@@ -7,7 +7,7 @@
   },
   "desc": {
     "en": "True when dangerous CO2 values have been detected",
-    "nl": "Gaat af bij gevaarlijke concentraties CO2""CO2 alarm",
+    "nl": "Gaat af bij gevaarlijke concentraties CO2 alarm",
 	"de": "True, wenn gefährliche CO2-Werte erkannt wurden"
   },
   "insights": true,
