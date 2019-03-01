@@ -2,28 +2,32 @@
   "type": "enum",
   "title": {
     "en": "Lock mode",
-    "nl": "Slot modus"
+    "nl": "Slot modus",
+	"de": "Schloss-Modus"
   },
   "values": [
     {
       "id": "always_locked",
       "title": {
         "en": "Always locked",
-        "nl": "Altijd op slot"
+        "nl": "Altijd op slot",
+		"de": "Immer verriegelt"
       }
     },
     {
       "id": "always_unlocked",
       "title": {
         "en": "Always unlocked",
-        "nl": "Altijd open"
+        "nl": "Altijd open",
+		"de": "Immer entriegelt"
       }
     },
     {
       "id": "locked_until_unlock",
       "title": {
         "en": "Locked until unlocked",
-        "nl": "Op slot tot geopend"
+        "nl": "Op slot tot geopend",
+		"de": "Verriegelt, bis entriegelt wird"
       }
     }
   ],
@@ -36,7 +40,8 @@
         "id": "lock_mode_changed",
         "title": {
           "en": "Lock mode has changed",
-          "nl": "Slot modus is veranderd"
+          "nl": "Slot modus is veranderd",
+		  "de": "Schloss-Modus hat sich geändert"
         },
         "args": [
           {
@@ -52,7 +57,8 @@
         "id": "lock_mode_is",
         "title": {
           "en": "Lock mode is",
-          "nl": "Slot modus is"
+          "nl": "Slot modus is",
+		  "de": "Schloss-Modus ist"
         },
         "args": [
           {
@@ -68,7 +74,8 @@
         "id": "mode",
         "title": {
           "en": "Set mode",
-          "nl": "Stel stand in"
+          "nl": "Stel stand in",
+		  "de": "Modus setzen"
         },
         "args": [
           {

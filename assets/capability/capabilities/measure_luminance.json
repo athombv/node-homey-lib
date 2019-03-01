@@ -2,7 +2,8 @@
   "type": "number",
   "title": {
     "en": "Luminance",
-    "nl": "Helderheid"
+    "nl": "Helderheid",
+	"de": "Leuchtkraft"
   },
   "units": {
     "en": "lx"
@@ -10,7 +11,8 @@
   "insights": true,
   "desc": {
     "en": "Luminance in Lux (lx)",
-    "nl": "Helderheid in Lux (lx)"
+    "nl": "Helderheid in Lux (lx)",
+	"de": "Leuchtkraft in Lux (lx)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -23,7 +25,8 @@
         "id": "measure_luminance_changed",
         "title": {
           "en": "The luminance changed",
-          "nl": "De helderheid is veranderd"
+          "nl": "De helderheid is veranderd",
+		  "de": "Die Leuchtkraft hat sich geändert"
         },
         "tokens": [
           {

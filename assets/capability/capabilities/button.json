@@ -1,7 +1,8 @@
 {
   "title": {
     "en": "Button",
-    "nl": "Knop"
+    "nl": "Knop",
+	"de": "Taste"
   },
   "type": "boolean",
   "getable": false,
@@ -14,7 +15,8 @@
         "id": "press",
         "title": {
           "en": "Press the button",
-          "nl": "Druk op de knop"
+          "nl": "Druk op de knop",
+		  "de": "Drücke die Taste"
         }
       }
     ]

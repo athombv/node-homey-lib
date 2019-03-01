@@ -2,7 +2,8 @@
   "type": "number",
   "title": {
     "en": "Gust Strength",
-    "nl": "Windstoot kracht"
+    "nl": "Windstoot kracht",
+	"de": "Böenstärke"
   },
   "units": {
     "en": "km/h"
@@ -10,7 +11,8 @@
   "insights": true,
   "desc": {
     "en": "Gust Strength n Kilometer per hour (km/h)",
-    "nl": "Windstoot snelheid in Kilometer per uur (km/u)"
+    "nl": "Windstoot snelheid in Kilometer per uur (km/u)",
+	"de": "Böenstärke in Kilometer pro Stunde (km/h)"
   },
   "chartType": "stepLine",
   "decimals": 2,
@@ -23,7 +25,8 @@
         "id": "measure_gust_strength_changed",
         "title": {
           "en": "The gust strength changed",
-          "nl": "De windstoot snelheid is veranderd"
+          "nl": "De windstoot snelheid is veranderd",
+		  "de": "Die Böenstärke hat sich geändert"
         },
         "tokens": [
           {

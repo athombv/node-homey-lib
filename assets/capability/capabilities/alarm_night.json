@@ -2,20 +2,24 @@
   "type": "boolean",
   "title": {
     "en": "Night alarm",
-    "nl": "Nachtalarm"
+    "nl": "Nachtalarm",
+	"de": "Nacht-Alarm"
   },
   "desc": {
     "en": "True when it is night",
-    "nl": "Gaat af als het nacht is"
+    "nl": "Gaat af als het nacht is",
+	"de": "True, wenn es Nacht ist"
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Night alarm turned on",
-    "nl": "Nachtalarm ging af"
+    "nl": "Nachtalarm ging af",
+	"de": "Nacht-Alarm ist angegangen"
   },
   "insightsTitleFalse": {
     "en": "Night alarm turned off",
-    "nl": "Nachtalarm ging uit"
+    "nl": "Nachtalarm ging uit",
+	"de": "Nacht-Alarm ist ausgegangen"
   },
   "getable": true,
   "setable": false,
@@ -26,14 +30,16 @@
         "id": "alarm_night_true",
         "title": {
           "en": "The night alarm turned on",
-          "nl": "Het nachtalarm gaat aan"
+          "nl": "Het nachtalarm gaat aan",
+		  "de": "Der Nacht-Alarm ist angegangen"
         }
       },
       {
         "id": "alarm_night_false",
         "title": {
           "en": "The night alarm turned off",
-          "nl": "Het nachtalarm gaat uit"
+          "nl": "Het nachtalarm gaat uit",
+		  "de": "Der Nacht-Alarm ist ausgegangen"
         }
       }
     ],
@@ -42,7 +48,8 @@
         "id": "alarm_night",
         "title": {
           "en": "The night alarm is !{{on|off}}",
-          "nl": "Het nachtalarm is !{{aan|uit}}"
+          "nl": "Het nachtalarm is !{{aan|uit}}",
+		  "de": "Der Nacht-Alarm ist !{{an|aus}}"
         }
       }
     ]

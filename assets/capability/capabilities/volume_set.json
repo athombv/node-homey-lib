@@ -1,11 +1,13 @@
 {
   "title": {
-    "en": "Set volume"
+    "en": "Set volume",
+	"de": "Lautstärke setzen"
   },
   "type": "number",
   "desc": {
     "en": "Volume",
-    "nl": "Volume"
+    "nl": "Volume",
+	"de": "Lautstärke"
   },
   "chartType": "stepLine",
   "min": 0,
@@ -19,14 +21,16 @@
       "id": "volume_set_changed",
       "title": {
         "en": "Volume changed",
-        "nl": "Volume veranderd"
+        "nl": "Volume veranderd",
+		"de": "Lautstärke hat sich geändert"
       },
       "tokens": [{
         "name": "volume_set",
         "type": "number",
         "title": {
           "en": "Volume",
-          "nl": "Volume"
+          "nl": "Volume",
+		  "de": "Lautstärke"
         },
         "example": 0.5
       }]
@@ -35,7 +39,8 @@
       "id": "volume_set",
       "title": {
         "en": "Set volume to",
-        "nl": "Zet volume naar"
+        "nl": "Zet volume naar",
+		"de": "Lautstärke setzen auf"
       },
       "args": [{
         "name": "volume_set",
@@ -52,7 +57,8 @@
   },
   "$speechExamples": {
     "en": ["Turn the volume of my speaker to 50%"],
-    "nl": ["Zet het volume van mijn speaker op 50%"]
+    "nl": ["Zet het volume van mijn speaker op 50%"],
+	"de": ["Drehe die Lautstärke meines Lautsprechers auf 50%"]
   },
   "$speech": {
     "en": {

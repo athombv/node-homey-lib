@@ -2,28 +2,32 @@
   "type": "enum",
   "title": {
     "en": "Home Alarm state",
-    "nl": "Thuisalarm status"
+    "nl": "Thuisalarm status",
+	"de": "Heim-Alarm-Status"
   },
   "values": [
     {
       "id": "armed",
       "title": {
         "en": "Armed",
-        "nl": "Geactiveerd"
+        "nl": "Geactiveerd",
+		"de": "scharf"
       }
     },
     {
       "id": "disarmed",
       "title": {
         "en": "Disarmed",
-        "nl": "Gedeactiveerd"
+        "nl": "Gedeactiveerd",
+		"de": "unscharf"
       }
     },
     {
       "id": "partially_armed",
       "title": {
         "en": "Partially armed",
-        "nl": "Deels geactiveerd"
+        "nl": "Deels geactiveerd",
+		"de": "teilweise scharf"
       }
     }
   ],
@@ -36,7 +40,8 @@
         "id": "homealarm_state_changed",
         "title": {
           "en": "The state changed",
-          "nl": "De status is veranderd"
+          "nl": "De status is veranderd",
+		  "de": "Der Status hat sich geändert"
         },
         "args": [
           {
@@ -52,7 +57,8 @@
         "id": "homealarm_state_is",
         "title": {
           "en": "The state is !{{|not}}",
-          "nl": "De status is !{{|niet}}"
+          "nl": "De status is !{{|niet}}",
+		  "de": "Der Status ist !{{|nicht}}"
         },
         "args": [
           {
@@ -68,7 +74,8 @@
         "id": "set_homealarm_state",
         "title": {
           "en": "Set state",
-          "nl": "Zet de status"
+          "nl": "Zet de status",
+		  "de": "Status setzen"
         },
         "args": [
           {

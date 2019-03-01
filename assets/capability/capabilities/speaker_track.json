@@ -1,7 +1,8 @@
 {
   "title": {
     "en": "Track",
-    "nl": "Track"
+    "nl": "Track",
+	"de": "Titel"
   },
   "type": "string",
   "getable": true,

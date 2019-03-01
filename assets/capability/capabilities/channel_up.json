@@ -1,7 +1,8 @@
 {
   "title": {
     "en": "Channel up",
-    "nl": "Kanaal omhoog"
+    "nl": "Kanaal omhoog",
+	"de": "Kanal hoch"
   },
   "type": "boolean",
   "getable": false,
@@ -12,7 +13,8 @@
         "id": "channel_up",
         "title": {
           "en": "One channel up",
-          "nl": "Eén kanaal omhoog"
+          "nl": "Eén kanaal omhoog",
+		  "de": "Einen Kanal hoch"
         }
       }
     ]
@@ -20,7 +22,8 @@
   "uiComponent": "button",
   "$speechExamples": {
     "en": ["Switch My TV to the next channel"],
-    "nl": ["Zet Mijn TV op het volgende kanaal"]
+    "nl": ["Zet Mijn TV op het volgende kanaal"],
+	"de": ["Schalte meinen TV zum nächsten Kanal"]
   },
   "$speech": {
     "en": {

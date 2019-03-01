@@ -2,7 +2,8 @@
   "type": "number",
   "title": {
     "en": "Gust Angle",
-    "nl": "Windstoot richting"
+    "nl": "Windstoot richting",
+	"de": "Böenrichtung"
   },
   "units": {
     "en": "°"
@@ -10,7 +11,8 @@
   "insights": true,
   "desc": {
     "en": "Gust Angle in Degrees (°)",
-    "nl": "Windstoot richting in Graden (°)"
+    "nl": "Windstoot richting in Graden (°)",
+	"de": "Böenrichtung in Grad (°)"
   },
   "chartType": "stepLine",
   "decimals": 2,
@@ -23,7 +25,8 @@
         "id": "measure_gust_angle_changed",
         "title": {
           "en": "The gust angle changed",
-          "nl": "Windstoot richting is veranderd"
+          "nl": "Windstoot richting is veranderd",
+		  "de": "Die Böenrichtung hat sich geändert"
         },
         "tokens": [
           {

@@ -2,25 +2,29 @@
   "type": "enum",
   "title": {
     "en": "Light mode",
-    "nl": "Lamp modus"
+    "nl": "Lamp modus",
+	"de": "Lichtmodus"
   },
   "desc": {
     "en": "Switch between Color or Temperature mode",
-    "nl": "Schakel tussen Kleur of Temperatuur modus"
+    "nl": "Schakel tussen Kleur of Temperatuur modus",
+	"de": "Zwischen Farb- und Temperaturmodus wechseln"
   },
   "values": [
     {
       "id": "color",
       "title": {
         "en": "Color",
-        "nl": "Kleur"
+        "nl": "Kleur",
+		"de": "Farbe"
       }
     },
     {
       "id": "temperature",
       "title": {
         "en": "Temperature",
-        "nl": "Temperatuur"
+        "nl": "Temperatuur",
+		"de": "Temperatur"
       }
     }
   ],

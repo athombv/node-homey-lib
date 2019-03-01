@@ -1,10 +1,12 @@
 {
   "title": {
     "en": "Speaker",
-    "nl": "Speaker"
+    "nl": "Speaker",
+	"de": "Lautsprecher"
   },
   "description": {
-    "en": "Use this device class for devices that can play music, usually together with the `speaker_*` capabilities."
+    "en": "Use this device class for devices that can play music, usually together with the `speaker_*` capabilities.",
+	"de": "Nutze diese Geräteklasse für Geräte, die Musik spielen können - normalerweise zusammen mit den 'speaker_*'-Fähigkeiten."
   },
   "$speechAlternatives": {
     "en": [ "speaker", "speakers" ],

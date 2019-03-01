@@ -1,10 +1,12 @@
 {
   "title": {
     "en": "Sunshade",
-    "nl": "Zonnescherm"
+    "nl": "Zonnescherm",
+	"de": "Sonnenschirm"
   },
   "description": {
-    "en": "Use this device class for sunshades (window coverings against the sun)."
+    "en": "Use this device class for sunshades (window coverings against the sun).",
+	"de": "Nutze diese Geräteklasse für Jalousien (Fenster-Abdeckungen gegen die Sonne)."
   },
   "$speechAlternatives": {
     "en": [ "sunscreen", "sunscreens", "sunshade", "sunshades" ],
