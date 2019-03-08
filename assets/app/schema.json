@@ -648,7 +648,7 @@
 		"contributors": {
 			"type": "object",
 			"patternProperties": {
-				"^(developers|contributors)$": {
+				"^(developers|translators)$": {
 					"type": "array",
 					"items": {
 						"$ref": "#/definitions/author"
