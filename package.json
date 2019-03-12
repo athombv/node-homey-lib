@@ -4,7 +4,7 @@
   "description": "Shared Library for Homey",
   "main": "index.js",
   "scripts": {
-    "build": "npm run pack",
+    "build_disabled": "npm run pack",
     "pack": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
