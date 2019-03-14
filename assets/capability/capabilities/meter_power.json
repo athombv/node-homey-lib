@@ -3,7 +3,7 @@
   "title": {
     "en": "Power Meter",
     "nl": "Energiemeter",
-	"de": "Energiezähler"
+    "de": "Energiezähler"
   },
   "decimals": 2,
   "units": {
@@ -13,7 +13,7 @@
   "desc": {
     "en": "Power usage in KiloWattHour (kWh)",
     "nl": "Stroomverbuik in KiloWattUur (kWh)",
-	"de": "Energieverbrauch in Kilowattstunde (kWh)"
+    "de": "Energieverbrauch in Kilowattstunde (kWh)"
   },
   "options": {
     "isGenerator": {
@@ -21,7 +21,7 @@
       "default": false,
       "desc": {
         "en": "This flag is used to determine whether this devices uses or generates power.",
-		"de": "Dieser Flag wird benutzt, um zu bestimmen, ob diese Geräte Energie verbrauchen oder produzieren."
+        "de": "Dieser Flag wird benutzt, um zu bestimmen, ob diese Geräte Energie verbrauchen oder produzieren."
       }
     }
   },
@@ -30,23 +30,19 @@
   "setable": false,
   "uiComponent": "sensor",
   "$flow": {
-    "triggers": [
-      {
-        "id": "meter_power_changed",
-        "title": {
-          "en": "The power meter changed",
-          "nl": "De stroommeter is veranderd",
-		  "de": "Der Energiezähler hat sich geändert"
-        },
-        "tokens": [
-          {
-            "name": "$id",
-            "title": "$title",
-            "type": "$type",
-            "example": 25
-          }
-        ]
-      }
-    ]
+    "triggers": [{
+      "id": "meter_power_changed",
+      "title": {
+        "en": "The power meter changed",
+        "nl": "De stroommeter is veranderd",
+        "de": "Der Gesamtverbrauch hat sich geändert"
+      },
+      "tokens": [{
+        "name": "$id",
+        "title": "$title",
+        "type": "$type",
+        "example": 25
+      }]
+    }]
   }
 }

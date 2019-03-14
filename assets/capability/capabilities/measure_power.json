@@ -3,7 +3,7 @@
   "title": {
     "en": "Power",
     "nl": "Energie",
-	"de": "Energie"
+    "de": "Energie"
   },
   "units": {
     "en": "W"
@@ -12,7 +12,7 @@
   "desc": {
     "en": "Power in Watt (W)",
     "nl": "Vermogen in Watt (W)",
-	"de": "Energie in Watt (W)"
+    "de": "Energie in Watt (W)"
   },
   "options": {
     "isGenerator": {
@@ -20,7 +20,7 @@
       "default": false,
       "desc": {
         "en": "This flag is used to determine whether this devices uses or generates power.",
-		"de": "Dieser Flag wird benutzt, um zu bestimmen, ob diese Ger�te Energie verbrauchen oder produzieren."
+        "de": "Dieser Flag wird benutzt, um zu bestimmen, ob diese Ger�te Energie verbrauchen oder produzieren."
       }
     }
   },
@@ -30,23 +30,19 @@
   "setable": false,
   "uiComponent": "sensor",
   "$flow": {
-    "triggers": [
-      {
-        "id": "measure_power_changed",
-        "title": {
-          "en": "The power changed",
-          "nl": "De energie is veranderd",
-		  "de": "Die Energie hat sich verändert"
-        },
-        "tokens": [
-          {
-            "name": "$id",
-            "title": "$title",
-            "type": "$type",
-            "example": 7.5
-          }
-        ]
-      }
-    ]
+    "triggers": [{
+      "id": "measure_power_changed",
+      "title": {
+        "en": "The power changed",
+        "nl": "De energie is veranderd",
+        "de": "Der Verbrauch hat sich gändert"
+      },
+      "tokens": [{
+        "name": "$id",
+        "title": "$title",
+        "type": "$type",
+        "example": 7.5
+      }]
+    }]
   }
 }
