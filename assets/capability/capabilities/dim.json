@@ -3,7 +3,7 @@
   "title": {
     "en": "Dim level",
     "nl": "Dim niveau",
-	"de": "Dimm-Niveau"
+    "de": "Dimmlevel"
   },
   "chartType": "stepLine",
   "min": 0,
@@ -19,7 +19,7 @@
       "title": {
         "en": "Dim-level changed",
         "nl": "Dim-niveau veranderd",
-		"de": "Dimm-Niveau geändert"
+        "de": "Dimm-Niveau geändert"
       },
       "tokens": [{
         "name": "dim",
@@ -27,36 +27,36 @@
         "title": {
           "en": "Level",
           "nl": "Niveau",
-		  "de": "Niveau"
+          "de": "Niveau"
         },
         "example": 0.5
       }]
     }],
     "actions": [{
-        "id": "dim",
-        "title": {
-          "en": "Dim to",
-          "nl": "Dim naar",
-		  "de": "Dimmen auf"
-        },
-        "args": [{
-          "name": "dim",
-          "type": "range",
-          "min": 0,
-          "max": 1,
-          "step": 0.01,
-          "value": 0.5,
-          "label": "%",
-          "labelMultiplier": 100,
-          "labelDecimals": 0
-        }]
+      "id": "dim",
+      "title": {
+        "en": "Dim to",
+        "nl": "Dim naar",
+        "de": "Dimmen auf"
       },
+      "args": [{
+        "name": "dim",
+        "type": "range",
+        "min": 0,
+        "max": 1,
+        "step": 0.01,
+        "value": 0.5,
+        "label": "%",
+        "labelMultiplier": 100,
+        "labelDecimals": 0
+      }]
+    },
       {
         "id": "dim_relative",
         "title": {
           "en": "Set relative dim-level",
           "nl": "Zet relatief dim-niveau",
-		  "de": "Relatives Dimm-Niveau setzen"
+          "de": "Relatives Dimm-Niveau setzen"
         },
         "args": [{
           "name": "dim",
@@ -75,7 +75,7 @@
   "$speechExamples": {
     "en": ["Dim all lights to 50%", "Set My Light to full brightness"],
     "nl": ["Dim alle lampen naar 50%", "Zet Mijn Lamp naar volle helderheid"],
-	"de": ["Alle Lichter auf 50% dimmen", "Meine Lichter auf volle Helligkeit setzen"]
+    "de": ["Alle Lichter auf 50% dimmen", "Meine Lichter auf volle Helligkeit setzen"]
   },
   "$speech": {
     "en": {

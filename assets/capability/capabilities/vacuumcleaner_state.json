@@ -2,23 +2,22 @@
   "type": "enum",
   "title": {
     "en": "Vacuum cleaner state",
-	"de": "Staubsauger-Status"
+    "de": "Staubsauger-Status"
   },
-  "values": [
-    {
-      "id": "cleaning",
-      "title": {
-        "en": "Cleaning",
-        "nl": "Stofzuigen",
-		"de": "Staubsaugen"
-      }
-    },
+  "values": [{
+    "id": "cleaning",
+    "title": {
+      "en": "Cleaning",
+      "nl": "Stofzuigen",
+      "de": "Staubsaugen"
+    }
+  },
     {
       "id": "spot_cleaning",
       "title": {
         "en": "Spot cleaning",
         "nl": "Vlek schoonmaken",
-		"de": "Fleckenreinigung"
+        "de": "Spot-Reinigung"
       }
     },
     {
@@ -26,7 +25,7 @@
       "title": {
         "en": "Docked",
         "nl": "Op laadstation",
-		"de": "An Ladestation"
+        "de": "An Ladestation"
       }
     },
     {
@@ -34,7 +33,7 @@
       "title": {
         "en": "Charging",
         "nl": "Aan het opladen",
-		"de": "Lädt auf"
+        "de": "Lädt auf"
       }
     },
     {
@@ -42,7 +41,7 @@
       "title": {
         "en": "Stopped",
         "nl": "Gestopt",
-		"de": "Gestoppt"
+        "de": "Gestoppt"
       }
     }
   ],
@@ -50,55 +49,46 @@
   "setable": true,
   "uiComponent": "picker",
   "$flow": {
-    "triggers": [
-      {
-        "id": "vacuumcleaner_state_changed",
-        "title": {
-          "en": "The state changed to...",
-          "nl": "De status is veranderd naar...",
-		  "de": "Der Status hat sich geändert auf..."
-        },
-        "args": [
-          {
-            "name": "state",
-            "type": "dropdown",
-            "values": "$values"
-          }
-        ]
-      }
-    ],
-    "conditions": [
-      {
-        "id": "vacuumcleaner_state_is",
-        "title": {
-          "en": "The vacuum cleaner !{{is|is not}}...",
-          "nl": "De stofzuiger !{{is|is niet}}...",
-		  "de": "Der Staubsauger !{{ist|ist nicht}}..."
-        },
-        "args": [
-          {
-            "name": "state",
-            "type": "dropdown",
-            "values": "$values"
-          }
-        ]
-      }
-    ],
-    "actions": [
-      {
-        "id": "clean",
-        "title": {
-          "en": "Start cleaning",
-          "nl": "Begin met stofzuigen",
-		  "de": "Mit Staubsaugen anfangen"
-        }
+    "triggers": [{
+      "id": "vacuumcleaner_state_changed",
+      "title": {
+        "en": "The state changed to...",
+        "nl": "De status is veranderd naar...",
+        "de": "Der Status hat sich geändert auf..."
       },
+      "args": [{
+        "name": "state",
+        "type": "dropdown",
+        "values": "$values"
+      }]
+    }],
+    "conditions": [{
+      "id": "vacuumcleaner_state_is",
+      "title": {
+        "en": "The vacuum cleaner !{{is|is not}}...",
+        "nl": "De stofzuiger !{{is|is niet}}...",
+        "de": "Der Staubsauger !{{ist|ist nicht}}..."
+      },
+      "args": [{
+        "name": "state",
+        "type": "dropdown",
+        "values": "$values"
+      }]
+    }],
+    "actions": [{
+      "id": "clean",
+      "title": {
+        "en": "Start cleaning",
+        "nl": "Begin met stofzuigen",
+        "de": "Mit Staubsaugen anfangen"
+      }
+    },
       {
         "id": "spot_clean",
         "title": {
           "en": "Start spot cleaning",
           "nl": "Begin met één plek stofzuigen",
-		  "de": "Mit Fleckenreinigung anfangen"
+          "de": "Mit Spot-Reinigung anfangen"
         }
       },
       {
@@ -106,7 +96,7 @@
         "title": {
           "en": "Return to dock",
           "nl": "Terug naar laadstation",
-		  "de": "Zu Ladestation zurückkehren"
+          "de": "Zu Ladestation zurückkehren"
         }
       },
       {
@@ -114,7 +104,7 @@
         "title": {
           "en": "Stop",
           "nl": "Stop",
-		  "de": "Stop"
+          "de": "Stop"
         }
       }
     ]
@@ -122,10 +112,10 @@
   "$speechExamples": {
     "en": ["Start the vacuum cleaner"],
     "nl": ["Begin met stofzuigen"],
-	"de": ["Den Staubsauger starten"]
+    "de": ["Den Staubsauger starten"]
   },
   "$speech": {
-     "en": {
+    "en": {
       "element": {
         "vacuum": {
           "type": "regex",
