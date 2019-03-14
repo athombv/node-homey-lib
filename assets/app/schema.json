@@ -68,6 +68,9 @@
 				"title": {
 					"$ref": "#/definitions/i18nObject"
 				},
+				"titleFormatted": {
+					"$ref": "#/definitions/i18nObject"  				
+				},
 				"deprecated": {
 					"type": "boolean",
 					"enum": [ true ]
