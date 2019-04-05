@@ -748,19 +748,24 @@
           "energy": {
             "type": "object",
             "properties": {
-              "functionType": {
-                "type": "string",
-                "enum": ["constant", "linear", "exponential"]
-              },
-              "approxData": {
-                "type": "object",
-                "required": ["on", "off"],
+              "approximation": {
+                "required": ["functionType", "data"],
                 "properties": {
-                  "on": {
-                    "type": "number"
+                  "functionType": {
+                    "type": "string",
+                    "enum": ["constant", "linear", "exponential"]
                   },
-                  "off": {
-                    "type": "number"
+                  "data": {
+                    "type": "object",
+                    "required": ["on", "off"],
+                    "properties": {
+                      "on": {
+                        "type": "number"
+                      },
+                      "off": {
+                        "type": "number"
+                      }
+                    }
                   }
                 }
               },
