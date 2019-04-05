@@ -69,7 +69,7 @@
 					"$ref": "#/definitions/i18nObject"
 				},
 				"titleFormatted": {
-					"$ref": "#/definitions/i18nObject"  				
+					"$ref": "#/definitions/i18nObject"
 				},
 				"deprecated": {
 					"type": "boolean",
@@ -752,7 +752,7 @@
                 "type": "string",
                 "enum": ["constant", "linear", "exponential"]
               },
-              "data": {
+              "approxData": {
                 "type": "object",
                 "required": ["on", "off"],
                 "properties": {
