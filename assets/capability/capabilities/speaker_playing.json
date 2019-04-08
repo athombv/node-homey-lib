@@ -14,9 +14,9 @@
       {
         "id": "is_playing",
         "title": {
-          "en": "Is playing",
-          "nl": "Is aan het afspelen",
-		  "de": "Wird abgespielt"
+          "en": "Is !{{|not}} playing",
+          "nl": "Is !{{|niet}} aan het afspelen",
+		  "de": "Wird !{{|nicht}} abgespielt"
         }
       }
     ],
