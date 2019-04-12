@@ -749,23 +749,17 @@
             "type": "object",
             "properties": {
               "approximation": {
-                "required": ["functionType", "data"],
+                "required": ["functionType", "usageOn", "usageOff"],
                 "properties": {
                   "functionType": {
                     "type": "string",
                     "enum": ["constant", "linear", "exponential"]
                   },
-                  "data": {
-                    "type": "object",
-                    "required": ["on", "off"],
-                    "properties": {
-                      "on": {
-                        "type": "number"
-                      },
-                      "off": {
-                        "type": "number"
-                      }
-                    }
+                  "usageOn": {
+                    "type": "number"
+                  },
+                  "usageOff": {
+                    "type": "number"
                   }
                 }
               },
