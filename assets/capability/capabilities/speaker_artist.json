@@ -2,10 +2,30 @@
   "title": {
     "en": "Artist",
     "nl": "Artiest",
-	"de": "Interpret"
+    "de": "Künstler"
   },
   "type": "string",
   "getable": true,
   "setable": false,
-  "uiComponent": "media"
+  "uiComponent": "media",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "speaker_artist_changed",
+        "title": {
+          "en": "The artist changed",
+          "nl": "De artiest is veranderd",
+          "de": "Der Künstler hat sich verändert"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": "Johnny S."
+          }
+        ]
+      }
+    ]
+  }
 }
