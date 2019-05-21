@@ -2,10 +2,30 @@
   "title": {
     "en": "Track",
     "nl": "Track",
-	"de": "Titel"
+    "de": "Track"
   },
   "type": "string",
   "getable": true,
   "setable": false,
-  "uiComponent": "media"
+  "uiComponent": "media",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "speaker_track_changed",
+        "title": {
+          "en": "The track changed",
+          "nl": "De track is veranderd",
+          "de": "Der Track hat sich geändert"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": "My World"
+          }
+        ]
+      }
+    ]
+  }
 }
