@@ -2,10 +2,12 @@
   "title": {
     "en": "Remote",
     "nl": "Afstandsbediening",
-	"de": "Fernbedienung"
+	"de": "Fernbedienung",
+	"fr": "Télécommande"
   },
   "description": {
     "en": "Use this device class for (TV/Sunblind/Keyfob etc.) remotes.",
-	"de": "Nutze diese Geräteklasse für (TV/Jalousien/Schlüsselanhänger etc.)-Fernbedienungen."
+	"de": "Nutze diese Geräteklasse für (TV/Jalousien/Schlüsselanhänger etc.)-Fernbedienungen.",
+	"fr": "Utilisez cette classe d'appareil pour les télécommandes (TV/Stores/Porte-clés, etc.)."
   }
 }

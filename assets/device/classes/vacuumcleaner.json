@@ -2,14 +2,17 @@
   "title": {
     "en": "Vacuum Cleaner",
     "nl": "Stofzuiger",
-	"de": "Staubsauger"
+	"de": "Staubsauger",
+	"fr": "Aspirateur"
   },
   "description": {
     "en": "Use this device class for vacuum cleaners, usually together with the `vacuumcleaner_state` capability.",
-	"de": "Nutze diese Geräteklasse für Staubsauger - normalerweise zusammen mit der 'vacuumcleaner_state'-Fähigkeit."
+	"de": "Nutze diese Geräteklasse für Staubsauger - normalerweise zusammen mit der 'vacuumcleaner_state'-Fähigkeit.",
+	"fr": "Utilisez cette classe d'appareil pour les aspirateurs, habituellement avec la capacité `état_aspirateur`."
   },
   "$speechAlternatives": {
     "en": [ "vacuum cleaner", "vacuumcleaner", "vacuum cleaners", "vacuumcleaners", "vacuum" ],
-    "nl": [ "stofzuiger", "stofzuigers" ]
+    "nl": [ "stofzuiger", "stofzuigers" ],
+    "fr": [ "aspirateur", "aspirateurs" ]
   }
 }

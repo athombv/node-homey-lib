@@ -3,23 +3,27 @@
   "title": {
     "en": "Generic alarm",
     "nl": "Algemeen alarm",
-	"de": "Allgemeiner Alarm"
+	"de": "Allgemeiner Alarm",
+	"fr": "Alarme générique"
   },
   "desc": {
     "en": "Generic alarm",
     "nl": "Algemeen alarm",
-	"de": "Allgemeiner Alarm"
+	"de": "Allgemeiner Alarm",
+	"fr": "Alarme générique"
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Generic alarm turned on",
     "nl": "Algemeen alarm ging af",
-	"de": "Allgemeiner Alarm ist angegangen"
+	"de": "Allgemeiner Alarm ist angegangen",
+	"fr": "Alarme générique s'est activée"
   },
   "insightsTitleFalse": {
     "en": "Generic alarm turned off",
     "nl": "Algemeen alarm ging uit",
-	"de": "Allgemeiner Alarm ist ausgegangen"
+	"de": "Allgemeiner Alarm ist ausgegangen",
+	"fr": "Alarme générique s'est désactivée"
   },
   "getable": true,
   "setable": false,
@@ -31,7 +35,8 @@
         "title": {
           "en": "The generic alarm turned on",
           "nl": "Het algemene alarm gaat aan",
-		  "de": "Der allgemeine Alarm ist angegangen"
+		  "de": "Der allgemeine Alarm ist angegangen",
+		  "fr": "L'alarme générique s'est activée"
         }
       },
       {
@@ -39,7 +44,8 @@
         "title": {
           "en": "The generic alarm turned off",
           "nl": "Het algemene alarm ging uit",
-		  "de": "Der allgemeine Alarm ist ausgegangen"
+		  "de": "Der allgemeine Alarm ist ausgegangen",
+		  "fr": "L'alarme générique s'est désactivée"
         }
       }
     ],
@@ -49,7 +55,8 @@
         "title": {
           "en": "The generic alarm is !{{on|off}}",
           "nl": "Het algemene alarm is !{{aan|uit}}",
-		  "de": "Der allgemeine Alarm ist !{{an|aus}}"
+		  "de": "Der allgemeine Alarm ist !{{an|aus}}",
+		  "fr": "L'alarme générique est !{{en marche|arrêtée}}"
         }
       }
     ]

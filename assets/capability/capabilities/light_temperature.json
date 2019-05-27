@@ -3,7 +3,8 @@
   "title": {
     "en": "Color Temperature",
     "nl": "Kleurtemperatuur",
-	"de": "Farbtemperatur"
+	"de": "Farbtemperatur",
+	"fr": "Température de couleur"
   },
   "min": 0,
   "chartType": "stepLine",
@@ -19,7 +20,8 @@
         "title": {
           "en": "Set a temperature",
           "nl": "Verander naar temperatuur",
-		  "de": "Eine Temperatur setzen"
+		  "de": "Eine Temperatur setzen",
+		  "fr": "Définir une température"
         },
         "args": [
           {
@@ -37,7 +39,8 @@
         "hint": {
           "en": "Adjusts the temperature of the light. A higher value means a warmer color.",
           "nl": "Verander de temperatuur van de lamp. Een hogere waarde betekent een warmere kleur.",
-		  "de": "Stelle die Temperatur der Farbe ein. Ein höherer Wert bedeutet eine wärmere Farbe."
+		  "de": "Stelle die Temperatur der Farbe ein. Ein höherer Wert bedeutet eine wärmere Farbe.",
+		  "fr": "Ajuste la température de la lumière. Une valeur plus élévée signifie une couleur plus chaude."
         }
       }
     ]
@@ -45,7 +48,8 @@
   "$speechExamples": {
     "en": [ "Turn all lights to warm white", "Turn My Light to cool white" ],
     "nl": [ "Zet alle lampen op warm wit", "Zet Mijn Licht op koel wit" ],
-	"de": ["Alle Lampen auf warmes Weiß schalten", "Mein Licht auf kaltes Weiß schalten"]
+	"de": [ "Alle Lampen auf warmes Weiß schalten", "Mein Licht auf kaltes Weiß schalten"],
+	"fr": [ "Mettre toutes les lumières en blanc chaud", "Mettre ma lumière en blanc froid"]
   },
   "$speech": {
     "en": {

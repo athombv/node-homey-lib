@@ -3,7 +3,8 @@
   "title": {
     "en": "Battery",
     "nl": "Accuniveau",
-	"de": "Batterie"
+	"de": "Batterie",
+	"fr": "Batterie"
   },
   "units": {
     "en": "%"
@@ -14,7 +15,8 @@
   "desc": {
     "en": "Battery charge in percentage (%)",
     "nl": "Accuniveau in procenten (%)",
-	"de": "Batteriestand in Prozent (%)"
+	"de": "Batteriestand in Prozent (%)",
+	"fr": "Pourcentage de charge de la batterie (%)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -28,7 +30,8 @@
         "title": {
           "en": "The battery level changed",
           "nl": "Het accuniveau is veranderd",
-		  "de": "Der Batteriestand hat sich geändert"
+		  "de": "Der Batteriestand hat sich geändert",
+		  "fr": "Le niveau de la batterie a changé"
         },
         "tokens": [
           {

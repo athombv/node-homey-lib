@@ -3,7 +3,8 @@
   "title": {
     "en": "Water Meter",
     "nl": "Watermeter",
-	"de": "Wasserzähler"
+	"de": "Wasserzähler",
+	"fr": "Compteur d'eau"
   },
   "decimals": 2,
   "min": 0,
@@ -14,7 +15,8 @@
   "desc": {
     "en": "Water usage in Cubic Meter (m³)",
     "nl": "Water gebruik in Kubieke Meter (m³)",
-	"de": "Wasserverbrauch in Kubikmeter (m³)"
+	"de": "Wasserverbrauch in Kubikmeter (m³)",
+	"fr": "Consommation d'eau en mètres cubes (m³)"
   },
   "insights": true,
   "getable": true,
@@ -27,7 +29,8 @@
         "title": {
           "en": "The water meter changed",
           "nl": "De watermeter is veranderd",
-		  "de": "Der Wasserzähler hat sich geändert"
+		  "de": "Der Wasserzähler hat sich geändert",
+		  "fr": "Le compteur d'eau a changé"
         },
         "tokens": [
           {

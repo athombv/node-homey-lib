@@ -1,7 +1,8 @@
 {
   "title": {
     "en": "Window Coverings Tilt Down",
-	"de": "Jalousien nach unten gekippt"
+	"de": "Jalousien nach unten gekippt",
+	"fr": "Stores baissés"
   },
   "type": "boolean",
   "getable": false,

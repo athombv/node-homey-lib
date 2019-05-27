@@ -2,10 +2,12 @@
   "title": {
     "en": "Fan",
     "nl": "Ventilator",
-	"de": "Ventilator"
+	"de": "Ventilator",
+	"fr": "Ventilateur"
   },
   "description": {
     "en": "Use this device class for fans that cool your home.",
-	"de": "Nutze diese Geräteklasse für Ventilatoren, die dein Heim kühlen."
+	"de": "Nutze diese Geräteklasse für Ventilatoren, die dein Heim kühlen.",
+	"fr": "Utilisez cette classe d'appareil pour les ventilateurs qui refroidissent votre maison."
   }
 }

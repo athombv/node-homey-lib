@@ -5,7 +5,8 @@
   "title": {
     "en": "Target temperature",
     "nl": "Ingestelde temperatuur",
-	"de": "Ziel-Temperatur"
+	"de": "Ziel-Temperatur",
+	"fr": "Température cible"
   },
   "units": {
     "en": "°C"
@@ -23,7 +24,8 @@
         "title": {
           "en": "The target temperature changed",
           "nl": "De ingestelde temperatuur is veranderd",
-		  "de": "Die Ziel-Temperatur hat sich geändert"
+		  "de": "Die Ziel-Temperatur hat sich geändert",
+		  "fr": "La température cible a été modifiée"
         },
         "tokens": [
           {
@@ -41,7 +43,8 @@
         "title": {
           "en": "Set the temperature",
           "nl": "Stel de temperatuur in",
-		  "de": "Die Temperatur setzen"
+		  "de": "Die Temperatur setzen",
+		  "fr": "Définir la température"
         },
         "args": [
           {
@@ -60,7 +63,8 @@
   "$speechExamples": {
     "en": ["Set the temperature to 21 degrees"],
     "nl": ["Zet de temperatuur op 21 graden"],
-	"de": ["Die Temperatur auf 21 Grad setzen"]
+	"de": ["Die Temperatur auf 21 Grad setzen"],
+	"fr": ["Définir la température sur 21 degrés"]
   },
   "$speech": {
     "en": {

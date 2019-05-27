@@ -2,11 +2,13 @@
   "title": {
     "en": "Camera",
     "nl": "Camera",
-    "de": "Kamera"
+    "de": "Kamera",
+    "fr": "Caméra"
   },
   "description": {
     "en": "Security camera",
     "nl": "Beveiligingscamera",
-    "de": "Überwachungskamera"
+    "de": "Überwachungskamera",
+    "fr": "Caméra de sécurité"
   }
 }

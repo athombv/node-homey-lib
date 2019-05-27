@@ -2,16 +2,19 @@
   "title": {
     "en": "Window Coverings",
     "nl": "Raambekleding",
-	"de": "Fenster-Abdeckungen"
+	"de": "Fenster-Abdeckungen",
+	"fr": "Couverture de fenêtre"
   },
   "description": {
     "en": "Use this device class for window coverings, when the `curtains`, `blinds` or `sunshade` device class doesn't apply.",
-	"de": "Nutze diese Geräteklasse für Fenster-Abdeckungen, wenn 'Vorhänge'-, 'Rolladen'- oder 'Jalousien'-Geräteklassen nicht zutreffen."
+	"de": "Nutze diese Geräteklasse für Fenster-Abdeckungen, wenn 'Vorhänge'-, 'Rolladen'- oder 'Jalousien'-Geräteklassen nicht zutreffen.",
+	"fr": "Utilisez cette classe d'appareil pour les couvertures de fenêtre, lorsque la classe d'appareil `rideaux`, `stores` ou `auvent` ne s'applique pas."
   },
   "virtualTitle": {
     "en": "What's the type?",
     "nl": "Wat voor type is dit?",
-	"de": "Welcher Typ ist das?"
+	"de": "Welcher Typ ist das?",
+	"fr": "Quel est le type ?"
   },
   "allowedVirtual": [
     "sunshade",
@@ -20,6 +23,7 @@
   ],
   "$speechAlternatives": {
     "en": [ "window coverings", "windowcoverings" ],
-    "nl": [ "raambekleding", "raambedekking" ]
+    "nl": [ "raambekleding", "raambedekking" ],
+    "fr": [ "couvertures de fenêtre" ]
   }
 }

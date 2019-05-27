@@ -1,13 +1,15 @@
 {
   "title": {
     "en": "Set volume",
-	"de": "Lautstärke setzen"
+	"de": "Lautstärke setzen",
+	"fr": "Définir le volume"
   },
   "type": "number",
   "desc": {
     "en": "Volume",
     "nl": "Volume",
-	"de": "Lautstärke"
+	"de": "Lautstärke",
+	"fr": "Volume"
   },
   "chartType": "stepLine",
   "min": 0,
@@ -22,7 +24,8 @@
       "title": {
         "en": "Volume changed",
         "nl": "Volume veranderd",
-		"de": "Lautstärke hat sich geändert"
+		"de": "Lautstärke hat sich geändert",
+		"fr": "Volume a été modifié"
       },
       "tokens": [{
         "name": "volume_set",
@@ -30,7 +33,8 @@
         "title": {
           "en": "Volume",
           "nl": "Volume",
-		  "de": "Lautstärke"
+		  "de": "Lautstärke",
+		  "fr": "Volume"
         },
         "example": 0.5
       }]
@@ -40,7 +44,8 @@
       "title": {
         "en": "Set volume to",
         "nl": "Zet volume naar",
-		"de": "Lautstärke setzen auf"
+		"de": "Lautstärke setzen auf",
+		"fr": "Mettre le volume sur"
       },
       "args": [{
         "name": "volume_set",
@@ -58,7 +63,8 @@
   "$speechExamples": {
     "en": ["Turn the volume of my speaker to 50%"],
     "nl": ["Zet het volume van mijn speaker op 50%"],
-	"de": ["Drehe die Lautstärke meines Lautsprechers auf 50%"]
+	"de": ["Drehe die Lautstärke meines Lautsprechers auf 50%"],
+	"fr": ["Mettre le volume de mon haut-parleur sur 50%"]
   },
   "$speech": {
     "en": {

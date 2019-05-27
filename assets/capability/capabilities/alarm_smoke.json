@@ -3,23 +3,27 @@
   "title": {
     "en": "Smoke alarm",
     "nl": "Rookmelder",
-	"de": "Rauch-Alarm"
+	"de": "Rauch-Alarm",
+	"fr": "Alarme fumée"
   },
   "desc": {
     "en": "True when smoke has been detected",
     "nl": "Gaat af als er rook gedetecteerd wordt",
-	"de": "True, wenn Rauch erkannt wurde"
+	"de": "True, wenn Rauch erkannt wurde",
+	"fr": "Vrai quand de la fumée a été détectée"
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Smoke alarm turned on",
     "nl": "Rookmelder ging af",
-	"de": "Rauch-Alarm ist angegangen"
+	"de": "Rauch-Alarm ist angegangen",
+	"fr": "Alarme fumée s'est activée"
   },
   "insightsTitleFalse": {
     "en": "Smoke alarm turned off",
     "nl": "Rookmelder ging uit",
-	"de": "Rauch-Alarm ist ausgegangen"
+	"de": "Rauch-Alarm ist ausgegangen",
+	"fr": "Alarme fumée s'est désactivée"
   },
   "getable": true,
   "setable": false,
@@ -31,7 +35,8 @@
         "title": {
           "en": "The smoke alarm turned on",
           "nl": "De rookmelder gaat aan",
-		  "de": "Der Rauch-Alarm ist angegangen"
+		  "de": "Der Rauch-Alarm ist angegangen",
+		  "fr": "L'alarme fumée s'est activée"
         }
       },
       {
@@ -39,7 +44,8 @@
         "title": {
           "en": "The smoke alarm turned off",
           "nl": "De rookmelder gaat uit",
-		  "de": "Der Rauch-Alarm ist ausgegangen"
+		  "de": "Der Rauch-Alarm ist ausgegangen",
+		  "fr": "L'alarme fumée s'est désactivée"
         }
       }
     ],
@@ -49,7 +55,8 @@
         "title": {
           "en": "The smoke alarm is !{{on|off}}",
           "nl": "De rookmelder is !{{aan|uit}}",
-		  "de": "Der Rauch-Alarm ist !{{an|aus}}"
+		  "de": "Der Rauch-Alarm ist !{{an|aus}}",
+		  "fr": "L'alarme fumée est !{{en marche|arrêtée}}"
         }
       }
     ]

@@ -1,7 +1,8 @@
 {
   "title": {
     "en": "Shuffle",
-	"de": "Zufallswiedergabe"
+	"de": "Zufallswiedergabe",
+	"fr": "Aléatoire"
   },
   "type": "boolean",
   "getable": true,
@@ -14,7 +15,8 @@
         "title": {
           "en": "Shuffle on",
           "nl": "Shuffle aan",
-		  "de": "Zufallswiedergabe an"
+		  "de": "Zufallswiedergabe an",
+		  "fr": "Aléatoire activée"
         }
       },
       {
@@ -22,7 +24,8 @@
         "title": {
           "en": "Shuffle off",
           "nl": "Shuffle uit",
-		  "de": "Zufallswiedergabe aus"
+		  "de": "Zufallswiedergabe aus",
+		  "fr": "Aléatoire désactivée"
         }
       }
     ]

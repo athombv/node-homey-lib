@@ -3,7 +3,8 @@
   "title": {
     "en": "Home Alarm state",
     "nl": "Thuisalarm status",
-	"de": "Heim-Alarm-Status"
+	"de": "Heim-Alarm-Status",
+	"fr": "Etat de l'alarme de maison"
   },
   "values": [
     {
@@ -11,7 +12,8 @@
       "title": {
         "en": "Armed",
         "nl": "Geactiveerd",
-		"de": "scharf"
+		"de": "scharf",
+		"fr": "Armé"
       }
     },
     {
@@ -19,7 +21,8 @@
       "title": {
         "en": "Disarmed",
         "nl": "Gedeactiveerd",
-		"de": "unscharf"
+		"de": "unscharf",
+		"fr": "Désarmé"
       }
     },
     {
@@ -27,7 +30,8 @@
       "title": {
         "en": "Partially armed",
         "nl": "Deels geactiveerd",
-		"de": "teilweise scharf"
+		"de": "teilweise scharf",
+		"fr": "Partiellement armé"
       }
     }
   ],
@@ -41,7 +45,8 @@
         "title": {
           "en": "The state changed",
           "nl": "De status is veranderd",
-		  "de": "Der Status hat sich geändert"
+		  "de": "Der Status hat sich geändert",
+		  "fr": "L'état a été modifié"
         },
         "args": [
           {
@@ -58,7 +63,8 @@
         "title": {
           "en": "The state is !{{|not}}",
           "nl": "De status is !{{|niet}}",
-		  "de": "Der Status ist !{{|nicht}}"
+		  "de": "Der Status ist !{{|nicht}}",
+		  "fr": "L'état !{{est|n'est pas}}"
         },
         "args": [
           {
@@ -75,7 +81,8 @@
         "title": {
           "en": "Set state",
           "nl": "Zet de status",
-		  "de": "Status setzen"
+		  "de": "Status setzen",
+		  "fr": "Définir l'état"
         },
         "args": [
           {

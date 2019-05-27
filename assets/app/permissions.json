@@ -3,91 +3,104 @@
 		"title": {
 			"en": "Read Homey's location",
 			"nl": "Homey's locatie uitlezen",
-			"de": "Homeys Standort lesen"
+			"de": "Homeys Standort lesen",
+			"fr": "Lire la position de Homey"
 		}
 	},
 	"homey:manager:ledring": {
 		"title": {
 			"en": "Control Homey's LED ring",
 			"nl": "Homey's LED ring besturen",
-			"de": "Homeys LED-Ring steuern"
+			"de": "Homeys LED-Ring steuern",
+			"fr": "Contrôler l'anneau LED de Homey"
 		}
 	},
 	"homey:manager:media": {
 		"title": {
 			"en": "Control Homey's Music",
 			"nl": "Homey's Muziek besturen",
-			"de": "Homeys Musik steuern"
+			"de": "Homeys Musik steuern",
+			"fr": "Contrôler la musique de Homey"
 		}
 	},
 	"homey:manager:speech-input": {
 		"title": {
 			"en": "React to speech",
 			"nl": "Reageren op spraak",
-			"de": "Auf Sprache reagieren"
+			"de": "Auf Sprache reagieren",
+			"fr": "Réagir au discours"
 		}
 	},
 	"homey:manager:speech-output": {
 		"title": {
 			"en": "Let Homey talk",
 			"nl": "Homey laten praten",
-			"de": "Homey sprechen lassen"
+			"de": "Homey sprechen lassen",
+			"fr": "Laisser Homey parler"
 		}
 	},
 	"homey:wireless:433": {
 		"title": {
 			"en": "Send and receive on the 433 MHz frequency",
 			"nl": "Verzenden en ontvangen op de 433 MHz frequentie",
-			"de": "Auf der 433MHz-Frequenz senden und empfangen"
+			"de": "Auf der 433MHz-Frequenz senden und empfangen",
+			"fr": "Envoyer et recevoir sur la fréquence 433 MHz"
 		}
 	},
 	"homey:wireless:868": {
 		"title": {
 			"en": "Send and receive on the 868 MHz frequency",
 			"nl": "Verzenden en ontvangen op de 868 MHz frequentie",
-			"de": "Auf der 868MHz-Frequenz senden und empfangen"
+			"de": "Auf der 868MHz-Frequenz senden und empfangen",
+			"fr": "Envoyer et recevoir sur la fréquence 868 MHz"
 		}
 	},
 	"homey:wireless:ir": {
 		"title": {
 			"en": "Send and receive Infrared",
 			"nl": "Infrarood verzenden en ontvangen",
-			"de": "Infrarot senden und empfangen"
+			"de": "Infrarot senden und empfangen",
+			"fr": "Envoyer et recevoir en infrarouge"
 		}
 	},
 	"homey:wireless:zwave": {
 		"title": {
 			"en": "Send and receive Z-Wave for specific devices",
 			"nl": "Z-Wave verzenden en ontvangen voor specifieke apparaten",
-			"de": "Z-Wave für spezifische Geräte senden und empfangen"
+			"de": "Z-Wave für spezifische Geräte senden und empfangen",
+			"fr": "Envoyer et recevoir Z-Wave pour les appareils spécifiques"
 		}
 	},
 	"homey:wireless:zigbee": {
 		"title": {
 			"en": "Send and receive Zigbee for specific devices",
 			"nl": "Zigbee verzenden en ontvangen voor specifieke apparaten",
-			"de": "Zigbee für spezifische Geräte senden und empfangen"
+			"de": "Zigbee für spezifische Geräte senden und empfangen",
+			"fr": "Envoyer et recevoir Zigbee pour les appareils spécifiques"
 		}
 	},
 	"homey:wireless:nfc": {
 		"title": {
 			"en": "Read and write NFC tags",
 			"nl": "NFC tags lezen en schrijven",
-			"de": "NFC-Tags lesen und schreiben"
+			"de": "NFC-Tags lesen und schreiben",
+			"fr": "Lire et écrire les tags NFC"
 		}
 	},
 	"homey:manager:api": {
 		"title": {
 			"en": "Gain full access to Homey to control everything on behalf of the user",
 			"nl": "Volledige toegang tot Homey om alles te bedienen namens de gebruiker",
-			"de": "Erhalte vollen Zugriff auf Homey, um alles im Namen des Benutzers zu steuern"
+			"de": "Erhalte vollen Zugriff auf Homey, um alles im Namen des Benutzers zu steuern",
+			"fr": "Obtenir l'accès complet à Homey pour contrôler tout au nom de l'utilisateur"
 		}
 	},
 	"homey:wireless:ble": {
 		"title": {
 			"en": "Communicate with Bluetooth Low Energy devices",
 			"nl": "Communiceren met Bluetooth Low Energy apparaten",
-			"de": "Mit Bluetooth-Low-Energy-Geräten kommunizieren"
+			"de": "Mit Bluetooth-Low-Energy-Geräten kommunizieren",
+			"fr": "Communiquer avec les appareils Bluetooth à faible énergie"
 		}
 	}
 }

@@ -2,14 +2,16 @@
   "type": "enum",
   "title": {
     "en": "Vacuum cleaner state",
-    "de": "Staubsauger-Status"
+    "de": "Staubsauger-Status",
+    "fr": "Etat de l'aspirateur"
   },
   "values": [{
     "id": "cleaning",
     "title": {
       "en": "Cleaning",
       "nl": "Stofzuigen",
-      "de": "Staubsaugen"
+      "de": "Staubsaugen",
+      "fr": "Aspirer"
     }
   },
     {
@@ -17,7 +19,8 @@
       "title": {
         "en": "Spot cleaning",
         "nl": "Vlek schoonmaken",
-        "de": "Spot-Reinigung"
+        "de": "Spot-Reinigung",
+        "fr": "Détacher"
       }
     },
     {
@@ -25,7 +28,8 @@
       "title": {
         "en": "Docked",
         "nl": "Op laadstation",
-        "de": "An Ladestation"
+        "de": "An Ladestation",
+        "fr": "Connecté à la base"
       }
     },
     {
@@ -33,7 +37,8 @@
       "title": {
         "en": "Charging",
         "nl": "Aan het opladen",
-        "de": "Lädt auf"
+        "de": "Lädt auf",
+        "fr": "En charge"
       }
     },
     {
@@ -41,7 +46,8 @@
       "title": {
         "en": "Stopped",
         "nl": "Gestopt",
-        "de": "Gestoppt"
+        "de": "Gestoppt",
+        "fr": "Arrêté"
       }
     }
   ],
@@ -54,7 +60,8 @@
       "title": {
         "en": "The state changed to...",
         "nl": "De status is veranderd naar...",
-        "de": "Der Status hat sich geändert auf..."
+        "de": "Der Status hat sich geändert auf...",
+        "fr": "L'état est passé à..."
       },
       "args": [{
         "name": "state",
@@ -67,7 +74,8 @@
       "title": {
         "en": "The vacuum cleaner !{{is|is not}}...",
         "nl": "De stofzuiger !{{is|is niet}}...",
-        "de": "Der Staubsauger !{{ist|ist nicht}}..."
+        "de": "Der Staubsauger !{{ist|ist nicht}}...",
+        "de": "L'aspirateur !{{est|n'est pas}}..."
       },
       "args": [{
         "name": "state",
@@ -80,7 +88,8 @@
       "title": {
         "en": "Start cleaning",
         "nl": "Begin met stofzuigen",
-        "de": "Mit Staubsaugen anfangen"
+        "de": "Mit Staubsaugen anfangen",
+        "fr": "Commencer le nettoyage"
       }
     },
       {
@@ -88,7 +97,8 @@
         "title": {
           "en": "Start spot cleaning",
           "nl": "Begin met één plek stofzuigen",
-          "de": "Mit Spot-Reinigung anfangen"
+          "de": "Mit Spot-Reinigung anfangen",
+          "fr": "Commencer le détachage"
         }
       },
       {
@@ -96,7 +106,8 @@
         "title": {
           "en": "Return to dock",
           "nl": "Terug naar laadstation",
-          "de": "Zu Ladestation zurückkehren"
+          "de": "Zu Ladestation zurückkehren",
+          "fr": "Retourner à la base"
         }
       },
       {
@@ -104,7 +115,8 @@
         "title": {
           "en": "Stop",
           "nl": "Stop",
-          "de": "Stop"
+          "de": "Stop",
+          "fr": "Arrêter"
         }
       }
     ]
@@ -112,7 +124,8 @@
   "$speechExamples": {
     "en": ["Start the vacuum cleaner"],
     "nl": ["Begin met stofzuigen"],
-    "de": ["Den Staubsauger starten"]
+    "de": ["Den Staubsauger starten"],
+    "fr": ["Commencer à aspirer"]
   },
   "$speech": {
     "en": {

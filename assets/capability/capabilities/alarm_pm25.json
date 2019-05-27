@@ -3,23 +3,27 @@
   "title": {
     "en": "PM2.5 alarm",
     "nl": "PM2.5 alarm",
-	"de": "PM2.5-Alarm"
+	"de": "PM2.5-Alarm",
+	"fr": "Alarme PM2.5"
   },
   "desc": {
     "en": "True when PM2.5 values exceeds threshold",
     "nl": "Gaat af wanneer de PM2.5 waarde overschreden wordt",
-	"de": "True, wenn PM2.5-Werte die Schwelle überschreiten"
+	"de": "True, wenn PM2.5-Werte die Schwelle überschreiten",
+	"fr": "Vrai si les valeurs PM2.5 excèdent un seuil"
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "PM2.5 alarm turned on",
     "nl": "PM2.5 alarm ging af",
-	"de": "PM2.5-Alarm ist angegangen"
+	"de": "PM2.5-Alarm ist angegangen",
+	"fr": "Alarme PM2.5 s'est activée"
   },
   "insightsTitleFalse": {
     "en": "PM2.5 alarm turned off",
     "nl": "PM2.5 alarm ging uit",
-	"de": "PM2.5-Alarm ist ausgegangen"
+	"de": "PM2.5-Alarm ist ausgegangen",
+	"fr": "Alarme PM2.5 s'est désactivée"
   },
   "getable": true,
   "setable": false,
@@ -31,7 +35,8 @@
         "title": {
           "en": "The PM2.5 alarm turned on",
           "nl": "Het PM2.5 gaat aan",
-		  "de": "Der PM2.5-Alarm ist angegangen"
+		  "de": "Der PM2.5-Alarm ist angegangen",
+		  "fr": "L'alarme PM2.5 s'est activée"
         }
       },
       {
@@ -39,7 +44,8 @@
         "title": {
           "en": "The PM2.5 alarm turned off",
           "nl": "Het PM2.5 gaat uit",
-		  "de": "Der PM2.5-Alarm ist ausgegangen"
+		  "de": "Der PM2.5-Alarm ist ausgegangen",
+		  "fr": "L'alarme PM2.5 s'est désactivée"
         }
       }
     ],
@@ -49,7 +55,8 @@
         "title": {
           "en": "The PM2.5 alarm is !{{on|off}}",
           "nl": "Het PM2.5 alarm is !{{aan|uit}}",
-		  "de": "Der PM2.5-Alarm ist !{{an|aus}}"
+		  "de": "Der PM2.5-Alarm ist !{{an|aus}}",
+		  "fr": "L'alarme PM2.5 est !{{en marche|arrêtée}}"
         }
       }
     ]

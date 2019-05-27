@@ -3,23 +3,27 @@
   "title": {
     "en": "CO alarm",
     "nl": "CO alarm",
-	"de": "CO-Alarm"
+	"de": "CO-Alarm",
+	"fr": "Alarme CO"
   },
   "desc": {
     "en": "True when dangerous CO values have been detected",
     "nl": "Gaat af bij gevaarlijke concentraties CO",
-	"de": "True, wenn gefährliche CO-Werte erkannt wurden"
+	"de": "True, wenn gefährliche CO-Werte erkannt wurden",
+	"fr": "Vrai si des valeurs de CO dangereuses ont été détectées"
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "CO alarm turned on",
     "nl": "CO alarm ging af",
-	"de": "CO-Alarm ist angegangen"
+	"de": "CO-Alarm ist angegangen",
+	"fr": "L'alarme CO est activée"
   },
   "insightsTitleFalse": {
     "en": "CO alarm turned off",
     "nl": "CO alarm ging uit",
-	"de": "CO-Alarm ist ausgegangen"
+	"de": "CO-Alarm ist ausgegangen",
+	"fr": "L'alarme CO est désactivée"
   },
   "getable": true,
   "setable": false,
@@ -31,7 +35,8 @@
         "title": {
           "en": "The CO alarm turned on",
           "nl": "Het CO alarm gaat aan",
-		  "de": "Der CO-Alarm ist angegangen"
+		  "de": "Der CO-Alarm ist angegangen",
+		  "fr": "L'alarme CO s'est activée"
         }
       },
       {
@@ -39,7 +44,8 @@
         "title": {
           "en": "The CO alarm turned off",
           "nl": "Het CO alarm gaat uit",
-		  "de": "Der CO-Alarm ist ausgegangen"
+		  "de": "Der CO-Alarm ist ausgegangen",
+		  "fr": "L'alarme CO s'est désactivée"
         }
       }
     ],
@@ -49,7 +55,8 @@
         "title": {
           "en": "The CO alarm is !{{on|off}}",
           "nl": "Het CO alarm is !{{aan|uit}}",
-		  "de": "Der CO-Alarm ist !{{an|aus}}"
+		  "de": "Der CO-Alarm ist !{{an|aus}}",
+		  "fr": "L'alarme CO est !{{en marche|arrêtée}}"
         }
       }
     ]

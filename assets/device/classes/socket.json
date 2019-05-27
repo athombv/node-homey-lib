@@ -2,16 +2,19 @@
   "title": {
     "en": "Wall Plug",
     "nl": "Schakeldoos",
-	"de": "Steckdose"
+	"de": "Steckdose",
+	"fr": "Prise murale"
   },
   "description": {
     "en": "Use this device class for sockets (built-in or plug-in socket switches). When adding the `choose_slave` pair template, the user is presented a `What's plugged in?` question.",
-	"de": "Nutze diese Geräteklasse für Sockel (eingebaut oder zum zum Einstecken). Wenn das 'choose_slave'-Paar-Template hinzugefügt wird, wird dem Benutzer eine 'Was ist eingesteckt?'-Frage gestellt."
+	"de": "Nutze diese Geräteklasse für Sockel (eingebaut oder zum zum Einstecken). Wenn das 'choose_slave'-Paar-Template hinzugefügt wird, wird dem Benutzer eine 'Was ist eingesteckt?'-Frage gestellt.",
+	"fr": "Utilisez cette classe d'appareil pour les prises (intégrées ou prises d'interrupteurs). En ajoutant le modèle d'appairage `choisir_esclave`, il est demandé à l'utilisteur `Qu'est-ce qui est connecté ?`."
   },
   "virtualTitle": {
     "en": "What's plugged in?",
     "nl": "Wat is er ingeplugd?",
-	"de": "Was ist eingesteckt?"
+	"de": "Was ist eingesteckt?",
+	"fr": "Qu'est-ce qui est connecté ?"
   },
   "allowedVirtual": [
     "light",
@@ -23,6 +26,7 @@
   ],
   "$speechAlternatives": {
     "en": [ "socket", "plug" ],
-    "nl": [ "schakelaar", "wandschakelaar", "stekkerdoos", "tussenstekker" ]
+    "nl": [ "schakelaar", "wandschakelaar", "stekkerdoos", "tussenstekker" ],
+    "fr": [ "prise" ]
   }
 }

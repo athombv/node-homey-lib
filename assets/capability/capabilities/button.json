@@ -2,7 +2,8 @@
   "title": {
     "en": "Button",
     "nl": "Knop",
-	"de": "Taste"
+	"de": "Taste",
+	"fr": "Bouton"
   },
   "type": "boolean",
   "getable": false,
@@ -16,7 +17,8 @@
         "title": {
           "en": "Press the button",
           "nl": "Druk op de knop",
-		  "de": "Drücke die Taste"
+		  "de": "Drücke die Taste",
+		  "fr": "Appuyer sur le bouton"
         }
       }
     ]

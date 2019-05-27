@@ -3,7 +3,8 @@
   "title": {
     "en": "Humidity",
     "nl": "Luchtvochtigheid",
-	"de": "Luftfeuchtigkeit"
+	"de": "Luftfeuchtigkeit",
+	"fr": "Humidité"
   },
   "units": {
     "en": "%"
@@ -12,7 +13,8 @@
   "desc": {
     "en": "Humidity in percent (%)",
     "nl": "Relatieve luchtvochtigheid (%)",
-	"de": "Luftfeuchtigkeit in Prozent (%)"
+	"de": "Luftfeuchtigkeit in Prozent (%)",
+	"fr": "Humidité en pourcentage (%)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -26,7 +28,8 @@
         "title": {
           "en": "The humidity changed",
           "nl": "De luchtvochtigheid is veranderd",
-		  "de": "Die Luftfeuchtigkeit hat sich geändert"
+		  "de": "Die Luftfeuchtigkeit hat sich geändert",
+		  "fr": "L'humidité a changé"
         },
         "tokens": [
           {
@@ -42,7 +45,8 @@
   "$speechExamples": {
 	"en": [ "What is the average humidity at home?" ],
 	"nl": [ "Wat is de gemiddelde luchtvochtigheid thuis?" ],
-	"de": ["Was ist die durchschnittliche Luftfeuchtigkeit zu Hause?"]
+	"de": [ "Was ist die durchschnittliche Luftfeuchtigkeit zu Hause?"],
+	"fr": [ "Quelle est l'humidité moyenne à la maison ?"]
   },
   "$speech": {
 	"en": {

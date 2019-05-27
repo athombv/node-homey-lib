@@ -3,7 +3,8 @@
   "title": {
     "en": "Wind Strength",
     "nl": "Windsnelheid",
-    "de": "Windstärke"
+    "de": "Windstärke",
+    "fr": "Force du vent"
   },
   "units": {
     "en": "km/h"
@@ -11,7 +12,8 @@
   "desc": {
     "en": "Wind Strength in Kilometer per hour (km/h)",
     "nl": "Windsnelheid in Kilometer per uur (km/u)",
-    "de": "Windstärke in Kilometer pro Stunde (km/h)"
+    "de": "Windstärke in Kilometer pro Stunde (km/h)",
+    "fr": "Force du vent en kilomètres par heure (km/h)"
   },
   "insights": true,
   "chartType": "spline",
@@ -26,7 +28,8 @@
         "title": {
           "en": "The wind strength changed",
           "nl": "De windsnelheid is veranderd",
-          "de": "Die Windstärke hat sich geändert"
+          "de": "Die Windstärke hat sich geändert",
+          "fr": "La force du vent a changé"
         },
         "tokens": [
           {

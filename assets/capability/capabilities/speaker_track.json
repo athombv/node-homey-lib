@@ -2,7 +2,8 @@
   "title": {
     "en": "Track",
     "nl": "Track",
-    "de": "Track"
+    "de": "Track",
+    "fr": "Titre"
   },
   "type": "string",
   "getable": true,
@@ -15,7 +16,8 @@
         "title": {
           "en": "The track changed",
           "nl": "De track is veranderd",
-          "de": "Der Track hat sich geändert"
+          "de": "Der Track hat sich geändert",
+          "fr": "Le titre a été modifié"
         },
         "tokens": [
           {

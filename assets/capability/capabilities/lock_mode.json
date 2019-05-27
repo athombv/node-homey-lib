@@ -3,7 +3,8 @@
   "title": {
     "en": "Lock mode",
     "nl": "Slot modus",
-	"de": "Schloss-Modus"
+	"de": "Schloss-Modus",
+	"fr": "Mode verrou"
   },
   "values": [
     {
@@ -11,7 +12,8 @@
       "title": {
         "en": "Always locked",
         "nl": "Altijd op slot",
-		"de": "Immer verriegelt"
+		"de": "Immer verriegelt",
+		"fr": "Toujours verrouillé"
       }
     },
     {
@@ -19,7 +21,8 @@
       "title": {
         "en": "Always unlocked",
         "nl": "Altijd open",
-		"de": "Immer entriegelt"
+		"de": "Immer entriegelt",
+		"fr": "Toujours déverrouillé"
       }
     },
     {
@@ -27,7 +30,8 @@
       "title": {
         "en": "Locked until unlocked",
         "nl": "Op slot tot geopend",
-		"de": "Verriegelt, bis entriegelt wird"
+		"de": "Verriegelt, bis entriegelt wird",
+		"fr": "Verrouillé jusqu'à déverrouillé"
       }
     }
   ],
@@ -41,7 +45,8 @@
         "title": {
           "en": "Lock mode has changed",
           "nl": "Slot modus is veranderd",
-		  "de": "Schloss-Modus hat sich geändert"
+		  "de": "Schloss-Modus hat sich geändert",
+		  "fr": "Mode verrou a été modifié"
         },
         "args": [
           {
@@ -58,7 +63,8 @@
         "title": {
           "en": "Lock mode is",
           "nl": "Slot modus is",
-		  "de": "Schloss-Modus ist"
+		  "de": "Schloss-Modus ist",
+		  "fr": "Mode verrou est"
         },
         "args": [
           {
@@ -75,7 +81,8 @@
         "title": {
           "en": "Set mode",
           "nl": "Stel stand in",
-		  "de": "Modus setzen"
+		  "de": "Modus setzen",
+		  "fr": "Définir le mode"
         },
         "args": [
           {

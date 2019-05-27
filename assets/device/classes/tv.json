@@ -2,14 +2,17 @@
   "title": {
     "en": "TV",
     "nl": "TV",
-	"de": "TV"
+	"de": "TV",
+	"fr": "TV"
   },
   "description": {
     "en": "Use this device class for TVs.",
-	"de": "Nutze diese Geräteklasse für TVs"
+	"de": "Nutze diese Geräteklasse für TVs",
+	"fr": "Utilisez cette classe d'appareil pour les TV"
   },
   "$speechAlternatives": {
     "en": [ "tvs", "televisions", "television", "tv" ],
-    "nl": [ "tv's", "televisie", "televisies", "tv" ]
+    "nl": [ "tv's", "televisie", "televisies", "tv" ],
+    "fr": [ "tv", "télévisions", "téléviseurs" ]
   }
 }

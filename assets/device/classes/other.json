@@ -2,10 +2,12 @@
   "title": {
     "en": "Other",
     "nl": "Overig",
-	"de": "Andere"
+	"de": "Andere",
+	"fr": "Autre"
   },
   "description": {
     "en": "Use this device class for devices that do not fit any other device class.",
-	"de": "Nutze diese Geräteklasse für Geräte, die nicht in andere Geräteklassen passen."
+	"de": "Nutze diese Geräteklasse für Geräte, die nicht in andere Geräteklassen passen.",
+	"fr": "Utilisez cette classe d'appareil pour les appareils qui ne correspondent à aucune autre classe d'appareil."
   }
 }

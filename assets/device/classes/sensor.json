@@ -2,14 +2,17 @@
   "title": {
     "en": "Sensor",
     "nl": "Sensor",
-	"de": "Sensor"
+	"de": "Sensor",
+	"fr": "Capteur"
   },
   "description": {
     "en": "Use this device class for sensors, e.g. a contact or motion sensor.",
-	"de": "Nutze diese Geräteklasse für Sensoren, z. B. ein Kontakt- oder Bewegungssensor."
+	"de": "Nutze diese Geräteklasse für Sensoren, z. B. ein Kontakt- oder Bewegungssensor.",
+	"fr": "Utilisez cette classe d'appareil pour les capteurs, par ex. un capteur de contact ou de mouvement."
   },
   "$speechAlternatives": {
     "en": [ "sensor", "sensors" ],
-    "nl": [ "sensor", "sensors", "sensoren" ]
+    "nl": [ "sensor", "sensors", "sensoren" ],
+    "fr": [ "capteur", "capteurs" ]
   }
 }

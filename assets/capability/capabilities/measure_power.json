@@ -3,7 +3,8 @@
   "title": {
     "en": "Power",
     "nl": "Energie",
-    "de": "Energie"
+    "de": "Energie",
+    "fr": "Energie"
   },
   "units": {
     "en": "W"
@@ -12,15 +13,17 @@
   "desc": {
     "en": "Power in Watt (W)",
     "nl": "Vermogen in Watt (W)",
-    "de": "Energie in Watt (W)"
+    "de": "Energie in Watt (W)",
+    "fr": "Energie en Watt (W)"
   },
   "options": {
     "isGenerator": {
       "type": "boolean",
       "default": false,
       "desc": {
-        "en": "This flag is used to determine whether this devices uses or generates power.",
-        "de": "Dieser Flag wird benutzt, um zu bestimmen, ob diese Ger�te Energie verbrauchen oder produzieren."
+        "en": "This flag is used to determine whether this device uses or generates power.",
+        "de": "Dieser Flag wird benutzt, um zu bestimmen, ob diese Ger�te Energie verbrauchen oder produzieren.",
+        "fr": "Ce drapeau est utilisé pour déterminer si cet appareil utilise ou genère de l'énergie."
       }
     }
   },
@@ -35,7 +38,8 @@
       "title": {
         "en": "The power changed",
         "nl": "De energie is veranderd",
-        "de": "Der Verbrauch hat sich gändert"
+        "de": "Der Verbrauch hat sich gändert",
+        "fr": "L'énergie a changé"
       },
       "tokens": [{
         "name": "$id",

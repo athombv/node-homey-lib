@@ -2,7 +2,8 @@
   "title": {
     "en": "Position",
     "nl": "Positie",
-	"de": "Positiv"
+	"de": "Positiv",
+	"fr": "Position"
   },
   "type": "number",
   "getable": true,

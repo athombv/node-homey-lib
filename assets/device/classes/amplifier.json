@@ -2,14 +2,17 @@
   "title": {
     "en": "Amplifier",
     "nl": "Versterker",
-	"de": "Verstärker"
+	"de": "Verstärker",
+	"fr": "Amplificateur"
   },
   "description": {
     "en": "Use this device class for audio amplifier devices.",
-	"de": "Nutze diese Geräteklasse für Audio-Verstärker-Geräte."
+	"de": "Nutze diese Geräteklasse für Audio-Verstärker-Geräte.",
+	"fr": "Utilisez cette classe d'appareil pour les appareils amplificateurs audio."
   },
   "$speechAlternatives": {
     "en": [ "amp", "amplifier", "tuner" ],
-    "nl": [ "versterker" ]
+    "nl": [ "versterker" ],
+    "fr": [ "amp", "amplificateur", "tuner" ]
   }
 }

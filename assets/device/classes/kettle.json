@@ -2,14 +2,17 @@
   "title": {
     "en": "Kettle",
     "nl": "Waterkoker",
-	"de": "Wasserkocher"
+	"de": "Wasserkocher",
+	"fr": "Bouilloire"
   },
   "description": {
     "en": "Use this device class for kettle devices, that can heat water.",
-	"de": "Nutze diese Geräteklasse für Kessel-Geräte, die Wasser kochen können."
+	"de": "Nutze diese Geräteklasse für Kessel-Geräte, die Wasser kochen können.",
+	"fr": "Utilisez cette classe d'appareil pour les bouilloires qui peuvent faire chauffer de l'eau."
   },
   "$speechAlternatives": {
     "en": [ "kettle", "kettles", "water cooker" ],
-    "nl": [ "ketel", "waterkoker" ]
+    "nl": [ "ketel", "waterkoker" ],
+    "fr": [ "bouilloire" ]
   }
 }

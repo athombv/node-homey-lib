@@ -3,23 +3,27 @@
   "title": {
     "en": "Battery alarm",
     "nl": "Batterij alarm",
-	"de": "Batterie-Alarm"
+	"de": "Batterie-Alarm",
+	"fr": "Alarme batterie"
   },
   "desc": {
     "en": "True when there is a battery warning",
     "nl": "Geeft een batterijwaarschuwing",
-	"de": "True, wenn es eine Batterie-Warnung gibt"
+	"de": "True, wenn es eine Batterie-Warnung gibt",
+	"fr": "Vrai quand il y a un avertissement de batterie"
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Battery alarm turned on",
     "nl": "Batterijalarm ging af",
-	"de": "Batterie-Alarm ist angegangen"
+	"de": "Batterie-Alarm ist angegangen",
+	"fr": "Alarme batterie activée"
   },
   "insightsTitleFalse": {
     "en": "Battery alarm turned off",
     "nl": "Batterijalarm ging uit",
-	"de": "Batterie-Alarm ist ausgegangen"
+	"de": "Batterie-Alarm ist ausgegangen",
+	"fr": "Alarme batterie désactivée"
   },
   "getable": true,
   "setable": false,
@@ -31,7 +35,8 @@
         "title": {
           "en": "The battery alarm turned on",
           "nl": "De batterijwaarschuwing gaat aan",
-		  "de": "Der Batterie-Alarm ist angegangen"
+		  "de": "Der Batterie-Alarm ist angegangen",
+		  "fr": "L'alarme batterie s'est activée"
         }
       },
       {
@@ -39,7 +44,8 @@
         "title": {
           "en": "The battery alarm turned off",
           "nl": "De batterijwaarschuwing gaat uit",
-		  "de": "Der Batterie-Alarm ist ausgegangen"
+		  "de": "Der Batterie-Alarm ist ausgegangen",
+		  "fr": "L'alarme batterie s'est désactivée"
         }
       }
     ],
@@ -49,7 +55,8 @@
         "title": {
           "en": "The battery alarm is !{{on|off}}",
           "nl": "De batterijwaarschuwing is !{{aan|uit}}",
-		  "de": "Der Batterie-Alarm ist !{{an|aus}}"
+		  "de": "Der Batterie-Alarm ist !{{an|aus}}",
+		  "fr": "L'alarme batterie est !{{en marche|arrêtée}}"
         }
       }
     ]

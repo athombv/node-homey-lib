@@ -3,7 +3,8 @@
   "title": {
     "en": "Current",
     "nl": "Stroom",
-	"de": "Strom"
+	"de": "Strom",
+	"fr": "Courant"
   },
   "units": {
     "en": "A"
@@ -12,7 +13,8 @@
   "desc": {
     "en": "Electric current (A)",
     "nl": "Elektrische stroom (A)",
-	"de": "Elektrischer Strom (A)"
+	"de": "Elektrischer Strom (A)",
+	"fr": "Courant électrique (A)"
   },
   "chartType": "stepLine",
   "decimals": 2,
@@ -26,7 +28,8 @@
         "title": {
           "en": "The electric current changed",
           "nl": "De elektrische stroom is veranderd",
-		  "de": "Der elektrische Strom hat sich geändert"
+		  "de": "Der elektrische Strom hat sich geändert",
+		  "fr": "Le courant électrique a changé"
         },
         "tokens": [
           {

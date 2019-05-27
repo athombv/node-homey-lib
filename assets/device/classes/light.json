@@ -2,14 +2,17 @@
   "title": {
     "en": "Light",
     "nl": "Lamp",
-	"de": "Lampe"
+	"de": "Lampe",
+	"fr": "Lampe"
   },
   "description": {
     "en": "Use this device class for lights, usually together with the `onoff`, `dim` and `light_*` capabilities.",
-	"de": "Nutze diese Geräteklasse für Lampen - normalerweise zusammen mit den 'onoff'-, 'dim'- und 'light_*'-Fähigkeiten."
+	"de": "Nutze diese Geräteklasse für Lampen - normalerweise zusammen mit den 'onoff'-, 'dim'- und 'light_*'-Fähigkeiten.",
+	"fr": "Utilisez cette classe d'appareil pou les lampes, habituellement avec les capacités `allumer/éteindre`, `estomper` et `lumière_*`."
   },
   "$speechAlternatives": {
     "en": [ "light", "lights", "lamp" ],
-    "nl": [ "licht", "lichten", "lamp", "verlichting" ]
+    "nl": [ "licht", "lichten", "lamp", "verlichting" ],
+    "fr": [ "lumière", "lampe", "lampes" ]
   }
 }

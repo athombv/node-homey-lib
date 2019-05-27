@@ -3,7 +3,8 @@
   "title": {
     "en": "PM2.5",
     "nl": "PM2.5",
-	"de": "PM2.5"
+	"de": "PM2.5",
+	"fr": "PM2.5"
   },
   "units": {
     "en": "ppm"
@@ -12,7 +13,8 @@
   "desc": {
     "en": "Atmospheric Particulate Matter (μg/m3)",
     "nl": "Deeltjesvormige luchtverontreiniging (μg/m3)",
-	"de": "Atmosphärischer Feinstaub (μg/m3)"
+	"de": "Atmosphärischer Feinstaub (μg/m3)",
+	"fr": "Particules en suspension (μg/m3)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -26,7 +28,8 @@
         "title": {
           "en": "The PM2.5 value has changed",
           "nl": "De PM2.5 waarde is veranderd",
-		  "de": "Der PM2.5-Wert hat sich geändert"
+		  "de": "Der PM2.5-Wert hat sich geändert",
+		  "fr": "La valeur PM2.5 a changé"
         },
         "tokens": [
           {

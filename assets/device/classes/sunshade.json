@@ -2,14 +2,17 @@
   "title": {
     "en": "Sunshade",
     "nl": "Zonnescherm",
-	"de": "Sonnenschirm"
+	"de": "Sonnenschirm",
+	"fr": "Auvent"
   },
   "description": {
     "en": "Use this device class for sunshades (window coverings against the sun).",
-	"de": "Nutze diese Geräteklasse für Jalousien (Fenster-Abdeckungen gegen die Sonne)."
+	"de": "Nutze diese Geräteklasse für Jalousien (Fenster-Abdeckungen gegen die Sonne).",
+	"fr": "Utilisez cette classe d'appareil pour les auvents (couvrant les fenêtres contre le soleil)."
   },
   "$speechAlternatives": {
     "en": [ "sunscreen", "sunscreens", "sunshade", "sunshades" ],
-    "nl": [ "zonnescherm", "zonneschermen", "luifel", "zonwering", "zonnewering" ]
+    "nl": [ "zonnescherm", "zonneschermen", "luifel", "zonwering", "zonnewering" ],
+    "fr": [ "auvent", "parasol", "pare-soleil" ]
   }
 }

@@ -3,23 +3,27 @@
   "title": {
     "en": "Water alarm",
     "nl": "Wateralarm",
-	"de": "Wasser-Alarm"
+	"de": "Wasser-Alarm",
+	"fr": "Alarme eau"
   },
   "desc": {
     "en": "True when water has been detected",
     "nl": "Gaat af als er water gedetecteerd wordt",
-	"de": "True, wenn Wasser erkannt wurde"
+	"de": "True, wenn Wasser erkannt wurde",
+	"fr": "Vrai si de l'eau a été détectée"
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Water alarm turned on",
     "nl": "Water alarm ging af",
-	"de": "Wasser-Alarm ist angegangen"
+	"de": "Wasser-Alarm ist angegangen",
+	"fr": "Alarme eau s'est activée"
   },
   "insightsTitleFalse": {
     "en": "Water alarm turned off",
     "nl": "Water alarm ging uit",
-	"de": "Wasser-Alarm ist ausgegangen"
+	"de": "Wasser-Alarm ist ausgegangen",
+	"fr": "Alarme eau s'est désactivée"
   },
   "getable": true,
   "setable": false,
@@ -31,7 +35,8 @@
         "title": {
           "en": "The water alarm turned on",
           "nl": "Het wateralarm gaat aan",
-		  "de": "Der Wasser-Alarm ist angegangen"
+		  "de": "Der Wasser-Alarm ist angegangen",
+		  "fr": "L'alarme eau s'est activée"
         }
       },
       {
@@ -39,7 +44,8 @@
         "title": {
           "en": "The water alarm turned off",
           "nl": "Het wateralarm gaat uit",
-		  "de": "Der Wasser-Alarm ist ausgegangen"
+		  "de": "Der Wasser-Alarm ist ausgegangen",
+		  "fr": "L'alarme eau s'est désactivée"
         }
       }
     ],
@@ -49,7 +55,8 @@
         "title": {
           "en": "The water alarm is !{{on|off}}",
           "nl": "Het wateralarm is !{{aan|uit}}",
-		  "de": "Der Wasser-Alarm ist !{{an|aus}}"
+		  "de": "Der Wasser-Alarm ist !{{an|aus}}",
+		  "fr": "L'alarme eau est !{{en marche|arrêtée}}"
         }
       }
     ]

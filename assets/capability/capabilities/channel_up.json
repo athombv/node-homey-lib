@@ -2,7 +2,8 @@
   "title": {
     "en": "Channel up",
     "nl": "Kanaal omhoog",
-	"de": "Kanal hoch"
+	"de": "Kanal hoch",
+	"fr": "Chaîne haut"
   },
   "type": "boolean",
   "getable": false,
@@ -14,7 +15,8 @@
         "title": {
           "en": "One channel up",
           "nl": "Eén kanaal omhoog",
-		  "de": "Einen Kanal hoch"
+		  "de": "Einen Kanal hoch",
+		  "fr": "Une chaîne vers le haut"
         }
       }
     ]
@@ -23,7 +25,8 @@
   "$speechExamples": {
     "en": ["Switch My TV to the next channel"],
     "nl": ["Zet Mijn TV op het volgende kanaal"],
-	"de": ["Schalte meinen TV zum nächsten Kanal"]
+	"de": ["Schalte meinen TV zum nächsten Kanal"],
+	"fr": ["Monter ma télé d'une chaîne"]
   },
   "$speech": {
     "en": {

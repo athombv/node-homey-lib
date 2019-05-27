@@ -2,10 +2,12 @@
   "title": {
     "en": "Button",
     "nl": "Knop",
-	"de": "Taste"
+	"de": "Taste",
+	"fr": "Bouton"
   },
   "description": {
     "en": "Use this device class for buttons, such as a remote.",
-	"de": "Nutze diese Geräteklasse für Tasten wie z. B. eine Fernbedienung."
+	"de": "Nutze diese Geräteklasse für Tasten wie z. B. eine Fernbedienung.",
+	"fr": "Utilisez cette classe d'appareil pour les boutons, comme pour une télécommande."
   }
 }
