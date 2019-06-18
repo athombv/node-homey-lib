@@ -2,8 +2,9 @@
   "title": {
     "en": "Previous",
     "nl": "Vorige",
-	"de": "Zurück",
-	"fr": "Précédent"
+    "de": "Zurück",
+    "fr": "Précédent",
+    "it": "Precedente"
   },
   "type": "boolean",
   "getable": false,
@@ -16,8 +17,9 @@
         "title": {
           "en": "Previous",
           "nl": "Vorige",
-		  "de": "Zurück",
-		  "fr": "Précédent"
+          "de": "Zurück",
+          "fr": "Précédent",
+          "it": "Precedente"
         }
       }
     ]

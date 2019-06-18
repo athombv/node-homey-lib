@@ -3,8 +3,9 @@
   "title": {
     "en": "CO",
     "nl": "CO",
-	"de": "CO",
-	"fr": "CO"
+    "de": "CO",
+    "fr": "CO",
+    "it": "CO"
   },
   "units": {
     "en": "ppm"
@@ -13,8 +14,9 @@
   "desc": {
     "en": "CO in Parts-per-million (ppm)",
     "nl": "CO deeltjes per miljoen (ppm)",
-	"de": "CO in Anteile pro Million (ppm)",
-	"fr": "Niveau de CO en parts par million (ppm)"
+    "de": "CO in Anteile pro Million (ppm)",
+    "fr": "Niveau de CO en parts par million (ppm)",
+    "it": "Livello di CO in parti per milione (ppm)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -28,8 +30,9 @@
         "title": {
           "en": "The CO-level changed",
           "nl": "Het CO niveau is veranderd",
-		  "de": "Der CO-Gehalt hat sich geändert",
-		  "fr": "Le niveau de CO a changé"
+          "de": "Der CO-Gehalt hat sich geändert",
+          "fr": "Le niveau de CO a changé",
+          "it": "Il livello di CO è cambiato"
         },
         "tokens": [
           {

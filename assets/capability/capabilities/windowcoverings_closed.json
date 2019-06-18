@@ -3,8 +3,9 @@
   "title": {
     "en": "Closed",
     "nl": "Gesloten",
-	"de": "Geschlossen",
-	"fr": "Fermé"
+    "de": "Geschlossen",
+    "fr": "Fermé",
+    "it": "Chiuse"
   },
   "getable": true,
   "setable": true,
@@ -16,8 +17,9 @@
         "title": {
           "en": "Closed",
           "nl": "Gesloten",
-		  "de": "Geschlossen",
-		  "fr": "Fermé"
+          "de": "Geschlossen",
+          "fr": "Fermé",
+          "it": "Chiuse"
         }
       },
       {
@@ -25,8 +27,9 @@
         "title": {
           "en": "Opened",
           "nl": "Geopend",
-		  "de": "Offen",
-		  "fr": "Ouvert"
+          "de": "Offen",
+          "fr": "Ouvert",
+          "it": "Aperte"
         }
       }
     ],
@@ -36,8 +39,9 @@
         "title": {
           "en": "Are !{{closed|opened}}",
           "nl": "Zijn !{{gesloten|geopend}}",
-		  "de": "Sind !{{geschlossen|offen}}",
-		  "fr": "Sont !{{fermés|ouverts}}"
+          "de": "Sind !{{geschlossen|offen}}",
+          "fr": "Sont !{{fermés|ouverts}}",
+          "it": "Sono !{{chiuse|aperte}}"
         }
       }
     ],
@@ -47,8 +51,9 @@
         "title": {
           "en": "Close",
           "nl": "Sluiten",
-		  "de": "Schließen",
-		  "fr": "Fermer"
+          "de": "Schließen",
+          "fr": "Fermer",
+          "it": "Chiudi"
         }
       },
       {
@@ -56,8 +61,9 @@
         "title": {
           "en": "Open",
           "nl": "Openen",
-		  "de": "Öffnen",
-		  "fr": "Ouvrir"
+          "de": "Öffnen",
+          "fr": "Ouvrir",
+          "it": "Apri"
         }
       },
       {
@@ -65,8 +71,9 @@
         "title": {
           "en": "Toggle open or closed",
           "nl": "Schakel tussen geopend en gesloten",
-		  "de": "Offen/Geschlossen umschalten",
-		  "fr": "Alterner ouvert/fermé"
+          "de": "Offen/Geschlossen umschalten",
+          "fr": "Alterner ouvert/fermé",
+          "it": "Alterna aperte/chiuse"
         }
       }
     ]

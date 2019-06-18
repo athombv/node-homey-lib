@@ -3,27 +3,31 @@
   "title": {
     "en": "Heat alarm",
     "nl": "Hittealarm",
-	"de": "Hitze-Alarm",
-	"fr": "Alarme chaleur"
+    "de": "Hitze-Alarm",
+    "fr": "Alarme chaleur",
+    "it": "Allarme di calore"
   },
   "desc": {
     "en": "True when extreme heat has been detected",
     "nl": "Gaat af als er extreme hitte gedetecteerd wordt",
-	"de": "True, wenn extreme Hitze erkannt wurde",
-	"fr": "Vrai si une chaleur extrême a été détectée"
+    "de": "True, wenn extreme Hitze erkannt wurde",
+    "fr": "Vrai si une chaleur extrême a été détectée",
+    "it": "Vero quando è stato rilevato un calore estremo"
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Heat alarm turned on",
     "nl": "Hittealarm ging af",
-	"de": "Hitze-Alarm ist angegangen",
-	"fr": "Alarme chaleur s'est activée"
+    "de": "Hitze-Alarm ist angegangen",
+    "fr": "Alarme chaleur s'est activée",
+    "it": "Allarme di calore attivato"
   },
   "insightsTitleFalse": {
     "en": "Heat alarm turned off",
     "nl": "Hittealarm ging uit",
-	"de": "Hitze-Alarm ist ausgegangen",
-	"fr": "Alarme chaleur s'est désactivée"
+    "de": "Hitze-Alarm ist ausgegangen",
+    "fr": "Alarme chaleur s'est désactivée",
+    "it": "Allarme di calore disattivato"
   },
   "getable": true,
   "setable": false,
@@ -35,8 +39,9 @@
         "title": {
           "en": "The heat alarm turned on",
           "nl": "Het hitte alarm gaat aan",
-		  "de": "Der Hitze-Alarm ist angegangen",
-		  "fr": "L'alarme chaleur s'est activée"
+          "de": "Der Hitze-Alarm ist angegangen",
+          "fr": "L'alarme chaleur s'est activée",
+          "it": "L'allarme di calore è stato attivato"
         }
       },
       {
@@ -44,8 +49,9 @@
         "title": {
           "en": "The heat alarm turned off",
           "nl": "Het hitte alarm gaat uit",
-		  "de": "Der Hitze-Alarm ist ausgegangen",
-		  "fr": "L'alarme chaleur s'est désactivée"
+          "de": "Der Hitze-Alarm ist ausgegangen",
+          "fr": "L'alarme chaleur s'est désactivée",
+          "it": "L'allarme di calore è stato disattivato"
         }
       }
     ],
@@ -55,8 +61,9 @@
         "title": {
           "en": "The heat alarm is !{{on|off}}",
           "nl": "Het hitte alarm is !{{aan|uit}}",
-		  "de": "Der Hitze-Alarm ist !{{an|aus}}",
-		  "fr": "L'alarme chaleur est !{{en marche|arrêtée}}"
+          "de": "Der Hitze-Alarm ist !{{an|aus}}",
+          "fr": "L'alarme chaleur est !{{en marche|arrêtée}}",
+          "it": "L'allarme di calore è !{{acceso|spento}}"
         }
       }
     ]

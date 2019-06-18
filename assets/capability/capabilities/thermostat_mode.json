@@ -3,14 +3,16 @@
   "title": {
     "en": "Thermostat mode",
     "nl": "Thermostaat modus",
-	"de": "Thermostat-Modus",
-	"fr": "Mode thermostat"
+    "de": "Thermostat-Modus",
+    "fr": "Mode thermostat",
+    "it": "Modalità termostato"
   },
   "desc": {
     "en": "Mode of the thermostat",
     "nl": "Modus van de thermostaat",
-	"de": "Modus des Thermostates",
-	"fr": "Mode du thermostat"
+    "de": "Modus des Thermostates",
+    "fr": "Mode du thermostat",
+    "it": "Modalità del termostato"
   },
   "values": [
     {
@@ -18,8 +20,9 @@
       "title": {
         "en": "Automatic",
         "nl": "Automatisch",
-		"de": "Automatisch",
-		"fr": "Automatique"
+        "de": "Automatisch",
+        "fr": "Automatique",
+        "it": "Automatica"
       }
     },
     {
@@ -27,8 +30,9 @@
       "title": {
         "en": "Heat",
         "nl": "Verhitten",
-		"de": "Heizen",
-		"fr": "Chauffer"
+        "de": "Heizen",
+        "fr": "Chauffer",
+        "it": "Calore"
       }
     },
     {
@@ -36,8 +40,9 @@
       "title": {
         "en": "Cool",
         "nl": "Koelen",
-		"de": "Kühlen",
-		"fr": "Refroidir"
+        "de": "Kühlen",
+        "fr": "Refroidir",
+        "it": "Raffreddamento"
       }
     },
     {
@@ -45,8 +50,9 @@
       "title": {
         "en": "Off",
         "nl": "Uit",
-		"de": "Aus",
-		"fr": "Désactivé"
+        "de": "Aus",
+        "fr": "Désactivé",
+        "it": "Disattivata"
       }
     }
   ],
@@ -60,8 +66,9 @@
         "title": {
           "en": "Thermostat mode has changed",
           "nl": "Thermostaat modus is veranderd",
-		  "de": "Thermostat-Modus hat sich geändert",
-		  "fr": "Mode thermostat a été modifié"
+          "de": "Thermostat-Modus hat sich geändert",
+          "fr": "Mode thermostat a été modifié",
+          "it": "La modalità del termostato è cambiata"
         },
         "args": [
           {
@@ -78,8 +85,9 @@
         "title": {
           "en": "Thermostat mode is",
           "nl": "Thermostaat modus is",
-		  "de": "Thermostat-Modus ist",
-		  "fr": "Mode thermostat est"
+          "de": "Thermostat-Modus ist",
+          "fr": "Mode thermostat est",
+          "it": "La modalità del termostato è"
         },
         "args": [
           {
@@ -96,8 +104,9 @@
         "title": {
           "en": "Set the mode",
           "nl": "Stel de modus in",
-		  "de": "Modus setzen",
-		  "fr": "Définir le mode"
+          "de": "Modus setzen",
+          "fr": "Définir le mode",
+          "it": "Imposta la modalità"
         },
         "args": [
           {

@@ -4,7 +4,8 @@
     "en": "Turned on",
     "nl": "Aangezet",
     "de": "Eingeschaltet",
-    "fr": "Activé"
+    "fr": "Activé",
+    "it": "Attivato"
   },
   "getable": true,
   "setable": true,
@@ -13,13 +14,15 @@
     "en": "Turned on",
     "nl": "Aangezet",
     "de": "Eingeschaltet",
-    "fr": "Activé"
+    "fr": "Activé",
+    "it": "Attivato"
   },
   "insightsTitleFalse": {
     "en": "Turned off",
     "nl": "Uitgezet",
     "de": "Ausgeschaltet",
-    "fr": "Désactivé"
+    "fr": "Désactivé",
+    "it": "Disattivato"
   },
   "options": {
     "setOnDim": {
@@ -28,7 +31,8 @@
       "desc": {
         "en": "When a device has both an `onoff` and `dim` capability, and Homey wants to turn the device on AND to a specific dim value, set this capability to `false` to prevent Homey from sending a set command.",
         "de": "Wenn ein Gerät sowohl 'An/Aus'- als auch 'Dimm'-Fähigkeit hat und Homey das Gerät anschalten UND auf einen bestimmten Wert dimmen will, setze diese Fähigkeit auf 'false', um Homey am Senden eines Setzen-Befehls zu hindern.",
-        "fr": "Quand un appareil peut `allumer/éteindre` et `estomper`, et que Homey veut allumer l'appareil ET sur une valeur d'estompage spécifique, définissez cette capacité sur `faux` pour empêcher Homey d'envoyer une commande de définition."
+        "fr": "Quand un appareil peut `allumer/éteindre` et `estomper`, et que Homey veut allumer l'appareil ET sur une valeur d'estompage spécifique, définissez cette capacité sur `faux` pour empêcher Homey d'envoyer une commande de définition.",
+        "it": "Quando un dispositivo può 'accendersi' e 'attenuarsi' e Homey desidera attivare il dispositivo E definire un valore specifico, imposta questa funzione su 'falso' per impedire a Homey di inviare un comando di definizione."
       }
     },
     "greyout": {
@@ -37,7 +41,8 @@
       "desc": {
         "en": "When this capability is false, give a visual hint to greyout the device.",
         "de": "wenn diese Fähigkeit 'false' ist, gibt es einen visuellenen Hinweis, um das Gerät auszugrauen.",
-        "fr": "Quand cette capacité est fausse, donnez un indice visuel pour griser cet appareil."
+        "fr": "Quand cette capacité est fausse, donnez un indice visuel pour griser cet appareil.",
+        "en": "Quando questa funzione è impostata su falso, dai un indizio visivo per far apparire questo dispositivo in grigio."
       }
     }
   },
@@ -50,7 +55,8 @@
         "en": "Turned on",
         "nl": "Aangezet ",
         "de": "Angeschaltet",
-        "fr": "Activé"
+        "fr": "Activé",
+        "it": "Attivato"
       }
     },
       {
@@ -59,7 +65,8 @@
           "en": "Turned off",
           "nl": "Uitgezet",
           "de": "Ausgeschaltet",
-          "fr": "Désactivé"
+          "fr": "Désactivé",
+          "it": "Disattivato"
         }
       }
     ],
@@ -69,7 +76,8 @@
         "en": "Is turned !{{on|off}}",
         "nl": "Is !{{aan|uit}}",
         "de": "Ist !{{an|aus}}",
-        "fr": "Est !{{activé|désactivé}}"
+        "fr": "Est !{{activé|désactivé}}",
+        "it": "È !{{attivato|disattivato}}"
       }
     },
       {
@@ -78,7 +86,8 @@
           "en": "Is !{{open|closed}}",
           "nl": "Is !{{geopend|gesloten}}",
           "de": "Ist !{{offen|geschlossen}}",
-          "fr": "Est !{{ouvert|fermé}}"
+          "fr": "Est !{{ouvert|fermé}}",
+          "it": "È !{{aperto|chiuso}}"
         },
         "$filter": {
           "class": "windowcoverings|curtain|blinds|sunshade"
@@ -91,7 +100,8 @@
         "en": "Turn on",
         "nl": "Zet aan",
         "de": "Einschalten",
-        "fr": "Activer"
+        "fr": "Activer",
+        "it": "Attiva"
       }
     },
       {
@@ -100,7 +110,8 @@
           "en": "Turn off",
           "nl": "Zet uit",
           "de": "Ausschalten",
-          "fr": "Désactiver"
+          "fr": "Désactiver",
+          "it": "Disattiva"
         }
       },
       {
@@ -109,7 +120,8 @@
           "en": "Toggle on or off",
           "nl": "Schakel aan of uit",
           "de": "Ein- oder ausschalten",
-          "fr": "Alterner activé ou désactivé"
+          "fr": "Alterner activé ou désactivé",
+          "it": "Attiva o disattiva"
         }
       },
       {
@@ -118,7 +130,8 @@
           "en": "Open curtain or blind",
           "nl": "Open de gordijnen",
           "de": "Vorhang oder Rollladen öffnen",
-          "fr": "Ouvrir rideau ou store"
+          "fr": "Ouvrir rideau ou store",
+          "it": "Apri la tenda o le persiane"
         },
         "$filter": {
           "class": "windowcoverings|curtain|blinds|sunshade"
@@ -130,7 +143,8 @@
           "en": "Close curtain or blind",
           "nl": "Sluit de gordijnen",
           "de": "Vorhang oder Rollladen schließen",
-          "fr": "Fermer rideau ou store"
+          "fr": "Fermer rideau ou store",
+          "it": "Chiudi la tenda o le persiane"
         },
         "$filter": {
           "class": "windowcoverings|curtain|blinds|sunshade"
@@ -142,7 +156,8 @@
     "en": ["Turn all lights on", "Turn off all devices", "Toggle all lights"],
     "nl": ["Zet alle lichten aan", "Zet alle apparaten uit"],
     "de": ["Alle Lichter anschalten", "Alle Geräte ausschalten", "Alle Lichter an-/ausschalten"],
-    "fr": ["Allumer toutes les lumières", "Désactiver tous les appareils", "Alterner toutes les lumières"]
+    "fr": ["Allumer toutes les lumières", "Désactiver tous les appareils", "Alterner toutes les lumières"],
+    "it": ["Accendi tutte le luci", "Spegni tutti i dispositivi", "Attiva tutte le luci"]
   },
   "$speech": {
     "en": {

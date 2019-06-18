@@ -2,8 +2,9 @@
   "title": {
     "en": "Duration",
     "nl": "Lengte",
-	"de": "Länge", 
-	"fr": "Durée"
+    "de": "Länge", 
+    "fr": "Durée",
+    "it": "Durata"
   },
   "type": "number",
   "getable": true,

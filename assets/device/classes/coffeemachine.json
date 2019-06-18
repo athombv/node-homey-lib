@@ -2,17 +2,20 @@
   "title": {
     "en": "Coffee machine",
     "nl": "Koffiemachine",
-	"de": "Kaffemaschine",
-	"fr": "Machine à café"
+    "de": "Kaffemaschine",
+    "fr": "Machine à café",
+    "it": "Macchina per il caffè"
   },
   "description": {
     "en": "Use this device class for coffee machines.",
-	"de": "Nutze diese Geräteklasse für Kaffeemaschinen.",
-	"fr": "Utilisez cette classe d'appareil pour les machines à café."
+    "de": "Nutze diese Geräteklasse für Kaffeemaschinen.",
+    "fr": "Utilisez cette classe d'appareil pour les machines à café.",
+    "it": "Utilizza questa classe di dispositivi per le macchine per il caffè."
   },
   "$speechAlternatives": {
     "en": [ "coffee machine", "coffee machines" ],
     "nl": [ "koffiezetapparaat", "koffiemachine", "koffie zet apparaat" ],
-    "fr": [ "machine à café", "cafetière" ]
+    "fr": [ "machine à café", "cafetière" ],
+    "it": [ "macchina per il caffè", "caffettiera" ]
   }
 }

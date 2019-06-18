@@ -2,8 +2,9 @@
   "title": {
     "en": "Playing",
     "nl": "Afspelen",
-	"de": "Abspielen",
-	"fr": "Lire"
+    "de": "Abspielen",
+    "fr": "Lire",
+    "it": "In riproduzione"
   },
   "type": "boolean",
   "getable": true,
@@ -17,8 +18,9 @@
         "title": {
           "en": "Is !{{|not}} playing",
           "nl": "Is !{{|niet}} aan het afspelen",
-		  "de": "Wird !{{|nicht}} abgespielt",
-		  "fr": "!{{Est|N'est pas}} en cours de lecture"
+          "de": "Wird !{{|nicht}} abgespielt",
+          "fr": "!{{Est|N'est pas}} en cours de lecture",
+          "it": "!{{È|Non è}} in riproduzione"
         }
       }
     ],
@@ -28,8 +30,9 @@
         "title": {
           "en": "Play",
           "nl": "Speel af",
-		  "de": "Play",
-		  "fr": "Lire"
+          "de": "Play",
+          "fr": "Lire",
+          "it": "Riproduci"
         }
       },
       {
@@ -37,8 +40,9 @@
         "title": {
           "en": "Pause",
           "nl": "Pauzeer",
-		  "de": "Pause",
-		  "fr": "Pause"
+          "de": "Pause",
+          "fr": "Pause",
+          "it": "Pausa"
         }
       },
       {
@@ -46,8 +50,9 @@
         "title": {
           "en": "Toggle Play/Pause",
           "nl": "Toggle Afspelen/Pauze",
-		  "de": "Play/Pause umschalten",
-		  "fr": "Alterner Lire/Pause"
+          "de": "Play/Pause umschalten",
+          "fr": "Alterner Lire/Pause",
+          "it": "Alterna riproduzione/pausa"
         }
       }
     ]

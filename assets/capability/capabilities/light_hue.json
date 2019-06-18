@@ -3,8 +3,9 @@
   "title": {
     "en": "Hue",
     "nl": "Hue",
-	"de": "Farbton",
-	"fr": "Teinte"
+    "de": "Farbton",
+    "fr": "Teinte",
+    "it": "Tonalità"
   },
   "min": 0,
   "chartType": "stepLine",
@@ -20,8 +21,9 @@
         "title": {
           "en": "Set the hue",
           "nl": "Verander kleurtint",
-		  "de": "Den Farbton setzen",
-		  "fr": "Définir la teinte"
+          "de": "Den Farbton setzen",
+          "fr": "Définir la teinte",
+          "it": "Imposta la tonalità"
         },
         "args": [
           {
@@ -42,8 +44,9 @@
         "title": {
           "en": "Set a color",
           "nl": "Verander naar kleur",
-		  "de": "Eine Farbe setzen",
-		  "fr": "Définir la couleur"
+          "de": "Eine Farbe setzen",
+          "fr": "Définir la couleur",
+          "it": "Imposta un colore"
         },
         "args": [
           {
@@ -57,8 +60,9 @@
         "title": {
           "en": "Set a random color",
           "nl": "Verander naar een willekeurige kleur",
-		  "de": "Eine zufällige Farbe setzen",
-		  "fr": "Définir une couleur aléatoire"
+          "de": "Eine zufällige Farbe setzen",
+          "fr": "Définir une couleur aléatoire",
+          "it": "Imposta un colore casuale"
         }
       }
     ]
@@ -66,8 +70,9 @@
   "$speechExamples": {
     "en": [ "Turn all lights to blue", "Turn My Light to pink" ],
     "nl": [ "Zet alle lampen op blauw", "Zet Mijn Licht op blauw" ],
-	"de": ["Alle Lampen auf Blau schalten", "Mein Licht auf Pink schalten"],
-	"fr": ["Mettre toutes les lumières en bleu", "Mettre ma lumière en rose"]
+    "de": ["Alle Lampen auf Blau schalten", "Mein Licht auf Pink schalten"],
+    "fr": ["Mettre toutes les lumières en bleu", "Mettre ma lumière en rose"],
+    "it": [ "Imposta tutte le luci blu", "Imposta la mia luce rosa" ]
   },
   "$speech": {
     "en": {
@@ -89,14 +94,14 @@
         }
       },
       "element": {
-				"light": {
-					"type": "regex",
-					"value": "(all\\s|every\\s)?(?:the\\s)?(light(s)?|lamp(s)?)(to\\s)?"
-				},
-				"verb": {
-					"type": "regex",
-					"value": "(switch|turn|set|put|change)"
-				},
+                "light": {
+                    "type": "regex",
+                    "value": "(all\\s|every\\s)?(?:the\\s)?(light(s)?|lamp(s)?)(to\\s)?"
+                },
+                "verb": {
+                    "type": "regex",
+                    "value": "(switch|turn|set|put|change)"
+                },
         "red": {
           "type": "string",
           "value": "red"

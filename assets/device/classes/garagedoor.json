@@ -2,12 +2,14 @@
   "title": {
     "en": "Garage door",
     "nl": "Garagedeur",
-	"de": "Garagentor",
-	"fr": "Porte de garage"
+    "de": "Garagentor",
+    "fr": "Porte de garage",
+    "it": "Porta del garage"
   },
   "$speechAlternatives": {
     "en": [ "garagedoor", "garage door", "garage door" ],
     "nl": [ "garagedeur", "garage deur", "garage deuren" ],
-    "fr": [ "porte de garage" ]
+    "fr": [ "porte de garage" ],
+    "it": [ "porta del garage", "basculante" ]
   }
 }

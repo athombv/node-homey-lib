@@ -3,8 +3,9 @@
   "title": {
     "en": "Gust Strength",
     "nl": "Windstoot kracht",
-	"de": "Böenstärke",
-	"fr": "Force du vent"
+    "de": "Böenstärke",
+    "fr": "Force du vent",
+    "it": "Intensità delle raffiche"
   },
   "units": {
     "en": "km/h"
@@ -13,8 +14,9 @@
   "desc": {
     "en": "Gust Strength in Kilometer per hour (km/h)",
     "nl": "Windstoot snelheid in Kilometer per uur (km/u)",
-	"de": "Böenstärke in Kilometer pro Stunde (km/h)",
-	"fr": "Force du vent en kilomètres par heure (km/h)"
+    "de": "Böenstärke in Kilometer pro Stunde (km/h)",
+    "fr": "Force du vent en kilomètres par heure (km/h)",
+    "it": "Intensità delle raffiche in chilometri orari (km/h)"
   },
   "chartType": "stepLine",
   "decimals": 2,
@@ -28,8 +30,9 @@
         "title": {
           "en": "The gust strength changed",
           "nl": "De windstoot snelheid is veranderd",
-		  "de": "Die Böenstärke hat sich geändert",
-		  "fr": "La force du vent a changé"
+          "de": "Die Böenstärke hat sich geändert",
+          "fr": "La force du vent a changé",
+          "it": "L'intensità delle raffiche è cambiata"
         },
         "tokens": [
           {

@@ -4,7 +4,8 @@
     "en": "Power Meter",
     "nl": "Energiemeter",
     "de": "Energiezähler",
-    "fr": "Compteur électrique"
+    "fr": "Compteur électrique",
+    "it": "Misuratore di potenza"
   },
   "decimals": 2,
   "units": {
@@ -15,7 +16,8 @@
     "en": "Power usage in KiloWattHour (kWh)",
     "nl": "Stroomverbuik in KiloWattUur (kWh)",
     "de": "Energieverbrauch in Kilowattstunde (kWh)",
-    "fr": "Consommation électrique en kilo Watt heure (kWh)"
+    "fr": "Consommation électrique en kilo Watt heure (kWh)",
+    "it": "Consumo di energia in chilowattora (kWh)"
   },
   "options": {
     "isGenerator": {
@@ -24,7 +26,8 @@
       "desc": {
         "en": "This flag is used to determine whether this device uses or generates power.",
         "de": "Dieser Flag wird benutzt, um zu bestimmen, ob diese Geräte Energie verbrauchen oder produzieren.",
-        "fr": "Ce drapeau est utilisé pour déterminer si cet appareil utilise ou génère de l'énergie."
+        "fr": "Ce drapeau est utilisé pour déterminer si cet appareil utilise ou génère de l'énergie.",
+        "it": "Questa bandierina viene utilizzata per determinare se questo dispositivo utilizza o genera energia."
       }
     }
   },
@@ -39,7 +42,8 @@
         "en": "The power meter changed",
         "nl": "De stroommeter is veranderd",
         "de": "Der Gesamtverbrauch hat sich geändert",
-        "fr": "Le compteur électrique a changé"
+        "fr": "Le compteur électrique a changé",
+        "it": "Il misuratore di potenza è cambiato"
       },
       "tokens": [{
         "name": "$id",

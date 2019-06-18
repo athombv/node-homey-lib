@@ -3,8 +3,9 @@
   "title": {
     "en": "Home Alarm state",
     "nl": "Thuisalarm status",
-	"de": "Heim-Alarm-Status",
-	"fr": "Etat de l'alarme de maison"
+    "de": "Heim-Alarm-Status",
+    "fr": "Etat de l'alarme de maison",
+    "it": "Stato dell'allarme domestico"
   },
   "values": [
     {
@@ -12,8 +13,9 @@
       "title": {
         "en": "Armed",
         "nl": "Geactiveerd",
-		"de": "scharf",
-		"fr": "Armé"
+        "de": "scharf",
+        "fr": "Armé",
+        "it": "Attivato"
       }
     },
     {
@@ -21,8 +23,9 @@
       "title": {
         "en": "Disarmed",
         "nl": "Gedeactiveerd",
-		"de": "unscharf",
-		"fr": "Désarmé"
+        "de": "unscharf",
+        "fr": "Désarmé",
+        "it": "Disattivato"
       }
     },
     {
@@ -30,8 +33,9 @@
       "title": {
         "en": "Partially armed",
         "nl": "Deels geactiveerd",
-		"de": "teilweise scharf",
-		"fr": "Partiellement armé"
+        "de": "teilweise scharf",
+        "fr": "Partiellement armé",
+        "it": "Parzialmente attivato"
       }
     }
   ],
@@ -45,8 +49,9 @@
         "title": {
           "en": "The state changed",
           "nl": "De status is veranderd",
-		  "de": "Der Status hat sich geändert",
-		  "fr": "L'état a été modifié"
+          "de": "Der Status hat sich geändert",
+          "fr": "L'état a été modifié",
+          "it": "Lo stato è cambiato"
         },
         "args": [
           {
@@ -63,8 +68,9 @@
         "title": {
           "en": "The state is !{{|not}}",
           "nl": "De status is !{{|niet}}",
-		  "de": "Der Status ist !{{|nicht}}",
-		  "fr": "L'état !{{est|n'est pas}}"
+          "de": "Der Status ist !{{|nicht}}",
+          "fr": "L'état !{{est|n'est pas}}",
+          "it": "Lo stato è !{{|non}}"
         },
         "args": [
           {
@@ -81,8 +87,9 @@
         "title": {
           "en": "Set state",
           "nl": "Zet de status",
-		  "de": "Status setzen",
-		  "fr": "Définir l'état"
+          "de": "Status setzen",
+          "fr": "Définir l'état",
+          "it": "Imposta stato"
         },
         "args": [
           {

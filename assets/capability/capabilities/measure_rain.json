@@ -3,8 +3,9 @@
   "title": {
     "en": "Rain",
     "nl": "Regen",
-	"de": "Niederschlag",
-	"fr": "Pluie"
+    "de": "Niederschlag",
+    "fr": "Pluie",
+    "it": "Pioggia"
   },
   "units": {
     "en": "mm"
@@ -13,9 +14,9 @@
   "desc": {
     "en": "Rain in millimeter (mm)",
     "nl": "Regen in millimeter (mm)",
-	"de": "Niederschlag in Millimeter (mm)",
-	"fr": "Pluie en millimètres (mm)"
-	
+    "de": "Niederschlag in Millimeter (mm)",
+    "fr": "Pluie en millimètres (mm)",
+    "it": "Pioggia in millimetri (mm)"    
   },
   "chartType": "spline",
   "decimals": 2,
@@ -29,8 +30,9 @@
         "title": {
           "en": "The rain changed",
           "nl": "De regen is veranderd",
-		  "de": "Der Niederschlag hat sich geändert",
-		  "fr": "La pluie a changé"
+          "de": "Der Niederschlag hat sich geändert",
+          "fr": "La pluie a changé",
+          "it": "La pioggia è cambiata"
         },
         "tokens": [
           {

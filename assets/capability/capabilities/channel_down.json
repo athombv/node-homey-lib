@@ -2,8 +2,9 @@
   "title": {
     "en": "Channel down",
     "nl": "Kanaal omlaag",
-	"de": "Kanal runter",
-	"fr": "Chane bas"
+    "de": "Kanal runter",
+    "fr": "Chane bas",
+    "it": "Canale verso il basso"
   },
   "type": "boolean",
   "getable": false,
@@ -15,8 +16,9 @@
         "title": {
           "en": "One channel down",
           "nl": "Eén kanaal omlaag",
-		  "de": "Einen Kanal runter",
-		  "fr": "Une châine vers le bas"
+          "de": "Einen Kanal runter",
+          "fr": "Une châine vers le bas",
+          "it": "Un canale verso il basso"
         }
       }
     ]
@@ -25,8 +27,9 @@
   "$speechExamples": {
     "en": ["Switch My TV to the previous channel"],
     "nl": ["Zet Mijn TV op het vorige kanaal"],
-	"de": ["Schalte meinen TV auf den vorherigen Kanal"],
-	"fr": ["Descendre ma télé d'une chaîne"]
+    "de": ["Schalte meinen TV auf den vorherigen Kanal"],
+    "fr": ["Descendre ma télé d'une chaîne"],
+    "it": ["Passa al canale precedente in TV"]
   },
   "$speech": {
     "en": {

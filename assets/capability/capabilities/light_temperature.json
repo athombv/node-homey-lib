@@ -3,8 +3,9 @@
   "title": {
     "en": "Color Temperature",
     "nl": "Kleurtemperatuur",
-	"de": "Farbtemperatur",
-	"fr": "Température de couleur"
+    "de": "Farbtemperatur",
+    "fr": "Température de couleur",
+    "it": "Temperatura colore"
   },
   "min": 0,
   "chartType": "stepLine",
@@ -20,8 +21,9 @@
         "title": {
           "en": "Set a temperature",
           "nl": "Verander naar temperatuur",
-		  "de": "Eine Temperatur setzen",
-		  "fr": "Définir une température"
+          "de": "Eine Temperatur setzen",
+          "fr": "Définir une température",
+          "it": "Imposta una temperatura"
         },
         "args": [
           {
@@ -39,8 +41,9 @@
         "hint": {
           "en": "Adjusts the temperature of the light. A higher value means a warmer color.",
           "nl": "Verander de temperatuur van de lamp. Een hogere waarde betekent een warmere kleur.",
-		  "de": "Stelle die Temperatur der Farbe ein. Ein höherer Wert bedeutet eine wärmere Farbe.",
-		  "fr": "Ajuste la température de la lumière. Une valeur plus élévée signifie une couleur plus chaude."
+          "de": "Stelle die Temperatur der Farbe ein. Ein höherer Wert bedeutet eine wärmere Farbe.",
+          "fr": "Ajuste la température de la lumière. Une valeur plus élévée signifie une couleur plus chaude.",
+          "it": "Regola la temperatura della luce. Un valore più alto indica un colore più caldo."
         }
       }
     ]
@@ -48,8 +51,9 @@
   "$speechExamples": {
     "en": [ "Turn all lights to warm white", "Turn My Light to cool white" ],
     "nl": [ "Zet alle lampen op warm wit", "Zet Mijn Licht op koel wit" ],
-	"de": [ "Alle Lampen auf warmes Weiß schalten", "Mein Licht auf kaltes Weiß schalten"],
-	"fr": [ "Mettre toutes les lumières en blanc chaud", "Mettre ma lumière en blanc froid"]
+    "de": [ "Alle Lampen auf warmes Weiß schalten", "Mein Licht auf kaltes Weiß schalten"],
+    "fr": [ "Mettre toutes les lumières en blanc chaud", "Mettre ma lumière en blanc froid"],
+    "it": [ "Cambia tutte le luci in bianco caldo", "Cambia la mia luce in bianco freddo" ]
   },
   "$speech": {
     "en": {
@@ -68,14 +72,14 @@
         }
       },
       "element": {
-				"light": {
-					"type": "regex",
-					"value": "(all\\s|every\\s)?(?:the\\s)?(light(s)?|lamp(s)?)(to\\s)?"
-				},
-				"verb": {
-					"type": "regex",
-					"value": "(switch|turn|set|put|change)"
-				},
+                "light": {
+                    "type": "regex",
+                    "value": "(all\\s|every\\s)?(?:the\\s)?(light(s)?|lamp(s)?)(to\\s)?"
+                },
+                "verb": {
+                    "type": "regex",
+                    "value": "(switch|turn|set|put|change)"
+                },
         "cool_white": {
           "type": "string",
           "value": [ "cool white", "cold white" ]

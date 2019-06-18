@@ -2,8 +2,9 @@
   "title": {
     "en": "Window Coverings State",
     "nl": "Raambekleding Status",
-	"de": "Jalousien-Status",
-	"fr": "Etat des stores"
+    "de": "Jalousien-Status",
+    "fr": "Etat des stores",
+    "it": "Stato delle tapparelle"
   },
   "type": "enum",
   "values": [
@@ -12,17 +13,19 @@
       "title": {
         "en": "Up",
         "nl": "Omhoog",
-		"de": "Oben",
-		"fr": "Haut"
+        "de": "Oben",
+        "fr": "Haut",
+        "it": "Alzate"
       }
     },
     {
       "id": "idle",
       "title": {
         "en": "Idle",
-        "nl": "Stil"
-		"de": "Inaktiv",
-		"fr": "Inactif"
+        "nl": "Stil",
+        "de": "Inaktiv",
+        "fr": "Inactif",
+        "it": "Socchiuse"
       }
     },
     {
@@ -30,8 +33,9 @@
       "title": {
         "en": "Down",
         "nl": "Omlaag",
-		"de": "Unten",
-		"fr": "Bas"
+        "de": "Unten",
+        "fr": "Bas",
+        "it": "Abbassate"
       }
     }
   ],
@@ -45,8 +49,9 @@
         "title": {
           "en": "The state changed",
           "nl": "De status is veranderd",
-		  "de": "Der Status hat sich geändert",
-		  "fr": "L'état a été modifié"
+          "de": "Der Status hat sich geändert",
+          "fr": "L'état a été modifié",
+          "it": "Lo stato è cambiato"
         },
         "args": [
           {
@@ -63,8 +68,9 @@
         "title": {
           "en": "The state is !{{|not}}",
           "nl": "De status is !{{|niet}}",
-		  "de": "Der Status ist !{{|nicht}}",
-		  "fr": "L'état !{{est|n' est pas}}"
+          "de": "Der Status ist !{{|nicht}}",
+          "fr": "L'état !{{est|n' est pas}}",
+          "it": "Lo stato !{{è|non è}}"
         },
         "args": [
           {
@@ -81,8 +87,9 @@
         "title": {
           "en": "Set state",
           "nl": "Zet de status",
-		  "de": "Status setzen",
-		  "fr": "Définir l'état"
+          "de": "Status setzen",
+          "fr": "Définir l'état",
+          "it": "Imposta lo stato"
         },
         "args": [
           {
@@ -97,8 +104,9 @@
   "$speechExamples": {
     "en": ["Open the window coverings"],
     "nl": ["Open de raamverduistering"],
-	"de": ["Die Jalousien öffnen"],
-	"fr": ["Ouvrir les stores"]
+    "de": ["Die Jalousien öffnen"],
+    "fr": ["Ouvrir les stores"],
+    "it": ["Apri le tapparelle"]
   },
   "$speech": {
     "en": {

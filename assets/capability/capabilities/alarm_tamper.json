@@ -3,27 +3,31 @@
   "title": {
     "en": "Tamper Alarm",
     "nl": "Sabotagealarm",
-	"de": "Sabotage-Alarm",
-	"fr": "Alarme sabotage"
+    "de": "Sabotage-Alarm",
+    "fr": "Alarme sabotage",
+    "it": "Allarme manomissione"
   },
   "desc": {
     "en": "True when tampering has been detected",
     "nl": "Gaat af als sabotage gedetecteerd wordt",
-	"de": "True, wenn Sabotage erkannt wurde",
-	"fr": "Vrai si l'alarme sabotage a été détectée"
+    "de": "True, wenn Sabotage erkannt wurde",
+    "fr": "Vrai si l'alarme sabotage a été détectée",
+    "it": "Vero quando è stata rilevata una manomissione"
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Tamper alarm turned on",
     "nl": "Sabotagealarm ging af",
-	"de": "Sabotage-Alarm ist angegangen",
-	"fr": "Alarme sabotage s'est activée"
+    "de": "Sabotage-Alarm ist angegangen",
+    "fr": "Alarme sabotage s'est activée",
+    "it": "Allarme manomissione attivato"
   },
   "insightsTitleFalse": {
     "en": "Tamper alarm turned off",
     "nl": "Sabotagealarm ging uit",
-	"de": "Sabotage-Alarm ist ausgegangen",
-	"fr": "Alarme sabotage s'est désactivée"
+    "de": "Sabotage-Alarm ist ausgegangen",
+    "fr": "Alarme sabotage s'est désactivée",
+    "it": "Allarme manomissione disattivato"
   },
   "getable": true,
   "setable": false,
@@ -35,8 +39,9 @@
         "title": {
           "en": "The tamper alarm turned on",
           "nl": "Het sabotagealarm gaat aan",
-		  "de": "Der Sabotage-Alarm ist angegangen",
-		  "fr": "L'alarme sabotage s'est activée"
+          "de": "Der Sabotage-Alarm ist angegangen",
+          "fr": "L'alarme sabotage s'est activée",
+          "it": "L'allarme manomissione è stato attivato"
         }
       },
       {
@@ -44,8 +49,9 @@
         "title": {
           "en": "The tamper alarm turned off",
           "nl": "Het sabotagealarm gaat uit",
-		  "de": "Der Sabotage-Alarm ist ausgegangen",
-		  "fr": "L'alarme sabotage s'est désactivée"
+          "de": "Der Sabotage-Alarm ist ausgegangen",
+          "fr": "L'alarme sabotage s'est désactivée",
+          "it": "L'allarme manomissione è stato disattivato"
         }
       }
     ],
@@ -55,8 +61,9 @@
         "title": {
           "en": "The tamper alarm is !{{on|off}}",
           "nl": "Het sabotagealarm is !{{aan|uit}}",
-		  "de": "Der Sabotage-Alarm ist !{{an|aus}}",
-		  "fr": "L'alarme sabotage est !{{en marche|arrêtée}}"
+          "de": "Der Sabotage-Alarm ist !{{an|aus}}",
+          "fr": "L'alarme sabotage est !{{en marche|arrêtée}}",
+          "it": "L'allarme manomissione è !{{acceso|spento}}"
         }
       }
     ]

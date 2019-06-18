@@ -3,7 +3,8 @@
     "en": "Artist",
     "nl": "Artiest",
     "de": "Künstler",
-    "fr": "Artiste"
+    "fr": "Artiste",
+    "it": "Artista"
   },
   "type": "string",
   "getable": true,
@@ -17,7 +18,8 @@
           "en": "The artist changed",
           "nl": "De artiest is veranderd",
           "de": "Der Künstler hat sich verändert",
-          "fr": "L'artiste a été modifié"
+          "fr": "L'artiste a été modifié",
+          "it": "L'artista è cambiato"
         },
         "tokens": [
           {

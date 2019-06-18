@@ -2,17 +2,20 @@
   "title": {
     "en": "Light",
     "nl": "Lamp",
-	"de": "Lampe",
-	"fr": "Lampe"
+    "de": "Lampe",
+    "fr": "Lampe",
+    "it": "Lampada"
   },
   "description": {
     "en": "Use this device class for lights, usually together with the `onoff`, `dim` and `light_*` capabilities.",
-	"de": "Nutze diese Geräteklasse für Lampen - normalerweise zusammen mit den 'onoff'-, 'dim'- und 'light_*'-Fähigkeiten.",
-	"fr": "Utilisez cette classe d'appareil pou les lampes, habituellement avec les capacités `allumer/éteindre`, `estomper` et `lumière_*`."
+    "de": "Nutze diese Geräteklasse für Lampen - normalerweise zusammen mit den 'onoff'-, 'dim'- und 'light_*'-Fähigkeiten.",
+    "fr": "Utilisez cette classe d'appareil pou les lampes, habituellement avec les capacités `allumer/éteindre`, `estomper` et `lumière_*`.",
+    "it": "Utilizza questa classe di dispositivi per le lampade, generalmente insieme alle funzioni 'acceso/spento', 'regolatore luminosità' e 'luce_*'."
   },
   "$speechAlternatives": {
     "en": [ "light", "lights", "lamp" ],
     "nl": [ "licht", "lichten", "lamp", "verlichting" ],
-    "fr": [ "lumière", "lampe", "lampes" ]
+    "fr": [ "lumière", "lampe", "lampes" ],
+    "it": [ "luce", "luci", "lampada" ]
   }
 }
