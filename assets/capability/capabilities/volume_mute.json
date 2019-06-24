@@ -2,7 +2,9 @@
   "title": {
     "en": "Volume muted",
     "nl": "Gedempt volume",
-	"de": "Lautstärke stumm"
+    "de": "Lautstärke stumm",
+    "fr": "Volume sourdine",
+    "it": "Volume disattivato"
   },
   "type": "boolean",
   "getable": true,
@@ -14,7 +16,9 @@
         "title": {
           "en": "Mute the volume",
           "nl": "Demp het geluid",
-		  "de": "Lautstärke stummschalten"
+          "de": "Lautstärke stummschalten",
+          "fr": "Mettre le volume en sourdine",
+          "it": "Disattiva il volume"
         }
       },
       {
@@ -22,7 +26,9 @@
         "title": {
           "en": "Unmute the volume",
           "nl": "Demp het geluid niet meer",
-		  "de": "Lautstärke nicht mehr stummschalten"
+          "de": "Lautstärke nicht mehr stummschalten",
+          "fr": "Réactiver le son",
+          "it": "Riattiva il volume"
         }
       }
     ]
@@ -30,7 +36,9 @@
   "$speechExamples": {
     "en": ["Mute the volume of my amplifier"],
     "nl": ["Demp het volume van mijn versterker"],
-	"de": ["Die Lautstärke meines Verstärkers stummschalten"]
+    "de": ["Die Lautstärke meines Verstärkers stummschalten"],
+    "fr": ["Mettre le volume de mon amplificateur en sourdine"],
+    "it": ["Disattiva il volume del mio amplificatore"]
   },
   "$speech": {
     "en": {

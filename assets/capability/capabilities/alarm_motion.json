@@ -3,18 +3,24 @@
   "title": {
     "en": "Motion alarm",
     "nl": "Bewegingsalarm",
-	"de": "Bewegungs-Alarm"
+    "de": "Bewegungs-Alarm",
+    "fr": "Alarme mouvement",
+    "it": "Allarme di movimento"
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Motion alarm turned on",
     "nl": "Bewegingsalarm ging af",
-	"de": "Bewegungs-Alarm ist angegangen"
+    "de": "Bewegungs-Alarm ist angegangen",
+    "fr": "Alarme mouvement s'est déclenchée",
+    "it": "Allarme di movimento attivato"
   },
   "insightsTitleFalse": {
     "en": "Motion alarm turned off",
     "nl": "Bewegingsalarm ging uit",
-	"de": "Bewegungs-Alarm ist ausgegangen"
+    "de": "Bewegungs-Alarm ist ausgegangen",
+    "fr": "Alarme mouvement s'est désactivée",
+    "it": "Allarme di movimento disattivato"
   },
   "getable": true,
   "setable": false,
@@ -26,7 +32,9 @@
         "title": {
           "en": "The motion alarm turned on",
           "nl": "De bewegingsmelder gaat aan",
-		  "de": "Der Bewegungs-Alarm ist angegangen"
+          "de": "Der Bewegungs-Alarm ist angegangen",
+          "fr": "L'alarme mouvement s'est activée",
+          "it": "L'allarme di movimento è stato attivato"
         }
       },
       {
@@ -34,7 +42,9 @@
         "title": {
           "en": "The motion alarm turned off",
           "nl": "De bewegingsmelder gaat uit",
-		  "de": "Der Bewegungs-Alarm ist ausgegangen"
+          "de": "Der Bewegungs-Alarm ist ausgegangen",
+          "fr": "L'alarme mouvement s'est désactivée",
+          "it": "L'allarme di movimento è stato disattivato"
         }
       }
     ],
@@ -44,7 +54,9 @@
         "title": {
           "en": "The motion alarm is !{{on|off}}",
           "nl": "De bewegingsmelder is !{{aan|uit}}",
-		  "de": "Der Bewegungs-Alarm ist !{{an|aus}}"
+          "de": "Der Bewegungs-Alarm ist !{{an|aus}}",
+          "fr": "L'alarme mouvement est !{{en marche|arrêtée}}",
+          "it": "L'allarme di movimento è !{{acceso|spento}}"
         }
       }
     ]
