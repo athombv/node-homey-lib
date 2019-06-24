@@ -2,7 +2,9 @@
   "title": {
     "en": "Next",
     "nl": "Volgende",
-	"de": "Weiter"
+    "de": "Weiter",
+    "fr": "Suivant",
+    "it": "Successivo"
   },
   "type": "boolean",
   "getable": false,
@@ -15,7 +17,9 @@
         "title": {
           "en": "Next",
           "nl": "Volgende",
-		  "de": "Weiter"
+          "de": "Weiter",
+          "fr": "Suivant",
+          "it": "Successivo"
         }
       }
     ]

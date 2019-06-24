@@ -3,7 +3,9 @@
   "title": {
     "en": "Gas Meter",
     "nl": "Gasmeter",
-	"de": "Gaszähler"
+    "de": "Gaszähler",
+    "fr": "Compteur de gaz",
+    "it": "Contatore del gas"
   },
   "min": 0,
   "decimals": 2,
@@ -14,7 +16,9 @@
   "desc": {
     "en": "Gas usage in Cubic Meter (m³)",
     "nl": "Gas gebruik in Kubieke Meter (m³)",
-	"de": "Gasverbrauch in Kubikmeter (m³)"
+    "de": "Gasverbrauch in Kubikmeter (m³)",
+    "fr": "Consommation de gaz en mètres cubes (m³)",
+    "it": "Consumo di gas in metri cubi (m³)"
   },
   "insights": true,
   "getable": true,
@@ -27,7 +31,9 @@
         "title": {
           "en": "The gas meter changed",
           "nl": "De gasmeter is veranderd",
-		  "de": "Der Gaszähler hat sich geändert"
+          "de": "Der Gaszähler hat sich geändert",
+          "fr": "Le compteur de gaz a changé",
+          "it": "Il contatore del gas è cambiato"
         },
         "tokens": [
           {

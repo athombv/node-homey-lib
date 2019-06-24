@@ -3,23 +3,31 @@
   "title": {
     "en": "Smoke alarm",
     "nl": "Rookmelder",
-	"de": "Rauch-Alarm"
+    "de": "Rauch-Alarm",
+    "fr": "Alarme fumée",
+    "it": "Allarme fumo"
   },
   "desc": {
     "en": "True when smoke has been detected",
     "nl": "Gaat af als er rook gedetecteerd wordt",
-	"de": "True, wenn Rauch erkannt wurde"
+    "de": "True, wenn Rauch erkannt wurde",
+    "fr": "Vrai quand de la fumée a été détectée",
+    "it": "Vero quando è stato rilevato del fumo"
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Smoke alarm turned on",
     "nl": "Rookmelder ging af",
-	"de": "Rauch-Alarm ist angegangen"
+    "de": "Rauch-Alarm ist angegangen",
+    "fr": "Alarme fumée s'est activée",
+    "it": "Allarme fumo attivato"
   },
   "insightsTitleFalse": {
     "en": "Smoke alarm turned off",
     "nl": "Rookmelder ging uit",
-	"de": "Rauch-Alarm ist ausgegangen"
+    "de": "Rauch-Alarm ist ausgegangen",
+    "fr": "Alarme fumée s'est désactivée",
+    "it": "Allarme fumo disattivato"
   },
   "getable": true,
   "setable": false,
@@ -31,7 +39,9 @@
         "title": {
           "en": "The smoke alarm turned on",
           "nl": "De rookmelder gaat aan",
-		  "de": "Der Rauch-Alarm ist angegangen"
+          "de": "Der Rauch-Alarm ist angegangen",
+          "fr": "L'alarme fumée s'est activée",
+          "it": "L'allarme fumo è stato attivato"
         }
       },
       {
@@ -39,7 +49,9 @@
         "title": {
           "en": "The smoke alarm turned off",
           "nl": "De rookmelder gaat uit",
-		  "de": "Der Rauch-Alarm ist ausgegangen"
+          "de": "Der Rauch-Alarm ist ausgegangen",
+          "fr": "L'alarme fumée s'est désactivée",
+          "it": "L'allarme fumo è stato disattivato"
         }
       }
     ],
@@ -49,7 +61,9 @@
         "title": {
           "en": "The smoke alarm is !{{on|off}}",
           "nl": "De rookmelder is !{{aan|uit}}",
-		  "de": "Der Rauch-Alarm ist !{{an|aus}}"
+          "de": "Der Rauch-Alarm ist !{{an|aus}}",
+          "fr": "L'alarme fumée est !{{en marche|arrêtée}}",
+          "it": "L'allarme fumo è !{{acceso|spento}}"
         }
       }
     ]

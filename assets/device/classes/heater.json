@@ -2,10 +2,14 @@
   "title": {
     "en": "Heater",
     "nl": "Heater",
-	"de": "Heizung"
+    "de": "Heizung",
+    "fr": "Radiateur",
+    "it": "Termosifone"
   },
   "description": {
     "en": "Use this device class for heaters, that warm your home.",
-	"de": "Nutze diese Geräteklasse für Heizungen, die dein Heim wärmen."
+    "de": "Nutze diese Geräteklasse für Heizungen, die dein Heim wärmen.",
+    "fr": "Utilisez cette classe d'appareil pour les radiateurs qui chauffent votre maison.",
+    "it": "Utilizza questa classe di dispositivi per i termosifoni, che riscaldano la tua casa."
   }
 }

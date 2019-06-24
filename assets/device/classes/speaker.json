@@ -2,14 +2,20 @@
   "title": {
     "en": "Speaker",
     "nl": "Speaker",
-	"de": "Lautsprecher"
+    "de": "Lautsprecher",
+    "fr": "Haut-parleur",
+    "it": "Altoparlante"
   },
   "description": {
     "en": "Use this device class for devices that can play music, usually together with the `speaker_*` capabilities.",
-	"de": "Nutze diese Geräteklasse für Geräte, die Musik spielen können - normalerweise zusammen mit den 'speaker_*'-Fähigkeiten."
+    "de": "Nutze diese Geräteklasse für Geräte, die Musik spielen können - normalerweise zusammen mit den 'speaker_*'-Fähigkeiten.",
+    "fr": "Utilisez cette classe d'appareil pour les appareils qui peuvent jouer de la musique, généralement avec la capacité `haut-parleur_*`.",
+    "it": "Utilizza questa classe di dispositivi per i dispositivi che possono riprodurre musica, generalmente insieme alla funzione 'altoparlante_*'."
   },
   "$speechAlternatives": {
     "en": [ "speaker", "speakers" ],
-    "nl": [ "speaker", "speakers" ]
+    "nl": [ "speaker", "speakers" ],
+    "fr": [ "haut-parleur", "haut-parleurs" ],
+    "it": [ "altoparlante", "casse" ]
   }
 }

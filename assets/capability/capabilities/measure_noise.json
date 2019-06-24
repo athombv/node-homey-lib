@@ -3,7 +3,9 @@
   "title": {
     "en": "Noise",
     "nl": "Geluid",
-	"de": "Lärm"
+    "de": "Lärm",
+    "fr": "Bruit",
+    "it": "Rumore"
   },
   "units": {
     "en": "dB"
@@ -12,7 +14,9 @@
   "desc": {
     "en": "Noise in Decibel (db)",
     "nl": "Geluid in Decibel (db)",
-	"de": "Lärm in Dezibel (dB)"
+    "de": "Lärm in Dezibel (dB)",
+    "fr": "Bruit en Decibel (dB)",
+    "it": "Rumore in Decibel (db)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -26,7 +30,9 @@
         "title": {
           "en": "The noise changed",
           "nl": "Het geluidsniveau is veranderd",
-		  "de": "Der Lärm hat sich geändert"
+          "de": "Der Lärm hat sich geändert",
+          "fr": "Le bruit a changé",
+          "it": "Il rumore è cambiato"
         },
         "tokens": [
           {

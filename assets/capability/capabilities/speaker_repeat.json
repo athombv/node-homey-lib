@@ -1,32 +1,40 @@
 {
   "title": {
     "en": "Repeat",
-	"de": "Wiederholen"
+    "de": "Wiederholen",
+    "fr": "Répéter",
+    "it": "Ripeti"
   },
   "type": "enum",
   "values": [
-	{
-		"id": "none",
-		"title": {
-			"en": "Off",
-			"nl": "Uit",
-			"de": "Aus"
-		}
-	},
-	{
-		"id": "track",
-		"title": {
-			"en": "Repeat Track",
-			"de": "Titel wiederholen"
-		}
-	},
-	{
-		"id": "playlist",
-		"title": {
-			"en": "Repeat Playlist",
-			"de": "Playlist wiederholen"
-		}
-	}
+    {
+        "id": "none",
+        "title": {
+            "en": "Off",
+            "nl": "Uit",
+            "de": "Aus",
+            "fr": "Arrêt",
+            "it": "Spegni"
+        }
+    },
+    {
+        "id": "track",
+        "title": {
+            "en": "Repeat Track",
+            "de": "Titel wiederholen",
+            "fr": "Répéter le titre",
+            "it": "Ripeti traccia"
+        }
+    },
+    {
+        "id": "playlist",
+        "title": {
+            "en": "Repeat Playlist",
+            "de": "Playlist wiederholen",
+            "fr": "Répéter la playlist",
+            "it": "Ripeti playlist"
+        }
+    }
   ],
   "getable": true,
   "setable": true,
@@ -37,7 +45,9 @@
         "id": "set_repeat",
         "title": {
           "en": "Repeat",
-		  "de": "Wiederholen"
+          "de": "Wiederholen",
+          "fr": "Répéter",
+          "it": "Ripeti"
         },
         "args": [
           {
