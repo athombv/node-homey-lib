@@ -4,7 +4,7 @@
     "en": "Gust Angle",
     "nl": "Windstoot richting",
     "de": "Böenrichtung",
-    "fr": "Angle du vent",
+    "fr": "Direction d'un coup de vent",
     "it": "Angolo delle raffiche"
   },
   "units": {
@@ -15,7 +15,7 @@
     "en": "Gust Angle in Degrees (°)",
     "nl": "Windstoot richting in Graden (°)",
     "de": "Böenrichtung in Grad (°)",
-    "fr": "Angle du vent en degrés (°)",
+    "fr": "Direction du coup de vent en degrés (°)",
     "it": "Angolo delle raffiche in gradi (°)"
   },
   "chartType": "stepLine",
@@ -31,7 +31,7 @@
           "en": "The gust angle changed",
           "nl": "Windstoot richting is veranderd",
           "de": "Die Böenrichtung hat sich geändert",
-          "fr": "L'angle du vent a changé",
+          "fr": "Direction du coup de vent a changé",
           "it": "L'angolo delle raffiche è cambiato"
         },
         "tokens": [
