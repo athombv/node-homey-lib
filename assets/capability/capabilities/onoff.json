@@ -42,7 +42,7 @@
         "en": "When this capability is false, give a visual hint to greyout the device.",
         "de": "wenn diese Fähigkeit 'false' ist, gibt es einen visuellenen Hinweis, um das Gerät auszugrauen.",
         "fr": "Quand cette capacité est fausse, donnez un indice visuel pour griser cet appareil.",
-        "en": "Quando questa funzione è impostata su falso, dai un indizio visivo per far apparire questo dispositivo in grigio."
+        "it": "Quando questa funzione è impostata su falso, dai un indizio visivo per far apparire questo dispositivo in grigio."
       }
     }
   },

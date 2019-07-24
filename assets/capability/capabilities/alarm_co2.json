@@ -66,7 +66,7 @@
           "nl": "Het CO2 alarm is !{{aan|uit}}",
           "de": "Der CO2-Alarm ist !{{an|aus}}",
           "fr": "L'alarme CO2 est !{{en marche|arrêtée}}",
-          "en": "L'allarme CO2 è !{{acceso|spento}}"
+          "it": "L'allarme CO2 è !{{acceso|spento}}"
         }
       }
     ]
