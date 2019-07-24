@@ -63,7 +63,7 @@
           "nl": "Het contactalarm is !{{aan|uit}}",
           "de": "Der Kontakt-Alarm ist !{{an|aus}}",
           "fr": "L'alarme contact est !{{en marche|arrêtée}}",
-          "en": "L'allarme di contatto è !{{acceso|spento}}"
+          "it": "L'allarme di contatto è !{{acceso|spento}}"
         }
       }
     ]
