@@ -68,7 +68,7 @@
         "nl": "De status is veranderd naar...",
         "de": "Der Status hat sich geändert auf...",
         "fr": "L'état est passé à...",
-        "en": "Lo stato è cambiato in..."
+        "it": "Lo stato è cambiato in..."
       },
       "args": [{
         "name": "state",
