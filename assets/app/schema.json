@@ -752,17 +752,21 @@
             "type": "object",
             "properties": {
               "approximation": {
-                "required": ["functionType", "usageOn", "usageOff"],
+                "required": ["usageOn", "usageOff"],
                 "properties": {
-                  "functionType": {
-                    "type": "string",
-                    "enum": ["constant", "linear", "exponential"]
-                  },
                   "usageOn": {
                     "type": "number"
                   },
                   "usageOff": {
                     "type": "number"
+                  },
+                  "generator": {
+                    "type": "boolean",
+                    "enum": [ true ]
+                  },
+                  "cumulative": {
+                    "type": "boolean",
+                    "enum": [ true ]
                   }
                 }
               },
