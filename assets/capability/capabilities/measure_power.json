@@ -19,14 +19,11 @@
     "it": "Energia in Watt (W)"
   },
   "options": {
-    "isGenerator": {
+    "isApproximated": {
       "type": "boolean",
       "default": false,
       "desc": {
-        "en": "This flag is used to determine whether this device uses or generates power.",
-        "de": "Dieser Flag wird benutzt, um zu bestimmen, ob diese Ger�te Energie verbrauchen oder produzieren.",
-        "fr": "Ce drapeau est utilisé pour déterminer si cet appareil utilise ou genère de l'énergie.",
-        "it": "Questa bandierina viene utilizzata per determinare se questo dispositivo utilizza o genera energia."
+        "en": "This flag is used to determine that the device itself has no power measurement functionality, but that the driver calculates the energy use."
       }
     }
   },
