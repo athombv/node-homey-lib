@@ -774,7 +774,7 @@
                 "type": "array",
                 "items": {
                   "type": "string",
-                  "enum": ["LS14250", "AA", "AAA", "A27", "PP3", "CR123A", "CR2", "CR1632", "CR2032", "CR2450", "CR2477"]
+                  "enum": ["LS14250", "AA", "AAA", "A27", "PP3", "CR123A", "CR2", "CR1632", "CR2032", "CR2450", "CR2477", "INTERNAL"]
                 }
               }
             }
