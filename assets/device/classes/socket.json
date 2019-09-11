@@ -25,7 +25,8 @@
     "heater",
     "coffeemachine",
     "kettle",
-    "tv"
+    "tv",
+    "solarpanel"
   ],
   "$speechAlternatives": {
     "en": [ "socket", "plug" ],
