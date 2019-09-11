@@ -19,3 +19,4 @@ module.exports.getAppPermissions = module.exports.App.getPermissions;
 
 module.exports.getMediaCodecs = module.exports.Media.getCodecs;
 module.exports.getCurrencies = module.exports.Energy.getCurrencies;
+module.exports.getBatteries = module.exports.Energy.getBatteries;
