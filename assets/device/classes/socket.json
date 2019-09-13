@@ -4,23 +4,20 @@
     "nl": "Schakeldoos",
     "de": "Steckdose",
     "fr": "Prise murale",
-    "it": "Presa a muro",
-    "sv": "Väggkontakt"
+    "it": "Presa a muro"
   },
   "description": {
     "en": "Use this device class for sockets (built-in or plug-in socket switches). When adding the `choose_slave` pair template, the user is presented a `What's plugged in?` question.",
     "de": "Nutze diese Geräteklasse für Sockel (eingebaut oder zum zum Einstecken). Wenn das 'choose_slave'-Paar-Template hinzugefügt wird, wird dem Benutzer eine 'Was ist eingesteckt?'-Frage gestellt.",
     "fr": "Utilisez cette classe d'appareil pour les prises (intégrées ou prises d'interrupteurs). En ajoutant le modèle d'appairage `choisir_esclave`, il est demandé à l'utilisteur `Qu'est-ce qui est connecté ?`.",
-    "it": "Utilizza questa classe di dispositivi per le prese (prese integrate o interruttori). Aggiungendo il modello di abbinamento `scegli_secondario`, viene chiesto all'utente 'Cosa è collegato?`.",
-    "sv": "Använd den här enhetsklassen för uttag (inbyggda eller stickkontakter). När parmallen `välj_slav` får användaren en `Vad är inkopplat?`-fråga."
+    "it": "Utilizza questa classe di dispositivi per le prese (prese integrate o interruttori). Aggiungendo il modello di abbinamento `scegli_secondario`, viene chiesto all'utente 'Cosa è collegato?`."
   },
   "virtualTitle": {
     "en": "What's plugged in?",
     "nl": "Wat is er ingeplugd?",
     "de": "Was ist eingesteckt?",
     "fr": "Qu'est-ce qui est connecté ?",
-    "it": "Cosa è collegato?",
-    "sv": "Vad är inkopplat?"
+    "it": "Cosa è collegato?"
   },
   "allowedVirtual": [
     "light",
@@ -35,7 +32,6 @@
     "en": [ "socket", "plug" ],
     "nl": [ "schakelaar", "wandschakelaar", "stekkerdoos", "tussenstekker" ],
     "fr": [ "prise" ],
-    "it": [ "presa", "spina" ],
-    "sv": [ "uttag", "kontakt" ]
+    "it": [ "presa", "spina" ]
   }
 }

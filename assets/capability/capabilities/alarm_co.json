@@ -5,16 +5,14 @@
     "nl": "CO alarm",
     "de": "CO-Alarm",
     "fr": "Alarme CO",
-    "it": "Allarme CO",
-    "sv": "CO-larm"
+    "it": "Allarme CO"
   },
   "desc": {
     "en": "True when dangerous CO values have been detected",
     "nl": "Gaat af bij gevaarlijke concentraties CO",
     "de": "True, wenn gefährliche CO-Werte erkannt wurden",
     "fr": "Vrai si des valeurs de CO dangereuses ont été détectées",
-    "it": "Vero quando sono stati rilevati valori pericolosi di CO",
-    "sv": "Sant när farliga CO-värden upptäcks"
+    "it": "Vero quando sono stati rilevati valori pericolosi di CO"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -22,16 +20,14 @@
     "nl": "CO alarm ging af",
     "de": "CO-Alarm ist angegangen",
     "fr": "L'alarme CO est activée",
-    "it": "Allarme CO attivato",
-    "sv": "CO-larm aktiverat"
+    "it": "Allarme CO attivato"
   },
   "insightsTitleFalse": {
     "en": "CO alarm turned off",
     "nl": "CO alarm ging uit",
     "de": "CO-Alarm ist ausgegangen",
     "fr": "L'alarme CO est désactivée",
-    "it": "Allarme CO disattivato",
-    "sv": "CO-larm inaktiverat"
+    "it": "Allarme CO disattivato"
   },
   "getable": true,
   "setable": false,
@@ -45,8 +41,7 @@
           "nl": "Het CO alarm gaat aan",
           "de": "Der CO-Alarm ist angegangen",
           "fr": "L'alarme CO s'est activée",
-          "it": "L'allarme CO è stato attivato",
-          "sv": "CO-larmet aktiverades"
+          "it": "L'allarme CO è stato attivato"
         }
       },
       {
@@ -56,8 +51,7 @@
           "nl": "Het CO alarm gaat uit",
           "de": "Der CO-Alarm ist ausgegangen",
           "fr": "L'alarme CO s'est désactivée",
-          "it": "L'allarme CO è stato disattivato",
-          "sv": "CO-larmet inaktiverades"
+          "it": "L'allarme CO è stato disattivato"
         }
       }
     ],
@@ -69,8 +63,7 @@
           "nl": "Het CO alarm is !{{aan|uit}}",
           "de": "Der CO-Alarm ist !{{an|aus}}",
           "fr": "L'alarme CO est !{{en marche|arrêtée}}",
-          "it": "L'allarme CO è !{{acceso|spento}}",
-          "sv": "CO-larmet är !{{på|av}}"
+          "it": "L'allarme CO è !{{acceso|spento}}"
         }
       }
     ]

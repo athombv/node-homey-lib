@@ -5,8 +5,7 @@
     "nl": "Voltage",
     "de": "Spannung",
     "fr": "Voltage",
-    "it": "Voltaggio",
-    "sv": "Spänning"
+    "it": "Voltaggio"
   },
   "units": {
     "en": "V"
@@ -16,8 +15,7 @@
     "nl": "Voltage (V)",
     "de": "Spannung (V)",
     "fr": "Voltage (V)",
-    "it": "Voltaggio (V)",
-    "sv": "Spänning (V)"
+    "it": "Voltaggio (V)"
   },
   "insights": true,
   "chartType": "stepLine",
@@ -34,8 +32,7 @@
           "nl": "Het voltage is veranderd",
           "de": "Die Spannung hat sich geändert",
           "fr": "Le voltage a changé",
-          "it": "Il voltaggio è cambiato",
-          "sv": "Spänningen ändrades"
+          "it": "Il voltaggio è cambiato"
         },
         "tokens": [
           {

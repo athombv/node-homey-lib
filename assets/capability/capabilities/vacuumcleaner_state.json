@@ -4,8 +4,7 @@
     "en": "Vacuum cleaner state",
     "de": "Staubsauger-Status",
     "fr": "Etat de l'aspirateur",
-    "it": "Stato dell'aspirapolvere",
-    "sv": "Dammsugarstatus"
+    "it": "Stato dell'aspirapolvere"
   },
   "values": [{
     "id": "cleaning",
@@ -14,8 +13,7 @@
       "nl": "Stofzuigen",
       "de": "Staubsaugen",
       "fr": "Aspirer",
-      "it": "Pulizia in corso",
-      "sv": "Städning"
+      "it": "Pulizia in corso"
     }
   },
     {
@@ -25,8 +23,7 @@
         "nl": "Vlek schoonmaken",
         "de": "Spot-Reinigung",
         "fr": "Détacher",
-        "it": "Pulizia delle macchie",
-        "sv": "Områdesstädning"
+        "it": "Pulizia delle macchie"
       }
     },
     {
@@ -36,8 +33,7 @@
         "nl": "Op laadstation",
         "de": "An Ladestation",
         "fr": "Connecté à la base",
-        "it": "Connesso alla base",
-        "sv": "Dockad"
+        "it": "Connesso alla base"
       }
     },
     {
@@ -47,8 +43,7 @@
         "nl": "Aan het opladen",
         "de": "Lädt auf",
         "fr": "En charge",
-        "it": "In carica",
-        "sv": "Laddar"
+        "it": "In carica"
       }
     },
     {
@@ -58,8 +53,7 @@
         "nl": "Gestopt",
         "de": "Gestoppt",
         "fr": "Arrêté",
-        "it": "Fermo",
-        "sv": "Stoppad"
+        "it": "Fermo"
       }
     }
   ],
@@ -74,8 +68,7 @@
         "nl": "De status is veranderd naar...",
         "de": "Der Status hat sich geändert auf...",
         "fr": "L'état est passé à...",
-        "it": "Lo stato è cambiato in...",
-        "sv": "Status ändrad till..."
+        "it": "Lo stato è cambiato in..."
       },
       "args": [{
         "name": "state",
@@ -90,8 +83,7 @@
         "nl": "De stofzuiger !{{is|is niet}}...",
         "de": "Der Staubsauger !{{ist|ist nicht}}...",
         "fr": "L'aspirateur !{{est|n'est pas}}...",
-        "it": "L'aspirapolvere !{{è|non è}}...",
-        "sv": "Dammsugaren !{{är|är inte}}..."
+        "it": "L'aspirapolvere !{{è|non è}}..."
       },
       "args": [{
         "name": "state",
@@ -106,8 +98,7 @@
         "nl": "Begin met stofzuigen",
         "de": "Mit Staubsaugen anfangen",
         "fr": "Commencer le nettoyage",
-        "it": "Avvia la pulizia",
-        "sv": "Börja städa"
+        "it": "Avvia la pulizia"
       }
     },
       {
@@ -117,8 +108,7 @@
           "nl": "Begin met één plek stofzuigen",
           "de": "Mit Spot-Reinigung anfangen",
           "fr": "Commencer le détachage",
-          "it": "Avvia la pulizia delle macchie",
-          "sv": "Starta områdesstädning"
+          "it": "Avvia la pulizia delle macchie"
         }
       },
       {
@@ -128,8 +118,7 @@
           "nl": "Terug naar laadstation",
           "de": "Zu Ladestation zurückkehren",
           "fr": "Retourner à la base",
-          "it": "Ritorna alla base",
-          "sv": "Återgå till docka"
+          "it": "Ritorna alla base"
         }
       },
       {
@@ -139,8 +128,7 @@
           "nl": "Stop",
           "de": "Stop",
           "fr": "Arrêter",
-          "it": "Arresta",
-          "sv": "Stopp"
+          "it": "Arresta"
         }
       }
     ]
@@ -150,8 +138,7 @@
     "nl": ["Begin met stofzuigen"],
     "de": ["Den Staubsauger starten"],
     "fr": ["Commencer à aspirer"],
-    "it": ["Avvia l'aspirapolvere"],
-    "sv": ["Starta dammsugaren"]
+    "it": ["Avvia l'aspirapolvere"]
   },
   "$speech": {
     "en": {

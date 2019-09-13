@@ -5,8 +5,7 @@
     "nl": "Energie",
     "de": "Energie",
     "fr": "Energie",
-    "it": "Energia",
-    "sv": "Ström"
+    "it": "Energia"
   },
   "units": {
     "en": "W"
@@ -17,8 +16,7 @@
     "nl": "Vermogen in Watt (W)",
     "de": "Energie in Watt (W)",
     "fr": "Energie en Watt (W)",
-    "it": "Energia in Watt (W)",
-    "sv": "Ström i watt (W)"
+    "it": "Energia in Watt (W)"
   },
   "options": {
     "isApproximated": {
@@ -42,8 +40,7 @@
         "nl": "De energie is veranderd",
         "de": "Der Verbrauch hat sich gändert",
         "fr": "L'énergie a changé",
-        "it": "L'energia è cambiata",
-        "sv": "Strömmen ändrades"
+        "it": "L'energia è cambiata"
       },
       "tokens": [{
         "name": "$id",

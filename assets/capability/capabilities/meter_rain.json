@@ -5,8 +5,7 @@
     "nl": "Regenmeter",
     "de": "Regenzähler",
     "fr": "Compteur de pluie",
-    "it": "Misuratore di pioggia",
-    "sv": "Regnmätare"
+    "it": "Misuratore di pioggia"
   },
   "units": {
     "en": "m³"
@@ -17,8 +16,7 @@
     "nl": "Regen in Kubieke Meter (m³)",
     "de": "Regen in Kubikmeter (m³)",
     "fr": "Pluie en mètres cubes (m³)",
-    "it": "Pioggia in metri cubi (m³)",
-    "sv": "Regn i kubikmeter (m³)"
+    "it": "Pioggia in metri cubi (m³)"
   },
   "decimals": 2,
   "insights": true,
@@ -34,8 +32,7 @@
           "nl": "De regenmeter is veranderd",
           "de": "Der Regenzähler hat sich geändert",
           "fr": "Le compteur de pluie a changé",
-          "it": "Il misuratore di pioggia è cambiato",
-          "sv": "Regnmätaren ändrades"
+          "it": "Il misuratore di pioggia è cambiato"
         },
         "tokens": [
           {

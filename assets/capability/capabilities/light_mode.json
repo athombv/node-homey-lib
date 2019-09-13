@@ -5,16 +5,14 @@
     "nl": "Lamp modus",
     "de": "Lichtmodus",
     "fr": "Mode lumière",
-    "it": "Modalità luce",
-    "sv": "Lampläge"
+    "it": "Modalità luce"
   },
   "desc": {
     "en": "Switch between Color or Temperature mode",
     "nl": "Schakel tussen Kleur of Temperatuur modus",
     "de": "Zwischen Farb- und Temperaturmodus wechseln",
     "fr": "Passer entre les modes Couleur ou Température",
-    "it": "Passa tra le modalità Colore o Temperatura",
-    "sv": "Växla mellan Färg- och Temperatur-läge"
+    "it": "Passa tra le modalità Colore o Temperatura"
   },
   "values": [
     {
@@ -24,8 +22,7 @@
         "nl": "Kleur",
         "de": "Farbe",
         "fr": "Couleur",
-        "it": "Colore",
-        "sv": "Färg"
+        "it": "Colore"
       }
     },
     {
@@ -35,8 +32,7 @@
         "nl": "Temperatuur",
         "de": "Temperatur",
         "fr": "Température",
-        "it": "Temperatura",
-        "sv": "Temperatur"
+        "it": "Temperatura"
       }
     }
   ],

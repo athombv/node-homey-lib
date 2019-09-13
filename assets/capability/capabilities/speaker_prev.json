@@ -4,8 +4,7 @@
     "nl": "Vorige",
     "de": "Zurück",
     "fr": "Précédent",
-    "it": "Precedente",
-    "sv": "Föregående"
+    "it": "Precedente"
   },
   "type": "boolean",
   "getable": false,
@@ -20,8 +19,7 @@
           "nl": "Vorige",
           "de": "Zurück",
           "fr": "Précédent",
-          "it": "Precedente",
-          "sv": "Föregående"
+          "it": "Precedente"
         }
       }
     ]

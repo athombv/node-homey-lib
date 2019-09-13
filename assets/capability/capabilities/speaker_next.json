@@ -4,8 +4,7 @@
     "nl": "Volgende",
     "de": "Weiter",
     "fr": "Suivant",
-    "it": "Successivo",
-    "sv": "Nästa"
+    "it": "Successivo"
   },
   "type": "boolean",
   "getable": false,
@@ -20,8 +19,7 @@
           "nl": "Volgende",
           "de": "Weiter",
           "fr": "Suivant",
-          "it": "Successivo",
-          "sv": "Nästa"
+          "it": "Successivo"
         }
       }
     ]

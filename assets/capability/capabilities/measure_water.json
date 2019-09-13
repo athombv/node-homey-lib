@@ -5,8 +5,7 @@
     "nl": "Waterdoorstroming",
     "de": "Wasserfluss",
     "fr": "Débit d'eau",
-    "it": "Flusso d'acqua",
-    "sv": "Vattenflöde"
+    "it": "Flusso d'acqua"
   },
   "units": {
     "en": "L/min"
@@ -16,8 +15,7 @@
     "nl": "Waterdoorstroming in Liters per minuut (L/min)",
     "de": "Wasserfluss in Liter pro Minute (L/min)",
     "fr": "Débit d'eau en litres par minute (L/min)",
-    "it": "Flusso d'acqua in litri al minuto (L/min)",
-    "sv": "Vattenflöde i liter per minut (L/min)"
+    "it": "Flusso d'acqua in litri al minuto (L/min)"
   },
   "insights": true,
   "chartType": "stepLine",
@@ -34,8 +32,7 @@
           "nl": "De waterstroom veranderd",
           "de": "Der Wasserfluss hat sich geändert",
           "fr": "Le débit d'eau a changé",
-          "it": "Il flusso d'acqua è cambiato",
-          "sv": "Vattenflödet ändrades"
+          "it": "Il flusso d'acqua è cambiato"
         },
         "tokens": [
           {

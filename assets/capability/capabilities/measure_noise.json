@@ -5,8 +5,7 @@
     "nl": "Geluid",
     "de": "Lärm",
     "fr": "Bruit",
-    "it": "Rumore",
-    "sv": "Buller"
+    "it": "Rumore"
   },
   "units": {
     "en": "dB"
@@ -17,8 +16,7 @@
     "nl": "Geluid in Decibel (db)",
     "de": "Lärm in Dezibel (dB)",
     "fr": "Bruit en Decibel (dB)",
-    "it": "Rumore in Decibel (db)",
-    "sv": "Buller i decibel (db)"
+    "it": "Rumore in Decibel (db)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -34,8 +32,7 @@
           "nl": "Het geluidsniveau is veranderd",
           "de": "Der Lärm hat sich geändert",
           "fr": "Le bruit a changé",
-          "it": "Il rumore è cambiato",
-          "sv": "Bullret ändrades"
+          "it": "Il rumore è cambiato"
         },
         "tokens": [
           {

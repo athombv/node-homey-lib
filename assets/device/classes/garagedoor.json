@@ -4,14 +4,12 @@
     "nl": "Garagedeur",
     "de": "Garagentor",
     "fr": "Porte de garage",
-    "it": "Porta del garage",
-    "sv": "Garagedörr"
+    "it": "Porta del garage"
   },
   "$speechAlternatives": {
     "en": [ "garagedoor", "garage door", "garage door" ],
     "nl": [ "garagedeur", "garage deur", "garage deuren" ],
     "fr": [ "porte de garage" ],
-    "it": [ "porta del garage", "basculante" ],
-    "sv": [ "garagedörr", "garageport" ]
+    "it": [ "porta del garage", "basculante" ]
   }
 }

@@ -4,23 +4,20 @@
     "nl": "Raambekleding",
     "de": "Fenster-Abdeckungen",
     "fr": "Couverture de fenêtre",
-    "it": "Rivestimenti per finestre",
-    "sv": "Fönsterskydd"
+    "it": "Rivestimenti per finestre"
   },
   "description": {
     "en": "Use this device class for window coverings, when the `curtains`, `blinds` or `sunshade` device class doesn't apply.",
     "de": "Nutze diese Geräteklasse für Fenster-Abdeckungen, wenn 'Vorhänge'-, 'Rolladen'- oder 'Jalousien'-Geräteklassen nicht zutreffen.",
     "fr": "Utilisez cette classe d'appareil pour les couvertures de fenêtre, lorsque la classe d'appareil `rideaux`, `stores` ou `auvent` ne s'applique pas.",
-    "it": "Utilizza questa classe di dispositivi per i rivestimenti per finestre, quando non rientrano nelle classi 'tende', 'tapparelle' o 'scuretti'.",
-    "sv": "Använd den här enhetsklassen för fönsterskydd när enhetsklasserna `gardiner`, `persienner` eller `solskydd` inte gäller."
+    "it": "Utilizza questa classe di dispositivi per i rivestimenti per finestre, quando non rientrano nelle classi 'tende', 'tapparelle' o 'scuretti'."
   },
   "virtualTitle": {
     "en": "What's the type?",
     "nl": "Wat voor type is dit?",
     "de": "Welcher Typ ist das?",
     "fr": "Quel est le type ?",
-    "it": "Qual è il tipo?",
-    "sv": "Vad är det för typ?"
+    "it": "Qual è il tipo?"
   },
   "allowedVirtual": [
     "sunshade",
@@ -31,7 +28,6 @@
     "en": [ "window coverings", "windowcoverings" ],
     "nl": [ "raambekleding", "raambedekking" ],
     "fr": [ "couvertures de fenêtre" ],
-    "it": [ "rivestimenti per finestre" ],
-    "sv": [ "fönsterskydd" ]
+    "it": [ "rivestimenti per finestre" ]
   }
 }
