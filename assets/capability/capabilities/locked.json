@@ -5,14 +5,16 @@
     "nl": "Op slot",
     "de": "Verriegelt",
     "fr": "Verrouillé",
-    "it": "Chiusa"
+    "it": "Chiusa",
+    "sv": "Låst"
   },
   "desc": {
     "en": "True when the lock is locked",
     "nl": "Geeft aan wanneer iets op slot is",
     "de": "True, wenn das Schloss verriegelt ist",
     "fr": "Vrai, si le verrou est verrouillé",
-    "it": "Vero quando la serratura è chiusa"
+    "it": "Vero quando la serratura è chiusa",
+    "sv": "Sant när låset är låst"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -20,14 +22,16 @@
     "nl": "Vergrendeld",
     "de": "Verriegelt",
     "fr": "Verrouillé",
-    "it": "Chiusa"
+    "it": "Chiusa",
+    "sv": "Låst"
   },
   "insightsTitleFalse": {
     "en": "Unlocked",
     "nl": "Ontgrendeld",
     "de": "Entriegelt",
     "fr": "Déverrouillé",
-    "it": "Aperta"
+    "it": "Aperta",
+    "sv": "Olåst"
   },
   "getable": true,
   "setable": true,
@@ -40,7 +44,8 @@
           "nl": "Een slot werd vergrendeld",
           "de": "Ein Schloss wurde gerade verriegelt",
           "fr": "Un verrou vient de se verrouiller",
-          "it": "Una serratura appena chiusa"
+          "it": "Una serratura appena chiusa",
+          "sv": "Ett lås låstes precis"
         }
       },
       {
@@ -50,7 +55,8 @@
           "nl": "Een slot werd ontgrendeld",
           "de": "Ein Schloss wurde gerade entriegelt",
           "fr": "Un verrou vient de se déverrouiller",
-          "it": "Una serratura appena aperta"
+          "it": "Una serratura appena aperta",
+          "sv": "Ett lås låstes precis upp"
         }
       }
     ],
@@ -61,7 +67,8 @@
         "nl": "Een slot is !{{vergrendeld|ontgrendeld}}",
         "de": "Ein Schloss ist !{{verriegelt|entriegelt}}",
         "fr": "Un verrou est !{{verrouillé|déverrouillé}}",
-        "it": "Una serratura è !{{chiusa|aperta}}"
+        "it": "Una serratura è !{{chiusa|aperta}}",
+        "sv": "Ett lås är !{{låst|olåst}}"
       }
     }],
     "actions": [{
@@ -71,7 +78,8 @@
           "nl": "Vergrendel",
           "de": "Verriegeln",
           "fr": "Verrouiller",
-          "it": "Chiudi"
+          "it": "Chiudi",
+          "sv": "Lås"
         }
       },
       {
@@ -81,7 +89,8 @@
           "nl": "Ontgrendel",
           "de": "Entriegeln",
           "fr": "Déverrouiller",
-          "it": "Apri"
+          "it": "Apri",
+          "sv": "Lås upp"
         }
       }
     ]
@@ -91,7 +100,8 @@
     "nl": ["Heb ik Mijn Slot op slot gedaan?"],
     "de": ["Habe ich mein Schloss verriegelt?"],
     "fr": ["Ai-je verrouillé mon verrou ?"],
-    "it": ["Ho chiuso la serratura?"]
+    "it": ["Ho chiuso la serratura?"],
+    "sv": ["Låste jag mitt lås?"]
   },
   "$speech": {
     "en": {
