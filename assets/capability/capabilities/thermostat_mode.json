@@ -5,16 +5,14 @@
     "nl": "Thermostaat modus",
     "de": "Thermostat-Modus",
     "fr": "Mode thermostat",
-    "it": "Modalità termostato",
-    "sv": "Termostatläge"
+    "it": "Modalità termostato"
   },
   "desc": {
     "en": "Mode of the thermostat",
     "nl": "Modus van de thermostaat",
     "de": "Modus des Thermostates",
     "fr": "Mode du thermostat",
-    "it": "Modalità del termostato",
-    "sv": "Läge för termostaten"
+    "it": "Modalità del termostato"
   },
   "values": [
     {
@@ -24,8 +22,7 @@
         "nl": "Automatisch",
         "de": "Automatisch",
         "fr": "Automatique",
-        "it": "Automatica",
-        "sv": "Automatiskt"
+        "it": "Automatica"
       }
     },
     {
@@ -35,8 +32,7 @@
         "nl": "Verhitten",
         "de": "Heizen",
         "fr": "Chauffer",
-        "it": "Calore",
-        "sv": "Värme"
+        "it": "Calore"
       }
     },
     {
@@ -46,8 +42,7 @@
         "nl": "Koelen",
         "de": "Kühlen",
         "fr": "Refroidir",
-        "it": "Raffreddamento",
-        "sv": "Kyla"
+        "it": "Raffreddamento"
       }
     },
     {
@@ -57,8 +52,7 @@
         "nl": "Uit",
         "de": "Aus",
         "fr": "Désactivé",
-        "it": "Disattivata",
-        "sv": "Av"
+        "it": "Disattivata"
       }
     }
   ],
@@ -74,8 +68,7 @@
           "nl": "Thermostaat modus is veranderd",
           "de": "Thermostat-Modus hat sich geändert",
           "fr": "Mode thermostat a été modifié",
-          "it": "La modalità del termostato è cambiata",
-          "sv": "Termostatläge ändrades"
+          "it": "La modalità del termostato è cambiata"
         },
         "args": [
           {
@@ -94,8 +87,7 @@
           "nl": "Thermostaat modus is",
           "de": "Thermostat-Modus ist",
           "fr": "Mode thermostat est",
-          "it": "La modalità del termostato è",
-          "sv": "Termostatläge är"
+          "it": "La modalità del termostato è"
         },
         "args": [
           {
@@ -114,8 +106,7 @@
           "nl": "Stel de modus in",
           "de": "Modus setzen",
           "fr": "Définir le mode",
-          "it": "Imposta la modalità",
-          "sv": "Ställ in läget"
+          "it": "Imposta la modalità"
         },
         "args": [
           {

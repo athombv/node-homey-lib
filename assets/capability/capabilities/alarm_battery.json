@@ -5,33 +5,29 @@
     "nl": "Batterij alarm",
     "de": "Batterie-Alarm",
     "fr": "Alarme batterie",
-    "it": "Allarme batteria",
-    "sv": "Batterialarm"
+    "it": "Allarme batteria"
   },
   "desc": {
     "en": "True when there is a battery warning",
     "nl": "Geeft een batterijwaarschuwing",
     "de": "True, wenn es eine Batterie-Warnung gibt",
     "fr": "Vrai quand il y a un avertissement de batterie",
-    "it": "Vero quando c'è un avvertimento sulla batteria",
-    "sv": "Sant när det finns en batterivarning"
-    },
+    "it": "Vero quando c'è un avvertimento sulla batteria"
+  },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Battery alarm turned on",
     "nl": "Batterijalarm ging af",
     "de": "Batterie-Alarm ist angegangen",
     "fr": "Alarme batterie activée",
-    "it": "Allarme batteria attivato",
-    "sv": "Batterialarm aktiverat"
+    "it": "Allarme batteria attivato"
   },
   "insightsTitleFalse": {
     "en": "Battery alarm turned off",
     "nl": "Batterijalarm ging uit",
     "de": "Batterie-Alarm ist ausgegangen",
     "fr": "Alarme batterie désactivée",
-    "it": "Allarme batteria disattivato",
-    "sv": "Batterialarm avstängt"
+    "it": "Allarme batteria disattivato"
   },
   "getable": true,
   "setable": false,
@@ -45,8 +41,7 @@
           "nl": "De batterijwaarschuwing gaat aan",
           "de": "Der Batterie-Alarm ist angegangen",
           "fr": "L'alarme batterie s'est activée",
-          "it": "L'allarme della batteria è stato attivato",
-          "sv": "Batterialarmet aktiverat"
+          "it": "L'allarme della batteria è stato attivato"
         }
       },
       {
@@ -56,8 +51,7 @@
           "nl": "De batterijwaarschuwing gaat uit",
           "de": "Der Batterie-Alarm ist ausgegangen",
           "fr": "L'alarme batterie s'est désactivée",
-          "it": "L'allarme della batteria è stato disattivato",
-          "sv": "Batterialarmet aktiverat"
+          "it": "L'allarme della batteria è stato disattivato"
         }
       }
     ],
@@ -69,8 +63,7 @@
           "nl": "De batterijwaarschuwing is !{{aan|uit}}",
           "de": "Der Batterie-Alarm ist !{{an|aus}}",
           "fr": "L'alarme batterie est !{{en marche|arrêtée}}",
-          "it": "L'allarme della batteria è !{{acceso|spento}}",
-          "sv": "Batteralarmet är !{{på|av}}"
+          "it": "L'allarme della batteria è !{{acceso|spento}}"
         }
       }
     ]

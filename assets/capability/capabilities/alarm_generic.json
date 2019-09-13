@@ -5,16 +5,14 @@
     "nl": "Algemeen alarm",
     "de": "Allgemeiner Alarm",
     "fr": "Alarme générique",
-    "it": "Allarme generico",
-    "sv": "Generiskt larm"
+    "it": "Allarme generico"
   },
   "desc": {
     "en": "Generic alarm",
     "nl": "Algemeen alarm",
     "de": "Allgemeiner Alarm",
     "fr": "Alarme générique",
-    "it": "Allarme generico",
-    "sv": "Generiskt larm"
+    "it": "Allarme generico"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -22,16 +20,14 @@
     "nl": "Algemeen alarm ging af",
     "de": "Allgemeiner Alarm ist angegangen",
     "fr": "Alarme générique s'est activée",
-    "it": "Allarme generico attivato",
-    "sv": "Generiskt larm aktiverat"
+    "it": "Allarme generico attivato"
   },
   "insightsTitleFalse": {
     "en": "Generic alarm turned off",
     "nl": "Algemeen alarm ging uit",
     "de": "Allgemeiner Alarm ist ausgegangen",
     "fr": "Alarme générique s'est désactivée",
-    "it": "Allarme generico disattivato",
-    "sv": "Generiskt larm inaktiverat"
+    "it": "Allarme generico disattivato"
   },
   "getable": true,
   "setable": false,
@@ -45,8 +41,7 @@
           "nl": "Het algemene alarm gaat aan",
           "de": "Der allgemeine Alarm ist angegangen",
           "fr": "L'alarme générique s'est activée",
-          "it": "L'allarme generico è stato attivato",
-          "sv": "Det generiska larmet är aktiverat"
+          "it": "L'allarme generico è stato attivato"
         }
       },
       {
@@ -56,8 +51,7 @@
           "nl": "Het algemene alarm ging uit",
           "de": "Der allgemeine Alarm ist ausgegangen",
           "fr": "L'alarme générique s'est désactivée",
-          "it": "L'allarme generico è stato disattivato",
-          "sv": "Det generiska larmet är inaktiverat"
+          "it": "L'allarme generico è stato disattivato"
         }
       }
     ],
@@ -69,8 +63,7 @@
           "nl": "Het algemene alarm is !{{aan|uit}}",
           "de": "Der allgemeine Alarm ist !{{an|aus}}",
           "fr": "L'alarme générique est !{{en marche|arrêtée}}",
-          "it": "L'allarme generico è !{{acceso|spento}}",
-          "sv": "Det generiska larmet är !{{på|av}}"
+          "it": "L'allarme generico è !{{acceso|spento}}"
         }
       }
     ]

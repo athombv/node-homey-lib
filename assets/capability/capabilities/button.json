@@ -4,8 +4,7 @@
     "nl": "Knop",
     "de": "Taste",
     "fr": "Bouton",
-    "it": "Pulsante",
-    "sv": "Knapp"
+    "it": "Pulsante"
   },
   "type": "boolean",
   "getable": false,
@@ -21,8 +20,7 @@
           "nl": "Druk op de knop",
           "de": "Drücke die Taste",
           "fr": "Appuyer sur le bouton",
-          "it": "Premi il pulsante",
-          "sv": "Tryck på knappen"
+          "it": "Premi il pulsante"
         }
       }
     ]

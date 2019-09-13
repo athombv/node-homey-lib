@@ -5,16 +5,14 @@
     "nl": "Rookmelder",
     "de": "Rauch-Alarm",
     "fr": "Alarme fumée",
-    "it": "Allarme fumo",
-    "sv": "Röklarm"
+    "it": "Allarme fumo"
   },
   "desc": {
     "en": "True when smoke has been detected",
     "nl": "Gaat af als er rook gedetecteerd wordt",
     "de": "True, wenn Rauch erkannt wurde",
     "fr": "Vrai quand de la fumée a été détectée",
-    "it": "Vero quando è stato rilevato del fumo",
-    "sv": "Sant när rök upptäcks"
+    "it": "Vero quando è stato rilevato del fumo"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -22,16 +20,14 @@
     "nl": "Rookmelder ging af",
     "de": "Rauch-Alarm ist angegangen",
     "fr": "Alarme fumée s'est activée",
-    "it": "Allarme fumo attivato",
-    "sv": "Röklarm aktiverat"
+    "it": "Allarme fumo attivato"
   },
   "insightsTitleFalse": {
     "en": "Smoke alarm turned off",
     "nl": "Rookmelder ging uit",
     "de": "Rauch-Alarm ist ausgegangen",
     "fr": "Alarme fumée s'est désactivée",
-    "it": "Allarme fumo disattivato",
-    "sv": "Röklarm inaktiverat"
+    "it": "Allarme fumo disattivato"
   },
   "getable": true,
   "setable": false,
@@ -45,8 +41,7 @@
           "nl": "De rookmelder gaat aan",
           "de": "Der Rauch-Alarm ist angegangen",
           "fr": "L'alarme fumée s'est activée",
-          "it": "L'allarme fumo è stato attivato",
-          "sv": "Röklarmet aktiverat"
+          "it": "L'allarme fumo è stato attivato"
         }
       },
       {
@@ -56,8 +51,7 @@
           "nl": "De rookmelder gaat uit",
           "de": "Der Rauch-Alarm ist ausgegangen",
           "fr": "L'alarme fumée s'est désactivée",
-          "it": "L'allarme fumo è stato disattivato",
-          "sv": "Röklarmet inaktiverat"
+          "it": "L'allarme fumo è stato disattivato"
         }
       }
     ],
@@ -69,8 +63,7 @@
           "nl": "De rookmelder is !{{aan|uit}}",
           "de": "Der Rauch-Alarm ist !{{an|aus}}",
           "fr": "L'alarme fumée est !{{en marche|arrêtée}}",
-          "it": "L'allarme fumo è !{{acceso|spento}}",
-          "sv": "Röklarmet är !{{på|av}}"
+          "it": "L'allarme fumo è !{{acceso|spento}}"
         }
       }
     ]

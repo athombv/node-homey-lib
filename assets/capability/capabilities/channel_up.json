@@ -4,8 +4,7 @@
     "nl": "Kanaal omhoog",
     "de": "Kanal hoch",
     "fr": "Chaîne haut",
-    "it": "Canale verso l'alto",
-    "sv": "Kanal upp"
+    "it": "Canale verso l'alto"
   },
   "type": "boolean",
   "getable": false,
@@ -19,8 +18,7 @@
           "nl": "Eén kanaal omhoog",
           "de": "Einen Kanal hoch",
           "fr": "Une chaîne vers le haut",
-          "it": "Un canale verso l'alto",
-          "sv": "En kanal upp"
+          "it": "Un canale verso l'alto"
         }
       }
     ]
@@ -31,8 +29,7 @@
     "nl": ["Zet Mijn TV op het volgende kanaal"],
     "de": ["Schalte meinen TV zum nächsten Kanal"],
     "fr": ["Monter ma télé d'une chaîne"],
-    "it": ["Passa al canale successivo in TV"],
-    "sv": ["Byt till nästa kanal på min TV"]
+    "it": ["Passa al canale successivo in TV"]
   },
   "$speech": {
     "en": {

@@ -5,16 +5,14 @@
     "nl": "Contact alarm",
     "de": "Kontakt-Alarm",
     "fr": "Alarme contact",
-    "it": "Allarme contatto",
-    "sv": "Kontaktalarm"
+    "it": "Allarme contatto"
   },
   "desc": {
     "en": "Contact sensor, e.g. for windows (true/false)",
     "nl": "Contact sensor, bijvoorbeeld voor ramen",
     "de": "Kontaktsensor, z.B. für Windows (true/false)",
     "fr": "Capteur de contact, par ex. pour les fenêtres (vrai/faux)",
-    "it": "Sensore di contatto, ad es. per le finestre (vero/falso)",
-    "sv": "Kontaktsensor, t.ex. för fönster (sant/falskt)"
+    "it": "Sensore di contatto, ad es. per le finestre (vero/falso)"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -22,16 +20,14 @@
     "nl": "Contact alarm ging af",
     "de": "Kontakt-Alarm ist angegangen",
     "fr": "Alarme contact s'est activée",
-    "it": "Allarme di contatto attivato",
-    "sv": "Kontaktalarm aktiverat"
+    "it": "Allarme di contatto attivato"
   },
   "insightsTitleFalse": {
     "en": "Contact alarm turned off",
     "nl": "Contact alarm ging uit",
     "de": "Kontakt-Alarm ist ausgegangen",
     "fr": "Alarme contact s'est désactivée",
-    "it": "Allarme di contatto disattivato",
-    "sv": "Kontaktalarm inaktiverat"
+    "it": "Allarme di contatto disattivato"
   },
   "getable": true,
   "setable": false,
@@ -45,8 +41,7 @@
           "nl": "Het contactalarm gaat aan",
           "de": "Der Kontakt-Alarm ist angegangen",
           "fr": "L'alarme contact s'est activée",
-          "it": "L'allarme di contatto è stato attivato",
-          "sv": "Kontaktalarmet aktiverat"
+          "it": "L'allarme di contatto è stato attivato"
         }
       },
       {
@@ -56,8 +51,7 @@
           "nl": "Het contactalarm gaat uit",
           "de": "Der Kontakt-Alarm ist ausgegangen",
           "fr": "L'alarme contact s'est désactivée",
-          "it": "L'allarme di contatto è stato disattivato",
-          "sv": "Kontaktalarmet inaktiverat"
+          "it": "L'allarme di contatto è stato disattivato"
         }
       }
     ],
@@ -69,8 +63,7 @@
           "nl": "Het contactalarm is !{{aan|uit}}",
           "de": "Der Kontakt-Alarm ist !{{an|aus}}",
           "fr": "L'alarme contact est !{{en marche|arrêtée}}",
-          "it": "L'allarme di contatto è !{{acceso|spento}}",
-          "sv": "Kontaktalarmet är !{{på|av}}"
+          "it": "L'allarme di contatto è !{{acceso|spento}}"
         }
       }
     ]

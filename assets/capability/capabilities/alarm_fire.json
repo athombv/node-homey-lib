@@ -5,16 +5,14 @@
     "nl": "Brandalarm",
     "de": "Feuer-Alarm",
     "fr": "Alarme incendie",
-    "it": "Allarme antincendio",
-    "sv": "Brandlarm"
+    "it": "Allarme antincendio"
   },
   "desc": {
     "en": "True when fire has been detected",
     "nl": "Gaat af als er brand gedetecteerd wordt",
     "de": "True, wenn Feuer erkannt wurde",
     "fr": "Vrai si un incendie a été détecté",
-    "it": "Vero quando è stato rilevato un incendio",
-    "sv": "Sant när brand upptäckts"
+    "it": "Vero quando è stato rilevato un incendio"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -22,16 +20,14 @@
     "nl": "Brandalarm ging af",
     "de": "Feuer-Alarm ist angegangen",
     "fr": "Alarme incendie s'est activée",
-    "it": "Allarme antincendio attivato",
-    "sv": "Brandlarm aktiverat"
+    "it": "Allarme antincendio attivato"
   },
   "insightsTitleFalse": {
     "en": "Fire alarm turned off",
     "nl": "Brandalarm ging uit",
     "de": "Feuer-Alarm ist ausgegangen",
     "fr": "Alarme incendie s'est désactivée",
-    "it": "Allarme antincendio disattivato",
-    "sv": "Brandlarm inaktiverat"
+    "it": "Allarme antincendio disattivato"
   },
   "getable": true,
   "setable": false,
@@ -45,8 +41,7 @@
           "nl": "Het brandalarm gaat aan",
           "de": "Der Feuer-Alarm ist angegangen",
           "fr": "L'alarme incendie s'est activée",
-          "it": "L'allarme antincendio è stato attivato",
-          "sv": "Brandlarmet aktiverat"
+          "it": "L'allarme antincendio è stato attivato"
         }
       },
       {
@@ -56,8 +51,7 @@
           "nl": "Het brandalarm gaat uit",
           "de": "Der Feuer-Alarm ist ausgegangen",
           "fr": "L'alarme incendie s'est désactivée",
-          "it": "L'allarme antincendio è stato disattivato",
-          "sv": "Brandlarmet inaktiverat"
+          "it": "L'allarme antincendio è stato disattivato"
         }
       }
     ],
@@ -69,8 +63,7 @@
           "nl": "Het brandalarm is !{{aan|uit}}",
           "de": "Der Feuer-Alarm ist !{{an|aus}}",
           "fr": "L'alarme incendie est !{{en marche|arrêtée}}",
-          "it": "L'allarme antincendio è !{{acceso|spento}}",
-          "sv": "Brandlarmet är !{{på|av}}"
+          "it": "L'allarme antincendio è !{{acceso|spento}}"
         }
       }
     ]

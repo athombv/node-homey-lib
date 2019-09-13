@@ -4,8 +4,7 @@
     "nl": "Positie",
     "de": "Positiv",
     "fr": "Position",
-    "it": "Posizione",
-    "sv": "Position"
+    "it": "Posizione"
   },
   "type": "number",
   "getable": true,

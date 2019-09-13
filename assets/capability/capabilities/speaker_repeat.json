@@ -3,8 +3,7 @@
     "en": "Repeat",
     "de": "Wiederholen",
     "fr": "Répéter",
-    "it": "Ripeti",
-    "sv": "Upprepa"
+    "it": "Ripeti"
   },
   "type": "enum",
   "values": [
@@ -15,8 +14,7 @@
             "nl": "Uit",
             "de": "Aus",
             "fr": "Arrêt",
-            "it": "Spegni",
-            "sv": "Av"
+            "it": "Spegni"
         }
     },
     {
@@ -25,8 +23,7 @@
             "en": "Repeat Track",
             "de": "Titel wiederholen",
             "fr": "Répéter le titre",
-            "it": "Ripeti traccia",
-            "sv": "Upprepa spår"
+            "it": "Ripeti traccia"
         }
     },
     {
@@ -35,8 +32,7 @@
             "en": "Repeat Playlist",
             "de": "Playlist wiederholen",
             "fr": "Répéter la playlist",
-            "it": "Ripeti playlist",
-            "sv": "Upprepa spellista"
+            "it": "Ripeti playlist"
         }
     }
   ],
@@ -51,8 +47,7 @@
           "en": "Repeat",
           "de": "Wiederholen",
           "fr": "Répéter",
-          "it": "Ripeti",
-          "sv": "Upprepa"
+          "it": "Ripeti"
         },
         "args": [
           {

@@ -4,8 +4,7 @@
     "nl": "Raambekleding Status",
     "de": "Jalousien-Status",
     "fr": "Etat des stores",
-    "it": "Stato delle tapparelle",
-    "sv": "Status för fönsterskydd"
+    "it": "Stato delle tapparelle"
   },
   "type": "enum",
   "values": [
@@ -16,8 +15,7 @@
         "nl": "Omhoog",
         "de": "Oben",
         "fr": "Haut",
-        "it": "Alzate",
-        "sv": "Upp"
+        "it": "Alzate"
       }
     },
     {
@@ -27,8 +25,7 @@
         "nl": "Stil",
         "de": "Inaktiv",
         "fr": "Inactif",
-        "it": "Socchiuse",
-        "sv": "Inaktiv"
+        "it": "Socchiuse"
       }
     },
     {
@@ -38,8 +35,7 @@
         "nl": "Omlaag",
         "de": "Unten",
         "fr": "Bas",
-        "it": "Abbassate",
-        "sv": "Ned"
+        "it": "Abbassate"
       }
     }
   ],
@@ -55,8 +51,7 @@
           "nl": "De status is veranderd",
           "de": "Der Status hat sich geändert",
           "fr": "L'état a été modifié",
-          "it": "Lo stato è cambiato",
-          "sv": "Status ändrades"
+          "it": "Lo stato è cambiato"
         },
         "args": [
           {
@@ -75,8 +70,7 @@
           "nl": "De status is !{{|niet}}",
           "de": "Der Status ist !{{|nicht}}",
           "fr": "L'état !{{est|n' est pas}}",
-          "it": "Lo stato !{{è|non è}}",
-          "sv": "Status är !{{|inte}}"
+          "it": "Lo stato !{{è|non è}}"
         },
         "args": [
           {
@@ -95,8 +89,7 @@
           "nl": "Zet de status",
           "de": "Status setzen",
           "fr": "Définir l'état",
-          "it": "Imposta lo stato",
-          "sv": "Ställ in status"
+          "it": "Imposta lo stato"
         },
         "args": [
           {
@@ -113,8 +106,7 @@
     "nl": ["Open de raamverduistering"],
     "de": ["Die Jalousien öffnen"],
     "fr": ["Ouvrir les stores"],
-    "it": ["Apri le tapparelle"],
-    "sv": ["Öppna fönsterskydden"]
+    "it": ["Apri le tapparelle"]
   },
   "$speech": {
     "en": {

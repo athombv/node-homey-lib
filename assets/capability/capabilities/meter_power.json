@@ -5,8 +5,7 @@
     "nl": "Energiemeter",
     "de": "Energiezähler",
     "fr": "Compteur électrique",
-    "it": "Misuratore di potenza",
-    "sv": "Elmätare"
+    "it": "Misuratore di potenza"
   },
   "decimals": 2,
   "units": {
@@ -18,8 +17,7 @@
     "nl": "Stroomverbuik in KiloWattUur (kWh)",
     "de": "Energieverbrauch in Kilowattstunde (kWh)",
     "fr": "Consommation électrique en kilo Watt heure (kWh)",
-    "it": "Consumo di energia in chilowattora (kWh)",
-    "sv": "Elförbrukning i kilowattimmar (kWh)"
+    "it": "Consumo di energia in chilowattora (kWh)"
   },
   "options": {
     "isApproximated": {
@@ -42,8 +40,7 @@
         "nl": "De stroommeter is veranderd",
         "de": "Der Gesamtverbrauch hat sich geändert",
         "fr": "Le compteur électrique a changé",
-        "it": "Il misuratore di potenza è cambiato",
-        "sv": "Elmätaren ändrades"
+        "it": "Il misuratore di potenza è cambiato"
       },
       "tokens": [{
         "name": "$id",

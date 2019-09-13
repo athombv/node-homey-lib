@@ -5,8 +5,7 @@
     "nl": "Thuisalarm status",
     "de": "Heim-Alarm-Status",
     "fr": "Etat de l'alarme de maison",
-    "it": "Stato dell'allarme domestico",
-    "sv": "Hemlarmsstatus"
+    "it": "Stato dell'allarme domestico"
   },
   "values": [
     {
@@ -16,8 +15,7 @@
         "nl": "Geactiveerd",
         "de": "scharf",
         "fr": "Armé",
-        "it": "Attivato",
-        "sv": "Larmat"
+        "it": "Attivato"
       }
     },
     {
@@ -27,8 +25,7 @@
         "nl": "Gedeactiveerd",
         "de": "unscharf",
         "fr": "Désarmé",
-        "it": "Disattivato",
-        "sv": "Avlarmat"
+        "it": "Disattivato"
       }
     },
     {
@@ -38,8 +35,7 @@
         "nl": "Deels geactiveerd",
         "de": "teilweise scharf",
         "fr": "Partiellement armé",
-        "it": "Parzialmente attivato",
-        "sv": "Delvis larmat"
+        "it": "Parzialmente attivato"
       }
     }
   ],
@@ -55,8 +51,7 @@
           "nl": "De status is veranderd",
           "de": "Der Status hat sich geändert",
           "fr": "L'état a été modifié",
-          "it": "Lo stato è cambiato",
-          "sv": "Statusen ändrad"
+          "it": "Lo stato è cambiato"
         },
         "args": [
           {
@@ -75,8 +70,7 @@
           "nl": "De status is !{{|niet}}",
           "de": "Der Status ist !{{|nicht}}",
           "fr": "L'état !{{est|n'est pas}}",
-          "it": "Lo stato è !{{|non}}",
-          "sv": "Statusen är !{{|inte}}"
+          "it": "Lo stato è !{{|non}}"
         },
         "args": [
           {
@@ -95,8 +89,7 @@
           "nl": "Zet de status",
           "de": "Status setzen",
           "fr": "Définir l'état",
-          "it": "Imposta stato",
-          "sv": "Ställ in status"
+          "it": "Imposta stato"
         },
         "args": [
           {

@@ -5,8 +5,7 @@
     "nl": "Dim niveau",
     "de": "Dimmlevel",
     "fr": "Intensité lumineuse",
-    "it": "Intensità luminosa",
-    "sv": "Dimningsnivå"
+    "it": "Intensità luminosa"
   },
   "chartType": "stepLine",
   "min": 0,
@@ -24,8 +23,7 @@
         "nl": "Dim-niveau veranderd",
         "de": "Dimm-Niveau geändert",
         "fr": "Intensité lumineuse a été modifiée",
-        "it": "Intensità luminosa modificata",
-        "sv": "Dimningsnivå ändrades"
+        "it": "Intensità luminosa modificata"
       },
       "tokens": [{
         "name": "dim",
@@ -35,8 +33,7 @@
           "nl": "Niveau",
           "de": "Niveau",
           "fr": "Niveau",
-          "it": "Livello",
-          "sv": "Nivå"
+          "it": "Livello"
         },
         "example": 0.5
       }]
@@ -48,8 +45,7 @@
         "nl": "Dim naar",
         "de": "Dimmen auf",
         "fr": "Mettre l'intensité lumineuse sur",
-        "it": "Imposta l'intensità luminosa su",
-        "sv": "Dimma till"
+        "it": "Imposta l'intensità luminosa su"
       },
       "args": [{
         "name": "dim",
@@ -91,8 +87,7 @@
     "nl": ["Dim alle lampen naar 50%", "Zet Mijn Lamp naar volle helderheid"],
     "de": ["Alle Lichter auf 50% dimmen", "Meine Lichter auf volle Helligkeit setzen"],
     "fr": ["Estomper toutes les lumières vers 50%", "Définir ma lumière sur l'intensité maximum"],
-    "it": ["Abbassa tutte le luci al 50%", "Imposta la luce alla massima luminosità"],
-    "sv": ["Dämpa all belysning till 50 %", "Still in Min lampa till full ljusstyrka"]
+    "it": ["Abbassa tutte le luci al 50%", "Imposta la luce alla massima luminosità"]
   },
   "$speech": {
     "en": {

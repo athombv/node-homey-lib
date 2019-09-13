@@ -4,8 +4,7 @@
     "nl": "Afspelen",
     "de": "Abspielen",
     "fr": "Lire",
-    "it": "In riproduzione",
-    "sv": "Spelas"
+    "it": "In riproduzione"
   },
   "type": "boolean",
   "getable": true,
@@ -21,8 +20,7 @@
           "nl": "Is !{{|niet}} aan het afspelen",
           "de": "Wird !{{|nicht}} abgespielt",
           "fr": "!{{Est|N'est pas}} en cours de lecture",
-          "it": "!{{È|Non è}} in riproduzione",
-          "sv": "Spelas !{{|inte}}"
+          "it": "!{{È|Non è}} in riproduzione"
         }
       }
     ],
@@ -34,8 +32,7 @@
           "nl": "Speel af",
           "de": "Play",
           "fr": "Lire",
-          "it": "Riproduci",
-          "sv": "Spela"
+          "it": "Riproduci"
         }
       },
       {
@@ -45,8 +42,7 @@
           "nl": "Pauzeer",
           "de": "Pause",
           "fr": "Pause",
-          "it": "Pausa",
-          "sv": "Pausa"
+          "it": "Pausa"
         }
       },
       {
@@ -56,8 +52,7 @@
           "nl": "Toggle Afspelen/Pauze",
           "de": "Play/Pause umschalten",
           "fr": "Alterner Lire/Pause",
-          "it": "Alterna riproduzione/pausa",
-          "sv": "Växla spela/pausa"
+          "it": "Alterna riproduzione/pausa"
         }
       }
     ]

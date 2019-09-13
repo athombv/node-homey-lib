@@ -5,8 +5,7 @@
     "nl": "Gesloten",
     "de": "Geschlossen",
     "fr": "Fermé",
-    "it": "Chiuse",
-    "sv": "Stängd"
+    "it": "Chiuse"
   },
   "getable": true,
   "setable": true,
@@ -20,8 +19,7 @@
           "nl": "Gesloten",
           "de": "Geschlossen",
           "fr": "Fermé",
-          "it": "Chiuse",
-          "sv": "Stängd"
+          "it": "Chiuse"
         }
       },
       {
@@ -31,8 +29,7 @@
           "nl": "Geopend",
           "de": "Offen",
           "fr": "Ouvert",
-          "it": "Aperte",
-          "sv": "Öppen"
+          "it": "Aperte"
         }
       }
     ],
@@ -44,8 +41,7 @@
           "nl": "Zijn !{{gesloten|geopend}}",
           "de": "Sind !{{geschlossen|offen}}",
           "fr": "Sont !{{fermés|ouverts}}",
-          "it": "Sono !{{chiuse|aperte}}",
-          "sv": "Är !{{stängda|öppnade}}"
+          "it": "Sono !{{chiuse|aperte}}"
         }
       }
     ],
@@ -57,8 +53,7 @@
           "nl": "Sluiten",
           "de": "Schließen",
           "fr": "Fermer",
-          "it": "Chiudi",
-          "sv": "Stäng"
+          "it": "Chiudi"
         }
       },
       {
@@ -68,8 +63,7 @@
           "nl": "Openen",
           "de": "Öffnen",
           "fr": "Ouvrir",
-          "it": "Apri",
-          "sv": "Öppna"
+          "it": "Apri"
         }
       },
       {
@@ -79,8 +73,7 @@
           "nl": "Schakel tussen geopend en gesloten",
           "de": "Offen/Geschlossen umschalten",
           "fr": "Alterner ouvert/fermé",
-          "it": "Alterna aperte/chiuse",
-          "sv": "Växla mellan öppen eller stängd"
+          "it": "Alterna aperte/chiuse"
         }
       }
     ]
