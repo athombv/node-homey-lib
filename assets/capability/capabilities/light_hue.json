@@ -5,7 +5,8 @@
     "nl": "Hue",
     "de": "Farbton",
     "fr": "Teinte",
-    "it": "Tonalità"
+    "it": "Tonalità",
+    "sv": "Nyans"
   },
   "min": 0,
   "chartType": "stepLine",
@@ -23,7 +24,8 @@
           "nl": "Verander kleurtint",
           "de": "Den Farbton setzen",
           "fr": "Définir la teinte",
-          "it": "Imposta la tonalità"
+          "it": "Imposta la tonalità",
+          "sv": "Ställ in nyans"
         },
         "args": [
           {
@@ -46,7 +48,8 @@
           "nl": "Verander naar kleur",
           "de": "Eine Farbe setzen",
           "fr": "Définir la couleur",
-          "it": "Imposta un colore"
+          "it": "Imposta un colore",
+          "sv": "Ställ in en färg"
         },
         "args": [
           {
@@ -62,7 +65,8 @@
           "nl": "Verander naar een willekeurige kleur",
           "de": "Eine zufällige Farbe setzen",
           "fr": "Définir une couleur aléatoire",
-          "it": "Imposta un colore casuale"
+          "it": "Imposta un colore casuale",
+          "sv": "Ställ in en slumpvis färg"
         }
       }
     ]
@@ -72,7 +76,8 @@
     "nl": [ "Zet alle lampen op blauw", "Zet Mijn Licht op blauw" ],
     "de": ["Alle Lampen auf Blau schalten", "Mein Licht auf Pink schalten"],
     "fr": ["Mettre toutes les lumières en bleu", "Mettre ma lumière en rose"],
-    "it": [ "Imposta tutte le luci blu", "Imposta la mia luce rosa" ]
+    "it": [ "Imposta tutte le luci blu", "Imposta la mia luce rosa" ],
+    "sv": [ "Gör alla lampor blå", "Gör min lampa rosa" ]
   },
   "$speech": {
     "en": {

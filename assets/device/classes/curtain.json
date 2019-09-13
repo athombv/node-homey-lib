@@ -4,18 +4,21 @@
     "nl": "Gordijnen",
     "de": "Vorhänge",
     "fr": "Rideaux",
-    "it": "Tende"
+    "it": "Tende",
+    "sv": "Gardiner"
   },
   "description": {
     "en": "Use this device class for curtains.",
     "de": "Nutze diese Geräteklasse für Vorhänge.",
     "fr": "Utilisez cette classe d'appareil pour les rideaux.",
-    "it": "Utilizza questa classe di dispositivi per le tende."
+    "it": "Utilizza questa classe di dispositivi per le tende.",
+    "sv": "Använd den här enheten för gardiner."
   },
   "$speechAlternatives": {
     "en": [ "curtains", "curtain" ],
     "nl": [ "gordijnen", "gordijn" ],
     "fr": [ "rideaux", "rideau" ],
-    "it": [ "tende", "tenda" ]
+    "it": [ "tende", "tenda" ],
+    "sv": [ "gardiner", "gardin" ]
   }
 }

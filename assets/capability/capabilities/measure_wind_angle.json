@@ -5,7 +5,8 @@
     "nl": "Windrichting",
     "de": "Windrichtung",
     "fr": "Angle du vent",
-    "it": "Angolo del vento"
+    "it": "Angolo del vento",
+    "sv": "Vindvinkel"
   },
   "units": {
     "en": "°"
@@ -15,7 +16,8 @@
     "nl": "Windrichting in Graden (°)",
     "de": "Windrichtung in Grad (°)",
     "fr": "Angle du vent en degrés (°)",
-    "it": "Angolo del vento in gradi (°)"
+    "it": "Angolo del vento in gradi (°)",
+    "sv": "Vindvinkel i grader (°)"
   },
   "insights": true,
   "chartType": "spline",
@@ -32,7 +34,8 @@
           "nl": "De windrichting is veranderd",
           "de": "Die Windrichtung hat sich geändert",
           "fr": "L'angle du vent a changé",
-          "it": "L'angolo del vento è cambiato"
+          "it": "L'angolo del vento è cambiato",
+          "sv": "Vindvinkel ändrad"
         },
         "tokens": [
           {
