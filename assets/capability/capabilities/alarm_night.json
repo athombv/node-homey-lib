@@ -5,14 +5,16 @@
     "nl": "Nachtalarm",
     "de": "Nacht-Alarm",
     "fr": "Alarme nuit",
-    "it": "Allarme notturno"
+    "it": "Allarme notturno",
+    "sv": "Nattlarm"
   },
   "desc": {
     "en": "True when it is night",
     "nl": "Gaat af als het nacht is",
     "de": "True, wenn es Nacht ist",
     "fr": "Vrai quand il fait nuit",
-    "it": "Vero quando è notte"
+    "it": "Vero quando è notte",
+    "sv": "Sant när det är natt"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -20,14 +22,16 @@
     "nl": "Nachtalarm ging af",
     "de": "Nacht-Alarm ist angegangen",
     "fr": "Alarme nuit s'est activée",
-    "it": "Allarme notturno attivato"
+    "it": "Allarme notturno attivato",
+    "sv": "Nattlarm aktiverat"
   },
   "insightsTitleFalse": {
     "en": "Night alarm turned off",
     "nl": "Nachtalarm ging uit",
     "de": "Nacht-Alarm ist ausgegangen",
     "fr": "Alarme nuit s'est désactivée",
-    "it": "Allarme notturno disattivato"
+    "it": "Allarme notturno disattivato",
+    "sv": "Nattlarm inaktiverat"
   },
   "getable": true,
   "setable": false,
@@ -41,7 +45,8 @@
           "nl": "Het nachtalarm gaat aan",
           "de": "Der Nacht-Alarm ist angegangen",
           "fr": "L'alarme nuit s'est activée",
-          "it": "L'allarme notturno è stato attivato"
+          "it": "L'allarme notturno è stato attivato",
+          "sv": "Nattlarmet aktiverat"
         }
       },
       {
@@ -51,7 +56,8 @@
           "nl": "Het nachtalarm gaat uit",
           "de": "Der Nacht-Alarm ist ausgegangen",
           "fr": "L'alarme nuit s'est désactivée",
-          "it": "L'allarme notturno è stato disattivato"
+          "it": "L'allarme notturno è stato disattivato",
+          "sv": "Nattlarmet inaktiverat"
         }
       }
     ],
@@ -63,7 +69,8 @@
           "nl": "Het nachtalarm is !{{aan|uit}}",
           "de": "Der Nacht-Alarm ist !{{an|aus}}",
           "fr": "L'alarme nuit est !{{en marche|arrêtée}}",
-          "it": "L'allarme notturno è !{{acceso|spento}}"
+          "it": "L'allarme notturno è !{{acceso|spento}}",
+          "sv": "Nattlarmet är !{{på|av}}"
         }
       }
     ]
