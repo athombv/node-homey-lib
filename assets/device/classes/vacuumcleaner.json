@@ -4,18 +4,21 @@
     "nl": "Stofzuiger",
     "de": "Staubsauger",
     "fr": "Aspirateur",
-    "it": "Aspirapolvere"
+    "it": "Aspirapolvere",
+    "sv": "Dammsugare"
   },
   "description": {
     "en": "Use this device class for vacuum cleaners, usually together with the `vacuumcleaner_state` capability.",
     "de": "Nutze diese Geräteklasse für Staubsauger - normalerweise zusammen mit der 'vacuumcleaner_state'-Fähigkeit.",
     "fr": "Utilisez cette classe d'appareil pour les aspirateurs, habituellement avec la capacité `état_aspirateur`.",
-    "it": "Utilizza questa classe di dispositivi per gli aspirapolvere, generalmente insieme alla funzionalità 'stato_aspirapolvere'."
+    "it": "Utilizza questa classe di dispositivi per gli aspirapolvere, generalmente insieme alla funzionalità 'stato_aspirapolvere'.",
+    "sv": "Använd den här enhetsklassen för dammsugare, oftast tillsammans med funktionen `dammsugar_status`."
   },
   "$speechAlternatives": {
     "en": [ "vacuum cleaner", "vacuumcleaner", "vacuum cleaners", "vacuumcleaners", "vacuum" ],
     "nl": [ "stofzuiger", "stofzuigers" ],
     "fr": [ "aspirateur", "aspirateurs" ],
-    "it": [ "aspirapolvere", "aspiratore" ]
+    "it": [ "aspirapolvere", "aspiratore" ],
+    "sv": [ "dammsugare" ]
   }
 }

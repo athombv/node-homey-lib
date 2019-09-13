@@ -4,7 +4,8 @@
     "nl": "Gedempt volume",
     "de": "Lautstärke stumm",
     "fr": "Volume sourdine",
-    "it": "Volume disattivato"
+    "it": "Volume disattivato",
+    "sv": "Volym inaktiverad"
   },
   "type": "boolean",
   "getable": true,
@@ -18,7 +19,8 @@
           "nl": "Demp het geluid",
           "de": "Lautstärke stummschalten",
           "fr": "Mettre le volume en sourdine",
-          "it": "Disattiva il volume"
+          "it": "Disattiva il volume",
+          "sv": "Inaktivera volymen"
         }
       },
       {
@@ -28,7 +30,8 @@
           "nl": "Demp het geluid niet meer",
           "de": "Lautstärke nicht mehr stummschalten",
           "fr": "Réactiver le son",
-          "it": "Riattiva il volume"
+          "it": "Riattiva il volume",
+          "sv": "Aktivera volymen"
         }
       }
     ]
@@ -38,7 +41,8 @@
     "nl": ["Demp het volume van mijn versterker"],
     "de": ["Die Lautstärke meines Verstärkers stummschalten"],
     "fr": ["Mettre le volume de mon amplificateur en sourdine"],
-    "it": ["Disattiva il volume del mio amplificatore"]
+    "it": ["Disattiva il volume del mio amplificatore"],
+    "sv": ["Inaktivera volymen på min förstärkare"]
   },
   "$speech": {
     "en": {
