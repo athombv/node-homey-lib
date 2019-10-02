@@ -752,15 +752,29 @@
             "type": "object",
             "properties": {
               "approximation": {
-                "required": ["usageOn", "usageOff"],
-                "properties": {
-                  "usageOn": {
-                    "type": "number"
+                "oneOf": [
+                  {
+                    "required": ["usageOn", "usageOff"],
+                    "additionalProperties": false,
+                    "properties": {
+                      "usageOn": {
+                        "type": "number"
+                      },
+                      "usageOff": {
+                        "type": "number"
+                      }
+                    }
                   },
-                  "usageOff": {
-                    "type": "number"
+                  {
+                    "required": ["usageConstant"],
+                    "additionalProperties": false,
+                    "properties": {
+                      "usageConstant": {
+                        "type": "number"
+                      }
+                    }
                   }
-                }
+                ]
               },
               "cumulative": {
                 "type": "boolean",
