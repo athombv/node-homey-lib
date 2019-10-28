@@ -3,7 +3,8 @@
     "en": "Shuffle",
     "de": "Zufallswiedergabe",
     "fr": "Aléatoire",
-    "it": "Ordine casuale"
+    "it": "Ordine casuale",
+    "sv": "Blanda"
   },
   "type": "boolean",
   "getable": true,
@@ -18,7 +19,8 @@
           "nl": "Shuffle aan",
           "de": "Zufallswiedergabe an",
           "fr": "Aléatoire activée",
-          "it": "Ordine casuale attivato"
+          "it": "Ordine casuale attivato",
+          "sv": "Blanda på"
         }
       },
       {
@@ -28,7 +30,8 @@
           "nl": "Shuffle uit",
           "de": "Zufallswiedergabe aus",
           "fr": "Aléatoire désactivée",
-          "it": "Ordine casuale disattivato"
+          "it": "Ordine casuale disattivato",
+          "sv": "Blanda av"
         }
       }
     ]
