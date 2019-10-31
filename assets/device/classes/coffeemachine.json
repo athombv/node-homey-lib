@@ -5,14 +5,16 @@
     "de": "Kaffemaschine",
     "fr": "Machine à café",
     "it": "Macchina per il caffè",
-    "sv": "Kaffemaskin"
+    "sv": "Kaffemaskin",
+    "no": "Kaffemaskin"
   },
   "description": {
     "en": "Use this device class for coffee machines.",
     "de": "Nutze diese Geräteklasse für Kaffeemaschinen.",
     "fr": "Utilisez cette classe d'appareil pour les machines à café.",
     "it": "Utilizza questa classe di dispositivi per le macchine per il caffè.",
-    "sv": "Använd den här enhetsklassen för kaffemaskiner."
+    "sv": "Använd den här enhetsklassen för kaffemaskiner.",
+    "no": "Bruk denne enhetsklassen for kaffemaskiner."
   },
   "$speechAlternatives": {
     "en": [ "coffee machine", "coffee machines" ],

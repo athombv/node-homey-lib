@@ -6,7 +6,8 @@
     "de": "Batterie-Alarm",
     "fr": "Alarme batterie",
     "it": "Allarme batteria",
-    "sv": "Batterialarm"
+    "sv": "Batterialarm",
+    "no": "Batterialarm"
   },
   "desc": {
     "en": "True when there is a battery warning",
@@ -14,7 +15,8 @@
     "de": "True, wenn es eine Batterie-Warnung gibt",
     "fr": "Vrai quand il y a un avertissement de batterie",
     "it": "Vero quando c'è un avvertimento sulla batteria",
-    "sv": "Sant när det finns en batterivarning"
+    "sv": "Sant när det finns en batterivarning",
+    "no": "Sant når det finnes en batteriadvarsel"
     },
   "insights": true,
   "insightsTitleTrue": {
@@ -23,7 +25,8 @@
     "de": "Batterie-Alarm ist angegangen",
     "fr": "Alarme batterie activée",
     "it": "Allarme batteria attivato",
-    "sv": "Batterialarm aktiverat"
+    "sv": "Batterialarm aktiverat",
+    "no": "Batterialarm aktivert"
   },
   "insightsTitleFalse": {
     "en": "Battery alarm turned off",
@@ -31,7 +34,8 @@
     "de": "Batterie-Alarm ist ausgegangen",
     "fr": "Alarme batterie désactivée",
     "it": "Allarme batteria disattivato",
-    "sv": "Batterialarm avstängt"
+    "sv": "Batterialarm avstängt",
+    "no": "Batterialarm deaktivert"
   },
   "getable": true,
   "setable": false,
@@ -46,7 +50,8 @@
           "de": "Der Batterie-Alarm ist angegangen",
           "fr": "L'alarme batterie s'est activée",
           "it": "L'allarme della batteria è stato attivato",
-          "sv": "Batterialarmet aktiverat"
+          "sv": "Batterialarmet aktiverat",
+          "no": "Batterialarmen er aktivert"
         }
       },
       {
@@ -57,7 +62,8 @@
           "de": "Der Batterie-Alarm ist ausgegangen",
           "fr": "L'alarme batterie s'est désactivée",
           "it": "L'allarme della batteria è stato disattivato",
-          "sv": "Batterialarmet aktiverat"
+          "sv": "Batterialarmet aktiverat",
+          "no": "Batterialarmen er deaktivert"
         }
       }
     ],
@@ -70,7 +76,8 @@
           "de": "Der Batterie-Alarm ist !{{an|aus}}",
           "fr": "L'alarme batterie est !{{en marche|arrêtée}}",
           "it": "L'allarme della batteria è !{{acceso|spento}}",
-          "sv": "Batteralarmet är !{{på|av}}"
+          "sv": "Batteralarmet är !{{på|av}}",
+          "no": "Batteralarmen er !{{på|av}}"
         }
       }
     ]

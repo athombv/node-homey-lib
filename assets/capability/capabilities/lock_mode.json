@@ -6,7 +6,8 @@
     "de": "Schloss-Modus",
     "fr": "Mode verrou",
     "it": "Modalità serratura",
-    "sv": "Låsläge"
+    "sv": "Låsläge",
+    "no": "Låsemodus"
   },
   "values": [
     {
@@ -17,7 +18,8 @@
         "de": "Immer verriegelt",
         "fr": "Toujours verrouillé",
         "it": "Sempre chiusa",
-        "sv": "Alltid låst"
+        "sv": "Alltid låst",
+        "no": "Alltid låst"
       }
     },
     {
@@ -28,7 +30,8 @@
         "de": "Immer entriegelt",
         "fr": "Toujours déverrouillé",
         "it": "Sempre aperta",
-        "sv": "Alltid olåst"
+        "sv": "Alltid olåst",
+        "no": "Alltid ulåst"
       }
     },
     {
@@ -39,7 +42,8 @@
         "de": "Verriegelt, bis entriegelt wird",
         "fr": "Verrouillé jusqu'à déverrouillé",
         "it": "Chiusa finché non viene sbloccata",
-        "sv": "Låst tills upplåst"
+        "sv": "Låst tills upplåst",
+        "no": "Låst til opplåst"
       }
     }
   ],
@@ -56,7 +60,8 @@
           "de": "Schloss-Modus hat sich geändert",
           "fr": "Mode verrou a été modifié",
           "it": "La modalità di blocco è cambiata",
-          "sv": "Låsläge har ändrats"
+          "sv": "Låsläge har ändrats",
+          "no": "Låsemodusen er endret"
         },
         "args": [
           {
@@ -76,7 +81,8 @@
           "de": "Schloss-Modus ist",
           "fr": "Mode verrou est",
           "it": "La modalità di blocco è",
-          "sv": "Låsläge är"
+          "sv": "Låsläge är",
+          "no": "Låsemodus er"
         },
         "args": [
           {
@@ -96,7 +102,8 @@
           "de": "Modus setzen",
           "fr": "Définir le mode",
           "it": "Imposta la modalità",
-          "sv": "Ställ in läge"
+          "sv": "Ställ in läge",
+          "no": "Innstill modus"
         },
         "args": [
           {

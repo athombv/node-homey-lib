@@ -5,7 +5,8 @@
     "de": "Lautstärke stumm",
     "fr": "Volume sourdine",
     "it": "Volume disattivato",
-    "sv": "Volym inaktiverad"
+    "sv": "Volym inaktiverad",
+    "no": "Volym dempet"
   },
   "type": "boolean",
   "getable": true,
@@ -20,7 +21,8 @@
           "de": "Lautstärke stummschalten",
           "fr": "Mettre le volume en sourdine",
           "it": "Disattiva il volume",
-          "sv": "Inaktivera volymen"
+          "sv": "Inaktivera volymen",
+          "no": "Demp volumet"
         }
       },
       {
@@ -31,7 +33,8 @@
           "de": "Lautstärke nicht mehr stummschalten",
           "fr": "Réactiver le son",
           "it": "Riattiva il volume",
-          "sv": "Aktivera volymen"
+          "sv": "Aktivera volymen",
+          "no": "Opphev demping av volum"
         }
       }
     ]

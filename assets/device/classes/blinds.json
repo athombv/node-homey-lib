@@ -5,20 +5,23 @@
     "de": "Rolladen",
     "fr": "Stores",
     "it": "Tapparelle",
-    "sv": "Persienner"
+    "sv": "Persienner",
+    "no": "Persienner"
   },
   "description": {
     "en": "Use this device class for blinds, both horizontal and vertical.",
     "de": "Nutze diese Geräteklasse für Rolladen, sowohl horizontal als auch vertikal.",
     "fr": "Utilisez cette classe d'appareil pour les stores, horizontaux et verticaux.",
     "it": "Utilizza questa classe di dispositivi per le tapparelle, orizzontali e verticali.",
-    "sv": "Använd den här enhetsklassen för persienner, både horisontella och vertikala."
+    "sv": "Använd den här enhetsklassen för persienner, både horisontella och vertikala.",
+    "no": "Bruk denne enhetsklassen for persienner, både horisontale og vertikale."
   },
   "$speechAlternatives": {
     "en": [ "blinds" ],
     "nl": [ "lamellen", "jaloezien", "luxaflex", "rolluik", "rolluiken" ],
     "fr": [ "stores", "volets" ],
     "it": [ "tapparelle" ],
-    "sv": [ "persienner" ]
+    "sv": [ "persienner" ],
+    "no": [ "persienner" ]
   }
 }

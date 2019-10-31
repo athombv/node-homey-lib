@@ -8,7 +8,8 @@
     "de": "Ziel-Temperatur",
     "fr": "Température cible",
     "it": "Temperatura nominale",
-    "sv": "Måltemperatur"
+    "sv": "Måltemperatur",
+    "no": "Ønsket temperatur"
   },
   "units": {
     "en": "°C"
@@ -29,7 +30,8 @@
           "de": "Die Ziel-Temperatur hat sich geändert",
           "fr": "La température cible a été modifiée",
           "it": "La temperatura nominale è cambiata",
-          "sv": "Måltemperaturen ändrades"
+          "sv": "Måltemperaturen ändrades",
+          "no": "Ønsket temperatur ble endret"
         },
         "tokens": [
           {
@@ -50,7 +52,8 @@
           "de": "Die Temperatur setzen",
           "fr": "Définir la température",
           "it": "Imposta la temperatura",
-          "sv": "Ställ in temperaturen"
+          "sv": "Ställ in temperaturen",
+          "no": "Innstill temperaturen"
         },
         "args": [
           {

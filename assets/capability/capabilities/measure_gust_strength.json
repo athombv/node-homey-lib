@@ -6,7 +6,8 @@
     "de": "Böenstärke",
     "fr": "Force d'un coup de vent",
     "it": "Intensità delle raffiche",
-    "sv": "Vindstyrka"
+    "sv": "Vindstyrka",
+    "no": "Vindstyrke"
   },
   "units": {
     "en": "km/h"
@@ -18,7 +19,8 @@
     "de": "Böenstärke in Kilometer pro Stunde (km/h)",
     "fr": "Force du coup de vent en kilomètres par heure (km/h)",
     "it": "Intensità delle raffiche in chilometri orari (km/h)",
-    "sv": "Vindstyrka i kilometer per timme (km/h)"
+    "sv": "Vindstyrka i kilometer per timme (km/h)",
+    "no": "Vindstyrke i kilometer per time (km/t)"
   },
   "chartType": "stepLine",
   "decimals": 2,
@@ -35,7 +37,8 @@
           "de": "Die Böenstärke hat sich geändert",
           "fr": "La force du coup de vent a changé",
           "it": "L'intensità delle raffiche è cambiata",
-          "sv": "Vindstyrkan ändrades"
+          "sv": "Vindstyrkan ändrades",
+          "no": "Vindstyrken ble endret"
         },
         "tokens": [
           {

@@ -5,7 +5,8 @@
     "de": "Jalousien-Status",
     "fr": "Etat des stores",
     "it": "Stato delle tapparelle",
-    "sv": "Status för fönsterskydd"
+    "sv": "Status för fönsterskydd",
+    "no": "Status for vindusbeskyttelse"
   },
   "type": "enum",
   "values": [
@@ -17,7 +18,8 @@
         "de": "Oben",
         "fr": "Haut",
         "it": "Alzate",
-        "sv": "Upp"
+        "sv": "Upp",
+        "no": "Opp"
       }
     },
     {
@@ -28,7 +30,8 @@
         "de": "Inaktiv",
         "fr": "Inactif",
         "it": "Socchiuse",
-        "sv": "Inaktiv"
+        "sv": "Inaktiv",
+        "no": "Ikke aktiv"
       }
     },
     {
@@ -39,7 +42,8 @@
         "de": "Unten",
         "fr": "Bas",
         "it": "Abbassate",
-        "sv": "Ned"
+        "sv": "Ned",
+        "no": "Ned"
       }
     }
   ],
@@ -56,7 +60,8 @@
           "de": "Der Status hat sich geändert",
           "fr": "L'état a été modifié",
           "it": "Lo stato è cambiato",
-          "sv": "Status ändrades"
+          "sv": "Status ändrades",
+          "no": "Status ble endret"
         },
         "args": [
           {
@@ -76,7 +81,8 @@
           "de": "Der Status ist !{{|nicht}}",
           "fr": "L'état !{{est|n' est pas}}",
           "it": "Lo stato !{{è|non è}}",
-          "sv": "Status är !{{|inte}}"
+          "sv": "Status är !{{|inte}}",
+          "no": "Status er !{{|ikke}}"
         },
         "args": [
           {
@@ -96,7 +102,8 @@
           "de": "Status setzen",
           "fr": "Définir l'état",
           "it": "Imposta lo stato",
-          "sv": "Ställ in status"
+          "sv": "Ställ in status",
+          "no": "Innstill status"
         },
         "args": [
           {

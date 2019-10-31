@@ -4,7 +4,8 @@
     "de": "Jalousien nach unten gekippt",
     "fr": "Stores baissés",
     "it": "Tapparelle abbassate",
-    "sv": "Fönsterskydd nedfällda"
+    "sv": "Fönsterskydd nedfällda",
+    "no": "Vindusbeskyttelser lukket"
   },
   "type": "boolean",
   "getable": false,

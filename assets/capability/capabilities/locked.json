@@ -6,7 +6,8 @@
     "de": "Verriegelt",
     "fr": "Verrouillé",
     "it": "Chiusa",
-    "sv": "Låst"
+    "sv": "Låst",
+    "no": "Låst"
   },
   "desc": {
     "en": "True when the lock is locked",
@@ -14,7 +15,8 @@
     "de": "True, wenn das Schloss verriegelt ist",
     "fr": "Vrai, si le verrou est verrouillé",
     "it": "Vero quando la serratura è chiusa",
-    "sv": "Sant när låset är låst"
+    "sv": "Sant när låset är låst",
+    "no": "Sant når låsen er låst"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -23,7 +25,8 @@
     "de": "Verriegelt",
     "fr": "Verrouillé",
     "it": "Chiusa",
-    "sv": "Låst"
+    "sv": "Låst",
+    "no": "Låst"
   },
   "insightsTitleFalse": {
     "en": "Unlocked",
@@ -31,7 +34,8 @@
     "de": "Entriegelt",
     "fr": "Déverrouillé",
     "it": "Aperta",
-    "sv": "Olåst"
+    "sv": "Olåst",
+    "no": "Ulåst"
   },
   "getable": true,
   "setable": true,
@@ -45,7 +49,8 @@
           "de": "Ein Schloss wurde gerade verriegelt",
           "fr": "Un verrou vient de se verrouiller",
           "it": "Una serratura appena chiusa",
-          "sv": "Ett lås låstes precis"
+          "sv": "Ett lås låstes precis",
+          "no": "En lås ble nettopp låst"
         }
       },
       {
@@ -56,7 +61,8 @@
           "de": "Ein Schloss wurde gerade entriegelt",
           "fr": "Un verrou vient de se déverrouiller",
           "it": "Una serratura appena aperta",
-          "sv": "Ett lås låstes precis upp"
+          "sv": "Ett lås låstes precis upp",
+          "no": "En lås ble nettopp låst opp"
         }
       }
     ],
@@ -68,7 +74,8 @@
         "de": "Ein Schloss ist !{{verriegelt|entriegelt}}",
         "fr": "Un verrou est !{{verrouillé|déverrouillé}}",
         "it": "Una serratura è !{{chiusa|aperta}}",
-        "sv": "Ett lås är !{{låst|olåst}}"
+        "sv": "Ett lås är !{{låst|olåst}}",
+        "no": "En lås er !{{låst|ulåst}}"
       }
     }],
     "actions": [{
@@ -79,7 +86,8 @@
           "de": "Verriegeln",
           "fr": "Verrouiller",
           "it": "Chiudi",
-          "sv": "Lås"
+          "sv": "Lås",
+          "no": "Lås"
         }
       },
       {
@@ -90,7 +98,8 @@
           "de": "Entriegeln",
           "fr": "Déverrouiller",
           "it": "Apri",
-          "sv": "Lås upp"
+          "sv": "Lås upp",
+          "no": "Lås opp"
         }
       }
     ]

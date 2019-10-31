@@ -2,7 +2,8 @@
   "title": {
     "en": "Solar Panel",
     "nl": "Zonnepaneel",
-    "sv": "Solpanel"
+    "sv": "Solpanel",
+    "no": "Solpanel"
   },
   "description": {
     "en": "Use this device class for solar panels."

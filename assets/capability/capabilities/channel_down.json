@@ -5,7 +5,8 @@
     "de": "Kanal runter",
     "fr": "Chane bas",
     "it": "Canale verso il basso",
-    "sv": "Kanal ned"
+    "sv": "Kanal ned",
+    "no": "Lavere kanal"
   },
   "type": "boolean",
   "getable": false,
@@ -20,7 +21,8 @@
           "de": "Einen Kanal runter",
           "fr": "Une châine vers le bas",
           "it": "Un canale verso il basso",
-          "sv": "En kanal ned"
+          "sv": "En kanal ned",
+          "no": "En kanal lavere"
         }
       }
     ]

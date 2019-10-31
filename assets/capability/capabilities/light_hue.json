@@ -6,7 +6,8 @@
     "de": "Farbton",
     "fr": "Teinte",
     "it": "Tonalità",
-    "sv": "Nyans"
+    "sv": "Nyans",
+    "no": "Fargetone"
   },
   "min": 0,
   "chartType": "stepLine",
@@ -25,7 +26,8 @@
           "de": "Den Farbton setzen",
           "fr": "Définir la teinte",
           "it": "Imposta la tonalità",
-          "sv": "Ställ in nyans"
+          "sv": "Ställ in nyans",
+          "no": "Innstill fargetone"
         },
         "args": [
           {
@@ -49,7 +51,8 @@
           "de": "Eine Farbe setzen",
           "fr": "Définir la couleur",
           "it": "Imposta un colore",
-          "sv": "Ställ in en färg"
+          "sv": "Ställ in en färg",
+          "no": "Innstill fargetone"
         },
         "args": [
           {
@@ -66,7 +69,8 @@
           "de": "Eine zufällige Farbe setzen",
           "fr": "Définir une couleur aléatoire",
           "it": "Imposta un colore casuale",
-          "sv": "Ställ in en slumpvis färg"
+          "sv": "Ställ in en slumpvis färg",
+          "no": "Innstill en tilfeldig farge"
         }
       }
     ]

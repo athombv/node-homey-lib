@@ -6,7 +6,8 @@
     "de": "Feuer-Alarm",
     "fr": "Alarme incendie",
     "it": "Allarme antincendio",
-    "sv": "Brandlarm"
+    "sv": "Brandlarm",
+    "no": "Brannalarm"
   },
   "desc": {
     "en": "True when fire has been detected",
@@ -14,7 +15,8 @@
     "de": "True, wenn Feuer erkannt wurde",
     "fr": "Vrai si un incendie a été détecté",
     "it": "Vero quando è stato rilevato un incendio",
-    "sv": "Sant när brand upptäckts"
+    "sv": "Sant när brand upptäckts",
+    "no": "Sant når brann påvises"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -23,7 +25,8 @@
     "de": "Feuer-Alarm ist angegangen",
     "fr": "Alarme incendie s'est activée",
     "it": "Allarme antincendio attivato",
-    "sv": "Brandlarm aktiverat"
+    "sv": "Brandlarm aktiverat",
+    "no": "Brannlarm aktivert"
   },
   "insightsTitleFalse": {
     "en": "Fire alarm turned off",
@@ -31,7 +34,8 @@
     "de": "Feuer-Alarm ist ausgegangen",
     "fr": "Alarme incendie s'est désactivée",
     "it": "Allarme antincendio disattivato",
-    "sv": "Brandlarm inaktiverat"
+    "sv": "Brandlarm inaktiverat",
+    "no": "Brannlarm deaktivert"
   },
   "getable": true,
   "setable": false,
@@ -46,7 +50,8 @@
           "de": "Der Feuer-Alarm ist angegangen",
           "fr": "L'alarme incendie s'est activée",
           "it": "L'allarme antincendio è stato attivato",
-          "sv": "Brandlarmet aktiverat"
+          "sv": "Brandlarmet aktiverat",
+          "no": "Brannalarmen aktivert"
         }
       },
       {
@@ -57,7 +62,8 @@
           "de": "Der Feuer-Alarm ist ausgegangen",
           "fr": "L'alarme incendie s'est désactivée",
           "it": "L'allarme antincendio è stato disattivato",
-          "sv": "Brandlarmet inaktiverat"
+          "sv": "Brandlarmet inaktiverat",
+          "no": "Brannalarmen deaktivert"
         }
       }
     ],
@@ -70,7 +76,8 @@
           "de": "Der Feuer-Alarm ist !{{an|aus}}",
           "fr": "L'alarme incendie est !{{en marche|arrêtée}}",
           "it": "L'allarme antincendio è !{{acceso|spento}}",
-          "sv": "Brandlarmet är !{{på|av}}"
+          "sv": "Brandlarmet är !{{på|av}}",
+          "no": "Brannalarmen er !{{på|av}}"
         }
       }
     ]

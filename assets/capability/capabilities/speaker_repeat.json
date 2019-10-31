@@ -4,7 +4,8 @@
     "de": "Wiederholen",
     "fr": "Répéter",
     "it": "Ripeti",
-    "sv": "Upprepa"
+    "sv": "Upprepa",
+    "no": "Gjenta"
   },
   "type": "enum",
   "values": [
@@ -16,7 +17,8 @@
             "de": "Aus",
             "fr": "Arrêt",
             "it": "Spegni",
-            "sv": "Av"
+            "sv": "Av",
+            "no": "Av"
         }
     },
     {
@@ -26,7 +28,8 @@
             "de": "Titel wiederholen",
             "fr": "Répéter le titre",
             "it": "Ripeti traccia",
-            "sv": "Upprepa spår"
+            "sv": "Upprepa spår",
+            "no": "Gjenta spor"
         }
     },
     {
@@ -36,7 +39,8 @@
             "de": "Playlist wiederholen",
             "fr": "Répéter la playlist",
             "it": "Ripeti playlist",
-            "sv": "Upprepa spellista"
+            "sv": "Upprepa spellista",
+            "no": "Gjenta spilleliste"
         }
     }
   ],
@@ -52,7 +56,8 @@
           "de": "Wiederholen",
           "fr": "Répéter",
           "it": "Ripeti",
-          "sv": "Upprepa"
+          "sv": "Upprepa",
+          "no": "Gjenta"
         },
         "args": [
           {

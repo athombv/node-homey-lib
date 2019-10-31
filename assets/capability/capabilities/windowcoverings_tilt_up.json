@@ -4,7 +4,8 @@
     "de": "Jalousien nach oben gekippt",
     "fr": "Stores levés",
     "it": "Tapparelle alzate",
-    "sv": "Fönsterskydd öppna"
+    "sv": "Fönsterskydd öppna",
+    "no": "Vindusbeskyttelser åpne"
   },
   "type": "boolean",
   "getable": false,

@@ -5,7 +5,8 @@
     "de": "Abspielen",
     "fr": "Lire",
     "it": "In riproduzione",
-    "sv": "Spelas"
+    "sv": "Spelas",
+    "no": "Avspilles"
   },
   "type": "boolean",
   "getable": true,
@@ -22,7 +23,8 @@
           "de": "Wird !{{|nicht}} abgespielt",
           "fr": "!{{Est|N'est pas}} en cours de lecture",
           "it": "!{{È|Non è}} in riproduzione",
-          "sv": "Spelas !{{|inte}}"
+          "sv": "Spelas !{{|inte}}",
+          "no": "Avspilles !{{|ikke}}"
         }
       }
     ],
@@ -35,7 +37,8 @@
           "de": "Play",
           "fr": "Lire",
           "it": "Riproduci",
-          "sv": "Spela"
+          "sv": "Spela",
+          "no": "Spill av"
         }
       },
       {
@@ -46,7 +49,8 @@
           "de": "Pause",
           "fr": "Pause",
           "it": "Pausa",
-          "sv": "Pausa"
+          "sv": "Pausa",
+          "no": "Pause"
         }
       },
       {
@@ -57,7 +61,8 @@
           "de": "Play/Pause umschalten",
           "fr": "Alterner Lire/Pause",
           "it": "Alterna riproduzione/pausa",
-          "sv": "Växla spela/pausa"
+          "sv": "Växla spela/pausa",
+          "no": "Veksle mellom avspilling/pause"
         }
       }
     ]
