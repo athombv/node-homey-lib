@@ -4,7 +4,9 @@
     "nl": "Track",
     "de": "Track",
     "fr": "Titre",
-    "it": "Traccia"
+    "it": "Traccia",
+    "sv": "Spår",
+    "no": "Spor"
   },
   "type": "string",
   "getable": true,
@@ -19,7 +21,9 @@
           "nl": "De track is veranderd",
           "de": "Der Track hat sich geändert",
           "fr": "Le titre a été modifié",
-          "it": "La traccia è cambiata"
+          "it": "La traccia è cambiata",
+          "sv": "Spåret ändrades",
+          "no": "Sporet ble endret"
         },
         "tokens": [
           {

@@ -5,7 +5,9 @@
     "nl": "Druk",
     "de": "Druck",
     "fr": "Pression",
-    "it": "Pressione"
+    "it": "Pressione",
+    "sv": "Tryck",
+    "no": "Trykk"
   },
   "units": {
     "en": "mbar"
@@ -16,7 +18,9 @@
     "nl": "Druk in millibar (mbar)",
     "de": "Druck in Millibar (mbar)",
     "fr": "Pression en millibar (mbar)",
-    "it": "Pressione in millibar (mbar)"
+    "it": "Pressione in millibar (mbar)",
+    "sv": "Tryck i millibar (mbar)",
+    "no": "Trykk i millibar (mbar)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -32,7 +36,9 @@
           "nl": "De druk is veranderd",
           "de": "Der Druck hat sich geändert",
           "fr": "La pression a changé",
-          "it": "La pressione è cambiata"
+          "it": "La pressione è cambiata",
+          "sv": "Trycket ändrades",
+          "no": "Trykket ble endret"
         },
         "tokens": [
           {

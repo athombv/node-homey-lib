@@ -3,7 +3,9 @@
     "en": "Window Coverings Tilt Up",
     "de": "Jalousien nach oben gekippt",
     "fr": "Stores levés",
-    "it": "Tapparelle alzate"
+    "it": "Tapparelle alzate",
+    "sv": "Fönsterskydd öppna",
+    "no": "Vindusbeskyttelser åpne"
   },
   "type": "boolean",
   "getable": false,

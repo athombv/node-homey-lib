@@ -3,7 +3,9 @@
     "en": "Set volume",
     "de": "Lautstärke setzen",
     "fr": "Définir le volume",
-    "it": "Imposta il volume"
+    "it": "Imposta il volume",
+    "sv": "Ställ in volym",
+    "no": "Innstill volum"
   },
   "type": "number",
   "desc": {
@@ -11,7 +13,9 @@
     "nl": "Volume",
     "de": "Lautstärke",
     "fr": "Volume",
-    "it": "Volume"
+    "it": "Volume",
+    "sv": "Volym",
+    "no": "Volum"
   },
   "chartType": "stepLine",
   "min": 0,
@@ -28,7 +32,9 @@
         "nl": "Volume veranderd",
         "de": "Lautstärke hat sich geändert",
         "fr": "Volume a été modifié",
-        "it": "Volume modificato"
+        "it": "Volume modificato",
+        "sv": "Volymen ändrades",
+        "no": "Volumet ble endret"
       },
       "tokens": [{
         "name": "volume_set",
@@ -38,7 +44,9 @@
           "nl": "Volume",
           "de": "Lautstärke",
           "fr": "Volume",
-          "it": "Volume"
+          "it": "Volume",
+          "sv": "Volym",
+          "no": "Volum"
         },
         "example": 0.5
       }]
@@ -50,7 +58,9 @@
         "nl": "Zet volume naar",
         "de": "Lautstärke setzen auf",
         "fr": "Mettre le volume sur",
-        "it": "Imposta il volume al"
+        "it": "Imposta il volume al",
+        "sv": "Ställ in volymen på",
+        "no": "Sett volumet til"
       },
       "args": [{
         "name": "volume_set",
@@ -70,7 +80,9 @@
     "nl": ["Zet het volume van mijn speaker op 50%"],
     "de": ["Drehe die Lautstärke meines Lautsprechers auf 50%"],
     "fr": ["Mettre le volume de mon haut-parleur sur 50%"],
-    "it": ["Imposta il volume dei miei altoparlanti al 50%"]
+    "it": ["Imposta il volume dei miei altoparlanti al 50%"],
+    "sv": ["Ställ in volymen på min högtalare till 50 %"],
+    "no": ["Sett høyttalervolumet til 50 %"]
   },
   "$speech": {
     "en": {

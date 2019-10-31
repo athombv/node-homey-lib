@@ -5,7 +5,9 @@
     "nl": "Windstoot richting",
     "de": "Böenrichtung",
     "fr": "Direction d'un coup de vent",
-    "it": "Angolo delle raffiche"
+    "it": "Angolo delle raffiche",
+    "sv": "Vindriktning",
+    "no": "Vindretning"
   },
   "units": {
     "en": "°"
@@ -16,7 +18,9 @@
     "nl": "Windstoot richting in Graden (°)",
     "de": "Böenrichtung in Grad (°)",
     "fr": "Direction du coup de vent en degrés (°)",
-    "it": "Angolo delle raffiche in gradi (°)"
+    "it": "Angolo delle raffiche in gradi (°)",
+    "sv": "Vindriktning i grader (°)",
+    "no": "Vindretning i grader (°)"
   },
   "chartType": "stepLine",
   "decimals": 2,
@@ -32,7 +36,9 @@
           "nl": "Windstoot richting is veranderd",
           "de": "Die Böenrichtung hat sich geändert",
           "fr": "Direction du coup de vent a changé",
-          "it": "L'angolo delle raffiche è cambiato"
+          "it": "L'angolo delle raffiche è cambiato",
+          "sv": "Vindriktningen har ändrats",
+          "no": "Vindretningen er endret"
         },
         "tokens": [
           {

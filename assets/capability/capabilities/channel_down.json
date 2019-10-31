@@ -4,7 +4,9 @@
     "nl": "Kanaal omlaag",
     "de": "Kanal runter",
     "fr": "Chane bas",
-    "it": "Canale verso il basso"
+    "it": "Canale verso il basso",
+    "sv": "Kanal ned",
+    "no": "Lavere kanal"
   },
   "type": "boolean",
   "getable": false,
@@ -18,7 +20,9 @@
           "nl": "Eén kanaal omlaag",
           "de": "Einen Kanal runter",
           "fr": "Une châine vers le bas",
-          "it": "Un canale verso il basso"
+          "it": "Un canale verso il basso",
+          "sv": "En kanal ned",
+          "no": "En kanal lavere"
         }
       }
     ]
@@ -29,7 +33,8 @@
     "nl": ["Zet Mijn TV op het vorige kanaal"],
     "de": ["Schalte meinen TV auf den vorherigen Kanal"],
     "fr": ["Descendre ma télé d'une chaîne"],
-    "it": ["Passa al canale precedente in TV"]
+    "it": ["Passa al canale precedente in TV"],
+    "sv": ["Byt till föregående kanal på min TV"]
   },
   "$speech": {
     "en": {

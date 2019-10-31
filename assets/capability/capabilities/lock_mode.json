@@ -5,7 +5,9 @@
     "nl": "Slot modus",
     "de": "Schloss-Modus",
     "fr": "Mode verrou",
-    "it": "Modalità serratura"
+    "it": "Modalità serratura",
+    "sv": "Låsläge",
+    "no": "Låsemodus"
   },
   "values": [
     {
@@ -15,7 +17,9 @@
         "nl": "Altijd op slot",
         "de": "Immer verriegelt",
         "fr": "Toujours verrouillé",
-        "it": "Sempre chiusa"
+        "it": "Sempre chiusa",
+        "sv": "Alltid låst",
+        "no": "Alltid låst"
       }
     },
     {
@@ -25,7 +29,9 @@
         "nl": "Altijd open",
         "de": "Immer entriegelt",
         "fr": "Toujours déverrouillé",
-        "it": "Sempre aperta"
+        "it": "Sempre aperta",
+        "sv": "Alltid olåst",
+        "no": "Alltid ulåst"
       }
     },
     {
@@ -35,7 +41,9 @@
         "nl": "Op slot tot geopend",
         "de": "Verriegelt, bis entriegelt wird",
         "fr": "Verrouillé jusqu'à déverrouillé",
-        "it": "Chiusa finché non viene sbloccata"
+        "it": "Chiusa finché non viene sbloccata",
+        "sv": "Låst tills upplåst",
+        "no": "Låst til opplåst"
       }
     }
   ],
@@ -51,7 +59,9 @@
           "nl": "Slot modus is veranderd",
           "de": "Schloss-Modus hat sich geändert",
           "fr": "Mode verrou a été modifié",
-          "it": "La modalità di blocco è cambiata"
+          "it": "La modalità di blocco è cambiata",
+          "sv": "Låsläge har ändrats",
+          "no": "Låsemodusen er endret"
         },
         "args": [
           {
@@ -70,7 +80,9 @@
           "nl": "Slot modus is",
           "de": "Schloss-Modus ist",
           "fr": "Mode verrou est",
-          "it": "La modalità di blocco è"
+          "it": "La modalità di blocco è",
+          "sv": "Låsläge är",
+          "no": "Låsemodus er"
         },
         "args": [
           {
@@ -89,7 +101,9 @@
           "nl": "Stel stand in",
           "de": "Modus setzen",
           "fr": "Définir le mode",
-          "it": "Imposta la modalità"
+          "it": "Imposta la modalità",
+          "sv": "Ställ in läge",
+          "no": "Innstill modus"
         },
         "args": [
           {
