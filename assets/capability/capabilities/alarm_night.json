@@ -6,7 +6,8 @@
     "de": "Nacht-Alarm",
     "fr": "Alarme nuit",
     "it": "Allarme notturno",
-    "sv": "Nattlarm"
+    "sv": "Nattlarm",
+    "no": "Nattalarm"
   },
   "desc": {
     "en": "True when it is night",
@@ -14,7 +15,8 @@
     "de": "True, wenn es Nacht ist",
     "fr": "Vrai quand il fait nuit",
     "it": "Vero quando è notte",
-    "sv": "Sant när det är natt"
+    "sv": "Sant när det är natt",
+    "no": "Sant når det er natt"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -23,7 +25,8 @@
     "de": "Nacht-Alarm ist angegangen",
     "fr": "Alarme nuit s'est activée",
     "it": "Allarme notturno attivato",
-    "sv": "Nattlarm aktiverat"
+    "sv": "Nattlarm aktiverat",
+    "no": "Nattalarm aktivert"
   },
   "insightsTitleFalse": {
     "en": "Night alarm turned off",
@@ -31,7 +34,8 @@
     "de": "Nacht-Alarm ist ausgegangen",
     "fr": "Alarme nuit s'est désactivée",
     "it": "Allarme notturno disattivato",
-    "sv": "Nattlarm inaktiverat"
+    "sv": "Nattlarm inaktiverat",
+    "no": "Nattalarm deaktivert"
   },
   "getable": true,
   "setable": false,
@@ -46,7 +50,8 @@
           "de": "Der Nacht-Alarm ist angegangen",
           "fr": "L'alarme nuit s'est activée",
           "it": "L'allarme notturno è stato attivato",
-          "sv": "Nattlarmet aktiverat"
+          "sv": "Nattlarmet aktiverat",
+          "no": "Nattalarmen aktivert"
         }
       },
       {
@@ -57,7 +62,8 @@
           "de": "Der Nacht-Alarm ist ausgegangen",
           "fr": "L'alarme nuit s'est désactivée",
           "it": "L'allarme notturno è stato disattivato",
-          "sv": "Nattlarmet inaktiverat"
+          "sv": "Nattlarmet inaktiverat",
+          "no": "Nattalarmen deaktivert"
         }
       }
     ],
@@ -70,7 +76,8 @@
           "de": "Der Nacht-Alarm ist !{{an|aus}}",
           "fr": "L'alarme nuit est !{{en marche|arrêtée}}",
           "it": "L'allarme notturno è !{{acceso|spento}}",
-          "sv": "Nattlarmet är !{{på|av}}"
+          "sv": "Nattlarmet är !{{på|av}}",
+          "no": "Nattalarmen er !{{på|av}}"
         }
       }
     ]

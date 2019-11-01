@@ -6,7 +6,8 @@
     "de": "Wasser-Alarm",
     "fr": "Alarme eau",
     "it": "Allarme acqua",
-    "sv": "Vattenalarm"
+    "sv": "Vattenalarm",
+    "no": "Vannalarm"
   },
   "desc": {
     "en": "True when water has been detected",
@@ -14,7 +15,8 @@
     "de": "True, wenn Wasser erkannt wurde",
     "fr": "Vrai si de l'eau a été détectée",
     "it": "Vero quando è stata rilevata dell'acqua",
-    "sv": "Sant när vatten upptäcks"
+    "sv": "Sant när vatten upptäcks",
+    "no": "Sant når vann påvises"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -23,7 +25,8 @@
     "de": "Wasser-Alarm ist angegangen",
     "fr": "Alarme eau s'est activée",
     "it": "Allarme acqua attivato",
-    "sv": "Vattenalarm aktiverat"
+    "sv": "Vattenalarm aktiverat",
+    "no": "Vannalarm aktivert"
   },
   "insightsTitleFalse": {
     "en": "Water alarm turned off",
@@ -31,7 +34,8 @@
     "de": "Wasser-Alarm ist ausgegangen",
     "fr": "Alarme eau s'est désactivée",
     "it": "Allarme acqua disattivato",
-    "sv": "Vattenalarm inaktiverat"
+    "sv": "Vattenalarm inaktiverat",
+    "no": "Vannalarm deaktivert"
   },
   "getable": true,
   "setable": false,
@@ -46,7 +50,8 @@
           "de": "Der Wasser-Alarm ist angegangen",
           "fr": "L'alarme eau s'est activée",
           "it": "L'allarme acqua è stato attivato",
-          "sv": "Vattenalarmet aktiverat"
+          "sv": "Vattenalarmet aktiverat",
+          "no": "Vannalarmen aktivert"
         }
       },
       {
@@ -57,7 +62,8 @@
           "de": "Der Wasser-Alarm ist ausgegangen",
           "fr": "L'alarme eau s'est désactivée",
           "it": "L'allarme acqua è stato disattivato",
-          "sv": "Vattenalarmet inaktiverat"
+          "sv": "Vattenalarmet inaktiverat",
+          "no": "Vannalarmen deaktivert"
         }
       }
     ],
@@ -70,7 +76,8 @@
           "de": "Der Wasser-Alarm ist !{{an|aus}}",
           "fr": "L'alarme eau est !{{en marche|arrêtée}}",
           "it": "L'allarme acqua è !{{acceso|spento}}",
-          "sv": "Vattenalarmet är !{{på|av}}"
+          "sv": "Vattenalarmet är !{{på|av}}",
+          "no": "Vannalarmen er !{{på|av}}"
         }
       }
     ]

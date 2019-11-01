@@ -6,7 +6,8 @@
     "de": "Sabotage-Alarm",
     "fr": "Alarme sabotage",
     "it": "Allarme manomissione",
-    "sv": "Sabotagelarm"
+    "sv": "Sabotagelarm",
+    "no": "Sabotasjealarm"
   },
   "desc": {
     "en": "True when tampering has been detected",
@@ -14,7 +15,8 @@
     "de": "True, wenn Sabotage erkannt wurde",
     "fr": "Vrai si l'alarme sabotage a été détectée",
     "it": "Vero quando è stata rilevata una manomissione",
-    "sv": "Sant när sabotage upptäckts"
+    "sv": "Sant när sabotage upptäckts",
+    "no": "Sant när sabotasje oppdages"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -23,7 +25,8 @@
     "de": "Sabotage-Alarm ist angegangen",
     "fr": "Alarme sabotage s'est activée",
     "it": "Allarme manomissione attivato",
-    "sv": "Sabotagelarm aktiverat"
+    "sv": "Sabotagelarm aktiverat",
+    "no": "Sabotasjealarm aktivert"
   },
   "insightsTitleFalse": {
     "en": "Tamper alarm turned off",
@@ -31,7 +34,8 @@
     "de": "Sabotage-Alarm ist ausgegangen",
     "fr": "Alarme sabotage s'est désactivée",
     "it": "Allarme manomissione disattivato",
-    "sv": "Sabotagelarm inaktiverat"
+    "sv": "Sabotagelarm inaktiverat",
+    "no": "Sabotagealarm deaktivert"
   },
   "getable": true,
   "setable": false,
@@ -46,7 +50,8 @@
           "de": "Der Sabotage-Alarm ist angegangen",
           "fr": "L'alarme sabotage s'est activée",
           "it": "L'allarme manomissione è stato attivato",
-          "sv": "Sabotagelarmet aktiverat"
+          "sv": "Sabotagelarmet aktiverat",
+          "no": "Sabotasjealarmen aktivert"
         }
       },
       {
@@ -57,7 +62,8 @@
           "de": "Der Sabotage-Alarm ist ausgegangen",
           "fr": "L'alarme sabotage s'est désactivée",
           "it": "L'allarme manomissione è stato disattivato",
-          "sv": "Sabotagelarmet inaktiverat"
+          "sv": "Sabotagelarmet inaktiverat",
+          "no": "Sabotasjealarmen deaktivert"
         }
       }
     ],
@@ -70,7 +76,8 @@
           "de": "Der Sabotage-Alarm ist !{{an|aus}}",
           "fr": "L'alarme sabotage est !{{en marche|arrêtée}}",
           "it": "L'allarme manomissione è !{{acceso|spento}}",
-          "sv": "Sabotagelarmet är !{{på|av}}"
+          "sv": "Sabotagelarmet är !{{på|av}}",
+          "no": "Sabotasjealarmen er !{{på|av}}"
         }
       }
     ]

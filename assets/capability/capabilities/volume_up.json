@@ -5,7 +5,8 @@
     "de": "Lautstärke hoch",
     "fr": "Augmenter le volume",
     "it": "Volume alzato",
-    "sv": "Volym upp"
+    "sv": "Volym upp",
+    "no": "Volum opp"
   },
   "type": "boolean",
   "getable": false,
@@ -20,7 +21,8 @@
         "de": "Dreh die Lautstärke hoch",
         "fr": "Augmenter le son",
         "it": "Alza il volume",
-        "sv": "Vrid upp volymen"
+        "sv": "Vrid upp volymen",
+        "no": "Skru opp volumet"
       }
     }]
   },

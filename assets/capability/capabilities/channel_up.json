@@ -5,7 +5,8 @@
     "de": "Kanal hoch",
     "fr": "Chaîne haut",
     "it": "Canale verso l'alto",
-    "sv": "Kanal upp"
+    "sv": "Kanal upp",
+    "no": "Høyere kanal"
   },
   "type": "boolean",
   "getable": false,
@@ -20,7 +21,8 @@
           "de": "Einen Kanal hoch",
           "fr": "Une chaîne vers le haut",
           "it": "Un canale verso l'alto",
-          "sv": "En kanal upp"
+          "sv": "En kanal upp",
+          "no": "En kanal høyere"
         }
       }
     ]
@@ -33,6 +35,7 @@
     "fr": ["Monter ma télé d'une chaîne"],
     "it": ["Passa al canale successivo in TV"],
     "sv": ["Byt till nästa kanal på min TV"]
+
   },
   "$speech": {
     "en": {

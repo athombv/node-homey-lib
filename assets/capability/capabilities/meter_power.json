@@ -6,7 +6,8 @@
     "de": "Energiezähler",
     "fr": "Compteur électrique",
     "it": "Misuratore di potenza",
-    "sv": "Elmätare"
+    "sv": "Elmätare",
+    "no": "Strømmåler"
   },
   "decimals": 2,
   "units": {
@@ -19,7 +20,8 @@
     "de": "Energieverbrauch in Kilowattstunde (kWh)",
     "fr": "Consommation électrique en kilo Watt heure (kWh)",
     "it": "Consumo di energia in chilowattora (kWh)",
-    "sv": "Elförbrukning i kilowattimmar (kWh)"
+    "sv": "Elförbrukning i kilowattimmar (kWh)",
+    "no": "Strømforbruk i kilowattimer (kWh)"
   },
   "options": {
     "isApproximated": {
@@ -43,7 +45,8 @@
         "de": "Der Gesamtverbrauch hat sich geändert",
         "fr": "Le compteur électrique a changé",
         "it": "Il misuratore di potenza è cambiato",
-        "sv": "Elmätaren ändrades"
+        "sv": "Elmätaren ändrades",
+        "no": "Strømmåleren ble endret"
       },
       "tokens": [{
         "name": "$id",

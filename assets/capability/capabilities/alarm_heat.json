@@ -6,7 +6,8 @@
     "de": "Hitze-Alarm",
     "fr": "Alarme chaleur",
     "it": "Allarme di calore",
-    "sv": "Värmelarm"
+    "sv": "Värmelarm",
+    "no": "Varmealarm"
   },
   "desc": {
     "en": "True when extreme heat has been detected",
@@ -14,7 +15,8 @@
     "de": "True, wenn extreme Hitze erkannt wurde",
     "fr": "Vrai si une chaleur extrême a été détectée",
     "it": "Vero quando è stato rilevato un calore estremo",
-    "sv": "Sant när extrem hetta upptäckts"
+    "sv": "Sant när extrem hetta upptäckts",
+    "no": "Sant når ekstrem varme påvises"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -23,7 +25,8 @@
     "de": "Hitze-Alarm ist angegangen",
     "fr": "Alarme chaleur s'est activée",
     "it": "Allarme di calore attivato",
-    "sv": "Värmelarm aktiverat"
+    "sv": "Värmelarm aktiverat",
+    "no": "Varmealarm aktivert"
   },
   "insightsTitleFalse": {
     "en": "Heat alarm turned off",
@@ -31,7 +34,8 @@
     "de": "Hitze-Alarm ist ausgegangen",
     "fr": "Alarme chaleur s'est désactivée",
     "it": "Allarme di calore disattivato",
-    "sv": "Värmelarm inaktiverat"
+    "sv": "Värmelarm inaktiverat",
+    "no": "Varmealarm deaktivert"
   },
   "getable": true,
   "setable": false,
@@ -46,7 +50,8 @@
           "de": "Der Hitze-Alarm ist angegangen",
           "fr": "L'alarme chaleur s'est activée",
           "it": "L'allarme di calore è stato attivato",
-          "sv": "Värmelarmet aktiverat"
+          "sv": "Värmelarmet aktiverat",
+          "no": "Varmealarmen aktivert"
         }
       },
       {
@@ -57,7 +62,8 @@
           "de": "Der Hitze-Alarm ist ausgegangen",
           "fr": "L'alarme chaleur s'est désactivée",
           "it": "L'allarme di calore è stato disattivato",
-          "sv": "Värmelarmet inaktiverat"
+          "sv": "Värmelarmet inaktiverat",
+          "no": "Varmealarmen deaktivert"
         }
       }
     ],
@@ -70,7 +76,8 @@
           "de": "Der Hitze-Alarm ist !{{an|aus}}",
           "fr": "L'alarme chaleur est !{{en marche|arrêtée}}",
           "it": "L'allarme di calore è !{{acceso|spento}}",
-          "sv": "Värmelarmet är !{{på|av}}"
+          "sv": "Värmelarmet är !{{på|av}}",
+          "no": "Varmealarmen er !{{på|av}}"
         }
       }
     ]

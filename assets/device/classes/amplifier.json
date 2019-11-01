@@ -5,14 +5,16 @@
     "de": "Verstärker",
     "fr": "Amplificateur",
     "it": "Amplificatore",
-    "sv": "Förstärkare"
+    "sv": "Förstärkare",
+    "no": "Forsterker"
   },
   "description": {
     "en": "Use this device class for audio amplifier devices.",
     "de": "Nutze diese Geräteklasse für Audio-Verstärker-Geräte.",
     "fr": "Utilisez cette classe d'appareil pour les appareils amplificateurs audio.",
     "it": "Utilizza questa classe di dispositivi per i dispositivi che amplificano l'audio.",
-    "sv": "Använd den här enhetsklassne ljudförstärkarenheter."
+    "sv": "Använd den här enhetsklassne ljudförstärkarenheter.",
+    "no": "Bruk denne enhetsklassen for lydforsterkerenheter."
   },
   "$speechAlternatives": {
     "en": [ "amp", "amplifier", "tuner" ],

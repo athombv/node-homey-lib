@@ -5,7 +5,8 @@
     "de": "Weiter",
     "fr": "Suivant",
     "it": "Successivo",
-    "sv": "Nästa"
+    "sv": "Nästa",
+    "no": "Neste"
   },
   "type": "boolean",
   "getable": false,
@@ -21,7 +22,8 @@
           "de": "Weiter",
           "fr": "Suivant",
           "it": "Successivo",
-          "sv": "Nästa"
+          "sv": "Nästa",
+          "no": "Neste"
         }
       }
     ]

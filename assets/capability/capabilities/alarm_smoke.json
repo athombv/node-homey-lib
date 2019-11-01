@@ -6,7 +6,8 @@
     "de": "Rauch-Alarm",
     "fr": "Alarme fumée",
     "it": "Allarme fumo",
-    "sv": "Röklarm"
+    "sv": "Röklarm",
+    "no": "Røykalarm"
   },
   "desc": {
     "en": "True when smoke has been detected",
@@ -14,7 +15,8 @@
     "de": "True, wenn Rauch erkannt wurde",
     "fr": "Vrai quand de la fumée a été détectée",
     "it": "Vero quando è stato rilevato del fumo",
-    "sv": "Sant när rök upptäcks"
+    "sv": "Sant när rök upptäcks",
+    "no": "Sant når røyk har blitt påvist"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -23,7 +25,8 @@
     "de": "Rauch-Alarm ist angegangen",
     "fr": "Alarme fumée s'est activée",
     "it": "Allarme fumo attivato",
-    "sv": "Röklarm aktiverat"
+    "sv": "Röklarm aktiverat",
+    "no": "Røykalarm aktivert"
   },
   "insightsTitleFalse": {
     "en": "Smoke alarm turned off",
@@ -31,7 +34,8 @@
     "de": "Rauch-Alarm ist ausgegangen",
     "fr": "Alarme fumée s'est désactivée",
     "it": "Allarme fumo disattivato",
-    "sv": "Röklarm inaktiverat"
+    "sv": "Röklarm inaktiverat",
+    "no": "Røykalarm deaktivert"
   },
   "getable": true,
   "setable": false,
@@ -46,7 +50,8 @@
           "de": "Der Rauch-Alarm ist angegangen",
           "fr": "L'alarme fumée s'est activée",
           "it": "L'allarme fumo è stato attivato",
-          "sv": "Röklarmet aktiverat"
+          "sv": "Röklarmet aktiverat",
+          "no": "Røykalarmen er aktivert"
         }
       },
       {
@@ -57,7 +62,8 @@
           "de": "Der Rauch-Alarm ist ausgegangen",
           "fr": "L'alarme fumée s'est désactivée",
           "it": "L'allarme fumo è stato disattivato",
-          "sv": "Röklarmet inaktiverat"
+          "sv": "Röklarmet inaktiverat",
+          "no": "Røykalarmen er deaktivert"
         }
       }
     ],
@@ -70,7 +76,8 @@
           "de": "Der Rauch-Alarm ist !{{an|aus}}",
           "fr": "L'alarme fumée est !{{en marche|arrêtée}}",
           "it": "L'allarme fumo è !{{acceso|spento}}",
-          "sv": "Röklarmet är !{{på|av}}"
+          "sv": "Röklarmet är !{{på|av}}",
+          "no": "Røykalarmen er !{{på|av}}"
         }
       }
     ]

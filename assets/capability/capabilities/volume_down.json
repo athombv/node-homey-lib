@@ -5,7 +5,8 @@
     "de": "Lautstärke runter",
     "fr": "Baisser le volume",
     "it": "Volume abbassato",
-    "sv": "Volym ned"
+    "sv": "Volym ned",
+    "no": "Volum ned"
   },
   "type": "boolean",
   "getable": false,
@@ -20,7 +21,8 @@
         "de": "Dreh die Lautstärke runter",
         "fr": "Baisser le son",
         "it": "Abbassa il volume",
-        "sv": "Sänk volymen"
+        "sv": "Sänk volymen",
+        "no": "Senk volumet"
       }
     }]
   },

@@ -6,7 +6,8 @@
     "de": "Thermostat-Modus",
     "fr": "Mode thermostat",
     "it": "Modalità termostato",
-    "sv": "Termostatläge"
+    "sv": "Termostatläge",
+    "no": "Termostatmodus"
   },
   "desc": {
     "en": "Mode of the thermostat",
@@ -14,7 +15,8 @@
     "de": "Modus des Thermostates",
     "fr": "Mode du thermostat",
     "it": "Modalità del termostato",
-    "sv": "Läge för termostaten"
+    "sv": "Läge för termostaten",
+    "no": "Modus for termostaten"
   },
   "values": [
     {
@@ -25,7 +27,8 @@
         "de": "Automatisch",
         "fr": "Automatique",
         "it": "Automatica",
-        "sv": "Automatiskt"
+        "sv": "Automatiskt",
+        "no": "Automatisk"
       }
     },
     {
@@ -36,7 +39,8 @@
         "de": "Heizen",
         "fr": "Chauffer",
         "it": "Calore",
-        "sv": "Värme"
+        "sv": "Värme",
+        "no": "Varme"
       }
     },
     {
@@ -47,7 +51,8 @@
         "de": "Kühlen",
         "fr": "Refroidir",
         "it": "Raffreddamento",
-        "sv": "Kyla"
+        "sv": "Kyla",
+        "no": "Avkjøle"
       }
     },
     {
@@ -58,7 +63,8 @@
         "de": "Aus",
         "fr": "Désactivé",
         "it": "Disattivata",
-        "sv": "Av"
+        "sv": "Av",
+        "no": "Av"
       }
     }
   ],
@@ -75,7 +81,8 @@
           "de": "Thermostat-Modus hat sich geändert",
           "fr": "Mode thermostat a été modifié",
           "it": "La modalità del termostato è cambiata",
-          "sv": "Termostatläge ändrades"
+          "sv": "Termostatläge ändrades",
+          "no": "Termostatmodus ble endret"
         },
         "args": [
           {
@@ -95,7 +102,8 @@
           "de": "Thermostat-Modus ist",
           "fr": "Mode thermostat est",
           "it": "La modalità del termostato è",
-          "sv": "Termostatläge är"
+          "sv": "Termostatläge är",
+          "no": "Termostatmodus er"
         },
         "args": [
           {
@@ -115,7 +123,8 @@
           "de": "Modus setzen",
           "fr": "Définir le mode",
           "it": "Imposta la modalità",
-          "sv": "Ställ in läget"
+          "sv": "Ställ in läget",
+          "no": "Innstill modusen"
         },
         "args": [
           {

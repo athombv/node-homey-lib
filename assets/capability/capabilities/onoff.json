@@ -6,7 +6,8 @@
     "de": "Eingeschaltet",
     "fr": "Activé",
     "it": "Attivato",
-    "sv": "Aktiverad"
+    "sv": "Aktiverad",
+    "no": "Slått på"
   },
   "getable": true,
   "setable": true,
@@ -17,7 +18,8 @@
     "de": "Eingeschaltet",
     "fr": "Activé",
     "it": "Attivato",
-    "sv": "Aktiverad"
+    "sv": "Aktiverad",
+    "no": "Slått på"
   },
   "insightsTitleFalse": {
     "en": "Turned off",
@@ -25,7 +27,8 @@
     "de": "Ausgeschaltet",
     "fr": "Désactivé",
     "it": "Disattivato",
-    "sv": "Inaktiverad"
+    "sv": "Inaktiverad",
+    "no": "Slått av"
   },
   "options": {
     "setOnDim": {
@@ -36,7 +39,8 @@
         "de": "Wenn ein Gerät sowohl 'An/Aus'- als auch 'Dimm'-Fähigkeit hat und Homey das Gerät anschalten UND auf einen bestimmten Wert dimmen will, setze diese Fähigkeit auf 'false', um Homey am Senden eines Setzen-Befehls zu hindern.",
         "fr": "Quand un appareil peut `allumer/éteindre` et `estomper`, et que Homey veut allumer l'appareil ET sur une valeur d'estompage spécifique, définissez cette capacité sur `faux` pour empêcher Homey d'envoyer une commande de définition.",
         "it": "Quando un dispositivo può 'accendersi' e 'attenuarsi' e Homey desidera attivare il dispositivo E definire un valore specifico, imposta questa funzione su 'falso' per impedire a Homey di inviare un comando di definizione.",
-        "sv": "När en enhet har både en `på/av`- och `dim`-funktionalitet och Homey vill slå på enheten OCH till ett specifikt dimvärde, sätt den här funktionen till `falsk` för att förhindra att Homey skickar ett inställningskommando."
+        "sv": "När en enhet har både en `på/av`- och `dim`-funktionalitet och Homey vill slå på enheten OCH till ett specifikt dimvärde, sätt den här funktionen till `falsk` för att förhindra att Homey skickar ett inställningskommando.",
+        "no": "Når en enhet har både en `på/av`- og en `dempe`-funksjon og Homey vil slå på enheten OG sette dempingen til en spesifikk verdi, sett denne egenskapen til `usann` for å forhindre at Homey sender en innstillingskommando."
       }
     },
     "greyout": {
@@ -47,7 +51,8 @@
         "de": "wenn diese Fähigkeit 'false' ist, gibt es einen visuellenen Hinweis, um das Gerät auszugrauen.",
         "fr": "Quand cette capacité est fausse, donnez un indice visuel pour griser cet appareil.",
         "it": "Quando questa funzione è impostata su falso, dai un indizio visivo per far apparire questo dispositivo in grigio.",
-        "sv": "När den här funktionen är falsk, ge en ett visuellt tips för att gråa ut enheten."
+        "sv": "När den här funktionen är falsk, ge en ett visuellt tips för att gråa ut enheten.",
+        "no": "Når denne egenskapen er usann, gi et visuelt tips for å vise enheten i grått."
       }
     }
   },
@@ -62,7 +67,8 @@
         "de": "Angeschaltet",
         "fr": "Activé",
         "it": "Attivato",
-        "sv": "Aktiverad"
+        "sv": "Aktiverad",
+        "no": "Slått på"
       }
     },
       {
@@ -73,7 +79,8 @@
           "de": "Ausgeschaltet",
           "fr": "Désactivé",
           "it": "Disattivato",
-          "sv": "Inaktiverad"
+          "sv": "Inaktiverad",
+          "no": "Slått av"
         }
       }
     ],
@@ -85,7 +92,8 @@
         "de": "Ist !{{an|aus}}",
         "fr": "Est !{{activé|désactivé}}",
         "it": "È !{{attivato|disattivato}}",
-        "sv": "Är !{{på|av}}"
+        "sv": "Är !{{på|av}}",
+        "no": "Er slått !{{på|av}}"
       }
     },
       {
@@ -96,7 +104,8 @@
           "de": "Ist !{{offen|geschlossen}}",
           "fr": "Est !{{ouvert|fermé}}",
           "it": "È !{{aperto|chiuso}}",
-          "sv": "Är !{{öppen|stängd}}"
+          "sv": "Är !{{öppen|stängd}}",
+          "no": "Er !{{åpen|lukket}}"
         },
         "$filter": {
           "class": "windowcoverings|curtain|blinds|sunshade"
@@ -111,7 +120,8 @@
         "de": "Einschalten",
         "fr": "Activer",
         "it": "Attiva",
-        "sv": "Aktivera"
+        "sv": "Aktivera",
+        "no": "Slå på"
       }
     },
       {
@@ -122,7 +132,8 @@
           "de": "Ausschalten",
           "fr": "Désactiver",
           "it": "Disattiva",
-          "sv": "stäng av"
+          "sv": "stäng av",
+          "no": "Slå av"
         }
       },
       {
@@ -133,7 +144,8 @@
           "de": "Ein- oder ausschalten",
           "fr": "Alterner activé ou désactivé",
           "it": "Attiva o disattiva",
-          "sv": "Växla på och av"
+          "sv": "Växla på och av",
+          "no": "Veksle mellom på og av"
         }
       },
       {
@@ -144,7 +156,8 @@
           "de": "Vorhang oder Rollladen öffnen",
           "fr": "Ouvrir rideau ou store",
           "it": "Apri la tenda o le persiane",
-          "sv": "Öppna gardin eller persienn"
+          "sv": "Öppna gardin eller persienn",
+          "no": "Åpne gardin eller persienne"
         },
         "$filter": {
           "class": "windowcoverings|curtain|blinds|sunshade"
@@ -158,7 +171,8 @@
           "de": "Vorhang oder Rollladen schließen",
           "fr": "Fermer rideau ou store",
           "it": "Chiudi la tenda o le persiane",
-          "sv": "Stäng gardin eller persienn"
+          "sv": "Stäng gardin eller persienn",
+          "no": "Lukk gardin eller persienne"
         },
         "$filter": {
           "class": "windowcoverings|curtain|blinds|sunshade"

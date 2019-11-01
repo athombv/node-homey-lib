@@ -6,7 +6,8 @@
     "de": "Bewegungs-Alarm",
     "fr": "Alarme mouvement",
     "it": "Allarme di movimento",
-    "sv": "Rörelselarm"
+    "sv": "Rörelselarm",
+    "no": "Bevegelsesalarm"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -15,7 +16,8 @@
     "de": "Bewegungs-Alarm ist angegangen",
     "fr": "Alarme mouvement s'est déclenchée",
     "it": "Allarme di movimento attivato",
-    "sv": "Rörelselarm aktiverat"
+    "sv": "Rörelselarm aktiverat",
+    "no": "Bevegelsesalarm aktivert"
   },
   "insightsTitleFalse": {
     "en": "Motion alarm turned off",
@@ -23,7 +25,8 @@
     "de": "Bewegungs-Alarm ist ausgegangen",
     "fr": "Alarme mouvement s'est désactivée",
     "it": "Allarme di movimento disattivato",
-    "sv": "Rörelselarm inaktiverat"
+    "sv": "Rörelselarm inaktiverat",
+    "no": "Bevegelsesalarm deaktivert"
   },
   "getable": true,
   "setable": false,
@@ -38,7 +41,8 @@
           "de": "Der Bewegungs-Alarm ist angegangen",
           "fr": "L'alarme mouvement s'est activée",
           "it": "L'allarme di movimento è stato attivato",
-          "sv": "Rörelselarmet aktiverat"
+          "sv": "Rörelselarmet aktiverat",
+          "no": "Bevegelsesalarmen aktivert"
         }
       },
       {
@@ -49,7 +53,8 @@
           "de": "Der Bewegungs-Alarm ist ausgegangen",
           "fr": "L'alarme mouvement s'est désactivée",
           "it": "L'allarme di movimento è stato disattivato",
-          "sv": "Rörelselarmet inaktiverat"
+          "sv": "Rörelselarmet inaktiverat",
+          "no": "Bevegelsesalarmen deaktivert"
         }
       }
     ],
@@ -62,7 +67,8 @@
           "de": "Der Bewegungs-Alarm ist !{{an|aus}}",
           "fr": "L'alarme mouvement est !{{en marche|arrêtée}}",
           "it": "L'allarme di movimento è !{{acceso|spento}}",
-          "sv": "Rörelselarmet är !{{på|av}}"
+          "sv": "Rörelselarmet är !{{på|av}}",
+          "no": "Bevegelsesalarmen er !{{på|av}}"
         }
       }
     ]

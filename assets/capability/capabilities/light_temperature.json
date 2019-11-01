@@ -6,7 +6,8 @@
     "de": "Farbtemperatur",
     "fr": "Température de couleur",
     "it": "Temperatura colore",
-    "sv": "Färgtemperatur"
+    "sv": "Färgtemperatur",
+    "no": "Fargetemperatur"
   },
   "min": 0,
   "chartType": "stepLine",
@@ -25,7 +26,8 @@
           "de": "Eine Temperatur setzen",
           "fr": "Définir une température",
           "it": "Imposta una temperatura",
-          "sv": "Ställ in en temperatur"
+          "sv": "Ställ in en temperatur",
+          "no": "Innstill en temperatur"
         },
         "args": [
           {
@@ -46,7 +48,8 @@
           "de": "Stelle die Temperatur der Farbe ein. Ein höherer Wert bedeutet eine wärmere Farbe.",
           "fr": "Ajuste la température de la lumière. Une valeur plus élévée signifie une couleur plus chaude.",
           "it": "Regola la temperatura della luce. Un valore più alto indica un colore più caldo.",
-          "sv": "Justerar temperaturen på ljuset. Ett högre värde innebär en varmare färg."
+          "sv": "Justerar temperaturen på ljuset. Ett högre värde innebär en varmare färg.",
+          "no": "Justerer lystemperaturen. En høyere verdi gir en varmere farge."
         }
       }
     ]

@@ -6,7 +6,8 @@
     "de": "Helligkeit",
     "fr": "Luminance",
     "it": "Luminanza",
-    "sv": "Luminans"
+    "sv": "Luminans",
+    "no": "Luminans"
   },
   "units": {
     "en": "lx"
@@ -18,7 +19,8 @@
     "de": "Leuchtkraft in Lux (lx)",
     "fr": "Luminance en Lux (lx)",
     "it": "Luminanza in Lux (lx)",
-    "sv": "Luminans i Lux (lx)"
+    "sv": "Luminans i Lux (lx)",
+    "no": "Luminans i Lux (lx)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -35,7 +37,8 @@
           "de": "Die Helligkeit hat sich geändert",
           "fr": "La luminance a changé",
           "it": "La luminanza è cambiata",
-          "sv": "Luminansen ändrades"
+          "sv": "Luminansen ändrades",
+          "no": "Luminansen ble endret"
         },
         "tokens": [
           {

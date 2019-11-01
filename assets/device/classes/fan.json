@@ -5,13 +5,15 @@
     "de": "Ventilator",
     "fr": "Ventilateur",
     "it": "Ventilatore",
-    "sv": "Fläkt"
+    "sv": "Fläkt",
+    "no": "Vifte"
   },
   "description": {
     "en": "Use this device class for fans that cool your home.",
     "de": "Nutze diese Geräteklasse für Ventilatoren, die dein Heim kühlen.",
     "fr": "Utilisez cette classe d'appareil pour les ventilateurs qui refroidissent votre maison.",
     "it": "Utilizza questa classe di dispositivi per i ventilatori che rinfrescano la tua casa.",
-    "sv": "Använd den här enhetsklassen för fläktar som kyler ned hemmet."
+    "sv": "Använd den här enhetsklassen för fläktar som kyler ned hemmet.",
+    "no": "Bruk denne enhetsklassen for vifter som avkjøler hjemmet ditt."
   }
 }

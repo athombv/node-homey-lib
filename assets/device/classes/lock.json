@@ -5,14 +5,16 @@
     "de": "Schloss",
     "fr": "Verrou",
     "it": "Serratura",
-    "sv": "Lås"
+    "sv": "Lås",
+    "no": "Lås"
   },
   "description": {
     "en": "Use this device class for lock devices, usually together with the `locked` and `lock_mode` capabilities.",
     "de": "Nutze diese Geräteklasse für Schloss-Geräte - normalerweise zusammen mit den 'locked'- und 'lock_mode'-Fähigkeiten.",
     "fr": "Utilisez cette classe d'appareil pour les appareils verrou, généralement avec les capacités `verrouillé` et `mode_verrou`.",
     "it": "Utilizza questa classe di dispositivi per le serrature, generalmente insieme alle funzioni 'chiusa' e 'modalità_serratura'.",
-    "sv": "Använd den här enhetsklassen för att låsa enheter, oftast tillsammans med funktionerna `låst` och `låsläge`."
+    "sv": "Använd den här enhetsklassen för att låsa enheter, oftast tillsammans med funktionerna `låst` och `låsläge`.",
+    "no": "Bruk denne enhetsklassen for låseenheter, ofte sammen med funksjonene `låst` og `låst_modus`."
   },
   "$speechAlternatives": {
     "en": [ "lock", "locks" ],

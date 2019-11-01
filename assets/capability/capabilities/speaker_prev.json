@@ -5,7 +5,8 @@
     "de": "Zurück",
     "fr": "Précédent",
     "it": "Precedente",
-    "sv": "Föregående"
+    "sv": "Föregående",
+    "no": "Forrige"
   },
   "type": "boolean",
   "getable": false,
@@ -21,7 +22,8 @@
           "de": "Zurück",
           "fr": "Précédent",
           "it": "Precedente",
-          "sv": "Föregående"
+          "sv": "Föregående",
+          "no": "Forrige"
         }
       }
     ]

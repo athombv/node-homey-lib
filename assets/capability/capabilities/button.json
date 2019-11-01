@@ -5,7 +5,8 @@
     "de": "Taste",
     "fr": "Bouton",
     "it": "Pulsante",
-    "sv": "Knapp"
+    "sv": "Knapp",
+    "no": "Knapp"
   },
   "type": "boolean",
   "getable": false,
@@ -22,7 +23,8 @@
           "de": "Drücke die Taste",
           "fr": "Appuyer sur le bouton",
           "it": "Premi il pulsante",
-          "sv": "Tryck på knappen"
+          "sv": "Tryck på knappen",
+          "no": "Trykk på knappen"
         }
       }
     ]

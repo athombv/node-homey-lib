@@ -5,7 +5,8 @@
     "de": "Album",
     "fr": "Album",
     "it": "Album",
-    "sv": "Album"
+    "sv": "Album",
+    "no": "Album"
   },
   "type": "string",
   "getable": true,
@@ -21,7 +22,8 @@
           "de": "Das Album hat sich geändert",
           "fr": "L'album a été modifié",
           "it": "L'album è cambiato",
-          "sv": "Albumet ändrades"
+          "sv": "Albumet ändrades",
+          "no": "Albumet ble endret"
         },
         "tokens": [
           {

@@ -6,7 +6,8 @@
     "de": "Wasserzähler",
     "fr": "Compteur d'eau",
     "it": "Contatore dell'acqua",
-    "sv": "Vattenmätare"
+    "sv": "Vattenmätare",
+    "no": "Vannmåler"
   },
   "decimals": 2,
   "min": 0,
@@ -20,7 +21,8 @@
     "de": "Wasserverbrauch in Kubikmeter (m³)",
     "fr": "Consommation d'eau en mètres cubes (m³)",
     "it": "Utilizzo di acqua in metri cubi (m³)",
-    "sv": "Vattenanvändning i kubikmeter (m³)"
+    "sv": "Vattenanvändning i kubikmeter (m³)",
+    "no": "Vannforbruk i kubikkmeter (m³)"
   },
   "insights": true,
   "getable": true,
@@ -36,7 +38,8 @@
           "de": "Der Wasserzähler hat sich geändert",
           "fr": "Le compteur d'eau a changé",
           "it": "Il contatore dell'acqua è cambiato",
-          "sv": "Vattenmätaren ändrades"
+          "sv": "Vattenmätaren ändrades",
+          "no": "Vannmåleren ble endret"
         },
         "tokens": [
           {

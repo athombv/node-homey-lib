@@ -5,13 +5,15 @@
     "de": "Heim-Sicherheit",
     "fr": "Sécurité de la maison",
     "it": "Sicurezza della casa",
-    "sv": "Hemsäkerhet"
+    "sv": "Hemsäkerhet",
+    "no": "Hjemmesikkerhet"
   },
   "description": {
     "en": "Use this device class for home alarm systems.",
     "de": "Nutze diese Geräteklasse für Heim-Alarm-Systeme.",
     "fr": "Utilisez cette classe d'appareil pour les systèmes d'alarme de maison.",
     "it": "Utilizza questa classe di dispositivi per i sistemi di allarme di casa.",
-    "sv": "Använd den här enhetsklassen för hemlarmsystem."
+    "sv": "Använd den här enhetsklassen för hemlarmsystem.",
+    "no": "Bruk denne enhetsklassen for hjemmealarmsystemer."
   }
 }
