@@ -5,14 +5,18 @@
     "nl": "PM2.5 alarm",
     "de": "PM2.5-Alarm",
     "fr": "Alarme PM2.5",
-    "it": "Allarme PM2.5"
+    "it": "Allarme PM2.5",
+    "sv": "PM2.5-larm",
+    "no": "PM2.5-alarm"
   },
   "desc": {
     "en": "True when PM2.5 values exceeds threshold",
     "nl": "Gaat af wanneer de PM2.5 waarde overschreden wordt",
     "de": "True, wenn PM2.5-Werte die Schwelle überschreiten",
     "fr": "Vrai si les valeurs PM2.5 excèdent un seuil",
-    "it": "Vero quando i valori PM2.5 superano la soglia"
+    "it": "Vero quando i valori PM2.5 superano la soglia",
+    "sv": "Sant när PM2.5-värdena överstiger gränsvärdet",
+    "no": "Sant når PM2.5-verdiene overskrider grenseverdien"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -20,14 +24,18 @@
     "nl": "PM2.5 alarm ging af",
     "de": "PM2.5-Alarm ist angegangen",
     "fr": "Alarme PM2.5 s'est activée",
-    "it": "Allarme PM2.5 attivato"
+    "it": "Allarme PM2.5 attivato",
+    "sv": "PM2.5-larm aktiverat",
+    "no": "PM2.5-alarm aktivert"
   },
   "insightsTitleFalse": {
     "en": "PM2.5 alarm turned off",
     "nl": "PM2.5 alarm ging uit",
     "de": "PM2.5-Alarm ist ausgegangen",
     "fr": "Alarme PM2.5 s'est désactivée",
-    "it": "Allarme PM2.5 disattivato"
+    "it": "Allarme PM2.5 disattivato",
+    "sv": "PM2.5-larm inaktiverat",
+    "no": "PM2.5-alarm deaktivert"
   },
   "getable": true,
   "setable": false,
@@ -41,7 +49,9 @@
           "nl": "Het PM2.5 gaat aan",
           "de": "Der PM2.5-Alarm ist angegangen",
           "fr": "L'alarme PM2.5 s'est activée",
-          "it": "L'allarme PM2.5 è stato attivato"
+          "it": "L'allarme PM2.5 è stato attivato",
+          "sv": "PM2.5-larmet aktiverat",
+          "no": "PM2.5-alarmen aktivert"
         }
       },
       {
@@ -51,7 +61,9 @@
           "nl": "Het PM2.5 gaat uit",
           "de": "Der PM2.5-Alarm ist ausgegangen",
           "fr": "L'alarme PM2.5 s'est désactivée",
-          "it": "L'allarme PM2.5 è stato disattivato"
+          "it": "L'allarme PM2.5 è stato disattivato",
+          "sv": "PM2.5-larmet inaktiverat",
+          "no": "PM2.5-alarmen deaktivert"
         }
       }
     ],
@@ -63,7 +75,9 @@
           "nl": "Het PM2.5 alarm is !{{aan|uit}}",
           "de": "Der PM2.5-Alarm ist !{{an|aus}}",
           "fr": "L'alarme PM2.5 est !{{en marche|arrêtée}}",
-          "it": "L'allarme PM2.5 è !{{acceso|spento}}"
+          "it": "L'allarme PM2.5 è !{{acceso|spento}}",
+          "sv": "PM2.5-larmet är !{{på|av}}",
+          "no": "PM2.5-alarmen er !{{på|av}}"
         }
       }
     ]

@@ -5,7 +5,9 @@
     "nl": "Kleurtemperatuur",
     "de": "Farbtemperatur",
     "fr": "Température de couleur",
-    "it": "Temperatura colore"
+    "it": "Temperatura colore",
+    "sv": "Färgtemperatur",
+    "no": "Fargetemperatur"
   },
   "min": 0,
   "chartType": "stepLine",
@@ -23,7 +25,9 @@
           "nl": "Verander naar temperatuur",
           "de": "Eine Temperatur setzen",
           "fr": "Définir une température",
-          "it": "Imposta una temperatura"
+          "it": "Imposta una temperatura",
+          "sv": "Ställ in en temperatur",
+          "no": "Innstill en temperatur"
         },
         "args": [
           {
@@ -43,7 +47,9 @@
           "nl": "Verander de temperatuur van de lamp. Een hogere waarde betekent een warmere kleur.",
           "de": "Stelle die Temperatur der Farbe ein. Ein höherer Wert bedeutet eine wärmere Farbe.",
           "fr": "Ajuste la température de la lumière. Une valeur plus élévée signifie une couleur plus chaude.",
-          "it": "Regola la temperatura della luce. Un valore più alto indica un colore più caldo."
+          "it": "Regola la temperatura della luce. Un valore più alto indica un colore più caldo.",
+          "sv": "Justerar temperaturen på ljuset. Ett högre värde innebär en varmare färg.",
+          "no": "Justerer lystemperaturen. En høyere verdi gir en varmere farge."
         }
       }
     ]
@@ -53,7 +59,8 @@
     "nl": [ "Zet alle lampen op warm wit", "Zet Mijn Licht op koel wit" ],
     "de": [ "Alle Lampen auf warmes Weiß schalten", "Mein Licht auf kaltes Weiß schalten"],
     "fr": [ "Mettre toutes les lumières en blanc chaud", "Mettre ma lumière en blanc froid"],
-    "it": [ "Cambia tutte le luci in bianco caldo", "Cambia la mia luce in bianco freddo" ]
+    "it": [ "Cambia tutte le luci in bianco caldo", "Cambia la mia luce in bianco freddo" ],
+    "sv": [ "Gör alla lampor varmvita", "Gör Min lampa till kallt vitt" ]
   },
   "$speech": {
     "en": {

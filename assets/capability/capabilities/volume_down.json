@@ -4,7 +4,9 @@
     "nl": "Volume omlaag",
     "de": "Lautstärke runter",
     "fr": "Baisser le volume",
-    "it": "Volume abbassato"
+    "it": "Volume abbassato",
+    "sv": "Volym ned",
+    "no": "Volum ned"
   },
   "type": "boolean",
   "getable": false,
@@ -18,7 +20,9 @@
         "nl": "Zet het geluid zachter",
         "de": "Dreh die Lautstärke runter",
         "fr": "Baisser le son",
-        "it": "Abbassa il volume"
+        "it": "Abbassa il volume",
+        "sv": "Sänk volymen",
+        "no": "Senk volumet"
       }
     }]
   },
@@ -27,7 +31,8 @@
     "nl": ["Zet het volume van mijn speaker hoger"],
     "de": ["Dreh die Lautstärke meines Lautsprechers hoch"],
     "fr": ["Augmenter le volume de mon haut-parleur"],
-    "it": ["Alza il volume degli altoparlanti"]
+    "it": ["Alza il volume degli altoparlanti"],
+    "sv": ["Sänk volymen på min högtalare"]
   },
   "$speech": {
     "en": {

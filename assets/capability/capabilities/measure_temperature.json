@@ -5,7 +5,9 @@
     "nl": "Temperatuur",
     "de": "Temperatur",
     "fr": "Température",
-    "it": "Temperatura"
+    "it": "Temperatura",
+    "sv": "Temperatur",
+    "no": "Temperatur"
   },
   "units": {
     "en": "°C"
@@ -25,7 +27,9 @@
           "nl": "De temperatuur is veranderd",
           "de": "Die Temperatur hat sich geändert",
           "fr": "La température a changé",
-          "it": "La temperatura è cambiata"
+          "it": "La temperatura è cambiata",
+          "sv": "Temperaturen ändrades",
+          "no": "Temperaturen ble endret"
         },
         "tokens": [
           {
@@ -43,7 +47,8 @@
     "nl": [ "Wat is de gemiddelde temperatuur thuis?" ],
     "de": [ "Was ist die durchschnittliche Temperatur zu Hause?"],
     "fr": [ "Quelle est la température moyenne à la maison ?"],
-    "it": [ "Qual è la temperatura media in casa?" ]
+    "it": [ "Qual è la temperatura media in casa?" ],
+    "sv": [ "Vad är medeltemperaturen hemma?" ]
   },
   "$speech": {
     "en": {

@@ -7,7 +7,9 @@
     "nl": "Ingestelde temperatuur",
     "de": "Ziel-Temperatur",
     "fr": "Température cible",
-    "it": "Temperatura nominale"
+    "it": "Temperatura nominale",
+    "sv": "Måltemperatur",
+    "no": "Ønsket temperatur"
   },
   "units": {
     "en": "°C"
@@ -27,7 +29,9 @@
           "nl": "De ingestelde temperatuur is veranderd",
           "de": "Die Ziel-Temperatur hat sich geändert",
           "fr": "La température cible a été modifiée",
-          "it": "La temperatura nominale è cambiata"
+          "it": "La temperatura nominale è cambiata",
+          "sv": "Måltemperaturen ändrades",
+          "no": "Ønsket temperatur ble endret"
         },
         "tokens": [
           {
@@ -47,7 +51,9 @@
           "nl": "Stel de temperatuur in",
           "de": "Die Temperatur setzen",
           "fr": "Définir la température",
-          "it": "Imposta la temperatura"
+          "it": "Imposta la temperatura",
+          "sv": "Ställ in temperaturen",
+          "no": "Innstill temperaturen"
         },
         "args": [
           {
@@ -68,7 +74,8 @@
     "nl": ["Zet de temperatuur op 21 graden"],
     "de": ["Die Temperatur auf 21 Grad setzen"],
     "fr": ["Définir la température sur 21 degrés"],
-    "it": ["Imposta la temperatura a 21 gradi"]
+    "it": ["Imposta la temperatura a 21 gradi"],
+    "sv": ["Ställ in temperaturen till 21 grader"]
   },
   "$speech": {
     "en": {

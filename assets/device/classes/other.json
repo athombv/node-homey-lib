@@ -4,12 +4,16 @@
     "nl": "Overig",
     "de": "Andere",
     "fr": "Autre",
-    "it": "Altro"
+    "it": "Altro",
+    "sv": "Övrigt",
+    "no": "Annet"
   },
   "description": {
     "en": "Use this device class for devices that do not fit any other device class.",
     "de": "Nutze diese Geräteklasse für Geräte, die nicht in andere Geräteklassen passen.",
     "fr": "Utilisez cette classe d'appareil pour les appareils qui ne correspondent à aucune autre classe d'appareil.",
-    "it": "Utilizza questa classe di dispositivi per gli apparecchi che non appartengono a nessun'altra classe di dispositivi."
+    "it": "Utilizza questa classe di dispositivi per gli apparecchi che non appartengono a nessun'altra classe di dispositivi.",
+    "sv": "Använd den här enhetsklassen för enheter som inte passar i någon annan enhetsklass.",
+    "no": "Bruk denne enhetsklassen for enheter som ikke passer inn i noen annen enhetsklasse."
   }
 }

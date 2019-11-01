@@ -4,12 +4,16 @@
     "nl": "Afstandsbediening",
     "de": "Fernbedienung",
     "fr": "Télécommande",
-    "it": "Telecomando"
+    "it": "Telecomando",
+    "sv": "Fjärrkontroll",
+    "no": "Fjernkontroll"
   },
   "description": {
     "en": "Use this device class for (TV/Sunblind/Keyfob etc.) remotes.",
     "de": "Nutze diese Geräteklasse für (TV/Jalousien/Schlüsselanhänger etc.)-Fernbedienungen.",
     "fr": "Utilisez cette classe d'appareil pour les télécommandes (TV/Stores/Porte-clés, etc.).",
-    "it": "Utilizza questa classe di dispositivi per i telecomandi (TV/Tapparelle/Portachiavi, ecc.)."
+    "it": "Utilizza questa classe di dispositivi per i telecomandi (TV/Tapparelle/Portachiavi, ecc.).",
+    "sv": "Använd den här enheten för fjärrkontroller för (TV/Markis/Nyckellås mm.).",
+    "no": "Bruk denne enheten for fjernkontroller for (TV/markise/smartnøkkel m.m.)."
   }
 }
