@@ -5,7 +5,9 @@
     "nl": "Thuisalarm status",
     "de": "Heim-Alarm-Status",
     "fr": "Etat de l'alarme de maison",
-    "it": "Stato dell'allarme domestico"
+    "it": "Stato dell'allarme domestico",
+    "sv": "Hemlarmsstatus",
+    "no": "Hjemmealarmstatus"
   },
   "values": [
     {
@@ -15,7 +17,9 @@
         "nl": "Geactiveerd",
         "de": "scharf",
         "fr": "Armé",
-        "it": "Attivato"
+        "it": "Attivato",
+        "sv": "Larmat",
+        "no": "Aktivert"
       }
     },
     {
@@ -25,7 +29,9 @@
         "nl": "Gedeactiveerd",
         "de": "unscharf",
         "fr": "Désarmé",
-        "it": "Disattivato"
+        "it": "Disattivato",
+        "sv": "Avlarmat",
+        "no": "Deaktivert"
       }
     },
     {
@@ -35,7 +41,9 @@
         "nl": "Deels geactiveerd",
         "de": "teilweise scharf",
         "fr": "Partiellement armé",
-        "it": "Parzialmente attivato"
+        "it": "Parzialmente attivato",
+        "sv": "Delvis larmat",
+        "no": "Delvis aktivert"
       }
     }
   ],
@@ -51,7 +59,9 @@
           "nl": "De status is veranderd",
           "de": "Der Status hat sich geändert",
           "fr": "L'état a été modifié",
-          "it": "Lo stato è cambiato"
+          "it": "Lo stato è cambiato",
+          "sv": "Statusen ändrad",
+          "no": "Statusen ble endret"
         },
         "args": [
           {
@@ -70,7 +80,9 @@
           "nl": "De status is !{{|niet}}",
           "de": "Der Status ist !{{|nicht}}",
           "fr": "L'état !{{est|n'est pas}}",
-          "it": "Lo stato è !{{|non}}"
+          "it": "Lo stato è !{{|non}}",
+          "sv": "Statusen är !{{|inte}}",
+          "no": "Statusen er !{{|ikke}}"
         },
         "args": [
           {
@@ -89,7 +101,9 @@
           "nl": "Zet de status",
           "de": "Status setzen",
           "fr": "Définir l'état",
-          "it": "Imposta stato"
+          "it": "Imposta stato",
+          "sv": "Ställ in status",
+          "no": "Innstill status"
         },
         "args": [
           {

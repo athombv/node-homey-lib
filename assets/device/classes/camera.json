@@ -4,13 +4,17 @@
     "nl": "Camera",
     "de": "Kamera",
     "fr": "Caméra",
-    "it": "Telecamera"
+    "it": "Telecamera",
+    "sv": "Kamera",
+    "no": "Kamera"
   },
   "description": {
     "en": "Security camera",
     "nl": "Beveiligingscamera",
     "de": "Überwachungskamera",
     "fr": "Caméra de sécurité",
-    "it": "Telecamera di sicurezza"
+    "it": "Telecamera di sicurezza",
+    "sv": "Säkerhetskamera",
+    "no": "Sikkehetskamera"
   }
 }

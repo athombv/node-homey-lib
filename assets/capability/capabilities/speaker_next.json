@@ -4,7 +4,9 @@
     "nl": "Volgende",
     "de": "Weiter",
     "fr": "Suivant",
-    "it": "Successivo"
+    "it": "Successivo",
+    "sv": "Nästa",
+    "no": "Neste"
   },
   "type": "boolean",
   "getable": false,
@@ -19,7 +21,9 @@
           "nl": "Volgende",
           "de": "Weiter",
           "fr": "Suivant",
-          "it": "Successivo"
+          "it": "Successivo",
+          "sv": "Nästa",
+          "no": "Neste"
         }
       }
     ]

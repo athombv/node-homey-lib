@@ -5,7 +5,9 @@
     "nl": "CO2 alarm",
     "de": "CO2-Alarm",
     "fr": "Alarme CO2",
-    "it": "Allarme CO2"
+    "it": "Allarme CO2",
+    "no": "CO2-alarm"
+
 
   },
   "desc": {
@@ -13,7 +15,9 @@
     "nl": "Gaat af bij gevaarlijke concentraties CO2 alarm",
     "de": "True, wenn gefährliche CO2-Werte erkannt wurden",
     "fr": "Vrai si des valeurs dangereuses de CO2 ont été détectées",
-    "it": "Vero quando sono stati rilevati valori pericolosi di CO2"
+    "it": "Vero quando sono stati rilevati valori pericolosi di CO2",
+    "no": "Sant når farlige CO2-verdier har blitt oppdaget"
+
 
   },
   "insights": true,
@@ -22,14 +26,18 @@
     "nl": "CO2 alarm ging af",
     "de": "CO2-Alarm ist angegangen",
     "fr": "L'alarme CO2 s'est activée",
-    "it": "Allarme CO2 attivato"
+    "it": "Allarme CO2 attivato",
+    "sv": "CO2-larm på",
+    "no": "CO2-alarm aktivert"
   },
   "insightsTitleFalse": {
     "en": "CO2 alarm turned off",
     "nl": "CO2 alarm ging uit",
     "de": "CO2-Alarm ist ausgegangen",
     "fr": "L'alarme CO2 s'est désactivée",
-    "it": "Allarme CO2 disattivato"
+    "it": "Allarme CO2 disattivato",
+    "sv": "CO2-larm av",
+    "no": "CO2-alarm deaktivert"
   },
   "getable": true,
   "setable": false,
@@ -43,7 +51,9 @@
           "nl": "Het CO2 alarm gaat aan",
           "de": "Der CO2-Alarm ist angegangen",
           "fr": "L'alarme CO2 s'est activée",
-          "it": "L'allarme CO2 è stato attivato"
+          "it": "L'allarme CO2 è stato attivato",
+          "sv": "CO2-larmet på",
+          "no": "CO2-alarmen er aktivert"
         }
       },
       {
@@ -53,8 +63,9 @@
           "nl": "Het CO2 alarm gaat uit",
           "de": "Der CO2-Alarm ist ausgegangen",
           "fr": "L'alarme CO2 s'est désactivée",
-          "it": "L'allarme CO2 è stato disattivato"
-
+          "it": "L'allarme CO2 è stato disattivato",
+          "sv": "CO2-larmet av",
+          "no": "CO2-alarmen er deaktivert"
         }
       }
     ],
@@ -66,7 +77,9 @@
           "nl": "Het CO2 alarm is !{{aan|uit}}",
           "de": "Der CO2-Alarm ist !{{an|aus}}",
           "fr": "L'alarme CO2 est !{{en marche|arrêtée}}",
-          "it": "L'allarme CO2 è !{{acceso|spento}}"
+          "it": "L'allarme CO2 è !{{acceso|spento}}",
+          "sv": "CO2-larmet är !{{på|av}}",
+          "no": "CO2-alarmen er !{{på|av}}"
         }
       }
     ]

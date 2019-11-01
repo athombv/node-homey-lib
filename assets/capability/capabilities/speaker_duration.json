@@ -4,7 +4,9 @@
     "nl": "Lengte",
     "de": "Länge", 
     "fr": "Durée",
-    "it": "Durata"
+    "it": "Durata",
+    "sv": "Längd",
+    "no": "Varighet"
   },
   "type": "number",
   "getable": true,

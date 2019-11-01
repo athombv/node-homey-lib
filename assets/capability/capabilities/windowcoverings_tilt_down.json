@@ -3,7 +3,9 @@
     "en": "Window Coverings Tilt Down",
     "de": "Jalousien nach unten gekippt",
     "fr": "Stores baissés",
-    "it": "Tapparelle abbassate"
+    "it": "Tapparelle abbassate",
+    "sv": "Fönsterskydd nedfällda",
+    "no": "Vindusbeskyttelser lukket"
   },
   "type": "boolean",
   "getable": false,

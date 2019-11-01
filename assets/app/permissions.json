@@ -5,7 +5,9 @@
             "nl": "Homey's locatie uitlezen",
             "de": "Homeys Standort lesen",
             "fr": "Lire la position de Homey",
-            "it": "Leggi la posizione di Homey"
+            "it": "Leggi la posizione di Homey",
+            "sv": "Läs av Homeys plats",
+            "no": "Les av Homeys posisjon"
         }
     },
     "homey:manager:ledring": {
@@ -14,7 +16,9 @@
             "nl": "Homey's LED ring besturen",
             "de": "Homeys LED-Ring steuern",
             "fr": "Contrôler l'anneau LED de Homey",
-            "it": "Controlla l'anello LED di Homey"    
+            "it": "Controlla l'anello LED di Homey",
+            "sv": "Kontrollera Homeys LED-ring",
+            "no": "Kontroller Homeys LED-ring"
         }
     },
     "homey:manager:media": {
@@ -23,7 +27,9 @@
             "nl": "Homey's Muziek besturen",
             "de": "Homeys Musik steuern",
             "fr": "Contrôler la musique de Homey",
-            "it": "Controlla la musica di Homey"
+            "it": "Controlla la musica di Homey",
+            "sv": "Styr Homeys musik",
+            "no": "Kontroller Homeys musikk"
         }
     },
     "homey:manager:speech-input": {
@@ -32,7 +38,9 @@
             "nl": "Reageren op spraak",
             "de": "Auf Sprache reagieren",
             "fr": "Réagir au discours",
-            "it": "Reagisci al parlato"
+            "it": "Reagisci al parlato",
+            "sv": "Reagera på tal",
+            "no": "Reager på tale"
         }
     },
     "homey:manager:speech-output": {
@@ -41,7 +49,9 @@
             "nl": "Homey laten praten",
             "de": "Homey sprechen lassen",
             "fr": "Laisser Homey parler",
-            "it": "Permetti a Homey di parlare"
+            "it": "Permetti a Homey di parlare",
+            "sv": "Låt Homey prata",
+            "no": "La Homey snakke"
         }
     },
     "homey:wireless:433": {
@@ -50,7 +60,9 @@
             "nl": "Verzenden en ontvangen op de 433 MHz frequentie",
             "de": "Auf der 433MHz-Frequenz senden und empfangen",
             "fr": "Envoyer et recevoir sur la fréquence 433 MHz",
-            "it": "Invia e ricevi sulla frequenza 433 MHz"
+            "it": "Invia e ricevi sulla frequenza 433 MHz",
+            "sv": "Skicka och ta emot på frekvensen 433 MHz",
+            "no": "Send og motta på frekvensen 433 MHz"
         }
     },
     "homey:wireless:868": {
@@ -59,7 +71,9 @@
             "nl": "Verzenden en ontvangen op de 868 MHz frequentie",
             "de": "Auf der 868MHz-Frequenz senden und empfangen",
             "fr": "Envoyer et recevoir sur la fréquence 868 MHz",
-            "it": "Invia e ricevi sulla frequenza 868 MHz"
+            "it": "Invia e ricevi sulla frequenza 868 MHz",
+            "sv": "Skicka och ta emot på frekvensen 468 MHz",
+            "no": "Send og motta på frekvensen 468 MHz"
         }
     },
     "homey:wireless:ir": {
@@ -68,7 +82,9 @@
             "nl": "Infrarood verzenden en ontvangen",
             "de": "Infrarot senden und empfangen",
             "fr": "Envoyer et recevoir en infrarouge",
-            "it": "Invia e ricevi in infrarossi"
+            "it": "Invia e ricevi in infrarossi",
+            "sv": "Skicka och ta emot infrarött",
+            "no": "Send og motta infrarødt"
         }
     },
     "homey:wireless:zwave": {
@@ -77,7 +93,9 @@
             "nl": "Z-Wave verzenden en ontvangen voor specifieke apparaten",
             "de": "Z-Wave für spezifische Geräte senden und empfangen",
             "fr": "Envoyer et recevoir Z-Wave pour les appareils spécifiques",
-            "it": "Invia e ricevi Z-Wave per dispositivi specifici"
+            "it": "Invia e ricevi Z-Wave per dispositivi specifici",
+            "sv": "Skicka och ta emot Z-Wave för specifika enheter",
+            "no": "Send og motta Z-Wave for spesifikke enheter"
         }
     },
     "homey:wireless:zigbee": {
@@ -86,7 +104,9 @@
             "nl": "Zigbee verzenden en ontvangen voor specifieke apparaten",
             "de": "Zigbee für spezifische Geräte senden und empfangen",
             "fr": "Envoyer et recevoir Zigbee pour les appareils spécifiques",
-            "it": "Invia e ricevi Zigbee per dispositivi specifici"
+            "it": "Invia e ricevi Zigbee per dispositivi specifici",
+            "sv": "Skicka och ta emot ZigBee för specifika enheter",
+            "no": "Send og motta ZigBee for spesifikke enheter"
         }
     },
     "homey:wireless:nfc": {
@@ -95,7 +115,9 @@
             "nl": "NFC tags lezen en schrijven",
             "de": "NFC-Tags lesen und schreiben",
             "fr": "Lire et écrire les tags NFC",
-            "it": "Leggi e scrivi i tag NFC"
+            "it": "Leggi e scrivi i tag NFC",
+            "sv": "Läs och skriv NFC-taggar",
+            "no": "Les og skriv NFC-tagger"
         }
     },
     "homey:manager:api": {
@@ -104,7 +126,9 @@
             "nl": "Volledige toegang tot Homey om alles te bedienen namens de gebruiker",
             "de": "Erhalte vollen Zugriff auf Homey, um alles im Namen des Benutzers zu steuern",
             "fr": "Obtenir l'accès complet à Homey pour contrôler tout au nom de l'utilisateur",
-            "it": "Ottieni l'accesso completo a Homey per controllare tutto a nome dell'utente"
+            "it": "Ottieni l'accesso completo a Homey per controllare tutto a nome dell'utente",
+            "sv": "Få full åtkomst till Homey för att styra allt åt användaren",
+            "no": "Få full tilgang til Homey for å kontrollere alt på vegne av brukeren"
         }
     },
     "homey:wireless:ble": {
@@ -113,7 +137,9 @@
             "nl": "Communiceren met Bluetooth Low Energy apparaten",
             "de": "Mit Bluetooth-Low-Energy-Geräten kommunizieren",
             "fr": "Communiquer avec les appareils Bluetooth à faible énergie",
-            "it": "Comunica con i dispositivi Bluetooth Low Energy"
+            "it": "Comunica con i dispositivi Bluetooth Low Energy",
+            "sv": "Kommunicera med Bluetooth låg energi-enheter",
+            "no": "Kommuniser med Bluetooth Low Energy-enheter"
         }
     }
 }

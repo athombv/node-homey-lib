@@ -4,18 +4,24 @@
     "nl": "TV",
     "de": "TV",
     "fr": "TV",
-    "it": "TV"
+    "it": "TV",
+    "sv": "TV",
+    "no": "TV"
   },
   "description": {
     "en": "Use this device class for TVs.",
     "de": "Nutze diese Geräteklasse für TVs",
     "fr": "Utilisez cette classe d'appareil pour les TV",
-    "it": "Utilizza questa classe di dispositivi per i televisori."
+    "it": "Utilizza questa classe di dispositivi per i televisori.",
+    "sv": "Använd den här enhetsklassen för TV-apparater.",
+    "no": "Bruk denne enhetsklassen for TV-apparater."
   },
   "$speechAlternatives": {
     "en": [ "tvs", "televisions", "television", "tv" ],
     "nl": [ "tv's", "televisie", "televisies", "tv" ],
     "fr": [ "tv", "télévisions", "téléviseurs" ],
-    "it": [ "tv", "televisione", "televisore" ]
+    "it": [ "tv", "televisione", "televisore" ],
+    "sv": [ "tv-apparater", "television", "tv" ],
+    "no": [ "tv-apparater", "fjernsyn", "tv" ]
   }
 }

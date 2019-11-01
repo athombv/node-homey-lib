@@ -4,12 +4,16 @@
     "nl": "Deurbel",
     "de": "Türklingel",
     "fr": "Sonnette",
-    "it": "Campanello"
+    "it": "Campanello",
+    "sv": "Dörrklocka",
+    "no": "Dørklokke"
   },
   "description": {
     "en": "Use this device class for doorbells, usually together with the `button` capability.",
     "de": "Nutze diese Geräteklasse für Türklingeln - normalerweise zusammen mit der 'button'-Fähigkeit.",
     "fr": "Utilisez cette classe d'appareil pour les sonnettes, habituellement avec la capacité de `bouton`.",
-    "it": "Utilizza questa classe di dispositivi per i campanelli, di solito insieme alla funzione `pulsante`."
+    "it": "Utilizza questa classe di dispositivi per i campanelli, di solito insieme alla funzione `pulsante`.",
+    "sv": "Använd den här enhetsklassen för dörrklockor, oftast tillsammans med `knapp`-funktionen.",
+    "no": "Bruk denne enhetsklassen for dørklokker, ofte sammen med `knapp`-funksjonen."
   }
 }
