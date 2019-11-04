@@ -638,6 +638,10 @@
       "type": "string",
       "pattern": "^(https://|mailto:)"
     },
+    "source": {
+      "type": "string",
+      "pattern": "^https://"
+    },
     "athomForumDiscussionId": {
       "type": "number"
     },
