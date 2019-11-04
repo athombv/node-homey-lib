@@ -629,6 +629,14 @@
         }
       }
     },
+    "homepage": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "support": {
+      "type": "string",
+      "pattern": "^(https://|mailto:)"
+    },
     "athomForumDiscussionId": {
       "type": "number"
     },
