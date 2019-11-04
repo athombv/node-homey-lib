@@ -625,7 +625,8 @@
       "type": "object",
       "properties": {
         "url": {
-          "type": "string"
+          "type": "string",
+          "pattern": "^https?://"
         }
       }
     },
@@ -636,6 +637,10 @@
     "support": {
       "type": "string",
       "pattern": "^(https://|mailto:)"
+    },
+    "source": {
+      "type": "string",
+      "pattern": "^https://"
     },
     "athomForumDiscussionId": {
       "type": "number"
