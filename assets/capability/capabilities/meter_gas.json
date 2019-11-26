@@ -7,7 +7,9 @@
     "fr": "Compteur de gaz",
     "it": "Contatore del gas",
     "sv": "Gasmätare",
-    "no": "Gassmåler"
+    "no": "Gassmåler",
+    "es": "Contador de gas",
+    "da": "Gasmåler"  
   },
   "min": 0,
   "decimals": 2,
@@ -22,7 +24,9 @@
     "fr": "Consommation de gaz en mètres cubes (m³)",
     "it": "Consumo di gas in metri cubi (m³)",
     "sv": "Gasanvändning i kubikmeter (m³)",
-    "no": "Gassforbruk i kubikkmeter (m³)"
+    "no": "Gassforbruk i kubikkmeter (m³)",
+    "es": "Consumo de gas en metros cúbicos (m³)",
+    "da": "Gasforbrug i kubikmeter (m³)"  
   },
   "insights": true,
   "getable": true,
@@ -39,7 +43,9 @@
           "fr": "Le compteur de gaz a changé",
           "it": "Il contatore del gas è cambiato",
           "sv": "Gasmätaren ändrades",
-          "no": "Gassmåleren ble endret"
+          "no": "Gassmåleren ble endret",
+          "es": "El contador de gas ha cambiado",
+          "da": "Gasmåleren ændrede sig"    
         },
         "tokens": [
           {

@@ -7,7 +7,9 @@
     "fr": "Batterie",
     "it": "Batteria",
     "sv": "Batteri",
-    "no": "Batteri"
+    "no": "Batteri",
+    "es": "Batería",
+    "da": "Batteri"  
   },
   "units": {
     "en": "%"
@@ -22,7 +24,9 @@
     "fr": "Pourcentage de charge de la batterie (%)",
     "it": "Percentuale di carica della batteria (%)",
     "sv": "Batteriladdning i procent (%)",
-    "no": "Batterilading i prosent (%)"
+    "no": "Batterilading i prosent (%)",
+    "es": "Carga de la batería en porcentaje (%)",
+    "da": "Batteriniveau i procent (%)"  
   },
   "chartType": "spline",
   "decimals": 2,
@@ -40,7 +44,9 @@
           "fr": "Le niveau de la batterie a changé",
           "it": "Il livello della batteria è cambiato",
           "sv": "Batterinivån ändrades",
-          "no": "Batterinivået ble endret"
+          "no": "Batterinivået ble endret",
+          "es": "El nivel de la batería ha cambiado",
+          "da": "Batteriniveauet har ændret sig"    
         },
         "tokens": [
           {

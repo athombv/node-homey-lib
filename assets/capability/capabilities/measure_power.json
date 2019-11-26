@@ -7,7 +7,9 @@
     "fr": "Energie",
     "it": "Energia",
     "sv": "Ström",
-    "no": "Strøm"
+    "no": "Strøm",
+    "es": "Potencia",
+    "da": "Strøm"  
   },
   "units": {
     "en": "W"
@@ -20,7 +22,9 @@
     "fr": "Energie en Watt (W)",
     "it": "Energia in Watt (W)",
     "sv": "Ström i watt (W)",
-    "no": "Strøm i watt (W)"
+    "no": "Strøm i watt (W)",
+    "es": "Potencia en vatios (W)",
+    "da": "Strøm i Watt (W)"    
   },
   "options": {
     "isApproximated": {
@@ -46,7 +50,9 @@
         "fr": "L'énergie a changé",
         "it": "L'energia è cambiata",
         "sv": "Strömmen ändrades",
-        "no": "Strømmen ble endret"
+        "no": "Strømmen ble endret",
+        "es": "La potencia ha cambiado",
+        "da": "Strømmen ændrede sig"   
       },
       "tokens": [{
         "name": "$id",

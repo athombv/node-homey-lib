@@ -7,7 +7,8 @@
     "fr": "CO2",
     "it": "CO2",
     "sv": "CO2",
-    "no": "CO2"
+    "no": "CO2",
+    "da": "CO2"  
   },
   "units": {
     "en": "ppm"
@@ -20,7 +21,9 @@
     "fr": "Niveau de CO2 en parts par million (ppm)",
     "it": "Livello di CO2 in parti per milione (ppm)",
     "sv": "CO2 i partiklar-per-miljon (ppm)",
-    "no": "CO2 i partikler per million (ppm)"
+    "no": "CO2 i partikler per million (ppm)",
+    "es": "CO2 en partes por millón (ppm)",
+    "da": "CO2 i partikler-per-million (ppm)"  
   },
   "chartType": "spline",
   "decimals": 2,
@@ -38,7 +41,9 @@
           "fr": "Le niveau de CO2 a changé",
           "it": "Il livello di CO2 è cambiato",
           "sv": "CO2-nivån ändrades",
-          "no": "CO2-nivet ble endret"
+          "no": "CO2-nivet ble endret",
+          "es": "El nivel de CO2 ha cambiado",
+          "da": "CO2-niveauet har ændret sig"    
         },
         "tokens": [
           {

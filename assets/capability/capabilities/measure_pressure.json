@@ -7,7 +7,9 @@
     "fr": "Pression",
     "it": "Pressione",
     "sv": "Tryck",
-    "no": "Trykk"
+    "no": "Trykk",
+    "es": "Presión",
+    "da": "Tryk"   
   },
   "units": {
     "en": "mbar"
@@ -20,7 +22,9 @@
     "fr": "Pression en millibar (mbar)",
     "it": "Pressione in millibar (mbar)",
     "sv": "Tryck i millibar (mbar)",
-    "no": "Trykk i millibar (mbar)"
+    "no": "Trykk i millibar (mbar)",
+    "es": "Presión en milibares (mbar)",
+    "da": "Tryk i millibar (mbar)"   
   },
   "chartType": "spline",
   "decimals": 2,
@@ -38,7 +42,9 @@
           "fr": "La pression a changé",
           "it": "La pressione è cambiata",
           "sv": "Trycket ändrades",
-          "no": "Trykket ble endret"
+          "no": "Trykket ble endret",
+          "es": "La presión ha cambiado",
+          "da": "Trykkey ændrede sig"     
         },
         "tokens": [
           {

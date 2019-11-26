@@ -6,7 +6,9 @@
     "fr": "Etat des stores",
     "it": "Stato delle tapparelle",
     "sv": "Status för fönsterskydd",
-    "no": "Status for vindusbeskyttelse"
+    "no": "Status for vindusbeskyttelse",
+    "es": "Estado de los cobertores de ventanas",
+    "da": "Status for vinduesdække"  
   },
   "type": "enum",
   "values": [
@@ -19,7 +21,9 @@
         "fr": "Haut",
         "it": "Alzate",
         "sv": "Upp",
-        "no": "Opp"
+        "no": "Opp",
+        "es": "Arriba",
+        "da": "Oppe"  
       }
     },
     {
@@ -31,7 +35,9 @@
         "fr": "Inactif",
         "it": "Socchiuse",
         "sv": "Inaktiv",
-        "no": "Ikke aktiv"
+        "no": "Ikke aktiv",
+        "es": "Inactivos",
+        "da": "Inaktiv"  
       }
     },
     {
@@ -43,7 +49,9 @@
         "fr": "Bas",
         "it": "Abbassate",
         "sv": "Ned",
-        "no": "Ned"
+        "no": "Ned",
+        "es": "Abajo",
+        "da": "Nede"  
       }
     }
   ],
@@ -61,7 +69,9 @@
           "fr": "L'état a été modifié",
           "it": "Lo stato è cambiato",
           "sv": "Status ändrades",
-          "no": "Status ble endret"
+          "no": "Status ble endret",
+          "es": "El estado ha cambiado",
+          "da": "Status blev ændret"    
         },
         "args": [
           {
@@ -82,7 +92,9 @@
           "fr": "L'état !{{est|n' est pas}}",
           "it": "Lo stato !{{è|non è}}",
           "sv": "Status är !{{|inte}}",
-          "no": "Status er !{{|ikke}}"
+          "no": "Status er !{{|ikke}}",
+          "es": "El estado !{{|no}} es",
+          "da": "Status er !{{|ikke}}"    
         },
         "args": [
           {
@@ -103,7 +115,9 @@
           "fr": "Définir l'état",
           "it": "Imposta lo stato",
           "sv": "Ställ in status",
-          "no": "Innstill status"
+          "no": "Innstill status",
+          "es": "Configurar estado",
+          "da": "Indstil status"    
         },
         "args": [
           {

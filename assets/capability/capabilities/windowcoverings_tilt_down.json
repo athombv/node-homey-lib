@@ -1,12 +1,13 @@
 {
   "title": {
     "en": "Window Coverings Tilt Down",
-    "nl": "Jaloezieën omlaag kantelen",
     "de": "Jalousien nach unten gekippt",
     "fr": "Stores baissés",
     "it": "Tapparelle abbassate",
     "sv": "Fönsterskydd nedfällda",
-    "no": "Vindusbeskyttelser lukket"
+    "no": "Vindusbeskyttelser lukket",
+    "es": "Cobertores de ventanas inclinados hacia abajo",
+    "da": "Vinduesdække nedad"   
   },
   "type": "boolean",
   "getable": false,

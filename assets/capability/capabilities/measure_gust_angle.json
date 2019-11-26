@@ -7,7 +7,9 @@
     "fr": "Direction d'un coup de vent",
     "it": "Angolo delle raffiche",
     "sv": "Vindriktning",
-    "no": "Vindretning"
+    "no": "Vindretning",
+    "es": "Dirección del aire",
+    "da": "Vindretning"  
   },
   "units": {
     "en": "°"
@@ -20,7 +22,9 @@
     "fr": "Direction du coup de vent en degrés (°)",
     "it": "Angolo delle raffiche in gradi (°)",
     "sv": "Vindriktning i grader (°)",
-    "no": "Vindretning i grader (°)"
+    "no": "Vindretning i grader (°)",
+    "es": "Dirección del aire en grados (°)",
+    "da": "Vindretning i grader (°)"  
   },
   "chartType": "stepLine",
   "decimals": 2,
@@ -38,7 +42,9 @@
           "fr": "Direction du coup de vent a changé",
           "it": "L'angolo delle raffiche è cambiato",
           "sv": "Vindriktningen har ändrats",
-          "no": "Vindretningen er endret"
+          "no": "Vindretningen er endret",
+          "es": "La dirección del aire ha cambiado",
+          "da": "Vindretningen skiftede"    
         },
         "tokens": [
           {

@@ -6,7 +6,9 @@
     "fr": "Baisser le volume",
     "it": "Volume abbassato",
     "sv": "Volym ned",
-    "no": "Volum ned"
+    "no": "Volum ned",
+    "es": "Bajar volumen",
+    "da": "Ned for lyden"  
   },
   "type": "boolean",
   "getable": false,
@@ -22,7 +24,9 @@
         "fr": "Baisser le son",
         "it": "Abbassa il volume",
         "sv": "Sänk volymen",
-        "no": "Senk volumet"
+        "no": "Senk volumet",
+        "es": "Bajar el volumen",
+        "da": "Skru ned for lyden"  
       }
     }]
   },

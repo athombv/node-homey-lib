@@ -7,7 +7,8 @@
     "fr": "Bruit",
     "it": "Rumore",
     "sv": "Buller",
-    "no": "Støy"
+    "no": "Støy",
+    "es": "Ruido"
   },
   "units": {
     "en": "dB"
@@ -20,7 +21,9 @@
     "fr": "Bruit en Decibel (dB)",
     "it": "Rumore in Decibel (db)",
     "sv": "Buller i decibel (db)",
-    "no": "Støy i decibel (db)"
+    "no": "Støy i decibel (db)",
+    "es": "Ruido en decibelios (dB)",
+    "da": "Støj i decibel (db)"  
   },
   "chartType": "spline",
   "decimals": 2,
@@ -38,7 +41,9 @@
           "fr": "Le bruit a changé",
           "it": "Il rumore è cambiato",
           "sv": "Bullret ändrades",
-          "no": "Støyen ble endret"
+          "no": "Støyen ble endret",
+          "es": "El ruido ha cambiado",
+          "da": "Støjniveauet ændrede sig"    
         },
         "tokens": [
           {

@@ -6,7 +6,9 @@
     "fr": "Etat de l'aspirateur",
     "it": "Stato dell'aspirapolvere",
     "sv": "Dammsugarstatus",
-    "no": "Støvsugerstatus"
+    "no": "Støvsugerstatus",
+    "es": "Modo de la aspiradora",
+    "da": "Støvsugerstatus"  
   },
   "values": [{
     "id": "cleaning",
@@ -17,7 +19,9 @@
       "fr": "Aspirer",
       "it": "Pulizia in corso",
       "sv": "Städning",
-      "no": "Rengjøring"
+      "no": "Rengjøring",
+      "es": "Aspirando",
+      "da": "Støvsuger"    
     }
   },
     {
@@ -29,7 +33,9 @@
         "fr": "Détacher",
         "it": "Pulizia delle macchie",
         "sv": "Områdesstädning",
-        "no": "Områderengjøring"
+        "no": "Områderengjøring",
+        "es": "Aspirando un punto concreto",
+        "da": "Områdestøvsugning"  
       }
     },
     {
@@ -41,7 +47,9 @@
         "fr": "Connecté à la base",
         "it": "Connesso alla base",
         "sv": "Dockad",
-        "no": "I ladestasjon"
+        "no": "I ladestasjon",
+        "es": "En la estación de carga",
+        "da": "I ladestation"  
       }
     },
     {
@@ -53,7 +61,9 @@
         "fr": "En charge",
         "it": "In carica",
         "sv": "Laddar",
-        "no": "Lader"
+        "no": "Lader",
+        "es": "Cargando",
+        "da": "Lader"  
       }
     },
     {
@@ -65,7 +75,9 @@
         "fr": "Arrêté",
         "it": "Fermo",
         "sv": "Stoppad",
-        "no": "Stanset"
+        "no": "Stanset",
+        "es": "Detenida",
+        "da": "Stoppet"  
       }
     }
   ],
@@ -82,7 +94,9 @@
         "fr": "L'état est passé à...",
         "it": "Lo stato è cambiato in...",
         "sv": "Status ändrad till...",
-        "no": "Status endret til ..."
+        "no": "Status endret til ...",
+        "es": "El estado ha cambiado a...",
+        "da": "Status er ændret til..."  
       },
       "args": [{
         "name": "state",
@@ -99,7 +113,9 @@
         "fr": "L'aspirateur !{{est|n'est pas}}...",
         "it": "L'aspirapolvere !{{è|non è}}...",
         "sv": "Dammsugaren !{{är|är inte}}...",
-        "no": "Støvsugeren !{{er|er ikke}}..."
+        "no": "Støvsugeren !{{er|er ikke}}...",
+        "es": "La aspiradora !{{está|no está}}...",
+        "da": "Støvsugeren !{{er|er ikke}}..."  
       },
       "args": [{
         "name": "state",
@@ -116,7 +132,9 @@
         "fr": "Commencer le nettoyage",
         "it": "Avvia la pulizia",
         "sv": "Börja städa",
-        "no": "Begynn rengjøring"
+        "no": "Begynn rengjøring",
+        "es": "Comenzar a aspirar",
+        "da": "Begynd at støvsuge"  
       }
     },
       {
@@ -128,7 +146,9 @@
           "fr": "Commencer le détachage",
           "it": "Avvia la pulizia delle macchie",
           "sv": "Starta områdesstädning",
-          "no": "Begynn områderengjøring"
+          "no": "Begynn områderengjøring",
+          "es": "Comenzar a aspirar un punto concreto",
+          "da": "Begynd at områdestøvsuge"    
         }
       },
       {
@@ -140,7 +160,9 @@
           "fr": "Retourner à la base",
           "it": "Ritorna alla base",
           "sv": "Återgå till docka",
-          "no": "Gå tilbake til ladestasjon"
+          "no": "Gå tilbake til ladestasjon",
+          "es": "Volver a la estación de carga",
+          "da": "Vend tilbage til ladestationen"    
         }
       },
       {
@@ -152,7 +174,9 @@
           "fr": "Arrêter",
           "it": "Arresta",
           "sv": "Stopp",
-          "no": "Stans"
+          "no": "Stans",
+          "es": "Detener",
+          "da": "Stop"    
         }
       }
     ]
