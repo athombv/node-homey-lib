@@ -6,7 +6,9 @@
     "fr": "Augmenter le volume",
     "it": "Volume alzato",
     "sv": "Volym upp",
-    "no": "Volum opp"
+    "no": "Volum opp",
+    "es": "Subir volumen",
+    "da": "Op for lyden"  
   },
   "type": "boolean",
   "getable": false,
@@ -22,7 +24,9 @@
         "fr": "Augmenter le son",
         "it": "Alza il volume",
         "sv": "Vrid upp volymen",
-        "no": "Skru opp volumet"
+        "no": "Skru opp volumet",
+        "es": "Subir el volumen",
+        "da": "Skru op for lyden"  
       }
     }]
   },

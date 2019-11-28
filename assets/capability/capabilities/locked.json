@@ -7,7 +7,9 @@
     "fr": "Verrouillé",
     "it": "Chiusa",
     "sv": "Låst",
-    "no": "Låst"
+    "no": "Låst",
+    "es": "Cerrada",
+    "da": "Låst"  
   },
   "desc": {
     "en": "True when the lock is locked",
@@ -16,7 +18,9 @@
     "fr": "Vrai, si le verrou est verrouillé",
     "it": "Vero quando la serratura è chiusa",
     "sv": "Sant när låset är låst",
-    "no": "Sant når låsen er låst"
+    "no": "Sant når låsen er låst",
+    "es": "Verdadero cuando la cerradura está cerrada",
+    "da": "Sandt, når låsen er låst"  
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -26,7 +30,9 @@
     "fr": "Verrouillé",
     "it": "Chiusa",
     "sv": "Låst",
-    "no": "Låst"
+    "no": "Låst",
+    "es": "Cerrada",
+    "da": "Låst"  
   },
   "insightsTitleFalse": {
     "en": "Unlocked",
@@ -35,7 +41,9 @@
     "fr": "Déverrouillé",
     "it": "Aperta",
     "sv": "Olåst",
-    "no": "Ulåst"
+    "no": "Ulåst",
+    "es": "Abierta",
+    "da": "Ulåst"  
   },
   "getable": true,
   "setable": true,
@@ -50,7 +58,9 @@
           "fr": "Un verrou vient de se verrouiller",
           "it": "Una serratura appena chiusa",
           "sv": "Ett lås låstes precis",
-          "no": "En lås ble nettopp låst"
+          "no": "En lås ble nettopp låst",
+          "es": "Se ha cerrado una cerradura",
+          "da": "En lås er lige blevet låst"    
         }
       },
       {
@@ -62,7 +72,9 @@
           "fr": "Un verrou vient de se déverrouiller",
           "it": "Una serratura appena aperta",
           "sv": "Ett lås låstes precis upp",
-          "no": "En lås ble nettopp låst opp"
+          "no": "En lås ble nettopp låst opp",
+          "es": "Se ha abierto una cerradura",
+          "da": "En lås er lige blevet låst op"    
         }
       }
     ],
@@ -75,7 +87,9 @@
         "fr": "Un verrou est !{{verrouillé|déverrouillé}}",
         "it": "Una serratura è !{{chiusa|aperta}}",
         "sv": "Ett lås är !{{låst|olåst}}",
-        "no": "En lås er !{{låst|ulåst}}"
+        "no": "En lås er !{{låst|ulåst}}",
+        "es": "Una cerradura está !{{cerrada|abierta}}",
+        "da": "En lås er blevet !{{låst|låst op}}"   
       }
     }],
     "actions": [{
@@ -87,7 +101,10 @@
           "fr": "Verrouiller",
           "it": "Chiudi",
           "sv": "Lås",
-          "no": "Lås"
+          "no": "Lås",
+          "es": "Cerrar",
+          "da": "Lås"    
+              
         }
       },
       {
@@ -99,7 +116,9 @@
           "fr": "Déverrouiller",
           "it": "Apri",
           "sv": "Lås upp",
-          "no": "Lås opp"
+          "no": "Lås opp",
+          "es": "Abrir",
+          "da": "Lås op"    
         }
       }
     ]

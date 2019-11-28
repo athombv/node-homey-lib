@@ -6,7 +6,9 @@
     "fr": "Lire",
     "it": "In riproduzione",
     "sv": "Spelas",
-    "no": "Avspilles"
+    "no": "Avspilles",
+    "es": "Reproduciendo",
+    "da": "Spiller"   
   },
   "type": "boolean",
   "getable": true,
@@ -24,7 +26,9 @@
           "fr": "!{{Est|N'est pas}} en cours de lecture",
           "it": "!{{È|Non è}} in riproduzione",
           "sv": "Spelas !{{|inte}}",
-          "no": "Avspilles !{{|ikke}}"
+          "no": "Avspilles !{{|ikke}}",
+          "es": "!{{Se está|No se está}} reproduciendo",
+          "da": "Spiller !{{|ikke}}"     
         }
       }
     ],
@@ -38,7 +42,9 @@
           "fr": "Lire",
           "it": "Riproduci",
           "sv": "Spela",
-          "no": "Spill av"
+          "no": "Spill av",
+          "es": "Reproducir",
+          "da": "Afspil"    
         }
       },
       {
@@ -50,7 +56,9 @@
           "fr": "Pause",
           "it": "Pausa",
           "sv": "Pausa",
-          "no": "Pause"
+          "no": "Pause",
+          "es": "Pausa",
+          "da": "Pause"    
         }
       },
       {
@@ -62,7 +70,9 @@
           "fr": "Alterner Lire/Pause",
           "it": "Alterna riproduzione/pausa",
           "sv": "Växla spela/pausa",
-          "no": "Veksle mellom avspilling/pause"
+          "no": "Veksle mellom avspilling/pause",
+          "es": "Reproducir/Pausar",
+          "da": "Skift mellem Afspil/Pause"    
         }
       }
     ]

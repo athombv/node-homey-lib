@@ -7,7 +7,9 @@
     "fr": "Alarme mouvement",
     "it": "Allarme di movimento",
     "sv": "Rörelselarm",
-    "no": "Bevegelsesalarm"
+    "no": "Bevegelsesalarm",
+    "es": "Alarma de movimiento",
+    "da": "Bevægelsesalarm"    
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -17,7 +19,9 @@
     "fr": "Alarme mouvement s'est déclenchée",
     "it": "Allarme di movimento attivato",
     "sv": "Rörelselarm aktiverat",
-    "no": "Bevegelsesalarm aktivert"
+    "no": "Bevegelsesalarm aktivert",
+    "es": "Alarma de movimiento activada",
+    "da": "Bevægelsesalarm blev aktiveret"  
   },
   "insightsTitleFalse": {
     "en": "Motion alarm turned off",
@@ -26,7 +30,9 @@
     "fr": "Alarme mouvement s'est désactivée",
     "it": "Allarme di movimento disattivato",
     "sv": "Rörelselarm inaktiverat",
-    "no": "Bevegelsesalarm deaktivert"
+    "no": "Bevegelsesalarm deaktivert",
+    "es": "Alarma de movimiento desactivada",
+    "da": "Bevægelsesalarm blev deaktiveret"   
   },
   "getable": true,
   "setable": false,
@@ -42,7 +48,9 @@
           "fr": "L'alarme mouvement s'est activée",
           "it": "L'allarme di movimento è stato attivato",
           "sv": "Rörelselarmet aktiverat",
-          "no": "Bevegelsesalarmen aktivert"
+          "no": "Bevegelsesalarmen aktivert",
+          "es": "La alarma de movimiento se ha activado",
+          "da": "Bevægelsesalarmen blev aktiveret"      
         }
       },
       {
@@ -54,7 +62,9 @@
           "fr": "L'alarme mouvement s'est désactivée",
           "it": "L'allarme di movimento è stato disattivato",
           "sv": "Rörelselarmet inaktiverat",
-          "no": "Bevegelsesalarmen deaktivert"
+          "no": "Bevegelsesalarmen deaktivert",
+          "es": "La alarma de movimiento se ha desactivado",
+          "da": "Bevægelsesalarmen blev deaktiveret"      
         }
       }
     ],
@@ -68,7 +78,9 @@
           "fr": "L'alarme mouvement est !{{en marche|arrêtée}}",
           "it": "L'allarme di movimento è !{{acceso|spento}}",
           "sv": "Rörelselarmet är !{{på|av}}",
-          "no": "Bevegelsesalarmen er !{{på|av}}"
+          "no": "Bevegelsesalarmen er !{{på|av}}",
+          "es": "La alarma de movimiento está !{{activada|desactivada}}",
+          "da": "Bevægelsesalarmen er !{{tændt|slukket}}"      
         }
       }
     ]

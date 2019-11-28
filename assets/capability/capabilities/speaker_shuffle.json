@@ -5,7 +5,9 @@
     "fr": "Aléatoire",
     "it": "Ordine casuale",
     "sv": "Blanda",
-    "no": "Tilfeldig rekkefølge"
+    "no": "Tilfeldig rekkefølge",
+    "es": "Aleatorio",
+    "da": "Shuffle"  
   },
   "type": "boolean",
   "getable": true,
@@ -22,7 +24,9 @@
           "fr": "Aléatoire activée",
           "it": "Ordine casuale attivato",
           "sv": "Blanda på",
-          "no": "Tilfeldig rekkefølge på"
+          "no": "Tilfeldig rekkefølge på",
+          "es": "Orden aleatorio activado",
+          "da": "Shufflet slået til"    
         }
       },
       {
@@ -34,7 +38,9 @@
           "fr": "Aléatoire désactivée",
           "it": "Ordine casuale disattivato",
           "sv": "Blanda av",
-          "no": "Tilfeldig rekkefølge av"
+          "no": "Tilfeldig rekkefølge av",
+          "es": "Orden aleatorio desactivado",
+          "da": "Shuffle slået fra"    
         }
       }
     ]

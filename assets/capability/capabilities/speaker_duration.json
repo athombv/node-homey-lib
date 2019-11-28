@@ -6,7 +6,9 @@
     "fr": "Durée",
     "it": "Durata",
     "sv": "Längd",
-    "no": "Varighet"
+    "no": "Varighet",
+    "es": "Duración",
+    "da": "Varighed"   
   },
   "type": "number",
   "getable": true,

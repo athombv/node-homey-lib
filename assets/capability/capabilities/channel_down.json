@@ -6,7 +6,11 @@
     "fr": "Chane bas",
     "it": "Canale verso il basso",
     "sv": "Kanal ned",
-    "no": "Lavere kanal"
+    "no": "Lavere kanal",
+    "es": "Bajar de canal",
+    "da": "Kanal ned"   
+
+
   },
   "type": "boolean",
   "getable": false,
@@ -22,7 +26,9 @@
           "fr": "Une châine vers le bas",
           "it": "Un canale verso il basso",
           "sv": "En kanal ned",
-          "no": "En kanal lavere"
+          "no": "En kanal lavere",
+          "es": "Un canal más abajo",
+          "da": "En kanal ned"     
         }
       }
     ]

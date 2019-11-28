@@ -7,7 +7,9 @@
     "fr": "Alarme générique",
     "it": "Allarme generico",
     "sv": "Generiskt larm",
-    "no": "Generell alarm"
+    "no": "Generell alarm",
+    "es": "Alarma general",
+    "da": "Generisk alarm"  
   },
   "desc": {
     "en": "Generic alarm",
@@ -16,7 +18,9 @@
     "fr": "Alarme générique",
     "it": "Allarme generico",
     "sv": "Generiskt larm",
-    "no": "Generell alarm"
+    "no": "Generell alarm",
+    "es": "Alarma general",
+    "da": "Generisk alarm"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -26,7 +30,9 @@
     "fr": "Alarme générique s'est activée",
     "it": "Allarme generico attivato",
     "sv": "Generiskt larm aktiverat",
-    "no": "Generell alarm aktivert"
+    "no": "Generell alarm aktivert",
+    "es": "Alarma general activada",
+    "da": "Generisk alarm blev aktiveret"  
   },
   "insightsTitleFalse": {
     "en": "Generic alarm turned off",
@@ -35,7 +41,9 @@
     "fr": "Alarme générique s'est désactivée",
     "it": "Allarme generico disattivato",
     "sv": "Generiskt larm inaktiverat",
-    "no": "Generell alarm deaktivert"
+    "no": "Generell alarm deaktivert",
+    "es": "Alarma general desactivada",
+    "da": "Generisk alarm blev deaktiveret"  
   },
   "getable": true,
   "setable": false,
@@ -51,7 +59,9 @@
           "fr": "L'alarme générique s'est activée",
           "it": "L'allarme generico è stato attivato",
           "sv": "Det generiska larmet är aktiverat",
-          "no": "Den generelle alarmen er aktivert"
+          "no": "Den generelle alarmen er aktivert",
+          "es": "La alarma general se ha activado",
+          "da": "Den generiske alarm blev aktiveret"    
         }
       },
       {
@@ -63,7 +73,9 @@
           "fr": "L'alarme générique s'est désactivée",
           "it": "L'allarme generico è stato disattivato",
           "sv": "Det generiska larmet är inaktiverat",
-          "no": "Den generelle alarmen er deaktivert"
+          "no": "Den generelle alarmen er deaktivert",
+          "es": "La alarma general se ha desactivado",
+          "da": "Den generiske alarm blev deaktiveret"    
         }
       }
     ],
@@ -77,7 +89,9 @@
           "fr": "L'alarme générique est !{{en marche|arrêtée}}",
           "it": "L'allarme generico è !{{acceso|spento}}",
           "sv": "Det generiska larmet är !{{på|av}}",
-          "no": "Den generelle alarmen er !{{på|av}}"
+          "no": "Den generelle alarmen er !{{på|av}}",
+          "es": "La alarma general está !{{activada|desactivada}}",
+          "da": "Den generiske alarm er !{{tændt|slukket}}"    
         }
       }
     ]

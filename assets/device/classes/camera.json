@@ -6,7 +6,9 @@
     "fr": "Caméra",
     "it": "Telecamera",
     "sv": "Kamera",
-    "no": "Kamera"
+    "no": "Kamera",
+    "es": "Cámara",
+    "da": "Kamera"  
   },
   "description": {
     "en": "Security camera",
@@ -15,6 +17,8 @@
     "fr": "Caméra de sécurité",
     "it": "Telecamera di sicurezza",
     "sv": "Säkerhetskamera",
-    "no": "Sikkehetskamera"
+    "no": "Sikkehetskamera",
+    "es": "Cámara de seguridad",
+    "da": "Overvågningskamera"
   }
 }
