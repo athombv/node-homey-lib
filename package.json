@@ -1,6 +1,6 @@
 {
   "name": "homey-lib",
-  "version": "2.4.4",
+  "version": "2.4.5",
   "description": "Shared Library for Homey",
   "main": "index.js",
   "scripts": {
