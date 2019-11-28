@@ -7,7 +7,9 @@
     "fr": "Intensité lumineuse",
     "it": "Intensità luminosa",
     "sv": "Dimningsnivå",
-    "no": "Dempingsnivå"
+    "no": "Dempingsnivå",
+    "es": "Intensidad de la luz",
+    "da": "Lysniveau"   
   },
   "chartType": "stepLine",
   "min": 0,
@@ -27,7 +29,9 @@
         "fr": "Intensité lumineuse a été modifiée",
         "it": "Intensità luminosa modificata",
         "sv": "Dimningsnivå ändrades",
-        "no": "Dempingsnivå ble endret"
+        "no": "Dempingsnivå ble endret",
+        "es": "La intensidad de la luz ha cambiado",
+        "da": "Lysniveau ændret"   
       },
       "tokens": [{
         "name": "dim",
@@ -39,7 +43,9 @@
           "fr": "Niveau",
           "it": "Livello",
           "sv": "Nivå",
-          "no": "Nivå"
+          "no": "Nivå",
+          "es": "Nivel",
+          "da": "Niveau"     
         },
         "example": 0.5
       }]
@@ -53,7 +59,9 @@
         "fr": "Mettre l'intensité lumineuse sur",
         "it": "Imposta l'intensità luminosa su",
         "sv": "Dimma till",
-        "no": "Demp til"
+        "no": "Demp til",
+        "es": "Ajustar la intensidad de la luz a",
+        "da": "Juster til"   
       },
       "args": [{
         "name": "dim",
@@ -75,7 +83,9 @@
           "de": "Relatives Dimm-Niveau setzen",
           "fr": "Définir l'intensité lumineuse sur relative",
           "it": "Imposta intensità luminosa su relativa",
-          "no": "Innstill relativt dempingsnivå"
+          "no": "Innstill relativt dempingsnivå",
+          "es": "Ajustar la intensidad de la luz como relativa",
+          "da": "Indstil relativt lysniveau"     
         },
         "args": [{
           "name": "dim",

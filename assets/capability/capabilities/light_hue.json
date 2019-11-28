@@ -7,7 +7,9 @@
     "fr": "Teinte",
     "it": "Tonalità",
     "sv": "Nyans",
-    "no": "Fargetone"
+    "no": "Fargetone",
+    "es": "Tonalidad",
+    "da": "Farvetone"  
   },
   "min": 0,
   "chartType": "stepLine",
@@ -27,7 +29,9 @@
           "fr": "Définir la teinte",
           "it": "Imposta la tonalità",
           "sv": "Ställ in nyans",
-          "no": "Innstill fargetone"
+          "no": "Innstill fargetone",
+          "es": "Configurar la tonalidad",
+          "da": "Indstil farvetonen"     
         },
         "args": [
           {
@@ -52,7 +56,9 @@
           "fr": "Définir la couleur",
           "it": "Imposta un colore",
           "sv": "Ställ in en färg",
-          "no": "Innstill fargetone"
+          "no": "Innstill fargetone",
+          "es": "Configurar un color",
+          "da": "Indstil en farve"    
         },
         "args": [
           {
@@ -70,7 +76,9 @@
           "fr": "Définir une couleur aléatoire",
           "it": "Imposta un colore casuale",
           "sv": "Ställ in en slumpvis färg",
-          "no": "Innstill en tilfeldig farge"
+          "no": "Innstill en tilfeldig farge",
+          "es": "Configurar un color aleatorio",
+          "da": "Indstil en tilfældig farve"    
         }
       }
     ]

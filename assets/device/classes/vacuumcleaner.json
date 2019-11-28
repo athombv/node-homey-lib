@@ -6,7 +6,9 @@
     "fr": "Aspirateur",
     "it": "Aspirapolvere",
     "sv": "Dammsugare",
-    "no": "Støvsuger"
+    "no": "Støvsuger",
+    "es": "Aspiradora",
+    "da": "Støvsuger"
   },
   "description": {
     "en": "Use this device class for vacuum cleaners, usually together with the `vacuumcleaner_state` capability.",
@@ -14,7 +16,9 @@
     "fr": "Utilisez cette classe d'appareil pour les aspirateurs, habituellement avec la capacité `état_aspirateur`.",
     "it": "Utilizza questa classe di dispositivi per gli aspirapolvere, generalmente insieme alla funzionalità 'stato_aspirapolvere'.",
     "sv": "Använd den här enhetsklassen för dammsugare, oftast tillsammans med funktionen `dammsugar_status`.",
-    "no": "Bruk denne enhetsklassen for støvsugere, ofte sammen med funksjonen `støvsuger_status`."
+    "no": "Bruk denne enhetsklassen for støvsugere, ofte sammen med funksjonen `støvsuger_status`.",
+    "es": "Utiliza esta clase de dispositivo para las aspiradoras, generalmente junto con la capacidad 'estado_aspiradora'.",
+    "da": "Brug denne enhedsklasse til støvsugere, normalt sammen med `støvsugertilstand` funktionen."   
   },
   "$speechAlternatives": {
     "en": [ "vacuum cleaner", "vacuumcleaner", "vacuum cleaners", "vacuumcleaners", "vacuum" ],

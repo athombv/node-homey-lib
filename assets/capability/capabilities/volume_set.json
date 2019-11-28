@@ -5,7 +5,9 @@
     "fr": "Définir le volume",
     "it": "Imposta il volume",
     "sv": "Ställ in volym",
-    "no": "Innstill volum"
+    "no": "Innstill volum",
+    "es": "Configurar volumen",
+    "da": "Indstil lydstyrken"  
   },
   "type": "number",
   "desc": {
@@ -15,7 +17,9 @@
     "fr": "Volume",
     "it": "Volume",
     "sv": "Volym",
-    "no": "Volum"
+    "no": "Volum",
+    "es": "Volumen",
+    "da": "Lydstyrke"  
   },
   "chartType": "stepLine",
   "min": 0,
@@ -34,7 +38,9 @@
         "fr": "Volume a été modifié",
         "it": "Volume modificato",
         "sv": "Volymen ändrades",
-        "no": "Volumet ble endret"
+        "no": "Volumet ble endret",
+        "es": "El volumen ha cambiado",
+        "da": "Lydstyrke blev ændret"  
       },
       "tokens": [{
         "name": "volume_set",
@@ -46,7 +52,10 @@
           "fr": "Volume",
           "it": "Volume",
           "sv": "Volym",
-          "no": "Volum"
+          "no": "Volum",
+          "es": "Volumen",
+          "da": "Lydstyrke"    
+
         },
         "example": 0.5
       }]
@@ -60,7 +69,9 @@
         "fr": "Mettre le volume sur",
         "it": "Imposta il volume al",
         "sv": "Ställ in volymen på",
-        "no": "Sett volumet til"
+        "no": "Sett volumet til",
+        "es": "Configurar el volumen a",
+        "da": "Indstil lydstyrke til"  
       },
       "args": [{
         "name": "volume_set",

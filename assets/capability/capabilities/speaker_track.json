@@ -6,7 +6,9 @@
     "fr": "Titre",
     "it": "Traccia",
     "sv": "Spår",
-    "no": "Spor"
+    "no": "Spor",
+    "es": "Pista",
+    "da": "Spor"  
   },
   "type": "string",
   "getable": true,
@@ -23,7 +25,9 @@
           "fr": "Le titre a été modifié",
           "it": "La traccia è cambiata",
           "sv": "Spåret ändrades",
-          "no": "Sporet ble endret"
+          "no": "Sporet ble endret",
+          "es": "La pista ha cambiado",
+          "da": "Sporet skiftede"    
         },
         "tokens": [
           {

@@ -6,7 +6,9 @@
     "fr": "Porte de garage",
     "it": "Porta del garage",
     "sv": "Garagedörr",
-    "no": "Garasjedør"
+    "no": "Garasjedør",
+    "es": "Puerta de garaje",
+    "da": "Garageport"
   },
   "$speechAlternatives": {
     "en": [ "garagedoor", "garage door", "garage door" ],

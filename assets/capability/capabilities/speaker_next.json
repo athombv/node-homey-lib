@@ -6,7 +6,9 @@
     "fr": "Suivant",
     "it": "Successivo",
     "sv": "Nästa",
-    "no": "Neste"
+    "no": "Neste",
+    "es": "Siguiente",
+    "da": "Næste"   
   },
   "type": "boolean",
   "getable": false,
@@ -23,7 +25,9 @@
           "fr": "Suivant",
           "it": "Successivo",
           "sv": "Nästa",
-          "no": "Neste"
+          "no": "Neste",
+          "es": "Siguiente",
+          "da": "Næste"     
         }
       }
     ]

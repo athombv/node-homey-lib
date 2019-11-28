@@ -6,7 +6,9 @@
     "fr": "Stores",
     "it": "Tapparelle",
     "sv": "Persienner",
-    "no": "Persienner"
+    "no": "Persienner",
+    "es": "Persianas",
+    "da": "Persienner"  
   },
   "description": {
     "en": "Use this device class for blinds, both horizontal and vertical.",
@@ -14,7 +16,9 @@
     "fr": "Utilisez cette classe d'appareil pour les stores, horizontaux et verticaux.",
     "it": "Utilizza questa classe di dispositivi per le tapparelle, orizzontali e verticali.",
     "sv": "Använd den här enhetsklassen för persienner, både horisontella och vertikala.",
-    "no": "Bruk denne enhetsklassen for persienner, både horisontale og vertikale."
+    "no": "Bruk denne enhetsklassen for persienner, både horisontale og vertikale.",
+    "es": "Utiliza esta clase de dispositivo para las persianas, tanto horizontales como verticales.",
+    "da": "Brug denne enhedsklasse til persienner, både vandrette og lodrette"  
   },
   "$speechAlternatives": {
     "en": [ "blinds" ],

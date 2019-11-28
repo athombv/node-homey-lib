@@ -6,7 +6,9 @@
     "fr": "Relais",
     "it": "Relé",
     "sv": "Relä",
-    "no": "Relé"
+    "no": "Relé",
+    "es": "Relé",
+    "da": "Relæ"
   },
   "description": {
     "en": "Use this device class for relays, which are connected to another device.",
@@ -14,7 +16,9 @@
     "fr": "Utilisez cette classe d'appareil pour les relais qui sont connectés à d'autres appareils.",
     "it": "Utilizza questa classe di dispositivi per i relé, che sono connessi ad un altro dispositivo.",
     "sv": "Använd den här enhetsklassen för relän, som är kopplade till en annan enhet",
-    "no": "Bruk denne enhetsklassen for reléer som er koblet til en annen enhet."
+    "no": "Bruk denne enhetsklassen for reléer som er koblet til en annen enhet.",
+    "es": "Utiliza esta clase de dispositivo para los relés conectados a otros dispositivos.",
+    "da": "Brug denne enhedsklasse til relæer, som er koblet til en anden enhed."  
   },
   "virtualTitle": {
     "en": "What's connected?",
@@ -23,7 +27,9 @@
     "fr": "Qu'est-ce qui est connecté ?",
     "it": "Cos'è connesso?",
     "sv": "Relä",
-    "no": "Hva er tilkoblet?"
+    "no": "Hva er tilkoblet?",
+    "es": "¿Qué está conectado?",
+    "da": "Hvad er tilkoblet?"
   },
   "allowedVirtual": [
     "garagedoor",

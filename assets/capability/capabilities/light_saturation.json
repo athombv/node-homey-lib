@@ -7,7 +7,9 @@
     "fr": "Saturation de couleur",
     "it": "Saturazione colore",
     "sv": "Färggmättnad",
-    "no": "Fargemetning"
+    "no": "Fargemetning",
+    "es": "Saturación del color",
+    "da": "Farvemætning"  
   },
   "min": 0,
   "chartType": "stepLine",
@@ -26,7 +28,9 @@
           "fr": "Définir la saturation",
           "it": "Imposta la saturazione",
           "sv": "Ställ in mättnad",
-          "no": "Innstill metningen"
+          "no": "Innstill metningen",
+          "es": "Configurar la saturación",
+          "da": "Indstil farvemætningen"    
         },
         "args": [
           {

@@ -1,12 +1,13 @@
 {
   "title": {
     "en": "Window Coverings Tilt Up",
-    "nl": "Jaloezieën omhoog kantelen",
     "de": "Jalousien nach oben gekippt",
     "fr": "Stores levés",
     "it": "Tapparelle alzate",
     "sv": "Fönsterskydd öppna",
-    "no": "Vindusbeskyttelser åpne"
+    "no": "Vindusbeskyttelser åpne",
+    "es": "Cobertores de ventanas inclinados hacia arriba",
+    "da": "Vinduesdække opad"  
   },
   "type": "boolean",
   "getable": false,

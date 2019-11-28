@@ -7,7 +7,9 @@
     "fr": "Alarme batterie",
     "it": "Allarme batteria",
     "sv": "Batterialarm",
-    "no": "Batterialarm"
+    "no": "Batterialarm",
+    "es": "Alarma de batería",
+    "da": "Batterialarm"
   },
   "desc": {
     "en": "True when there is a battery warning",
@@ -16,7 +18,9 @@
     "fr": "Vrai quand il y a un avertissement de batterie",
     "it": "Vero quando c'è un avvertimento sulla batteria",
     "sv": "Sant när det finns en batterivarning",
-    "no": "Sant når det finnes en batteriadvarsel"
+    "no": "Sant når det finnes en batteriadvarsel",
+    "es": "Verdadero cuando hay una advertencia de la batería",
+    "da": "Sandt, når der er en batterialarm"
     },
   "insights": true,
   "insightsTitleTrue": {
@@ -26,7 +30,9 @@
     "fr": "Alarme batterie activée",
     "it": "Allarme batteria attivato",
     "sv": "Batterialarm aktiverat",
-    "no": "Batterialarm aktivert"
+    "no": "Batterialarm aktivert",
+    "es": "Alarma de la batería activada",
+    "da": "Batterialarm aktiveret"
   },
   "insightsTitleFalse": {
     "en": "Battery alarm turned off",
@@ -35,7 +41,9 @@
     "fr": "Alarme batterie désactivée",
     "it": "Allarme batteria disattivato",
     "sv": "Batterialarm avstängt",
-    "no": "Batterialarm deaktivert"
+    "no": "Batterialarm deaktivert",
+    "es": "Alarma de la batería desactivada",
+    "da": "Batterialarm deaktiveret"
   },
   "getable": true,
   "setable": false,
@@ -51,7 +59,9 @@
           "fr": "L'alarme batterie s'est activée",
           "it": "L'allarme della batteria è stato attivato",
           "sv": "Batterialarmet aktiverat",
-          "no": "Batterialarmen er aktivert"
+          "no": "Batterialarmen er aktivert",
+          "es": "La alarma de la batería se ha activado",
+          "da": "Batterialarm aktiverede"
         }
       },
       {
@@ -63,7 +73,9 @@
           "fr": "L'alarme batterie s'est désactivée",
           "it": "L'allarme della batteria è stato disattivato",
           "sv": "Batterialarmet aktiverat",
-          "no": "Batterialarmen er deaktivert"
+          "no": "Batterialarmen er deaktivert",
+          "es": "La alarma de la batería se ha desactivado",
+          "da": "Batterialarm deaktiverede"
         }
       }
     ],
@@ -77,7 +89,9 @@
           "fr": "L'alarme batterie est !{{en marche|arrêtée}}",
           "it": "L'allarme della batteria è !{{acceso|spento}}",
           "sv": "Batteralarmet är !{{på|av}}",
-          "no": "Batteralarmen er !{{på|av}}"
+          "no": "Batteralarmen er !{{på|av}}",
+          "es": "La alarma de la batería está !{{activada|desactivada}}",
+          "da": "Batterialarmen er !{{tændt|slukket}}"
         }
       }
     ]

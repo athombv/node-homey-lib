@@ -7,7 +7,9 @@
     "fr": "Température",
     "it": "Temperatura",
     "sv": "Temperatur",
-    "no": "Temperatur"
+    "no": "Temperatur",
+    "es": "Temperatura",
+    "da": "Temperatur"   
   },
   "units": {
     "en": "°C"
@@ -29,7 +31,9 @@
           "fr": "La température a changé",
           "it": "La temperatura è cambiata",
           "sv": "Temperaturen ändrades",
-          "no": "Temperaturen ble endret"
+          "no": "Temperaturen ble endret",
+          "es": "La temperatura ha cambiado",
+          "da": "Temperaturen ændrede sig"     
         },
         "tokens": [
           {

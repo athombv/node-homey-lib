@@ -6,7 +6,9 @@
     "fr": "Précédent",
     "it": "Precedente",
     "sv": "Föregående",
-    "no": "Forrige"
+    "no": "Forrige",
+    "es": "Anterior",
+    "da": "Forrige"  
   },
   "type": "boolean",
   "getable": false,
@@ -23,7 +25,9 @@
           "fr": "Précédent",
           "it": "Precedente",
           "sv": "Föregående",
-          "no": "Forrige"
+          "no": "Forrige",
+          "es": "Anterior",
+          "da": "Forrige"    
         }
       }
     ]
