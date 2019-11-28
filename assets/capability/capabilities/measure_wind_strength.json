@@ -7,7 +7,9 @@
     "fr": "Force du vent",
     "it": "Forza del vento",
     "sv": "Vindstyrka",
-    "no": "Vindstyrke"
+    "no": "Vindstyrke",
+    "es": "Fuerza del viento",
+    "da": "Vindstyrke"  
   },
   "units": {
     "en": "km/h"
@@ -19,7 +21,9 @@
     "fr": "Force du vent en kilomètres par heure (km/h)",
     "it": "Forza del vento in chilometri orari (km/h)",
     "sv": "Vindstyrka i kilometer per timme (km/h)",
-    "no": "Vindstyrke i kilometer per time (km/t)"
+    "no": "Vindstyrke i kilometer per time (km/t)",
+    "es": "La fuerza del viento en kilómetros por hora (km/h)",
+    "da": "Vindstyrke i kilometer i timen (km/t)"  
   },
   "insights": true,
   "chartType": "spline",
@@ -38,7 +42,9 @@
           "fr": "La force du vent a changé",
           "it": "La forza del vento è cambiata",
           "sv": "Vindstyrkan ändrades",
-          "no": "Vindstyrken ble endret"
+          "no": "Vindstyrken ble endret",
+          "es": "La fuerza del viento ha cambiado",
+          "da": "Vindstyrken ændrede sig"    
         },
         "tokens": [
           {

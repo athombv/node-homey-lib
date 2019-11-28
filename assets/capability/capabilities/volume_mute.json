@@ -6,7 +6,9 @@
     "fr": "Volume sourdine",
     "it": "Volume disattivato",
     "sv": "Volym inaktiverad",
-    "no": "Volym dempet"
+    "no": "Volym dempet",
+    "es": "Silenciar volumen",
+    "da": "Lyd slået fra"  
   },
   "type": "boolean",
   "getable": true,
@@ -22,7 +24,9 @@
           "fr": "Mettre le volume en sourdine",
           "it": "Disattiva il volume",
           "sv": "Inaktivera volymen",
-          "no": "Demp volumet"
+          "no": "Demp volumet",
+          "es": "Silenciar el volumen",
+          "da": "Slå lyden fra"    
         }
       },
       {
@@ -34,7 +38,9 @@
           "fr": "Réactiver le son",
           "it": "Riattiva il volume",
           "sv": "Aktivera volymen",
-          "no": "Opphev demping av volum"
+          "no": "Opphev demping av volum",
+          "es": "Activar el volumen",
+          "da": "Slå lyden til"    
         }
       }
     ]

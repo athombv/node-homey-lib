@@ -7,7 +7,9 @@
     "fr": "Etat de l'alarme de maison",
     "it": "Stato dell'allarme domestico",
     "sv": "Hemlarmsstatus",
-    "no": "Hjemmealarmstatus"
+    "no": "Hjemmealarmstatus",
+    "es": "Estado de la alarma doméstica",
+    "da": "Hjemmealarmstatus"  
   },
   "values": [
     {
@@ -19,7 +21,9 @@
         "fr": "Armé",
         "it": "Attivato",
         "sv": "Larmat",
-        "no": "Aktivert"
+        "no": "Aktivert",
+        "es": "Activada",
+        "da": "Aktiveret"  
       }
     },
     {
@@ -31,7 +35,9 @@
         "fr": "Désarmé",
         "it": "Disattivato",
         "sv": "Avlarmat",
-        "no": "Deaktivert"
+        "no": "Deaktivert",
+        "es": "Desactivada",
+        "da": "Deaktiveret"  
       }
     },
     {
@@ -43,7 +49,9 @@
         "fr": "Partiellement armé",
         "it": "Parzialmente attivato",
         "sv": "Delvis larmat",
-        "no": "Delvis aktivert"
+        "no": "Delvis aktivert",
+        "es": "Parcialmente activada",
+        "da": "Delvist aktiveret"  
       }
     }
   ],
@@ -61,7 +69,9 @@
           "fr": "L'état a été modifié",
           "it": "Lo stato è cambiato",
           "sv": "Statusen ändrad",
-          "no": "Statusen ble endret"
+          "no": "Statusen ble endret",
+          "es": "El estado ha cambiado",
+          "da": "Status ændret"    
         },
         "args": [
           {
@@ -82,7 +92,9 @@
           "fr": "L'état !{{est|n'est pas}}",
           "it": "Lo stato è !{{|non}}",
           "sv": "Statusen är !{{|inte}}",
-          "no": "Statusen er !{{|ikke}}"
+          "no": "Statusen er !{{|ikke}}",
+          "es": "El estado !{{|no}} es",
+          "da": "Status er !{{|ikke}}"    
         },
         "args": [
           {
@@ -103,7 +115,9 @@
           "fr": "Définir l'état",
           "it": "Imposta stato",
           "sv": "Ställ in status",
-          "no": "Innstill status"
+          "no": "Innstill status",
+          "es": "Definir estado",
+          "da": "Indstil status"    
         },
         "args": [
           {

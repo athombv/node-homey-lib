@@ -6,7 +6,9 @@
     "fr": "Auvent",
     "it": "Parasole",
     "sv": "Markis",
-    "no": "Markise"
+    "no": "Markise",
+    "es": "Toldo",
+    "da": "Markise"  
   },
   "description": {
     "en": "Use this device class for sunshades (window coverings against the sun).",
@@ -14,7 +16,9 @@
     "fr": "Utilisez cette classe d'appareil pour les auvents (couvrant les fenêtres contre le soleil).",
     "it": "Utilizza questa classe di dispositivi per gli scuretti (che riparano le finestre dal sole).",
     "sv": "Använd den här enhetsklassen för markiser (fönsterskydd mot solen).",
-    "no": "Bruk denne enhetsklassen for markiser (vindusbeskyttelse mot solen)."
+    "no": "Bruk denne enhetsklassen for markiser (vindusbeskyttelse mot solen).",
+    "es": "Utiliza esta clase de dispositivo para los toldos (para proteger las ventanas del sol).",
+    "da": "Brug denne enhedsklasse til markiser (vinduesdække mod solen)."  
   },
   "$speechAlternatives": {
     "en": [ "sunscreen", "sunscreens", "sunshade", "sunshades" ],

@@ -6,7 +6,9 @@
     "fr": "Bouton",
     "it": "Pulsante",
     "sv": "Knapp",
-    "no": "Knapp"
+    "no": "Knapp",
+    "es": "Botón",
+    "da": "Knap"   
   },
   "type": "boolean",
   "getable": false,
@@ -24,7 +26,9 @@
           "fr": "Appuyer sur le bouton",
           "it": "Premi il pulsante",
           "sv": "Tryck på knappen",
-          "no": "Trykk på knappen"
+          "no": "Trykk på knappen",
+          "es": "Pulsa el botón",
+          "da": "Tryk på knappen"    
         }
       }
     ]

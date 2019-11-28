@@ -7,7 +7,9 @@
     "fr": "Alarme eau",
     "it": "Allarme acqua",
     "sv": "Vattenalarm",
-    "no": "Vannalarm"
+    "no": "Vannalarm",
+    "es": "Alarma de agua",
+    "da": "Vandalarm"    
   },
   "desc": {
     "en": "True when water has been detected",
@@ -16,7 +18,9 @@
     "fr": "Vrai si de l'eau a été détectée",
     "it": "Vero quando è stata rilevata dell'acqua",
     "sv": "Sant när vatten upptäcks",
-    "no": "Sant når vann påvises"
+    "no": "Sant når vann påvises",
+    "es": "Verdadero cuando se ha detectado agua",
+    "da": "Sandt, når vand er blevet opdaget"    
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -26,7 +30,9 @@
     "fr": "Alarme eau s'est activée",
     "it": "Allarme acqua attivato",
     "sv": "Vattenalarm aktiverat",
-    "no": "Vannalarm aktivert"
+    "no": "Vannalarm aktivert",
+    "es": "Alarma de agua activada",
+    "da": "Vandalarm blev aktiveret"    
   },
   "insightsTitleFalse": {
     "en": "Water alarm turned off",
@@ -35,7 +41,9 @@
     "fr": "Alarme eau s'est désactivée",
     "it": "Allarme acqua disattivato",
     "sv": "Vattenalarm inaktiverat",
-    "no": "Vannalarm deaktivert"
+    "no": "Vannalarm deaktivert",
+    "es": "Alarma de agua desactivada",
+    "da": "Vandalarm blev deaktiveret"   
   },
   "getable": true,
   "setable": false,
@@ -51,7 +59,9 @@
           "fr": "L'alarme eau s'est activée",
           "it": "L'allarme acqua è stato attivato",
           "sv": "Vattenalarmet aktiverat",
-          "no": "Vannalarmen aktivert"
+          "no": "Vannalarmen aktivert",
+          "es": "La alarma de agua se ha activado",
+          "da": "Vandalarmen blev aktiveret"     
         }
       },
       {
@@ -63,7 +73,9 @@
           "fr": "L'alarme eau s'est désactivée",
           "it": "L'allarme acqua è stato disattivato",
           "sv": "Vattenalarmet inaktiverat",
-          "no": "Vannalarmen deaktivert"
+          "no": "Vannalarmen deaktivert",
+          "es": "La alarma de agua se ha desactivado",
+          "da": "Vandalarmen blev deaktiveret"     
         }
       }
     ],
@@ -77,7 +89,9 @@
           "fr": "L'alarme eau est !{{en marche|arrêtée}}",
           "it": "L'allarme acqua è !{{acceso|spento}}",
           "sv": "Vattenalarmet är !{{på|av}}",
-          "no": "Vannalarmen er !{{på|av}}"
+          "no": "Vannalarmen er !{{på|av}}",
+          "es": "La alarma de agua está !{{activada|desactivada}}",
+          "da": "Vandalarmen er !{{tændt|slukket}}"     
         }
       }
     ]

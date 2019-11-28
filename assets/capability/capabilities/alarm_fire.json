@@ -7,7 +7,9 @@
     "fr": "Alarme incendie",
     "it": "Allarme antincendio",
     "sv": "Brandlarm",
-    "no": "Brannalarm"
+    "no": "Brannalarm",
+    "es": "Alarma de incendios",
+    "da": "Brandalarm"  
   },
   "desc": {
     "en": "True when fire has been detected",
@@ -16,7 +18,9 @@
     "fr": "Vrai si un incendie a été détecté",
     "it": "Vero quando è stato rilevato un incendio",
     "sv": "Sant när brand upptäckts",
-    "no": "Sant når brann påvises"
+    "no": "Sant når brann påvises",
+    "es": "Verdadero cuando se ha detectado fuego",
+    "da": "Sandt, når brand er blevet opdaget"  
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -26,7 +30,9 @@
     "fr": "Alarme incendie s'est activée",
     "it": "Allarme antincendio attivato",
     "sv": "Brandlarm aktiverat",
-    "no": "Brannlarm aktivert"
+    "no": "Brannlarm aktivert",
+    "es": "Alarma de incendios activada",
+    "da": "Brandalarm blev aktiveret"  
   },
   "insightsTitleFalse": {
     "en": "Fire alarm turned off",
@@ -35,7 +41,9 @@
     "fr": "Alarme incendie s'est désactivée",
     "it": "Allarme antincendio disattivato",
     "sv": "Brandlarm inaktiverat",
-    "no": "Brannlarm deaktivert"
+    "no": "Brannlarm deaktivert",
+    "es": "Alarma de incendios desactivada",
+    "da": "Brandalarm blev deaktiveret"  
   },
   "getable": true,
   "setable": false,
@@ -51,7 +59,9 @@
           "fr": "L'alarme incendie s'est activée",
           "it": "L'allarme antincendio è stato attivato",
           "sv": "Brandlarmet aktiverat",
-          "no": "Brannalarmen aktivert"
+          "no": "Brannalarmen aktivert",
+          "es": "La alarma de incendios se ha activado",
+          "da": "Brandalarmen blev aktiveret"    
         }
       },
       {
@@ -63,7 +73,9 @@
           "fr": "L'alarme incendie s'est désactivée",
           "it": "L'allarme antincendio è stato disattivato",
           "sv": "Brandlarmet inaktiverat",
-          "no": "Brannalarmen deaktivert"
+          "no": "Brannalarmen deaktivert",
+          "es": "La alarma de incendios se ha desactivado",
+          "da": "Brandalarmen blev deaktiveret"    
         }
       }
     ],
@@ -77,7 +89,9 @@
           "fr": "L'alarme incendie est !{{en marche|arrêtée}}",
           "it": "L'allarme antincendio è !{{acceso|spento}}",
           "sv": "Brandlarmet är !{{på|av}}",
-          "no": "Brannalarmen er !{{på|av}}"
+          "no": "Brannalarmen er !{{på|av}}",
+          "es": "La alarma de incendios está !{{activada|desactivada}}",
+          "da": "Brandalarmen er !{{tændt|slukket}}"    
         }
       }
     ]

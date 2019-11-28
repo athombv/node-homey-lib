@@ -7,7 +7,9 @@
     "fr": "Activé",
     "it": "Attivato",
     "sv": "Aktiverad",
-    "no": "Slått på"
+    "no": "Slått på",
+    "es": "Encendido",
+    "da": "Tændt"   
   },
   "getable": true,
   "setable": true,
@@ -19,7 +21,9 @@
     "fr": "Activé",
     "it": "Attivato",
     "sv": "Aktiverad",
-    "no": "Slått på"
+    "no": "Slått på",
+    "es": "Encendido",
+    "da": "Tændt"   
   },
   "insightsTitleFalse": {
     "en": "Turned off",
@@ -28,7 +32,9 @@
     "fr": "Désactivé",
     "it": "Disattivato",
     "sv": "Inaktiverad",
-    "no": "Slått av"
+    "no": "Slått av",
+    "es": "Apagado",
+    "da": "Slukket"   
   },
   "options": {
     "setOnDim": {
@@ -40,7 +46,9 @@
         "fr": "Quand un appareil peut `allumer/éteindre` et `estomper`, et que Homey veut allumer l'appareil ET sur une valeur d'estompage spécifique, définissez cette capacité sur `faux` pour empêcher Homey d'envoyer une commande de définition.",
         "it": "Quando un dispositivo può 'accendersi' e 'attenuarsi' e Homey desidera attivare il dispositivo E definire un valore specifico, imposta questa funzione su 'falso' per impedire a Homey di inviare un comando di definizione.",
         "sv": "När en enhet har både en `på/av`- och `dim`-funktionalitet och Homey vill slå på enheten OCH till ett specifikt dimvärde, sätt den här funktionen till `falsk` för att förhindra att Homey skickar ett inställningskommando.",
-        "no": "Når en enhet har både en `på/av`- og en `dempe`-funksjon og Homey vil slå på enheten OG sette dempingen til en spesifikk verdi, sett denne egenskapen til `usann` for å forhindre at Homey sender en innstillingskommando."
+        "no": "Når en enhet har både en `på/av`- og en `dempe`-funksjon og Homey vil slå på enheten OG sette dempingen til en spesifikk verdi, sett denne egenskapen til `usann` for å forhindre at Homey sender en innstillingskommando.",
+        "es": "Cuando un dispositivo tiene tanto la capacidad 'encender/apagar' como la de 'intensidad de la luz', y Homey quiere encender el dispositivo Y ajustar una intensidad concreta, configura esta capacidad como 'falso' para evitar que Homey envíe un comando de configuración.",
+        "da": "Når en enhed har både en `tænd/sluk`- og en `dæmpe`-funktion, og Homey vil tænde for enheden OG indstille til en specifik dæmpeværdi, skal denne funktion indstilles til  `falsk` for at forhindre, at Homey sender en indstillingskommando."  
       }
     },
     "greyout": {
@@ -52,7 +60,9 @@
         "fr": "Quand cette capacité est fausse, donnez un indice visuel pour griser cet appareil.",
         "it": "Quando questa funzione è impostata su falso, dai un indizio visivo per far apparire questo dispositivo in grigio.",
         "sv": "När den här funktionen är falsk, ge en ett visuellt tips för att gråa ut enheten.",
-        "no": "Når denne egenskapen er usann, gi et visuelt tips for å vise enheten i grått."
+        "no": "Når denne egenskapen er usann, gi et visuelt tips for å vise enheten i grått.",
+        "es": "Cuando esta capacidad es falsa, da una indicación visual para poner en gris el dispositivo.",
+        "da": "Når denne funktion er falsk, skal du give et visuelt tip for at vise enheden i grå."  
       }
     }
   },
@@ -68,7 +78,9 @@
         "fr": "Activé",
         "it": "Attivato",
         "sv": "Aktiverad",
-        "no": "Slått på"
+        "no": "Slått på",
+        "es": "Encendido",
+        "da": "Tændt"  
       }
     },
       {
@@ -80,7 +92,9 @@
           "fr": "Désactivé",
           "it": "Disattivato",
           "sv": "Inaktiverad",
-          "no": "Slått av"
+          "no": "Slått av",
+          "es": "Apagado",
+          "da": "Slukket"    
         }
       }
     ],
@@ -93,7 +107,9 @@
         "fr": "Est !{{activé|désactivé}}",
         "it": "È !{{attivato|disattivato}}",
         "sv": "Är !{{på|av}}",
-        "no": "Er slått !{{på|av}}"
+        "no": "Er slått !{{på|av}}",
+        "es": "Está !{{encendido|apagado}}",
+        "da": "Er !{{tændt|slukket}}"  
       }
     },
       {
@@ -105,7 +121,9 @@
           "fr": "Est !{{ouvert|fermé}}",
           "it": "È !{{aperto|chiuso}}",
           "sv": "Är !{{öppen|stängd}}",
-          "no": "Er !{{åpen|lukket}}"
+          "no": "Er !{{åpen|lukket}}",
+          "es": "Está !{{abierto|cerrado}}",
+          "da": "Er !{{åben|lukket}}"    
         },
         "$filter": {
           "class": "windowcoverings|curtain|blinds|sunshade"
@@ -121,7 +139,9 @@
         "fr": "Activer",
         "it": "Attiva",
         "sv": "Aktivera",
-        "no": "Slå på"
+        "no": "Slå på",
+        "es": "Encender",
+        "da": "Tændt"  
       }
     },
       {
@@ -133,7 +153,9 @@
           "fr": "Désactiver",
           "it": "Disattiva",
           "sv": "stäng av",
-          "no": "Slå av"
+          "no": "Slå av",
+          "es": "Apagar",
+          "da": "Slukket"     
         }
       },
       {
@@ -145,7 +167,9 @@
           "fr": "Alterner activé ou désactivé",
           "it": "Attiva o disattiva",
           "sv": "Växla på och av",
-          "no": "Veksle mellom på og av"
+          "no": "Veksle mellom på og av",
+          "es": "Encender o apagar",
+          "da": "Tænd eller sluk"     
         }
       },
       {
@@ -157,7 +181,9 @@
           "fr": "Ouvrir rideau ou store",
           "it": "Apri la tenda o le persiane",
           "sv": "Öppna gardin eller persienn",
-          "no": "Åpne gardin eller persienne"
+          "no": "Åpne gardin eller persienne",
+          "es": "Abrir cortina o persiana",
+          "da": "Åbn gardiner eller persienner"        
         },
         "$filter": {
           "class": "windowcoverings|curtain|blinds|sunshade"
@@ -172,7 +198,9 @@
           "fr": "Fermer rideau ou store",
           "it": "Chiudi la tenda o le persiane",
           "sv": "Stäng gardin eller persienn",
-          "no": "Lukk gardin eller persienne"
+          "no": "Lukk gardin eller persienne",
+          "es": "Cerrar cortina o persiana",
+          "da": "Luk gardiner eller persienner"     
         },
         "$filter": {
           "class": "windowcoverings|curtain|blinds|sunshade"

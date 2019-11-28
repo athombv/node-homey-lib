@@ -5,7 +5,9 @@
     "fr": "Répéter",
     "it": "Ripeti",
     "sv": "Upprepa",
-    "no": "Gjenta"
+    "no": "Gjenta",
+    "es": "Repetir",
+    "da": "Gentag"  
   },
   "type": "enum",
   "values": [
@@ -18,7 +20,9 @@
             "fr": "Arrêt",
             "it": "Spegni",
             "sv": "Av",
-            "no": "Av"
+            "no": "Av",
+            "es": "Apagar",
+            "da": "Fra"
         }
     },
     {
@@ -29,7 +33,9 @@
             "fr": "Répéter le titre",
             "it": "Ripeti traccia",
             "sv": "Upprepa spår",
-            "no": "Gjenta spor"
+            "no": "Gjenta spor",
+            "es": "Repetir pista",
+            "da": "Gentag spor"
         }
     },
     {
@@ -40,7 +46,9 @@
             "fr": "Répéter la playlist",
             "it": "Ripeti playlist",
             "sv": "Upprepa spellista",
-            "no": "Gjenta spilleliste"
+            "no": "Gjenta spilleliste",
+            "es": "Repetir lista de reproducción",
+            "da": "Gentag afspilningsliste"
         }
     }
   ],
@@ -57,7 +65,9 @@
           "fr": "Répéter",
           "it": "Ripeti",
           "sv": "Upprepa",
-          "no": "Gjenta"
+          "no": "Gjenta",
+          "es": "Repetir",
+          "da": "Gentag"    
         },
         "args": [
           {

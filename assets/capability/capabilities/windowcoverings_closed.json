@@ -7,7 +7,9 @@
     "fr": "Fermé",
     "it": "Chiuse",
     "sv": "Stängd",
-    "no": "Lukket"
+    "no": "Lukket",
+    "es": "Cerrados",
+    "da": "Lukket"  
   },
   "getable": true,
   "setable": true,
@@ -23,7 +25,9 @@
           "fr": "Fermé",
           "it": "Chiuse",
           "sv": "Stängd",
-          "no": "Lukket"
+          "no": "Lukket",
+          "es": "Cerrados",
+          "da": "Lukket"    
         }
       },
       {
@@ -35,7 +39,9 @@
           "fr": "Ouvert",
           "it": "Aperte",
           "sv": "Öppen",
-          "no": "Åpen"
+          "no": "Åpen",
+          "es": "Abiertos",
+          "da": "Åben"    
         }
       }
     ],
@@ -49,7 +55,9 @@
           "fr": "Sont !{{fermés|ouverts}}",
           "it": "Sono !{{chiuse|aperte}}",
           "sv": "Är !{{stängda|öppnade}}",
-          "no": "Er !{{lukket|åpen}}"
+          "no": "Er !{{lukket|åpen}}",
+          "es": "Están !{{cerrados|abiertos}}",
+          "da": "Er !{{lukket|åben}}"    
         }
       }
     ],
@@ -63,7 +71,9 @@
           "fr": "Fermer",
           "it": "Chiudi",
           "sv": "Stäng",
-          "no": "Lukk"
+          "no": "Lukk",
+          "es": "Cerrar",
+          "da": "Luk"    
         }
       },
       {
@@ -75,7 +85,9 @@
           "fr": "Ouvrir",
           "it": "Apri",
           "sv": "Öppna",
-          "no": "Åpne"
+          "no": "Åpne",
+          "es": "Abrir",
+          "da": "Åbn"    
         }
       },
       {
@@ -87,7 +99,9 @@
           "fr": "Alterner ouvert/fermé",
           "it": "Alterna aperte/chiuse",
           "sv": "Växla mellan öppen eller stängd",
-          "no": "Veksle mellom åpen og lukket"
+          "no": "Veksle mellom åpen og lukket",
+          "es": "Abrir o cerrar",
+          "da": "Skift mellem åben og lukket"    
         }
       }
     ]

@@ -6,7 +6,9 @@
     "fr": "Position",
     "it": "Posizione",
     "sv": "Position",
-    "no": "Posisjon"
+    "no": "Posisjon",
+    "es": "Posición",
+    "da": "Position"   
   },
   "type": "number",
   "getable": true,

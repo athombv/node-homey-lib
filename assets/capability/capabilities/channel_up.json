@@ -6,7 +6,9 @@
     "fr": "Chaîne haut",
     "it": "Canale verso l'alto",
     "sv": "Kanal upp",
-    "no": "Høyere kanal"
+    "no": "Høyere kanal",
+    "es": "Subir de canal",
+    "da": "Kanal op"   
   },
   "type": "boolean",
   "getable": false,
@@ -22,7 +24,9 @@
           "fr": "Une chaîne vers le haut",
           "it": "Un canale verso l'alto",
           "sv": "En kanal upp",
-          "no": "En kanal høyere"
+          "no": "En kanal høyere",
+          "es": "Un canal más arriba",
+          "da": "En kanal op"     
         }
       }
     ]

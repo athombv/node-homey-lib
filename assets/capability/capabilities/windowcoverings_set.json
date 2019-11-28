@@ -7,7 +7,9 @@
     "fr": "Position",
     "it": "Posizione",
     "sv": "Position",
-    "no": "Posisjon"
+    "no": "Posisjon",
+    "es": "Posición",
+    "da": "Position"  
   },
   "desc": {
     "en": "Set the position of window coverings. 0% is closed, 100% is open",
@@ -15,7 +17,9 @@
     "fr": "Définir la position des stores. 0% est fermé, 100% est ouvert",
     "it": "Imposta la posizione delle tapparelle. 0% è chiuse, 100% è aperte",
     "sv": "Ställ in positionen för fönsterskydden. 0 % är stängd, 100 % är öppet",
-    "no": "Innstill vindusbeskyttelsens posisjon. 0 % er lukket, 100 % er åpen"
+    "no": "Innstill vindusbeskyttelsens posisjon. 0 % er lukket, 100 % er åpen",
+    "es": "Configura la posición de los cobertores de ventanas. 0 % es 'cerrados', 100 % es 'abiertos'",
+    "da": "Indstil positionen af dækket for vinduet. 0% er lukket, 100% er åben"  
   },
   "chartType": "stepLine",
   "min": 0,
@@ -38,7 +42,9 @@
           "fr": "Position a été modifiée",
           "it": "Posizione cambiata",
           "sv": "Position ändrad",
-          "no": "Posisjon endret"
+          "no": "Posisjon endret",
+          "es": "La posición ha cambiado",
+          "da": "Position ændret"    
         },
         "tokens": [
           {
@@ -51,7 +57,9 @@
               "fr": "Position",
               "it": "Posizione",
               "sv": "Position",
-              "no": "Posisjon"
+              "no": "Posisjon",
+              "es": "Posición",
+              "da": "Position"    
             },
             "example": 0.5
           }
@@ -68,7 +76,9 @@
           "fr": "Mettre la position sur",
           "it": "Imposta la posizione su",
           "sv": "Ställ in positionen till",
-          "no": "Innstill posisjonen til"
+          "no": "Innstill posisjonen til",
+          "es": "Configurar la posición como",
+          "da": "Indstil positionen til"    
         },
         "args": [
           {

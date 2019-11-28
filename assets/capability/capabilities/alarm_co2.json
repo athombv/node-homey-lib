@@ -6,7 +6,9 @@
     "de": "CO2-Alarm",
     "fr": "Alarme CO2",
     "it": "Allarme CO2",
-    "no": "CO2-alarm"
+    "no": "CO2-alarm",
+    "es": "Alarma de CO2",
+    "da": "CO2-alarm"  
 
 
   },
@@ -16,7 +18,9 @@
     "de": "True, wenn gefährliche CO2-Werte erkannt wurden",
     "fr": "Vrai si des valeurs dangereuses de CO2 ont été détectées",
     "it": "Vero quando sono stati rilevati valori pericolosi di CO2",
-    "no": "Sant når farlige CO2-verdier har blitt oppdaget"
+    "no": "Sant når farlige CO2-verdier har blitt oppdaget",
+    "es": "Verdadero cuando se han detectado valores peligrosos de CO2",
+    "da": "Sandt, når farlige CO2-værdier er blevet opdaget"  
 
 
   },
@@ -28,7 +32,9 @@
     "fr": "L'alarme CO2 s'est activée",
     "it": "Allarme CO2 attivato",
     "sv": "CO2-larm på",
-    "no": "CO2-alarm aktivert"
+    "no": "CO2-alarm aktivert",
+    "es": "Alarma de CO2 activada",
+    "da": "CO2-alarm aktiveret"  
   },
   "insightsTitleFalse": {
     "en": "CO2 alarm turned off",
@@ -37,7 +43,9 @@
     "fr": "L'alarme CO2 s'est désactivée",
     "it": "Allarme CO2 disattivato",
     "sv": "CO2-larm av",
-    "no": "CO2-alarm deaktivert"
+    "no": "CO2-alarm deaktivert",
+    "es": "Alarma de CO2 desactivada",
+    "da": "CO2-alarm deaktiveret"  
   },
   "getable": true,
   "setable": false,
@@ -53,7 +61,9 @@
           "fr": "L'alarme CO2 s'est activée",
           "it": "L'allarme CO2 è stato attivato",
           "sv": "CO2-larmet på",
-          "no": "CO2-alarmen er aktivert"
+          "no": "CO2-alarmen er aktivert",
+          "es": "La alarma de CO2 se ha activado",
+          "da": "CO2-alarmen blev aktiveret"    
         }
       },
       {
@@ -65,7 +75,9 @@
           "fr": "L'alarme CO2 s'est désactivée",
           "it": "L'allarme CO2 è stato disattivato",
           "sv": "CO2-larmet av",
-          "no": "CO2-alarmen er deaktivert"
+          "no": "CO2-alarmen er deaktivert",
+          "es": "La alarma de CO2 se ha desactivado",
+          "da": "CO2-alarmen blev deaktiveret"    
         }
       }
     ],
@@ -79,7 +91,9 @@
           "fr": "L'alarme CO2 est !{{en marche|arrêtée}}",
           "it": "L'allarme CO2 è !{{acceso|spento}}",
           "sv": "CO2-larmet är !{{på|av}}",
-          "no": "CO2-alarmen er !{{på|av}}"
+          "no": "CO2-alarmen er !{{på|av}}",
+          "es": "La alarma de CO2 está !{{activada|desactivada}}",
+          "da": "CO2-alarmen er !{{tændt|slukket}}" 
         }
       }
     ]

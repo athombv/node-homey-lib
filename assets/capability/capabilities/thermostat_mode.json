@@ -7,7 +7,9 @@
     "fr": "Mode thermostat",
     "it": "Modalità termostato",
     "sv": "Termostatläge",
-    "no": "Termostatmodus"
+    "no": "Termostatmodus",
+    "es": "Modo del termostato",
+    "da": "Termostattilstand"  
   },
   "desc": {
     "en": "Mode of the thermostat",
@@ -16,7 +18,9 @@
     "fr": "Mode du thermostat",
     "it": "Modalità del termostato",
     "sv": "Läge för termostaten",
-    "no": "Modus for termostaten"
+    "no": "Modus for termostaten",
+    "es": "Modo del termostato",
+    "da": "Tilstand for termostat"  
   },
   "values": [
     {
@@ -28,7 +32,9 @@
         "fr": "Automatique",
         "it": "Automatica",
         "sv": "Automatiskt",
-        "no": "Automatisk"
+        "no": "Automatisk",
+        "es": "Automático",
+        "da": "Automatisk"  
       }
     },
     {
@@ -40,7 +46,9 @@
         "fr": "Chauffer",
         "it": "Calore",
         "sv": "Värme",
-        "no": "Varme"
+        "no": "Varme",
+        "es": "Calentar",
+        "da": "Opvarm"  
       }
     },
     {
@@ -52,7 +60,9 @@
         "fr": "Refroidir",
         "it": "Raffreddamento",
         "sv": "Kyla",
-        "no": "Avkjøle"
+        "no": "Avkjøle",
+        "es": "Enfriar",
+        "da": "Køl ned"  
       }
     },
     {
@@ -64,7 +74,9 @@
         "fr": "Désactivé",
         "it": "Disattivata",
         "sv": "Av",
-        "no": "Av"
+        "no": "Av",
+        "es": "Desactivado",
+        "da": "Deaktiveret"  
       }
     }
   ],
@@ -82,7 +94,9 @@
           "fr": "Mode thermostat a été modifié",
           "it": "La modalità del termostato è cambiata",
           "sv": "Termostatläge ändrades",
-          "no": "Termostatmodus ble endret"
+          "no": "Termostatmodus ble endret",
+          "es": "El modo del termostato ha cambiado",
+          "da": "Termostattilstand er blevet ændret"    
         },
         "args": [
           {
@@ -103,7 +117,9 @@
           "fr": "Mode thermostat est",
           "it": "La modalità del termostato è",
           "sv": "Termostatläge är",
-          "no": "Termostatmodus er"
+          "no": "Termostatmodus er",
+          "es": "El modo del termostato es",
+          "da": "Termostattilstand er"    
         },
         "args": [
           {
@@ -124,7 +140,9 @@
           "fr": "Définir le mode",
           "it": "Imposta la modalità",
           "sv": "Ställ in läget",
-          "no": "Innstill modusen"
+          "no": "Innstill modusen",
+          "es": "Configurar el modo",
+          "da": "Indstil tilstanden"    
         },
         "args": [
           {

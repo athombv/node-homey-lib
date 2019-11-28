@@ -7,7 +7,9 @@
     "fr": "Humidité",
     "it": "Umidità",
     "sv": "Luftfuktighet",
-    "no": "Luftfuktighet"
+    "no": "Luftfuktighet",
+    "es": "Humedad",
+    "da": "Luftfugtighed"  
   },
   "units": {
     "en": "%"
@@ -20,7 +22,9 @@
     "fr": "Humidité en pourcentage (%)",
     "it": "Umidità in percentuale (%)",
     "sv": "Luftfuktighet i procent (%)",
-    "no": "Luftfuktighet i prosent (%)"
+    "no": "Luftfuktighet i prosent (%)",
+    "es": "Humedad en porcentaje (%)",
+    "da": "Luftfugtighed i procent (%)"  
   },
   "chartType": "spline",
   "decimals": 2,
@@ -38,7 +42,9 @@
           "fr": "L'humidité a changé",
           "it": "L'umidità è cambiata",
           "sv": "Luftfuktigheten ändrades",
-          "no": "Luftfuktigheten ble endret"
+          "no": "Luftfuktigheten ble endret",
+          "es": "La humedad ha cambiado",
+          "da": "Luftfugtigheden ændrede sig"    
         },
         "tokens": [
           {
