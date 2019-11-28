@@ -91,7 +91,7 @@
           "sv": "Värmelarmet är !{{på|av}}",
           "no": "Varmealarmen er !{{på|av}}",
           "es": "La alarma de calor está !{{activada|desactivada}}",
-          "da": "Varmealarmen er !{{tændt|slukket}}    
+          "da": "Varmealarmen er !{{tændt|slukket}}"
         }
       }
     ]
