@@ -12,6 +12,7 @@ module.exports.getDeviceClass = module.exports.Device.getClass.bind(module.expor
 
 module.exports.getCapabilities = module.exports.Capability.getCapabilities.bind(module.exports.Capability);
 module.exports.getCapability = module.exports.Capability.getCapability.bind(module.exports.Capability);
+module.exports.hasCapability = module.exports.Capability.hasCapability.bind(module.exports.Capability);
 
 module.exports.getAppLocales = module.exports.App.getLocales.bind(module.exports.App);
 module.exports.getAppCategories = module.exports.App.getCategories.bind(module.exports.App);
