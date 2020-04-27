@@ -87,6 +87,10 @@
           "es": "Ajustar la intensidad de la luz como relativa",
           "da": "Indstil relativt lysniveau"     
         },
+        "hint": {
+          "en": "Dim or brighten with respect to the device's current dim-level.",
+          "nl": "Verhoog of verlaag de helderheid ten opzichte van het huidige dim-niveau van het apparaat."
+        },
         "args": [{
           "name": "dim",
           "type": "range",
