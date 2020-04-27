@@ -33,6 +33,10 @@
           "es": "Configurar la tonalidad",
           "da": "Indstil farvetonen"     
         },
+        "hint": {
+          "en": "Select a color from the hue scale, for example red (0°/360°), yellow (60°), or blue (180°).",
+          "nl": "Selecteer een kleurtint van de hue schaal, bijvoorbeeld rood (0°/360°), geel (60°), of blauw (180°)."
+        },
         "args": [
           {
             "name": "hue",
