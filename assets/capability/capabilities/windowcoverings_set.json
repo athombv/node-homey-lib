@@ -81,8 +81,8 @@
           "da": "Indstil positionen til"    
         },
         "hint": {
-          "en": "Change the position to open (0%), closed (100%), or a value in between.",
-          "nl": "Verander de positie naar open (0%), gesloten (100%), of een een waarde daartussen."
+          "en": "Change the position to open (100%), closed (0%), or a value in between.",
+          "nl": "Verander de positie naar open (100%), gesloten (0%), of een een waarde daartussen."
         },
         "args": [
           {
