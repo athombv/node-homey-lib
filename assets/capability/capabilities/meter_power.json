@@ -1,32 +1,21 @@
 {
   "type": "number",
   "title": {
-    "en": "Power Meter",
-    "nl": "Energiemeter",
-    "de": "Energiezähler",
-    "fr": "Compteur électrique",
-    "it": "Misuratore di potenza",
-    "sv": "Elmätare",
-    "no": "Strømmåler",
-    "es": "Contador de energía",
-    "da": "Strømmåler"  
+    "en": "Power",
+    "nl": "Energie",
+    "de": "Energie",
+    "fr": "Énergie",
+    "it": "Energia",
+    "sv": "Energi",
+    "no": "Energi",
+    "es": "Energía",
+    "da": "Energi"  
   },
   "decimals": 2,
   "units": {
     "en": "KWh"
   },
   "chartType": "spline",
-  "desc": {
-    "en": "Power usage in KiloWattHour (kWh)",
-    "nl": "Stroomverbuik in KiloWattUur (kWh)",
-    "de": "Energieverbrauch in Kilowattstunde (kWh)",
-    "fr": "Consommation électrique en kilo Watt heure (kWh)",
-    "it": "Consumo di energia in chilowattora (kWh)",
-    "sv": "Elförbrukning i kilowattimmar (kWh)",
-    "no": "Strømforbruk i kilowattimer (kWh)",
-    "es": "Consumo de energía en kilovatios hora (kWh)",
-    "da": "Strømforbrug i kilowattimer (kWt)"  
-  },
   "options": {
     "isApproximated": {
       "type": "boolean",
