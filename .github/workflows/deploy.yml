@@ -62,7 +62,7 @@ jobs:
           
       - name: Commit and push webpack build artefact
         run: |
-          git add webpack/index.js
+          git add webpack/index.js || echo "Webpack build artefact did not change"
           git commit -m "build: update webpack artefact" || echo "No changes to commit"
           git push
       
