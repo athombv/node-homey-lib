@@ -101,3 +101,19 @@ jobs:
             -H 'Accept: application/vnd.github.everest-preview+json' \
             -H 'Authorization: token ${{ secrets.HOMEY_GITHUB_ACTIONS_BOT_PERSONAL_ACCESS_TOKEN }}' \
             -d '{"event_type": "update-homey-lib"}'
+
+      - name: Trigger repository dispatch event athombv/homey-smartphone-app-v2
+        run: |
+          curl -X POST \
+            https://api.github.com/repos/athombv/homey-smartphone-app-v2/dispatches \
+            -H 'Accept: application/vnd.github.everest-preview+json' \
+            -H 'Authorization: token ${{ secrets.HOMEY_GITHUB_ACTIONS_BOT_PERSONAL_ACCESS_TOKEN }}' \
+            -d '{"event_type": "update-homey-lib"}'
+
+      - name: Trigger repository dispatch event athombv/athom-cloud-apps-api
+        run: |
+          curl -X POST \
+            https://api.github.com/repos/athombv/athom-cloud-apps-api/dispatches \
+            -H 'Accept: application/vnd.github.everest-preview+json' \
+            -H 'Authorization: token ${{ secrets.HOMEY_GITHUB_ACTIONS_BOT_PERSONAL_ACCESS_TOKEN }}' \
+            -d '{"event_type": "update-homey-lib"}'
