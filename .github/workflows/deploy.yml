@@ -54,38 +54,40 @@ jobs:
           # Needed for publishing to npm
           registry-url: 'https://registry.npmjs.org'
 
-#      # Run `npm ci && npm run build` to re-create your local environment (make sure to commit your - package-lock.json!).
-#      - name: Build
-#        run: |
-#          npm ci
-#          npm run build
-#      - name: Version bump patch
-#        if: "contains(github.event.head_commit.message, '#patch') && !contains(github.event.head_commit.message, '#minor') && !contains(github.event.head_commit.message, '#major')"
-#        run: |
-#          npm version patch
-#          git pull
-#          git push --follow-tags
-#      - name: Version bump minor
-#        if: "contains(github.event.head_commit.message, '#minor') && !contains(github.event.head_commit.message, '#major')"
-#        run: |
-#          npm version minor
-#          git pull
-#          git push --follow-tags
-#      - name: Version bump major
-#        if: "contains(github.event.head_commit.message, '#major')"
-#        run: |
-#          npm version major
-#          git pull
-#          git push --follow-tags
-#      # Publish when this action is running on branch production
-#      - name: Publish
-#        run: |
-#          npm publish
-#          VERSION="$(node -p "require('./package.json').version")"
-#          echo "::set-env name=package_version::${VERSION}"
-#          echo $package_version
-#        env:
-#          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+      # Run `npm ci && npm run build` to re-create your local environment (make sure to commit your - package-lock.json!).
+      - name: Build
+        run: |
+          npm ci
+          npm run build
+      
+      - name: Version bump patch
+        if: "contains(github.event.head_commit.message, '#patch') && !contains(github.event.head_commit.message, '#minor') && !contains(github.event.head_commit.message, '#major')"
+        run: |
+          npm version patch
+          git pull
+          git push --follow-tags
+      - name: Version bump minor
+        if: "contains(github.event.head_commit.message, '#minor') && !contains(github.event.head_commit.message, '#major')"
+        run: |
+          npm version minor
+          git pull
+          git push --follow-tags
+      - name: Version bump major
+        if: "contains(github.event.head_commit.message, '#major')"
+        run: |
+          npm version major
+          git pull
+          git push --follow-tags
+     
+      # Publish when this action is running on branch production
+      - name: Publish
+        run: |
+          npm publish
+          VERSION="$(node -p "require('./package.json').version")"
+          echo "::set-env name=package_version::${VERSION}"
+          echo $package_version
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
 
   trigger-repository-dispatch-event:
     needs: deploy_to_npm
