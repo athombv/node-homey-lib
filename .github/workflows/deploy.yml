@@ -59,6 +59,12 @@ jobs:
         run: |
           npm ci
           npm run build
+          
+      - name: Commit and push webpack build artefact
+        run: |
+          git add webpack/index.js || echo "Webpack build artefact did not change"
+          git commit -m "build: update webpack artefact" || echo "No changes to commit"
+          git push
       
       - name: Version bump patch
         if: "contains(github.event.head_commit.message, '#patch') && !contains(github.event.head_commit.message, '#minor') && !contains(github.event.head_commit.message, '#major')"
@@ -66,12 +72,14 @@ jobs:
           npm version patch
           git pull
           git push --follow-tags
+          
       - name: Version bump minor
         if: "contains(github.event.head_commit.message, '#minor') && !contains(github.event.head_commit.message, '#major')"
         run: |
           npm version minor
           git pull
           git push --follow-tags
+          
       - name: Version bump major
         if: "contains(github.event.head_commit.message, '#major')"
         run: |
