@@ -13,7 +13,7 @@
   },
   "decimals": 2,
   "units": {
-    "en": "KWh"
+    "en": "kWh"
   },
   "chartType": "spline",
   "options": {
