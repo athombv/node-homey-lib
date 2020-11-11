@@ -88,8 +88,8 @@
           "de": "Der Batterie-Alarm ist !{{an|aus}}",
           "fr": "L'alarme batterie est !{{en marche|arrêtée}}",
           "it": "L'allarme della batteria è !{{acceso|spento}}",
-          "sv": "Batteralarmet är !{{på|av}}",
-          "no": "Batteralarmen er !{{på|av}}",
+          "sv": "Batterialarmet är !{{på|av}}",
+          "no": "Batterialarmen er !{{på|av}}",
           "es": "La alarma de la batería está !{{activada|desactivada}}",
           "da": "Batterialarmen er !{{tændt|slukket}}"
         }
