@@ -91,6 +91,10 @@
         "en": "Set relative volume",
         "nl": "Zet relatief volume"
       },
+      "hint": {
+        "en": "Change the volume with respect to the device's current volume.",
+        "nl": "Verhoog of verlaag het volume ten opzichte van het huidige volume van het apparaat."
+      },
       "args": [{
         "name": "volume_set",
         "type": "range",
