@@ -92,8 +92,7 @@ jobs:
         run: |
           npm publish
           VERSION="$(node -p "require('./package.json').version")"
-          echo "::set-env name=package_version::${VERSION}"
-          echo $package_version
+          echo package_version=${VERSION} >> $GITHUB_ENV
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
 
