@@ -126,7 +126,7 @@
           "da": "Er !{{åben|lukket}}"    
         },
         "$filter": {
-          "class": "windowcoverings|curtain|blinds|sunshade|garagedoor"
+          "class": "windowcoverings|curtain|blinds|sunshade"
         }
       }
     ],
@@ -204,40 +204,6 @@
         },
         "$filter": {
           "class": "windowcoverings|curtain|blinds|sunshade"
-        }
-      },
-      {
-        "id": "open",
-        "title": {
-          "en": "Open garagedoor",
-          "nl": "Open de garagedeur",
-          "de": "Garagentor öffnen",
-          "fr": "Ouvrir porte de garage",
-          "it": "Apri le porta del garage",
-          "sv": "Öppna garagedörr",
-          "no": "Åpne garasjedør",
-          "es": "Abrir puerta de garaje",
-          "da": "Åbn garageport"
-        },
-        "$filter": {
-          "class": "garagedoor"
-        }
-      },
-      {
-        "id": "close",
-        "title": {
-          "en": "Close garagedoor",
-          "nl": "Sluit de garagedeur",
-          "de": "Garagentor schließen",
-          "fr": "Fermer porte de garage",
-          "it": "Chiudi le porta del garage",
-          "sv": "Stäng garagedörr",
-          "no": "Lukk garasjedør",
-          "es": "Cerrar puerta de garaje",
-          "da": "Luk garageport"
-        },
-        "$filter": {
-          "class": "garagedoor"
         }
       }
     ]
