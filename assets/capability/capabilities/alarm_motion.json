@@ -37,6 +37,9 @@
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",
+  "options": {
+    "zoneActivity": true
+  },
   "$flow": {
     "triggers": [
       {
