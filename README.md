@@ -2,7 +2,7 @@
 
 This library contains shared code between HCmomey, Homey Apps, Athom CLI, Athom Developer and others.
 
-This library can, among other things: 
+This library can, among other things:
 
 * Validate a Homey App
 * Validate a Capability
