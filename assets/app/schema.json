@@ -47,15 +47,18 @@
 			}
 		},
 		"images": {
-			"required": [ "large", "small" ],
-			"additionalProperties": false,
+      "required": [ "large", "small" ],
+      "additionalProperties": false,
 			"properties": {
 				"large": {
 					"type": "string"
 				},
 				"small": {
 					"type": "string"
-				}
+        },
+        "x-large": {
+          "type": "string"
+        }
 			}
 		},
 		"flowCard": {
