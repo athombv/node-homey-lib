@@ -56,7 +56,7 @@
 				"small": {
 					"type": "string"
         },
-        "x-large": {
+        "xlarge": {
           "type": "string"
         }
 			}
