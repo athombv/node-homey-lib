@@ -89,10 +89,12 @@
       "id": "volume_set_relative",
       "title": {
         "en": "Set relative volume",
+        "de": "Setze relative Lautsärke",
         "nl": "Zet relatief volume"
       },
       "hint": {
         "en": "Change the volume with respect to the device's current volume.",
+        "de": "Ändere die Lautstärke unter Berücksichtigung der aktuellen Lautstärke des Gerätes.",
         "nl": "Verhoog of verlaag het volume ten opzichte van het huidige volume van het apparaat."
       },
       "args": [{
