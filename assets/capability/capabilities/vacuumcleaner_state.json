@@ -107,15 +107,15 @@
     "conditions": [{
       "id": "vacuumcleaner_state_is",
       "title": {
-        "en": "The vacuum cleaner !{{is|is not}}...",
-        "nl": "De stofzuiger !{{is|is niet}}...",
-        "de": "Der Staubsauger !{{ist|ist nicht}}...",
-        "fr": "L'aspirateur !{{est|n'est pas}}...",
-        "it": "L'aspirapolvere !{{è|non è}}...",
-        "sv": "Dammsugaren !{{är|är inte}}...",
-        "no": "Støvsugeren !{{er|er ikke}}...",
-        "es": "La aspiradora !{{está|no está}}...",
-        "da": "Støvsugeren !{{er|er ikke}}..."  
+        "en": "The vacuum cleaner !{{is|is not}}",
+        "nl": "De stofzuiger !{{is|is niet}}",
+        "de": "Der Staubsauger !{{ist|ist nicht}}",
+        "fr": "L'aspirateur !{{est|n'est pas}}",
+        "it": "L'aspirapolvere !{{è|non è}}",
+        "sv": "Dammsugaren !{{är|är inte}}",
+        "no": "Støvsugeren !{{er|er ikke}}",
+        "es": "La aspiradora !{{está|no está}}",
+        "da": "Støvsugeren !{{er|er ikke}}"  
       },
       "args": [{
         "name": "state",
