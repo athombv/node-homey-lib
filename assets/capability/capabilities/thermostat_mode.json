@@ -111,15 +111,15 @@
       {
         "id": "thermostat_mode_is",
         "title": {
-          "en": "Thermostat mode is",
-          "nl": "Thermostaat modus is",
-          "de": "Thermostat-Modus ist",
-          "fr": "Mode thermostat est",
-          "it": "La modalità del termostato è",
-          "sv": "Termostatläge är",
-          "no": "Termostatmodus er",
-          "es": "El modo del termostato es",
-          "da": "Termostattilstand er"    
+          "en": "Thermostat mode !{{is|is not}}",
+          "nl": "Thermostaat modus !{{is|is niet}}",
+          "de": "Thermostat-Modus !{{ist|ist nicht}}",
+          "fr": "Mode thermostat !{{est|n'est pas}}",
+          "it": "La modalità del termostato !{{è|non è}}",
+          "sv": "Termostatläge !{{är|är inte}}",
+          "no": "Termostatmodus !{{er|er ikke}}",
+          "es": "El modo del termostato !{{está|no está}}",
+          "da": "Termostattilstand !{{er|er ikke}}"
         },
         "args": [
           {

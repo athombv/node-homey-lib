@@ -86,15 +86,15 @@
       {
         "id": "lock_mode_is",
         "title": {
-          "en": "Lock mode is",
-          "nl": "Slot modus is",
-          "de": "Schloss-Modus ist",
-          "fr": "Mode verrou est",
-          "it": "La modalità di blocco è",
-          "sv": "Låsläge är",
-          "no": "Låsemodus er",
-          "es": "El modo de la cerradura es",
-          "da": "Lås-tilstand er"    
+          "en": "Lock mode !{{is|is not}}",
+          "nl": "Slot modus !{{is|is niet}}",
+          "de": "Schloss-Modus !{{ist|ist nicht}}",
+          "fr": "Mode verrou !{{est|n'est pas}}",
+          "it": "La modalità di blocco !{{è|non è}}",
+          "sv": "Låsläge !{{är|är inte}}",
+          "no": "Låsemodus !{{er|er ikke}}",
+          "es": "El modo de la cerradura !{{está|no está}}",
+          "da": "Lås-tilstand !{{er|er ikke}}"
         },
         "args": [
           {
