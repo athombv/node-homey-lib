@@ -283,6 +283,187 @@
         }
       }
     },
+    "appSettings": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "required": [
+              "id",
+              "type",
+              "title"
+            ],
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": [
+                  "text",
+                  "password",
+                  "textarea",
+                  "label"
+                ]
+              },
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "$ref": "#/definitions/i18nObject"
+              },
+              "hint": {
+                "$ref": "#/definitions/i18nObject"
+              },
+              "value": {
+                "type": "string"
+              },
+              "pattern": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "type": "object",
+            "required": [
+              "id",
+              "type",
+              "title"
+            ],
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": [
+                  "number",
+                  "slider"
+                ]
+              },
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "$ref": "#/definitions/i18nObject"
+              },
+              "hint": {
+                "$ref": "#/definitions/i18nObject"
+              },
+              "value": {
+                "type": "number"
+              },
+              "units": {
+                "$ref": "#/definitions/i18nObject"
+              },
+              "min": {
+                "type": "number"
+              },
+              "max": {
+                "type": "number"
+              },
+              "step": {
+                "type": "number",
+                "minimum": 0
+              }
+            }
+          },
+          {
+            "type": "object",
+            "required": [
+              "id",
+              "type",
+              "title",
+              "values"
+            ],
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": [
+                  "radio",
+                  "dropdown"
+                ]
+              },
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "$ref": "#/definitions/i18nObject"
+              },
+              "hint": {
+                "$ref": "#/definitions/i18nObject"
+              },
+              "value": {
+                "type": "string"
+              },
+              "values": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "id",
+                    "title"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "$ref": "#/definitions/i18nObject"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "object",
+            "required": [
+              "id",
+              "type",
+              "title"
+            ],
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": [
+                  "checkbox"
+                ]
+              },
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "$ref": "#/definitions/i18nObject"
+              },
+              "hint": {
+                "$ref": "#/definitions/i18nObject"
+              },
+              "value": {
+                "type": "boolean"
+              }
+            }
+          },
+          {
+            "type": "object",
+            "required": [
+              "type",
+              "title",
+              "children"
+            ],
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": [
+                  "group"
+                ]
+              },
+              "title": {
+                "$ref": "#/definitions/i18nObject"
+              },
+              "children": {
+                "$ref": "#/definitions/appSettings"
+              }
+            }
+          }
+        ]
+      }
+    },
     "driverSettings": {
       "type": "array",
       "items": {
@@ -1297,6 +1478,9 @@
           }
         }
       }
+    },
+    "settings": {
+      "$ref": "#/definitions/appSettings"
     }
   }
 }
