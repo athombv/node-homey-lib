@@ -1134,46 +1134,6 @@
               }
             }
           },
-          "mobile": {
-            "type": "object",
-            "properties": {
-              "components": {
-                "type": "array",
-                "items": {
-                  "type": "object",
-                  "required": [
-                    "id"
-                  ],
-                  "properties": {
-                    "id": {
-                      "type": "string",
-                      "enum": [
-                        "icon",
-                        "toggle",
-                        "slider",
-                        "battery",
-                        "sensor",
-                        "ternary",
-                        "picker",
-                        "color",
-                        "thermostat",
-                        "button"
-                      ]
-                    },
-                    "capabilities": {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
-                    },
-                    "options": {
-                      "type": "object"
-                    }
-                  }
-                }
-              }
-            }
-          },
           "settings": {
             "$ref": "#/definitions/driverSettings"
           },
