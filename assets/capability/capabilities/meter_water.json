@@ -11,7 +11,7 @@
     "es": "Contador de agua",
     "da": "Vandmåler"  
   },
-  "decimals": 2,
+  "decimals": 3,
   "min": 0,
   "units": {
     "en": "m³"
