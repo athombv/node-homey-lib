@@ -22,13 +22,7 @@
         "title": {
           "en": "Started playing",
           "nl": "Begint af te spelen",
-          "de": "Begann zu spielen",
-          "fr": "",
-          "it": "",
-          "sv": "",
-          "no": "",
-          "es": "",
-          "da": ""
+          "de": "Begann zu spielen"
         }
       },
       {
@@ -36,13 +30,7 @@
         "title": {
           "en": "Stopped playing",
           "nl": "Gestopt met afspelen",
-          "de": "Hörte auf zu spielen",
-          "fr": "",
-          "it": "",
-          "sv": "",
-          "no": "",
-          "es": "",
-          "da": ""
+          "de": "Hörte auf zu spielen"
         }
       }
     ],
