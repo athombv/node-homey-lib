@@ -16,6 +16,36 @@
   "uiComponent": "media",
   "uiQuickAction": true,
   "$flow": {
+    "triggers": [
+      {
+        "id": "speaker_playing_true",
+        "title": {
+          "en": "Started playing",
+          "nl": "Begint af te spelen",
+          "de": "Begann zu spielen",
+          "fr": "Lecture démarrée",
+          "it": "Riproduzione avviata",
+          "sv": "Började spela",
+          "no": "Startet spilling",
+          "es": "Reproducción iniciada",
+          "da": "Begyndte at spille"
+        }
+      },
+      {
+        "id": "speaker_playing_false",
+        "title": {
+          "en": "Stopped playing",
+          "nl": "Gestopt met afspelen",
+          "de": "Hörte auf zu spielen",
+          "fr": "Lecture stoppée",
+          "it": "Riproduzione interrotta",
+          "sv": "Slutade spela",
+          "no": "Stanset spilling",
+          "es": "Reproducción detenida",
+          "da": "Stoppede med at spille"
+        }
+      }
+    ],
     "conditions": [
       {
         "id": "is_playing",
