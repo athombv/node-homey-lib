@@ -16,8 +16,8 @@
   },
   "insights": true,
   "desc": {
-    "en": "Temperature in degrees Celcius (°C)",
-    "nl": "Temperatuur in graden Celcius (°C)"
+    "en": "Temperature in degrees Celsius (°C)",
+    "nl": "Temperatuur in graden Celsius (°C)"
   },
   "decimals": 2,
   "chartType": "spline",
