@@ -15,6 +15,10 @@
   "units": {
     "en": "kWh"
   },
+  "desc": {
+    "en": "Energy usage in kilowatt-hour (kWh)",
+    "nl": "Energie verbruik in kilowattuur (kWh)"
+  },
   "chartType": "spline",
   "options": {
     "isApproximated": {
