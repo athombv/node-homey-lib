@@ -17,7 +17,14 @@
   "insights": true,
   "desc": {
     "en": "Temperature in degrees Celsius (°C)",
-    "nl": "Temperatuur in graden Celsius (°C)"
+    "nl": "Temperatuur in graden Celsius (°C)",
+    "de": "Temperatur in Grad Celsius (°C)",
+    "fr": "Température en degrés Celsius (°C)",
+    "it": "Temperatura in gradi Celsius (°C)",
+    "sv": "Temperatur i grader Celsius (°C)",
+    "no": "Temperatur i grader celsius (°C)",
+    "es": "Temperatura en grados Celsius (°C)",
+    "da": "Temperatur i Celsius (°C)"  
   },
   "decimals": 2,
   "chartType": "spline",
