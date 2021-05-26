@@ -18,12 +18,12 @@
   "desc": {
     "en": "Energy usage in kilowatt-hour (kWh)",
     "nl": "Energie verbruik in kilowattuur (kWh)",
-    "de": "Energieverbrauch in Kilowattstunden (kWh)",
-    "fr": "Consommation d'énergie en kiloWatt-heure (kWh)",
+    "de": "Energieverbrauch in Kilowattstunde (kWh)",
+    "fr": "Consommation d'énergie en kilowatt-heure (kWh)",
     "it": "Consumo energetico in kilowattora (kWh)",
     "sv": "Energianvändning i kilowattimmar (kWh)",
     "no": "Energiforbruk i kilowattimer (kWh)",
-    "es": "Uso de energía en kilovátios-hora (kWh)",
+    "es": "Uso de energía en kilovatio hora (kWh)",
     "da": "Energiforbrug i kilowattime (kWh)" 
   },
   "chartType": "spline",
