@@ -22,6 +22,10 @@
 		}
 	},
 	"required": [ "title", "type" ],
+	"anyOf": [
+		{ "required": [ "getable" ] },
+		{ "required": [ "setable" ] }
+	],
 	"properties": {
 		"title": {
 			"$ref": "#/definitions/i18nObject"
