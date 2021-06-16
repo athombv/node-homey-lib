@@ -69,6 +69,7 @@
     "actions": [
       {
         "id": "windowcoverings_set",
+        "highlight": true,
         "title": {
           "en": "Set the position to",
           "nl": "Zet de positie naar",

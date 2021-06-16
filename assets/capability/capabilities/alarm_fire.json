@@ -52,6 +52,7 @@
     "triggers": [
       {
         "id": "alarm_fire_true",
+        "highlight": true,
         "title": {
           "en": "The fire alarm turned on",
           "nl": "Het brandalarm gaat aan",

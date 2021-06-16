@@ -64,6 +64,7 @@
     "actions": [
       {
         "id": "close",
+        "highlight": true,
         "title": {
           "en": "Close",
           "nl": "Sluiten",
@@ -78,6 +79,7 @@
       },
       {
         "id": "open",
+        "highlight": true,
         "title": {
           "en": "Open",
           "nl": "Openen",

@@ -125,6 +125,7 @@
     }],
     "actions": [{
       "id": "clean",
+      "highlight": true,
       "title": {
         "en": "Start cleaning",
         "nl": "Begin met stofzuigen",
@@ -153,6 +154,7 @@
       },
       {
         "id": "dock",
+        "highlight": true,
         "title": {
           "en": "Return to dock",
           "nl": "Terug naar laadstation",
@@ -167,6 +169,7 @@
       },
       {
         "id": "stop",
+        "highlight": true,
         "title": {
           "en": "Stop",
           "nl": "Stop",

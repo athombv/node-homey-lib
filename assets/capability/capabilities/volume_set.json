@@ -62,6 +62,7 @@
     }],
     "actions": [{
       "id": "volume_set",
+      "highlight": true,
       "title": {
         "en": "Set volume to",
         "nl": "Zet volume naar",

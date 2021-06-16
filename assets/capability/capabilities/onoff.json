@@ -71,6 +71,7 @@
   "$flow": {
     "triggers": [{
       "id": "onoff_true",
+      "highlight": true,
       "title": {
         "en": "Turned on",
         "nl": "Aangezet ",
@@ -85,6 +86,7 @@
     },
       {
         "id": "onoff_false",
+        "highlight": true,
         "title": {
           "en": "Turned off",
           "nl": "Uitgezet",
@@ -132,6 +134,7 @@
     ],
     "actions": [{
       "id": "on",
+      "highlight": true,
       "title": {
         "en": "Turn on",
         "nl": "Zet aan",
@@ -146,6 +149,7 @@
     },
       {
         "id": "off",
+        "highlight": true,
         "title": {
           "en": "Turn off",
           "nl": "Zet uit",

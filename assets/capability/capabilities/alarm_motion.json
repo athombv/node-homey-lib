@@ -44,6 +44,7 @@
     "triggers": [
       {
         "id": "alarm_motion_true",
+        "highlight": true,
         "title": {
           "en": "The motion alarm turned on",
           "nl": "De bewegingsmelder gaat aan",

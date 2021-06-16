@@ -52,6 +52,7 @@
     "triggers": [
       {
         "id": "alarm_battery_true",
+        "highlight": true,
         "title": {
           "en": "The battery alarm turned on",
           "nl": "De batterijwaarschuwing gaat aan",
