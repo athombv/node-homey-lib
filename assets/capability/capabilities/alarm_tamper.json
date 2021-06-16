@@ -52,6 +52,7 @@
     "triggers": [
       {
         "id": "alarm_tamper_true",
+        "highlight": true,
         "title": {
           "en": "The tamper alarm turned on",
           "nl": "Het sabotagealarm gaat aan",

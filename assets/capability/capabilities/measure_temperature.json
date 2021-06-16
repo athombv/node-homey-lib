@@ -24,6 +24,7 @@
     "triggers": [
       {
         "id": "measure_temperature_changed",
+        "highlight": true,
         "title": {
           "en": "The temperature changed",
           "nl": "De temperatuur is veranderd",

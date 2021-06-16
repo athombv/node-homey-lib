@@ -35,6 +35,7 @@
     "actions": [
       {
         "id": "play",
+        "highlight": true,
         "title": {
           "en": "Play",
           "nl": "Speel af",
@@ -49,6 +50,7 @@
       },
       {
         "id": "pause",
+        "highlight": true,
         "title": {
           "en": "Pause",
           "nl": "Pauzeer",

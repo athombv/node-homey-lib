@@ -53,6 +53,7 @@
     "triggers": [
       {
         "id": "alarm_pm25_true",
+        "highlight": true,
         "title": {
           "en": "The PM2.5 alarm turned on",
           "nl": "Het PM2.5 gaat aan",

@@ -52,6 +52,7 @@
     "triggers": [
       {
         "id": "alarm_smoke_true",
+        "highlight": true,
         "title": {
           "en": "The smoke alarm turned on",
           "nl": "De rookmelder gaat aan",

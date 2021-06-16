@@ -35,6 +35,7 @@
     "triggers": [
       {
         "id": "measure_luminance_changed",
+        "highlight": true,
         "title": {
           "en": "The luminance changed",
           "nl": "De helderheid is veranderd",

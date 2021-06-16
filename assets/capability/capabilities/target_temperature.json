@@ -50,6 +50,7 @@
     "actions": [
       {
         "id": "target_temperature_set",
+        "highlight": true,
         "title": {
           "en": "Set the temperature",
           "nl": "Stel de temperatuur in",

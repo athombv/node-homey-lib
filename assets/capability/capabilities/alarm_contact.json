@@ -55,6 +55,7 @@
     "triggers": [
       {
         "id": "alarm_contact_true",
+        "highlight": true,
         "title": {
           "en": "The contact alarm turned on",
           "nl": "Het contactalarm gaat aan",
