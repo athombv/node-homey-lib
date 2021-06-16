@@ -43,6 +43,7 @@
   "$flow": {
     "triggers": [{
       "id": "measure_power_changed",
+      "highlight": true,
       "title": {
         "en": "The power changed",
         "nl": "Het vermogen is veranderd",

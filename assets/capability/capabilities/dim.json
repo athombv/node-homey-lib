@@ -52,6 +52,7 @@
     }],
     "actions": [{
       "id": "dim",
+      "highlight": true,
       "title": {
         "en": "Dim to",
         "nl": "Dim naar",

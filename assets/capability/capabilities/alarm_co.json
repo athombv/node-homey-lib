@@ -52,6 +52,7 @@
     "triggers": [
       {
         "id": "alarm_co_true",
+        "highlight": true,
         "title": {
           "en": "The CO alarm turned on",
           "nl": "Het CO alarm gaat aan",

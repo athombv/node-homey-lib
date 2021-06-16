@@ -94,6 +94,7 @@
     }],
     "actions": [{
         "id": "lock",
+        "highlight": true,
         "title": {
           "en": "Lock",
           "nl": "Vergrendel",
@@ -109,6 +110,7 @@
       },
       {
         "id": "unlock",
+        "highlight": true,
         "title": {
           "en": "Unlock",
           "nl": "Ontgrendel",

@@ -52,6 +52,7 @@
     "triggers": [
       {
         "id": "alarm_heat_true",
+        "highlight": true,
         "title": {
           "en": "The heat alarm turned on",
           "nl": "Het hitte alarm gaat aan",

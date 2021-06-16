@@ -17,6 +17,7 @@
   "$flow": {
     "actions": [{
       "id": "volume_down",
+      "highlight": true,
       "title": {
         "en": "Turn the volume down",
         "nl": "Zet het geluid zachter",
