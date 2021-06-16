@@ -90,6 +90,12 @@
             true
           ]
         },
+        "highlight": {
+          "type": "boolean",
+          "enum": [
+            true
+          ]
+        },
         "droptoken": {
           "oneOf": [
             {
