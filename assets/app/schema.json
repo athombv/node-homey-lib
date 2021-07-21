@@ -1168,6 +1168,7 @@
               "type": "string",
               "enum": [
                 "lan",
+                "cloud",
                 "ble",
                 "zwave",
                 "zigbee",
