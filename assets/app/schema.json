@@ -165,15 +165,13 @@
         "args": {
           "type": "array",
           "items": {
-            "oneOf": [
+            "anyOf": [
               {
                 "type": "object",
                 "required": [
                   "name",
-                  "type"
-                ],
-                "requiredVerified": [
-                  "title"
+                  "type",
+                  "filter"
                 ],
                 "properties": {
                   "name": {
@@ -184,6 +182,16 @@
                     "enum": [
                       "device"
                     ]
+                  },
+                  "filter": {
+                    "oneOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "object"
+                      }
+                    ]
                   }
                 }
               },
@@ -192,6 +200,9 @@
                 "required": [
                   "name",
                   "type"
+                ],
+                "requiredVerified": [
+                  "title"
                 ],
                 "properties": {
                   "title": {
