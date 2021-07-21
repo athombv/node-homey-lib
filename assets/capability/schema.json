@@ -10,7 +10,9 @@
 				},
 				{
 					"type": "object",
-					"required": [ "en" ],
+					"required": [
+						"en"
+					],
 					"patternProperties": {
 						"^.*$": {
 							"type": "string"
@@ -21,10 +23,21 @@
 			]
 		}
 	},
-	"required": [ "title", "type" ],
+	"required": [
+		"title",
+		"type"
+	],
 	"anyOf": [
-		{ "required": [ "getable" ] },
-		{ "required": [ "setable" ] }
+		{
+			"required": [
+				"getable"
+			]
+		},
+		{
+			"required": [
+				"setable"
+			]
+		}
 	],
 	"properties": {
 		"title": {
@@ -35,7 +48,12 @@
 		},
 		"type": {
 			"type": "string",
-			"enum": [ "boolean", "number", "string", "enum" ]
+			"enum": [
+				"boolean",
+				"number",
+				"string",
+				"enum"
+			]
 		},
 		"getable": {
 			"type": "boolean",
@@ -45,11 +63,11 @@
 			"type": "boolean",
 			"default": true
 		},
-    "icon": {
-      "type": "string"
-    },
+		"icon": {
+			"type": "string"
+		},
 		"insights": {
-  		"type": "boolean"
+			"type": "boolean"
 		},
 		"insightsTitleTrue": {
 			"$ref": "#/definitions/i18nObject"
@@ -59,7 +77,15 @@
 		},
 		"chartType": {
 			"type": "string",
-			"enum": [ "line", "area", "stepLine", "column", "spline", "splineArea", "scatter" ]
+			"enum": [
+				"line",
+				"area",
+				"stepLine",
+				"column",
+				"spline",
+				"splineArea",
+				"scatter"
+			]
 		},
 		"decimals": {
 			"type": "number"
@@ -81,7 +107,10 @@
 			"type": "array",
 			"items": {
 				"type": "object",
-				"required": [ "id", "title" ],
+				"required": [
+					"id",
+					"title"
+				],
 				"properties": {
 					"id": {
 						"type": "string"
@@ -93,48 +122,54 @@
 			}
 		},
 		"uiComponent": {
-  		"oneOf": [
-    		{
-      		"type": "string",
-      		"enum": [
-            "thermostat",
-            "media",
-            "toggle",
-            "slider",
-            "ternary",
-            "button",
-            "color",
-            "picker",
-            "sensor",
-            "battery"
-      		]
-    		},
-        {
-          "type": "null"
-        }
-      ]
-    }
+			"oneOf": [
+				{
+					"type": "string",
+					"enum": [
+						"thermostat",
+						"media",
+						"toggle",
+						"slider",
+						"ternary",
+						"button",
+						"color",
+						"picker",
+						"sensor",
+						"battery"
+					]
+				},
+				{
+					"type": "null"
+				}
+			]
+		}
 	},
-	
 	"_comment": "Require `values` array when `type` is `enum`",
 	"oneOf": [
 		{
 			"properties": {
 				"type": {
 					"type": "string",
-					"enum": [ "enum" ]
+					"enum": [
+						"enum"
+					]
 				}
 			},
-			"required": [ "values" ]
+			"required": [
+				"values"
+			]
 		},
 		{
 			"properties": {
 				"type": {
 					"type": "string",
-					"enum": [ "boolean", "number", "string" ]
+					"enum": [
+						"boolean",
+						"number",
+						"string"
+					]
 				}
-			}			
+			}
 		}
 	]
-	
 }

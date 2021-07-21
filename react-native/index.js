@@ -1,9 +1,9 @@
 'use strict';
 
-if( typeof global !== 'undefined' ) {
+if (typeof global !== 'undefined') {
   global.window = global.window || {};
-  var wp = require('../webpack');
-  if( wp ) {
+  const wp = require('../webpack');
+  if (wp) {
     module.exports = wp;
   } else {
     module.exports = global.window.HomeyLib;
