@@ -1,5 +1,5 @@
 'use strict';
 
-const Media = require('..').Media;
+const { Media } = require('..');
 
 console.log('Codecs:', Object.keys(Media.getCodecs()));

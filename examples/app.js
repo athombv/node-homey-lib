@@ -1,6 +1,6 @@
 'use strict';
 
-const App = require('..').App;
+const { App } = require('..');
 
 console.log('Permissions:', App.getPermissions());
 console.log('Categories:', App.getCategories());

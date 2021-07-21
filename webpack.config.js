@@ -12,7 +12,7 @@ module.exports = {
   },
   node: {
     fs: 'empty',
-    util: 'empty'
+    util: 'empty',
   },
   mode: 'production',
 };
