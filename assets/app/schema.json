@@ -172,6 +172,27 @@
                   "name",
                   "type"
                 ],
+                "requiredVerified": [
+                  "title"
+                ],
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "device"
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "required": [
+                  "name",
+                  "type"
+                ],
                 "properties": {
                   "title": {
                     "$ref": "#/definitions/i18nObject"
@@ -210,6 +231,9 @@
                 "required": [
                   "name",
                   "type"
+                ],
+                "requiredVerified": [
+                  "title"
                 ],
                 "properties": {
                   "title": {
@@ -254,6 +278,9 @@
                   "name",
                   "type",
                   "values"
+                ],
+                "requiredVerified": [
+                  "title"
                 ],
                 "properties": {
                   "title": {
@@ -880,7 +907,11 @@
   ],
   "requiredPublish": [
     "category",
-    "images"
+    "images",
+    "brandColor"
+  ],
+  "requiredVerified": [
+    "support"
   ],
   "properties": {
     "id": {
@@ -906,7 +937,7 @@
     },
     "sdk": {
       "type": "number",
-      "default": 1,
+      "default": 3,
       "minimum": 1,
       "maximum": 3
     },
@@ -1029,6 +1060,9 @@
         ],
         "requiredPublish": [
           "images"
+        ],
+        "requiredVerified": [
+          "connectivity"
         ],
         "properties": {
           "id": {
@@ -1204,18 +1238,6 @@
         }
       }
     },
-    "media": {
-      "type": "array",
-      "items": {
-        "type": "string",
-        "enum": [
-          "play",
-          "search",
-          "getPlaylist",
-          "getPlaylists"
-        ]
-      }
-    },
     "signals": {
       "type": "object",
       "patternProperties": {
@@ -1224,113 +1246,6 @@
         }
       },
       "additionalProperties": false
-    },
-    "speech": {
-      "oneOf": [
-        {
-          "type": "object",
-          "required": [
-            "en"
-          ],
-          "additionalProperties": false,
-          "patternProperties": {
-            "^.*$": {
-              "type": "object",
-              "properties": {
-                "element": {
-                  "type": "object",
-                  "additionalProperties": false,
-                  "patternProperties": {
-                    "^.*$": {
-                      "type": "object",
-                      "required": [
-                        "type",
-                        "value"
-                      ],
-                      "properties": {
-                        "type": {
-                          "type": "string",
-                          "enum": [
-                            "string",
-                            "regex",
-                            "device",
-                            "pos"
-                          ]
-                        },
-                        "value": {
-                          "oneOf": [
-                            {
-                              "type": "string"
-                            },
-                            {
-                              "type": "object"
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                },
-                "group": {
-                  "type": "object",
-                  "additionalProperties": false,
-                  "patternProperties": {
-                    "^.*$": {
-                      "type": "object",
-                      "required": [
-                        "set"
-                      ],
-                      "properties": {
-                        "set": {
-                          "type": "string"
-                        },
-                        "ordered": {
-                          "type": "boolean"
-                        },
-                        "allowDisconnect": {
-                          "type": "boolean"
-                        },
-                        "capturingGroup": {
-                          "type": "boolean"
-                        },
-                        "devices": {
-                          "type": "object"
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        {
-          "type": "array",
-          "_comment": "Apps SDK v1 speech (deprecated)",
-          "items": {
-            "type": "object",
-            "required": [
-              "id"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "importance": {
-                "type": "number",
-                "minimum": 0,
-                "maximum": 1
-              },
-              "triggers": {
-                "$ref": "#/definitions/i18nArray"
-              }
-            }
-          }
-        }
-      ]
-    },
-    "speechExamples": {
-      "$ref": "#/definitions/i18nArray"
     },
     "brandColor": {
       "type": "string",
