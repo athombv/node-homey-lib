@@ -3,13 +3,13 @@
 const { getCapability, Capability } = require('..');
 const capabilities = require('..').getCapabilities();
 
-Promise.resolve().then(async () => {  
-  for( const capabilityId in capabilities ) {
+Promise.resolve().then(async () => {
+  for (const capabilityId in capabilities) {
     const capabilityObj = getCapability(capabilityId);
-    
-    const capability = new Capability( capabilityObj );
+
+    const capability = new Capability(capabilityObj);
     await capability.validate();
-    
-   	console.log(`Capability ${capabilityId} validated successfully`);
+
+     console.log(`Capability ${capabilityId} validated successfully`);
   }
-}).catch(console.error)
+}).catch(console.error);

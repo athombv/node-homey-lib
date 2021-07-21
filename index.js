@@ -21,5 +21,5 @@ module.exports.getAppBrandColor = module.exports.App.getBrandColor.bind(module.e
 
 module.exports.getMediaCodecs = module.exports.Media.getCodecs.bind(module.exports.Media);
 
-module.exports.getCurrencies = module.exports.Energy.getCurrencies.bind(module.exports.Energy);;
-module.exports.getBatteries = module.exports.Energy.getBatteries.bind(module.exports.Energy);;
+module.exports.getCurrencies = module.exports.Energy.getCurrencies.bind(module.exports.Energy);
+module.exports.getBatteries = module.exports.Energy.getBatteries.bind(module.exports.Energy);

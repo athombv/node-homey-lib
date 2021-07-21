@@ -1,15 +1,16 @@
 'use strict';
 
 const { getCapability, Capability } = require('..');
+
 const capabilityId = process.argv[2];
 const capabilityObj = getCapability(capabilityId);
 
-const capability = new Capability( capabilityObj );
+const capability = new Capability(capabilityObj);
 capability.validate({
-	debug: true,
+  debug: true,
 }).then(() => {
-	console.log(`Capability ${capabilityId} validated successfully`);
-}).catch( err => {
-	console.error(`Capability ${capabilityId} did not validate`);
-	console.error( err );
-})
+  console.log(`Capability ${capabilityId} validated successfully`);
+}).catch(err => {
+  console.error(`Capability ${capabilityId} did not validate`);
+  console.error(err);
+});
