@@ -540,14 +540,7 @@
                 ]
               },
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "string"
               },
               "label": {
                 "$ref": "#/definitions/i18nObject"
@@ -582,14 +575,7 @@
                 ]
               },
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "string"
               },
               "label": {
                 "$ref": "#/definitions/i18nObject"
@@ -640,14 +626,7 @@
                 ]
               },
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "string"
               },
               "label": {
                 "$ref": "#/definitions/i18nObject"
@@ -696,14 +675,7 @@
                 ]
               },
               "id": {
-                "oneOf": [
-                  {
-                    "type": "string"
-                  },
-                  {
-                    "type": "number"
-                  }
-                ]
+                "type": "string"
               },
               "label": {
                 "$ref": "#/definitions/i18nObject"
