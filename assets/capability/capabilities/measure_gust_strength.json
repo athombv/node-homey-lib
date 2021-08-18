@@ -16,8 +16,8 @@
   },
   "insights": true,
   "desc": {
-    "en": "Gust Strength in Kilometer per hour (km/h)",
-    "nl": "Windstoot snelheid in Kilometer per uur (km/u)",
+    "en": "Gust strength in kilometer per hour (km/h)",
+    "nl": "Windstoot snelheid in kilometer per uur (km/u)",
     "de": "Böenstärke in Kilometer pro Stunde (km/h)",
     "fr": "Force du coup de vent en kilomètres par heure (km/h)",
     "it": "Intensità delle raffiche in chilometri orari (km/h)",
