@@ -1,7 +1,7 @@
 {
   "type": "enum",
   "title": {
-    "en": "Home Alarm state",
+    "en": "Home alarm state",
     "nl": "Thuisalarm status",
     "de": "Heim-Alarm-Status",
     "fr": "Etat de l'alarme de maison",
