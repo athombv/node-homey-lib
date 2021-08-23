@@ -1,7 +1,7 @@
 {
   "type": "number",
   "title": {
-    "en": "Rain Meter",
+    "en": "Rain meter",
     "nl": "Regenmeter",
     "de": "Regenzähler",
     "fr": "Compteur de pluie",
@@ -16,8 +16,8 @@
   },
   "chartType": "spline",
   "desc": {
-    "en": "Rain in Cubic Meter (m³)",
-    "nl": "Regen in Kubieke Meter (m³)",
+    "en": "Rain in cubic meter (m³)",
+    "nl": "Regen in kubieke meter (m³)",
     "de": "Regen in Kubikmeter (m³)",
     "fr": "Pluie en mètres cubes (m³)",
     "it": "Pioggia in metri cubi (m³)",

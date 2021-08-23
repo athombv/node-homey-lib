@@ -1,7 +1,7 @@
 {
   "type": "number",
   "title": {
-    "en": "Gas Meter",
+    "en": "Gas meter",
     "nl": "Gasmeter",
     "de": "Gaszähler",
     "fr": "Compteur de gaz",
@@ -18,8 +18,8 @@
     "en": "m³"
   },
   "desc": {
-    "en": "Gas usage in Cubic Meter (m³)",
-    "nl": "Gas gebruik in Kubieke Meter (m³)",
+    "en": "Gas usage in cubic meter (m³)",
+    "nl": "Gas gebruik in kubieke meter (m³)",
     "de": "Gasverbrauch in Kubikmeter (m³)",
     "fr": "Consommation de gaz en mètres cubes (m³)",
     "it": "Consumo di gas in metri cubi (m³)",

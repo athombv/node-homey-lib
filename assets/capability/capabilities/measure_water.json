@@ -15,8 +15,8 @@
     "en": "L/min"
   },
   "desc": {
-    "en": "Water flow in Liters per minute (L/min)",
-    "nl": "Waterdoorstroming in Liters per minuut (L/min)",
+    "en": "Water flow in liters per minute (L/min)",
+    "nl": "Waterdoorstroming in liters per minuut (L/min)",
     "de": "Wasserfluss in Liter pro Minute (L/min)",
     "fr": "Débit d'eau en litres par minute (L/min)",
     "it": "Flusso d'acqua in litri al minuto (L/min)",

@@ -1,7 +1,7 @@
 {
   "type": "number",
   "title": {
-    "en": "Wind Strength",
+    "en": "Wind strength",
     "nl": "Windsnelheid",
     "de": "Windstärke",
     "fr": "Force du vent",
@@ -15,8 +15,8 @@
     "en": "km/h"
   },
   "desc": {
-    "en": "Wind Strength in Kilometer per hour (km/h)",
-    "nl": "Windsnelheid in Kilometer per uur (km/u)",
+    "en": "Wind Strength in kilometer per hour (km/h)",
+    "nl": "Windsnelheid in kilometer per uur (km/u)",
     "de": "Windstärke in Kilometer pro Stunde (km/h)",
     "fr": "Force du vent en kilomètres par heure (km/h)",
     "it": "Forza del vento in chilometri orari (km/h)",
