@@ -16,15 +16,15 @@
   },
   "insights": true,
   "desc": {
-    "en": "Power in Watt (W)",
-    "nl": "Vermogen in Watt (W)",
+    "en": "Power in watt (W)",
+    "nl": "Vermogen in watt (W)",
     "de": "Leistung in Watt (W)",
-    "fr": "Puissance  en Watt (W)",
-    "it": "Potenza in Watt (W)",
+    "fr": "Puissance  en watt (W)",
+    "it": "Potenza in watt (W)",
     "sv": "Effekt i watt (W)",
     "no": "Effekt i watt (W)",
     "es": "Potencia en vatios (W)",
-    "da": "Effekt i Watt (W)"    
+    "da": "Effekt i watt (W)"
   },
   "options": {
     "isApproximated": {

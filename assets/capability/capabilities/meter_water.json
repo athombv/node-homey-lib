@@ -1,7 +1,7 @@
 {
   "type": "number",
   "title": {
-    "en": "Water Meter",
+    "en": "Water meter",
     "nl": "Watermeter",
     "de": "Wasserzähler",
     "fr": "Compteur d'eau",
@@ -18,8 +18,8 @@
   },
   "chartType": "spline",
   "desc": {
-    "en": "Water usage in Cubic Meter (m³)",
-    "nl": "Water gebruik in Kubieke Meter (m³)",
+    "en": "Water usage in cubic meter (m³)",
+    "nl": "Water gebruik in kubieke meter (m³)",
     "de": "Wasserverbrauch in Kubikmeter (m³)",
     "fr": "Consommation d'eau en mètres cubes (m³)",
     "it": "Utilizzo di acqua in metri cubi (m³)",
