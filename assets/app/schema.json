@@ -74,6 +74,9 @@
         "id",
         "title"
       ],
+      "requiredVerified": [
+        "platforms"
+      ],
       "properties": {
         "id": {
           "type": "string"
@@ -95,6 +98,16 @@
           "enum": [
             true
           ]
+        },
+        "platforms": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "cloud",
+              "local"
+            ]
+          }
         },
         "droptoken": {
           "oneOf": [
