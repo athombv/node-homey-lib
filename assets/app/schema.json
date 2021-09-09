@@ -74,6 +74,9 @@
         "id",
         "title"
       ],
+      "requiredVerified": [
+        "platforms"
+      ],
       "properties": {
         "id": {
           "type": "string"
@@ -95,6 +98,16 @@
           "enum": [
             true
           ]
+        },
+        "platforms": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "cloud",
+              "local"
+            ]
+          }
         },
         "droptoken": {
           "oneOf": [
@@ -922,6 +935,7 @@
     "brandColor"
   ],
   "requiredVerified": [
+    "platforms",
     "support"
   ],
   "properties": {
@@ -951,6 +965,16 @@
       "default": 3,
       "minimum": 1,
       "maximum": 3
+    },
+    "platforms": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "cloud",
+          "local"
+        ]
+      }
     },
     "tags": {
       "$ref": "#/definitions/i18nArray"
@@ -1073,6 +1097,7 @@
           "images"
         ],
         "requiredVerified": [
+          "platforms",
           "connectivity"
         ],
         "properties": {
@@ -1206,6 +1231,16 @@
           },
           "zigbee": {
             "type": "object"
+          },
+          "platforms": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "cloud",
+                "local"
+              ]
+            }
           },
           "connectivity": {
             "type": "array",
