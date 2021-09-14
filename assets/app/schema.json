@@ -74,9 +74,6 @@
         "id",
         "title"
       ],
-      "requiredVerified": [
-        "platforms"
-      ],
       "properties": {
         "id": {
           "type": "string"
