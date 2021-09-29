@@ -27,7 +27,7 @@
     "da": "Tryk i millibar (mbar)"   
   },
   "chartType": "spline",
-  "decimals": 2,
+  "decimals": 0,
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",
