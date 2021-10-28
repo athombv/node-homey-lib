@@ -52,29 +52,29 @@
     "triggers": [{
         "id": "locked_true",
         "title": {
-          "en": "A lock just locked",
-          "nl": "Een slot werd vergrendeld",
-          "de": "Ein Schloss wurde gerade verriegelt",
-          "fr": "Un verrou vient de se verrouiller",
-          "it": "Una serratura appena chiusa",
-          "sv": "Ett lås låstes precis",
-          "no": "En lås ble nettopp låst",
-          "es": "Se ha cerrado una cerradura",
-          "da": "En lås er lige blevet låst"    
+          "en": "Locked",
+          "nl": "Vergrendeld",
+          "de": "Verriegelt",
+          "fr": "Verrouiller",
+          "it": "Chiusa",
+          "sv": "Låst",
+          "no": "Låst",
+          "es": "Cerrado",
+          "da": "Låst"    
         }
       },
       {
         "id": "locked_false",
         "title": {
-          "en": "A lock just unlocked",
-          "nl": "Een slot werd ontgrendeld",
-          "de": "Ein Schloss wurde gerade entriegelt",
-          "fr": "Un verrou vient de se déverrouiller",
-          "it": "Una serratura appena aperta",
-          "sv": "Ett lås låstes precis upp",
-          "no": "En lås ble nettopp låst opp",
-          "es": "Se ha abierto una cerradura",
-          "da": "En lås er lige blevet låst op"    
+          "en": "Unlocked",
+          "nl": "Ontgrendeld",
+          "de": "Entriegelt",
+          "fr": "Déverrouiller",
+          "it": "Aperta",
+          "sv": "Olåst",
+          "no": "Ulåst",
+          "es": "Abierto",
+          "da": "Låst op"    
         }
       }
     ],
