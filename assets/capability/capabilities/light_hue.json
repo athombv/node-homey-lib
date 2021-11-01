@@ -9,7 +9,7 @@
     "sv": "Nyans",
     "no": "Fargetone",
     "es": "Tonalidad",
-    "da": "Farvetone"  
+    "da": "Farvetone"
   },
   "min": 0,
   "chartType": "stepLine",
@@ -31,7 +31,7 @@
           "sv": "Ställ in nyans",
           "no": "Innstill fargetone",
           "es": "Configurar la tonalidad",
-          "da": "Indstil farvetonen"     
+          "da": "Indstil farvetonen"
         },
         "hint": {
           "en": "Select a color from the hue scale, for example red (0°/360°), yellow (60°), or blue (180°).",
@@ -62,7 +62,7 @@
           "sv": "Ställ in en färg",
           "no": "Innstill fargetone",
           "es": "Configurar un color",
-          "da": "Indstil en farve"    
+          "da": "Indstil en farve"
         },
         "args": [
           {
@@ -82,18 +82,36 @@
           "sv": "Ställ in en slumpvis färg",
           "no": "Innstill en tilfeldig farge",
           "es": "Configurar un color aleatorio",
-          "da": "Indstil en tilfældig farve"    
+          "da": "Indstil en tilfældig farve"
         }
       }
     ]
   },
   "$speechExamples": {
-    "en": [ "Turn all lights to blue", "Turn My Light to pink" ],
-    "nl": [ "Zet alle lampen op blauw", "Zet Mijn Licht op blauw" ],
-    "de": ["Alle Lampen auf Blau schalten", "Mein Licht auf Pink schalten"],
-    "fr": ["Mettre toutes les lumières en bleu", "Mettre ma lumière en rose"],
-    "it": [ "Imposta tutte le luci blu", "Imposta la mia luce rosa" ],
-    "sv": [ "Gör alla lampor blå", "Gör min lampa rosa" ]
+    "en": [
+      "Turn all lights to blue",
+      "Turn My Light to pink"
+    ],
+    "nl": [
+      "Zet alle lampen op blauw",
+      "Zet Mijn Licht op blauw"
+    ],
+    "de": [
+      "Alle Lampen auf Blau schalten",
+      "Mein Licht auf Pink schalten"
+    ],
+    "fr": [
+      "Mettre toutes les lumières en bleu",
+      "Mettre ma lumière en rose"
+    ],
+    "it": [
+      "Imposta tutte le luci blu",
+      "Imposta la mia luce rosa"
+    ],
+    "sv": [
+      "Gör alla lampor blå",
+      "Gör min lampa rosa"
+    ]
   },
   "$speech": {
     "en": {
@@ -115,14 +133,14 @@
         }
       },
       "element": {
-                "light": {
-                    "type": "regex",
-                    "value": "(all\\s|every\\s)?(?:the\\s)?(light(s)?|lamp(s)?)(to\\s)?"
-                },
-                "verb": {
-                    "type": "regex",
-                    "value": "(switch|turn|set|put|change)"
-                },
+        "light": {
+          "type": "regex",
+          "value": "(all\\s|every\\s)?(?:the\\s)?(light(s)?|lamp(s)?)(to\\s)?"
+        },
+        "verb": {
+          "type": "regex",
+          "value": "(switch|turn|set|put|change)"
+        },
         "red": {
           "type": "string",
           "value": "red"

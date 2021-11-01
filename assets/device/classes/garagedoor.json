@@ -14,10 +14,26 @@
     "en": "Use this device class for garage doors, usually together with the `garagedoor_closed` capability."
   },
   "$speechAlternatives": {
-    "en": [ "garagedoor", "garage door", "garage door" ],
-    "nl": [ "garagedeur", "garage deur", "garage deuren" ],
-    "fr": [ "porte de garage" ],
-    "it": [ "porta del garage", "basculante" ],
-    "sv": [ "garagedörr", "garageport" ]
+    "en": [
+      "garagedoor",
+      "garage door",
+      "garage door"
+    ],
+    "nl": [
+      "garagedeur",
+      "garage deur",
+      "garage deuren"
+    ],
+    "fr": [
+      "porte de garage"
+    ],
+    "it": [
+      "porta del garage",
+      "basculante"
+    ],
+    "sv": [
+      "garagedörr",
+      "garageport"
+    ]
   }
 }

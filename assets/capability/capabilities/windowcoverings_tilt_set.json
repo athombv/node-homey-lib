@@ -7,7 +7,7 @@
     "sv": "Ställ in lutning för fönsterskydd",
     "no": "Innstill helning for vindusbeskyttelse",
     "es": "Configurar la inclinación de los cobertores de ventanas",
-    "da": "Indstil hældning for vinduesdække"  
+    "da": "Indstil hældning for vinduesdække"
   },
   "type": "number",
   "min": 0,

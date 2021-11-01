@@ -9,7 +9,7 @@
     "sv": "Ultraviolett",
     "no": "Ultrafiolett",
     "es": "Ultravioleta",
-    "da": "Ultraviolet"   
+    "da": "Ultraviolet"
   },
   "units": {
     "en": "UVI"
@@ -22,7 +22,7 @@
     "sv": "Ultraviolett i UV-Index (UVI)",
     "no": "Ultrafiolett på UV-indeks (UVI)",
     "es": "Ultravioleta en índice UV (UV)",
-    "da": "Ultraviolet i UV-indeks (UV)"    
+    "da": "Ultraviolet i UV-indeks (UV)"
   },
   "insights": true,
   "chartType": "spline",
@@ -43,7 +43,7 @@
           "sv": "Ultraviolettvärdet ändrades",
           "no": "Ultrafiolettverdien ble endret",
           "es": "La radiación ultravioleta ha cambiado",
-          "da": "UV-værdien ændrede sig"     
+          "da": "UV-værdien ændrede sig"
         },
         "tokens": [
           {

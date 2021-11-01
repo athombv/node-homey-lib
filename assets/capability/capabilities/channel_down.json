@@ -8,9 +8,7 @@
     "sv": "Kanal ned",
     "no": "Lavere kanal",
     "es": "Bajar de canal",
-    "da": "Kanal ned"   
-
-
+    "da": "Kanal ned"
   },
   "type": "boolean",
   "getable": false,
@@ -28,19 +26,31 @@
           "sv": "En kanal ned",
           "no": "En kanal lavere",
           "es": "Un canal más abajo",
-          "da": "En kanal ned"     
+          "da": "En kanal ned"
         }
       }
     ]
   },
   "uiComponent": "button",
   "$speechExamples": {
-    "en": ["Switch My TV to the previous channel"],
-    "nl": ["Zet Mijn TV op het vorige kanaal"],
-    "de": ["Schalte meinen TV auf den vorherigen Kanal"],
-    "fr": ["Descendre ma télé d'une chaîne"],
-    "it": ["Passa al canale precedente in TV"],
-    "sv": ["Byt till föregående kanal på min TV"]
+    "en": [
+      "Switch My TV to the previous channel"
+    ],
+    "nl": [
+      "Zet Mijn TV op het vorige kanaal"
+    ],
+    "de": [
+      "Schalte meinen TV auf den vorherigen Kanal"
+    ],
+    "fr": [
+      "Descendre ma télé d'une chaîne"
+    ],
+    "it": [
+      "Passa al canale precedente in TV"
+    ],
+    "sv": [
+      "Byt till föregående kanal på min TV"
+    ]
   },
   "$speech": {
     "en": {
@@ -65,7 +75,9 @@
           "allowDisconnect": true,
           "capturingGroup": true,
           "devices": {
-            "capabilities": ["channel_down"]
+            "capabilities": [
+              "channel_down"
+            ]
           }
         }
       }

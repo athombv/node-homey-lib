@@ -9,7 +9,7 @@
     "sv": "Rörelselarm",
     "no": "Bevegelsesalarm",
     "es": "Alarma de movimiento",
-    "da": "Bevægelsesalarm"    
+    "da": "Bevægelsesalarm"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -21,7 +21,7 @@
     "sv": "Rörelselarm aktiverat",
     "no": "Bevegelsesalarm aktivert",
     "es": "Alarma de movimiento activada",
-    "da": "Bevægelsesalarm blev aktiveret"  
+    "da": "Bevægelsesalarm blev aktiveret"
   },
   "insightsTitleFalse": {
     "en": "Motion alarm turned off",
@@ -32,7 +32,7 @@
     "sv": "Rörelselarm inaktiverat",
     "no": "Bevegelsesalarm deaktivert",
     "es": "Alarma de movimiento desactivada",
-    "da": "Bevægelsesalarm blev deaktiveret"   
+    "da": "Bevægelsesalarm blev deaktiveret"
   },
   "getable": true,
   "setable": false,
@@ -54,7 +54,7 @@
           "sv": "Rörelselarmet aktiverat",
           "no": "Bevegelsesalarmen aktivert",
           "es": "La alarma de movimiento se ha activado",
-          "da": "Bevægelsesalarmen blev aktiveret"      
+          "da": "Bevægelsesalarmen blev aktiveret"
         }
       },
       {
@@ -68,7 +68,7 @@
           "sv": "Rörelselarmet inaktiverat",
           "no": "Bevegelsesalarmen deaktivert",
           "es": "La alarma de movimiento se ha desactivado",
-          "da": "Bevægelsesalarmen blev deaktiveret"      
+          "da": "Bevægelsesalarmen blev deaktiveret"
         }
       }
     ],
@@ -84,7 +84,7 @@
           "sv": "Rörelselarmet är !{{på|av}}",
           "no": "Bevegelsesalarmen er !{{på|av}}",
           "es": "La alarma de movimiento está !{{activada|desactivada}}",
-          "da": "Bevægelsesalarmen er !{{tændt|slukket}}"      
+          "da": "Bevægelsesalarmen er !{{tændt|slukket}}"
         }
       }
     ]

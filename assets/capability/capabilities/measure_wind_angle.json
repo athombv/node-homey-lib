@@ -9,7 +9,7 @@
     "sv": "Vindvinkel",
     "no": "Vindvinkel",
     "es": "Ángulo del viento",
-    "da": "Vindvinkel"   
+    "da": "Vindvinkel"
   },
   "units": {
     "en": "°"
@@ -44,8 +44,7 @@
           "sv": "Vindvinkel ändrad",
           "no": "Vindvinkel er endret",
           "es": "El ángulo del viento ha cambiado",
-          "da": "Vindvinklen er skiftet"    
-
+          "da": "Vindvinklen er skiftet"
         },
         "tokens": [
           {

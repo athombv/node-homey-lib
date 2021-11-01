@@ -9,7 +9,7 @@
     "sv": "Temperatur",
     "no": "Temperatur",
     "es": "Temperatura",
-    "da": "Temperatur"   
+    "da": "Temperatur"
   },
   "units": {
     "en": "°C"
@@ -24,7 +24,7 @@
     "sv": "Temperatur i grader Celsius (°C)",
     "no": "Temperatur i grader Celsius (°C)",
     "es": "Temperatura en grados Celsius (°C)",
-    "da": "Temperatur i Celsius (°C)"  
+    "da": "Temperatur i Celsius (°C)"
   },
   "decimals": 2,
   "chartType": "spline",
@@ -45,7 +45,7 @@
           "sv": "Temperaturen ändrades",
           "no": "Temperaturen ble endret",
           "es": "La temperatura ha cambiado",
-          "da": "Temperaturen ændrede sig"     
+          "da": "Temperaturen ændrede sig"
         },
         "tokens": [
           {
@@ -59,12 +59,24 @@
     ]
   },
   "$speechExamples": {
-    "en": [ "What is the average temperature at home?" ],
-    "nl": [ "Wat is de gemiddelde temperatuur thuis?" ],
-    "de": [ "Was ist die durchschnittliche Temperatur zu Hause?"],
-    "fr": [ "Quelle est la température moyenne à la maison ?"],
-    "it": [ "Qual è la temperatura media in casa?" ],
-    "sv": [ "Vad är medeltemperaturen hemma?" ]
+    "en": [
+      "What is the average temperature at home?"
+    ],
+    "nl": [
+      "Wat is de gemiddelde temperatuur thuis?"
+    ],
+    "de": [
+      "Was ist die durchschnittliche Temperatur zu Hause?"
+    ],
+    "fr": [
+      "Quelle est la température moyenne à la maison ?"
+    ],
+    "it": [
+      "Qual è la temperatura media in casa?"
+    ],
+    "sv": [
+      "Vad är medeltemperaturen hemma?"
+    ]
   },
   "$speech": {
     "en": {

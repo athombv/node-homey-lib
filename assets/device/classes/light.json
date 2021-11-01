@@ -21,10 +21,31 @@
     "da": "Brug denne enhedsklasse til lys, normalt sammen med `tændtslukket`, `dæmp` og `lys_*` funktionerne."
   },
   "$speechAlternatives": {
-    "en": [ "light", "lights", "lamp" ],
-    "nl": [ "licht", "lichten", "lamp", "verlichting" ],
-    "fr": [ "lumière", "lampe", "lampes" ],
-    "it": [ "luce", "luci", "lampada" ],
-    "sv": [ "ljus", "lampor", "lampa" ]
+    "en": [
+      "light",
+      "lights",
+      "lamp"
+    ],
+    "nl": [
+      "licht",
+      "lichten",
+      "lamp",
+      "verlichting"
+    ],
+    "fr": [
+      "lumière",
+      "lampe",
+      "lampes"
+    ],
+    "it": [
+      "luce",
+      "luci",
+      "lampada"
+    ],
+    "sv": [
+      "ljus",
+      "lampor",
+      "lampa"
+    ]
   }
 }

@@ -9,7 +9,7 @@
     "sv": "Regn",
     "no": "Regn",
     "es": "Lluvia",
-    "da": "Regn"   
+    "da": "Regn"
   },
   "units": {
     "en": "mm"
@@ -24,7 +24,7 @@
     "sv": "Regn i millimeter (mm)",
     "no": "Regn i millimeter (mm)",
     "es": "Lluvia en milímetros (mm)",
-    "da": "Regn i millimeter (mm)"   
+    "da": "Regn i millimeter (mm)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -44,7 +44,7 @@
           "sv": "Regnet ändrades",
           "no": "Regnet ble endret",
           "es": "La lluvia ha cambiado",
-          "da": "Regnen ændrede sig"     
+          "da": "Regnen ændrede sig"
         },
         "tokens": [
           {

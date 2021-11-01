@@ -9,7 +9,7 @@
     "sv": "Låst",
     "no": "Låst",
     "es": "Cerrada",
-    "da": "Låst"  
+    "da": "Låst"
   },
   "desc": {
     "en": "True when the lock is locked",
@@ -20,7 +20,7 @@
     "sv": "Sant när låset är låst",
     "no": "Sant når låsen er låst",
     "es": "Verdadero cuando la cerradura está cerrada",
-    "da": "Sandt, når låsen er låst"  
+    "da": "Sandt, når låsen er låst"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +32,7 @@
     "sv": "Låst",
     "no": "Låst",
     "es": "Cerrada",
-    "da": "Låst"  
+    "da": "Låst"
   },
   "insightsTitleFalse": {
     "en": "Unlocked",
@@ -43,13 +43,14 @@
     "sv": "Olåst",
     "no": "Ulåst",
     "es": "Abierta",
-    "da": "Ulåst"  
+    "da": "Ulåst"
   },
   "getable": true,
   "setable": true,
   "uiComponent": "toggle",
   "$flow": {
-    "triggers": [{
+    "triggers": [
+      {
         "id": "locked_true",
         "title": {
           "en": "Locked",
@@ -60,7 +61,7 @@
           "sv": "Låst",
           "no": "Låst",
           "es": "Cerrado",
-          "da": "Låst"    
+          "da": "Låst"
         }
       },
       {
@@ -74,25 +75,28 @@
           "sv": "Olåst",
           "no": "Ulåst",
           "es": "Abierto",
-          "da": "Låst op"    
+          "da": "Låst op"
         }
       }
     ],
-    "conditions": [{
-      "id": "locked",
-      "title": {
-        "en": "A lock is !{{locked|unlocked}}",
-        "nl": "Een slot is !{{vergrendeld|ontgrendeld}}",
-        "de": "Ein Schloss ist !{{verriegelt|entriegelt}}",
-        "fr": "Un verrou est !{{verrouillé|déverrouillé}}",
-        "it": "Una serratura è !{{chiusa|aperta}}",
-        "sv": "Ett lås är !{{låst|olåst}}",
-        "no": "En lås er !{{låst|ulåst}}",
-        "es": "Una cerradura está !{{cerrada|abierta}}",
-        "da": "En lås er blevet !{{låst|låst op}}"   
+    "conditions": [
+      {
+        "id": "locked",
+        "title": {
+          "en": "A lock is !{{locked|unlocked}}",
+          "nl": "Een slot is !{{vergrendeld|ontgrendeld}}",
+          "de": "Ein Schloss ist !{{verriegelt|entriegelt}}",
+          "fr": "Un verrou est !{{verrouillé|déverrouillé}}",
+          "it": "Una serratura è !{{chiusa|aperta}}",
+          "sv": "Ett lås är !{{låst|olåst}}",
+          "no": "En lås er !{{låst|ulåst}}",
+          "es": "Una cerradura está !{{cerrada|abierta}}",
+          "da": "En lås er blevet !{{låst|låst op}}"
+        }
       }
-    }],
-    "actions": [{
+    ],
+    "actions": [
+      {
         "id": "lock",
         "highlight": true,
         "title": {
@@ -104,8 +108,7 @@
           "sv": "Lås",
           "no": "Lås",
           "es": "Cerrar",
-          "da": "Lås"    
-              
+          "da": "Lås"
         }
       },
       {
@@ -120,18 +123,30 @@
           "sv": "Lås upp",
           "no": "Lås opp",
           "es": "Abrir",
-          "da": "Lås op"    
+          "da": "Lås op"
         }
       }
     ]
   },
   "$speechExamples": {
-    "en": ["Did I lock My Lock?"],
-    "nl": ["Heb ik Mijn Slot op slot gedaan?"],
-    "de": ["Habe ich mein Schloss verriegelt?"],
-    "fr": ["Ai-je verrouillé mon verrou ?"],
-    "it": ["Ho chiuso la serratura?"],
-    "sv": ["Låste jag mitt lås?"]
+    "en": [
+      "Did I lock My Lock?"
+    ],
+    "nl": [
+      "Heb ik Mijn Slot op slot gedaan?"
+    ],
+    "de": [
+      "Habe ich mein Schloss verriegelt?"
+    ],
+    "fr": [
+      "Ai-je verrouillé mon verrou ?"
+    ],
+    "it": [
+      "Ho chiuso la serratura?"
+    ],
+    "sv": [
+      "Låste jag mitt lås?"
+    ]
   },
   "$speech": {
     "en": {

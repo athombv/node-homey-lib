@@ -23,7 +23,7 @@
     "sv": "Atmosfäriskt partikelämne (μg/m³)",
     "no": "Atmosfæriske partikler (μg/m³)",
     "es": "Partículas atmosféricas (μg/m³)",
-    "da": "Atmosfæriske partikler (μg/m³)"  
+    "da": "Atmosfæriske partikler (μg/m³)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -43,7 +43,7 @@
           "sv": "PM2.5-värdet har ändrats",
           "no": "PM2.5-verdien er endret",
           "es": "El valor de PM2,5 ha cambiado",
-          "da": "PM2.5-værdien har ændret sig"   
+          "da": "PM2.5-værdien har ændret sig"
         },
         "tokens": [
           {

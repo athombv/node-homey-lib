@@ -7,7 +7,7 @@
     "sv": "Fönsterskydd öppna",
     "no": "Vindusbeskyttelser åpne",
     "es": "Cobertores de ventanas inclinados hacia arriba",
-    "da": "Vinduesdække opad"  
+    "da": "Vinduesdække opad"
   },
   "type": "boolean",
   "getable": false,

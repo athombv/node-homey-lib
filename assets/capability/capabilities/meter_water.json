@@ -9,7 +9,7 @@
     "sv": "Vattenmätare",
     "no": "Vannmåler",
     "es": "Contador de agua",
-    "da": "Vandmåler"  
+    "da": "Vandmåler"
   },
   "decimals": 3,
   "min": 0,
@@ -26,7 +26,7 @@
     "sv": "Vattenanvändning i kubikmeter (m³)",
     "no": "Vannforbruk i kubikkmeter (m³)",
     "es": "Consumo de agua en metros cúbicos (m³)",
-    "da": "Vandforbrug i kubikmeter (m³)" 
+    "da": "Vandforbrug i kubikmeter (m³)"
   },
   "insights": true,
   "getable": true,
@@ -45,7 +45,7 @@
           "sv": "Vattenmätaren ändrades",
           "no": "Vannmåleren ble endret",
           "es": "El contador de agua ha cambiado",
-          "da": "Vandmåleren ændrede sig"     
+          "da": "Vandmåleren ændrede sig"
         },
         "tokens": [
           {

@@ -9,7 +9,7 @@
     "sv": "Kontaktalarm",
     "no": "Kontaktalarm",
     "es": "Alarma de contacto",
-    "da": "Kontaktalarm"  
+    "da": "Kontaktalarm"
   },
   "desc": {
     "en": "Contact sensor, e.g. for windows (true/false)",
@@ -20,7 +20,7 @@
     "sv": "Kontaktsensor, t.ex. för fönster (sant/falskt)",
     "no": "Kontaktsensor, f.eks. for vindu (sant/usant)",
     "es": "Sensor de contacto, p. ej., para ventanas (verdadero/falso)",
-    "da": "Kontaktsensor, f.eks. til vinduer ((sandt/falsk)"  
+    "da": "Kontaktsensor, f.eks. til vinduer ((sandt/falsk)"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -65,7 +65,7 @@
           "sv": "Kontaktalarmet aktiverat",
           "no": "Kontaktalarmen aktivert",
           "es": "La alarma de contacto se ha activado",
-          "da": "Kontaktalarmen blev aktiveret"    
+          "da": "Kontaktalarmen blev aktiveret"
         }
       },
       {
@@ -79,7 +79,7 @@
           "sv": "Kontaktalarmet inaktiverat",
           "no": "Kontaktalarmen deaktivert",
           "es": "La alarma de contacto se ha desactivado",
-          "da": "Kontaktalarmen blev deaktiveret"    
+          "da": "Kontaktalarmen blev deaktiveret"
         }
       }
     ],
@@ -95,7 +95,7 @@
           "sv": "Kontaktalarmet är !{{på|av}}",
           "no": "Kontaktalarmen er !{{på|av}}",
           "es": "La alarma de contacto está !{{activada|desactivada}}",
-          "da": "Kontaktalarmen er !{{tændt|slukket}}"    
+          "da": "Kontaktalarmen er !{{tændt|slukket}}"
         }
       }
     ]

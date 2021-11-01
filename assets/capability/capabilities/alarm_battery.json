@@ -21,7 +21,7 @@
     "no": "Sant når det finnes en batteriadvarsel",
     "es": "Verdadero cuando hay una advertencia de la batería",
     "da": "Sandt, når der er en batterialarm"
-    },
+  },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Battery alarm turned on",

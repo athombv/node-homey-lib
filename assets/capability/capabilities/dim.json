@@ -9,7 +9,7 @@
     "sv": "Dimningsnivå",
     "no": "Dempingsnivå",
     "es": "Intensidad de la luz",
-    "da": "Lysniveau"   
+    "da": "Lysniveau"
   },
   "chartType": "stepLine",
   "min": 0,
@@ -20,62 +20,69 @@
   "setable": true,
   "uiComponent": "slider",
   "$flow": {
-    "triggers": [{
-      "id": "dim_changed",
-      "title": {
-        "en": "Dim-level changed",
-        "nl": "Dim-niveau veranderd",
-        "de": "Dimm-Niveau geändert",
-        "fr": "Intensité lumineuse a été modifiée",
-        "it": "Intensità luminosa modificata",
-        "sv": "Dimningsnivå ändrades",
-        "no": "Dempingsnivå ble endret",
-        "es": "La intensidad de la luz ha cambiado",
-        "da": "Lysniveau ændret"   
-      },
-      "tokens": [{
-        "name": "dim",
-        "type": "number",
+    "triggers": [
+      {
+        "id": "dim_changed",
         "title": {
-          "en": "Level",
-          "nl": "Niveau",
-          "de": "Niveau",
-          "fr": "Niveau",
-          "it": "Livello",
-          "sv": "Nivå",
-          "no": "Nivå",
-          "es": "Nivel",
-          "da": "Niveau"     
+          "en": "Dim-level changed",
+          "nl": "Dim-niveau veranderd",
+          "de": "Dimm-Niveau geändert",
+          "fr": "Intensité lumineuse a été modifiée",
+          "it": "Intensità luminosa modificata",
+          "sv": "Dimningsnivå ändrades",
+          "no": "Dempingsnivå ble endret",
+          "es": "La intensidad de la luz ha cambiado",
+          "da": "Lysniveau ændret"
         },
-        "example": 0.5
-      }]
-    }],
-    "actions": [{
-      "id": "dim",
-      "highlight": true,
-      "title": {
-        "en": "Dim to",
-        "nl": "Dim naar",
-        "de": "Dimmen auf",
-        "fr": "Mettre l'intensité lumineuse sur",
-        "it": "Imposta l'intensità luminosa su",
-        "sv": "Dimma till",
-        "no": "Demp til",
-        "es": "Ajustar la intensidad de la luz a",
-        "da": "Juster til"   
+        "tokens": [
+          {
+            "name": "dim",
+            "type": "number",
+            "title": {
+              "en": "Level",
+              "nl": "Niveau",
+              "de": "Niveau",
+              "fr": "Niveau",
+              "it": "Livello",
+              "sv": "Nivå",
+              "no": "Nivå",
+              "es": "Nivel",
+              "da": "Niveau"
+            },
+            "example": 0.5
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "dim",
+        "highlight": true,
+        "title": {
+          "en": "Dim to",
+          "nl": "Dim naar",
+          "de": "Dimmen auf",
+          "fr": "Mettre l'intensité lumineuse sur",
+          "it": "Imposta l'intensità luminosa su",
+          "sv": "Dimma till",
+          "no": "Demp til",
+          "es": "Ajustar la intensidad de la luz a",
+          "da": "Juster til"
+        },
+        "args": [
+          {
+            "name": "dim",
+            "type": "range",
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "value": 0.5,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
+          }
+        ]
       },
-      "args": [{
-        "name": "dim",
-        "type": "range",
-        "min": 0,
-        "max": 1,
-        "step": 0.01,
-        "value": 0.5,
-        "label": "%",
-        "labelMultiplier": 100,
-        "labelDecimals": 0
-      }]
-    },
       {
         "id": "dim_relative",
         "title": {
@@ -86,33 +93,53 @@
           "it": "Imposta intensità luminosa su relativa",
           "no": "Innstill relativt dempingsnivå",
           "es": "Ajustar la intensidad de la luz como relativa",
-          "da": "Indstil relativt lysniveau"     
+          "da": "Indstil relativt lysniveau"
         },
         "hint": {
           "en": "Dim or brighten with respect to the device's current dim-level.",
           "nl": "Verhoog of verlaag de helderheid ten opzichte van het huidige dim-niveau van het apparaat."
         },
-        "args": [{
-          "name": "dim",
-          "type": "range",
-          "min": -1,
-          "max": 1,
-          "step": 0.01,
-          "value": 0.5,
-          "label": "%",
-          "labelMultiplier": 100,
-          "labelDecimals": 0
-        }]
+        "args": [
+          {
+            "name": "dim",
+            "type": "range",
+            "min": -1,
+            "max": 1,
+            "step": 0.01,
+            "value": 0.5,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
+          }
+        ]
       }
     ]
   },
   "$speechExamples": {
-    "en": ["Dim all lights to 50%", "Set My Light to full brightness"],
-    "nl": ["Dim alle lampen naar 50%", "Zet Mijn Lamp naar volle helderheid"],
-    "de": ["Alle Lichter auf 50% dimmen", "Meine Lichter auf volle Helligkeit setzen"],
-    "fr": ["Estomper toutes les lumières vers 50%", "Définir ma lumière sur l'intensité maximum"],
-    "it": ["Abbassa tutte le luci al 50%", "Imposta la luce alla massima luminosità"],
-    "sv": ["Dämpa all belysning till 50 %", "Still in Min lampa till full ljusstyrka"]
+    "en": [
+      "Dim all lights to 50%",
+      "Set My Light to full brightness"
+    ],
+    "nl": [
+      "Dim alle lampen naar 50%",
+      "Zet Mijn Lamp naar volle helderheid"
+    ],
+    "de": [
+      "Alle Lichter auf 50% dimmen",
+      "Meine Lichter auf volle Helligkeit setzen"
+    ],
+    "fr": [
+      "Estomper toutes les lumières vers 50%",
+      "Définir ma lumière sur l'intensité maximum"
+    ],
+    "it": [
+      "Abbassa tutte le luci al 50%",
+      "Imposta la luce alla massima luminosità"
+    ],
+    "sv": [
+      "Dämpa all belysning till 50 %",
+      "Still in Min lampa till full ljusstyrka"
+    ]
   },
   "$speech": {
     "en": {
@@ -173,7 +200,9 @@
           "capturingGroup": true,
           "devices": {
             "class": "light",
-            "capabilities": ["dim"]
+            "capabilities": [
+              "dim"
+            ]
           }
         },
         "setMaxMin": {
@@ -183,7 +212,9 @@
           "capturingGroup": true,
           "devices": {
             "class": "light",
-            "capabilities": ["dim"]
+            "capabilities": [
+              "dim"
+            ]
           }
         },
         "maxMin": {
@@ -191,7 +222,6 @@
         }
       }
     },
-
     "nl": {
       "element": {
         "verb": {

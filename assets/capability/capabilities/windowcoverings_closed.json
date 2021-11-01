@@ -9,7 +9,7 @@
     "sv": "Stängd",
     "no": "Lukket",
     "es": "Cerrados",
-    "da": "Lukket"  
+    "da": "Lukket"
   },
   "getable": true,
   "setable": true,
@@ -27,7 +27,7 @@
           "sv": "Stängd",
           "no": "Lukket",
           "es": "Cerrados",
-          "da": "Lukket"    
+          "da": "Lukket"
         }
       },
       {
@@ -41,7 +41,7 @@
           "sv": "Öppen",
           "no": "Åpen",
           "es": "Abiertos",
-          "da": "Åben"    
+          "da": "Åben"
         }
       }
     ],
@@ -57,7 +57,7 @@
           "sv": "Är !{{stängda|öppnade}}",
           "no": "Er !{{lukket|åpen}}",
           "es": "Están !{{cerrados|abiertos}}",
-          "da": "Er !{{lukket|åben}}"    
+          "da": "Er !{{lukket|åben}}"
         }
       }
     ],
@@ -74,7 +74,7 @@
           "sv": "Stäng",
           "no": "Lukk",
           "es": "Cerrar",
-          "da": "Luk"    
+          "da": "Luk"
         }
       },
       {
@@ -89,7 +89,7 @@
           "sv": "Öppna",
           "no": "Åpne",
           "es": "Abrir",
-          "da": "Åbn"    
+          "da": "Åbn"
         }
       },
       {
@@ -103,7 +103,7 @@
           "sv": "Växla mellan öppen eller stängd",
           "no": "Veksle mellom åpen og lukket",
           "es": "Abrir o cerrar",
-          "da": "Skift mellem åben og lukket"    
+          "da": "Skift mellem åben og lukket"
         }
       }
     ]

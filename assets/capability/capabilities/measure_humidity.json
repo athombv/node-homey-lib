@@ -9,7 +9,7 @@
     "sv": "Luftfuktighet",
     "no": "Luftfuktighet",
     "es": "Humedad",
-    "da": "Luftfugtighed"  
+    "da": "Luftfugtighed"
   },
   "units": {
     "en": "%"
@@ -24,7 +24,7 @@
     "sv": "Luftfuktighet i procent (%)",
     "no": "Luftfuktighet i prosent (%)",
     "es": "Humedad en porcentaje (%)",
-    "da": "Luftfugtighed i procent (%)"  
+    "da": "Luftfugtighed i procent (%)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -44,7 +44,7 @@
           "sv": "Luftfuktigheten ändrades",
           "no": "Luftfuktigheten ble endret",
           "es": "La humedad ha cambiado",
-          "da": "Luftfugtigheden ændrede sig"    
+          "da": "Luftfugtigheden ændrede sig"
         },
         "tokens": [
           {
@@ -58,12 +58,24 @@
     ]
   },
   "$speechExamples": {
-    "en": [ "What is the average humidity at home?" ],
-    "nl": [ "Wat is de gemiddelde luchtvochtigheid thuis?" ],
-    "de": [ "Was ist die durchschnittliche Luftfeuchtigkeit zu Hause?"],
-    "fr": [ "Quelle est l'humidité moyenne à la maison ?"],
-    "it": [ "Qual è l'umidità media in casa?" ],
-    "sv": [ "Vad är den genomsnittliga luftfuktigheten hemma?" ]
+    "en": [
+      "What is the average humidity at home?"
+    ],
+    "nl": [
+      "Wat is de gemiddelde luchtvochtigheid thuis?"
+    ],
+    "de": [
+      "Was ist die durchschnittliche Luftfeuchtigkeit zu Hause?"
+    ],
+    "fr": [
+      "Quelle est l'humidité moyenne à la maison ?"
+    ],
+    "it": [
+      "Qual è l'umidità media in casa?"
+    ],
+    "sv": [
+      "Vad är den genomsnittliga luftfuktigheten hemma?"
+    ]
   },
   "$speech": {
     "en": {

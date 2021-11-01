@@ -9,7 +9,7 @@
     "sv": "Låsläge",
     "no": "Låsemodus",
     "es": "Modo de la cerradura",
-    "da": "Lås-tilstand"  
+    "da": "Lås-tilstand"
   },
   "values": [
     {
@@ -23,7 +23,7 @@
         "sv": "Alltid låst",
         "no": "Alltid låst",
         "es": "Siempre cerrada",
-        "da": "Altid låst"  
+        "da": "Altid låst"
       }
     },
     {
@@ -37,7 +37,7 @@
         "sv": "Alltid olåst",
         "no": "Alltid ulåst",
         "es": "Siempre abierta",
-        "da": "Altid ulåst"  
+        "da": "Altid ulåst"
       }
     },
     {
@@ -51,7 +51,7 @@
         "sv": "Låst tills upplåst",
         "no": "Låst til opplåst",
         "es": "Cerrada hasta que se abra",
-        "da": "Låst indtil ulåst"  
+        "da": "Låst indtil ulåst"
       }
     }
   ],
@@ -71,7 +71,7 @@
           "sv": "Låsläge har ändrats",
           "no": "Låsemodusen er endret",
           "es": "El modo de la cerradura ha cambiado",
-          "da": "Lås-tilstand er blevet ændret"    
+          "da": "Lås-tilstand er blevet ændret"
         },
         "args": [
           {
@@ -117,7 +117,7 @@
           "sv": "Ställ in läge",
           "no": "Innstill modus",
           "es": "Configurar modo",
-          "da": "Indstil tilstand"    
+          "da": "Indstil tilstand"
         },
         "args": [
           {

@@ -8,7 +8,7 @@
     "sv": "Knapp",
     "no": "Knapp",
     "es": "Botón",
-    "da": "Knap"  
+    "da": "Knap"
   },
   "description": {
     "en": "Use this device class for buttons, such as a remote.",
@@ -18,6 +18,6 @@
     "sv": "Använd den här enhetsklassen för knappar, som en fjärrkontroll.",
     "no": "Bruk denne enhetsklassen for knapper, f.eks. en fjernkontroll.",
     "es": "Utiliza esta clase de dispositivo para los botones, p. ej., mandos a distancia.",
-    "da": "Brug denne enhedsklasse til knapper, f-eks. en fjernbetjening"  
+    "da": "Brug denne enhedsklasse til knapper, f-eks. en fjernbetjening"
   }
 }

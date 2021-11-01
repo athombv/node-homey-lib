@@ -8,36 +8,50 @@
     "sv": "Volym upp",
     "no": "Volum opp",
     "es": "Subir volumen",
-    "da": "Op for lyden"  
+    "da": "Op for lyden"
   },
   "type": "boolean",
   "getable": false,
   "setable": true,
   "uiComponent": "button",
   "$flow": {
-    "actions": [{
-      "id": "volume_up",
-      "highlight": true,
-      "title": {
-        "en": "Turn the volume up",
-        "nl": "Zet het geluid harder",
-        "de": "Dreh die Lautstärke hoch",
-        "fr": "Augmenter le son",
-        "it": "Alza il volume",
-        "sv": "Vrid upp volymen",
-        "no": "Skru opp volumet",
-        "es": "Subir el volumen",
-        "da": "Skru op for lyden"  
+    "actions": [
+      {
+        "id": "volume_up",
+        "highlight": true,
+        "title": {
+          "en": "Turn the volume up",
+          "nl": "Zet het geluid harder",
+          "de": "Dreh die Lautstärke hoch",
+          "fr": "Augmenter le son",
+          "it": "Alza il volume",
+          "sv": "Vrid upp volymen",
+          "no": "Skru opp volumet",
+          "es": "Subir el volumen",
+          "da": "Skru op for lyden"
+        }
       }
-    }]
+    ]
   },
   "$speechExamples": {
-    "en": ["Turn the volume of my speaker up"],
-    "nl": ["Zet het volume van mijn speaker hoger"],
-    "de": ["Dreh die Lautstärke meines Lautsprechers hoch"],
-    "fr": ["Augmenter le volume de mon haut-parleur"],
-    "it": ["Alza il volume degli altoparlanti"],
-    "sv": ["Vrid upp volymen på min högtalare"]
+    "en": [
+      "Turn the volume of my speaker up"
+    ],
+    "nl": [
+      "Zet het volume van mijn speaker hoger"
+    ],
+    "de": [
+      "Dreh die Lautstärke meines Lautsprechers hoch"
+    ],
+    "fr": [
+      "Augmenter le volume de mon haut-parleur"
+    ],
+    "it": [
+      "Alza il volume degli altoparlanti"
+    ],
+    "sv": [
+      "Vrid upp volymen på min högtalare"
+    ]
   },
   "$speech": {
     "en": {
@@ -58,7 +72,9 @@
           "allowDisconnect": true,
           "capturingGroup": true,
           "devices": {
-            "capabilities": ["volume_up"]
+            "capabilities": [
+              "volume_up"
+            ]
           }
         }
       }

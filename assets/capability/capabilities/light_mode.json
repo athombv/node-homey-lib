@@ -9,7 +9,7 @@
     "sv": "Lampläge",
     "no": "Lysmodus",
     "es": "Modo de la luz",
-    "da": "Lystilstand"   
+    "da": "Lystilstand"
   },
   "desc": {
     "en": "Switch between color or temperature mode",
@@ -34,7 +34,7 @@
         "sv": "Färg",
         "no": "Farge",
         "es": "Color",
-        "da": "Farve"  
+        "da": "Farve"
       }
     },
     {
@@ -48,7 +48,7 @@
         "sv": "Temperatur",
         "no": "Temperatur",
         "es": "Temperatura",
-        "da": "Temperatur"  
+        "da": "Temperatur"
       }
     }
   ],

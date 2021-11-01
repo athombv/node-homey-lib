@@ -9,7 +9,7 @@
     "sv": "Färgtemperatur",
     "no": "Fargetemperatur",
     "es": "Temperatura del color",
-    "da": "Farvetemperatur"  
+    "da": "Farvetemperatur"
   },
   "min": 0,
   "chartType": "stepLine",
@@ -31,7 +31,7 @@
           "sv": "Ställ in en temperatur",
           "no": "Innstill en temperatur",
           "es": "Configurar la temperatura",
-          "da": "Indstil en temperatur"    
+          "da": "Indstil en temperatur"
         },
         "args": [
           {
@@ -55,18 +55,36 @@
           "sv": "Justerar temperaturen på ljuset. Ett högre värde innebär en varmare färg.",
           "no": "Justerer lystemperaturen. En høyere verdi gir en varmere farge.",
           "es": "Ajusta la temperatura de la luz. Cuanto más alto es el valor, más cálido es el color.",
-          "da": "Justerer lysets temperatur. En højere værdi betyder en varmere farve."    
+          "da": "Justerer lysets temperatur. En højere værdi betyder en varmere farve."
         }
       }
     ]
   },
   "$speechExamples": {
-    "en": [ "Turn all lights to warm white", "Turn My Light to cool white" ],
-    "nl": [ "Zet alle lampen op warm wit", "Zet Mijn Licht op koel wit" ],
-    "de": [ "Alle Lampen auf warmes Weiß schalten", "Mein Licht auf kaltes Weiß schalten"],
-    "fr": [ "Mettre toutes les lumières en blanc chaud", "Mettre ma lumière en blanc froid"],
-    "it": [ "Cambia tutte le luci in bianco caldo", "Cambia la mia luce in bianco freddo" ],
-    "sv": [ "Gör alla lampor varmvita", "Gör Min lampa till kallt vitt" ]
+    "en": [
+      "Turn all lights to warm white",
+      "Turn My Light to cool white"
+    ],
+    "nl": [
+      "Zet alle lampen op warm wit",
+      "Zet Mijn Licht op koel wit"
+    ],
+    "de": [
+      "Alle Lampen auf warmes Weiß schalten",
+      "Mein Licht auf kaltes Weiß schalten"
+    ],
+    "fr": [
+      "Mettre toutes les lumières en blanc chaud",
+      "Mettre ma lumière en blanc froid"
+    ],
+    "it": [
+      "Cambia tutte le luci in bianco caldo",
+      "Cambia la mia luce in bianco freddo"
+    ],
+    "sv": [
+      "Gör alla lampor varmvita",
+      "Gör Min lampa till kallt vitt"
+    ]
   },
   "$speech": {
     "en": {
@@ -85,17 +103,20 @@
         }
       },
       "element": {
-                "light": {
-                    "type": "regex",
-                    "value": "(all\\s|every\\s)?(?:the\\s)?(light(s)?|lamp(s)?)(to\\s)?"
-                },
-                "verb": {
-                    "type": "regex",
-                    "value": "(switch|turn|set|put|change)"
-                },
+        "light": {
+          "type": "regex",
+          "value": "(all\\s|every\\s)?(?:the\\s)?(light(s)?|lamp(s)?)(to\\s)?"
+        },
+        "verb": {
+          "type": "regex",
+          "value": "(switch|turn|set|put|change)"
+        },
         "cool_white": {
           "type": "string",
-          "value": [ "cool white", "cold white" ]
+          "value": [
+            "cool white",
+            "cold white"
+          ]
         },
         "warm_white": {
           "type": "string",
@@ -121,7 +142,10 @@
         },
         "cool_white": {
           "type": "string",
-          "value": [ "koel wit", "koud wit" ]
+          "value": [
+            "koel wit",
+            "koud wit"
+          ]
         },
         "warm_white": {
           "type": "string",
@@ -129,7 +153,10 @@
         },
         "white": {
           "type": "string",
-          "value": [ "wit", "normaal wit" ]
+          "value": [
+            "wit",
+            "normaal wit"
+          ]
         }
       }
     }

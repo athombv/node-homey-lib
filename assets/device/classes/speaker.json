@@ -9,7 +9,6 @@
     "no": "Høyttaler",
     "es": "Altavoz",
     "da": "Højttaler"
-
   },
   "description": {
     "en": "Use this device class for devices that can play music, usually together with the `speaker_*` capabilities.",
@@ -19,13 +18,27 @@
     "sv": "Använd den här enhetsklassen för enheter som kan spela musik, oftast tilsammans med funktionerna `högtalare_*`.",
     "no": "Bruk denne enhetsklassen for enheter som kan spille musikk, ofte sammen med funksjonen `høyttaler_*`.",
     "es": "Utiliza esta clase de dispositivo para los aparatos capaces de reproducir música, generalmente junto con las capacidades 'altavoz_*'.",
-    "da": "Brug denne enhedsklasse til enheder, der kan afspille musik, normalt sammen med `højttaler_*` funktionerne."  
+    "da": "Brug denne enhedsklasse til enheder, der kan afspille musik, normalt sammen med `højttaler_*` funktionerne."
   },
   "$speechAlternatives": {
-    "en": [ "speaker", "speakers" ],
-    "nl": [ "speaker", "speakers" ],
-    "fr": [ "haut-parleur", "haut-parleurs" ],
-    "it": [ "altoparlante", "casse" ],
-    "sv": [ "högtalare" ]
+    "en": [
+      "speaker",
+      "speakers"
+    ],
+    "nl": [
+      "speaker",
+      "speakers"
+    ],
+    "fr": [
+      "haut-parleur",
+      "haut-parleurs"
+    ],
+    "it": [
+      "altoparlante",
+      "casse"
+    ],
+    "sv": [
+      "högtalare"
+    ]
   }
 }

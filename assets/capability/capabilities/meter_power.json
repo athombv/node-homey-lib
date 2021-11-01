@@ -9,7 +9,7 @@
     "sv": "Energi",
     "no": "Energi",
     "es": "Energía",
-    "da": "Energi"  
+    "da": "Energi"
   },
   "decimals": 2,
   "units": {
@@ -24,7 +24,7 @@
     "sv": "Energianvändning i kilowattimmar (kWh)",
     "no": "Energiforbruk i kilowattimer (kWh)",
     "es": "Uso de energía en kilovatio hora (kWh)",
-    "da": "Energiforbrug i kilowattime (kWh)" 
+    "da": "Energiforbrug i kilowattime (kWh)"
   },
   "chartType": "spline",
   "options": {
@@ -41,25 +41,29 @@
   "setable": false,
   "uiComponent": "sensor",
   "$flow": {
-    "triggers": [{
-      "id": "meter_power_changed",
-      "title": {
-        "en": "The power meter changed",
-        "nl": "De stroommeter is veranderd",
-        "de": "Der Gesamtverbrauch hat sich geändert",
-        "fr": "Le compteur électrique a changé",
-        "it": "Il misuratore di potenza è cambiato",
-        "sv": "Elmätaren ändrades",
-        "no": "Strømmåleren ble endret",
-        "es": "El contador de energía ha cambiado",
-        "da": "Strømmåleren ændrede sig"  
-      },
-      "tokens": [{
-        "name": "$id",
-        "title": "$title",
-        "type": "$type",
-        "example": 25
-      }]
-    }]
+    "triggers": [
+      {
+        "id": "meter_power_changed",
+        "title": {
+          "en": "The power meter changed",
+          "nl": "De stroommeter is veranderd",
+          "de": "Der Gesamtverbrauch hat sich geändert",
+          "fr": "Le compteur électrique a changé",
+          "it": "Il misuratore di potenza è cambiato",
+          "sv": "Elmätaren ändrades",
+          "no": "Strømmåleren ble endret",
+          "es": "El contador de energía ha cambiado",
+          "da": "Strømmåleren ændrede sig"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 25
+          }
+        ]
+      }
+    ]
   }
 }

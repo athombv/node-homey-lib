@@ -8,7 +8,7 @@
     "sv": "Status för fönsterskydd",
     "no": "Status for vindusbeskyttelse",
     "es": "Estado de los cobertores de ventanas",
-    "da": "Status for vinduesdække"  
+    "da": "Status for vinduesdække"
   },
   "type": "enum",
   "values": [
@@ -23,7 +23,7 @@
         "sv": "Upp",
         "no": "Opp",
         "es": "Arriba",
-        "da": "Oppe"  
+        "da": "Oppe"
       }
     },
     {
@@ -37,7 +37,7 @@
         "sv": "Inaktiv",
         "no": "Ikke aktiv",
         "es": "Inactivos",
-        "da": "Inaktiv"  
+        "da": "Inaktiv"
       }
     },
     {
@@ -51,7 +51,7 @@
         "sv": "Ned",
         "no": "Ned",
         "es": "Abajo",
-        "da": "Nede"  
+        "da": "Nede"
       }
     }
   ],
@@ -72,7 +72,7 @@
           "sv": "Status ändrades",
           "no": "Status ble endret",
           "es": "El estado ha cambiado",
-          "da": "Status blev ændret"    
+          "da": "Status blev ændret"
         },
         "args": [
           {
@@ -95,7 +95,7 @@
           "sv": "Status är !{{|inte}}",
           "no": "Status er !{{|ikke}}",
           "es": "El estado !{{|no}} es",
-          "da": "Status er !{{|ikke}}"    
+          "da": "Status er !{{|ikke}}"
         },
         "args": [
           {
@@ -119,7 +119,7 @@
           "sv": "Ställ in status",
           "no": "Innstill status",
           "es": "Configurar estado",
-          "da": "Indstil status"    
+          "da": "Indstil status"
         },
         "args": [
           {
@@ -132,12 +132,24 @@
     ]
   },
   "$speechExamples": {
-    "en": ["Open the window coverings"],
-    "nl": ["Open de raamverduistering"],
-    "de": ["Die Jalousien öffnen"],
-    "fr": ["Ouvrir les stores"],
-    "it": ["Apri le tapparelle"],
-    "sv": ["Öppna fönsterskydden"]
+    "en": [
+      "Open the window coverings"
+    ],
+    "nl": [
+      "Open de raamverduistering"
+    ],
+    "de": [
+      "Die Jalousien öffnen"
+    ],
+    "fr": [
+      "Ouvrir les stores"
+    ],
+    "it": [
+      "Apri le tapparelle"
+    ],
+    "sv": [
+      "Öppna fönsterskydden"
+    ]
   },
   "$speech": {
     "en": {
