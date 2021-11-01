@@ -8,7 +8,7 @@
     "sv": "Element",
     "no": "Varmeelement",
     "es": "Calefactor",
-    "da": "Varmeapparat"  
+    "da": "Varmeapparat"
   },
   "description": {
     "en": "Use this device class for heaters, that warm your home.",
@@ -18,6 +18,6 @@
     "sv": "Använd den här enhetsklassen för element, som värmer upp hemmet.",
     "no": "Bruk denne enhetsklassen for varmeelement som varmer opp hjemmet ditt.",
     "es": "Utiliza esta clase de dispositivo para los calefactores que calientan tu casa.",
-    "da": "Brug denne enhedsklasse til varmeapparater, som opvarmer dit hjem."  
+    "da": "Brug denne enhedsklasse til varmeapparater, som opvarmer dit hjem."
   }
 }

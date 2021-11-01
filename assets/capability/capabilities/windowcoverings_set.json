@@ -9,7 +9,7 @@
     "sv": "Position",
     "no": "Posisjon",
     "es": "Posición",
-    "da": "Position"  
+    "da": "Position"
   },
   "desc": {
     "en": "Set the position of window coverings. 0% is closed, 100% is open",
@@ -19,15 +19,15 @@
     "sv": "Ställ in positionen för fönsterskydden. 0 % är stängd, 100 % är öppet",
     "no": "Innstill vindusbeskyttelsens posisjon. 0 % er lukket, 100 % er åpen",
     "es": "Configura la posición de los cobertores de ventanas. 0 % es 'cerrados', 100 % es 'abiertos'",
-    "da": "Indstil positionen af dækket for vinduet. 0% er lukket, 100% er åben"  
+    "da": "Indstil positionen af dækket for vinduet. 0% er lukket, 100% er åben"
   },
   "chartType": "stepLine",
   "min": 0,
   "max": 1,
   "decimals": 2,
   "units": {
-        "en": "%"
-      },
+    "en": "%"
+  },
   "getable": true,
   "setable": true,
   "uiComponent": "slider",
@@ -44,7 +44,7 @@
           "sv": "Position ändrad",
           "no": "Posisjon endret",
           "es": "La posición ha cambiado",
-          "da": "Position ændret"    
+          "da": "Position ændret"
         },
         "tokens": [
           {
@@ -59,7 +59,7 @@
               "sv": "Position",
               "no": "Posisjon",
               "es": "Posición",
-              "da": "Position"    
+              "da": "Position"
             },
             "example": 0.5
           }
@@ -79,7 +79,7 @@
           "sv": "Ställ in positionen till",
           "no": "Innstill posisjonen til",
           "es": "Configurar la posición como",
-          "da": "Indstil positionen til"    
+          "da": "Indstil positionen til"
         },
         "hint": {
           "en": "Change the position to open (100%), closed (0%), or a value in between.",

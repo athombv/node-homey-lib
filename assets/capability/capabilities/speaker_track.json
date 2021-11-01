@@ -8,7 +8,7 @@
     "sv": "Spår",
     "no": "Spor",
     "es": "Pista",
-    "da": "Spor"  
+    "da": "Spor"
   },
   "type": "string",
   "getable": true,
@@ -27,7 +27,7 @@
           "sv": "Spåret ändrades",
           "no": "Sporet ble endret",
           "es": "La pista ha cambiado",
-          "da": "Sporet skiftede"    
+          "da": "Sporet skiftede"
         },
         "tokens": [
           {

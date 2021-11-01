@@ -9,7 +9,7 @@
     "sv": "Spänning",
     "no": "Spenning",
     "es": "Tensión",
-    "da": "Elektrisk spænding"   
+    "da": "Elektrisk spænding"
   },
   "units": {
     "en": "V"
@@ -23,8 +23,7 @@
     "sv": "Spänning (V)",
     "no": "Spenning (V)",
     "es": "Tensión (V)",
-    "da": "Volt (V)"   
-      
+    "da": "Volt (V)"
   },
   "insights": true,
   "chartType": "stepLine",
@@ -45,7 +44,7 @@
           "sv": "Spänningen ändrades",
           "no": "Spenningen ble endret",
           "es": "La tensión ha cambiado",
-          "da": "Den elektriske spænding ændrede sig"     
+          "da": "Den elektriske spænding ændrede sig"
         },
         "tokens": [
           {

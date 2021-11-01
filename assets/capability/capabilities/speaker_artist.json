@@ -8,7 +8,7 @@
     "sv": "Artist",
     "no": "Artist",
     "es": "Artista",
-    "da": "Kunstner"   
+    "da": "Kunstner"
   },
   "type": "string",
   "getable": true,
@@ -27,7 +27,7 @@
           "sv": "Artisten ändrades",
           "no": "Artisten ble endret",
           "es": "El artista ha cambiado",
-          "da": "Kunstneren skiftede"     
+          "da": "Kunstneren skiftede"
         },
         "tokens": [
           {

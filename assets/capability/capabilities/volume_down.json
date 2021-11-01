@@ -8,74 +8,29 @@
     "sv": "Volym ned",
     "no": "Volum ned",
     "es": "Bajar volumen",
-    "da": "Ned for lyden"  
+    "da": "Ned for lyden"
   },
   "type": "boolean",
   "getable": false,
   "setable": true,
   "uiComponent": "button",
   "$flow": {
-    "actions": [{
-      "id": "volume_down",
-      "highlight": true,
-      "title": {
-        "en": "Turn the volume down",
-        "nl": "Zet het geluid zachter",
-        "de": "Dreh die Lautstärke runter",
-        "fr": "Baisser le son",
-        "it": "Abbassa il volume",
-        "sv": "Sänk volymen",
-        "no": "Senk volumet",
-        "es": "Bajar el volumen",
-        "da": "Skru ned for lyden"  
-      }
-    }]
-  },
-  "$speechExamples": {
-    "en": ["Turn up the volume of my speaker"],
-    "nl": ["Zet het volume van mijn speaker hoger"],
-    "de": ["Dreh die Lautstärke meines Lautsprechers hoch"],
-    "fr": ["Augmenter le volume de mon haut-parleur"],
-    "it": ["Alza il volume degli altoparlanti"],
-    "sv": ["Sänk volymen på min högtalare"]
-  },
-  "$speech": {
-    "en": {
-      "element": {
-        "verb": {
-          "type": "regex",
-          "value": "(switch|turn)"
-        },
-        "down": {
-          "type": "regex",
-          "value": "(quit(er)?|lower|(turn\\s)down|decrease)"
-        }
-      },
-      "group": {
-        "volumeUp": {
-          "set": "(verb) && down",
-          "ordered": false,
-          "allowDisconnect": true,
-          "capturingGroup": true,
-          "devices": {
-            "capabilities": ["volume_up"]
-          }
+    "actions": [
+      {
+        "id": "volume_down",
+        "highlight": true,
+        "title": {
+          "en": "Turn the volume down",
+          "nl": "Zet het geluid zachter",
+          "de": "Dreh die Lautstärke runter",
+          "fr": "Baisser le son",
+          "it": "Abbassa il volume",
+          "sv": "Sänk volymen",
+          "no": "Senk volumet",
+          "es": "Bajar el volumen",
+          "da": "Skru ned for lyden"
         }
       }
-    },
-    "nl": {
-      "element": {
-        "verb": {
-          "type": "pos",
-          "value": {
-            "pos": "VERB"
-          }
-        },
-        "down": {
-          "type": "regex",
-          "value": "(zachter|lager|verlaag|reduceer)"
-        }
-      }
-    }
+    ]
   }
 }

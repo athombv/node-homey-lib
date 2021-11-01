@@ -9,7 +9,7 @@
     "sv": "Luminans",
     "no": "Luminans",
     "es": "Luminancia",
-    "da": "Luminans"  
+    "da": "Luminans"
   },
   "units": {
     "en": "lx"
@@ -24,7 +24,7 @@
     "sv": "Luminans i Lux (lx)",
     "no": "Luminans i Lux (lx)",
     "es": "Luminancia en Lux (lx)",
-    "da": "Luminans i Lux (lx)"  
+    "da": "Luminans i Lux (lx)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -45,7 +45,7 @@
           "sv": "Luminansen ändrades",
           "no": "Luminansen ble endret",
           "es": "La luminancia ha cambiado",
-          "da": "Luminansen ændrede sig"    
+          "da": "Luminansen ændrede sig"
         },
         "tokens": [
           {

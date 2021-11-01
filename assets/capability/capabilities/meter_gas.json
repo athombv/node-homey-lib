@@ -9,7 +9,7 @@
     "sv": "Gasmätare",
     "no": "Gassmåler",
     "es": "Contador de gas",
-    "da": "Gasmåler"  
+    "da": "Gasmåler"
   },
   "min": 0,
   "decimals": 2,
@@ -26,7 +26,7 @@
     "sv": "Gasanvändning i kubikmeter (m³)",
     "no": "Gassforbruk i kubikkmeter (m³)",
     "es": "Consumo de gas en metros cúbicos (m³)",
-    "da": "Gasforbrug i kubikmeter (m³)"  
+    "da": "Gasforbrug i kubikmeter (m³)"
   },
   "insights": true,
   "getable": true,
@@ -45,7 +45,7 @@
           "sv": "Gasmätaren ändrades",
           "no": "Gassmåleren ble endret",
           "es": "El contador de gas ha cambiado",
-          "da": "Gasmåleren ændrede sig"    
+          "da": "Gasmåleren ændrede sig"
         },
         "tokens": [
           {

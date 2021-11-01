@@ -8,7 +8,7 @@
     "sv": "Album",
     "no": "Album",
     "es": "Álbum",
-    "da": "Album"   
+    "da": "Album"
   },
   "type": "string",
   "getable": true,
@@ -27,7 +27,7 @@
           "sv": "Albumet ändrades",
           "no": "Albumet ble endret",
           "es": "El álbum ha cambiado",
-          "da": "Albummet skiftede"     
+          "da": "Albummet skiftede"
         },
         "tokens": [
           {

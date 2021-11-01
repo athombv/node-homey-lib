@@ -8,22 +8,23 @@
     "sv": "Dammsugarstatus",
     "no": "Støvsugerstatus",
     "es": "Modo de la aspiradora",
-    "da": "Støvsugerstatus"  
+    "da": "Støvsugerstatus"
   },
-  "values": [{
-    "id": "cleaning",
-    "title": {
-      "en": "Cleaning",
-      "nl": "Stofzuigen",
-      "de": "Staubsaugen",
-      "fr": "Aspirer",
-      "it": "Pulizia in corso",
-      "sv": "Städning",
-      "no": "Rengjøring",
-      "es": "Aspirando",
-      "da": "Støvsuger"    
-    }
-  },
+  "values": [
+    {
+      "id": "cleaning",
+      "title": {
+        "en": "Cleaning",
+        "nl": "Stofzuigen",
+        "de": "Staubsaugen",
+        "fr": "Aspirer",
+        "it": "Pulizia in corso",
+        "sv": "Städning",
+        "no": "Rengjøring",
+        "es": "Aspirando",
+        "da": "Støvsuger"
+      }
+    },
     {
       "id": "spot_cleaning",
       "title": {
@@ -35,7 +36,7 @@
         "sv": "Områdesstädning",
         "no": "Områderengjøring",
         "es": "Aspirando un punto concreto",
-        "da": "Områdestøvsugning"  
+        "da": "Områdestøvsugning"
       }
     },
     {
@@ -49,7 +50,7 @@
         "sv": "Dockad",
         "no": "I ladestasjon",
         "es": "En la estación de carga",
-        "da": "I ladestation"  
+        "da": "I ladestation"
       }
     },
     {
@@ -63,7 +64,7 @@
         "sv": "Laddar",
         "no": "Lader",
         "es": "Cargando",
-        "da": "Lader"  
+        "da": "Lader"
       }
     },
     {
@@ -77,7 +78,7 @@
         "sv": "Stoppad",
         "no": "Stanset",
         "es": "Detenida",
-        "da": "Stoppet"  
+        "da": "Stoppet"
       }
     }
   ],
@@ -85,59 +86,68 @@
   "setable": true,
   "uiComponent": "picker",
   "$flow": {
-    "triggers": [{
-      "id": "vacuumcleaner_state_changed",
-      "title": {
-        "en": "The state changed to...",
-        "nl": "De status is veranderd naar...",
-        "de": "Der Status hat sich geändert auf...",
-        "fr": "L'état est passé à...",
-        "it": "Lo stato è cambiato in...",
-        "sv": "Status ändrad till...",
-        "no": "Status endret til ...",
-        "es": "El estado ha cambiado a...",
-        "da": "Status er ændret til..."  
-      },
-      "args": [{
-        "name": "state",
-        "type": "dropdown",
-        "values": "$values"
-      }]
-    }],
-    "conditions": [{
-      "id": "vacuumcleaner_state_is",
-      "title": {
-        "en": "The vacuum cleaner !{{is|is not}}",
-        "nl": "De stofzuiger !{{is|is niet}}",
-        "de": "Der Staubsauger !{{ist|ist nicht}}",
-        "fr": "L'aspirateur !{{est|n'est pas}}",
-        "it": "L'aspirapolvere !{{è|non è}}",
-        "sv": "Dammsugaren !{{är|är inte}}",
-        "no": "Støvsugeren !{{er|er ikke}}",
-        "es": "La aspiradora !{{está|no está}}",
-        "da": "Støvsugeren !{{er|er ikke}}"  
-      },
-      "args": [{
-        "name": "state",
-        "type": "dropdown",
-        "values": "$values"
-      }]
-    }],
-    "actions": [{
-      "id": "clean",
-      "highlight": true,
-      "title": {
-        "en": "Start cleaning",
-        "nl": "Begin met stofzuigen",
-        "de": "Mit Staubsaugen anfangen",
-        "fr": "Commencer le nettoyage",
-        "it": "Avvia la pulizia",
-        "sv": "Börja städa",
-        "no": "Begynn rengjøring",
-        "es": "Comenzar a aspirar",
-        "da": "Begynd at støvsuge"  
+    "triggers": [
+      {
+        "id": "vacuumcleaner_state_changed",
+        "title": {
+          "en": "The state changed to...",
+          "nl": "De status is veranderd naar...",
+          "de": "Der Status hat sich geändert auf...",
+          "fr": "L'état est passé à...",
+          "it": "Lo stato è cambiato in...",
+          "sv": "Status ändrad till...",
+          "no": "Status endret til ...",
+          "es": "El estado ha cambiado a...",
+          "da": "Status er ændret til..."
+        },
+        "args": [
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
       }
-    },
+    ],
+    "conditions": [
+      {
+        "id": "vacuumcleaner_state_is",
+        "title": {
+          "en": "The vacuum cleaner !{{is|is not}}",
+          "nl": "De stofzuiger !{{is|is niet}}",
+          "de": "Der Staubsauger !{{ist|ist nicht}}",
+          "fr": "L'aspirateur !{{est|n'est pas}}",
+          "it": "L'aspirapolvere !{{è|non è}}",
+          "sv": "Dammsugaren !{{är|är inte}}",
+          "no": "Støvsugeren !{{er|er ikke}}",
+          "es": "La aspiradora !{{está|no está}}",
+          "da": "Støvsugeren !{{er|er ikke}}"
+        },
+        "args": [
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "clean",
+        "highlight": true,
+        "title": {
+          "en": "Start cleaning",
+          "nl": "Begin met stofzuigen",
+          "de": "Mit Staubsaugen anfangen",
+          "fr": "Commencer le nettoyage",
+          "it": "Avvia la pulizia",
+          "sv": "Börja städa",
+          "no": "Begynn rengjøring",
+          "es": "Comenzar a aspirar",
+          "da": "Begynd at støvsuge"
+        }
+      },
       {
         "id": "spot_clean",
         "title": {
@@ -149,7 +159,7 @@
           "sv": "Starta områdesstädning",
           "no": "Begynn områderengjøring",
           "es": "Comenzar a aspirar un punto concreto",
-          "da": "Begynd at områdestøvsuge"    
+          "da": "Begynd at områdestøvsuge"
         }
       },
       {
@@ -164,7 +174,7 @@
           "sv": "Återgå till docka",
           "no": "Gå tilbake til ladestasjon",
           "es": "Volver a la estación de carga",
-          "da": "Vend tilbage til ladestationen"    
+          "da": "Vend tilbage til ladestationen"
         }
       },
       {
@@ -179,84 +189,9 @@
           "sv": "Stopp",
           "no": "Stans",
           "es": "Detener",
-          "da": "Stop"    
+          "da": "Stop"
         }
       }
     ]
-  },
-  "$speechExamples": {
-    "en": ["Start the vacuum cleaner"],
-    "nl": ["Begin met stofzuigen"],
-    "de": ["Den Staubsauger starten"],
-    "fr": ["Commencer à aspirer"],
-    "it": ["Avvia l'aspirapolvere"],
-    "sv": ["Starta dammsugaren"]
-
-  },
-  "$speech": {
-    "en": {
-      "element": {
-        "vacuum": {
-          "type": "regex",
-          "value": "((vacuum\\s)?cleaning|vacuum\\scleaner|vacuum|vacuuming)"
-        },
-        "cleaning": {
-          "type": "regex",
-          "value": "(start|go|begin|on)"
-        },
-        "spot_cleaning": {
-          "type": "regex",
-          "value": "(start\\s)?spot(\\scleaning)?"
-        },
-        "docked": {
-          "type": "regex",
-          "value": "(finish|dock|docking\\sstation|charger?|charging(\\sstation)?|(return\\s)?home)"
-        },
-        "stopped": {
-          "type": "regex",
-          "value": "(stop|end|finish|off)"
-        }
-      },
-      "group": {
-        "changeState": {
-          "set": "vacuum && state",
-          "ordered": false,
-          "allowDisconnect": true,
-          "capturingGroup": true,
-          "devices": {
-            "capabilities": [
-              "vacuumcleaner_state"
-            ]
-          }
-        },
-        "state": {
-          "set": "cleaning || spot_cleaning || docked || stopped"
-        }
-      }
-    },
-    "nl": {
-      "element": {
-        "vacuum": {
-          "type": "regex",
-          "value": "((stof)?\\s?zuige(n|r)|schoon\\s?maken)"
-        },
-        "cleaning": {
-          "type": "regex",
-          "value": "(start|ga|begin(\\smet)?|aan)"
-        },
-        "spot_cleaning": {
-          "type": "regex",
-          "value": "(gericht|een\\splek|hier)(stof\\s?zuige(n|r)|schoon\\s?maken)"
-        },
-        "docked": {
-          "type": "regex",
-          "value": "(klaar|beëindig(en)?|dock|docking\\sstation|(op)?lade(r|n)|(op)?laa(d|t)\\s?station|(terug\\s)(naar\\s)?huis)"
-        },
-        "stopped": {
-          "type": "regex",
-          "value": "(stop|uit)"
-        }
-      }
-    }
   }
 }

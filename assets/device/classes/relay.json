@@ -18,7 +18,7 @@
     "sv": "Använd den här enhetsklassen för relän, som är kopplade till en annan enhet",
     "no": "Bruk denne enhetsklassen for reléer som er koblet til en annen enhet.",
     "es": "Utiliza esta clase de dispositivo para los relés conectados a otros dispositivos.",
-    "da": "Brug denne enhedsklasse til relæer, som er koblet til en anden enhed."  
+    "da": "Brug denne enhedsklasse til relæer, som er koblet til en anden enhed."
   },
   "virtualTitle": {
     "en": "What's connected?",
@@ -38,10 +38,22 @@
     "curtain"
   ],
   "$speechAlternatives": {
-    "en": [ "relay", "relays" ],
-    "nl": [ "relais" ],
-    "fr": [ "relais" ],
-    "it": [ "relé" ],
-    "sv": [ "relä", "relän" ]
+    "en": [
+      "relay",
+      "relays"
+    ],
+    "nl": [
+      "relais"
+    ],
+    "fr": [
+      "relais"
+    ],
+    "it": [
+      "relé"
+    ],
+    "sv": [
+      "relä",
+      "relän"
+    ]
   }
 }

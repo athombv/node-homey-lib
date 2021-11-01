@@ -9,7 +9,7 @@
     "sv": "Regnmätare",
     "no": "Regnmåler",
     "es": "Pluviómetro",
-    "da": "Regnmåler"  
+    "da": "Regnmåler"
   },
   "units": {
     "en": "m³"
@@ -24,7 +24,7 @@
     "sv": "Regn i kubikmeter (m³)",
     "no": "Regn i kubikkmeter (m³)",
     "es": "Lluvia en metros cúbicos (m³)",
-    "da": "Regn i kubikmeter (m³)"  
+    "da": "Regn i kubikmeter (m³)"
   },
   "decimals": 2,
   "insights": true,
@@ -44,7 +44,7 @@
           "sv": "Regnmätaren ändrades",
           "no": "Regnmåleren ble endret",
           "es": "El pluviómetro ha cambiado",
-          "da": "Regnmåleren ændrede sig"    
+          "da": "Regnmåleren ændrede sig"
         },
         "tokens": [
           {

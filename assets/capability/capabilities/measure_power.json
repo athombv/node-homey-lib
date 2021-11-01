@@ -9,7 +9,7 @@
     "sv": "Effekt",
     "no": "Effekt",
     "es": "Potencia",
-    "da": "Effekt"  
+    "da": "Effekt"
   },
   "units": {
     "en": "W"
@@ -41,26 +41,30 @@
   "setable": false,
   "uiComponent": "sensor",
   "$flow": {
-    "triggers": [{
-      "id": "measure_power_changed",
-      "highlight": true,
-      "title": {
-        "en": "The power changed",
-        "nl": "Het vermogen is veranderd",
-        "de": "Der Verbrauch hat sich gändert",
-        "fr": "L'énergie a changé",
-        "it": "L'energia è cambiata",
-        "sv": "Strömmen ändrades",
-        "no": "Strømmen ble endret",
-        "es": "La potencia ha cambiado",
-        "da": "Strømmen ændrede sig"   
-      },
-      "tokens": [{
-        "name": "$id",
-        "title": "$title",
-        "type": "$type",
-        "example": 7.5
-      }]
-    }]
+    "triggers": [
+      {
+        "id": "measure_power_changed",
+        "highlight": true,
+        "title": {
+          "en": "The power changed",
+          "nl": "Het vermogen is veranderd",
+          "de": "Der Verbrauch hat sich gändert",
+          "fr": "L'énergie a changé",
+          "it": "L'energia è cambiata",
+          "sv": "Strömmen ändrades",
+          "no": "Strømmen ble endret",
+          "es": "La potencia ha cambiado",
+          "da": "Strømmen ændrede sig"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 7.5
+          }
+        ]
+      }
+    ]
   }
 }

@@ -7,7 +7,7 @@
     "sv": "Ställ in volym",
     "no": "Innstill volum",
     "es": "Configurar volumen",
-    "da": "Indstil lydstyrken"  
+    "da": "Indstil lydstyrken"
   },
   "type": "number",
   "desc": {
@@ -19,7 +19,7 @@
     "sv": "Volym",
     "no": "Volum",
     "es": "Volumen",
-    "da": "Lydstyrke"  
+    "da": "Lydstyrke"
   },
   "chartType": "stepLine",
   "min": 0,
@@ -29,144 +29,95 @@
   "getable": true,
   "uiComponent": "slider",
   "$flow": {
-    "triggers": [{
-      "id": "volume_set_changed",
-      "title": {
-        "en": "Volume changed",
-        "nl": "Volume veranderd",
-        "de": "Lautstärke hat sich geändert",
-        "fr": "Volume a été modifié",
-        "it": "Volume modificato",
-        "sv": "Volymen ändrades",
-        "no": "Volumet ble endret",
-        "es": "El volumen ha cambiado",
-        "da": "Lydstyrke blev ændret"  
-      },
-      "tokens": [{
-        "name": "volume_set",
-        "type": "number",
+    "triggers": [
+      {
+        "id": "volume_set_changed",
         "title": {
-          "en": "Volume",
-          "nl": "Volume",
-          "de": "Lautstärke",
-          "fr": "Volume",
-          "it": "Volume",
-          "sv": "Volym",
-          "no": "Volum",
-          "es": "Volumen",
-          "da": "Lydstyrke"    
-
+          "en": "Volume changed",
+          "nl": "Volume veranderd",
+          "de": "Lautstärke hat sich geändert",
+          "fr": "Volume a été modifié",
+          "it": "Volume modificato",
+          "sv": "Volymen ändrades",
+          "no": "Volumet ble endret",
+          "es": "El volumen ha cambiado",
+          "da": "Lydstyrke blev ændret"
         },
-        "example": 0.5
-      }]
-    }],
-    "actions": [{
-      "id": "volume_set",
-      "highlight": true,
-      "title": {
-        "en": "Set volume to",
-        "nl": "Zet volume naar",
-        "de": "Lautstärke setzen auf",
-        "fr": "Mettre le volume sur",
-        "it": "Imposta il volume al",
-        "sv": "Ställ in volymen på",
-        "no": "Sett volumet til",
-        "es": "Configurar el volumen a",
-        "da": "Indstil lydstyrke til"  
-      },
-      "args": [{
-        "name": "volume_set",
-        "type": "range",
-        "min": 0,
-        "max": 1,
-        "step": 0.01,
-        "value": 0.5,
-        "label": "%",
-        "labelMultiplier": 100,
-        "labelDecimals": 0
-      }]
+        "tokens": [
+          {
+            "name": "volume_set",
+            "type": "number",
+            "title": {
+              "en": "Volume",
+              "nl": "Volume",
+              "de": "Lautstärke",
+              "fr": "Volume",
+              "it": "Volume",
+              "sv": "Volym",
+              "no": "Volum",
+              "es": "Volumen",
+              "da": "Lydstyrke"
+            },
+            "example": 0.5
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "volume_set",
+        "highlight": true,
+        "title": {
+          "en": "Set volume to",
+          "nl": "Zet volume naar",
+          "de": "Lautstärke setzen auf",
+          "fr": "Mettre le volume sur",
+          "it": "Imposta il volume al",
+          "sv": "Ställ in volymen på",
+          "no": "Sett volumet til",
+          "es": "Configurar el volumen a",
+          "da": "Indstil lydstyrke til"
+        },
+        "args": [
+          {
+            "name": "volume_set",
+            "type": "range",
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "value": 0.5,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
+          }
+        ]
       },
       {
-      "id": "volume_set_relative",
-      "title": {
-        "en": "Set relative volume",
-        "de": "Setze relative Lautsärke",
-        "nl": "Zet relatief volume"
-      },
-      "hint": {
-        "en": "Change the volume with respect to the device's current volume.",
-        "de": "Ändere die Lautstärke unter Berücksichtigung der aktuellen Lautstärke des Gerätes.",
-        "nl": "Verhoog of verlaag het volume ten opzichte van het huidige volume van het apparaat."
-      },
-      "args": [{
-        "name": "volume_set",
-        "type": "range",
-        "min": -1,
-        "max": 1,
-        "step": 0.01,
-        "value": 0.5,
-        "label": "%",
-        "labelMultiplier": 100,
-        "labelDecimals": 0
-      }]
-    }]
-  },
-  "$speechExamples": {
-    "en": ["Turn the volume of my speaker to 50%"],
-    "nl": ["Zet het volume van mijn speaker op 50%"],
-    "de": ["Drehe die Lautstärke meines Lautsprechers auf 50%"],
-    "fr": ["Mettre le volume de mon haut-parleur sur 50%"],
-    "it": ["Imposta il volume dei miei altoparlanti al 50%"],
-    "sv": ["Ställ in volymen på min högtalare till 50 %"],
-    "no": ["Sett høyttalervolumet til 50 %"]
-  },
-  "$speech": {
-    "en": {
-      "element": {
-        "verb": {
-          "type": "regex",
-          "value": "(switch|turn)"
+        "id": "volume_set_relative",
+        "title": {
+          "en": "Set relative volume",
+          "de": "Setze relative Lautsärke",
+          "nl": "Zet relatief volume"
         },
-        "volume": {
-          "type": "regex",
-          "value": "(the\\s)?volume"
+        "hint": {
+          "en": "Change the volume with respect to the device's current volume.",
+          "de": "Ändere die Lautstärke unter Berücksichtigung der aktuellen Lautstärke des Gerätes.",
+          "nl": "Verhoog of verlaag het volume ten opzichte van het huidige volume van het apparaat."
         },
-        "toNumber": {
-          "type": "regex",
-          "value": "(?:to\\s)?(\\d+)(\\spercent)?"
-        }
-      },
-      "group": {
-        "volumeTo": {
-          "set": "(verb) && volume && toNumber",
-          "ordered": false,
-          "allowDisconnect": true,
-          "capturingGroup": true,
-          "devices": {
-            "capabilities": [
-              "volume_set"
-            ]
+        "args": [
+          {
+            "name": "volume_set",
+            "type": "range",
+            "min": -1,
+            "max": 1,
+            "step": 0.01,
+            "value": 0.5,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
           }
-        }
+        ]
       }
-    },
-    "nl": {
-      "element": {
-        "verb": {
-          "type": "pos",
-          "value": {
-            "pos": "VERB"
-          }
-        },
-        "volume": {
-          "type": "regex",
-          "value": "(het\\s)?volume"
-        },
-        "toNumber": {
-          "type": "regex",
-          "value": "(?:naar\\s|op\\s)?(\\d+)"
-        }
-      }
-    }
+    ]
   }
 }

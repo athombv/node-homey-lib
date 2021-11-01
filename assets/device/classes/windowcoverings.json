@@ -37,10 +37,22 @@
     "curtain"
   ],
   "$speechAlternatives": {
-    "en": [ "window coverings", "windowcoverings" ],
-    "nl": [ "raambekleding", "raambedekking" ],
-    "fr": [ "couvertures de fenêtre" ],
-    "it": [ "rivestimenti per finestre" ],
-    "sv": [ "fönsterskydd" ]
+    "en": [
+      "window coverings",
+      "windowcoverings"
+    ],
+    "nl": [
+      "raambekleding",
+      "raambedekking"
+    ],
+    "fr": [
+      "couvertures de fenêtre"
+    ],
+    "it": [
+      "rivestimenti per finestre"
+    ],
+    "sv": [
+      "fönsterskydd"
+    ]
   }
 }

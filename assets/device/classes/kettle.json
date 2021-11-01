@@ -18,14 +18,30 @@
     "sv": "Använd den här enhetsklassen för vattenkokare, som kan värma vatten.",
     "no": "Bruk denne enhetsklassen for vannkokere som kan varme opp vann.",
     "es": "Utiliza esta clase de dispositivo para los hervidores que calientan agua.",
-    "da": "Brug denne enhedsklasse til elkedelenheder, der kan opvarme vand."  
+    "da": "Brug denne enhedsklasse til elkedelenheder, der kan opvarme vand."
   },
   "$speechAlternatives": {
-    "en": [ "kettle", "kettles", "water cooker" ],
-    "nl": [ "ketel", "waterkoker" ],
-    "fr": [ "bouilloire" ],
-    "it": [ "bollitore", "bollitori" ],
-    "sv": [ "vattenkokare" ],
-    "no": [ "vannkoker" ]
+    "en": [
+      "kettle",
+      "kettles",
+      "water cooker"
+    ],
+    "nl": [
+      "ketel",
+      "waterkoker"
+    ],
+    "fr": [
+      "bouilloire"
+    ],
+    "it": [
+      "bollitore",
+      "bollitori"
+    ],
+    "sv": [
+      "vattenkokare"
+    ],
+    "no": [
+      "vannkoker"
+    ]
   }
 }

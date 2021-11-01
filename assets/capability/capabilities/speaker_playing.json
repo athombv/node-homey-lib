@@ -8,7 +8,7 @@
     "sv": "Spelas",
     "no": "Avspilles",
     "es": "Reproduciendo",
-    "da": "Spiller"   
+    "da": "Spiller"
   },
   "type": "boolean",
   "getable": true,
@@ -58,7 +58,7 @@
           "sv": "Spelas !{{|inte}}",
           "no": "Avspilles !{{|ikke}}",
           "es": "!{{Se está|No se está}} reproduciendo",
-          "da": "Spiller !{{|ikke}}"     
+          "da": "Spiller !{{|ikke}}"
         }
       }
     ],
@@ -75,7 +75,7 @@
           "sv": "Spela",
           "no": "Spill av",
           "es": "Reproducir",
-          "da": "Afspil"    
+          "da": "Afspil"
         }
       },
       {
@@ -90,7 +90,7 @@
           "sv": "Pausa",
           "no": "Pause",
           "es": "Pausa",
-          "da": "Pause"    
+          "da": "Pause"
         }
       },
       {
@@ -104,7 +104,7 @@
           "sv": "Växla spela/pausa",
           "no": "Veksle mellom avspilling/pause",
           "es": "Reproducir/Pausar",
-          "da": "Skift mellem Afspil/Pause"    
+          "da": "Skift mellem Afspil/Pause"
         }
       }
     ]

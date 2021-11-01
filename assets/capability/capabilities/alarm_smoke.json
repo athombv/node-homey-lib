@@ -9,7 +9,7 @@
     "sv": "Röklarm",
     "no": "Røykalarm",
     "es": "Alarma de humo",
-    "da": "Røgalarm"  
+    "da": "Røgalarm"
   },
   "desc": {
     "en": "True when smoke has been detected",
@@ -20,7 +20,7 @@
     "sv": "Sant när rök upptäcks",
     "no": "Sant når røyk har blitt påvist",
     "es": "Verdadero cuando se ha detectado humo",
-    "da": "Sandt, når røg er blevet opdaget"    
+    "da": "Sandt, når røg er blevet opdaget"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +32,7 @@
     "sv": "Röklarm aktiverat",
     "no": "Røykalarm aktivert",
     "es": "Alarma de humo activada",
-    "da": "Røgalarm blev aktiveret"    
+    "da": "Røgalarm blev aktiveret"
   },
   "insightsTitleFalse": {
     "en": "Smoke alarm turned off",
@@ -43,7 +43,7 @@
     "sv": "Röklarm inaktiverat",
     "no": "Røykalarm deaktivert",
     "es": "Alarma de humo desactivada",
-    "da": "Røgalarm blev deaktiveret"   
+    "da": "Røgalarm blev deaktiveret"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +62,7 @@
           "sv": "Röklarmet aktiverat",
           "no": "Røykalarmen er aktivert",
           "es": "La alarma de humo se ha activado",
-          "da": "Røgalarmen blev aktiveret"     
+          "da": "Røgalarmen blev aktiveret"
         }
       },
       {
@@ -76,7 +76,7 @@
           "sv": "Röklarmet inaktiverat",
           "no": "Røykalarmen er deaktivert",
           "es": "La alarma de humo se ha desactivado",
-          "da": "Røgalarmen blev deaktiveret"     
+          "da": "Røgalarmen blev deaktiveret"
         }
       }
     ],
@@ -92,7 +92,7 @@
           "sv": "Röklarmet är !{{på|av}}",
           "no": "Røykalarmen er !{{på|av}}",
           "es": "La alarma de humo está !{{activada|desactivada}}",
-          "da": "Røgalarmen er !{{tændt|slukket}}"     
+          "da": "Røgalarmen er !{{tændt|slukket}}"
         }
       }
     ]

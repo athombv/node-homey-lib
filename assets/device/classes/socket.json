@@ -18,7 +18,7 @@
     "sv": "Använd den här enhetsklassen för uttag (inbyggda eller stickkontakter). När parmallen `välj_slav` får användaren en `Vad är inkopplat?`-fråga.",
     "no": "Bruk denne enhetsklassen for kontakter (innebygde eller eksterne kontaktenheter). Når sammenkoblingsmalen `velg_slave` legges til, får brukeren et `Hva er koblet til?`-spørsmål.",
     "es": "Utiliza esta clase de dispositivo para los enchufes (interruptores de enchufe integrados o enchufables). Al añadir la plantilla de emparejamiento 'elegir_subordinado', al usuario se le pregunta '¿Qué está enchufado?'.",
-    "da": "Brug denne enhedsklasse til kontakter (indbyggede eller eksterne kontaktenheder). Når `vælg_slave` parskabelonen tilføjes, bliver brugeren præsenteret for et `Hvad er sat til?` spørgsmål."   
+    "da": "Brug denne enhedsklasse til kontakter (indbyggede eller eksterne kontaktenheder). Når `vælg_slave` parskabelonen tilføjes, bliver brugeren præsenteret for et `Hvad er sat til?` spørgsmål."
   },
   "virtualTitle": {
     "en": "What's plugged in?",
@@ -41,10 +41,26 @@
     "solarpanel"
   ],
   "$speechAlternatives": {
-    "en": [ "socket", "plug" ],
-    "nl": [ "schakelaar", "wandschakelaar", "stekkerdoos", "tussenstekker" ],
-    "fr": [ "prise" ],
-    "it": [ "presa", "spina" ],
-    "sv": [ "uttag", "kontakt" ]
+    "en": [
+      "socket",
+      "plug"
+    ],
+    "nl": [
+      "schakelaar",
+      "wandschakelaar",
+      "stekkerdoos",
+      "tussenstekker"
+    ],
+    "fr": [
+      "prise"
+    ],
+    "it": [
+      "presa",
+      "spina"
+    ],
+    "sv": [
+      "uttag",
+      "kontakt"
+    ]
   }
 }

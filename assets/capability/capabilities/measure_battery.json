@@ -9,7 +9,7 @@
     "sv": "Batteri",
     "no": "Batteri",
     "es": "Batería",
-    "da": "Batteri"  
+    "da": "Batteri"
   },
   "units": {
     "en": "%"
@@ -26,7 +26,7 @@
     "sv": "Batteriladdning i procent (%)",
     "no": "Batterilading i prosent (%)",
     "es": "Carga de la batería en porcentaje (%)",
-    "da": "Batteriniveau i procent (%)"  
+    "da": "Batteriniveau i procent (%)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -46,7 +46,7 @@
           "sv": "Batterinivån ändrades",
           "no": "Batterinivået ble endret",
           "es": "El nivel de la batería ha cambiado",
-          "da": "Batteriniveauet har ændret sig"    
+          "da": "Batteriniveauet har ændret sig"
         },
         "tokens": [
           {

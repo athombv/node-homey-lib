@@ -8,7 +8,7 @@
     "sv": "Position",
     "no": "Posisjon",
     "es": "Posición",
-    "da": "Position"   
+    "da": "Position"
   },
   "type": "number",
   "getable": true,

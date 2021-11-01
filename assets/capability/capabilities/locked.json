@@ -9,7 +9,7 @@
     "sv": "Låst",
     "no": "Låst",
     "es": "Cerrada",
-    "da": "Låst"  
+    "da": "Låst"
   },
   "desc": {
     "en": "True when the lock is locked",
@@ -20,7 +20,7 @@
     "sv": "Sant när låset är låst",
     "no": "Sant når låsen er låst",
     "es": "Verdadero cuando la cerradura está cerrada",
-    "da": "Sandt, når låsen er låst"  
+    "da": "Sandt, når låsen er låst"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +32,7 @@
     "sv": "Låst",
     "no": "Låst",
     "es": "Cerrada",
-    "da": "Låst"  
+    "da": "Låst"
   },
   "insightsTitleFalse": {
     "en": "Unlocked",
@@ -43,56 +43,60 @@
     "sv": "Olåst",
     "no": "Ulåst",
     "es": "Abierta",
-    "da": "Ulåst"  
+    "da": "Ulåst"
   },
   "getable": true,
   "setable": true,
   "uiComponent": "toggle",
   "$flow": {
-    "triggers": [{
+    "triggers": [
+      {
         "id": "locked_true",
         "title": {
-          "en": "A lock just locked",
-          "nl": "Een slot werd vergrendeld",
-          "de": "Ein Schloss wurde gerade verriegelt",
-          "fr": "Un verrou vient de se verrouiller",
-          "it": "Una serratura appena chiusa",
-          "sv": "Ett lås låstes precis",
-          "no": "En lås ble nettopp låst",
-          "es": "Se ha cerrado una cerradura",
-          "da": "En lås er lige blevet låst"    
+          "en": "Locked",
+          "nl": "Vergrendeld",
+          "de": "Verriegelt",
+          "fr": "Verrouillé",
+          "it": "Chiusa",
+          "sv": "Låst",
+          "no": "Låst",
+          "es": "Cerrado",
+          "da": "Låst"
         }
       },
       {
         "id": "locked_false",
         "title": {
-          "en": "A lock just unlocked",
-          "nl": "Een slot werd ontgrendeld",
-          "de": "Ein Schloss wurde gerade entriegelt",
-          "fr": "Un verrou vient de se déverrouiller",
-          "it": "Una serratura appena aperta",
-          "sv": "Ett lås låstes precis upp",
-          "no": "En lås ble nettopp låst opp",
-          "es": "Se ha abierto una cerradura",
-          "da": "En lås er lige blevet låst op"    
+          "en": "Unlocked",
+          "nl": "Ontgrendeld",
+          "de": "Entriegelt",
+          "fr": "Déverrouillé",
+          "it": "Aperta",
+          "sv": "Olåst",
+          "no": "Ulåst",
+          "es": "Abierto",
+          "da": "Låst op"
         }
       }
     ],
-    "conditions": [{
-      "id": "locked",
-      "title": {
-        "en": "A lock is !{{locked|unlocked}}",
-        "nl": "Een slot is !{{vergrendeld|ontgrendeld}}",
-        "de": "Ein Schloss ist !{{verriegelt|entriegelt}}",
-        "fr": "Un verrou est !{{verrouillé|déverrouillé}}",
-        "it": "Una serratura è !{{chiusa|aperta}}",
-        "sv": "Ett lås är !{{låst|olåst}}",
-        "no": "En lås er !{{låst|ulåst}}",
-        "es": "Una cerradura está !{{cerrada|abierta}}",
-        "da": "En lås er blevet !{{låst|låst op}}"   
+    "conditions": [
+      {
+        "id": "locked",
+        "title": {
+          "en": "A lock is !{{locked|unlocked}}",
+          "nl": "Een slot is !{{vergrendeld|ontgrendeld}}",
+          "de": "Ein Schloss ist !{{verriegelt|entriegelt}}",
+          "fr": "Un verrou est !{{verrouillé|déverrouillé}}",
+          "it": "Una serratura è !{{chiusa|aperta}}",
+          "sv": "Ett lås är !{{låst|olåst}}",
+          "no": "En lås er !{{låst|ulåst}}",
+          "es": "Una cerradura está !{{cerrada|abierta}}",
+          "da": "En lås er blevet !{{låst|låst op}}"
+        }
       }
-    }],
-    "actions": [{
+    ],
+    "actions": [
+      {
         "id": "lock",
         "highlight": true,
         "title": {
@@ -104,8 +108,7 @@
           "sv": "Lås",
           "no": "Lås",
           "es": "Cerrar",
-          "da": "Lås"    
-              
+          "da": "Lås"
         }
       },
       {
@@ -120,69 +123,9 @@
           "sv": "Lås upp",
           "no": "Lås opp",
           "es": "Abrir",
-          "da": "Lås op"    
+          "da": "Lås op"
         }
       }
     ]
-  },
-  "$speechExamples": {
-    "en": ["Did I lock My Lock?"],
-    "nl": ["Heb ik Mijn Slot op slot gedaan?"],
-    "de": ["Habe ich mein Schloss verriegelt?"],
-    "fr": ["Ai-je verrouillé mon verrou ?"],
-    "it": ["Ho chiuso la serratura?"],
-    "sv": ["Låste jag mitt lås?"]
-  },
-  "$speech": {
-    "en": {
-      "element": {
-        "asking": {
-          "type": "regex",
-          "value": "(did(?:\\sI|\\swe|\\syou)?|are|is|have(?:\\sI|\\swe|\\syou)?(?:\\sleave)?)"
-        },
-        "lockReg": {
-          "type": "regex",
-          "value": "((un)?lock(ed)?(?:\\sthe\\s)?(door(s)?|window(s)?)?|(?:the\\s)?(door(s)?\\s|window(s)?\\s)?(un)?lock(ed)?)"
-        },
-        "lockedUnlocked": {
-          "type": "regex",
-          "value": "(un)?lock(ed)?"
-        }
-      },
-      "group": {
-        "locks": {
-          "set": "(asking) && lockReg",
-          "ordered": false,
-          "allowDisconnect": true,
-          "capturingGroup": true,
-          "devices": {
-            "class": "lock"
-          }
-        },
-        "lock": {
-          "set": "asking && lockedUnlocked",
-          "ordered": false,
-          "allowDisconnect": true,
-          "capturingGroup": true,
-          "devices": {
-            "class": "lock"
-          }
-        }
-      }
-    },
-    "nl": {
-      "asking": {
-        "type": "regex",
-        "value": "\\b(is|staat|heb\\sik|hebben\\swe|gelaten)\\b"
-      },
-      "lockReg": {
-        "type": "regex",
-        "value": "((op\\s|het\\s)?slot|open|dicht|(af)?gesloten|(ont|ver)grendeld?)"
-      },
-      "lockedUnlocked": {
-        "type": "regex",
-        "value": "(?:(open|geopend)|dicht|gesloten|op\\sslot)"
-      }
-    }
   }
 }

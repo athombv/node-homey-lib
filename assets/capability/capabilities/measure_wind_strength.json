@@ -9,7 +9,7 @@
     "sv": "Vindstyrka",
     "no": "Vindstyrke",
     "es": "Fuerza del viento",
-    "da": "Vindstyrke"  
+    "da": "Vindstyrke"
   },
   "units": {
     "en": "km/h"
@@ -23,7 +23,7 @@
     "sv": "Vindstyrka i kilometer per timme (km/h)",
     "no": "Vindstyrke i kilometer per time (km/t)",
     "es": "La fuerza del viento en kilómetros por hora (km/h)",
-    "da": "Vindstyrke i kilometer i timen (km/t)"  
+    "da": "Vindstyrke i kilometer i timen (km/t)"
   },
   "insights": true,
   "chartType": "spline",
@@ -44,7 +44,7 @@
           "sv": "Vindstyrkan ändrades",
           "no": "Vindstyrken ble endret",
           "es": "La fuerza del viento ha cambiado",
-          "da": "Vindstyrken ændrede sig"    
+          "da": "Vindstyrken ændrede sig"
         },
         "tokens": [
           {

@@ -9,7 +9,7 @@
     "sv": "Dimningsnivå",
     "no": "Dempingsnivå",
     "es": "Intensidad de la luz",
-    "da": "Lysniveau"   
+    "da": "Lysniveau"
   },
   "chartType": "stepLine",
   "min": 0,
@@ -20,62 +20,69 @@
   "setable": true,
   "uiComponent": "slider",
   "$flow": {
-    "triggers": [{
-      "id": "dim_changed",
-      "title": {
-        "en": "Dim-level changed",
-        "nl": "Dim-niveau veranderd",
-        "de": "Dimm-Niveau geändert",
-        "fr": "Intensité lumineuse a été modifiée",
-        "it": "Intensità luminosa modificata",
-        "sv": "Dimningsnivå ändrades",
-        "no": "Dempingsnivå ble endret",
-        "es": "La intensidad de la luz ha cambiado",
-        "da": "Lysniveau ændret"   
-      },
-      "tokens": [{
-        "name": "dim",
-        "type": "number",
+    "triggers": [
+      {
+        "id": "dim_changed",
         "title": {
-          "en": "Level",
-          "nl": "Niveau",
-          "de": "Niveau",
-          "fr": "Niveau",
-          "it": "Livello",
-          "sv": "Nivå",
-          "no": "Nivå",
-          "es": "Nivel",
-          "da": "Niveau"     
+          "en": "Dim-level changed",
+          "nl": "Dim-niveau veranderd",
+          "de": "Dimm-Niveau geändert",
+          "fr": "Intensité lumineuse a été modifiée",
+          "it": "Intensità luminosa modificata",
+          "sv": "Dimningsnivå ändrades",
+          "no": "Dempingsnivå ble endret",
+          "es": "La intensidad de la luz ha cambiado",
+          "da": "Lysniveau ændret"
         },
-        "example": 0.5
-      }]
-    }],
-    "actions": [{
-      "id": "dim",
-      "highlight": true,
-      "title": {
-        "en": "Dim to",
-        "nl": "Dim naar",
-        "de": "Dimmen auf",
-        "fr": "Mettre l'intensité lumineuse sur",
-        "it": "Imposta l'intensità luminosa su",
-        "sv": "Dimma till",
-        "no": "Demp til",
-        "es": "Ajustar la intensidad de la luz a",
-        "da": "Juster til"   
+        "tokens": [
+          {
+            "name": "dim",
+            "type": "number",
+            "title": {
+              "en": "Level",
+              "nl": "Niveau",
+              "de": "Niveau",
+              "fr": "Niveau",
+              "it": "Livello",
+              "sv": "Nivå",
+              "no": "Nivå",
+              "es": "Nivel",
+              "da": "Niveau"
+            },
+            "example": 0.5
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "dim",
+        "highlight": true,
+        "title": {
+          "en": "Dim to",
+          "nl": "Dim naar",
+          "de": "Dimmen auf",
+          "fr": "Mettre l'intensité lumineuse sur",
+          "it": "Imposta l'intensità luminosa su",
+          "sv": "Dimma till",
+          "no": "Demp til",
+          "es": "Ajustar la intensidad de la luz a",
+          "da": "Juster til"
+        },
+        "args": [
+          {
+            "name": "dim",
+            "type": "range",
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "value": 0.5,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
+          }
+        ]
       },
-      "args": [{
-        "name": "dim",
-        "type": "range",
-        "min": 0,
-        "max": 1,
-        "step": 0.01,
-        "value": 0.5,
-        "label": "%",
-        "labelMultiplier": 100,
-        "labelDecimals": 0
-      }]
-    },
       {
         "id": "dim_relative",
         "title": {
@@ -86,149 +93,26 @@
           "it": "Imposta intensità luminosa su relativa",
           "no": "Innstill relativt dempingsnivå",
           "es": "Ajustar la intensidad de la luz como relativa",
-          "da": "Indstil relativt lysniveau"     
+          "da": "Indstil relativt lysniveau"
         },
         "hint": {
           "en": "Dim or brighten with respect to the device's current dim-level.",
           "nl": "Verhoog of verlaag de helderheid ten opzichte van het huidige dim-niveau van het apparaat."
         },
-        "args": [{
-          "name": "dim",
-          "type": "range",
-          "min": -1,
-          "max": 1,
-          "step": 0.01,
-          "value": 0.5,
-          "label": "%",
-          "labelMultiplier": 100,
-          "labelDecimals": 0
-        }]
+        "args": [
+          {
+            "name": "dim",
+            "type": "range",
+            "min": -1,
+            "max": 1,
+            "step": 0.01,
+            "value": 0.5,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
+          }
+        ]
       }
     ]
-  },
-  "$speechExamples": {
-    "en": ["Dim all lights to 50%", "Set My Light to full brightness"],
-    "nl": ["Dim alle lampen naar 50%", "Zet Mijn Lamp naar volle helderheid"],
-    "de": ["Alle Lichter auf 50% dimmen", "Meine Lichter auf volle Helligkeit setzen"],
-    "fr": ["Estomper toutes les lumières vers 50%", "Définir ma lumière sur l'intensité maximum"],
-    "it": ["Abbassa tutte le luci al 50%", "Imposta la luce alla massima luminosità"],
-    "sv": ["Dämpa all belysning till 50 %", "Still in Min lampa till full ljusstyrka"]
-  },
-  "$speech": {
-    "en": {
-      "element": {
-        "verb": {
-          "type": "regex",
-          "value": "(switch|turn|set|put|change)"
-        },
-        "light": {
-          "type": "regex",
-          "value": "(all\\s|every\\s)?(?:the\\s)?(light(s)?|lamp(s)?)(to\\s)?"
-        },
-        "lightOrBright": {
-          "type": "regex",
-          "value": "(the\\s)?(brightness|(brightness\\sof\\s)?(the\\s)?(light(s)?|lamp(s)?))"
-        },
-        "percent": {
-          "type": "regex",
-          "value": "(?:to\\s)?(\\d+)\\spercent"
-        },
-        "max": {
-          "type": "regex",
-          "value": "(to\\s)?(max(imum|imal)(\\sbrightness)?|(the\\s|it(\\s)?s\\s)?high(est)?|(up\\s)?all\\sthe\\sway)"
-        },
-        "min": {
-          "type": "regex",
-          "value": "(to\\s)?(min(imum|imal)(\\sbrightness)?|(the\\s|it(\\s)?s\\s)?low(est)?|(up\\s)?all\\sthe\\sway)"
-        },
-        "up": {
-          "type": "regex",
-          "value": "(raise|increase|boost|(turn\\s)?up|brighter)"
-        },
-        "down": {
-          "type": "regex",
-          "value": "(lower|dim|(turn\\s)down|decrease|less\\sbright)"
-        }
-      },
-      "group": {
-        "changeBrightness": {
-          "set": "(verb) && upDown",
-          "ordered": false,
-          "allowDisconnect": true,
-          "capturingGroup": true,
-          "devices": {
-            "class": "light",
-            "capabilities": [
-              "dim"
-            ]
-          }
-        },
-        "upDown": {
-          "set": "up || down"
-        },
-        "toPercentage": {
-          "set": "(verb) && percent",
-          "ordered": false,
-          "allowDisconnect": true,
-          "capturingGroup": true,
-          "devices": {
-            "class": "light",
-            "capabilities": ["dim"]
-          }
-        },
-        "setMaxMin": {
-          "set": "(verb) && maxMin",
-          "ordered": false,
-          "allowDisconnect": true,
-          "capturingGroup": true,
-          "devices": {
-            "class": "light",
-            "capabilities": ["dim"]
-          }
-        },
-        "maxMin": {
-          "set": "max || min"
-        }
-      }
-    },
-
-    "nl": {
-      "element": {
-        "verb": {
-          "type": "pos",
-          "value": {
-            "pos": "VERB"
-          }
-        },
-        "light": {
-          "type": "regex",
-          "value": "(?:(alle\\s|al\\sde\\s)|het\\s|de\\s|\\b)(licht|lamp|verlichting)(en)?"
-        },
-        "lightOrBright": {
-          "type": "regex",
-          "value": "(de\\s)?(helderheid\\s(van\\s)?)?(het\\s|de\\s)?(licht|lamp|verlichting)(en)?"
-        },
-        "percent": {
-          "type": "regex",
-          "value": "(?:naar\\s|op\\s)?(\\d+)\\sprocent"
-        },
-        "max": {
-          "type": "regex",
-          "value": "(naar\\s|op\\s)?(de\\s)?(maxim(um|ale|aal)(\\shelderheid)?|(het|zijn|z\\s?n)\\s(hoogste?|felst)|(helemaal|volledig)\\saan)"
-        },
-        "min": {
-          "type": "regex",
-          "value": "(naar\\s|op\\s)?(de\\s)?(minim(um|ale|aal)(\\shelderheid)?|(het|zijn|z\\s?n)\\slaagste?|(helemaal|compleeet|volledig)\\sgedimd)"
-        },
-        "up": {
-          "type": "regex",
-          "value": "(hoger|feller|verhoog)"
-        },
-        "down": {
-          "type": "regex",
-          "value": "(dim|lager|verlaag|reduceer|minder(\\sfel)?)"
-        }
-      }
-    }
   }
 }

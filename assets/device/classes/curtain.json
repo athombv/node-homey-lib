@@ -18,14 +18,32 @@
     "sv": "Använd den här enheten för gardiner.",
     "no": "Bruk denne enheten for gardiner.",
     "es": "Utiliza esta clase de dispositivo para las cortinas.",
-    "da": "Brug denne enhedsklasse til gardiner."  
+    "da": "Brug denne enhedsklasse til gardiner."
   },
   "$speechAlternatives": {
-    "en": [ "curtains", "curtain" ],
-    "nl": [ "gordijnen", "gordijn" ],
-    "fr": [ "rideaux", "rideau" ],
-    "it": [ "tende", "tenda" ],
-    "sv": [ "gardiner", "gardin" ],
-    "no": [ "gardiner", "gardin" ]
+    "en": [
+      "curtains",
+      "curtain"
+    ],
+    "nl": [
+      "gordijnen",
+      "gordijn"
+    ],
+    "fr": [
+      "rideaux",
+      "rideau"
+    ],
+    "it": [
+      "tende",
+      "tenda"
+    ],
+    "sv": [
+      "gardiner",
+      "gardin"
+    ],
+    "no": [
+      "gardiner",
+      "gardin"
+    ]
   }
 }

@@ -9,7 +9,7 @@
     "sv": "Vindriktning",
     "no": "Vindretning",
     "es": "Dirección del aire",
-    "da": "Vindretning"  
+    "da": "Vindretning"
   },
   "units": {
     "en": "°"
@@ -24,7 +24,7 @@
     "sv": "Vindriktning i grader (°)",
     "no": "Vindretning i grader (°)",
     "es": "Dirección del aire en grados (°)",
-    "da": "Vindretning i grader (°)"  
+    "da": "Vindretning i grader (°)"
   },
   "chartType": "stepLine",
   "decimals": 2,
@@ -44,7 +44,7 @@
           "sv": "Vindriktningen har ändrats",
           "no": "Vindretningen er endret",
           "es": "La dirección del aire ha cambiado",
-          "da": "Vindretningen skiftede"    
+          "da": "Vindretningen skiftede"
         },
         "tokens": [
           {

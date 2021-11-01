@@ -9,7 +9,7 @@
     "sv": "Tryck",
     "no": "Trykk",
     "es": "Presión",
-    "da": "Tryk"   
+    "da": "Tryk"
   },
   "units": {
     "en": "mbar"
@@ -24,10 +24,10 @@
     "sv": "Tryck i millibar (mbar)",
     "no": "Trykk i millibar (mbar)",
     "es": "Presión en milibares (mbar)",
-    "da": "Tryk i millibar (mbar)"   
+    "da": "Tryk i millibar (mbar)"
   },
   "chartType": "spline",
-  "decimals": 2,
+  "decimals": 0,
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",
@@ -44,7 +44,7 @@
           "sv": "Trycket ändrades",
           "no": "Trykket ble endret",
           "es": "La presión ha cambiado",
-          "da": "Trykkey ændrede sig"     
+          "da": "Trykkey ændrede sig"
         },
         "tokens": [
           {

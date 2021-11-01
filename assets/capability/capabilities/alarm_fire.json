@@ -9,7 +9,7 @@
     "sv": "Brandlarm",
     "no": "Brannalarm",
     "es": "Alarma de incendios",
-    "da": "Brandalarm"  
+    "da": "Brandalarm"
   },
   "desc": {
     "en": "True when fire has been detected",
@@ -20,7 +20,7 @@
     "sv": "Sant när brand upptäckts",
     "no": "Sant når brann påvises",
     "es": "Verdadero cuando se ha detectado fuego",
-    "da": "Sandt, når brand er blevet opdaget"  
+    "da": "Sandt, når brand er blevet opdaget"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +32,7 @@
     "sv": "Brandlarm aktiverat",
     "no": "Brannlarm aktivert",
     "es": "Alarma de incendios activada",
-    "da": "Brandalarm blev aktiveret"  
+    "da": "Brandalarm blev aktiveret"
   },
   "insightsTitleFalse": {
     "en": "Fire alarm turned off",
@@ -43,7 +43,7 @@
     "sv": "Brandlarm inaktiverat",
     "no": "Brannlarm deaktivert",
     "es": "Alarma de incendios desactivada",
-    "da": "Brandalarm blev deaktiveret"  
+    "da": "Brandalarm blev deaktiveret"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +62,7 @@
           "sv": "Brandlarmet aktiverat",
           "no": "Brannalarmen aktivert",
           "es": "La alarma de incendios se ha activado",
-          "da": "Brandalarmen blev aktiveret"    
+          "da": "Brandalarmen blev aktiveret"
         }
       },
       {
@@ -76,7 +76,7 @@
           "sv": "Brandlarmet inaktiverat",
           "no": "Brannalarmen deaktivert",
           "es": "La alarma de incendios se ha desactivado",
-          "da": "Brandalarmen blev deaktiveret"    
+          "da": "Brandalarmen blev deaktiveret"
         }
       }
     ],
@@ -92,7 +92,7 @@
           "sv": "Brandlarmet är !{{på|av}}",
           "no": "Brannalarmen er !{{på|av}}",
           "es": "La alarma de incendios está !{{activada|desactivada}}",
-          "da": "Brandalarmen er !{{tændt|slukket}}"    
+          "da": "Brandalarmen er !{{tændt|slukket}}"
         }
       }
     ]

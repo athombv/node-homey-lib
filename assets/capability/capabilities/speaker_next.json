@@ -8,7 +8,7 @@
     "sv": "Nästa",
     "no": "Neste",
     "es": "Siguiente",
-    "da": "Næste"   
+    "da": "Næste"
   },
   "type": "boolean",
   "getable": false,
@@ -27,7 +27,7 @@
           "sv": "Nästa",
           "no": "Neste",
           "es": "Siguiente",
-          "da": "Næste"     
+          "da": "Næste"
         }
       }
     ]

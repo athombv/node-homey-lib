@@ -9,7 +9,7 @@
     "sv": "Hemlarmsstatus",
     "no": "Hjemmealarmstatus",
     "es": "Estado de la alarma doméstica",
-    "da": "Hjemmealarmstatus"  
+    "da": "Hjemmealarmstatus"
   },
   "values": [
     {
@@ -23,7 +23,7 @@
         "sv": "Larmat",
         "no": "Aktivert",
         "es": "Activada",
-        "da": "Aktiveret"  
+        "da": "Aktiveret"
       }
     },
     {
@@ -37,7 +37,7 @@
         "sv": "Avlarmat",
         "no": "Deaktivert",
         "es": "Desactivada",
-        "da": "Deaktiveret"  
+        "da": "Deaktiveret"
       }
     },
     {
@@ -51,7 +51,7 @@
         "sv": "Delvis larmat",
         "no": "Delvis aktivert",
         "es": "Parcialmente activada",
-        "da": "Delvist aktiveret"  
+        "da": "Delvist aktiveret"
       }
     }
   ],
@@ -71,7 +71,7 @@
           "sv": "Statusen ändrad",
           "no": "Statusen ble endret",
           "es": "El estado ha cambiado",
-          "da": "Status ændret"    
+          "da": "Status ændret"
         },
         "args": [
           {
@@ -94,7 +94,7 @@
           "sv": "Statusen är !{{|inte}}",
           "no": "Statusen er !{{|ikke}}",
           "es": "El estado !{{|no}} es",
-          "da": "Status er !{{|ikke}}"    
+          "da": "Status er !{{|ikke}}"
         },
         "args": [
           {
@@ -117,7 +117,7 @@
           "sv": "Ställ in status",
           "no": "Innstill status",
           "es": "Definir estado",
-          "da": "Indstil status"    
+          "da": "Indstil status"
         },
         "args": [
           {

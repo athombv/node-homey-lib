@@ -9,7 +9,7 @@
     "sv": "Värmelarm",
     "no": "Varmealarm",
     "es": "Alarma de calor",
-    "da": "Varmealarm"  
+    "da": "Varmealarm"
   },
   "desc": {
     "en": "True when extreme heat has been detected",
@@ -20,7 +20,7 @@
     "sv": "Sant när extrem hetta upptäckts",
     "no": "Sant når ekstrem varme påvises",
     "es": "Verdadero cuando se ha detectado un calor extremo",
-    "da": "Sandt, når ekstrem varme er blevet opdaget"  
+    "da": "Sandt, når ekstrem varme er blevet opdaget"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +32,7 @@
     "sv": "Värmelarm aktiverat",
     "no": "Varmealarm aktivert",
     "es": "Alarma de calor activada",
-    "da": "Varmealarm blev aktiveret"  
+    "da": "Varmealarm blev aktiveret"
   },
   "insightsTitleFalse": {
     "en": "Heat alarm turned off",
@@ -43,7 +43,7 @@
     "sv": "Värmelarm inaktiverat",
     "no": "Varmealarm deaktivert",
     "es": "Alarma de calor desactivada",
-    "da": "Varmealarm blev deaktiveret" 
+    "da": "Varmealarm blev deaktiveret"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +62,7 @@
           "sv": "Värmelarmet aktiverat",
           "no": "Varmealarmen aktivert",
           "es": "La alarma de calor se ha activado",
-          "da": "Varmealarmen blev aktiveret"    
+          "da": "Varmealarmen blev aktiveret"
         }
       },
       {
@@ -76,7 +76,7 @@
           "sv": "Värmelarmet inaktiverat",
           "no": "Varmealarmen deaktivert",
           "es": "La alarma de calor se ha desactivado",
-          "da": "Varmealarmen blev deaktiveret"    
+          "da": "Varmealarmen blev deaktiveret"
         }
       }
     ],

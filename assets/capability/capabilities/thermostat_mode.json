@@ -9,7 +9,7 @@
     "sv": "Termostatläge",
     "no": "Termostatmodus",
     "es": "Modo del termostato",
-    "da": "Termostattilstand"  
+    "da": "Termostattilstand"
   },
   "desc": {
     "en": "Mode of the thermostat",
@@ -20,7 +20,7 @@
     "sv": "Läge för termostaten",
     "no": "Modus for termostaten",
     "es": "Modo del termostato",
-    "da": "Tilstand for termostat"  
+    "da": "Tilstand for termostat"
   },
   "values": [
     {
@@ -34,7 +34,7 @@
         "sv": "Automatiskt",
         "no": "Automatisk",
         "es": "Automático",
-        "da": "Automatisk"  
+        "da": "Automatisk"
       }
     },
     {
@@ -48,7 +48,7 @@
         "sv": "Värme",
         "no": "Varme",
         "es": "Calentar",
-        "da": "Opvarm"  
+        "da": "Opvarm"
       }
     },
     {
@@ -62,7 +62,7 @@
         "sv": "Kyla",
         "no": "Avkjøle",
         "es": "Enfriar",
-        "da": "Køl ned"  
+        "da": "Køl ned"
       }
     },
     {
@@ -76,7 +76,7 @@
         "sv": "Av",
         "no": "Av",
         "es": "Desactivado",
-        "da": "Deaktiveret"  
+        "da": "Deaktiveret"
       }
     }
   ],
@@ -96,7 +96,7 @@
           "sv": "Termostatläge ändrades",
           "no": "Termostatmodus ble endret",
           "es": "El modo del termostato ha cambiado",
-          "da": "Termostattilstand er blevet ændret"    
+          "da": "Termostattilstand er blevet ændret"
         },
         "args": [
           {
@@ -142,7 +142,7 @@
           "sv": "Ställ in läget",
           "no": "Innstill modusen",
           "es": "Configurar el modo",
-          "da": "Indstil tilstanden"    
+          "da": "Indstil tilstanden"
         },
         "args": [
           {

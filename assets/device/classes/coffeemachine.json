@@ -8,7 +8,7 @@
     "sv": "Kaffemaskin",
     "no": "Kaffemaskin",
     "es": "Máquina de café",
-    "da": "Kaffemaskine" 
+    "da": "Kaffemaskine"
   },
   "description": {
     "en": "Use this device class for coffee machines.",
@@ -18,13 +18,30 @@
     "sv": "Använd den här enhetsklassen för kaffemaskiner.",
     "no": "Bruk denne enhetsklassen for kaffemaskiner.",
     "es": "Utiliza esta clase de dispositivo para las máquinas de café.",
-    "da": "Brug denne enhedsklasse til kaffemaskiner."  
+    "da": "Brug denne enhedsklasse til kaffemaskiner."
   },
   "$speechAlternatives": {
-    "en": [ "coffee machine", "coffee machines" ],
-    "nl": [ "koffiezetapparaat", "koffiemachine", "koffie zet apparaat" ],
-    "fr": [ "machine à café", "cafetière" ],
-    "it": [ "macchina per il caffè", "caffettiera" ],
-    "sv": [ "kaffemaskin", "kaffemaskiner", "kaffebryggare" ]
+    "en": [
+      "coffee machine",
+      "coffee machines"
+    ],
+    "nl": [
+      "koffiezetapparaat",
+      "koffiemachine",
+      "koffie zet apparaat"
+    ],
+    "fr": [
+      "machine à café",
+      "cafetière"
+    ],
+    "it": [
+      "macchina per il caffè",
+      "caffettiera"
+    ],
+    "sv": [
+      "kaffemaskin",
+      "kaffemaskiner",
+      "kaffebryggare"
+    ]
   }
 }

@@ -11,7 +11,7 @@
     "sv": "Måltemperatur",
     "no": "Ønsket temperatur",
     "es": "Temperatura configurada",
-    "da": "Måltemperatur"  
+    "da": "Måltemperatur"
   },
   "units": {
     "en": "°C"
@@ -35,7 +35,7 @@
           "sv": "Måltemperaturen ändrades",
           "no": "Ønsket temperatur ble endret",
           "es": "La temperatura configurada ha cambiado",
-          "da": "Måltemperaturen blev ændret"    
+          "da": "Måltemperaturen blev ændret"
         },
         "tokens": [
           {
@@ -60,7 +60,7 @@
           "sv": "Ställ in temperaturen",
           "no": "Innstill temperaturen",
           "es": "Configurar la temperatura",
-          "da": "Indstil temperaturen"    
+          "da": "Indstil temperaturen"
         },
         "args": [
           {
@@ -75,60 +75,5 @@
         ]
       }
     ]
-  },
-  "$speechExamples": {
-    "en": ["Set the temperature to 21 degrees"],
-    "nl": ["Zet de temperatuur op 21 graden"],
-    "de": ["Die Temperatur auf 21 Grad setzen"],
-    "fr": ["Définir la température sur 21 degrés"],
-    "it": ["Imposta la temperatura a 21 gradi"],
-    "sv": ["Ställ in temperaturen till 21 grader"]
-  },
-  "$speech": {
-    "en": {
-      "element": {
-        "verb": {
-          "type": "regex",
-          "value": "(set|change|adjust|turn)"
-        },
-        "thermostat": {
-          "type": "regex",
-          "value": "(the\\s)?(temperature|thermostat|heating|heater)"
-        },
-        "degrees": {
-          "type": "regex",
-          "value": "(to\\s)?(\\d+)\\sdegree(s)?"
-        }
-      },
-      "group": {
-        "setTemp": {
-          "set": "(verb) && thermostat && degrees",
-          "ordered": false,
-          "allowDisconnect": true,
-          "capturingGroup": true,
-          "devices": {
-            "capabilities": [
-              "target_temperature"
-            ]
-          }
-        }
-      }
-    },
-    "nl": {
-      "element": {
-        "verb": {
-          "type": "regex",
-          "value": "(zet|draai|doe)"
-        },
-        "thermostat": {
-          "type": "regex",
-          "value": "(de\\s)?(temperatuur|thermostaat|verwarming|kachel)"
-        },
-        "degrees": {
-          "type": "regex",
-          "value": "(?:op\\s|naar\\s)?(\\d+)\\sgraden"
-        }
-      }
-    }
   }
 }

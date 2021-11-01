@@ -20,7 +20,7 @@
     "sv": "Sant när farliga CO-värden upptäcks",
     "no": "Sant når farlige CO-verdier påvises",
     "es": "Verdadero cuando se han detectado valores peligrosos de CO",
-    "da": "Sandt, når farlige CO-værdier er blevet opdaget"  
+    "da": "Sandt, når farlige CO-værdier er blevet opdaget"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +32,7 @@
     "sv": "CO-larm aktiverat",
     "no": "CO-alarm aktivert",
     "es": "Alarma de CO activada",
-    "da": "CO-alarm aktiveret"  
+    "da": "CO-alarm aktiveret"
   },
   "insightsTitleFalse": {
     "en": "CO alarm turned off",
@@ -43,7 +43,7 @@
     "sv": "CO-larm inaktiverat",
     "no": "CO-alarm deaktivert",
     "es": "Alarma de CO desactivada",
-    "da": "CO-alarm deaktiveret"  
+    "da": "CO-alarm deaktiveret"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +62,7 @@
           "sv": "CO-larmet aktiverades",
           "no": "CO-alarmen aktivert",
           "es": "La alarma de CO se ha activado",
-          "da": "CO-alarmen blev aktiveredt"    
+          "da": "CO-alarmen blev aktiveredt"
         }
       },
       {
@@ -76,7 +76,7 @@
           "sv": "CO-larmet inaktiverades",
           "no": "CO-alarmen deaktivert",
           "es": "La alarma de CO se ha desactivado",
-          "da": "CO-alarmen blev deaktiveret"       
+          "da": "CO-alarmen blev deaktiveret"
         }
       }
     ],
@@ -92,7 +92,7 @@
           "sv": "CO-larmet är !{{på|av}}",
           "no": "CO-alarmen er !{{på|av}}",
           "es": "La alarma de CO está !{{activada|desactivada}}",
-          "da": "CO-alarmen er !{{on|off}}"    
+          "da": "CO-alarmen er !{{on|off}}"
         }
       }
     ]
