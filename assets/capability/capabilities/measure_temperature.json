@@ -57,56 +57,5 @@
         ]
       }
     ]
-  },
-  "$speechExamples": {
-    "en": [
-      "What is the average temperature at home?"
-    ],
-    "nl": [
-      "Wat is de gemiddelde temperatuur thuis?"
-    ],
-    "de": [
-      "Was ist die durchschnittliche Temperatur zu Hause?"
-    ],
-    "fr": [
-      "Quelle est la température moyenne à la maison ?"
-    ],
-    "it": [
-      "Qual è la temperatura media in casa?"
-    ],
-    "sv": [
-      "Vad är medeltemperaturen hemma?"
-    ]
-  },
-  "$speech": {
-    "en": {
-      "element": {
-        "temperatureReg": {
-          "type": "regex",
-          "value": "((what\\sis\\sthe\\s(current\\s)?)temperature|(is\\sit\\s|how\\s)?(warm|hot|cold|cool)(\\sis\\sit)?)"
-        }
-      },
-      "group": {
-        "temperature": {
-          "set": "temperatureReg",
-          "ordered": false,
-          "allowDisconnect": true,
-          "capturingGroup": true,
-          "devices": {
-            "capabilities": [
-              "measure_temperature"
-            ]
-          }
-        }
-      }
-    },
-    "nl": {
-      "element": {
-        "temperatureReg": {
-          "type": "regex",
-          "value": "((huidige\\s)?temperatuur|((warm|heet|koud|koel)|hoeveel\\sgraden)\\s(wordt?|gaat|zal|is)\\shet|het\\s(warm|heet|koud|koel))"
-        }
-      }
-    }
   }
 }
