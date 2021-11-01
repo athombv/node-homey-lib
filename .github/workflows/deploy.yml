@@ -70,6 +70,7 @@ jobs:
         if: "contains(github.event.head_commit.message, '#patch') && !contains(github.event.head_commit.message, '#minor') && !contains(github.event.head_commit.message, '#major')"
         run: |
           npm version patch
+          git config pull.rebase false
           git pull
           git push --follow-tags
           
@@ -77,6 +78,7 @@ jobs:
         if: "contains(github.event.head_commit.message, '#minor') && !contains(github.event.head_commit.message, '#major')"
         run: |
           npm version minor
+          git config pull.rebase false
           git pull
           git push --follow-tags
           
@@ -84,6 +86,7 @@ jobs:
         if: "contains(github.event.head_commit.message, '#major')"
         run: |
           npm version major
+          git config pull.rebase false
           git pull
           git push --follow-tags
      
