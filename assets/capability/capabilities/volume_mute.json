@@ -43,6 +43,13 @@
           "es": "Activar el volumen",
           "da": "Slå lyden til"
         }
+      },
+      {
+        "id": "volume_mute_toggle",
+        "title": {
+          "en": "Toggle muted volume on or off",
+          "nl": "Schakel gedempt volume aan of uit"  
+        }
       }
     ]
   }
