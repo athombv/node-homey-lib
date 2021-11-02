@@ -48,7 +48,14 @@
         "id": "volume_mute_toggle",
         "title": {
           "en": "Toggle muted volume on or off",
-          "nl": "Schakel gedempt volume aan of uit"  
+          "nl": "Gedempt volume in- of uitschakelen",
+          "de": "Stummschaltung ein- oder ausschalten",
+          "fr": "Activer ou désactiver le son coupé",
+          "it": "Attiva o disattiva il volume disattivato",
+          "sv": "Slå på eller av avstängd volym",
+          "no": "Slå dempet volum på eller av",
+          "es": "Activar o desactivar el volumen silenciado",
+          "da": "Slå dæmpet lydstyrke til eller fra"
         }
       }
     ]
