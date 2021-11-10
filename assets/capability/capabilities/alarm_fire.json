@@ -11,7 +11,7 @@
     "es": "Alarma de incendios",
     "da": "Brandalarm",
     "ru": "Пожарный сигнал",
-    "pl": ""
+    "pl": "Alarm przeciwpożarowy"
   },
   "desc": {
     "en": "True when fire has been detected",
