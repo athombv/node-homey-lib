@@ -7,7 +7,9 @@
     "sv": "Upprepa",
     "no": "Gjenta",
     "es": "Repetir",
-    "da": "Gentag"
+    "da": "Gentag",
+    "ru": "Повторить",
+    "pl": "Powtórz"
   },
   "type": "enum",
   "values": [
@@ -22,7 +24,9 @@
         "sv": "Av",
         "no": "Av",
         "es": "Apagar",
-        "da": "Fra"
+        "da": "Fra",
+        "ru": "выкл",
+        "pl": "wył"
       }
     },
     {
@@ -35,7 +39,9 @@
         "sv": "Upprepa spår",
         "no": "Gjenta spor",
         "es": "Repetir pista",
-        "da": "Gentag spor"
+        "da": "Gentag spor",
+        "ru": "Повторить трек",
+        "pl": "Powtórz utwór"
       }
     },
     {
@@ -48,7 +54,9 @@
         "sv": "Upprepa spellista",
         "no": "Gjenta spilleliste",
         "es": "Repetir lista de reproducción",
-        "da": "Gentag afspilningsliste"
+        "da": "Gentag afspilningsliste",
+        "ru": "Повторить плейлист",
+        "pl": "Powtórz składankę"
       }
     }
   ],
@@ -67,7 +75,9 @@
           "sv": "Upprepa",
           "no": "Gjenta",
           "es": "Repetir",
-          "da": "Gentag"
+          "da": "Gentag",
+          "ru": "Повторить",
+          "pl": "Powtórz"
         },
         "args": [
           {

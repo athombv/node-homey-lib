@@ -9,10 +9,14 @@
     "sv": "Effekt",
     "no": "Effekt",
     "es": "Potencia",
-    "da": "Effekt"
+    "da": "Effekt",
+    "ru": "Электроэнергия",
+    "pl": "Moc"
   },
   "units": {
-    "en": "W"
+    "en": "W",
+    "ru": "Вт",
+    "pl": "W"
   },
   "insights": true,
   "desc": {
@@ -24,14 +28,18 @@
     "sv": "Effekt i watt (W)",
     "no": "Effekt i watt (W)",
     "es": "Potencia en vatios (W)",
-    "da": "Effekt i watt (W)"
+    "da": "Effekt i watt (W)",
+    "ru": "Электроэнергия (Вт)",
+    "pl": "Moc w watach (W)"
   },
   "options": {
     "isApproximated": {
       "type": "boolean",
       "default": false,
       "desc": {
-        "en": "This flag is used to determine that the device itself has no power measurement functionality, but that the driver calculates the energy use."
+        "en": "This flag is used to determine that the device itself has no power measurement functionality, but that the driver calculates the energy use.",
+        "ru": "Этот флаг используется для определения того, что само устройство не имеет функции измерения электроэнергии, но драйвер рассчитывает потребление энергии.",
+        "pl": "Flaga oznacza, że samo urządzenie nie ma funkcji pomiaru mocy, ale sterownik oblicza zużycie energii."
       }
     }
   },
@@ -54,7 +62,9 @@
           "sv": "Strömmen ändrades",
           "no": "Strømmen ble endret",
           "es": "La potencia ha cambiado",
-          "da": "Strømmen ændrede sig"
+          "da": "Strømmen ændrede sig",
+          "ru": "Электроэнергия изменена",
+          "pl": "Zmiana mocy"
         },
         "tokens": [
           {

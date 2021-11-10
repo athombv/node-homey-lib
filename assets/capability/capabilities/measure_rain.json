@@ -9,10 +9,14 @@
     "sv": "Regn",
     "no": "Regn",
     "es": "Lluvia",
-    "da": "Regn"
+    "da": "Regn",
+    "ru": "Дождь",
+    "pl": "Deszcz"
   },
   "units": {
-    "en": "mm"
+    "en": "mm",
+    "ru": "мм",
+    "pl": "mm"
   },
   "insights": true,
   "desc": {
@@ -24,7 +28,9 @@
     "sv": "Regn i millimeter (mm)",
     "no": "Regn i millimeter (mm)",
     "es": "Lluvia en milímetros (mm)",
-    "da": "Regn i millimeter (mm)"
+    "da": "Regn i millimeter (mm)",
+    "ru": "Дождь в миллиметрах (мм)",
+    "pl": "Deszcz w milimetrach (mm)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -44,7 +50,9 @@
           "sv": "Regnet ändrades",
           "no": "Regnet ble endret",
           "es": "La lluvia ha cambiado",
-          "da": "Regnen ændrede sig"
+          "da": "Regnen ændrede sig",
+          "ru": "Дождь изменился",
+          "pl": "Zmiana poziomu deszczu"
         },
         "tokens": [
           {

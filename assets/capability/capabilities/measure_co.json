@@ -8,10 +8,14 @@
     "it": "CO",
     "sv": "CO",
     "no": "CO",
-    "da": "CO"
+    "da": "CO",
+    "ru": "CO",
+    "pl": "CO"
   },
   "units": {
-    "en": "ppm"
+    "en": "ppm",
+    "ru": "ч./млн.",
+    "pl": "ppm"
   },
   "insights": true,
   "desc": {
@@ -23,7 +27,9 @@
     "sv": "CO i partiklar-per-miljon (ppm)",
     "no": "CO i partikler per million (ppm)",
     "es": "CO en partes por millón (ppm)",
-    "da": "CO i partikler-per-million (ppm)"
+    "da": "CO i partikler-per-million (ppm)",
+    "ru": "CO в частицах на миллион (ч./млн.)",
+    "pl": "Stężenie CO w części na milion (ppm)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -43,7 +49,9 @@
           "sv": "CO-nivån ändrades",
           "no": "CO-nivået ble endret",
           "es": "El nivel de CO ha cambiado",
-          "da": "CO-niveauet har ændret sig"
+          "da": "CO-niveauet har ændret sig",
+          "ru": "CO-уровень изменен",
+          "pl": "Zmiana poziomu stężenia CO"
         },
         "tokens": [
           {

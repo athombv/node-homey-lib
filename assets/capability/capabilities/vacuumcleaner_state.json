@@ -8,7 +8,9 @@
     "sv": "Dammsugarstatus",
     "no": "Støvsugerstatus",
     "es": "Modo de la aspiradora",
-    "da": "Støvsugerstatus"
+    "da": "Støvsugerstatus",
+    "ru": "Состояние пылесоса",
+    "pl": "Stan odkurzacza"
   },
   "values": [
     {
@@ -22,7 +24,9 @@
         "sv": "Städning",
         "no": "Rengjøring",
         "es": "Aspirando",
-        "da": "Støvsuger"
+        "da": "Støvsuger",
+        "ru": "Идет уборка",
+        "pl": "Sprzątanie"
       }
     },
     {
@@ -36,7 +40,9 @@
         "sv": "Områdesstädning",
         "no": "Områderengjøring",
         "es": "Aspirando un punto concreto",
-        "da": "Områdestøvsugning"
+        "da": "Områdestøvsugning",
+        "ru": "Идет точечная уборка",
+        "pl": "Przestań sprzątać"
       }
     },
     {
@@ -50,7 +56,9 @@
         "sv": "Dockad",
         "no": "I ladestasjon",
         "es": "En la estación de carga",
-        "da": "I ladestation"
+        "da": "I ladestation",
+        "ru": "На станции",
+        "pl": "W bazie"
       }
     },
     {
@@ -64,7 +72,9 @@
         "sv": "Laddar",
         "no": "Lader",
         "es": "Cargando",
-        "da": "Lader"
+        "da": "Lader",
+        "ru": "Заряжается",
+        "pl": "Ładowanie"
       }
     },
     {
@@ -78,7 +88,9 @@
         "sv": "Stoppad",
         "no": "Stanset",
         "es": "Detenida",
-        "da": "Stoppet"
+        "da": "Stoppet",
+        "ru": "Остановлен",
+        "pl": "Zatrzymano"
       }
     }
   ],
@@ -98,7 +110,9 @@
           "sv": "Status ändrad till...",
           "no": "Status endret til ...",
           "es": "El estado ha cambiado a...",
-          "da": "Status er ændret til..."
+          "da": "Status er ændret til...",
+          "ru": "Состояние изменено на…",
+          "pl": "Zmiana stanu na..."
         },
         "args": [
           {
@@ -121,7 +135,9 @@
           "sv": "Dammsugaren !{{är|är inte}}",
           "no": "Støvsugeren !{{er|er ikke}}",
           "es": "La aspiradora !{{está|no está}}",
-          "da": "Støvsugeren !{{er|er ikke}}"
+          "da": "Støvsugeren !{{er|er ikke}}",
+          "ru": "Пылесос — !{{is|is not}}",
+          "pl": "Stan odkurzacza !{{to|to nie}}"
         },
         "args": [
           {
@@ -145,7 +161,9 @@
           "sv": "Börja städa",
           "no": "Begynn rengjøring",
           "es": "Comenzar a aspirar",
-          "da": "Begynd at støvsuge"
+          "da": "Begynd at støvsuge",
+          "ru": "Начать уборку",
+          "pl": "Zacznij sprzątać"
         }
       },
       {
@@ -159,7 +177,9 @@
           "sv": "Starta områdesstädning",
           "no": "Begynn områderengjøring",
           "es": "Comenzar a aspirar un punto concreto",
-          "da": "Begynd at områdestøvsuge"
+          "da": "Begynd at områdestøvsuge",
+          "ru": "Начать точечную уборку",
+          "pl": "Zacznij sprzątać punktowo"
         }
       },
       {
@@ -174,7 +194,9 @@
           "sv": "Återgå till docka",
           "no": "Gå tilbake til ladestasjon",
           "es": "Volver a la estación de carga",
-          "da": "Vend tilbage til ladestationen"
+          "da": "Vend tilbage til ladestationen",
+          "ru": "Возвратиться на станцию",
+          "pl": "Wróć do bazy"
         }
       },
       {
@@ -189,7 +211,9 @@
           "sv": "Stopp",
           "no": "Stans",
           "es": "Detener",
-          "da": "Stop"
+          "da": "Stop",
+          "ru": "Стоп",
+          "pl": "Przestań"
         }
       }
     ]

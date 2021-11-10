@@ -9,7 +9,9 @@
     "sv": "Färgtemperatur",
     "no": "Fargetemperatur",
     "es": "Temperatura del color",
-    "da": "Farvetemperatur"
+    "da": "Farvetemperatur",
+    "ru": "Температура цвета",
+    "pl": "Temperatura barwy"
   },
   "min": 0,
   "chartType": "stepLine",
@@ -31,7 +33,9 @@
           "sv": "Ställ in en temperatur",
           "no": "Innstill en temperatur",
           "es": "Configurar la temperatura",
-          "da": "Indstil en temperatur"
+          "da": "Indstil en temperatur",
+          "ru": "Установить температуру",
+          "pl": "Ustaw temperaturę"
         },
         "args": [
           {
@@ -55,7 +59,9 @@
           "sv": "Justerar temperaturen på ljuset. Ett högre värde innebär en varmare färg.",
           "no": "Justerer lystemperaturen. En høyere verdi gir en varmere farge.",
           "es": "Ajusta la temperatura de la luz. Cuanto más alto es el valor, más cálido es el color.",
-          "da": "Justerer lysets temperatur. En højere værdi betyder en varmere farve."
+          "da": "Justerer lysets temperatur. En højere værdi betyder en varmere farve.",
+          "ru": "Регулирует температуру света. Более высокое значение означает более теплый цвет.",
+          "pl": "Dostosuj temperaturę oświetlenia. Wyższa wartość oznacza cieplejszą barwę."
         }
       }
     ]

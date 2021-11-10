@@ -8,22 +8,28 @@
     "it": "Rumore",
     "sv": "Buller",
     "no": "Støy",
-    "es": "Ruido"
+    "es": "Ruido",
+    "ru": "Шум",
+    "pl": "Hałas"
   },
   "units": {
-    "en": "dB"
+    "en": "dB",
+    "ru": "дБ",
+    "pl": "dB"
   },
   "insights": true,
   "desc": {
-    "en": "Noise in decibel (db)",
-    "nl": "Geluid in decibel (db)",
+    "en": "Noise in decibel (dB)",
+    "nl": "Geluid in decibel (dB)",
     "de": "Lärm in Dezibel (dB)",
     "fr": "Bruit en decibel (dB)",
-    "it": "Rumore in decibel (db)",
-    "sv": "Buller i decibel (db)",
-    "no": "Støy i decibel (db)",
+    "it": "Rumore in decibel (dB)",
+    "sv": "Buller i decibel (dB)",
+    "no": "Støy i decibel (dB)",
     "es": "Ruido en decibelios (dB)",
-    "da": "Støj i decibel (db)"
+    "da": "Støj i decibel (dB)",
+    "ru": "Шум в децибелах (дБ)",
+    "pl": "Poziom hałasu w decybelach (dB)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -43,7 +49,9 @@
           "sv": "Bullret ändrades",
           "no": "Støyen ble endret",
           "es": "El ruido ha cambiado",
-          "da": "Støjniveauet ændrede sig"
+          "da": "Støjniveauet ændrede sig",
+          "ru": "Шум изменился",
+          "pl": "Zmiana poziomu hałasu"
         },
         "tokens": [
           {

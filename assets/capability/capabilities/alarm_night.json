@@ -9,7 +9,9 @@
     "sv": "Nattlarm",
     "no": "Nattalarm",
     "es": "Alarma nocturna",
-    "da": "Natalarm"
+    "da": "Natalarm",
+    "ru": "Ночной сигнал",
+    "pl": "Alarm nocny"
   },
   "desc": {
     "en": "True when it is night",
@@ -20,7 +22,9 @@
     "sv": "Sant när det är natt",
     "no": "Sant når det er natt",
     "es": "Verdadero cuando es de noche",
-    "da": "Sandt, når det er nat"
+    "da": "Sandt, når det er nat",
+    "ru": "Верно ночью",
+    "pl": "Adekwatny, kiedy jest noc"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +36,9 @@
     "sv": "Nattlarm aktiverat",
     "no": "Nattalarm aktivert",
     "es": "Alarma nocturna activada",
-    "da": "Natalarm blev aktiveret"
+    "da": "Natalarm blev aktiveret",
+    "ru": "Ночной сигнал включен",
+    "pl": "Alarm nocny włączony"
   },
   "insightsTitleFalse": {
     "en": "Night alarm turned off",
@@ -43,7 +49,9 @@
     "sv": "Nattlarm inaktiverat",
     "no": "Nattalarm deaktivert",
     "es": "Alarma nocturna desactivada",
-    "da": "Natalarm blev deaktiveret"
+    "da": "Natalarm blev deaktiveret",
+    "ru": "Ночной сигнал выключен",
+    "pl": "Alarm nocny wyłączony"
   },
   "getable": true,
   "setable": false,
@@ -61,7 +69,9 @@
           "sv": "Nattlarmet aktiverat",
           "no": "Nattalarmen aktivert",
           "es": "La alarma nocturna se ha activado",
-          "da": "Natalarmen blev aktiveret"
+          "da": "Natalarmen blev aktiveret",
+          "ru": "Ночной сигнал включен",
+          "pl": "Alarm nocny włączony"
         }
       },
       {
@@ -75,7 +85,9 @@
           "sv": "Nattlarmet inaktiverat",
           "no": "Nattalarmen deaktivert",
           "es": "La alarma nocturna se ha desactivado",
-          "da": "Natalarmen blev deaktiveret"
+          "da": "Natalarmen blev deaktiveret",
+          "ru": "Ночной сигнал выключен",
+          "pl": "Alarm nocny wyłączony"
         }
       }
     ],
@@ -91,7 +103,9 @@
           "sv": "Nattlarmet är !{{på|av}}",
           "no": "Nattalarmen er !{{på|av}}",
           "es": "La alarma nocturna está !{{activada|desactivada}}",
-          "da": "Natalarmen er !{{tændt|slukket}}"
+          "da": "Natalarmen er !{{tændt|slukket}}",
+          "ru": "Ночной сигнал !{{on|off}}",
+          "pl": "Alarm nocny !{{włączony|wyłączony}}"
         }
       }
     ]

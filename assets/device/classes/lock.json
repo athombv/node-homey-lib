@@ -8,7 +8,9 @@
     "sv": "Lås",
     "no": "Lås",
     "es": "Cerradura",
-    "da": "Lås"
+    "da": "Lås",
+    "ru": "Замок",
+    "pl": "Zamek"
   },
   "description": {
     "en": "Use this device class for lock devices, usually together with the `locked` and `lock_mode` capabilities.",
@@ -18,7 +20,9 @@
     "sv": "Använd den här enhetsklassen för att låsa enheter, oftast tillsammans med funktionerna `låst` och `låsläge`.",
     "no": "Bruk denne enhetsklassen for låseenheter, ofte sammen med funksjonene `låst` og `låst_modus`.",
     "es": "Utiliza esta clase de dispositivo para las cerraduras, generalmente junto con las capacidades de 'cerrado' y 'modo_cerradura'.",
-    "da": "Brug denne enhedsklasse til låseenheder, normalt sammen med `låst` and `låst_tilstand` funktionerne."
+    "da": "Brug denne enhedsklasse til låseenheder, normalt sammen med `låst` and `låst_tilstand` funktionerne.",
+    "ru": "Используйте этот класс устройств для замков, обычно вместе с функциями `locked` и `lock_mode`.",
+    "pl": "Użyj tej klasy urządzeń dla produktów z zamkiem, zwykle razem ze zdolnościami „zablokowane” i „zamknięcie_tryb”."
   },
   "$speechAlternatives": {
     "en": [
@@ -39,6 +43,14 @@
     ],
     "sv": [
       "lås"
+    ],
+    "ru": [
+      "замок",
+      "замки"
+    ],
+    "pl": [
+      "zamek",
+      "zamki"
     ]
   }
 }

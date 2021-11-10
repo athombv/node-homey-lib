@@ -8,7 +8,9 @@
     "sv": "Väggkontakt",
     "no": "Veggkontakt",
     "es": "Enchufe de pared",
-    "da": "Stikkontakt"
+    "da": "Stikkontakt",
+    "ru": "Настенная розетка",
+    "pl": "Wtyczka"
   },
   "description": {
     "en": "Use this device class for sockets (built-in or plug-in socket switches). When adding the `choose_slave` pair template, the user is presented a `What's plugged in?` question.",
@@ -18,7 +20,9 @@
     "sv": "Använd den här enhetsklassen för uttag (inbyggda eller stickkontakter). När parmallen `välj_slav` får användaren en `Vad är inkopplat?`-fråga.",
     "no": "Bruk denne enhetsklassen for kontakter (innebygde eller eksterne kontaktenheter). Når sammenkoblingsmalen `velg_slave` legges til, får brukeren et `Hva er koblet til?`-spørsmål.",
     "es": "Utiliza esta clase de dispositivo para los enchufes (interruptores de enchufe integrados o enchufables). Al añadir la plantilla de emparejamiento 'elegir_subordinado', al usuario se le pregunta '¿Qué está enchufado?'.",
-    "da": "Brug denne enhedsklasse til kontakter (indbyggede eller eksterne kontaktenheder). Når `vælg_slave` parskabelonen tilføjes, bliver brugeren præsenteret for et `Hvad er sat til?` spørgsmål."
+    "da": "Brug denne enhedsklasse til kontakter (indbyggede eller eksterne kontaktenheder). Når `vælg_slave` parskabelonen tilføjes, bliver brugeren præsenteret for et `Hvad er sat til?` spørgsmål.",
+    "ru": "Используйте этот класс устройства для розеток (встроенных или вставных выключателей). При добавлении шаблона сопряжения «choose_slave» пользователю предлагается ответить на вопрос: «Что подключено?».",
+    "pl": "Użyj tej klasy urządzeń dla gniazdek elektrycznych (wbudowanych lub wtyczek). Podczas dodawania szablonu parowania „wybierz_urządzenie_podrzędne” pojawi się pytanie: „Co jest podłączone?”."
   },
   "virtualTitle": {
     "en": "What's plugged in?",
@@ -29,7 +33,9 @@
     "sv": "Vad är inkopplat?",
     "no": "Hva er koblet til?",
     "es": "¿Qué está enchufado?",
-    "da": "Hvad er sat til?"
+    "da": "Hvad er sat til?",
+    "ru": "Что подключено?",
+    "pl": "Co jest podłączone?"
   },
   "allowedVirtual": [
     "light",
@@ -61,6 +67,14 @@
     "sv": [
       "uttag",
       "kontakt"
+    ],
+    "ru": [
+      "розетка",
+      "розетка"
+    ],
+    "pl": [
+      "gniazdkoelektryczne",
+      "wtyczka"
     ]
   }
 }

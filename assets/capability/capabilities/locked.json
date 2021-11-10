@@ -9,7 +9,9 @@
     "sv": "Låst",
     "no": "Låst",
     "es": "Cerrada",
-    "da": "Låst"
+    "da": "Låst",
+    "ru": "Закрыто",
+    "pl": "Zablokowane"
   },
   "desc": {
     "en": "True when the lock is locked",
@@ -20,7 +22,9 @@
     "sv": "Sant när låset är låst",
     "no": "Sant når låsen er låst",
     "es": "Verdadero cuando la cerradura está cerrada",
-    "da": "Sandt, når låsen er låst"
+    "da": "Sandt, når låsen er låst",
+    "ru": "Истина, когда замок закрыт",
+    "pl": "Adekwatne, kiedy zamek jest zablokowany"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +36,9 @@
     "sv": "Låst",
     "no": "Låst",
     "es": "Cerrada",
-    "da": "Låst"
+    "da": "Låst",
+    "ru": "Закрыто",
+    "pl": "Zablokowane"
   },
   "insightsTitleFalse": {
     "en": "Unlocked",
@@ -43,7 +49,9 @@
     "sv": "Olåst",
     "no": "Ulåst",
     "es": "Abierta",
-    "da": "Ulåst"
+    "da": "Ulåst",
+    "ru": "Открыто",
+    "pl": "Odblokowane"
   },
   "getable": true,
   "setable": true,
@@ -61,7 +69,9 @@
           "sv": "Låst",
           "no": "Låst",
           "es": "Cerrado",
-          "da": "Låst"
+          "da": "Låst",
+          "ru": "Закрыто",
+          "pl": "Zablokowane"
         }
       },
       {
@@ -75,7 +85,9 @@
           "sv": "Olåst",
           "no": "Ulåst",
           "es": "Abierto",
-          "da": "Låst op"
+          "da": "Låst op",
+          "ru": "Открыто",
+          "pl": "Odblokowane"
         }
       }
     ],
@@ -91,7 +103,9 @@
           "sv": "Ett lås är !{{låst|olåst}}",
           "no": "En lås er !{{låst|ulåst}}",
           "es": "Una cerradura está !{{cerrada|abierta}}",
-          "da": "En lås er blevet !{{låst|låst op}}"
+          "da": "En lås er blevet !{{låst|låst op}}",
+          "ru": "Замок — !{{locked|unlocked}}",
+          "pl": "Zamek jest !{{zablokowany|odblokowany}}"
         }
       }
     ],
@@ -108,7 +122,9 @@
           "sv": "Lås",
           "no": "Lås",
           "es": "Cerrar",
-          "da": "Lås"
+          "da": "Lås",
+          "ru": "Закрыть",
+          "pl": "Zablokuj"
         }
       },
       {
@@ -123,7 +139,9 @@
           "sv": "Lås upp",
           "no": "Lås opp",
           "es": "Abrir",
-          "da": "Lås op"
+          "da": "Lås op",
+          "ru": "Открыть",
+          "pl": "Odblokuj"
         }
       }
     ]

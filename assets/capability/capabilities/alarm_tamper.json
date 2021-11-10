@@ -9,7 +9,9 @@
     "sv": "Sabotagelarm",
     "no": "Sabotasjealarm",
     "es": "Alarma de sabotaje",
-    "da": "Sabotagealarm"
+    "da": "Sabotagealarm",
+    "ru": "Противовзломный сигнал",
+    "pl": "Alarm antyingerencyjny"
   },
   "desc": {
     "en": "True when tampering has been detected",
@@ -20,7 +22,9 @@
     "sv": "Sant när sabotage upptäckts",
     "no": "Sant när sabotasje oppdages",
     "es": "Verdadero cuando se ha detectado un sabotaje",
-    "da": "Sandt, når sabotage er blevet opdaget"
+    "da": "Sandt, når sabotage er blevet opdaget",
+    "ru": "Верно при обнаружении попытки взлома",
+    "pl": "Adekwatny, kiedy wykryta zostanie ingerencja"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +36,9 @@
     "sv": "Sabotagelarm aktiverat",
     "no": "Sabotasjealarm aktivert",
     "es": "Alarma de sabotaje activada",
-    "da": "Sabotagealarm blev aktiveret"
+    "da": "Sabotagealarm blev aktiveret",
+    "ru": "Противовзломный сигнал включен",
+    "pl": "Alarm antyingerencyjny włączony"
   },
   "insightsTitleFalse": {
     "en": "Tamper alarm turned off",
@@ -43,7 +49,9 @@
     "sv": "Sabotagelarm inaktiverat",
     "no": "Sabotagealarm deaktivert",
     "es": "Alarma de sabotaje desactivada",
-    "da": "Sabotagealarm blev deaktiveret"
+    "da": "Sabotagealarm blev deaktiveret",
+    "ru": "Противовзломный сигнал выключен",
+    "pl": "Alarm antyingerencyjny wyłączony"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +70,9 @@
           "sv": "Sabotagelarmet aktiverat",
           "no": "Sabotasjealarmen aktivert",
           "es": "La alarma de sabotaje se ha activado",
-          "da": "Sabotagealarmen blev aktiveret"
+          "da": "Sabotagealarmen blev aktiveret",
+          "ru": "Противовзломный сигнал включен",
+          "pl": "Alarm antyingerencyjny włączony"
         }
       },
       {
@@ -76,7 +86,9 @@
           "sv": "Sabotagelarmet inaktiverat",
           "no": "Sabotasjealarmen deaktivert",
           "es": "La alarma de sabotaje se ha desactivado",
-          "da": "Sabotagealarmen blev deaktiveret"
+          "da": "Sabotagealarmen blev deaktiveret",
+          "ru": "Противовзломный сигнал выключен",
+          "pl": "Alarm antyingerencyjny wyłączony"
         }
       }
     ],
@@ -92,7 +104,9 @@
           "sv": "Sabotagelarmet är !{{på|av}}",
           "no": "Sabotasjealarmen er !{{på|av}}",
           "es": "La alarma de sabotaje está !{{activada|desactivada}}",
-          "da": "Sabotagealarmen er !{{tændt|slukket}}"
+          "da": "Sabotagealarmen er !{{tændt|slukket}}",
+          "ru": "Противовзломный сигнал !{{on|off}}",
+          "pl": "Alarm antyingerencyjny !{{włączony|wyłączony}}"
         }
       }
     ]

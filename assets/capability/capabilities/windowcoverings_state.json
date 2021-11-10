@@ -8,7 +8,9 @@
     "sv": "Status för fönsterskydd",
     "no": "Status for vindusbeskyttelse",
     "es": "Estado de los cobertores de ventanas",
-    "da": "Status for vinduesdække"
+    "da": "Status for vinduesdække",
+    "ru": "Состояние оконных навесов",
+    "pl": "Stan osłon okiennych"
   },
   "type": "enum",
   "values": [
@@ -23,7 +25,9 @@
         "sv": "Upp",
         "no": "Opp",
         "es": "Arriba",
-        "da": "Oppe"
+        "da": "Oppe",
+        "ru": "Наверх",
+        "pl": "Rozchylone"
       }
     },
     {
@@ -37,7 +41,9 @@
         "sv": "Inaktiv",
         "no": "Ikke aktiv",
         "es": "Inactivos",
-        "da": "Inaktiv"
+        "da": "Inaktiv",
+        "ru": "В ожидании",
+        "pl": "W spoczynku"
       }
     },
     {
@@ -51,7 +57,9 @@
         "sv": "Ned",
         "no": "Ned",
         "es": "Abajo",
-        "da": "Nede"
+        "da": "Nede",
+        "ru": "Вниз",
+        "pl": "Zasunięte"
       }
     }
   ],
@@ -72,7 +80,9 @@
           "sv": "Status ändrades",
           "no": "Status ble endret",
           "es": "El estado ha cambiado",
-          "da": "Status blev ændret"
+          "da": "Status blev ændret",
+          "ru": "Состояние изменено",
+          "pl": "Zmiana stanu"
         },
         "args": [
           {
@@ -95,7 +105,9 @@
           "sv": "Status är !{{|inte}}",
           "no": "Status er !{{|ikke}}",
           "es": "El estado !{{|no}} es",
-          "da": "Status er !{{|ikke}}"
+          "da": "Status er !{{|ikke}}",
+          "ru": "Состояние — !{{|not}}",
+          "pl": "Stan to !{{|nie}}"
         },
         "args": [
           {
@@ -119,7 +131,9 @@
           "sv": "Ställ in status",
           "no": "Innstill status",
           "es": "Configurar estado",
-          "da": "Indstil status"
+          "da": "Indstil status",
+          "ru": "Установить состояние",
+          "pl": "Ustaw stan"
         },
         "args": [
           {

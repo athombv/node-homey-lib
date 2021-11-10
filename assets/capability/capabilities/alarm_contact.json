@@ -9,7 +9,9 @@
     "sv": "Kontaktalarm",
     "no": "Kontaktalarm",
     "es": "Alarma de contacto",
-    "da": "Kontaktalarm"
+    "da": "Kontaktalarm",
+    "ru": "Контактный сигнал",
+    "pl": "Alarm otwarcia"
   },
   "desc": {
     "en": "Contact sensor, e.g. for windows (true/false)",
@@ -20,7 +22,9 @@
     "sv": "Kontaktsensor, t.ex. för fönster (sant/falskt)",
     "no": "Kontaktsensor, f.eks. for vindu (sant/usant)",
     "es": "Sensor de contacto, p. ej., para ventanas (verdadero/falso)",
-    "da": "Kontaktsensor, f.eks. til vinduer ((sandt/falsk)"
+    "da": "Kontaktsensor, f.eks. til vinduer ((sandt/falsk)",
+    "ru": "Контактный датчик, например для окон (истина/ложь)",
+    "pl": "Czujnik otwarcia, np. okien (adekwatny/nieadekwatny)"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +36,9 @@
     "sv": "Kontaktalarm aktiverat",
     "no": "Kontaktalarm aktivert",
     "es": "Alarma de contacto activada",
-    "da": "Kontaktalarm blev aktiveret"
+    "da": "Kontaktalarm blev aktiveret",
+    "ru": "Контактный сигнал включен",
+    "pl": "Alarm otwarcia włączony"
   },
   "insightsTitleFalse": {
     "en": "Contact alarm turned off",
@@ -43,7 +49,9 @@
     "sv": "Kontaktalarm inaktiverat",
     "no": "Kontaktalarm deaktivert",
     "es": "Alarma de contacto desactivada",
-    "da": "Kontaktalarm blev deaktiveret"
+    "da": "Kontaktalarm blev deaktiveret",
+    "ru": "Контактный сигнал выключен",
+    "pl": "Alarm otwarcia wyłączony"
   },
   "getable": true,
   "setable": false,
@@ -65,7 +73,9 @@
           "sv": "Kontaktalarmet aktiverat",
           "no": "Kontaktalarmen aktivert",
           "es": "La alarma de contacto se ha activado",
-          "da": "Kontaktalarmen blev aktiveret"
+          "da": "Kontaktalarmen blev aktiveret",
+          "ru": "Контактный сигнал включен",
+          "pl": "Alarm otwarcia włączony"
         }
       },
       {
@@ -79,7 +89,9 @@
           "sv": "Kontaktalarmet inaktiverat",
           "no": "Kontaktalarmen deaktivert",
           "es": "La alarma de contacto se ha desactivado",
-          "da": "Kontaktalarmen blev deaktiveret"
+          "da": "Kontaktalarmen blev deaktiveret",
+          "ru": "Контактный сигнал выключен",
+          "pl": "Alarm otwarcia wyłączony"
         }
       }
     ],
@@ -95,7 +107,9 @@
           "sv": "Kontaktalarmet är !{{på|av}}",
           "no": "Kontaktalarmen er !{{på|av}}",
           "es": "La alarma de contacto está !{{activada|desactivada}}",
-          "da": "Kontaktalarmen er !{{tændt|slukket}}"
+          "da": "Kontaktalarmen er !{{tændt|slukket}}",
+          "ru": "Контактный сигнал !{{on|off}}",
+          "pl": "Alarm otwarcia !{{włączony|wyłączony}}"
         }
       }
     ]

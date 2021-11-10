@@ -9,10 +9,14 @@
     "sv": "Regnmätare",
     "no": "Regnmåler",
     "es": "Pluviómetro",
-    "da": "Regnmåler"
+    "da": "Regnmåler",
+    "ru": "Счетчик дождя",
+    "pl": "Licznik deszczu"
   },
   "units": {
-    "en": "m³"
+    "en": "m³",
+    "ru": "м³",
+    "pl": "m³"
   },
   "chartType": "spline",
   "desc": {
@@ -24,7 +28,9 @@
     "sv": "Regn i kubikmeter (m³)",
     "no": "Regn i kubikkmeter (m³)",
     "es": "Lluvia en metros cúbicos (m³)",
-    "da": "Regn i kubikmeter (m³)"
+    "da": "Regn i kubikmeter (m³)",
+    "ru": "Дождь в кубометрах (м³)",
+    "pl": "Deszcz w metrach sześciennych (m³)"
   },
   "decimals": 2,
   "insights": true,
@@ -44,7 +50,9 @@
           "sv": "Regnmätaren ändrades",
           "no": "Regnmåleren ble endret",
           "es": "El pluviómetro ha cambiado",
-          "da": "Regnmåleren ændrede sig"
+          "da": "Regnmåleren ændrede sig",
+          "ru": "Измерения дождя изменились",
+          "pl": "Zmiana w liczniku deszczu"
         },
         "tokens": [
           {

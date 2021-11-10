@@ -8,7 +8,9 @@
     "sv": "Persienner",
     "no": "Persienner",
     "es": "Persianas",
-    "da": "Persienner"
+    "da": "Persienner",
+    "ru": "Жалюзи",
+    "pl": "Rolety"
   },
   "description": {
     "en": "Use this device class for blinds, both horizontal and vertical.",
@@ -18,7 +20,9 @@
     "sv": "Använd den här enhetsklassen för persienner, både horisontella och vertikala.",
     "no": "Bruk denne enhetsklassen for persienner, både horisontale og vertikale.",
     "es": "Utiliza esta clase de dispositivo para las persianas, tanto horizontales como verticales.",
-    "da": "Brug denne enhedsklasse til persienner, både vandrette og lodrette"
+    "da": "Brug denne enhedsklasse til persienner, både vandrette og lodrette.",
+    "ru": "Используйте этот класс устройств для жалюзи: как горизонтальных, так и вертикальных.",
+    "pl": "Użyj tej klasy urządzeń dla rolet (poziomych i pionowych)."
   },
   "$speechAlternatives": {
     "en": [
@@ -43,6 +47,12 @@
     ],
     "no": [
       "persienner"
+    ],
+    "ru": [
+      "жалюзи"
+    ],
+    "pl": [
+      "rolety"
     ]
   }
 }

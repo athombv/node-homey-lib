@@ -9,10 +9,14 @@
     "sv": "Luminans",
     "no": "Luminans",
     "es": "Luminancia",
-    "da": "Luminans"
+    "da": "Luminans",
+    "ru": "Яркость",
+    "pl": "Luminacja"
   },
   "units": {
-    "en": "lx"
+    "en": "lx",
+    "ru": "лк",
+    "pl": "lx"
   },
   "insights": true,
   "desc": {
@@ -24,7 +28,9 @@
     "sv": "Luminans i Lux (lx)",
     "no": "Luminans i Lux (lx)",
     "es": "Luminancia en Lux (lx)",
-    "da": "Luminans i Lux (lx)"
+    "da": "Luminans i Lux (lx)",
+    "ru": "Яркость в люксах (лк)",
+    "pl": "Luminacja w luksach (lx)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -45,7 +51,9 @@
           "sv": "Luminansen ändrades",
           "no": "Luminansen ble endret",
           "es": "La luminancia ha cambiado",
-          "da": "Luminansen ændrede sig"
+          "da": "Luminansen ændrede sig",
+          "ru": "Яркость изменилась",
+          "pl": "Zmiana luminacji"
         },
         "tokens": [
           {

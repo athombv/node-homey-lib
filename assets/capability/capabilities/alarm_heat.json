@@ -9,7 +9,9 @@
     "sv": "Värmelarm",
     "no": "Varmealarm",
     "es": "Alarma de calor",
-    "da": "Varmealarm"
+    "da": "Varmealarm",
+    "ru": "Сигнал перегрева",
+    "pl": "Alarm termiczny"
   },
   "desc": {
     "en": "True when extreme heat has been detected",
@@ -20,7 +22,9 @@
     "sv": "Sant när extrem hetta upptäckts",
     "no": "Sant når ekstrem varme påvises",
     "es": "Verdadero cuando se ha detectado un calor extremo",
-    "da": "Sandt, når ekstrem varme er blevet opdaget"
+    "da": "Sandt, når ekstrem varme er blevet opdaget",
+    "ru": "Верно при обнаружении экстремально высокой температуры",
+    "pl": "Adekwatny, kiedy wykryta zostanie ekstremalnie wysoka temperatura"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +36,9 @@
     "sv": "Värmelarm aktiverat",
     "no": "Varmealarm aktivert",
     "es": "Alarma de calor activada",
-    "da": "Varmealarm blev aktiveret"
+    "da": "Varmealarm blev aktiveret",
+    "ru": "Сигнал перегрева включен",
+    "pl": "Alarm termiczny włączony"
   },
   "insightsTitleFalse": {
     "en": "Heat alarm turned off",
@@ -43,7 +49,9 @@
     "sv": "Värmelarm inaktiverat",
     "no": "Varmealarm deaktivert",
     "es": "Alarma de calor desactivada",
-    "da": "Varmealarm blev deaktiveret"
+    "da": "Varmealarm blev deaktiveret",
+    "ru": "Сигнал перегрева выключен",
+    "pl": "Alarm termiczny wyłączony"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +70,9 @@
           "sv": "Värmelarmet aktiverat",
           "no": "Varmealarmen aktivert",
           "es": "La alarma de calor se ha activado",
-          "da": "Varmealarmen blev aktiveret"
+          "da": "Varmealarmen blev aktiveret",
+          "ru": "Сигнал перегрева включен",
+          "pl": "Alarm termiczny włączony"
         }
       },
       {
@@ -76,7 +86,9 @@
           "sv": "Värmelarmet inaktiverat",
           "no": "Varmealarmen deaktivert",
           "es": "La alarma de calor se ha desactivado",
-          "da": "Varmealarmen blev deaktiveret"
+          "da": "Varmealarmen blev deaktiveret",
+          "ru": "Сигнал перегрева выключен",
+          "pl": "Alarm termiczny wyłączony"
         }
       }
     ],
@@ -92,7 +104,9 @@
           "sv": "Värmelarmet är !{{på|av}}",
           "no": "Varmealarmen er !{{på|av}}",
           "es": "La alarma de calor está !{{activada|desactivada}}",
-          "da": "Varmealarmen er !{{tændt|slukket}}"
+          "da": "Varmealarmen er !{{tændt|slukket}}",
+          "ru": "Сигнал перегрева !{{on|off}}",
+          "pl": "Alarm termiczny !{{włączony|wyłączony}}"
         }
       }
     ]

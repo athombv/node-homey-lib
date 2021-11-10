@@ -9,11 +9,15 @@
     "sv": "Energi",
     "no": "Energi",
     "es": "Energía",
-    "da": "Energi"
+    "da": "Energi",
+    "ru": "Электроэнергия",
+    "pl": "Energia"
   },
   "decimals": 2,
   "units": {
-    "en": "kWh"
+    "en": "kWh",
+    "ru": "кВтч",
+    "pl": "kWh"
   },
   "desc": {
     "en": "Energy usage in kilowatt-hour (kWh)",
@@ -24,7 +28,9 @@
     "sv": "Energianvändning i kilowattimmar (kWh)",
     "no": "Energiforbruk i kilowattimer (kWh)",
     "es": "Uso de energía en kilovatio hora (kWh)",
-    "da": "Energiforbrug i kilowattime (kWh)"
+    "da": "Energiforbrug i kilowattime (kWh)",
+    "ru": "Энергопотребление в киловатт-часах (кВтч)",
+    "pl": "Zużycie energii w kilowatogodzinach (kWh)"
   },
   "chartType": "spline",
   "options": {
@@ -32,7 +38,9 @@
       "type": "boolean",
       "default": false,
       "desc": {
-        "en": "This flag is used to determine that the device itself has no power measurement functionality, but that the driver calculates the energy use."
+        "en": "This flag is used to determine that the device itself has no power measurement functionality, but that the driver calculates the energy use.",
+        "ru": "Этот флаг используется для определения того, что само устройство не имеет функции измерения электроэнергии, но драйвер рассчитывает потребление энергии.",
+        "pl": "Flaga oznacza, że samo urządzenie nie ma funkcji pomiaru mocy, ale sterownik oblicza zużycie energii."
       }
     }
   },
@@ -53,7 +61,9 @@
           "sv": "Elmätaren ändrades",
           "no": "Strømmåleren ble endret",
           "es": "El contador de energía ha cambiado",
-          "da": "Strømmåleren ændrede sig"
+          "da": "Strømmåleren ændrede sig",
+          "ru": "Измерения счетчика электроэнергии изменились",
+          "pl": "Zmiana w liczniku mocy"
         },
         "tokens": [
           {

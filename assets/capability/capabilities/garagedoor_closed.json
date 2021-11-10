@@ -9,7 +9,9 @@
     "sv": "Stängd",
     "no": "Lukket",
     "es": "Cerrados",
-    "da": "Lukket"
+    "da": "Lukket",
+    "ru": "Закрыта",
+    "pl": "Zamknięta"
   },
   "getable": true,
   "setable": true,
@@ -27,7 +29,9 @@
           "sv": "Stängd",
           "no": "Lukket",
           "es": "Cerrados",
-          "da": "Lukket"
+          "da": "Lukket",
+          "ru": "Закрыта",
+          "pl": "Zamknięta"
         }
       },
       {
@@ -41,7 +45,9 @@
           "sv": "Öppen",
           "no": "Åpnet",
           "es": "Abiertos",
-          "da": "Åben"
+          "da": "Åben",
+          "ru": "Открыта",
+          "pl": "Otwarta"
         }
       }
     ],
@@ -57,7 +63,9 @@
           "sv": "Är !{{stängd|öppen}}",
           "no": "Er !{{lukket|åpen}}",
           "es": "Está !{{cerrado|abierto}}",
-          "da": "Er !{{lukket|åben}}"
+          "da": "Er !{{lukket|åben}}",
+          "ru": "!{{closed|open}}",
+          "pl": "Jest !{{zamknięta|otwarta}}"
         }
       }
     ],
@@ -74,7 +82,9 @@
           "sv": "Stäng",
           "no": "Lukk",
           "es": "Cerrar",
-          "da": "Luk"
+          "da": "Luk",
+          "ru": "Закрыть",
+          "pl": "Zamknij"
         }
       },
       {
@@ -89,7 +99,9 @@
           "sv": "Öppna",
           "no": "Åpne",
           "es": "Abrir",
-          "da": "Åbn"
+          "da": "Åbn",
+          "ru": "Открыть",
+          "pl": "Otwórz"
         }
       },
       {
@@ -103,7 +115,9 @@
           "sv": "Växla mellan öppen eller stängd",
           "no": "Veksle mellom åpen og lukket",
           "es": "Abrir o cerrar",
-          "da": "Skift mellem åben og lukket"
+          "da": "Skift mellem åben og lukket",
+          "ru": "Переключатель открыть/закрыть",
+          "pl": "Przełącz na otwartą lub zamkniętą"
         }
       }
     ]

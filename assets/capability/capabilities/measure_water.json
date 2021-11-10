@@ -9,10 +9,14 @@
     "sv": "Vattenflöde",
     "no": "Vannstrøm",
     "es": "Caudal del agua",
-    "da": "Vandstrøm"
+    "da": "Vandstrøm",
+    "ru": "Поток воды",
+    "pl": "Poziom przepływu wody"
   },
   "units": {
-    "en": "L/min"
+    "en": "L/min",
+    "ru": "Л/мин",
+    "pl": "L/min"
   },
   "desc": {
     "en": "Water flow in liters per minute (L/min)",
@@ -23,7 +27,9 @@
     "sv": "Vattenflöde i liter per minut (L/min)",
     "no": "Vannstrøm i liter per minutt (L/min)",
     "es": "Caudal del agua en litros por minuto (L/min)",
-    "da": "Vandstrøm i liter per minut (l/min)"
+    "da": "Vandstrøm i liter per minut (L/min)",
+    "ru": "Поток воды в литрах в минуту (л/мин)",
+    "pl": "Poziom przepływu wody w litrach na minutę (L/min)"
   },
   "insights": true,
   "chartType": "stepLine",
@@ -44,7 +50,9 @@
           "sv": "Vattenflödet ändrades",
           "no": "Vannstrømmen ble endret",
           "es": "El caudal del agua ha cambiado",
-          "da": "Vandstrømmen har ændret sig"
+          "da": "Vandstrømmen har ændret sig",
+          "ru": "Поток воды изменился",
+          "pl": "Zmiana poziomu przepływu wody"
         },
         "tokens": [
           {

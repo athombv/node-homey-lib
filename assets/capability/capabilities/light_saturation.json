@@ -9,7 +9,10 @@
     "sv": "Färggmättnad",
     "no": "Fargemetning",
     "es": "Saturación del color",
-    "da": "Farvemætning"
+    "da": "Farvemætning",
+    "ru": "Насыщенность цвета",
+    "pl": "Nasycenie barwy"
+
   },
   "min": 0,
   "chartType": "stepLine",
@@ -30,7 +33,10 @@
           "sv": "Ställ in mättnad",
           "no": "Innstill metningen",
           "es": "Configurar la saturación",
-          "da": "Indstil farvemætningen"
+          "da": "Indstil farvemætningen",
+          "ru": "Установить насыщенность",
+          "pl": "Ustaw nasycenie"
+      
         },
         "args": [
           {

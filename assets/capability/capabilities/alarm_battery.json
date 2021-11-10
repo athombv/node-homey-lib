@@ -9,7 +9,9 @@
     "sv": "Batterialarm",
     "no": "Batterialarm",
     "es": "Alarma de batería",
-    "da": "Batterialarm"
+    "da": "Batterialarm",
+    "ru": "Сигнал аккумулятора",
+    "pl": "Alarm stanu baterii"
   },
   "desc": {
     "en": "True when there is a battery warning",
@@ -20,7 +22,9 @@
     "sv": "Sant när det finns en batterivarning",
     "no": "Sant når det finnes en batteriadvarsel",
     "es": "Verdadero cuando hay una advertencia de la batería",
-    "da": "Sandt, når der er en batterialarm"
+    "da": "Sandt, når der er en batterialarm",
+    "ru": "Верно, когда есть предупреждение об аккумуляторе",
+    "pl": "Adekwatny, kiedy włączy się ostrzeżenie o stanie baterii"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +36,9 @@
     "sv": "Batterialarm aktiverat",
     "no": "Batterialarm aktivert",
     "es": "Alarma de la batería activada",
-    "da": "Batterialarm aktiveret"
+    "da": "Batterialarm aktiveret",
+    "ru": "Сигнал аккумулятора включен",
+    "pl": "Alarm stanu baterii włączony"
   },
   "insightsTitleFalse": {
     "en": "Battery alarm turned off",
@@ -43,7 +49,9 @@
     "sv": "Batterialarm avstängt",
     "no": "Batterialarm deaktivert",
     "es": "Alarma de la batería desactivada",
-    "da": "Batterialarm deaktiveret"
+    "da": "Batterialarm deaktiveret",
+    "ru": "Сигнал аккумулятора выключен",
+    "pl": "Alarm stanu baterii wyłączony"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +70,9 @@
           "sv": "Batterialarmet aktiverat",
           "no": "Batterialarmen er aktivert",
           "es": "La alarma de la batería se ha activado",
-          "da": "Batterialarm aktiverede"
+          "da": "Batterialarm aktiverede",
+          "ru": "Сигнал аккумулятора включен",
+          "pl": "Alarm stanu baterii włączony"
         }
       },
       {
@@ -76,7 +86,9 @@
           "sv": "Batterialarmet aktiverat",
           "no": "Batterialarmen er deaktivert",
           "es": "La alarma de la batería se ha desactivado",
-          "da": "Batterialarm deaktiverede"
+          "da": "Batterialarm deaktiverede",
+          "ru": "Сигнал аккумулятора выключен",
+          "pl": "Alarm stanu baterii wyłączony"
         }
       }
     ],

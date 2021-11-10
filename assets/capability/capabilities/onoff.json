@@ -9,7 +9,9 @@
     "sv": "Aktiverad",
     "no": "Slått på",
     "es": "Encendido",
-    "da": "Tændt"
+    "da": "Tændt",
+    "ru": "Включено",
+    "pl": "Włączone"
   },
   "getable": true,
   "setable": true,
@@ -23,7 +25,9 @@
     "sv": "Aktiverad",
     "no": "Slått på",
     "es": "Encendido",
-    "da": "Tændt"
+    "da": "Tændt",
+    "ru": "Включено",
+    "pl": "Włączone"
   },
   "insightsTitleFalse": {
     "en": "Turned off",
@@ -34,7 +38,9 @@
     "sv": "Inaktiverad",
     "no": "Slått av",
     "es": "Apagado",
-    "da": "Slukket"
+    "da": "Slukket",
+    "ru": "Выключено",
+    "pl": "Wyłączone"
   },
   "options": {
     "setOnDim": {
@@ -48,7 +54,9 @@
         "sv": "När en enhet har både en `på/av`- och `dim`-funktionalitet och Homey vill slå på enheten OCH till ett specifikt dimvärde, sätt den här funktionen till `falsk` för att förhindra att Homey skickar ett inställningskommando.",
         "no": "Når en enhet har både en `på/av`- og en `dempe`-funksjon og Homey vil slå på enheten OG sette dempingen til en spesifikk verdi, sett denne egenskapen til `usann` for å forhindre at Homey sender en innstillingskommando.",
         "es": "Cuando un dispositivo tiene tanto la capacidad 'encender/apagar' como la de 'intensidad de la luz', y Homey quiere encender el dispositivo Y ajustar una intensidad concreta, configura esta capacidad como 'falso' para evitar que Homey envíe un comando de configuración.",
-        "da": "Når en enhed har både en `tænd/sluk`- og en `dæmpe`-funktion, og Homey vil tænde for enheden OG indstille til en specifik dæmpeværdi, skal denne funktion indstilles til  `falsk` for at forhindre, at Homey sender en indstillingskommando."
+        "da": "Når en enhed har både en `tænd/sluk`- og en `dæmpe`-funktion, og Homey vil tænde for enheden OG indstille til en specifik dæmpeværdi, skal denne funktion indstilles til  `falsk` for at forhindre, at Homey sender en indstillingskommando.",
+        "ru": "Когда устройство имеет функции `onoff` и `dim`, и Homey хочет включить устройство ТАКЖЕ с определенным значением яркости, установите для этой функции значение `false`, чтобы Homey не отправил команду на установку.",
+        "pl": "Jeśli urządzenie ma zdolności „wł.wył.” i „przygaś”, a urządzenie Homey chce włączyć produkt ORAZ ustawić konkretną wartość przygaszenia, ustaw tę zdolność jako „nieadekwatne” – w ten sposób Homey nie będzie wysyłać ustawionych poleceń."
       }
     },
     "greyout": {
@@ -62,7 +70,9 @@
         "sv": "När den här funktionen är falsk, ge en ett visuellt tips för att gråa ut enheten.",
         "no": "Når denne egenskapen er usann, gi et visuelt tips for å vise enheten i grått.",
         "es": "Cuando esta capacidad es falsa, da una indicación visual para poner en gris el dispositivo.",
-        "da": "Når denne funktion er falsk, skal du give et visuelt tip for at vise enheden i grå."
+        "da": "Når denne funktion er falsk, skal du give et visuelt tip for at vise enheden i grå.",
+        "ru": "Когда функция ложна, установите визуальную подсказку, чтобы выделить устройство серым цветом.",
+        "pl": "Jeśli zdolność jest nieadekwatna, użyj wizualnej wskazówki, aby wyświetlić urządzenie na szaro."
       }
     }
   },
@@ -82,7 +92,9 @@
           "sv": "Aktiverad",
           "no": "Slått på",
           "es": "Encendido",
-          "da": "Tændt"
+          "da": "Tændt",
+          "ru": "Включено",
+          "pl": "Włączone"
         }
       },
       {
@@ -97,7 +109,9 @@
           "sv": "Inaktiverad",
           "no": "Slått av",
           "es": "Apagado",
-          "da": "Slukket"
+          "da": "Slukket",
+          "ru": "Выключено",
+          "pl": "Wyłączone"
         }
       }
     ],
@@ -113,7 +127,9 @@
           "sv": "Är !{{på|av}}",
           "no": "Er slått !{{på|av}}",
           "es": "Está !{{encendido|apagado}}",
-          "da": "Er !{{tændt|slukket}}"
+          "da": "Er !{{tændt|slukket}}",
+          "ru": "Включен или выключен: !{{on|off}}",
+          "pl": "Jest !{{włączone|wyłączone}}"
         }
       },
       {
@@ -127,7 +143,9 @@
           "sv": "Är !{{öppen|stängd}}",
           "no": "Er !{{åpen|lukket}}",
           "es": "Está !{{abierto|cerrado}}",
-          "da": "Er !{{åben|lukket}}"
+          "da": "Er !{{åben|lukket}}",
+          "ru": "!{{open|closed}}",
+          "pl": "Jest !{{otwarte|zamknięte}}"
         },
         "$filter": {
           "class": "windowcoverings|curtain|blinds|sunshade"
@@ -147,7 +165,9 @@
           "sv": "Aktivera",
           "no": "Slå på",
           "es": "Encender",
-          "da": "Tændt"
+          "da": "Tændt",
+          "ru": "Включить",
+          "pl": "Włącz"
         }
       },
       {
@@ -162,7 +182,9 @@
           "sv": "stäng av",
           "no": "Slå av",
           "es": "Apagar",
-          "da": "Slukket"
+          "da": "Slukket",
+          "ru": "Выключить",
+          "pl": "Wyłącz"
         }
       },
       {
@@ -176,7 +198,9 @@
           "sv": "Växla på och av",
           "no": "Veksle mellom på og av",
           "es": "Encender o apagar",
-          "da": "Tænd eller sluk"
+          "da": "Tænd eller sluk",
+          "ru": "Переключатель включить/выключить",
+          "pl": "Przełącz na wł. lub wył."
         }
       },
       {
@@ -190,7 +214,9 @@
           "sv": "Öppna gardin eller persienn",
           "no": "Åpne gardin eller persienne",
           "es": "Abrir cortina o persiana",
-          "da": "Åbn gardiner eller persienner"
+          "da": "Åbn gardiner eller persienner",
+          "ru": "Открыть штору или жалюзи",
+          "pl": "Rozchyl zasłonę lub roletę"
         },
         "$filter": {
           "class": "windowcoverings|curtain|blinds|sunshade"
@@ -207,7 +233,9 @@
           "sv": "Stäng gardin eller persienn",
           "no": "Lukk gardin eller persienne",
           "es": "Cerrar cortina o persiana",
-          "da": "Luk gardiner eller persienner"
+          "da": "Luk gardiner eller persienner",
+          "ru": "Закрыть штору или жалюзи",
+          "pl": "Zasuń zasłonę lub roletę"
         },
         "$filter": {
           "class": "windowcoverings|curtain|blinds|sunshade"

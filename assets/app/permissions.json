@@ -9,7 +9,9 @@
       "sv": "Läs av Homeys plats",
       "no": "Les av Homeys posisjon",
       "es": "Leer la posición de Homey",
-      "da": "Læs Homeys placering"
+      "da": "Læs Homeys placering",
+      "ru": "Читать местонахождение Homey",
+      "pl": "Odczytaj lokalizację Homey"
     }
   },
   "homey:manager:ledring": {
@@ -22,7 +24,9 @@
       "sv": "Kontrollera Homeys LED-ring",
       "no": "Kontroller Homeys LED-ring",
       "es": "Controlar el anillo LED de Homey",
-      "da": "Kontroller Homeys LED-ring"
+      "da": "Kontroller Homeys LED-ring",
+      "ru": "Управлять светодиодным кольцом Homey",
+      "pl": "Steruj lampą pierścieniową Homey"
     }
   },
   "homey:manager:media": {
@@ -35,7 +39,9 @@
       "sv": "Styr Homeys musik",
       "no": "Kontroller Homeys musikk",
       "es": "Controlar la música de Homey",
-      "da": "Kontroller Homeys musik"
+      "da": "Kontroller Homeys musik",
+      "ru": "Управлять музыкой Homey",
+      "pl": "Steruj muzyką Homey"
     }
   },
   "homey:manager:speech-input": {
@@ -48,7 +54,9 @@
       "sv": "Reagera på tal",
       "no": "Reager på tale",
       "es": "Reaccionar al habla",
-      "da": "Reager på tale"
+      "da": "Reager på tale",
+      "ru": "Реагировать на голос",
+      "pl": "Reaguj na mowę"
     }
   },
   "homey:manager:speech-output": {
@@ -61,7 +69,9 @@
       "sv": "Låt Homey prata",
       "no": "La Homey snakke",
       "es": "Deja que Homey hable",
-      "da": "Lad Homey tale"
+      "da": "Lad Homey tale",
+      "ru": "Разрешить Homey говорить",
+      "pl": "Pozwól Homey mówić"
     }
   },
   "homey:wireless:433": {
@@ -74,7 +84,9 @@
       "sv": "Skicka och ta emot på frekvensen 433 MHz",
       "no": "Send og motta på frekvensen 433 MHz",
       "es": "Enviar y recibir en la frecuencia de 433 MHz",
-      "da": "Send, og modtag på 433 MHz-frekvensen"
+      "da": "Send, og modtag på 433 MHz-frekvensen",
+      "ru": "Отправка и получение сигналов на частоте 433 МГц",
+      "pl": "Wysyłaj i odbieraj sygnały o częstotliwości 433 MHz"
     }
   },
   "homey:wireless:868": {
@@ -87,7 +99,9 @@
       "sv": "Skicka och ta emot på frekvensen 468 MHz",
       "no": "Send og motta på frekvensen 468 MHz",
       "es": "Enviar y recibir en la frecuencia de 868 MHz",
-      "da": "Send, og modtag på 868 MHz-frekvensen"
+      "da": "Send, og modtag på 868 MHz-frekvensen",
+      "ru": "Отправка и получение сигналов на частоте 868 МГц",
+      "pl": "Wysyłaj i odbieraj sygnały o częstotliwości 868 MHz"
     }
   },
   "homey:wireless:ir": {
@@ -100,7 +114,9 @@
       "sv": "Skicka och ta emot infrarött",
       "no": "Send og motta infrarødt",
       "es": "Enviar y recibir en infrarrojos",
-      "da": "Send, og modtag på infrarød"
+      "da": "Send, og modtag på infrarød",
+      "ru": "Отправка и получение ИК-сигналов",
+      "pl": "Wysyłaj i odbieraj podczerwień"
     }
   },
   "homey:wireless:zwave": {
@@ -113,7 +129,9 @@
       "sv": "Skicka och ta emot Z-Wave för specifika enheter",
       "no": "Send og motta Z-Wave for spesifikke enheter",
       "es": "Enviar y recibir Z-Wave para dispositivos específicos",
-      "da": "Send, og modtag på Z-Wave for specifikke enheder"
+      "da": "Send, og modtag på Z-Wave for specifikke enheder",
+      "ru": "Отправлять и получать сигналы Z-Wave для определенных устройств",
+      "pl": "Wysyłaj i odbieraj Z-Wave dla określonych urządzeń"
     }
   },
   "homey:wireless:zigbee": {
@@ -126,7 +144,9 @@
       "sv": "Skicka och ta emot Zigbee för specifika enheter",
       "no": "Send og motta Zigbee for spesifikke enheter",
       "es": "Enviar y recibir Zigbee para dispositivos específicos",
-      "da": "Send, og modtag på Zigbee for specifikke enheder"
+      "da": "Send, og modtag på Zigbee for specifikke enheder",
+      "ru": "Отправлять и получать сигналы Zigbee для определенных устройств",
+      "pl": "Wysyłaj i odbieraj Zigbee dla określonych urządzeń"
     }
   },
   "homey:wireless:nfc": {
@@ -139,7 +159,9 @@
       "sv": "Läs och skriv NFC-taggar",
       "no": "Les og skriv NFC-tagger",
       "es": "Leer y escribir etiquetas NFC",
-      "da": "Læs, og skriv NFC-tags"
+      "da": "Læs, og skriv NFC-tags",
+      "ru": "Чтение и запись тегов NFC",
+      "pl": "Odczytuj i twórz tagi NFC"
     }
   },
   "homey:manager:api": {
@@ -152,7 +174,9 @@
       "sv": "Få full åtkomst till Homey för att styra allt åt användaren",
       "no": "Få full tilgang til Homey for å kontrollere alt på vegne av brukeren",
       "es": "Acceso completo a Homey para controlarlo todo en nombre del usuario",
-      "da": "Få fuld adgang til Homey for at kontrollere alt på brugerens vegne"
+      "da": "Få fuld adgang til Homey for at kontrollere alt på brugerens vegne",
+      "ru": "Получите полный доступ к Homey, чтобы контролировать все от имени пользователя",
+      "pl": "Zdobądź pełny dostęp do Homey, aby sterować wszystkim w imieniu użytkownika"
     }
   },
   "homey:wireless:ble": {
@@ -165,7 +189,9 @@
       "sv": "Kommunicera med Bluetooth låg energi-enheter",
       "no": "Kommuniser med Bluetooth Low Energy-enheter",
       "es": "Comunicarse con dispositivos de Bluetooth Low Energy",
-      "da": "Kommuniker med Bluetooth low energy-enheder"
+      "da": "Kommuniker med Bluetooth low energy-enheder",
+      "ru": "Связываться с устройствами Bluetooth с низким энергопотреблением",
+      "pl": "Porozumiewaj się z urządzeniami Bluetooth Low Energy"
     }
   }
 }

@@ -9,10 +9,14 @@
     "sv": "Vindvinkel",
     "no": "Vindvinkel",
     "es": "Ángulo del viento",
-    "da": "Vindvinkel"
+    "da": "Vindvinkel",
+    "ru": "Угол ветра",
+    "pl": "Kąt wiatru"
   },
   "units": {
-    "en": "°"
+    "en": "°",
+    "ru": "°",
+    "pl": "°"
   },
   "desc": {
     "en": "Wind angle in degrees (°)",
@@ -23,7 +27,9 @@
     "sv": "Vindvinkel i grader (°)",
     "no": "Vindvinkel i grader (°)",
     "es": "Ángulo del viento en grados (°)",
-    "da": "Vindvinkel i grader (°)"
+    "da": "Vindvinkel i grader (°)",
+    "ru": "Угол ветра в градусах (°)",
+    "pl": "Kąt wiatru w stopniach (°)"
   },
   "insights": true,
   "chartType": "spline",
@@ -44,7 +50,9 @@
           "sv": "Vindvinkel ändrad",
           "no": "Vindvinkel er endret",
           "es": "El ángulo del viento ha cambiado",
-          "da": "Vindvinklen er skiftet"
+          "da": "Vindvinklen er skiftet",
+          "ru": "Угол наклона ветра изменился",
+          "pl": "Zmiana kąta wiatru"
         },
         "tokens": [
           {

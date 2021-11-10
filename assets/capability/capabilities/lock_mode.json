@@ -9,7 +9,9 @@
     "sv": "Låsläge",
     "no": "Låsemodus",
     "es": "Modo de la cerradura",
-    "da": "Lås-tilstand"
+    "da": "Lås-tilstand",
+    "ru": "Режим замка",
+    "pl": "Tryb zamknięcia"
   },
   "values": [
     {
@@ -23,7 +25,9 @@
         "sv": "Alltid låst",
         "no": "Alltid låst",
         "es": "Siempre cerrada",
-        "da": "Altid låst"
+        "da": "Altid låst",
+        "ru": "Всегда закрыт",
+        "pl": "Zawsze zablokowane"
       }
     },
     {
@@ -37,7 +41,9 @@
         "sv": "Alltid olåst",
         "no": "Alltid ulåst",
         "es": "Siempre abierta",
-        "da": "Altid ulåst"
+        "da": "Altid ulåst",
+        "ru": "Всегда открыт",
+        "pl": "Zawsze odblokowane"
       }
     },
     {
@@ -51,7 +57,9 @@
         "sv": "Låst tills upplåst",
         "no": "Låst til opplåst",
         "es": "Cerrada hasta que se abra",
-        "da": "Låst indtil ulåst"
+        "da": "Låst indtil ulåst",
+        "ru": "Закрыт, пока не будет открыт",
+        "pl": "Zablokowane aż do odblokowania"
       }
     }
   ],
@@ -71,7 +79,9 @@
           "sv": "Låsläge har ändrats",
           "no": "Låsemodusen er endret",
           "es": "El modo de la cerradura ha cambiado",
-          "da": "Lås-tilstand er blevet ændret"
+          "da": "Lås-tilstand er blevet ændret",
+          "ru": "Режим замка изменен",
+          "pl": "Zmiana trybu zamknięcia"
         },
         "args": [
           {
@@ -94,7 +104,9 @@
           "sv": "Låsläge !{{är|är inte}}",
           "no": "Låsemodus !{{er|er ikke}}",
           "es": "El modo de la cerradura !{{está|no está}}",
-          "da": "Lås-tilstand !{{er|er ikke}}"
+          "da": "Lås-tilstand !{{er|er ikke}}",
+          "ru": "Режим замка — !{{is|is not}}",
+          "pl": "Tryb zamknięcia !{{to|to nie}}"
         },
         "args": [
           {
@@ -117,7 +129,9 @@
           "sv": "Ställ in läge",
           "no": "Innstill modus",
           "es": "Configurar modo",
-          "da": "Indstil tilstand"
+          "da": "Indstil tilstand",
+          "ru": "Установить режим",
+          "pl": "Ustaw tryb"
         },
         "args": [
           {

@@ -8,7 +8,9 @@
     "sv": "Gardiner",
     "no": "Gardiner",
     "es": "Cortinas",
-    "da": "Gardiner"
+    "da": "Gardiner",
+    "ru": "Шторы",
+    "pl": "Zasłony"
   },
   "description": {
     "en": "Use this device class for curtains.",
@@ -18,7 +20,9 @@
     "sv": "Använd den här enheten för gardiner.",
     "no": "Bruk denne enheten for gardiner.",
     "es": "Utiliza esta clase de dispositivo para las cortinas.",
-    "da": "Brug denne enhedsklasse til gardiner."
+    "da": "Brug denne enhedsklasse til gardiner.",
+    "ru": "Используйте этот класс устройств для штор.",
+    "pl": "Użyj tej klasy urządzeń dla zasłon."
   },
   "$speechAlternatives": {
     "en": [
@@ -44,6 +48,14 @@
     "no": [
       "gardiner",
       "gardin"
+    ],
+    "ru": [
+      "Шторы",
+      "штора"
+    ],
+    "pl": [
+      "zasłony",
+      "zasłona"
     ]
   }
 }

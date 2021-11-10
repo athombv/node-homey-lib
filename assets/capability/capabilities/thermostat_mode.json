@@ -9,7 +9,9 @@
     "sv": "Termostatläge",
     "no": "Termostatmodus",
     "es": "Modo del termostato",
-    "da": "Termostattilstand"
+    "da": "Termostattilstand",
+    "ru": "Режим термостата",
+    "pl": "Tryb termostatu"
   },
   "desc": {
     "en": "Mode of the thermostat",
@@ -20,7 +22,9 @@
     "sv": "Läge för termostaten",
     "no": "Modus for termostaten",
     "es": "Modo del termostato",
-    "da": "Tilstand for termostat"
+    "da": "Tilstand for termostat",
+    "ru": "Режим термостата",
+    "pl": "Tryb termostatu"
   },
   "values": [
     {
@@ -34,7 +38,9 @@
         "sv": "Automatiskt",
         "no": "Automatisk",
         "es": "Automático",
-        "da": "Automatisk"
+        "da": "Automatisk",
+        "ru": "Автоматически",
+        "pl": "Automatyczny"
       }
     },
     {
@@ -48,7 +54,9 @@
         "sv": "Värme",
         "no": "Varme",
         "es": "Calentar",
-        "da": "Opvarm"
+        "da": "Opvarm",
+        "ru": "Обогрев",
+        "pl": "Ogrzewanie"
       }
     },
     {
@@ -62,7 +70,9 @@
         "sv": "Kyla",
         "no": "Avkjøle",
         "es": "Enfriar",
-        "da": "Køl ned"
+        "da": "Køl ned",
+        "ru": "Охлаждение",
+        "pl": "Chłodzenie"
       }
     },
     {
@@ -76,7 +86,9 @@
         "sv": "Av",
         "no": "Av",
         "es": "Desactivado",
-        "da": "Deaktiveret"
+        "da": "Deaktiveret",
+        "ru": "Выкл",
+        "pl": "Wył"
       }
     }
   ],
@@ -96,7 +108,9 @@
           "sv": "Termostatläge ändrades",
           "no": "Termostatmodus ble endret",
           "es": "El modo del termostato ha cambiado",
-          "da": "Termostattilstand er blevet ændret"
+          "da": "Termostattilstand er blevet ændret",
+          "ru": "Режим термостата изменен",
+          "pl": "Zmiana trybu termostatu"
         },
         "args": [
           {
@@ -119,7 +133,9 @@
           "sv": "Termostatläge !{{är|är inte}}",
           "no": "Termostatmodus !{{er|er ikke}}",
           "es": "El modo del termostato !{{está|no está}}",
-          "da": "Termostattilstand !{{er|er ikke}}"
+          "da": "Termostattilstand !{{er|er ikke}}",
+          "ru": "Режим термостата — !{{is|is not}}",
+          "pl": "Tryb termostatu !{{to|to nie}}"
         },
         "args": [
           {
@@ -142,7 +158,9 @@
           "sv": "Ställ in läget",
           "no": "Innstill modusen",
           "es": "Configurar el modo",
-          "da": "Indstil tilstanden"
+          "da": "Indstil tilstanden",
+          "ru": "Установить режим",
+          "pl": "Ustaw tryb"
         },
         "args": [
           {
