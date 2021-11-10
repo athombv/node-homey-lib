@@ -9,13 +9,12 @@
     "sv": "CO2",
     "no": "CO2",
     "da": "CO2",
-    "ru": "",
-    "pl": ""
+    "ru": "CO2",
+    "pl": "CO2"
   },
   "units": {
     "en": "ppm",
-    "ru": "ч./млн.",
-    "pl": "ppm"
+    "ru": "ч./млн."
   },
   "insights": true,
   "desc": {

@@ -17,8 +17,7 @@
   "min": 0,
   "units": {
     "en": "m³",
-    "ru": "м³",
-    "pl": "m³"
+    "ru": "м³"
   },
   "chartType": "spline",
   "desc": {

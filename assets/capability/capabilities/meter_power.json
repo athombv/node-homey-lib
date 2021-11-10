@@ -16,8 +16,7 @@
   "decimals": 2,
   "units": {
     "en": "kWh",
-    "ru": "кВтч",
-    "pl": "kWh"
+    "ru": "кВтч"
   },
   "desc": {
     "en": "Energy usage in kilowatt-hour (kWh)",

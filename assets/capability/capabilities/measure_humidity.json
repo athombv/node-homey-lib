@@ -14,9 +14,7 @@
     "pl": "Wilgotność"
   },
   "units": {
-    "en": "%",
-    "ru": "%",
-    "pl": "%"
+    "en": "%"
   },
   "insights": true,
   "desc": {

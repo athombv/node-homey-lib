@@ -14,9 +14,7 @@
     "pl": "Prąd"
   },
   "units": {
-    "en": "A",
-    "ru": "A",
-    "pl": "A"
+    "en": "A"
   },
   "insights": true,
   "desc": {

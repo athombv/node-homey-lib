@@ -15,8 +15,7 @@
   },
   "units": {
     "en": "L/min",
-    "ru": "Л/мин",
-    "pl": "L/min"
+    "ru": "Л/мин"
   },
   "desc": {
     "en": "Water flow in liters per minute (L/min)",

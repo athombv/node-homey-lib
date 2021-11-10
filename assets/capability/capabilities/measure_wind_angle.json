@@ -14,9 +14,7 @@
     "pl": "Kąt wiatru"
   },
   "units": {
-    "en": "°",
-    "ru": "°",
-    "pl": "°"
+    "en": "°"
   },
   "desc": {
     "en": "Wind angle in degrees (°)",

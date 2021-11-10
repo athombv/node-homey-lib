@@ -14,9 +14,7 @@
     "pl": "Temperatura"
   },
   "units": {
-    "en": "°C",
-    "ru": "°C",
-    "pl": "°C"
+    "en": "°C"
   },
   "insights": true,
   "desc": {

@@ -15,8 +15,7 @@
   },
   "units": {
     "en": "UVI",
-    "ru": "Индекс УФ-излучения",
-    "pl": "UVI"
+    "ru": "Индекс УФ-излучения"
   },
   "desc": {
     "en": "Ultraviolet in UV index (UVI)",

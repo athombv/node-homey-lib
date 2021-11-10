@@ -18,8 +18,7 @@
   "chartType": "spline",
   "units": {
     "en": "m³",
-    "ru": "м³",
-    "pl": "m³"
+    "ru": "м³"
   },
   "desc": {
     "en": "Gas usage in cubic meter (m³)",
