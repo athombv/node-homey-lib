@@ -10,7 +10,7 @@
     "es": "Máquina de café",
     "da": "Kaffemaskine",
     "ru": "Кофемашина",
-    "pl": ""
+    "pl": "Ekspres do kawy"
   },
   "description": {
     "en": "Use this device class for coffee machines.",
