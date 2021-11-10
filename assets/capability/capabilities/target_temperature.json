@@ -16,9 +16,7 @@
     "pl": "Cel temperatury"
   },
   "units": {
-    "en": "°C",
-    "ru": "°C",
-    "pl": "°C"
+    "en": "°C"
   },
   "chartType": "stepLine",
   "decimals": 2,
