@@ -14,15 +14,15 @@
   },
   "description": {
     "en": "Use this device class for thermostats, either for the entire home or radiator-mounted, usually together with the `measure_temperature`, `target_temperature` and `thermostat_mode` capabilities.",
-    "de": "Nutze diese Geräteklasse für Thermostate, entweder für das gesamte Heim oder pro Heizung - normalerweise zusammen mit den 'measure_temperature'-, 'target_temperature'- und 'thermostat_mode'-Fähigkeiten.",
-    "fr": "Utilisez cette classe d'appareil pour les thermostats, soit pour toute la maison soit montés sur radiateurs, généralemebnt avec les capacités `mesure_température`, `température_cible` et `mode_thermostat`.",
-    "it": "Utilizza questa classe di dispositivi per i termostati, sia quelli per l'intera casa che quelli montati sul radiatore, solitamente insieme alle funzionalità `misura_temperatura`,`temperatura_nominale` e `modalità_termostato`.",
-    "sv": "Använd den här enhetsklassen för termostater, antingen för hela hemmet eller elementmonterade, oftast tillsammans med funktionerna `mät_temperatur`, `måltemperatur` och `termostatläge`.",
-    "no": "Bruk denne enhetsklassen for termostater, enten for hele hjemmet eller monterte på varmeelement, ofte sammen med funksjonene `måling_temperatur`, `ønsket_temperatur` og `termostat_modus`.",
-    "es": "Utiliza esta clase de dispositivo para los termostatos, tanto los de toda la casa como los montados en los radiadores, generalmente junto con las capacidades 'medir_temperatura', 'temperatura_configurada' y 'modo_termostato'.",
-    "da": "Brug denne enhedsklasse til termostater, enten til hele hjemmet eller på radiatorer, normalt sammen med `mål_temperatur`, `måltemperatur` og `termostattilstand` funktionerne.",
+    "de": "Nutze diese Geräteklasse für Thermostate, entweder für das gesamte Heim oder pro Heizung - normalerweise zusammen mit den `measure_temperature`-, `target_temperature`- und `thermostat_mode`-Fähigkeiten.",
+    "fr": "Utilisez cette classe d'appareil pour les thermostats, soit pour toute la maison soit montés sur radiateurs, généralemebnt avec les capacités `measure_temperature`, `target_temperature` et `thermostat_mode`.",
+    "it": "Utilizza questa classe di dispositivi per i termostati, sia quelli per l'intera casa che quelli montati sul radiatore, solitamente insieme alle funzionalità `measure_temperature`,`target_temperature` e `thermostat_mode`.",
+    "sv": "Använd den här enhetsklassen för termostater, antingen för hela hemmet eller elementmonterade, oftast tillsammans med funktionerna `measure_temperature`, `target_temperature` och `thermostat_mode`.",
+    "no": "Bruk denne enhetsklassen for termostater, enten for hele hjemmet eller monterte på varmeelement, ofte sammen med funksjonene `measure_temperature`, `target_temperature` og `thermostat_mode`.",
+    "es": "Utiliza esta clase de dispositivo para los termostatos, tanto los de toda la casa como los montados en los radiadores, generalmente junto con las capacidades `measure_temperature`, `target_temperature` y `thermostat_mode`.",
+    "da": "Brug denne enhedsklasse til termostater, enten til hele hjemmet eller på radiatorer, normalt sammen med `measure_temperature`, `target_temperature` og `thermostat_mode` funktionerne.",
     "ru": "Используйте этот класс устройств для термостатов для всего дома или для термостатов на радиаторах, обычно вместе с функциями `measure_temperature`, `target_temperature` и `thermostat_mode`.",
-    "pl": "Użyj tej klasy urządzeń dla termostatów, zarówno dla całego domu, jak i urządzeń podłączanych do kaloryferów; zwykle razem ze zdolnościami „pomiar_temperatura”, „temperatura_cel” oraz „termostat_tryb”."
+    "pl": "Użyj tej klasy urządzeń dla termostatów, zarówno dla całego domu, jak i urządzeń podłączanych do kaloryferów; zwykle razem ze zdolnościami `measure_temperature`, `target_temperature` oraz `thermostat_mode`."
   },
   "$speechAlternatives": {
     "en": [
