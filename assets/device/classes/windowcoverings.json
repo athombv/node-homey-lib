@@ -14,15 +14,15 @@
   },
   "description": {
     "en": "Use this device class for window coverings, when the `curtains`, `blinds` or `sunshade` device class doesn't apply.",
-    "de": "Nutze diese Geräteklasse für Fenster-Abdeckungen, wenn 'Vorhänge'-, 'Rolladen'- oder 'Jalousien'-Geräteklassen nicht zutreffen.",
-    "fr": "Utilisez cette classe d'appareil pour les couvertures de fenêtre, lorsque la classe d'appareil `rideaux`, `stores` ou `auvent` ne s'applique pas.",
-    "it": "Utilizza questa classe di dispositivi per i rivestimenti per finestre, quando non rientrano nelle classi 'tende', 'tapparelle' o 'scuretti'.",
-    "sv": "Använd den här enhetsklassen för fönsterskydd när enhetsklasserna `gardiner`, `persienner` eller `solskydd` inte gäller.",
-    "no": "Bruk denne enhetsklassen for vindusbeskyttelse som ikke dekkes av enhetsklassene `gardiner`, `persienner` eller `solbeskyttelse`.",
-    "es": "Utiliza esta clase de dispositivo para los cobertores de ventanas que no entren en las clases 'cortinas', 'persianas' o 'toldo'.",
-    "da": "Brug denne enhedsklasse til vinduesdække, når enhedsklasserne `gardiner`, `persienner` og `markise` ikke er gældende.",
-    "ru": "Используйте этот класс устройств для оконных навесов, когда классы устройств «шторы», «жалюзи» или «навес от солнца» не подходят.",
-    "pl": "Użyj tej klasy urządzeń dla osłon okiennych o innej klasie urządzenia niż „zasłony”, „rolety” lub „markizy”."
+    "de": "Nutze diese Geräteklasse für Fenster-Abdeckungen, wenn `curtains`-, `blinds`- oder `sunshade`-Geräteklassen nicht zutreffen.",
+    "fr": "Utilisez cette classe d'appareil pour les couvertures de fenêtre, lorsque la classe d'appareil `curtains`, `blinds` ou `sunshade` ne s'applique pas.",
+    "it": "Utilizza questa classe di dispositivi per i rivestimenti per finestre, quando non rientrano nelle classi `curtains`, `blinds` o `sunshade`.",
+    "sv": "Använd den här enhetsklassen för fönsterskydd när enhetsklasserna `curtains`, `blinds` eller `sunshade` inte gäller.",
+    "no": "Bruk denne enhetsklassen for vindusbeskyttelse som ikke dekkes av enhetsklassene `curtains`, `blinds` eller `sunshade`.",
+    "es": "Utiliza esta clase de dispositivo para los cobertores de ventanas que no entren en las clases `curtains`, `blinds` o `sunshade`.",
+    "da": "Brug denne enhedsklasse til vinduesdække, når enhedsklasserne `curtains`, `blinds` og `sunshade` ikke er gældende.",
+    "ru": "Используйте этот класс устройств для оконных навесов, когда классы устройств `curtains`, `blinds` или `sunshade` не подходят.",
+    "pl": "Użyj tej klasy urządzeń dla osłon okiennych o innej klasie urządzenia niż `curtains`, `blinds` lub `sunshade`."
   },
   "virtualTitle": {
     "en": "What's the type?",
