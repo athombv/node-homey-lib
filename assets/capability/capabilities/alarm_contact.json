@@ -22,7 +22,7 @@
     "sv": "Kontaktsensor, t.ex. för fönster (sant/falskt)",
     "no": "Kontaktsensor, f.eks. for vindu (sant/usant)",
     "es": "Sensor de contacto, p. ej., para ventanas (verdadero/falso)",
-    "da": "Kontaktsensor, f.eks. til vinduer ((sandt/falsk)",
+    "da": "Kontaktsensor, f.eks. til vinduer (sandt/falsk)",
     "ru": "Контактный датчик, например для окон (истина/ложь)",
     "pl": "Czujnik otwarcia, np. okien (adekwatny/nieadekwatny)"
   },
