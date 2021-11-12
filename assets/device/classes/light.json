@@ -15,15 +15,15 @@
   },
   "description": {
     "en": "Use this device class for lights, usually together with the `onoff`, `dim` and `light_*` capabilities.",
-    "de": "Nutze diese Geräteklasse für Lampen - normalerweise zusammen mit den 'onoff'-, 'dim'- und 'light_*'-Fähigkeiten.",
-    "fr": "Utilisez cette classe d'appareil pou les lampes, habituellement avec les capacités `allumer/éteindre`, `estomper` et `lumière_*`.",
-    "it": "Utilizza questa classe di dispositivi per le lampade, generalmente insieme alle funzioni 'acceso/spento', 'regolatore luminosità' e 'luce_*'.",
-    "sv": "Använd den här enhetsklassen för lampor, oftast tillsammans med funktionerna `av/på`, `dim` och `lys upp_*`.",
-    "no": "Bruk denne enhetsklassen for lamper, ofte sammen med funksjonene `av/på`, `demp` och `lys_*`.",
-    "es": "Utiliza esta clase de dispositivo para las luces, generalmente junto con las capacidades de 'encendido/apagado', 'intensidad de la luz', y 'luz_*'.",
-    "da": "Brug denne enhedsklasse til lys, normalt sammen med `tændtslukket`, `dæmp` og `lys_*` funktionerne.",
-    "ru": "Используйте этот класс устройств для ламп, обычно вместе с функциями `onoff`,` dim` и `light_ *`.",
-    "pl": "Użyj tej klasy urządzeń dla oświetlenia, zwykle razem ze zdolnościami „wł.wył.”, „przygaś” oraz „światło_*”."
+    "de": "Nutze diese Geräteklasse für Lampen - normalerweise zusammen mit den `onoff`-, `dim`- und `light_*`-Fähigkeiten.",
+    "fr": "Utilisez cette classe d'appareil pou les lampes, habituellement avec les capacités `onoff`, `dim` et `light_*`.",
+    "it": "Utilizza questa classe di dispositivi per le lampade, generalmente insieme alle funzioni 'onoff', `dim` e `light_*`.",
+    "sv": "Använd den här enhetsklassen för lampor, oftast tillsammans med funktionerna `onoff`, `dim` och `light_*`.",
+    "no": "Bruk denne enhetsklassen for lamper, ofte sammen med funksjonene `onoff`, `dim` och `light_*`.",
+    "es": "Utiliza esta clase de dispositivo para las luces, generalmente junto con las capacidades de 'onoff', `dim`, y `light_*`.",
+    "da": "Brug denne enhedsklasse til lys, normalt sammen med `onoff`, `dim` og `light_*` funktionerne.",
+    "ru": "Используйте этот класс устройств для ламп, обычно вместе с функциями `onoff`,`dim` и `light_ *`.",
+    "pl": "Użyj tej klasy urządzeń dla oświetlenia, zwykle razem ze zdolnościami `onoff`, `dim` oraz `light_*`."
 
   },
   "$speechAlternatives": {
