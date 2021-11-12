@@ -14,15 +14,15 @@
   },
   "description": {
     "en": "Use this device class for vacuum cleaners, usually together with the `vacuumcleaner_state` capability.",
-    "de": "Nutze diese Geräteklasse für Staubsauger - normalerweise zusammen mit der 'vacuumcleaner_state'-Fähigkeit.",
-    "fr": "Utilisez cette classe d'appareil pour les aspirateurs, habituellement avec la capacité `état_aspirateur`.",
-    "it": "Utilizza questa classe di dispositivi per gli aspirapolvere, generalmente insieme alla funzionalità 'stato_aspirapolvere'.",
-    "sv": "Använd den här enhetsklassen för dammsugare, oftast tillsammans med funktionen `dammsugar_status`.",
-    "no": "Bruk denne enhetsklassen for støvsugere, ofte sammen med funksjonen `støvsuger_status`.",
-    "es": "Utiliza esta clase de dispositivo para las aspiradoras, generalmente junto con la capacidad 'estado_aspiradora'.",
-    "da": "Brug denne enhedsklasse til støvsugere, normalt sammen med `støvsugertilstand` funktionen.",
+    "de": "Nutze diese Geräteklasse für Staubsauger - normalerweise zusammen mit der `vacuumcleaner_state`-Fähigkeit.",
+    "fr": "Utilisez cette classe d'appareil pour les aspirateurs, habituellement avec la capacité `vacuumcleaner_state`.",
+    "it": "Utilizza questa classe di dispositivi per gli aspirapolvere, generalmente insieme alla funzionalità `vacuumcleaner_state`.",
+    "sv": "Använd den här enhetsklassen för dammsugare, oftast tillsammans med funktionen `vacuumcleaner_state`.",
+    "no": "Bruk denne enhetsklassen for støvsugere, ofte sammen med funksjonen `vacuumcleaner_state`.",
+    "es": "Utiliza esta clase de dispositivo para las aspiradoras, generalmente junto con la capacidad `vacuumcleaner_state`.",
+    "da": "Brug denne enhedsklasse til støvsugere, normalt sammen med `vacuumcleaner_state` funktionen.",
     "ru": "Используйте этот класс устройств для пылесосов, обычно вместе с функцией `vacuumcleaner_state`.",
-    "pl": "Użyj tej klasy urządzeń dla odkurzaczy, zwykle razem ze zdolnością „odkurzacz_stan”."
+    "pl": "Użyj tej klasy urządzeń dla odkurzaczy, zwykle razem ze zdolnością `vacuumcleaner_state`."
   },
   "$speechAlternatives": {
     "en": [
