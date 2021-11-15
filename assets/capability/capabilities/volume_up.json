@@ -8,7 +8,9 @@
     "sv": "Volym upp",
     "no": "Volum opp",
     "es": "Subir volumen",
-    "da": "Op for lyden"
+    "da": "Op for lyden",
+    "ru": "Звук громче",
+    "pl": "Zwiększ głośność"
   },
   "type": "boolean",
   "getable": false,
@@ -28,7 +30,9 @@
           "sv": "Vrid upp volymen",
           "no": "Skru opp volumet",
           "es": "Subir el volumen",
-          "da": "Skru op for lyden"
+          "da": "Skru op for lyden",
+          "ru": "Сделать звук громче",
+          "pl": "Zwiększ poziom głośności"
         }
       }
     ]

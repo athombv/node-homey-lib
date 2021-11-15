@@ -8,7 +8,9 @@
     "sv": "Knapp",
     "no": "Knapp",
     "es": "Botón",
-    "da": "Knap"
+    "da": "Knap",
+    "ru": "Кнопка",
+    "pl": "Przycisk"
   },
   "type": "boolean",
   "getable": false,
@@ -28,7 +30,9 @@
           "sv": "Tryck på knappen",
           "no": "Trykk på knappen",
           "es": "Pulsa el botón",
-          "da": "Tryk på knappen"
+          "da": "Tryk på knappen",
+          "ru": "Нажмите кнопку",
+          "pl": "Naciśnij przycisk"
         }
       }
     ]

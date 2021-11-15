@@ -8,7 +8,9 @@
     "sv": "Volym inaktiverad",
     "no": "Volym dempet",
     "es": "Silenciar volumen",
-    "da": "Lyd slået fra"
+    "da": "Lyd slået fra",
+    "ru": "Звук выключен",
+    "pl": "Głośność wyciszona"
   },
   "type": "boolean",
   "getable": true,
@@ -27,7 +29,9 @@
           "sv": "Inaktivera volymen",
           "no": "Demp volumet",
           "es": "Silenciar el volumen",
-          "da": "Slå lyden fra"
+          "da": "Slå lyden fra",
+          "ru": "Выключить звук",
+          "pl": "Wycisz głośność"
         }
       },
       {
@@ -41,7 +45,9 @@
           "sv": "Aktivera volymen",
           "no": "Opphev demping av volum",
           "es": "Activar el volumen",
-          "da": "Slå lyden til"
+          "da": "Slå lyden til",
+          "ru": "Включить звук",
+          "pl": "Włącz głośność"
         }
       }
     ]

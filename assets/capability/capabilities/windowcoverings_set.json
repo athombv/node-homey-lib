@@ -9,7 +9,9 @@
     "sv": "Position",
     "no": "Posisjon",
     "es": "Posición",
-    "da": "Position"
+    "da": "Position",
+    "ru": "Позиция",
+    "pl": "Pozycja"
   },
   "desc": {
     "en": "Set the position of window coverings. 0% is closed, 100% is open",
@@ -19,7 +21,9 @@
     "sv": "Ställ in positionen för fönsterskydden. 0 % är stängd, 100 % är öppet",
     "no": "Innstill vindusbeskyttelsens posisjon. 0 % er lukket, 100 % er åpen",
     "es": "Configura la posición de los cobertores de ventanas. 0 % es 'cerrados', 100 % es 'abiertos'",
-    "da": "Indstil positionen af dækket for vinduet. 0% er lukket, 100% er åben"
+    "da": "Indstil positionen af dækket for vinduet. 0% er lukket, 100% er åben",
+    "ru": "Установите позицию оконных навесов. 0% означает закрыто, 100% означает открыто",
+    "pl": "Ustaw pozycję osłon okiennych. 0% oznacza zasunięte, 100% rozchylone"
   },
   "chartType": "stepLine",
   "min": 0,
@@ -44,7 +48,9 @@
           "sv": "Position ändrad",
           "no": "Posisjon endret",
           "es": "La posición ha cambiado",
-          "da": "Position ændret"
+          "da": "Position ændret",
+          "ru": "Расположение изменилось",
+          "pl": "Zmiana pozycji"
         },
         "tokens": [
           {
@@ -59,7 +65,9 @@
               "sv": "Position",
               "no": "Posisjon",
               "es": "Posición",
-              "da": "Position"
+              "da": "Position",
+              "ru": "Позиция",
+              "pl": "Pozycja"
             },
             "example": 0.5
           }
@@ -79,11 +87,15 @@
           "sv": "Ställ in positionen till",
           "no": "Innstill posisjonen til",
           "es": "Configurar la posición como",
-          "da": "Indstil positionen til"
+          "da": "Indstil positionen til",
+          "ru": "Установите позицию на",
+          "pl": "Ustaw pozycję na"
         },
         "hint": {
           "en": "Change the position to open (100%), closed (0%), or a value in between.",
-          "nl": "Verander de positie naar open (100%), gesloten (0%), of een een waarde daartussen."
+          "nl": "Verander de positie naar open (100%), gesloten (0%), of een een waarde daartussen.",
+          "ru": "Измените позицию на открытую (100%), закрытую (0%) или между этими значениями.",
+          "pl": "Zmień pozycję na rozchylone (100%), zasunięte (0%) lub wartość pomiędzy."
         },
         "args": [
           {

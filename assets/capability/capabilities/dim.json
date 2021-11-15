@@ -9,7 +9,9 @@
     "sv": "Dimningsnivå",
     "no": "Dempingsnivå",
     "es": "Intensidad de la luz",
-    "da": "Lysniveau"
+    "da": "Lysniveau",
+    "ru": "Уровень яркости",
+    "pl": "Poziom przygaszenia"
   },
   "chartType": "stepLine",
   "min": 0,
@@ -32,7 +34,9 @@
           "sv": "Dimningsnivå ändrades",
           "no": "Dempingsnivå ble endret",
           "es": "La intensidad de la luz ha cambiado",
-          "da": "Lysniveau ændret"
+          "da": "Lysniveau ændret",
+          "ru": "Уровень яркости изменен",
+          "pl": "Zmiana poziomu przygaszenia"
         },
         "tokens": [
           {
@@ -47,7 +51,9 @@
               "sv": "Nivå",
               "no": "Nivå",
               "es": "Nivel",
-              "da": "Niveau"
+              "da": "Niveau",
+              "ru": "Уровень",
+              "pl": "Poziom"
             },
             "example": 0.5
           }
@@ -67,7 +73,9 @@
           "sv": "Dimma till",
           "no": "Demp til",
           "es": "Ajustar la intensidad de la luz a",
-          "da": "Juster til"
+          "da": "Juster til",
+          "ru": "Установить яркость",
+          "pl": "Przygaś do"
         },
         "args": [
           {
@@ -93,11 +101,15 @@
           "it": "Imposta intensità luminosa su relativa",
           "no": "Innstill relativt dempingsnivå",
           "es": "Ajustar la intensidad de la luz como relativa",
-          "da": "Indstil relativt lysniveau"
+          "da": "Indstil relativt lysniveau",
+          "ru": "Установить относительный уровень яркости",
+          "pl": "Ustaw względny poziom przygaszenia"
         },
         "hint": {
           "en": "Dim or brighten with respect to the device's current dim-level.",
-          "nl": "Verhoog of verlaag de helderheid ten opzichte van het huidige dim-niveau van het apparaat."
+          "nl": "Verhoog of verlaag de helderheid ten opzichte van het huidige dim-niveau van het apparaat.",
+          "ru": "Уменьшите или увеличьте яркость относительно текущего уровня яркости устройства.",
+          "pl": "Przygaś lub rozjaśnij względem obecnego poziomu przygaszenia urządzenia."
         },
         "args": [
           {

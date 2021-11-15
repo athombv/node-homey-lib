@@ -7,7 +7,9 @@
     "sv": "Fönsterskydd nedfällda",
     "no": "Vindusbeskyttelser lukket",
     "es": "Cobertores de ventanas inclinados hacia abajo",
-    "da": "Vinduesdække nedad"
+    "da": "Vinduesdække nedad",
+    "ru": "Наклонить вниз оконные навесы",
+    "pl": "Zasunięcie osłon okiennych"
   },
   "type": "boolean",
   "getable": false,

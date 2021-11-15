@@ -9,7 +9,9 @@
     "sv": "CO-larm",
     "no": "CO-alarm",
     "es": "Alarma de CO",
-    "da": "CO-alarm"
+    "da": "CO-alarm",
+    "ru": "Сигнал CO",
+    "pl": "Alarm o CO"
   },
   "desc": {
     "en": "True when dangerous CO values have been detected",
@@ -20,7 +22,9 @@
     "sv": "Sant när farliga CO-värden upptäcks",
     "no": "Sant når farlige CO-verdier påvises",
     "es": "Verdadero cuando se han detectado valores peligrosos de CO",
-    "da": "Sandt, når farlige CO-værdier er blevet opdaget"
+    "da": "Sandt, når farlige CO-værdier er blevet opdaget",
+    "ru": "Верно при обнаружении опасных значений CO",
+    "pl": "Adekwatny, kiedy wykryty zostanie niebezpieczny poziom stężenia CO"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +36,9 @@
     "sv": "CO-larm aktiverat",
     "no": "CO-alarm aktivert",
     "es": "Alarma de CO activada",
-    "da": "CO-alarm aktiveret"
+    "da": "CO-alarm aktiveret",
+    "ru": "Сигнал CO включен",
+    "pl": "Alarm o CO włączony"
   },
   "insightsTitleFalse": {
     "en": "CO alarm turned off",
@@ -43,7 +49,9 @@
     "sv": "CO-larm inaktiverat",
     "no": "CO-alarm deaktivert",
     "es": "Alarma de CO desactivada",
-    "da": "CO-alarm deaktiveret"
+    "da": "CO-alarm deaktiveret",
+    "ru": "Сигнал CO выключен",
+    "pl": "Alarm o CO wyłączony"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +70,9 @@
           "sv": "CO-larmet aktiverades",
           "no": "CO-alarmen aktivert",
           "es": "La alarma de CO se ha activado",
-          "da": "CO-alarmen blev aktiveredt"
+          "da": "CO-alarmen blev aktiveredt",
+          "ru": "Сигнал CO включен",
+          "pl": "Alarm o CO włączony"
         }
       },
       {
@@ -76,7 +86,9 @@
           "sv": "CO-larmet inaktiverades",
           "no": "CO-alarmen deaktivert",
           "es": "La alarma de CO se ha desactivado",
-          "da": "CO-alarmen blev deaktiveret"
+          "da": "CO-alarmen blev deaktiveret",
+          "ru": "Сигнал CO выключен",
+          "pl": "Alarm o CO wyłączony"
         }
       }
     ],
@@ -92,7 +104,9 @@
           "sv": "CO-larmet är !{{på|av}}",
           "no": "CO-alarmen er !{{på|av}}",
           "es": "La alarma de CO está !{{activada|desactivada}}",
-          "da": "CO-alarmen er !{{on|off}}"
+          "da": "CO-alarmen er !{{på|af}}",
+          "ru": "Сигнал CO !{{вкл.|выкл.}}",
+          "pl": "Alarm Alarm o CO !{{włączony|wyłączony}}"
         }
       }
     ]

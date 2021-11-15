@@ -8,7 +8,9 @@
     "sv": "Kamera",
     "no": "Kamera",
     "es": "Cámara",
-    "da": "Kamera"
+    "da": "Kamera",
+    "ru": "Камера",
+    "pl": "Kamera"
   },
   "description": {
     "en": "Security camera",
@@ -19,6 +21,8 @@
     "sv": "Säkerhetskamera",
     "no": "Sikkehetskamera",
     "es": "Cámara de seguridad",
-    "da": "Overvågningskamera"
+    "da": "Overvågningskamera",
+    "ru": "Камера наблюдения",
+    "pl": "Kamera bezpieczeństwa"
   }
 }

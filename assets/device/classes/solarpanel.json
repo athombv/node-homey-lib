@@ -5,11 +5,17 @@
     "sv": "Solpanel",
     "no": "Solpanel",
     "es": "Panel solar",
-    "da": "Solpanel"
+    "da": "Solpanel",
+    "ru": "Солнечная панель",
+    "pl": "Panel fotowoltaiczny"
+
   },
   "description": {
     "en": "Use this device class for solar panels.",
     "es": "Utiliza esta clase de dispositivo para los paneles solares.",
-    "da": "Brug denne enhedsklasse til solpaneler."
+    "da": "Brug denne enhedsklasse til solpaneler.",
+    "ru": "Используйте этот класс устройств для солнечных панелей.",
+    "pl": "Użyj tej klasy urządzeń dla paneli fotowoltaicznych."
+
   }
 }

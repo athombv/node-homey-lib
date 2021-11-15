@@ -8,7 +8,9 @@
     "it": "Allarme CO2",
     "no": "CO2-alarm",
     "es": "Alarma de CO2",
-    "da": "CO2-alarm"
+    "da": "CO2-alarm",
+    "ru": "Сигнал CO2",
+    "pl": "Alarm o CO2"
   },
   "desc": {
     "en": "True when dangerous CO2 values have been detected",
@@ -18,7 +20,9 @@
     "it": "Vero quando sono stati rilevati valori pericolosi di CO2",
     "no": "Sant når farlige CO2-verdier har blitt oppdaget",
     "es": "Verdadero cuando se han detectado valores peligrosos de CO2",
-    "da": "Sandt, når farlige CO2-værdier er blevet opdaget"
+    "da": "Sandt, når farlige CO2-værdier er blevet opdaget",
+    "ru": "Верно при обнаружении опасных значений CO2",
+    "pl": "Adekwatny, kiedy wykryty zostanie niebezpieczny poziom stężenia CO2"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -30,7 +34,9 @@
     "sv": "CO2-larm på",
     "no": "CO2-alarm aktivert",
     "es": "Alarma de CO2 activada",
-    "da": "CO2-alarm aktiveret"
+    "da": "CO2-alarm aktiveret",
+    "ru": "Сигнал CO2 включен",
+    "pl": "Alarm o CO2 włączony"
   },
   "insightsTitleFalse": {
     "en": "CO2 alarm turned off",
@@ -41,7 +47,9 @@
     "sv": "CO2-larm av",
     "no": "CO2-alarm deaktivert",
     "es": "Alarma de CO2 desactivada",
-    "da": "CO2-alarm deaktiveret"
+    "da": "CO2-alarm deaktiveret",
+    "ru": "Сигнал CO2 выключен",
+    "pl": "Alarm o CO2 wyłączony"
   },
   "getable": true,
   "setable": false,
@@ -60,7 +68,9 @@
           "sv": "CO2-larmet på",
           "no": "CO2-alarmen er aktivert",
           "es": "La alarma de CO2 se ha activado",
-          "da": "CO2-alarmen blev aktiveret"
+          "da": "CO2-alarmen blev aktiveret",
+          "ru": "Сигнал CO2 включен",
+          "pl": "Alarm o CO2 włączony"
         }
       },
       {
@@ -74,7 +84,9 @@
           "sv": "CO2-larmet av",
           "no": "CO2-alarmen er deaktivert",
           "es": "La alarma de CO2 se ha desactivado",
-          "da": "CO2-alarmen blev deaktiveret"
+          "da": "CO2-alarmen blev deaktiveret",
+          "ru": "Сигнал CO2 выключен",
+          "pl": "Alarm o CO2 wyłączony"
         }
       }
     ],
@@ -90,7 +102,9 @@
           "sv": "CO2-larmet är !{{på|av}}",
           "no": "CO2-alarmen er !{{på|av}}",
           "es": "La alarma de CO2 está !{{activada|desactivada}}",
-          "da": "CO2-alarmen er !{{tændt|slukket}}"
+          "da": "CO2-alarmen er !{{tændt|slukket}}",
+          "ru": "Сигнал CO2 !{{вкл.|выкл.}}",
+          "pl": "Alarm o CO2 !{{włączony|wyłączony}}"
         }
       }
     ]

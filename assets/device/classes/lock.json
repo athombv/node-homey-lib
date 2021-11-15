@@ -8,17 +8,21 @@
     "sv": "Lås",
     "no": "Lås",
     "es": "Cerradura",
-    "da": "Lås"
+    "da": "Lås",
+    "ru": "Замок",
+    "pl": "Zamek"
   },
   "description": {
     "en": "Use this device class for lock devices, usually together with the `locked` and `lock_mode` capabilities.",
-    "de": "Nutze diese Geräteklasse für Schloss-Geräte - normalerweise zusammen mit den 'locked'- und 'lock_mode'-Fähigkeiten.",
-    "fr": "Utilisez cette classe d'appareil pour les appareils verrou, généralement avec les capacités `verrouillé` et `mode_verrou`.",
-    "it": "Utilizza questa classe di dispositivi per le serrature, generalmente insieme alle funzioni 'chiusa' e 'modalità_serratura'.",
-    "sv": "Använd den här enhetsklassen för att låsa enheter, oftast tillsammans med funktionerna `låst` och `låsläge`.",
-    "no": "Bruk denne enhetsklassen for låseenheter, ofte sammen med funksjonene `låst` og `låst_modus`.",
-    "es": "Utiliza esta clase de dispositivo para las cerraduras, generalmente junto con las capacidades de 'cerrado' y 'modo_cerradura'.",
-    "da": "Brug denne enhedsklasse til låseenheder, normalt sammen med `låst` and `låst_tilstand` funktionerne."
+    "de": "Nutze diese Geräteklasse für Schloss-Geräte - normalerweise zusammen mit den `locked`- und `lock_mode`-Fähigkeiten.",
+    "fr": "Utilisez cette classe d'appareil pour les appareils verrou, généralement avec les capacités `locked` et `lock_mode`.",
+    "it": "Utilizza questa classe di dispositivi per le serrature, generalmente insieme alle funzioni `locked` e `lock_mode`.",
+    "sv": "Använd den här enhetsklassen för att låsa enheter, oftast tillsammans med funktionerna `locked` och `lock_mode`.",
+    "no": "Bruk denne enhetsklassen for låseenheter, ofte sammen med funksjonene `locked` og `lock_mode`.",
+    "es": "Utiliza esta clase de dispositivo para las cerraduras, generalmente junto con las capacidades de `locked` y `lock_mode`.",
+    "da": "Brug denne enhedsklasse til låseenheder, normalt sammen med `locked` and `lock_mode` funktionerne.",
+    "ru": "Используйте этот класс устройств для замков, обычно вместе с функциями `locked` и `lock_mode`.",
+    "pl": "Użyj tej klasy urządzeń dla produktów z zamkiem, zwykle razem ze zdolnościami `locked` i `lock_mode`."
   },
   "$speechAlternatives": {
     "en": [
@@ -39,6 +43,14 @@
     ],
     "sv": [
       "lås"
+    ],
+    "ru": [
+      "замок",
+      "замки"
+    ],
+    "pl": [
+      "zamek",
+      "zamki"
     ]
   }
 }

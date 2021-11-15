@@ -8,7 +8,9 @@
     "sv": "Kanal upp",
     "no": "Høyere kanal",
     "es": "Subir de canal",
-    "da": "Kanal op"
+    "da": "Kanal op",
+    "ru": "Канал наверх",
+    "pl": "Kanał w górę"
   },
   "type": "boolean",
   "getable": false,
@@ -26,7 +28,9 @@
           "sv": "En kanal upp",
           "no": "En kanal høyere",
           "es": "Un canal más arriba",
-          "da": "En kanal op"
+          "da": "En kanal op",
+          "ru": "Один канал наверх",
+          "pl": "Jeden kanał w górę"
         }
       }
     ]

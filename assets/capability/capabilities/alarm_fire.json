@@ -9,7 +9,9 @@
     "sv": "Brandlarm",
     "no": "Brannalarm",
     "es": "Alarma de incendios",
-    "da": "Brandalarm"
+    "da": "Brandalarm",
+    "ru": "Пожарный сигнал",
+    "pl": "Alarm przeciwpożarowy"
   },
   "desc": {
     "en": "True when fire has been detected",
@@ -20,7 +22,9 @@
     "sv": "Sant när brand upptäckts",
     "no": "Sant når brann påvises",
     "es": "Verdadero cuando se ha detectado fuego",
-    "da": "Sandt, når brand er blevet opdaget"
+    "da": "Sandt, når brand er blevet opdaget",
+    "ru": "Верно при обнаружении огня",
+    "pl": "Alarm przeciwpożarowy"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +36,9 @@
     "sv": "Brandlarm aktiverat",
     "no": "Brannlarm aktivert",
     "es": "Alarma de incendios activada",
-    "da": "Brandalarm blev aktiveret"
+    "da": "Brandalarm blev aktiveret",
+    "ru": "Пожарный сигнал включен",
+    "pl": "Adekwatny, kiedy wykryty zostanie pożar"
   },
   "insightsTitleFalse": {
     "en": "Fire alarm turned off",
@@ -43,7 +49,9 @@
     "sv": "Brandlarm inaktiverat",
     "no": "Brannlarm deaktivert",
     "es": "Alarma de incendios desactivada",
-    "da": "Brandalarm blev deaktiveret"
+    "da": "Brandalarm blev deaktiveret",
+    "ru": "Пожарный сигнал выключен",
+    "pl": "Alarm przeciwpożarowy wyłączony"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +70,9 @@
           "sv": "Brandlarmet aktiverat",
           "no": "Brannalarmen aktivert",
           "es": "La alarma de incendios se ha activado",
-          "da": "Brandalarmen blev aktiveret"
+          "da": "Brandalarmen blev aktiveret",
+          "ru": "Пожарный сигнал включен",
+          "pl": "Alarm przeciwpożarowy włączony"
         }
       },
       {
@@ -76,7 +86,9 @@
           "sv": "Brandlarmet inaktiverat",
           "no": "Brannalarmen deaktivert",
           "es": "La alarma de incendios se ha desactivado",
-          "da": "Brandalarmen blev deaktiveret"
+          "da": "Brandalarmen blev deaktiveret",
+          "ru": "Пожарный сигнал выключен",
+          "pl": "Alarm przeciwpożarowy wyłączony"
         }
       }
     ],
@@ -92,7 +104,9 @@
           "sv": "Brandlarmet är !{{på|av}}",
           "no": "Brannalarmen er !{{på|av}}",
           "es": "La alarma de incendios está !{{activada|desactivada}}",
-          "da": "Brandalarmen er !{{tændt|slukket}}"
+          "da": "Brandalarmen er !{{tændt|slukket}}",
+          "ru": "Пожарный сигнал !{{вкл.|выкл.}}",
+          "pl": "Alarm przeciwpożarowy !{{włączony|wyłączony}}"
         }
       }
     ]

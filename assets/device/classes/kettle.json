@@ -8,7 +8,9 @@
     "sv": "Vattenkokare",
     "no": "Vannkoker",
     "es": "Hervidor",
-    "da": "Elkedel"
+    "da": "Elkedel",
+    "ru": "Чайник",
+    "pl": "Czajnik"
   },
   "description": {
     "en": "Use this device class for kettle devices, that can heat water.",
@@ -18,7 +20,9 @@
     "sv": "Använd den här enhetsklassen för vattenkokare, som kan värma vatten.",
     "no": "Bruk denne enhetsklassen for vannkokere som kan varme opp vann.",
     "es": "Utiliza esta clase de dispositivo para los hervidores que calientan agua.",
-    "da": "Brug denne enhedsklasse til elkedelenheder, der kan opvarme vand."
+    "da": "Brug denne enhedsklasse til elkedelenheder, der kan opvarme vand.",
+    "ru": "Используйте этот класс устройств для чайников, которые могут нагревать воду.",
+    "pl": "Użyj tej klasy urządzeń dla czajników, które ogrzewają wodę."
   },
   "$speechAlternatives": {
     "en": [
@@ -42,6 +46,16 @@
     ],
     "no": [
       "vannkoker"
+    ],
+    "ru": [
+      "чайник",
+      "чайники",
+      "кипятильник"
+    ],
+    "pl": [
+      "czajnik",
+      "czajniki",
+      "czajnik"
     ]
   }
 }

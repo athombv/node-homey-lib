@@ -8,7 +8,9 @@
     "sv": "Kanal ned",
     "no": "Lavere kanal",
     "es": "Bajar de canal",
-    "da": "Kanal ned"
+    "da": "Kanal ned",
+    "ru": "Канал вниз",
+    "pl": "Kanał w dół"
   },
   "type": "boolean",
   "getable": false,
@@ -26,7 +28,9 @@
           "sv": "En kanal ned",
           "no": "En kanal lavere",
           "es": "Un canal más abajo",
-          "da": "En kanal ned"
+          "da": "En kanal ned",
+          "ru": "Один канал вниз",
+          "pl": "Jeden kanał w dół"
         }
       }
     ]
