@@ -8,10 +8,16 @@
     "sv": "Garagedörr",
     "no": "Garasjedør",
     "es": "Puerta de garaje",
-    "da": "Garageport"
+    "da": "Garageport",
+    "ru": "Дверь гаража",
+    "pl": "Brama garażowa"
+
   },
   "description": {
-    "en": "Use this device class for garage doors, usually together with the `garagedoor_closed` capability."
+    "en": "Use this device class for garage doors, usually together with the `garagedoor_closed` capability.",
+    "ru": "Используйте этот класс устройств для дверей гаража, обычно вместе с функцией `garagedoor_closed`.",
+    "pl": "Użyj tej klasy urządzeń dla bram garażowych, zwykle razem ze zdolnością „garagedoor_closed”."
+
   },
   "$speechAlternatives": {
     "en": [
@@ -34,6 +40,16 @@
     "sv": [
       "garagedörr",
       "garageport"
+    ],
+    "ru": [
+      "дверьгаража",
+      "дверь гаража",
+      "дверь гаража"
+    ],
+    "pl": [
+      "bramagarażowa",
+      "brama garażowa",
+      "brama garażowa"
     ]
   }
 }

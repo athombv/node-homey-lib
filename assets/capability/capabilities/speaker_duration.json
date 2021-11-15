@@ -8,7 +8,9 @@
     "sv": "Längd",
     "no": "Varighet",
     "es": "Duración",
-    "da": "Varighed"
+    "da": "Varighed",
+    "ru": "Продолжительность",
+    "pl": "Czas trwania"
   },
   "type": "number",
   "getable": true,

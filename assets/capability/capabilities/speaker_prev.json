@@ -8,7 +8,9 @@
     "sv": "Föregående",
     "no": "Forrige",
     "es": "Anterior",
-    "da": "Forrige"
+    "da": "Forrige",
+    "ru": "Назад",
+    "pl": "Wróć"
   },
   "type": "boolean",
   "getable": false,
@@ -27,7 +29,9 @@
           "sv": "Föregående",
           "no": "Forrige",
           "es": "Anterior",
-          "da": "Forrige"
+          "da": "Forrige",
+          "ru": "Назад",
+          "pl": "Wróć"
         }
       }
     ]

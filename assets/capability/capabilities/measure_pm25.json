@@ -8,10 +8,13 @@
     "it": "PM2.5",
     "sv": "PM2.5",
     "no": "PM2.5",
-    "es": "PM2,5"
+    "es": "PM2,5",
+    "ru": "ТЧ 2.5",
+    "pl": "PM2.5"
   },
   "units": {
-    "en": "μg/m³"
+    "en": "μg/m³",
+    "ru": "мкг/м³"
   },
   "insights": true,
   "desc": {
@@ -23,7 +26,9 @@
     "sv": "Atmosfäriskt partikelämne (μg/m³)",
     "no": "Atmosfæriske partikler (μg/m³)",
     "es": "Partículas atmosféricas (μg/m³)",
-    "da": "Atmosfæriske partikler (μg/m³)"
+    "da": "Atmosfæriske partikler (μg/m³)",
+    "ru": "Атмосферные твердые частицы (мкг/м³)",
+    "pl": "Pył zawieszony (μg/m³)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -43,7 +48,9 @@
           "sv": "PM2.5-värdet har ändrats",
           "no": "PM2.5-verdien er endret",
           "es": "El valor de PM2,5 ha cambiado",
-          "da": "PM2.5-værdien har ændret sig"
+          "da": "PM2.5-værdien har ændret sig",
+          "ru": "Значение ТЧ 2.5 изменилось",
+          "pl": "Zmiana poziomu stężenia PM2.5"
         },
         "tokens": [
           {

@@ -7,7 +7,9 @@
     "sv": "Ställ in volym",
     "no": "Innstill volum",
     "es": "Configurar volumen",
-    "da": "Indstil lydstyrken"
+    "da": "Indstil lydstyrken",
+    "ru": "Установить громкость",
+    "pl": "Ustaw głośność"
   },
   "type": "number",
   "desc": {
@@ -19,7 +21,9 @@
     "sv": "Volym",
     "no": "Volum",
     "es": "Volumen",
-    "da": "Lydstyrke"
+    "da": "Lydstyrke",
+    "ru": "Громкость",
+    "pl": "Poziom głośności"
   },
   "chartType": "stepLine",
   "min": 0,
@@ -41,7 +45,9 @@
           "sv": "Volymen ändrades",
           "no": "Volumet ble endret",
           "es": "El volumen ha cambiado",
-          "da": "Lydstyrke blev ændret"
+          "da": "Lydstyrke blev ændret",
+          "ru": "Объем изменился",
+          "pl": "Zmiana poziomu głośności"
         },
         "tokens": [
           {
@@ -56,7 +62,9 @@
               "sv": "Volym",
               "no": "Volum",
               "es": "Volumen",
-              "da": "Lydstyrke"
+              "da": "Lydstyrke",
+              "ru": "Громкость",
+              "pl": "Poziom głośności"
             },
             "example": 0.5
           }
@@ -76,7 +84,9 @@
           "sv": "Ställ in volymen på",
           "no": "Sett volumet til",
           "es": "Configurar el volumen a",
-          "da": "Indstil lydstyrke til"
+          "da": "Indstil lydstyrke til",
+          "ru": "Установить громкость",
+          "pl": "Ustaw poziom głośności na"
         },
         "args": [
           {
@@ -97,7 +107,9 @@
         "title": {
           "en": "Set relative volume",
           "de": "Setze relative Lautsärke",
-          "nl": "Zet relatief volume"
+          "nl": "Zet relatief volume",
+          "ru": "Установить относительную громкость",
+          "pl": "Ustaw względny poziom głośności"
         },
         "hint": {
           "en": "Change the volume with respect to the device's current volume.",

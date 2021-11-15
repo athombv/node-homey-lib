@@ -8,7 +8,9 @@
     "sv": "Spelas",
     "no": "Avspilles",
     "es": "Reproduciendo",
-    "da": "Spiller"
+    "da": "Spiller",
+    "ru": "Воспроизведение",
+    "pl": "Odtwarzanie"
   },
   "type": "boolean",
   "getable": true,
@@ -28,7 +30,9 @@
           "sv": "Började spela",
           "no": "Startet spilling",
           "es": "Reproducción iniciada",
-          "da": "Begyndte at spille"
+          "da": "Begyndte at spille",
+          "ru": "Воспроизведение началось",
+          "pl": "Odtwarzanie rozpoczęte"
         }
       },
       {
@@ -42,7 +46,9 @@
           "sv": "Slutade spela",
           "no": "Stanset spilling",
           "es": "Reproducción detenida",
-          "da": "Stoppede med at spille"
+          "da": "Stoppede med at spille",
+          "ru": "Воспроизведение приостановлено",
+          "pl": "Odtwarzanie zatrzymane"
         }
       }
     ],
@@ -58,7 +64,9 @@
           "sv": "Spelas !{{|inte}}",
           "no": "Avspilles !{{|ikke}}",
           "es": "!{{Se está|No se está}} reproduciendo",
-          "da": "Spiller !{{|ikke}}"
+          "da": "Spiller !{{|ikke}}",
+          "ru": "!{{|не}} воспроизводится",
+          "pl": "!{Trwa{|nie trwa}} odtwarzanie"
         }
       }
     ],
@@ -75,7 +83,9 @@
           "sv": "Spela",
           "no": "Spill av",
           "es": "Reproducir",
-          "da": "Afspil"
+          "da": "Afspil",
+          "ru": "Воспроизвести",
+          "pl": "Odtwórz"
         }
       },
       {
@@ -90,7 +100,9 @@
           "sv": "Pausa",
           "no": "Pause",
           "es": "Pausa",
-          "da": "Pause"
+          "da": "Pause",
+          "ru": "Пауза",
+          "pl": "Pauza"
         }
       },
       {
@@ -104,7 +116,9 @@
           "sv": "Växla spela/pausa",
           "no": "Veksle mellom avspilling/pause",
           "es": "Reproducir/Pausar",
-          "da": "Skift mellem Afspil/Pause"
+          "da": "Skift mellem Afspil/Pause",
+          "ru": "Переключатель Воспроизвести/Пауза",
+          "pl": "Przełącz na Odtwórz/Pauza"
         }
       }
     ]

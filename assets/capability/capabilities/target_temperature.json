@@ -11,10 +11,13 @@
     "sv": "Måltemperatur",
     "no": "Ønsket temperatur",
     "es": "Temperatura configurada",
-    "da": "Måltemperatur"
+    "da": "Måltemperatur",
+    "ru": "Целевая температура",
+    "pl": "Cel temperatury"
   },
   "units": {
-    "en": "°C"
+    "en": "°C",
+    "ru": "°C"
   },
   "chartType": "stepLine",
   "decimals": 2,
@@ -35,7 +38,9 @@
           "sv": "Måltemperaturen ändrades",
           "no": "Ønsket temperatur ble endret",
           "es": "La temperatura configurada ha cambiado",
-          "da": "Måltemperaturen blev ændret"
+          "da": "Måltemperaturen blev ændret",
+          "ru": "Целевая температура изменена",
+          "pl": "Zmiana celu temperatury"
         },
         "tokens": [
           {
@@ -60,7 +65,9 @@
           "sv": "Ställ in temperaturen",
           "no": "Innstill temperaturen",
           "es": "Configurar la temperatura",
-          "da": "Indstil temperaturen"
+          "da": "Indstil temperaturen",
+          "ru": "Установить температуру",
+          "pl": "Ustaw temperaturę"
         },
         "args": [
           {

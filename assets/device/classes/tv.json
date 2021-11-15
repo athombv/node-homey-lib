@@ -8,7 +8,9 @@
     "sv": "TV",
     "no": "TV",
     "es": "TV",
-    "da": "TV"
+    "da": "TV",
+    "ru": "Телевизор",
+    "pl": "Telewizor"
   },
   "description": {
     "en": "Use this device class for TVs.",
@@ -18,7 +20,9 @@
     "sv": "Använd den här enhetsklassen för TV-apparater.",
     "no": "Bruk denne enhetsklassen for TV-apparater.",
     "es": "Utiliza esta clase de dispositivo para los televisores.",
-    "da": "Brug denne enhedsklasse til TV-apparater."
+    "da": "Brug denne enhedsklasse til TV-apparater.",
+    "ru": "Используйте этот класс устройств для телевизоров.",
+    "pl": "Użyj tej klasy urządzeń dla telewizorów."
   },
   "$speechAlternatives": {
     "en": [
@@ -52,6 +56,18 @@
       "tv-apparater",
       "fjernsyn",
       "tv"
+    ],
+    "ru": [
+      "телевизоры",
+      "телевизоры",
+      "телевизор",
+      "телевизор"
+    ],
+    "pl": [
+      "telewizory",
+      "telewizory",
+      "telewizor",
+      "telewizor"
     ]
   }
 }

@@ -9,7 +9,9 @@
     "sv": "Nyans",
     "no": "Fargetone",
     "es": "Tonalidad",
-    "da": "Farvetone"
+    "da": "Farvetone",
+    "ru": "Оттенок",
+    "pl": "Odcień"
   },
   "min": 0,
   "chartType": "stepLine",
@@ -31,11 +33,15 @@
           "sv": "Ställ in nyans",
           "no": "Innstill fargetone",
           "es": "Configurar la tonalidad",
-          "da": "Indstil farvetonen"
+          "da": "Indstil farvetonen",
+          "ru": "Установить оттенок",
+          "pl": "Ustaw odcień"
         },
         "hint": {
           "en": "Select a color from the hue scale, for example red (0°/360°), yellow (60°), or blue (180°).",
-          "nl": "Selecteer een kleurtint van de hue schaal, bijvoorbeeld rood (0°/360°), geel (60°), of blauw (180°)."
+          "nl": "Selecteer een kleurtint van de hue schaal, bijvoorbeeld rood (0°/360°), geel (60°), of blauw (180°).",
+          "ru": "Выберите цвет из шкалы оттенков, например красный (0°/360°), желтый (60°) или синий (180°).",
+          "pl": "Wybierz barwę ze skali odcieni: np. czerwień (0°/360°), żółty (60°) lub niebieski (180°)."
         },
         "args": [
           {
@@ -62,7 +68,9 @@
           "sv": "Ställ in en färg",
           "no": "Innstill fargetone",
           "es": "Configurar un color",
-          "da": "Indstil en farve"
+          "da": "Indstil en farve",
+          "ru": "Установить цвет",
+          "pl": "Ustaw barwę"
         },
         "args": [
           {
@@ -82,7 +90,9 @@
           "sv": "Ställ in en slumpvis färg",
           "no": "Innstill en tilfeldig farge",
           "es": "Configurar un color aleatorio",
-          "da": "Indstil en tilfældig farve"
+          "da": "Indstil en tilfældig farve",
+          "ru": "Установить случайный цвет",
+          "pl": "Ustaw losową barwę"
         }
       }
     ]

@@ -9,7 +9,10 @@
     "sv": "Lampläge",
     "no": "Lysmodus",
     "es": "Modo de la luz",
-    "da": "Lystilstand"
+    "da": "Lystilstand",
+    "ru": "Режим света",
+    "pl": "Tryb oświetlenia"
+
   },
   "desc": {
     "en": "Switch between color or temperature mode",
@@ -20,7 +23,10 @@
     "sv": "Växla mellan färg- och temperatur-läge",
     "no": "Veksle mellom farge- og temperaturmodus",
     "es": "Cambia entre los modos color y temperatura",
-    "da": "Skift mellem farve- eller temperaturtilstand"
+    "da": "Skift mellem farve- eller temperaturtilstand",
+    "ru": "Переключение между цветовым или температурным режимом",
+    "pl": "Przełączaj między trybem barwy lub temperatury"
+
   },
   "values": [
     {
@@ -34,7 +40,10 @@
         "sv": "Färg",
         "no": "Farge",
         "es": "Color",
-        "da": "Farve"
+        "da": "Farve",
+        "ru": "Цвет",
+        "pl": "Barwa"
+    
       }
     },
     {
@@ -48,7 +57,10 @@
         "sv": "Temperatur",
         "no": "Temperatur",
         "es": "Temperatura",
-        "da": "Temperatur"
+        "da": "Temperatur",
+        "ru": "Температура",
+        "pl": "Temperatura"
+    
       }
     }
   ],

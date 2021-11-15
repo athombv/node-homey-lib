@@ -9,7 +9,10 @@
     "sv": "Vindriktning",
     "no": "Vindretning",
     "es": "Dirección del aire",
-    "da": "Vindretning"
+    "da": "Vindretning",
+    "ru": "Угол порывов ветра",
+    "pl": "Kąt porywu wiatru"
+
   },
   "units": {
     "en": "°"
@@ -24,7 +27,10 @@
     "sv": "Vindriktning i grader (°)",
     "no": "Vindretning i grader (°)",
     "es": "Dirección del aire en grados (°)",
-    "da": "Vindretning i grader (°)"
+    "da": "Vindretning i grader (°)",
+    "ru": "Угол порывов ветра в градусах (°)",
+    "pl": "Kąt porywu wiatru w stopniach (°)"
+
   },
   "chartType": "stepLine",
   "decimals": 2,
@@ -44,7 +50,9 @@
           "sv": "Vindriktningen har ändrats",
           "no": "Vindretningen er endret",
           "es": "La dirección del aire ha cambiado",
-          "da": "Vindretningen skiftede"
+          "da": "Vindretningen skiftede",
+          "ru": "Угол порывов ветра изменился",
+          "pl": "Zmiana kąta porywu wiatru"
         },
         "tokens": [
           {

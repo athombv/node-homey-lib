@@ -9,10 +9,13 @@
     "sv": "Vindstyrka",
     "no": "Vindstyrke",
     "es": "Fuerza del aire",
-    "da": "Vindstyrke"
+    "da": "Vindstyrke",
+    "ru": "Сила порывов ветра",
+    "pl": "Siła porywu wiatru"
   },
   "units": {
-    "en": "km/h"
+    "en": "km/h",
+    "ru": "км/ч"
   },
   "insights": true,
   "desc": {
@@ -24,7 +27,9 @@
     "sv": "Vindstyrka i kilometer per timme (km/h)",
     "no": "Vindstyrke i kilometer per time (km/t)",
     "es": "Fuerza del aire en kilómetros por hora (km/h)",
-    "da": "Vindstyrke i kilometer i timen (km/t)"
+    "da": "Vindstyrke i kilometer i timen (km/t)",
+    "ru": "Сила порывов ветра в км в час (км/ч)",
+    "pl": "Siła porywu wiatru w kilometrach na godzinę (km/h)"
   },
   "chartType": "stepLine",
   "decimals": 2,
@@ -44,7 +49,9 @@
           "sv": "Vindstyrkan ändrades",
           "no": "Vindstyrken ble endret",
           "es": "La fuerza del aire ha cambiado",
-          "da": "Vindstyrken skiftede"
+          "da": "Vindstyrken skiftede",
+          "ru": "Сила порывов ветра изменилась",
+          "pl": "Zmiana siły porywu wiatru"
         },
         "tokens": [
           {

@@ -8,10 +8,13 @@
     "it": "CO2",
     "sv": "CO2",
     "no": "CO2",
-    "da": "CO2"
+    "da": "CO2",
+    "ru": "CO2",
+    "pl": "CO2"
   },
   "units": {
-    "en": "ppm"
+    "en": "ppm",
+    "ru": "ч./млн."
   },
   "insights": true,
   "desc": {
@@ -23,7 +26,9 @@
     "sv": "CO2 i partiklar-per-miljon (ppm)",
     "no": "CO2 i partikler per million (ppm)",
     "es": "CO2 en partes por millón (ppm)",
-    "da": "CO2 i partikler-per-million (ppm)"
+    "da": "CO2 i partikler-per-million (ppm)",
+    "ru": "CO2 в частицах на миллион (ч./млн.)",
+    "pl": "Stężenie CO2 w części na milion (ppm)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -43,7 +48,9 @@
           "sv": "CO2-nivån ändrades",
           "no": "CO2-nivet ble endret",
           "es": "El nivel de CO2 ha cambiado",
-          "da": "CO2-niveauet har ændret sig"
+          "da": "CO2-niveauet har ændret sig",
+          "ru": "CO2-уровень изменен",
+          "pl": "Zmiana poziomu stężenia CO2"
         },
         "tokens": [
           {

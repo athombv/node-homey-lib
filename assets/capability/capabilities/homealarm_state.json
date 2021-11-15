@@ -9,7 +9,9 @@
     "sv": "Hemlarmsstatus",
     "no": "Hjemmealarmstatus",
     "es": "Estado de la alarma doméstica",
-    "da": "Hjemmealarmstatus"
+    "da": "Hjemmealarmstatus",
+    "ru": "Состояние домашней сигнализации",
+    "pl": "Stan alarmu domowego"
   },
   "values": [
     {
@@ -23,7 +25,9 @@
         "sv": "Larmat",
         "no": "Aktivert",
         "es": "Activada",
-        "da": "Aktiveret"
+        "da": "Aktiveret",
+        "ru": "Готова",
+        "pl": "Uzbrojony"
       }
     },
     {
@@ -37,7 +41,9 @@
         "sv": "Avlarmat",
         "no": "Deaktivert",
         "es": "Desactivada",
-        "da": "Deaktiveret"
+        "da": "Deaktiveret",
+        "ru": "не готова",
+        "pl": "rozbrojony"
       }
     },
     {
@@ -51,7 +57,9 @@
         "sv": "Delvis larmat",
         "no": "Delvis aktivert",
         "es": "Parcialmente activada",
-        "da": "Delvist aktiveret"
+        "da": "Delvist aktiveret",
+        "ru": "Частично готова",
+        "pl": "Częściowo uzbrojony"
       }
     }
   ],
@@ -71,7 +79,9 @@
           "sv": "Statusen ändrad",
           "no": "Statusen ble endret",
           "es": "El estado ha cambiado",
-          "da": "Status ændret"
+          "da": "Status ændret",
+          "ru": "Состояние изменено",
+          "pl": "Zmiana stanu"
         },
         "args": [
           {
@@ -94,7 +104,9 @@
           "sv": "Statusen är !{{|inte}}",
           "no": "Statusen er !{{|ikke}}",
           "es": "El estado !{{|no}} es",
-          "da": "Status er !{{|ikke}}"
+          "da": "Status er !{{|ikke}}",
+          "ru": "Состояние — !{{|не}}",
+          "pl": "Stan to !{{|nie}}"
         },
         "args": [
           {
@@ -117,7 +129,9 @@
           "sv": "Ställ in status",
           "no": "Innstill status",
           "es": "Definir estado",
-          "da": "Indstil status"
+          "da": "Indstil status",
+          "ru": "Установить состояние",
+          "pl": "Ustaw stan"
         },
         "args": [
           {
