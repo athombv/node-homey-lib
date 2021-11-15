@@ -105,7 +105,7 @@
           "no": "Låsemodus !{{er|er ikke}}",
           "es": "El modo de la cerradura !{{está|no está}}",
           "da": "Lås-tilstand !{{er|er ikke}}",
-          "ru": "Режим замка — !{{ |не}}",
+          "ru": "Режим замка !{{|не}}",
           "pl": "Tryb zamknięcia !{{to|to nie}}"
         },
         "args": [
