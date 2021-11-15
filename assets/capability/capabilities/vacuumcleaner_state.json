@@ -136,7 +136,7 @@
           "no": "Støvsugeren !{{er|er ikke}}",
           "es": "La aspiradora !{{está|no está}}",
           "da": "Støvsugeren !{{er|er ikke}}",
-          "ru": "Пылесос !{{ |не}}",
+          "ru": "Пылесос !{{|не}}",
           "pl": "Stan odkurzacza !{{to|to nie}}"
         },
         "args": [
