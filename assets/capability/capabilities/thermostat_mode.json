@@ -134,7 +134,7 @@
           "no": "Termostatmodus !{{er|er ikke}}",
           "es": "El modo del termostato !{{está|no está}}",
           "da": "Termostattilstand !{{er|er ikke}}",
-          "ru": "Режим термостата — !{{ |не}}",
+          "ru": "Режим термостата !{{ |не}}",
           "pl": "Tryb termostatu !{{to|to nie}}"
         },
         "args": [
