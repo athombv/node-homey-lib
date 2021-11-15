@@ -105,7 +105,7 @@
           "no": "CO-alarmen er !{{på|av}}",
           "es": "La alarma de CO está !{{activada|desactivada}}",
           "da": "CO-alarmen er !{{on|off}}",
-          "ru": "Сигнал CO !{{on|off}}",
+          "ru": "Сигнал CO !{{вкл.|выкл.}}",
           "pl": "Alarm Alarm o CO !{{włączony|wyłączony}}"
         }
       }

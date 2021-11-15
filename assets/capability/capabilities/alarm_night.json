@@ -104,7 +104,7 @@
           "no": "Nattalarmen er !{{på|av}}",
           "es": "La alarma nocturna está !{{activada|desactivada}}",
           "da": "Natalarmen er !{{tændt|slukket}}",
-          "ru": "Ночной сигнал !{{on|off}}",
+          "ru": "Ночной сигнал !{{вкл.|выкл.}}",
           "pl": "Alarm nocny !{{włączony|wyłączony}}"
         }
       }

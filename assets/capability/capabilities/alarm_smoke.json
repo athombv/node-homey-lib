@@ -111,7 +111,7 @@
           "no": "Røykalarmen er !{{på|av}}",
           "es": "La alarma de humo está !{{activada|desactivada}}",
           "da": "Røgalarmen er !{{tændt|slukket}}",
-          "ru": "Сигнал дыма !{{on|off}}",
+          "ru": "Сигнал дыма !{{вкл.|выкл.}}",
           "pl": "Alarm przeciwdymny !{{włączony|wyłączony}}"
       
         }

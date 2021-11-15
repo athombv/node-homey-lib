@@ -95,7 +95,7 @@
           "no": "Bevegelsesalarmen er !{{på|av}}",
           "es": "La alarma de movimiento está !{{activada|desactivada}}",
           "da": "Bevægelsesalarmen er !{{tændt|slukket}}",
-          "ru": "Сигнал движения !{{on|off}}",
+          "ru": "Сигнал движения !{{вкл.|выкл.}}",
           "pl": "Czujnik ruchu !{{włączony|wyłączony}}"
         }
       }

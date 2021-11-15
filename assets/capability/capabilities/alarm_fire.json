@@ -105,7 +105,7 @@
           "no": "Brannalarmen er !{{på|av}}",
           "es": "La alarma de incendios está !{{activada|desactivada}}",
           "da": "Brandalarmen er !{{tændt|slukket}}",
-          "ru": "Пожарный сигнал !{{on|off}}",
+          "ru": "Пожарный сигнал !{{вкл.|выкл.}}",
           "pl": "Alarm przeciwpożarowy !{{włączony|wyłączony}}"
         }
       }

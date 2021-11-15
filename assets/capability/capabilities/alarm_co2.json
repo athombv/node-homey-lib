@@ -103,7 +103,7 @@
           "no": "CO2-alarmen er !{{på|av}}",
           "es": "La alarma de CO2 está !{{activada|desactivada}}",
           "da": "CO2-alarmen er !{{tændt|slukket}}",
-          "ru": "Сигнал CO2 !{{on|off}}",
+          "ru": "Сигнал CO2 !{{вкл.|выкл.}}",
           "pl": "Alarm o CO2 !{{włączony|wyłączony}}"
         }
       }

@@ -64,7 +64,7 @@
           "no": "Er !{{lukket|åpen}}",
           "es": "Está !{{cerrado|abierto}}",
           "da": "Er !{{lukket|åben}}",
-          "ru": "!{{closed|open}}",
+          "ru": "!{{закрыта|открыта}}",
           "pl": "Jest !{{zamknięta|otwarta}}"
         }
       }

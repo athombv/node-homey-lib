@@ -105,7 +105,7 @@
           "no": "Statusen er !{{|ikke}}",
           "es": "El estado !{{|no}} es",
           "da": "Status er !{{|ikke}}",
-          "ru": "Состояние — !{{|not}}",
+          "ru": "Состояние — !{{|не}}",
           "pl": "Stan to !{{|nie}}"
         },
         "args": [

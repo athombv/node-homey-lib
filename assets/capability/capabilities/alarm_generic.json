@@ -104,7 +104,7 @@
           "no": "Den generelle alarmen er !{{på|av}}",
           "es": "La alarma general está !{{activada|desactivada}}",
           "da": "Den generiske alarm er !{{tændt|slukket}}",
-          "ru": "Общий сигнал !{{on|off}}",
+          "ru": "Общий сигнал !{{вкл.|выкл.}}",
           "pl": "Alarm ogólny !{{włączony|wyłączony}}"
         }
       }

@@ -105,7 +105,7 @@
           "no": "Varmealarmen er !{{på|av}}",
           "es": "La alarma de calor está !{{activada|desactivada}}",
           "da": "Varmealarmen er !{{tændt|slukket}}",
-          "ru": "Сигнал перегрева !{{on|off}}",
+          "ru": "Сигнал перегрева !{{вкл.|выкл.}}",
           "pl": "Alarm termiczny !{{włączony|wyłączony}}"
         }
       }

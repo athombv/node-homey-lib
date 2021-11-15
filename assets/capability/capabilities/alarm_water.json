@@ -105,7 +105,7 @@
           "no": "Vannalarmen er !{{på|av}}",
           "es": "La alarma de agua está !{{activada|desactivada}}",
           "da": "Vandalarmen er !{{tændt|slukket}}",
-          "ru": "Сигнал протечки воды !{{on|off}}",
+          "ru": "Сигнал протечки воды !{{вкл.|выкл.}}",
           "pl": "Alarm zalania wodą !{{włączony|wyłączony}}"
         }
       }

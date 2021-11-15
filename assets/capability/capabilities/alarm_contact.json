@@ -108,7 +108,7 @@
           "no": "Kontaktalarmen er !{{på|av}}",
           "es": "La alarma de contacto está !{{activada|desactivada}}",
           "da": "Kontaktalarmen er !{{tændt|slukket}}",
-          "ru": "Контактный сигнал !{{on|off}}",
+          "ru": "Контактный сигнал !{{вкл.|выкл.}}",
           "pl": "Alarm otwarcia !{{włączony|wyłączony}}"
         }
       }

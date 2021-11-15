@@ -104,7 +104,7 @@
           "no": "En lås er !{{låst|ulåst}}",
           "es": "Una cerradura está !{{cerrada|abierta}}",
           "da": "En lås er blevet !{{låst|låst op}}",
-          "ru": "Замок — !{{locked|unlocked}}",
+          "ru": "Замок !{{закрыт|открыт}}",
           "pl": "Zamek jest !{{zablokowany|odblokowany}}"
         }
       }

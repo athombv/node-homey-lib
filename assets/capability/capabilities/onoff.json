@@ -128,7 +128,7 @@
           "no": "Er slått !{{på|av}}",
           "es": "Está !{{encendido|apagado}}",
           "da": "Er !{{tændt|slukket}}",
-          "ru": "Включен или выключен: !{{on|off}}",
+          "ru": "!{{Вкл.|Выкл.}}",
           "pl": "Jest !{{włączone|wyłączone}}"
         }
       },
@@ -144,7 +144,7 @@
           "no": "Er !{{åpen|lukket}}",
           "es": "Está !{{abierto|cerrado}}",
           "da": "Er !{{åben|lukket}}",
-          "ru": "!{{open|closed}}",
+          "ru": "!{{Открыто|Закрыто}}",
           "pl": "Jest !{{otwarte|zamknięte}}"
         },
         "$filter": {
