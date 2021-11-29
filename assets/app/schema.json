@@ -926,10 +926,6 @@
     "compatibility",
     "author"
   ],
-  "requiredVerified": [
-    "platforms",
-    "support"
-  ],
   "properties": {
     "id": {
       "type": "string"
@@ -1084,10 +1080,6 @@
           "name",
           "class",
           "capabilities"
-        ],
-        "requiredVerified": [
-          "platforms",
-          "connectivity"
         ],
         "properties": {
           "id": {
