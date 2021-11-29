@@ -211,9 +211,6 @@
                   "name",
                   "type"
                 ],
-                "requiredVerified": [
-                  "title"
-                ],
                 "properties": {
                   "title": {
                     "$ref": "#/definitions/i18nObject"
@@ -252,9 +249,6 @@
                 "required": [
                   "name",
                   "type"
-                ],
-                "requiredVerified": [
-                  "title"
                 ],
                 "properties": {
                   "title": {
@@ -299,9 +293,6 @@
                   "name",
                   "type",
                   "values"
-                ],
-                "requiredVerified": [
-                  "title"
                 ],
                 "properties": {
                   "title": {
