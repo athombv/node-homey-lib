@@ -926,11 +926,6 @@
     "compatibility",
     "author"
   ],
-  "requiredPublish": [
-    "category",
-    "images",
-    "brandColor"
-  ],
   "requiredVerified": [
     "platforms",
     "support"
@@ -1089,9 +1084,6 @@
           "name",
           "class",
           "capabilities"
-        ],
-        "requiredPublish": [
-          "images"
         ],
         "requiredVerified": [
           "platforms",
