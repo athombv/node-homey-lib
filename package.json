@@ -3,6 +3,9 @@
   "version": "2.13.5",
   "description": "Shared Library for Homey",
   "main": "index.js",
+  "engines": {
+    "node": ">=12.13.0"
+  },
   "scripts": {
     "build": "npm ci; npm run pack",
     "pack": "webpack",
