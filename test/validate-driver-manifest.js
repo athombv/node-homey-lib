@@ -152,8 +152,8 @@ describe('HomeyLib.App#validate() driver manifest', function() {
 
     await assertValidates(app, {
       debug: true, // debug does not validate images
-      publish: /should have required property 'images'/i,
-      verified: /should have required property 'images'/i,
+      publish: /property `images` is required/i,
+      verified: /property `images` is required/i,
     });
   });
 
@@ -193,7 +193,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     await assertValidates(app, {
       debug: true, // platforms is optional for debug, but will warn
       publish: true, // platforms is optional for publish, but will warn
-      verified: /should have required property 'platforms'/i,
+      verified: /property `platforms` is required/i,
     });
   });
 
@@ -229,7 +229,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     await assertValidates(app, {
       debug: true, // connectivity is optional for debug
       publish: true, // connectivity is optional for publish
-      verified: /should have required property 'connectivity'/i,
+      verified: /property `connectivity` is required/i,
     });
   });
 
