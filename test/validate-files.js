@@ -259,9 +259,9 @@ describe('HomeyLib.App#validate() files', function() {
     const app = new HomeyLib.App('test_app');
 
     await assertValidates(app, {
-      debug: false,
-      publish: false,
-      verified: false,
+      debug: /no such file or directory/i,
+      publish: /no such file or directory/i,
+      verified: /no such file or directory/i,
     });
   });
 });

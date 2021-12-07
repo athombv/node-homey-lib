@@ -111,19 +111,19 @@ async function assertValidates(app, { debug, publish, verified }) {
   if (verified === true) {
     await assert.doesNotReject(() => app.validate({ level: 'verified' }), '`verified` validation');
   } else {
-    await assert.rejects(() => app.validate({ level: 'verified' }), verified || undefined, '`verified` validation');
+    await assert.rejects(() => app.validate({ level: 'verified' }), verified, '`verified` validation');
   }
 
   if (publish === true) {
     await assert.doesNotReject(() => app.validate({ level: 'publish' }), '`publish` validation');
   } else {
-    await assert.rejects(() => app.validate({ level: 'publish' }), publish || undefined, '`publish` validation');
+    await assert.rejects(() => app.validate({ level: 'publish' }), publish, '`publish` validation');
   }
 
   if (debug === true) {
     await assert.doesNotReject(() => app.validate({ level: 'debug' }), '`debug` validation');
   } else {
-    await assert.rejects(() => app.validate({ level: 'debug' }), debug || undefined, '`debug` validation');
+    await assert.rejects(() => app.validate({ level: 'debug' }), debug, '`debug` validation');
   }
 }
 
