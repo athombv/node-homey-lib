@@ -26,8 +26,7 @@ jobs:
     # Define a strategy for running these tests on various operating systems and Node.js versions in parallel.
     strategy:
       matrix:
-        os: [macos-latest, windows-latest, ubuntu-latest]
-        node: [12, 14, 16]
+        node: [12, 16]
 
     steps:
       # Checks out the current repository.
