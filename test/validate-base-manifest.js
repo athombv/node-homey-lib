@@ -75,8 +75,8 @@ describe('HomeyLib.App#validate() base manifest', function() {
 
     await assertValidates(app, {
       debug: true, // brandColor is optional for debug
-      publish: /should have required property 'brandColor'/i,
-      verified: /should have required property 'brandColor'/i,
+      publish: /property `brandColor` is required/i,
+      verified: /property `brandColor` is required/i,
     });
   });
 
@@ -223,7 +223,7 @@ describe('HomeyLib.App#validate() base manifest', function() {
     await assertValidates(app, {
       debug: true, // platforms is optional for debug
       publish: true, // platforms is optional for publish
-      verified: /should have required property 'platforms'/i,
+      verified: /property `platforms` is required/i,
     });
   });
 
@@ -252,8 +252,8 @@ describe('HomeyLib.App#validate() base manifest', function() {
 
     await assertValidates(app, {
       debug: true, // category is optional for debug
-      publish: /should have required property 'category'/i,
-      verified: /should have required property 'category'/i,
+      publish: /property `category` is required/i,
+      verified: /property `category` is required/i,
     });
   });
 
@@ -312,8 +312,8 @@ describe('HomeyLib.App#validate() base manifest', function() {
 
     await assertValidates(app, {
       debug: true, // debug does not validate images
-      publish: /should have required property 'images'/i,
-      verified: /should have required property 'images'/i,
+      publish: /property `images` is required/i,
+      verified: /property `images` is required/i,
     });
   });
 
@@ -411,7 +411,7 @@ describe('HomeyLib.App#validate() base manifest', function() {
     await assertValidates(app, {
       debug: true, // support is optional for debug
       publish: true, // support is optional for publish
-      verified: /should have required property 'support'/i,
+      verified: /property `support` is required/i,
     });
   });
 

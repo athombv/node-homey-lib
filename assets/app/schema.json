@@ -211,9 +211,6 @@
                   "name",
                   "type"
                 ],
-                "requiredVerified": [
-                  "title"
-                ],
                 "properties": {
                   "title": {
                     "$ref": "#/definitions/i18nObject"
@@ -252,9 +249,6 @@
                 "required": [
                   "name",
                   "type"
-                ],
-                "requiredVerified": [
-                  "title"
                 ],
                 "properties": {
                   "title": {
@@ -299,9 +293,6 @@
                   "name",
                   "type",
                   "values"
-                ],
-                "requiredVerified": [
-                  "title"
                 ],
                 "properties": {
                   "title": {
@@ -926,15 +917,6 @@
     "compatibility",
     "author"
   ],
-  "requiredPublish": [
-    "category",
-    "images",
-    "brandColor"
-  ],
-  "requiredVerified": [
-    "platforms",
-    "support"
-  ],
   "properties": {
     "id": {
       "type": "string"
@@ -1089,13 +1071,6 @@
           "name",
           "class",
           "capabilities"
-        ],
-        "requiredPublish": [
-          "images"
-        ],
-        "requiredVerified": [
-          "platforms",
-          "connectivity"
         ],
         "properties": {
           "id": {

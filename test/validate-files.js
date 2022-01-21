@@ -35,8 +35,8 @@ describe('HomeyLib.App#validate() files', function() {
 
     await assertValidates(app, {
       debug: true,
-      publish: /should have required property/i,
-      verified: /should have required property/i,
+      publish: /property `category` is required/i,
+      verified: /property `platforms` is required/i,
     });
   });
 
@@ -64,7 +64,7 @@ describe('HomeyLib.App#validate() files', function() {
     await assertValidates(app, {
       debug: true,
       publish: true,
-      verified: /should have required property/i,
+      verified: /property `platforms` is required/i,
     });
   });
 
