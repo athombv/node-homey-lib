@@ -1,0 +1,51 @@
+name: Test
+
+# Optional secrets:
+# - SSH_KEY: if `npm ci` needs to install private npm packages, make sure to enable webfactory/ssh-agent@v0.2.0 step
+
+# GitHub repo configuration:
+# 1. If you have protected branches, go to Branches > edit protected branch > enable 'Require status checks to pass before 
+#    merging' and select the 'Test' status check.
+
+# Note: make sure to commit package-lock.json, this is needed for `npm ci`.
+
+# Defines the trigger for this action (by default on push to master/production and on all pull requests)
+# For more information see: https://help.github.com/en/actions/automating-your-workflow-with-github-actions/events-that-trigger-workflows#about-workflow-events)
+on:
+  push:
+    branches:
+      - master
+      - production
+  pull_request:
+
+jobs:
+  test:
+    name: Run
+    runs-on: ubuntu-latest
+
+    # Define a strategy for running these tests on various operating systems and Node.js versions in parallel.
+    strategy:
+      matrix:
+        node: [12, 16]
+
+    steps:
+      # Checks out the current repository.
+      - uses: actions/checkout@v2
+
+      # Configures a Node.js environment.
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }} # Important: use the matrix.node property when using a matrix strategy
+      
+      # Set SSH key
+      - uses: webfactory/ssh-agent@v0.4.1
+        env:
+          SSH_KEY: ${{ secrets.SSH_KEY }}
+        if: env.SSH_KEY != null
+        with:
+          ssh-private-key: ${{ env.SSH_KEY }}
+
+      # Run `npm ci` to re-create your local environment (make sure to commit your package-lock.json!).
+      # Finally run `npm test` (make sure you have defined a proper test command in package.json).
+      - run: npm ci
+      - run: npm test
