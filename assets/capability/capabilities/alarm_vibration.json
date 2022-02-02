@@ -35,7 +35,7 @@
       {
         "id": "alarm_vibration",
         "title": {
-          "en": "The Vibration alarm is !{{on|off}}"
+          "en": "The vibration alarm is !{{on|off}}"
         }
       }
     ]
