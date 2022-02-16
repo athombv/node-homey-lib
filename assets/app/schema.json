@@ -1041,6 +1041,15 @@
                 }
               }
             },
+            "patreon": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "username": {
+                  "type": "string"
+                }
+              }
+            },
             "crypto": {
               "type": "object",
               "additionalProperties": false,
