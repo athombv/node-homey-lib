@@ -1023,6 +1023,41 @@
           "type": "object",
           "additionalProperties": false,
           "properties": {
+            "githubSponsors": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "username": {
+                  "type": "string"
+                }
+              }
+            },
+            "bunq": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "username": {
+                  "type": "string"
+                }
+              }
+            },
+            "crypto": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "protocol": {
+                  "type": "string",
+                  "enum": [
+                    "bitcoin",
+                    "bitcoinCash",
+                    "ethereum"
+                  ]
+                },
+                "address": {
+                  "type": "string"
+                }
+              }
+            },
             "paypal": {
               "type": "object",
               "additionalProperties": false,
