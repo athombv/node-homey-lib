@@ -23,39 +23,5 @@
     "da": "Brug denne enhedsklasse til elkedelenheder, der kan opvarme vand.",
     "ru": "Используйте этот класс устройств для чайников, которые могут нагревать воду.",
     "pl": "Użyj tej klasy urządzeń dla czajników, które ogrzewają wodę."
-  },
-  "$speechAlternatives": {
-    "en": [
-      "kettle",
-      "kettles",
-      "water cooker"
-    ],
-    "nl": [
-      "ketel",
-      "waterkoker"
-    ],
-    "fr": [
-      "bouilloire"
-    ],
-    "it": [
-      "bollitore",
-      "bollitori"
-    ],
-    "sv": [
-      "vattenkokare"
-    ],
-    "no": [
-      "vannkoker"
-    ],
-    "ru": [
-      "чайник",
-      "чайники",
-      "кипятильник"
-    ],
-    "pl": [
-      "czajnik",
-      "czajniki",
-      "czajnik"
-    ]
   }
 }

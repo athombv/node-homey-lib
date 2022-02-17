@@ -45,36 +45,5 @@
     "kettle",
     "tv",
     "solarpanel"
-  ],
-  "$speechAlternatives": {
-    "en": [
-      "socket",
-      "plug"
-    ],
-    "nl": [
-      "schakelaar",
-      "wandschakelaar",
-      "stekkerdoos",
-      "tussenstekker"
-    ],
-    "fr": [
-      "prise"
-    ],
-    "it": [
-      "presa",
-      "spina"
-    ],
-    "sv": [
-      "uttag",
-      "kontakt"
-    ],
-    "ru": [
-      "розетка",
-      "розетка"
-    ],
-    "pl": [
-      "gniazdkoelektryczne",
-      "wtyczka"
-    ]
-  }
+  ]
 }

@@ -18,38 +18,5 @@
     "ru": "Используйте этот класс устройств для дверей гаража, обычно вместе с функцией `garagedoor_closed`.",
     "pl": "Użyj tej klasy urządzeń dla bram garażowych, zwykle razem ze zdolnością „garagedoor_closed”."
 
-  },
-  "$speechAlternatives": {
-    "en": [
-      "garagedoor",
-      "garage door",
-      "garage door"
-    ],
-    "nl": [
-      "garagedeur",
-      "garage deur",
-      "garage deuren"
-    ],
-    "fr": [
-      "porte de garage"
-    ],
-    "it": [
-      "porta del garage",
-      "basculante"
-    ],
-    "sv": [
-      "garagedörr",
-      "garageport"
-    ],
-    "ru": [
-      "дверьгаража",
-      "дверь гаража",
-      "дверь гаража"
-    ],
-    "pl": [
-      "bramagarażowa",
-      "brama garażowa",
-      "brama garażowa"
-    ]
   }
 }

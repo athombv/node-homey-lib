@@ -23,51 +23,5 @@
     "da": "Brug denne enhedsklasse til TV-apparater.",
     "ru": "Используйте этот класс устройств для телевизоров.",
     "pl": "Użyj tej klasy urządzeń dla telewizorów."
-  },
-  "$speechAlternatives": {
-    "en": [
-      "tvs",
-      "televisions",
-      "television",
-      "tv"
-    ],
-    "nl": [
-      "tv's",
-      "televisie",
-      "televisies",
-      "tv"
-    ],
-    "fr": [
-      "tv",
-      "télévisions",
-      "téléviseurs"
-    ],
-    "it": [
-      "tv",
-      "televisione",
-      "televisore"
-    ],
-    "sv": [
-      "tv-apparater",
-      "television",
-      "tv"
-    ],
-    "no": [
-      "tv-apparater",
-      "fjernsyn",
-      "tv"
-    ],
-    "ru": [
-      "телевизоры",
-      "телевизоры",
-      "телевизор",
-      "телевизор"
-    ],
-    "pl": [
-      "telewizory",
-      "telewizory",
-      "telewizor",
-      "telewizor"
-    ]
   }
 }

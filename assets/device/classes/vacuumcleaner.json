@@ -23,46 +23,5 @@
     "da": "Brug denne enhedsklasse til støvsugere, normalt sammen med `vacuumcleaner_state` funktionen.",
     "ru": "Используйте этот класс устройств для пылесосов, обычно вместе с функцией `vacuumcleaner_state`.",
     "pl": "Użyj tej klasy urządzeń dla odkurzaczy, zwykle razem ze zdolnością `vacuumcleaner_state`."
-  },
-  "$speechAlternatives": {
-    "en": [
-      "vacuum cleaner",
-      "vacuumcleaner",
-      "vacuum cleaners",
-      "vacuumcleaners",
-      "vacuum"
-    ],
-    "nl": [
-      "stofzuiger",
-      "stofzuigers"
-    ],
-    "fr": [
-      "aspirateur",
-      "aspirateurs"
-    ],
-    "it": [
-      "aspirapolvere",
-      "aspiratore"
-    ],
-    "sv": [
-      "dammsugare"
-    ],
-    "no": [
-      "støvsuger"
-    ],
-    "ru": [
-      "пылесос",
-      "пылесос",
-      "пылесосы",
-      "пылесосы",
-      "пылесос"
-    ],
-    "pl": [
-      "odkurzacz",
-      "odkurzacz",
-      "odkurzacze",
-      "odkurzacze",
-      "odkurzacz"
-    ]
   }
 }

@@ -23,46 +23,5 @@
     "da": "Brug denne enhedsklasse til markiser (vinduesdække mod solen).",
     "ru": "Используйте этот класс устройств для навесов (оконных навесов от солнца).",
     "pl": "Użyj tej klasy urządzeń dla markiz (osłony okienne chroniące przed słońcem)."
-  },
-  "$speechAlternatives": {
-    "en": [
-      "sunscreen",
-      "sunscreens",
-      "sunshade",
-      "sunshades"
-    ],
-    "nl": [
-      "zonnescherm",
-      "zonneschermen",
-      "luifel",
-      "zonwering",
-      "zonnewering"
-    ],
-    "fr": [
-      "auvent",
-      "parasol",
-      "pare-soleil"
-    ],
-    "it": [
-      "parasole",
-      "scuretti"
-    ],
-    "sv": [
-      "solskydd",
-      "markis",
-      "markiser"
-    ],
-    "ru": [
-      "солнцезащитные жалюзи",
-      "солнцезащитные жалюзи",
-      "навес",
-      "навесы"
-    ],
-    "pl": [
-      "osłonaprzeciwsłoneczna",
-      "osłonyprzeciwsłoneczne",
-      "markiza",
-      "markizy"
-    ]
   }
 }
