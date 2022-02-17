@@ -7,7 +7,10 @@
     "build": "npm ci; npm run pack",
     "pack": "webpack",
     "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --parallel"
+  },
+  "engines": {
+    "node": ">=12.13.0"
   },
   "repository": {
     "type": "git",
@@ -25,14 +28,12 @@
     "semver": "^5.7.0",
     "tinycolor2": "^1.4.1"
   },
-  "config": {
-    "npmPublishTagProduction": "latest",
-    "npmPublishTagTesting": "beta",
-    "nodeVersion": "8"
-  },
   "devDependencies": {
     "eslint": "^7.31.0",
     "eslint-config-athom": "^2.1.1",
+    "mocha": "^9.1.3",
+    "mock-fs": "^5.1.2",
+    "set-value": "^4.1.0",
     "webpack": "^4.46.0",
     "webpack-cli": "^4.7.2"
   }

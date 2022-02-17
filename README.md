@@ -1,5 +1,7 @@
 # Homey Library
 
+[![Test](https://github.com/athombv/node-homey-lib/actions/workflows/test.yml/badge.svg)](https://github.com/athombv/node-homey-lib/actions/workflows/test.yml)
+
 This library contains shared code between Homey, Homey Apps, Athom CLI, Athom Developer and others.
 
 This library can, among other things:
