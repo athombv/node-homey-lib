@@ -1023,6 +1023,33 @@
           "type": "object",
           "additionalProperties": false,
           "properties": {
+            "githubSponsors": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "username": {
+                  "type": "string"
+                }
+              }
+            },
+            "bunq": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "username": {
+                  "type": "string"
+                }
+              }
+            },
+            "patreon": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "username": {
+                  "type": "string"
+                }
+              }
+            },
             "paypal": {
               "type": "object",
               "additionalProperties": false,
