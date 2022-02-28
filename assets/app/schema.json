@@ -1050,23 +1050,6 @@
                 }
               }
             },
-            "crypto": {
-              "type": "object",
-              "additionalProperties": false,
-              "properties": {
-                "protocol": {
-                  "type": "string",
-                  "enum": [
-                    "bitcoin",
-                    "bitcoinCash",
-                    "ethereum"
-                  ]
-                },
-                "address": {
-                  "type": "string"
-                }
-              }
-            },
             "paypal": {
               "type": "object",
               "additionalProperties": false,
