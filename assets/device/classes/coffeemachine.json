@@ -23,37 +23,5 @@
     "da": "Brug denne enhedsklasse til kaffemaskiner.",
     "ru": "Используйте этот класс устройств для кофемашин.",
     "pl": "Użyj tej klasy urządzeń dla ekspresów do kawy."
-  },
-  "$speechAlternatives": {
-    "en": [
-      "coffee machine",
-      "coffee machines"
-    ],
-    "nl": [
-      "koffiezetapparaat",
-      "koffiemachine",
-      "koffie zet apparaat"
-    ],
-    "fr": [
-      "machine à café",
-      "cafetière"
-    ],
-    "it": [
-      "macchina per il caffè",
-      "caffettiera"
-    ],
-    "sv": [
-      "kaffemaskin",
-      "kaffemaskiner",
-      "kaffebryggare"
-    ],
-    "ru": [
-      "кофемашина",
-      "кофемашины"
-    ],
-    "pl": [
-      "ekspres do kawy",
-      "ekspresy do kawy"
-    ]
   }
 }

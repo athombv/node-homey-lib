@@ -23,34 +23,5 @@
     "da": "Brug denne enhedsklasse til låseenheder, normalt sammen med `locked` and `lock_mode` funktionerne.",
     "ru": "Используйте этот класс устройств для замков, обычно вместе с функциями `locked` и `lock_mode`.",
     "pl": "Użyj tej klasy urządzeń dla produktów z zamkiem, zwykle razem ze zdolnościami `locked` i `lock_mode`."
-  },
-  "$speechAlternatives": {
-    "en": [
-      "lock",
-      "locks"
-    ],
-    "nl": [
-      "slot",
-      "sloten"
-    ],
-    "fr": [
-      "verrou",
-      "verrous"
-    ],
-    "it": [
-      "serratura",
-      "serrature"
-    ],
-    "sv": [
-      "lås"
-    ],
-    "ru": [
-      "замок",
-      "замки"
-    ],
-    "pl": [
-      "zamek",
-      "zamki"
-    ]
   }
 }

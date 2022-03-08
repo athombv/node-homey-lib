@@ -45,32 +45,5 @@
     "sunshade",
     "blinds",
     "curtain"
-  ],
-  "$speechAlternatives": {
-    "en": [
-      "relay",
-      "relays"
-    ],
-    "nl": [
-      "relais"
-    ],
-    "fr": [
-      "relais"
-    ],
-    "it": [
-      "relé"
-    ],
-    "sv": [
-      "relä",
-      "relän"
-    ],
-    "ru": [
-      "узел",
-      "узлы"
-    ],
-    "pl": [
-      "przekaźnik",
-      "przekaźniki"
-    ]
-  }
+  ]
 }
