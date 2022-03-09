@@ -23,36 +23,5 @@
     "da": "Brug denne enhedsklasse til sensorer, f-eks en kontakt- eller bevægelsessensor.",
     "ru": "Используйте этот класс устройства для датчиков, например датчиков контакта или движения.",
     "pl": "Użyj tej klasy urządzeń dla czujników, np. czujnika otwarcia lub ruchu."
-  },
-  "$speechAlternatives": {
-    "en": [
-      "sensor",
-      "sensors"
-    ],
-    "nl": [
-      "sensor",
-      "sensors",
-      "sensoren"
-    ],
-    "fr": [
-      "capteur",
-      "capteurs"
-    ],
-    "it": [
-      "sensore",
-      "sensori"
-    ],
-    "sv": [
-      "sensor",
-      "sensorer"
-    ],
-    "ru": [
-      "датчик",
-      "датчики"
-    ],
-    "pl": [
-      "czujnik",
-      "czujniki"
-    ]
   }
 }

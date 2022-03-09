@@ -25,41 +25,5 @@
     "ru": "Используйте этот класс устройств для ламп, обычно вместе с функциями `onoff`,`dim` и `light_ *`.",
     "pl": "Użyj tej klasy urządzeń dla oświetlenia, zwykle razem ze zdolnościami `onoff`, `dim` oraz `light_*`."
 
-  },
-  "$speechAlternatives": {
-    "en": [
-      "light",
-      "lights",
-      "lamp"
-    ],
-    "nl": [
-      "licht",
-      "lichten",
-      "lamp",
-      "verlichting"
-    ],
-    "fr": [
-      "lumière",
-      "lampe",
-      "lampes"
-    ],
-    "it": [
-      "luce",
-      "luci",
-      "lampada"
-    ],
-    "sv": [
-      "ljus",
-      "lampor",
-      "lampa"
-    ],
-    "ru": [
-      "лампа",
-      "лампы"
-    ],
-    "pl": [
-      "oświetlenie",
-      "lampa"
-    ]
   }
 }

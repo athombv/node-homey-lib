@@ -23,35 +23,5 @@
     "da": "Brug denne enhedsklasse til termostater, enten til hele hjemmet eller på radiatorer, normalt sammen med `measure_temperature`, `target_temperature` og `thermostat_mode` funktionerne.",
     "ru": "Используйте этот класс устройств для термостатов для всего дома или для термостатов на радиаторах, обычно вместе с функциями `measure_temperature`, `target_temperature` и `thermostat_mode`.",
     "pl": "Użyj tej klasy urządzeń dla termostatów, zarówno dla całego domu, jak i urządzeń podłączanych do kaloryferów; zwykle razem ze zdolnościami `measure_temperature`, `target_temperature` oraz `thermostat_mode`."
-  },
-  "$speechAlternatives": {
-    "en": [
-      "thermostat",
-      "thermostats"
-    ],
-    "nl": [
-      "thermostaat",
-      "thermostaten"
-    ],
-    "it": [
-      "termostato",
-      "termostati"
-    ],
-    "sv": [
-      "termostat",
-      "termostater"
-    ],
-    "no": [
-      "termostat",
-      "termostater"
-    ],
-    "ru": [
-      "термостат",
-      "термостаты"
-    ],
-    "pl": [
-      "termostat",
-      "termostaty"
-    ]
   }
 }

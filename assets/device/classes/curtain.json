@@ -23,39 +23,5 @@
     "da": "Brug denne enhedsklasse til gardiner.",
     "ru": "Используйте этот класс устройств для штор.",
     "pl": "Użyj tej klasy urządzeń dla zasłon."
-  },
-  "$speechAlternatives": {
-    "en": [
-      "curtains",
-      "curtain"
-    ],
-    "nl": [
-      "gordijnen",
-      "gordijn"
-    ],
-    "fr": [
-      "rideaux",
-      "rideau"
-    ],
-    "it": [
-      "tende",
-      "tenda"
-    ],
-    "sv": [
-      "gardiner",
-      "gardin"
-    ],
-    "no": [
-      "gardiner",
-      "gardin"
-    ],
-    "ru": [
-      "Шторы",
-      "штора"
-    ],
-    "pl": [
-      "zasłony",
-      "zasłona"
-    ]
   }
 }

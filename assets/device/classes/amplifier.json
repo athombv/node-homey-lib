@@ -23,38 +23,5 @@
     "da": "Brug denne enhedsklasse til lydforstærkerenheder.",
     "ru": "Используйте этот класс устройств усилителей звука.",
     "pl": "Użyj tej klasy urządzeń dla wzmacniaczy audio."
-  },
-  "$speechAlternatives": {
-    "en": [
-      "amp",
-      "amplifier",
-      "tuner"
-    ],
-    "nl": [
-      "versterker"
-    ],
-    "fr": [
-      "amp",
-      "amplificateur",
-      "tuner"
-    ],
-    "it": [
-      "amp",
-      "amplificatore",
-      "sintonizzatore"
-    ],
-    "sv": [
-      "förstärkare",
-      "tuner"
-    ],
-    "ru": [
-      "ампер",
-      "усилитель",
-      "тюнер"
-    ],
-    "pl": [
-      "wzmacniacz",
-      "tuner"
-    ]
   }
 }

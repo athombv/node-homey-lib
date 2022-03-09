@@ -23,34 +23,5 @@
     "da": "Brug denne enhedsklasse til enheder, der kan afspille musik, normalt sammen med `speaker_*` funktionerne.",
     "ru": "Используйте этот класс устройств для устройств, воспроизводящих музыку, обычно вместе с функцией `speaker_*`.",
     "pl": "Użyj tej klasy urządzeń dla produktów, które mogą odtwarzać muzykę, zwykle razem ze zdolnością `speaker_*`."
-  },
-  "$speechAlternatives": {
-    "en": [
-      "speaker",
-      "speakers"
-    ],
-    "nl": [
-      "speaker",
-      "speakers"
-    ],
-    "fr": [
-      "haut-parleur",
-      "haut-parleurs"
-    ],
-    "it": [
-      "altoparlante",
-      "casse"
-    ],
-    "sv": [
-      "högtalare"
-    ],
-    "ru": [
-      "колонка",
-      "колонки"
-    ],
-    "pl": [
-      "głośnik",
-      "głośniki"
-    ]
   }
 }

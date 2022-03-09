@@ -41,32 +41,5 @@
     "sunshade",
     "blinds",
     "curtain"
-  ],
-  "$speechAlternatives": {
-    "en": [
-      "window coverings",
-      "windowcoverings"
-    ],
-    "nl": [
-      "raambekleding",
-      "raambedekking"
-    ],
-    "fr": [
-      "couvertures de fenêtre"
-    ],
-    "it": [
-      "rivestimenti per finestre"
-    ],
-    "sv": [
-      "fönsterskydd"
-    ],
-    "ru": [
-      "оконные навесы",
-      "оконныенавесы"
-    ],
-    "pl": [
-      "osłony okienne",
-      "osłonyokienne"
-    ]
-  }
+  ]
 }
