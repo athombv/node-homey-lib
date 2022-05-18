@@ -96,6 +96,12 @@
             true
           ]
         },
+        "advanced": {
+          "type": "boolean",
+          "enum": [
+            true
+          ]
+        },
         "platforms": {
           "type": "array",
           "items": {
@@ -226,7 +232,9 @@
                       "device",
                       "date",
                       "time",
-                      "color"
+                      "color",
+                      "checkbox",
+                      "code"
                     ]
                   },
                   "placeholder": {
