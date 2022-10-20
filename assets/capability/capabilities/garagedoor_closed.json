@@ -15,6 +15,33 @@
   },
   "getable": true,
   "setable": true,
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Closed",
+    "nl": "Gesloten",
+    "de": "Geschlossen",
+    "fr": "Fermé",
+    "it": "Chiuse",
+    "sv": "Stängd",
+    "no": "Lukket",
+    "es": "Cerrados",
+    "da": "Lukket",
+    "ru": "Закрыта",
+    "pl": "Zamknięta"
+  },
+  "insightsTitleFalse": {
+    "en": "Opened",
+    "nl": "Geopend",
+    "de": "Offen",
+    "fr": "Ouvert",
+    "it": "Aperte",
+    "sv": "Öppen",
+    "no": "Åpnet",
+    "es": "Abiertos",
+    "da": "Åben",
+    "ru": "Открыта",
+    "pl": "Otwarta"
+  },
   "uiComponent": "toggle",
   "$flow": {
     "triggers": [
