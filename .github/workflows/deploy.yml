@@ -28,7 +28,7 @@ jobs:
     name: Deploy to NPM
 
     # Only run this job if initiator is not the Homey Github Actions Bot to prevent loops
-    if: github.actor != 'HomeyGithubActionsBot'
+    if: github.actor != 'homey-bot'
 
     runs-on: ubuntu-latest
     steps:
