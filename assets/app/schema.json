@@ -1439,16 +1439,6 @@
     },
     "settings": {
       "$ref": "#/definitions/appSettings"
-    },
-    "ports": {
-      "type": "array",
-      "maxItems": 10,
-      "uniqueItems": true,
-      "items": {
-        "type": "integer",
-        "minimum": 1024,
-        "maximum": 65535
-      }
     }
   }
 }
