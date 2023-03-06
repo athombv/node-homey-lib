@@ -1244,6 +1244,22 @@
           "zigbee": {
             "type": "object"
           },
+          "rf433": {
+            "type": "object",
+            "properties": {
+              "satelliteMode": {
+                "type": "boolean"
+              }
+            }
+          },
+          "infrared": {
+            "type": "object",
+            "properties": {
+              "satelliteMode": {
+                "type": "boolean"
+              }
+            }
+          },
           "platforms": {
             "type": "array",
             "uniqueItems": true,
