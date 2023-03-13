@@ -137,7 +137,7 @@
           {
             "name": "device",
             "type": "device",
-            "filter": "class=homealarm&capabilities=homealarm_state"
+            "filter": "capabilities=homealarm_state"
           },
           {
             "name": "state",
