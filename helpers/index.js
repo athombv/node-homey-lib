@@ -10,6 +10,7 @@ try {
 
   if (fs && util && util.promisify) {
     module.exports.openAsync = util.promisify(fs.open);
+    module.exports.closeAsync = util.promisify(fs.close);
     module.exports.readAsync = util.promisify(fs.read);
     module.exports.statAsync = util.promisify(fs.stat);
     module.exports.readFileAsync = util.promisify(fs.readFile);
