@@ -964,6 +964,17 @@
         ]
       }
     },
+    "platformLocalRequiredFeatures": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "nfc",
+          "speaker",
+          "ledring"
+        ]
+      }
+    },
     "tags": {
       "$ref": "#/definitions/i18nArray"
     },
