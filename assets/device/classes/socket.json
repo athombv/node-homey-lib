@@ -25,17 +25,17 @@
     "pl": "Użyj tej klasy urządzeń dla gniazdek elektrycznych (wbudowanych lub wtyczek). Podczas dodawania szablonu parowania `choose_slave` pojawi się pytanie: `Co jest podłączone?`."
   },
   "virtualTitle": {
-    "en": "What's plugged in?",
-    "nl": "Wat is er ingeplugd?",
-    "de": "Was ist eingesteckt?",
-    "fr": "Qu'est-ce qui est connecté ?",
-    "it": "Cosa è collegato?",
-    "sv": "Vad är inkopplat?",
-    "no": "Hva er koblet til?",
-    "es": "¿Qué está enchufado?",
-    "da": "Hvad er sat til?",
-    "ru": "Что подключено?",
-    "pl": "Co jest podłączone?"
+    "en": "Plugged in",
+    "nl": "Ingeplugd",
+    "de": "Angeschlossen",
+    "fr": "Branché",
+    "it": "Collegato",
+    "sv": "Inkopplad",
+    "no": "Plugget inn",
+    "es": "Conectado",
+    "da": "Tilsluttet",
+    "ru": "Подключено",
+    "pl": "Podłączone"
   },
   "allowedVirtual": [
     "light",
