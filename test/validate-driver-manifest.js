@@ -332,7 +332,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
       }],
     });
 
-    // Product ID can be a string
+    // manufacturerName can be a string
     await assertValidates(app, {
       debug: /zigbee\.manufacturerName should be string/i,
       publish: /zigbee\.manufacturerName should be string/i,
