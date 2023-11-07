@@ -747,6 +747,78 @@
         ]
       }
     },
+    "zigbeeDevice": {
+      "type": "object",
+      "required": [ 
+        "manufacturerName", "productId", "endpoints"
+      ],
+      "properties": {
+        "manufacturerName": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          ]
+        },
+        "productId": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          ]
+        },
+        "endpoints": {
+          "type": "object",
+          "additionalProperties": false,
+          "patternProperties": {
+            "[0-255]": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "clusters": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                },
+                "bindings": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "learnmode": {
+          "type": "object",
+          "required": [
+            "instruction"
+          ],
+          "properties": {
+            "image": {
+              "type": "string"
+            },
+            "instruction": {
+              "$ref": "#/definitions/i18nObject"
+            }
+          }
+        }
+      }
+    },
     "zwaveDevice": {
       "type": "object",
       "required": [
@@ -1242,7 +1314,7 @@
             "$ref": "#/definitions/zwaveDevice"
           },
           "zigbee": {
-            "type": "object"
+            "$ref": "#/definitions/zigbeeDevice"
           },
           "rf433": {
             "type": "object",
