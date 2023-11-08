@@ -402,9 +402,9 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
 
     await assertValidates(app, {
-      debug: /zigbee\.endpoints should NOT have additional properties/i,
-      publish: /zigbee\.endpoints should NOT have additional properties/i,
-      verified: /zigbee\.endpoints should NOT have additional properties/i,
+      debug: /zigbee\.endpoints should match pattern/i,
+      publish: /zigbee\.endpoints should match pattern/i,
+      verified: /zigbee\.endpoints should match pattern/i,
     });
   });
 

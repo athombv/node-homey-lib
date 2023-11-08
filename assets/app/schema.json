@@ -781,10 +781,12 @@
         },
         "endpoints": {
           "type": "object",
-          "additionalProperties": false,
-          "patternProperties": {
-            "[0-255]": {
-              "type": "object",
+          "propertyNames": {
+            "type": "string",
+            "pattern": "^[0-9]+$"
+          },
+          "additionalProperties": {
+            "type": "object",
               "additionalProperties": false,
               "properties": {
                 "clusters": {
@@ -799,7 +801,6 @@
                     "type": "number"
                   }
                 }
-              }
             }
           }
         },
