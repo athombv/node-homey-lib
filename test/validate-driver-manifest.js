@@ -172,8 +172,8 @@ describe('HomeyLib.App#validate() driver manifest', function() {
 
     await assertValidates(app, {
       debug: true, // debug does not validate images
-      publish: /invalid image extention/i,
-      verified: /invalid image extention/i,
+      publish: /invalid image extension/i,
+      verified: /invalid image extension/i,
     });
   });
 
