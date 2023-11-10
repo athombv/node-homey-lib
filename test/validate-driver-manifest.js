@@ -172,8 +172,8 @@ describe('HomeyLib.App#validate() driver manifest', function() {
 
     await assertValidates(app, {
       debug: true, // debug does not validate images
-      publish: /invalid image extention/i,
-      verified: /invalid image extention/i,
+      publish: /invalid image extension/i,
+      verified: /invalid image extension/i,
     });
   });
 
@@ -246,6 +246,283 @@ describe('HomeyLib.App#validate() driver manifest', function() {
       debug: /connectivity\[0\] should be equal to one of the allowed values/i,
       publish: /connectivity\[0\] should be equal to one of the allowed values/i,
       verified: /connectivity\[0\] should be equal to one of the allowed values/i,
+    });
+  });
+
+  /*
+   * Zigbee Driver
+   */
+
+  it('`zigbee.productId` needs to be defined', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zigbee: {
+          manufacturerName: ['dummyManufacturer'],
+          endpoints: {},
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /zigbee should have required property 'productId'/i,
+      publish: /zigbee should have required property 'productId'/i,
+      verified: /zigbee should have required property 'productId'/i,
+    });
+  });
+
+  it('`zigbee.productId` needs to be valid', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zigbee: {
+          productId: true,
+          manufacturerName: ['dummyManufacturer'],
+          endpoints: {},
+        },
+      }],
+    });
+
+    // Product ID can be a string
+    await assertValidates(app, {
+      debug: /zigbee\.productId should be string/i,
+      publish: /zigbee\.productId should be string/i,
+      verified: /zigbee\.productId should be string/i,
+    });
+
+    // or an array of strings
+    await assertValidates(app, {
+      debug: /zigbee\.productId should be array/i,
+      publish: /zigbee\.productId should be array/i,
+      verified: /zigbee\.productId should be array/i,
+    });
+  });
+
+  it('`zigbee.manufacturerName` needs to be defined', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zigbee: {
+          productId: ['dummyProduct'],
+          endpoints: {},
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /zigbee should have required property 'manufacturerName'/i,
+      publish: /zigbee should have required property 'manufacturerName'/i,
+      verified: /zigbee should have required property 'manufacturerName'/i,
+    });
+  });
+
+  it('`zigbee.manufacturerName` needs to be valid', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zigbee: {
+          productId: 'dummyProduct',
+          manufacturerName: true,
+          endpoints: {},
+        },
+      }],
+    });
+
+    // manufacturerName can be a string
+    await assertValidates(app, {
+      debug: /zigbee\.manufacturerName should be string/i,
+      publish: /zigbee\.manufacturerName should be string/i,
+      verified: /zigbee\.manufacturerName should be string/i,
+    });
+
+    // or an array of strings
+    await assertValidates(app, {
+      debug: /zigbee\.manufacturerName should be array/i,
+      publish: /zigbee\.manufacturerName should be array/i,
+      verified: /zigbee\.manufacturerName should be array/i,
+    });
+  });
+
+  it('`zigbee.endpoints` needs to be defined', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zigbee: {
+          productId: ['dummyProduct'],
+          manufacturerName: 'dummyManufacturer',
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /zigbee should have required property 'endpoints'/i,
+      publish: /zigbee should have required property 'endpoints'/i,
+      verified: /zigbee should have required property 'endpoints'/i,
+    });
+  });
+
+  it('`zigbee.endpoints` needs to be valid', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zigbee: {
+          productId: ['dummyProduct'],
+          manufacturerName: ['dummyManufacturer'],
+          endpoints: true,
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /zigbee\.endpoints should be object/i,
+      publish: /zigbee\.endpoints should be object/i,
+      verified: /zigbee\.endpoints should be object/i,
+    });
+  });
+
+  it('`zigbee.endpoints` key needs to be valid', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zigbee: {
+          productId: ['dummyProduct'],
+          manufacturerName: ['dummyManufacturer'],
+          endpoints: {
+            bla: [],
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /zigbee\.endpoints should match pattern/i,
+      publish: /zigbee\.endpoints should match pattern/i,
+      verified: /zigbee\.endpoints should match pattern/i,
+    });
+  });
+
+  it('`zigbee.endpoints.x` needs to be an object', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zigbee: {
+          productId: ['dummyProduct'],
+          manufacturerName: ['dummyManufacturer'],
+          endpoints: {
+            1: [],
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /zigbee\.endpoints\['1'] should be object/i,
+      publish: /zigbee\.endpoints\['1'] should be object/i,
+      verified: /zigbee\.endpoints\['1'] should be object/i,
+    });
+  });
+
+  it('`zigbee.endpoints.x.clusters` needs to be an array', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zigbee: {
+          productId: ['dummyProduct'],
+          manufacturerName: ['dummyManufacturer'],
+          endpoints: {
+            1: {
+              clusters: {},
+            },
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /zigbee\.endpoints\['1'].clusters should be array/i,
+      publish: /zigbee\.endpoints\['1'].clusters should be array/i,
+      verified: /zigbee\.endpoints\['1'].clusters should be array/i,
+    });
+  });
+
+  it('`zigbee.endpoints.x.clusters` needs to be an array of only numbers', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zigbee: {
+          productId: ['dummyProduct'],
+          manufacturerName: ['dummyManufacturer'],
+          endpoints: {
+            1: {
+              clusters: [true],
+            },
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /zigbee\.endpoints\['1'].clusters\[0] should be number/i,
+      publish: /zigbee\.endpoints\['1'].clusters\[0] should be number/i,
+      verified: /zigbee\.endpoints\['1'].clusters\[0] should be number/i,
+    });
+  });
+
+  it('`zigbee.endpoints.x.bindings` needs to be an array', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zigbee: {
+          productId: ['dummyProduct'],
+          manufacturerName: ['dummyManufacturer'],
+          endpoints: {
+            1: {
+              bindings: {},
+            },
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /zigbee\.endpoints\['1'].bindings should be array/i,
+      publish: /zigbee\.endpoints\['1'].bindings should be array/i,
+      verified: /zigbee\.endpoints\['1'].bindings should be array/i,
+    });
+  });
+
+  it('`zigbee.endpoints.x.bindings` needs to be an array of only numbers', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zigbee: {
+          productId: ['dummyProduct'],
+          manufacturerName: ['dummyManufacturer'],
+          endpoints: {
+            1: {
+              bindings: [true],
+            },
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /zigbee\.endpoints\['1'].bindings\[0] should be number/i,
+      publish: /zigbee\.endpoints\['1'].bindings\[0] should be number/i,
+      verified: /zigbee\.endpoints\['1'].bindings\[0] should be number/i,
     });
   });
 });
