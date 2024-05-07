@@ -1132,7 +1132,8 @@
         "enum": [
           "nfc",
           "speaker",
-          "ledring"
+          "ledring",
+          "matter"
         ]
       }
     },
