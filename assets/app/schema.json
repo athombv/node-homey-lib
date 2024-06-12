@@ -549,6 +549,12 @@
                   }
                 ]
               },
+              "highlight": {
+                "type": "boolean",
+                "enum": [
+                  true
+                ]
+              },
               "label": {
                 "$ref": "#/definitions/i18nObject"
               },
@@ -749,7 +755,10 @@
     },
     "matterDevice": {
       "type": "object",
-      "required": ["vendorId", "productId"],
+      "required": [
+        "vendorId",
+        "productId"
+      ],
       "properties": {
         "vendorId": {
           "oneOf": [
@@ -837,8 +846,10 @@
     },
     "zigbeeDevice": {
       "type": "object",
-      "required": [ 
-        "manufacturerName", "productId", "endpoints"
+      "required": [
+        "manufacturerName",
+        "productId",
+        "endpoints"
       ],
       "properties": {
         "manufacturerName": {
@@ -875,20 +886,20 @@
           },
           "additionalProperties": {
             "type": "object",
-              "additionalProperties": false,
-              "properties": {
-                "clusters": {
-                  "type": "array",
-                  "items": {
-                    "type": "number"
-                  }
-                },
-                "bindings": {
-                  "type": "array",
-                  "items": {
-                    "type": "number"
-                  }
+            "additionalProperties": false,
+            "properties": {
+              "clusters": {
+                "type": "array",
+                "items": {
+                  "type": "number"
                 }
+              },
+              "bindings": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                }
+              }
             }
           }
         },
