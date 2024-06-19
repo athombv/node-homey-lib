@@ -12,7 +12,6 @@
     "da": "Lystilstand",
     "ru": "Режим света",
     "pl": "Tryb oświetlenia"
-
   },
   "desc": {
     "en": "Switch between color or temperature mode",
@@ -26,7 +25,6 @@
     "da": "Skift mellem farve- eller temperaturtilstand",
     "ru": "Переключение между цветовым или температурным режимом",
     "pl": "Przełączaj między trybem barwy lub temperatury"
-
   },
   "values": [
     {
@@ -43,7 +41,6 @@
         "da": "Farve",
         "ru": "Цвет",
         "pl": "Barwa"
-    
       }
     },
     {
@@ -60,7 +57,6 @@
         "da": "Temperatur",
         "ru": "Температура",
         "pl": "Temperatura"
-    
       }
     }
   ],

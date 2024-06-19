@@ -8,7 +8,6 @@
     "da": "Solpanel",
     "ru": "Солнечная панель",
     "pl": "Panel fotowoltaiczny"
-
   },
   "description": {
     "en": "Use this device class for solar panels.",
@@ -16,6 +15,5 @@
     "da": "Brug denne enhedsklasse til solpaneler.",
     "ru": "Используйте этот класс устройств для солнечных панелей.",
     "pl": "Użyj tej klasy urządzeń dla paneli fotowoltaicznych."
-
   }
 }
