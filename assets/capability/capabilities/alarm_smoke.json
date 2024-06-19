@@ -12,7 +12,6 @@
     "da": "Røgalarm",
     "ru": "Сигнал дыма",
     "pl": "Alarm przeciwdymny"
-
   },
   "desc": {
     "en": "True when smoke has been detected",
@@ -26,7 +25,6 @@
     "da": "Sandt, når røg er blevet opdaget",
     "ru": "Верно при обнаружении дыма",
     "pl": "Adekwatny, kiedy wykryty zostanie dym"
-
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +39,6 @@
     "da": "Røgalarm blev aktiveret",
     "ru": "Сигнал дыма включен",
     "pl": "Alarm przeciwdymny włączony"
-
   },
   "insightsTitleFalse": {
     "en": "Smoke alarm turned off",
@@ -55,7 +52,6 @@
     "da": "Røgalarm blev deaktiveret",
     "ru": "Сигнал дыма выключен",
     "pl": "Alarm przeciwdymny wyłączony"
-
   },
   "getable": true,
   "setable": false,
@@ -77,7 +73,6 @@
           "da": "Røgalarmen blev aktiveret",
           "ru": "Сигнал дыма включен",
           "pl": "Alarm przeciwdymny włączony"
-      
         }
       },
       {
@@ -94,7 +89,6 @@
           "da": "Røgalarmen blev deaktiveret",
           "ru": "Сигнал дыма выключен",
           "pl": "Alarm przeciwdymny wyłączony"
-      
         }
       }
     ],
@@ -113,7 +107,6 @@
           "da": "Røgalarmen er !{{tændt|slukket}}",
           "ru": "Сигнал дыма !{{вкл.|выкл.}}",
           "pl": "Alarm przeciwdymny !{{włączony|wyłączony}}"
-      
         }
       }
     ]
