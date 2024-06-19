@@ -1,0 +1,57 @@
+name: Apply Locales
+
+# About this workflow:
+# It is triggered on created pull_requests with changes in the "generated_locales" folder. It will apply the locale files from the "generated_locales" folder and commit the changes to the repository.
+
+# GitHub repo configuration:
+# 1. Go to Manage access and add 'Github Actions' team with role: admin.
+# 2. If you have protected branches, go to Branches > edit protected branch > enable 'Restrict who can push to
+#    matching branches' and add the 'athombv/github-actions' team.
+
+# Note: make sure to commit package-lock.json, this is needed for `npm ci`.
+
+on:
+  pull_request:
+    paths:
+      - "generated_locales/**"
+
+jobs:
+  apply_locales:
+    name: Apply Locales
+
+    # Only run this job if initiator is not the Homey Github Actions Bot to prevent loops
+    if: github.actor != 'homey-bot'
+
+    runs-on: ubuntu-latest
+    steps:
+      # Checks out the current repository.
+      - name: Checkout git repository
+        uses: actions/checkout@v3
+        with:
+          # The token below is only necessary if you want to push the version bump to a protected branch
+          token: ${{ secrets.HOMEY_GITHUB_ACTIONS_BOT_PERSONAL_ACCESS_TOKEN }}
+          ref: ${{ github.event.pull_request.head.ref }}
+    
+      # Set git config to reflect Homey Github Actions Bot user
+      - name: Set up HomeyGithubActionsBot git user
+        run: |
+          git config --local user.email "sysadmin+githubactions@athom.com"
+          git config --local user.name "Homey Github Actions Bot"
+
+      # Configures a Node.js environment.
+      - name: Set up node 12 environment
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Apply Locales
+        run: node ./scripts/apply-locale-files.js
+
+      - name: Commit and push applied locales
+        run: |
+          git add . || echo "No changes due to applying locales."
+          git commit -m "ci: applied locales" || echo "No changes to commit."
+          git push origin HEAD:${{ github.event.pull_request.head.ref }}
