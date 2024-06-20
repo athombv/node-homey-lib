@@ -1,6 +1,4 @@
 {
-  "__comment": "This file is generated. Do not edit it directly.",
-  "./assets/app/permissions.json@homey:manager:geolocation.title": "Odczytaj lokalizację Homey",
   "./assets/app/permissions.json@homey:manager:ledring.title": "Steruj lampą pierścieniową Homey",
   "./assets/app/permissions.json@homey:manager:media.title": "Steruj muzyką Homey",
   "./assets/app/permissions.json@homey:manager:speech-input.title": "Reaguj na mowę",
