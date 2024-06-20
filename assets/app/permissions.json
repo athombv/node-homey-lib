@@ -1,7 +1,7 @@
 {
   "homey:manager:geolocation": {
     "title": {
-      "en": "Read Homey's location",
+      "en": "Read Homey's location (test)",
       "nl": "Homey's locatie uitlezen",
       "de": "Homeys Standort lesen",
       "fr": "Lire la position de Homey",
