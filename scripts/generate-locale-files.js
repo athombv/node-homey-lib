@@ -6,19 +6,11 @@ const path = require('path');
 const ROOT_DIR = path.join(__dirname, '..');
 const OUTPUT_DIR = path.join(ROOT_DIR, 'generated_locales'); // Directory where you want to save the translations
 const ASSETS_PATH = path.join(ROOT_DIR, 'assets'); // Path to the assets directory
-const LOCALES = [
-  'en',
-  'nl',
-  'de',
-  'fr',
-  'it',
-  'sv',
-  'no',
-  'es',
-  'da',
-  'ru',
-  'pl',
-];
+
+// Loop through all input files
+const availableLocales = fs.readdirSync(OUTPUT_DIR).map(outputFile => {
+  return outputFile.split('.')[0];
+});
 
 // Function to recursively traverse the JSON object and extract translations
 function extractTranslations(
@@ -35,7 +27,7 @@ function extractTranslations(
       // Assuming every leaf node is a translation
       const pathParts = newPath.split('.');
       const locale = pathParts.pop(); // Assuming the last part of the path is the locale
-      if (LOCALES.includes(locale)) {
+      if (availableLocales.includes(locale)) {
         // Only extract translations for the specified locales
         const translationPath = pathParts.join('.');
         if (!translations[locale]) translations[locale] = {};
@@ -53,7 +45,7 @@ function writeTranslations(translations, outputDir) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
   Object.entries(translations).forEach(([locale, translationObj]) => {
-    if (LOCALES.includes(locale)) {
+    if (availableLocales.includes(locale)) {
       // Only write translations for the specified locales
       const filePath = path.join(outputDir, `${locale}.json`);
       // Append to JSON file
@@ -70,7 +62,7 @@ function writeTranslations(translations, outputDir) {
 }
 
 console.log(
-  `Generating locales (${LOCALES.map(x => x.toUpperCase())}) in ${OUTPUT_DIR}...`,
+  `Generating locales (${availableLocales.map(x => x.toUpperCase())}) in ${OUTPUT_DIR}...`,
 );
 
 // Remove all files in the output directory

@@ -7,22 +7,9 @@ const objectPath = require('object-path');
 
 const ROOT_DIR = path.join(__dirname, '..');
 const INPUT_DIR = path.join(ROOT_DIR, 'generated_locales');
-const LOCALES = [
-  'en',
-  'nl',
-  'de',
-  'fr',
-  'it',
-  'sv',
-  'no',
-  'es',
-  'da',
-  'ru',
-  'pl',
-];
 
 console.log(
-  `Applying locales (${LOCALES.map(x => x.toUpperCase())}) from ${INPUT_DIR}...`,
+  `Applying locales from ${INPUT_DIR}...`,
 );
 
 // Loop through all input files
