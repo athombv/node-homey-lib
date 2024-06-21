@@ -549,12 +549,6 @@
                   }
                 ]
               },
-              "highlight": {
-                "type": "boolean",
-                "enum": [
-                  true
-                ]
-              },
               "label": {
                 "$ref": "#/definitions/i18nObject"
               },
@@ -566,6 +560,12 @@
               },
               "pattern": {
                 "type": "string"
+              },
+              "highlight": {
+                "type": "boolean",
+                "enum": [
+                  true
+                ]
               },
               "zwave": {
                 "$ref": "#/definitions/zwaveSetting"
@@ -623,6 +623,12 @@
                     "minimum": 0
                   }
                 }
+              },
+              "highlight": {
+                "type": "boolean",
+                "enum": [
+                  true
+                ]
               },
               "zwave": {
                 "$ref": "#/definitions/zwaveSetting"
@@ -682,6 +688,12 @@
                   }
                 }
               },
+              "highlight": {
+                "type": "boolean",
+                "enum": [
+                  true
+                ]
+              },
               "zwave": {
                 "$ref": "#/definitions/zwaveSetting"
               }
@@ -720,6 +732,12 @@
               "value": {
                 "type": "boolean"
               },
+              "highlight": {
+                "type": "boolean",
+                "enum": [
+                  true
+                ]
+              },
               "zwave": {
                 "$ref": "#/definitions/zwaveSetting"
               }
@@ -744,6 +762,12 @@
               },
               "children": {
                 "$ref": "#/definitions/driverSettings"
+              },
+              "highlight": {
+                "type": "boolean",
+                "enum": [
+                  true
+                ]
               },
               "zwave": {
                 "$ref": "#/definitions/zwaveSetting"
