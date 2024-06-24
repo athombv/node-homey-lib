@@ -1,5 +1,4 @@
 {
-  "__comment": "This file is generated. Do not edit it directly.",
   "./assets/app/permissions.json@homey:manager:geolocation.title": "Leggi la posizione di Homey",
   "./assets/app/permissions.json@homey:manager:ledring.title": "Controlla l'anello LED di Homey",
   "./assets/app/permissions.json@homey:manager:media.title": "Controlla la musica di Homey",
