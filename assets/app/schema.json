@@ -561,6 +561,12 @@
               "pattern": {
                 "type": "string"
               },
+              "highlight": {
+                "type": "boolean",
+                "enum": [
+                  true
+                ]
+              },
               "zwave": {
                 "$ref": "#/definitions/zwaveSetting"
               }
@@ -617,6 +623,12 @@
                     "minimum": 0
                   }
                 }
+              },
+              "highlight": {
+                "type": "boolean",
+                "enum": [
+                  true
+                ]
               },
               "zwave": {
                 "$ref": "#/definitions/zwaveSetting"
@@ -676,6 +688,12 @@
                   }
                 }
               },
+              "highlight": {
+                "type": "boolean",
+                "enum": [
+                  true
+                ]
+              },
               "zwave": {
                 "$ref": "#/definitions/zwaveSetting"
               }
@@ -714,6 +732,12 @@
               "value": {
                 "type": "boolean"
               },
+              "highlight": {
+                "type": "boolean",
+                "enum": [
+                  true
+                ]
+              },
               "zwave": {
                 "$ref": "#/definitions/zwaveSetting"
               }
@@ -739,6 +763,12 @@
               "children": {
                 "$ref": "#/definitions/driverSettings"
               },
+              "highlight": {
+                "type": "boolean",
+                "enum": [
+                  true
+                ]
+              },
               "zwave": {
                 "$ref": "#/definitions/zwaveSetting"
               }
@@ -749,7 +779,10 @@
     },
     "matterDevice": {
       "type": "object",
-      "required": ["vendorId", "productId"],
+      "required": [
+        "vendorId",
+        "productId"
+      ],
       "properties": {
         "vendorId": {
           "oneOf": [
@@ -837,8 +870,10 @@
     },
     "zigbeeDevice": {
       "type": "object",
-      "required": [ 
-        "manufacturerName", "productId", "endpoints"
+      "required": [
+        "manufacturerName",
+        "productId",
+        "endpoints"
       ],
       "properties": {
         "manufacturerName": {
@@ -875,20 +910,20 @@
           },
           "additionalProperties": {
             "type": "object",
-              "additionalProperties": false,
-              "properties": {
-                "clusters": {
-                  "type": "array",
-                  "items": {
-                    "type": "number"
-                  }
-                },
-                "bindings": {
-                  "type": "array",
-                  "items": {
-                    "type": "number"
-                  }
+            "additionalProperties": false,
+            "properties": {
+              "clusters": {
+                "type": "array",
+                "items": {
+                  "type": "number"
                 }
+              },
+              "bindings": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                }
+              }
             }
           }
         },
