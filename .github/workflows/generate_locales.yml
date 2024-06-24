@@ -1,0 +1,60 @@
+name: Generate Locales
+
+# About this workflow:
+# It is triggered on push events to master and develop with changes in the "assets" folder. It will generate locale files from the assets and commit the changes to the repository.
+
+# GitHub repo configuration:
+# 1. Go to Manage access and add 'Github Actions' team with role: admin.
+# 2. If you have protected branches, go to Branches > edit protected branch > enable 'Restrict who can push to
+#    matching branches' and add the 'athombv/github-actions' team.
+
+# Note: make sure to commit package-lock.json, this is needed for `npm ci`.
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "master"
+      - "develop"
+    paths:
+      - "assets/**"
+
+jobs:
+  generate_locales:
+    name: Generate Locales
+
+    # Only run this job if initiator is not the Homey Github Actions Bot to prevent loops
+    if: github.actor != 'homey-bot'
+
+    runs-on: ubuntu-latest
+    steps:
+      # Checks out the current repository.
+      - name: Checkout git repository
+        uses: actions/checkout@v3
+        with:
+          # The token below is only necessary if you want to push the version bump to a protected branch
+          token: ${{ secrets.HOMEY_GITHUB_ACTIONS_BOT_PERSONAL_ACCESS_TOKEN }}
+
+      # Set git config to reflect Homey Github Actions Bot user
+      - name: Set up HomeyGithubActionsBot git user
+        run: |
+          git config --local user.email "sysadmin+githubactions@athom.com"
+          git config --local user.name "Homey Github Actions Bot"
+
+      # Configures a Node.js environment.
+      - name: Set up node 12 environment
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate Locales
+        run: node ./scripts/generate-locale-files.js
+
+      - name: Commit and push generated locales
+        run: |
+          git add . || echo "No changes due to generated locales."
+          git commit -m "ci: generated locales" || echo "No changes to commit."
+          git push

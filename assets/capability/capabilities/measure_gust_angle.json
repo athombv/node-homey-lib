@@ -12,7 +12,6 @@
     "da": "Vindretning",
     "ru": "Угол порывов ветра",
     "pl": "Kąt porywu wiatru"
-
   },
   "units": {
     "en": "°"
@@ -30,7 +29,6 @@
     "da": "Vindretning i grader (°)",
     "ru": "Угол порывов ветра в градусах (°)",
     "pl": "Kąt porywu wiatru w stopniach (°)"
-
   },
   "chartType": "stepLine",
   "decimals": 2,

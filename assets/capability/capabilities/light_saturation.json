@@ -12,7 +12,6 @@
     "da": "Farvemætning",
     "ru": "Насыщенность цвета",
     "pl": "Nasycenie barwy"
-
   },
   "min": 0,
   "chartType": "stepLine",
@@ -36,7 +35,6 @@
           "da": "Indstil farvemætningen",
           "ru": "Установить насыщенность",
           "pl": "Ustaw nasycenie"
-      
         },
         "args": [
           {
