@@ -40,6 +40,7 @@
   "allowedVirtual": [
     "sunshade",
     "blinds",
-    "curtain"
+    "curtain",
+    "shutterblinds"
   ]
 }
