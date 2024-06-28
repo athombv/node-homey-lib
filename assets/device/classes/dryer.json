@@ -1,0 +1,8 @@
+{
+  "title": {
+    "en": "Dryer"
+  },
+  "description": {
+    "en": "Use this device class for dryers, if it is a combination washer/dryer use 'washer_and_dryer'."
+  }
+}

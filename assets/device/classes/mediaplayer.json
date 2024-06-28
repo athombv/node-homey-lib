@@ -1,0 +1,8 @@
+{
+  "title": {
+    "en": "Media Player"
+  },
+  "description": {
+    "en": "Use this device class for media players, when the `Set-top box` device class doesn't apply."
+  }
+}

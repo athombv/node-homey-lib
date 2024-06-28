@@ -1,0 +1,8 @@
+{
+  "title": {
+    "en": "Vehicle"
+  },
+  "description": {
+    "en": "Use this device class for any type of vehicle, when the `car`, `bicycle` or `scooter` device class doesn't apply."
+  }
+}
