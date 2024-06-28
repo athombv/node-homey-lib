@@ -1,0 +1,8 @@
+{
+  "title": {
+    "en": "Freezer"
+  },
+  "description": {
+    "en": "Use this device class for any kind of freezer, if it is a frigde/freezer use 'fridge_and_freezer'."
+  }
+}
