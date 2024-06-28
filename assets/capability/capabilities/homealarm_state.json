@@ -1,17 +1,17 @@
 {
   "type": "enum",
   "title": {
-    "en": "Home alarm state",
-    "nl": "Thuisalarm status",
-    "de": "Heim-Alarm-Status",
-    "fr": "Etat de l'alarme de maison",
-    "it": "Stato dell'allarme domestico",
-    "sv": "Hemlarmsstatus",
-    "no": "Hjemmealarmstatus",
-    "es": "Estado de la alarma doméstica",
-    "da": "Hjemmealarmstatus",
-    "ru": "Состояние домашней сигнализации",
-    "pl": "Stan alarmu domowego"
+    "en": "The home alarm is",
+    "nl": "Thuisalarm status is",
+    "de": "Heim-Alarm-Status ist",
+    "fr": "Etat de l'alarme de maison est",
+    "it": "Stato dell'allarme domestico è",
+    "sv": "Hemlarmets status är",
+    "no": "Boligalarmen er",
+    "es": "Estado de la alarma doméstica es",
+    "da": "Hjemmealarmstatus er",
+    "ru": "Состояние домашней сигнализации является",
+    "pl": "Stan alarmu domowego to"
   },
   "values": [
     {
@@ -71,17 +71,17 @@
       {
         "id": "homealarm_state_changed",
         "title": {
-          "en": "The state changed",
-          "nl": "De status is veranderd",
-          "de": "Der Status hat sich geändert",
-          "fr": "L'état a été modifié",
-          "it": "Lo stato è cambiato",
-          "sv": "Statusen ändrad",
-          "no": "Statusen ble endret",
-          "es": "El estado ha cambiado",
-          "da": "Status ændret",
-          "ru": "Состояние изменено",
-          "pl": "Zmiana stanu"
+          "en": "The state changed to",
+          "nl": "De status is veranderd in",
+          "de": "Der Status hat sich geändert in",
+          "fr": "L'état a été modifié en",
+          "it": "Lo stato è cambiato in",
+          "sv": "Statusen ändrad till",
+          "no": "Statusen ble endret til",
+          "es": "El estado ha cambiado a",
+          "da": "Status ændret til",
+          "ru": "Состояние изменено на",
+          "pl": "Zmiana stanu na"
         },
         "args": [
           {
@@ -121,17 +121,17 @@
       {
         "id": "set_homealarm_state",
         "title": {
-          "en": "Set state",
-          "nl": "Zet de status",
-          "de": "Status setzen",
-          "fr": "Définir l'état",
-          "it": "Imposta stato",
-          "sv": "Ställ in status",
-          "no": "Innstill status",
-          "es": "Definir estado",
-          "da": "Indstil status",
-          "ru": "Установить состояние",
-          "pl": "Ustaw stan"
+          "en": "Set state to",
+          "nl": "Zet de status in",
+          "de": "Status setzen in",
+          "fr": "Définir l'état en",
+          "it": "Imposta stato in",
+          "sv": "Ställ in status till",
+          "no": "Innstill status til",
+          "es": "Definir estado a",
+          "da": "Indstil status til",
+          "ru": "Установить состояние на",
+          "pl": "Ustaw stan na"
         },
         "args": [
           {
