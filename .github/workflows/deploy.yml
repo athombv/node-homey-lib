@@ -114,10 +114,10 @@ jobs:
             -H 'Authorization: token ${{ secrets.HOMEY_GITHUB_ACTIONS_BOT_PERSONAL_ACCESS_TOKEN }}' \
             -d '{"event_type": "update-homey-lib"}'
 
-      - name: Trigger repository dispatch event athombv/homey-smartphone-app-v2
+      - name: Trigger repository dispatch event athombv/homey-mobile-app
         run: |
           curl -X POST \
-            https://api.github.com/repos/athombv/homey-smartphone-app-v2/dispatches \
+            https://api.github.com/repos/athombv/homey-homey-mobile-app/dispatches \
             -H 'Accept: application/vnd.github.everest-preview+json' \
             -H 'Authorization: token ${{ secrets.HOMEY_GITHUB_ACTIONS_BOT_PERSONAL_ACCESS_TOKEN }}' \
             -d '{"event_type": "update-homey-lib"}'
@@ -143,6 +143,38 @@ jobs:
         run: |
           curl -X POST \
             https://api.github.com/repos/athombv/athom-cloud-driver-reference/dispatches \
+            -H 'Accept: application/vnd.github.everest-preview+json' \
+            -H 'Authorization: token ${{ secrets.HOMEY_GITHUB_ACTIONS_BOT_PERSONAL_ACCESS_TOKEN }}' \
+            -d '{"event_type": "update-homey-lib"}'
+
+      - name: Trigger repository dispatch event athombv/node-homey-core
+        run: |
+          curl -X POST \
+            https://api.github.com/repos/athombv/node-homey-core/dispatches \
+            -H 'Accept: application/vnd.github.everest-preview+json' \
+            -H 'Authorization: token ${{ secrets.HOMEY_GITHUB_ACTIONS_BOT_PERSONAL_ACCESS_TOKEN }}' \
+            -d '{"event_type": "update-homey-lib"}'
+
+      - name: Trigger repository dispatch event athombv/node-homey-pro
+        run: |
+          curl -X POST \
+            https://api.github.com/repos/athombv/node-homey-pro/dispatches \
+            -H 'Accept: application/vnd.github.everest-preview+json' \
+            -H 'Authorization: token ${{ secrets.HOMEY_GITHUB_ACTIONS_BOT_PERSONAL_ACCESS_TOKEN }}' \
+            -d '{"event_type": "update-homey-lib"}'
+
+      - name: Trigger repository dispatch event athombv/homey-client
+        run: |
+          curl -X POST \
+            https://api.github.com/repos/athombv/homey-client/dispatches \
+            -H 'Accept: application/vnd.github.everest-preview+json' \
+            -H 'Authorization: token ${{ secrets.HOMEY_GITHUB_ACTIONS_BOT_PERSONAL_ACCESS_TOKEN }}' \
+            -d '{"event_type": "update-homey-lib"}'
+
+      - name: Trigger repository dispatch event athombv/athom-cloud-my-homey-app
+        run: |
+          curl -X POST \
+            https://api.github.com/repos/athombv/athom-cloud-my-homey-app/dispatches \
             -H 'Accept: application/vnd.github.everest-preview+json' \
             -H 'Authorization: token ${{ secrets.HOMEY_GITHUB_ACTIONS_BOT_PERSONAL_ACCESS_TOKEN }}' \
             -d '{"event_type": "update-homey-lib"}'
