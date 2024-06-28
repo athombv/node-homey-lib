@@ -1,0 +1,8 @@
+{
+  "title": {
+    "en": "Microwave"
+  },
+  "description": {
+    "en": "Use this device class for any kind of microwave, if it is a combi unit use 'combi_microwave'."
+  }
+}
