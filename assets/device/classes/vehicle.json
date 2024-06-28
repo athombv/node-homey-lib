@@ -8,5 +8,9 @@
   "virtualTitle": {
     "en": "What's the type?"
   },
-  "allowedVirtual": ["bicycle", "car", "scooter"]
+  "allowedVirtual": [
+    "bicycle",
+    "car",
+    "scooter"
+  ]
 }
