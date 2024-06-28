@@ -4,5 +4,9 @@
   },
   "description": {
     "en": "Use this device class for media players, when the `Set-top box` device class doesn't apply."
-  }
+  },
+  "virtualTitle": {
+    "en": "What's the type?"
+  },
+  "allowedVirtual": ["settopbox"]
 }
