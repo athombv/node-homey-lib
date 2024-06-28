@@ -23,5 +23,11 @@
     "da": "Brug denne enhedsklasse til varmeapparater, som opvarmer dit hjem.",
     "ru": "Используйте этот класс устройств для обогревателей, которые обогревают ваш дом.",
     "pl": "Użyj tej klasy urządzeń dla grzejników, które ogrzewają dom."
-  }
+  },
+  "virtualTitle": {
+    "en": "What's the type?"
+  },
+  "allowedVirtual": [
+    "radiator"
+  ]
 }

@@ -4,5 +4,14 @@
   },
   "description": {
     "en": "Use this device class for any type of air treatment appliance, when the `dehumidifier`, `humidifier`, `diffuser` or `airpurifier` device class doesn't apply. Could be for combi units."
-  }
+  },
+  "virtualTitle": {
+    "en": "What's the type?"
+  },
+  "allowedVirtual": [
+    "airpurifier",
+    "dehumidifier",
+    "diffuser",
+    "humidifier"
+  ]
 }
