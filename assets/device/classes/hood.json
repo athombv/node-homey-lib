@@ -4,5 +4,6 @@
   },
   "description": {
     "en": "User this device class for any kind of extractor hood."
-  }
+  },
+  "minCompatibility": "12.0.0"
 }

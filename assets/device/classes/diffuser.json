@@ -4,5 +4,6 @@
   },
   "description": {
     "en": "User this device class for diffusers."
-  }
+  },
+  "minCompatibility": "12.0.0"
 }

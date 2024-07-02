@@ -4,5 +4,6 @@
   },
   "description": {
     "en": "Use this device class for any kind of boiler, e.g. heatpump boiler, gas boiler, hot water boiler, central heating boiler."
-  }
+  },
+  "minCompatibility": "12.0.0"
 }

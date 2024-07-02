@@ -4,5 +4,6 @@
   },
   "description": {
     "en": "Use this device class for mechanical water valves."
-  }
+  },
+  "minCompatibility": "12.0.0"
 }

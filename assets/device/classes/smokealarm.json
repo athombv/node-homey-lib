@@ -4,5 +4,6 @@
   },
   "description": {
     "en": "Use this device class for any smoke- or CO-alarm, could also be used for combo units."
-  }
+  },
+  "minCompatibility": "12.0.0"
 }
