@@ -249,6 +249,38 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
   });
 
+  it('`class` needs to be checked for compatibility', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        class: 'shutterblinds', // Device class that requires compatibility >= 12
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /driver class: shutterblinds is not available for compatibility/i,
+      publish: /driver class: shutterblinds is not available for compatibility/i,
+      verified: /driver class: shutterblinds is not available for compatibility/i,
+    });
+  });
+
+  it('`class` without compatibility should validate', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        class: 'light', // Device class that requires no min compatibility
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
+
   /*
    * Zigbee Driver
    */
