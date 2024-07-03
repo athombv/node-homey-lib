@@ -4,5 +4,6 @@
   },
   "description": {
     "en": "Use this device class for air purifiers."
-  }
+  },
+  "minCompatibility": "12.0.0"
 }
