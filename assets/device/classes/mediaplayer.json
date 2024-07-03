@@ -10,5 +10,6 @@
   },
   "allowedVirtual": [
     "settopbox"
-  ]
+  ],
+  "minCompatibility": "12.0.0"
 }

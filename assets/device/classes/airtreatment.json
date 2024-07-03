@@ -13,5 +13,6 @@
     "dehumidifier",
     "diffuser",
     "humidifier"
-  ]
+  ],
+  "minCompatibility": "12.0.0"
 }
