@@ -27,5 +27,7 @@
   "virtualTitle": {
     "en": "What's the type?"
   },
-  "allowedVirtual": ["radiator"]
+  "allowedVirtual": [
+    "radiator"
+  ]
 }

@@ -8,6 +8,11 @@
   "virtualTitle": {
     "en": "What's the type?"
   },
-  "allowedVirtual": ["airpurifier", "dehumidifier", "diffuser", "humidifier"],
+  "allowedVirtual": [
+    "airpurifier",
+    "dehumidifier",
+    "diffuser",
+    "humidifier"
+  ],
   "minCompatibility": "12.0.0"
 }

@@ -8,6 +8,10 @@
   "virtualTitle": {
     "en": "What's the type?"
   },
-  "allowedVirtual": ["bicycle", "car", "scooter"],
+  "allowedVirtual": [
+    "bicycle",
+    "car",
+    "scooter"
+  ],
   "minCompatibility": "12.0.0"
 }

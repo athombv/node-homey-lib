@@ -8,6 +8,8 @@
   "virtualTitle": {
     "en": "What's the type?"
   },
-  "allowedVirtual": ["settopbox"],
+  "allowedVirtual": [
+    "settopbox"
+  ],
   "minCompatibility": "12.0.0"
 }
