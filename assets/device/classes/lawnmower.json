@@ -4,5 +4,6 @@
   },
   "description": {
     "en": "Use this device class for lawn mowers."
-  }
+  },
+  "minCompatibility": "12.0.0"
 }

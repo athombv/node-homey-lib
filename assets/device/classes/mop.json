@@ -4,5 +4,6 @@
   },
   "description": {
     "en": "Use this device class for mops, e.g. a robot mop."
-  }
+  },
+  "minCompatibility": "12.0.0"
 }
