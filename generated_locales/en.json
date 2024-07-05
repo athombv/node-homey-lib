@@ -449,7 +449,7 @@
   "./assets/device/classes/mediaplayer.json@description": "Use this device class for media players, when the `Set-top box` device class doesn't apply.",
   "./assets/device/classes/mediaplayer.json@virtualTitle": "What's the type?",
   "./assets/device/classes/microwave.json@title": "Microwave",
-  "./assets/device/classes/microwave.json@description": "Use this device class for any kind of microwave, if it is a combi unit use 'combi_microwave'.",
+  "./assets/device/classes/microwave.json@description": "Use this device class for any kind of microwave, if it is a combi unit use 'oven_and_microwave'.",
   "./assets/device/classes/mop.json@title": "Mop",
   "./assets/device/classes/mop.json@description": "Use this device class for mops, e.g. a robot mop.",
   "./assets/device/classes/multicooker.json@title": "Multicooker",
