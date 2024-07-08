@@ -1,9 +1,29 @@
 {
   "title": {
-    "en": "Fridge"
+    "en": "Fridge",
+    "da": "Køleskab",
+    "de": "Kühlschrank",
+    "es": "Frigorífico",
+    "fr": "Réfrigérateur",
+    "it": "Frigorifero",
+    "ko": "냉장고",
+    "nl": "Koelkast",
+    "no": "Kjøleskap",
+    "ru": "Холодильник",
+    "sv": "Kylskåp"
   },
   "description": {
-    "en": "Use this device class for any kind of fridge, if it is a fridge/freezer use 'fridge_and_freezer'."
+    "en": "Use this device class for any kind of fridge, if it is a fridge/freezer use 'fridge_and_freezer'.",
+    "da": "Brug denne enhedsklasse til alle slags køleskabe. Hvis det er et køleskab/fryser, skal du bruge 'fridge_and_freezer'.",
+    "de": "Verwenden Sie diese Geräteklasse für jede Art von Kühlschrank. Wenn es sich um einen Kühl-/Gefrierschrank handelt, verwenden Sie „fridge_and_freezer“.",
+    "es": "Utiliza esta clase de dispositivo para cualquier tipo de frigorífico. Si se trata de un frigorífico con congelador, utiliza la clase 'fridge_and_freezer'.",
+    "fr": "Utilisez cette classe d'appareils pour tout type de réfrigérateur. S'il s'agit d'un réfrigérateur/congélateur, utilisez \"fridge_and_freezer\".",
+    "it": "Utilizza questa classe di dispositivi per qualsiasi tipo di frigorifero, se si tratta di un frigorifero/congelatore utilizza \"fridge_and_freezer\".",
+    "ko": "이 디바이스 클래스는 모든 종류의 냉장고에 사용하며, 냉장/냉동고의 경우 'fridge_and_freezer'를 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor elke soort koelkast, als het een koelkast/vriezer is gebruik dan 'fridge_and_freezer'.",
+    "no": "Bruk denne enhetsklassen for alle slags kjøleskap. For kombinert kjøleskap/fryser, bruk «fridge_and_freezer».",
+    "ru": "Используйте этот класс устройств для холодильников любого типа; в случае холодильника-морозильника используйте fridge_and_freezer.",
+    "sv": "Använd den här enhetsklassen för alla typer av kylskåp, om det är en kyl/frys ska du använda 'fridge_and_freezer'."
   },
   "minCompatibility": "12.0.0"
 }

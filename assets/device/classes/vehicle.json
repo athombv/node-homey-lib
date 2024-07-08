@@ -1,12 +1,42 @@
 {
   "title": {
-    "en": "Vehicle"
+    "en": "Vehicle",
+    "da": "Køretøj",
+    "de": "Fahrzeug",
+    "es": "Vehículo",
+    "fr": "Véhicule",
+    "it": "Veicolo",
+    "ko": "탈것",
+    "nl": "Voertuig",
+    "no": "Kjøretøy",
+    "ru": "Транспортное средство",
+    "sv": "Fordon"
   },
   "description": {
-    "en": "Use this device class for any type of vehicle, when the `car`, `bicycle` or `scooter` device class doesn't apply."
+    "en": "Use this device class for any type of vehicle, when the `car`, `bicycle` or `scooter` device class doesn't apply.",
+    "da": "Brug denne enhedsklasse til alle typer køretøjer, når enhedsklassen `bil`, `cykel` eller `scooter` ikke gælder.",
+    "de": "Verwenden Sie diese Geräteklasse für jede Art von Fahrzeug, wenn die Geräteklassen „Auto“, „Fahrrad“ oder „Motorroller“ nicht zutreffen.",
+    "es": "Utiliza esta clase de dispositivo para cualquier tipo de vehículo que no pertenezca a las clases \"Coche\", \"Bicicleta\" o \"Scooter\".",
+    "fr": "Utilisez cette classe d'appareils pour tout type de véhicule, lorsque la classe d'appareils \"voiture\", \"vélo\" ou \"trotinette\" ne s'applique pas.",
+    "it": "Utilizza questa classe di dispositivi per qualsiasi tipo di veicolo, quando la classe \"automobile\", \"bicicletta\" o \"scooter\" non è applicabile.",
+    "ko": "이 디바이스 클래스는 'car', 'bicycle', 'scooter' 디바이스가 적용되지 않는 모든 종류의 탈것에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor elk type voertuig, wanneer de apparaatklasse 'auto', 'fiets' of 'scooter' niet van toepassing is.",
+    "no": "Bruk denne enhetsklassen for alle typer kjøretøy som ikke dekkes av enhetsklassene\n«bil», «sykkel» eller «scooter».",
+    "ru": "Используйте этот класс устройств для транспортных средств любого типа, которые не относятся к классу устройств «автомобиль», «велосипед» или «самокат».",
+    "sv": "Använd den här enhetsklassen för alla typer av fordon, när enhetsklassen \"bil\", \"cykel\" eller \"skoter\" inte är tillämplig."
   },
   "virtualTitle": {
-    "en": "What's the type?"
+    "en": "What's the type?",
+    "da": "Hvad er typen?",
+    "de": "Um welchen Typ handelt es sich?",
+    "es": "¿De qué tipo es?",
+    "fr": "Quel est le type ?",
+    "it": "Di che tipo è?",
+    "ko": "어떤 유형입니까?",
+    "nl": "Wat is het type?",
+    "no": "Hvilken type er det?",
+    "ru": "Какой тип?",
+    "sv": "Vad är det för typ?"
   },
   "allowedVirtual": [
     "bicycle",

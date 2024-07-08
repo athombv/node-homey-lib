@@ -10,7 +10,8 @@
     "es": "Alarma de CO2",
     "da": "CO2-alarm",
     "ru": "Сигнал CO2",
-    "pl": "Alarm o CO2"
+    "pl": "Alarm o CO2",
+    "ko": "CO2 알람"
   },
   "desc": {
     "en": "True when dangerous CO2 values have been detected",
@@ -22,7 +23,8 @@
     "es": "Verdadero cuando se han detectado valores peligrosos de CO2",
     "da": "Sandt, når farlige CO2-værdier er blevet opdaget",
     "ru": "Верно при обнаружении опасных значений CO2",
-    "pl": "Adekwatny, kiedy wykryty zostanie niebezpieczny poziom stężenia CO2"
+    "pl": "Adekwatny, kiedy wykryty zostanie niebezpieczny poziom stężenia CO2",
+    "ko": "위험한 CO2 값이 감지되면 참"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -36,7 +38,8 @@
     "es": "Alarma de CO2 activada",
     "da": "CO2-alarm aktiveret",
     "ru": "Сигнал CO2 включен",
-    "pl": "Alarm o CO2 włączony"
+    "pl": "Alarm o CO2 włączony",
+    "ko": "CO2 알람 켜짐"
   },
   "insightsTitleFalse": {
     "en": "CO2 alarm turned off",
@@ -49,7 +52,8 @@
     "es": "Alarma de CO2 desactivada",
     "da": "CO2-alarm deaktiveret",
     "ru": "Сигнал CO2 выключен",
-    "pl": "Alarm o CO2 wyłączony"
+    "pl": "Alarm o CO2 wyłączony",
+    "ko": "CO2 알람 꺼짐"
   },
   "getable": true,
   "setable": false,
@@ -70,7 +74,8 @@
           "es": "La alarma de CO2 se ha activado",
           "da": "CO2-alarmen blev aktiveret",
           "ru": "Сигнал CO2 включен",
-          "pl": "Alarm o CO2 włączony"
+          "pl": "Alarm o CO2 włączony",
+          "ko": "CO2 알람 켜짐"
         }
       },
       {
@@ -86,7 +91,8 @@
           "es": "La alarma de CO2 se ha desactivado",
           "da": "CO2-alarmen blev deaktiveret",
           "ru": "Сигнал CO2 выключен",
-          "pl": "Alarm o CO2 wyłączony"
+          "pl": "Alarm o CO2 wyłączony",
+          "ko": "CO2 알람 꺼짐"
         }
       }
     ],
@@ -104,7 +110,8 @@
           "es": "La alarma de CO2 está !{{activada|desactivada}}",
           "da": "CO2-alarmen er !{{tændt|slukket}}",
           "ru": "Сигнал CO2 !{{вкл.|выкл.}}",
-          "pl": "Alarm o CO2 !{{włączony|wyłączony}}"
+          "pl": "Alarm o CO2 !{{włączony|wyłączony}}",
+          "ko": "CO2 알람 !{{on|off}}"
         }
       }
     ]

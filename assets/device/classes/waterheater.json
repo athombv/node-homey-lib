@@ -1,9 +1,29 @@
 {
   "title": {
-    "en": "Water Heater"
+    "en": "Water Heater",
+    "da": "Vandvarmer",
+    "de": "Warmwasserbereiter",
+    "es": "Calentador de agua",
+    "fr": "Chauffe-eau",
+    "it": "Scaldabagno",
+    "ko": "온수기",
+    "nl": "Boiler",
+    "no": "Varmtvannsbereder",
+    "ru": "Водонагреватель",
+    "sv": "Varmvattenberedare"
   },
   "description": {
-    "en": "Use this device class for water heaters."
+    "en": "Use this device class for water heaters.",
+    "da": "Brug denne enhedsklasse til vandvarmere.",
+    "de": "Verwenden Sie diese Geräteklasse für Warmwasserbereiter.",
+    "es": "Utiliza esta clase de dispositivo para calentadores de agua.",
+    "fr": "Utilisez cette classe d'appareils pour les chauffe-eau.",
+    "it": "Utilizza questa classe di dispositivi per gli scaldabagno.",
+    "ko": "이 디바이스 클래스는 온수기에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor boilers.",
+    "no": "Bruk denne enhetsklassen for varmtvannsberedere.",
+    "ru": "Используйте этот класс устройств для водонагревателей.",
+    "sv": "Använd den här enhetsklassen för varmvattenberedare."
   },
   "minCompatibility": "12.0.0"
 }

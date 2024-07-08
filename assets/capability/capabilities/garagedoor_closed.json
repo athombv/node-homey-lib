@@ -11,7 +11,8 @@
     "es": "Cerrados",
     "da": "Lukket",
     "ru": "Закрыта",
-    "pl": "Zamknięta"
+    "pl": "Zamknięta",
+    "ko": "닫힘"
   },
   "getable": true,
   "setable": true,
@@ -27,7 +28,8 @@
     "es": "Cerrados",
     "da": "Lukket",
     "ru": "Закрыта",
-    "pl": "Zamknięta"
+    "pl": "Zamknięta",
+    "ko": "닫힘"
   },
   "insightsTitleFalse": {
     "en": "Opened",
@@ -40,7 +42,8 @@
     "es": "Abiertos",
     "da": "Åben",
     "ru": "Открыта",
-    "pl": "Otwarta"
+    "pl": "Otwarta",
+    "ko": "열림"
   },
   "uiComponent": "toggle",
   "$flow": {
@@ -58,7 +61,8 @@
           "es": "Cerrados",
           "da": "Lukket",
           "ru": "Закрыта",
-          "pl": "Zamknięta"
+          "pl": "Zamknięta",
+          "ko": "닫힘"
         }
       },
       {
@@ -74,7 +78,8 @@
           "es": "Abiertos",
           "da": "Åben",
           "ru": "Открыта",
-          "pl": "Otwarta"
+          "pl": "Otwarta",
+          "ko": "열림"
         }
       }
     ],
@@ -92,7 +97,8 @@
           "es": "Está !{{cerrado|abierto}}",
           "da": "Er !{{lukket|åben}}",
           "ru": "!{{закрыта|открыта}}",
-          "pl": "Jest !{{zamknięta|otwarta}}"
+          "pl": "Jest !{{zamknięta|otwarta}}",
+          "ko": "!{{closed|open}}"
         }
       }
     ],
@@ -111,7 +117,8 @@
           "es": "Cerrar",
           "da": "Luk",
           "ru": "Закрыть",
-          "pl": "Zamknij"
+          "pl": "Zamknij",
+          "ko": "닫기"
         }
       },
       {
@@ -128,7 +135,8 @@
           "es": "Abrir",
           "da": "Åbn",
           "ru": "Открыть",
-          "pl": "Otwórz"
+          "pl": "Otwórz",
+          "ko": "열기"
         }
       },
       {
@@ -144,7 +152,8 @@
           "es": "Abrir o cerrar",
           "da": "Skift mellem åben og lukket",
           "ru": "Переключатель открыть/закрыть",
-          "pl": "Przełącz na otwartą lub zamkniętą"
+          "pl": "Przełącz na otwartą lub zamkniętą",
+          "ko": "열림 또는 닫힘 토글"
         }
       }
     ]

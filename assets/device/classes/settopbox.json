@@ -1,9 +1,28 @@
 {
   "title": {
-    "en": "Set-top Box"
+    "en": "Set-top Box",
+    "da": "Tv-modtagerboks",
+    "de": "Set-Top-Box",
+    "es": "Descodificador",
+    "fr": "Décodeur",
+    "it": "Set-top box",
+    "ko": "셋톱박스",
+    "nl": "Settopbox",
+    "no": "TV-mottaker",
+    "ru": "Ресивер",
+    "sv": "Digitalbox"
   },
   "description": {
-    "en": "Use this device class for set-top boxes."
+    "en": "Use this device class for set-top boxes.",
+    "da": "Brug denne enhedsklasse til tv-modtagerbokse.",
+    "de": "Verwenden Sie diese Geräteklasse für Set-Top-Boxen.",
+    "es": "Utiliza esta clase de dispositivo para decodificadores de televisión.",
+    "fr": "Utilisez cette classe d'appareils pour les décodeurs.",
+    "it": "Utilizza questa classe di dispositivi per i set-top box.",
+    "ko": "이 디바이스 클래스는 셋톱박스에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor settopboxen.",
+    "no": "Bruk denne enhetsklassen for TV-mottakere.",
+    "ru": "Используйте этот класс устройств для ресиверов."
   },
   "minCompatibility": "12.0.0"
 }

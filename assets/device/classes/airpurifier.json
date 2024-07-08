@@ -1,9 +1,29 @@
 {
   "title": {
-    "en": "Air Purifier"
+    "en": "Air Purifier",
+    "da": "Luftrenser",
+    "de": "Luftreiniger",
+    "es": "Purificador de aire",
+    "fr": "Purificateur d'air",
+    "it": "Purificatore d'aria",
+    "ko": "공기청정기",
+    "nl": "Luchtreiniger",
+    "no": "Luftrenser",
+    "ru": "Очиститель воздуха",
+    "sv": "Luftrenare"
   },
   "description": {
-    "en": "Use this device class for air purifiers."
+    "en": "Use this device class for air purifiers.",
+    "da": "Brug denne enhedsklasse til luftrensere.",
+    "de": "Verwenden Sie diese Geräteklasse für Luftreiniger.",
+    "es": "Utiliza esta clase de dispositivo para purificadores de aire.",
+    "fr": "Utiliser cette classe d'appareils pour les purificateurs d'air.",
+    "it": "Utilizza questa classe di dispositivi per i purificatori d'aria.",
+    "ko": "이 디바이스 클래스는 공기청정기에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor luchtreinigers.",
+    "no": "Bruk denne enhetsklassen for luftrensere.",
+    "ru": "Используйте этот класс устройств для очистителей воздуха.",
+    "sv": "Använd den häe enhetsklassen för luftrenare."
   },
   "minCompatibility": "12.0.0"
 }

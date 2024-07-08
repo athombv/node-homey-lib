@@ -1,9 +1,29 @@
 {
   "title": {
-    "en": "Oven"
+    "en": "Oven",
+    "da": "Ovn",
+    "de": "Backofen",
+    "es": "Horno",
+    "fr": "Four",
+    "it": "Forno",
+    "ko": "오븐",
+    "nl": "Oven",
+    "no": "Stekeovn",
+    "ru": "Духовой шкаф",
+    "sv": "Ugn"
   },
   "description": {
-    "en": "Use this device class for ovens."
+    "en": "Use this device class for ovens.",
+    "da": "Brug denne enhedsklasse til ovne.",
+    "de": "Verwenden Sie diese Geräteklasse für Backöfen.",
+    "es": "Utiliza esta clase de dispositivo para hornos.",
+    "fr": "Utilisez cette classe d'appareils pour les fours.",
+    "it": "Utilizza questa classe di dispositivi per i forni.",
+    "ko": "이 디바이스 클래스는 오븐에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor ovens.",
+    "no": "Bruk denne enhetsklassen for stekeovner.",
+    "ru": "Используйте этот класс устройств для духовых шкафов.",
+    "sv": "Använd den här enhetsklassen för ugnar."
   },
   "minCompatibility": "12.0.0"
 }

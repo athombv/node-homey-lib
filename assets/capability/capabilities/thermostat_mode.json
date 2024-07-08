@@ -11,7 +11,8 @@
     "es": "Modo del termostato",
     "da": "Termostattilstand",
     "ru": "Режим термостата",
-    "pl": "Tryb termostatu"
+    "pl": "Tryb termostatu",
+    "ko": "온도조절기 모드"
   },
   "desc": {
     "en": "Mode of the thermostat",
@@ -24,7 +25,8 @@
     "es": "Modo del termostato",
     "da": "Tilstand for termostat",
     "ru": "Режим термостата",
-    "pl": "Tryb termostatu"
+    "pl": "Tryb termostatu",
+    "ko": "온도조절기의 모드"
   },
   "values": [
     {
@@ -40,7 +42,8 @@
         "es": "Automático",
         "da": "Automatisk",
         "ru": "Автоматически",
-        "pl": "Automatyczny"
+        "pl": "Automatyczny",
+        "ko": "자동"
       }
     },
     {
@@ -56,7 +59,8 @@
         "es": "Calentar",
         "da": "Opvarm",
         "ru": "Обогрев",
-        "pl": "Ogrzewanie"
+        "pl": "Ogrzewanie",
+        "ko": "난방"
       }
     },
     {
@@ -72,7 +76,8 @@
         "es": "Enfriar",
         "da": "Køl ned",
         "ru": "Охлаждение",
-        "pl": "Chłodzenie"
+        "pl": "Chłodzenie",
+        "ko": "냉방"
       }
     },
     {
@@ -88,7 +93,8 @@
         "es": "Desactivado",
         "da": "Deaktiveret",
         "ru": "Выкл",
-        "pl": "Wył"
+        "pl": "Wył",
+        "ko": "끔"
       }
     }
   ],
@@ -110,7 +116,8 @@
           "es": "El modo del termostato ha cambiado",
           "da": "Termostattilstand er blevet ændret",
           "ru": "Режим термостата изменен",
-          "pl": "Zmiana trybu termostatu"
+          "pl": "Zmiana trybu termostatu",
+          "ko": "온도조절기 모드 변경됨"
         },
         "args": [
           {
@@ -135,7 +142,8 @@
           "es": "El modo del termostato !{{está|no está}}",
           "da": "Termostattilstand !{{er|er ikke}}",
           "ru": "Режим термостата !{{|не}}",
-          "pl": "Tryb termostatu !{{to|to nie}}"
+          "pl": "Tryb termostatu !{{to|to nie}}",
+          "ko": "온도조절기 모드 !{{is|is not}}"
         },
         "args": [
           {
@@ -160,7 +168,8 @@
           "es": "Configurar el modo",
           "da": "Indstil tilstanden",
           "ru": "Установить режим",
-          "pl": "Ustaw tryb"
+          "pl": "Ustaw tryb",
+          "ko": "모드 설정"
         },
         "args": [
           {

@@ -1,9 +1,29 @@
 {
   "title": {
-    "en": "Radiator"
+    "en": "Radiator",
+    "da": "Radiator",
+    "de": "Heizkörper",
+    "es": "Radiador",
+    "fr": "Radiateur",
+    "it": "Radiatore",
+    "ko": "라디에이터",
+    "nl": "Radiator",
+    "no": "Radiator",
+    "ru": "Обогреватель",
+    "sv": "Element"
   },
   "description": {
-    "en": "Use this device class for radiators."
+    "en": "Use this device class for radiators.",
+    "da": "Brug denne enhedsklasse til radiatorer.",
+    "de": "Verwenden Sie diese Geräteklasse für Heizkörper.",
+    "es": "Utiliza esta clase de dispositivo para radiadores.",
+    "fr": "Utiliser cette classe d'appareils pour les radiateurs.",
+    "it": "Utilizza questa classe di dispositivi per i radiatori.",
+    "ko": "이 디바이스 클래스는 라디에이터에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor radiatoren.",
+    "no": "Bruk denne enhetsklassen for radiatorer.",
+    "ru": "Используйте этот класс устройств для обогревателей.",
+    "sv": "Använd den här enhetsklassen för element."
   },
   "minCompatibility": "12.0.0"
 }

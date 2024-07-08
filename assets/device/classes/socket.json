@@ -10,7 +10,8 @@
     "es": "Enchufe de pared",
     "da": "Stikkontakt",
     "ru": "Настенная розетка",
-    "pl": "Wtyczka"
+    "pl": "Wtyczka",
+    "ko": "벽면 콘센트"
   },
   "description": {
     "en": "Use this device class for sockets (built-in or plug-in socket switches). When adding the `choose_slave` pair template, the user is presented a `What's plugged in?` question.",
@@ -22,7 +23,8 @@
     "es": "Utiliza esta clase de dispositivo para los enchufes (interruptores de enchufe integrados o enchufables). Al añadir la plantilla de emparejamiento `choose_slave`, al usuario se le pregunta `¿Qué está enchufado?`.",
     "da": "Brug denne enhedsklasse til kontakter (indbyggede eller eksterne kontaktenheder). Når `choose_slave` parskabelonen tilføjes, bliver brugeren præsenteret for et `Hvad er sat til?` spørgsmål.",
     "ru": "Используйте этот класс устройства для розеток (встроенных или вставных выключателей). При добавлении шаблона сопряжения `choose_slave` пользователю предлагается ответить на вопрос: `Что подключено?`.",
-    "pl": "Użyj tej klasy urządzeń dla gniazdek elektrycznych (wbudowanych lub wtyczek). Podczas dodawania szablonu parowania `choose_slave` pojawi się pytanie: `Co jest podłączone?`."
+    "pl": "Użyj tej klasy urządzeń dla gniazdek elektrycznych (wbudowanych lub wtyczek). Podczas dodawania szablonu parowania `choose_slave` pojawi się pytanie: `Co jest podłączone?`.",
+    "ko": "이 디바이스 클래스는 (빌트인 및 플러그인 방식 소켓 스위치 등) 콘센트에 사용합니다. 'choose_slave' 페어링 템플릿을 추가하면 사용자에게 '무엇을 꽂으셨습니까?' 질문이 표시됩니다."
   },
   "virtualTitle": {
     "en": "Plugged in",
@@ -35,7 +37,8 @@
     "es": "Conectado",
     "da": "Tilsluttet",
     "ru": "Подключено",
-    "pl": "Podłączone"
+    "pl": "Podłączone",
+    "ko": "꽂힘"
   },
   "allowedVirtual": [
     "light",

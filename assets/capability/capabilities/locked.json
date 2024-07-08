@@ -11,7 +11,8 @@
     "es": "Cerrada",
     "da": "Låst",
     "ru": "Закрыто",
-    "pl": "Zablokowane"
+    "pl": "Zablokowane",
+    "ko": "잠김"
   },
   "desc": {
     "en": "True when the lock is locked",
@@ -24,7 +25,8 @@
     "es": "Verdadero cuando la cerradura está cerrada",
     "da": "Sandt, når låsen er låst",
     "ru": "Истина, когда замок закрыт",
-    "pl": "Adekwatne, kiedy zamek jest zablokowany"
+    "pl": "Adekwatne, kiedy zamek jest zablokowany",
+    "ko": "록이 잠겨 있으면 참"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "es": "Cerrada",
     "da": "Låst",
     "ru": "Закрыто",
-    "pl": "Zablokowane"
+    "pl": "Zablokowane",
+    "ko": "잠김"
   },
   "insightsTitleFalse": {
     "en": "Unlocked",
@@ -51,7 +54,8 @@
     "es": "Abierta",
     "da": "Ulåst",
     "ru": "Открыто",
-    "pl": "Odblokowane"
+    "pl": "Odblokowane",
+    "ko": "잠금 해제됨"
   },
   "getable": true,
   "setable": true,
@@ -71,7 +75,8 @@
           "es": "Cerrado",
           "da": "Låst",
           "ru": "Закрыто",
-          "pl": "Zablokowane"
+          "pl": "Zablokowane",
+          "ko": "잠김"
         }
       },
       {
@@ -87,7 +92,8 @@
           "es": "Abierto",
           "da": "Låst op",
           "ru": "Открыто",
-          "pl": "Odblokowane"
+          "pl": "Odblokowane",
+          "ko": "잠금 해제됨"
         }
       }
     ],
@@ -105,7 +111,8 @@
           "es": "Una cerradura está !{{cerrada|abierta}}",
           "da": "En lås er blevet !{{låst|låst op}}",
           "ru": "Замок !{{закрыт|открыт}}",
-          "pl": "Zamek jest !{{zablokowany|odblokowany}}"
+          "pl": "Zamek jest !{{zablokowany|odblokowany}}",
+          "ko": "록 !{{locked|unlocked}}"
         }
       }
     ],
@@ -124,7 +131,8 @@
           "es": "Cerrar",
           "da": "Lås",
           "ru": "Закрыть",
-          "pl": "Zablokuj"
+          "pl": "Zablokuj",
+          "ko": "잠금"
         }
       },
       {
@@ -141,7 +149,8 @@
           "es": "Abrir",
           "da": "Lås op",
           "ru": "Открыть",
-          "pl": "Odblokuj"
+          "pl": "Odblokuj",
+          "ko": "잠금 해제"
         }
       }
     ]

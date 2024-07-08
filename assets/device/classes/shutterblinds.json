@@ -1,9 +1,29 @@
 {
   "title": {
-    "en": "Shutter Blinds"
+    "en": "Shutter Blinds",
+    "da": "Persienner",
+    "de": "Jalousien",
+    "es": "Persianas",
+    "fr": "Volets roulants",
+    "it": "Tapparelle",
+    "ko": "셔터 블라인드",
+    "nl": "Jaloezieën",
+    "no": "Persienner",
+    "ru": "Жалюзи",
+    "sv": "Persienner"
   },
   "description": {
-    "en": "Use this device class for shutter blinds."
+    "en": "Use this device class for shutter blinds.",
+    "da": "Brug denne enhedsklasse til persienner.",
+    "de": "Verwenden Sie diese Geräteklasse für Jalousien.",
+    "es": "Utiliza esta clase de dispositivo para persianas.",
+    "fr": "Utiliser cette classe d'appareils pour les volets roulants.",
+    "it": "Utilizza questa classe di dispositivi per le tapparelle.",
+    "ko": "이 디바이스 클래스는 셔터 블라인드에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor jaloezieën.",
+    "no": "Bruk denne enhetsklassen for persienner.",
+    "ru": "Используйте этот класс устройств для жалюзи.",
+    "sv": "Använd den här enhetsklassen för persienner."
   },
   "minCompatibility": "12.0.0"
 }

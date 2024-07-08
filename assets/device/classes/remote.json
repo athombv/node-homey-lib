@@ -10,7 +10,8 @@
     "es": "Mando a distancia",
     "da": "Fjernbetjening",
     "ru": "Пульт",
-    "pl": "Pilot"
+    "pl": "Pilot",
+    "ko": "리모컨"
   },
   "description": {
     "en": "Use this device class for (TV/Sunblind/Keyfob etc.) remotes.",
@@ -18,10 +19,11 @@
     "fr": "Utilisez cette classe d'appareil pour les télécommandes (TV/Stores/Porte-clés, etc.).",
     "it": "Utilizza questa classe di dispositivi per i telecomandi (TV/Tapparelle/Portachiavi, ecc.).",
     "sv": "Använd den här enheten för fjärrkontroller för (TV/Markis/Nyckellås mm.).",
-    "no": "Bruk denne enheten for fjernkontroller for (TV/markise/smartnøkkel m.m.).",
+    "no": "Bruk denne enhetsklassen for fjernkontroller (for TV/markise/smartnøkkel etc.).",
     "es": "Utiliza esta clase de dispositivo para los mandos a distancia (TV/persianas/llaves electrónicas, etc.",
     "da": "Brug denne enhedsklasse til fjernbetjeninger (til TV/markise/smartnøgle osv.)",
     "ru": "Используйте этот класс устройств для пультов дистанционного управления (телевизоры/жалюзи/брелки и т.п.).",
-    "pl": "Użyj tej klasy urządzeń dla pilotów (od telewizora/od markizy/klucza zbliżeniowego itp.)."
+    "pl": "Użyj tej klasy urządzeń dla pilotów (od telewizora/od markizy/klucza zbliżeniowego itp.).",
+    "ko": "이 디바이스 클래스는 (TV/선블라인드/스마트키 등) 리모컨에 사용합니다."
   }
 }

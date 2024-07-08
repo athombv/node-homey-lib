@@ -11,11 +11,13 @@
     "es": "Potencia",
     "da": "Effekt",
     "ru": "Электроэнергия",
-    "pl": "Moc"
+    "pl": "Moc",
+    "ko": "전력"
   },
   "units": {
     "en": "W",
-    "ru": "Вт"
+    "ru": "Вт",
+    "ko": "W"
   },
   "insights": true,
   "desc": {
@@ -29,7 +31,8 @@
     "es": "Potencia en vatios (W)",
     "da": "Effekt i watt (W)",
     "ru": "Электроэнергия (Вт)",
-    "pl": "Moc w watach (W)"
+    "pl": "Moc w watach (W)",
+    "ko": "전력 와트(W)"
   },
   "options": {
     "isApproximated": {
@@ -38,7 +41,9 @@
       "desc": {
         "en": "This flag is used to determine that the device itself has no power measurement functionality, but that the driver calculates the energy use.",
         "ru": "Этот флаг используется для определения того, что само устройство не имеет функции измерения электроэнергии, но драйвер рассчитывает потребление энергии.",
-        "pl": "Flaga oznacza, że samo urządzenie nie ma funkcji pomiaru mocy, ale sterownik oblicza zużycie energii."
+        "pl": "Flaga oznacza, że samo urządzenie nie ma funkcji pomiaru mocy, ale sterownik oblicza zużycie energii.",
+        "ko": "이 플래그는 디바이스 자체에 전력 측정 기능이 없지만 드라이버가 에너지 사용량을 계산하는 경우에 사용됩니다.",
+        "no": "Dette flagget brukes til å anmerke at enheten i seg selv ikke har noen funksjon for effektmåling, men at sjåføren beregner energibruken."
       }
     }
   },
@@ -63,7 +68,8 @@
           "es": "La potencia ha cambiado",
           "da": "Strømmen ændrede sig",
           "ru": "Электроэнергия изменена",
-          "pl": "Zmiana mocy"
+          "pl": "Zmiana mocy",
+          "ko": "전력 변경됨"
         },
         "tokens": [
           {

@@ -10,7 +10,8 @@
     "es": "Duración",
     "da": "Varighed",
     "ru": "Продолжительность",
-    "pl": "Czas trwania"
+    "pl": "Czas trwania",
+    "ko": "기간"
   },
   "type": "number",
   "getable": true,

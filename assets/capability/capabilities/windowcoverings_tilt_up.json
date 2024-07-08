@@ -9,7 +9,8 @@
     "es": "Cobertores de ventanas inclinados hacia arriba",
     "da": "Vinduesdække opad",
     "ru": "Приподнять оконные навесы",
-    "pl": "Rozchylenie osłon okiennych"
+    "pl": "Rozchylenie osłon okiennych",
+    "ko": "창문 덮개 위로 틸트"
   },
   "type": "boolean",
   "getable": false,

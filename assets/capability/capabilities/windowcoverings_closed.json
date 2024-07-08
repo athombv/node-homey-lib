@@ -11,7 +11,8 @@
     "es": "Cerrados",
     "da": "Lukket",
     "ru": "Закрыто",
-    "pl": "Zasunięte"
+    "pl": "Zasunięte",
+    "ko": "닫힘"
   },
   "getable": true,
   "setable": true,
@@ -31,7 +32,8 @@
           "es": "Cerrados",
           "da": "Lukket",
           "ru": "Закрыто",
-          "pl": "Zasunięte"
+          "pl": "Zasunięte",
+          "ko": "닫힘"
         }
       },
       {
@@ -47,7 +49,8 @@
           "es": "Abiertos",
           "da": "Åben",
           "ru": "Открыто",
-          "pl": "Rozchylone"
+          "pl": "Rozchylone",
+          "ko": "열림"
         }
       }
     ],
@@ -65,7 +68,8 @@
           "es": "Están !{{cerrados|abiertos}}",
           "da": "Er !{{lukket|åben}}",
           "ru": "!{{закрыты|открыты}}",
-          "pl": "Są !{{zasunięte|rozchylone}}"
+          "pl": "Są !{{zasunięte|rozchylone}}",
+          "ko": "!{{closed|opened}}"
         }
       }
     ],
@@ -84,7 +88,8 @@
           "es": "Cerrar",
           "da": "Luk",
           "ru": "Закрыть",
-          "pl": "Zasuń"
+          "pl": "Zasuń",
+          "ko": "닫기"
         }
       },
       {
@@ -101,7 +106,8 @@
           "es": "Abrir",
           "da": "Åbn",
           "ru": "Открыть",
-          "pl": "Rozchyl"
+          "pl": "Rozchyl",
+          "ko": "열기"
         }
       },
       {
@@ -117,7 +123,8 @@
           "es": "Abrir o cerrar",
           "da": "Skift mellem åben og lukket",
           "ru": "Переключатель открыть/закрыть",
-          "pl": "Przełącz na rozchylone lub zasłonięte"
+          "pl": "Przełącz na rozchylone lub zasłonięte",
+          "ko": "열림 또는 닫힘 토글"
         }
       }
     ]

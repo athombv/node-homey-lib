@@ -1,9 +1,29 @@
 {
   "title": {
-    "en": "Dishwasher"
+    "en": "Dishwasher",
+    "da": "Opvaskemaskine",
+    "de": "Geschirrspüler",
+    "es": "Lavavajillas",
+    "fr": "Lave-vaisselle",
+    "it": "Lavastoviglie",
+    "ko": "식기세척기",
+    "nl": "Vaatwasser",
+    "no": "Oppvaskmaskin",
+    "ru": "Посудомоечная машина",
+    "sv": "Diskmaskin"
   },
   "description": {
-    "en": "Use this device class for dishwashers."
+    "en": "Use this device class for dishwashers.",
+    "da": "Brug denne enhedsklasse til opvaskemaskiner.",
+    "de": "Verwenden Sie diese Geräteklasse für Geschirrspülmaschinen.",
+    "es": "Utiliza esta clase de dispositivo para lavavajillas.",
+    "fr": "Utilisez cette classe d'appareils pour les lave-vaisselle.",
+    "it": "Utilizza questa classe di dispositivi per le lavastoviglie.",
+    "ko": "이 디바이스 클래스는 식기세척기에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor vaatwassers.",
+    "no": "Bruk denne enhetsklassen for oppvaskmaskiner.",
+    "ru": "Используйте этот класс устройств для посудомоечных машин.",
+    "sv": "Använd den här enhetsklassen för diskmaskiner."
   },
   "minCompatibility": "12.0.0"
 }

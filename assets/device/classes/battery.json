@@ -1,9 +1,29 @@
 {
   "title": {
-    "en": "Battery"
+    "en": "Battery",
+    "da": "Batteri",
+    "de": "Batterie",
+    "es": "Batería",
+    "fr": "Batterie",
+    "it": "Batteria",
+    "ko": "배터리",
+    "nl": "Batterij",
+    "no": "Batteri",
+    "ru": "Аккумулятор",
+    "sv": "Batteri"
   },
   "description": {
-    "en": "Use this device for batteries, e.g. home battery storage."
+    "en": "Use this device for batteries, e.g. home battery storage.",
+    "da": "Brug denne enhedsklasse til batterier, f.eks. til opbevaring af hjemmebatterier.",
+    "de": "Verwenden Sie diese Geräteklasse für Batterien, z. B. für den Heimbatteriespeicher.",
+    "es": "Utiliza esta clase de dispositivo para baterías (por ej., almacenamiento doméstico de pilas y baterías).",
+    "fr": "Utilisez cette classe d'appareils pour les batteries, par exemple pour le stockage des batteries domestiques.",
+    "it": "Utilizza questa classe di dispositivi per le batterie, es. accumulatore domestico.",
+    "ko": "이 디바이스 클래스는 가정용 배터리 스토리지 등 배터리류에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor batterijen, bijvoorbeeld voor thuisopslag van batterijen.",
+    "no": "Bruk denne enhetsklassen for batterier, f.eks. batterilagringsløsninger hjemme.",
+    "ru": "Используйте этот класс устройств для аккумуляторов, например, для домашних накопителей энергии.",
+    "sv": "Använd den här enhetsklassen för batterier, t.ex. för batterilagring i hemmet."
   },
   "minCompatibility": "12.0.0"
 }

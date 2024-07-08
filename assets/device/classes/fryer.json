@@ -1,9 +1,29 @@
 {
   "title": {
-    "en": "Fryer"
+    "en": "Fryer",
+    "da": "Frituregryde",
+    "de": "Fritteuse",
+    "es": "Freidora",
+    "fr": "Friteuse",
+    "it": "Friggitrice",
+    "ko": "프라이어",
+    "nl": "Friteuse",
+    "no": "Frityrkoker",
+    "ru": "Фритюрница",
+    "sv": "Fritös"
   },
   "description": {
-    "en": "Use this device class for fryers."
+    "en": "Use this device class for fryers.",
+    "da": "Brug denne enhedsklasse til frituregryder.",
+    "de": "Verwenden Sie diese Geräteklasse für Friteusen.",
+    "es": "Utiliza esta clase de dispositivo para freidoras.",
+    "fr": "Utilisez cette classe d'appareils pour les friteuses.",
+    "it": "Utilizza questa classe di dispositivi per le friggitrici.",
+    "ko": "이 디바이스 클래스는 튀김기 등 프라이어에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor friteuses.",
+    "no": "Bruk denne enhetsklassen for frityrkokere.",
+    "ru": "Используйте этот класс устройств для фритюрниц.",
+    "sv": "Använd den här enhetsklassen för fritöser."
   },
   "minCompatibility": "12.0.0"
 }

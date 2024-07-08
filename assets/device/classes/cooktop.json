@@ -1,9 +1,29 @@
 {
   "title": {
-    "en": "Cooktop"
+    "en": "Cooktop",
+    "da": "Kogeplade",
+    "de": "Kochfeld",
+    "es": "Placa de cocción",
+    "fr": "Table de cuisson",
+    "it": "Piano cottura",
+    "ko": "쿡탑",
+    "nl": "Kookplaat",
+    "no": "Koketopp",
+    "ru": "Варочная панель",
+    "sv": "Spishäll"
   },
   "description": {
-    "en": "Use this device class for cooktops."
+    "en": "Use this device class for cooktops.",
+    "da": "Brug denne enhedsklasse til kogeplader.",
+    "de": "Verwenden Sie diese Geräteklasse für Kochfelder.",
+    "es": "Utiliza esta clase de dispositivo para placas de cocción.",
+    "fr": "Utilisez cette classe d'appareils pour les tables de cuisson.",
+    "it": "Utilizza questa classe di dispositivi per i piani cottura.",
+    "ko": "이 디바이스 클래스는 쿡탑에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor kookplaten.",
+    "no": "Bruk denne enhetsklassen for koketopper.",
+    "ru": "Используйте этот класс устройств для варочных панелей.",
+    "sv": "Använd den här enhetsklassen för spishällar."
   },
   "minCompatibility": "12.0.0"
 }

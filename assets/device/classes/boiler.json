@@ -1,9 +1,29 @@
 {
   "title": {
-    "en": "Boiler"
+    "en": "Boiler",
+    "da": "Kedel",
+    "de": "Heizkessel",
+    "es": "Caldera",
+    "fr": "Chaudière",
+    "it": "Caldaia",
+    "ko": "보일러",
+    "nl": "Boiler",
+    "no": "Varmtvannsbereder",
+    "ru": "Котел",
+    "sv": "Värmepanna"
   },
   "description": {
-    "en": "Use this device class for any kind of boiler, e.g. heatpump boiler, gas boiler, hot water boiler, central heating boiler."
+    "en": "Use this device class for any kind of boiler, e.g. heatpump boiler, gas boiler, hot water boiler, central heating boiler.",
+    "da": "Brug denne enhedsklasse til enhver form for kedel, f.eks. varmepumpekedel, gaskedel, varmtvandskedel, centralvarmekedel.",
+    "de": "Verwenden Sie diese Geräteklasse für jede Art von Heizkessel, z. B. Wärmepumpenkessel, Gaskessel, Warmwasserboiler, Zentralheizungskessel.",
+    "es": "Utiliza esta clase de dispositivo para cualquier tipo de calentador (por ej., caldera de bomba de calor, caldera de gas, caldera de agua caliente, caldera de calefacción central, etc.).",
+    "fr": "Utilisez cette classe d'appareils pour tout type de chaudière, par exemple une chaudière à pompe à chaleur, une chaudière à gaz, une chaudière à eau chaude, une chaudière de chauffage central.",
+    "it": "Utilizza questa classe di dispositivi per qualsiasi tipo di caldaia, es. caldaia a pompa di calore, caldaia a gas, caldaia ad acqua, caldaia con riscaldamento centralizzato.",
+    "ko": "이 디바이스 클래스는 히트펌프 보일러, 가스 보일러, 온수 보일러, 중앙난방 보일러 등 모든 종류의 보일러에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor elk type boiler, bijv. warmtepompboiler, gasketel, warmwaterboiler, cv-ketel.",
+    "no": "Bruk denne enhetsklassen for alle slags varmtvannsberedere, f.eks. varmepumpebereder, gassbereder, varmtvannsbereder, sentral storbereder.",
+    "ru": "Используйте этот класс устройств для котлов любого типа, например, котла с тепловым насосом, газового котла, водонагревательного котла, котла центрального отопления.",
+    "sv": "Använd den här enhetsklassen för alla typer av pannor, t.ex. värmepumpspannor, gaspannor, varmvattenpannor, centralvärmepannor."
   },
   "minCompatibility": "12.0.0"
 }

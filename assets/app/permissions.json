@@ -11,7 +11,8 @@
       "es": "Leer la posición de Homey",
       "da": "Læs Homeys placering",
       "ru": "Читать местонахождение Homey",
-      "pl": "Odczytaj lokalizację Homey"
+      "pl": "Odczytaj lokalizację Homey",
+      "ko": "Homey 위치 읽기"
     }
   },
   "homey:manager:ledring": {
@@ -26,7 +27,8 @@
       "es": "Controlar el anillo LED de Homey",
       "da": "Kontroller Homeys LED-ring",
       "ru": "Управлять светодиодным кольцом Homey",
-      "pl": "Steruj lampą pierścieniową Homey"
+      "pl": "Steruj lampą pierścieniową Homey",
+      "ko": "Homey LED 링 제어"
     }
   },
   "homey:manager:media": {
@@ -41,7 +43,8 @@
       "es": "Controlar la música de Homey",
       "da": "Kontroller Homeys musik",
       "ru": "Управлять музыкой Homey",
-      "pl": "Steruj muzyką Homey"
+      "pl": "Steruj muzyką Homey",
+      "ko": "Homey의 음악 제어"
     }
   },
   "homey:manager:speech-input": {
@@ -56,7 +59,8 @@
       "es": "Reaccionar al habla",
       "da": "Reager på tale",
       "ru": "Реагировать на голос",
-      "pl": "Reaguj na mowę"
+      "pl": "Reaguj na mowę",
+      "ko": "음성에 반응"
     }
   },
   "homey:manager:speech-output": {
@@ -71,7 +75,8 @@
       "es": "Deja que Homey hable",
       "da": "Lad Homey tale",
       "ru": "Разрешить Homey говорить",
-      "pl": "Pozwól Homey mówić"
+      "pl": "Pozwól Homey mówić",
+      "ko": "Homey의 음성 안내"
     }
   },
   "homey:wireless:433": {
@@ -86,7 +91,8 @@
       "es": "Enviar y recibir en la frecuencia de 433 MHz",
       "da": "Send, og modtag på 433 MHz-frekvensen",
       "ru": "Отправка и получение сигналов на частоте 433 МГц",
-      "pl": "Wysyłaj i odbieraj sygnały o częstotliwości 433 MHz"
+      "pl": "Wysyłaj i odbieraj sygnały o częstotliwości 433 MHz",
+      "ko": "433 MHz 주파수 송수신"
     }
   },
   "homey:wireless:868": {
@@ -101,7 +107,8 @@
       "es": "Enviar y recibir en la frecuencia de 868 MHz",
       "da": "Send, og modtag på 868 MHz-frekvensen",
       "ru": "Отправка и получение сигналов на частоте 868 МГц",
-      "pl": "Wysyłaj i odbieraj sygnały o częstotliwości 868 MHz"
+      "pl": "Wysyłaj i odbieraj sygnały o częstotliwości 868 MHz",
+      "ko": "868 MHz 주파수 송수신"
     }
   },
   "homey:wireless:ir": {
@@ -116,7 +123,8 @@
       "es": "Enviar y recibir en infrarrojos",
       "da": "Send, og modtag på infrarød",
       "ru": "Отправка и получение ИК-сигналов",
-      "pl": "Wysyłaj i odbieraj podczerwień"
+      "pl": "Wysyłaj i odbieraj podczerwień",
+      "ko": "적외선 송수신"
     }
   },
   "homey:wireless:zwave": {
@@ -131,7 +139,8 @@
       "es": "Enviar y recibir Z-Wave para dispositivos específicos",
       "da": "Send, og modtag på Z-Wave for specifikke enheder",
       "ru": "Отправлять и получать сигналы Z-Wave для определенных устройств",
-      "pl": "Wysyłaj i odbieraj Z-Wave dla określonych urządzeń"
+      "pl": "Wysyłaj i odbieraj Z-Wave dla określonych urządzeń",
+      "ko": "특정 디바이스를 위해 Z-Wave 송수신"
     }
   },
   "homey:wireless:zigbee": {
@@ -146,7 +155,8 @@
       "es": "Enviar y recibir Zigbee para dispositivos específicos",
       "da": "Send, og modtag på Zigbee for specifikke enheder",
       "ru": "Отправлять и получать сигналы Zigbee для определенных устройств",
-      "pl": "Wysyłaj i odbieraj Zigbee dla określonych urządzeń"
+      "pl": "Wysyłaj i odbieraj Zigbee dla określonych urządzeń",
+      "ko": "특정 디바이스를 위해 Zigbee 송수신"
     }
   },
   "homey:wireless:nfc": {
@@ -161,7 +171,8 @@
       "es": "Leer y escribir etiquetas NFC",
       "da": "Læs, og skriv NFC-tags",
       "ru": "Чтение и запись тегов NFC",
-      "pl": "Odczytuj i twórz tagi NFC"
+      "pl": "Odczytuj i twórz tagi NFC",
+      "ko": "NFC 태그 읽기 및 쓰기"
     }
   },
   "homey:manager:api": {
@@ -176,7 +187,8 @@
       "es": "Acceso completo a Homey para controlarlo todo en nombre del usuario",
       "da": "Få fuld adgang til Homey for at kontrollere alt på brugerens vegne",
       "ru": "Получите полный доступ к Homey, чтобы контролировать все от имени пользователя",
-      "pl": "Zdobądź pełny dostęp do Homey, aby sterować wszystkim w imieniu użytkownika"
+      "pl": "Zdobądź pełny dostęp do Homey, aby sterować wszystkim w imieniu użytkownika",
+      "ko": "사용자를 대신해 모든 것을 제어할 수 있도록 Homey에 대한 온전한 액세스 권한 얻기"
     }
   },
   "homey:wireless:ble": {
@@ -191,7 +203,8 @@
       "es": "Comunicarse con dispositivos de Bluetooth Low Energy",
       "da": "Kommuniker med Bluetooth low energy-enheder",
       "ru": "Связываться с устройствами Bluetooth с низким энергопотреблением",
-      "pl": "Porozumiewaj się z urządzeniami Bluetooth Low Energy"
+      "pl": "Porozumiewaj się z urządzeniami Bluetooth Low Energy",
+      "ko": "블루투스 LE 디바이스와 통신"
     }
   }
 }

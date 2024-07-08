@@ -11,7 +11,8 @@
     "es": "Alarma de CO",
     "da": "CO-alarm",
     "ru": "Сигнал CO",
-    "pl": "Alarm o CO"
+    "pl": "Alarm o CO",
+    "ko": "CO 알람"
   },
   "desc": {
     "en": "True when dangerous CO values have been detected",
@@ -24,7 +25,8 @@
     "es": "Verdadero cuando se han detectado valores peligrosos de CO",
     "da": "Sandt, når farlige CO-værdier er blevet opdaget",
     "ru": "Верно при обнаружении опасных значений CO",
-    "pl": "Adekwatny, kiedy wykryty zostanie niebezpieczny poziom stężenia CO"
+    "pl": "Adekwatny, kiedy wykryty zostanie niebezpieczny poziom stężenia CO",
+    "ko": "위험한 CO 값이 감지되면 참"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "es": "Alarma de CO activada",
     "da": "CO-alarm aktiveret",
     "ru": "Сигнал CO включен",
-    "pl": "Alarm o CO włączony"
+    "pl": "Alarm o CO włączony",
+    "ko": "CO 알람 켜짐"
   },
   "insightsTitleFalse": {
     "en": "CO alarm turned off",
@@ -51,7 +54,8 @@
     "es": "Alarma de CO desactivada",
     "da": "CO-alarm deaktiveret",
     "ru": "Сигнал CO выключен",
-    "pl": "Alarm o CO wyłączony"
+    "pl": "Alarm o CO wyłączony",
+    "ko": "CO 알람 꺼짐"
   },
   "getable": true,
   "setable": false,
@@ -72,7 +76,8 @@
           "es": "La alarma de CO se ha activado",
           "da": "CO-alarmen blev aktiveredt",
           "ru": "Сигнал CO включен",
-          "pl": "Alarm o CO włączony"
+          "pl": "Alarm o CO włączony",
+          "ko": "CO 알람 켜짐"
         }
       },
       {
@@ -88,7 +93,8 @@
           "es": "La alarma de CO se ha desactivado",
           "da": "CO-alarmen blev deaktiveret",
           "ru": "Сигнал CO выключен",
-          "pl": "Alarm o CO wyłączony"
+          "pl": "Alarm o CO wyłączony",
+          "ko": "CO 알람 꺼짐"
         }
       }
     ],
@@ -106,7 +112,8 @@
           "es": "La alarma de CO está !{{activada|desactivada}}",
           "da": "CO-alarmen er !{{på|af}}",
           "ru": "Сигнал CO !{{вкл.|выкл.}}",
-          "pl": "Alarm Alarm o CO !{{włączony|wyłączony}}"
+          "pl": "Alarm Alarm o CO !{{włączony|wyłączony}}",
+          "ko": "CO 알람 !{{on|off}}"
         }
       }
     ]

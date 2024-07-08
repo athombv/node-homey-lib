@@ -1,9 +1,29 @@
 {
   "title": {
-    "en": "Water Valve"
+    "en": "Water Valve",
+    "da": "Vandventil",
+    "de": "Wasserventil",
+    "es": "Válvula de agua",
+    "fr": "Robinet d'adduction d'eau",
+    "it": "Valvola idraulica",
+    "ko": "워터 밸브",
+    "nl": "Waterklep",
+    "no": "Vannventil",
+    "ru": "Водяной клапан",
+    "sv": "Vattenventil"
   },
   "description": {
-    "en": "Use this device class for mechanical water valves."
+    "en": "Use this device class for mechanical water valves.",
+    "da": "Brug denne enhedsklasse til mekaniske vandventiler.",
+    "de": "Verwenden Sie diese Geräteklasse für mechanische Wasserventile.",
+    "es": "Utiliza esta clase de dispositivo para válvulas mecánicas de agua.",
+    "fr": "Utilisez cette classe d'appareils pour les robinet d'adduction d'eau mécaniques.",
+    "it": "Utilizza questa classe di dispositivi per le valvole idrauliche meccaniche.",
+    "ko": "이 디바이스 클래스는 기계식 워터 밸브에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor mechanische waterkleppen.",
+    "no": "Bruk denne enhetsklassen for mekaniske vannventiler.",
+    "ru": "Используйте этот класс устройств для механических водяных клапанов.",
+    "sv": "Använd den här apparatklassen för mekaniska vattenventiler."
   },
   "minCompatibility": "12.0.0"
 }

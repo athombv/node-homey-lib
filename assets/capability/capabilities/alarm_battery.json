@@ -11,7 +11,8 @@
     "es": "Alarma de batería",
     "da": "Batterialarm",
     "ru": "Сигнал аккумулятора",
-    "pl": "Alarm stanu baterii"
+    "pl": "Alarm stanu baterii",
+    "ko": "배터리 알람"
   },
   "desc": {
     "en": "True when there is a battery warning",
@@ -24,7 +25,8 @@
     "es": "Verdadero cuando hay una advertencia de la batería",
     "da": "Sandt, når der er en batterialarm",
     "ru": "Верно, когда есть предупреждение об аккумуляторе",
-    "pl": "Adekwatny, kiedy włączy się ostrzeżenie o stanie baterii"
+    "pl": "Adekwatny, kiedy włączy się ostrzeżenie o stanie baterii",
+    "ko": "배터리 경고가 있으면 참"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "es": "Alarma de la batería activada",
     "da": "Batterialarm aktiveret",
     "ru": "Сигнал аккумулятора включен",
-    "pl": "Alarm stanu baterii włączony"
+    "pl": "Alarm stanu baterii włączony",
+    "ko": "배터리 알람 켜짐"
   },
   "insightsTitleFalse": {
     "en": "Battery alarm turned off",
@@ -51,7 +54,8 @@
     "es": "Alarma de la batería desactivada",
     "da": "Batterialarm deaktiveret",
     "ru": "Сигнал аккумулятора выключен",
-    "pl": "Alarm stanu baterii wyłączony"
+    "pl": "Alarm stanu baterii wyłączony",
+    "ko": "배터리 알람 꺼짐"
   },
   "getable": true,
   "setable": false,
@@ -72,7 +76,8 @@
           "es": "La alarma de la batería se ha activado",
           "da": "Batterialarm aktiverede",
           "ru": "Сигнал аккумулятора включен",
-          "pl": "Alarm stanu baterii włączony"
+          "pl": "Alarm stanu baterii włączony",
+          "ko": "배터리 알람 켜짐"
         }
       },
       {
@@ -88,7 +93,8 @@
           "es": "La alarma de la batería se ha desactivado",
           "da": "Batterialarm deaktiverede",
           "ru": "Сигнал аккумулятора выключен",
-          "pl": "Alarm stanu baterii wyłączony"
+          "pl": "Alarm stanu baterii wyłączony",
+          "ko": "배터리 알람 꺼짐"
         }
       }
     ],
@@ -104,7 +110,8 @@
           "sv": "Batterialarmet är !{{på|av}}",
           "no": "Batterialarmen er !{{på|av}}",
           "es": "La alarma de la batería está !{{activada|desactivada}}",
-          "da": "Batterialarmen er !{{tændt|slukket}}"
+          "da": "Batterialarmen er !{{tændt|slukket}}",
+          "ko": "배터리 알람 !{{on|off}}"
         }
       }
     ]

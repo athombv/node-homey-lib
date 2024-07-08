@@ -1,9 +1,29 @@
 {
   "title": {
-    "en": "Airconditioning"
+    "en": "Airconditioning",
+    "da": "Klimaanlæg",
+    "de": "Klimatisierung",
+    "es": "Aire acondicionado",
+    "fr": "Climatisation",
+    "it": "Aria condizionata",
+    "ko": "에어컨",
+    "nl": "Airconditioning",
+    "no": "Klimaanlegg",
+    "ru": "Кондиционер",
+    "sv": "Luftkonditionering"
   },
   "description": {
-    "en": "Use this device class for airconditioners, either portable or split type units."
+    "en": "Use this device class for airconditioners, either portable or split type units.",
+    "da": "Brug denne enhedsklasse til klimaanlæg, enten bærbare eller split-enheder.",
+    "de": "Verwenden Sie diese Geräteklasse für tragbare oder geteilte Klimageräte.",
+    "es": "Utiliza esta clase de dispositivo para equipos de aire acondicionado, ya sean portátiles o de tipo split.",
+    "fr": "Cette classe d'appareils est utilisée pour les climatiseurs, qu'il s'agisse d'unités portables ou de type split.",
+    "it": "Utilizza questa classe di dispositivi per i condizionatori, sia portatili che di tipo split.",
+    "ko": "이 디바이스 클래스는 이동식 또는 실내외기 분할형 에어컨에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor airconditioners, zowel draagbare als splitsysteem.",
+    "no": "Bruk denne enhetsklassen for klimaanlegg av både flyttbar og fastmontert type.",
+    "ru": "Используйте этот класс устройств для кондиционеров, как переносных, так и сплит-систем.",
+    "sv": "Använd denna enhetsklass för luftkonditioneringsapparater, antingen portabla eller enheter av split-typ."
   },
   "minCompatibility": "12.0.0"
 }

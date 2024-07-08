@@ -1,9 +1,29 @@
 {
   "title": {
-    "en": "Lawn Mower"
+    "en": "Lawn Mower",
+    "da": "Plæneklipper",
+    "de": "Rasenmäher",
+    "es": "Cortacésped",
+    "fr": "Tondeuse à gazon",
+    "it": "Tagliaerba",
+    "ko": "예초기",
+    "nl": "Grasmaaier",
+    "no": "Gressklipper",
+    "ru": "Газонокосилка",
+    "sv": "Gräsklippare"
   },
   "description": {
-    "en": "Use this device class for lawn mowers."
+    "en": "Use this device class for lawn mowers.",
+    "da": "Brug denne enhedsklasse til plæneklippere.",
+    "de": "Verwenden Sie diese Geräteklasse für Rasenmäher.",
+    "es": "Utiliza esta clase de dispositivo para cortadoras de césped.",
+    "fr": "Utilisez cette classe d'appareils pour les tondeuses à gazon.",
+    "it": "Utilizza questa classe di dispositivi per i tagliaerba.",
+    "ko": "이 디바이스 클래스는 잔디깎이 등 예초기에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor grasmaaiers.",
+    "no": "Bruk denne enhetsklassen for gressklippere.",
+    "ru": "Используйте этот класс устройств для газонокосилок.",
+    "sv": "Använd den här enhetsklassen för gräsklippare."
   },
   "minCompatibility": "12.0.0"
 }

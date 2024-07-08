@@ -9,7 +9,8 @@
     "es": "Repetir",
     "da": "Gentag",
     "ru": "Повторить",
-    "pl": "Powtórz"
+    "pl": "Powtórz",
+    "ko": "반복"
   },
   "type": "enum",
   "values": [
@@ -26,7 +27,8 @@
         "es": "Apagar",
         "da": "Fra",
         "ru": "выкл",
-        "pl": "wył"
+        "pl": "wył",
+        "ko": "끔"
       }
     },
     {
@@ -41,7 +43,8 @@
         "es": "Repetir pista",
         "da": "Gentag spor",
         "ru": "Повторить трек",
-        "pl": "Powtórz utwór"
+        "pl": "Powtórz utwór",
+        "ko": "트랙 반복"
       }
     },
     {
@@ -56,7 +59,8 @@
         "es": "Repetir lista de reproducción",
         "da": "Gentag afspilningsliste",
         "ru": "Повторить плейлист",
-        "pl": "Powtórz składankę"
+        "pl": "Powtórz składankę",
+        "ko": "재생목록 반복"
       }
     }
   ],
@@ -77,7 +81,8 @@
           "es": "Repetir",
           "da": "Gentag",
           "ru": "Повторить",
-          "pl": "Powtórz"
+          "pl": "Powtórz",
+          "ko": "반복"
         },
         "args": [
           {

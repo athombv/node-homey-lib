@@ -10,7 +10,8 @@
     "es": "Subir volumen",
     "da": "Op for lyden",
     "ru": "Звук громче",
-    "pl": "Zwiększ głośność"
+    "pl": "Zwiększ głośność",
+    "ko": "볼륨 크게"
   },
   "type": "boolean",
   "getable": false,
@@ -32,7 +33,8 @@
           "es": "Subir el volumen",
           "da": "Skru op for lyden",
           "ru": "Сделать звук громче",
-          "pl": "Zwiększ poziom głośności"
+          "pl": "Zwiększ poziom głośności",
+          "ko": "볼륨 높이기"
         }
       }
     ]

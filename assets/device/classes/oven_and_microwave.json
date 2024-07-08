@@ -1,9 +1,29 @@
 {
   "title": {
-    "en": "Combi Microwave Oven"
+    "en": "Combi Microwave Oven",
+    "da": "Kombimikrobølgeovn",
+    "de": "Kombi-Mikrowellenherd",
+    "es": "Horno-microondas",
+    "fr": "Four à micro-ondes combiné",
+    "it": "Forno a microonde combinato",
+    "ko": "전자레인지 콤비오븐",
+    "nl": "Combimagnetron",
+    "no": "Kombi-mikrobølgeovn",
+    "ru": "Комбинированная микроволновая печь",
+    "sv": "Kombimikrovågsugn"
   },
   "description": {
-    "en": "Use this device class for combination microwave ovens."
+    "en": "Use this device class for combination microwave ovens.",
+    "da": "Brug denne enhedsklasse til kombimikrobølgeovne.",
+    "de": "Verwenden Sie diese Geräteklasse für Kombi-Mikrowellenherde.",
+    "es": "Utilice esta clase de dispositivo para equipos que combinan funciones de horno y microondas.",
+    "fr": "Utilisez cette classe d'appareils pour les fours à micro-ondes combinés.",
+    "it": "Utilizza questa classe di dispositivi per i forni a microonde combinati.",
+    "ko": "이 디바이스 클래스는 전자레인지와 오븐 기능을 합친 콤비오븐에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor combimagnetrons.",
+    "no": "Bruk denne enhetsklassen for kombiovner med mikrobølgeovn.",
+    "ru": "Используйте этот класс устройств для комбинированных микроволновых печей.",
+    "sv": "Använd den här enhetsklassen för kombinerade mikrovågsugnar."
   },
   "minCompatibility": "12.0.0"
 }

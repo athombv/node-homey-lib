@@ -9,13 +9,16 @@
     "es": "Configurar la inclinación de los cobertores de ventanas",
     "da": "Indstil hældning for vinduesdække",
     "ru": "Угол наклона оконных навесов установлен",
-    "pl": "Ustawienie osłon okiennych"
+    "pl": "Ustawienie osłon okiennych",
+    "ko": "창문 덮개 틸트 설정"
   },
   "type": "number",
   "min": 0,
   "max": 1,
   "units": {
-    "en": "%"
+    "en": "%",
+    "ko": "%",
+    "no": "%"
   },
   "decimals": 2,
   "getable": true,

@@ -1,9 +1,29 @@
 {
   "title": {
-    "en": "Network Router"
+    "en": "Network Router",
+    "da": "Netværksrouter",
+    "de": "Netzwerk-Router",
+    "es": "Router",
+    "fr": "Routeur de réseau",
+    "it": "Router di rete",
+    "ko": "네트워크 라우터",
+    "nl": "Netwerkrouter",
+    "no": "Nettverksruter",
+    "ru": "Сетевой маршрутизатор",
+    "sv": "Nätverksrouter"
   },
   "description": {
-    "en": "Use this device class for routers or modems."
+    "en": "Use this device class for routers or modems.",
+    "da": "Brug denne enhedsklasse til routere eller modemer.",
+    "de": "Verwenden Sie diese Geräteklasse für Router oder Modems.",
+    "es": "Utiliza esta clase de dispositivo para routers o módems.",
+    "fr": "Utilisez cette classe d'appareils pour les routeurs ou les modems.",
+    "it": "Utilizza questa classe di dispositivi per i router o i modem.",
+    "ko": "이 디바이스 클래스는 라우터 또는 모뎀에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor routers of modems.",
+    "no": "Bruk denne enhetsklassen for rutere eller modemer.",
+    "ru": "Используйте этот класс устройств для маршрутизаторов или модемов.",
+    "sv": "Använd den här enhetsklassen för routrar eller modem."
   },
   "minCompatibility": "12.0.0"
 }

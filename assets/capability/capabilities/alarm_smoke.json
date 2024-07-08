@@ -11,7 +11,8 @@
     "es": "Alarma de humo",
     "da": "Røgalarm",
     "ru": "Сигнал дыма",
-    "pl": "Alarm przeciwdymny"
+    "pl": "Alarm przeciwdymny",
+    "ko": "연기 알람"
   },
   "desc": {
     "en": "True when smoke has been detected",
@@ -24,7 +25,8 @@
     "es": "Verdadero cuando se ha detectado humo",
     "da": "Sandt, når røg er blevet opdaget",
     "ru": "Верно при обнаружении дыма",
-    "pl": "Adekwatny, kiedy wykryty zostanie dym"
+    "pl": "Adekwatny, kiedy wykryty zostanie dym",
+    "ko": "연기가 감지되면 참"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "es": "Alarma de humo activada",
     "da": "Røgalarm blev aktiveret",
     "ru": "Сигнал дыма включен",
-    "pl": "Alarm przeciwdymny włączony"
+    "pl": "Alarm przeciwdymny włączony",
+    "ko": "연기 알람 켜짐"
   },
   "insightsTitleFalse": {
     "en": "Smoke alarm turned off",
@@ -51,7 +54,8 @@
     "es": "Alarma de humo desactivada",
     "da": "Røgalarm blev deaktiveret",
     "ru": "Сигнал дыма выключен",
-    "pl": "Alarm przeciwdymny wyłączony"
+    "pl": "Alarm przeciwdymny wyłączony",
+    "ko": "연기 알람 꺼짐"
   },
   "getable": true,
   "setable": false,
@@ -72,7 +76,8 @@
           "es": "La alarma de humo se ha activado",
           "da": "Røgalarmen blev aktiveret",
           "ru": "Сигнал дыма включен",
-          "pl": "Alarm przeciwdymny włączony"
+          "pl": "Alarm przeciwdymny włączony",
+          "ko": "연기 알람 켜짐"
         }
       },
       {
@@ -88,7 +93,8 @@
           "es": "La alarma de humo se ha desactivado",
           "da": "Røgalarmen blev deaktiveret",
           "ru": "Сигнал дыма выключен",
-          "pl": "Alarm przeciwdymny wyłączony"
+          "pl": "Alarm przeciwdymny wyłączony",
+          "ko": "연기 알람 꺼짐"
         }
       }
     ],
@@ -106,7 +112,8 @@
           "es": "La alarma de humo está !{{activada|desactivada}}",
           "da": "Røgalarmen er !{{tændt|slukket}}",
           "ru": "Сигнал дыма !{{вкл.|выкл.}}",
-          "pl": "Alarm przeciwdymny !{{włączony|wyłączony}}"
+          "pl": "Alarm przeciwdymny !{{włączony|wyłączony}}",
+          "ko": "연기 알람 !{{on|off}}"
         }
       }
     ]

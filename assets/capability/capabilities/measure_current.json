@@ -11,10 +11,13 @@
     "es": "Corriente",
     "da": "Strøm",
     "ru": "Текущее значение",
-    "pl": "Prąd"
+    "pl": "Prąd",
+    "ko": "현재"
   },
   "units": {
-    "en": "A"
+    "en": "A",
+    "ko": "A",
+    "no": "A"
   },
   "insights": true,
   "desc": {
@@ -28,7 +31,8 @@
     "es": "Corriente eléctrica (A)",
     "da": "Elektrisk strøm (A)",
     "ru": "Электрический ток (А)",
-    "pl": "Prąd elektryczny (A)"
+    "pl": "Prąd elektryczny (A)",
+    "ko": "전류(A)"
   },
   "chartType": "stepLine",
   "decimals": 2,
@@ -50,7 +54,8 @@
           "es": "La corriente eléctrica ha cambiado",
           "da": "Den elektriske strøm ændrede sig",
           "ru": "Электрический ток изменился",
-          "pl": "Zmiana prądu elektrycznego"
+          "pl": "Zmiana prądu elektrycznego",
+          "ko": "전류 변경됨"
         },
         "tokens": [
           {

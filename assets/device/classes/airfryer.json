@@ -1,9 +1,29 @@
 {
   "title": {
-    "en": "Air Fryer"
+    "en": "Air Fryer",
+    "da": "Airfryer",
+    "de": "Heißluftfritteuse",
+    "es": "Freidora de aire",
+    "fr": "Friteuse à air",
+    "it": "Friggitrice ad aria",
+    "ko": "에어프라이어",
+    "nl": "Airfryer",
+    "no": "Airfryer",
+    "ru": "Аэрогриль",
+    "sv": "Luftfritös"
   },
   "description": {
-    "en": "Use this device class for air fryers."
+    "en": "Use this device class for air fryers.",
+    "da": "Brug denne enhedsklasse til airfryers.",
+    "de": "Verwenden Sie diese Geräteklasse für Heißluftfritteusen.",
+    "es": "Utiliza esta clase de dispositivo para freidoras de aire.",
+    "fr": "Utilisez cette classe d'appareils pour les friteuses à air.",
+    "it": "Utilizza questa classe di dispositivi per le friggitrici ad aria.",
+    "ko": "이 디바이스 클래스는 에어프라이어에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor airfryers.",
+    "no": "Bruk denne enhetsklassen for airfryere.",
+    "ru": "Используйте этот класс устройств для аэрогрилей.",
+    "sv": "Använd den här enhetsklassen för luftfritöser."
   },
   "minCompatibility": "12.0.0"
 }

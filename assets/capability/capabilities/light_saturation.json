@@ -11,7 +11,8 @@
     "es": "Saturación del color",
     "da": "Farvemætning",
     "ru": "Насыщенность цвета",
-    "pl": "Nasycenie barwy"
+    "pl": "Nasycenie barwy",
+    "ko": "색상 채도"
   },
   "min": 0,
   "chartType": "stepLine",
@@ -34,7 +35,8 @@
           "es": "Configurar la saturación",
           "da": "Indstil farvemætningen",
           "ru": "Установить насыщенность",
-          "pl": "Ustaw nasycenie"
+          "pl": "Ustaw nasycenie",
+          "ko": "채도 설정"
         },
         "args": [
           {

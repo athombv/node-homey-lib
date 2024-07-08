@@ -1,9 +1,29 @@
 {
   "title": {
-    "en": "Dehumidifier"
+    "en": "Dehumidifier",
+    "da": "Affugter",
+    "de": "Luftentfeuchter",
+    "es": "Deshumidificador",
+    "fr": "Déshumidificateur",
+    "it": "Deumidificatore",
+    "ko": "제습기",
+    "nl": "Luchtontvochtiger",
+    "no": "Luftavfukter",
+    "ru": "Осушитель воздуха",
+    "sv": "Avfuktare"
   },
   "description": {
-    "en": "Use this device class for dehumidifiers."
+    "en": "Use this device class for dehumidifiers.",
+    "da": "Brug denne enhedsklasse til affugtere.",
+    "de": "Verwenden Sie diese Geräteklasse für Luftentfeuchter.",
+    "es": "Utiliza esta clase de dispositivo para deshumidificadores.",
+    "fr": "Utilisez cette classe d'appareils pour les déshumidificateurs.",
+    "it": "Utilizza questa classe di dispositivi per i deumidificatori.",
+    "ko": "이 디바이스 클래스는 제습기에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor luchtontvochtigers.",
+    "no": "Bruk denne enhetsklassen for luftavfuktere.",
+    "ru": "Используйте этот класс устройств для осушителей воздуха.",
+    "sv": "Använd den här enhetsklassen för avfuktare."
   },
   "minCompatibility": "12.0.0"
 }

@@ -1,9 +1,29 @@
 {
   "title": {
-    "en": "Washer & Dryer"
+    "en": "Washer & Dryer",
+    "da": "Vaskemaskine og tørretumbler",
+    "de": "Waschmaschine mit Trockner",
+    "es": "Lavadora-secadora",
+    "fr": "Lave-linge et sèche-linge",
+    "it": "Lavatrice e asciugatrice",
+    "ko": "세탁건조기",
+    "nl": "Wasmachine & droger",
+    "no": "Vaskemaskin og tørketrommel",
+    "ru": "Стиральная машина и сушилка",
+    "sv": "Tvättmaskin och torktumlare"
   },
   "description": {
-    "en": "Use this device class for any kind of washer and dryer combination."
+    "en": "Use this device class for any kind of washer and dryer combination.",
+    "da": "Brug denne enhedsklasse til enhver form for kombination af vaskemaskine og tørretumbler.",
+    "de": "Verwenden Sie diese Geräteklasse für jede Art von Waschmaschinen- und Trocknerkombis.",
+    "es": "Utiliza esta clase de dispositivo para cualquier equipo que tenga funciones de lavadora y secadora.",
+    "fr": "Cette classe d'appareils peut être utilisée pour n'importe quelle combinaison de lave-linge et de sèche-linge.",
+    "it": "Utilizza questa classe di dispositivi per qualsiasi tipo di combinazione di lavatrice e asciugatrice.",
+    "ko": "이 디바이스 클래스는 모든 종류의 일체형 세탁건조기에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor elke was/droogcombinatie.",
+    "no": "Bruk denne enhetsklassen for alle slags kombinasjoner av vaskemaskin og tørketrommel.",
+    "ru": "Используйте этот класс устройств для любой комбинации стиральной и сушильной машин.",
+    "sv": "Använd den här enhetsklassen för alla typer av tvättmaskin och torktumlare."
   },
   "minCompatibility": "12.0.0"
 }

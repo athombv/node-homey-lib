@@ -1,9 +1,29 @@
 {
   "title": {
-    "en": "Fridge & Freezer"
+    "en": "Fridge & Freezer",
+    "da": "Køleskab og fryser",
+    "de": "Kühl- und Gefrierschrank",
+    "es": "Frigorífico con congelador",
+    "fr": "Réfrigérateur et congélateur",
+    "it": "Frigorifero e congelatore",
+    "ko": "냉장냉동고",
+    "nl": "Koelkast & vriezer",
+    "no": "Kjøleskap og fryser",
+    "ru": "Холодильник и морозильная камера",
+    "sv": "Kyl och frys"
   },
   "description": {
-    "en": "Use this device class for any kind of refrigerator that also has a freezer."
+    "en": "Use this device class for any kind of refrigerator that also has a freezer.",
+    "da": "Brug denne enhedsklasse til enhver form for køleskab, der også har en fryser.",
+    "de": "Verwenden Sie diese Geräteklasse für jede Art von Kühlschrank, in den auch ein Gefriergerät integriert ist.",
+    "es": "Utiliza esta clase de dispositivo para cualquier tipo de frigorífico que contenga una zona independiente de congelación.",
+    "fr": "Utilisez cette classe d'appareils pour tout type de réfrigérateur qui possède également un congélateur.",
+    "it": "Utilizza questa classe di dispositivi per qualsiasi tipo di frigorifero dotato anche di congelatore.",
+    "ko": "이 디바이스 클래스는 냉동고 기능을 갖춘 모든 종류의 냉장고에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor elke soort koelkast die ook een vriezer heeft.",
+    "no": "Bruk denne enhetsklassen for alle slags kjøleskap som også har fryser.",
+    "ru": "Используйте этот класс устройств для любого холодильника, в котором также есть морозильная камера.",
+    "sv": "Använd den här enhetsklassen för alla typer av kylskåp som också har en frys."
   },
   "minCompatibility": "12.0.0"
 }

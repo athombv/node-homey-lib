@@ -10,7 +10,8 @@
     "es": "Bajar de canal",
     "da": "Kanal ned",
     "ru": "Канал вниз",
-    "pl": "Kanał w dół"
+    "pl": "Kanał w dół",
+    "ko": "채널 아래로"
   },
   "type": "boolean",
   "getable": false,
@@ -30,7 +31,8 @@
           "es": "Un canal más abajo",
           "da": "En kanal ned",
           "ru": "Один канал вниз",
-          "pl": "Jeden kanał w dół"
+          "pl": "Jeden kanał w dół",
+          "ko": "채널 하나 아래로"
         }
       }
     ]
