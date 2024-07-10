@@ -34,7 +34,7 @@
   "units": {
     "en": "%",
     "ko": "%",
-    "no": "%"
+    "no": " %"
   },
   "setable": true,
   "getable": true,
