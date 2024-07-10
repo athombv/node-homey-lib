@@ -1,9 +1,30 @@
 {
   "title": {
-    "en": "Hood"
+    "en": "Hood",
+    "da": "Emhætte",
+    "de": "Abzugshaube",
+    "es": "Campana extractora",
+    "fr": "Hotte",
+    "it": "Cappa",
+    "ko": "후드",
+    "nl": "Afzuigkap",
+    "no": "Vifte",
+    "pl": "Okap",
+    "ru": "Вытяжка",
+    "sv": "Fläkt"
   },
   "description": {
-    "en": "User this device class for any kind of extractor hood."
+    "en": "User this device class for any kind of extractor hood.",
+    "da": "Brug denne enhedsklasse til enhver form for emhætte.",
+    "de": "Verwenden Sie diese Geräteklasse für alle Arten von Dunstabzugshauben.",
+    "es": "Utiliza esta clase de dispositivo para cualquier tipo de campana extractora.",
+    "fr": "Utilisez cette classe d'appareils pour tout type de hotte aspirante.",
+    "it": "Utilizza questa classe di dispositivi per qualsiasi tipo di cappa aspirante.",
+    "nl": "Gebruik deze apparaatklasse voor elk type afzuigkap.",
+    "no": "Bruk denne enhetsklassen for alle slags avtrekksvifter.",
+    "pl": "Tej klasy urządzeń należy używać w przypadku każdego rodzaju okapu.",
+    "ru": "Используйте этот класс устройств для вытяжек любого типа.",
+    "sv": "Använd den här enhetsklassen för alla typer av köksfläktar."
   },
   "minCompatibility": "12.0.0"
 }

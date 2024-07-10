@@ -10,7 +10,8 @@
     "es": "Reproduciendo",
     "da": "Spiller",
     "ru": "Воспроизведение",
-    "pl": "Odtwarzanie"
+    "pl": "Odtwarzanie",
+    "ko": "재생 중"
   },
   "type": "boolean",
   "getable": true,
@@ -32,7 +33,8 @@
           "es": "Reproducción iniciada",
           "da": "Begyndte at spille",
           "ru": "Воспроизведение началось",
-          "pl": "Odtwarzanie rozpoczęte"
+          "pl": "Odtwarzanie rozpoczęte",
+          "ko": "재생 시작됨"
         }
       },
       {
@@ -48,7 +50,8 @@
           "es": "Reproducción detenida",
           "da": "Stoppede med at spille",
           "ru": "Воспроизведение приостановлено",
-          "pl": "Odtwarzanie zatrzymane"
+          "pl": "Odtwarzanie zatrzymane",
+          "ko": "재생 중지됨"
         }
       }
     ],
@@ -66,7 +69,8 @@
           "es": "!{{Se está|No se está}} reproduciendo",
           "da": "Spiller !{{|ikke}}",
           "ru": "!{{|не}} воспроизводится",
-          "pl": "!{Trwa{|nie trwa}} odtwarzanie"
+          "pl": "!{Trwa{|nie trwa}} odtwarzanie",
+          "ko": "이(가) 재생 중!{{임| 아님}}"
         }
       }
     ],
@@ -85,7 +89,8 @@
           "es": "Reproducir",
           "da": "Afspil",
           "ru": "Воспроизвести",
-          "pl": "Odtwórz"
+          "pl": "Odtwórz",
+          "ko": "재생"
         }
       },
       {
@@ -102,7 +107,8 @@
           "es": "Pausa",
           "da": "Pause",
           "ru": "Пауза",
-          "pl": "Pauza"
+          "pl": "Pauza",
+          "ko": "일시중지"
         }
       },
       {
@@ -118,7 +124,8 @@
           "es": "Reproducir/Pausar",
           "da": "Skift mellem Afspil/Pause",
           "ru": "Переключатель Воспроизвести/Пауза",
-          "pl": "Przełącz na Odtwórz/Pauza"
+          "pl": "Przełącz na Odtwórz/Pauza",
+          "ko": "재생/일시중지 토글"
         }
       }
     ]

@@ -10,7 +10,8 @@
     "es": "Lámpara",
     "da": "Lys",
     "ru": "Лампа",
-    "pl": "Oświetlenie"
+    "pl": "Oświetlenie",
+    "ko": "조명"
   },
   "description": {
     "en": "Use this device class for lights, usually together with the `onoff`, `dim` and `light_*` capabilities.",

@@ -10,7 +10,8 @@
     "es": "Cobertores de ventanas",
     "da": "Vinduesdække",
     "ru": "Оконные навесы",
-    "pl": "Osłony okienne"
+    "pl": "Osłony okienne",
+    "ko": "창문 덮개"
   },
   "description": {
     "en": "Use this device class for window coverings, when the `curtains`, `blinds` or `sunshade` device class doesn't apply.",
@@ -18,16 +19,17 @@
     "fr": "Utilisez cette classe d'appareil pour les couvertures de fenêtre, lorsque la classe d'appareil `curtains`, `blinds` ou `sunshade` ne s'applique pas.",
     "it": "Utilizza questa classe di dispositivi per i rivestimenti per finestre, quando non rientrano nelle classi `curtains`, `blinds` o `sunshade`.",
     "sv": "Använd den här enhetsklassen för fönsterskydd när enhetsklasserna `curtains`, `blinds` eller `sunshade` inte gäller.",
-    "no": "Bruk denne enhetsklassen for vindusbeskyttelse som ikke dekkes av enhetsklassene `curtains`, `blinds` eller `sunshade`.",
+    "no": "Bruk denne enhetsklassen for vindusskjerming som ikke dekkes av enhetsklassene «gardiner», «persienner» eller «markise».",
     "es": "Utiliza esta clase de dispositivo para los cobertores de ventanas que no entren en las clases `curtains`, `blinds` o `sunshade`.",
     "da": "Brug denne enhedsklasse til vinduesdække, når enhedsklasserne `curtains`, `blinds` og `sunshade` ikke er gældende.",
     "ru": "Используйте этот класс устройств для оконных навесов, когда классы устройств `curtains`, `blinds` или `sunshade` не подходят.",
-    "pl": "Użyj tej klasy urządzeń dla osłon okiennych o innej klasie urządzenia niż `curtains`, `blinds` lub `sunshade`."
+    "pl": "Użyj tej klasy urządzeń dla osłon okiennych o innej klasie urządzenia niż `curtains`, `blinds` lub `sunshade`.",
+    "ko": "이 디바이스 클래스는 'curtains', 'blinds', 'sunshade' 디바이스 클래스가 적용되지 않는 창문 덮개에 사용합니다."
   },
   "virtualTitle": {
     "en": "What's the type?",
     "nl": "Wat voor type is dit?",
-    "de": "Welcher Typ ist das?",
+    "de": "Um welchen Typ handelt es sich?",
     "fr": "Quel est le type ?",
     "it": "Qual è il tipo?",
     "sv": "Vad är det för typ?",
@@ -35,7 +37,8 @@
     "es": "¿Cuál es el tipo?",
     "da": "Hvad er typen?",
     "ru": "Какой тип?",
-    "pl": "Wybierz rodzaj?"
+    "pl": "Wybierz rodzaj?",
+    "ko": "어떤 유형입니까?"
   },
   "allowedVirtual": [
     "sunshade",

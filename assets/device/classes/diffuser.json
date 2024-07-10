@@ -1,9 +1,31 @@
 {
   "title": {
-    "en": "Diffuser"
+    "en": "Diffuser",
+    "da": "Aromalampe",
+    "de": "Zerstäuber",
+    "es": "Difusor",
+    "fr": "Diffuseur",
+    "it": "Diffusore",
+    "ko": "디퓨저",
+    "nl": "Diffuser",
+    "no": "Duftspreder",
+    "pl": "Dyfuzor",
+    "ru": "Диффузор",
+    "sv": "Diffusör"
   },
   "description": {
-    "en": "User this device class for diffusers."
+    "en": "User this device class for diffusers.",
+    "da": "Brug denne enhedsklasse til aromalamper.",
+    "de": "Verwenden Sie diese Geräteklasse für Zerstäuber.",
+    "es": "Utiliza esta clase de dispositivo para difusores.",
+    "fr": "Utilisez cette classe d'appareil pour les diffuseurs.",
+    "it": "Utilizza questa classe di dispositivi per i diffusori.",
+    "ko": "이 디바이스 클래스는 디퓨저에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor diffusers.",
+    "no": "Bruk denne enhetsklassen for duftspredere.",
+    "pl": "Tej klasy urządzeń należy używać w przypadku dyfuzorów.",
+    "ru": "Используйте этот класс устройств для диффузоров.",
+    "sv": "Använd den här enhetsklassen för diffusörer."
   },
   "minCompatibility": "12.0.0"
 }

@@ -11,7 +11,8 @@
     "es": "Alarma de agua",
     "da": "Vandalarm",
     "ru": "Сигнал протечки воды",
-    "pl": "Alarm zalania wodą"
+    "pl": "Alarm zalania wodą",
+    "ko": "물 알람"
   },
   "desc": {
     "en": "True when water has been detected",
@@ -24,7 +25,8 @@
     "es": "Verdadero cuando se ha detectado agua",
     "da": "Sandt, når vand er blevet opdaget",
     "ru": "Верно при обнаружении протечки воды",
-    "pl": "Adekwatny, kiedy wykryta zostanie woda"
+    "pl": "Adekwatny, kiedy wykryta zostanie woda",
+    "ko": "물이 감지되면 참"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "es": "Alarma de agua activada",
     "da": "Vandalarm blev aktiveret",
     "ru": "Сигнал протечки воды включен",
-    "pl": "Alarm zalania wodą włączony"
+    "pl": "Alarm zalania wodą włączony",
+    "ko": "물 알람 켜짐"
   },
   "insightsTitleFalse": {
     "en": "Water alarm turned off",
@@ -51,7 +54,8 @@
     "es": "Alarma de agua desactivada",
     "da": "Vandalarm blev deaktiveret",
     "ru": "Сигнал протечки воды выключен",
-    "pl": "Alarm zalania wodą wyłączony"
+    "pl": "Alarm zalania wodą wyłączony",
+    "ko": "물 알람 꺼짐"
   },
   "getable": true,
   "setable": false,
@@ -72,7 +76,8 @@
           "es": "La alarma de agua se ha activado",
           "da": "Vandalarmen blev aktiveret",
           "ru": "Сигнал аккумулятора включен",
-          "pl": "Alarm zalania wodą włączony"
+          "pl": "Alarm zalania wodą włączony",
+          "ko": "물 알람 켜짐"
         }
       },
       {
@@ -88,7 +93,8 @@
           "es": "La alarma de agua se ha desactivado",
           "da": "Vandalarmen blev deaktiveret",
           "ru": "Сигнал аккумулятора выключен",
-          "pl": "Alarm zalania wodą wyłączony"
+          "pl": "Alarm zalania wodą wyłączony",
+          "ko": "물 알람 꺼짐"
         }
       }
     ],
@@ -106,7 +112,8 @@
           "es": "La alarma de agua está !{{activada|desactivada}}",
           "da": "Vandalarmen er !{{tændt|slukket}}",
           "ru": "Сигнал протечки воды !{{вкл.|выкл.}}",
-          "pl": "Alarm zalania wodą !{{włączony|wyłączony}}"
+          "pl": "Alarm zalania wodą !{{włączony|wyłączony}}",
+          "ko": "물 알람 !{{켬|끔}}"
         }
       }
     ]

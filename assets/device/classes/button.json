@@ -10,7 +10,8 @@
     "es": "Botón",
     "da": "Knap",
     "ru": "Кнопка",
-    "pl": "Przycisk"
+    "pl": "Przycisk",
+    "ko": "버튼"
   },
   "description": {
     "en": "Use this device class for buttons, such as a remote.",
@@ -22,6 +23,7 @@
     "es": "Utiliza esta clase de dispositivo para los botones, p. ej., mandos a distancia.",
     "da": "Brug denne enhedsklasse til knapper, f-eks. en fjernbetjening.",
     "ru": "Используйте этот класс устройств для устройств с кнопками, например пультов.",
-    "pl": "Użyj tej klasy urządzeń dla przycisków, np. pilota."
+    "pl": "Użyj tej klasy urządzeń dla przycisków, np. pilota.",
+    "ko": "이 디바이스 클래스는 리모컨 등 버튼이 있는 것에 사용합니다."
   }
 }

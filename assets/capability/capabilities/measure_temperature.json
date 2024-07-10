@@ -11,10 +11,13 @@
     "es": "Temperatura",
     "da": "Temperatur",
     "ru": "Температура",
-    "pl": "Temperatura"
+    "pl": "Temperatura",
+    "ko": "온도"
   },
   "units": {
-    "en": "°C"
+    "en": "°C",
+    "ko": "°C",
+    "no": "°C"
   },
   "insights": true,
   "desc": {
@@ -28,7 +31,8 @@
     "es": "Temperatura en grados Celsius (°C)",
     "da": "Temperatur i Celsius (°C)",
     "ru": "Температура в градусах Цельсия (°C)",
-    "pl": "Temperatura w stopniach Celsjusza (°C)"
+    "pl": "Temperatura w stopniach Celsjusza (°C)",
+    "ko": "온도 섭씨(°C)"
   },
   "decimals": 2,
   "chartType": "spline",
@@ -51,7 +55,8 @@
           "es": "La temperatura ha cambiado",
           "da": "Temperaturen ændrede sig",
           "ru": "Температура изменена",
-          "pl": "Zmiana temperatury"
+          "pl": "Zmiana temperatury",
+          "ko": "온도 변경됨"
         },
         "tokens": [
           {

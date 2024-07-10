@@ -10,11 +10,14 @@
     "no": "Støy",
     "es": "Ruido",
     "ru": "Шум",
-    "pl": "Hałas"
+    "pl": "Hałas",
+    "ko": "소음"
   },
   "units": {
     "en": "dB",
-    "ru": "дБ"
+    "ru": "дБ",
+    "ko": "dB",
+    "no": "dB"
   },
   "insights": true,
   "desc": {
@@ -28,7 +31,8 @@
     "es": "Ruido en decibelios (dB)",
     "da": "Støj i decibel (dB)",
     "ru": "Шум в децибелах (дБ)",
-    "pl": "Poziom hałasu w decybelach (dB)"
+    "pl": "Poziom hałasu w decybelach (dB)",
+    "ko": "소음 데시벨(dB)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -50,7 +54,8 @@
           "es": "El ruido ha cambiado",
           "da": "Støjniveauet ændrede sig",
           "ru": "Шум изменился",
-          "pl": "Zmiana poziomu hałasu"
+          "pl": "Zmiana poziomu hałasu",
+          "ko": "소음 변경됨"
         },
         "tokens": [
           {

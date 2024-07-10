@@ -11,11 +11,14 @@
     "es": "Presión",
     "da": "Tryk",
     "ru": "Давление",
-    "pl": "Ciśnienie"
+    "pl": "Ciśnienie",
+    "ko": "압력"
   },
   "units": {
     "en": "mbar",
-    "ru": "мбар"
+    "ru": "мбар",
+    "ko": "mbar",
+    "no": "mbar"
   },
   "insights": true,
   "desc": {
@@ -29,7 +32,8 @@
     "es": "Presión en milibares (mbar)",
     "da": "Tryk i millibar (mbar)",
     "ru": "Давление (мбар)",
-    "pl": "Ciśnienie w milibarach (mbar)"
+    "pl": "Ciśnienie w milibarach (mbar)",
+    "ko": "압력 밀리바(mbar)"
   },
   "chartType": "spline",
   "decimals": 0,
@@ -51,7 +55,8 @@
           "es": "La presión ha cambiado",
           "da": "Trykkey ændrede sig",
           "ru": "Давление изменилось",
-          "pl": "Zmiana ciśnienia"
+          "pl": "Zmiana ciśnienia",
+          "ko": "압력 변경됨"
         },
         "tokens": [
           {

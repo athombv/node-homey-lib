@@ -1,9 +1,31 @@
 {
   "title": {
-    "en": "Game Console"
+    "en": "Game Console",
+    "da": "Spilkonsol",
+    "de": "Spielkonsole",
+    "es": "Consola de videojuegos",
+    "fr": "Console de jeux",
+    "it": "Console per videogiochi",
+    "ko": "게임 콘솔",
+    "nl": "Spelcomputer",
+    "no": "Spillkonsoll",
+    "pl": "Konsola do gier",
+    "ru": "Игровая консоль",
+    "sv": "Spelkonsol"
   },
   "description": {
-    "en": "Use this device class for any type of game console."
+    "en": "Use this device class for any type of game console.",
+    "da": "Brug denne enhedsklasse til alle typer spilkonsoller.",
+    "de": "Verwenden Sie diese Geräteklasse für alle Arten von Spielkonsolen.",
+    "es": "Utiliza esta clase de dispositivo para cualquier tipo de consola de videojuegos.",
+    "fr": "Utilisez cette classe d'appareils pour tout type de console de jeu.",
+    "it": "Utilizza questa classe di dispositivi per qualsiasi tipo di console per videogiochi.",
+    "ko": "이 디바이스 클래스는 모든 종류의 게임 콘솔에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor elk type spelcomputer.",
+    "no": "Bruk denne enhetsklassen for alle typer spillkonsoller.",
+    "pl": "Tej klasy urządzeń należy używać w przypadku dowolnego typu konsoli do gier.",
+    "ru": "Используйте этот класс устройств для игровых консолей любого типа.",
+    "sv": "Använd den här enhetsklassen för alla typer av spelkonsoler."
   },
   "minCompatibility": "12.0.0"
 }

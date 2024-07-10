@@ -11,7 +11,8 @@
     "es": "Alarma nocturna",
     "da": "Natalarm",
     "ru": "Ночной сигнал",
-    "pl": "Alarm nocny"
+    "pl": "Alarm nocny",
+    "ko": "밤 알람"
   },
   "desc": {
     "en": "True when it is night",
@@ -24,7 +25,8 @@
     "es": "Verdadero cuando es de noche",
     "da": "Sandt, når det er nat",
     "ru": "Верно ночью",
-    "pl": "Adekwatny, kiedy jest noc"
+    "pl": "Adekwatny, kiedy jest noc",
+    "ko": "밤이 되면 참"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "es": "Alarma nocturna activada",
     "da": "Natalarm blev aktiveret",
     "ru": "Ночной сигнал включен",
-    "pl": "Alarm nocny włączony"
+    "pl": "Alarm nocny włączony",
+    "ko": "밤 알람 켜짐"
   },
   "insightsTitleFalse": {
     "en": "Night alarm turned off",
@@ -51,7 +54,8 @@
     "es": "Alarma nocturna desactivada",
     "da": "Natalarm blev deaktiveret",
     "ru": "Ночной сигнал выключен",
-    "pl": "Alarm nocny wyłączony"
+    "pl": "Alarm nocny wyłączony",
+    "ko": "밤 알람 꺼짐"
   },
   "getable": true,
   "setable": false,
@@ -71,7 +75,8 @@
           "es": "La alarma nocturna se ha activado",
           "da": "Natalarmen blev aktiveret",
           "ru": "Ночной сигнал включен",
-          "pl": "Alarm nocny włączony"
+          "pl": "Alarm nocny włączony",
+          "ko": "밤 알람 켜짐"
         }
       },
       {
@@ -87,7 +92,8 @@
           "es": "La alarma nocturna se ha desactivado",
           "da": "Natalarmen blev deaktiveret",
           "ru": "Ночной сигнал выключен",
-          "pl": "Alarm nocny wyłączony"
+          "pl": "Alarm nocny wyłączony",
+          "ko": "밤 알람 꺼짐"
         }
       }
     ],
@@ -105,7 +111,8 @@
           "es": "La alarma nocturna está !{{activada|desactivada}}",
           "da": "Natalarmen er !{{tændt|slukket}}",
           "ru": "Ночной сигнал !{{вкл.|выкл.}}",
-          "pl": "Alarm nocny !{{włączony|wyłączony}}"
+          "pl": "Alarm nocny !{{włączony|wyłączony}}",
+          "ko": "밤 알람 !{{켬|끔}}"
         }
       }
     ]

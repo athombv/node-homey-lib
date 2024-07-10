@@ -1,9 +1,31 @@
 {
   "title": {
-    "en": "Sprinkler"
+    "en": "Sprinkler",
+    "da": "Sprinkler",
+    "de": "Sprinkleranlage",
+    "es": "Aspersor",
+    "fr": "Arrosage",
+    "it": "Irrigatore",
+    "ko": "스프링클러",
+    "nl": "Sprinkler",
+    "no": "Sprinkler",
+    "pl": "Zraszacz",
+    "ru": "Спринклер",
+    "sv": "Sprinkler"
   },
   "description": {
-    "en": "Use this device class for sprinkler systems."
+    "en": "Use this device class for sprinkler systems.",
+    "da": "Brug denne enhedsklasse til sprinklersystemer.",
+    "de": "Verwenden Sie diese Geräteklasse für Sprinkleranlagen.",
+    "es": "Utiliza esta clase de dispositivo para sistemas de riego.",
+    "fr": "Utilisez cette classe d'appareils pour les systèmes d'arrosage.",
+    "it": "Utilizza questa classe di dispositivi per i sistemi di irrigazione.",
+    "ko": "이 디바이스 클래스는 스프링클러 시스템에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor sprinklersystemen.",
+    "no": "Bruk denne enhetsklassen for sprinkleranlegg.",
+    "pl": "Tej klasy urządzeń należy używać w instalacjach zraszaczy.",
+    "ru": "Используйте этот класс устройств для спринклерных систем.",
+    "sv": "Använd den här enhetsklassen för sprinklersystem."
   },
   "minCompatibility": "12.0.0"
 }

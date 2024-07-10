@@ -1,9 +1,31 @@
 {
   "title": {
-    "en": "EV Charger"
+    "en": "EV Charger",
+    "da": "Ladestationer til elbiler",
+    "de": "E-Auto-Ladegerät",
+    "es": "Cargador de vehículo eléctrico",
+    "fr": "Chargeur EV",
+    "it": "Caricatore di veicoli elettrici",
+    "ko": "EV 충전기",
+    "nl": "EV-lader",
+    "no": "Elbillader",
+    "pl": "Ładowarka pojazdów elektrycznych",
+    "ru": "Зарядное устройство для электромобилей",
+    "sv": "Laddare för elfordon"
   },
   "description": {
-    "en": "Use this device class for EV chargers."
+    "en": "Use this device class for EV chargers.",
+    "da": "Brug denne enhedsklasse til ladestationer til elbiler.",
+    "de": "Verwenden Sie diese Geräteklasse für E-Auto-Ladegeräte.",
+    "es": "Utiliza esta clase de dispositivo para cargadores de vehículos eléctricos.",
+    "fr": "Utilisez cette classe d'appareils pour les chargeurs de véhicules électriques.",
+    "it": "Utilizza questa classe di dispositivi per i caricatori di veicoli elettrici.",
+    "ko": "이 디바이스 클래스는 EV 충전기에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor EV-laders.",
+    "no": "Bruk denne enhetsklassen for elbilladere.",
+    "pl": "Ta klasa urządzeń jest przeznaczona dla ładowarek pojazdów elektrycznych.",
+    "ru": "Используйте этот класс устройств для зарядных устройств для электромобилей.",
+    "sv": "Använd den hät enhetsklassen för elfordonsladdare."
   },
   "minCompatibility": "12.0.0"
 }

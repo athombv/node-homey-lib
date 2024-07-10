@@ -10,7 +10,8 @@
     "es": "Silenciar volumen",
     "da": "Lyd slået fra",
     "ru": "Звук выключен",
-    "pl": "Głośność wyciszona"
+    "pl": "Głośność wyciszona",
+    "ko": "볼륨 음소거됨"
   },
   "type": "boolean",
   "getable": true,
@@ -31,7 +32,8 @@
           "es": "Silenciar el volumen",
           "da": "Slå lyden fra",
           "ru": "Выключить звук",
-          "pl": "Wycisz głośność"
+          "pl": "Wycisz głośność",
+          "ko": "볼륨 음소거"
         }
       },
       {
@@ -47,7 +49,8 @@
           "es": "Activar el volumen",
           "da": "Slå lyden til",
           "ru": "Включить звук",
-          "pl": "Włącz głośność"
+          "pl": "Włącz głośność",
+          "ko": "볼륨 음소거 해제"
         }
       },
       {
@@ -61,7 +64,8 @@
           "sv": "Slå på eller av avstängd volym",
           "no": "Slå dempet volum på eller av",
           "es": "Activar o desactivar el volumen silenciado",
-          "da": "Slå dæmpet lydstyrke til eller fra"
+          "da": "Slå dæmpet lydstyrke til eller fra",
+          "ko": "볼륨 켬 또는 끔 토글"
         }
       }
     ]

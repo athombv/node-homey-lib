@@ -1,9 +1,31 @@
 {
   "title": {
-    "en": "Freezer"
+    "en": "Freezer",
+    "da": "Fryser",
+    "de": "Gefrierschrank",
+    "es": "Congelador",
+    "fr": "Congélateur",
+    "it": "Congelatore",
+    "ko": "냉동고",
+    "nl": "Diepvries",
+    "no": "Fryser",
+    "pl": "Zamrażarka",
+    "ru": "Морозильная камера",
+    "sv": "Frys"
   },
   "description": {
-    "en": "Use this device class for any kind of freezer, if it is a frigde/freezer use 'fridge_and_freezer'."
+    "en": "Use this device class for any kind of freezer, if it is a frigde/freezer use 'fridge_and_freezer'.",
+    "da": "Brug denne enhedsklasse til enhver form for fryser. Hvis det er et køleskab/fryser, skal du bruge 'fridge_and_freezer'.",
+    "de": "Verwenden Sie diese Geräteklasse für jede Art von Gefrierschränken. Für Kühl- und Gefrierschränke verwenden Sie „fridge_and_freezer“.",
+    "es": "Utiliza esta clase de dispositivo para cualquier tipo de congelador. Si se trata de un frigorífico con congelador, utiliza la clase 'fridge_and_freezer'.",
+    "fr": "Utilisez cette classe d'appareils pour tout type de congélateur, s'il s'agit d'un réfrigérateur/congélateur, utilisez \"fridge_and_freezer\".",
+    "it": "Utilizza questa classe di dispositivi per qualsiasi tipo di congelatore, se si tratta di un frigorifero/congelatore utilizza \"fridge_and_freezer\".",
+    "ko": "이 디바이스 클래스는 모든 종류의 냉동고에 사용하며, 냉장/냉동고의 경우 'fridge_and_freezer'를 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor elke soort vriezer, als het een koelkast/vriezer is gebruik dan 'fridge_and_freezer'.",
+    "no": "Bruk denne enhetsklassen for alle slags frysere. For kombinert kjøleskap/fryser, bruk «fridge_and_freezer».",
+    "pl": "Tej klasy urządzeń należy używać dla każdego rodzaju zamrażarki, jeśli jest to lodówka/zamrażarka, należy użyć klasy „fridge_and_freezer”.",
+    "ru": "Используйте этот класс устройств для морозильных камер любого типа; в случае холодильника-морозильника используйте fridge_and_freezer.",
+    "sv": "Använd den här enhetsklassen för alla typer av frysar, om det är en kyl/frys ska du använda 'fridge_and_freezer'."
   },
   "minCompatibility": "12.0.0"
 }

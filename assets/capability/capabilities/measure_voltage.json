@@ -11,11 +11,13 @@
     "es": "Tensión",
     "da": "Elektrisk spænding",
     "ru": "Вольтаж",
-    "pl": "Napięcie"
+    "pl": "Napięcie",
+    "ko": "전압"
   },
   "units": {
     "en": "V",
-    "ru": "Вольт"
+    "ru": "Вольт",
+    "ko": "V"
   },
   "desc": {
     "en": "Voltage (V)",
@@ -28,7 +30,8 @@
     "es": "Tensión (V)",
     "da": "Volt (V)",
     "ru": "Вольтаж (Вольт)",
-    "pl": "Napięcie (V)"
+    "pl": "Napięcie (V)",
+    "ko": "전압 볼트(V)"
   },
   "insights": true,
   "chartType": "stepLine",
@@ -51,7 +54,8 @@
           "es": "La tensión ha cambiado",
           "da": "Den elektriske spænding ændrede sig",
           "ru": "Вольтаж изменен",
-          "pl": "Zmiana poziomu napięcia"
+          "pl": "Zmiana poziomu napięcia",
+          "ko": "전압 변경됨"
         },
         "tokens": [
           {

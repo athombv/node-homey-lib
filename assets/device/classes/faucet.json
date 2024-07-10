@@ -1,9 +1,31 @@
 {
   "title": {
-    "en": "Faucet"
+    "en": "Faucet",
+    "da": "Vandhane",
+    "de": "Wasserhahn",
+    "es": "Grifo",
+    "fr": "Robinet",
+    "it": "Rubinetto",
+    "ko": "꼭지",
+    "nl": "Kraan",
+    "no": "Kran",
+    "pl": "Kran",
+    "ru": "Смеситель",
+    "sv": "Kran"
   },
   "description": {
-    "en": "Use this device class for faucets."
+    "en": "Use this device class for faucets.",
+    "da": "Brug denne enhedsklasse til vandhaner.",
+    "de": "Verwenden Sie diese Geräteklasse für Wasserhähne.",
+    "es": "Utilice esta clase de dispositivo para grifos.",
+    "fr": "Utilisez cette classe d'appareils pour les robinets.",
+    "it": "Utilizza questa classe di dispositivi per i rubinetti.",
+    "ko": "이 디바이스 클래스는 수도 등의 꼭지에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor kranen.",
+    "no": "Bruk denne enhetsklassen for kraner.",
+    "pl": "Tej klasy urządzeń należy używać w przypadku kranów.",
+    "ru": "Используйте этот класс устройств для смесителей.",
+    "sv": "Använd den här enhetsklassen för kranar."
   },
   "minCompatibility": "12.0.0"
 }

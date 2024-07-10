@@ -10,7 +10,8 @@
     "es": "Toldo",
     "da": "Markise",
     "ru": "Навес",
-    "pl": "Markiza"
+    "pl": "Markiza",
+    "ko": "선셰이드"
   },
   "description": {
     "en": "Use this device class for sunshades (window coverings against the sun).",
@@ -22,6 +23,7 @@
     "es": "Utiliza esta clase de dispositivo para los toldos (para proteger las ventanas del sol).",
     "da": "Brug denne enhedsklasse til markiser (vinduesdække mod solen).",
     "ru": "Используйте этот класс устройств для навесов (оконных навесов от солнца).",
-    "pl": "Użyj tej klasy urządzeń dla markiz (osłony okienne chroniące przed słońcem)."
+    "pl": "Użyj tej klasy urządzeń dla markiz (osłony okienne chroniące przed słońcem).",
+    "ko": "이 디바이스 클래스는 선셰이드(햇빛을 막아주는 창문 덮개)에 사용합니다."
   }
 }

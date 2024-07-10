@@ -10,7 +10,8 @@
     "es": "Calefactor",
     "da": "Varmeapparat",
     "ru": "Обогреватель",
-    "pl": "Grzejnik"
+    "pl": "Grzejnik",
+    "ko": "히터"
   },
   "description": {
     "en": "Use this device class for heaters, that warm your home.",
@@ -22,10 +23,22 @@
     "es": "Utiliza esta clase de dispositivo para los calefactores que calientan tu casa.",
     "da": "Brug denne enhedsklasse til varmeapparater, som opvarmer dit hjem.",
     "ru": "Используйте этот класс устройств для обогревателей, которые обогревают ваш дом.",
-    "pl": "Użyj tej klasy urządzeń dla grzejników, które ogrzewają dom."
+    "pl": "Użyj tej klasy urządzeń dla grzejników, które ogrzewają dom.",
+    "ko": "이 디바이스 클래스는 집을 따뜻하게 해주는 히터에 사용합니다."
   },
   "virtualTitle": {
-    "en": "What's the type?"
+    "en": "What's the type?",
+    "da": "Hvad er typen?",
+    "de": "Um welchen Typ handelt es sich?",
+    "es": "¿De qué tipo es?",
+    "fr": "Quel est le type ?",
+    "it": "Di che tipo è?",
+    "ko": "어떤 유형입니까?",
+    "nl": "Wat is het type?",
+    "no": "Hvilken type er det?",
+    "pl": "Jaki to typ?",
+    "ru": "Какой тип?",
+    "sv": "Vad är det för typ?"
   },
   "allowedVirtual": [
     "radiator"

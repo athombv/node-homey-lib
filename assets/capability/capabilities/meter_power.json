@@ -11,12 +11,15 @@
     "es": "Energía",
     "da": "Energi",
     "ru": "Электроэнергия",
-    "pl": "Energia"
+    "pl": "Energia",
+    "ko": "에너지"
   },
   "decimals": 2,
   "units": {
     "en": "kWh",
-    "ru": "кВтч"
+    "ru": "кВтч",
+    "ko": "kWh",
+    "no": "kWh"
   },
   "desc": {
     "en": "Energy usage in kilowatt-hour (kWh)",
@@ -29,7 +32,8 @@
     "es": "Uso de energía en kilovatio hora (kWh)",
     "da": "Energiforbrug i kilowattime (kWh)",
     "ru": "Энергопотребление в киловатт-часах (кВтч)",
-    "pl": "Zużycie energii w kilowatogodzinach (kWh)"
+    "pl": "Zużycie energii w kilowatogodzinach (kWh)",
+    "ko": "에너지 사용량 킬로와트시(kWh)"
   },
   "chartType": "spline",
   "options": {
@@ -39,7 +43,9 @@
       "desc": {
         "en": "This flag is used to determine that the device itself has no power measurement functionality, but that the driver calculates the energy use.",
         "ru": "Этот флаг используется для определения того, что само устройство не имеет функции измерения электроэнергии, но драйвер рассчитывает потребление энергии.",
-        "pl": "Flaga oznacza, że samo urządzenie nie ma funkcji pomiaru mocy, ale sterownik oblicza zużycie energii."
+        "pl": "Flaga oznacza, że samo urządzenie nie ma funkcji pomiaru mocy, ale sterownik oblicza zużycie energii.",
+        "ko": "이 플래그는 디바이스 자체에 전력 측정 기능이 없지만 드라이버가 에너지 사용량을 계산하는 경우에 사용됩니다.",
+        "no": "Dette flagget brukes til å anmerke at enheten i seg selv ikke har noen funksjon for effektmåling, men at sjåføren beregner energibruken."
       }
     }
   },
@@ -62,7 +68,8 @@
           "es": "El contador de energía ha cambiado",
           "da": "Strømmåleren ændrede sig",
           "ru": "Измерения счетчика электроэнергии изменились",
-          "pl": "Zmiana w liczniku mocy"
+          "pl": "Zmiana w liczniku mocy",
+          "ko": "전력 계량 변경됨"
         },
         "tokens": [
           {

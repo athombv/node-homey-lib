@@ -10,7 +10,8 @@
     "es": "Cortinas",
     "da": "Gardiner",
     "ru": "Шторы",
-    "pl": "Zasłony"
+    "pl": "Zasłony",
+    "ko": "커튼"
   },
   "description": {
     "en": "Use this device class for curtains.",
@@ -22,6 +23,7 @@
     "es": "Utiliza esta clase de dispositivo para las cortinas.",
     "da": "Brug denne enhedsklasse til gardiner.",
     "ru": "Используйте этот класс устройств для штор.",
-    "pl": "Użyj tej klasy urządzeń dla zasłon."
+    "pl": "Użyj tej klasy urządzeń dla zasłon.",
+    "ko": "이 디바이스 클래스는 커튼에 사용합니다."
   }
 }

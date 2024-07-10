@@ -11,7 +11,8 @@
     "es": "Modo de la luz",
     "da": "Lystilstand",
     "ru": "Режим света",
-    "pl": "Tryb oświetlenia"
+    "pl": "Tryb oświetlenia",
+    "ko": "라이트 모드"
   },
   "desc": {
     "en": "Switch between color or temperature mode",
@@ -24,7 +25,8 @@
     "es": "Cambia entre los modos color y temperatura",
     "da": "Skift mellem farve- eller temperaturtilstand",
     "ru": "Переключение между цветовым или температурным режимом",
-    "pl": "Przełączaj między trybem barwy lub temperatury"
+    "pl": "Przełączaj między trybem barwy lub temperatury",
+    "ko": "색상 또는 온도 모드 간에 전환"
   },
   "values": [
     {
@@ -40,7 +42,8 @@
         "es": "Color",
         "da": "Farve",
         "ru": "Цвет",
-        "pl": "Barwa"
+        "pl": "Barwa",
+        "ko": "색상"
       }
     },
     {
@@ -56,7 +59,8 @@
         "es": "Temperatura",
         "da": "Temperatur",
         "ru": "Температура",
-        "pl": "Temperatura"
+        "pl": "Temperatura",
+        "ko": "온도"
       }
     }
   ],

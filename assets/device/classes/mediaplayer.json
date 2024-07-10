@@ -1,12 +1,45 @@
 {
   "title": {
-    "en": "Media Player"
+    "en": "Media Player",
+    "da": "Medieafspiller",
+    "de": "Medienabspielgerät",
+    "es": "Reproductor multimedia",
+    "fr": "Lecteur multimédia",
+    "it": "Lettore multimediale",
+    "ko": "미디어 플레이어",
+    "nl": "Mediaspeler",
+    "no": "Mediespiller",
+    "pl": "Odtwarzacz multimedialny",
+    "ru": "Медиаплеер",
+    "sv": "Mediaspelare"
   },
   "description": {
-    "en": "Use this device class for media players, when the `Set-top box` device class doesn't apply."
+    "en": "Use this device class for media players, when the `Set-top box` device class doesn't apply.",
+    "da": "Brug denne enhedsklasse til medieafspillere, når enhedsklassen `tv-modtagerboks` ikke gælder.",
+    "de": "Verwenden Sie diese Geräteklasse für Medienabspielgeräte, wenn die Geräteklasse „Set-Top-Box“ nicht zutrifft.",
+    "es": "Utiliza esta clase de dispositivo para reproductores multimedia que no pertenezcan a la clase \"Descodificador\".",
+    "fr": "Utilisez cette classe d'appareils pour les lecteurs multimédias, lorsque la classe d'appareil \"décodeur\" ne s'applique pas.",
+    "it": "Utilizza questa classe di dispositivi per i lettori multimediali, quando la classe  \"Set-top box\" non è applicabile.",
+    "ko": "이 디바이스 클래스는 'Set-top box' 디바이스 클래스가 적용되지 않는 미디어 플레이어에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor mediaspelers als de apparaatklasse 'settopbox' niet van toepassing is.",
+    "no": "Bruk denne enhetsklassen for mediespillere som ikke dekkes av enhetsklassen «TV-mottaker».",
+    "pl": "Tej klasy urządzeń należy używać dla odtwarzaczy multimedialnych, gdy klasa urządzeń „dekoder” nie ma zastosowania.",
+    "ru": "Используйте этот класс устройств для медиаплееров, которые не относятся к классу устройств «ресивер».",
+    "sv": "Använd den här enhetsklassen för mediaspelare när enhetsklassen \"digitalbox\" inte är tillämplig."
   },
   "virtualTitle": {
-    "en": "What's the type?"
+    "en": "What's the type?",
+    "da": "Hvad er typen?",
+    "de": "Um welchen Typ handelt es sich?",
+    "es": "¿De qué tipo es?",
+    "fr": "Quel est le type ?",
+    "it": "Di che tipo è?",
+    "ko": "어떤 유형입니까?",
+    "nl": "Wat is het type?",
+    "no": "Hvilken type er det?",
+    "pl": "Jaki to typ?",
+    "ru": "Какой тип?",
+    "sv": "Vad är det för typ?"
   },
   "allowedVirtual": [
     "settopbox"
