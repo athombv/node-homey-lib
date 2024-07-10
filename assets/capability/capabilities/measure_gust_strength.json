@@ -11,11 +11,14 @@
     "es": "Fuerza del aire",
     "da": "Vindstyrke",
     "ru": "Сила порывов ветра",
-    "pl": "Siła porywu wiatru"
+    "pl": "Siła porywu wiatru",
+    "ko": "돌풍 세기"
   },
   "units": {
     "en": "km/h",
-    "ru": "км/ч"
+    "ru": "км/ч",
+    "ko": "km/h",
+    "no": "km/t"
   },
   "insights": true,
   "desc": {
@@ -29,7 +32,8 @@
     "es": "Fuerza del aire en kilómetros por hora (km/h)",
     "da": "Vindstyrke i kilometer i timen (km/t)",
     "ru": "Сила порывов ветра в км в час (км/ч)",
-    "pl": "Siła porywu wiatru w kilometrach na godzinę (km/h)"
+    "pl": "Siła porywu wiatru w kilometrach na godzinę (km/h)",
+    "ko": "돌풍 세기 시간당 킬로미터(km/h)"
   },
   "chartType": "stepLine",
   "decimals": 2,
@@ -51,7 +55,8 @@
           "es": "La fuerza del aire ha cambiado",
           "da": "Vindstyrken skiftede",
           "ru": "Сила порывов ветра изменилась",
-          "pl": "Zmiana siły porywu wiatru"
+          "pl": "Zmiana siły porywu wiatru",
+          "ko": "돌풍 세기 변경됨"
         },
         "tokens": [
           {

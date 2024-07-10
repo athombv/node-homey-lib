@@ -1,9 +1,30 @@
 {
   "title": {
-    "en": "Grill"
+    "en": "Grill",
+    "da": "Grill",
+    "es": "Parrilla",
+    "fr": "Gril",
+    "it": "Griglia",
+    "ko": "그릴",
+    "nl": "Grill",
+    "no": "Grill",
+    "pl": "Grill",
+    "ru": "Гриль",
+    "sv": "Grill"
   },
   "description": {
-    "en": "Use this device class for grills."
+    "en": "Use this device class for grills.",
+    "da": "Brug denne enhedsklasse til grill.",
+    "de": "Verwenden Sie diese Geräteklasse für Grills.",
+    "es": "Utiliza esta clase de dispositivo para parrillas.",
+    "fr": "Utilisez cette classe d'appareils pour les grils.",
+    "it": "Utilizza questa classe di dispositivi per le griglie.",
+    "ko": "이 디바이스 클래스는 그릴에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor grills.",
+    "no": "Bruk denne enhetsklassen for griller.",
+    "pl": "Tej klasy urządzeń należy używać w przypadku grilli.",
+    "ru": "Используйте этот класс устройств для грилей.",
+    "sv": "Använd den här enhetsklassen för grillar."
   },
   "minCompatibility": "12.0.0"
 }

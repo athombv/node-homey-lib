@@ -11,10 +11,13 @@
     "es": "Humedad",
     "da": "Luftfugtighed",
     "ru": "Влажность",
-    "pl": "Wilgotność"
+    "pl": "Wilgotność",
+    "ko": "습도"
   },
   "units": {
-    "en": "%"
+    "en": "%",
+    "ko": "%",
+    "no": " %"
   },
   "insights": true,
   "desc": {
@@ -28,7 +31,8 @@
     "es": "Humedad en porcentaje (%)",
     "da": "Luftfugtighed i procent (%)",
     "ru": "Влажность в процентах (%)",
-    "pl": "Wilgotność w procentach (%)"
+    "pl": "Wilgotność w procentach (%)",
+    "ko": "습도(%)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -50,7 +54,8 @@
           "es": "La humedad ha cambiado",
           "da": "Luftfugtigheden ændrede sig",
           "ru": "Влажность изменилась",
-          "pl": "Zmiana wilgotności"
+          "pl": "Zmiana wilgotności",
+          "ko": "습도 변경됨"
         },
         "tokens": [
           {

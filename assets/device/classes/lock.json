@@ -10,7 +10,8 @@
     "es": "Cerradura",
     "da": "Lås",
     "ru": "Замок",
-    "pl": "Zamek"
+    "pl": "Zamek",
+    "ko": "록"
   },
   "description": {
     "en": "Use this device class for lock devices, usually together with the `locked` and `lock_mode` capabilities.",
@@ -22,6 +23,7 @@
     "es": "Utiliza esta clase de dispositivo para las cerraduras, generalmente junto con las capacidades de `locked` y `lock_mode`.",
     "da": "Brug denne enhedsklasse til låseenheder, normalt sammen med `locked` and `lock_mode` funktionerne.",
     "ru": "Используйте этот класс устройств для замков, обычно вместе с функциями `locked` и `lock_mode`.",
-    "pl": "Użyj tej klasy urządzeń dla produktów z zamkiem, zwykle razem ze zdolnościami `locked` i `lock_mode`."
+    "pl": "Użyj tej klasy urządzeń dla produktów z zamkiem, zwykle razem ze zdolnościami `locked` i `lock_mode`.",
+    "ko": "이 디바이스 클래스는 보통 'locked' 및 'lock_mode' 기능을 갖춘 잠금장치인 록 디바이스에 사용합니다."
   }
 }

@@ -11,11 +11,14 @@
     "es": "Caudal del agua",
     "da": "Vandstrøm",
     "ru": "Поток воды",
-    "pl": "Poziom przepływu wody"
+    "pl": "Poziom przepływu wody",
+    "ko": "수량"
   },
   "units": {
     "en": "L/min",
-    "ru": "Л/мин"
+    "ru": "Л/мин",
+    "ko": "L/min",
+    "no": "L/min"
   },
   "desc": {
     "en": "Water flow in liters per minute (L/min)",
@@ -28,7 +31,8 @@
     "es": "Caudal del agua en litros por minuto (L/min)",
     "da": "Vandstrøm i liter per minut (L/min)",
     "ru": "Поток воды в литрах в минуту (л/мин)",
-    "pl": "Poziom przepływu wody w litrach na minutę (L/min)"
+    "pl": "Poziom przepływu wody w litrach na minutę (L/min)",
+    "ko": "수량 분당 리터(L/min)"
   },
   "insights": true,
   "chartType": "stepLine",
@@ -51,7 +55,8 @@
           "es": "El caudal del agua ha cambiado",
           "da": "Vandstrømmen har ændret sig",
           "ru": "Поток воды изменился",
-          "pl": "Zmiana poziomu przepływu wody"
+          "pl": "Zmiana poziomu przepływu wody",
+          "ko": "수량 변경됨"
         },
         "tokens": [
           {

@@ -1,12 +1,45 @@
 {
   "title": {
-    "en": "Air Treatment"
+    "en": "Air Treatment",
+    "da": "Luftbehandling",
+    "de": "Luftbehandlung",
+    "es": "Tratamiento del aire",
+    "fr": "Traitement de l'air",
+    "it": "Trattamento dell'aria",
+    "ko": "공기 처리",
+    "nl": "Luchtbehandeling",
+    "no": "Luftbehandling",
+    "pl": "Oczyszczanie powietrza",
+    "ru": "Обработка воздуха",
+    "sv": "Luftbehandling"
   },
   "description": {
-    "en": "Use this device class for any type of air treatment appliance, when the `dehumidifier`, `humidifier`, `diffuser` or `airpurifier` device class doesn't apply. Could be for combi units."
+    "en": "Use this device class for any type of air treatment appliance, when the `dehumidifier`, `humidifier`, `diffuser` or `airpurifier` device class doesn't apply. Could be for combi units.",
+    "da": "Brug denne enhedsklasse til alle typer luftbehandlingsapparater, når enhedsklasserne `affugter`, `luftfugter`, `aromalampe` eller `luftrenser` ikke gælder. Kunne være til kombi-enheder.",
+    "de": "Verwenden Sie diese Geräteklasse für alle Arten von Luftbehandlungsgeräten, wenn die Geräteklassen „Luftentfeuchter“, „Luftbefeuchter“, „Zerstäuber“ oder „Luftreiniger“ nicht zutreffen. Dies kann etwa für Kombigeräte der Fall sein.",
+    "es": "Utiliza esta clase de dispositivo para cualquier tipo de aparato de tratamiento del aire que no pertenezca a las clases \"Deshumidificador\", \"Humidificador\", \"Difusor\" ni \"Purificador de aire\". Puede servir para unidades combinadas.",
+    "fr": "Utilisez cette classe d'appareil pour tout type d'appareil de traitement de l'air, lorsque la classe d'appareil \"déshumidificateur\", \"humidificateur\", \"diffuseur\" ou \"purificateur d'air\" ne s'applique pas. Il peut s'agir d'unités combinées.",
+    "it": "Utilizza questa classe di dispositivi per qualsiasi tipo di dispositivo per il trattamento dell'aria, quando la classe \"deumidificatore\", \"umidificatore\", \"diffusore\" o \"purificatore d'aria\" non è applicabile. Può essere utilizzata per le unità combinate.",
+    "ko": "이 디바이스 클래스는 'dehumidifier', 'humidifier', 'diffuser', 'airpurifier' 디바이스 클래스가 적용되지 않는 공기 처리 가전에 사용합니다. 복합형 유닛에도 사용할 수 있습니다.",
+    "nl": "Gebruik deze apparaatklasse voor elk type luchtbehandelingsapparaat wanneer de apparaatklasse 'luchtontvochtiger', 'luchtbevochtiger', 'diffuser' of 'luchtreiniger' niet van toepassing is. Kan voor combi-eenheden zijn.",
+    "no": "Bruk denne enhetsklassen for alle typer luftbehandlingsapparater som ikke dekkes av enhetsklassene «luftavfukter», «luftfukter», «duftspreder» eller «luftrenser». Kan brukes for kombienheter.",
+    "pl": "Użyj tej klasy urządzeń dla dowolnego typu urządzenia do uzdatniania powietrza, gdy klasa urządzeń „osuszacz\", „nawilżacz”, „dyfuzor” lub „oczyszczacz powietrza” nie ma zastosowania. Może dotyczyć jednostek combi.",
+    "ru": "Используйте этот класс устройств для любых устройств обработки воздуха, которые не относятся к классу устройств «осушитель воздуха», «увлажнитель воздуха», «диффузор» или «очиститель воздуха». Может использоваться для комбинированных устройств.",
+    "sv": "Använd den här enhetsklassen för alla typer av luftbehandlingsapparater när apparatklasserna \"avfuktare\", \"luftavfuktare\", \"diffusor\" eller \"luftrenare\" inte är tillämpliga. Kan vara för kombienheter."
   },
   "virtualTitle": {
-    "en": "What's the type?"
+    "en": "What's the type?",
+    "da": "Hvad er typen?",
+    "de": "Um welchen Typ handelt es sich?",
+    "es": "¿De qué tipo es?",
+    "fr": "Quel est le type ?",
+    "it": "Di che tipo è?",
+    "ko": "어떤 유형입니까?",
+    "nl": "Wat is het type?",
+    "no": "Hvilken type er det?",
+    "pl": "Jaki to typ?",
+    "ru": "Какой тип?",
+    "sv": "Vad är det för typ?"
   },
   "allowedVirtual": [
     "airpurifier",

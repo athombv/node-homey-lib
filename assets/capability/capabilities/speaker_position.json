@@ -10,7 +10,8 @@
     "es": "Posición",
     "da": "Position",
     "ru": "Позиция",
-    "pl": "Pozycja"
+    "pl": "Pozycja",
+    "ko": "위치"
   },
   "type": "number",
   "getable": true,

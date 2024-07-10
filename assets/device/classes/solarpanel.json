@@ -7,13 +7,16 @@
     "es": "Panel solar",
     "da": "Solpanel",
     "ru": "Солнечная панель",
-    "pl": "Panel fotowoltaiczny"
+    "pl": "Panel fotowoltaiczny",
+    "ko": "태양광 패널"
   },
   "description": {
     "en": "Use this device class for solar panels.",
     "es": "Utiliza esta clase de dispositivo para los paneles solares.",
     "da": "Brug denne enhedsklasse til solpaneler.",
     "ru": "Используйте этот класс устройств для солнечных панелей.",
-    "pl": "Użyj tej klasy urządzeń dla paneli fotowoltaicznych."
+    "pl": "Użyj tej klasy urządzeń dla paneli fotowoltaicznych.",
+    "ko": "이 디바이스 클래스는 태양광 패널에 사용합니다.",
+    "no": "Bruk denne enhetsklassen for solpaneler."
   }
 }

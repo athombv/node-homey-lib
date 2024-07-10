@@ -11,7 +11,8 @@
     "es": "Modo de la cerradura",
     "da": "Lås-tilstand",
     "ru": "Режим замка",
-    "pl": "Tryb zamknięcia"
+    "pl": "Tryb zamknięcia",
+    "ko": "록 모드"
   },
   "values": [
     {
@@ -27,7 +28,8 @@
         "es": "Siempre cerrada",
         "da": "Altid låst",
         "ru": "Всегда закрыт",
-        "pl": "Zawsze zablokowane"
+        "pl": "Zawsze zablokowane",
+        "ko": "항상 잠김"
       }
     },
     {
@@ -43,7 +45,8 @@
         "es": "Siempre abierta",
         "da": "Altid ulåst",
         "ru": "Всегда открыт",
-        "pl": "Zawsze odblokowane"
+        "pl": "Zawsze odblokowane",
+        "ko": "항상 잠금 해제됨"
       }
     },
     {
@@ -59,7 +62,8 @@
         "es": "Cerrada hasta que se abra",
         "da": "Låst indtil ulåst",
         "ru": "Закрыт, пока не будет открыт",
-        "pl": "Zablokowane aż do odblokowania"
+        "pl": "Zablokowane aż do odblokowania",
+        "ko": "잠금 해제할 떄까지 잠김"
       }
     }
   ],
@@ -81,7 +85,8 @@
           "es": "El modo de la cerradura ha cambiado",
           "da": "Lås-tilstand er blevet ændret",
           "ru": "Режим замка изменен",
-          "pl": "Zmiana trybu zamknięcia"
+          "pl": "Zmiana trybu zamknięcia",
+          "ko": "록 모드 변경됨"
         },
         "args": [
           {
@@ -106,7 +111,8 @@
           "es": "El modo de la cerradura !{{está|no está}}",
           "da": "Lås-tilstand !{{er|er ikke}}",
           "ru": "Режим замка !{{|не}}",
-          "pl": "Tryb zamknięcia !{{to|to nie}}"
+          "pl": "Tryb zamknięcia !{{to|to nie}}",
+          "ko": "록 모드가 다음!{{임| 아님}}"
         },
         "args": [
           {
@@ -131,7 +137,8 @@
           "es": "Configurar modo",
           "da": "Indstil tilstand",
           "ru": "Установить режим",
-          "pl": "Ustaw tryb"
+          "pl": "Ustaw tryb",
+          "ko": "모드 설정"
         },
         "args": [
           {

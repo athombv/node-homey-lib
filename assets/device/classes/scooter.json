@@ -1,9 +1,30 @@
 {
   "title": {
-    "en": "Scooter"
+    "en": "Scooter",
+    "da": "Scooter",
+    "de": "Motorroller",
+    "es": "Scooter",
+    "fr": "Trottinette",
+    "it": "Scooter",
+    "ko": "스쿠터",
+    "nl": "Scooter",
+    "no": "Scooter",
+    "pl": "Skuter",
+    "ru": "Самокат"
   },
   "description": {
-    "en": "Use this device class for scooters."
+    "en": "Use this device class for scooters.",
+    "da": "Brug denne enhedsklasse til scootere.",
+    "de": "Verwenden Sie diese Geräteklasse für Motorroller.",
+    "es": "Utilice esta clase de dispositivo para scooters.",
+    "fr": "Utilisez cette classe d'appareils pour les trottinettes.",
+    "it": "Utilizza questa classe di dispositivi per gli scooter.",
+    "ko": "이 디바이스 클래스는 스쿠터에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor scooters.",
+    "no": "Bruk denne enhetsklassen for scootere.",
+    "pl": "Tej klasy urządzeń należy używać w przypadku skuterów.",
+    "ru": "Используйте этот класс устройств для самокатов.",
+    "sv": "Använd den här enhetsklassen för skotrar."
   },
   "minCompatibility": "12.0.0"
 }

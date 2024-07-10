@@ -10,7 +10,8 @@
     "es": "Modo de la aspiradora",
     "da": "Støvsugerstatus",
     "ru": "Состояние пылесоса",
-    "pl": "Stan odkurzacza"
+    "pl": "Stan odkurzacza",
+    "ko": "진공청소기 상태"
   },
   "values": [
     {
@@ -26,7 +27,8 @@
         "es": "Aspirando",
         "da": "Støvsuger",
         "ru": "Идет уборка",
-        "pl": "Sprzątanie"
+        "pl": "Sprzątanie",
+        "ko": "청소 중"
       }
     },
     {
@@ -42,7 +44,8 @@
         "es": "Aspirando un punto concreto",
         "da": "Områdestøvsugning",
         "ru": "Идет точечная уборка",
-        "pl": "Przestań sprzątać"
+        "pl": "Przestań sprzątać",
+        "ko": "집중 청소 중"
       }
     },
     {
@@ -58,7 +61,8 @@
         "es": "En la estación de carga",
         "da": "I ladestation",
         "ru": "На станции",
-        "pl": "W bazie"
+        "pl": "W bazie",
+        "ko": "도킹됨"
       }
     },
     {
@@ -74,7 +78,8 @@
         "es": "Cargando",
         "da": "Lader",
         "ru": "Заряжается",
-        "pl": "Ładowanie"
+        "pl": "Ładowanie",
+        "ko": "충전 중"
       }
     },
     {
@@ -90,7 +95,8 @@
         "es": "Detenida",
         "da": "Stoppet",
         "ru": "Остановлен",
-        "pl": "Zatrzymano"
+        "pl": "Zatrzymano",
+        "ko": "중지됨"
       }
     }
   ],
@@ -112,7 +118,8 @@
           "es": "El estado ha cambiado a...",
           "da": "Status er ændret til...",
           "ru": "Состояние изменено на…",
-          "pl": "Zmiana stanu na..."
+          "pl": "Zmiana stanu na...",
+          "ko": "상태가 다음으로 변경됨..."
         },
         "args": [
           {
@@ -137,7 +144,8 @@
           "es": "La aspiradora !{{está|no está}}",
           "da": "Støvsugeren !{{er|er ikke}}",
           "ru": "Пылесос !{{|не}}",
-          "pl": "Stan odkurzacza !{{to|to nie}}"
+          "pl": "Stan odkurzacza !{{to|to nie}}",
+          "ko": "진공청소기가 다음으로 설정!{{됨|되지 않음}}"
         },
         "args": [
           {
@@ -163,7 +171,8 @@
           "es": "Comenzar a aspirar",
           "da": "Begynd at støvsuge",
           "ru": "Начать уборку",
-          "pl": "Zacznij sprzątać"
+          "pl": "Zacznij sprzątać",
+          "ko": "청소 시작"
         }
       },
       {
@@ -179,7 +188,8 @@
           "es": "Comenzar a aspirar un punto concreto",
           "da": "Begynd at områdestøvsuge",
           "ru": "Начать точечную уборку",
-          "pl": "Zacznij sprzątać punktowo"
+          "pl": "Zacznij sprzątać punktowo",
+          "ko": "집중 청소 시작"
         }
       },
       {
@@ -196,7 +206,8 @@
           "es": "Volver a la estación de carga",
           "da": "Vend tilbage til ladestationen",
           "ru": "Возвратиться на станцию",
-          "pl": "Wróć do bazy"
+          "pl": "Wróć do bazy",
+          "ko": "도크로 복귀"
         }
       },
       {
@@ -213,7 +224,8 @@
           "es": "Detener",
           "da": "Stop",
           "ru": "Стоп",
-          "pl": "Przestań"
+          "pl": "Przestań",
+          "ko": "중지"
         }
       }
     ]

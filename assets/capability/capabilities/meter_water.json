@@ -11,13 +11,16 @@
     "es": "Contador de agua",
     "da": "Vandmåler",
     "ru": "Счетчик воды",
-    "pl": "Licznik wody"
+    "pl": "Licznik wody",
+    "ko": "수도 계량"
   },
   "decimals": 3,
   "min": 0,
   "units": {
     "en": "m³",
-    "ru": "м³"
+    "ru": "м³",
+    "ko": "m³",
+    "no": "m³"
   },
   "chartType": "spline",
   "desc": {
@@ -31,7 +34,8 @@
     "es": "Consumo de agua en metros cúbicos (m³)",
     "da": "Vandforbrug i kubikmeter (m³)",
     "ru": "Использование воды в кубометрах (м³)",
-    "pl": "Zużycie wody w metrach sześciennych (m³)"
+    "pl": "Zużycie wody w metrach sześciennych (m³)",
+    "ko": "수도 사용량 입방미터(m³)"
   },
   "insights": true,
   "getable": true,
@@ -52,7 +56,8 @@
           "es": "El contador de agua ha cambiado",
           "da": "Vandmåleren ændrede sig",
           "ru": "Измерения счетчика воды изменились",
-          "pl": "Zmiana w liczniku wody"
+          "pl": "Zmiana w liczniku wody",
+          "ko": "수도 계량 변경됨"
         },
         "tokens": [
           {

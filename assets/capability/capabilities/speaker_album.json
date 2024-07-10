@@ -10,7 +10,8 @@
     "es": "Álbum",
     "da": "Album",
     "ru": "Альбом",
-    "pl": "Album"
+    "pl": "Album",
+    "ko": "앨범"
   },
   "type": "string",
   "getable": true,
@@ -31,7 +32,8 @@
           "es": "El álbum ha cambiado",
           "da": "Albummet skiftede",
           "ru": "Альбом изменен",
-          "pl": "Zmiana albumu"
+          "pl": "Zmiana albumu",
+          "ko": "앨범 변경됨"
         },
         "tokens": [
           {

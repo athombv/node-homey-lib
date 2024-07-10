@@ -1,9 +1,31 @@
 {
   "title": {
-    "en": "Heat Pump"
+    "en": "Heat Pump",
+    "da": "Varmepumpe",
+    "de": "Wärmepumpe",
+    "es": "Bomba de calor",
+    "fr": "Pompe à chaleur",
+    "it": "Pompa di calore",
+    "ko": "히트펌프",
+    "nl": "Warmtepomp",
+    "no": "Varmepumpe",
+    "pl": "Pompa ciepła",
+    "ru": "Тепловой насос",
+    "sv": "Värmepump"
   },
   "description": {
-    "en": "Use this device class for heat pumps."
+    "en": "Use this device class for heat pumps.",
+    "da": "Brug denne enhedsklasse til varmepumper.",
+    "de": "Verwenden Sie diese Geräteklasse für Wärmepumpen.",
+    "es": "Utiliza esta clase de dispositivo para bombas de calor.",
+    "fr": "Utiliser cette classe d'appareils pour les pompes à chaleur.",
+    "it": "Utilizza questa classe di dispositivi per le pompe di calore.",
+    "ko": "이 디바이스 클래스는 히트펌프에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor warmtepompen.",
+    "no": "Bruk denne enhetsklassen for varmepumper.",
+    "pl": "Tej klasy urządzeń należy używać w przypadku pomp ciepła.",
+    "ru": "Используйте этот класс устройств для тепловых насосов.",
+    "sv": "Använd den här enhetsklassen för värmepumpar."
   },
   "minCompatibility": "12.0.0"
 }
