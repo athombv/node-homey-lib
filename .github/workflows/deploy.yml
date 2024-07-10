@@ -118,7 +118,7 @@ jobs:
       - name: Trigger repository dispatch event athombv/homey-mobile-app
         run: |
           curl -X POST \
-            https://api.github.com/repos/athombv/homey-homey-mobile-app/dispatches \
+            https://api.github.com/repos/athombv/homey-mobile-app/dispatches \
             -H 'Accept: application/vnd.github.everest-preview+json' \
             -H 'Authorization: token ${{ secrets.HOMEY_GITHUB_ACTIONS_BOT_PERSONAL_ACCESS_TOKEN }}' \
             -d '{"event_type": "update-homey-lib"}'

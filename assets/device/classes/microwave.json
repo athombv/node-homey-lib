@@ -3,7 +3,7 @@
     "en": "Microwave"
   },
   "description": {
-    "en": "Use this device class for any kind of microwave, if it is a combi unit use 'combi_microwave'."
+    "en": "Use this device class for any kind of microwave, if it is a combi unit use 'oven_and_microwave'."
   },
   "minCompatibility": "12.0.0"
 }
