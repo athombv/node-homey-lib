@@ -10,7 +10,8 @@
     "es": "Ventilador",
     "da": "Ventilator",
     "ru": "Вентилятор",
-    "pl": "Wentylator"
+    "pl": "Wentylator",
+    "ko": "선풍기"
   },
   "description": {
     "en": "Use this device class for fans that cool your home.",
@@ -18,10 +19,11 @@
     "fr": "Utilisez cette classe d'appareil pour les ventilateurs qui refroidissent votre maison.",
     "it": "Utilizza questa classe di dispositivi per i ventilatori che rinfrescano la tua casa.",
     "sv": "Använd den här enhetsklassen för fläktar som kyler ned hemmet.",
-    "no": "Bruk denne enhetsklassen for vifter som avkjøler hjemmet ditt.",
+    "no": "Bruk denne enhetsklassen for vifter som avkjøler boligen din.",
     "es": "Utiliza esta clase de dispositivo para los ventiladores que enfrían la casa.",
     "da": "Brug denne enhedsklasse til ventilatorer, der køler dit hjem ned.",
     "ru": "Используйте этот класс устройств для вентиляторов, которые охлаждают ваш дом.",
-    "pl": "Użyj tej klasy urządzeń dla wentylatorów, które chłodzą dom."
+    "pl": "Użyj tej klasy urządzeń dla wentylatorów, które chłodzą dom.",
+    "ko": "이 디바이스 클래스는 집에서 시원하게 지내게 해주는 선풍기에 사용합니다."
   }
 }

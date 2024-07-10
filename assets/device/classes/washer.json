@@ -3,7 +3,18 @@
     "en": "Washing Machine"
   },
   "description": {
-    "en": "Use this device class for washing machines, if it is a combination washer/dryer use 'washer_and_dryer'."
+    "en": "Use this device class for washing machines, if it is a combination washer/dryer use 'washer_and_dryer'.",
+    "da": "Brug denne enhedsklasse til vaskemaskiner. Hvis det er en kombineret vaskemaskine/tørretumbler, skal du bruge 'washer_and_dryer'.",
+    "de": "Verwenden Sie diese Geräteklasse für Waschmaschinen. Wenn es sich um eine Kombination aus Waschmaschine und Trockner handelt, verwenden Sie „washer_and_dryer“.",
+    "es": "Utiliza esta clase de dispositivo para lavadoras. Si se trata de un equipo que contiene funciones de lavadora y secadora, utiliza la clase 'washer_and_dryer'.",
+    "fr": "Utilisez cette classe d'appareils pour les machines à laver ; s'il s'agit d'une combinaison lave-linge/sèche-linge, utilisez \"washer_and_dryer\".",
+    "it": "Utilizza questa classe di dispositivi per le lavatrici; se si tratta di una lavatrice/asciugatrice combinata, utilizza \"washer_and_dryer\".",
+    "ko": "이 디바이스 클래스는 세탁기에 사용하고, 세탁기/건조기 일체형의 경우 'washer_and_dryer'를 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor wasmachines, als het een was/droogcombinatie is gebruik dan 'washer_and_dryer'.",
+    "no": "Bruk denne enhetsklassen for vaskemaskiner. For en kombinert vaskemaskin/tørketrommel, bruk «washer_and_dryer».",
+    "pl": "Tej klasy urządzeń należy używać w przypadku pralek, a jeśli jest to pralko-suszarka, należy użyć klasy „washer_and_dryer”.",
+    "ru": "Используйте этот класс устройств для стиральных машин; в случае стиральной машины-сушилки используйте washer_and_dryer.",
+    "sv": "Använd den här enhetsklassen för tvättmaskiner, om det är en kombinerad tvättmaskin/torktumlare ska du använda 'washer_and_dryer'."
   },
   "minCompatibility": "12.0.0"
 }

@@ -11,10 +11,13 @@
     "es": "Dirección del aire",
     "da": "Vindretning",
     "ru": "Угол порывов ветра",
-    "pl": "Kąt porywu wiatru"
+    "pl": "Kąt porywu wiatru",
+    "ko": "돌풍 각도"
   },
   "units": {
-    "en": "°"
+    "en": "°",
+    "ko": "°",
+    "no": "°"
   },
   "insights": true,
   "desc": {
@@ -28,7 +31,8 @@
     "es": "Dirección del aire en grados (°)",
     "da": "Vindretning i grader (°)",
     "ru": "Угол порывов ветра в градусах (°)",
-    "pl": "Kąt porywu wiatru w stopniach (°)"
+    "pl": "Kąt porywu wiatru w stopniach (°)",
+    "ko": "돌풍 각도(°)"
   },
   "chartType": "stepLine",
   "decimals": 2,
@@ -50,7 +54,8 @@
           "es": "La dirección del aire ha cambiado",
           "da": "Vindretningen skiftede",
           "ru": "Угол порывов ветра изменился",
-          "pl": "Zmiana kąta porywu wiatru"
+          "pl": "Zmiana kąta porywu wiatru",
+          "ko": "돌풍 각도 변경됨"
         },
         "tokens": [
           {

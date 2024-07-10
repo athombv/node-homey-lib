@@ -11,7 +11,8 @@
     "es": "Alarma de movimiento",
     "da": "Bevægelsesalarm",
     "ru": "Сигнал движения",
-    "pl": "Czujnik ruchu"
+    "pl": "Czujnik ruchu",
+    "ko": "모션 알람"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -25,7 +26,8 @@
     "es": "Alarma de movimiento activada",
     "da": "Bevægelsesalarm blev aktiveret",
     "ru": "Сигнал движения включен",
-    "pl": "Czujnik ruchu włączony"
+    "pl": "Czujnik ruchu włączony",
+    "ko": "모션 알람 켜짐"
   },
   "insightsTitleFalse": {
     "en": "Motion alarm turned off",
@@ -38,7 +40,8 @@
     "es": "Alarma de movimiento desactivada",
     "da": "Bevægelsesalarm blev deaktiveret",
     "ru": "Сигнал движения выключен",
-    "pl": "Czujnik ruchu wyłączony"
+    "pl": "Czujnik ruchu wyłączony",
+    "ko": "모션 알람 꺼짐"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +65,8 @@
           "es": "La alarma de movimiento se ha activado",
           "da": "Bevægelsesalarmen blev aktiveret",
           "ru": "Сигнал движения включен",
-          "pl": "Czujnik ruchu włączony"
+          "pl": "Czujnik ruchu włączony",
+          "ko": "모션 알람 켜짐"
         }
       },
       {
@@ -78,7 +82,8 @@
           "es": "La alarma de movimiento se ha desactivado",
           "da": "Bevægelsesalarmen blev deaktiveret",
           "ru": "Сигнал движения выключен",
-          "pl": "Czujnik ruchu wyłączony"
+          "pl": "Czujnik ruchu wyłączony",
+          "ko": "모션 알람 꺼짐"
         }
       }
     ],
@@ -96,7 +101,8 @@
           "es": "La alarma de movimiento está !{{activada|desactivada}}",
           "da": "Bevægelsesalarmen er !{{tændt|slukket}}",
           "ru": "Сигнал движения !{{вкл.|выкл.}}",
-          "pl": "Czujnik ruchu !{{włączony|wyłączony}}"
+          "pl": "Czujnik ruchu !{{włączony|wyłączony}}",
+          "ko": "모션 알람 !{{켬|끔}}"
         }
       }
     ]

@@ -11,7 +11,8 @@
     "es": "Alarma de incendios",
     "da": "Brandalarm",
     "ru": "Пожарный сигнал",
-    "pl": "Alarm przeciwpożarowy"
+    "pl": "Alarm przeciwpożarowy",
+    "ko": "화재 알람"
   },
   "desc": {
     "en": "True when fire has been detected",
@@ -24,7 +25,8 @@
     "es": "Verdadero cuando se ha detectado fuego",
     "da": "Sandt, når brand er blevet opdaget",
     "ru": "Верно при обнаружении огня",
-    "pl": "Alarm przeciwpożarowy"
+    "pl": "Alarm przeciwpożarowy",
+    "ko": "화재가 감지되면 참"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "es": "Alarma de incendios activada",
     "da": "Brandalarm blev aktiveret",
     "ru": "Пожарный сигнал включен",
-    "pl": "Adekwatny, kiedy wykryty zostanie pożar"
+    "pl": "Adekwatny, kiedy wykryty zostanie pożar",
+    "ko": "화재 알람 켜짐"
   },
   "insightsTitleFalse": {
     "en": "Fire alarm turned off",
@@ -51,7 +54,8 @@
     "es": "Alarma de incendios desactivada",
     "da": "Brandalarm blev deaktiveret",
     "ru": "Пожарный сигнал выключен",
-    "pl": "Alarm przeciwpożarowy wyłączony"
+    "pl": "Alarm przeciwpożarowy wyłączony",
+    "ko": "화재 알람 꺼짐"
   },
   "getable": true,
   "setable": false,
@@ -72,7 +76,8 @@
           "es": "La alarma de incendios se ha activado",
           "da": "Brandalarmen blev aktiveret",
           "ru": "Пожарный сигнал включен",
-          "pl": "Alarm przeciwpożarowy włączony"
+          "pl": "Alarm przeciwpożarowy włączony",
+          "ko": "화재 알람 켜짐"
         }
       },
       {
@@ -88,7 +93,8 @@
           "es": "La alarma de incendios se ha desactivado",
           "da": "Brandalarmen blev deaktiveret",
           "ru": "Пожарный сигнал выключен",
-          "pl": "Alarm przeciwpożarowy wyłączony"
+          "pl": "Alarm przeciwpożarowy wyłączony",
+          "ko": "화재 알람 꺼짐"
         }
       }
     ],
@@ -106,7 +112,8 @@
           "es": "La alarma de incendios está !{{activada|desactivada}}",
           "da": "Brandalarmen er !{{tændt|slukket}}",
           "ru": "Пожарный сигнал !{{вкл.|выкл.}}",
-          "pl": "Alarm przeciwpożarowy !{{włączony|wyłączony}}"
+          "pl": "Alarm przeciwpożarowy !{{włączony|wyłączony}}",
+          "ko": "화재 알람 !{{켬|끔}}"
         }
       }
     ]

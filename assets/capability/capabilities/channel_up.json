@@ -10,7 +10,8 @@
     "es": "Subir de canal",
     "da": "Kanal op",
     "ru": "Канал наверх",
-    "pl": "Kanał w górę"
+    "pl": "Kanał w górę",
+    "ko": "채널 위로"
   },
   "type": "boolean",
   "getable": false,
@@ -30,7 +31,8 @@
           "es": "Un canal más arriba",
           "da": "En kanal op",
           "ru": "Один канал наверх",
-          "pl": "Jeden kanał w górę"
+          "pl": "Jeden kanał w górę",
+          "ko": "채널 하나 위로"
         }
       }
     ]

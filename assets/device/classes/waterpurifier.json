@@ -1,9 +1,31 @@
 {
   "title": {
-    "en": "Water Purifier"
+    "en": "Water Purifier",
+    "da": "Vandrensningsanlæg",
+    "de": "Wasseraufbereiter",
+    "es": "Purificador de agua",
+    "fr": "Purificateur d'eau",
+    "it": "Depuratore d'acqua",
+    "ko": "정수기",
+    "nl": "Waterzuiveraar",
+    "no": "Vannrenser",
+    "pl": "Oczyszczacz wody",
+    "ru": "Очиститель воды",
+    "sv": "Vattenrenare"
   },
   "description": {
-    "en": "Use this device class for water purifiers."
+    "en": "Use this device class for water purifiers.",
+    "da": "Brug denne enhedsklasse til vandrensningsanlæg.",
+    "de": "Verwenden Sie diese Geräteklasse für Wasseraufbereiter.",
+    "es": "Utiliza esta clase de dispositivo para purificadores de agua.",
+    "fr": "Utilisez cette classe d'appareils pour les purificateurs d'eau.",
+    "it": "Utilizza questa classe di dispositivi per i depuratori d'acqua.",
+    "ko": "이 디바이스 클래스는 정수기에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor waterzuiveraars.",
+    "no": "Bruk denne enhetsklassen for vannrensere.",
+    "pl": "Tej klasy urządzeń należy używać w przypadku oczyszczaczy wody.",
+    "ru": "Используйте этот класс устройств для очистителей воды.",
+    "sv": "Använd den här enhetsklassen för vattenrenare."
   },
   "minCompatibility": "12.0.0"
 }

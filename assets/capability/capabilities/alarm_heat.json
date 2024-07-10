@@ -11,7 +11,8 @@
     "es": "Alarma de calor",
     "da": "Varmealarm",
     "ru": "Сигнал перегрева",
-    "pl": "Alarm termiczny"
+    "pl": "Alarm termiczny",
+    "ko": "과열 알람"
   },
   "desc": {
     "en": "True when extreme heat has been detected",
@@ -24,7 +25,8 @@
     "es": "Verdadero cuando se ha detectado un calor extremo",
     "da": "Sandt, når ekstrem varme er blevet opdaget",
     "ru": "Верно при обнаружении экстремально высокой температуры",
-    "pl": "Adekwatny, kiedy wykryta zostanie ekstremalnie wysoka temperatura"
+    "pl": "Adekwatny, kiedy wykryta zostanie ekstremalnie wysoka temperatura",
+    "ko": "과도한 열이 감지되면 참"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "es": "Alarma de calor activada",
     "da": "Varmealarm blev aktiveret",
     "ru": "Сигнал перегрева включен",
-    "pl": "Alarm termiczny włączony"
+    "pl": "Alarm termiczny włączony",
+    "ko": "과열 알람 켜짐"
   },
   "insightsTitleFalse": {
     "en": "Heat alarm turned off",
@@ -51,7 +54,8 @@
     "es": "Alarma de calor desactivada",
     "da": "Varmealarm blev deaktiveret",
     "ru": "Сигнал перегрева выключен",
-    "pl": "Alarm termiczny wyłączony"
+    "pl": "Alarm termiczny wyłączony",
+    "ko": "과열 알람 꺼짐"
   },
   "getable": true,
   "setable": false,
@@ -72,7 +76,8 @@
           "es": "La alarma de calor se ha activado",
           "da": "Varmealarmen blev aktiveret",
           "ru": "Сигнал перегрева включен",
-          "pl": "Alarm termiczny włączony"
+          "pl": "Alarm termiczny włączony",
+          "ko": "과열 알람 켜짐"
         }
       },
       {
@@ -88,7 +93,8 @@
           "es": "La alarma de calor se ha desactivado",
           "da": "Varmealarmen blev deaktiveret",
           "ru": "Сигнал перегрева выключен",
-          "pl": "Alarm termiczny wyłączony"
+          "pl": "Alarm termiczny wyłączony",
+          "ko": "과열 알람 꺼짐"
         }
       }
     ],
@@ -106,7 +112,8 @@
           "es": "La alarma de calor está !{{activada|desactivada}}",
           "da": "Varmealarmen er !{{tændt|slukket}}",
           "ru": "Сигнал перегрева !{{вкл.|выкл.}}",
-          "pl": "Alarm termiczny !{{włączony|wyłączony}}"
+          "pl": "Alarm termiczny !{{włączony|wyłączony}}",
+          "ko": "과열 알람 !{{켬|끔}}"
         }
       }
     ]

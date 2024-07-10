@@ -1,9 +1,31 @@
 {
   "title": {
-    "en": "Smoke Alarm"
+    "en": "Smoke Alarm",
+    "da": "Røgalarm",
+    "de": "Rauchmelder",
+    "es": "Detector de humo",
+    "fr": "Détecteur de fumée",
+    "it": "Rilevatore di fumo",
+    "ko": "연기 알람",
+    "nl": "Rookmelder",
+    "no": "Røykvarsler",
+    "pl": "Alarm przeciwdymny",
+    "ru": "Датчик дыма",
+    "sv": "Rökalarm"
   },
   "description": {
-    "en": "Use this device class for any smoke- or CO-alarm, could also be used for combo units."
+    "en": "Use this device class for any smoke- or CO-alarm, could also be used for combo units.",
+    "da": "Brug denne enhedsklasse til enhver røg- eller kuliltealarm, kan også bruges til kombinationsenheder.",
+    "de": "Verwenden Sie diese Geräteklasse für jeden Rauch- oder CO-Alarm. Sie kann auch für Kombi-Geräte verwendet werden.",
+    "es": "Utiliza esta clase de dispositivo para cualquier detector de humo o CO2. También puede servir para unidades que combinen ambas funciones.",
+    "fr": "Cette classe d'appareils peut être utilisée pour n'importe quel détecteur de fumée ou de CO, ainsi que pour les unités combinées.",
+    "it": "Utilizza questa classe di dispositivi per qualsiasi rilevatore di fumo o di monossido di carbonio. Può essere utilizzata anche per unità combinate.",
+    "ko": "이 디바이스 클래스는 연기 및 CO 알람 경보기에 사용하며, 콤보 유닛에도 사용할 수 있습니다.",
+    "nl": "Gebruik deze apparaatklasse voor elk rook- of CO-melder, kan ook worden gebruikt voor gecombineerde eenheden.",
+    "no": "Bruk denne enhetsklassen for alle slags røyk- eller kullosvarslere. Kan også brukes for kombienheter.",
+    "pl": "Tej klasy urządzeń można używać w przypadku dowolnego alarmu dymnego lub CO, a także w przypadku urządzeń typu combo.",
+    "ru": "Используйте этот класс устройств для датчиков дыма или угарного газа любого типа; также можно использовать для комбинированных устройств.",
+    "sv": "Använd den här enhetsklassen för alla rök- eller CO-larm, kan även användas för kombienheter."
   },
   "minCompatibility": "12.0.0"
 }

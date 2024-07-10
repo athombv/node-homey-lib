@@ -1,9 +1,30 @@
 {
   "title": {
-    "en": "Mop"
+    "en": "Mop",
+    "da": "Moppe",
+    "de": "Mopp",
+    "es": "Limpiasuelos",
+    "fr": "Balai à franges",
+    "it": "Lavapavimenti",
+    "ko": "물걸레 청소기",
+    "nl": "Mop",
+    "no": "Mopp",
+    "pl": "Mop",
+    "ru": "Швабра",
+    "sv": "Mopp"
   },
   "description": {
-    "en": "Use this device class for mops, e.g. a robot mop."
+    "en": "Use this device class for mops, e.g. a robot mop.",
+    "da": "Brug denne enhedsklasse til mopper, f.eks. en robotmoppe.",
+    "de": "Verwenden Sie diese Geräteklasse für Mopps, z. B. für Wischroboter.",
+    "es": "Utiliza esta clase de dispositivo para equipos y utensilios para limpiar el suelo (por ej., un robot limpiasuelos).",
+    "fr": "Utilisez cette classe d'appareils pour les balais à franges, par exemple un balai robot.",
+    "it": "Utilizza questa classe di dispositivi per i lavapavimenti, es. un robot lavapavimenti.",
+    "ko": "이 디바이스 클래스는 물걸레 로봇청소기 등 물걸레 청소기에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor moppen, bijvoorbeeld een robotmop.",
+    "no": "Bruk denne enhetsklassen for mopper, f.eks. en robotmopp.",
+    "pl": "Tej klasy urządzeń należy używać w przypadku mopów, np. mopów-robotów.",
+    "sv": "Använd den här enhetsklassen för moppar, t.ex. en robotmopp."
   },
   "minCompatibility": "12.0.0"
 }

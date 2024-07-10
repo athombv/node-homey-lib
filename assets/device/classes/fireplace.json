@@ -1,9 +1,31 @@
 {
   "title": {
-    "en": "Fireplace"
+    "en": "Fireplace",
+    "da": "Ildsted",
+    "de": "Kamin",
+    "es": "Chimenea",
+    "fr": "Cheminée",
+    "it": "Camino",
+    "ko": "난로",
+    "nl": "Open haard",
+    "no": "Peis",
+    "pl": "Kominek",
+    "ru": "Камин",
+    "sv": "Öppen spis"
   },
   "description": {
-    "en": "Use this device class for fireplaces."
+    "en": "Use this device class for fireplaces.",
+    "da": "Brug denne enhedsklasse til ildsteder.",
+    "de": "Verwenden Sie diese Geräteklasse für Kamine.",
+    "es": "Utiliza esta clase de dispositivo para chimeneas.",
+    "fr": "Utilisez cette classe d'appareils pour les cheminées.",
+    "it": "Utilizza questa classe di dispositivi per i camini.",
+    "ko": "이 디바이스 클래스는 난로에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor open haarden.",
+    "no": "Bruk denne enhetsklassen for peiser.",
+    "pl": "Tej klasy urządzeń należy używać w przypadku kominków.",
+    "ru": "Используйте этот класс устройств для каминов.",
+    "sv": "Använd den här enhetsklassen för öppna spisar."
   },
   "minCompatibility": "12.0.0"
 }
