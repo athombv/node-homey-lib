@@ -10,7 +10,8 @@
     "es": "Sensor",
     "da": "Sensor",
     "ru": "Датчик",
-    "pl": "Czujnik"
+    "pl": "Czujnik",
+    "ko": "센서"
   },
   "description": {
     "en": "Use this device class for sensors, e.g. a contact or motion sensor.",
@@ -22,6 +23,7 @@
     "es": "Utiliza esta clase de dispositivo para los sensores; p. ej., sensores de contacto  o movimiento.",
     "da": "Brug denne enhedsklasse til sensorer, f-eks en kontakt- eller bevægelsessensor.",
     "ru": "Используйте этот класс устройства для датчиков, например датчиков контакта или движения.",
-    "pl": "Użyj tej klasy urządzeń dla czujników, np. czujnika otwarcia lub ruchu."
+    "pl": "Użyj tej klasy urządzeń dla czujników, np. czujnika otwarcia lub ruchu.",
+    "ko": "이 디바이스 클래스는 접촉 또는 모션 센서 등 센서류에 사용합니다."
   }
 }

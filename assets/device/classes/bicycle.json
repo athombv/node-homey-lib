@@ -1,9 +1,31 @@
 {
   "title": {
-    "en": "Bicycle"
+    "en": "Bicycle",
+    "da": "Cykel",
+    "de": "Fahrrad",
+    "es": "Bicicleta",
+    "fr": "Vélo",
+    "it": "Bicicletta",
+    "ko": "자전거",
+    "nl": "Fiets",
+    "no": "Sykkel",
+    "pl": "Rower",
+    "ru": "Велосипед",
+    "sv": "Cykel"
   },
   "description": {
-    "en": "Use this device class for bicycles."
+    "en": "Use this device class for bicycles.",
+    "da": "Brug denne enhedsklasse til cykler.",
+    "de": "Verwenden Sie diese Geräteklasse für Fahrräder.",
+    "es": "Utiliza esta clase de dispositivo para bicicletas.",
+    "fr": "Utilisez cette classe d'appareils pour les vélos.",
+    "it": "Utilizza questa classe di dispositivi per le biciclette.",
+    "ko": "이 디바이스 클래스는 자전거에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor fietsen.",
+    "no": "Bruk denne enhetsklassen for sykler.",
+    "pl": "Ta klasa urządzeń jest przeznaczona dla rowerów.",
+    "ru": "Используйте этот класс устройств для велосипедов.",
+    "sv": "Använd den här enhetsklassen för cyklar."
   },
   "minCompatibility": "12.0.0"
 }

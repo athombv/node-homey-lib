@@ -10,7 +10,8 @@
     "es": "Artista",
     "da": "Kunstner",
     "ru": "Исполнитель",
-    "pl": "Wykonawca"
+    "pl": "Wykonawca",
+    "ko": "아티스트"
   },
   "type": "string",
   "getable": true,
@@ -31,7 +32,8 @@
           "es": "El artista ha cambiado",
           "da": "Kunstneren skiftede",
           "ru": "Исполнитель изменен",
-          "pl": "Zmiana wykonawcy"
+          "pl": "Zmiana wykonawcy",
+          "ko": "아티스트 변경됨"
         },
         "tokens": [
           {

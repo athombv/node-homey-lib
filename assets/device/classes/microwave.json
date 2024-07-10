@@ -1,9 +1,30 @@
 {
   "title": {
-    "en": "Microwave"
+    "en": "Microwave",
+    "da": "Mikrobølgeovn",
+    "de": "Mikrowelle",
+    "es": "Microondas",
+    "fr": "Micro-ondes",
+    "it": "Microonde",
+    "ko": "전자레인지",
+    "nl": "Magnetron",
+    "no": "Mikrobølgeovn",
+    "pl": "Mikrofalówka",
+    "ru": "Микроволновая печь",
+    "sv": "Mikrovågsugn"
   },
   "description": {
-    "en": "Use this device class for any kind of microwave, if it is a combi unit use 'oven_and_microwave'."
+    "en": "Use this device class for any kind of microwave, if it is a combi unit use 'oven_and_microwave'.",
+    "da": "Brug denne enhedsklasse til enhver form for mikrobølgeovn, hvis det er en kombi-enhed, skal du bruge 'combi_microwave'.",
+    "de": "Verwenden Sie diese Geräteklasse für jede Art von Mikrowelle. Wenn es sich um ein Kombigerät handelt, verwenden Sie „oven_and_microwave“.",
+    "es": "Utiliza esta clase de dispositivo para cualquier tipo de microondas. Si se trata de un equipo que combina horno y microondas, utiliza la clase 'oven_and_microwave'.",
+    "fr": "Utilisez cette classe d'appareils pour tout type de micro-ondes. S'il s'agit d'une unité combinée, utilisez \"oven_and_microwave\".",
+    "it": "Utilizza questa classe di dispositivi per qualsiasi tipo di microonde; se si tratta di un'unità combinata, utilizza \"oven_and_microwave\".",
+    "nl": "Gebruik deze apparaatklasse voor elke soort magnetron, als het een combimagnetron is gebruik dan 'oven_and_microwave'.",
+    "no": "Bruk denne enhetsklassen for alle slags mikrobølgeovner. For kombienheter, bruk «combi_microwave».",
+    "pl": "Tej klasy urządzeń należy używać dla każdego rodzaju kuchenki mikrofalowej, jeśli jest to urządzenie combi, należy użyć klasy \"oven_and_microwave\".",
+    "ru": "Используйте этот класс устройств для микроволновых печей любого типа; в случае комбинированного устройства используйте oven_and_microwave.",
+    "sv": "Använd den här enhetsklassen för alla typer av mikrovågsugnar, om det är en kombienhet ska du använda 'oven_and_microwave'."
   },
   "minCompatibility": "12.0.0"
 }

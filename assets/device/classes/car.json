@@ -1,9 +1,31 @@
 {
   "title": {
-    "en": "Car"
+    "en": "Car",
+    "da": "Bil",
+    "de": "Auto",
+    "es": "Coche",
+    "fr": "Voiture",
+    "it": "Automobile",
+    "ko": "자동차",
+    "nl": "Auto",
+    "no": "Bil",
+    "pl": "Samochód",
+    "ru": "Автомобиль",
+    "sv": "Bil"
   },
   "description": {
-    "en": "Use this device class for any kind of car."
+    "en": "Use this device class for any kind of car.",
+    "da": "Brug denne enhedsklasse til enhver form for bil.",
+    "de": "Verwenden Sie diese Geräteklasse für jede Art von Auto.",
+    "es": "Utiliza esta clase de dispositivo para cualquier tipo de coche.",
+    "fr": "Cette classe d'appareils peut être utilisée pour tout type de voiture.",
+    "it": "Utilizza questa classe di dispositivi per qualsiasi tipo di automobile.",
+    "ko": "이 디바이스는 모든 종류의 자동차에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor elk type auto.",
+    "no": "Bruk denne enhetsklassen for alle slags biler.",
+    "pl": "Ta klasa urządzeń jest przeznaczona do każdego rodzaju samochodu.",
+    "ru": "Используйте этот класс устройств для автомобилей любого типа.",
+    "sv": "Använd den här enhetsklassen för alla typer av bilar."
   },
   "minCompatibility": "12.0.0"
 }

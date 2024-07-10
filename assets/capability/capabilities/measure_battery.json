@@ -11,10 +11,13 @@
     "es": "Batería",
     "da": "Batteri",
     "ru": "Аккумулятор",
-    "pl": "Bateria"
+    "pl": "Bateria",
+    "ko": "배터리"
   },
   "units": {
-    "en": "%"
+    "en": "%",
+    "ko": "%",
+    "no": " %"
   },
   "insights": true,
   "min": 0,
@@ -30,7 +33,8 @@
     "es": "Carga de la batería en porcentaje (%)",
     "da": "Batteriniveau i procent (%)",
     "ru": "Зарядка аккумулятора в процентах (%)",
-    "pl": "Naładowanie baterii w procentach (%)"
+    "pl": "Naładowanie baterii w procentach (%)",
+    "ko": "배터리 충전량(%)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -52,7 +56,8 @@
           "es": "El nivel de la batería ha cambiado",
           "da": "Batteriniveauet har ændret sig",
           "ru": "Уровень аккумулятора изменен",
-          "pl": "Zmiana poziomu naładowania baterii"
+          "pl": "Zmiana poziomu naładowania baterii",
+          "ko": "배터리 수준 변경됨"
         },
         "tokens": [
           {

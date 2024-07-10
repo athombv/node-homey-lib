@@ -1,9 +1,31 @@
 {
   "title": {
-    "en": "Humidifier"
+    "en": "Humidifier",
+    "da": "Luftfugter",
+    "de": "Luftbefeuchter",
+    "es": "Humidificador",
+    "fr": "Humidificateur",
+    "it": "Umidificatore",
+    "ko": "가습기",
+    "nl": "Luchtbevochtiger",
+    "no": "Luftfukter",
+    "pl": "Nawilżacz",
+    "ru": "Увлажнитель воздуха",
+    "sv": "Luftfuktare"
   },
   "description": {
-    "en": "Use this device class for humidifiers."
+    "en": "Use this device class for humidifiers.",
+    "da": "Brug denne enhedsklasse til luftfugtere.",
+    "de": "Verwenden Sie diese Geräteklasse für Luftbefeuchter.",
+    "es": "Utiliza esta clase de dispositivo para humidificadores.",
+    "fr": "Utiliser cette classe d'appareils pour les humidificateurs.",
+    "it": "Utilizza questa classe di dispositivi per gli umidificatori.",
+    "ko": "이 디바이스 클래스는 가습기에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor luchtbevochtigers.",
+    "no": "Bruk denne enhetsklassen for luftfuktere.",
+    "pl": "Tej klasy urządzeń należy używać w przypadku nawilżaczy powietrza.",
+    "ru": "Используйте этот класс устройств для увлажнителей воздуха.",
+    "sv": "Använd den här enhetsklassen för luftfuktare."
   },
   "minCompatibility": "12.0.0"
 }

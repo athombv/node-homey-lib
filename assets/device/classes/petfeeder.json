@@ -1,9 +1,31 @@
 {
   "title": {
-    "en": "Pet Feeder"
+    "en": "Pet Feeder",
+    "da": "Foderautomat til kæledyr",
+    "de": "Futterspender",
+    "es": "Comedero para mascotas",
+    "fr": "Mangeoire pour animaux",
+    "it": "Distributore di cibo per animali domestici",
+    "ko": "사료 급여기",
+    "nl": "Voerbak",
+    "no": "Kjæledyrmater",
+    "pl": "Karmnik dla zwierząt",
+    "ru": "Кормушка для животных",
+    "sv": "Foderautomat till husdjur"
   },
   "description": {
-    "en": "Use this device class for pet feeders."
+    "en": "Use this device class for pet feeders.",
+    "da": "Brug denne enhedsklasse til foderautomater til kæledyr.",
+    "de": "Verwenden Sie diese Geräteklasse für Futterspender für Haustiere.",
+    "es": "Utiliza esta clase de dispositivo para comederos de mascotas.",
+    "fr": "Utilisez cette classe d'appareils pour les mangeoires pour animaux.",
+    "it": "Utilizza questa classe di dispositivi per i distributori di cibo per animali domestici.",
+    "ko": "이 디바이스 클래스는 사료 급여기에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor voerbakken.",
+    "no": "Bruk denne enhetsklassen for kjæledyrmatere.",
+    "pl": "Tej klasy urządzeń należy używać w przypadku karmników dla zwierząt.",
+    "ru": "Используйте этот класс устройств для кормушек для домашних животных.",
+    "sv": "Använd den här enhetsklassen för foderautomater till husdjur."
   },
   "minCompatibility": "12.0.0"
 }

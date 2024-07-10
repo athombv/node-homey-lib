@@ -1,9 +1,31 @@
 {
   "title": {
-    "en": "Multicooker"
+    "en": "Multicooker",
+    "da": "Multicooker",
+    "de": "Multikocher",
+    "es": "Robot de cocina",
+    "fr": "Multicuiseur",
+    "it": "Multicooker",
+    "ko": "멀티쿠커",
+    "nl": "Multicooker",
+    "no": "Multikoker",
+    "pl": "Multicooker",
+    "ru": "Мультиварка",
+    "sv": "Multikokare"
   },
   "description": {
-    "en": "Use this device class for multicookers."
+    "en": "Use this device class for multicookers.",
+    "da": "Brug denne enhedsklasse til multicookere.",
+    "de": "Verwenden Sie diese Geräteklasse für Multikocher.",
+    "es": "Utiliza esta clase de dispositivo para robots de cocina.",
+    "fr": "Utilisez cette classe d'appareils pour les multicuiseurs.",
+    "it": "Utilizza questa classe di dispositivi per i multicooker.",
+    "ko": "이 디바이스 클래스는 멀티쿠커에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor multicookers.",
+    "no": "Bruk denne enhetsklassen for multikokere.",
+    "pl": "Tej klasy urządzeń należy używać w przypadku multicookerów.",
+    "ru": "Используйте этот класс устройств для мультиварок.",
+    "sv": "Använd den här enhetsklassen för multikokare."
   },
   "minCompatibility": "12.0.0"
 }

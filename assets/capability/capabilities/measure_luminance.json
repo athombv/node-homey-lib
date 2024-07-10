@@ -11,11 +11,14 @@
     "es": "Luminancia",
     "da": "Luminans",
     "ru": "Яркость",
-    "pl": "Luminacja"
+    "pl": "Luminacja",
+    "ko": "휘도"
   },
   "units": {
     "en": "lx",
-    "ru": "лк"
+    "ru": "лк",
+    "ko": "lx",
+    "no": "lx"
   },
   "insights": true,
   "desc": {
@@ -29,7 +32,8 @@
     "es": "Luminancia en Lux (lx)",
     "da": "Luminans i Lux (lx)",
     "ru": "Яркость в люксах (лк)",
-    "pl": "Luminacja w luksach (lx)"
+    "pl": "Luminacja w luksach (lx)",
+    "ko": "휘도 럭스(lx)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -52,7 +56,8 @@
           "es": "La luminancia ha cambiado",
           "da": "Luminansen ændrede sig",
           "ru": "Яркость изменилась",
-          "pl": "Zmiana luminacji"
+          "pl": "Zmiana luminacji",
+          "ko": "휘도 변경됨"
         },
         "tokens": [
           {

@@ -1,9 +1,31 @@
 {
   "title": {
-    "en": "Siren"
+    "en": "Siren",
+    "da": "Sirene",
+    "de": "Sirene",
+    "es": "Alarma",
+    "fr": "Sirène",
+    "it": "Allarme",
+    "ko": "사이렌",
+    "nl": "Sirene",
+    "no": "Sirene",
+    "pl": "Syrena",
+    "ru": "Сирена",
+    "sv": "Siren"
   },
   "description": {
-    "en": "Use this device class for sirens."
+    "en": "Use this device class for sirens.",
+    "da": "Brug denne enhedsklasse til sirener.",
+    "de": "Verwenden Sie diese Geräteklasse für Sirenen.",
+    "es": "Utiliza esta clase de dispositivo para alarmas.",
+    "fr": "Utilisez cette classe d'appareils pour les sirènes.",
+    "it": "Utilizza questa classe di dispositivi per gli allarmi.",
+    "ko": "이 디바이스 클래스는 사이렌에 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor sirenes.",
+    "no": "Bruk denne enhetsklassen for sirener.",
+    "pl": "Tej klasy urządzeń należy używać w przypadku syren.",
+    "ru": "Используйте этот класс устройств для сирен.",
+    "sv": "Använd den här enhetsklassen för sirener."
   },
   "minCompatibility": "12.0.0"
 }

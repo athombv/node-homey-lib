@@ -9,7 +9,8 @@
     "es": "Aleatorio",
     "da": "Shuffle",
     "ru": "В случайном порядке",
-    "pl": "Odtwarzaj losowo"
+    "pl": "Odtwarzaj losowo",
+    "ko": "셔플"
   },
   "type": "boolean",
   "getable": true,
@@ -30,7 +31,8 @@
           "es": "Orden aleatorio activado",
           "da": "Shufflet slået til",
           "ru": "В случайном порядке",
-          "pl": "Włącz odtwarzanie losowe"
+          "pl": "Włącz odtwarzanie losowe",
+          "ko": "셔플 켬"
         }
       },
       {
@@ -46,7 +48,8 @@
           "es": "Orden aleatorio desactivado",
           "da": "Shuffle slået fra",
           "ru": "По порядку",
-          "pl": "Wyłącz odtwarzanie losowe"
+          "pl": "Wyłącz odtwarzanie losowe",
+          "ko": "셔플 끔"
         }
       }
     ]

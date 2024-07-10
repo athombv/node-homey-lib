@@ -9,7 +9,8 @@
     "es": "Cobertores de ventanas inclinados hacia abajo",
     "da": "Vinduesdække nedad",
     "ru": "Наклонить вниз оконные навесы",
-    "pl": "Zasunięcie osłon okiennych"
+    "pl": "Zasunięcie osłon okiennych",
+    "ko": "창문 덮개 아래로 틸트"
   },
   "type": "boolean",
   "getable": false,
