@@ -24,7 +24,8 @@
     "nl": "Gebruik deze apparaatklasse voor moppen, bijvoorbeeld een robotmop.",
     "no": "Bruk denne enhetsklassen for mopper, f.eks. en robotmopp.",
     "pl": "Tej klasy urządzeń należy używać w przypadku mopów, np. mopów-robotów.",
-    "sv": "Använd den här enhetsklassen för moppar, t.ex. en robotmopp."
+    "sv": "Använd den här enhetsklassen för moppar, t.ex. en robotmopp.",
+    "ru": "Используйте этот класс устройств для швабр, например, роботов-швабр."
   },
   "minCompatibility": "12.0.0"
 }
