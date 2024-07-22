@@ -1,6 +1,17 @@
 {
   "title": {
-    "en": "Washing Machine"
+    "en": "Washing Machine",
+    "da": "Vaskemaskine",
+    "de": "Waschmaschine",
+    "es": "Lavadora",
+    "fr": "Lave-linge",
+    "it": "Lavatrice",
+    "ko": "세탁기",
+    "nl": "Wasmachine",
+    "no": "Vaskemaskin",
+    "pl": "Pralka",
+    "ru": "Стиральная машина",
+    "sv": "Tvättmaskin"
   },
   "description": {
     "en": "Use this device class for washing machines, if it is a combination washer/dryer use 'washer_and_dryer'.",
