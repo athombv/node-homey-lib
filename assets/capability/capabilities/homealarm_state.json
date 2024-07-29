@@ -140,12 +140,10 @@
           "pl": "Ustaw stan",
           "ko": "상태 설정"
         },
+        "$filter": {
+          "capabilities": "homealarm_state"
+        },
         "args": [
-          {
-            "name": "device",
-            "type": "device",
-            "filter": "capabilities=homealarm_state"
-          },
           {
             "name": "state",
             "type": "dropdown",
