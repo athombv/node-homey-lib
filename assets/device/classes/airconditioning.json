@@ -1,6 +1,17 @@
 {
   "title": {
-    "en": "Air Conditioner"
+    "en": "Air Conditioner",
+    "da": "Klimaanlæg",
+    "de": "Klimaanlage",
+    "es": "Equipo de aire acondicionado",
+    "fr": "Climatiseur",
+    "it": "Climatizzatore",
+    "ko": "에어컨",
+    "nl": "Airconditioner",
+    "no": "Klimaanlegg",
+    "pl": "Klimatyzacja",
+    "ru": "Кондиционер",
+    "sv": "Luftkonditionerare"
   },
   "description": {
     "en": "Use this device class for airconditioners, either portable or split type units.",
