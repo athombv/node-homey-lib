@@ -24,7 +24,8 @@
     "no": "Bruk denne enhetsklassen for alle slags mikrobølgeovner. For kombienheter, bruk «combi_microwave».",
     "pl": "Tej klasy urządzeń należy używać dla każdego rodzaju kuchenki mikrofalowej, jeśli jest to urządzenie combi, należy użyć klasy \"oven_and_microwave\".",
     "ru": "Используйте этот класс устройств для микроволновых печей любого типа; в случае комбинированного устройства используйте oven_and_microwave.",
-    "sv": "Använd den här enhetsklassen för alla typer av mikrovågsugnar, om det är en kombienhet ska du använda 'oven_and_microwave'."
+    "sv": "Använd den här enhetsklassen för alla typer av mikrovågsugnar, om det är en kombienhet ska du använda 'oven_and_microwave'.",
+    "ko": "이 디바이스 클래스는 모든 종류의 전자레인지에 사용하되, 콤비오븐의 경우 'combi_microwave'를 사용합니다."
   },
   "minCompatibility": "12.0.0"
 }
