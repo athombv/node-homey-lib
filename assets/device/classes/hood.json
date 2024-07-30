@@ -24,7 +24,8 @@
     "no": "Bruk denne enhetsklassen for alle slags avtrekksvifter.",
     "pl": "Tej klasy urządzeń należy używać w przypadku każdego rodzaju okapu.",
     "ru": "Используйте этот класс устройств для вытяжек любого типа.",
-    "sv": "Använd den här enhetsklassen för alla typer av köksfläktar."
+    "sv": "Använd den här enhetsklassen för alla typer av köksfläktar.",
+    "ko": "이 디바이스 클래스는 모든 종류의 환풍기 후드에 사용합니다."
   },
   "minCompatibility": "12.0.0"
 }
