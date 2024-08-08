@@ -624,6 +624,16 @@
                   }
                 }
               },
+              "min": {
+                "type": "number"
+              },
+              "max": {
+                "type": "number"
+              },
+              "step": {
+                "type": "number",
+                "minimum": 0
+              },
               "highlight": {
                 "type": "boolean",
                 "enum": [
