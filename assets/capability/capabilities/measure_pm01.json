@@ -1,0 +1,71 @@
+{
+  "type": "number",
+  "title": {
+    "en": "PM0.1",
+    "nl": "PM0.1",
+    "de": "PM0.1",
+    "fr": "PM0.1",
+    "it": "PM0.1",
+    "sv": "PM0.1",
+    "no": "PM0.1",
+    "es": "PM0,1",
+    "ru": "ТЧ 0.1",
+    "pl": "PM0.1",
+    "ko": "PM0.1"
+  },
+  "units": {
+    "en": "μg/m³",
+    "ru": "мкг/м³",
+    "ko": "μg/m³",
+    "no": "μg/m³"
+  },
+  "insights": true,
+  "desc": {
+    "en": "Atmospheric particulate matter (μg/m³)",
+    "nl": "Deeltjesvormige luchtverontreiniging (μg/m³)",
+    "de": "Atmosphärischer Feinstaub (μg/m³)",
+    "fr": "Particules en suspension (μg/m³)",
+    "it": "Particolato atmosferico (μg/m³)",
+    "sv": "Atmosfäriskt partikelämne (μg/m³)",
+    "no": "Atmosfæriske partikler (μg/m³)",
+    "es": "Partículas atmosféricas (μg/m³)",
+    "da": "Atmosfæriske partikler (μg/m³)",
+    "ru": "Атмосферные твердые частицы (мкг/м³)",
+    "pl": "Pył zawieszony (μg/m³)",
+    "ko": "대기 중 미세입자 수(μg/m³)"
+  },
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_pm01_changed",
+        "title": {
+          "en": "The PM0.1 value has changed",
+          "nl": "De PM0.1 waarde is veranderd",
+          "de": "Der PM0.1-Wert hat sich geändert",
+          "fr": "La valeur PM0.1 a changé",
+          "it": "Il valore di PM0.1 è cambiato",
+          "sv": "PM0.1-värdet har ändrats",
+          "no": "PM0.1-verdien er endret",
+          "es": "El valor de PM0,1 ha cambiado",
+          "da": "PM0.1-værdien har ændret sig",
+          "ru": "Значение ТЧ 0.1 изменилось",
+          "pl": "Zmiana poziomu stężenia PM0.1",
+          "ko": "PM0.1 값 변경됨"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  }
+}
