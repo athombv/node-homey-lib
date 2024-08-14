@@ -1399,6 +1399,12 @@
                   true
                 ]
               },
+              "cumulativeImportedCapability": {
+                "type": "string"
+              },
+              "cumulativeExportedCapability": {
+                "type": "string"
+              },
               "batteries": {
                 "type": "array",
                 "minItems": 1,
