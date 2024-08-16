@@ -21,7 +21,7 @@
   "units": {
     "en": "%",
     "ko": "%",
-    "no": " %"
+    "no": "%"
   },
   "getable": true,
   "setable": true,
