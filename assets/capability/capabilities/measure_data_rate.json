@@ -1,0 +1,37 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Data Rate",
+    "nl": "Gegevenssnelheid"
+  },
+  "units": {
+    "en": "b/s"
+  },
+  "desc": {
+    "en": "The data rate in bits per second."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 0,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_data_rate_changed",
+        "title": {
+          "en": "The data rate changed"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 200
+          }
+        ]
+      }
+    ]
+  }
+}

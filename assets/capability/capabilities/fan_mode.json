@@ -1,0 +1,77 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Fan Mode",
+    "nl": "Ventilatorstand"
+  },
+  "values": [
+    {
+      "key": "auto",
+      "title": {
+        "en": "Auto"
+      }
+    },
+    {
+      "key": "on",
+      "title": {
+        "en": "On"
+      }
+    },
+    {
+      "key": "off",
+      "title": {
+        "en": "Off"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "fan_mode_changed",
+        "title": {
+          "en": "Fan mode has changed"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "fan_mode_is",
+        "title": {
+          "en": "Fan mode !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "fan_mode_set",
+        "title": {
+          "en": "Set fan mode to"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

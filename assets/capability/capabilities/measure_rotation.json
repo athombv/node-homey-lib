@@ -1,0 +1,37 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Rotation",
+    "nl": "Rotatie"
+  },
+  "units": {
+    "en": "°"
+  },
+  "desc": {
+    "en": "The rotation in degrees."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 0,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_rotation_changed",
+        "title": {
+          "en": "The rotation changed"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 200
+          }
+        ]
+      }
+    ]
+  }
+}

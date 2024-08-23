@@ -1,0 +1,50 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Target Humidity",
+    "nl": "Doelvochtigheid"
+  },
+  "units": {
+    "en": "%"
+  },
+  "desc": {
+    "en": "The target humidity level in percent."
+  },
+  "getable": true,
+  "setable": true,
+  "uiComponent": "slider",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "target_humidity_changed",
+        "title": {
+          "en": "The target humidity changed"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 50
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "target_humidity_set",
+        "title": {
+          "en": "Set the humidity"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 50
+          }
+        ]
+      }
+    ]
+  }
+}

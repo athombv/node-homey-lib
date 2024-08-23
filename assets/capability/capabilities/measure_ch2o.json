@@ -1,0 +1,37 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Formaldehyde",
+    "nl": "Formaldehyde"
+  },
+  "units": {
+    "en": "μg/m³"
+  },
+  "insights": true,
+  "desc": {
+    "en": "Formaldehyde in micrograms per cubic meter (μg/m³)"
+  },
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_ch2o_changed",
+        "title": {
+          "en": "The Formaldehyde level changed"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Safety Alarm",
+    "nl": "Veiligheidsalarm"
+  },
+  "desc": {
+    "en": "True when safe."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Safety Alarm turned on"
+  },
+  "insightsTitleFalse": {
+    "en": "Safety Alarm turned off"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_safety_true",
+        "highlight": true,
+        "title": {
+          "en": "The safety alarm turned on"
+        }
+      },
+      {
+        "id": "alarm_safety_false",
+        "title": {
+          "en": "The safety alarm turned off"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_safety",
+        "title": {
+          "en": "The safety alarm is !{{on|off}}"
+        }
+      }
+    ]
+  }
+}

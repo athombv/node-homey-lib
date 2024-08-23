@@ -1,0 +1,93 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Pump mode",
+    "nl": "Pompmodus"
+  },
+  "desc": {
+    "en": "Used to set which setpoint regulates the pump."
+  },
+  "values": [
+    {
+      "id": "constant_pressure",
+      "title": {
+        "en": "Constant Pressure"
+      }
+    },
+    {
+      "id": "compensated_pressure",
+      "title": {
+        "en": "Compensated Pressure"
+      }
+    },
+    {
+      "id": "constant_flow",
+      "title": {
+        "en": "Constant Flow"
+      }
+    },
+    {
+      "id": "constant_speed",
+      "title": {
+        "en": "Constant Speed"
+      }
+    },
+    {
+      "id": "constant_temperature",
+      "title": {
+        "en": "Constant Temperature"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "pump_mode_changed",
+        "highlight": true,
+        "title": {
+          "en": "The pump mode changed to"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "pump_mode",
+        "title": {
+          "en": "The pump mode !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_pump_mode",
+        "title": {
+          "en": "Set the pump mode"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

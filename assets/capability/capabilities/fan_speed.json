@@ -1,0 +1,37 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Fan Speed",
+    "nl": "Ventilatorsnelheid"
+  },
+  "units": {
+    "en": "%"
+  },
+  "desc": {
+    "en": "The fan speed in percentage."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 0,
+  "getable": true,
+  "setable": true,
+  "uiComponent": "slider",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "fan_speed_changed",
+        "title": {
+          "en": "The fan speed changed"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 50
+          }
+        ]
+      }
+    ]
+  }
+}

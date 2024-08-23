@@ -1,0 +1,45 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Plugged in Alarm",
+    "nl": "Aangesloten-alarm"
+  },
+  "desc": {
+    "en": "True when plugged in."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Plugged in Alarm turned on"
+  },
+  "insightsTitleFalse": {
+    "en": "Plugged in Alarm turned off"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_plug_true",
+        "highlight": true,
+        "title": {
+          "en": "The plugged in alarm turned on"
+        }
+      },
+      {
+        "id": "alarm_plug_false",
+        "title": {
+          "en": "The plugged in alarm turned off"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_plug",
+        "title": {
+          "en": "The plugged in alarm is !{{on|off}}"
+        }
+      }
+    ]
+  }
+}

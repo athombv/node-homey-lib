@@ -1,0 +1,38 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Vacuum cleaner lost",
+    "nl": "Stofzuiger verloren"
+  },
+  "desc": {
+    "en": "True when vacuum cleaner cannot find its dock."
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_vacuumcleaner_lost_true",
+        "highlight": true,
+        "title": {
+          "en": "Vacuum cleaner lost"
+        }
+      },
+      {
+        "id": "alarm_vacuumcleaner_lost_false",
+        "title": {
+          "en": "Vacuum cleaner found"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_vacuumcleaner_lost",
+        "title": {
+          "en": "The vacuum cleaner is !{{lost|found}}"
+        }
+      }
+    ]
+  }
+}

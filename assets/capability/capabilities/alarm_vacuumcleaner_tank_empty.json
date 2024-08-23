@@ -1,0 +1,38 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Vacuum cleaner water tank empty",
+    "nl": "Stofzuigerwaterreservoir leeg"
+  },
+  "desc": {
+    "en": "True when the vacuum cleaner's water tank is empty."
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_vacuumcleaner_tank_empty_true",
+        "highlight": true,
+        "title": {
+          "en": "Vacuum cleaner water tank empty"
+        }
+      },
+      {
+        "id": "alarm_vacuumcleaner_tank_empty_false",
+        "title": {
+          "en": "Vacuum cleaner water tank not empty"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_vacuumcleaner_tank_empty",
+        "title": {
+          "en": "The vacuum cleaner's water tank is !{{empty|not empty}}"
+        }
+      }
+    ]
+  }
+}

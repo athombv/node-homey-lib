@@ -1,0 +1,81 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Laundry washer speed",
+    "nl": "Wasmachinesnelheid"
+  },
+  "desc": {
+    "en": "The spin speed of the laundry washer."
+  },
+  "values": [
+    {
+      "id": "low",
+      "title": {
+        "en": "Low"
+      }
+    },
+    {
+      "id": "medium",
+      "title": {
+        "en": "Medium"
+      }
+    },
+    {
+      "id": "high",
+      "title": {
+        "en": "High"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "laundry_washer_speed_changed",
+        "highlight": true,
+        "title": {
+          "en": "The laundry washer speed changed to"
+        },
+        "args": [
+          {
+            "name": "speed",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "laundry_washer_speed_is",
+        "title": {
+          "en": "The laundry washer speed !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "speed",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "laundry_washer_speed_set",
+        "title": {
+          "en": "Set the laundry washer speed to"
+        },
+        "args": [
+          {
+            "name": "speed",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

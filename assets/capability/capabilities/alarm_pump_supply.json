@@ -1,0 +1,45 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Pump supply fault alarm",
+    "nl": "Pompaanvoerfoutalarm"
+  },
+  "desc": {
+    "en": "True when a fault is detected in the pump supply."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Pump supply fault alarm turned on"
+  },
+  "insightsTitleFalse": {
+    "en": "Pump supply fault alarm turned off"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_pump_supply_true",
+        "highlight": true,
+        "title": {
+          "en": "The pump supply fault alarm turned on"
+        }
+      },
+      {
+        "id": "alarm_pump_supply_false",
+        "title": {
+          "en": "The pump supply fault alarm turned off"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_pump_supply",
+        "title": {
+          "en": "The pump supply fault alarm is !{{on|off}}"
+        }
+      }
+    ]
+  }
+}

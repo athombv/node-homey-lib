@@ -1,0 +1,71 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Hot water mode",
+    "nl": "Warmwatermodus"
+  },
+  "values": [
+    {
+      "key": "on",
+      "title": {
+        "en": "On"
+      }
+    },
+    {
+      "key": "off",
+      "title": {
+        "en": "Off"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "hot_water_mode_changed",
+        "title": {
+          "en": "Hot water mode has changed"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "hot_water_mode_is",
+        "title": {
+          "en": "Hot water mode !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "hot_water_mode_set",
+        "title": {
+          "en": "Set hot water mode to"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

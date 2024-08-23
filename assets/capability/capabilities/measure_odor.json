@@ -1,0 +1,37 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Odor",
+    "nl": "Geur"
+  },
+  "units": {
+    "en": "OU"
+  },
+  "desc": {
+    "en": "Odor concentration in odor units."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 0,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_odor_changed",
+        "title": {
+          "en": "The odor concentration changed"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 200
+          }
+        ]
+      }
+    ]
+  }
+}

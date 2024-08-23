@@ -1,0 +1,51 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Occupancy Alarm",
+    "nl": "Bezettingsalarm"
+  },
+  "desc": {
+    "en": "True when occupancy is detected.",
+    "nl": "Waar wanneer bezetting wordt gedetecteerd."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Occupancy Alarm turned on",
+    "nl": "Bezettingsalarm ingeschakeld"
+  },
+  "insightsTitleFalse": {
+    "en": "Occupancy Alarm turned off",
+    "nl": "Bezettingsalarm uitgeschakeld"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_occupancy_true",
+        "highlight": true,
+        "title": {
+          "en": "The occupancy alarm turned on",
+          "nl": "Het bezettingsalarm gaat aan"
+        }
+      },
+      {
+        "id": "alarm_occupancy_false",
+        "title": {
+          "en": "The occupancy alarm turned off",
+          "nl": "Het bezettingsalarm gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_occupancy",
+        "title": {
+          "en": "The occupancy alarm is !{{on|off}}",
+          "nl": "Het bezettingsalarm is !{{aan|uit}}"
+        }
+      }
+    ]
+  }
+}

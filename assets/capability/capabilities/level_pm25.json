@@ -1,0 +1,72 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "PM2.5 Level",
+    "nl": "PM2,5-niveau"
+  },
+  "desc": {
+    "en": "The level of PM2.5 particles in the air."
+  },
+  "values": [
+    {
+      "id": "low",
+      "title": {
+        "en": "Low"
+      }
+    },
+    {
+      "id": "medium",
+      "title": {
+        "en": "Medium"
+      }
+    },
+    {
+      "id": "high",
+      "title": {
+        "en": "High"
+      }
+    },
+    {
+      "id": "critical",
+      "title": {
+        "en": "Critical"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "level_pm25_changed",
+        "highlight": true,
+        "title": {
+          "en": "The PM2.5 level changed to"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "level_pm25_is",
+        "title": {
+          "en": "The PM2.5 level !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

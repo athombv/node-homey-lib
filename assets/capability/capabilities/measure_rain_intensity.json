@@ -1,0 +1,37 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Rain Intensity",
+    "nl": "Regenintensiteit"
+  },
+  "units": {
+    "en": "mm/h"
+  },
+  "desc": {
+    "en": "The rain intensity in millimeters per hour."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_rain_intensity_changed",
+        "title": {
+          "en": "The rain intensity changed"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  }
+}

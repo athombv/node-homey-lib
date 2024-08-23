@@ -1,0 +1,45 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Battery Charging",
+    "nl": "Batterij aan het opladen"
+  },
+  "desc": {
+    "en": "Indicates whether the battery is currently charging."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Battery Charging"
+  },
+  "insightsTitleFalse": {
+    "en": "Battery Not Charging"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_battery_charging_true",
+        "highlight": true,
+        "title": {
+          "en": "Started charging"
+        }
+      },
+      {
+        "id": "alarm_battery_charging_false",
+        "title": {
+          "en": "Stopped charging"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_battery_charging",
+        "title": {
+          "en": "!{{is|is not}} charging"
+        }
+      }
+    ]
+  }
+}

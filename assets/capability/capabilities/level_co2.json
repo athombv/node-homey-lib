@@ -1,0 +1,72 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "CO2 Level",
+    "nl": "CO2-niveau"
+  },
+  "desc": {
+    "en": "The level of CO2 in the air."
+  },
+  "values": [
+    {
+      "id": "low",
+      "title": {
+        "en": "Low"
+      }
+    },
+    {
+      "id": "medium",
+      "title": {
+        "en": "Medium"
+      }
+    },
+    {
+      "id": "high",
+      "title": {
+        "en": "High"
+      }
+    },
+    {
+      "id": "critical",
+      "title": {
+        "en": "Critical"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "level_co2_changed",
+        "highlight": true,
+        "title": {
+          "en": "The CO2 level changed to"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "level_co2_is",
+        "title": {
+          "en": "The CO2 level !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

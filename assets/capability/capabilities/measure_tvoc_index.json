@@ -1,0 +1,33 @@
+{
+  "type": "number",
+  "title": {
+    "en": "TVOC index",
+    "nl": "TVOC-index"
+  },
+  "insights": true,
+  "desc": {
+    "en": "Total volatile organic compounds index"
+  },
+  "chartType": "spline",
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_tvoc_index_changed",
+        "title": {
+          "en": "The TVOC index value has changed"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  }
+}

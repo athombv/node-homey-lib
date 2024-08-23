@@ -1,0 +1,37 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Moisture",
+    "nl": "Vochtigheid"
+  },
+  "units": {
+    "en": "%"
+  },
+  "desc": {
+    "en": "The moisture level in percentage."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_moisture_changed",
+        "title": {
+          "en": "The moisture level changed"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  }
+}

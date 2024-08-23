@@ -1,0 +1,81 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Target temperature level",
+    "nl": "Doeltemperatuurniveau"
+  },
+  "desc": {
+    "en": "The target temperature level of the appliance."
+  },
+  "values": [
+    {
+      "id": "low",
+      "title": {
+        "en": "Low"
+      }
+    },
+    {
+      "id": "medium",
+      "title": {
+        "en": "Medium"
+      }
+    },
+    {
+      "id": "high",
+      "title": {
+        "en": "High"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "target_temperature_level_changed",
+        "highlight": true,
+        "title": {
+          "en": "The target temperature level changed to"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "target_temperature_level_is",
+        "title": {
+          "en": "The target temperature level !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "target_temperature_level_set",
+        "title": {
+          "en": "Set the target temperature level to"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

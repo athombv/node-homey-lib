@@ -1,0 +1,101 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Heater Operation Mode",
+    "nl": "Verwarmingsmodus"
+  },
+  "values": [
+    {
+      "id": "eco",
+      "title": {
+        "en": "Eco"
+      }
+    },
+    {
+      "id": "electric",
+      "title": {
+        "en": "Electric"
+      }
+    },
+    {
+      "id": "performance",
+      "title": {
+        "en": "Performance"
+      }
+    },
+    {
+      "id": "high_demand",
+      "title": {
+        "en": "High Demand"
+      }
+    },
+    {
+      "id": "heat_pump",
+      "title": {
+        "en": "Heat Pump"
+      }
+    },
+    {
+      "id": "gas",
+      "title": {
+        "en": "Gas"
+      }
+    },
+    {
+      "id": "off",
+      "title": {
+        "en": "Off"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "heater_operation_mode_changed",
+        "title": {
+          "en": "Heater operation mode has changed"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "heater_operation_mode_is",
+        "title": {
+          "en": "Heater operation mode !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "heater_operation_mode_set",
+        "title": {
+          "en": "Set heater operation mode to"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

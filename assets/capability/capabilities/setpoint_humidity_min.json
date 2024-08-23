@@ -1,0 +1,54 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Humidity setpoint min"
+  },
+  "units": {
+    "en": "%"
+  },
+  "desc": {
+    "en": "The low end of the target humidity level in percent."
+  },
+  "insights": true,
+  "chartType": "stepLine",
+  "decimals": 0,
+  "min": 0,
+  "max": 100,
+  "getable": true,
+  "setable": true,
+  "uiComponent": "slider",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "setpoint_humidity_min_changed",
+        "title": {
+          "en": "The setpoint humidity min changed"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 50
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "setpoint_humidity_min_set",
+        "title": {
+          "en": "Set the humidity min"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 50
+          }
+        ]
+      }
+    ]
+  }
+}

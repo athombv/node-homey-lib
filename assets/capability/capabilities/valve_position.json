@@ -1,0 +1,53 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Valve position",
+    "nl": "Klepstand"
+  },
+  "units": {
+    "en": "%"
+  },
+  "desc": {
+    "en": "The current position of the valve in percent."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": true,
+  "uiComponent": "slider",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "valve_position_changed",
+        "title": {
+          "en": "The valve position changed"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 50
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "valve_position_set",
+        "title": {
+          "en": "Set the valve position"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 50
+          }
+        ]
+      }
+    ]
+  }
+}

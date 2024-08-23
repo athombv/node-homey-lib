@@ -1,0 +1,45 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Connectivity Alarm",
+    "nl": "Verbindingsalarm"
+  },
+  "desc": {
+    "en": "True when disconnected from the network."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Connectivity Alarm turned on"
+  },
+  "insightsTitleFalse": {
+    "en": "Connectivity Alarm turned off"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_connectivity_true",
+        "highlight": true,
+        "title": {
+          "en": "Has lost connection"
+        }
+      },
+      {
+        "id": "alarm_connectivity_false",
+        "title": {
+          "en": "Has established connection"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_connectivity",
+        "title": {
+          "en": "The connection is !{{lost|established}}"
+        }
+      }
+    ]
+  }
+}

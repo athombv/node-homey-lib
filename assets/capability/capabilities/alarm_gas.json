@@ -1,0 +1,45 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Gas alarm",
+    "nl": "Gasalarm"
+  },
+  "description": {
+    "en": "True when gas is detected"
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Gas alarm turned on"
+  },
+  "insightsTitleFalse": {
+    "en": "Gas alarm turned off"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_gas_true",
+        "highlight": true,
+        "title": {
+          "en": "The gas alarm turned on"
+        }
+      },
+      {
+        "id": "alarm_gas_false",
+        "title": {
+          "en": "The gas alarm turned off"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_gas",
+        "title": {
+          "en": "The gas alarm is !{{on|off}}"
+        }
+      }
+    ]
+  }
+}

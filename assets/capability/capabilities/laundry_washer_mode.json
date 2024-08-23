@@ -1,0 +1,78 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Laundry washer program",
+    "nl": "Wasprogramma"
+  },
+  "desc": {
+    "en": "The current program of the laundry washer."
+  },
+  "values": [
+    {
+      "id": "normal",
+      "title": {
+        "en": "Normal"
+      }
+    },
+    {
+      "id": "auto",
+      "title": {
+        "en": "Auto"
+      }
+    },
+    {
+      "id": "quick",
+      "title": {
+        "en": "Quick"
+      }
+    },
+    {
+      "id": "heavy",
+      "title": {
+        "en": "Heavy"
+      }
+    },
+    {
+      "id": "whites",
+      "title": {
+        "en": "Whites"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "laundry_washer_program_changed",
+        "highlight": true,
+        "title": {
+          "en": "The laundry washer program changed to"
+        },
+        "args": [
+          {
+            "name": "program",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "laundry_washer_program_is",
+        "title": {
+          "en": "The laundry washer program !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "program",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

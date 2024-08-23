@@ -1,0 +1,45 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Problem Alarm",
+    "nl": "Probleemalarm"
+  },
+  "desc": {
+    "en": "True when a problem is detected."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Problem Alarm turned on"
+  },
+  "insightsTitleFalse": {
+    "en": "Problem Alarm turned off"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_problem_true",
+        "highlight": true,
+        "title": {
+          "en": "The problem alarm turned on"
+        }
+      },
+      {
+        "id": "alarm_problem_false",
+        "title": {
+          "en": "The problem alarm turned off"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_problem",
+        "title": {
+          "en": "The problem alarm is !{{on|off}}"
+        }
+      }
+    ]
+  }
+}

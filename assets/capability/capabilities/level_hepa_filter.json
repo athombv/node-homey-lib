@@ -1,0 +1,66 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "HEPA filter level",
+    "nl": "HEPA-filterniveau"
+  },
+  "desc": {
+    "en": "The level of degredation on the HEPA filter."
+  },
+  "values": [
+    {
+      "id": "ok",
+      "title": {
+        "en": "OK"
+      }
+    },
+    { 
+      "id": "warning",
+      "title": {
+        "en": "Warning"
+      }
+    },
+    {
+      "id": "critical",
+      "title": {
+        "en": "Critical"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "level_hepa_filter_changed",
+        "highlight": true,
+        "title": {
+          "en": "The HEPA filter level changed to"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "level_hepa_filter_is",
+        "title": {
+          "en": "The HEPA filter level !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

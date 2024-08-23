@@ -1,0 +1,45 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Running Alarm",
+    "nl": "Werkzaamheidsalarm"
+  },
+  "desc": {
+    "en": "True when running."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Running"
+  },
+  "insightsTitleFalse": {
+    "en": "Not running"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_running_true",
+        "highlight": true,
+        "title": {
+          "en": "Running"
+        }
+      },
+      {
+        "id": "alarm_running_false",
+        "title": {
+          "en": "Not running"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_running",
+        "title": {
+          "en": "!{{Running|Not running}}"
+        }
+      }
+    ]
+  }
+}

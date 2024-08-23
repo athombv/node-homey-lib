@@ -2,7 +2,7 @@
   "type": "enum",
   "title": {
     "en": "Lock mode",
-    "nl": "Slot modus",
+    "nl": "Vergrendelmodus",
     "de": "Schloss-Modus",
     "fr": "Mode verrou",
     "it": "Modalità serratura",

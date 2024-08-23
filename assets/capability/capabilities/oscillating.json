@@ -1,0 +1,65 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Oscillating",
+    "nl": "Oscilleren"
+  },
+  "desc": {
+    "en": "Enable or disable oscillation."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Oscillation enabled"
+  },
+  "insightsTitleFalse": {
+    "en": "Oscillation disabled"
+  },
+  "getable": true,
+  "setable": true,
+  "uiComponent": "toggle",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "oscillating_true",
+        "highlight": true,
+        "title": {
+          "en": "Oscillation enabled"
+        }
+      },
+      {
+        "id": "oscillating_false",
+        "title": {
+          "en": "Oscillation disabled"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "oscillating",
+        "title": {
+          "en": "Oscillation is !{{enabled|disabled}}"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "enable_oscillating",
+        "title": {
+          "en": "Enable Oscillation"
+        }
+      },
+      {
+        "id": "disable_oscillating",
+        "title": {
+          "en": "Disable Oscillation"
+        }
+      },
+      {
+        "id": "toggle_oscillating",
+        "title": {
+          "en": "Toggle Oscillation"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Air Quality Index",
+    "nl": "Luchtkwaliteitsindex"
+  },
+  "insights": true,
+  "desc": {
+    "en": "Air Quality Index"
+  },
+  "chartType": "spline",
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "min": 0,
+  "max": 500,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_aqi_changed",
+        "title": {
+          "en": "The Air Quality Index changed"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  }
+}

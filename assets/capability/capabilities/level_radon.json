@@ -1,0 +1,72 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Radon Level",
+    "nl": "Radonniveau"
+  },
+  "desc": {
+    "en": "The level of radioactive radon gas in the air."
+  },
+  "values": [
+    {
+      "id": "low",
+      "title": {
+        "en": "Low"
+      }
+    },
+    {
+      "id": "medium",
+      "title": {
+        "en": "Medium"
+      }
+    },
+    {
+      "id": "high",
+      "title": {
+        "en": "High"
+      }
+    },
+    {
+      "id": "critical",
+      "title": {
+        "en": "Critical"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "level_radon_changed",
+        "highlight": true,
+        "title": {
+          "en": "The radon level changed to"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "level_radon_is",
+        "title": {
+          "en": "The radon level !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

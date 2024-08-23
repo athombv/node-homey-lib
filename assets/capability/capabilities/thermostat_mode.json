@@ -2,7 +2,7 @@
   "type": "enum",
   "title": {
     "en": "Thermostat mode",
-    "nl": "Thermostaat modus",
+    "nl": "Thermostaatmodus",
     "de": "Thermostat-Modus",
     "fr": "Mode thermostat",
     "it": "Modalità termostato",

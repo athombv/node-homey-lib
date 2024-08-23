@@ -1,0 +1,21 @@
+{
+  "title": {
+    "en": "Stop",
+    "nl": "Stop"
+  },
+  "type" :"boolean",
+  "getable": false,
+  "setable": true,
+  "uiComponent": "media",
+  "$flow": {
+    "actions": [
+      {
+        "id": "stop",
+        "title": {
+          "en": "Stop",
+          "nl": "Stop"
+        }
+      }
+    ]
+  }
+}

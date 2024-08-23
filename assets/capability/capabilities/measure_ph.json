@@ -1,0 +1,34 @@
+{
+  "type": "number",
+  "title": {
+    "en": "pH level",
+    "nl": "pH-waarde"
+  },
+  "desc": {
+    "en": "The pH level of a aqueous solution."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_ph_changed",
+        "title": {
+          "en": "The pH level changed"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  }
+}

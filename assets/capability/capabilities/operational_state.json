@@ -1,0 +1,72 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Operational state",
+    "nl": "Operationele staat"
+  },
+  "desc": {
+    "en": "The operational state of the appliance."
+  },
+  "values": [
+    {
+      "id": "stopped",
+      "title": {
+        "en": "Stopped"
+      }
+    },
+    {
+      "id": "running",
+      "title": {
+        "en": "Running"
+      }
+    },
+    {
+      "id": "paused",
+      "title": {
+        "en": "Paused"
+      }
+    },
+    {
+      "id": "error",
+      "title": {
+        "en": "Error"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "operational_state_changed",
+        "highlight": true,
+        "title": {
+          "en": "The operational state changed to"
+        },
+        "args": [
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "operational_state_is",
+        "title": {
+          "en": "The operational state !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

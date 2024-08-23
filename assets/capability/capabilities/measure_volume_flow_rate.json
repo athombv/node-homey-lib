@@ -1,0 +1,37 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Flow rate",
+    "nl": "Doorstroomsnelheid"
+  },
+  "units": {
+    "en": "m³/h"
+  },
+  "desc": {
+    "en": "The volume flow rate in cubic meters per hour."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_volume_flow_rate_changed",
+        "title": {
+          "en": "The volume flow rate changed"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  }
+}

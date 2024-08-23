@@ -1,0 +1,99 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Audio Output",
+    "nl": "Audio-uitgang"
+  },
+  "desc": {
+    "en": "The audio output channel for a media player."
+  },
+  "values": [
+    {
+      "id": "hdmi_1",
+      "title": {
+        "en": "HDMI 1"
+      }
+    },
+    {
+      "id": "hdmi_2",
+      "title": {
+        "en": "HDMI 2"
+      }
+    },
+    {
+      "id": "hdmi_3",
+      "title": {
+        "en": "HDMI 3"
+      }
+    },
+    {
+      "id": "line_out",
+      "title": {
+        "en": "Line Out"
+      }
+    },
+    {
+      "id": "optical",
+      "title": {
+        "en": "Optical"
+      }
+    },
+    {
+      "id": "usb",
+      "title": {
+        "en": "USB"
+      }
+    }
+  ], 
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "audio_output_changed",
+        "highlight": true,
+        "title": {
+          "en": "The audio output changed to"
+        },
+        "args": [
+          {
+            "name": "output",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "audio_output_is",
+        "title": {
+          "en": "The audio output !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "output",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "audio_output_set",
+        "title": {
+          "en": "Set audio output to"
+        },
+        "args": [
+          {
+            "name": "output",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

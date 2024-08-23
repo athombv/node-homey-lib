@@ -1,0 +1,81 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Refrigerator Mode",
+    "nl": "Koelkastmodus"
+  },
+  "desc": {
+    "en": "The mode of the refrigerator."
+  },
+  "values": [
+    {
+      "id": "normal",
+      "title": {
+        "en": "Normal"
+      }
+    },
+    {
+      "id": "rapid_cooling",
+      "title": {
+        "en": "Rapid Cooling"
+      }
+    },
+    {
+      "id": "rapid_freezing",
+      "title": {
+        "en": "Rapid Freezing"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "refrigerator_mode_changed",
+        "highlight": true,
+        "title": {
+          "en": "The refrigerator mode changed to"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "refrigerator_mode",
+        "title": {
+          "en": "The refrigerator mode !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_refrigerator_mode",
+        "title": {
+          "en": "Set the refrigerator mode to"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

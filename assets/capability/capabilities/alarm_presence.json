@@ -1,0 +1,45 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Presence Alarm",
+    "nl": "Aanwezigheidsalarm"
+  },
+  "desc": {
+    "en": "True means presence has been detected."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Presence Alarm turned on"
+  },
+  "insightsTitleFalse": {
+    "en": "Presence Alarm turned off"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_presence_true",
+        "highlight": true,
+        "title": {
+          "en": "The presence alarm turned on"
+        }
+      },
+      {
+        "id": "alarm_presence_false",
+        "title": {
+          "en": "The presence alarm turned off"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_presence",
+        "title": {
+          "en": "The presence alarm is !{{on|off}}"
+        }
+      }
+    ]
+  }
+}

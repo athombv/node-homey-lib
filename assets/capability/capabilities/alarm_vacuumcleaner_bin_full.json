@@ -1,0 +1,38 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Vacuum cleaner dust bin full",
+    "nl": "Stofzuigerbak vol"
+  },
+  "desc": {
+    "en": "True when the vacuum cleaner's dust bin is full."
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_vacuumcleaner_bin_full_true",
+        "highlight": true,
+        "title": {
+          "en": "Vacuum cleaner dust bin full"
+        }
+      },
+      {
+        "id": "alarm_vacuumcleaner_bin_full_false",
+        "title": {
+          "en": "Vacuum cleaner dust bin not full"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_vacuumcleaner_bin_full",
+        "title": {
+          "en": "The vacuum cleaner's dust bin is !{{full|not full}}"
+        }
+      }
+    ]
+  }
+}

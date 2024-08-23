@@ -2,7 +2,7 @@
   "type": "boolean",
   "title": {
     "en": "PM2.5 alarm",
-    "nl": "PM2.5 alarm",
+    "nl": "PM2,5-alarm",
     "de": "PM2.5-Alarm",
     "fr": "Alarme PM2.5",
     "it": "Allarme PM2.5",

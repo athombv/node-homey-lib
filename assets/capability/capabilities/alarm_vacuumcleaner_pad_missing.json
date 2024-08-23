@@ -1,0 +1,38 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Vacuum cleaner cleaning pad missing",
+    "nl": "Stofzuigerreinigingspad ontbreekt"
+  },
+  "desc": {
+    "en": "True when the vacuum cleaner's cleaning pad is missing."
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_vacuumcleaner_pad_missing_true",
+        "highlight": true,
+        "title": {
+          "en": "Vacuum cleaner cleaning pad missing"
+        }
+      },
+      {
+        "id": "alarm_vacuumcleaner_pad_missing_false",
+        "title": {
+          "en": "Vacuum cleaner cleaning pad found"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_vacuumcleaner_pad_missing",
+        "title": {
+          "en": "The vacuum cleaner's cleaning pad is !{{missing|found}}"
+        }
+      }
+    ]
+  }
+}

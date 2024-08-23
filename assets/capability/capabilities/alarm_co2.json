@@ -2,7 +2,7 @@
   "type": "boolean",
   "title": {
     "en": "CO2 alarm",
-    "nl": "CO2 alarm",
+    "nl": "CO2-alarm",
     "de": "CO2-Alarm",
     "fr": "Alarme CO2",
     "it": "Allarme CO2",
@@ -15,7 +15,7 @@
   },
   "desc": {
     "en": "True when dangerous CO2 values have been detected",
-    "nl": "Gaat af bij gevaarlijke concentraties CO2 alarm",
+    "nl": "Gaat af bij gevaarlijke concentraties CO2",
     "de": "True, wenn gefährliche CO2-Werte erkannt wurden",
     "fr": "Vrai si des valeurs dangereuses de CO2 ont été détectées",
     "it": "Vero quando sono stati rilevati valori pericolosi di CO2",

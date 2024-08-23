@@ -1,0 +1,77 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Swing mode",
+    "nl": "Zwenkmodus"
+  },
+  "values": [
+    {
+      "key": "vertical",
+      "title": {
+        "en": "Vertical"
+      }
+    },
+    {
+      "key": "horizontal",
+      "title": {
+        "en": "Horizontal"
+      }
+    },
+    {
+      "key": "both",
+      "title": {
+        "en": "Both"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "swing_mode_changed",
+        "title": {
+          "en": "Swing mode has changed"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "swing_mode_is",
+        "title": {
+          "en": "Swing mode !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_swing_mode",
+        "title": {
+          "en": "Set swing mode to"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Dishwasher program",
+    "nl": "Vaatwasprogramma"
+  },
+  "desc": {
+    "en": "The current program of the dishwasher."
+  },
+  "values": [
+    {
+      "id": "normal",
+      "title": {
+        "en": "Normal"
+      }
+    },
+    {
+      "id": "heavy",
+      "title": {
+        "en": "Heavy"
+      }
+    },
+    {
+      "id": "light",
+      "title": {
+        "en": "Light"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "dishwasher_program_changed",
+        "highlight": true,
+        "title": {
+          "en": "The dishwasher program changed to"
+        },
+        "args": [
+          {
+            "name": "program",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

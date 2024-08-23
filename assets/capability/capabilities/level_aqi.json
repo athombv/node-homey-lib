@@ -1,0 +1,72 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Air quality level",
+    "nl": "Luchtkwaliteitsniveau"
+  },
+  "desc": {
+    "en": "The air quality index represented as a level."
+  },
+  "values": [
+    {
+      "id": "good",
+      "title": {
+        "en": "Good"
+      }
+    },
+    {
+      "id": "poor",
+      "title": {
+        "en": "Poor"
+      }
+    },
+    {
+      "id": "very_poor",
+      "title": {
+        "en": "Very Poor"
+      }
+    },
+    {
+      "id": "extremely_poor",
+      "title": {
+        "en": "Extremely Poor"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "level_aqi_changed",
+        "highlight": true,
+        "title": {
+          "en": "The air quality level changed to"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "level_aqi_is",
+        "title": {
+          "en": "The air quality !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

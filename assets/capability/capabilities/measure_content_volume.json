@@ -1,0 +1,37 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Volume",
+    "nl": "Volume"
+  },
+  "units": {
+    "en": "L"
+  },
+  "desc": {
+    "en": "The volume of the content in liters."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_content_volume_changed",
+        "title": {
+          "en": "The content volume changed"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Humidity setpoint max"
+  },
+  "units": {
+    "en": "%"
+  },
+  "desc": {
+    "en": "The high end of the target humidity level in percent."
+  },
+  "insights": true,
+  "chartType": "stepLine",
+  "decimals": 0,
+  "min": 0,
+  "max": 100,
+  "getable": true,
+  "setable": true,
+  "uiComponent": "slider",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "setpoint_humidity_max_changed",
+        "title": {
+          "en": "The setpoint humidity max changed"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 50
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "setpoint_humidity_max_set",
+        "title": {
+          "en": "Set the humidity max"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 50
+          }
+        ]
+      }
+    ]
+  }
+}

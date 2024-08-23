@@ -1,0 +1,95 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Vacuum cleaner job mode",
+    "nl": "Stofzuigermodus"
+  },
+  "values": [
+    {
+      "id": "off",
+      "title": {
+        "en": "Off"
+      }
+    },
+    {
+      "id": "normal",
+      "title": {
+        "en": "Normal"
+      }
+    },
+    {
+      "id": "hight",
+      "title": {
+        "en": "High"
+      }
+    },
+    {
+      "id": "turbo",
+      "title": {
+        "en": "Turbo"
+      }
+    },
+    {
+      "id": "mop",
+      "title": {
+        "en": "Mop"
+      }
+    },
+    {
+      "id": "auto",
+      "title": {
+        "en": "Auto"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "vacuumcleaner_job_mode_changed",
+        "title": {
+          "en": "Vacuum cleaner job mode has changed"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "vacuumcleaner_job_mode_is",
+        "title": {
+          "en": "Vacuum cleaner job mode !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "vacuumcleaner_job_mode_set",
+        "title": {
+          "en": "Set vacuum cleaner job mode to"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Vacuum cleaner water tank open",
+    "nl": "Stofzuigerwaterreservoir open"
+  },
+  "desc": {
+    "en": "True when the vacuum cleaner's water tank is open."
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_vacuumcleaner_tank_open_true",
+        "highlight": true,
+        "title": {
+          "en": "Vacuum cleaner water tank open"
+        }
+      },
+      {
+        "id": "alarm_vacuumcleaner_tank_open_false",
+        "title": {
+          "en": "Vacuum cleaner water tank closed"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_vacuumcleaner_tank_open",
+        "title": {
+          "en": "The vacuum cleaner's water tank is !{{open|closed}}"
+        }
+      }
+    ]
+  }
+}

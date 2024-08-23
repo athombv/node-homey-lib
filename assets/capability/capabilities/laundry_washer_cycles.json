@@ -1,0 +1,87 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Laundry washer cycles",
+    "nl": "Wasmachinecycli"
+  },
+  "desc": {
+    "en": "The amount of cycles the laundry washer should perform."
+  },
+  "values": [
+    {
+      "id": "none",
+      "title": {
+        "en": "None"
+      }
+    },
+    {
+      "id": "normal",
+      "title": {
+        "en": "Normal"
+      }
+    },
+    {
+      "id": "extra",
+      "title": {
+        "en": "Extra"
+      }
+    },
+    {
+      "id": "max",
+      "title": {
+        "en": "Max"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "laundry_washer_cycles_changed",
+        "highlight": true,
+        "title": {
+          "en": "The laundry washer cycles changed to"
+        },
+        "args": [
+          {
+            "name": "cycles",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "laundry_washer_cycles_is",
+        "title": {
+          "en": "The laundry washer cycles !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "cycles",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "laundry_washer_cycles_set",
+        "title": {
+          "en": "Set the laundry washer cycles to"
+        },
+        "args": [
+          {
+            "name": "cycles",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Power Alarm",
+    "nl": "Stroomalarm"
+  },
+  "desc": {
+    "en": "True when power is detected."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Power Alarm turned on"
+  },
+  "insightsTitleFalse": {
+    "en": "Power Alarm turned off"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_power_true",
+        "highlight": true,
+        "title": {
+          "en": "The power alarm turned on"
+        }
+      },
+      {
+        "id": "alarm_power_false",
+        "title": {
+          "en": "The power alarm turned off"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_power",
+        "title": {
+          "en": "The power alarm is !{{on|off}}"
+        }
+      }
+    ]
+  }
+}

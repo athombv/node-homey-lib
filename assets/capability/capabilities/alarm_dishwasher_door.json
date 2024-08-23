@@ -1,0 +1,38 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Dishwasher door alarm",
+    "nl": "Vaatwasserdeuralarm"
+  },
+  "desc": {
+    "en": "True when there is an issue with the dishwasher door or door lock."
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_dishwasher_door_true",
+        "highlight": true,
+        "title": {
+          "en": "The dishwasher door alarm turned on"
+        }
+      },
+      {
+        "id": "alarm_dishwasher_door_false",
+        "title": {
+          "en": "The dishwasher door alarm turned off"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_dishwasher_door",
+        "title": {
+          "en": "The dishwasher door alarm is !{{on|off}}"
+        }
+      }
+    ]
+  }
+}
