@@ -1,0 +1,43 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Vibration alarm"
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Vibration alarm turned on"
+  },
+  "insightsTitleFalse": {
+    "en": "Vibration alarm turned off"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "options": {
+    "zoneActivity": true
+  },
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_vibration_true",
+        "title": {
+          "en": "The vibration alarm turned on"
+        }
+      },
+      {
+        "id": "alarm_vibration_false",
+        "title": {
+          "en": "The vibration alarm turned off"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_vibration",
+        "title": {
+          "en": "The vibration alarm is !{{on|off}}"
+        }
+      }
+    ]
+  }
+}

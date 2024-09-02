@@ -30,6 +30,7 @@
   "alarm_generic",
   "alarm_motion",
   "alarm_contact",
+  "alarm_vibration",
   "alarm_co",
   "alarm_co2",
   "alarm_pm25",
