@@ -5,25 +5,29 @@
     "nl": "Wasmachinesnelheid"
   },
   "desc": {
-    "en": "The spin speed of the laundry washer."
+    "en": "The spin speed of the laundry washer.",
+    "nl": "De centrifugesnelheid van de wasmachine."
   },
   "values": [
     {
       "id": "low",
       "title": {
-        "en": "Low"
+        "en": "Low",
+        "nl": "Laag"
       }
     },
     {
       "id": "medium",
       "title": {
-        "en": "Medium"
+        "en": "Medium",
+        "nl": "Middel"
       }
     },
     {
       "id": "high",
       "title": {
-        "en": "High"
+        "en": "High",
+        "nl": "Hoog"
       }
     }
   ],
@@ -36,7 +40,8 @@
         "id": "laundry_washer_speed_changed",
         "highlight": true,
         "title": {
-          "en": "The laundry washer speed changed to"
+          "en": "The laundry washer speed changed to",
+          "nl": "De wasmachinesnelheid is veranderd naar"
         },
         "args": [
           {
@@ -51,7 +56,8 @@
       {
         "id": "laundry_washer_speed_is",
         "title": {
-          "en": "The laundry washer speed !{{is|is not}}"
+          "en": "The laundry washer speed !{{is|is not}}",
+          "nl": "De wasmachinesnelheid !{{is|is niet}}"
         },
         "args": [
           {
@@ -66,7 +72,8 @@
       {
         "id": "laundry_washer_speed_set",
         "title": {
-          "en": "Set the laundry washer speed to"
+          "en": "Set the laundry washer speed to",
+          "nl": "Stel de wasmachinesnelheid in op"
         },
         "args": [
           {

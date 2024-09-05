@@ -2,14 +2,16 @@
   "type": "number",
   "title": {
     "en": "TVOC",
-    "nl": "TVOC"
+    "nl": "VOS"
   },
   "units": {
-    "en": "μg/m³"
+    "en": "μg/m³",
+    "nl": "μg/m³"
   },
   "insights": true,
   "desc": {
-    "en": "Total volatile organic compounds in micrograms per cubic meter (μg/m³)"
+    "en": "Total volatile organic compounds in micrograms per cubic meter (μg/m³)",
+    "nl": "Totale vluchtige organische stoffen in microgram per kubieke meter (μg/m³)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -21,7 +23,8 @@
       {
         "id": "measure_tvoc_changed",
         "title": {
-          "en": "The TVOC value has changed"
+          "en": "The TVOC value has changed",
+          "nl": "De VOS-waarde is veranderd"
         },
         "tokens": [
           {

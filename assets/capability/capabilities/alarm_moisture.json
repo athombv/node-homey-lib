@@ -1,18 +1,21 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Moisture Alarm",
+    "en": "Moisture alarm",
     "nl": "Vochtalarm"
   },
   "desc": {
-    "en": "True when moisture is detected."
+    "en": "True when moisture is detected.",
+    "nl": "Gaat af wanneer vocht wordt gedetecteerd."
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Moisture Alarm turned on"
+    "en": "Moisture Alarm turned on",
+    "nl": "Vochtalarm ging af"
   },
   "insightsTitleFalse": {
-    "en": "Moisture Alarm turned off"
+    "en": "Moisture Alarm turned off",
+    "nl": "Vochtalarm ging uit"
   },
   "getable": true,
   "setable": false,
@@ -23,13 +26,15 @@
         "id": "alarm_moisture_true",
         "highlight": true,
         "title": {
-          "en": "The moisture alarm turned on"
+          "en": "The moisture alarm turned on",
+          "nl": "Het vochtalarm gaat aan"
         }
       },
       {
         "id": "alarm_moisture_false",
         "title": {
-          "en": "The moisture alarm turned off"
+          "en": "The moisture alarm turned off",
+          "nl": "Het vochtalarm gaat uit"
         }
       }
     ],
@@ -37,7 +42,8 @@
       {
         "id": "alarm_moisture",
         "title": {
-          "en": "The moisture alarm is !{{on|off}}"
+          "en": "The moisture alarm is !{{on|off}}",
+          "nl": "Het vochtalarm is !{{aan|uit}}"
         }
       }
     ]

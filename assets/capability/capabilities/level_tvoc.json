@@ -5,31 +5,36 @@
     "nl": "TVOC-niveau"
   },
   "desc": {
-    "en": "The level of total volatile organic compounds in the air."
+    "en": "The level of total volatile organic compounds in the air.",
+    "nl": "Het niveau van totaal vluchtige organische stoffen in de lucht."
   },
   "values": [
     {
       "id": "low",
       "title": {
-        "en": "Low"
+        "en": "Low",
+        "nl": "Laag"
       }
     },
     {
       "id": "medium",
       "title": {
-        "en": "Medium"
+        "en": "Medium",
+        "nl": "Middel"
       }
     },
     {
       "id": "high",
       "title": {
-        "en": "High"
+        "en": "High",
+        "nl": "Hoog"
       }
     },
     {
       "id": "critical",
       "title": {
-        "en": "Critical"
+        "en": "Critical",
+        "nl": "Kritiek"
       }
     }
   ],
@@ -42,7 +47,8 @@
         "id": "level_tvoc_changed",
         "highlight": true,
         "title": {
-          "en": "The TVOC level changed to"
+          "en": "The TVOC level changed to",
+          "nl": "Het TVOC-niveau is veranderd naar"
         },
         "args": [
           {
@@ -57,7 +63,8 @@
       {
         "id": "level_tvoc_is",
         "title": {
-          "en": "The TVOC level !{{is|is not}}"
+          "en": "The TVOC level !{{is|is not}}",
+          "nl": "Het TVOC-niveau !{{is|is niet}}"
         },
         "args": [
           {

@@ -5,37 +5,43 @@
     "nl": "Pompmodus"
   },
   "desc": {
-    "en": "Used to set which setpoint regulates the pump."
+    "en": "Used to set which setpoint regulates the pump.",
+    "nl": "Gebruikt om in te stellen welke setpoint de pomp regelt."
   },
   "values": [
     {
       "id": "constant_pressure",
       "title": {
-        "en": "Constant Pressure"
+        "en": "Constant Pressure",
+        "nl": "Constante druk"
       }
     },
     {
       "id": "compensated_pressure",
       "title": {
-        "en": "Compensated Pressure"
+        "en": "Compensated Pressure",
+        "nl": "Gecompenseerde druk"
       }
     },
     {
       "id": "constant_flow",
       "title": {
-        "en": "Constant Flow"
+        "en": "Constant Flow",
+        "nl": "Constante stroom"
       }
     },
     {
       "id": "constant_speed",
       "title": {
-        "en": "Constant Speed"
+        "en": "Constant Speed",
+        "nl": "Constante snelheid"
       }
     },
     {
       "id": "constant_temperature",
       "title": {
-        "en": "Constant Temperature"
+        "en": "Constant Temperature",
+        "nl": "Constante temperatuur"
       }
     }
   ],
@@ -48,7 +54,8 @@
         "id": "pump_mode_changed",
         "highlight": true,
         "title": {
-          "en": "The pump mode changed to"
+          "en": "The pump mode changed to",
+          "nl": "De pompmodus is veranderd naar"
         },
         "args": [
           {
@@ -61,9 +68,10 @@
     ],
     "conditions": [
       {
-        "id": "pump_mode",
+        "id": "pump_mode_is",
         "title": {
-          "en": "The pump mode !{{is|is not}}"
+          "en": "The pump mode !{{is|is not}}",
+          "nl": "De pompmodus !{{is|is niet}}"
         },
         "args": [
           {
@@ -78,7 +86,8 @@
       {
         "id": "set_pump_mode",
         "title": {
-          "en": "Set the pump mode"
+          "en": "Set the pump mode",
+          "nl": "Stel de pompmodus in"
         },
         "args": [
           {

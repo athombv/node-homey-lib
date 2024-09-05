@@ -5,31 +5,36 @@
     "nl": "Radonniveau"
   },
   "desc": {
-    "en": "The level of radioactive radon gas in the air."
+    "en": "The level of radioactive radon gas in the air.",
+    "nl": "Het niveau van radioactief radongas in de lucht."
   },
   "values": [
     {
       "id": "low",
       "title": {
-        "en": "Low"
+        "en": "Low",
+        "nl": "Laag"
       }
     },
     {
       "id": "medium",
       "title": {
-        "en": "Medium"
+        "en": "Medium",
+        "nl": "Middel"
       }
     },
     {
       "id": "high",
       "title": {
-        "en": "High"
+        "en": "High",
+        "nl": "Hoog"
       }
     },
     {
       "id": "critical",
       "title": {
-        "en": "Critical"
+        "en": "Critical",
+        "nl": "Kritiek"
       }
     }
   ],
@@ -42,7 +47,8 @@
         "id": "level_radon_changed",
         "highlight": true,
         "title": {
-          "en": "The radon level changed to"
+          "en": "The radon level changed to",
+          "nl": "Het radonniveau is veranderd naar"
         },
         "args": [
           {
@@ -57,7 +63,8 @@
       {
         "id": "level_radon_is",
         "title": {
-          "en": "The radon level !{{is|is not}}"
+          "en": "The radon level !{{is|is not}}",
+          "nl": "Het radonniveau !{{is|is niet}}"
         },
         "args": [
           {

@@ -5,31 +5,36 @@
     "nl": "PM1-niveau"
   },
   "desc": {
-    "en": "The amount of PM1 particles in the air represented by a level."
+    "en": "The amount of PM1 particles in the air represented by a level.",
+    "nl": "De hoeveelheid PM1-deeltjes in de lucht weergegeven als niveau."
   },
   "values": [
     {
       "id": "low",
       "title": {
-        "en": "Low"
+        "en": "Low",
+        "nl": "Laag"
       }
     },
     {
       "id": "medium",
       "title": {
-        "en": "Medium"
+        "en": "Medium",
+        "nl": "Middel"
       }
     },
     {
       "id": "high",
       "title": {
-        "en": "High"
+        "en": "High",
+        "nl": "Hoog"
       }
     },
     {
       "id": "critical",
       "title": {
-        "en": "Critical"
+        "en": "Critical",
+        "nl": "Kritiek"
       }
     }
   ],
@@ -42,7 +47,8 @@
         "id": "level_pm1_changed",
         "highlight": true,
         "title": {
-          "en": "The PM1 level changed to"
+          "en": "The PM1 level changed to",
+          "nl": "Het PM1-niveau is veranderd naar"
         },
         "args": [
           {
@@ -57,7 +63,8 @@
       {
         "id": "level_pm1_is",
         "title": {
-          "en": "The PM1 level !{{is|is not}}"
+          "en": "The PM1 level !{{is|is not}}",
+          "nl": "Het PM1-niveau is !{{is|is niet}}"
         },
         "args": [
           {

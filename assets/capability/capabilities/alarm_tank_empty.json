@@ -1,0 +1,51 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Tank empty alarm",
+    "nl": "Tank-leeg-alarm"
+  },
+  "desc": {
+    "en": "True when the tank is empty.",
+    "nl": "Gaat af als de tank leeg is."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Tank empty alarm turned on",
+    "nl": "Tank leeg alarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Tank empty alarm turned off",
+    "nl": "Tank leeg alarm ging uit"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_tank_empty_true",
+        "highlight": true,
+        "title": {
+          "en": "The tank empty alarm turned on",
+          "nl": "Het tank leeg alarm gaat aan"
+        }
+      },
+      {
+        "id": "alarm_tank_empty_false",
+        "title": {
+          "en": "The tank empty alarm turned off",
+          "nl": "Het tank leeg alarm gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_tank_empty",
+        "title": {
+          "en": "The tank empty alarm is !{{on|off}}",
+          "nl": "Het tank leeg alarm is !{{aan|uit}}"
+        }
+      }
+    ]
+  }
+}

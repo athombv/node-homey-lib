@@ -6,7 +6,8 @@
   },
   "insights": true,
   "desc": {
-    "en": "Air Quality Index"
+    "en": "Air Quality Index",
+    "nl": "Luchtkwaliteitsindex"
   },
   "chartType": "spline",
   "getable": true,
@@ -19,7 +20,8 @@
       {
         "id": "measure_aqi_changed",
         "title": {
-          "en": "The Air Quality Index changed"
+          "en": "The Air Quality Index changed",
+          "nl": "De luchtkwaliteitsindex is veranderd"
         },
         "tokens": [
           {

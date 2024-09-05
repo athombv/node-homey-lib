@@ -5,10 +5,12 @@
     "nl": "Afstand"
   },
   "units": {
-    "en": "m"
+    "en": "m",
+    "nl": "m"
   },
   "desc": {
-    "en": "The distance in meters."
+    "en": "The distance in meters.",
+    "nl": "De afstand in meters."
   },
   "insights": true,
   "chartType": "spline",
@@ -21,7 +23,8 @@
       {
         "id": "measure_distance_changed",
         "title": {
-          "en": "The distance changed"
+          "en": "The distance changed",
+          "nl": "De afstand is veranderd"
         },
         "tokens": [
           {

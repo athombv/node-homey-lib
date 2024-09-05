@@ -5,10 +5,12 @@
     "nl": "Gegevensgrootte"
   },
   "units": {
-    "en": "bytes"
+    "en": "bytes",
+    "nl": "bytes"
   },
   "desc": {
-    "en": "The data size in bytes."
+    "en": "The data size in bytes.",
+    "nl": "De gegevensgrootte in bytes."
   },
   "insights": true,
   "chartType": "spline",
@@ -21,7 +23,8 @@
       {
         "id": "measure_data_size_changed",
         "title": {
-          "en": "The data size changed"
+          "en": "The data size changed",
+          "nl": "De gegevensgrootte is veranderd"
         },
         "tokens": [
           {

@@ -1,8 +1,8 @@
 {
   "type": "enum",
   "title": {
-    "en": "Lawnmower state",
-    "nl": "Grasmaaierstatus"
+    "en": "Mower state",
+    "nl": "Maaierstatus"
   },
   "desc": {
     "en": "The current state of the lawnmower."

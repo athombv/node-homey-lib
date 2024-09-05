@@ -1,13 +1,16 @@
 {
   "type": "number",
   "title": {
-    "en": "Humidity setpoint min"
+    "en": "Minimum target humidity",
+    "nl": "Minimale doelvochtigheid"
   },
   "units": {
-    "en": "%"
+    "en": "%",
+    "nl": "%"
   },
   "desc": {
-    "en": "The low end of the target humidity level in percent."
+    "en": "The low end of the target humidity level in percent.",
+    "nl": "Het onderste uiteinde van het doelvochtigheidsniveau in procent."
   },
   "insights": true,
   "chartType": "stepLine",
@@ -22,7 +25,8 @@
       {
         "id": "setpoint_humidity_min_changed",
         "title": {
-          "en": "The setpoint humidity min changed"
+          "en": "The minimum target humidity has changed",
+          "nl": "De minimale doelvochtigheid is gewijzigd"
         },
         "tokens": [
           {
@@ -36,15 +40,18 @@
     ],
     "actions": [
       {
-        "id": "setpoint_humidity_min_set",
+        "id": "set_setpoint_humidity_min",
         "title": {
-          "en": "Set the humidity min"
+          "en": "Set the minimum target humidity",
+          "nl": "Stel de minimale doelvochtigheid in"
         },
-        "tokens": [
+        "args": [
           {
-            "name": "$id",
-            "title": "$title",
-            "type": "$type",
+            "name": "value",
+            "type": "range",
+            "min": 0,
+            "max": 100,
+            "step": 1,
             "example": 50
           }
         ]

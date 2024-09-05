@@ -1,41 +1,33 @@
 {
   "type": "enum",
   "title": {
-    "en": "Laundry washer program",
-    "nl": "Wasprogramma"
+    "en": "Dishwasher program",
+    "nl": "Vaatwasprogramma"
   },
   "desc": {
-    "en": "The current program of the laundry washer."
+    "en": "The current program of the dishwasher.",
+    "nl": "Het huidige programma van de vaatwasser."
   },
   "values": [
     {
       "id": "normal",
       "title": {
-        "en": "Normal"
-      }
-    },
-    {
-      "id": "auto",
-      "title": {
-        "en": "Auto"
-      }
-    },
-    {
-      "id": "quick",
-      "title": {
-        "en": "Quick"
+        "en": "Normal",
+        "nl": "Normaal"
       }
     },
     {
       "id": "heavy",
       "title": {
-        "en": "Heavy"
+        "en": "Heavy",
+        "nl": "Zwaar"
       }
     },
     {
-      "id": "whites",
+      "id": "light",
       "title": {
-        "en": "Whites"
+        "en": "Light",
+        "nl": "Licht"
       }
     }
   ],
@@ -45,10 +37,11 @@
   "$flow": {
     "triggers": [
       {
-        "id": "laundry_washer_program_changed",
+        "id": "dishwasher_program_changed",
         "highlight": true,
         "title": {
-          "en": "The laundry washer program changed to"
+          "en": "The dishwasher program changed to",
+          "nl": "Het vaatwasprogramma is veranderd naar"
         },
         "args": [
           {
@@ -61,9 +54,10 @@
     ],
     "conditions": [
       {
-        "id": "laundry_washer_program_is",
+        "id": "dishwasher_program_is",
         "title": {
-          "en": "The laundry washer program !{{is|is not}}"
+          "en": "The dishwasher program is",
+          "nl": "Het vaatwasprogramma is"
         },
         "args": [
           {

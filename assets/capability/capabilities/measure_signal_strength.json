@@ -5,10 +5,12 @@
     "nl": "Signaalsterkte"
   },
   "units": {
-    "en": "dB"
+    "en": "dB",
+    "nl": "dB"
   },
   "desc": {
-    "en": "The signal strength in decibels."
+    "en": "The signal strength in decibels.",
+    "nl": "De signaalsterkte in decibels."
   },
   "insights": true,
   "chartType": "spline",
@@ -21,7 +23,8 @@
       {
         "id": "measure_signal_strength_changed",
         "title": {
-          "en": "The signal strength changed"
+          "en": "The signal strength changed",
+          "nl": "De signaalsterkte is veranderd"
         },
         "tokens": [
           {

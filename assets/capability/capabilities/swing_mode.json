@@ -8,19 +8,22 @@
     {
       "key": "vertical",
       "title": {
-        "en": "Vertical"
+        "en": "Vertical",
+        "nl": "Verticaal"
       }
     },
     {
       "key": "horizontal",
       "title": {
-        "en": "Horizontal"
+        "en": "Horizontal",
+        "nl": "Horizontaal"
       }
     },
     {
       "key": "both",
       "title": {
-        "en": "Both"
+        "en": "Both",
+        "nl": "Beide"
       }
     }
   ],
@@ -32,7 +35,8 @@
       {
         "id": "swing_mode_changed",
         "title": {
-          "en": "Swing mode has changed"
+          "en": "Swing mode has changed",
+          "nl": "Zwenkmodus is veranderd"
         },
         "args": [
           {
@@ -47,7 +51,8 @@
       {
         "id": "swing_mode_is",
         "title": {
-          "en": "Swing mode !{{is|is not}}"
+          "en": "Swing mode !{{is|is not}}",
+          "nl": "Zwenkmodus !{{is|is not}}"
         },
         "args": [
           {
@@ -62,7 +67,8 @@
       {
         "id": "set_swing_mode",
         "title": {
-          "en": "Set swing mode to"
+          "en": "Set swing mode to",
+          "nl": "Zet zwenkmodus op"
         },
         "args": [
           {

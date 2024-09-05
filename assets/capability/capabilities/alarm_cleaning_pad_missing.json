@@ -1,0 +1,51 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Cleaning pad missing alarm",
+    "nl": "Reinigingspad-ontbreekt-alarm"
+  },
+  "desc": {
+    "en": "True when the cleaning pad is missing.",
+    "nl": "Gaat af als het reinigingspad ontbreekt."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Cleaning pad missing alarm turned on",
+    "nl": "Reinigingspad-ontbreekt-alarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Cleaning pad missing alarm turned off",
+    "nl": "Reinigingspad-ontbreekt-alarm ging uit"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_pad_missing_true",
+        "highlight": true,
+        "title": {
+          "en": "The cleaning pad missing alarm turned on",
+          "nl": "Het reinigingspad-ontbreekt-alarm gaat aan"
+        }
+      },
+      {
+        "id": "alarm_pad_missing_false",
+        "title": {
+          "en": "The cleaning pad missing alarm turned off",
+          "nl": "Het reigningingspad-ontbreekt-alarm gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_pad_missing",
+        "title": {
+          "en": "The cleaning pad missing alarm is !{{on|off}}",
+          "nl": "Het reigningingspad-ontbreekt-alarm is !{{aan|uit}}"
+        }
+      }
+    ]
+  }
+}

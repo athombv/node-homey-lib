@@ -8,37 +8,43 @@
     {
       "id": "off",
       "title": {
-        "en": "Off"
+        "en": "Off",
+        "nl": "Uit"
       }
     },
     {
       "id": "normal",
       "title": {
-        "en": "Normal"
+        "en": "Normal",
+        "nl": "Normaal"
       }
     },
     {
       "id": "hight",
       "title": {
-        "en": "High"
+        "en": "High",
+        "nl": "Hoog"
       }
     },
     {
       "id": "turbo",
       "title": {
-        "en": "Turbo"
+        "en": "Turbo",
+        "nl": "Turbo"
       }
     },
     {
       "id": "mop",
       "title": {
-        "en": "Mop"
+        "en": "Mop",
+        "nl": "Dweilen"
       }
     },
     {
       "id": "auto",
       "title": {
-        "en": "Auto"
+        "en": "Auto",
+        "nl": "Automatisch"
       }
     }
   ],
@@ -50,7 +56,8 @@
       {
         "id": "vacuumcleaner_job_mode_changed",
         "title": {
-          "en": "Vacuum cleaner job mode has changed"
+          "en": "The vacuum cleaner job mode has changed",
+          "nl": "De stofzuigermodus is gewijzigd"
         },
         "args": [
           {
@@ -65,7 +72,8 @@
       {
         "id": "vacuumcleaner_job_mode_is",
         "title": {
-          "en": "Vacuum cleaner job mode !{{is|is not}}"
+          "en": "The vacuum cleaner job mode !{{is|is not}}",
+          "nl": "De stofzuigermodus !{{is|is not}}"
         },
         "args": [
           {
@@ -78,9 +86,10 @@
     ],
     "actions": [
       {
-        "id": "vacuumcleaner_job_mode_set",
+        "id": "set_vacuumcleaner_job_mode",
         "title": {
-          "en": "Set vacuum cleaner job mode to"
+          "en": "Set the vacuum cleaner job mode to",
+          "nl": "Stel de stofzuigermodus in op"
         },
         "args": [
           {

@@ -5,43 +5,50 @@
     "nl": "Media-input"
   },
   "desc": {
-    "en": "The input channel for a media player"
+    "en": "The input channel for a media player",
+    "nl": "Het invoerkanaal voor een mediaspeler"
   },
   "values": [
     {
       "id": "hdmi_1",
       "title": {
-        "en": "HDMI 1"
+        "en": "HDMI 1",
+        "nl": "HDMI 1"
       }
     },
     {
       "id": "hdmi_2",
       "title": {
-        "en": "HDMI 2"
+        "en": "HDMI 2",
+        "nl": "HDMI 2"
       }
     },
     {
       "id": "hdmi_3",
       "title": {
-        "en": "HDMI 3"
+        "en": "HDMI 3",
+        "nl": "HDMI 3"
       }
     },
     {
       "id": "usb_1",
       "title": {
-        "en": "USB 1"
+        "en": "USB 1",
+        "nl": "USB 1"
       }
     },
     {
       "id": "usb_2",
       "title": {
-        "en": "USB 2"
+        "en": "USB 2",
+        "nl": "USB 2"
       }
     },
     {
       "id": "component",
       "title": {
-        "en": "Component"
+        "en": "Component",
+        "nl": "Component"
       }
     }
   ],
@@ -54,7 +61,8 @@
         "id": "media_input_changed",
         "highlight": true,
         "title": {
-          "en": "The media input changed to"
+          "en": "The media input changed to",
+          "nl": "De media-input is veranderd naar"
         },
         "args": [
           {
@@ -69,7 +77,8 @@
       {
         "id": "media_input_is",
         "title": {
-          "en": "The media input !{{is|is not}}"
+          "en": "The media input !{{is|is not}}",
+          "nl": "De media-input !{{is|is niet}}"
         },
         "args": [
           {
@@ -84,7 +93,8 @@
       {
         "id": "media_input_set",
         "title": {
-          "en": "Set the media input"
+          "en": "Set the media input",
+          "nl": "Stel de media-input in"
         },
         "args": [
           {

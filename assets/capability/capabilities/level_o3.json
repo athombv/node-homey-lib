@@ -5,31 +5,36 @@
     "nl": "Ozonniveau"
   },
   "desc": {
-    "en": "The level of ozone in the air."
+    "en": "The level of ozone in the air.",
+    "nl": "Het niveau van ozon in de lucht."
   },
   "values": [
     {
       "id": "low",
       "title": {
-        "en": "Low"
+        "en": "Low",
+        "nl": "Laag"
       }
     },
     {
       "id": "medium",
       "title": {
-        "en": "Medium"
+        "en": "Medium",
+        "nl": "Middel"
       }
     },
     {
       "id": "high",
       "title": {
-        "en": "High"
+        "en": "High",
+        "nl": "Hoog"
       }
     },
     {
       "id": "critical",
       "title": {
-        "en": "Critical"
+        "en": "Critical",
+        "nl": "Kritiek"
       }
     }
   ],
@@ -42,7 +47,8 @@
         "id": "level_o3_changed",
         "highlight": true,
         "title": {
-          "en": "The ozone level changed to"
+          "en": "The ozone level changed to",
+          "nl": "Het ozonniveau is veranderd naar"
         },
         "args": [
           {
@@ -57,7 +63,8 @@
       {
         "id": "level_o3_is",
         "title": {
-          "en": "The ozone level !{{is|is not}}"
+          "en": "The ozone level !{{is|is not}}",
+          "nl": "Het ozonniveau !{{is|is niet}}"
         },
         "args": [
           {

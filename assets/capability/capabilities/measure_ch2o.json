@@ -5,11 +5,13 @@
     "nl": "Formaldehyde"
   },
   "units": {
-    "en": "μg/m³"
+    "en": "μg/m³",
+    "nl": "μg/m³"
   },
   "insights": true,
   "desc": {
-    "en": "Formaldehyde in micrograms per cubic meter (μg/m³)"
+    "en": "Formaldehyde in micrograms per cubic meter (μg/m³)",
+    "nl": "Formaldehyde in microgram per kubieke meter (μg/m³)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -21,7 +23,8 @@
       {
         "id": "measure_ch2o_changed",
         "title": {
-          "en": "The Formaldehyde level changed"
+          "en": "The Formaldehyde level changed",
+          "nl": "Het formaldehydeniveau is veranderd"
         },
         "tokens": [
           {

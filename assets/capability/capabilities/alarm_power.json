@@ -1,18 +1,21 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Power Alarm",
+    "en": "Power alarm",
     "nl": "Stroomalarm"
   },
   "desc": {
-    "en": "True when power is detected."
+    "en": "True when power is detected.",
+    "nl": "Gaat af wanneer stroom wordt gedetecteerd."
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Power Alarm turned on"
+    "en": "Power alarm turned on",
+    "nl": "Stroomalarm ging af"
   },
   "insightsTitleFalse": {
-    "en": "Power Alarm turned off"
+    "en": "Power alarm turned off",
+    "nl": "Stroomalarm ging uit"
   },
   "getable": true,
   "setable": false,
@@ -23,13 +26,15 @@
         "id": "alarm_power_true",
         "highlight": true,
         "title": {
-          "en": "The power alarm turned on"
+          "en": "The power alarm turned on",
+          "nl": "Het stroomalarm gaat aan"
         }
       },
       {
         "id": "alarm_power_false",
         "title": {
-          "en": "The power alarm turned off"
+          "en": "The power alarm turned off",
+          "nl": "Het stroomalarm gaat uit"
         }
       }
     ],
@@ -37,7 +42,8 @@
       {
         "id": "alarm_power",
         "title": {
-          "en": "The power alarm is !{{on|off}}"
+          "en": "The power alarm is !{{on|off}}",
+          "nl": "Het stroomalarm is !{{aan|uit}}"
         }
       }
     ]

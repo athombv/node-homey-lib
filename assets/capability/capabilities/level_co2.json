@@ -5,31 +5,36 @@
     "nl": "CO2-niveau"
   },
   "desc": {
-    "en": "The level of CO2 in the air."
+    "en": "The level of CO2 in the air.",
+    "nl": "Het niveau van CO2 in de lucht."
   },
   "values": [
     {
       "id": "low",
       "title": {
-        "en": "Low"
+        "en": "Low",
+        "nl": "Laag"
       }
     },
     {
       "id": "medium",
       "title": {
-        "en": "Medium"
+        "en": "Medium",
+        "nl": "Middel"
       }
     },
     {
       "id": "high",
       "title": {
-        "en": "High"
+        "en": "High",
+        "nl": "Hoog"
       }
     },
     {
       "id": "critical",
       "title": {
-        "en": "Critical"
+        "en": "Critical",
+        "nl": "Kritiek"
       }
     }
   ],
@@ -42,7 +47,8 @@
         "id": "level_co2_changed",
         "highlight": true,
         "title": {
-          "en": "The CO2 level changed to"
+          "en": "The CO2 level changed to",
+          "nl": "Het CO2-niveau is veranderd naar"
         },
         "args": [
           {
@@ -57,7 +63,8 @@
       {
         "id": "level_co2_is",
         "title": {
-          "en": "The CO2 level !{{is|is not}}"
+          "en": "The CO2 level !{{is|is not}}",
+          "nl": "Het CO2-niveau !{{is|is niet}}"
         },
         "args": [
           {

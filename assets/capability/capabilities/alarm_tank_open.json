@@ -1,0 +1,51 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Tank open alarm",
+    "nl": "Tank-open-alarm"
+  },
+  "desc": {
+    "en": "True when the tank is open.",
+    "nl": "Gaat af als de tank open is."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Tank open alarm turned on",
+    "nl": "Tank-open-alarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Tank open alarm turned off",
+    "nl": "Tank-open-alarm ging uit"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_tank_open_true",
+        "highlight": true,
+        "title": {
+          "en": "The tank open alarm turned on",
+          "nl": "Het tank-open-alarm gaat aan"
+        }
+      },
+      {
+        "id": "alarm_tank_open_false",
+        "title": {
+          "en": "The tank open alarm turned off",
+          "nl": "Het tank-open-alarm gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_tank_open",
+        "title": {
+          "en": "The tank open alarm is !{{on|off}}",
+          "nl": "Het tank-open-alarm is !{{aan|uit}}"
+        }
+      }
+    ]
+  }
+}

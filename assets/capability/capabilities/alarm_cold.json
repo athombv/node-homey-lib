@@ -1,18 +1,21 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Cold Alarm",
+    "en": "Cold alarm",
     "nl": "Kou-alarm"
   },
   "desc": {
-    "en": "True when the temperature is too cold."
+    "en": "True when the temperature is too low.",
+    "nl": "Gaat af als de temperatuur te laag is."
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Cold Alarm turned on"
+    "en": "Cold alarm turned on",
+    "nl": "Kou-alarm ging af"
   },
   "insightsTitleFalse": {
-    "en": "Cold Alarm turned off"
+    "en": "Cold alarm turned off",
+    "nl": "Kou-alarm ging uit"
   },
   "getable": true,
   "setable": false,
@@ -23,13 +26,15 @@
         "id": "alarm_cold_true",
         "highlight": true,
         "title": {
-          "en": "The cold alarm turned on"
+          "en": "The cold alarm turned on",
+          "nl": "Het kou-alarm gaat aan"
         }
       },
       {
         "id": "alarm_cold_false",
         "title": {
-          "en": "The cold alarm turned off"
+          "en": "The cold alarm turned off",
+          "nl": "Het kou-alarm gaat uit"
         }
       }
     ],
@@ -37,7 +42,8 @@
       {
         "id": "alarm_cold",
         "title": {
-          "en": "The cold alarm is !{{on|off}}"
+          "en": "The cold alarm is !{{on|off}}",
+          "nl": "Het kou-alarm is !{{aan|uit}}"
         }
       }
     ]

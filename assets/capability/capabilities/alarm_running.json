@@ -1,18 +1,21 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Running Alarm",
+    "en": "Running alarm",
     "nl": "Werkzaamheidsalarm"
   },
   "desc": {
-    "en": "True when running."
+    "en": "True when the device is busy (e.g., printer is printing).",
+    "nl": "Waar wanneer het apparaat bezig is (bijv. printer is aan het printen)."
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Running"
+    "en": "Running alarm turned on",
+    "nl": "Werkzaamheidsalarm ging aan"
   },
   "insightsTitleFalse": {
-    "en": "Not running"
+    "en": "Running alarm turned off",
+    "nl": "Werkzaamheidsalarm ging uit"
   },
   "getable": true,
   "setable": false,
@@ -23,13 +26,15 @@
         "id": "alarm_running_true",
         "highlight": true,
         "title": {
-          "en": "Running"
+          "en": "The running alarm turned on",
+          "nl": "Het werkzaamheidsalarm gaat aan"
         }
       },
       {
         "id": "alarm_running_false",
         "title": {
-          "en": "Not running"
+          "en": "The running alarm turned off",
+          "nl": "Het werkzaamheidsalarm gaat uit"
         }
       }
     ],
@@ -37,7 +42,8 @@
       {
         "id": "alarm_running",
         "title": {
-          "en": "!{{Running|Not running}}"
+          "en": "The running alarm is !{{on|off}}",
+          "nl": "Het werkzaamheidsalarm is !{{aan|uit}}"
         }
       }
     ]

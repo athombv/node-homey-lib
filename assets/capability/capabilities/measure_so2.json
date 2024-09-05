@@ -5,11 +5,13 @@
     "nl": "SO2"
   },
   "units": {
-    "en": "μg/m³"
+    "en": "μg/m³",
+    "nl": "μg/m³"
   },
   "insights": true,
   "desc": {
-    "en": "Sulfur dioxide in micrograms per cubic meter (μg/m³)"
+    "en": "Sulfur dioxide in micrograms per cubic meter (μg/m³)",
+    "nl": "Zwavel dioxide in microgram per kubieke meter (μg/m³)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -21,7 +23,8 @@
       {
         "id": "measure_so2_changed",
         "title": {
-          "en": "The SO2 value has changed"
+          "en": "The SO2 value has changed",
+          "nl": "De SO2-waarde is veranderd"
         },
         "tokens": [
           {

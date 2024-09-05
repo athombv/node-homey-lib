@@ -5,25 +5,29 @@
     "nl": "Doeltemperatuurniveau"
   },
   "desc": {
-    "en": "The target temperature level of the appliance."
+    "en": "The target temperature level of the appliance.",
+    "nl": "Het doeltemperatuurniveau van het apparaat."
   },
   "values": [
     {
       "id": "low",
       "title": {
-        "en": "Low"
+        "en": "Low",
+        "nl": "Laag"
       }
     },
     {
       "id": "medium",
       "title": {
-        "en": "Medium"
+        "en": "Medium",
+        "nl": "Gemiddeld"
       }
     },
     {
       "id": "high",
       "title": {
-        "en": "High"
+        "en": "High",
+        "nl": "Hoog"
       }
     }
   ],
@@ -36,7 +40,8 @@
         "id": "target_temperature_level_changed",
         "highlight": true,
         "title": {
-          "en": "The target temperature level changed to"
+          "en": "The target temperature level changed to",
+          "nl": "Het doeltemperatuurniveau is gewijzigd naar"
         },
         "args": [
           {
@@ -51,7 +56,8 @@
       {
         "id": "target_temperature_level_is",
         "title": {
-          "en": "The target temperature level !{{is|is not}}"
+          "en": "The target temperature level !{{is|is not}}",
+          "nl": "Het doeltemperatuurniveau !{{is|is not}}"
         },
         "args": [
           {
@@ -64,9 +70,10 @@
     ],
     "actions": [
       {
-        "id": "target_temperature_level_set",
+        "id": "set_target_temperature_level",
         "title": {
-          "en": "Set the target temperature level to"
+          "en": "Set the target temperature level to",
+          "nl": "Stel het doeltemperatuurniveau in op"
         },
         "args": [
           {

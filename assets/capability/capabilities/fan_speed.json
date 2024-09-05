@@ -8,7 +8,8 @@
     "en": "%"
   },
   "desc": {
-    "en": "The fan speed in percentage."
+    "en": "The fan speed in percentage.",
+    "nl": "De ventilatorsnelheid in procent."
   },
   "insights": true,
   "chartType": "spline",
@@ -21,13 +22,30 @@
       {
         "id": "fan_speed_changed",
         "title": {
-          "en": "The fan speed changed"
+          "en": "The fan speed changed",
+          "nl": "De ventilatorsnelheid is veranderd"
         },
         "tokens": [
           {
             "name": "$id",
             "title": "$title",
             "type": "$type",
+            "example": 50
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_fan_speed",
+        "title": {
+          "en": "Set the fan speed to",
+          "nl": "Stel de ventilatorsnelheid in op"
+        },
+        "args": [
+          {
+            "name": "speed",
+            "type": "number",
             "example": 50
           }
         ]

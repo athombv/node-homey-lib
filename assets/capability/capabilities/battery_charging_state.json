@@ -1,0 +1,71 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Battery charging state",
+    "nl": "Batterij oplaadstatus"
+  },
+  "desc": {
+    "en": "The current charging state of the battery.",
+    "nl": "De huidige oplaadstatus van de batterij."
+  },
+  "values": [
+    {
+      "id": "charging",
+      "title": {
+        "en": "Charging",
+        "nl": "Opladen"
+      }
+    },
+    {
+      "id": "discharging",
+      "title": {
+        "en": "Discharging",
+        "nl": "Ontladen"
+      }
+    },
+    {
+      "id": "idle",
+      "title": {
+        "en": "Idle",
+        "nl": "Inactief"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "battery_charging_state_changed",
+        "title": {
+          "en": "The battery charging state changed",
+          "nl": "De batterij oplaadstatus is veranderd"
+        },
+        "args": [
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "battery_charging_state_is",
+        "title": {
+          "en": "The battery charging state is",
+          "nl": "De batterij oplaadstatus is"
+        },
+        "args": [
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

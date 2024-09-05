@@ -8,19 +8,22 @@
     {
       "key": "auto",
       "title": {
-        "en": "Auto"
+        "en": "Auto",
+        "nl": "Automatisch"
       }
     },
     {
       "key": "on",
       "title": {
-        "en": "On"
+        "en": "On",
+        "nl": "Aan"
       }
     },
     {
       "key": "off",
       "title": {
-        "en": "Off"
+        "en": "Off",
+        "nl": "Uit"
       }
     }
   ],
@@ -32,7 +35,8 @@
       {
         "id": "fan_mode_changed",
         "title": {
-          "en": "Fan mode has changed"
+          "en": "The fan mode has changed to",
+          "nl": "De ventilatorstand is veranderd naar"
         },
         "args": [
           {
@@ -47,7 +51,8 @@
       {
         "id": "fan_mode_is",
         "title": {
-          "en": "Fan mode !{{is|is not}}"
+          "en": "The fan mode !{{is|is not}}",
+          "nl": "De ventilatorstand !{{is|is niet}}"
         },
         "args": [
           {
@@ -60,9 +65,10 @@
     ],
     "actions": [
       {
-        "id": "fan_mode_set",
+        "id": "set_fan_mode",
         "title": {
-          "en": "Set fan mode to"
+          "en": "Set fan mode to",
+          "nl": "Stel ventilatorstand in op"
         },
         "args": [
           {

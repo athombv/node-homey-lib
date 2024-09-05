@@ -5,31 +5,36 @@
     "nl": "PM2,5-niveau"
   },
   "desc": {
-    "en": "The level of PM2.5 particles in the air."
+    "en": "The level of PM2.5 particles in the air.",
+    "nl": "Het niveau van PM2,5-deeltjes in de lucht."
   },
   "values": [
     {
       "id": "low",
       "title": {
-        "en": "Low"
+        "en": "Low",
+        "nl": "Laag"
       }
     },
     {
       "id": "medium",
       "title": {
-        "en": "Medium"
+        "en": "Medium",
+        "nl": "Middel"
       }
     },
     {
       "id": "high",
       "title": {
-        "en": "High"
+        "en": "High",
+        "nl": "Hoog"
       }
     },
     {
       "id": "critical",
       "title": {
-        "en": "Critical"
+        "en": "Critical",
+        "nl": "Kritiek"
       }
     }
   ],
@@ -42,7 +47,8 @@
         "id": "level_pm25_changed",
         "highlight": true,
         "title": {
-          "en": "The PM2.5 level changed to"
+          "en": "The PM2.5 level changed to",
+          "nl": "Het PM2,5-niveau is veranderd naar"
         },
         "args": [
           {
@@ -57,7 +63,8 @@
       {
         "id": "level_pm25_is",
         "title": {
-          "en": "The PM2.5 level !{{is|is not}}"
+          "en": "The PM2.5 level !{{is|is not}}",
+          "nl": "Het PM2,5-niveau !{{is|is not}}"
         },
         "args": [
           {

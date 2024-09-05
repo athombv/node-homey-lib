@@ -5,43 +5,50 @@
     "nl": "Audio-uitgang"
   },
   "desc": {
-    "en": "The audio output channel for a media player."
+    "en": "The audio output channel for a media player.",
+    "nl": "Het audio-uitgangskanaal voor een mediaspeler."
   },
   "values": [
     {
       "id": "hdmi_1",
       "title": {
-        "en": "HDMI 1"
+        "en": "HDMI 1",
+        "nl": "HDMI 1"
       }
     },
     {
       "id": "hdmi_2",
       "title": {
-        "en": "HDMI 2"
+        "en": "HDMI 2",
+        "nl": "HDMI 2"
       }
     },
     {
       "id": "hdmi_3",
       "title": {
-        "en": "HDMI 3"
+        "en": "HDMI 3",
+        "nl": "HDMI 3"
       }
     },
     {
       "id": "line_out",
       "title": {
-        "en": "Line Out"
+        "en": "Line Out",
+        "nl": "Lijnuitgang"
       }
     },
     {
       "id": "optical",
       "title": {
-        "en": "Optical"
+        "en": "Optical",
+        "nl": "Optisch"
       }
     },
     {
       "id": "usb",
       "title": {
-        "en": "USB"
+        "en": "USB",
+        "nl": "USB"
       }
     }
   ], 
@@ -54,7 +61,8 @@
         "id": "audio_output_changed",
         "highlight": true,
         "title": {
-          "en": "The audio output changed to"
+          "en": "The audio output changed to",
+          "nl": "De audio-uitgang is veranderd naar"
         },
         "args": [
           {
@@ -69,7 +77,8 @@
       {
         "id": "audio_output_is",
         "title": {
-          "en": "The audio output !{{is|is not}}"
+          "en": "The audio output !{{is|is not}}",
+          "nl": "De audio-uitgang !{{is|is niet}}"
         },
         "args": [
           {
@@ -82,9 +91,10 @@
     ],
     "actions": [
       {
-        "id": "audio_output_set",
+        "id": "set_audio_output",
         "title": {
-          "en": "Set audio output to"
+          "en": "Set audio output to",
+          "nl": "Stel audio-uitgang in op"
         },
         "args": [
           {

@@ -1,0 +1,51 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Stuck alarm",
+    "nl": "Vastgelopen-alarm"
+  },
+  "desc": {
+    "en": "True when the device is stuck.",
+    "nl": "Gaat af als het apparaat is vastgelopen."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Stuck alarm turned on",
+    "nl": "Vastgelopen-alarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Stuck alarm turned off",
+    "nl": "Vastgelopen-alarm ging uit"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_stuck_true",
+        "highlight": true,
+        "title": {
+          "en": "The stuck alarm turned on",
+          "nl": "Het vastgelopen-alarm gaat aan"
+        }
+      },
+      {
+        "id": "alarm_stuck_false",
+        "title": {
+          "en": "The stuck alarm turned off",
+          "nl": "Het vastgelopen-alarm gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_stuck",
+        "title": {
+          "en": "The stuck alarm is !{{on|off}}",
+          "nl": "Het vastgelopen-alarm is !{{aan|uit}}"
+        }
+      }
+    ]
+  }
+}

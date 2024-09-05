@@ -1,18 +1,21 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Light Alarm",
+    "en": "Light alarm",
     "nl": "Lichtalarm"
   },
   "desc": {
-    "en": "True when light is detected."
+    "en": "True when light is detected.",
+    "nl": "Gaat af wanneer licht wordt gedetecteerd."
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Light Alarm turned on"
+    "en": "Light alarm turned on",
+    "nl": "Lichtalarm ging af"
   },
   "insightsTitleFalse": {
-    "en": "Light Alarm turned off"
+    "en": "Light alarm turned off",
+    "nl": "Lichtalarm ging uit"
   },
   "getable": true,
   "setable": false,
@@ -23,13 +26,15 @@
         "id": "alarm_light_true",
         "highlight": true,
         "title": {
-          "en": "The light alarm turned on"
+          "en": "The light alarm turned on",
+          "nl": "Het lichtalarm gaat aan"
         }
       },
       {
         "id": "alarm_light_false",
         "title": {
-          "en": "The light alarm turned off"
+          "en": "The light alarm turned off",
+          "nl": "Het lichtalarm gaat uit"
         }
       }
     ],
@@ -37,7 +42,8 @@
       {
         "id": "alarm_light",
         "title": {
-          "en": "The light alarm is !{{on|off}}"
+          "en": "The light alarm is !{{on|off}}",
+          "nl": "Het lichtalarm is !{{aan|uit}}"
         }
       }
     ]

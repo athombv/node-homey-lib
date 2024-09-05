@@ -5,14 +5,16 @@
     "nl": "Rotatie"
   },
   "units": {
-    "en": "°"
+    "en": "°",
+    "nl": "°"
   },
   "desc": {
-    "en": "The rotation in degrees."
+    "en": "The rotation in degrees.",
+    "nl": "De rotatie in graden."
   },
   "insights": true,
   "chartType": "spline",
-  "decimals": 0,
+  "decimals": 1,
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",
@@ -21,7 +23,8 @@
       {
         "id": "measure_rotation_changed",
         "title": {
-          "en": "The rotation changed"
+          "en": "The rotation changed",
+          "nl": "De rotatie is veranderd"
         },
         "tokens": [
           {

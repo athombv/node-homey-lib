@@ -1,7 +1,7 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Occupancy Alarm",
+    "en": "Occupancy alarm",
     "nl": "Bezettingsalarm"
   },
   "desc": {
@@ -10,11 +10,11 @@
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Occupancy Alarm turned on",
+    "en": "Occupancy alarm turned on",
     "nl": "Bezettingsalarm ingeschakeld"
   },
   "insightsTitleFalse": {
-    "en": "Occupancy Alarm turned off",
+    "en": "Occupancy alarm turned off",
     "nl": "Bezettingsalarm uitgeschakeld"
   },
   "getable": true,

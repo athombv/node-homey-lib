@@ -1,0 +1,51 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Bin missing alarm",
+    "nl": "Afvalbak-ontbreekt-alarm"
+  },
+  "desc": {
+    "en": "True when the bin is missing.",
+    "nl": "Gaat af als de afvalbak ontbreekt."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Bin missing alarm turned on",
+    "nl": "Afvalbak-ontbreekt-alarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Bin missing alarm turned off",
+    "nl": "Afvalbak-ontbreekt-alarm ging uit"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_bin_missing_true",
+        "highlight": true,
+        "title": {
+          "en": "The bin missing alarm turned on",
+          "nl": "Het afvalbak-ontbreekt-alarm gaat aan"
+        }
+      },
+      {
+        "id": "alarm_bin_missing_false",
+        "title": {
+          "en": "The bin missing alarm turned off",
+          "nl": "Het afvalbak-ontbreekt-alarm gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_bin_missing",
+        "title": {
+          "en": "The bin missing alarm is !{{on|off}}",
+          "nl": "Het afvalbak-ontbreekt-alarm is !{{aan|uit}}"
+        }
+      }
+    ]
+  }
+}

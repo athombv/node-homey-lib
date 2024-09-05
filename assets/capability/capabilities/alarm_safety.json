@@ -1,18 +1,21 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Safety Alarm",
+    "en": "Safety alarm",
     "nl": "Veiligheidsalarm"
   },
   "desc": {
-    "en": "True when safe."
+    "en": "True when unsafe.",
+    "nl": "Gaat af als het onveilig is."
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Safety Alarm turned on"
+    "en": "Safety alarm turned on",
+    "nl": "Veiligheidsalarm ging af"
   },
   "insightsTitleFalse": {
-    "en": "Safety Alarm turned off"
+    "en": "Safety alarm turned off",
+    "nl": "Veiligheidsalarm ging uit"
   },
   "getable": true,
   "setable": false,
@@ -23,13 +26,15 @@
         "id": "alarm_safety_true",
         "highlight": true,
         "title": {
-          "en": "The safety alarm turned on"
+          "en": "The safety alarm turned on",
+          "nl": "Het veiligheidsalarm gaat aan"
         }
       },
       {
         "id": "alarm_safety_false",
         "title": {
-          "en": "The safety alarm turned off"
+          "en": "The safety alarm turned off",
+          "nl": "Het veiligheidsalarm gaat uit"
         }
       }
     ],
@@ -37,7 +42,8 @@
       {
         "id": "alarm_safety",
         "title": {
-          "en": "The safety alarm is !{{on|off}}"
+          "en": "The safety alarm is !{{on|off}}",
+          "nl": "Het veiligheidsalarm is !{{aan|uit}}"
         }
       }
     ]

@@ -5,10 +5,12 @@
     "nl": "Snelheid"
   },
   "units": {
-    "en": "m/s"
+    "en": "m/s",
+    "nl": "m/s"
   },
   "desc": {
-    "en": "The speed in meters per second."
+    "en": "The speed in meters per second.",
+    "nl": "De snelheid in meters per seconde."
   },
   "insights": true,
   "chartType": "spline",
@@ -21,7 +23,8 @@
       {
         "id": "measure_speed_changed",
         "title": {
-          "en": "The speed changed"
+          "en": "The speed changed",
+          "nl": "De snelheid is veranderd"
         },
         "tokens": [
           {

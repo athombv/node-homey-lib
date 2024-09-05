@@ -1,0 +1,51 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Tank missing alarm",
+    "nl": "Tank-ontbreekt-alarm"
+  },
+  "desc": {
+    "en": "True when the tank is missing.",
+    "nl": "Gaat af als de tank ontbreekt."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Tank missing alarm turned on",
+    "nl": "Tank-ontbreekt-alarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Tank missing alarm turned off",
+    "nl": "Tank-ontbreekt-alarm ging uit"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_tank_missing_true",
+        "highlight": true,
+        "title": {
+          "en": "The tank missing alarm turned on",
+          "nl": "Het tank-ontbreekt-alarm gaat aan"
+        }
+      },
+      {
+        "id": "alarm_tank_missing_false",
+        "title": {
+          "en": "The tank missing alarm turned off",
+          "nl": "Het tank-ontbreekt-alarm gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_tank_missing",
+        "title": {
+          "en": "The tank missing alarm is !{{on|off}}",
+          "nl": "Het tank-ontbreekt-alarm is !{{aan|uit}}"
+        }
+      }
+    ]
+  }
+}

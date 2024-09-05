@@ -1,18 +1,21 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Vibration Alarm",
+    "en": "Vibration alarm",
     "nl": "Trilalarm"
   },
   "desc": {
-    "en": "True when vibration is detected."
+    "en": "True when vibration is detected.",
+    "nl": "Gaat af wanneer trilling wordt gedetecteerd."
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Vibration Alarm turned on"
+    "en": "Vibration alarm turned on",
+    "nl": "Trilalarm ging af"
   },
   "insightsTitleFalse": {
-    "en": "Vibration Alarm turned off"
+    "en": "Vibration alarm turned off",
+    "nl": "Trilalarm ging uit"
   },
   "getable": true,
   "setable": false,
@@ -23,13 +26,15 @@
         "id": "alarm_vibration_true",
         "highlight": true,
         "title": {
-          "en": "The vibration alarm turned on"
+          "en": "The vibration alarm turned on",
+          "nl": "Het trilalarm gaat aan"
         }
       },
       {
         "id": "alarm_vibration_false",
         "title": {
-          "en": "The vibration alarm turned off"
+          "en": "The vibration alarm turned off",
+          "nl": "Het trilalarm gaat uit"
         }
       }
     ],
@@ -37,7 +42,8 @@
       {
         "id": "alarm_vibration",
         "title": {
-          "en": "The vibration alarm is !{{on|off}}"
+          "en": "The vibration alarm is !{{on|off}}",
+          "nl": "Het trilalarm is !{{aan|uit}}"
         }
       }
     ]

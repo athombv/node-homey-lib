@@ -1,0 +1,61 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Maximum target temperature",
+    "nl": "Maximale doeltemperatuur"
+  },
+  "units": {
+    "en": "°C",
+    "nl": "°C"
+  },
+  "desc": {
+    "en": "The high end of the temperature setpoint in degrees Celsius.",
+    "nl": "Het bovenste uiteinde van het temperatuurinstelpunt in graden Celsius."
+  },
+  "insights": true,
+  "chartType": "stepLine",
+  "decimals": 2,
+  "min": 4,
+  "max": 35,
+  "getable": true,
+  "setable": true,
+  "uiComponent": "thermostat",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "temperature_setpoint_max_changed",
+        "title": {
+          "en": "The maximum target temperature has changed",
+          "nl": "De maximale doeltemperatuur is gewijzigd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 20
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_temperature_setpoint_max",
+        "title": {
+          "en": "Set the maximum target temperature",
+          "nl": "Stel de maximale doeltemperatuur in"
+        },
+        "args": [
+          {
+            "name": "value",
+            "type": "range",
+            "min": 4,
+            "max": 35,
+            "step": 0.5,
+            "example": 20
+          }
+        ]
+      }
+    ]
+  }
+}

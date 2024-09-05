@@ -5,31 +5,36 @@
     "nl": "Luchtkwaliteitsniveau"
   },
   "desc": {
-    "en": "The air quality index represented as a level."
+    "en": "The air quality index represented as a level.",
+    "nl": "De luchtkwaliteitsindex weergegeven als niveau."
   },
   "values": [
     {
       "id": "good",
       "title": {
-        "en": "Good"
+        "en": "Good",
+        "nl": "Goed"
       }
     },
     {
       "id": "poor",
       "title": {
-        "en": "Poor"
+        "en": "Poor",
+        "nl": "Slecht"
       }
     },
     {
       "id": "very_poor",
       "title": {
-        "en": "Very Poor"
+        "en": "Very Poor",
+        "nl": "Zeer Slecht"
       }
     },
     {
       "id": "extremely_poor",
       "title": {
-        "en": "Extremely Poor"
+        "en": "Extremely Poor",
+        "nl": "Extreem Slecht"
       }
     }
   ],
@@ -42,7 +47,8 @@
         "id": "level_aqi_changed",
         "highlight": true,
         "title": {
-          "en": "The air quality level changed to"
+          "en": "The air quality level changed to",
+          "nl": "Het luchtkwaliteitsniveau is veranderd naar"
         },
         "args": [
           {
@@ -57,7 +63,8 @@
       {
         "id": "level_aqi_is",
         "title": {
-          "en": "The air quality !{{is|is not}}"
+          "en": "The air quality !{{is|is not}}",
+          "nl": "De luchtkwaliteit !{{is|is niet}}"
         },
         "args": [
           {

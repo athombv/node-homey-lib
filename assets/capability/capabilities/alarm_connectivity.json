@@ -1,18 +1,21 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Connectivity Alarm",
+    "en": "Connectivity alarm",
     "nl": "Verbindingsalarm"
   },
   "desc": {
-    "en": "True when disconnected from the network."
+    "en": "True when disconnected from the network.",
+    "nl": "Gaat af wanneer het apparaat niet meer verbonden is met het netwerk."
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Connectivity Alarm turned on"
+    "en": "Connectivity alarm turned on",
+    "nl": "Verbindingsalarm ging af"
   },
   "insightsTitleFalse": {
-    "en": "Connectivity Alarm turned off"
+    "en": "Connectivity alarm turned off",
+    "nl": "Verbindingsalarm ging uit"
   },
   "getable": true,
   "setable": false,
@@ -23,13 +26,15 @@
         "id": "alarm_connectivity_true",
         "highlight": true,
         "title": {
-          "en": "Has lost connection"
+          "en": "The connectivity alarm turned on",
+          "nl": "Het verbindingsalarm gaat aan"
         }
       },
       {
         "id": "alarm_connectivity_false",
         "title": {
-          "en": "Has established connection"
+          "en": "The connectivity alarm turned off",
+          "nl": "Het verbindingsalarm gaat uit"
         }
       }
     ],
@@ -37,7 +42,8 @@
       {
         "id": "alarm_connectivity",
         "title": {
-          "en": "The connection is !{{lost|established}}"
+          "en": "The connectivity alarm is !{{on|off}}",
+          "nl": "Het verbindingsalarm is !{{aan|uit}}"
         }
       }
     ]

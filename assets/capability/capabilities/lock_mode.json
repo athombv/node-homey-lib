@@ -75,8 +75,8 @@
       {
         "id": "lock_mode_changed",
         "title": {
-          "en": "Lock mode has changed",
-          "nl": "Slot modus is veranderd",
+          "en": "Lock mode changed",
+          "nl": "Slotmodus is veranderd",
           "de": "Schloss-Modus hat sich geändert",
           "fr": "Mode verrou a été modifié",
           "it": "La modalità di blocco è cambiata",
@@ -102,7 +102,7 @@
         "id": "lock_mode_is",
         "title": {
           "en": "Lock mode !{{is|is not}}",
-          "nl": "Slot modus !{{is|is niet}}",
+          "nl": "Slotmodus !{{is|is niet}}",
           "de": "Schloss-Modus !{{ist|ist nicht}}",
           "fr": "Mode verrou !{{est|n'est pas}}",
           "it": "La modalità di blocco !{{è|non è}}",
@@ -128,7 +128,7 @@
         "id": "mode",
         "title": {
           "en": "Set mode",
-          "nl": "Stel stand in",
+          "nl": "Stel modus in",
           "de": "Modus setzen",
           "fr": "Définir le mode",
           "it": "Imposta la modalità",

@@ -5,10 +5,12 @@
     "nl": "Gegevenssnelheid"
   },
   "units": {
-    "en": "b/s"
+    "en": "b/s",
+    "nl": "b/s"
   },
   "desc": {
-    "en": "The data rate in bits per second."
+    "en": "The data rate in bits per second.",
+    "nl": "De gegevenssnelheid in bits per seconde."
   },
   "insights": true,
   "chartType": "spline",
@@ -21,7 +23,8 @@
       {
         "id": "measure_data_rate_changed",
         "title": {
-          "en": "The data rate changed"
+          "en": "The data rate changed",
+          "nl": "De gegevenssnelheid is veranderd"
         },
         "tokens": [
           {

@@ -5,31 +5,36 @@
     "nl": "Formaldehydeniveau"
   },
   "desc": {
-    "en": "The level of formaldehyde in the air."
+    "en": "The level of formaldehyde in the air.",
+    "nl": "Het niveau van formaldehyde in de lucht."
   },
   "values": [
     {
       "id": "low",
       "title": {
-        "en": "Low"
+        "en": "Low",
+        "nl": "Laag"
       }
     },
     {
       "id": "medium",
       "title": {
-        "en": "Medium"
+        "en": "Medium",
+        "nl": "Middel"
       }
     },
     {
       "id": "high",
       "title": {
-        "en": "High"
+        "en": "High",
+        "nl": "Hoog"
       }
     },
     {
       "id": "critical",
       "title": {
-        "en": "Critical"
+        "en": "Critical",
+        "nl": "Kritiek"
       }
     }
   ],
@@ -42,7 +47,8 @@
         "id": "level_ch2o_changed",
         "highlight": true,
         "title": {
-          "en": "The formaldehyde level changed to"
+          "en": "The formaldehyde level changed to",
+          "nl": "Het formaldehydeniveau is veranderd naar"
         },
         "args": [
           {
@@ -57,7 +63,8 @@
       {
         "id": "level_ch2o_is",
         "title": {
-          "en": "The formaldehyde level !{{is|is not}}"
+          "en": "The formaldehyde level !{{is|is not}}",
+          "nl": "Het formaldehydeniveau !{{is|is niet}}"
         },
         "args": [
           {

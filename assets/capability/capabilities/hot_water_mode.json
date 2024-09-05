@@ -8,13 +8,22 @@
     {
       "key": "on",
       "title": {
-        "en": "On"
+        "en": "On",
+        "nl": "Aan"
       }
     },
     {
       "key": "off",
       "title": {
-        "en": "Off"
+        "en": "Off",
+        "nl": "Uit"
+      }
+    },
+    {
+      "key": "eco",
+      "title": {
+        "en": "Eco",
+        "nl": "Eco"
       }
     }
   ],
@@ -26,7 +35,8 @@
       {
         "id": "hot_water_mode_changed",
         "title": {
-          "en": "Hot water mode has changed"
+          "en": "The hot water mode has changed to",
+          "nl": "De warmwatermodus is veranderd naar"
         },
         "args": [
           {
@@ -41,7 +51,8 @@
       {
         "id": "hot_water_mode_is",
         "title": {
-          "en": "Hot water mode !{{is|is not}}"
+          "en": "The hot water mode !{{is|is not}}",
+          "nl": "De warmwatermodus !{{is|is niet}}"
         },
         "args": [
           {
@@ -54,9 +65,10 @@
     ],
     "actions": [
       {
-        "id": "hot_water_mode_set",
+        "id": "set_hot_water_mode",
         "title": {
-          "en": "Set hot water mode to"
+          "en": "Set the hot water mode to",
+          "nl": "Stel de warmwatermodus in op"
         },
         "args": [
           {

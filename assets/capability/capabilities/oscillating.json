@@ -5,14 +5,17 @@
     "nl": "Oscilleren"
   },
   "desc": {
-    "en": "Enable or disable oscillation."
+    "en": "Enable or disable oscillation.",
+    "nl": "Schakel oscilleren in of uit."
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Oscillation enabled"
+    "en": "Oscillation enabled",
+    "nl": "Oscilleren ingeschakeld"
   },
   "insightsTitleFalse": {
-    "en": "Oscillation disabled"
+    "en": "Oscillation disabled",
+    "nl": "Oscilleren uitgeschakeld"
   },
   "getable": true,
   "setable": true,
@@ -23,13 +26,15 @@
         "id": "oscillating_true",
         "highlight": true,
         "title": {
-          "en": "Oscillation enabled"
+          "en": "Oscillation enabled",
+          "nl": "Oscilleren ingeschakeld"
         }
       },
       {
         "id": "oscillating_false",
         "title": {
-          "en": "Oscillation disabled"
+          "en": "Oscillation disabled",
+          "nl": "Oscilleren uitgeschakeld"
         }
       }
     ],
@@ -37,7 +42,8 @@
       {
         "id": "oscillating",
         "title": {
-          "en": "Oscillation is !{{enabled|disabled}}"
+          "en": "Oscillation is !{{enabled|disabled}}",
+          "nl": "Oscilleren is !{{ingeschakeld|uitgeschakeld}}"
         }
       }
     ],
@@ -45,19 +51,22 @@
       {
         "id": "enable_oscillating",
         "title": {
-          "en": "Enable Oscillation"
+          "en": "Enable Oscillation",
+          "nl": "Zet oscilleren aan"
         }
       },
       {
         "id": "disable_oscillating",
         "title": {
-          "en": "Disable Oscillation"
+          "en": "Disable Oscillation",
+          "nl": "Zet oscilleren uit"
         }
       },
       {
         "id": "toggle_oscillating",
         "title": {
-          "en": "Toggle Oscillation"
+          "en": "Toggle Oscillation on or off",
+          "nl": "Schakel oscilleren aan of uit"
         }
       }
     ]

@@ -1,18 +1,21 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Noise Alarm",
+    "en": "Noise alarm",
     "nl": "Geluidsalarm"
   },
   "desc": {
-    "en": "True when sound is detected."
+    "en": "True when sound is detected.",
+    "nl": "Gaat af wanneer geluid wordt gedetecteerd."
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Noise Alarm turned on"
+    "en": "Noise Alarm turned on",
+    "nl": "Geluidsalarm ging af"
   },
   "insightsTitleFalse": {
-    "en": "Noise Alarm turned off"
+    "en": "Noise Alarm turned off",
+    "nl": "Geluidsalarm ging uit"
   },
   "getable": true,
   "setable": false,
@@ -23,13 +26,15 @@
         "id": "alarm_noise_true",
         "highlight": true,
         "title": {
-          "en": "The noise alarm turned on"
+          "en": "The noise alarm turned on",
+          "nl": "Het geluidsalarm gaat aan"
         }
       },
       {
         "id": "alarm_noise_false",
         "title": {
-          "en": "The noise alarm turned off"
+          "en": "The noise alarm turned off",
+          "nl": "Het geluidsalarm gaat uit"
         }
       }
     ],
@@ -37,7 +42,8 @@
       {
         "id": "alarm_noise",
         "title": {
-          "en": "The noise alarm is !{{on|off}}"
+          "en": "The noise alarm is !{{on|off}}",
+          "nl": "Het geluidsalarm is !{{aan|uit}}"
         }
       }
     ]

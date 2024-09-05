@@ -5,10 +5,12 @@
     "nl": "Geur"
   },
   "units": {
-    "en": "OU"
+    "en": "OU",
+    "nl": "GE"
   },
   "desc": {
-    "en": "Odor concentration in odor units."
+    "en": "Odor concentration in odor units.",
+    "nl": "Geurconcentratie in geureenheden."
   },
   "insights": true,
   "chartType": "spline",
@@ -21,7 +23,8 @@
       {
         "id": "measure_odor_changed",
         "title": {
-          "en": "The odor concentration changed"
+          "en": "The odor concentration changed",
+          "nl": "De geurconcentratie is veranderd"
         },
         "tokens": [
           {

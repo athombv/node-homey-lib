@@ -5,11 +5,13 @@
     "nl": "NOx"
   },
   "units": {
-    "en": "μg/m³"
+    "en": "μg/m³",
+    "nl": "μg/m³"
   },
   "insights": true,
   "desc": {
-    "en": "Nitrogen Oxides in micrograms per cubic meter (μg/m³)"
+    "en": "Nitrogen Oxides in micrograms per cubic meter (μg/m³)",
+    "nl": "Stikstofoxiden in microgram per kubieke meter (μg/m³)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -21,7 +23,8 @@
       {
         "id": "measure_nox_changed",
         "title": {
-          "en": "The NOx value changed"
+          "en": "The NOx value changed",
+          "nl": "De NOx-waarde is veranderd"
         },
         "tokens": [
           {

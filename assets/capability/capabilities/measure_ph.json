@@ -5,7 +5,8 @@
     "nl": "pH-waarde"
   },
   "desc": {
-    "en": "The pH level of a aqueous solution."
+    "en": "The pH level of a aqueous solution.",
+    "nl": "De pH-waarde van een oplossing."
   },
   "insights": true,
   "chartType": "spline",
@@ -18,7 +19,8 @@
       {
         "id": "measure_ph_changed",
         "title": {
-          "en": "The pH level changed"
+          "en": "The pH level changed",
+          "nl": "De pH-waarde is veranderd"
         },
         "tokens": [
           {

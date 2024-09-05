@@ -5,31 +5,36 @@
     "nl": "NOx-niveau"
   },
   "desc": {
-    "en": "The level of nitrogen oxides in the air."
+    "en": "The level of nitrogen oxides in the air.",
+    "nl": "Het niveau van stikstofoxiden in de lucht."
   },
   "values": [
     {
       "id": "low",
       "title": {
-        "en": "Low"
+        "en": "Low",
+        "nl": "Laag"
       }
     },
     {
       "id": "medium",
       "title": {
-        "en": "Medium"
+        "en": "Medium",
+        "nl": "Middel"
       }
     },
     {
       "id": "high",
       "title": {
-        "en": "High"
+        "en": "High",
+        "nl": "Hoog"
       }
     },
     {
       "id": "critical",
       "title": {
-        "en": "Critical"
+        "en": "Critical",
+        "nl": "Kritiek"
       }
     }
   ],
@@ -42,7 +47,8 @@
         "id": "level_nox_changed",
         "highlight": true,
         "title": {
-          "en": "The NOx level changed to"
+          "en": "The NOx level changed to",
+          "nl": "Het NOx-niveau is veranderd naar"
         },
         "args": [
           {
@@ -57,7 +63,8 @@
       {
         "id": "level_nox_is",
         "title": {
-          "en": "The NOx level !{{is|is not}}"
+          "en": "The NOx level !{{is|is not}}",
+          "nl": "Het NOx-niveau !{{is|is niet}}"
         },
         "args": [
           {

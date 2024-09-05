@@ -5,14 +5,17 @@
     "nl": "Gedockt"
   },
   "desc": {
-    "en": "True when docked."
+    "en": "True when docked.",
+    "nl": "Gaat af wanneer gedockt."
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Docked"
+    "en": "Docked",
+    "nl": "Gedockt"
   },
   "insightsTitleFalse": {
-    "en": "Not docked"
+    "en": "Not docked",
+    "nl": "Niet gedockt"
   },
   "getable": true,
   "setable": false,
@@ -23,13 +26,15 @@
         "id": "docked_true",
         "highlight": true,
         "title": {
-          "en": "Docked"
+          "en": "Docked",
+          "nl": "Gedockt"
         }
       },
       {
         "id": "docked_false",
         "title": {
-          "en": "Not docked"
+          "en": "Not docked",
+          "nl": "Niet gedockt"
         }
       }
     ],
@@ -37,7 +42,8 @@
       {
         "id": "docked",
         "title": {
-          "en": "!{{Docked|Not docked}}"
+          "en": "Is !{{Docked|Not docked}}",
+          "nl": "Is !{{Gedockt|Niet gedockt}}"
         }
       }
     ]

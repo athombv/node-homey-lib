@@ -1,0 +1,51 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Bin full alarm",
+    "nl": "Afvalbak-vol-alarm"
+  },
+  "desc": {
+    "en": "True when the bin is full",
+    "nl": "Gaat af als de afvalbak vol is"
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Bin full alarm turned on",
+    "nl": "Afvalbak-vol-alarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Bin full alarm turned off",
+    "nl": "Afvalbak-vol-alarm ging uit"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_bin_full_true",
+        "highlight": true,
+        "title": {
+          "en": "The bin full alarm turned on",
+          "nl": "Het afvalbak-vol-alarm gaat aan"
+        }
+      },
+      {
+        "id": "alarm_bin_full_false",
+        "title": {
+          "en": "The bin full alarm turned off",
+          "nl": "Het afvalbak-vol-alarm gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_bin_full",
+        "title": {
+          "en": "The bin full alarm is !{{on|off}}",
+          "nl": "Het afvalbak-vol-alarm is !{{aan|uit}}"
+        }
+      }
+    ]
+  }
+}

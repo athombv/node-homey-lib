@@ -5,11 +5,14 @@
     "nl": "Doelvochtigheid"
   },
   "units": {
-    "en": "%"
+    "en": "%",
+    "nl": "%"
   },
   "desc": {
-    "en": "The target humidity level in percent."
+    "en": "The target humidity level in percent.",
+    "nl": "Het doelvochtigheidsniveau in procent."
   },
+  "insights": true,
   "getable": true,
   "setable": true,
   "uiComponent": "slider",
@@ -18,7 +21,8 @@
       {
         "id": "target_humidity_changed",
         "title": {
-          "en": "The target humidity changed"
+          "en": "The target humidity changed",
+          "nl": "De doelvochtigheid is gewijzigd"
         },
         "tokens": [
           {
@@ -32,15 +36,17 @@
     ],
     "actions": [
       {
-        "id": "target_humidity_set",
+        "id": "set_target_humidity",
         "title": {
-          "en": "Set the humidity"
+          "en": "Set the humidity",
+          "nl": "Stel de vochtigheid in"
         },
-        "tokens": [
+        "args": [
           {
-            "name": "$id",
-            "title": "$title",
-            "type": "$type",
+            "name": "value",
+            "type": "range",
+            "min": 0,
+            "max": 100,
             "example": 50
           }
         ]

@@ -1,13 +1,16 @@
 {
   "type": "number",
   "title": {
-    "en": "Humidity setpoint max"
+    "en": "Maximum target humidity",
+    "nl": "Maximale doelvochtigheid"
   },
   "units": {
-    "en": "%"
+    "en": "%",
+    "nl": "%"
   },
   "desc": {
-    "en": "The high end of the target humidity level in percent."
+    "en": "The high end of the target humidity level in percent.",
+    "nl": "Het bovenste uiteinde van het doelvochtigheidsniveau in procent."
   },
   "insights": true,
   "chartType": "stepLine",
@@ -22,7 +25,8 @@
       {
         "id": "setpoint_humidity_max_changed",
         "title": {
-          "en": "The setpoint humidity max changed"
+          "en": "The maximum target humidity has changed",
+          "nl": "De maximale doelvochtigheid is gewijzigd"
         },
         "tokens": [
           {
@@ -36,15 +40,18 @@
     ],
     "actions": [
       {
-        "id": "setpoint_humidity_max_set",
+        "id": "set_setpoint_humidity_max",
         "title": {
-          "en": "Set the humidity max"
+          "en": "Set the maximum target humidity",
+          "nl": "Stel de maximale doelvochtigheid in"
         },
-        "tokens": [
+        "args": [
           {
-            "name": "$id",
-            "title": "$title",
-            "type": "$type",
+            "name": "value",
+            "type": "range",
+            "min": 0,
+            "max": 100,
+            "step": 1,
             "example": 50
           }
         ]

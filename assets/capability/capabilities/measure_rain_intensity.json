@@ -5,10 +5,12 @@
     "nl": "Regenintensiteit"
   },
   "units": {
-    "en": "mm/h"
+    "en": "mm/h",
+    "nl": "mm/u"
   },
   "desc": {
-    "en": "The rain intensity in millimeters per hour."
+    "en": "The rain intensity in millimeters per hour.",
+    "nl": "De regenintensiteit in millimeters per uur."
   },
   "insights": true,
   "chartType": "spline",
@@ -21,7 +23,8 @@
       {
         "id": "measure_rain_intensity_changed",
         "title": {
-          "en": "The rain intensity changed"
+          "en": "The rain intensity changed",
+          "nl": "De regenintensiteit is veranderd"
         },
         "tokens": [
           {

@@ -5,10 +5,12 @@
     "nl": "Pompinstelpunt"
   },
   "units": {
-    "en": "%"
+    "en": "%",
+    "nl": "%"
   },
   "desc": {
-    "en": "The pump setpoint in percentage."
+    "en": "The pump setpoint in percentage.",
+    "nl": "Het pompinstelpunt in procent."
   },
   "insights": true,
   "chartType": "spline",
@@ -21,7 +23,8 @@
       {
         "id": "pump_setpoint_changed",
         "title": {
-          "en": "The pump setpoint changed"
+          "en": "The pump setpoint changed",
+          "nl": "Het pompinstelpunt is veranderd"
         },
         "tokens": [
           {
@@ -37,13 +40,13 @@
       {
         "id": "set_pump_setpoint",
         "title": {
-          "en": "Set the pump setpoint"
+          "en": "Set the pump setpoint",
+          "nl": "Stel het pompinstelpunt in"
         },
-        "tokens": [
+        "args": [
           {
-            "name": "$id",
-            "title": "$title",
-            "type": "$type",
+            "name": "setpoint",
+            "type": "number",
             "example": 50
           }
         ]

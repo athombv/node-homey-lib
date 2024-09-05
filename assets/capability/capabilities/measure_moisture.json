@@ -5,10 +5,12 @@
     "nl": "Vochtigheid"
   },
   "units": {
-    "en": "%"
+    "en": "%",
+    "nl": "%"
   },
   "desc": {
-    "en": "The moisture level in percentage."
+    "en": "The moisture level in percentage.",
+    "nl": "Het vochtigheidsniveau in procent."
   },
   "insights": true,
   "chartType": "spline",
@@ -21,7 +23,8 @@
       {
         "id": "measure_moisture_changed",
         "title": {
-          "en": "The moisture level changed"
+          "en": "The moisture level changed",
+          "nl": "Het vochtigheidsniveau is veranderd"
         },
         "tokens": [
           {

@@ -5,14 +5,17 @@
     "nl": "Gasalarm"
   },
   "description": {
-    "en": "True when gas is detected"
+    "en": "True when gas is detected",
+    "nl": "Gaat af wanneer gas wordt gedetecteerd"
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Gas alarm turned on"
+    "en": "Gas alarm turned on",
+    "nl": "Gasalarm ging af"
   },
   "insightsTitleFalse": {
-    "en": "Gas alarm turned off"
+    "en": "Gas alarm turned off",
+    "nl": "Gasalarm ging uit"
   },
   "getable": true,
   "setable": false,
@@ -23,13 +26,15 @@
         "id": "alarm_gas_true",
         "highlight": true,
         "title": {
-          "en": "The gas alarm turned on"
+          "en": "The gas alarm turned on",
+          "nl": "Het gasalarm gaat aan"
         }
       },
       {
         "id": "alarm_gas_false",
         "title": {
-          "en": "The gas alarm turned off"
+          "en": "The gas alarm turned off",
+          "nl": "Het gasalarm gaat uit"
         }
       }
     ],
@@ -37,7 +42,8 @@
       {
         "id": "alarm_gas",
         "title": {
-          "en": "The gas alarm is !{{on|off}}"
+          "en": "The gas alarm is !{{on|off}}",
+          "nl": "Het gasalarm is !{{aan|uit}}"
         }
       }
     ]

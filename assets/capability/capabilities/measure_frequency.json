@@ -5,10 +5,12 @@
     "nl": "Frequentie"
   },
   "units": {
-    "en": "Hz"
+    "en": "Hz",
+    "nl": "Hz"
   },
   "desc": {
-    "en": "The frequency in hertz."
+    "en": "The frequency in hertz.",
+    "nl": "De frequentie in hertz."
   },
   "insights": true,
   "chartType": "spline",
@@ -21,7 +23,8 @@
       {
         "id": "measure_frequency_changed",
         "title": {
-          "en": "The frequency changed"
+          "en": "The frequency changed",
+          "nl": "De frequentie is veranderd"
         },
         "tokens": [
           {

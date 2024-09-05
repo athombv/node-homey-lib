@@ -5,31 +5,36 @@
     "nl": "Operationele staat"
   },
   "desc": {
-    "en": "The operational state of the appliance."
+    "en": "The operational state of the appliance.",
+    "nl": "De operationele staat van het apparaat."
   },
   "values": [
     {
       "id": "stopped",
       "title": {
-        "en": "Stopped"
+        "en": "Stopped",
+        "nl": "Gestopt"
       }
     },
     {
       "id": "running",
       "title": {
-        "en": "Running"
+        "en": "Running",
+        "nl": "Aan"
       }
     },
     {
       "id": "paused",
       "title": {
-        "en": "Paused"
+        "en": "Paused",
+        "nl": "Gepauzeerd"
       }
     },
     {
       "id": "error",
       "title": {
-        "en": "Error"
+        "en": "Error",
+        "nl": "Fout"
       }
     }
   ],
@@ -42,7 +47,8 @@
         "id": "operational_state_changed",
         "highlight": true,
         "title": {
-          "en": "The operational state changed to"
+          "en": "The operational state changed to",
+          "nl": "De operationele staat is veranderd naar"
         },
         "args": [
           {
@@ -57,7 +63,8 @@
       {
         "id": "operational_state_is",
         "title": {
-          "en": "The operational state !{{is|is not}}"
+          "en": "The operational state !{{is|is not}}",
+          "nl": "De operationele staat !{{is|is niet}}"
         },
         "args": [
           {
