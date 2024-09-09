@@ -281,6 +281,39 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
   });
 
+  it('`capabilities` needs to be checked for compatibility', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=5.0.0 <=12.0.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['alarm_pm01'], // Capability that requires compatibility >= 12.1
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /capability: alarm_pm01 is not available for compatibility/i,
+      publish: /capability: alarm_pm01 is not available for compatibility/i,
+      verified: /capability: alarm_pm01 is not available for compatibility/i,
+    });
+  });
+
+  it('`capabilities` without compatibility should validate', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['onoff'], // Capability that has no min compatibility
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
+
   /*
    * Zigbee Driver
    */

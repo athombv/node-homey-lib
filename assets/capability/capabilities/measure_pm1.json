@@ -67,5 +67,6 @@
         ]
       }
     ]
-  }
+  },
+  "minCompatibility": "12.1.0"
 }
