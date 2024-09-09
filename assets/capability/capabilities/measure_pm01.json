@@ -45,7 +45,7 @@
         "id": "measure_pm01_changed",
         "title": {
           "en": "The PM0.1 value has changed",
-          "nl": "De PM0.1 waarde is veranderd",
+          "nl": "De PM0,1 waarde is veranderd",
           "de": "Der PM0.1-Wert hat sich geändert",
           "fr": "La valeur PM0.1 a changé",
           "it": "Il valore di PM0.1 è cambiato",

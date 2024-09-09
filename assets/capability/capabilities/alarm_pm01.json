@@ -2,7 +2,7 @@
   "type": "boolean",
   "title": {
     "en": "PM0.1 alarm",
-    "nl": "PM0.1 alarm",
+    "nl": "PM0,1 alarm",
     "de": "PM0.1-Alarm",
     "fr": "Alarme PM0.1",
     "it": "Allarme PM0.1",
@@ -16,7 +16,7 @@
   },
   "desc": {
     "en": "True when PM0.1 values exceeds threshold",
-    "nl": "Gaat af wanneer de PM0.1 waarde overschreden wordt",
+    "nl": "Gaat af wanneer de PM0,1 waarde overschreden wordt",
     "de": "True, wenn PM0.1-Werte die Schwelle überschreiten",
     "fr": "Vrai si les valeurs PM0.1 excèdent un seuil",
     "it": "Vero quando i valori PM0.1 superano la soglia",
@@ -31,7 +31,7 @@
   "insights": true,
   "insightsTitleTrue": {
     "en": "PM0.1 alarm turned on",
-    "nl": "PM0.1 alarm ging af",
+    "nl": "PM0,1 alarm ging af",
     "de": "PM0.1-Alarm ist angegangen",
     "fr": "Alarme PM0.1 s'est activée",
     "it": "Allarme PM0.1 attivato",
@@ -45,7 +45,7 @@
   },
   "insightsTitleFalse": {
     "en": "PM0.1 alarm turned off",
-    "nl": "PM0.1 alarm ging uit",
+    "nl": "PM0,1 alarm ging uit",
     "de": "PM0.1-Alarm ist ausgegangen",
     "fr": "Alarme PM0.1 s'est désactivée",
     "it": "Allarme PM0.1 disattivato",
@@ -67,7 +67,7 @@
         "highlight": true,
         "title": {
           "en": "The PM0.1 alarm turned on",
-          "nl": "Het PM0.1 gaat aan",
+          "nl": "Het PM0,1 gaat aan",
           "de": "Der PM0.1-Alarm ist angegangen",
           "fr": "L'alarme PM0.1 s'est activée",
           "it": "L'allarme PM0.1 è stato attivato",
@@ -84,7 +84,7 @@
         "id": "alarm_pm01_false",
         "title": {
           "en": "The PM0.1 alarm turned off",
-          "nl": "Het PM0.1 gaat uit",
+          "nl": "Het PM0,1 gaat uit",
           "de": "Der PM0.1-Alarm ist ausgegangen",
           "fr": "L'alarme PM0.1 s'est désactivée",
           "it": "L'allarme PM0.1 è stato disattivato",
@@ -103,7 +103,7 @@
         "id": "alarm_pm01",
         "title": {
           "en": "The PM0.1 alarm is !{{on|off}}",
-          "nl": "Het PM0.1 alarm is !{{aan|uit}}",
+          "nl": "Het PM0,1 alarm is !{{aan|uit}}",
           "de": "Der PM0.1-Alarm ist !{{an|aus}}",
           "fr": "L'alarme PM0.1 est !{{en marche|arrêtée}}",
           "it": "L'allarme PM0.1 è !{{acceso|spento}}",

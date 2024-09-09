@@ -16,7 +16,7 @@
   },
   "desc": {
     "en": "True when PM2.5 values exceeds threshold",
-    "nl": "Gaat af wanneer de PM2.5 waarde overschreden wordt",
+    "nl": "Gaat af wanneer de PM2,5 waarde overschreden wordt",
     "de": "True, wenn PM2.5-Werte die Schwelle überschreiten",
     "fr": "Vrai si les valeurs PM2.5 excèdent un seuil",
     "it": "Vero quando i valori PM2.5 superano la soglia",
@@ -31,7 +31,7 @@
   "insights": true,
   "insightsTitleTrue": {
     "en": "PM2.5 alarm turned on",
-    "nl": "PM2.5 alarm ging af",
+    "nl": "PM2,5 alarm ging af",
     "de": "PM2.5-Alarm ist angegangen",
     "fr": "Alarme PM2.5 s'est activée",
     "it": "Allarme PM2.5 attivato",
@@ -45,7 +45,7 @@
   },
   "insightsTitleFalse": {
     "en": "PM2.5 alarm turned off",
-    "nl": "PM2.5 alarm ging uit",
+    "nl": "PM2,5 alarm ging uit",
     "de": "PM2.5-Alarm ist ausgegangen",
     "fr": "Alarme PM2.5 s'est désactivée",
     "it": "Allarme PM2.5 disattivato",
@@ -67,7 +67,7 @@
         "highlight": true,
         "title": {
           "en": "The PM2.5 alarm turned on",
-          "nl": "Het PM2.5 gaat aan",
+          "nl": "Het PM2,5 gaat aan",
           "de": "Der PM2.5-Alarm ist angegangen",
           "fr": "L'alarme PM2.5 s'est activée",
           "it": "L'allarme PM2.5 è stato attivato",
@@ -84,7 +84,7 @@
         "id": "alarm_pm25_false",
         "title": {
           "en": "The PM2.5 alarm turned off",
-          "nl": "Het PM2.5 gaat uit",
+          "nl": "Het PM2,5 gaat uit",
           "de": "Der PM2.5-Alarm ist ausgegangen",
           "fr": "L'alarme PM2.5 s'est désactivée",
           "it": "L'allarme PM2.5 è stato disattivato",
@@ -103,7 +103,7 @@
         "id": "alarm_pm25",
         "title": {
           "en": "The PM2.5 alarm is !{{on|off}}",
-          "nl": "Het PM2.5 alarm is !{{aan|uit}}",
+          "nl": "Het PM2,5 alarm is !{{aan|uit}}",
           "de": "Der PM2.5-Alarm ist !{{an|aus}}",
           "fr": "L'alarme PM2.5 est !{{en marche|arrêtée}}",
           "it": "L'allarme PM2.5 è !{{acceso|spento}}",
