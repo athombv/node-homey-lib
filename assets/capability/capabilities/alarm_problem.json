@@ -10,12 +10,12 @@
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Problem alarm turned on",
-    "nl": "Probleemalarm ging af"
+    "en": "Problem was detected",
+    "nl": "Probleem gedetecteerd"
   },
   "insightsTitleFalse": {
-    "en": "Problem alarm turned off",
-    "nl": "Probleemalarm ging uit"
+    "en": "Problem solved",
+    "nl": "Probleem opgelost"
   },
   "getable": true,
   "setable": false,
@@ -26,15 +26,15 @@
         "id": "alarm_problem_true",
         "highlight": true,
         "title": {
-          "en": "The problem alarm turned on",
-          "nl": "Het probleemalarm gaat aan"
+          "en": "A problem is detected",
+          "nl": "Een probleem is gedetecteerd"
         }
       },
       {
         "id": "alarm_problem_false",
         "title": {
-          "en": "The problem alarm turned off",
-          "nl": "Het probleemalarm gaat uit"
+          "en": "The problem is solved",
+          "nl": "Het probleem is opgelost"
         }
       }
     ],
@@ -42,8 +42,8 @@
       {
         "id": "alarm_problem",
         "title": {
-          "en": "The problem alarm is !{{on|off}}",
-          "nl": "Het probleemalarm is !{{aan|uit}}"
+          "en": "There !{{is|isn't}} a problem",
+          "nl": "Er !{{is|is geen}} probleem"
         }
       }
     ]

@@ -10,12 +10,12 @@
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Connectivity alarm turned on",
-    "nl": "Verbindingsalarm ging af"
+    "en": "Disconnected",
+    "nl": "Verbinding verbroken"
   },
   "insightsTitleFalse": {
-    "en": "Connectivity alarm turned off",
-    "nl": "Verbindingsalarm ging uit"
+    "en": "Connected",
+    "nl": "Verbinding hersteld"
   },
   "getable": true,
   "setable": false,
@@ -26,15 +26,15 @@
         "id": "alarm_connectivity_true",
         "highlight": true,
         "title": {
-          "en": "The connectivity alarm turned on",
-          "nl": "Het verbindingsalarm gaat aan"
+          "en": "Disconnected",
+          "nl": "Verbinding verbroken"
         }
       },
       {
         "id": "alarm_connectivity_false",
         "title": {
-          "en": "The connectivity alarm turned off",
-          "nl": "Het verbindingsalarm gaat uit"
+          "en": "Connected",
+          "nl": "Verbonden"
         }
       }
     ],
@@ -42,8 +42,8 @@
       {
         "id": "alarm_connectivity",
         "title": {
-          "en": "The connectivity alarm is !{{on|off}}",
-          "nl": "Het verbindingsalarm is !{{aan|uit}}"
+          "en": "Is !{{connected|disconnected}}",
+          "nl": "Is !{{verbonden|niet verbonden}}"
         }
       }
     ]

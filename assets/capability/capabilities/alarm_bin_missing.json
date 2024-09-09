@@ -10,12 +10,12 @@
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Bin missing alarm turned on",
-    "nl": "Afvalbak-ontbreekt-alarm ging af"
+    "en": "The bin was removed",
+    "nl": "De afvalbak was verwijderd"
   },
   "insightsTitleFalse": {
-    "en": "Bin missing alarm turned off",
-    "nl": "Afvalbak-ontbreekt-alarm ging uit"
+    "en": "The bin was placed",
+    "nl": "De afvalbak was geplaatst"
   },
   "getable": true,
   "setable": false,
@@ -26,15 +26,15 @@
         "id": "alarm_bin_missing_true",
         "highlight": true,
         "title": {
-          "en": "The bin missing alarm turned on",
-          "nl": "Het afvalbak-ontbreekt-alarm gaat aan"
+          "en": "The bin was removed",
+          "nl": "De afvalbak is verwijderd"
         }
       },
       {
         "id": "alarm_bin_missing_false",
         "title": {
-          "en": "The bin missing alarm turned off",
-          "nl": "Het afvalbak-ontbreekt-alarm gaat uit"
+          "en": "The bin was placed",
+          "nl": "De afvalbak is geplaatst"
         }
       }
     ],
@@ -42,8 +42,8 @@
       {
         "id": "alarm_bin_missing",
         "title": {
-          "en": "The bin missing alarm is !{{on|off}}",
-          "nl": "Het afvalbak-ontbreekt-alarm is !{{aan|uit}}"
+          "en": "The bin is !{{missing|present}}",
+          "nl": "De afvalbak is !{{aanwezig|afwezig}}"
         }
       }
     ]

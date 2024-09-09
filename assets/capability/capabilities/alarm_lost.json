@@ -10,12 +10,12 @@
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Lost alarm turned on",
-    "nl": "Verdwaald-alarm ging af"
+    "en": "Was lost",
+    "nl": "Was verdwaald"
   },
   "insightsTitleFalse": {
-    "en": "Lost alarm turned off",
-    "nl": "Verdwaald-alarm ging uit"
+    "en": "Was no longer lost",
+    "nl": "Was niet meer verdwaald"
   },
   "getable": true,
   "setable": false,
@@ -26,15 +26,15 @@
         "id": "alarm_lost_true",
         "highlight": true,
         "title": {
-          "en": "The lost alarm turned on",
-          "nl": "Het verdwaald-alarm gaat aan"
+          "en": "Is lost",
+          "nl": "Is verdwaald"
         }
       },
       {
         "id": "alarm_lost_false",
         "title": {
-          "en": "The lost alarm turned off",
-          "nl": "Het verdwaald-alarm gaat uit"
+          "en": "Is no longer lost",
+          "nl": "Is niet meer verdwaald"
         }
       }
     ],
@@ -42,8 +42,8 @@
       {
         "id": "alarm_lost",
         "title": {
-          "en": "The lost alarm is !{{on|off}}",
-          "nl": "Het verdwaald-alarm is !{{aan|uit}}"
+          "en": "Is !{{lost|not lost}}",
+          "nl": "Is !{{verdwaald|niet verdwaald}}"
         }
       }
     ]
