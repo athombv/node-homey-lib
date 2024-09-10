@@ -1,0 +1,52 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Docked",
+    "nl": "Gedockt"
+  },
+  "desc": {
+    "en": "True when docked.",
+    "nl": "Gaat af wanneer gedockt."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Docked",
+    "nl": "Gedockt"
+  },
+  "insightsTitleFalse": {
+    "en": "Not docked",
+    "nl": "Niet gedockt"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "docked_true",
+        "highlight": true,
+        "title": {
+          "en": "Docked",
+          "nl": "Gedockt"
+        }
+      },
+      {
+        "id": "docked_false",
+        "title": {
+          "en": "Not docked",
+          "nl": "Niet gedockt"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "docked",
+        "title": {
+          "en": "Is !{{Docked|Not docked}}",
+          "nl": "Is !{{Gedockt|Niet gedockt}}"
+        }
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

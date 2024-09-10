@@ -1,0 +1,52 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Door fault alarm",
+    "nl": "Deur-probleemalarm"
+  },
+  "desc": {
+    "en": "True when there is an issue with the door or lock.",
+    "nl": "Gaat af wanneer er een probleem is met de deur of het slot."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Door fault alarm turned on",
+    "nl": "Deur-probleemalarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Door fault alarm turned off",
+    "nl": "Deur-probleemalarm ging uit"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_door_true",
+        "highlight": true,
+        "title": {
+          "en": "The door alarm turned on",
+          "nl": "Het deur-alarm ging aan"
+        }
+      },
+      {
+        "id": "alarm_door_false",
+        "title": {
+          "en": "The door alarm turned off",
+          "nl": "Het deur-alarm ging uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_door",
+        "title": {
+          "en": "The door alarm is !{{on|off}}",
+          "nl": "Het deur-alarm is !{{aan|uit}}"
+        }
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

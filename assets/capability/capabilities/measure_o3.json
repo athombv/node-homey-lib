@@ -1,0 +1,41 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Ozone",
+    "nl": "Ozon"
+  },
+  "units": {
+    "en": "μg/m³",
+    "nl": "μg/m³"
+  },
+  "insights": true,
+  "desc": {
+    "en": "Ozone in micrograms per cubic meter (μg/m³)",
+    "nl": "Ozon in microgram per kubieke meter (μg/m³)"
+  },
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_o3_changed",
+        "title": {
+          "en": "The Ozone value changed",
+          "nl": "De ozonwaarde is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

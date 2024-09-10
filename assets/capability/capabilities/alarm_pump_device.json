@@ -1,0 +1,52 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Pump device fault alarm",
+    "nl": "Pompapparaatfoutalarm"
+  },
+  "desc": {
+    "en": "True when a fault is detected in the pump device.",
+    "nl": "Waar wanneer een fout wordt gedetecteerd in het pompapparaat."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Pump device fault alarm turned on",
+    "nl": "Pompapparaatfoutalarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Pump device fault alarm turned off",
+    "nl": "Pompapparaatfoutalarm ging uit"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_pump_device_true",
+        "highlight": true,
+        "title": {
+          "en": "The pump device fault alarm turned on",
+          "nl": "Het pompapparaatfoutalarm gaat aan"
+        }
+      },
+      {
+        "id": "alarm_pump_device_false",
+        "title": {
+          "en": "The pump device fault alarm turned off",
+          "nl": "Het pompapparaatfoutalarm gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_pump_device",
+        "title": {
+          "en": "The pump device fault alarm is !{{on|off}}",
+          "nl": "Het pompapparaatfoutalarm is !{{aan|uit}}"
+        }
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

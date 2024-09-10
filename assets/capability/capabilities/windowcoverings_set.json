@@ -44,8 +44,8 @@
       {
         "id": "windowcoverings_set_changed",
         "title": {
-          "en": "Position changed",
-          "nl": "Positie veranderd",
+          "en": "The position changed",
+          "nl": "De positie is veranderd",
           "de": "Position hat sich geändert",
           "fr": "Position a été modifiée",
           "it": "Posizione cambiata",

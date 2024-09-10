@@ -1,0 +1,62 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Maximum target humidity",
+    "nl": "Maximale doelvochtigheid"
+  },
+  "units": {
+    "en": "%",
+    "nl": "%"
+  },
+  "desc": {
+    "en": "The high end of the target humidity level in percent.",
+    "nl": "Het bovenste uiteinde van het doelvochtigheidsniveau in procent."
+  },
+  "insights": true,
+  "chartType": "stepLine",
+  "decimals": 0,
+  "min": 0,
+  "max": 100,
+  "getable": true,
+  "setable": true,
+  "uiComponent": "slider",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "setpoint_humidity_max_changed",
+        "title": {
+          "en": "The maximum target humidity has changed",
+          "nl": "De maximale doelvochtigheid is gewijzigd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 50
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_setpoint_humidity_max",
+        "title": {
+          "en": "Set the maximum target humidity",
+          "nl": "Stel de maximale doelvochtigheid in"
+        },
+        "args": [
+          {
+            "name": "value",
+            "type": "range",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "example": 50
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

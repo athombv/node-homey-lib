@@ -1,0 +1,52 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Lost alarm",
+    "nl": "Verdwaald-alarm"
+  },
+  "desc": {
+    "en": "True when the device is lost.",
+    "nl": "Gaat af wanneer het apparaat verdwaald is."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Was lost",
+    "nl": "Was verdwaald"
+  },
+  "insightsTitleFalse": {
+    "en": "Was no longer lost",
+    "nl": "Was niet meer verdwaald"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_lost_true",
+        "highlight": true,
+        "title": {
+          "en": "Is lost",
+          "nl": "Is verdwaald"
+        }
+      },
+      {
+        "id": "alarm_lost_false",
+        "title": {
+          "en": "Is no longer lost",
+          "nl": "Is niet meer verdwaald"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_lost",
+        "title": {
+          "en": "Is !{{lost|not lost}}",
+          "nl": "Is !{{verdwaald|niet verdwaald}}"
+        }
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

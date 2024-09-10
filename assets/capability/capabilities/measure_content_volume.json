@@ -1,0 +1,41 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Volume",
+    "nl": "Volume"
+  },
+  "units": {
+    "en": "L",
+    "nl": "L"
+  },
+  "desc": {
+    "en": "The volume of the content in liters.",
+    "nl": "Het volume van de inhoud in liters."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_content_volume_changed",
+        "title": {
+          "en": "The volume changed",
+          "nl": "Het volume is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

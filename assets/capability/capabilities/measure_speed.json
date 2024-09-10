@@ -1,0 +1,41 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Speed",
+    "nl": "Snelheid"
+  },
+  "units": {
+    "en": "m/s",
+    "nl": "m/s"
+  },
+  "desc": {
+    "en": "The speed in meters per second.",
+    "nl": "De snelheid in meters per seconde."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_speed_changed",
+        "title": {
+          "en": "The speed changed",
+          "nl": "De snelheid is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

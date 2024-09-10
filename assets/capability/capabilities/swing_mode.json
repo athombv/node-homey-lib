@@ -1,0 +1,84 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Swing mode",
+    "nl": "Zwenkmodus"
+  },
+  "values": [
+    {
+      "key": "vertical",
+      "title": {
+        "en": "Vertical",
+        "nl": "Verticaal"
+      }
+    },
+    {
+      "key": "horizontal",
+      "title": {
+        "en": "Horizontal",
+        "nl": "Horizontaal"
+      }
+    },
+    {
+      "key": "both",
+      "title": {
+        "en": "Both",
+        "nl": "Beide"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "swing_mode_changed",
+        "title": {
+          "en": "Swing mode has changed",
+          "nl": "Zwenkmodus is veranderd"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "swing_mode_is",
+        "title": {
+          "en": "Swing mode !{{is|is not}}",
+          "nl": "Zwenkmodus !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_swing_mode",
+        "title": {
+          "en": "Set swing mode to",
+          "nl": "Zet zwenkmodus op"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

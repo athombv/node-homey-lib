@@ -1,0 +1,52 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Vibration alarm",
+    "nl": "Trilalarm"
+  },
+  "desc": {
+    "en": "True when vibration is detected.",
+    "nl": "Gaat af wanneer trilling wordt gedetecteerd."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Vibration alarm turned on",
+    "nl": "Trilalarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Vibration alarm turned off",
+    "nl": "Trilalarm ging uit"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_vibration_true",
+        "highlight": true,
+        "title": {
+          "en": "The vibration alarm turned on",
+          "nl": "Het trilalarm gaat aan"
+        }
+      },
+      {
+        "id": "alarm_vibration_false",
+        "title": {
+          "en": "The vibration alarm turned off",
+          "nl": "Het trilalarm gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_vibration",
+        "title": {
+          "en": "The vibration alarm is !{{on|off}}",
+          "nl": "Het trilalarm is !{{aan|uit}}"
+        }
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

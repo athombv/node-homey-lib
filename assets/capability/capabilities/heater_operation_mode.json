@@ -1,0 +1,112 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Heater Operation Mode",
+    "nl": "Verwarmingsmodus"
+  },
+  "values": [
+    {
+      "id": "eco",
+      "title": {
+        "en": "Eco",
+        "nl": "Eco"
+      }
+    },
+    {
+      "id": "electric",
+      "title": {
+        "en": "Electric",
+        "nl": "Elektrisch"
+      }
+    },
+    {
+      "id": "performance",
+      "title": {
+        "en": "Performance",
+        "nl": "Prestatie"
+      }
+    },
+    {
+      "id": "high_demand",
+      "title": {
+        "en": "High Demand",
+        "nl": "Hoog verbruik"
+      }
+    },
+    {
+      "id": "heat_pump",
+      "title": {
+        "en": "Heat Pump",
+        "nl": "Warmtepomp"
+      }
+    },
+    {
+      "id": "gas",
+      "title": {
+        "en": "Gas",
+        "nl": "Gas"
+      }
+    },
+    {
+      "id": "off",
+      "title": {
+        "en": "Off",
+        "nl": "Uit"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "heater_operation_mode_changed",
+        "title": {
+          "en": "The heater operation mode has changed to",
+          "nl": "De verwarmingsmodus is veranderd naar"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "heater_operation_mode_is",
+        "title": {
+          "en": "The heater operation mode !{{is|is not}}",
+          "nl": "De verwarmingsmodus !{{is|is niet}}"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_heater_operation_mode",
+        "title": {
+          "en": "Set the heater operation mode to",
+          "nl": "Stel de verwarmingsmodus in op"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

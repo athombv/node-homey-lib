@@ -45,8 +45,8 @@
       {
         "id": "measure_water_changed",
         "title": {
-          "en": "The waterflow has changed",
-          "nl": "De waterstroom veranderd",
+          "en": "The waterflow changed",
+          "nl": "De waterstroom is veranderd",
           "de": "Der Wasserfluss hat sich geändert",
           "fr": "Le débit d'eau a changé",
           "it": "Il flusso d'acqua è cambiato",

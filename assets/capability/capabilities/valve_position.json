@@ -1,0 +1,60 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Valve position",
+    "nl": "Klepstand"
+  },
+  "units": {
+    "en": "%",
+    "nl": "%"
+  },
+  "desc": {
+    "en": "The current position of the valve in percent.",
+    "nl": "De huidige positie van de klep in procent."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": true,
+  "uiComponent": "slider",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "valve_position_changed",
+        "title": {
+          "en": "The valve position changed",
+          "nl": "De klepstand is gewijzigd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 50
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_valve_position",
+        "title": {
+          "en": "Set the valve position",
+          "nl": "Stel de klepstand in"
+        },
+        "args": [
+          {
+            "name": "position",
+            "type": "range",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "example": 50
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

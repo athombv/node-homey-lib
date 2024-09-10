@@ -1,0 +1,80 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "NOx level",
+    "nl": "NOx-niveau"
+  },
+  "desc": {
+    "en": "The level of nitrogen oxides in the air.",
+    "nl": "Het niveau van stikstofoxiden in de lucht."
+  },
+  "values": [
+    {
+      "id": "low",
+      "title": {
+        "en": "Low",
+        "nl": "Laag"
+      }
+    },
+    {
+      "id": "medium",
+      "title": {
+        "en": "Medium",
+        "nl": "Middel"
+      }
+    },
+    {
+      "id": "high",
+      "title": {
+        "en": "High",
+        "nl": "Hoog"
+      }
+    },
+    {
+      "id": "critical",
+      "title": {
+        "en": "Critical",
+        "nl": "Kritiek"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "level_nox_changed",
+        "highlight": true,
+        "title": {
+          "en": "The NOx level changed to",
+          "nl": "Het NOx-niveau is veranderd naar"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "level_nox_is",
+        "title": {
+          "en": "The NOx level !{{is|is not}}",
+          "nl": "Het NOx-niveau !{{is|is niet}}"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

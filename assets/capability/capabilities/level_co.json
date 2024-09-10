@@ -1,0 +1,80 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "CO level",
+    "nl": "CO-niveau"
+  },
+  "desc": {
+    "en": "The level of CO in the air.",
+    "nl": "Het niveau van CO in de lucht."
+  },
+  "values": [
+    {
+      "id": "low",
+      "title": {
+        "en": "Low",
+        "nl": "Laag"
+      }
+    },
+    {
+      "id": "medium",
+      "title": {
+        "en": "Medium",
+        "nl": "Middel"
+      }
+    },
+    {
+      "id": "high",
+      "title": {
+        "en": "High",
+        "nl": "Hoog"
+      }
+    },
+    {
+      "id": "critical",
+      "title": {
+        "en": "Critical",
+        "nl": "Kritiek"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "level_co_changed",
+        "highlight": true,
+        "title": {
+          "en": "The CO level changed to",
+          "nl": "Het CO-niveau is veranderd naar"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "level_co_is",
+        "title": {
+          "en": "The CO level !{{is|is not}}",
+          "nl": "Het CO-niveau !{{is|is niet}}"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

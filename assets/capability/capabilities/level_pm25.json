@@ -1,0 +1,80 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "PM2.5 Level",
+    "nl": "PM2,5-niveau"
+  },
+  "desc": {
+    "en": "The level of PM2.5 particles in the air.",
+    "nl": "Het niveau van PM2,5-deeltjes in de lucht."
+  },
+  "values": [
+    {
+      "id": "low",
+      "title": {
+        "en": "Low",
+        "nl": "Laag"
+      }
+    },
+    {
+      "id": "medium",
+      "title": {
+        "en": "Medium",
+        "nl": "Middel"
+      }
+    },
+    {
+      "id": "high",
+      "title": {
+        "en": "High",
+        "nl": "Hoog"
+      }
+    },
+    {
+      "id": "critical",
+      "title": {
+        "en": "Critical",
+        "nl": "Kritiek"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "level_pm25_changed",
+        "highlight": true,
+        "title": {
+          "en": "The PM2.5 level changed to",
+          "nl": "Het PM2,5-niveau is veranderd naar"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "level_pm25_is",
+        "title": {
+          "en": "The PM2.5 level !{{is|is not}}",
+          "nl": "Het PM2,5-niveau !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

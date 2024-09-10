@@ -1,0 +1,96 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Laundry washer cycles",
+    "nl": "Wasmachinecycli"
+  },
+  "desc": {
+    "en": "The amount of cycles the laundry washer should perform.",
+    "nl": "Het aantal cycli dat de wasmachine moet uitvoeren."
+  },
+  "values": [
+    {
+      "id": "none",
+      "title": {
+        "en": "None",
+        "nl": "Geen"
+      }
+    },
+    {
+      "id": "normal",
+      "title": {
+        "en": "Normal",
+        "nl": "Normaal"
+      }
+    },
+    {
+      "id": "extra",
+      "title": {
+        "en": "Extra",
+        "nl": "Extra"
+      }
+    },
+    {
+      "id": "max",
+      "title": {
+        "en": "Max",
+        "nl": "Max"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "laundry_washer_cycles_changed",
+        "highlight": true,
+        "title": {
+          "en": "The laundry washer cycles changed to",
+          "nl": "De wasmachinecycli zijn veranderd naar"
+        },
+        "args": [
+          {
+            "name": "cycles",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "laundry_washer_cycles_is",
+        "title": {
+          "en": "The laundry washer cycles !{{is|is not}}",
+          "nl": "De wasmachinecycli !{{is|is niet}}"
+        },
+        "args": [
+          {
+            "name": "cycles",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_laundry_washer_cycles",
+        "title": {
+          "en": "Set the laundry washer cycles to",
+          "nl": "Stel de wasmachinecycli in op"
+        },
+        "args": [
+          {
+            "name": "cycles",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

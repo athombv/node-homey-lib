@@ -1,0 +1,52 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Pump supply fault alarm",
+    "nl": "Pompaanvoerfoutalarm"
+  },
+  "desc": {
+    "en": "True when a fault is detected in the pump supply.",
+    "nl": "Waar wanneer een fout wordt gedetecteerd in de pompaanvoer."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Problem was detected in the pump supply",
+    "nl": "Er was een probleem gedetecteerd in de pompaanvoer"
+  },
+  "insightsTitleFalse": {
+    "en": "Problem in the pump supply was solved",
+    "nl": "Het probleem in de pompaanvoer werd opgelost"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_pump_supply_true",
+        "highlight": true,
+        "title": {
+          "en": "A problem is detected in the pump supply",
+          "nl": "Er is een probleem gedetecteerd in de pompaanvoer"
+        }
+      },
+      {
+        "id": "alarm_pump_supply_false",
+        "title": {
+          "en": "The problem in the pump supply is solved",
+          "nl": "Het probleem in de pompaanvoer is opgelost"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_pump_supply",
+        "title": {
+          "en": "There !{{is|isn't}} a problem in the pump supply",
+          "nl": "Er !{{is|is geen}} een probleem in de pompaanvoer"
+        }
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

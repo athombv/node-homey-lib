@@ -1,0 +1,52 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Running alarm",
+    "nl": "Werkzaamheidsalarm"
+  },
+  "desc": {
+    "en": "True when the device is busy (e.g., printer is printing).",
+    "nl": "Waar wanneer het apparaat bezig is (bijv. printer is aan het printen)."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Running alarm turned on",
+    "nl": "Werkzaamheidsalarm ging aan"
+  },
+  "insightsTitleFalse": {
+    "en": "Running alarm turned off",
+    "nl": "Werkzaamheidsalarm ging uit"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_running_true",
+        "highlight": true,
+        "title": {
+          "en": "The running alarm turned on",
+          "nl": "Het werkzaamheidsalarm gaat aan"
+        }
+      },
+      {
+        "id": "alarm_running_false",
+        "title": {
+          "en": "The running alarm turned off",
+          "nl": "Het werkzaamheidsalarm gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_running",
+        "title": {
+          "en": "Is !{{busy|not busy}}",
+          "nl": "Is !{{bezig|niet bezig}}"
+        }
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

@@ -1,0 +1,89 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Laundry washer speed",
+    "nl": "Wasmachinesnelheid"
+  },
+  "desc": {
+    "en": "The spin speed of the laundry washer.",
+    "nl": "De centrifugesnelheid van de wasmachine."
+  },
+  "values": [
+    {
+      "id": "low",
+      "title": {
+        "en": "Low",
+        "nl": "Laag"
+      }
+    },
+    {
+      "id": "medium",
+      "title": {
+        "en": "Medium",
+        "nl": "Middel"
+      }
+    },
+    {
+      "id": "high",
+      "title": {
+        "en": "High",
+        "nl": "Hoog"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "laundry_washer_speed_changed",
+        "highlight": true,
+        "title": {
+          "en": "The laundry washer speed changed to",
+          "nl": "De wasmachinesnelheid is veranderd naar"
+        },
+        "args": [
+          {
+            "name": "speed",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "laundry_washer_speed_is",
+        "title": {
+          "en": "The laundry washer speed !{{is|is not}}",
+          "nl": "De wasmachinesnelheid !{{is|is niet}}"
+        },
+        "args": [
+          {
+            "name": "speed",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "laundry_washer_speed_set",
+        "title": {
+          "en": "Set the laundry washer speed to",
+          "nl": "Stel de wasmachinesnelheid in op"
+        },
+        "args": [
+          {
+            "name": "speed",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}
