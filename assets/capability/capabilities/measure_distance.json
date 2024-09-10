@@ -1,0 +1,41 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Distance",
+    "nl": "Afstand"
+  },
+  "units": {
+    "en": "m",
+    "nl": "m"
+  },
+  "desc": {
+    "en": "The distance in meters.",
+    "nl": "De afstand in meters."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_distance_changed",
+        "title": {
+          "en": "The distance changed",
+          "nl": "De afstand is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

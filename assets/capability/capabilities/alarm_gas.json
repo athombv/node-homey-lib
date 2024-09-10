@@ -1,0 +1,52 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Gas alarm",
+    "nl": "Gasalarm"
+  },
+  "description": {
+    "en": "True when gas is detected",
+    "nl": "Gaat af wanneer gas wordt gedetecteerd"
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Gas alarm turned on",
+    "nl": "Gasalarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Gas alarm turned off",
+    "nl": "Gasalarm ging uit"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_gas_true",
+        "highlight": true,
+        "title": {
+          "en": "The gas alarm turned on",
+          "nl": "Het gasalarm gaat aan"
+        }
+      },
+      {
+        "id": "alarm_gas_false",
+        "title": {
+          "en": "The gas alarm turned off",
+          "nl": "Het gasalarm gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_gas",
+        "title": {
+          "en": "The gas alarm is !{{on|off}}",
+          "nl": "Het gasalarm is !{{aan|uit}}"
+        }
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

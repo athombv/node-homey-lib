@@ -1,0 +1,105 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Vacuum cleaner job mode",
+    "nl": "Stofzuigermodus"
+  },
+  "values": [
+    {
+      "id": "off",
+      "title": {
+        "en": "Off",
+        "nl": "Uit"
+      }
+    },
+    {
+      "id": "normal",
+      "title": {
+        "en": "Normal",
+        "nl": "Normaal"
+      }
+    },
+    {
+      "id": "hight",
+      "title": {
+        "en": "High",
+        "nl": "Hoog"
+      }
+    },
+    {
+      "id": "turbo",
+      "title": {
+        "en": "Turbo",
+        "nl": "Turbo"
+      }
+    },
+    {
+      "id": "mop",
+      "title": {
+        "en": "Mop",
+        "nl": "Dweilen"
+      }
+    },
+    {
+      "id": "auto",
+      "title": {
+        "en": "Auto",
+        "nl": "Automatisch"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "vacuumcleaner_job_mode_changed",
+        "title": {
+          "en": "The vacuum cleaner job mode has changed",
+          "nl": "De stofzuigermodus is gewijzigd"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "vacuumcleaner_job_mode_is",
+        "title": {
+          "en": "The vacuum cleaner job mode !{{is|is not}}",
+          "nl": "De stofzuigermodus !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_vacuumcleaner_job_mode",
+        "title": {
+          "en": "Set the vacuum cleaner job mode to",
+          "nl": "Stel de stofzuigermodus in op"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

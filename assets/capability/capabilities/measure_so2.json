@@ -1,0 +1,41 @@
+{
+  "type": "number",
+  "title": {
+    "en": "SO2",
+    "nl": "SO2"
+  },
+  "units": {
+    "en": "μg/m³",
+    "nl": "μg/m³"
+  },
+  "insights": true,
+  "desc": {
+    "en": "Sulfur dioxide in micrograms per cubic meter (μg/m³)",
+    "nl": "Zwavel dioxide in microgram per kubieke meter (μg/m³)"
+  },
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_so2_changed",
+        "title": {
+          "en": "The SO2 value has changed",
+          "nl": "De SO2-waarde is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

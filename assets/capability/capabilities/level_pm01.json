@@ -1,0 +1,80 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "PM0.1 level",
+    "nl": "PM0,1 niveau"
+  },
+  "desc": {
+    "en": "The level of PM0.1 particles in the air.",
+    "nl": "Het niveau van PM0,1-deeltjes in de lucht."
+  },
+  "values": [
+    {
+      "id": "low",
+      "title": {
+        "en": "Low",
+        "nl": "Low"
+      }
+    },
+    {
+      "id": "medium",
+      "title": {
+        "en": "Medium",
+        "nl": "Medium"
+      }
+    },
+    {
+      "id": "high",
+      "title": {
+        "en": "High",
+        "nl": "High"
+      }
+    },
+    {
+      "id": "critical",
+      "title": {
+        "en": "Critical",
+        "nl": "Critical"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "level_pm01_changed",
+        "highlight": true,
+        "title": {
+          "en": "The PM0.1 level changed to",
+          "nl": "Het PM0,1-niveau is veranderd naar"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "level_pm01_is",
+        "title": {
+          "en": "The PM0.1 level !{{is|is not}}",
+          "nl": "Het PM0,1-niveau !{{is|is niet}}"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

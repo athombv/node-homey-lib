@@ -1,0 +1,73 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "HEPA filter level",
+    "nl": "HEPA-filterniveau"
+  },
+  "desc": {
+    "en": "The level of degredation on the HEPA filter.",
+    "nl": "Het niveau van degradatie op het HEPA-filter."
+  },
+  "values": [
+    {
+      "id": "ok",
+      "title": {
+        "en": "OK",
+        "nl": "OK"
+      }
+    },
+    { 
+      "id": "warning",
+      "title": {
+        "en": "Warning",
+        "nl": "Waarschuwing"
+      }
+    },
+    {
+      "id": "critical",
+      "title": {
+        "en": "Critical",
+        "nl": "Kritiek"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "level_hepa_filter_changed",
+        "highlight": true,
+        "title": {
+          "en": "The HEPA filter level changed to",
+          "nl": "Het HEPA-filterniveau is veranderd naar"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "level_hepa_filter_is",
+        "title": {
+          "en": "The HEPA filter level !{{is|is not}}",
+          "nl": "Het HEPA-filterniveau !{{is|is niet}}"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

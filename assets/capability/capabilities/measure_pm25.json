@@ -2,7 +2,7 @@
   "type": "number",
   "title": {
     "en": "PM2.5",
-    "nl": "PM2.5",
+    "nl": "PM2,5",
     "de": "PM2.5",
     "fr": "PM2.5",
     "it": "PM2.5",
@@ -44,8 +44,8 @@
       {
         "id": "measure_pm25_changed",
         "title": {
-          "en": "The PM2.5 value has changed",
-          "nl": "De PM2.5 waarde is veranderd",
+          "en": "The PM2.5 value changed",
+          "nl": "De PM2,5-waarde is veranderd",
           "de": "Der PM2.5-Wert hat sich geändert",
           "fr": "La valeur PM2.5 a changé",
           "it": "Il valore di PM2.5 è cambiato",

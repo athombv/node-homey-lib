@@ -1,0 +1,110 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Audio Output",
+    "nl": "Audio-uitgang"
+  },
+  "desc": {
+    "en": "The audio output channel for a media player.",
+    "nl": "Het audio-uitgangskanaal voor een mediaspeler."
+  },
+  "values": [
+    {
+      "id": "hdmi_1",
+      "title": {
+        "en": "HDMI 1",
+        "nl": "HDMI 1"
+      }
+    },
+    {
+      "id": "hdmi_2",
+      "title": {
+        "en": "HDMI 2",
+        "nl": "HDMI 2"
+      }
+    },
+    {
+      "id": "hdmi_3",
+      "title": {
+        "en": "HDMI 3",
+        "nl": "HDMI 3"
+      }
+    },
+    {
+      "id": "line_out",
+      "title": {
+        "en": "Line Out",
+        "nl": "Lijnuitgang"
+      }
+    },
+    {
+      "id": "optical",
+      "title": {
+        "en": "Optical",
+        "nl": "Optisch"
+      }
+    },
+    {
+      "id": "usb",
+      "title": {
+        "en": "USB",
+        "nl": "USB"
+      }
+    }
+  ], 
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "audio_output_changed",
+        "highlight": true,
+        "title": {
+          "en": "The audio output changed to",
+          "nl": "De audio-uitgang is veranderd naar"
+        },
+        "args": [
+          {
+            "name": "output",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "audio_output_is",
+        "title": {
+          "en": "The audio output !{{is|is not}}",
+          "nl": "De audio-uitgang !{{is|is niet}}"
+        },
+        "args": [
+          {
+            "name": "output",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_audio_output",
+        "title": {
+          "en": "Set audio output to",
+          "nl": "Stel audio-uitgang in op"
+        },
+        "args": [
+          {
+            "name": "output",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

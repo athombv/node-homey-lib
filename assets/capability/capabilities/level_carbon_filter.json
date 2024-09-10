@@ -1,0 +1,73 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Carbon filter level",
+    "nl": "Koolstoffilterniveau"
+  },
+  "desc": {
+    "en": "The level of degredation on the active carbon filter.",
+    "nl": "Het niveau van degradatie op het actieve koolstoffilter."
+  },
+  "values": [
+    {
+      "id": "ok",
+      "title": {
+        "en": "OK",
+        "nl": "OK"
+      }
+    },
+    { 
+      "id": "warning",
+      "title": {
+        "en": "Warning",
+        "nl": "Waarschuwing"
+      }
+    },
+    {
+      "id": "critical",
+      "title": {
+        "en": "Critical",
+        "nl": "Kritiek"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "level_carbon_filter_changed",
+        "highlight": true,
+        "title": {
+          "en": "The carbon filter level changed to",
+          "nl": "Het koolstoffilterniveau is veranderd naar"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "level_carbon_filter_is",
+        "title": {
+          "en": "The carbon filter level !{{is|is not}}",
+          "nl": "Het koolstoffilterniveau !{{is|is niet}}"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"  
+}

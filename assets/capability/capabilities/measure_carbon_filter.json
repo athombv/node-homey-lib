@@ -1,0 +1,39 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Carbon Filter",
+    "nl": "Koolstoffilter"
+  },
+  "units": {
+    "en": "%",
+    "nl": "%"
+  },
+  "desc": {
+    "en": "The carbon filter level in percent.",
+    "nl": "Het koolstoffilterniveau in procent."
+  },
+  "insights": true,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_carbon_filter_changed",
+        "highlight": true,
+        "title": {
+          "en": "The carbon filter level changed to",
+          "nl": "Het koolstoffilterniveau is veranderd naar"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "number",
+            "example": 50
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

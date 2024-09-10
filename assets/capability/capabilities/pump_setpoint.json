@@ -1,0 +1,57 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Pump setpoint",
+    "nl": "Pompinstelpunt"
+  },
+  "units": {
+    "en": "%",
+    "nl": "%"
+  },
+  "desc": {
+    "en": "The pump setpoint in percentage.",
+    "nl": "Het pompinstelpunt in procent."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 0,
+  "getable": true,
+  "setable": true,
+  "uiComponent": "slider",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "pump_setpoint_changed",
+        "title": {
+          "en": "The pump setpoint changed",
+          "nl": "Het pompinstelpunt is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 50
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_pump_setpoint",
+        "title": {
+          "en": "Set the pump setpoint",
+          "nl": "Stel het pompinstelpunt in"
+        },
+        "args": [
+          {
+            "name": "setpoint",
+            "type": "number",
+            "example": 50
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

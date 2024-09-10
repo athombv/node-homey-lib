@@ -1,0 +1,52 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Light alarm",
+    "nl": "Lichtalarm"
+  },
+  "desc": {
+    "en": "True when light is detected.",
+    "nl": "Gaat af wanneer licht wordt gedetecteerd."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Light was detected",
+    "nl": "Licht werd gedetecteerd"
+  },
+  "insightsTitleFalse": {
+    "en": "Light was no longer detected",
+    "nl": "Licht werd niet langer gedetecteerd"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_light_true",
+        "highlight": true,
+        "title": {
+          "en": "Light is detected",
+          "nl": "Licht wordt gedetecteerd"
+        }
+      },
+      {
+        "id": "alarm_light_false",
+        "title": {
+          "en": "Light is no longer detected",
+          "nl": "Licht wordt niet langer gedetecteerd"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_light",
+        "title": {
+          "en": "Light !{{is|is not}} detected",
+          "nl": "Licht !{{wordt|wordt niet}} gedetecteerd"
+        }
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

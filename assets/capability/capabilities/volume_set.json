@@ -1,6 +1,7 @@
 {
   "title": {
     "en": "Set volume",
+    "nl": "Volume instellen",
     "de": "Lautstärke setzen",
     "fr": "Définir le volume",
     "it": "Imposta il volume",
@@ -44,8 +45,8 @@
       {
         "id": "volume_set_changed",
         "title": {
-          "en": "Volume changed",
-          "nl": "Volume veranderd",
+          "en": "The volume changed",
+          "nl": "Het volume is veranderd",
           "de": "Lautstärke hat sich geändert",
           "fr": "Volume a été modifié",
           "it": "Volume modificato",
@@ -85,8 +86,8 @@
         "id": "volume_set",
         "highlight": true,
         "title": {
-          "en": "Set volume to",
-          "nl": "Zet volume naar",
+          "en": "Set the volume to",
+          "nl": "Zet het volume naar",
           "de": "Lautstärke setzen auf",
           "fr": "Mettre le volume sur",
           "it": "Imposta il volume al",

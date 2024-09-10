@@ -1,0 +1,92 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Mower state",
+    "nl": "Maaierstatus"
+  },
+  "desc": {
+    "en": "The current state of the lawnmower."
+  },
+  "values": [
+    {
+      "id": "mowing",
+      "title": {
+        "en": "Mowing"
+      }
+    },
+    {
+      "id": "docked",
+      "title": {
+        "en": "Docked"
+      }
+    },
+    {
+      "id": "paused",
+      "title": {
+        "en": "Paused"
+      }
+    },
+    {
+      "id": "error",
+      "title": {
+        "en": "Error"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "lawnmower_state_changed",
+        "title": {
+          "en": "The lawnmower state changed"
+        },
+        "tokens": [
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "lawnmower_state_is",
+        "title": {
+          "en": "The lawnmower !{{is|is not}}"
+        },
+        "tokens": [
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "lawnmower_state_mow",
+        "title": {
+          "en": "Start mowing"
+        }
+      },
+      {
+        "id": "lawnmower_state_pause",
+        "title": {
+          "en": "Pause mowing"
+        }
+      },
+      {
+        "id": "lawnmower_state_dock",
+        "title": {
+          "en": "Return to dock"
+        }
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

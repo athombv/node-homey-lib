@@ -1,0 +1,41 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Odor",
+    "nl": "Geur"
+  },
+  "units": {
+    "en": "OU",
+    "nl": "GE"
+  },
+  "desc": {
+    "en": "Odor concentration in odor units.",
+    "nl": "Geurconcentratie in geureenheden."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 0,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_odor_changed",
+        "title": {
+          "en": "The odor concentration changed",
+          "nl": "De geurconcentratie is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 200
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}
