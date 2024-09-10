@@ -218,7 +218,7 @@
       {
         "id": "open",
         "title": {
-          "en": "Open curtain or blind",
+          "en": "Open the curtain or blind",
           "nl": "Open de gordijnen",
           "de": "Vorhang oder Rollladen öffnen",
           "fr": "Ouvrir rideau ou store",
@@ -238,7 +238,7 @@
       {
         "id": "close",
         "title": {
-          "en": "Close curtain or blind",
+          "en": "Close the curtain or blind",
           "nl": "Sluit de gordijnen",
           "de": "Vorhang oder Rollladen schließen",
           "fr": "Fermer rideau ou store",

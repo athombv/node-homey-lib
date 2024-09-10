@@ -1,0 +1,84 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Hot water mode",
+    "nl": "Warmwatermodus"
+  },
+  "values": [
+    {
+      "key": "on",
+      "title": {
+        "en": "On",
+        "nl": "Aan"
+      }
+    },
+    {
+      "key": "off",
+      "title": {
+        "en": "Off",
+        "nl": "Uit"
+      }
+    },
+    {
+      "key": "eco",
+      "title": {
+        "en": "Eco",
+        "nl": "Eco"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "hot_water_mode_changed",
+        "title": {
+          "en": "The hot water mode has changed to",
+          "nl": "De warmwatermodus is veranderd naar"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "hot_water_mode_is",
+        "title": {
+          "en": "The hot water mode !{{is|is not}}",
+          "nl": "De warmwatermodus !{{is|is niet}}"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_hot_water_mode",
+        "title": {
+          "en": "Set the hot water mode to",
+          "nl": "Stel de warmwatermodus in op"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

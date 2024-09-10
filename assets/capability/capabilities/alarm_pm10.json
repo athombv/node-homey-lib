@@ -1,0 +1,122 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "PM10 alarm",
+    "nl": "PM10 alarm",
+    "de": "PM10-Alarm",
+    "fr": "Alarme PM10",
+    "it": "Allarme PM10",
+    "sv": "PM10-larm",
+    "no": "PM10-alarm",
+    "es": "Alarma de PM10",
+    "da": "PM10-alarm",
+    "ru": "Сигнал ТЧ 10",
+    "pl": "Alarm o stężeniu PM10",
+    "ko": "PM10 알람"
+  },
+  "desc": {
+    "en": "True when PM10 values exceeds threshold",
+    "nl": "Gaat af wanneer de PM10 waarde overschreden wordt",
+    "de": "True, wenn PM10-Werte die Schwelle überschreiten",
+    "fr": "Vrai si les valeurs PM10 excèdent un seuil",
+    "it": "Vero quando i valori PM10 superano la soglia",
+    "sv": "Sant när PM10-värdena överstiger gränsvärdet",
+    "no": "Sant når PM10-verdiene overskrider grenseverdien",
+    "es": "Verdadero cuando los valores de PM10 superan el límite",
+    "da": "Sandt, når PM10-værdier overskrider grænseværdien",
+    "ru": "Верно при превышении контрольного значения ТЧ 10",
+    "pl": "Adekwatny, kiedy wykryty zostanie niebezpieczny poziom stężenia PM10",
+    "ko": "PM10 값이 임계값을 초과하면 참"
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "PM10 alarm turned on",
+    "nl": "PM10 alarm ging af",
+    "de": "PM10-Alarm ist angegangen",
+    "fr": "Alarme PM10 s'est activée",
+    "it": "Allarme PM10 attivato",
+    "sv": "PM10-larm aktiverat",
+    "no": "PM10-alarm aktivert",
+    "es": "Alarma de PM10 activada",
+    "da": "PM10-alarm blev aktiveret",
+    "ru": "Сигнал ТЧ 10 включен",
+    "pl": "Alarm o stężeniu PM10 włączony",
+    "ko": "PM10 알람 켜짐"
+  },
+  "insightsTitleFalse": {
+    "en": "PM10 alarm turned off",
+    "nl": "PM10 alarm ging uit",
+    "de": "PM10-Alarm ist ausgegangen",
+    "fr": "Alarme PM10 s'est désactivée",
+    "it": "Allarme PM10 disattivato",
+    "sv": "PM10-larm inaktiverat",
+    "no": "PM10-alarm deaktivert",
+    "es": "Alarma de PM10 desactivada",
+    "da": "PM10-alarm blev deaktiveret",
+    "ru": "Сигнал ТЧ 10 выключен",
+    "pl": "Alarm o stężeniu PM10 wyłączony",
+    "ko": "PM10 알람 꺼짐"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_pm10_true",
+        "highlight": true,
+        "title": {
+          "en": "The PM10 alarm turned on",
+          "nl": "Het PM10 gaat aan",
+          "de": "Der PM10-Alarm ist angegangen",
+          "fr": "L'alarme PM10 s'est activée",
+          "it": "L'allarme PM10 è stato attivato",
+          "sv": "PM10-larmet aktiverat",
+          "no": "PM10-alarmen aktivert",
+          "es": "La alarma de PM10 se ha activado",
+          "da": "PM10-alarmen blev aktiveret",
+          "ru": "Сигнал ТЧ 10 включен",
+          "pl": "Alarm o stężeniu PM10 włączony",
+          "ko": "PM10 알람 켜짐"
+        }
+      },
+      {
+        "id": "alarm_pm10_false",
+        "title": {
+          "en": "The PM10 alarm turned off",
+          "nl": "Het PM10 gaat uit",
+          "de": "Der PM10-Alarm ist ausgegangen",
+          "fr": "L'alarme PM10 s'est désactivée",
+          "it": "L'allarme PM10 è stato disattivato",
+          "sv": "PM10-larmet inaktiverat",
+          "no": "PM10-alarmen deaktivert",
+          "es": "La alarma de PM10 se ha desactivado",
+          "da": "PM10-alarmen blev deaktiveret",
+          "ru": "Сигнал ТЧ 10 выключен",
+          "pl": "Alarm o stężeniu PM10 wyłączony",
+          "ko": "PM10 알람 꺼짐"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_pm10",
+        "title": {
+          "en": "The PM10 alarm is !{{on|off}}",
+          "nl": "Het PM10 alarm is !{{aan|uit}}",
+          "de": "Der PM10-Alarm ist !{{an|aus}}",
+          "fr": "L'alarme PM10 est !{{en marche|arrêtée}}",
+          "it": "L'allarme PM10 è !{{acceso|spento}}",
+          "sv": "PM10-larmet är !{{på|av}}",
+          "no": "PM10-alarmen er !{{på|av}}",
+          "es": "La alarma de PM10 está !{{activada|desactivada}}",
+          "da": "PM10-alarmen er !{{tændt|slukket}}",
+          "ru": "Сигнал ТЧ 10 !{{вкл.|выкл.}}",
+          "pl": "Alarm o stężeniu PM10 !{{włączony|wyłączony}}",
+          "ko": "PM10 알람 !{{켬|끔}}"
+        }
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

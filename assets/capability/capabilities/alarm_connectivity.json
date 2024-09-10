@@ -1,0 +1,52 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Connectivity alarm",
+    "nl": "Verbindingsalarm"
+  },
+  "desc": {
+    "en": "True when disconnected from the network.",
+    "nl": "Gaat af wanneer het apparaat niet meer verbonden is met het netwerk."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Disconnected",
+    "nl": "Verbinding verbroken"
+  },
+  "insightsTitleFalse": {
+    "en": "Connected",
+    "nl": "Verbinding hersteld"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_connectivity_true",
+        "highlight": true,
+        "title": {
+          "en": "Disconnected",
+          "nl": "Verbinding verbroken"
+        }
+      },
+      {
+        "id": "alarm_connectivity_false",
+        "title": {
+          "en": "Connected",
+          "nl": "Verbonden"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_connectivity",
+        "title": {
+          "en": "Is !{{connected|disconnected}}",
+          "nl": "Is !{{verbonden|niet verbonden}}"
+        }
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

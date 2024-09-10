@@ -1,0 +1,87 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Laundry washer program",
+    "nl": "Wasprogramma"
+  },
+  "desc": {
+    "en": "The current program of the laundry washer.",
+    "nl": "Het huidige programma van de wasmachine."
+  },
+  "values": [
+    {
+      "id": "normal",
+      "title": {
+        "en": "Normal",
+        "nl": "Normaal"
+      }
+    },
+    {
+      "id": "auto",
+      "title": {
+        "en": "Auto",
+        "nl": "Auto"
+      }
+    },
+    {
+      "id": "quick",
+      "title": {
+        "en": "Quick",
+        "nl": "Snel"
+      }
+    },
+    {
+      "id": "heavy",
+      "title": {
+        "en": "Heavy",
+        "nl": "Zwaar"
+      }
+    },
+    {
+      "id": "whites",
+      "title": {
+        "en": "Whites",
+        "nl": "Wit"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "laundry_washer_program_changed",
+        "highlight": true,
+        "title": {
+          "en": "The laundry washer program changed to",
+          "nl": "Het wasprogramma is veranderd naar"
+        },
+        "args": [
+          {
+            "name": "program",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "laundry_washer_program_is",
+        "title": {
+          "en": "The laundry washer program !{{is|is not}}",
+          "nl": "Het wasprogramma !{{is|is niet}}"
+        },
+        "args": [
+          {
+            "name": "program",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

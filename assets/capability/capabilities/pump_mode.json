@@ -1,0 +1,103 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Pump mode",
+    "nl": "Pompmodus"
+  },
+  "desc": {
+    "en": "Used to set which setpoint regulates the pump.",
+    "nl": "Gebruikt om in te stellen welke setpoint de pomp regelt."
+  },
+  "values": [
+    {
+      "id": "constant_pressure",
+      "title": {
+        "en": "Constant Pressure",
+        "nl": "Constante druk"
+      }
+    },
+    {
+      "id": "compensated_pressure",
+      "title": {
+        "en": "Compensated Pressure",
+        "nl": "Gecompenseerde druk"
+      }
+    },
+    {
+      "id": "constant_flow",
+      "title": {
+        "en": "Constant Flow",
+        "nl": "Constante stroom"
+      }
+    },
+    {
+      "id": "constant_speed",
+      "title": {
+        "en": "Constant Speed",
+        "nl": "Constante snelheid"
+      }
+    },
+    {
+      "id": "constant_temperature",
+      "title": {
+        "en": "Constant Temperature",
+        "nl": "Constante temperatuur"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "pump_mode_changed",
+        "highlight": true,
+        "title": {
+          "en": "The pump mode changed to",
+          "nl": "De pompmodus is veranderd naar"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "pump_mode_is",
+        "title": {
+          "en": "The pump mode !{{is|is not}}",
+          "nl": "De pompmodus !{{is|is niet}}"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_pump_mode",
+        "title": {
+          "en": "Set the pump mode",
+          "nl": "Stel de pompmodus in"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

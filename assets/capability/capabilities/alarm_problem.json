@@ -1,0 +1,52 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Problem alarm",
+    "nl": "Probleemalarm"
+  },
+  "desc": {
+    "en": "True when a problem is detected.",
+    "nl": "Gaat af wanneer een probleem wordt gedetecteerd."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Problem was detected",
+    "nl": "Probleem gedetecteerd"
+  },
+  "insightsTitleFalse": {
+    "en": "Problem solved",
+    "nl": "Probleem opgelost"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_problem_true",
+        "highlight": true,
+        "title": {
+          "en": "A problem is detected",
+          "nl": "Een probleem is gedetecteerd"
+        }
+      },
+      {
+        "id": "alarm_problem_false",
+        "title": {
+          "en": "The problem is solved",
+          "nl": "Het probleem is opgelost"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_problem",
+        "title": {
+          "en": "There !{{is|isn't}} a problem",
+          "nl": "Er !{{is|is geen}} probleem"
+        }
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

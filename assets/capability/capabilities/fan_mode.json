@@ -1,0 +1,84 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Fan Mode",
+    "nl": "Ventilatorstand"
+  },
+  "values": [
+    {
+      "key": "auto",
+      "title": {
+        "en": "Auto",
+        "nl": "Automatisch"
+      }
+    },
+    {
+      "key": "on",
+      "title": {
+        "en": "On",
+        "nl": "Aan"
+      }
+    },
+    {
+      "key": "off",
+      "title": {
+        "en": "Off",
+        "nl": "Uit"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "fan_mode_changed",
+        "title": {
+          "en": "The fan mode has changed to",
+          "nl": "De ventilatorstand is veranderd naar"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "fan_mode_is",
+        "title": {
+          "en": "The fan mode !{{is|is not}}",
+          "nl": "De ventilatorstand !{{is|is niet}}"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_fan_mode",
+        "title": {
+          "en": "Set fan mode to",
+          "nl": "Stel ventilatorstand in op"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

@@ -2,7 +2,7 @@
   "type": "enum",
   "title": {
     "en": "Thermostat mode",
-    "nl": "Thermostaat modus",
+    "nl": "Thermostaatmodus",
     "de": "Thermostat-Modus",
     "fr": "Mode thermostat",
     "it": "Modalità termostato",
@@ -106,8 +106,8 @@
       {
         "id": "thermostat_mode_changed",
         "title": {
-          "en": "Thermostat mode has changed",
-          "nl": "Thermostaat modus is veranderd",
+          "en": "Thermostat mode changed",
+          "nl": "Thermostaatmodus is veranderd",
           "de": "Thermostat-Modus hat sich geändert",
           "fr": "Mode thermostat a été modifié",
           "it": "La modalità del termostato è cambiata",
@@ -133,7 +133,7 @@
         "id": "thermostat_mode_is",
         "title": {
           "en": "Thermostat mode !{{is|is not}}",
-          "nl": "Thermostaat modus !{{is|is niet}}",
+          "nl": "Thermostaatmodus !{{is|is niet}}",
           "de": "Thermostat-Modus !{{ist|ist nicht}}",
           "fr": "Mode thermostat !{{est|n'est pas}}",
           "it": "La modalità del termostato !{{è|non è}}",

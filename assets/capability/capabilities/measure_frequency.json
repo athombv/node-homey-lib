@@ -1,0 +1,41 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Frequency",
+    "nl": "Frequentie"
+  },
+  "units": {
+    "en": "Hz",
+    "nl": "Hz"
+  },
+  "desc": {
+    "en": "The frequency in hertz.",
+    "nl": "De frequentie in hertz."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_frequency_changed",
+        "title": {
+          "en": "The frequency changed",
+          "nl": "De frequentie is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

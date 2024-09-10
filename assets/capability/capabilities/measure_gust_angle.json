@@ -2,7 +2,7 @@
   "type": "number",
   "title": {
     "en": "Gust angle",
-    "nl": "Windstoot richting",
+    "nl": "Windstootrichting",
     "de": "Böenrichtung",
     "fr": "Direction d'un coup de vent",
     "it": "Angolo delle raffiche",
@@ -45,7 +45,7 @@
         "id": "measure_gust_angle_changed",
         "title": {
           "en": "The gust angle changed",
-          "nl": "Windstoot richting is veranderd",
+          "nl": "Windstootrichting is veranderd",
           "de": "Die Böenrichtung hat sich geändert",
           "fr": "Direction du coup de vent a changé",
           "it": "L'angolo delle raffiche è cambiato",

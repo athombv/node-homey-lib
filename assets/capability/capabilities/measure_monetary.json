@@ -1,0 +1,41 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Monetary value",
+    "nl": "Monetaire waarde"
+  },
+  "units": {
+    "en": "€",
+    "nl": "€"
+  },
+  "desc": {
+    "en": "The monetary value with a currency (default: €).",
+    "nl": "De monetaire waarde met een valuta (standaard: €)."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_monetary_changed",
+        "title": {
+          "en": "The monetary value changed",
+          "nl": "De monetaire waarde is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

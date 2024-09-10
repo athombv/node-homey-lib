@@ -1,0 +1,80 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Radon Level",
+    "nl": "Radonniveau"
+  },
+  "desc": {
+    "en": "The level of radioactive radon gas in the air.",
+    "nl": "Het niveau van radioactief radongas in de lucht."
+  },
+  "values": [
+    {
+      "id": "low",
+      "title": {
+        "en": "Low",
+        "nl": "Laag"
+      }
+    },
+    {
+      "id": "medium",
+      "title": {
+        "en": "Medium",
+        "nl": "Middel"
+      }
+    },
+    {
+      "id": "high",
+      "title": {
+        "en": "High",
+        "nl": "Hoog"
+      }
+    },
+    {
+      "id": "critical",
+      "title": {
+        "en": "Critical",
+        "nl": "Kritiek"
+      }
+    }
+  ],
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "level_radon_changed",
+        "highlight": true,
+        "title": {
+          "en": "The radon level changed to",
+          "nl": "Het radonniveau is veranderd naar"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "level_radon_is",
+        "title": {
+          "en": "The radon level !{{is|is not}}",
+          "nl": "Het radonniveau !{{is|is niet}}"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

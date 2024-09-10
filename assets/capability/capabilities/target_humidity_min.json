@@ -1,0 +1,62 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Minimum target humidity",
+    "nl": "Minimale doelvochtigheid"
+  },
+  "units": {
+    "en": "%",
+    "nl": "%"
+  },
+  "desc": {
+    "en": "The low end of the target humidity level in percent.",
+    "nl": "Het onderste uiteinde van het doelvochtigheidsniveau in procent."
+  },
+  "insights": true,
+  "chartType": "stepLine",
+  "decimals": 0,
+  "min": 0,
+  "max": 100,
+  "getable": true,
+  "setable": true,
+  "uiComponent": "slider",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "setpoint_humidity_min_changed",
+        "title": {
+          "en": "The minimum target humidity has changed",
+          "nl": "De minimale doelvochtigheid is gewijzigd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 50
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_setpoint_humidity_min",
+        "title": {
+          "en": "Set the minimum target humidity",
+          "nl": "Stel de minimale doelvochtigheid in"
+        },
+        "args": [
+          {
+            "name": "value",
+            "type": "range",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "example": 50
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

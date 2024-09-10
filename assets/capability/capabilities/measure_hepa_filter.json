@@ -1,0 +1,38 @@
+{
+  "type": "number",
+  "title": {
+    "en": "HEPA Filter",
+    "nl": "HEPA-filter"
+  },
+  "units": {
+    "en": "%",
+    "nl": "%"
+  },
+  "desc": {
+    "en": "The HEPA filter level in percent.",
+    "nl": "Het HEPA-filterniveau in procent."
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "hepa_filter_changed",
+        "highlight": true,
+        "title": {
+          "en": "The HEPA filter level changed to",
+          "nl": "Het HEPA-filterniveau is veranderd naar"
+        },
+        "args": [
+          {
+            "name": "level",
+            "type": "number",
+            "example": 50
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

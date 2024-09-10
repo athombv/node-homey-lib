@@ -1,0 +1,41 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Data Size",
+    "nl": "Gegevensgrootte"
+  },
+  "units": {
+    "en": "bytes",
+    "nl": "bytes"
+  },
+  "desc": {
+    "en": "The data size in bytes.",
+    "nl": "De gegevensgrootte in bytes."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 0,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_data_size_changed",
+        "title": {
+          "en": "The data size changed",
+          "nl": "De gegevensgrootte is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 200
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

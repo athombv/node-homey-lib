@@ -1,0 +1,41 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Signal Strength",
+    "nl": "Signaalsterkte"
+  },
+  "units": {
+    "en": "dB",
+    "nl": "dB"
+  },
+  "desc": {
+    "en": "The signal strength in decibels.",
+    "nl": "De signaalsterkte in decibels."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_signal_strength_changed",
+        "title": {
+          "en": "The signal strength changed",
+          "nl": "De signaalsterkte is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

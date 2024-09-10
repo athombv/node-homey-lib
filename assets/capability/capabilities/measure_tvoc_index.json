@@ -1,0 +1,36 @@
+{
+  "type": "number",
+  "title": {
+    "en": "TVOC index",
+    "nl": "VOS-index"
+  },
+  "insights": true,
+  "desc": {
+    "en": "Total volatile organic compounds index",
+    "nl": "Index van totaal vluchtige organische stoffen"
+  },
+  "chartType": "spline",
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_tvoc_index_changed",
+        "title": {
+          "en": "The TVOC index value has changed",
+          "nl": "De VOS-indexwaarde is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Radon",
+    "nl": "Radon"
+  },
+  "units": {
+    "en": "Bq/m³",
+    "nl": "Bq/m³"
+  },
+  "insights": true,
+  "desc": {
+    "en": "Radon in Becquerel per cubic meter (Bq/m³)",
+    "nl": "Radon in Becquerel per kubieke meter (Bq/m³)"
+  },
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_radon_changed",
+        "title": {
+          "en": "The Radon value has changed",
+          "nl": "De Radonwaarde is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

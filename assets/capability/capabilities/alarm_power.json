@@ -1,0 +1,52 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Power alarm",
+    "nl": "Stroomalarm"
+  },
+  "desc": {
+    "en": "True when power is detected.",
+    "nl": "Gaat af wanneer stroom wordt gedetecteerd."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Power alarm turned on",
+    "nl": "Stroomalarm ging af"
+  },
+  "insightsTitleFalse": {
+    "en": "Power alarm turned off",
+    "nl": "Stroomalarm ging uit"
+  },
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_power_true",
+        "highlight": true,
+        "title": {
+          "en": "The power alarm turned on",
+          "nl": "Het stroomalarm gaat aan"
+        }
+      },
+      {
+        "id": "alarm_power_false",
+        "title": {
+          "en": "The power alarm turned off",
+          "nl": "Het stroomalarm gaat uit"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_power",
+        "title": {
+          "en": "The power alarm is !{{on|off}}",
+          "nl": "Het stroomalarm is !{{aan|uit}}"
+        }
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}

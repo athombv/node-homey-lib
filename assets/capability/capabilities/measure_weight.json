@@ -1,0 +1,41 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Weight",
+    "nl": "Gewicht"
+  },
+  "units": {
+    "en": "g",
+    "nl": "g"
+  },
+  "desc": {
+    "en": "Generic mass in grams; weight is used instead of mass to fit with everyday language.",
+    "nl": "Generieke massa in gram; gewicht wordt gebruikt in plaats van massa om aan te sluiten bij alledaagse taal."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "decimals": 2,
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "measure_weight_changed",
+        "title": {
+          "en": "The weight changed",
+          "nl": "Het gewicht is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.1.0"
+}
