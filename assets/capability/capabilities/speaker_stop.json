@@ -3,7 +3,7 @@
     "en": "Stop",
     "nl": "Stop"
   },
-  "type" :"boolean",
+  "type": "boolean",
   "getable": false,
   "setable": true,
   "uiComponent": "media",

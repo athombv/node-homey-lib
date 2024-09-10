@@ -51,7 +51,7 @@
         "nl": "USB"
       }
     }
-  ], 
+  ],
   "getable": true,
   "setable": true,
   "uiComponent": "picker",
