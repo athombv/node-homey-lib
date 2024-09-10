@@ -10,12 +10,12 @@
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Tank empty alarm turned on",
-    "nl": "Tank leeg alarm ging af"
+    "en": "Tank was empty",
+    "nl": "Tank was leeg"
   },
   "insightsTitleFalse": {
-    "en": "Tank empty alarm turned off",
-    "nl": "Tank leeg alarm ging uit"
+    "en": "Tank was not empty",
+    "nl": "Tank was niet leeg"
   },
   "getable": true,
   "setable": false,
@@ -26,15 +26,15 @@
         "id": "alarm_tank_empty_true",
         "highlight": true,
         "title": {
-          "en": "The tank empty alarm turned on",
-          "nl": "Het tank leeg alarm gaat aan"
+          "en": "The tank is empty",
+          "nl": "De tank is leeg"
         }
       },
       {
         "id": "alarm_tank_empty_false",
         "title": {
-          "en": "The tank empty alarm turned off",
-          "nl": "Het tank leeg alarm gaat uit"
+          "en": "The tank is no longer empty",
+          "nl": "De tank is niet langer leeg"
         }
       }
     ],
@@ -42,8 +42,8 @@
       {
         "id": "alarm_tank_empty",
         "title": {
-          "en": "The tank empty alarm is !{{on|off}}",
-          "nl": "Het tank leeg alarm is !{{aan|uit}}"
+          "en": "The tank is !{{empty|not empty}}",
+          "nl": "De tank is !{{leeg|niet leeg}}"
         }
       }
     ]

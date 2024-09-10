@@ -10,12 +10,12 @@
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Tank missing alarm turned on",
-    "nl": "Tank-ontbreekt-alarm ging af"
+    "en": "Tank was missing",
+    "nl": "Tank ontbrak"
   },
   "insightsTitleFalse": {
-    "en": "Tank missing alarm turned off",
-    "nl": "Tank-ontbreekt-alarm ging uit"
+    "en": "Tank was not missing",
+    "nl": "Tank was geplaatst"
   },
   "getable": true,
   "setable": false,
@@ -26,15 +26,15 @@
         "id": "alarm_tank_missing_true",
         "highlight": true,
         "title": {
-          "en": "The tank missing alarm turned on",
-          "nl": "Het tank-ontbreekt-alarm gaat aan"
+          "en": "The tank is missing",
+          "nl": "De tank ontbreekt"
         }
       },
       {
         "id": "alarm_tank_missing_false",
         "title": {
-          "en": "The tank missing alarm turned off",
-          "nl": "Het tank-ontbreekt-alarm gaat uit"
+          "en": "The tank is placed",
+          "nl": "De tank is geplaatst"
         }
       }
     ],
@@ -42,8 +42,8 @@
       {
         "id": "alarm_tank_missing",
         "title": {
-          "en": "The tank missing alarm is !{{on|off}}",
-          "nl": "Het tank-ontbreekt-alarm is !{{aan|uit}}"
+          "en": "The tank is !{{missing|placed}}",
+          "nl": "De tank !{{ontbreekt|is geplaatst}}"
         }
       }
     ]

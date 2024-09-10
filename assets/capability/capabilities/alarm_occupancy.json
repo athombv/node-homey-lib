@@ -42,8 +42,8 @@
       {
         "id": "alarm_occupancy",
         "title": {
-          "en": "The occupancy alarm is !{{on|off}}",
-          "nl": "Het bezettingsalarm is !{{aan|uit}}"
+          "en": "Is !{{occupied|not occupied}}",
+          "nl": "Is !{{bezet|niet bezet}}"
         }
       }
     ]

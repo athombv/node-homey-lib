@@ -42,8 +42,8 @@
       {
         "id": "alarm_running",
         "title": {
-          "en": "The running alarm is !{{on|off}}",
-          "nl": "Het werkzaamheidsalarm is !{{aan|uit}}"
+          "en": "Is !{{busy|not busy}}",
+          "nl": "Is !{{bezig|niet bezig}}"
         }
       }
     ]

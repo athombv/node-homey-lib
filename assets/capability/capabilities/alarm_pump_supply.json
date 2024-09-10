@@ -10,12 +10,12 @@
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Pump supply fault alarm turned on",
-    "nl": "Pompaanvoerfoutalarm ging af"
+    "en": "Problem was detected in the pump supply",
+    "nl": "Er was een probleem gedetecteerd in de pompaanvoer"
   },
   "insightsTitleFalse": {
-    "en": "Pump supply fault alarm turned off",
-    "nl": "Pompaanvoerfoutalarm ging uit"
+    "en": "Problem in the pump supply was solved",
+    "nl": "Het probleem in de pompaanvoer werd opgelost"
   },
   "getable": true,
   "setable": false,
@@ -26,15 +26,15 @@
         "id": "alarm_pump_supply_true",
         "highlight": true,
         "title": {
-          "en": "The pump supply fault alarm turned on",
-          "nl": "Het pompaanvoerfoutalarm gaat aan"
+          "en": "A problem is detected in the pump supply",
+          "nl": "Er is een probleem gedetecteerd in de pompaanvoer"
         }
       },
       {
         "id": "alarm_pump_supply_false",
         "title": {
-          "en": "The pump supply fault alarm turned off",
-          "nl": "Het pompaanvoerfoutalarm gaat uit"
+          "en": "The problem in the pump supply is solved",
+          "nl": "Het probleem in de pompaanvoer is opgelost"
         }
       }
     ],
@@ -42,8 +42,8 @@
       {
         "id": "alarm_pump_supply",
         "title": {
-          "en": "The pump supply fault alarm is !{{on|off}}",
-          "nl": "Het pompaanvoerfoutalarm is !{{aan|uit}}"
+          "en": "There !{{is|isn't}} a problem in the pump supply",
+          "nl": "Er !{{is|is geen}} een probleem in de pompaanvoer"
         }
       }
     ]

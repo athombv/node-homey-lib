@@ -10,12 +10,12 @@
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Tank open alarm turned on",
-    "nl": "Tank-open-alarm ging af"
+    "en": "Tank was open",
+    "nl": "Tank was open"
   },
   "insightsTitleFalse": {
-    "en": "Tank open alarm turned off",
-    "nl": "Tank-open-alarm ging uit"
+    "en": "Tank was closed",
+    "nl": "Tank was gesloten"
   },
   "getable": true,
   "setable": false,
@@ -26,15 +26,15 @@
         "id": "alarm_tank_open_true",
         "highlight": true,
         "title": {
-          "en": "The tank open alarm turned on",
-          "nl": "Het tank-open-alarm gaat aan"
+          "en": "The tank opens",
+          "nl": "De tank gaat open"
         }
       },
       {
         "id": "alarm_tank_open_false",
         "title": {
-          "en": "The tank open alarm turned off",
-          "nl": "Het tank-open-alarm gaat uit"
+          "en": "The tank closes",
+          "nl": "De tank sluit"
         }
       }
     ],
@@ -42,8 +42,8 @@
       {
         "id": "alarm_tank_open",
         "title": {
-          "en": "The tank open alarm is !{{on|off}}",
-          "nl": "Het tank-open-alarm is !{{aan|uit}}"
+          "en": "The tank is !{{open|closed}}",
+          "nl": "De tank is !{{open|closed}}"
         }
       }
     ]
