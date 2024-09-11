@@ -16,5 +16,15 @@
   "type": "boolean",
   "getable": false,
   "setable": true,
-  "uiComponent": "button"
+  "uiComponent": "button",
+  "$flow": {
+    "actions": [
+      {
+        "id": "tilt_up",
+        "title": {
+          "en": "Tilt up"
+        }
+      }
+    ]
+  }
 }
