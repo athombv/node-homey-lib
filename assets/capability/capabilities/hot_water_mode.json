@@ -6,21 +6,21 @@
   },
   "values": [
     {
-      "key": "on",
+      "id": "on",
       "title": {
         "en": "On",
         "nl": "Aan"
       }
     },
     {
-      "key": "off",
+      "id": "off",
       "title": {
         "en": "Off",
         "nl": "Uit"
       }
     },
     {
-      "key": "eco",
+      "id": "eco",
       "title": {
         "en": "Eco",
         "nl": "Eco"

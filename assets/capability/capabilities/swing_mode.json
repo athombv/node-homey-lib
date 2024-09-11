@@ -6,21 +6,21 @@
   },
   "values": [
     {
-      "key": "vertical",
+      "id": "vertical",
       "title": {
         "en": "Vertical",
         "nl": "Verticaal"
       }
     },
     {
-      "key": "horizontal",
+      "id": "horizontal",
       "title": {
         "en": "Horizontal",
         "nl": "Horizontaal"
       }
     },
     {
-      "key": "both",
+      "id": "both",
       "title": {
         "en": "Both",
         "nl": "Beide"
