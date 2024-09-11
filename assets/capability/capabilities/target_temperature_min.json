@@ -19,7 +19,7 @@
   "max": 35,
   "getable": true,
   "setable": true,
-  "uiComponent": "thermostat",
+  "uiComponent": "slider",
   "$flow": {
     "triggers": [
       {
