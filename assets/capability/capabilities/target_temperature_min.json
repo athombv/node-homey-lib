@@ -19,11 +19,11 @@
   "max": 35,
   "getable": true,
   "setable": true,
-  "uiComponent": "thermostat",
+  "uiComponent": "slider",
   "$flow": {
     "triggers": [
       {
-        "id": "setpoint_temperature_min_changed",
+        "id": "target_temperature_min_changed",
         "title": {
           "en": "The minimum target temperature has changed",
           "nl": "De minimale doeltemperatuur is gewijzigd"
