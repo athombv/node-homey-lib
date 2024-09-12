@@ -23,7 +23,7 @@
   "$flow": {
     "triggers": [
       {
-        "id": "temperature_setpoint_max_changed",
+        "id": "target_temperature_max_changed",
         "title": {
           "en": "The maximum target temperature has changed",
           "nl": "De maximale doeltemperatuur is gewijzigd"

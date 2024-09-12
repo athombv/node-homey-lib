@@ -23,7 +23,7 @@
   "$flow": {
     "triggers": [
       {
-        "id": "setpoint_humidity_max_changed",
+        "id": "target_humidity_max_changed",
         "title": {
           "en": "The maximum target humidity has changed",
           "nl": "De maximale doelvochtigheid is gewijzigd"

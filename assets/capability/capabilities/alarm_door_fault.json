@@ -23,7 +23,7 @@
   "$flow": {
     "triggers": [
       {
-        "id": "alarm_door_true",
+        "id": "alarm_door_fault_true",
         "highlight": true,
         "title": {
           "en": "The door alarm turned on",
@@ -31,7 +31,7 @@
         }
       },
       {
-        "id": "alarm_door_false",
+        "id": "alarm_door_fault_false",
         "title": {
           "en": "The door alarm turned off",
           "nl": "Het deur-alarm ging uit"
