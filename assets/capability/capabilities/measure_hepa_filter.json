@@ -18,7 +18,7 @@
   "$flow": {
     "triggers": [
       {
-        "id": "hepa_filter_changed",
+        "id": "measure_hepa_filter_changed",
         "highlight": true,
         "title": {
           "en": "The HEPA filter level changed to",

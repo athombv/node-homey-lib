@@ -23,7 +23,7 @@
   "$flow": {
     "triggers": [
       {
-        "id": "alarm_pad_missing_true",
+        "id": "alarm_cleaning_pad_missing_true",
         "highlight": true,
         "title": {
           "en": "The cleaning pad was removed",
@@ -31,7 +31,7 @@
         }
       },
       {
-        "id": "alarm_pad_missing_false",
+        "id": "alarm_cleaning_pad_missing_false",
         "title": {
           "en": "The cleaning pad was placed",
           "nl": "Het reinigingspad is geplaatst"
@@ -40,7 +40,7 @@
     ],
     "conditions": [
       {
-        "id": "alarm_pad_missing",
+        "id": "alarm_cleaning_pad_missing",
         "title": {
           "en": "The cleaning pad is !{{missing|present}}",
           "nl": "Het reigningingspad is !{{aanwezig|afwezig}}"
