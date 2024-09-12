@@ -39,7 +39,7 @@
   "$flow": {
     "triggers": [
       {
-        "id": "lawnmower_state_changed",
+        "id": "mower_state_changed",
         "title": {
           "en": "The lawnmower state changed"
         },

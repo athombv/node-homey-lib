@@ -24,5 +24,50 @@
   "decimals": 2,
   "getable": true,
   "setable": true,
-  "uiComponent": "slider"
+  "uiComponent": "slider",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "windowcoverings_tilt_set_changed",
+        "title": {
+          "en": "The tilt position changed"
+        },
+        "tokens": [
+          {
+            "name": "windowcoverings_tilt_set",
+            "type": "number",
+            "title": {
+              "en": "Position"
+            },
+            "example": 0.5
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "windowcoverings_tilt_set",
+        "highlight": true,
+        "title": {
+          "en": "Set the tilt position to"
+        },
+        "hint": {
+          "en": "Change the tilt position to open (100%), closed (0%), or a value in between."
+        },
+        "args": [
+          {
+            "name": "windowcoverings_tilt_set",
+            "type": "range",
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "value": 0.5,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
+          }
+        ]
+      }
+    ]
+  }
 }

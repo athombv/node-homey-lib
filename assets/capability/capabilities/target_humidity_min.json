@@ -23,7 +23,7 @@
   "$flow": {
     "triggers": [
       {
-        "id": "setpoint_humidity_min_changed",
+        "id": "target_humidity_min_changed",
         "title": {
           "en": "The minimum target humidity has changed",
           "nl": "De minimale doelvochtigheid is gewijzigd"
