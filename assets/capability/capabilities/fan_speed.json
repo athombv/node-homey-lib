@@ -46,7 +46,7 @@
         },
         "args": [
           {
-            "name": "speed",
+            "name": "fan_speed",
             "type": "range",
             "min": 0,
             "max": 1,

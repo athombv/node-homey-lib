@@ -47,7 +47,7 @@
         },
         "args": [
           {
-            "name": "position",
+            "name": "valve_position",
             "type": "range",
             "min": 0,
             "max": 1,

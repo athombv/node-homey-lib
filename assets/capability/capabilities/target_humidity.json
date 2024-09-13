@@ -46,7 +46,7 @@
         },
         "args": [
           {
-            "name": "value",
+            "name": "target_humidity",
             "type": "range",
             "min": 0,
             "max": 1,
