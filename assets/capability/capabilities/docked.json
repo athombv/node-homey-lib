@@ -42,8 +42,8 @@
       {
         "id": "docked",
         "title": {
-          "en": "Is !{{Docked|Not docked}}",
-          "nl": "Is !{{Gedockt|Niet gedockt}}"
+          "en": "Is !{{docked|not docked}}",
+          "nl": "Is !{{gedockt|niet gedockt}}"
         }
       }
     ]

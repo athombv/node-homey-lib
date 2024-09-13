@@ -18,8 +18,8 @@
       {
         "id": "measure_tvoc_index_changed",
         "title": {
-          "en": "The TVOC index value has changed",
-          "nl": "De VOS-indexwaarde is veranderd"
+          "en": "The TVOC index has changed",
+          "nl": "De VOS-index is veranderd"
         },
         "tokens": [
           {

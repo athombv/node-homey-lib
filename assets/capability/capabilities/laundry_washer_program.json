@@ -54,8 +54,8 @@
         "id": "laundry_washer_program_changed",
         "highlight": true,
         "title": {
-          "en": "The laundry washer program changed to",
-          "nl": "Het wasprogramma is veranderd naar"
+          "en": "The program changed to",
+          "nl": "Het programma is veranderd naar"
         },
         "args": [
           {
@@ -70,8 +70,8 @@
       {
         "id": "laundry_washer_program_is",
         "title": {
-          "en": "The laundry washer program !{{is|is not}}",
-          "nl": "Het wasprogramma !{{is|is niet}}"
+          "en": "The program !{{is|is not}}",
+          "nl": "Het programma !{{is|is niet}}"
         },
         "args": [
           {

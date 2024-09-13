@@ -35,8 +35,8 @@
       {
         "id": "swing_mode_changed",
         "title": {
-          "en": "Swing mode has changed",
-          "nl": "Zwenkmodus is veranderd"
+          "en": "Swing mode changed to",
+          "nl": "Zwenkmodus is veranderd naar"
         },
         "args": [
           {

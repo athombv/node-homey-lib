@@ -20,7 +20,7 @@
       {
         "id": "measure_aqi_changed",
         "title": {
-          "en": "The Air Quality Index changed",
+          "en": "The air quality index changed",
           "nl": "De luchtkwaliteitsindex is veranderd"
         },
         "tokens": [

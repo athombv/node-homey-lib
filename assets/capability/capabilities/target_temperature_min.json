@@ -40,14 +40,14 @@
     ],
     "actions": [
       {
-        "id": "set_setpoint_temperature_min",
+        "id": "set_target_temperature_min",
         "title": {
           "en": "Set the minimum target temperature",
           "nl": "Stel de minimale doeltemperatuur in"
         },
         "args": [
           {
-            "name": "value",
+            "name": "target_temperature_min",
             "type": "range",
             "min": 4,
             "max": 35,

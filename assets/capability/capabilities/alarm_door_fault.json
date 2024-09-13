@@ -40,7 +40,7 @@
     ],
     "conditions": [
       {
-        "id": "alarm_door",
+        "id": "alarm_door_fault",
         "title": {
           "en": "The door alarm is !{{on|off}}",
           "nl": "Het deur-alarm is !{{aan|uit}}"

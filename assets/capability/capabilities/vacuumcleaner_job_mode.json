@@ -56,8 +56,8 @@
       {
         "id": "vacuumcleaner_job_mode_changed",
         "title": {
-          "en": "The vacuum cleaner job mode has changed",
-          "nl": "De stofzuigermodus is gewijzigd"
+          "en": "The job mode changed to",
+          "nl": "De modus is gewijzigd naar"
         },
         "args": [
           {
@@ -72,8 +72,8 @@
       {
         "id": "vacuumcleaner_job_mode_is",
         "title": {
-          "en": "The vacuum cleaner job mode !{{is|is not}}",
-          "nl": "De stofzuigermodus !{{is|is not}}"
+          "en": "The job mode !{{is|is not}}",
+          "nl": "De modus !{{is|is not}}"
         },
         "args": [
           {
@@ -88,8 +88,8 @@
       {
         "id": "set_vacuumcleaner_job_mode",
         "title": {
-          "en": "Set the vacuum cleaner job mode to",
-          "nl": "Stel de stofzuigermodus in op"
+          "en": "Set the job mode to",
+          "nl": "Stel de modus in op"
         },
         "args": [
           {

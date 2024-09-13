@@ -23,8 +23,8 @@
       {
         "id": "measure_nox_changed",
         "title": {
-          "en": "The NOx value changed",
-          "nl": "De NOx-waarde is veranderd"
+          "en": "The NOx level changed",
+          "nl": "Het NOx-niveau is veranderd"
         },
         "tokens": [
           {

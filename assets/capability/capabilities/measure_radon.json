@@ -23,8 +23,8 @@
       {
         "id": "measure_radon_changed",
         "title": {
-          "en": "The Radon value has changed",
-          "nl": "De Radonwaarde is veranderd"
+          "en": "The radon level has changed",
+          "nl": "Het radonniveau is veranderd"
         },
         "tokens": [
           {

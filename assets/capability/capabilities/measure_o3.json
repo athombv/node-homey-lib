@@ -23,8 +23,8 @@
       {
         "id": "measure_o3_changed",
         "title": {
-          "en": "The Ozone value changed",
-          "nl": "De ozonwaarde is veranderd"
+          "en": "The ozone level changed",
+          "nl": "Het ozonniveau is veranderd"
         },
         "tokens": [
           {

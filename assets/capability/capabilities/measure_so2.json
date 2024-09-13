@@ -23,8 +23,8 @@
       {
         "id": "measure_so2_changed",
         "title": {
-          "en": "The SO2 value has changed",
-          "nl": "De SO2-waarde is veranderd"
+          "en": "The SO2 level has changed",
+          "nl": "Het SO2-niveau is veranderd"
         },
         "tokens": [
           {

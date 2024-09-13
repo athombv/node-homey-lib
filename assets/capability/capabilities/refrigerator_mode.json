@@ -40,8 +40,8 @@
         "id": "refrigerator_mode_changed",
         "highlight": true,
         "title": {
-          "en": "The refrigerator mode changed to",
-          "nl": "De koelkastmodus is veranderd naar"
+          "en": "The mode changed to",
+          "nl": "De modus is veranderd naar"
         },
         "args": [
           {
@@ -56,8 +56,8 @@
       {
         "id": "refrigerator_mode_is",
         "title": {
-          "en": "The refrigerator mode !{{is|is not}}",
-          "nl": "De koelkastmodus !{{is|is niet}}"
+          "en": "The mode !{{is|is not}}",
+          "nl": "De modus !{{is|is niet}}"
         },
         "args": [
           {
@@ -72,8 +72,8 @@
       {
         "id": "set_refrigerator_mode",
         "title": {
-          "en": "Set the refrigerator mode to",
-          "nl": "Stel de koelkastmodus in op"
+          "en": "Set the mode to",
+          "nl": "Stel de modus in op"
         },
         "args": [
           {

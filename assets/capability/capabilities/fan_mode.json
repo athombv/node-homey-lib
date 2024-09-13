@@ -35,8 +35,8 @@
       {
         "id": "fan_mode_changed",
         "title": {
-          "en": "The fan mode has changed to",
-          "nl": "De ventilatorstand is veranderd naar"
+          "en": "The fan mode changed to",
+          "nl": "De ventilatorstand veranderd naar"
         },
         "args": [
           {

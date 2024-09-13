@@ -14,9 +14,9 @@
   },
   "insights": true,
   "chartType": "stepLine",
-  "decimals": 0,
+  "decimals": 2,
   "min": 0,
-  "max": 100,
+  "max": 1,
   "getable": true,
   "setable": true,
   "uiComponent": "slider",
@@ -33,26 +33,29 @@
             "name": "$id",
             "title": "$title",
             "type": "$type",
-            "example": 50
+            "example": 0.5
           }
         ]
       }
     ],
     "actions": [
       {
-        "id": "set_setpoint_humidity_max",
+        "id": "set_target_humidity_max",
         "title": {
           "en": "Set the maximum target humidity",
           "nl": "Stel de maximale doelvochtigheid in"
         },
         "args": [
           {
-            "name": "value",
+            "name": "target_humidity_max",
             "type": "range",
             "min": 0,
-            "max": 100,
-            "step": 1,
-            "example": 50
+            "max": 1,
+            "step": 0.01,
+            "value": 0.5,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
           }
         ]
       }

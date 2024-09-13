@@ -91,7 +91,7 @@
     ],
     "actions": [
       {
-        "id": "media_input_set",
+        "id": "set_media_input",
         "title": {
           "en": "Set the media input",
           "nl": "Stel de media-input in"

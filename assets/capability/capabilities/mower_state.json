@@ -41,9 +41,9 @@
       {
         "id": "mower_state_changed",
         "title": {
-          "en": "The lawnmower state changed"
+          "en": "The lawnmower state changed to"
         },
-        "tokens": [
+        "args": [
           {
             "name": "state",
             "type": "dropdown",
@@ -54,11 +54,11 @@
     ],
     "conditions": [
       {
-        "id": "lawnmower_state_is",
+        "id": "mower_state_is",
         "title": {
           "en": "The lawnmower !{{is|is not}}"
         },
-        "tokens": [
+        "args": [
           {
             "name": "state",
             "type": "dropdown",
@@ -69,19 +69,19 @@
     ],
     "actions": [
       {
-        "id": "lawnmower_state_mow",
+        "id": "mower_state_mow",
         "title": {
           "en": "Start mowing"
         }
       },
       {
-        "id": "lawnmower_state_pause",
+        "id": "mower_state_pause",
         "title": {
           "en": "Pause mowing"
         }
       },
       {
-        "id": "lawnmower_state_dock",
+        "id": "mower_state_dock",
         "title": {
           "en": "Return to dock"
         }
