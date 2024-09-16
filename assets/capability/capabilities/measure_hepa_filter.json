@@ -44,8 +44,8 @@
         "id": "measure_hepa_filter_changed",
         "highlight": true,
         "title": {
-          "en": "The HEPA filter level changed",
-          "nl": "Het HEPA-filterniveau is veranderd",
+          "en": "The HEPA filter level changed to",
+          "nl": "Het HEPA-filterniveau is veranderd naar",
           "da": "HEPA-filterets niveau ændrede sig til",
           "it": "Il livello del filtro HEPA è passato a",
           "ko": "HEPA 필터 수준이 다음으로 변경됨",

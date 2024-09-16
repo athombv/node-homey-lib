@@ -96,8 +96,8 @@
         "id": "laundry_washer_program_changed",
         "highlight": true,
         "title": {
-          "en": "The program changed to",
-          "nl": "Het programma is veranderd naar",
+          "en": "The laundry washer program changed to",
+          "nl": "Het wasprogramma is veranderd naar",
           "da": "Vaskemaskinens program blev ændret til",
           "it": "Il programma della lavatrice è passato a",
           "ko": "세탁기 프로그램이 다음으로 변경됨",
@@ -118,8 +118,8 @@
       {
         "id": "laundry_washer_program_is",
         "title": {
-          "en": "The program !{{is|is not}}",
-          "nl": "Het programma !{{is|is niet}}",
+          "en": "The laundry washer program !{{is|is not}}",
+          "nl": "Het wasprogramma !{{is|is niet}}",
           "da": "Vaskemaskineprogrammet !{{er|er ikke}}",
           "it": "Il programma della lavatrice !{{è|non è}}",
           "ko": "세탁기 프로그램이 다음!{{과 같음| 아님}}",

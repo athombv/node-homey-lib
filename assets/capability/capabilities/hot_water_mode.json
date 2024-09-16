@@ -59,8 +59,8 @@
       {
         "id": "hot_water_mode_changed",
         "title": {
-          "en": "The hot water mode changed to",
-          "nl": "De warmwatermodus veranderd naar",
+          "en": "The hot water mode has changed to",
+          "nl": "De warmwatermodus is veranderd naar",
           "da": "Varmtvandstilstanden er ændret til",
           "it": "La modalità acqua calda è passata a",
           "ko": "온수 모드가 다음으로 변경됨",

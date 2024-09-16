@@ -61,8 +61,8 @@
       {
         "id": "fan_mode_changed",
         "title": {
-          "en": "The fan mode changed to",
-          "nl": "De ventilatormodus veranderd naar",
+          "en": "The fan mode has changed to",
+          "nl": "De ventilatormodus is veranderd naar",
           "da": "Ventilatortilstanden er ændret til",
           "it": "La modalità ventola è passata a",
           "ko": "팬 모드가 다음으로 변경됨",

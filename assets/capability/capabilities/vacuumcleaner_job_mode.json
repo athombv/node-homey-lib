@@ -98,8 +98,8 @@
       {
         "id": "vacuumcleaner_job_mode_changed",
         "title": {
-          "en": "The job mode has changed",
-          "nl": "De modus is veranderd",
+          "en": "The vacuum cleaner job mode has changed",
+          "nl": "De stofzuigermodus is veranderd",
           "da": "Støvsugerens jobtilstand er ændret",
           "it": "La modalità di lavoro dell'aspirapolvere è cambiata",
           "ko": "진공 청소기 작동 모드 변경됨",
@@ -121,8 +121,8 @@
       {
         "id": "vacuumcleaner_job_mode_is",
         "title": {
-          "en": "The job mode !{{is|is not}}",
-          "nl": "De modus !{{is|is niet}}",
+          "en": "The vacuum cleaner job mode !{{is|is not}}",
+          "nl": "De stofzuigermodus !{{is|is niet}}",
           "da": "Støvsugerens jobtilstand !{{er|er ikke}}",
           "it": "La modalità di lavoro dell'aspirapolvere !{{è|non è}}",
           "ko": "진공 청소기 작동 모드가 다음!{{과 같음| 아님}}",
@@ -143,8 +143,8 @@
       {
         "id": "set_vacuumcleaner_job_mode",
         "title": {
-          "en": "Set the job mode to",
-          "nl": "De modus instellen op",
+          "en": "Set the vacuum cleaner job mode to",
+          "nl": "De stofzuigermodus instellen op",
           "da": "Indstil støvsugerens jobtilstand til",
           "it": "Imposta la modalità di lavoro dell'aspirapolvere su",
           "ko": "진공 청소기 작동 모드를 다음으로 설정",

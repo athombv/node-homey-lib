@@ -82,7 +82,7 @@
       {
         "id": "mower_state_changed",
         "title": {
-          "en": "The lawnmower state changed to",
+          "en": "The lawnmower state changed",
           "da": "Plæneklipperens tilstand ændrede sig",
           "it": "Lo stato del tosaerba è cambiato",
           "ko": "잔디깎이 상태 변경됨",
