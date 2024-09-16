@@ -2,20 +2,48 @@
   "type": "boolean",
   "title": {
     "en": "Moisture alarm",
-    "nl": "Vochtalarm"
+    "nl": "Vochtwaarschuwing",
+    "da": "Fugtalarm",
+    "it": "Allarme umidità",
+    "ko": "습기 알림",
+    "no": "Fuktalarm",
+    "pl": "Alarm wilgoci",
+    "ru": "Сигнал влаги",
+    "sv": "Fuktlarm"
   },
   "desc": {
     "en": "True when moisture is detected.",
-    "nl": "Gaat af wanneer vocht wordt gedetecteerd."
+    "nl": "Wordt geactiveerd wanneer vocht wordt gedetecteerd.",
+    "da": "Sandt, når der registreres fugt.",
+    "it": "Vero quando viene rilevata umidità.",
+    "ko": "습기가 감지되면 참입니다.",
+    "no": "Sann når fuktighet er oppdaget.",
+    "pl": "Prawda, gdy wykryta jest wilgoć.",
+    "ru": "Значение «истина» при обнаружении влаги.",
+    "sv": "Sant när fukt detekteras."
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Moisture Alarm turned on",
-    "nl": "Vochtalarm ging af"
+    "nl": "Vochtwaarschuwing geactiveerd",
+    "da": "Fugtalarm slået til",
+    "it": "Allarme umidità acceso",
+    "ko": "습기 알람 켜짐",
+    "no": "Fuktalarm aktivert",
+    "pl": "Alarm wilgoci włączony",
+    "ru": "Сигнал влаги включен",
+    "sv": "Fuktlarm aktiverat"
   },
   "insightsTitleFalse": {
     "en": "Moisture Alarm turned off",
-    "nl": "Vochtalarm ging uit"
+    "nl": "Vochtwaarschuwing gedeactiveerd",
+    "da": "Fugtalarm slået fra",
+    "it": "Allarme umidità spento",
+    "ko": "습기 알람 꺼짐",
+    "no": "Fuktalarm deaktivert",
+    "pl": "Alarm wilgoci wyłączony",
+    "ru": "Сигнал влаги выключен",
+    "sv": "Fuktlarmet inaktiverat"
   },
   "getable": true,
   "setable": false,
@@ -27,14 +55,28 @@
         "highlight": true,
         "title": {
           "en": "The moisture alarm turned on",
-          "nl": "Het vochtalarm gaat aan"
+          "nl": "De vochtwaarschuwing is geactiveerd",
+          "da": "Fugtalarmen er slået til",
+          "it": "L'allarme umidità si è acceso",
+          "ko": "습기 알람이 켜짐",
+          "no": "Fuktalarmen ble aktivert",
+          "pl": "Włączył się alarm wilgoci",
+          "ru": "Сигнал влаги включен",
+          "sv": "Fuktlarmet är aktiverat"
         }
       },
       {
         "id": "alarm_moisture_false",
         "title": {
           "en": "The moisture alarm turned off",
-          "nl": "Het vochtalarm gaat uit"
+          "nl": "De vochtwaarschuwing is gedeactiveerd",
+          "da": "Fugtalarmen er slået fra",
+          "it": "L'allarme umidità si è spento",
+          "ko": "습기 알람이 꺼짐",
+          "no": "Fuktalarmen ble deaktivert",
+          "pl": "Wyłączył się alarm wilgoci",
+          "ru": "Сигнал влаги выключен",
+          "sv": "Fuktlarmet inaktiverat"
         }
       }
     ],
@@ -43,7 +85,14 @@
         "id": "alarm_moisture",
         "title": {
           "en": "The moisture alarm is !{{on|off}}",
-          "nl": "Het vochtalarm is !{{aan|uit}}"
+          "nl": "De vochtwaarschuwing is !{{geactiveerd|gedeactiveerd}}",
+          "da": "Fugtalarmen er slået !{{til|fra}}",
+          "it": "L'allarme umidità è !{{acceso|spento}}",
+          "ko": "습기 알람이 !{{켜짐|꺼짐}}",
+          "no": "Fuktalarmen er !{{på|av}}",
+          "pl": "Alarm wilgoci jest !{{włączony|wyłączony}}",
+          "ru": "Сигнал влаги !{{включен|выключен}}",
+          "sv": "Fuktlarmet är aktiverat !{{på|av}}"
         }
       }
     ]

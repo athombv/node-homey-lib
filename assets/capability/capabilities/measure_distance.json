@@ -2,15 +2,36 @@
   "type": "number",
   "title": {
     "en": "Distance",
-    "nl": "Afstand"
+    "nl": "Afstand",
+    "da": "Afstand",
+    "it": "Distanza",
+    "ko": "거리",
+    "no": "Avstand",
+    "pl": "Odległość",
+    "ru": "Расстояние",
+    "sv": "Avstånd"
   },
   "units": {
     "en": "m",
-    "nl": "m"
+    "nl": "m",
+    "da": "m",
+    "it": "m",
+    "ko": "m",
+    "no": "m",
+    "pl": "m",
+    "ru": "м",
+    "sv": "m"
   },
   "desc": {
     "en": "The distance in meters.",
-    "nl": "De afstand in meters."
+    "nl": "De afstand in meters.",
+    "da": "Afstanden i meter.",
+    "it": "La distanza in metri.",
+    "ko": "미터 단위의 거리입니다.",
+    "no": "Avstanden i meter.",
+    "pl": "Odległość w metrach.",
+    "ru": "Расстояние в метрах.",
+    "sv": "Avståndet i meter."
   },
   "insights": true,
   "chartType": "spline",
@@ -24,7 +45,14 @@
         "id": "measure_distance_changed",
         "title": {
           "en": "The distance changed",
-          "nl": "De afstand is veranderd"
+          "nl": "De afstand is veranderd",
+          "da": "Afstanden ændrede sig",
+          "it": "La distanza è cambiata",
+          "ko": "거리 변경됨",
+          "no": "Avstanden ble endret",
+          "pl": "Zmieniła się odległość",
+          "ru": "Расстояние изменилось",
+          "sv": "Avståndet ändrades"
         },
         "tokens": [
           {

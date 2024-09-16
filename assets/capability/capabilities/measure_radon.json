@@ -2,16 +2,34 @@
   "type": "number",
   "title": {
     "en": "Radon",
-    "nl": "Radon"
+    "nl": "Radon",
+    "da": "Radon",
+    "it": "Radon",
+    "ko": "라돈",
+    "pl": "Radon",
+    "ru": "Радон",
+    "sv": "Radon"
   },
   "units": {
     "en": "Bq/m³",
-    "nl": "Bq/m³"
+    "nl": "Bq/m³",
+    "da": "Bq/m³",
+    "it": "Bq/m³",
+    "ko": "Bq/m³",
+    "pl": "Bq/m³",
+    "ru": "Бк/м³",
+    "sv": "Bq/m³"
   },
   "insights": true,
   "desc": {
     "en": "Radon in Becquerel per cubic meter (Bq/m³)",
-    "nl": "Radon in Becquerel per kubieke meter (Bq/m³)"
+    "nl": "Radon in becquerel per kubieke meter (Bq/m³)",
+    "da": "Radon i Becquerel pr. kubikmeter (Bq/m³)",
+    "it": "Radon in Becquerel per metro cubo (Bq/m³)",
+    "ko": "입방미터당 베크렐(Bq/m³) 단위의 라돈",
+    "pl": "Radon w bekerelach na metr sześcienny (Bq/m³)",
+    "ru": "Радон в беккерелях на кубический метр (Бк/м³)",
+    "sv": "Radon i becquerel per kubikmeter (Bq/m³)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -24,7 +42,14 @@
         "id": "measure_radon_changed",
         "title": {
           "en": "The Radon value has changed",
-          "nl": "De Radonwaarde is veranderd"
+          "nl": "De radonwaarde is veranderd",
+          "da": "Radon-værdien har ændret sig",
+          "it": "Il valore del Radon è cambiato",
+          "ko": "라돈 값 변경됨",
+          "no": "Radonverdien er endret",
+          "pl": "Zmieniła się wartość radonu",
+          "ru": "Значение радона изменилось",
+          "sv": "Radonvärdet har ändrats"
         },
         "tokens": [
           {

@@ -2,20 +2,48 @@
   "type": "boolean",
   "title": {
     "en": "Tank empty alarm",
-    "nl": "Tank-leeg-alarm"
+    "nl": "Waarschuwing voor lege tank",
+    "da": "Alarm for tom tank",
+    "it": "Allarme serbatoio vuoto",
+    "ko": "탱크 빔 알람",
+    "no": "Alarm om tom tank",
+    "pl": "Alarm pustego zbiornika",
+    "ru": "Сигнал об опорожнении резервуара",
+    "sv": "Larm om tom tank"
   },
   "desc": {
     "en": "True when the tank is empty.",
-    "nl": "Gaat af als de tank leeg is."
+    "nl": "Wordt geactiveerd wanneer de tank leeg is.",
+    "da": "Sandt, når tanken er tom.",
+    "it": "Vero quando il serbatoio è vuoto.",
+    "ko": "탱크가 비어 있으면 참입니다.",
+    "no": "Sann når tanken er tom.",
+    "pl": "Prawda, gdy zbiornik jest pusty.",
+    "ru": "Значение «истина», когда резервуар пустой.",
+    "sv": "Sant när tanken är tom."
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Tank was empty",
-    "nl": "Tank was leeg"
+    "nl": "Tank was leeg",
+    "da": "Tanken var tom",
+    "it": "Il serbatoio era vuoto",
+    "ko": "탱크가 비었음",
+    "no": "Tanken var tom",
+    "pl": "Zbiornik był pusty",
+    "ru": "Резервуар был пуст",
+    "sv": "Tanken var tom"
   },
   "insightsTitleFalse": {
     "en": "Tank was not empty",
-    "nl": "Tank was niet leeg"
+    "nl": "Tank was niet leeg",
+    "da": "Tanken var ikke tom",
+    "it": "Il serbatoio non era vuoto",
+    "ko": "탱크가 비어 있지 않음",
+    "no": "Tanken var ikke tom",
+    "pl": "Zbiornik nie był pusty",
+    "ru": "Резервуар не был пуст",
+    "sv": "Tanken var inte tom"
   },
   "getable": true,
   "setable": false,
@@ -27,14 +55,28 @@
         "highlight": true,
         "title": {
           "en": "The tank is empty",
-          "nl": "De tank is leeg"
+          "nl": "De tank is leeg",
+          "da": "Tanken er tom",
+          "it": "Il serbatoio è vuoto",
+          "ko": "탱크 빔",
+          "no": "Tanken er tom",
+          "pl": "Zbiornik jest pusty",
+          "ru": "Резервуар пуст",
+          "sv": "Tanken är tom"
         }
       },
       {
         "id": "alarm_tank_empty_false",
         "title": {
           "en": "The tank is no longer empty",
-          "nl": "De tank is niet langer leeg"
+          "nl": "De tank is niet meer leeg",
+          "da": "Tanken er ikke længere tom",
+          "it": "Il serbatoio non è più vuoto",
+          "ko": "탱크가 더 이상 비어 있지 않음",
+          "no": "Tanken er ikke lenger tom",
+          "pl": "Zbiornik nie jest już pusty",
+          "ru": "Резервуар больше не пуст",
+          "sv": "Tanken är inte längre tom"
         }
       }
     ],
@@ -43,7 +85,14 @@
         "id": "alarm_tank_empty",
         "title": {
           "en": "The tank is !{{empty|not empty}}",
-          "nl": "De tank is !{{leeg|niet leeg}}"
+          "nl": "De tank is !{{leeg|niet leeg}}",
+          "da": "Tanken er!{{tom ikke tom}}",
+          "it": "Il serbatoio !{{è vuoto|non è vuoto}}",
+          "ko": "탱크가 !{{빔|비어 있지 않음}}",
+          "no": "Tanken er !{{tom|ikke tom}}",
+          "pl": "Zbiornik !{{jest pusty|nie jest pusty}}",
+          "ru": "Резервуар !{{пуст|не пуст}}",
+          "sv": "Tanken är !{{tom|inte tom}}"
         }
       }
     ]

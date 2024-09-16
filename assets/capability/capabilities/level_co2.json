@@ -2,39 +2,75 @@
   "type": "enum",
   "title": {
     "en": "CO2 Level",
-    "nl": "CO2-niveau"
+    "nl": "CO2-niveau",
+    "da": "CO2-niveau",
+    "it": "Livello di CO2",
+    "ko": "CO2 수준",
+    "pl": "Poziom CO2",
+    "ru": "Уровень CO2",
+    "sv": "CO2-nivå"
   },
   "desc": {
     "en": "The level of CO2 in the air.",
-    "nl": "Het niveau van CO2 in de lucht."
+    "nl": "De mate van CO2 in de lucht.",
+    "da": "Niveauet af CO2 i luften.",
+    "it": "Il livello di CO2 nell'aria.",
+    "ko": "공기 중 CO2의 수준입니다.",
+    "pl": "Poziom dwutlenku węgla w powietrzu.",
+    "ru": "Уровень содержания CO2 в воздухе.",
+    "sv": "Halten av CO2 i luften."
   },
   "values": [
     {
       "id": "low",
       "title": {
         "en": "Low",
-        "nl": "Laag"
+        "nl": "Laag",
+        "da": "Lavt",
+        "it": "Basso",
+        "ko": "낮음",
+        "pl": "Niski",
+        "ru": "Низкий",
+        "sv": "Låg"
       }
     },
     {
       "id": "medium",
       "title": {
         "en": "Medium",
-        "nl": "Middel"
+        "nl": "Gemiddeld",
+        "da": "Medium",
+        "it": "Medio",
+        "ko": "중간",
+        "pl": "Średni",
+        "ru": "Средний",
+        "sv": "Medium"
       }
     },
     {
       "id": "high",
       "title": {
         "en": "High",
-        "nl": "Hoog"
+        "nl": "Hoog",
+        "da": "Højt",
+        "it": "Alto",
+        "ko": "높음",
+        "pl": "Wysoki",
+        "ru": "Высокий",
+        "sv": "Hög"
       }
     },
     {
       "id": "critical",
       "title": {
         "en": "Critical",
-        "nl": "Kritiek"
+        "nl": "Kritiek",
+        "da": "Kritisk",
+        "it": "Critico",
+        "ko": "치명적",
+        "pl": "Krytyczny",
+        "ru": "Критический",
+        "sv": "Kritisk"
       }
     }
   ],
@@ -48,7 +84,13 @@
         "highlight": true,
         "title": {
           "en": "The CO2 level changed to",
-          "nl": "Het CO2-niveau is veranderd naar"
+          "nl": "Het CO2-niveau is veranderd naar",
+          "da": "CO2-niveauet blev ændret til",
+          "it": "Il livello di CO2 è passato a",
+          "ko": "CO2 수준이 다음으로 변경됨",
+          "pl": "Poziom CO2 zmienił się na",
+          "ru": "Уровень CO2 изменился на",
+          "sv": "CO2-nivån ändrades till"
         },
         "args": [
           {
@@ -64,7 +106,13 @@
         "id": "level_co2_is",
         "title": {
           "en": "The CO2 level !{{is|is not}}",
-          "nl": "Het CO2-niveau !{{is|is niet}}"
+          "nl": "Het CO2-niveau !{{is|is niet}}",
+          "da": "CO2-niveauet !{{er|er ikke}}",
+          "it": "Il livello di CO2 !{{è|non è}}",
+          "ko": "CO2 수준이 다음!{{과 같음| 아님}}",
+          "pl": "Poziom CO2 !{{jest|nie jest}}",
+          "ru": "Уровень CO2 !{{is|is not}}",
+          "sv": "CO2-nivån !{{är|är inte}}"
         },
         "args": [
           {

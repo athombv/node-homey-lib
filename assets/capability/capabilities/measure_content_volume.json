@@ -2,15 +2,33 @@
   "type": "number",
   "title": {
     "en": "Volume",
-    "nl": "Volume"
+    "nl": "Volume",
+    "da": "Volumen",
+    "it": "Volume",
+    "ko": "부피",
+    "pl": "Objętość",
+    "ru": "Объем",
+    "sv": "Volym"
   },
   "units": {
     "en": "L",
-    "nl": "L"
+    "nl": "L",
+    "da": "L",
+    "it": "L",
+    "ko": "L",
+    "pl": "l",
+    "ru": "Л",
+    "sv": "L"
   },
   "desc": {
     "en": "The volume of the content in liters.",
-    "nl": "Het volume van de inhoud in liters."
+    "nl": "Het volume van de inhoud in liters.",
+    "da": "Indholdets volumen i liter.",
+    "it": "Il volume del contenuto in litri.",
+    "ko": "리터 단위의 내용물 부피입니다.",
+    "pl": "Objętość zawartości w litrach.",
+    "ru": "Объем содержимого в литрах.",
+    "sv": "Innehållets volym i liter."
   },
   "insights": true,
   "chartType": "spline",
@@ -24,7 +42,13 @@
         "id": "measure_content_volume_changed",
         "title": {
           "en": "The volume changed",
-          "nl": "Het volume is veranderd"
+          "nl": "Het volume is veranderd",
+          "da": "Lydstyrken ændrede sig",
+          "it": "Il volume è cambiato",
+          "ko": "부피 변경됨",
+          "pl": "Zmieniła się objętość",
+          "ru": "Объем изменился",
+          "sv": "Volymen ändrades"
         },
         "tokens": [
           {

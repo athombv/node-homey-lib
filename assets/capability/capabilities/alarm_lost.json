@@ -2,20 +2,48 @@
   "type": "boolean",
   "title": {
     "en": "Lost alarm",
-    "nl": "Verdwaald-alarm"
+    "nl": "Waarschuwing bij zoekraking",
+    "da": "Forsvundet alarm",
+    "it": "Allarme perso",
+    "ko": "분실 알람",
+    "no": "Mistet-alarm",
+    "pl": "Alarm zgubienia",
+    "ru": "Сигнал о потере",
+    "sv": "Förlorat-larm"
   },
   "desc": {
     "en": "True when the device is lost.",
-    "nl": "Gaat af wanneer het apparaat verdwaald is."
+    "nl": "Wordt geactiveerd wanneer het apparaat zoek is.",
+    "da": "Sandt, når enheden er forsvundet.",
+    "it": "Vero quando il dispositivo viene perso.",
+    "ko": "디바이스를 분실하면 참입니다.",
+    "no": "Sann når enheten er mistet.",
+    "pl": "Prawda, gdy urządzenie jest zgubione.",
+    "ru": "Значение «истина», когда устройство потеряно.",
+    "sv": "Sant när enheten förloras."
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Was lost",
-    "nl": "Was verdwaald"
+    "nl": "Was zoek",
+    "da": "Forsvandt",
+    "it": "È stato perso",
+    "ko": "분실됨",
+    "no": "Ble mistet",
+    "pl": "Było zgubione",
+    "ru": "Было потеряно",
+    "sv": "Förlorades"
   },
   "insightsTitleFalse": {
     "en": "Was no longer lost",
-    "nl": "Was niet meer verdwaald"
+    "nl": "Was gevonden",
+    "da": "Var ikke længere forsvundet",
+    "it": "Non era più perso",
+    "ko": "더 이상 분실되지 않음",
+    "no": "Var ikke lenger mistet",
+    "pl": "Nie było już zgubione",
+    "ru": "Больше не потеряно",
+    "sv": "Var inte längre förlorad"
   },
   "getable": true,
   "setable": false,
@@ -27,14 +55,28 @@
         "highlight": true,
         "title": {
           "en": "Is lost",
-          "nl": "Is verdwaald"
+          "nl": "Is zoek",
+          "da": "Er forsvundet",
+          "it": "È perso",
+          "ko": "분실함",
+          "no": "Er mistet",
+          "pl": "Jest zgubione",
+          "ru": "Потеряно",
+          "sv": "Är förlorad"
         }
       },
       {
         "id": "alarm_lost_false",
         "title": {
           "en": "Is no longer lost",
-          "nl": "Is niet meer verdwaald"
+          "nl": "Is gevonden",
+          "da": "Er ikke længere forsvundet",
+          "it": "Non è più perso",
+          "ko": "더 이상 분실 아님",
+          "no": "Er ikke lenger mistet",
+          "pl": "Nie jest już zgubione",
+          "ru": "Больше не потеряно",
+          "sv": "Är inte längre förlorad"
         }
       }
     ],
@@ -43,7 +85,14 @@
         "id": "alarm_lost",
         "title": {
           "en": "Is !{{lost|not lost}}",
-          "nl": "Is !{{verdwaald|niet verdwaald}}"
+          "nl": "Is !{{zoek|gevonden}}",
+          "da": "Er !{{forsvundet|ikke forsvundet}}",
+          "it": "È !{{perso|non perso}}",
+          "ko": "!{{분실함|분실 아님}}",
+          "no": "Er !{{mistet|ikke mistet}}",
+          "pl": "!{{jest zgubione|nie jest zgubione}} ",
+          "ru": "Устройство !{{потеряно|не потеряно}}",
+          "sv": "Är !{{förlorad|inte förlorad}}"
         }
       }
     ]

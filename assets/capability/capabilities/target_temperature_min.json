@@ -2,15 +2,33 @@
   "type": "number",
   "title": {
     "en": "Minimum target temperature",
-    "nl": "Minimale doeltemperatuur"
+    "nl": "Minimale gewenste temperatuur",
+    "da": "Minimum måltemperatur",
+    "it": "Temperatura target minima",
+    "ko": "최소 목표 온도",
+    "pl": "Minimalna temperatura docelowa",
+    "ru": "Минимальная заданная температура",
+    "sv": "Lägsta måltemperatur"
   },
   "units": {
     "en": "°C",
-    "nl": "°C"
+    "nl": "°C",
+    "da": "°C",
+    "it": "°C",
+    "ko": "°C",
+    "pl": "°C",
+    "ru": "°C",
+    "sv": "°C"
   },
   "desc": {
     "en": "The low end of the temperature setpoint in degrees Celsius.",
-    "nl": "Het onderste uiteinde van het temperatuurinstelpunt in graden Celsius."
+    "nl": "De ondergrens van het instelpunt voor temperatuur in graden Celsius.",
+    "da": "Den lave ende af temperaturindstillingspunktet i Celsius.",
+    "it": "Il setpoint minimo di temperatura in gradi Celsius.",
+    "ko": "섭씨 도 단위의 온도 설정값 최소치입니다.",
+    "pl": "Dolna granica wartości zadanej temperatury w stopniach Celsjusza.",
+    "ru": "Нижний предел уставки температуры в градусах Цельсия.",
+    "sv": "Den nedre delen av temperaturbörvärdet i grader Celsius."
   },
   "insights": true,
   "chartType": "stepLine",
@@ -26,7 +44,14 @@
         "id": "target_temperature_min_changed",
         "title": {
           "en": "The minimum target temperature has changed",
-          "nl": "De minimale doeltemperatuur is gewijzigd"
+          "nl": "De minimale gewenste temperatuur is veranderd",
+          "da": "Minimum måltemperatur har ændret sig",
+          "it": "La temperatura target minima è cambiata",
+          "ko": "최소 목표 온도 변경됨",
+          "no": "Minimum ønsket temperatur er endret",
+          "pl": "Zmieniła się minimalna temperatura docelowa",
+          "ru": "Минимальная заданная температура изменена",
+          "sv": "Den lägsta måltemperaturen har ändrats"
         },
         "tokens": [
           {
@@ -43,7 +68,13 @@
         "id": "set_setpoint_temperature_min",
         "title": {
           "en": "Set the minimum target temperature",
-          "nl": "Stel de minimale doeltemperatuur in"
+          "nl": "De minimale gewenste temperatuur instellen",
+          "da": "Indstil minimum måltemperatur",
+          "it": "Imposta la temperatura target minima",
+          "ko": "최소 목표 온도 설정",
+          "pl": "Ustaw minimalną temperaturę docelową",
+          "ru": "Установить минимальную заданную температуру",
+          "sv": "Ställ in lägsta önskade temperatur"
         },
         "args": [
           {

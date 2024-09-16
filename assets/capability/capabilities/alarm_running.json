@@ -2,20 +2,45 @@
   "type": "boolean",
   "title": {
     "en": "Running alarm",
-    "nl": "Werkzaamheidsalarm"
+    "nl": "Werkzaamheidswaarschuwing",
+    "da": "Løbende alarm",
+    "it": "Allarme elaborazione in corso",
+    "ko": "동작 중 알람",
+    "no": "Kjøringsalarm ",
+    "pl": "Alarm pracy urządzenia",
+    "ru": "Сигнал о процессе",
+    "sv": "Körlarm"
   },
   "desc": {
     "en": "True when the device is busy (e.g., printer is printing).",
-    "nl": "Waar wanneer het apparaat bezig is (bijv. printer is aan het printen)."
+    "nl": "Wordt geactiveerd wanneer het apparaat bezig is (bijv. printer is aan het printen).",
+    "da": "Sandt, når enheden er optaget (f.eks. printeren er i gang med at udskrive).",
+    "it": "Vero quando il dispositivo è occupato (ad esempio, la stampante sta stampando).",
+    "ko": "디바이스가 바쁜 상태(예: 프린터가 인쇄 중)면 참입니다.",
+    "pl": "Prawda, gdy urządzenie jest zajęte (np. drukarka drukuje).",
+    "ru": "Значение «истина», когда устройство занято (например, принтер печатает документ).",
+    "sv": "Sant när enheten är upptagen (t.ex. skrivaren skriver ut)."
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Running alarm turned on",
-    "nl": "Werkzaamheidsalarm ging aan"
+    "nl": "Werkzaamheidswaarschuwing geactiveerd",
+    "da": "Løbende alarm slået til",
+    "it": "Allarme elaborazione in corso acceso",
+    "ko": "동작 중 알람 켜짐",
+    "pl": "Alarm pracy urządzenia włączony",
+    "ru": "Сигнал о процессе включен",
+    "sv": "Körlarm aktiverat"
   },
   "insightsTitleFalse": {
     "en": "Running alarm turned off",
-    "nl": "Werkzaamheidsalarm ging uit"
+    "nl": "Werkzaamheidswaarschuwing gedeactiveerd",
+    "da": "Løbende alarm slået fra",
+    "it": "Allarme elaborazione in corso spento",
+    "ko": "동작 중 알람 꺼짐",
+    "pl": "Alarm pracy urządzenia wyłączony",
+    "ru": "Сигнал о процессе выключен",
+    "sv": "Körlarm inaktiverat"
   },
   "getable": true,
   "setable": false,
@@ -27,14 +52,26 @@
         "highlight": true,
         "title": {
           "en": "The running alarm turned on",
-          "nl": "Het werkzaamheidsalarm gaat aan"
+          "nl": "De werkzaamheidswaarschuwing is geactiveerd",
+          "da": "Den løbende alarm er slået til",
+          "it": "L'allarme di elaborazione in corso si è acceso",
+          "ko": "동작 중 알람이 켜짐",
+          "pl": "Włączył się alarm pracy urządzenia",
+          "ru": "Сигнал о процессе включен",
+          "sv": "Körlarmet aktiverat"
         }
       },
       {
         "id": "alarm_running_false",
         "title": {
           "en": "The running alarm turned off",
-          "nl": "Het werkzaamheidsalarm gaat uit"
+          "nl": "De werkzaamheidswaarschuwing is gedeactiveerd",
+          "da": "Den løbende alarm er slået fra",
+          "it": "L'allarme di elaborazione in corso si è spento",
+          "ko": "동작 중 알람이 꺼짐",
+          "pl": "Alarm pracy urządzenia wyłączony",
+          "ru": "Сигнал о процессе выключен",
+          "sv": "Körlarmet inaktiverat"
         }
       }
     ],
@@ -43,7 +80,13 @@
         "id": "alarm_running",
         "title": {
           "en": "Is !{{busy|not busy}}",
-          "nl": "Is !{{bezig|niet bezig}}"
+          "nl": "Is !{{bezig|niet bezig}}",
+          "da": "Er !{{optaget|ikke optaget}}",
+          "it": "È !{{occupato|non occupato}}",
+          "ko": "!{{바쁨|바쁘지 않음}}",
+          "pl": "!{{Jest zajęte|Nie jest zajęte}}",
+          "ru": "Устройство !{{занято|не занято}}",
+          "sv": "Är !{{upptaget|inte upptaget}}"
         }
       }
     ]

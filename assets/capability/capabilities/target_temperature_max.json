@@ -2,15 +2,33 @@
   "type": "number",
   "title": {
     "en": "Maximum target temperature",
-    "nl": "Maximale doeltemperatuur"
+    "nl": "Maximale gewenste temperatuur",
+    "da": "Maksimal måltemperatur",
+    "it": "Temperatura target massima",
+    "ko": "최대 목표 온도",
+    "pl": "Maksymalna docelowa tempertura",
+    "ru": "Максимальная заданная температура",
+    "sv": "Maximal måltemperatur"
   },
   "units": {
     "en": "°C",
-    "nl": "°C"
+    "nl": "°C",
+    "da": "°C",
+    "it": "°C",
+    "ko": "°C",
+    "pl": "°C",
+    "ru": "°C",
+    "sv": "°C"
   },
   "desc": {
     "en": "The high end of the temperature setpoint in degrees Celsius.",
-    "nl": "Het bovenste uiteinde van het temperatuurinstelpunt in graden Celsius."
+    "nl": "De bovengrens van het instelpunt voor temperatuur in graden Celsius.",
+    "da": "Den høje ende af temperaturindstillingspunktet i Celsius.",
+    "it": "Il setpoint massimo di temperatura in gradi Celsius.",
+    "ko": "섭씨 도 단위의 온도 설정값 최대치입니다.",
+    "pl": "Górna granica wartości zadanej temperatury w stopniach Celsjusza.",
+    "ru": "Верхний предел заданной температуры в градусах Цельсия.",
+    "sv": "Den övre delen av temperaturbörvärdet i grader Celsius."
   },
   "insights": true,
   "chartType": "stepLine",
@@ -26,7 +44,14 @@
         "id": "target_temperature_max_changed",
         "title": {
           "en": "The maximum target temperature has changed",
-          "nl": "De maximale doeltemperatuur is gewijzigd"
+          "nl": "De maximale gewenste temperatuur is veranderd",
+          "da": "Den maksimale måltemperatur har ændret sig",
+          "it": "La temperatura target massima è cambiata",
+          "ko": "최대 목표 온도 변경됨",
+          "no": "Maksimum ønsket temperatur er endret",
+          "pl": "Zmieniła się maksymalna temperatura docelowa",
+          "ru": "Максимальная заданная температура изменена",
+          "sv": "Den maximala måltemperaturen har ändrats"
         },
         "tokens": [
           {
@@ -43,7 +68,13 @@
         "id": "set_temperature_setpoint_max",
         "title": {
           "en": "Set the maximum target temperature",
-          "nl": "Stel de maximale doeltemperatuur in"
+          "nl": "De maximale gewenste temperatuur instellen",
+          "da": "Indstil den maksimale måltemperatur",
+          "it": "Imposta la temperatura target massima",
+          "ko": "최대 목표 온도 설정",
+          "pl": "Ustaw maksymalną temperaturę docelową",
+          "ru": "Установить максимальную заданную температуру",
+          "sv": "Ställ in den maximala måltemperaturen"
         },
         "args": [
           {

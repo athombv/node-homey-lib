@@ -2,15 +2,36 @@
   "type": "number",
   "title": {
     "en": "HEPA Filter",
-    "nl": "HEPA-filter"
+    "nl": "HEPA-filter",
+    "da": "HEPA-filter",
+    "it": "Filtro HEPA",
+    "ko": "HEPA 필터",
+    "no": "HEPA-filter",
+    "pl": "Filtr HEPA",
+    "ru": "HEPA-фильтр",
+    "sv": "HEPA-filter"
   },
   "units": {
     "en": "%",
-    "nl": "%"
+    "nl": "%",
+    "da": "%",
+    "it": "%",
+    "ko": "%",
+    "no": "%",
+    "pl": "%",
+    "ru": "%",
+    "sv": "%"
   },
   "desc": {
     "en": "The HEPA filter level in percent.",
-    "nl": "Het HEPA-filterniveau in procent."
+    "nl": "Het HEPA-filterniveau in procenten.",
+    "da": "HEPA-filterets niveau i procent.",
+    "it": "Il livello del filtro HEPA in percentuale.",
+    "ko": "백분율로 표현한 HEPA 필터 수준입니다.",
+    "no": "HEPA-filternivået i prosent.",
+    "pl": "Poziom filtra HEPA w procentach.",
+    "ru": "Уровень HEPA-фильтра в процентах.",
+    "sv": "HEPA-filtrets nivå i procent."
   },
   "getable": true,
   "setable": false,
@@ -22,7 +43,14 @@
         "highlight": true,
         "title": {
           "en": "The HEPA filter level changed to",
-          "nl": "Het HEPA-filterniveau is veranderd naar"
+          "nl": "Het HEPA-filterniveau is veranderd naar",
+          "da": "HEPA-filterets niveau ændrede sig til",
+          "it": "Il livello del filtro HEPA è passato a",
+          "ko": "HEPA 필터 수준이 다음으로 변경됨",
+          "no": "HEPA-filternivået ble endret til",
+          "pl": "Poziom filtra HEPA zmienił się na",
+          "ru": "Уровень HEPA-фильтра изменился на",
+          "sv": "HEPA-filternivån ändrades till"
         },
         "args": [
           {

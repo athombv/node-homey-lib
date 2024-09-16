@@ -2,20 +2,48 @@
   "type": "boolean",
   "title": {
     "en": "Light alarm",
-    "nl": "Lichtalarm"
+    "nl": "Lichtwaarschuwing",
+    "da": "Lysalarm",
+    "it": "Allarme luce",
+    "ko": "빛 알람",
+    "no": "Lysalarm",
+    "pl": "Alarm światła",
+    "ru": "Сигнал об освещении",
+    "sv": "Ljuslarm"
   },
   "desc": {
     "en": "True when light is detected.",
-    "nl": "Gaat af wanneer licht wordt gedetecteerd."
+    "nl": "Wordt geactiveerd wanneer licht wordt gedetecteerd.",
+    "da": "Sandt, når der registreres lys.",
+    "it": "Vero quando viene rilevata la luce.",
+    "ko": "빛이 감지되면 참입니다.",
+    "no": "Sann når lys er registrert.",
+    "pl": "Prawda, gdy wykryte jest światło.",
+    "ru": "Значение «истина» при обнаружении элемента освещения.",
+    "sv": "Sant när ljus detekteras."
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Light was detected",
-    "nl": "Licht werd gedetecteerd"
+    "nl": "Er werd licht gedetecteerd",
+    "da": "Lys blev registreret",
+    "it": "La luce è stata rilevata",
+    "ko": "빛이 감지됨",
+    "no": "Lys ble registrert",
+    "pl": "Światło było wykryte",
+    "ru": "Элемент освещения был обнаружен",
+    "sv": "Ljus detekterades"
   },
   "insightsTitleFalse": {
     "en": "Light was no longer detected",
-    "nl": "Licht werd niet langer gedetecteerd"
+    "nl": "Er werd geen licht meer gedetecteerd",
+    "da": "Lyset blev ikke længere registreret",
+    "it": "La luce non è più rilevata",
+    "ko": "빛이 더 이상 감지되지 않음",
+    "no": "Lys ble ikke lenger registrert",
+    "pl": "Światło nie było już wykryte",
+    "ru": "Элемент освещения больше не обнаруживался",
+    "sv": "Ljus detekterades inte längre"
   },
   "getable": true,
   "setable": false,
@@ -27,14 +55,28 @@
         "highlight": true,
         "title": {
           "en": "Light is detected",
-          "nl": "Licht wordt gedetecteerd"
+          "nl": "Er wordt licht gedetecteerd",
+          "da": "Der er registreret lys",
+          "it": "Luce rilevata",
+          "ko": "빛 감지됨",
+          "no": "Lys er registrert",
+          "pl": "Światło jest wykryte",
+          "ru": "Элемент освещения обнаружен",
+          "sv": "Ljus detekteras"
         }
       },
       {
         "id": "alarm_light_false",
         "title": {
           "en": "Light is no longer detected",
-          "nl": "Licht wordt niet langer gedetecteerd"
+          "nl": "Er wordt geen licht meer gedetecteerd",
+          "da": "Lyset registreres ikke længere",
+          "it": "La luce non è più rilevata",
+          "ko": "더 이상 빛 감지되지 않음",
+          "no": "Lys registreres ikke lenger",
+          "pl": "Światło nie jest już wykryte",
+          "ru": "Элемент освещения больше не обнаруживается",
+          "sv": "Ljus detekteras inte längre"
         }
       }
     ],
@@ -43,7 +85,14 @@
         "id": "alarm_light",
         "title": {
           "en": "Light !{{is|is not}} detected",
-          "nl": "Licht !{{wordt|wordt niet}} gedetecteerd"
+          "nl": "Er !{{wordt|wordt geen}} licht gedetecteerd",
+          "da": "Lys !{{er|er ikke}} registreret",
+          "it": "La luce !{è|non è}} rilevata",
+          "ko": "빛 감지!{{됨|되지 않음}}",
+          "no": "Lys !{{er|er}} ikke registrert",
+          "pl": "Światło !{{jest|nie jest}} wykryte",
+          "ru": "Элемент освещения !{{обнаружен|не обнаружен}}",
+          "sv": "Ljus !{{har|har inte}} detekterats"
         }
       }
     ]

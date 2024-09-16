@@ -2,20 +2,52 @@
   "type": "boolean",
   "title": {
     "en": "Bin missing alarm",
-    "nl": "Afvalbak-ontbreekt-alarm"
+    "nl": "Waarschuwing bij ontbrekende afvalbak",
+    "da": "Papirkurv mangler alarm",
+    "es": "Alarma de cubo no presente",
+    "fr": "Alarme de poubelle manquante",
+    "it": "Allarme cestino mancante",
+    "ko": "휴지통에 알람 누락",
+    "pl": "Alarm braku kosza",
+    "ru": "Сигнал об отсутствии корзины",
+    "sv": "Larm om att behållaren saknas"
   },
   "desc": {
     "en": "True when the bin is missing.",
-    "nl": "Gaat af als de afvalbak ontbreekt."
+    "nl": "Wordt geactiveerd wanneer de afvalbak ontbreekt.",
+    "da": "Sandt, når papirkurven mangler",
+    "es": "Activado cuando el cubo no está presente.",
+    "fr": "La valeur est true lorsque la poubelle est manquante.",
+    "it": "Vero quando manca il cestino.",
+    "ko": "휴지통이 누락되면 참입니다.",
+    "pl": "Prawda, gdy brakuje kosza.",
+    "ru": "Значение «истина», когда корзина отсутствует.",
+    "sv": "Sant när behållaren saknas."
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "The bin was removed",
-    "nl": "De afvalbak was verwijderd"
+    "nl": "De afvalbak was verwijderd",
+    "da": "Papirkurv blev fjernet",
+    "es": "El cubo se ha retirado",
+    "fr": "La poubelle a été enlevée",
+    "it": "Il cestino è stato rimosso",
+    "ko": "휴지통이 제거됨",
+    "pl": "Kosz został usunięty",
+    "ru": "Корзина была удалена",
+    "sv": "Behållaren togs bort"
   },
   "insightsTitleFalse": {
     "en": "The bin was placed",
-    "nl": "De afvalbak was geplaatst"
+    "nl": "De afvalbak was geplaatst",
+    "da": "Papirkurven blev placeret",
+    "es": "El cubo se ha colocado",
+    "fr": "La poubelle a été placée",
+    "it": "Il cestino è stato posizionato",
+    "ko": "휴지통이 배치됨",
+    "pl": "Kosz został umieszczony",
+    "ru": "Корзина была размещена",
+    "sv": "Behållaren placerades"
   },
   "getable": true,
   "setable": false,
@@ -27,14 +59,30 @@
         "highlight": true,
         "title": {
           "en": "The bin was removed",
-          "nl": "De afvalbak is verwijderd"
+          "nl": "De afvalbak was verwijderd",
+          "da": "Papirkurven blev fjernet",
+          "es": "El cubo se ha retirado",
+          "fr": "La poubelle a été enlevée",
+          "it": "Il cestino è stato rimosso",
+          "ko": "휴지통이 제거됨",
+          "pl": "Kosz został usunięty",
+          "ru": "Корзина была убрана",
+          "sv": "Behållaren togs bort"
         }
       },
       {
         "id": "alarm_bin_missing_false",
         "title": {
           "en": "The bin was placed",
-          "nl": "De afvalbak is geplaatst"
+          "nl": "De afvalbak was geplaatst",
+          "da": "Papirkurven blev placeret",
+          "es": "El cubo se ha colocado",
+          "fr": "La corbeille a été placée",
+          "it": "Il cestino è stato posizionato",
+          "ko": "휴지통이 배치됨",
+          "pl": "Kosz został umieszczony",
+          "ru": "Корзина была размещена",
+          "sv": "Behållaren placerades"
         }
       }
     ],
@@ -43,7 +91,14 @@
         "id": "alarm_bin_missing",
         "title": {
           "en": "The bin is !{{missing|present}}",
-          "nl": "De afvalbak is !{{aanwezig|afwezig}}"
+          "nl": "De afvalbak !{{ontbreekt|staat er}}",
+          "da": "Papirkurven !{{missing|present}}",
+          "es": "Cubo {{no presente|presente}}",
+          "it": "Il cestino è !{{assente|presente}}",
+          "ko": "휴지통이 !{{누락됨|있음}}",
+          "pl": "Kosz jest !{{brakujący|obecny}}",
+          "ru": "Корзина !{{отсутствует|в наличии}}",
+          "sv": "Behållaren !{{saknas|är på plats}}"
         }
       }
     ]

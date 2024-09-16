@@ -2,20 +2,48 @@
   "type": "boolean",
   "title": {
     "en": "Problem alarm",
-    "nl": "Probleemalarm"
+    "nl": "Probleemwaarschuwing",
+    "da": "Problemalarm",
+    "it": "Allarme problema",
+    "ko": "문제 알람",
+    "no": "Problemalarm",
+    "pl": "Alarm problemu",
+    "ru": "Сигнал о проблеме",
+    "sv": "Problemlarm"
   },
   "desc": {
     "en": "True when a problem is detected.",
-    "nl": "Gaat af wanneer een probleem wordt gedetecteerd."
+    "nl": "Wordt geactiveerd wanneer een probleem wordt gedetecteerd.",
+    "da": "Sandt, når der opdages et problem.",
+    "it": "Vero quando viene rilevato un problema.",
+    "ko": "문제가 감지되면 참입니다.",
+    "no": "Sann når et problem registreres.",
+    "pl": "Prawda, gdy wykryty jest problem.",
+    "ru": "Значение «истина» при обнаружении проблемы.",
+    "sv": "Sant när ett problem upptäcks."
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Problem was detected",
-    "nl": "Probleem gedetecteerd"
+    "nl": "Probleem was gedetecteerd",
+    "da": "Problem blev opdaget",
+    "it": "Problema rilevato",
+    "ko": "문제가 감지됨",
+    "no": "Problem ble registrert",
+    "pl": "Problem był wykryty",
+    "ru": "Была обнаружена проблема",
+    "sv": "Ett problem har upptäckts"
   },
   "insightsTitleFalse": {
     "en": "Problem solved",
-    "nl": "Probleem opgelost"
+    "nl": "Probleem opgelost",
+    "da": "Problem løst",
+    "it": "Problema risolto",
+    "ko": "문제 해결됨",
+    "no": "Problem løst",
+    "pl": "Problem rozwiązany",
+    "ru": "Проблема решена",
+    "sv": "Problemet är löst"
   },
   "getable": true,
   "setable": false,
@@ -27,14 +55,28 @@
         "highlight": true,
         "title": {
           "en": "A problem is detected",
-          "nl": "Een probleem is gedetecteerd"
+          "nl": "Er is een probleem gedetecteerd",
+          "da": "Et problem er opdaget",
+          "it": "È stato rilevato un problema",
+          "ko": "문제 감지됨",
+          "no": "Et problem er registrert",
+          "pl": "Problem jest wykryty",
+          "ru": "Обнаружена проблема",
+          "sv": "Ett problem har upptäckts"
         }
       },
       {
         "id": "alarm_problem_false",
         "title": {
           "en": "The problem is solved",
-          "nl": "Het probleem is opgelost"
+          "nl": "Het probleem is opgelost",
+          "da": "Problemet er løst",
+          "it": "Il problema è risolto",
+          "ko": "문제가 해결됨",
+          "no": "Problemet er løst",
+          "pl": "Problem jest rozwiązany",
+          "ru": "Проблема решена",
+          "sv": "Problemet är löst"
         }
       }
     ],
@@ -43,7 +85,14 @@
         "id": "alarm_problem",
         "title": {
           "en": "There !{{is|isn't}} a problem",
-          "nl": "Er !{{is|is geen}} probleem"
+          "nl": "Er is !{{een|geen}} probleem",
+          "da": "Der !{{er|er ikke}} et problem",
+          "it": "!{{C'è un|Non c'è nessun}} problema",
+          "ko": "문제 !{{있음|없음}}",
+          "no": "Det !{{er|er ikke}} et problem",
+          "pl": "!{{Problem jest|Problemu nie ma}}",
+          "ru": "!{{есть проблема|проблемы нет}}",
+          "sv": "Det !{{är|är inte}} ett problem"
         }
       }
     ]

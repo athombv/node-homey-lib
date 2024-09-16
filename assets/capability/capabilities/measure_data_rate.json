@@ -2,15 +2,33 @@
   "type": "number",
   "title": {
     "en": "Data Rate",
-    "nl": "Gegevenssnelheid"
+    "nl": "Gegevenssnelheid",
+    "da": "Datahastighed",
+    "it": "Velocità di trasmissione dei dati",
+    "ko": "데이터 전송률",
+    "pl": "Szybkość transmisji danych",
+    "ru": "Скорость передачи данных",
+    "sv": "Datahastighet"
   },
   "units": {
     "en": "b/s",
-    "nl": "b/s"
+    "nl": "b/s",
+    "da": "b/s",
+    "it": "b/s",
+    "ko": "bps",
+    "pl": "b/s",
+    "ru": "бит/с",
+    "sv": "b/s"
   },
   "desc": {
     "en": "The data rate in bits per second.",
-    "nl": "De gegevenssnelheid in bits per seconde."
+    "nl": "De gegevenssnelheid in bits per seconde.",
+    "da": "Datahastigheden i bits pr. sekund.",
+    "it": "La velocità di trasmissione dei dati in bit al secondo.",
+    "ko": "초당 비트 단위의 데이터 전송률입니다.",
+    "pl": "Szybkość transmisji danych w bitach na sekundę.",
+    "ru": "Скорость передачи данных в битах в секунду.",
+    "sv": "Datahastigheten i bitar per sekund."
   },
   "insights": true,
   "chartType": "spline",
@@ -24,7 +42,13 @@
         "id": "measure_data_rate_changed",
         "title": {
           "en": "The data rate changed",
-          "nl": "De gegevenssnelheid is veranderd"
+          "nl": "De gegevenssnelheid is veranderd",
+          "da": "Datahastigheden ændrede sig",
+          "it": "La velocità di trasmissione dei dati è cambiata",
+          "ko": "데이터 전송률 변경됨",
+          "pl": "Zmieniła się szybkość transmisji danych",
+          "ru": "Скорость передачи данных изменилась",
+          "sv": "Datahastigheten ändrades"
         },
         "tokens": [
           {

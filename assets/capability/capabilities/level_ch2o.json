@@ -2,39 +2,75 @@
   "type": "enum",
   "title": {
     "en": "Formaldehyde Level",
-    "nl": "Formaldehydeniveau"
+    "nl": "Formaldehydeniveau",
+    "da": "Formaldehydniveau",
+    "it": "Livello di formaldeide",
+    "ko": "포름알데히드 수준",
+    "pl": "Poziom formaldehydu",
+    "ru": "Уровень формальдегида",
+    "sv": "Formaldehydnivå"
   },
   "desc": {
     "en": "The level of formaldehyde in the air.",
-    "nl": "Het niveau van formaldehyde in de lucht."
+    "nl": "De mate van formaldehyde in de lucht.",
+    "da": "Niveauet af formaldehyd i luften.",
+    "it": "Il livello di formaldeide nell'aria.",
+    "ko": "공기 중 포름알데히드의 수준입니다.",
+    "pl": "Poziom formaldehydu w powietrzu.",
+    "ru": "Уровень содержания формальдегида в воздухе.",
+    "sv": "Halten av formaldehyd i luften."
   },
   "values": [
     {
       "id": "low",
       "title": {
         "en": "Low",
-        "nl": "Laag"
+        "nl": "Laag",
+        "da": "Lavt",
+        "it": "Basso",
+        "ko": "낮음",
+        "pl": "Niski",
+        "ru": "Низкий",
+        "sv": "Låg"
       }
     },
     {
       "id": "medium",
       "title": {
         "en": "Medium",
-        "nl": "Middel"
+        "nl": "Gemiddeld",
+        "da": "Medium",
+        "it": "Medio",
+        "ko": "중간",
+        "pl": "Średni",
+        "ru": "Средний",
+        "sv": "Medium"
       }
     },
     {
       "id": "high",
       "title": {
         "en": "High",
-        "nl": "Hoog"
+        "nl": "Hoog",
+        "da": "Højt",
+        "it": "Alto",
+        "ko": "높음",
+        "pl": "Wysoki",
+        "ru": "Высокий",
+        "sv": "Hög"
       }
     },
     {
       "id": "critical",
       "title": {
         "en": "Critical",
-        "nl": "Kritiek"
+        "nl": "Kritiek",
+        "da": "Kritisk",
+        "it": "Critico",
+        "ko": "치명적",
+        "pl": "Krytyczny",
+        "ru": "Критический",
+        "sv": "Kritisk"
       }
     }
   ],
@@ -48,7 +84,13 @@
         "highlight": true,
         "title": {
           "en": "The formaldehyde level changed to",
-          "nl": "Het formaldehydeniveau is veranderd naar"
+          "nl": "Het formaldehydeniveau is veranderd naar",
+          "da": "Formaldehydniveauet blev ændret til",
+          "it": "Il livello di formaldeide è passato a",
+          "ko": "포름알데히드 수준이 다음으로 변경됨",
+          "pl": "Poziom formaldehydu zmienił się na",
+          "ru": "Уровень формальдегида изменился на",
+          "sv": "Formaldehydnivån ändrades till"
         },
         "args": [
           {
@@ -64,7 +106,13 @@
         "id": "level_ch2o_is",
         "title": {
           "en": "The formaldehyde level !{{is|is not}}",
-          "nl": "Het formaldehydeniveau !{{is|is niet}}"
+          "nl": "Het formaldehydeniveau !{{is|is niet}}",
+          "da": "Niveauet af formaldehyd !{{er|er ikke}}",
+          "it": "Il livello di formaldeide !{{è|non è}}",
+          "ko": "포름알데히드 수준이 다음!{{과 같음| 아님}}",
+          "pl": "Poziom formaldehydu !{{jest|nie jest}}",
+          "ru": "Уровень формальдегида !{{is|is not}}",
+          "sv": "Nivån av formaldehyd !{{är|är inte}}"
         },
         "args": [
           {

@@ -2,34 +2,75 @@
   "type": "enum",
   "title": {
     "en": "Mower state",
-    "nl": "Maaierstatus"
+    "nl": "Staat van de maaier",
+    "da": "Plæneklipperens tilstand",
+    "it": "Stato del tosaerba",
+    "ko": "잔디깎이 상태",
+    "pl": "Stan kosiarki",
+    "ru": "Состояние косилки",
+    "sv": "Gräsllipparens tillstånd"
   },
   "desc": {
-    "en": "The current state of the lawnmower."
+    "en": "The current state of the lawnmower.",
+    "da": "Plæneklipperens nuværende tilstand.",
+    "it": "Lo stato attuale del tosaerba.",
+    "ko": "잔디 깎는 기계의 현재 상태입니다.",
+    "nl": "De huidige staat van de grasmaaier.",
+    "pl": "Aktualny stan kosiarki.",
+    "ru": "Текущее состояние газонокосилки.",
+    "sv": "Det aktuella tillståndet för gräsklipparen."
   },
   "values": [
     {
       "id": "mowing",
       "title": {
-        "en": "Mowing"
+        "en": "Mowing",
+        "da": "Klipper",
+        "it": "Falciatura in corso",
+        "ko": "잔디 깎는 중",
+        "nl": "Maaien",
+        "pl": "W trakcie koszenia",
+        "ru": "Кошение",
+        "sv": "Klippning"
       }
     },
     {
       "id": "docked",
       "title": {
-        "en": "Docked"
+        "en": "Docked",
+        "da": "Forankret",
+        "it": "Alloggiato",
+        "ko": "도킹됨",
+        "nl": "Gekoppeld",
+        "pl": "Zadokowana",
+        "ru": "На док-станции",
+        "sv": "Dockad"
       }
     },
     {
       "id": "paused",
       "title": {
-        "en": "Paused"
+        "en": "Paused",
+        "da": "På pause",
+        "it": "In pausa",
+        "ko": "일시중지됨",
+        "nl": "Gepauzeerd",
+        "pl": "Wstrzymana",
+        "ru": "На паузе",
+        "sv": "Pausad"
       }
     },
     {
       "id": "error",
       "title": {
-        "en": "Error"
+        "en": "Error",
+        "da": "Fejl",
+        "it": "Errore",
+        "ko": "오류",
+        "nl": "Fout",
+        "pl": "Błąd",
+        "ru": "Ошибка",
+        "sv": "Fel"
       }
     }
   ],
@@ -41,7 +82,14 @@
       {
         "id": "mower_state_changed",
         "title": {
-          "en": "The lawnmower state changed"
+          "en": "The lawnmower state changed",
+          "da": "Plæneklipperens tilstand ændrede sig",
+          "it": "Lo stato del tosaerba è cambiato",
+          "ko": "잔디깎이 상태 변경됨",
+          "nl": "De staat van de grasmaaier is veranderd",
+          "pl": "Zmienił się stan kosiarki",
+          "ru": "Состояние газонокосилки изменилось",
+          "sv": "Läget för gräsklippare förändrades"
         },
         "tokens": [
           {
@@ -56,7 +104,14 @@
       {
         "id": "lawnmower_state_is",
         "title": {
-          "en": "The lawnmower !{{is|is not}}"
+          "en": "The lawnmower !{{is|is not}}",
+          "da": "Plæneklipperen !{{er|er ikke}}",
+          "it": "Il tosaerba !{{è|non è}}",
+          "ko": "잔디깎이가 다음!{{과 같음| 아님}}",
+          "nl": "De grasmaaier !{{is|is niet}}",
+          "pl": "Kosiarka !{{jest|nie jest}}",
+          "ru": "Газонокосилка !{{is|is not}}",
+          "sv": "Gräsklipparen !{{är|är inte}}"
         },
         "tokens": [
           {
@@ -71,19 +126,40 @@
       {
         "id": "lawnmower_state_mow",
         "title": {
-          "en": "Start mowing"
+          "en": "Start mowing",
+          "da": "Begynd at slå græs",
+          "it": "Inizia a falciare",
+          "ko": "잔디 깎기 시작",
+          "nl": "Beginnen met maaien",
+          "pl": "Rozpocznij koszenie",
+          "ru": "Начать косить",
+          "sv": "Börja klippa gräset"
         }
       },
       {
         "id": "lawnmower_state_pause",
         "title": {
-          "en": "Pause mowing"
+          "en": "Pause mowing",
+          "da": "Sæt plæneklipning på pause",
+          "it": "Sospendi la falciatura",
+          "ko": "잔디 깎기 일시중지",
+          "nl": "Maaien onderbreken",
+          "pl": "Wstrzymaj koszenie",
+          "ru": "Приостановить кошение",
+          "sv": "Pausa klippningen"
         }
       },
       {
         "id": "lawnmower_state_dock",
         "title": {
-          "en": "Return to dock"
+          "en": "Return to dock",
+          "da": "Vend tilbage til base",
+          "it": "Torna all'alloggiamento",
+          "ko": "도크로 복귀",
+          "nl": "Terug naar dok",
+          "pl": "Powrót do doku",
+          "ru": "Вернуться на док-станцию",
+          "sv": "Återgå till dockan"
         }
       }
     ]
