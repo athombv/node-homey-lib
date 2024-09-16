@@ -1,7 +1,13 @@
 {
   "title": {
     "en": "Stop",
-    "nl": "Stop"
+    "nl": "Stop",
+    "da": "Stop",
+    "it": "Stop",
+    "ko": "중지",
+    "pl": "Zatrzymaj",
+    "ru": "Остановить",
+    "sv": "Stopp"
   },
   "type": "boolean",
   "getable": false,
@@ -13,7 +19,13 @@
         "id": "stop",
         "title": {
           "en": "Stop",
-          "nl": "Stop"
+          "nl": "Stop",
+          "da": "Stop",
+          "it": "Stop",
+          "ko": "중지",
+          "pl": "Zatrzymaj",
+          "ru": "Остановить",
+          "sv": "Stopp"
         }
       }
     ]

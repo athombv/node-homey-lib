@@ -2,39 +2,76 @@
   "type": "enum",
   "title": {
     "en": "Air quality level",
-    "nl": "Luchtkwaliteitsniveau"
+    "nl": "Luchtkwaliteitsniveau",
+    "da": "Luftkvalitetsniveau",
+    "it": "Livello di qualità dell'aria",
+    "ko": "공기질 수준",
+    "pl": "Poziom jakości powietrza",
+    "ru": "Уровень качества воздуха",
+    "sv": "Luftkvalitetsnivå"
   },
   "desc": {
     "en": "The air quality index represented as a level.",
-    "nl": "De luchtkwaliteitsindex weergegeven als niveau."
+    "nl": "De luchtkwaliteitsindex weergegeven als niveau.",
+    "da": "Luftkvalitetsindekset repræsenteret som et niveau.",
+    "es": "Índice de calidad del aire representado como nivel.",
+    "it": "L'indice di qualità dell'aria rappresentato come un livello.",
+    "ko": "수준으로 표현한 공기질 지수입니다.",
+    "pl": "Wskaźnik jakości powietrza przedstawiony jako poziom.",
+    "ru": "Показатель качества воздуха, представленный в виде уровня.",
+    "sv": "Luftkvalitetsindexet representeras som en nivå."
   },
   "values": [
     {
       "id": "good",
       "title": {
         "en": "Good",
-        "nl": "Goed"
+        "nl": "Goed",
+        "da": "Godt",
+        "it": "Buono",
+        "ko": "좋음",
+        "pl": "Dobry",
+        "ru": "Хороший",
+        "sv": "Bra"
       }
     },
     {
       "id": "poor",
       "title": {
         "en": "Poor",
-        "nl": "Slecht"
+        "nl": "Slecht",
+        "da": "Dårligt",
+        "it": "Scarso",
+        "ko": "나쁨",
+        "pl": "Niski",
+        "ru": "Плохой",
+        "sv": "Dålig"
       }
     },
     {
       "id": "very_poor",
       "title": {
         "en": "Very Poor",
-        "nl": "Zeer Slecht"
+        "nl": "Zeer slecht",
+        "da": "Meget dårligt",
+        "it": "Molto scarso",
+        "ko": "매우 나쁨",
+        "pl": "Bardzo niski",
+        "ru": "Очень плохой",
+        "sv": "Mycket dålig"
       }
     },
     {
       "id": "extremely_poor",
       "title": {
         "en": "Extremely Poor",
-        "nl": "Extreem Slecht"
+        "nl": "Extreem slecht",
+        "da": "Ekstremt dårligt",
+        "it": "Estremamente scarso",
+        "ko": "극도로 나쁨",
+        "pl": "Skrajnie niski",
+        "ru": "Чрезвычайно плохой",
+        "sv": "Extremt dålig"
       }
     }
   ],
@@ -48,7 +85,13 @@
         "highlight": true,
         "title": {
           "en": "The air quality level changed to",
-          "nl": "Het luchtkwaliteitsniveau is veranderd naar"
+          "nl": "Het luchtkwaliteitsniveau is veranderd naar",
+          "da": "Luftkvalitetsniveauet blev ændret til",
+          "it": "Il livello di qualità dell'aria è passato a",
+          "ko": "공기질 수준이 다음으로 변경됨",
+          "pl": "Poziom jakości powietrza zmienił się na",
+          "ru": "Уровень качества воздуха изменился на",
+          "sv": "Luftkvalitetsnivån ändrades till"
         },
         "args": [
           {
@@ -64,7 +107,13 @@
         "id": "level_aqi_is",
         "title": {
           "en": "The air quality !{{is|is not}}",
-          "nl": "De luchtkwaliteit !{{is|is niet}}"
+          "nl": "De luchtkwaliteit !{{is|is niet}}",
+          "da": "Luftkvaliteten !{{er|er ikke}}",
+          "it": "La qualità dell'aria !{{è|non è}}",
+          "ko": "공기질이 다음!{{과 같음| 아님}}",
+          "pl": "Jakość powietrza !{{jest|nie jest}}",
+          "ru": "Качество воздуха !{{is|is not}}",
+          "sv": "Luftkvaliteten !{{är|är inte}}"
         },
         "args": [
           {

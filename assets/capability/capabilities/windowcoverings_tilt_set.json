@@ -1,7 +1,7 @@
 {
   "title": {
     "en": "Window coverings tilt set",
-    "nl": "Raambekledingkanteling instellen",
+    "nl": "Kanteling van raambekleding ingesteld",
     "de": "Jalousien-Kippstellung setzen",
     "fr": "Définir l'inclinaison des stores",
     "it": "Imposta l'inclinazione delle tapparelle",
@@ -30,14 +30,28 @@
       {
         "id": "windowcoverings_tilt_set_changed",
         "title": {
-          "en": "The tilt position changed"
+          "en": "The tilt position changed",
+          "da": "Hældningspositionen ændrede sig",
+          "it": "L'inclinazione è cambiata",
+          "ko": "틸팅 위치 변경됨",
+          "nl": "De kantelpositie is veranderd",
+          "pl": "Zmieniła się pozycja odchylenia",
+          "ru": "Положение наклона изменено",
+          "sv": "Lutningsläget ändrades"
         },
         "tokens": [
           {
             "name": "windowcoverings_tilt_set",
             "type": "number",
             "title": {
-              "en": "Position"
+              "en": "Position",
+              "da": "Position",
+              "it": "Posizione",
+              "ko": "위치",
+              "nl": "Positie",
+              "pl": "Pozycja",
+              "ru": "Положение",
+              "sv": "Position"
             },
             "example": 0.5
           }
@@ -49,10 +63,24 @@
         "id": "windowcoverings_tilt_set",
         "highlight": true,
         "title": {
-          "en": "Set the tilt position to"
+          "en": "Set the tilt position to",
+          "da": "Indstil hældningsposition til",
+          "it": "Imposta l'inclinazione su",
+          "ko": "틸팅 위치를 다음으로 설정",
+          "nl": "De kantelpositie instellen op",
+          "pl": "Ustaw pozycję odchylenia na",
+          "ru": "Установить положение наклона на",
+          "sv": "Ställ in lutningsläget på"
         },
         "hint": {
-          "en": "Change the tilt position to open (100%), closed (0%), or a value in between."
+          "en": "Change the tilt position to open (100%), closed (0%), or a value in between.",
+          "da": "Skift hældningsposition til åben (100 %), lukket (0 %) eller en værdi midt imellem.",
+          "it": "Modifica l'inclinazione su aperto (100%), chiuso (0%) o su un valore intermedio.",
+          "ko": "틸팅 위치를 열림(100%), 닫힘(0%) 또는 그 사이의 값으로 변경합니다.",
+          "nl": "Wijzig de kantelpositie in open (100%), gesloten (0%) of een waarde ertussenin.",
+          "pl": "Zmień pozycję odchylenia na otwartą (100%), zamkniętą (0%) lub wartość pośrednią.",
+          "ru": "Изменить положение наклона на «открыто» (100%), «закрыто» (0%) или выбрать промежуточное значение.",
+          "sv": "Ändra lutningsläget till öppet (100 %), stängt (0 %) eller ett värde däremellan."
         },
         "args": [
           {

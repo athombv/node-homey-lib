@@ -2,39 +2,75 @@
   "type": "enum",
   "title": {
     "en": "TVOC Level",
-    "nl": "TVOC-niveau"
+    "nl": "TVOC-niveau",
+    "da": "TVOC-niveau",
+    "it": "Livello di TVOC",
+    "ko": "TVOC 수준",
+    "pl": "Poziom wszystkich LZO",
+    "ru": "Уровень TVOC",
+    "sv": "TVOC-nivå"
   },
   "desc": {
     "en": "The level of total volatile organic compounds in the air.",
-    "nl": "Het niveau van totaal vluchtige organische stoffen in de lucht."
+    "nl": "De mate van totaal vluchtige organische stoffen in de lucht.",
+    "da": "Niveauet af samlede flygtige organiske forbindelser i luften.",
+    "it": "Il livello di composti organici volatili totali nell'aria.",
+    "ko": "공기 중 휘발성 유기 화합물의 총량 수준입니다.",
+    "pl": "Poziom wszystkich lotnych związków organicznych w powietrzu.",
+    "ru": "Уровень общего содержания летучих органических соединений в воздухе.",
+    "sv": "Halten av totala mängden flyktiga organiska föreningar i luften."
   },
   "values": [
     {
       "id": "low",
       "title": {
         "en": "Low",
-        "nl": "Laag"
+        "nl": "Laag",
+        "da": "Lavt",
+        "it": "Basso",
+        "ko": "낮음",
+        "pl": "Niski",
+        "ru": "Низкий",
+        "sv": "Låg"
       }
     },
     {
       "id": "medium",
       "title": {
         "en": "Medium",
-        "nl": "Middel"
+        "nl": "Gemiddeld",
+        "da": "Medium",
+        "it": "Medio",
+        "ko": "중간",
+        "pl": "Średni",
+        "ru": "Средний",
+        "sv": "Medium"
       }
     },
     {
       "id": "high",
       "title": {
         "en": "High",
-        "nl": "Hoog"
+        "nl": "Hoog",
+        "da": "Højt",
+        "it": "Alto",
+        "ko": "높음",
+        "pl": "Wysoki",
+        "ru": "Высокий",
+        "sv": "Hög"
       }
     },
     {
       "id": "critical",
       "title": {
         "en": "Critical",
-        "nl": "Kritiek"
+        "nl": "Kritiek",
+        "da": "Kritisk",
+        "it": "Critico",
+        "ko": "치명적",
+        "pl": "Krytyczny",
+        "ru": "Критический",
+        "sv": "Kritisk"
       }
     }
   ],
@@ -48,7 +84,13 @@
         "highlight": true,
         "title": {
           "en": "The TVOC level changed to",
-          "nl": "Het TVOC-niveau is veranderd naar"
+          "nl": "Het TVOC-niveau is veranderd naar",
+          "da": "TVOC-niveauet blev ændret til",
+          "it": "Il livello di TVOC è passato a",
+          "ko": "TVOC 수준이 다음으로 변경됨",
+          "pl": "Poziom wszystkich LZO zmienił się na",
+          "ru": "Уровень TVOC изменился на",
+          "sv": "TVOC-nivån ändrades till"
         },
         "args": [
           {
@@ -64,7 +106,13 @@
         "id": "level_tvoc_is",
         "title": {
           "en": "The TVOC level !{{is|is not}}",
-          "nl": "Het TVOC-niveau !{{is|is niet}}"
+          "nl": "Het TVOC-niveau !{{is|is niet}}",
+          "da": "TVOC-niveauet !{{er|er ikke}}",
+          "it": "Il livello di TVOC !{{è|non è}}",
+          "ko": "TVOC 수준이 다음!{{과 같음| 아님}}",
+          "pl": "Poziom wszystkich LZO !{{jest|nie jest}}",
+          "ru": "Уровень TVOC !{{is|is not}}",
+          "sv": "TVOC-nivån !{{är|är inte}}"
         },
         "args": [
           {

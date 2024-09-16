@@ -2,39 +2,75 @@
   "type": "enum",
   "title": {
     "en": "Ozone Level",
-    "nl": "Ozonniveau"
+    "nl": "Ozonniveau",
+    "da": "Ozon-niveau",
+    "it": "Livello di ozono",
+    "ko": "오존 수준",
+    "pl": "Poziom ozonu",
+    "ru": "Уровень озона",
+    "sv": "Ozonnivå"
   },
   "desc": {
     "en": "The level of ozone in the air.",
-    "nl": "Het niveau van ozon in de lucht."
+    "nl": "De mate van ozon in de lucht.",
+    "da": "Niveauet af ozon i luften.",
+    "it": "Il livello di ozono nell'aria.",
+    "ko": "공기 중 오존 수준입니다.",
+    "pl": "Poziom ozonu w powietrzu.",
+    "ru": "Уровень содержания озона в воздухе.",
+    "sv": "Halten av ozon i luften."
   },
   "values": [
     {
       "id": "low",
       "title": {
         "en": "Low",
-        "nl": "Laag"
+        "nl": "Laag",
+        "da": "Lavt",
+        "it": "Basso",
+        "ko": "낮음",
+        "pl": "Niski",
+        "ru": "Низкий",
+        "sv": "Låg"
       }
     },
     {
       "id": "medium",
       "title": {
         "en": "Medium",
-        "nl": "Middel"
+        "nl": "Gemiddeld",
+        "da": "Medium",
+        "it": "Medio",
+        "ko": "중간",
+        "pl": "Średni",
+        "ru": "Средний",
+        "sv": "Medium"
       }
     },
     {
       "id": "high",
       "title": {
         "en": "High",
-        "nl": "Hoog"
+        "nl": "Hoog",
+        "da": "Højt",
+        "it": "Alto",
+        "ko": "높음",
+        "pl": "Wysoki",
+        "ru": "Высокий",
+        "sv": "Hög"
       }
     },
     {
       "id": "critical",
       "title": {
         "en": "Critical",
-        "nl": "Kritiek"
+        "nl": "Kritiek",
+        "da": "Kritisk",
+        "it": "Critico",
+        "ko": "치명적",
+        "pl": "Krytyczny",
+        "ru": "Критический",
+        "sv": "Kritisk"
       }
     }
   ],
@@ -48,7 +84,13 @@
         "highlight": true,
         "title": {
           "en": "The ozone level changed to",
-          "nl": "Het ozonniveau is veranderd naar"
+          "nl": "Het ozonniveau is veranderd naar",
+          "da": "Ozonniveauet ændrede sig til",
+          "it": "Il livello di ozono è passato a",
+          "ko": "오존 수준이 다음으로 변경됨",
+          "pl": "Poziom ozonu zmienił się na",
+          "ru": "Уровень озона изменился на",
+          "sv": "Ozonnivån ändrades till"
         },
         "args": [
           {
@@ -64,7 +106,13 @@
         "id": "level_o3_is",
         "title": {
           "en": "The ozone level !{{is|is not}}",
-          "nl": "Het ozonniveau !{{is|is niet}}"
+          "nl": "Het ozonniveau !{{is|is niet}}",
+          "da": "Ozonniveauet !{{er|er ikke}}",
+          "it": "Il livello di ozono !{{è|non è}}",
+          "ko": "오존 수준이 다음!{{과 같음| 아님}",
+          "pl": "Poziom ozonu !{{jest|nie jest}}",
+          "ru": "Уровень озона !{{is|is not}}",
+          "sv": "Ozonnivån !{{är|är inte}}"
         },
         "args": [
           {

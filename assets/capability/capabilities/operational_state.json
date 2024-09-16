@@ -2,39 +2,75 @@
   "type": "enum",
   "title": {
     "en": "Operational state",
-    "nl": "Operationele staat"
+    "nl": "Operationele staat",
+    "da": "Driftstilstand",
+    "it": "Stato operativo",
+    "ko": "작동 상태",
+    "pl": "Stan działania",
+    "ru": "Рабочее состояние",
+    "sv": "Drifttillstånd"
   },
   "desc": {
     "en": "The operational state of the appliance.",
-    "nl": "De operationele staat van het apparaat."
+    "nl": "De operationele staat van het apparaat.",
+    "da": "Apparatets driftstilstand.",
+    "it": "Lo stato operativo dell'apparecchio.",
+    "ko": "가전의 작동 상태입니다.",
+    "pl": "Stan działania urządzenia.",
+    "ru": "Рабочее состояние прибора.",
+    "sv": "Apparatens drifttillstånd."
   },
   "values": [
     {
       "id": "stopped",
       "title": {
         "en": "Stopped",
-        "nl": "Gestopt"
+        "nl": "Gestopt",
+        "da": "Stoppet",
+        "it": "Interrotto",
+        "ko": "중지됨",
+        "pl": "Urządzenie zatrzymane",
+        "ru": "Остановлено",
+        "sv": "Stoppad"
       }
     },
     {
       "id": "running",
       "title": {
         "en": "Running",
-        "nl": "Aan"
+        "nl": "Bezig",
+        "da": "Kører",
+        "it": "In esecuzione",
+        "ko": "작동 중",
+        "pl": "Urządzenie pracuje",
+        "ru": "Работает",
+        "sv": "Körs"
       }
     },
     {
       "id": "paused",
       "title": {
         "en": "Paused",
-        "nl": "Gepauzeerd"
+        "nl": "Gepauzeerd",
+        "da": "På pause",
+        "it": "In pausa",
+        "ko": "일시중지됨",
+        "pl": "Urządzenie wstrzymane",
+        "ru": "На паузе",
+        "sv": "Pausad"
       }
     },
     {
       "id": "error",
       "title": {
         "en": "Error",
-        "nl": "Fout"
+        "nl": "Fout",
+        "da": "Fejl",
+        "it": "Errore",
+        "ko": "오류",
+        "pl": "Błąd",
+        "ru": "Ошибка",
+        "sv": "Fel"
       }
     }
   ],
@@ -48,7 +84,13 @@
         "highlight": true,
         "title": {
           "en": "The operational state changed to",
-          "nl": "De operationele staat is veranderd naar"
+          "nl": "De operationele staat is veranderd naar",
+          "da": "Driftstilstanden blev ændret til",
+          "it": "Lo stato operativo è passato a",
+          "ko": "작동 상태가 다음으로 변경됨",
+          "pl": "Stan działania zmienił się na",
+          "ru": "Рабочее состояние изменилось на",
+          "sv": "Drifttillståndet ändrades till"
         },
         "args": [
           {
@@ -64,7 +106,13 @@
         "id": "operational_state_is",
         "title": {
           "en": "The operational state !{{is|is not}}",
-          "nl": "De operationele staat !{{is|is niet}}"
+          "nl": "De operationele staat !{{is|is niet}}",
+          "da": "Driftstilstanden !{{er|er ikke}}",
+          "it": "Lo stato operativo !{{è|non è}}",
+          "ko": "작동 상태가 다음!{{과 같음| 아님}}",
+          "pl": "Stan działania !{{jest|nie jest}}",
+          "ru": "Рабочее состояние !{{is|is not}}",
+          "sv": "Drifttillståndet !{{är|är inte}}"
         },
         "args": [
           {

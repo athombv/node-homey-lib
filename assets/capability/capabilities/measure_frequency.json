@@ -2,15 +2,36 @@
   "type": "number",
   "title": {
     "en": "Frequency",
-    "nl": "Frequentie"
+    "nl": "Frequentie",
+    "da": "Frekvens",
+    "it": "Frequenza",
+    "ko": "주사율",
+    "no": "Frekvens",
+    "pl": "Częstotliwość",
+    "ru": "Частота",
+    "sv": "Frekvens"
   },
   "units": {
     "en": "Hz",
-    "nl": "Hz"
+    "nl": "Hz",
+    "da": "Hz",
+    "it": "Hz",
+    "ko": "Hz",
+    "no": "Hz",
+    "pl": "Hz",
+    "ru": "Гц",
+    "sv": "Hz"
   },
   "desc": {
     "en": "The frequency in hertz.",
-    "nl": "De frequentie in hertz."
+    "nl": "De frequentie in hertz.",
+    "da": "Frekvensen i hertz.",
+    "it": "La frequenza in hertz.",
+    "ko": "헤르츠 단위의 주사율입니다.",
+    "no": "Frekvensen i hertz.",
+    "pl": "Częstotliwość w hercach.",
+    "ru": "Частота в герцах.",
+    "sv": "Frekvensen i hertz."
   },
   "insights": true,
   "chartType": "spline",
@@ -24,7 +45,14 @@
         "id": "measure_frequency_changed",
         "title": {
           "en": "The frequency changed",
-          "nl": "De frequentie is veranderd"
+          "nl": "De frequentie is veranderd",
+          "da": "Frekvensen ændrede sig",
+          "it": "La frequenza è cambiata",
+          "ko": "주사율 변경됨",
+          "no": "Frekvensen ble endret",
+          "pl": "Zmieniła się częstotliwość",
+          "ru": "Частота изменилась",
+          "sv": "Frekvensen ändrades"
         },
         "tokens": [
           {

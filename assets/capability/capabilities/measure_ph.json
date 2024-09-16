@@ -2,11 +2,24 @@
   "type": "number",
   "title": {
     "en": "pH level",
-    "nl": "pH-waarde"
+    "nl": "pH-waarde",
+    "da": "pH-niveau",
+    "it": "Livello di pH",
+    "ko": "pH 수준",
+    "no": "pH-nivå",
+    "pl": "Poziom pH",
+    "ru": "Уровень pH",
+    "sv": "pH-nivå"
   },
   "desc": {
     "en": "The pH level of a aqueous solution.",
-    "nl": "De pH-waarde van een oplossing."
+    "nl": "De pH-waarde van een waterige oplossing.",
+    "da": "PH-niveauet i en vandig opløsning.",
+    "it": "Il livello di pH di una soluzione acquosa.",
+    "ko": "수용액의 pH 수준입니다.",
+    "pl": "Poziom pH roztworu wodnego.",
+    "ru": "Уровень pH водного раствора.",
+    "sv": "pH-värdet i en vattenlösning."
   },
   "insights": true,
   "chartType": "spline",
@@ -20,7 +33,13 @@
         "id": "measure_ph_changed",
         "title": {
           "en": "The pH level changed",
-          "nl": "De pH-waarde is veranderd"
+          "nl": "De pH-waarde is veranderd",
+          "da": "PH-niveauet ændrede sig",
+          "it": "Il livello di pH è cambiato",
+          "ko": "pH 수준 변경됨",
+          "pl": "Zmienił się poziom pH",
+          "ru": "Уровень pH изменился",
+          "sv": "pH-nivån förändrades"
         },
         "tokens": [
           {

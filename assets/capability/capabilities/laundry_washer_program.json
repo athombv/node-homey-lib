@@ -2,46 +2,88 @@
   "type": "enum",
   "title": {
     "en": "Laundry washer program",
-    "nl": "Wasprogramma"
+    "nl": "Wasprogramma",
+    "da": "Vaskemaskineprogram",
+    "it": "Programma di lavaggio della lavatrice",
+    "ko": "세탁기 프로그램",
+    "pl": "Program prania",
+    "ru": "Программы стирки",
+    "sv": "Tvättmaskinsprogram"
   },
   "desc": {
     "en": "The current program of the laundry washer.",
-    "nl": "Het huidige programma van de wasmachine."
+    "nl": "Het huidige programma van de wasmachine.",
+    "da": "Vaskemaskinens aktuelle program.",
+    "it": "Il programma attuale della lavatrice.",
+    "ko": "세탁기의 현재 프로그램입니다.",
+    "pl": "Bieżący program prania.",
+    "ru": "Текущая программа стирки.",
+    "sv": "Tvättmaskinens aktuella program."
   },
   "values": [
     {
       "id": "normal",
       "title": {
         "en": "Normal",
-        "nl": "Normaal"
+        "nl": "Normaal",
+        "da": "Normal",
+        "it": "Normale",
+        "ko": "보통",
+        "pl": "Normalne",
+        "ru": "Стандартная",
+        "sv": "Normal"
       }
     },
     {
       "id": "auto",
       "title": {
         "en": "Auto",
-        "nl": "Auto"
+        "nl": "Auto",
+        "da": "Auto",
+        "it": "Auto",
+        "ko": "자동",
+        "pl": "Auto",
+        "ru": "Авто",
+        "sv": "Auto"
       }
     },
     {
       "id": "quick",
       "title": {
         "en": "Quick",
-        "nl": "Snel"
+        "nl": "Snel",
+        "da": "Hurtig",
+        "it": "Veloce",
+        "ko": "신속",
+        "pl": "Szybkie",
+        "ru": "Быстрая",
+        "sv": "Snabbt"
       }
     },
     {
       "id": "heavy",
       "title": {
         "en": "Heavy",
-        "nl": "Zwaar"
+        "nl": "Zwaar",
+        "da": "Tung",
+        "it": "Pesante",
+        "ko": "강력",
+        "pl": "Intensywne",
+        "ru": "Интенсивная",
+        "sv": "Tungt"
       }
     },
     {
       "id": "whites",
       "title": {
         "en": "Whites",
-        "nl": "Wit"
+        "nl": "Wit",
+        "da": "Hvid",
+        "it": "Bianchi",
+        "ko": "표백",
+        "pl": "Biel",
+        "ru": "Белые вещи",
+        "sv": "Vittvätt"
       }
     }
   ],
@@ -55,7 +97,13 @@
         "highlight": true,
         "title": {
           "en": "The laundry washer program changed to",
-          "nl": "Het wasprogramma is veranderd naar"
+          "nl": "Het wasprogramma is veranderd naar",
+          "da": "Vaskemaskinens program blev ændret til",
+          "it": "Il programma della lavatrice è passato a",
+          "ko": "세탁기 프로그램이 다음으로 변경됨",
+          "pl": "Program pralki zmienił się na",
+          "ru": "Программа стирки изменена на",
+          "sv": "Tvättmaskinsprogrammet ändrades till"
         },
         "args": [
           {
@@ -71,7 +119,13 @@
         "id": "laundry_washer_program_is",
         "title": {
           "en": "The laundry washer program !{{is|is not}}",
-          "nl": "Het wasprogramma !{{is|is niet}}"
+          "nl": "Het wasprogramma !{{is|is niet}}",
+          "da": "Vaskemaskineprogrammet !{{er|er ikke}}",
+          "it": "Il programma della lavatrice !{{è|non è}}",
+          "ko": "세탁기 프로그램이 다음!{{과 같음| 아님}}",
+          "pl": "Program pralki !{{jest|nie jest}}",
+          "ru": "Программа стирки !{{is|is not}}",
+          "sv": "Tvättmaskinsprogrammet !{{är|är inte}}"
         },
         "args": [
           {

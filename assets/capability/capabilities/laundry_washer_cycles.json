@@ -2,39 +2,75 @@
   "type": "enum",
   "title": {
     "en": "Laundry washer cycles",
-    "nl": "Wasmachinecycli"
+    "nl": "Wascycli",
+    "da": "Vaskemaskinens cyklusser",
+    "it": "Cicli di lavaggio della lavatrice",
+    "ko": "세탁기 사이클",
+    "pl": "Cykle prania",
+    "ru": "Циклы стирки",
+    "sv": "Tvättmaskinscykler"
   },
   "desc": {
     "en": "The amount of cycles the laundry washer should perform.",
-    "nl": "Het aantal cycli dat de wasmachine moet uitvoeren."
+    "nl": "Het aantal wascycli dat de wasmachine moet uitvoeren.",
+    "da": "Antallet af cyklusser, som vaskemaskinen skal udføre.",
+    "it": "La quantità di cicli che la lavatrice deve eseguire.",
+    "ko": "세탁기가 동작할 사이클의 수입니다.",
+    "pl": "Liczba cykli, które powinna wykonać pralka.",
+    "ru": "Количество циклов стирки, которые должна выполнять стиральная машина.",
+    "sv": "Antalet cykler som tvättmaskinen ska utföra."
   },
   "values": [
     {
       "id": "none",
       "title": {
         "en": "None",
-        "nl": "Geen"
+        "nl": "Geen",
+        "da": "Ingen",
+        "it": "Nessuno",
+        "ko": "없음",
+        "pl": "Brak",
+        "ru": "Нет",
+        "sv": "Ingen"
       }
     },
     {
       "id": "normal",
       "title": {
         "en": "Normal",
-        "nl": "Normaal"
+        "nl": "Normaal",
+        "da": "Normal",
+        "it": "Normale",
+        "ko": "보통",
+        "pl": "Normalne",
+        "ru": "Стандарт",
+        "sv": "Normal"
       }
     },
     {
       "id": "extra",
       "title": {
         "en": "Extra",
-        "nl": "Extra"
+        "nl": "Extra",
+        "da": "Ekstra",
+        "it": "Extra",
+        "ko": "더 많이",
+        "pl": "Dodatkowe",
+        "ru": "Дополнительно",
+        "sv": "Extra"
       }
     },
     {
       "id": "max",
       "title": {
         "en": "Max",
-        "nl": "Max"
+        "nl": "Max",
+        "da": "Maks",
+        "it": "Max",
+        "ko": "최대",
+        "pl": "Maksymalne",
+        "ru": "Максимально",
+        "sv": "Max"
       }
     }
   ],
@@ -48,7 +84,13 @@
         "highlight": true,
         "title": {
           "en": "The laundry washer cycles changed to",
-          "nl": "De wasmachinecycli zijn veranderd naar"
+          "nl": "De wasmachinecycli zijn veranderd naar",
+          "da": "Vaskemaskinens cyklusser blev ændret til",
+          "it": "I cicli della lavatrice sono passati a",
+          "ko": "세탁기 사이클이 다음으로 변경됨",
+          "pl": "Cykle prania zmieniły się na",
+          "ru": "Циклы стирки изменены на",
+          "sv": "Tvättmaskinens cykler ändrades till"
         },
         "args": [
           {
@@ -64,7 +106,13 @@
         "id": "laundry_washer_cycles_is",
         "title": {
           "en": "The laundry washer cycles !{{is|is not}}",
-          "nl": "De wasmachinecycli !{{is|is niet}}"
+          "nl": "De wasmachinecycli !{{is|is niet}}",
+          "da": "Vaskemaskinens cyklusser !{{er|er ikke}}",
+          "it": "I cicli della lavatrice !{{sono|non sono}}",
+          "ko": "세탁기 사이클이 다음!{{과 같음| 아님}}",
+          "pl": "Cykle pralki !{{jest|nie jest}}",
+          "ru": "Циклы стирки !{{is|is not}}",
+          "sv": "Tvättmaskinscyklerna !{{är|är inte}}"
         },
         "args": [
           {
@@ -80,7 +128,13 @@
         "id": "set_laundry_washer_cycles",
         "title": {
           "en": "Set the laundry washer cycles to",
-          "nl": "Stel de wasmachinecycli in op"
+          "nl": "De wasmachinecycli instellen op",
+          "da": "Indstil vaskemaskinens cyklusser til",
+          "it": "Imposta i cicli della lavatrice su",
+          "ko": "세탁기 사이클을 다음으로 설정",
+          "pl": "Ustaw cykle prania na",
+          "ru": "Установить циклы стирки на",
+          "sv": "Ställ in tvättmaskinens cykler på"
         },
         "args": [
           {

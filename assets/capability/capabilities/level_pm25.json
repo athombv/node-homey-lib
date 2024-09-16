@@ -2,39 +2,73 @@
   "type": "enum",
   "title": {
     "en": "PM2.5 Level",
-    "nl": "PM2,5-niveau"
+    "nl": "PM2.5-niveau",
+    "da": "PM2.5-niveau",
+    "it": "Livello PM2.5",
+    "ko": "PM2.5 수준",
+    "pl": "Poziom PM2.5",
+    "ru": "Уровень ТЧ2.5",
+    "sv": "PM2.5-nivå"
   },
   "desc": {
     "en": "The level of PM2.5 particles in the air.",
-    "nl": "Het niveau van PM2,5-deeltjes in de lucht."
+    "nl": "De mate van PM2.5-deeltjes in de lucht.",
+    "da": "Niveauet af PM2.5-partikler i luften.",
+    "it": "Il livello di particelle PM2.5 nell'aria.",
+    "ko": "공기 중 PM2.5 입자의 수준입니다.",
+    "pl": "Poziom cząstek PM2.5 w powietrzu.",
+    "ru": "Уровень содержания частиц ТЧ2.5 в воздухе.",
+    "sv": "Halten av PM2.5-partiklar i luften."
   },
   "values": [
     {
       "id": "low",
       "title": {
         "en": "Low",
-        "nl": "Laag"
+        "nl": "Laag",
+        "da": "Lavt",
+        "ko": "낮음",
+        "pl": "Niski",
+        "ru": "Низкий",
+        "sv": "Låg"
       }
     },
     {
       "id": "medium",
       "title": {
         "en": "Medium",
-        "nl": "Middel"
+        "nl": "Gemiddeld",
+        "da": "Medium",
+        "ko": "중간",
+        "pl": "Średni",
+        "ru": "Средний",
+        "sv": "Medium"
       }
     },
     {
       "id": "high",
       "title": {
         "en": "High",
-        "nl": "Hoog"
+        "nl": "Hoog",
+        "da": "Højt",
+        "it": "Alto",
+        "ko": "높음",
+        "pl": "Wysoki",
+        "ru": "Высокий",
+        "sv": "Hög"
       }
     },
     {
       "id": "critical",
       "title": {
         "en": "Critical",
-        "nl": "Kritiek"
+        "nl": "Kritiek",
+        "da": "Kritisk",
+        "it": "Critico",
+        "ko": "치명적",
+        "pl": "Krytyczny",
+        "ru": "Критический",
+        "sv": "Kritisk"
       }
     }
   ],
@@ -48,7 +82,13 @@
         "highlight": true,
         "title": {
           "en": "The PM2.5 level changed to",
-          "nl": "Het PM2,5-niveau is veranderd naar"
+          "nl": "Het PM2.5-niveau is veranderd naar",
+          "da": "PM2.5-niveauet blev ændret til",
+          "it": "Il livello di PM2.5 è passato a",
+          "ko": "PM2.5 수준이 다음으로 변경됨",
+          "pl": "Poziom PM2.5 zmienił się na",
+          "ru": "Уровень ТЧ2.5 изменился на",
+          "sv": "PM2.5-nivån ändrades till"
         },
         "args": [
           {
@@ -64,7 +104,13 @@
         "id": "level_pm25_is",
         "title": {
           "en": "The PM2.5 level !{{is|is not}}",
-          "nl": "Het PM2,5-niveau !{{is|is not}}"
+          "nl": "Het PM2.5-niveau !{{is|is niet}}",
+          "da": "PM2.5-niveauet !{{er|er ikke}}",
+          "it": "Il livello di PM2.5 !{{è|non è}}",
+          "ko": "PM2.5 수준이 다음!{{과 같음| 아님}}",
+          "pl": "Poziom PM2.5 !{{jest|nie jest}}",
+          "ru": "Уровень ТЧ2.5 !{{is|is not}}",
+          "sv": "PM2.5-nivån !{{är|är inte}}"
         },
         "args": [
           {

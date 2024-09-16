@@ -2,32 +2,62 @@
   "type": "enum",
   "title": {
     "en": "Carbon filter level",
-    "nl": "Koolstoffilterniveau"
+    "nl": "Koolstoffilterniveau",
+    "da": "Niveau for kulfilter",
+    "it": "Livello filtro a carbone",
+    "ko": "카본 필터 수준",
+    "pl": "Poziom filtra węglowego",
+    "ru": "Уровень угольного фильтра",
+    "sv": "Kolfilternivå"
   },
   "desc": {
     "en": "The level of degredation on the active carbon filter.",
-    "nl": "Het niveau van degradatie op het actieve koolstoffilter."
+    "nl": "De mate van aantasting van het actieve koolstoffilter.",
+    "da": "Niveauet af nedbrydning på det aktive kulfilter.",
+    "it": "Il livello di degradazione del filtro a carbone attivo.",
+    "ko": "활성탄 필터의 백화 수준입니다.",
+    "pl": "Poziom degradacji filtra z węglem aktywnym.",
+    "ru": "Уровень снижения производительности фильтра с активированным углем.",
+    "sv": "Graden av nedbrytning på det aktiva kolfiltret."
   },
   "values": [
     {
       "id": "ok",
       "title": {
         "en": "OK",
-        "nl": "OK"
+        "nl": "OK",
+        "da": "OK",
+        "it": "OK",
+        "ko": "좋음",
+        "pl": "OK",
+        "ru": "Нормальный",
+        "sv": "OK"
       }
     },
     {
       "id": "warning",
       "title": {
         "en": "Warning",
-        "nl": "Waarschuwing"
+        "nl": "Waarschuwing",
+        "da": "Advarsel",
+        "it": "Attenzione",
+        "ko": "경고",
+        "pl": "Ostrzeżenie",
+        "ru": "Требующий внимания",
+        "sv": "Varning"
       }
     },
     {
       "id": "critical",
       "title": {
         "en": "Critical",
-        "nl": "Kritiek"
+        "nl": "Kritiek",
+        "da": "Kritisk",
+        "it": "Critico",
+        "ko": "교체 요망",
+        "pl": "Krytyczny",
+        "ru": "Критический",
+        "sv": "Kritisk"
       }
     }
   ],
@@ -41,7 +71,13 @@
         "highlight": true,
         "title": {
           "en": "The carbon filter level changed to",
-          "nl": "Het koolstoffilterniveau is veranderd naar"
+          "nl": "Het koolstoffilterniveau is veranderd naar",
+          "da": "Kulfilterniveauet blev ændret til",
+          "it": "Il livello del filtro al carbone è passato a",
+          "ko": "카본 필터 수준이 다음으로 변경됨",
+          "pl": "Poziom filtra węglowego zmienił się na",
+          "ru": "Уровень угольного фильтра изменился на",
+          "sv": "Kolfilternivån ändrades till"
         },
         "args": [
           {
@@ -57,7 +93,13 @@
         "id": "level_carbon_filter_is",
         "title": {
           "en": "The carbon filter level !{{is|is not}}",
-          "nl": "Het koolstoffilterniveau !{{is|is niet}}"
+          "nl": "Het koolstoffilterniveau !{{is|is niet}}",
+          "da": "Niveauet for kulfilteret !{{er|er ikke}}",
+          "it": "Il livello del filtro a carbone !{{è|non è}}",
+          "ko": "카본 필터 수준이 다음!{{과 같음| 아님}}",
+          "pl": "Poziom filtra węglowego !{{jest|nie jest}}",
+          "ru": "Уровень угольного фильтра !{{is|is not}}",
+          "sv": "Kolfilternivån !{{är|är inte}}"
         },
         "args": [
           {
