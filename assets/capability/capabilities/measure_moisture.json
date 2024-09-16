@@ -36,6 +36,8 @@
   "insights": true,
   "chartType": "spline",
   "decimals": 2,
+  "min": 0,
+  "max": 100,
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",
@@ -59,7 +61,7 @@
             "name": "$id",
             "title": "$title",
             "type": "$type",
-            "example": 2
+            "example": 50
           }
         ]
       }

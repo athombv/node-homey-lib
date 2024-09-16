@@ -30,6 +30,8 @@
     "ru": "Уровень угольного фильтра в процентах.",
     "sv": "Kolfilternivån i procent."
   },
+  "min": 0,
+  "max": 100,
   "insights": true,
   "getable": true,
   "setable": false,
@@ -40,8 +42,8 @@
         "id": "measure_carbon_filter_changed",
         "highlight": true,
         "title": {
-          "en": "The carbon filter level changed to",
-          "nl": "Het koolstoffilterniveau is veranderd naar",
+          "en": "The carbon filter level changed",
+          "nl": "Het koolstoffilterniveau is veranderd",
           "da": "Kulfilterniveauet blev ændret til",
           "it": "Il livello del filtro al carbone è passato a",
           "ko": "카본 필터 수준이 다음으로 변경됨",
@@ -49,10 +51,11 @@
           "ru": "Уровень угольного фильтра изменился на",
           "sv": "Kolfilternivån ändrades till"
         },
-        "args": [
+        "tokens": [
           {
-            "name": "level",
-            "type": "number",
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
             "example": 50
           }
         ]

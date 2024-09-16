@@ -44,8 +44,8 @@
       {
         "id": "measure_o3_changed",
         "title": {
-          "en": "The Ozone value changed",
-          "nl": "De ozonwaarde is veranderd",
+          "en": "The ozone level changed",
+          "nl": "Het ozonniveau is veranderd",
           "da": "Ozonværdien ændrede sig",
           "it": "Il valore dell'ozono è cambiato",
           "ko": "오존 값 변경됨",

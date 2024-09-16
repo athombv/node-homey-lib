@@ -78,7 +78,7 @@
       {
         "id": "docked",
         "title": {
-          "en": "Is !{{Docked|Not docked}}",
+          "en": "Is !{{docked|not docked}}",
           "nl": "Is !{{gekoppeld|niet gekoppeld}}",
           "da": "Er !{{Forankret|Ikke forankret}}",
           "it": "È !{{alloggiato|non alloggiato}}",

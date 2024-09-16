@@ -33,6 +33,8 @@
   "insights": true,
   "chartType": "spline",
   "decimals": 2,
+  "min": 0,
+  "max": 1,
   "getable": true,
   "setable": true,
   "uiComponent": "slider",
@@ -55,7 +57,7 @@
             "name": "$id",
             "title": "$title",
             "type": "$type",
-            "example": 50
+            "example": 0.5
           }
         ]
       }
@@ -75,12 +77,15 @@
         },
         "args": [
           {
-            "name": "position",
+            "name": "valve_position",
             "type": "range",
             "min": 0,
-            "max": 100,
-            "step": 1,
-            "example": 50
+            "max": 1,
+            "step": 0.01,
+            "value": 0.5,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
           }
         ]
       }

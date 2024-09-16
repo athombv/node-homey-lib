@@ -82,7 +82,7 @@
       {
         "id": "mower_state_changed",
         "title": {
-          "en": "The lawnmower state changed",
+          "en": "The lawnmower state changed to",
           "da": "Plæneklipperens tilstand ændrede sig",
           "it": "Lo stato del tosaerba è cambiato",
           "ko": "잔디깎이 상태 변경됨",
@@ -91,7 +91,7 @@
           "ru": "Состояние газонокосилки изменилось",
           "sv": "Läget för gräsklippare förändrades"
         },
-        "tokens": [
+        "args": [
           {
             "name": "state",
             "type": "dropdown",
@@ -102,7 +102,7 @@
     ],
     "conditions": [
       {
-        "id": "lawnmower_state_is",
+        "id": "mower_state_is",
         "title": {
           "en": "The lawnmower !{{is|is not}}",
           "da": "Plæneklipperen !{{er|er ikke}}",
@@ -113,7 +113,7 @@
           "ru": "Газонокосилка !{{is|is not}}",
           "sv": "Gräsklipparen !{{är|är inte}}"
         },
-        "tokens": [
+        "args": [
           {
             "name": "state",
             "type": "dropdown",
@@ -124,7 +124,7 @@
     ],
     "actions": [
       {
-        "id": "lawnmower_state_mow",
+        "id": "mower_state_mow",
         "title": {
           "en": "Start mowing",
           "da": "Begynd at slå græs",
@@ -137,7 +137,7 @@
         }
       },
       {
-        "id": "lawnmower_state_pause",
+        "id": "mower_state_pause",
         "title": {
           "en": "Pause mowing",
           "da": "Sæt plæneklipning på pause",
@@ -150,7 +150,7 @@
         }
       },
       {
-        "id": "lawnmower_state_dock",
+        "id": "mower_state_dock",
         "title": {
           "en": "Return to dock",
           "da": "Vend tilbage til base",

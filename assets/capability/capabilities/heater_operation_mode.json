@@ -114,8 +114,8 @@
       {
         "id": "heater_operation_mode_changed",
         "title": {
-          "en": "The heater operation mode has changed to",
-          "nl": "De verwarmingsmodus is veranderd naar",
+          "en": "The heater operation mode changed to",
+          "nl": "De verwarmingsmodus veranderd naar",
           "da": "Varmeapparatets driftstilstand er ændret til",
           "it": "La modalità di funzionamento del calorifero è passata a",
           "ko": "히터 작동 모드가 다음으로 변경됨",

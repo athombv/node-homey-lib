@@ -33,6 +33,8 @@
     "ru": "Уровень HEPA-фильтра в процентах.",
     "sv": "HEPA-filtrets nivå i procent."
   },
+  "min": 0,
+  "max": 100,
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",
@@ -42,8 +44,8 @@
         "id": "measure_hepa_filter_changed",
         "highlight": true,
         "title": {
-          "en": "The HEPA filter level changed to",
-          "nl": "Het HEPA-filterniveau is veranderd naar",
+          "en": "The HEPA filter level changed",
+          "nl": "Het HEPA-filterniveau is veranderd",
           "da": "HEPA-filterets niveau ændrede sig til",
           "it": "Il livello del filtro HEPA è passato a",
           "ko": "HEPA 필터 수준이 다음으로 변경됨",
@@ -52,10 +54,11 @@
           "ru": "Уровень HEPA-фильтра изменился на",
           "sv": "HEPA-filternivån ändrades till"
         },
-        "args": [
+        "tokens": [
           {
-            "name": "level",
-            "type": "number",
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
             "example": 50
           }
         ]
