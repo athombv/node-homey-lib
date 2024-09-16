@@ -2,20 +2,48 @@
   "type": "boolean",
   "title": {
     "en": "Pump device fault alarm",
-    "nl": "Pompapparaatfoutalarm"
+    "nl": "Waarschuwing van fout bij pompapparaat",
+    "da": "Alarm for fejl i pumpeenhed",
+    "it": "Allarme guasto del dispositivo di pompaggio",
+    "ko": "펌프 디바이스 고장 알람",
+    "no": "Feilalarm for pumpeenhet",
+    "pl": "Alarm usterki pompy",
+    "ru": "Сигнал о неисправности насосного устройства",
+    "sv": "Larm om fel på pumpenhet"
   },
   "desc": {
     "en": "True when a fault is detected in the pump device.",
-    "nl": "Waar wanneer een fout wordt gedetecteerd in het pompapparaat."
+    "nl": "Wordt geactiveerd wanneer een fout wordt gedetecteerd in het pompapparaat.",
+    "da": "Sandt, når der er registreret en fejl i pumpeenheden.",
+    "it": "Vero quando viene rilevato un guasto nel dispositivo di pompaggio.",
+    "ko": "펌프 디바이스에 고장이 감지되면 참입니다.",
+    "no": "Sann når en feil i pumpeenheten registreres.",
+    "pl": "Prawda, gdy wykryta jest usterka pompy.",
+    "ru": "Значение «истина» при обнаружении неисправности насосного устройства.",
+    "sv": "Sant när ett fel har upptäckts i pumpenheten."
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Pump device fault alarm turned on",
-    "nl": "Pompapparaatfoutalarm ging af"
+    "nl": "Waarschuwing van fout bij pompapparaat geactiveerd",
+    "da": "Fejlalarm for pumpeenhed slået til",
+    "it": "Allarme guasto del dispositivo di pompaggio acceso",
+    "ko": "펌프 디바이스 고장 알람 켜짐",
+    "no": "Feilalarm for pumpeenhet aktivert",
+    "pl": "Alarm usterki pompy włączony",
+    "ru": "Сигнал о неисправности насосного устройства включен",
+    "sv": "Larm för fel på pumpenheten aktiverat"
   },
   "insightsTitleFalse": {
     "en": "Pump device fault alarm turned off",
-    "nl": "Pompapparaatfoutalarm ging uit"
+    "nl": "Waarschuwing van fout bij pompapparaat gedeactiveerd",
+    "da": "Fejlalarm for pumpeenhed slået fra",
+    "it": "Allarme guasto del dispositivo di pompaggio spento",
+    "ko": "펌프 디바이스 고장 알람 꺼짐",
+    "no": "Feilalarm for pumpeenhet ble deaktivert",
+    "pl": "Alarm usterki pompy wyłączony",
+    "ru": "Сигнал о неисправности насосного устройства выключен",
+    "sv": "Larmet för fel på pumpenheten inaktiverat"
   },
   "getable": true,
   "setable": false,
@@ -27,14 +55,28 @@
         "highlight": true,
         "title": {
           "en": "The pump device fault alarm turned on",
-          "nl": "Het pompapparaatfoutalarm gaat aan"
+          "nl": "De waarschuwing van fout bij pompapparaat is geactiveerd",
+          "da": "Pumpeenhedens fejlalarm er slået til",
+          "it": "L'allarme di guasto del dispositivo di pompaggio si è acceso",
+          "ko": "펌프 디바이스 고장 알람이 켜짐",
+          "no": "Pumpeenhetens feilalarm ble aktivert",
+          "pl": "Włączył się alarm usterki pompy",
+          "ru": "Сигнал о неисправности насосного устройства включен",
+          "sv": "Larmet för fel på pumpenheten aktiverat"
         }
       },
       {
         "id": "alarm_pump_device_false",
         "title": {
           "en": "The pump device fault alarm turned off",
-          "nl": "Het pompapparaatfoutalarm gaat uit"
+          "nl": "De waarschuwing van fout bij pompapparaat is gedeactiveerd",
+          "da": "Pumpeenhedens fejlalarm slået fra",
+          "it": "L'allarme di guasto del dispositivo di pompaggio si è spento",
+          "ko": "펌프 디바이스 고장 알람이 꺼짐",
+          "no": "Pumpeenhetens feilalarm ble deaktivert",
+          "pl": "Wyłączył się alarm usterki pompy",
+          "ru": "Сигнал о неисправности насосного устройства выключен",
+          "sv": "Larmet för fel på pumpenheten inaktiverat"
         }
       }
     ],
@@ -43,7 +85,14 @@
         "id": "alarm_pump_device",
         "title": {
           "en": "The pump device fault alarm is !{{on|off}}",
-          "nl": "Het pompapparaatfoutalarm is !{{aan|uit}}"
+          "nl": "De waarschuwing van fout bij pompapparaat is !{{geactiveerd|gedeactiveerd}}",
+          "da": "Pumpeenhedens fejlalarm er !{{tændt|slukket}}",
+          "it": "L'allarme di guasto del dispositivo di pompaggio è !{{acceso|spento}}",
+          "ko": "펌프 디바이스 고장 알람이 !{{켜짐|꺼짐}}",
+          "no": "Pumpeenhetens feilalarm er !{{på|av}}",
+          "pl": "Alarm usterki pompy jest !{{włączony|wyłączony}}",
+          "ru": "Сигнал о неисправности насосного устройства !{{включен|выключен}}",
+          "sv": "Larmet för fel på pumpenheten är !{{på|av}}"
         }
       }
     ]

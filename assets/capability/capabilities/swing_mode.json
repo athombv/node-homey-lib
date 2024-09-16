@@ -2,28 +2,52 @@
   "type": "enum",
   "title": {
     "en": "Swing mode",
-    "nl": "Zwenkmodus"
+    "nl": "Zwenkmodus",
+    "da": "Svingtilstand",
+    "it": "Modalità swing",
+    "ko": "스윙 모드",
+    "pl": "Tryb wahania",
+    "ru": "Режим качания",
+    "sv": "Svängläge"
   },
   "values": [
     {
       "id": "vertical",
       "title": {
         "en": "Vertical",
-        "nl": "Verticaal"
+        "nl": "Verticaal",
+        "da": "Lodret",
+        "it": "Verticale",
+        "ko": "상하",
+        "pl": "Pionowe",
+        "ru": "Вертикальный",
+        "sv": "Vertikalt"
       }
     },
     {
       "id": "horizontal",
       "title": {
         "en": "Horizontal",
-        "nl": "Horizontaal"
+        "nl": "Horizontaal",
+        "da": "Vandret",
+        "it": "Orizzontale",
+        "ko": "좌우",
+        "pl": "Poziome",
+        "ru": "Горизонтальный",
+        "sv": "Horisontellt"
       }
     },
     {
       "id": "both",
       "title": {
         "en": "Both",
-        "nl": "Beide"
+        "nl": "Beide",
+        "da": "Begge",
+        "it": "Entrambi",
+        "ko": "상하좌우",
+        "pl": "Oba",
+        "ru": "Оба",
+        "sv": "Båda"
       }
     }
   ],
@@ -36,7 +60,14 @@
         "id": "swing_mode_changed",
         "title": {
           "en": "Swing mode has changed",
-          "nl": "Zwenkmodus is veranderd"
+          "nl": "Zwenkmodus is veranderd",
+          "da": "Svingtilstanden har ændret sig",
+          "it": "La modalità swing è cambiata",
+          "ko": "스윙 모드가 변경됨",
+          "no": "Svingmodus er endret",
+          "pl": "Zmienił się tryb wahania",
+          "ru": "Режим качания изменен",
+          "sv": "Svängläget har förändrats"
         },
         "args": [
           {
@@ -52,7 +83,13 @@
         "id": "swing_mode_is",
         "title": {
           "en": "Swing mode !{{is|is not}}",
-          "nl": "Zwenkmodus !{{is|is not}}"
+          "nl": "Zwenkmodus !{{is|is niet}}",
+          "da": "Svingtilstand !{{er|er ikke}}",
+          "it": "La modalità swing !{{è|non è}}",
+          "ko": "스윙 모드가 다음!{{과 같음| 아님}}",
+          "pl": "Tryb wahania !{{jest|nie jest}}",
+          "ru": "Режим качания !{{is|is not}}",
+          "sv": "Svängläge !{{är|är inte}}"
         },
         "args": [
           {
@@ -68,7 +105,13 @@
         "id": "set_swing_mode",
         "title": {
           "en": "Set swing mode to",
-          "nl": "Zet zwenkmodus op"
+          "nl": "Zwenkmodus instellen op",
+          "da": "Indstil svingtilstand til",
+          "it": "Imposta la modalità swing su",
+          "ko": "스윙 모드를 다음으로 설정",
+          "pl": "Ustaw tryb wahania na",
+          "ru": "Установить режим качания на",
+          "sv": "Ställ in svängläge till"
         },
         "args": [
           {

@@ -2,32 +2,62 @@
   "type": "enum",
   "title": {
     "en": "Target temperature level",
-    "nl": "Doeltemperatuurniveau"
+    "nl": "Gewenst temperatuurniveau",
+    "da": "Måltemperaturniveau",
+    "it": "Livello di temperatura target",
+    "ko": "목표 온도 수준",
+    "pl": "Docelowy poziom temperatury",
+    "ru": "Уровень заданной температуры",
+    "sv": "Nivå för önskad temperatur"
   },
   "desc": {
     "en": "The target temperature level of the appliance.",
-    "nl": "Het doeltemperatuurniveau van het apparaat."
+    "nl": "Het gewenste temperatuurniveau van het apparaat.",
+    "da": "Apparatets måltemperaturniveau.",
+    "it": "Il livello di temperatura target dell'apparecchio.",
+    "ko": "가전의 목표 온도 수준입니다.",
+    "pl": "Docelowy poziom temperatury urządzenia.",
+    "ru": "Уровень заданной температуры прибора.",
+    "sv": "Apparatens önskade temperaturnivå."
   },
   "values": [
     {
       "id": "low",
       "title": {
         "en": "Low",
-        "nl": "Laag"
+        "nl": "Laag",
+        "da": "Lav",
+        "it": "Basso",
+        "ko": "낮음",
+        "pl": "Niski",
+        "ru": "Низкий",
+        "sv": "Låg"
       }
     },
     {
       "id": "medium",
       "title": {
         "en": "Medium",
-        "nl": "Gemiddeld"
+        "nl": "Gemiddeld",
+        "da": "Medium",
+        "it": "Medio",
+        "ko": "중간",
+        "pl": "Średni",
+        "ru": "Средний",
+        "sv": "Medium"
       }
     },
     {
       "id": "high",
       "title": {
         "en": "High",
-        "nl": "Hoog"
+        "nl": "Hoog",
+        "da": "Høj",
+        "it": "Alto",
+        "ko": "높음",
+        "pl": "Wysoki",
+        "ru": "Высокий",
+        "sv": "Hög"
       }
     }
   ],
@@ -41,7 +71,13 @@
         "highlight": true,
         "title": {
           "en": "The target temperature level changed to",
-          "nl": "Het doeltemperatuurniveau is gewijzigd naar"
+          "nl": "Het gewenste temperatuurniveau is veranderd naar",
+          "da": "Måltemperaturniveauet ændret til",
+          "it": "Il livello di temperatura target è passato a",
+          "ko": "목표 온도 수준이 다음으로 변경됨",
+          "pl": "Docelowy poziom temperatury zmienił się na",
+          "ru": "Уровень заданной температуры изменен на",
+          "sv": "Den önskade temperaturnivån ändrades till"
         },
         "args": [
           {
@@ -57,7 +93,13 @@
         "id": "target_temperature_level_is",
         "title": {
           "en": "The target temperature level !{{is|is not}}",
-          "nl": "Het doeltemperatuurniveau !{{is|is not}}"
+          "nl": "Het gewenste temperatuurniveau !{{is|is niet}}",
+          "da": "Måltemperaturniveauet !{{er|er ikke}}",
+          "it": "Il livello di temperatura target !{{è|non è}}",
+          "ko": "목표 온도 수준이 다음!{{과 같음| 아님}}",
+          "pl": "Docelowy poziom temperatury !{{jest|nie jest}}",
+          "ru": "Заданный уровень температуры !{{is|is not}}",
+          "sv": "Den önskade temperaturnivån !{{är|är inte}}"
         },
         "args": [
           {
@@ -73,7 +115,13 @@
         "id": "set_target_temperature_level",
         "title": {
           "en": "Set the target temperature level to",
-          "nl": "Stel het doeltemperatuurniveau in op"
+          "nl": "Het doeltemperatuurniveau instellen op",
+          "da": "Indstil måltemperaturniveauet til",
+          "it": "Imposta il livello di temperatura target su",
+          "ko": "목표 온도 수준을 다음으로 설정",
+          "pl": "Ustaw docelowy poziom temperatury na",
+          "ru": "Установить уровень заданной температуры на",
+          "sv": "Ställ in önskad temperaturnivå till"
         },
         "args": [
           {

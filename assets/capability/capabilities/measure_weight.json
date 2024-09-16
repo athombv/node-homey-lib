@@ -2,15 +2,33 @@
   "type": "number",
   "title": {
     "en": "Weight",
-    "nl": "Gewicht"
+    "nl": "Gewicht",
+    "da": "Vægt",
+    "it": "Peso",
+    "ko": "무게",
+    "pl": "Waga",
+    "ru": "Вес",
+    "sv": "Vikt"
   },
   "units": {
     "en": "g",
-    "nl": "g"
+    "nl": "g",
+    "da": "g",
+    "it": "g",
+    "ko": "g",
+    "pl": "g",
+    "ru": "г",
+    "sv": "g"
   },
   "desc": {
     "en": "Generic mass in grams; weight is used instead of mass to fit with everyday language.",
-    "nl": "Generieke massa in gram; gewicht wordt gebruikt in plaats van massa om aan te sluiten bij alledaagse taal."
+    "nl": "Generieke massa in grammen; gewicht wordt gebruikt in plaats van massa om aan te sluiten bij het alledaagse taalgebruik.",
+    "da": "Generisk masse i gram; vægt bruges i stedet for masse for at passe til hverdagssproget.",
+    "it": "Massa generica in grammi; il peso è usato al posto della massa per adattarsi al linguaggio quotidiano.",
+    "ko": "그램은 일반적으로 질량 단위이지만, 일상 언어에 맞게 질량 대신 무게라는 용어를 사용합니다.",
+    "pl": "Ogólna masa w gramach; słowo „waga” jest użyte zamiast „masa”, aby pasowało do codziennego języka.",
+    "ru": "Общая масса в граммах; вес используется вместо массы, с учетом сложившейся традиции в повседневной речи.",
+    "sv": "Generisk massa i gram; vikt används i stället för massa för att passa in i vardagsspråket."
   },
   "insights": true,
   "chartType": "spline",
@@ -24,7 +42,13 @@
         "id": "measure_weight_changed",
         "title": {
           "en": "The weight changed",
-          "nl": "Het gewicht is veranderd"
+          "nl": "Het gewicht is veranderd",
+          "da": "Vægten ændrede sig",
+          "it": "Il peso è cambiato",
+          "ko": "무게 변경됨",
+          "pl": "Zmieniła się waga",
+          "ru": "Вес изменился",
+          "sv": "Vikten ändrades"
         },
         "tokens": [
           {

@@ -2,15 +2,33 @@
   "type": "number",
   "title": {
     "en": "Rotation",
-    "nl": "Rotatie"
+    "nl": "Rotatie",
+    "da": "Rotation",
+    "it": "Rotazione",
+    "ko": "회전각",
+    "pl": "Rotacja",
+    "ru": "Вращение",
+    "sv": "Rotation"
   },
   "units": {
     "en": "°",
-    "nl": "°"
+    "nl": "°",
+    "da": "°",
+    "it": "°",
+    "ko": "°",
+    "pl": "°",
+    "ru": "°",
+    "sv": "°"
   },
   "desc": {
     "en": "The rotation in degrees.",
-    "nl": "De rotatie in graden."
+    "nl": "De rotatie in graden.",
+    "da": "Rotationen i grader.",
+    "it": "La rotazione in gradi.",
+    "ko": "도 단위의 회전각입니다.",
+    "pl": "Obrót w stopniach.",
+    "ru": "Вращение в градусах.",
+    "sv": "Rotationen i grader."
   },
   "insights": true,
   "chartType": "spline",
@@ -24,7 +42,13 @@
         "id": "measure_rotation_changed",
         "title": {
           "en": "The rotation changed",
-          "nl": "De rotatie is veranderd"
+          "nl": "De rotatie is veranderd",
+          "da": "Rotationen ændrede sig",
+          "it": "La rotazione è cambiata",
+          "ko": "회전각 변경됨",
+          "pl": "Zmieniła się rotacja",
+          "ru": "Вращение изменилось",
+          "sv": "Rotationen ändrades"
         },
         "tokens": [
           {

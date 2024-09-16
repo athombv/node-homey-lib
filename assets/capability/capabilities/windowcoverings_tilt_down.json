@@ -1,7 +1,7 @@
 {
   "title": {
     "en": "Window coverings tilt down",
-    "nl": "Raambekleding kantelt naar beneden",
+    "nl": "Raambekleding kantelt omlaag",
     "de": "Jalousien nach unten gekippt",
     "fr": "Stores baissés",
     "it": "Tapparelle abbassate",
@@ -22,7 +22,14 @@
       {
         "id": "tilt_down",
         "title": {
-          "en": "Tilt down"
+          "en": "Tilt down",
+          "da": "Vip nedad",
+          "it": "Inclina verso il basso",
+          "ko": "아래로 틸팅",
+          "nl": "Omlaag kantelen",
+          "pl": "Odchylenie w dół",
+          "ru": "Наклон вниз",
+          "sv": "Luta ner"
         }
       }
     ]

@@ -2,16 +2,37 @@
   "type": "number",
   "title": {
     "en": "Ozone",
-    "nl": "Ozon"
+    "nl": "Ozon",
+    "da": "Ozon",
+    "it": "Ozono",
+    "ko": "오존",
+    "no": "Ozon",
+    "pl": "Ozon",
+    "ru": "Озон",
+    "sv": "Ozon"
   },
   "units": {
     "en": "μg/m³",
-    "nl": "μg/m³"
+    "nl": "μg/m³",
+    "da": "μg/m³",
+    "it": "μg/m³",
+    "ko": "μg/m³",
+    "no": "μg/m³",
+    "pl": "μg/m³",
+    "ru": "мкг/м³",
+    "sv": "μg/m³"
   },
   "insights": true,
   "desc": {
     "en": "Ozone in micrograms per cubic meter (μg/m³)",
-    "nl": "Ozon in microgram per kubieke meter (μg/m³)"
+    "nl": "Ozon in microgram per kubieke meter (μg/m³)",
+    "da": "Ozon i mikrogram pr. kubikmeter (μg/m³)",
+    "it": "Ozono in microgrammi per metro cubo (μg/m³)",
+    "ko": "입방미터당 마이크로그램(μg/m³) 단위의 오존",
+    "no": "Ozon i mikrogram per kubikkmeter (μg/m³)",
+    "pl": "Ozon w mikrogramach na metr sześcienny (μg/m³)",
+    "ru": "Озон в микрограммах на кубический метр (мкг/м³)",
+    "sv": "Ozon i mikrogram per kubikmeter (μg/m³)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -24,7 +45,14 @@
         "id": "measure_o3_changed",
         "title": {
           "en": "The Ozone value changed",
-          "nl": "De ozonwaarde is veranderd"
+          "nl": "De ozonwaarde is veranderd",
+          "da": "Ozonværdien ændrede sig",
+          "it": "Il valore dell'ozono è cambiato",
+          "ko": "오존 값 변경됨",
+          "no": "Ozonverdien ble endret",
+          "pl": "Zmieniła się wartość ozonu",
+          "ru": "Значение озона изменилось",
+          "sv": "Ozonvärdet ändrades"
         },
         "tokens": [
           {

@@ -2,39 +2,76 @@
   "type": "enum",
   "title": {
     "en": "PM1 level",
-    "nl": "PM1-niveau"
+    "nl": "PM1-niveau",
+    "da": "PM1-niveau",
+    "it": "Livello PM1",
+    "ko": "PM1 수준",
+    "pl": "Poziom PM1",
+    "ru": "Уровень ТЧ1",
+    "sv": "PM1-nivå"
   },
   "desc": {
     "en": "The amount of PM1 particles in the air represented by a level.",
-    "nl": "De hoeveelheid PM1-deeltjes in de lucht weergegeven als niveau."
+    "nl": "De hoeveelheid PM1-deeltjes in de lucht weergegeven als niveau.",
+    "da": "Mængden af PM1-partikler i luften repræsenteret ved et niveau.",
+    "es": "La cantidad de partículas PM1 en el aire representada por un nivel.",
+    "it": "La quantità di particelle PM1 nell'aria rappresentata da un livello.",
+    "ko": "수준으로 표현한 공기 중 PM1 입자의 양입니다.",
+    "pl": "Ilość cząstek PM1 w powietrzu przedstawiona jako poziom.",
+    "ru": "Количество частиц ТЧ1 в воздухе, представленное в виде уровня.",
+    "sv": "Mängden PM1-partiklar i luften som representeras av en nivå."
   },
   "values": [
     {
       "id": "low",
       "title": {
         "en": "Low",
-        "nl": "Laag"
+        "nl": "Laag",
+        "da": "Lavt",
+        "it": "Basso",
+        "ko": "낮음",
+        "pl": "Niski",
+        "ru": "Низкий",
+        "sv": "Låg"
       }
     },
     {
       "id": "medium",
       "title": {
         "en": "Medium",
-        "nl": "Middel"
+        "nl": "Gemiddeld",
+        "da": "Medium",
+        "it": "Medio",
+        "ko": "중간",
+        "pl": "Średni",
+        "ru": "Средний",
+        "sv": "Medium"
       }
     },
     {
       "id": "high",
       "title": {
         "en": "High",
-        "nl": "Hoog"
+        "nl": "Hoog",
+        "da": "Højt",
+        "it": "Alto",
+        "ko": "높음",
+        "pl": "Wysoki",
+        "ru": "Высокий",
+        "sv": "Hög"
       }
     },
     {
       "id": "critical",
       "title": {
         "en": "Critical",
-        "nl": "Kritiek"
+        "nl": "Kritiek",
+        "da": "Kritisk",
+        "it": "Critico",
+        "ko": "치명적",
+        "pl": "Krytyczny",
+        "ru": "Критический",
+        "sv": "Kritisk"
       }
     }
   ],
@@ -48,7 +85,13 @@
         "highlight": true,
         "title": {
           "en": "The PM1 level changed to",
-          "nl": "Het PM1-niveau is veranderd naar"
+          "nl": "Het PM1-niveau is veranderd naar",
+          "da": "PM1-niveauet blev ændret til",
+          "it": "Il livello PM1 è passato a",
+          "ko": "PM1 수준이 다음으로 변경됨",
+          "pl": "Poziom PM1 zmienił się na",
+          "ru": "Уровень ТЧ1 изменился на",
+          "sv": "PM1-nivån ändrades till"
         },
         "args": [
           {
@@ -64,7 +107,13 @@
         "id": "level_pm1_is",
         "title": {
           "en": "The PM1 level !{{is|is not}}",
-          "nl": "Het PM1-niveau is !{{is|is niet}}"
+          "nl": "Het PM1-niveau is !{{is|is niet}}",
+          "da": "PM1-niveauet !{{er|er ikke}}",
+          "it": "Il livello PM1 !{{è|non è}}",
+          "ko": "PM1 수준이 다음!{{과 같음| 아님}}",
+          "pl": "Poziom PM1 !{{jest|nie jest}}",
+          "ru": "Уровень ТЧ1 !{{is|is not}}",
+          "sv": "PM1-nivån !{{är|är inte}}"
         },
         "args": [
           {

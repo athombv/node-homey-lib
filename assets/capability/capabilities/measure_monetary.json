@@ -2,15 +2,36 @@
   "type": "number",
   "title": {
     "en": "Monetary value",
-    "nl": "Monetaire waarde"
+    "nl": "Monetaire waarde",
+    "da": "Monetær værdi",
+    "it": "Valore monetario",
+    "ko": "금전적 가치",
+    "no": "Pengeverdi",
+    "pl": "Wartość pieniężna",
+    "ru": "Денежная стоимость",
+    "sv": "Monetärt värde"
   },
   "units": {
     "en": "€",
-    "nl": "€"
+    "nl": "€",
+    "da": "€",
+    "it": "€",
+    "ko": "€",
+    "no": "€",
+    "pl": "€",
+    "ru": "€",
+    "sv": "€"
   },
   "desc": {
     "en": "The monetary value with a currency (default: €).",
-    "nl": "De monetaire waarde met een valuta (standaard: €)."
+    "nl": "De monetaire waarde met een valuta (standaard: €).",
+    "da": "Den monetære værdi med en valuta (standard: €).",
+    "it": "Il valore monetario in una valuta (predefinita: €).",
+    "ko": "통화로 환산한 금전적 가치입니다(기본값: €).",
+    "no": "Pengeverdien med en valuta (standard: EUR).",
+    "pl": "Wartość pieniężna z walutą (domyślnie: €).",
+    "ru": "Денежная стоимость с указанием валюты (по умолчанию: евро).",
+    "sv": "Det monetära värdet med en valuta (standard: €)."
   },
   "insights": true,
   "chartType": "spline",
@@ -24,7 +45,14 @@
         "id": "measure_monetary_changed",
         "title": {
           "en": "The monetary value changed",
-          "nl": "De monetaire waarde is veranderd"
+          "nl": "De monetaire waarde is veranderd",
+          "da": "Den monetære værdi ændrede sig",
+          "it": "Il valore monetario è cambiato",
+          "ko": "금전적 가치 변경됨",
+          "no": "Pengeverdien ble endret",
+          "pl": "Zmieniła się wartość pieniężna",
+          "ru": "Денежная стоимость изменилась",
+          "sv": "Det monetära värdet ändrades"
         },
         "tokens": [
           {

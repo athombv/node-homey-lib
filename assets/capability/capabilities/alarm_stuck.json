@@ -2,20 +2,48 @@
   "type": "boolean",
   "title": {
     "en": "Stuck alarm",
-    "nl": "Vastgelopen-alarm"
+    "nl": "Waarschuwing bij vastzitten",
+    "da": "Fastlåst alarm",
+    "it": "Allarme blocco",
+    "ko": "막힘 알람",
+    "no": "Fastkjøringsalarm",
+    "pl": "Alarm zablokowania",
+    "ru": "Сигнал о заклинивании",
+    "sv": "Larm om fastnat"
   },
   "desc": {
     "en": "True when the device is stuck.",
-    "nl": "Gaat af als het apparaat is vastgelopen."
+    "nl": "Wordt geactiveerd wanneer het apparaat vastzit",
+    "da": "Sandt, når enheden sidder fast.",
+    "it": "Vero quando il dispositivo è bloccato.",
+    "ko": "디바이스가 막히면 참입니다.",
+    "no": "Sann når enheten sitter fast.",
+    "pl": "Prawda, gdy urządzenie jest zablokowane.",
+    "ru": "Значение «истина», когда устройство заклинило.",
+    "sv": "Sant när enheten har fastnat."
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Was stuck",
-    "nl": "Zat vast"
+    "nl": "Zat vast",
+    "da": "Sad fast",
+    "it": "Era bloccato",
+    "ko": "막혀 있음",
+    "no": "Satt fast",
+    "pl": "Było zablokowane",
+    "ru": "Заклинило",
+    "sv": "Var fast"
   },
   "insightsTitleFalse": {
     "en": "Was no longer stuck",
-    "nl": "Zat niet langer vast"
+    "nl": "Zat niet meer vast",
+    "da": "Sad ikke længere fast",
+    "it": "Non era più bloccato",
+    "ko": "더 이상 막혀 있지 않음",
+    "no": "Satt ikke lenger fast",
+    "pl": "Nie było już zablokowane",
+    "ru": "Больше не заклинено",
+    "sv": "Var inte längre fast"
   },
   "getable": true,
   "setable": false,
@@ -27,14 +55,28 @@
         "highlight": true,
         "title": {
           "en": "Is stuck",
-          "nl": "Zit vast"
+          "nl": "Zit vast",
+          "da": "Sidder fast",
+          "it": "È bloccato",
+          "ko": "막힘",
+          "no": "Sitter fast",
+          "pl": "Jest zablokowane",
+          "ru": "Заклинено",
+          "sv": "Är fast"
         }
       },
       {
         "id": "alarm_stuck_false",
         "title": {
           "en": "Is no longer stuck",
-          "nl": "Zit niet langer vast"
+          "nl": "Zit niet meer vast",
+          "da": "Sidder ikke længere fast",
+          "it": "Non è più bloccato",
+          "ko": "더 이상 막혔지 않음",
+          "no": "Sitter ikke lenger fast",
+          "pl": "Nie jest już zablokowane",
+          "ru": "Больше не заклинено",
+          "sv": "Är inte längre fast"
         }
       }
     ],
@@ -43,7 +85,14 @@
         "id": "alarm_stuck",
         "title": {
           "en": "Is !{{stuck|not stuck}}",
-          "nl": "Zit !{{vast|niet vast}}"
+          "nl": "Zit !{{vast|niet vast}}",
+          "da": "Er !{{fastlåst|ikke fastlåst}}",
+          "it": "È !{{bloccato|sbloccato}}",
+          "ko": "!{{막힘|막혔지 않음}}",
+          "no": "Sitter !{{fast|ikke fast}}",
+          "pl": "Jest ! {{zablokowane|niezablokowane}}",
+          "ru": "Устройство !{{заклинено|не заклинено}}",
+          "sv": "Är !{{fast|inte fast}}"
         }
       }
     ]

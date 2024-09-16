@@ -112,7 +112,7 @@
           "es": "La alarma de la batería está !{{activada|desactivada}}",
           "da": "Batterialarmen er !{{tændt|slukket}}",
           "ko": "배터리 알람 !{{켬|끔}}",
-          "pl": "Alarm stanu baterii jest!{{on|off}}"
+          "pl": "Alarm stanu baterii jest !{{włączony|wyłączony}}"
         }
       }
     ]

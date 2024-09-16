@@ -2,20 +2,48 @@
   "type": "boolean",
   "title": {
     "en": "Occupancy alarm",
-    "nl": "Bezettingsalarm"
+    "nl": "Waarschuwing bij gebruik",
+    "da": "Tilstedeværelsesalarm",
+    "it": "Allarme occupazione",
+    "ko": "사람 있음 알람",
+    "no": "Bruksalarm",
+    "pl": "Alarm zajętości",
+    "ru": "Сигнал о занятости",
+    "sv": "Närvarolarm"
   },
   "desc": {
     "en": "True when occupancy is detected.",
-    "nl": "Waar wanneer bezetting wordt gedetecteerd."
+    "nl": "Wordt geactiveerd wanneer gebruik wordt gedetecteerd.",
+    "da": "Sandt, når tilstedeværelse registreres.",
+    "it": "Vero quando viene rilevata l'occupazione.",
+    "ko": "내부에 사람이 감지되면 참입니다.",
+    "no": "Sann når bruk er registrert.",
+    "pl": "Prawda, gdy wykryta jest zajętość.",
+    "ru": "Значение «истина» при обнаружении занятости.",
+    "sv": "Sant när närvaro detekteras."
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Occupancy alarm turned on",
-    "nl": "Bezettingsalarm ingeschakeld"
+    "nl": "Waarschuwing bij gebruik geactiveerd",
+    "da": "Tilstedeværelsesalarm slået til",
+    "it": "Allarme occupazione acceso",
+    "ko": "사람 있음 알람 켜짐",
+    "no": "Bruksalarm aktivert",
+    "pl": "Alarm zajętości włączony",
+    "ru": "Сигнал о занятости включен",
+    "sv": "Närvarolarm aktiverat"
   },
   "insightsTitleFalse": {
     "en": "Occupancy alarm turned off",
-    "nl": "Bezettingsalarm uitgeschakeld"
+    "nl": "Waarschuwing bij gebruik gedeactiveerd",
+    "da": "Tilstedeværelsesalarm slået fra",
+    "it": "Allarme occupazione spento",
+    "ko": "사람 있음 알람 꺼짐",
+    "no": "Bruksalarm deaktivert",
+    "pl": "Alarm zajętości wyłączony",
+    "ru": "Сигнал о занятости выключен",
+    "sv": "Närvarolarm inaktiverat"
   },
   "getable": true,
   "setable": false,
@@ -27,14 +55,28 @@
         "highlight": true,
         "title": {
           "en": "The occupancy alarm turned on",
-          "nl": "Het bezettingsalarm gaat aan"
+          "nl": "De waarschuwing bij gebruik is geactiveerd",
+          "da": "Tilstedeværelsesalarmen er slået til",
+          "it": "L'allarme occupazione si è acceso",
+          "ko": "사람 있음 알람이 켜짐",
+          "no": "Bruksalarmen ble aktivert",
+          "pl": "Włączył się alarm zajętości",
+          "ru": "Сигнал о занятости включен",
+          "sv": "Närvarolarmet aktiverat"
         }
       },
       {
         "id": "alarm_occupancy_false",
         "title": {
           "en": "The occupancy alarm turned off",
-          "nl": "Het bezettingsalarm gaat uit"
+          "nl": "De waarschuwing bij gebruik is gedeactiveerd",
+          "da": "Tilstedeværelsesalarmen er slået fra",
+          "it": "L'allarme occupazione si è spento",
+          "ko": "사람 있음 알람이 꺼짐",
+          "no": "Bruksalarmen ble deaktivert",
+          "pl": "Wyłączył się alarm zajętości",
+          "ru": "Сигнал о занятости выключен",
+          "sv": "Närvarolarmet inaktiverat"
         }
       }
     ],
@@ -43,7 +85,14 @@
         "id": "alarm_occupancy",
         "title": {
           "en": "Is !{{occupied|not occupied}}",
-          "nl": "Is !{{bezet|niet bezet}}"
+          "nl": "Wordt !{{gebruikt|niet gebruikt}}",
+          "da": "Er ! {{beboet|ikke beboet}}",
+          "it": "È !{{occupato|non occupato}}",
+          "ko": "내부에 사람 !{{있음|없음}}",
+          "no": "Er !{{i bruk|ikke i bruk}}",
+          "pl": "Jest !{{zajęte|niezajęte}}",
+          "ru": "Устройство !{{занято|не занято}}",
+          "sv": "Är !{{närvarande|inte närvarande}}"
         }
       }
     ]

@@ -2,39 +2,75 @@
   "type": "enum",
   "title": {
     "en": "PM0.1 level",
-    "nl": "PM0,1 niveau"
+    "nl": "PM0.1-niveau",
+    "da": "PM0.1-niveau",
+    "it": "Livello PM0.1",
+    "ko": "PM0.1 수준",
+    "pl": "Poziom PM0.1",
+    "ru": "Уровень ТЧ0.1",
+    "sv": "PM0.1-nivå"
   },
   "desc": {
     "en": "The level of PM0.1 particles in the air.",
-    "nl": "Het niveau van PM0,1-deeltjes in de lucht."
+    "nl": "De mate van PM0.1-deeltjes in de lucht.",
+    "da": "Niveauet af PM0.1-partikler i luften.",
+    "it": "Il livello di particelle PM0.1 nell'aria.",
+    "ko": "공기 중 PM0.1 입자의 수준입니다.",
+    "pl": "Poziom cząstek PM0.1 w powietrzu.",
+    "ru": "Уровень содержания частиц ТЧ0.1 в воздухе.",
+    "sv": "Halten av PM0.1-partiklar i luften."
   },
   "values": [
     {
       "id": "low",
       "title": {
         "en": "Low",
-        "nl": "Low"
+        "nl": "Laag",
+        "da": "Lavt",
+        "it": "Basso",
+        "ko": "낮음",
+        "pl": "Niski",
+        "ru": "Низкий",
+        "sv": "Låg"
       }
     },
     {
       "id": "medium",
       "title": {
         "en": "Medium",
-        "nl": "Medium"
+        "nl": "Gemiddeld",
+        "da": "Medium",
+        "it": "Medio",
+        "ko": "중간",
+        "pl": "Średni",
+        "ru": "Средний",
+        "sv": "Medium"
       }
     },
     {
       "id": "high",
       "title": {
         "en": "High",
-        "nl": "High"
+        "nl": "Hoog",
+        "da": "Højt",
+        "it": "Alto",
+        "ko": "높음",
+        "pl": "Wysoki",
+        "ru": "Высокий",
+        "sv": "Hög"
       }
     },
     {
       "id": "critical",
       "title": {
         "en": "Critical",
-        "nl": "Critical"
+        "nl": "Kritiek",
+        "da": "Kritisk",
+        "it": "Critico",
+        "ko": "치명적",
+        "pl": "Krytyczny",
+        "ru": "Критический",
+        "sv": "Kritisk"
       }
     }
   ],
@@ -48,7 +84,13 @@
         "highlight": true,
         "title": {
           "en": "The PM0.1 level changed to",
-          "nl": "Het PM0,1-niveau is veranderd naar"
+          "nl": "Het PM0.1-niveau is veranderd naar",
+          "da": "PM0.1-niveauet blev ændret til",
+          "it": "Il livello PM0.1 è passato a",
+          "ko": "PM0.1 수준이 다음으로 변경됨",
+          "pl": "Poziom PM0.1 zmienił się na",
+          "ru": "Уровень ТЧ0.1 изменился на",
+          "sv": "PM0.1-nivån ändrades till"
         },
         "args": [
           {
@@ -64,7 +106,13 @@
         "id": "level_pm01_is",
         "title": {
           "en": "The PM0.1 level !{{is|is not}}",
-          "nl": "Het PM0,1-niveau !{{is|is niet}}"
+          "nl": "Het PM0.1-niveau !{{is|is niet}}",
+          "da": "PM0.1-niveauet !{{er|er ikke}}",
+          "it": "Il livello PM0.1 !{{è|non è}}",
+          "ko": "PM0.1 수준이 다음!{{과 같음| 아님}}",
+          "pl": "Poziom PM0.1 {{jest|nie jest}}",
+          "ru": "Уровень ТЧ0.1 !{{is|is not}}",
+          "sv": "PM0.1-nivån !{{är|är inte}}"
         },
         "args": [
           {

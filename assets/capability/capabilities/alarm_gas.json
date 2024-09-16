@@ -2,20 +2,52 @@
   "type": "boolean",
   "title": {
     "en": "Gas alarm",
-    "nl": "Gasalarm"
+    "nl": "Gaswaarschuwing",
+    "da": "Gasalarm",
+    "fr": "Alarme de gaz",
+    "it": "Allarme gas",
+    "ko": "가스 알람",
+    "no": "Gassalarm",
+    "pl": "Alarm gazu",
+    "ru": "Сигнал об утечке газа",
+    "sv": "Gaslarm"
   },
   "description": {
     "en": "True when gas is detected",
-    "nl": "Gaat af wanneer gas wordt gedetecteerd"
+    "nl": "Wordt geactiveerd wanneer gas wordt gedetecteerd",
+    "da": "Sandt, når der registreres gas",
+    "fr": "La valeur est true lorsque du gaz est détecté",
+    "it": "Vero quando viene rilevato del gas",
+    "ko": "가스가 감지되면 참임",
+    "no": "Sann når gass er oppdaget",
+    "pl": "Prawda, gdy wykryty jest gaz",
+    "ru": "Значение «истина» при обнаружении газа",
+    "sv": "Sant när gas detekteras"
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Gas alarm turned on",
-    "nl": "Gasalarm ging af"
+    "nl": "Gaswaarschuwing geactiveerd",
+    "da": "Gasalarm slået til",
+    "fr": "Alarme de gaz activée",
+    "it": "Allarme gas acceso",
+    "ko": "가스 알람 켜짐",
+    "no": "Gassalarm aktivert",
+    "pl": "Alarm gazu włączony",
+    "ru": "Сигнал об утечке газа включен",
+    "sv": "Gaslarm aktiverat"
   },
   "insightsTitleFalse": {
     "en": "Gas alarm turned off",
-    "nl": "Gasalarm ging uit"
+    "nl": "Gaswaarschuwing gedeactiveerd",
+    "da": "Gasalarm slået fra",
+    "fr": "Alarme de gaz désactivée",
+    "it": "Allarme gas spento",
+    "ko": "가스 알람 꺼짐",
+    "no": "Gassalarm deaktivert",
+    "pl": "Alarm gazu wyłączony",
+    "ru": "Сигнал об утечке газа выключен",
+    "sv": "Gaslarm inaktiverat"
   },
   "getable": true,
   "setable": false,
@@ -27,14 +59,29 @@
         "highlight": true,
         "title": {
           "en": "The gas alarm turned on",
-          "nl": "Het gasalarm gaat aan"
+          "nl": "De gaswaarschuwing is geactiveerd",
+          "da": "Gasalarmen tændte",
+          "fr": "L'alarme de gaz s'est déclenchée",
+          "it": "L'allarme gas si è acceso",
+          "ko": "가스 알람이 켜짐",
+          "no": "Gassalarmen ble aktivert",
+          "pl": "Włączył się alarm gazu",
+          "ru": "Сигнал об утечке газа включен",
+          "sv": "Gaslarmet aktiveras"
         }
       },
       {
         "id": "alarm_gas_false",
         "title": {
           "en": "The gas alarm turned off",
-          "nl": "Het gasalarm gaat uit"
+          "nl": "De gaswaarschuwing is gedeactiveerd",
+          "da": "Gasalarmen slukkede",
+          "it": "L'allarme gas si è spento",
+          "ko": "가스 알람이 꺼짐",
+          "no": "Gassalarmen ble deaktivert",
+          "pl": "Wyłączył się alarm gazu",
+          "ru": "Сигнал об утечке газа выключен",
+          "sv": "Gaslarmet inaktiverat"
         }
       }
     ],
@@ -43,7 +90,14 @@
         "id": "alarm_gas",
         "title": {
           "en": "The gas alarm is !{{on|off}}",
-          "nl": "Het gasalarm is !{{aan|uit}}"
+          "nl": "De gaswaarschuwing is !{{geactiveerd|gedeactiveerd}}",
+          "da": "Gasalarmen er slået !{{til|fra}}",
+          "it": "L'allarme gas è !{{acceso|spento}}",
+          "ko": "가스 알람이 !{{켜짐|꺼짐}}",
+          "no": "Gassalarmen er !{{på|av}}",
+          "pl": "Alarm gazu jest !{{włączony|wyłączony}}",
+          "ru": "Сигнал об утечке газа !{{включен|выключен}}",
+          "sv": "Gaslarmet är !{{på|av}}"
         }
       }
     ]

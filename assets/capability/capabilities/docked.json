@@ -2,20 +2,44 @@
   "type": "boolean",
   "title": {
     "en": "Docked",
-    "nl": "Gedockt"
+    "nl": "Gekoppeld",
+    "da": "Forankret",
+    "it": "Alloggiato",
+    "ko": "도킹됨",
+    "pl": "Zadokowane",
+    "ru": "Установлено в док-станцию",
+    "sv": "Dockad"
   },
   "desc": {
     "en": "True when docked.",
-    "nl": "Gaat af wanneer gedockt."
+    "nl": "Wordt geactiveerd wanneer deze is gekoppeld.",
+    "da": "Sandt, når forankret.",
+    "it": "Vero quando è alloggiato.",
+    "ko": "도킹되면 참입니다.",
+    "pl": "Prawda, gdy zadokowane.",
+    "ru": "Значение «истина» при установке в док-станцию.",
+    "sv": "Sant när den är dockad."
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Docked",
-    "nl": "Gedockt"
+    "nl": "Gekoppeld",
+    "da": "Forankret",
+    "it": "Alloggiato",
+    "ko": "도킹됨",
+    "pl": "Zadokowane",
+    "ru": "Установлено в док-станцию",
+    "sv": "Dockad"
   },
   "insightsTitleFalse": {
     "en": "Not docked",
-    "nl": "Niet gedockt"
+    "nl": "Niet gekoppeld",
+    "da": "Ikke forankret",
+    "it": "Non alloggiato",
+    "ko": "도킹되지 않음",
+    "pl": "Nie zadokowane",
+    "ru": "Не установлено в док-станцию",
+    "sv": "Inte dockad"
   },
   "getable": true,
   "setable": false,
@@ -27,14 +51,26 @@
         "highlight": true,
         "title": {
           "en": "Docked",
-          "nl": "Gedockt"
+          "nl": "Gekoppeld",
+          "da": "Forankret",
+          "it": "Alloggiato",
+          "ko": "도킹됨",
+          "pl": "Zadokowane",
+          "ru": "Установлено в док-станцию",
+          "sv": "Dockad"
         }
       },
       {
         "id": "docked_false",
         "title": {
           "en": "Not docked",
-          "nl": "Niet gedockt"
+          "nl": "Niet gekoppeld",
+          "da": "Ikke forankret",
+          "it": "Non alloggiato",
+          "ko": "도킹되지 않음",
+          "pl": "Nie zadokowane",
+          "ru": "Не установлено в док-станцию",
+          "sv": "Inte dockad"
         }
       }
     ],
@@ -43,7 +79,13 @@
         "id": "docked",
         "title": {
           "en": "Is !{{Docked|Not docked}}",
-          "nl": "Is !{{Gedockt|Niet gedockt}}"
+          "nl": "Is !{{gekoppeld|niet gekoppeld}}",
+          "da": "Er !{{Forankret|Ikke forankret}}",
+          "it": "È !{{alloggiato|non alloggiato}}",
+          "ko": "!{{도킹됨|도킹되지 않음}}",
+          "pl": "Jest !",
+          "ru": "!{{Установлено в док-станцию|Не установлено в док-станцию}}",
+          "sv": "Är !{{dockad|inte dockad}}"
         }
       }
     ]

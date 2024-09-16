@@ -2,20 +2,48 @@
   "type": "boolean",
   "title": {
     "en": "Presence alarm",
-    "nl": "Aanwezigheidsalarm"
+    "nl": "Aanwezigheidswaarschuwing",
+    "da": "Tilstedeværelsesalarm",
+    "it": "Allarme di presenza",
+    "ko": "존재감지 알람",
+    "no": "Tilstedeværelsesalarm",
+    "pl": "Alarm obecności",
+    "ru": "Сигнал присутствия",
+    "sv": "Närvarolarm"
   },
   "desc": {
     "en": "True when presence has been detected.",
-    "nl": "Gaat af wanneer aanwezigheid wordt gedetecteerd."
+    "nl": "Wordt geactiveerd wanneer aanwezigheid wordt gedetecteerd",
+    "da": "True, når der er registreret tilstedeværelse.",
+    "it": "Vero quando viene rilevata una presenza.",
+    "ko": "존재가 감지되면 참입니다.",
+    "no": "Sann når en tilstedeværelse har blitt påvist.",
+    "pl": "Prawda, gdy wykryta została obecność.",
+    "ru": "Значение «истина» при обнаружении присутствия.",
+    "sv": "True när närvaro har detekterats."
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Presence Alarm turned on",
-    "nl": "Aanwezigheidsalarm ging af"
+    "nl": "Aanwezigheidswaarschuwing geactiveerd",
+    "da": "Tilstedeværelsesalarm slået til",
+    "it": "Allarme di presenza acceso",
+    "ko": "존재감지 알람 켜짐",
+    "no": "Tilstedeværelsesalarm aktivert",
+    "pl": "Alarm obecności włączony",
+    "ru": "Сигнал присутствия включен",
+    "sv": "Närvarolarm aktiverat"
   },
   "insightsTitleFalse": {
     "en": "Presence Alarm turned off",
-    "nl": "Aanwezigheidsalarm ging uit"
+    "nl": "Aanwezigheidswaarschuwing gedeactiveerd",
+    "da": "Tilstedeværelsesalarm slået fra",
+    "it": "Allarme di presenza spento",
+    "ko": "존재감지 알람 꺼짐",
+    "no": "Tilstedeværelsesalarm deaktivert",
+    "pl": "Alarm obecności wyłączony",
+    "ru": "Сигнал присутствия выключен",
+    "sv": "Närvarolarm inaktiverat"
   },
   "getable": true,
   "setable": false,
@@ -27,14 +55,28 @@
         "highlight": true,
         "title": {
           "en": "The presence alarm turned on",
-          "nl": "Het aanwezigheidsalarm gaat aan"
+          "nl": "De aanwezigheidswaarschuwing is geactiveerd",
+          "da": "Tilstedeværelsesalarmen er slået til",
+          "it": "L'allarme di presenza si è acceso",
+          "ko": "존재감지 알람이 켜짐",
+          "no": "Tilstedeværelsesalarmen ble aktivert",
+          "pl": "Włączył się alarm obecności",
+          "ru": "Сигнал присутствия включен",
+          "sv": "Närvarolarmet aktiverat"
         }
       },
       {
         "id": "alarm_presence_false",
         "title": {
           "en": "The presence alarm turned off",
-          "nl": "Het aanwezigheidsalarm gaat uit"
+          "nl": "De aanwezigheidswaarschuwing is gedeactiveerd",
+          "da": "Tilstedeværelsesalarm slået fra",
+          "it": "L'allarme di presenza si è spento",
+          "ko": "존재감지 알람이 꺼짐",
+          "no": "Tilstedeværelsesalarmen ble deaktivert",
+          "pl": "Wyłączył się alarm obecności",
+          "ru": "Сигнал присутствия выключен",
+          "sv": "Närvarolarmet inaktiverat"
         }
       }
     ],
@@ -43,7 +85,14 @@
         "id": "alarm_presence",
         "title": {
           "en": "The presence alarm is !{{on|off}}",
-          "nl": "Het aanwezigheidsalarm is !{{aan|uit}}"
+          "nl": "De aanwezigheidswaarschuwing is !{{geactiveerd|gedeactiveerd}}",
+          "da": "Tilstedeværelsesalarmen er !{{tændt|slukket}}",
+          "it": "L'allarme di presenza è !{{acceso|spento}}",
+          "ko": "존재감지 알람이 !{{켜짐|꺼짐}}",
+          "no": "Tilstedeværelsesalarmen er !{{på|av}}",
+          "pl": "Alarm obecności jest !{{włączony|wyłączony}}",
+          "ru": "Сигнал присутствия !{{включен|выключен}}",
+          "sv": "Närvarolarmet är !{{på|av}}"
         }
       }
     ]

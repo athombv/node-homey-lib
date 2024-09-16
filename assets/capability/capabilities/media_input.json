@@ -2,53 +2,101 @@
   "type": "enum",
   "title": {
     "en": "Media Input",
-    "nl": "Media-input"
+    "nl": "Media-invoer",
+    "da": "Medieindgang",
+    "it": "Ingresso multimediale",
+    "ko": "미디어 입력",
+    "pl": "Wejście multimedialne",
+    "ru": "Вход для устройств мультимедиа",
+    "sv": "Mediaingång"
   },
   "desc": {
     "en": "The input channel for a media player",
-    "nl": "Het invoerkanaal voor een mediaspeler"
+    "nl": "Het invoerkanaal voor een mediaspeler",
+    "da": "Indgangskanalen til en medieafspiller",
+    "it": "Il canale di ingresso di un lettore multimediale",
+    "ko": "미디어 플레이어의 입력 채널",
+    "pl": "Kanał wejściowy dla odtwarzacza multimedialnego",
+    "ru": "Канал ввода для медиаплеера",
+    "sv": "Ingångskanalen för en mediaspelare"
   },
   "values": [
     {
       "id": "hdmi_1",
       "title": {
         "en": "HDMI 1",
-        "nl": "HDMI 1"
+        "nl": "HDMI 1",
+        "da": "HDMI 1",
+        "it": "HDMI 1",
+        "ko": "HDMI 1",
+        "pl": "HDMI 1",
+        "ru": "HDMI 1",
+        "sv": "HDMI 1"
       }
     },
     {
       "id": "hdmi_2",
       "title": {
         "en": "HDMI 2",
-        "nl": "HDMI 2"
+        "nl": "HDMI 2",
+        "da": "HDMI 2",
+        "it": "HDMI 2",
+        "ko": "HDMI 2",
+        "pl": "HDMI 2",
+        "ru": "HDMI 2",
+        "sv": "HDMI 2"
       }
     },
     {
       "id": "hdmi_3",
       "title": {
         "en": "HDMI 3",
-        "nl": "HDMI 3"
+        "nl": "HDMI 3",
+        "da": "HDMI 3",
+        "it": "HDMI 3",
+        "ko": "HDMI 3",
+        "pl": "HDMI 3",
+        "ru": "HDMI 3",
+        "sv": "HDMI 3"
       }
     },
     {
       "id": "usb_1",
       "title": {
         "en": "USB 1",
-        "nl": "USB 1"
+        "nl": "USB 1",
+        "da": "USB 1",
+        "it": "USB 1",
+        "ko": "USB 1",
+        "pl": "USB 1",
+        "ru": "USB 1",
+        "sv": "USB 1"
       }
     },
     {
       "id": "usb_2",
       "title": {
         "en": "USB 2",
-        "nl": "USB 2"
+        "nl": "USB 2",
+        "da": "USB 2",
+        "it": "USB 2",
+        "ko": "USB 2",
+        "pl": "USB 2",
+        "ru": "USB 2",
+        "sv": "USB 2"
       }
     },
     {
       "id": "component",
       "title": {
         "en": "Component",
-        "nl": "Component"
+        "nl": "Component",
+        "da": "Komponent",
+        "it": "Componente",
+        "ko": "컴포넌트",
+        "pl": "Komponent",
+        "ru": "Компонент",
+        "sv": "Komponent"
       }
     }
   ],
@@ -62,7 +110,13 @@
         "highlight": true,
         "title": {
           "en": "The media input changed to",
-          "nl": "De media-input is veranderd naar"
+          "nl": "De media-invoer is veranderd naar",
+          "da": "Medieindgangen blev ændret til",
+          "it": "L'ingresso multimediale è passato a",
+          "ko": "미디어 입력이 다음으로 변경됨",
+          "pl": "Wejście multimedialne zmieniło się na",
+          "ru": "Вход для устройств мультимедиа был изменен на",
+          "sv": "Medieuppgifterna ändrades till"
         },
         "args": [
           {
@@ -78,7 +132,13 @@
         "id": "media_input_is",
         "title": {
           "en": "The media input !{{is|is not}}",
-          "nl": "De media-input !{{is|is niet}}"
+          "nl": "De media-invoer !{{is|is niet}}",
+          "da": "Medieindgangen !{{er|er ikke}}",
+          "it": "L'ingresso multimediale !{{è|non è}}",
+          "ko": "미디어 입력이 다음!{{과 같음| 아님}}",
+          "pl": "Wejście multimedialne !{{jest|nie jest}}",
+          "ru": "Вход для устройств мультимедиа !{{is|is not}}",
+          "sv": "Mediaingången !{{är|är inte}}"
         },
         "args": [
           {
@@ -91,10 +151,16 @@
     ],
     "actions": [
       {
-        "id": "media_input_set",
+        "id": "set_media_input",
         "title": {
           "en": "Set the media input",
-          "nl": "Stel de media-input in"
+          "nl": "De media-invoer instellen",
+          "da": "Indstil medieindgangen",
+          "it": "Imposta l'ingresso multimediale",
+          "ko": "미디어 입력 설정",
+          "pl": "Ustaw wejście multimedialne",
+          "ru": "Установить вход для устройств мультимедиа ",
+          "sv": "Ställ in mediaingången"
         },
         "args": [
           {

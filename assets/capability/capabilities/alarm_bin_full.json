@@ -2,20 +2,52 @@
   "type": "boolean",
   "title": {
     "en": "Bin full alarm",
-    "nl": "Afvalbak-vol-alarm"
+    "nl": "Waarschuwing bij volle afvalbak",
+    "da": "Papirkurv fuld alarm",
+    "es": "Alarma de cubo lleno",
+    "fr": "Alarme de poubelle pleine",
+    "it": "Allarme cestino pieno",
+    "ko": "휴지통 가득 참 알람",
+    "pl": "Alarm pełnego kosza",
+    "ru": "Сигнал о заполненности корзины",
+    "sv": "Larm om full behållare"
   },
   "desc": {
     "en": "True when the bin is full",
-    "nl": "Gaat af als de afvalbak vol is"
+    "nl": "Wordt geactiveerd wanneer de afvalbak vol is",
+    "da": "Sandt, når papirkurven er fuld",
+    "es": "Activado cuando el cubo está lleno",
+    "fr": "La valeur est true lorsque la poubelle est pleine",
+    "it": "Vero quando il cestino è pieno",
+    "ko": "휴지통이 가득 차면 참임",
+    "pl": "Prawda, gdy kosz jest pełny",
+    "ru": "Значение «истина», когда корзина заполнена",
+    "sv": "Sant när behållaren är full"
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "The bin was full",
-    "nl": "De afvalbak was vol"
+    "nl": "De afvalbak was vol",
+    "da": "Papirkurven var fuld",
+    "es": "El cubo estaba lleno",
+    "fr": "La poubelle était pleine",
+    "it": "Il cestino era pieno",
+    "ko": "휴지통 가득 찼음",
+    "pl": "Kosz był pełny",
+    "ru": "Корзина была заполнена",
+    "sv": "Behållaren var full"
   },
   "insightsTitleFalse": {
     "en": "The bin was not full",
-    "nl": "De afvalbak was niet vol"
+    "nl": "De afvalbak was niet vol",
+    "da": "Papirkurven var ikke fuld",
+    "es": "El cubo no estaba lleno",
+    "fr": "La poubelle n'était pas pleine",
+    "it": "Il cestino non era pieno",
+    "ko": "휴지통이 가득 차지 않음",
+    "pl": "Kosz nie był pełny",
+    "ru": "Корзина не была заполнена",
+    "sv": "Behållaren var inte full"
   },
   "getable": true,
   "setable": false,
@@ -27,14 +59,30 @@
         "highlight": true,
         "title": {
           "en": "The bin is full",
-          "nl": "De afvalbak is vol"
+          "nl": "De afvalbak is vol",
+          "da": "Papirkurven er fuld",
+          "es": "El cubo está lleno",
+          "fr": "La poubelle est pleine",
+          "it": "Il cestino è pieno",
+          "ko": "휴지통이 가득 참",
+          "pl": "Kosz jest pełny",
+          "ru": "Корзина заполнена",
+          "sv": "Behållaren är full"
         }
       },
       {
         "id": "alarm_bin_full_false",
         "title": {
           "en": "The bin is no longer full",
-          "nl": "De afvalbak is niet langer vol"
+          "nl": "De afvalbak is niet meer vol",
+          "da": "Papirkurven er ikke længere fuld",
+          "es": "El cubo ya no está lleno",
+          "fr": "La poubelle n'est plus pleine",
+          "it": "Il cestino non è più pieno",
+          "ko": "휴지통이 더 이상 가득 차지 않음",
+          "pl": "Kosz nie jest już pełny",
+          "ru": "Корзина больше не заполнена",
+          "sv": "Behållaren är inte längre full"
         }
       }
     ],
@@ -43,7 +91,14 @@
         "id": "alarm_bin_full",
         "title": {
           "en": "The bin is !{{full|not full}}",
-          "nl": "The afvalbak is !{{vol|niet vol}}"
+          "nl": "De afvalbak is !{{vol|niet vol}}",
+          "da": "Papirkurven er !{{full|not full}}",
+          "es": "El cubo {{está lleno|no está lleno}} ",
+          "it": "Il cestino è !{{pieno|non pieno}}",
+          "ko": "휴지통이 !{{가득 참|가득 차지 않음}}",
+          "pl": "Kosz {{jest pełny|nie jest pełny}}",
+          "ru": "Корзина !{{заполнена|не заполнена}}",
+          "sv": "Behållaren är!{{full|inte full}}"
         }
       }
     ]
