@@ -2,7 +2,7 @@
   "type": "boolean",
   "title": {
     "en": "PM1 alarm",
-    "nl": "PM1 alarm",
+    "nl": "PM1-waarschuwing",
     "de": "PM1-Alarm",
     "fr": "Alarme PM1",
     "it": "Allarme PM1",
@@ -10,51 +10,51 @@
     "no": "PM1-alarm",
     "es": "Alarma de PM1",
     "da": "PM1-alarm",
-    "ru": "Сигнал ТЧ 1",
-    "pl": "Alarm o stężeniu PM1",
+    "ru": "Сигнал ТЧ1",
+    "pl": "Alarm PM1",
     "ko": "PM1 알람"
   },
   "desc": {
     "en": "True when PM1 values exceeds threshold",
-    "nl": "Gaat af wanneer de PM1 waarde overschreden wordt",
+    "nl": "Wordt geactiveerd wanneer PM1-waarden de drempel overschrijden",
     "de": "True, wenn PM1-Werte die Schwelle überschreiten",
     "fr": "Vrai si les valeurs PM1 excèdent un seuil",
     "it": "Vero quando i valori PM1 superano la soglia",
     "sv": "Sant när PM1-värdena överstiger gränsvärdet",
-    "no": "Sant når PM1-verdiene overskrider grenseverdien",
+    "no": "Sann når PM1-verdiene overskrider grenseverdien",
     "es": "Verdadero cuando los valores de PM1 superan el límite",
     "da": "Sandt, når PM1-værdier overskrider grænseværdien",
-    "ru": "Верно при превышении контрольного значения ТЧ 1",
-    "pl": "Adekwatny, kiedy wykryty zostanie niebezpieczny poziom stężenia PM1",
+    "ru": "Значение «истина» при превышении контрольного значения ТЧ1",
+    "pl": "Prawda, gdy wartości PM1 przekraczają próg",
     "ko": "PM1 값이 임계값을 초과하면 참"
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "PM1 alarm turned on",
-    "nl": "PM1 alarm ging af",
+    "nl": "PM1-waarschuwing geactiveerd",
     "de": "PM1-Alarm ist angegangen",
     "fr": "Alarme PM1 s'est activée",
-    "it": "Allarme PM1 attivato",
+    "it": "Allarme PM1 acceso",
     "sv": "PM1-larm aktiverat",
     "no": "PM1-alarm aktivert",
     "es": "Alarma de PM1 activada",
     "da": "PM1-alarm blev aktiveret",
-    "ru": "Сигнал ТЧ 1 включен",
-    "pl": "Alarm o stężeniu PM1 włączony",
+    "ru": "Сигнал ТЧ1 включен",
+    "pl": "Alarm PM1 włączony",
     "ko": "PM1 알람 켜짐"
   },
   "insightsTitleFalse": {
     "en": "PM1 alarm turned off",
-    "nl": "PM1 alarm ging uit",
+    "nl": "PM1-waarschuwing gedeactiveerd",
     "de": "PM1-Alarm ist ausgegangen",
     "fr": "Alarme PM1 s'est désactivée",
-    "it": "Allarme PM1 disattivato",
+    "it": "Allarme PM1 spento",
     "sv": "PM1-larm inaktiverat",
-    "no": "PM1-alarm deaktivert",
+    "no": "PM1-alarmen ble deaktivert",
     "es": "Alarma de PM1 desactivada",
     "da": "PM1-alarm blev deaktiveret",
-    "ru": "Сигнал ТЧ 1 выключен",
-    "pl": "Alarm o stężeniu PM1 wyłączony",
+    "ru": "Сигнал ТЧ1 выключен",
+    "pl": "Alarm PM1 wyłączony",
     "ko": "PM1 알람 꺼짐"
   },
   "getable": true,
@@ -67,34 +67,34 @@
         "highlight": true,
         "title": {
           "en": "The PM1 alarm turned on",
-          "nl": "Het PM1 gaat aan",
+          "nl": "De PM1-waarschuwing is geactiveerd",
           "de": "Der PM1-Alarm ist angegangen",
           "fr": "L'alarme PM1 s'est activée",
-          "it": "L'allarme PM1 è stato attivato",
+          "it": "L'allarme PM1 si è acceso",
           "sv": "PM1-larmet aktiverat",
-          "no": "PM1-alarmen aktivert",
+          "no": "PM1-alarmen ble aktivert",
           "es": "La alarma de PM1 se ha activado",
           "da": "PM1-alarmen blev aktiveret",
-          "ru": "Сигнал ТЧ 1 включен",
-          "pl": "Alarm o stężeniu PM1 włączony",
-          "ko": "PM1 알람 켜짐"
+          "ru": "Сигнал ТЧ1 включен",
+          "pl": "Włączył się alarm PM1",
+          "ko": "PM1 알람이 켜짐"
         }
       },
       {
         "id": "alarm_pm1_false",
         "title": {
           "en": "The PM1 alarm turned off",
-          "nl": "Het PM1 gaat uit",
+          "nl": "De PM1-waarschuwing is gedeactiveerd",
           "de": "Der PM1-Alarm ist ausgegangen",
           "fr": "L'alarme PM1 s'est désactivée",
-          "it": "L'allarme PM1 è stato disattivato",
+          "it": "L'allarme PM1 si è spento",
           "sv": "PM1-larmet inaktiverat",
-          "no": "PM1-alarmen deaktivert",
+          "no": "PM1-alarmen ble deaktivert",
           "es": "La alarma de PM1 se ha desactivado",
           "da": "PM1-alarmen blev deaktiveret",
-          "ru": "Сигнал ТЧ 1 выключен",
-          "pl": "Alarm o stężeniu PM1 wyłączony",
-          "ko": "PM1 알람 꺼짐"
+          "ru": "Сигнал ТЧ1 выключен",
+          "pl": "Wyłączył się alarm PM1",
+          "ko": "PM1 알람이 꺼짐"
         }
       }
     ],
@@ -103,7 +103,7 @@
         "id": "alarm_pm1",
         "title": {
           "en": "The PM1 alarm is !{{on|off}}",
-          "nl": "Het PM1 alarm is !{{aan|uit}}",
+          "nl": "De PM1-waarschuwing is !{{geactiveerd|gedeactiveerd}}",
           "de": "Der PM1-Alarm ist !{{an|aus}}",
           "fr": "L'alarme PM1 est !{{en marche|arrêtée}}",
           "it": "L'allarme PM1 è !{{acceso|spento}}",
@@ -111,9 +111,9 @@
           "no": "PM1-alarmen er !{{på|av}}",
           "es": "La alarma de PM1 está !{{activada|desactivada}}",
           "da": "PM1-alarmen er !{{tændt|slukket}}",
-          "ru": "Сигнал ТЧ 1 !{{вкл.|выкл.}}",
-          "pl": "Alarm o stężeniu PM1 !{{włączony|wyłączony}}",
-          "ko": "PM1 알람 !{{켬|끔}}"
+          "ru": "Сигнал ТЧ1 !{{включен|выключен}}",
+          "pl": "Alarm PM1 jest !{{włączony|wyłączony}}",
+          "ko": "PM1 알람이 !{{켜짐|꺼짐}}"
         }
       }
     ]

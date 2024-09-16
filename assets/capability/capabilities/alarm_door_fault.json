@@ -2,20 +2,52 @@
   "type": "boolean",
   "title": {
     "en": "Door fault alarm",
-    "nl": "Deur-probleemalarm"
+    "nl": "Waarschuwing bij defect aan deur",
+    "da": "Alarm for dørfejl",
+    "fr": "Alarme de défaut de porte",
+    "it": "Allarme guasto porta",
+    "ko": "도어 고장 알람",
+    "no": "Dørfeilalarm",
+    "pl": "Alarm usterki drzwi",
+    "ru": "Сигнал о неисправности двери",
+    "sv": "Larm för dörrfel"
   },
   "desc": {
     "en": "True when there is an issue with the door or lock.",
-    "nl": "Gaat af wanneer er een probleem is met de deur of het slot."
+    "nl": "Wordt geactiveerd wanneer er een probleem is met de deur of het slot.",
+    "da": "Sandt, når der er et problem med døren eller låsen.",
+    "fr": "La valeur est true lorsque la porte ou la serrure présente un problème.",
+    "it": "Vero quando c'è un problema con la porta o la serratura.",
+    "ko": "도어 또는 록에 문제가 있으면 참입니다.",
+    "no": "Sann når det er et problem med døren eller låsen.",
+    "pl": "Prawda, gdy występuje problem z drzwiami lub zamkiem.",
+    "ru": "Значение «истина», когда обнаружена проблема с дверью или замком.",
+    "sv": "Sant när det finns ett problem med dörren eller låset."
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Door fault alarm turned on",
-    "nl": "Deur-probleemalarm ging af"
+    "nl": "Waarschuwing bij defect aan deur geactiveerd",
+    "da": "Alarm for dørfejl slået til",
+    "fr": "Alarme de défaut de porte activée",
+    "it": "Allarme guasto porta acceso",
+    "ko": "도어 고장 알람 켜짐",
+    "no": "Dørfeilalarm aktivert",
+    "pl": "Alarm usterki drzwi włączony",
+    "ru": "Сигнал о неисправности двери включен",
+    "sv": "Larm för dörrfel aktiverat"
   },
   "insightsTitleFalse": {
     "en": "Door fault alarm turned off",
-    "nl": "Deur-probleemalarm ging uit"
+    "nl": "Waarschuwing bij defect aan deur gedeactiveerd",
+    "da": "Alarm for dørfejl slået fra",
+    "fr": "Alarme de défaut de porte désactivée",
+    "it": "Allarme guasto porta spento",
+    "ko": "도어 고장 알람 꺼짐",
+    "no": "Dørfeilalarm deaktivert",
+    "pl": "Alarm usterki drzwi wyłączony",
+    "ru": "Сигнал о неисправности двери выключен",
+    "sv": "Larm för dörrfel inaktiverat"
   },
   "getable": true,
   "setable": false,
@@ -27,23 +59,46 @@
         "highlight": true,
         "title": {
           "en": "The door alarm turned on",
-          "nl": "Het deur-alarm ging aan"
+          "nl": "De deurwaarschuwing is geactiveerd",
+          "da": "Døralarmen slået til",
+          "fr": "L'alarme de la porte s'est activée",
+          "it": "L'allarme della porta si è acceso",
+          "ko": "도어 알람 켜짐",
+          "no": "Døralarmen ble aktivert",
+          "pl": "Włączył się alarm drzwi",
+          "ru": "Сигнал о неисправности двери включен",
+          "sv": "Dörrlarmet aktiverat"
         }
       },
       {
         "id": "alarm_door_fault_false",
         "title": {
           "en": "The door alarm turned off",
-          "nl": "Het deur-alarm ging uit"
+          "nl": "De deurwaarschuwing is gedeactiveerd",
+          "da": "Døralarmen slået fra",
+          "fr": "L'alarme de la porte s'est désactivée",
+          "it": "L'allarme della porta si è spento",
+          "ko": "도어 알람 꺼짐",
+          "no": "Døralarmen ble deaktivert",
+          "pl": "Wyłączył się alarm drzwi",
+          "ru": "Сигнал о неисправности двери выключен",
+          "sv": "Dörrlarmet inaktiverat"
         }
       }
     ],
     "conditions": [
       {
-        "id": "alarm_door",
+        "id": "alarm_door_fault",
         "title": {
           "en": "The door alarm is !{{on|off}}",
-          "nl": "Het deur-alarm is !{{aan|uit}}"
+          "nl": "De deurwaarschuwing is !{{geactiveerd|gedeactiveerd}}",
+          "da": "Døralarmen er slået !{{til|fra}}",
+          "it": "L'allarme della porta è !{{acceso|spento}}",
+          "ko": "도어 알람 !{{켜짐|꺼짐}}",
+          "no": "Døralarmen er !{{på|av}}",
+          "pl": "Alarm drzwi jest !{{włączony|wyłączony}}",
+          "ru": "Сигнал о неисправности двери !{{включен|выключен}}",
+          "sv": "Dörrlarmet är aktiverat !{{på|av}}"
         }
       }
     ]

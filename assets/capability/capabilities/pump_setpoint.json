@@ -2,19 +2,39 @@
   "type": "number",
   "title": {
     "en": "Pump setpoint",
-    "nl": "Pompinstelpunt"
+    "nl": "Setpoint van de pomp",
+    "da": "Pumpens indstillingspunkt",
+    "it": "Setpoint della pompa",
+    "ko": "펌프 설정값",
+    "pl": "Wartość zadana pompy",
+    "ru": "Уставка насоса",
+    "sv": "Börvärde för pump"
   },
   "units": {
     "en": "%",
-    "nl": "%"
+    "nl": "%",
+    "da": "%",
+    "it": "%",
+    "ko": "%",
+    "pl": "%",
+    "ru": "%",
+    "sv": "%"
   },
   "desc": {
     "en": "The pump setpoint in percentage.",
-    "nl": "Het pompinstelpunt in procent."
+    "nl": "Het setpoint van de pomp in procenten.",
+    "da": "Pumpens indstillingspunkt i procent.",
+    "it": "Il setpoint della pompa in percentuale.",
+    "ko": "백분율로 표현된 펌프 설정값입니다.",
+    "pl": "Wartość zadana pompy w procentach.",
+    "ru": "Уставка насоса в процентах.",
+    "sv": "Pumpens börvärde i procent."
   },
   "insights": true,
   "chartType": "spline",
-  "decimals": 0,
+  "min": 0,
+  "max": 1,
+  "decimals": 2,
   "getable": true,
   "setable": true,
   "uiComponent": "slider",
@@ -24,14 +44,20 @@
         "id": "pump_setpoint_changed",
         "title": {
           "en": "The pump setpoint changed",
-          "nl": "Het pompinstelpunt is veranderd"
+          "nl": "Het setpoint van de pomp is veranderd",
+          "da": "Pumpens indstillingspunkt ændrede sig",
+          "it": "Il setpoint della pompa è cambiato",
+          "ko": "펌프 설정값 변경됨",
+          "pl": "Zmieniła się wartość zadana pompy",
+          "ru": "Уставка насоса изменена",
+          "sv": "Pumpens börvärde ändrades"
         },
         "tokens": [
           {
             "name": "$id",
             "title": "$title",
             "type": "$type",
-            "example": 50
+            "example": 0.5
           }
         ]
       }
@@ -41,13 +67,25 @@
         "id": "set_pump_setpoint",
         "title": {
           "en": "Set the pump setpoint",
-          "nl": "Stel het pompinstelpunt in"
+          "nl": "Het setpoint van de pomp instellen",
+          "da": "Indstil pumpens indstillingspunkt",
+          "it": "Imposta il setpoint della pompa",
+          "ko": "펌프 설정값 설정",
+          "pl": "Ustaw wartość zadaną pompy",
+          "ru": "Определить уставку насоса",
+          "sv": "Ställ in pumpens börvärde"
         },
         "args": [
           {
-            "name": "setpoint",
-            "type": "number",
-            "example": 50
+            "name": "pump_setpoint",
+            "type": "range",
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "value": 0.5,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
           }
         ]
       }

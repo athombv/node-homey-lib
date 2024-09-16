@@ -2,15 +2,33 @@
   "type": "number",
   "title": {
     "en": "Data Size",
-    "nl": "Gegevensgrootte"
+    "nl": "Gegevensgrootte",
+    "da": "Datastørrelse",
+    "it": "Dimensione dei dati",
+    "ko": "데이터 크기",
+    "pl": "Rozmiar danych",
+    "ru": "Размер данных",
+    "sv": "Datastorlek"
   },
   "units": {
     "en": "bytes",
-    "nl": "bytes"
+    "nl": "bytes",
+    "da": "bytes",
+    "it": "byte",
+    "ko": "바이트",
+    "pl": "bajty",
+    "ru": "байты",
+    "sv": "byte"
   },
   "desc": {
     "en": "The data size in bytes.",
-    "nl": "De gegevensgrootte in bytes."
+    "nl": "De gegevensgrootte in bytes.",
+    "da": "Datastørrelsen i bytes.",
+    "it": "La dimensione dei dati in byte.",
+    "ko": "바이트 단위의 데이터 크기입니다.",
+    "pl": "Rozmiar danych w bajtach.",
+    "ru": "Размер данных в байтах.",
+    "sv": "Datastorlek i byte."
   },
   "insights": true,
   "chartType": "spline",
@@ -24,7 +42,13 @@
         "id": "measure_data_size_changed",
         "title": {
           "en": "The data size changed",
-          "nl": "De gegevensgrootte is veranderd"
+          "nl": "De gegevensgrootte is veranderd",
+          "da": "Datastørrelsen er ændret",
+          "it": "La dimensione dei dati è cambiata",
+          "ko": "데이터 크기 변경됨",
+          "pl": "Zmienił się rozmiar danych",
+          "ru": "Размер данных изменился",
+          "sv": "Datastorleken ändrades"
         },
         "tokens": [
           {

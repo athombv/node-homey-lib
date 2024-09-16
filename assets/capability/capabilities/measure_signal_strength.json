@@ -2,15 +2,33 @@
   "type": "number",
   "title": {
     "en": "Signal Strength",
-    "nl": "Signaalsterkte"
+    "nl": "Signaalsterkte",
+    "da": "Signalstyrke",
+    "it": "Intensità del segnale",
+    "ko": "신호 강도",
+    "pl": "Siła sygnału",
+    "ru": "Мощность сигнала",
+    "sv": "Signalstyrka"
   },
   "units": {
     "en": "dB",
-    "nl": "dB"
+    "nl": "dB",
+    "da": "dB",
+    "it": "dB",
+    "ko": "dB",
+    "pl": "dB",
+    "ru": "дБ",
+    "sv": "dB"
   },
   "desc": {
     "en": "The signal strength in decibels.",
-    "nl": "De signaalsterkte in decibels."
+    "nl": "De signaalsterkte in decibel.",
+    "da": "Signalstyrken i decibel.",
+    "it": "L'intensità del segnale in decibel.",
+    "ko": "데시벨 단위의 신호 강도입니다.",
+    "pl": "Siła sygnału w decybelach.",
+    "ru": "Мощность сигнала в децибелах.",
+    "sv": "Signalstyrkan i decibel."
   },
   "insights": true,
   "chartType": "spline",
@@ -24,7 +42,13 @@
         "id": "measure_signal_strength_changed",
         "title": {
           "en": "The signal strength changed",
-          "nl": "De signaalsterkte is veranderd"
+          "nl": "De signaalsterkte is veranderd",
+          "da": "Signalstyrken ændrede sig",
+          "it": "L'intensità del segnale è cambiata",
+          "ko": "신호 강도 변경됨",
+          "pl": "Zmieniła się siła sygnału",
+          "ru": "Мощность сигнала изменилась",
+          "sv": "Signalstyrkan har ändrats"
         },
         "tokens": [
           {

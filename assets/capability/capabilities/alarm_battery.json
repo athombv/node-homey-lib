@@ -2,7 +2,7 @@
   "type": "boolean",
   "title": {
     "en": "Battery alarm",
-    "nl": "Batterij-alarm",
+    "nl": "Batterijwaarschuwing",
     "de": "Batterie-Alarm",
     "fr": "Alarme batterie",
     "it": "Allarme batteria",
@@ -49,7 +49,7 @@
     "de": "Batterie-Alarm ist ausgegangen",
     "fr": "Alarme batterie désactivée",
     "it": "Allarme batteria disattivato",
-    "sv": "Batterialarm avstängt",
+    "sv": "Batterialarm inaktiverat",
     "no": "Batterialarm deaktivert",
     "es": "Alarma de la batería desactivada",
     "da": "Batterialarm deaktiveret",
@@ -72,7 +72,7 @@
           "fr": "L'alarme batterie s'est activée",
           "it": "L'allarme della batteria è stato attivato",
           "sv": "Batterialarmet aktiverat",
-          "no": "Batterialarmen er aktivert",
+          "no": "Batterialarmen ble aktivert",
           "es": "La alarma de la batería se ha activado",
           "da": "Batterialarm aktiverede",
           "ru": "Сигнал аккумулятора включен",
@@ -89,7 +89,7 @@
           "fr": "L'alarme batterie s'est désactivée",
           "it": "L'allarme della batteria è stato disattivato",
           "sv": "Batterialarmet aktiverat",
-          "no": "Batterialarmen er deaktivert",
+          "no": "Batterialarmen ble deaktivert",
           "es": "La alarma de la batería se ha desactivado",
           "da": "Batterialarm deaktiverede",
           "ru": "Сигнал аккумулятора выключен",
@@ -112,7 +112,7 @@
           "es": "La alarma de la batería está !{{activada|desactivada}}",
           "da": "Batterialarmen er !{{tændt|slukket}}",
           "ko": "배터리 알람 !{{켬|끔}}",
-          "pl": "Alarm stanu baterii jest!{{on|off}}"
+          "pl": "Alarm baterii jest !{{włączony|wyłączony}}"
         }
       }
     ]

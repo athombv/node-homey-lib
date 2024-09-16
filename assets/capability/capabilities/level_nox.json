@@ -2,39 +2,75 @@
   "type": "enum",
   "title": {
     "en": "NOx level",
-    "nl": "NOx-niveau"
+    "nl": "NOx-niveau",
+    "da": "NOx-niveau",
+    "it": "Livello di NOx",
+    "ko": "NOx 수준",
+    "pl": "Poziom NOx",
+    "ru": " Уровень NOx",
+    "sv": "NOx-nivå"
   },
   "desc": {
     "en": "The level of nitrogen oxides in the air.",
-    "nl": "Het niveau van stikstofoxiden in de lucht."
+    "nl": "De mate van stikstofoxiden in de lucht.",
+    "da": "Niveauet af nitrogenoxider i luften.",
+    "it": "Il livello di ossidi di azoto nell'aria.",
+    "ko": "공기 중 질소 산화물 수준입니다.",
+    "pl": "Poziom tlenków azotu w powietrzu.",
+    "ru": "Уровень содержания оксидов азота в воздухе.",
+    "sv": "Halten av kväveoxider i luften."
   },
   "values": [
     {
       "id": "low",
       "title": {
         "en": "Low",
-        "nl": "Laag"
+        "nl": "Laag",
+        "da": "Lavt",
+        "it": "Basso",
+        "ko": "낮음",
+        "pl": "Niski",
+        "ru": "Низкий",
+        "sv": "Låg"
       }
     },
     {
       "id": "medium",
       "title": {
         "en": "Medium",
-        "nl": "Middel"
+        "nl": "Gemiddeld",
+        "da": "Medium",
+        "it": "Medio",
+        "ko": "중간",
+        "pl": "Średni",
+        "ru": "Средний",
+        "sv": "Medium"
       }
     },
     {
       "id": "high",
       "title": {
         "en": "High",
-        "nl": "Hoog"
+        "nl": "Hoog",
+        "da": "Højt",
+        "it": "Alto",
+        "ko": "높음",
+        "pl": "Wysoki",
+        "ru": "Высокий",
+        "sv": "Hög"
       }
     },
     {
       "id": "critical",
       "title": {
         "en": "Critical",
-        "nl": "Kritiek"
+        "nl": "Kritiek",
+        "da": "Kritisk",
+        "it": "Critico",
+        "ko": "치명적",
+        "pl": "Krytyczny",
+        "ru": "Критический",
+        "sv": "Kritisk"
       }
     }
   ],
@@ -48,7 +84,13 @@
         "highlight": true,
         "title": {
           "en": "The NOx level changed to",
-          "nl": "Het NOx-niveau is veranderd naar"
+          "nl": "Het NOx-niveau is veranderd naar",
+          "da": "NOx-niveauet blev ændret til",
+          "it": "Il livello di NOx è passato a",
+          "ko": "NOx 수준이 다음으로 변경됨",
+          "pl": "Poziom NOx zmienił się na",
+          "ru": "Уровень NOx изменился на",
+          "sv": "NOx-nivån ändrades till"
         },
         "args": [
           {
@@ -64,7 +106,13 @@
         "id": "level_nox_is",
         "title": {
           "en": "The NOx level !{{is|is not}}",
-          "nl": "Het NOx-niveau !{{is|is niet}}"
+          "nl": "Het NOx-niveau !{{is|is niet}}",
+          "da": "NOx-niveauet !{{er|er ikke}}",
+          "it": "Il livello di NOx !{{è|non è}}",
+          "ko": "NOx 수준이 다음!{{과 같음| 아님}}",
+          "pl": "Poziom NOx !{{jest|nie jest}}",
+          "ru": "Уровень NOx !{{is|is not}}",
+          "sv": "NOx-nivån !{{är|är inte}}"
         },
         "args": [
           {

@@ -2,46 +2,88 @@
   "type": "enum",
   "title": {
     "en": "Pump mode",
-    "nl": "Pompmodus"
+    "nl": "Pompmodus",
+    "da": "Pumpetilstand",
+    "it": "Modalità pompa",
+    "ko": "펌프 모드",
+    "pl": "Tryb pompy",
+    "ru": "Режим работы насоса",
+    "sv": "Pumpläge"
   },
   "desc": {
     "en": "Used to set which setpoint regulates the pump.",
-    "nl": "Gebruikt om in te stellen welke setpoint de pomp regelt."
+    "nl": "Wordt gebruikt om in te stellen welk setpoint de pomp regelt.",
+    "da": "Bruges til at indstille, hvilket indstillingspunkt der regulerer pumpen.",
+    "it": "Serve per impostare il setpoint che regola la pompa.",
+    "ko": "펌프를 조절하는 설정값을 설정하는 데 사용됩니다.",
+    "pl": "Służy do ustawiania wartości zadanej regulującej pompę.",
+    "ru": "Используется для выбора уставки, регулирующей работу насоса.",
+    "sv": "Används för att ställa in vilket börvärde som reglerar pumpen."
   },
   "values": [
     {
       "id": "constant_pressure",
       "title": {
         "en": "Constant Pressure",
-        "nl": "Constante druk"
+        "nl": "Constante druk",
+        "da": "Konstant tryk",
+        "it": "Pressione costante",
+        "ko": "일정 압력",
+        "pl": "Stałe ciśnienie",
+        "ru": "Постоянное давление",
+        "sv": "Konstant tryck"
       }
     },
     {
       "id": "compensated_pressure",
       "title": {
         "en": "Compensated Pressure",
-        "nl": "Gecompenseerde druk"
+        "nl": "Gecompenseerde druk",
+        "da": "Kompenseret tryk",
+        "it": "Pressione compensata",
+        "ko": "보상 압력",
+        "pl": "Kompensowane ciśnienie",
+        "ru": "Компенсированное давление",
+        "sv": "Kompenserat tryck"
       }
     },
     {
       "id": "constant_flow",
       "title": {
         "en": "Constant Flow",
-        "nl": "Constante stroom"
+        "nl": "Constante Flow",
+        "da": "Konstant Flow",
+        "it": "Flow costante",
+        "ko": "일정 유량",
+        "pl": "Stały przepływ",
+        "ru": "Постоянный Flow",
+        "sv": "Konstant Flow"
       }
     },
     {
       "id": "constant_speed",
       "title": {
         "en": "Constant Speed",
-        "nl": "Constante snelheid"
+        "nl": "Constante snelheid",
+        "da": "Konstant hastighed",
+        "it": "Velocità costante",
+        "ko": "일정 속도",
+        "pl": "Stała prędkość",
+        "ru": "Постоянная скорость",
+        "sv": "Konstant hastighet"
       }
     },
     {
       "id": "constant_temperature",
       "title": {
         "en": "Constant Temperature",
-        "nl": "Constante temperatuur"
+        "nl": "Constante temperatuur",
+        "da": "Konstant temperatur",
+        "it": "Temperatura costante",
+        "ko": "일정 온도",
+        "pl": "Stała temperatura",
+        "ru": "Постоянная температура",
+        "sv": "Konstant temperatur"
       }
     }
   ],
@@ -55,7 +97,13 @@
         "highlight": true,
         "title": {
           "en": "The pump mode changed to",
-          "nl": "De pompmodus is veranderd naar"
+          "nl": "De pompmodus is veranderd naar",
+          "da": "Pumpetilstanden blev ændret til",
+          "it": "La modalità della pompa è passata a",
+          "ko": "펌프 모드가 다음으로 변경됨",
+          "pl": "Tryb pompy zmienił się na",
+          "ru": "Режим работы насоса изменен на",
+          "sv": "Pumpläget ändrades till"
         },
         "args": [
           {
@@ -71,7 +119,13 @@
         "id": "pump_mode_is",
         "title": {
           "en": "The pump mode !{{is|is not}}",
-          "nl": "De pompmodus !{{is|is niet}}"
+          "nl": "De pompmodus !{{is|is niet}}",
+          "da": "Pumpetilstanden !{{er|er ikke}}",
+          "it": "La modalità pompa !{{è|non è}}",
+          "ko": "펌프 모드가 다음!{{과 같음| 아님}}",
+          "pl": "Tryb pompy !{{jest|nie jest}}",
+          "ru": "Режим работы насоса !{{is|is not}}",
+          "sv": "Pumpens läge !{{är|är inte}}"
         },
         "args": [
           {
@@ -87,7 +141,13 @@
         "id": "set_pump_mode",
         "title": {
           "en": "Set the pump mode",
-          "nl": "Stel de pompmodus in"
+          "nl": "De pompmodus instellen",
+          "da": "Indstil pumpetilstand",
+          "it": "Imposta la modalità della pompa",
+          "ko": "펌프 모드 설정",
+          "pl": "Ustaw trybu pompy",
+          "ru": "Установить режим работы насоса",
+          "sv": "Ställ in pumpläge"
         },
         "args": [
           {

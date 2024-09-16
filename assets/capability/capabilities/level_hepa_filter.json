@@ -2,32 +2,62 @@
   "type": "enum",
   "title": {
     "en": "HEPA filter level",
-    "nl": "HEPA-filterniveau"
+    "nl": "HEPA-filterniveau",
+    "da": "Niveau for HEPA-filter",
+    "it": "Livello del filtro HEPA",
+    "ko": "HEPA 필터 수준",
+    "pl": "Poziom filtra HEPA",
+    "ru": "Уровень HEPA-фильтра",
+    "sv": "HEPA-filternivå"
   },
   "desc": {
     "en": "The level of degredation on the HEPA filter.",
-    "nl": "Het niveau van degradatie op het HEPA-filter."
+    "nl": "De mate van aantasting van het HEPA-filter.",
+    "da": "Niveauet af nedbrydning på HEPA-filteret.",
+    "it": "Il livello di degradazione del filtro HEPA.",
+    "ko": "HEPA 필터의 오염 수준입니다.",
+    "pl": "Poziom degradacji filtra HEPA.",
+    "ru": "Уровень снижения производительности HEPA-фильтра.",
+    "sv": "Graden av nedbrytning på HEPA-filtret."
   },
   "values": [
     {
       "id": "ok",
       "title": {
         "en": "OK",
-        "nl": "OK"
+        "nl": "OK",
+        "da": "OK",
+        "it": "OK",
+        "ko": "좋음",
+        "pl": "OK",
+        "ru": "Нормальный",
+        "sv": "OK"
       }
     },
     {
       "id": "warning",
       "title": {
         "en": "Warning",
-        "nl": "Waarschuwing"
+        "nl": "Waarschuwing",
+        "da": "Advarsel",
+        "it": "Attenzione",
+        "ko": "경고",
+        "pl": "Ostrzeżenie",
+        "ru": "Требующий внимания",
+        "sv": "Varning"
       }
     },
     {
       "id": "critical",
       "title": {
         "en": "Critical",
-        "nl": "Kritiek"
+        "nl": "Kritiek",
+        "da": "Kritisk",
+        "it": "Critico",
+        "ko": "교체 요망",
+        "pl": "Krytyczny",
+        "ru": "Критический",
+        "sv": "Kritisk"
       }
     }
   ],
@@ -41,7 +71,13 @@
         "highlight": true,
         "title": {
           "en": "The HEPA filter level changed to",
-          "nl": "Het HEPA-filterniveau is veranderd naar"
+          "nl": "Het HEPA-filterniveau is veranderd naar",
+          "da": "HEPA-filterets niveau blev ændret til",
+          "it": "Il livello del filtro HEPA è passato a",
+          "ko": "HEPA 필터 수준이 다음으로 변경됨",
+          "pl": "Poziom filtra HEPA zmienił się na",
+          "ru": "Уровень HEPA-фильтра изменился на",
+          "sv": "HEPA-filternivån ändrades till"
         },
         "args": [
           {
@@ -57,7 +93,13 @@
         "id": "level_hepa_filter_is",
         "title": {
           "en": "The HEPA filter level !{{is|is not}}",
-          "nl": "Het HEPA-filterniveau !{{is|is niet}}"
+          "nl": "Het HEPA-filterniveau !{{is|is niet}}",
+          "da": "HEPA-filterets niveau !{{er|er ikke}}",
+          "it": "Il livello del filtro HEPA !{{è|non è}}",
+          "ko": "HEPA 필터 수준이 다음!{{과 같음| 아님}}",
+          "pl": "Poziom filtra HEPA !{{jest|nie jest}}",
+          "ru": "Уровень фильтра HEPA !{{is|is not}}",
+          "sv": "HEPA-filternivån !{{är|är inte}}"
         },
         "args": [
           {

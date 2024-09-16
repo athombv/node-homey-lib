@@ -35,13 +35,13 @@
           "nl": "Het dim-niveau is veranderd",
           "de": "Dimm-Niveau geändert",
           "fr": "Intensité lumineuse a été modifiée",
-          "it": "Intensità luminosa modificata",
+          "it": "L'intensità luminosa è cambiata",
           "sv": "Dimningsnivå ändrades",
           "no": "Dempingsnivå ble endret",
           "es": "La intensidad de la luz ha cambiado",
           "da": "Lysniveau ændret",
           "ru": "Уровень яркости изменен",
-          "pl": "Zmiana poziomu przygaszenia",
+          "pl": "Zmienił się poziom przygaszenia",
           "ko": "디밍 수준 변경됨"
         },
         "tokens": [
@@ -103,7 +103,7 @@
         "id": "dim_relative",
         "title": {
           "en": "Set relative dim-level",
-          "nl": "Zet relatief dim-niveau op",
+          "nl": "Relatief dimniveau instellen",
           "de": "Relatives Dimm-Niveau setzen",
           "fr": "Définir l'intensité lumineuse sur relative",
           "it": "Imposta intensità luminosa su relativa",

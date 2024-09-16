@@ -1,7 +1,7 @@
 {
   "title": {
     "en": "Window coverings tilt up",
-    "nl": "Raambekleding kantelt naar boven",
+    "nl": "Raambekleding kantelt omhoog",
     "de": "Jalousien nach oben gekippt",
     "fr": "Stores levés",
     "it": "Tapparelle alzate",
@@ -22,7 +22,14 @@
       {
         "id": "tilt_up",
         "title": {
-          "en": "Tilt up"
+          "en": "Tilt up",
+          "da": "Vip op",
+          "it": "Inclina verso l'alto",
+          "ko": "위로 틸팅",
+          "nl": "Omhoog kantelen",
+          "pl": "Odchylenie w górę",
+          "ru": "Наклон вверх",
+          "sv": "Luta upp"
         }
       }
     ]

@@ -2,20 +2,48 @@
   "type": "boolean",
   "title": {
     "en": "Power alarm",
-    "nl": "Stroomalarm"
+    "nl": "Stroomwaarschuwing",
+    "da": "Strømalarm",
+    "it": "Allarme alimentazione",
+    "ko": "전원 알람",
+    "no": "Strømalarm",
+    "pl": "Alarm zasilania",
+    "ru": "Сигнал питания",
+    "sv": "Strömlarm"
   },
   "desc": {
     "en": "True when power is detected.",
-    "nl": "Gaat af wanneer stroom wordt gedetecteerd."
+    "nl": "Wordt geactiveerd wanneer stroom wordt gedetecteerd.",
+    "da": "Sandt, når der registreres strøm.",
+    "it": "Vero quando viene rilevata l'alimentazione.",
+    "ko": "전원이 감지되면 참입니다.",
+    "no": "Sann når strøm registreres.",
+    "pl": "Prawda, gdy wykryte jest zasilanie.",
+    "ru": "Значение «истина» при обнаружении питания.",
+    "sv": "Sant när strömförsörjning detekteras."
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Power alarm turned on",
-    "nl": "Stroomalarm ging af"
+    "nl": "Stroomwaarschuwing geactiveerd",
+    "da": "Strømalarm slået til",
+    "it": "Allarme alimentazione acceso",
+    "ko": "전원 알람 켜짐",
+    "no": "Strømalarm aktivert",
+    "pl": "Alarm zasilania włączony",
+    "ru": "Сигнал питания включен",
+    "sv": "Strömlarm aktiverat"
   },
   "insightsTitleFalse": {
     "en": "Power alarm turned off",
-    "nl": "Stroomalarm ging uit"
+    "nl": "Stroomwaarschuwing gedeactiveerd",
+    "da": "Strømalarm slået fra",
+    "it": "Allarme alimentazione spento",
+    "ko": "전원 알람 꺼짐",
+    "no": "Strømalarm deaktivert",
+    "pl": "Alarm zasilania wyłączony",
+    "ru": "Сигнал питания выключен",
+    "sv": "Strömlarm inaktiverat"
   },
   "getable": true,
   "setable": false,
@@ -27,14 +55,28 @@
         "highlight": true,
         "title": {
           "en": "The power alarm turned on",
-          "nl": "Het stroomalarm gaat aan"
+          "nl": "De stroomwaarschuwing is geactiveerd",
+          "da": "Strømalarmen slået til",
+          "it": "L'allarme alimentazione si è acceso",
+          "ko": "전원 알람이 켜짐",
+          "no": "Strømalarmen ble aktivert",
+          "pl": "Włączył się alarm zasilania",
+          "ru": "Сигнал питания включен",
+          "sv": "Strömlarmet aktiverat"
         }
       },
       {
         "id": "alarm_power_false",
         "title": {
           "en": "The power alarm turned off",
-          "nl": "Het stroomalarm gaat uit"
+          "nl": "De stroomwaarschuwing is gedeactiveerd",
+          "da": "Strømalarmen slået fra",
+          "it": "L'allarme alimentazione si è spento",
+          "ko": "전원 알람이 꺼짐",
+          "no": "Strømalarmen ble deaktivert",
+          "pl": "Wyłączył się alarm zasilania",
+          "ru": "Сигнал питания выключен",
+          "sv": "Strömlarmet inaktiverat"
         }
       }
     ],
@@ -43,7 +85,14 @@
         "id": "alarm_power",
         "title": {
           "en": "The power alarm is !{{on|off}}",
-          "nl": "Het stroomalarm is !{{aan|uit}}"
+          "nl": "De stroomwaarschuwing is !{{geactiveerd|gedeactiveerd}}",
+          "da": "Strømalarmen er !{{tændt|slukket}}",
+          "it": "L'allarme alimentazione è !{{acceso|spento}}",
+          "ko": "전원 알람이 !{{켜짐|꺼짐}}",
+          "no": "Strømalarmen er !{{på|av}}",
+          "pl": "Alarm zasilania jest !{{włączony|wyłączony}}",
+          "ru": "Сигнал питания !{{включен|выключен}}",
+          "sv": "Strömlarmet är !{{på|av}}"
         }
       }
     ]

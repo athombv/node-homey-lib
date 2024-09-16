@@ -2,56 +2,107 @@
   "type": "enum",
   "title": {
     "en": "Heater Operation Mode",
-    "nl": "Verwarmingsmodus"
+    "nl": "Verwarmingsmodus",
+    "da": "Varmeapparatets driftstilstand",
+    "it": "Modalità di funzionamento del calorifero",
+    "ko": "히터 작동 모드",
+    "pl": "Tryb grzania",
+    "ru": "Режим работы обогревателя",
+    "sv": "Driftläge för värmare"
   },
   "values": [
     {
       "id": "eco",
       "title": {
         "en": "Eco",
-        "nl": "Eco"
+        "nl": "Eco",
+        "da": "Øko",
+        "it": "Eco",
+        "ko": "에코",
+        "pl": "Eko",
+        "ru": "Эко",
+        "sv": "Eco"
       }
     },
     {
       "id": "electric",
       "title": {
         "en": "Electric",
-        "nl": "Elektrisch"
+        "nl": "Elektrisch",
+        "da": "Elektrisk",
+        "it": "Elettrico",
+        "ko": "전기",
+        "pl": "Elektryczne",
+        "ru": "Электричество",
+        "sv": "Elektrisk"
       }
     },
     {
       "id": "performance",
       "title": {
         "en": "Performance",
-        "nl": "Prestatie"
+        "nl": "Prestatie",
+        "da": "Præstation",
+        "it": "Prestazioni",
+        "ko": "퍼포먼스",
+        "pl": "Komfort",
+        "ru": "Производительность",
+        "sv": "Prestanda"
       }
     },
     {
       "id": "high_demand",
       "title": {
         "en": "High Demand",
-        "nl": "Hoog verbruik"
+        "nl": "Hoog verbruik",
+        "da": "Høj efterspørgsel",
+        "it": "Domanda elevata",
+        "ko": "고수요",
+        "pl": "Wysokie zapotrzebowanie",
+        "ru": "Высокое потребление",
+        "sv": "Hög efterfrågan"
       }
     },
     {
       "id": "heat_pump",
       "title": {
         "en": "Heat Pump",
-        "nl": "Warmtepomp"
+        "nl": "Warmtepomp",
+        "da": "Varmepumpe",
+        "it": "Pompa di calore",
+        "ko": "히트 펌프",
+        "no": "Varmepumpe",
+        "pl": "Pompa ciepła",
+        "ru": "Тепловой насос",
+        "sv": "Värmepump"
       }
     },
     {
       "id": "gas",
       "title": {
         "en": "Gas",
-        "nl": "Gas"
+        "nl": "Gas",
+        "da": "Gas",
+        "it": "Gas",
+        "ko": "가스",
+        "no": "Gass",
+        "pl": "Gazowe",
+        "ru": "Газ",
+        "sv": "Gas"
       }
     },
     {
       "id": "off",
       "title": {
         "en": "Off",
-        "nl": "Uit"
+        "nl": "Uit",
+        "da": "Fra",
+        "it": "Off",
+        "ko": "꺼짐",
+        "no": "Av",
+        "pl": "Wył",
+        "ru": "Выключен",
+        "sv": "Av"
       }
     }
   ],
@@ -64,7 +115,14 @@
         "id": "heater_operation_mode_changed",
         "title": {
           "en": "The heater operation mode has changed to",
-          "nl": "De verwarmingsmodus is veranderd naar"
+          "nl": "De verwarmingsmodus is veranderd naar",
+          "da": "Varmeapparatets driftstilstand er ændret til",
+          "it": "La modalità di funzionamento del calorifero è passata a",
+          "ko": "히터 작동 모드가 다음으로 변경됨",
+          "no": "Varmeelementets driftsmodus er endret til",
+          "pl": "Tryb grzania zmienił się na",
+          "ru": "Режим работы обогревателя изменен на",
+          "sv": "Värmarens driftläge har ändrats till"
         },
         "args": [
           {
@@ -80,7 +138,13 @@
         "id": "heater_operation_mode_is",
         "title": {
           "en": "The heater operation mode !{{is|is not}}",
-          "nl": "De verwarmingsmodus !{{is|is niet}}"
+          "nl": "De verwarmingsmodus !{{is|is niet}}",
+          "da": "Varmeapparatets driftstilstand !{{er|er ikke}}",
+          "it": "La modalità di funzionamento del calorifero !{{è|non è}}",
+          "ko": "히터 작동 모드가 다음!{{과 같음| 아님}}",
+          "pl": "Tryb pracy ogrzewacza !{{jest|nie jest}}",
+          "ru": "Режим работы обогревателя !{{is|is not}}",
+          "sv": "Driftläge för värmaren !{{är|är inte}}"
         },
         "args": [
           {
@@ -96,7 +160,13 @@
         "id": "set_heater_operation_mode",
         "title": {
           "en": "Set the heater operation mode to",
-          "nl": "Stel de verwarmingsmodus in op"
+          "nl": "De verwarmingsmodus instellen op",
+          "da": "Indstil varmeapparatets driftstilstand til",
+          "it": "Imposta la modalità di funzionamento del calorifero su",
+          "ko": "히터 작동 모드를 다음으로 설정",
+          "pl": "Ustaw tryb grzania na",
+          "ru": "Установить режим работы обогревателя на",
+          "sv": "Ställ in värmarens driftläge på"
         },
         "args": [
           {

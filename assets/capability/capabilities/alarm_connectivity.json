@@ -2,20 +2,52 @@
   "type": "boolean",
   "title": {
     "en": "Connectivity alarm",
-    "nl": "Verbindingsalarm"
+    "nl": "Verbindingswaarschuwing",
+    "da": "Tilslutningsalarm",
+    "fr": "Alarme de connectivité",
+    "it": "Allarme connettività",
+    "ko": "연결성 알람",
+    "no": "Tilkoblingsalarm",
+    "pl": "Alarm łączności",
+    "ru": "Сигнал о подключении",
+    "sv": "Anslutningslarm"
   },
   "desc": {
     "en": "True when disconnected from the network.",
-    "nl": "Gaat af wanneer het apparaat niet meer verbonden is met het netwerk."
+    "nl": "Wordt geactiveerd wanneer het apparaat niet meer verbonden is met het netwerk.",
+    "da": "Sandt, når forbindelsen til netværket er afbrudt.",
+    "fr": "La valeur est true lorsque le réseau est déconnecté.",
+    "it": "Vero quando si è disconnessi dalla rete.",
+    "ko": "네트워크에서 연결 해제되면 참입니다.",
+    "no": "Sann når koblet fra nettverket.",
+    "pl": "Prawda, gdy nastąpiło odłączenie od sieci.",
+    "ru": "Значение «истина», когда устройство отключено от сети.",
+    "sv": "Sant när den är frånkopplad från nätverket."
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Disconnected",
-    "nl": "Verbinding verbroken"
+    "nl": "Niet verbonden",
+    "da": "Afbrudt",
+    "fr": "Déconnecté",
+    "it": "Disconnesso",
+    "ko": "연결 해제됨",
+    "no": "Frakoblet",
+    "pl": "Odłączone",
+    "ru": "Отключено",
+    "sv": "Frånkopplad"
   },
   "insightsTitleFalse": {
     "en": "Connected",
-    "nl": "Verbinding hersteld"
+    "nl": "Verbonden",
+    "da": "Tilsluttet",
+    "fr": "Connecté",
+    "it": "Connesso",
+    "ko": "연결됨",
+    "no": "Tilkoblet",
+    "pl": "Połączone",
+    "ru": "Подключено",
+    "sv": "Ansluten"
   },
   "getable": true,
   "setable": false,
@@ -27,14 +59,30 @@
         "highlight": true,
         "title": {
           "en": "Disconnected",
-          "nl": "Verbinding verbroken"
+          "nl": "Niet verbonden",
+          "da": "Afbrudt",
+          "fr": "Déconnecté",
+          "it": "Disconnesso",
+          "ko": "연결 해제됨",
+          "no": "Frakoblet",
+          "pl": "Odłączone",
+          "ru": "Отключено",
+          "sv": "Frånkopplad"
         }
       },
       {
         "id": "alarm_connectivity_false",
         "title": {
           "en": "Connected",
-          "nl": "Verbonden"
+          "nl": "Verbonden",
+          "da": "Tilsluttet",
+          "fr": "Connecté",
+          "it": "Connesso",
+          "ko": "연결됨",
+          "no": "Tilkoblet",
+          "pl": "Połączone",
+          "ru": "Подключено",
+          "sv": "Ansluten"
         }
       }
     ],
@@ -43,7 +91,14 @@
         "id": "alarm_connectivity",
         "title": {
           "en": "Is !{{connected|disconnected}}",
-          "nl": "Is !{{verbonden|niet verbonden}}"
+          "nl": "Is !{{verbonden|niet verbonden}}",
+          "da": "Er !{{tilsluttet|afbrudt}}",
+          "it": "È !{{connesso|disconnesso}}",
+          "ko": "!{{연결됨|연결 해제됨}}",
+          "no": "Er !{{frakoblet|tilkoblet}}",
+          "pl": "Jest !{{połączony|niepołączony}}",
+          "ru": "Устройство !{{подключено|отключено}}",
+          "sv": "Är !{{ansluten|frånkopplad}}"
         }
       }
     ]

@@ -2,19 +2,39 @@
   "type": "number",
   "title": {
     "en": "Valve position",
-    "nl": "Klepstand"
+    "nl": "Kleppositie",
+    "da": "Ventilens position",
+    "it": "Posizione della valvola",
+    "ko": "밸브 위치",
+    "pl": "Pozycja zaworu",
+    "ru": "Положение клапана",
+    "sv": "Ventilposition"
   },
   "units": {
     "en": "%",
-    "nl": "%"
+    "nl": "%",
+    "da": "%",
+    "it": "%",
+    "ko": "%",
+    "pl": "%",
+    "ru": "%",
+    "sv": "%"
   },
   "desc": {
     "en": "The current position of the valve in percent.",
-    "nl": "De huidige positie van de klep in procent."
+    "nl": "De huidige positie van de klep in procenten.",
+    "da": "Ventilens aktuelle position i procent.",
+    "it": "La posizione attuale della valvola in percentuale.",
+    "ko": "백분율로 표현한 밸브의 현재 위치입니다.",
+    "pl": "Bieżąca pozycja zaworu w procentach.",
+    "ru": "Текущее положение клапана в процентах.",
+    "sv": "Ventilens aktuella position i procent."
   },
   "insights": true,
   "chartType": "spline",
   "decimals": 2,
+  "min": 0,
+  "max": 1,
   "getable": true,
   "setable": true,
   "uiComponent": "slider",
@@ -24,14 +44,20 @@
         "id": "valve_position_changed",
         "title": {
           "en": "The valve position changed",
-          "nl": "De klepstand is gewijzigd"
+          "nl": "De kleppositie is veranderd",
+          "da": "Ventilens position er ændret",
+          "it": "La posizione della valvola è cambiata",
+          "ko": "밸브 위치 변경됨",
+          "pl": "Zmieniła się pozycja zaworu",
+          "ru": "Положение клапана изменено",
+          "sv": "Ventilens position har ändrats"
         },
         "tokens": [
           {
             "name": "$id",
             "title": "$title",
             "type": "$type",
-            "example": 50
+            "example": 0.5
           }
         ]
       }
@@ -41,16 +67,25 @@
         "id": "set_valve_position",
         "title": {
           "en": "Set the valve position",
-          "nl": "Stel de klepstand in"
+          "nl": "De kleppositie instellen",
+          "da": "Indstil ventilens position",
+          "it": "Imposta la posizione della valvola",
+          "ko": "밸브 위치 설정",
+          "pl": "Ustaw pozycję zaworu",
+          "ru": "Установить положение клапана",
+          "sv": "Ställ in ventilens position"
         },
         "args": [
           {
-            "name": "position",
+            "name": "valve_position",
             "type": "range",
             "min": 0,
-            "max": 100,
-            "step": 1,
-            "example": 50
+            "max": 1,
+            "step": 0.01,
+            "value": 0.5,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
           }
         ]
       }

@@ -116,7 +116,7 @@
           "es": "El modo del termostato ha cambiado",
           "da": "Termostattilstand er blevet ændret",
           "ru": "Режим термостата изменен",
-          "pl": "Zmiana trybu termostatu",
+          "pl": "Zmianił się tryb termostatu",
           "ko": "온도조절기 모드 변경됨"
         },
         "args": [
@@ -142,7 +142,7 @@
           "es": "El modo del termostato !{{está|no está}}",
           "da": "Termostattilstand !{{er|er ikke}}",
           "ru": "Режим термостата !{{|не}}",
-          "pl": "Tryb termostatu !{{to|to nie}}",
+          "pl": "Tryb termostatu !{{jest|nie jest}}",
           "ko": "온도조절기 모드가 다음으로 설정!{{됨|되지 않음}}"
         },
         "args": [

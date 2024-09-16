@@ -2,15 +2,33 @@
   "type": "number",
   "title": {
     "en": "Speed",
-    "nl": "Snelheid"
+    "nl": "Snelheid",
+    "da": "Hastighed",
+    "it": "Velocità",
+    "ko": "속도",
+    "pl": "Prędkość",
+    "ru": "Скорость",
+    "sv": "Hastighet"
   },
   "units": {
     "en": "m/s",
-    "nl": "m/s"
+    "nl": "m/s",
+    "da": "m/s",
+    "it": "m/s",
+    "ko": "m/s",
+    "pl": "m/s",
+    "ru": "м/с",
+    "sv": "m/s"
   },
   "desc": {
     "en": "The speed in meters per second.",
-    "nl": "De snelheid in meters per seconde."
+    "nl": "De snelheid in meters per seconde.",
+    "da": "Hastigheden i meter pr. sekund.",
+    "it": "La velocità in metri al secondo.",
+    "ko": "초당 미터 단위의 속도입니다.",
+    "pl": "Prędkość w metrach na sekundę.",
+    "ru": "Скорость в метрах в секунду.",
+    "sv": "Hastigheten i meter per sekund."
   },
   "insights": true,
   "chartType": "spline",
@@ -24,7 +42,13 @@
         "id": "measure_speed_changed",
         "title": {
           "en": "The speed changed",
-          "nl": "De snelheid is veranderd"
+          "nl": "De snelheid is veranderd",
+          "da": "Hastigheden ændrede sig",
+          "it": "La velocità è cambiata",
+          "ko": "속도 변경됨",
+          "pl": "Zmieniła się prędkość",
+          "ru": "Скорость изменилась",
+          "sv": "Hastigheten ändrades"
         },
         "tokens": [
           {

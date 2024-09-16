@@ -2,20 +2,48 @@
   "type": "boolean",
   "title": {
     "en": "Tank open alarm",
-    "nl": "Tank-open-alarm"
+    "nl": "Waarschuwing voor open tank",
+    "da": "Alarm for åben tank",
+    "it": "Allarme serbatoio aperto",
+    "ko": "탱크 열림 알람",
+    "no": "Alarm om åpen tank",
+    "pl": "Alarm otwartego zbiornika",
+    "ru": "Сигнал об открытии резервуара",
+    "sv": "Larm om öppen tank"
   },
   "desc": {
     "en": "True when the tank is open.",
-    "nl": "Gaat af als de tank open is."
+    "nl": "Wordt geactiveerd wanneer de tank open is.",
+    "da": "Sandt, når tanken er åben.",
+    "it": "Vero quando il serbatoio è aperto.",
+    "ko": "탱크가 열려 있으면 참입니다.",
+    "no": "Sann når tanken er åpen.",
+    "pl": "Prawda, gdy zbiornik jest otwarty.",
+    "ru": "Значение «истина», когда резервуар открыт.",
+    "sv": "Sant när tanken är öppen."
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Tank was open",
-    "nl": "Tank was open"
+    "nl": "Tank was open",
+    "da": "Tanken var åben",
+    "it": "Il serbatoio era aperto",
+    "ko": "탱크가 열려 있음",
+    "no": "Tanken var åpen",
+    "pl": "Zbiornik był otwarty",
+    "ru": "Резервуар был открыт",
+    "sv": "Tanken var öppen"
   },
   "insightsTitleFalse": {
     "en": "Tank was closed",
-    "nl": "Tank was gesloten"
+    "nl": "Tank was dicht",
+    "da": "Tanken var lukket",
+    "it": "Il serbatoio è stato chiuso",
+    "ko": "탱크가 닫혀 있음",
+    "no": "Tanken var lukket",
+    "pl": "Zbiornik był zamknięty",
+    "ru": "Резервуар был закрыт",
+    "sv": "Tanken var stängd"
   },
   "getable": true,
   "setable": false,
@@ -27,14 +55,28 @@
         "highlight": true,
         "title": {
           "en": "The tank opens",
-          "nl": "De tank gaat open"
+          "nl": "De tank gaat open",
+          "da": "Tanken åbner",
+          "it": "Il serbatoio si apre",
+          "ko": "탱크 열림",
+          "no": "Tanken åpnes",
+          "pl": "Zbiornik otwiera się",
+          "ru": "Резервуар открывается",
+          "sv": "Tanken öppnas"
         }
       },
       {
         "id": "alarm_tank_open_false",
         "title": {
           "en": "The tank closes",
-          "nl": "De tank sluit"
+          "nl": "De tank gaat dicht",
+          "da": "Tanken lukker",
+          "it": "Il serbatoio si chiude",
+          "ko": "탱크 닫힘",
+          "no": "Tanken lukkes",
+          "pl": "Zbiornik zamyka się",
+          "ru": "Резервуар закрывается",
+          "sv": "Tanken stängs"
         }
       }
     ],
@@ -43,7 +85,14 @@
         "id": "alarm_tank_open",
         "title": {
           "en": "The tank is !{{open|closed}}",
-          "nl": "De tank is !{{open|closed}}"
+          "nl": "De tank is !{{open|dicht}}",
+          "da": "Tanken er !{{åben|lukket}}",
+          "it": "Il serbatoio è !{{aperto|chiuso}}",
+          "ko": "탱크 !{{열림|닫힘}}",
+          "no": "Tanken er !{{åpen|lukket}}",
+          "pl": "Zbiornik jest !{{otwarty|zamknięty}}",
+          "ru": "Резервуар !{{открыт|закрыт}}",
+          "sv": "Tanken är !{{öppen|stängd}}"
         }
       }
     ]

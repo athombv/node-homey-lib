@@ -2,20 +2,44 @@
   "type": "boolean",
   "title": {
     "en": "Oscillating",
-    "nl": "Oscilleren"
+    "nl": "Oscilleren",
+    "da": "Oscillerer",
+    "it": "Oscillante",
+    "ko": "진자",
+    "pl": "Oscylacja",
+    "ru": "Колебание",
+    "sv": "Oscillerande"
   },
   "desc": {
     "en": "Enable or disable oscillation.",
-    "nl": "Schakel oscilleren in of uit."
+    "nl": "Schakel oscillatie in of uit.",
+    "da": "Aktiver eller deaktiver oscillation.",
+    "it": "Abilita o disabilita l'oscillazione.",
+    "ko": "진자를 활성화 또는 비활성화합니다.",
+    "pl": "Włączenie lub wyłączenie oscylacji.",
+    "ru": "Включить или отключить колебание.",
+    "sv": "Aktivera eller inaktivera oscillation."
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Oscillation enabled",
-    "nl": "Oscilleren ingeschakeld"
+    "nl": "Oscillatie ingeschakeld",
+    "da": "Oscillation aktiveret",
+    "it": "Oscillazione abilitata",
+    "ko": "진자 활성화됨",
+    "pl": "Oscylacja włączona",
+    "ru": "Колебание включено",
+    "sv": "Oscillation aktiverad"
   },
   "insightsTitleFalse": {
     "en": "Oscillation disabled",
-    "nl": "Oscilleren uitgeschakeld"
+    "nl": "Oscillatie uitgeschakeld",
+    "da": "Oscillation deaktiveret",
+    "it": "Oscillazione disabilitata",
+    "ko": "진자 비활성화됨",
+    "pl": "Oscylacja wyłączona",
+    "ru": "Колебание выключено",
+    "sv": "Oscillation inaktiverad"
   },
   "getable": true,
   "setable": true,
@@ -27,14 +51,26 @@
         "highlight": true,
         "title": {
           "en": "Oscillation enabled",
-          "nl": "Oscilleren ingeschakeld"
+          "nl": "Oscillatie ingeschakeld",
+          "da": "Oscillation aktiveret",
+          "it": "Oscillazione abilitata",
+          "ko": "진자 활성화됨",
+          "pl": "Oscylacja włączona",
+          "ru": "Колебание включено",
+          "sv": "Oscillation aktiverad"
         }
       },
       {
         "id": "oscillating_false",
         "title": {
           "en": "Oscillation disabled",
-          "nl": "Oscilleren uitgeschakeld"
+          "nl": "Oscillatie uitgeschakeld",
+          "da": "Oscillation deaktiveret",
+          "it": "Oscillazione disabilitata",
+          "ko": "진자 비활성화됨",
+          "pl": "Oscylacja wyłączona",
+          "ru": "Колебание выключено",
+          "sv": "Oscillation inaktiverad"
         }
       }
     ],
@@ -43,7 +79,13 @@
         "id": "oscillating",
         "title": {
           "en": "Oscillation is !{{enabled|disabled}}",
-          "nl": "Oscilleren is !{{ingeschakeld|uitgeschakeld}}"
+          "nl": "Oscillatie is !{{ingeschakeld|uitgeschakeld}}",
+          "da": "Oscillation er !{{aktiveret|deaktiveret}}",
+          "it": "L'oscillazione è !{{abilitata|disabilitata}}",
+          "ko": "진자 !{{활성화됨|비활성화됨}}",
+          "pl": "Oscylacja jest !{{włączona|wyłączona}}",
+          "ru": "Колебание !{{включено|выключено}}",
+          "sv": "Oscillation är !{{aktiverad|inaktiverad}}"
         }
       }
     ],
@@ -52,21 +94,39 @@
         "id": "enable_oscillating",
         "title": {
           "en": "Enable Oscillation",
-          "nl": "Zet oscilleren aan"
+          "nl": "Oscillatie inschakelen",
+          "da": "Aktiver oscillation",
+          "it": "Abilita l'oscillazione",
+          "ko": "진자 활성화",
+          "pl": "Włącz oscylację",
+          "ru": "Включить колебание",
+          "sv": "Aktivera oscillation"
         }
       },
       {
         "id": "disable_oscillating",
         "title": {
           "en": "Disable Oscillation",
-          "nl": "Zet oscilleren uit"
+          "nl": "Oscillatie uitschakelen",
+          "da": "Deaktiver oscillation",
+          "it": "Disabilita l'oscillazione",
+          "ko": "진자 비활성화",
+          "pl": "Wyłącz oscylację",
+          "ru": "Отключить колебание",
+          "sv": "Inaktivera oscillation"
         }
       },
       {
         "id": "toggle_oscillating",
         "title": {
           "en": "Toggle Oscillation on or off",
-          "nl": "Schakel oscilleren aan of uit"
+          "nl": "Oscillatie aan- of uitzetten",
+          "da": "Slå oscillation til eller fra",
+          "it": "Abilita o disabilita l'oscillazione",
+          "ko": "진자 켬 또는 끔 토글",
+          "pl": "Przełącz oscylację między wł / wył",
+          "ru": "Включить или выключить колебание",
+          "sv": "Aktivera eller inaktivera oscillation"
         }
       }
     ]

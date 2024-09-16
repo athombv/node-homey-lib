@@ -48,13 +48,13 @@
           "nl": "De positie is veranderd",
           "de": "Position hat sich geändert",
           "fr": "Position a été modifiée",
-          "it": "Posizione cambiata",
-          "sv": "Position ändrad",
+          "it": "La posizione è cambiata",
+          "sv": "Positionen ändrad",
           "no": "Posisjon endret",
           "es": "La posición ha cambiado",
           "da": "Position ændret",
-          "ru": "Расположение изменилось",
-          "pl": "Zmiana pozycji",
+          "ru": "Положение изменено",
+          "pl": "Zmieniła się pozycja",
           "ko": "위치 변경됨"
         },
         "tokens": [

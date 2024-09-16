@@ -2,32 +2,62 @@
   "type": "enum",
   "title": {
     "en": "Laundry washer speed",
-    "nl": "Wasmachinesnelheid"
+    "nl": "Toerental van wasmachine",
+    "da": "Vaskemaskinens hastighed",
+    "it": "Velocità della lavatrice",
+    "ko": "세탁기 속도",
+    "pl": "Prędkość prania",
+    "ru": "Скорость стиральной машины",
+    "sv": "Tvättmaskinens hastighet"
   },
   "desc": {
     "en": "The spin speed of the laundry washer.",
-    "nl": "De centrifugesnelheid van de wasmachine."
+    "nl": "De centrifugesnelheid van de wasmachine.",
+    "da": "Vaskemaskinens centrifugeringshastighed.",
+    "it": "La velocità di centrifuga della lavatrice.",
+    "ko": "세탁기의 회전 속도입니다.",
+    "pl": "Prędkość obrotów pralki.",
+    "ru": "Скорость отжима в стиральной машине.",
+    "sv": "Tvättmaskinens centrifugeringshastighet."
   },
   "values": [
     {
       "id": "low",
       "title": {
         "en": "Low",
-        "nl": "Laag"
+        "nl": "Laag",
+        "da": "Lav",
+        "it": "Bassa",
+        "ko": "저속",
+        "pl": "Niska",
+        "ru": "Низкая",
+        "sv": "Låg"
       }
     },
     {
       "id": "medium",
       "title": {
         "en": "Medium",
-        "nl": "Middel"
+        "nl": "Gemiddeld",
+        "da": "Medium",
+        "it": "Media",
+        "ko": "중간",
+        "pl": "Średnia",
+        "ru": "Средняя",
+        "sv": "Medium"
       }
     },
     {
       "id": "high",
       "title": {
         "en": "High",
-        "nl": "Hoog"
+        "nl": "Hoog",
+        "da": "Høj",
+        "it": "Alta",
+        "ko": "고속",
+        "pl": "Wysoka",
+        "ru": "Высокая",
+        "sv": "Hög"
       }
     }
   ],
@@ -41,7 +71,13 @@
         "highlight": true,
         "title": {
           "en": "The laundry washer speed changed to",
-          "nl": "De wasmachinesnelheid is veranderd naar"
+          "nl": "Het toerental van de wasmachine is veranderd naar",
+          "da": "Vaskemaskinens hastighed blev ændret til",
+          "it": "La velocità della lavatrice è passata a",
+          "ko": "세탁기 속도가 다음으로 변경됨",
+          "pl": "Prędkość prania zmieniła się na",
+          "ru": "Скорость стиральной машины изменена на",
+          "sv": "Tvättmaskinens hastighet ändrades till"
         },
         "args": [
           {
@@ -57,7 +93,13 @@
         "id": "laundry_washer_speed_is",
         "title": {
           "en": "The laundry washer speed !{{is|is not}}",
-          "nl": "De wasmachinesnelheid !{{is|is niet}}"
+          "nl": "Het toerental van de wasmachine !{{is|is niet}}",
+          "da": "Vaskemaskinens hastighed !{{er|er ikke}}",
+          "it": "La velocità della lavatrice !{{è|non è}}",
+          "ko": "세탁기 속도가 다음!{{과 같음| 아님}}",
+          "pl": "Prędkość pralki!{{jest|nie jest}}",
+          "ru": "Скорость стиральной машины !{{is|is not}}",
+          "sv": "Tvättmaskinens hastighet !{{är|är inte}}"
         },
         "args": [
           {
@@ -70,10 +112,16 @@
     ],
     "actions": [
       {
-        "id": "laundry_washer_speed_set",
+        "id": "set_laundry_washer_speed",
         "title": {
           "en": "Set the laundry washer speed to",
-          "nl": "Stel de wasmachinesnelheid in op"
+          "nl": "Het toerental van de wasmachine instellen op",
+          "da": "Indstil vaskemaskinens hastighed til",
+          "it": "Imposta la velocità della lavatrice su",
+          "ko": "세탁기 속도를 다음으로 설정",
+          "pl": "Ustaw prędkość prania na",
+          "ru": "Установить скорость стиральной машины на",
+          "sv": "Ställ in tvättmaskinens hastighet på"
         },
         "args": [
           {

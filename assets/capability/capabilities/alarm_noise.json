@@ -2,20 +2,48 @@
   "type": "boolean",
   "title": {
     "en": "Noise alarm",
-    "nl": "Geluidsalarm"
+    "nl": "Geluidswaarschuwing",
+    "da": "Støjalarm",
+    "it": "Allarme rumore",
+    "ko": "소음 알람",
+    "no": "Støyalarm",
+    "pl": "Alarm hałasu",
+    "ru": "Сигнал шума",
+    "sv": "Bullerlarm"
   },
   "desc": {
     "en": "True when sound is detected.",
-    "nl": "Gaat af wanneer geluid wordt gedetecteerd."
+    "nl": "Wordt geactiveerd wanneer geluid wordt gedetecteerd.",
+    "da": "Sandt, når der registreres lyd.",
+    "it": "Vero quando viene rilevato un suono.",
+    "ko": "소리가 감지되면 참입니다.",
+    "no": "Sann når lyd registreres.",
+    "pl": "Prawda, gdy wykryty jest dźwięk.",
+    "ru": "Значение «истина» при обнаружении звука.",
+    "sv": "Sant när ljud detekteras."
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Noise Alarm turned on",
-    "nl": "Geluidsalarm ging af"
+    "nl": "Geluidswaarschuwing geactiveerd",
+    "da": "Støjalarm slået til",
+    "it": "Allarme rumore acceso",
+    "ko": "소음 알람 켜짐",
+    "no": "Støyalarm aktivert",
+    "pl": "Alarm hałasu włączony",
+    "ru": "Сигнал шума включен",
+    "sv": "Bullerlarm aktiverat"
   },
   "insightsTitleFalse": {
     "en": "Noise Alarm turned off",
-    "nl": "Geluidsalarm ging uit"
+    "nl": "Geluidswaarschuwing gedeactiveerd",
+    "da": "Støjalarm slået fra",
+    "it": "Allarme rumore spento",
+    "ko": "소음 알람 꺼짐",
+    "no": "Støyalarm deaktivert",
+    "pl": "Alarm hałasu wyłączony",
+    "ru": "Сигнал шума выключен",
+    "sv": "Bullerlarm inaktiverat"
   },
   "getable": true,
   "setable": false,
@@ -27,14 +55,28 @@
         "highlight": true,
         "title": {
           "en": "The noise alarm turned on",
-          "nl": "Het geluidsalarm gaat aan"
+          "nl": "De geluidswaarschuwing is geactiveerd",
+          "da": "Støjalarmen er slået til",
+          "it": "L'allarme rumore si è acceso",
+          "ko": "소음 알람이 켜짐",
+          "no": "Støyalarmen ble aktivert",
+          "pl": "Włączył się alarm hałasu",
+          "ru": "Сигнал шума включен",
+          "sv": "Bullerlarm aktiverat"
         }
       },
       {
         "id": "alarm_noise_false",
         "title": {
           "en": "The noise alarm turned off",
-          "nl": "Het geluidsalarm gaat uit"
+          "nl": "De geluidswaarschuwing is gedeactiveerd",
+          "da": "Støjalarmen slået fra",
+          "it": "L'allarme rumore si è spento",
+          "ko": "소음 알람이 꺼짐",
+          "no": "Støyalarmen ble deaktivert",
+          "pl": "Wyłączył się alarm hałasu",
+          "ru": "Сигнал шума выключен",
+          "sv": "Bullerlarm inaktiverat"
         }
       }
     ],
@@ -43,7 +85,14 @@
         "id": "alarm_noise",
         "title": {
           "en": "The noise alarm is !{{on|off}}",
-          "nl": "Het geluidsalarm is !{{aan|uit}}"
+          "nl": "De geluidswaarschuwing is !{{geactiveerd|gedeactiveerd}}",
+          "da": "Støjalarmen er slået !{{til|fra}}",
+          "it": "L'allarme rumore è !{{acceso|spento}}",
+          "ko": "소음 알람이 !{{켜짐|꺼짐}}",
+          "no": "Støyalarmen er !{{på|av}}",
+          "pl": "Alarm hałasu jest !{{włączony|wyłączony}}",
+          "ru": "Сигнал шума !{{включен|выключен}}",
+          "sv": "Bullerlarmet är aktiverat !{{på|av}}"
         }
       }
     ]

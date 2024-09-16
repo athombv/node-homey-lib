@@ -2,20 +2,56 @@
   "type": "boolean",
   "title": {
     "en": "Cold alarm",
-    "nl": "Kou-alarm"
+    "nl": "Waarschuwing bij kou",
+    "da": "Kuldealarm",
+    "es": "Alarma de frío",
+    "fr": "Alarme de froid",
+    "it": "Allarme freddo",
+    "ko": "추움 알람",
+    "no": "Kuldealarm",
+    "pl": "Alarm zimna",
+    "ru": "Сигнал холода",
+    "sv": "Köldlarm"
   },
   "desc": {
     "en": "True when the temperature is too low.",
-    "nl": "Gaat af als de temperatuur te laag is."
+    "nl": "Wordt geactiveerd wanneer de temperatuur te laag is.",
+    "da": "Sandt, når temperaturen er for lav.",
+    "es": "Activado cuando la temperatura es muy baja.",
+    "fr": "La valeur est true lorsque la température est trop basse.",
+    "it": "Vero quando la temperatura è troppo bassa.",
+    "ko": "온도가 너무 낮으면 참입니다.",
+    "no": "Sann når temperaturen er for lav.",
+    "pl": "Prawda, gdy temperatura jest zbyt niska.",
+    "ru": "Значение «истина», когда температура слишком низкая.",
+    "sv": "Sant när temperaturen är för låg."
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Cold alarm turned on",
-    "nl": "Kou-alarm ging af"
+    "nl": "Waarschuwing bij kou geactiveerd",
+    "da": "Kuldealarm tændt",
+    "es": "Alarma de frío activada",
+    "fr": "Alarme de froid activée",
+    "it": "Allarme freddo acceso",
+    "ko": "추움 알람 켜짐",
+    "no": "Kuldealarm aktivert",
+    "pl": "Alarm zimna włączony",
+    "ru": "Сигнал холода включен",
+    "sv": "Köldlarm aktiverat"
   },
   "insightsTitleFalse": {
     "en": "Cold alarm turned off",
-    "nl": "Kou-alarm ging uit"
+    "nl": "Waarschuwing bij kou gedeactiveerd",
+    "da": "Kuldealarm slukket",
+    "es": "Alarma de frío desactivada",
+    "fr": "Alarme de froid désactivée",
+    "it": "Allarme freddo spento",
+    "ko": "추움 알람 꺼짐",
+    "no": "Kuldealarm deaktivert",
+    "pl": "Alarm zimna wyłączony",
+    "ru": "Сигнал холода выключен",
+    "sv": "Köldlarm inaktiverat"
   },
   "getable": true,
   "setable": false,
@@ -27,14 +63,32 @@
         "highlight": true,
         "title": {
           "en": "The cold alarm turned on",
-          "nl": "Het kou-alarm gaat aan"
+          "nl": "De waarschuwing bij kou is geactiveerd",
+          "da": "Kuldealarm tændt",
+          "es": "Alarma de frío activada",
+          "fr": "L'alarme de froid s'est déclenchée",
+          "it": "L'allarme freddo si è acceso",
+          "ko": "추움 알람이 켜짐",
+          "no": "Kuldealarmen ble aktivert",
+          "pl": "Włączył się alarm zimna",
+          "ru": "Сигнал холода включен",
+          "sv": "Köldlarmet aktiverat"
         }
       },
       {
         "id": "alarm_cold_false",
         "title": {
           "en": "The cold alarm turned off",
-          "nl": "Het kou-alarm gaat uit"
+          "nl": "De waarschuwing bij kou is gedeactiveerd",
+          "da": "Kuldealarm slukket",
+          "es": "Alarma de frío desactivada",
+          "fr": "L'alarme de froid s'est arrêtée",
+          "it": "L'allarme freddo si è spento",
+          "ko": "추움 알람이 꺼짐",
+          "no": "Kuldealarmen ble deaktivert",
+          "pl": "Wyłączył się alarm zimna",
+          "ru": "Сигнал холода выключен",
+          "sv": "Köldlarmet inaktiverat"
         }
       }
     ],
@@ -43,7 +97,15 @@
         "id": "alarm_cold",
         "title": {
           "en": "The cold alarm is !{{on|off}}",
-          "nl": "Het kou-alarm is !{{aan|uit}}"
+          "nl": "De waarschuwing bij kou is !{{geactiveerd|gedeactiveerd}}",
+          "da": "Kuldealarm er slået !{{til|fra}}",
+          "es": "La alarma de frío está {{activada|desactivada}}",
+          "it": "L'allarme freddo è !{{acceso|spento}}",
+          "ko": "추움 알람이 !{{켜짐|꺼짐}}",
+          "no": "Kuldealarmen er !{{på|av}}",
+          "pl": "Alarm zimna jest !{{włączony|wyłączony}}",
+          "ru": "Сигнал холода !{{включен|выключен}}",
+          "sv": "Köldlarmet är !{{av|på}}"
         }
       }
     ]
