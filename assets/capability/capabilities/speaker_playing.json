@@ -69,7 +69,7 @@
           "es": "!{{Se está|No se está}} reproduciendo",
           "da": "Spiller !{{|ikke}}",
           "ru": "!{{|не}} воспроизводится",
-          "pl": "!{{gra|nie gra}}",
+          "pl": "!{Trwa{|nie trwa}} odtwarzanie",
           "ko": "이(가) 재생 중!{{임| 아님}}"
         }
       }

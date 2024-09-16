@@ -2,7 +2,7 @@
   "type": "boolean",
   "title": {
     "en": "CO alarm",
-    "nl": "CO-waarschuwing",
+    "nl": "CO-alarm",
     "de": "CO-Alarm",
     "fr": "Alarme CO",
     "it": "Allarme CO",
@@ -31,7 +31,7 @@
   "insights": true,
   "insightsTitleTrue": {
     "en": "CO alarm turned on",
-    "nl": "CO-waarschuwing geactiveerd",
+    "nl": "CO-alarm ging af",
     "de": "CO-Alarm ist angegangen",
     "fr": "L'alarme CO est activée",
     "it": "Allarme CO attivato",
@@ -45,7 +45,7 @@
   },
   "insightsTitleFalse": {
     "en": "CO alarm turned off",
-    "nl": "CO-waarschuwing gedeactiveerd",
+    "nl": "CO-alarm ging uit",
     "de": "CO-Alarm ist ausgegangen",
     "fr": "L'alarme CO est désactivée",
     "it": "Allarme CO disattivato",
@@ -67,12 +67,12 @@
         "highlight": true,
         "title": {
           "en": "The CO alarm turned on",
-          "nl": "De CO-waarschuwing is geactiveerd",
+          "nl": "Het CO-alarm gaat aan",
           "de": "Der CO-Alarm ist angegangen",
           "fr": "L'alarme CO s'est activée",
           "it": "L'allarme CO è stato attivato",
           "sv": "CO-larmet aktiverades",
-          "no": "CO-alarmen ble aktivert",
+          "no": "CO-alarmen aktivert",
           "es": "La alarma de CO se ha activado",
           "da": "CO-alarmen blev aktiveredt",
           "ru": "Сигнал CO включен",
@@ -84,12 +84,12 @@
         "id": "alarm_co_false",
         "title": {
           "en": "The CO alarm turned off",
-          "nl": "De CO-waarschuwing is gedeactiveerd",
+          "nl": "Het CO-alarm gaat uit",
           "de": "Der CO-Alarm ist ausgegangen",
           "fr": "L'alarme CO s'est désactivée",
           "it": "L'allarme CO è stato disattivato",
           "sv": "CO-larmet inaktiverades",
-          "no": "CO-alarmen ble deaktivert",
+          "no": "CO-alarmen deaktivert",
           "es": "La alarma de CO se ha desactivado",
           "da": "CO-alarmen blev deaktiveret",
           "ru": "Сигнал CO выключен",
@@ -103,7 +103,7 @@
         "id": "alarm_co",
         "title": {
           "en": "The CO alarm is !{{on|off}}",
-          "nl": "De CO-waarschuwing is !{{geactiveerd|gedeactiveerd}}",
+          "nl": "Het CO-alarm is !{{aan|uit}}",
           "de": "Der CO-Alarm ist !{{an|aus}}",
           "fr": "L'alarme CO est !{{en marche|arrêtée}}",
           "it": "L'allarme CO è !{{acceso|spento}}",
@@ -112,7 +112,7 @@
           "es": "La alarma de CO está !{{activada|desactivada}}",
           "da": "CO-alarmen er !{{på|af}}",
           "ru": "Сигнал CO !{{вкл.|выкл.}}",
-          "pl": "Alarm CO jest !{{włączony|wyłączony}}",
+          "pl": "Alarm Alarm o CO !{{włączony|wyłączony}}",
           "ko": "CO 알람 !{{켬|끔}}"
         }
       }

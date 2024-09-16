@@ -76,7 +76,7 @@
         "id": "lock_mode_changed",
         "title": {
           "en": "Lock mode changed",
-          "nl": "Vergrendelmodus is veranderd",
+          "nl": "Slotmodus is veranderd",
           "de": "Schloss-Modus hat sich geändert",
           "fr": "Mode verrou a été modifié",
           "it": "La modalità di blocco è cambiata",
@@ -84,8 +84,8 @@
           "no": "Låsemodusen er endret",
           "es": "El modo de la cerradura ha cambiado",
           "da": "Lås-tilstand er blevet ændret",
-          "ru": "Режим блокировки изменен",
-          "pl": "Zmiana trybu zamka",
+          "ru": "Режим замка изменен",
+          "pl": "Zmiana trybu zamknięcia",
           "ko": "록 모드 변경됨"
         },
         "args": [
@@ -102,7 +102,7 @@
         "id": "lock_mode_is",
         "title": {
           "en": "Lock mode !{{is|is not}}",
-          "nl": "Vergrendelmodus !{{is|is niet}}",
+          "nl": "Slotmodus !{{is|is niet}}",
           "de": "Schloss-Modus !{{ist|ist nicht}}",
           "fr": "Mode verrou !{{est|n'est pas}}",
           "it": "La modalità di blocco !{{è|non è}}",
@@ -111,7 +111,7 @@
           "es": "El modo de la cerradura !{{está|no está}}",
           "da": "Lås-tilstand !{{er|er ikke}}",
           "ru": "Режим замка !{{|не}}",
-          "pl": "Tryb zamku !{{jest|nie jest}}",
+          "pl": "Tryb zamknięcia !{{to|to nie}}",
           "ko": "록 모드가 다음!{{임| 아님}}"
         },
         "args": [
@@ -128,7 +128,7 @@
         "id": "mode",
         "title": {
           "en": "Set mode",
-          "nl": "Modus instellen",
+          "nl": "Stel modus in",
           "de": "Modus setzen",
           "fr": "Définir le mode",
           "it": "Imposta la modalità",

@@ -71,7 +71,7 @@
           "fr": "L'alarme nuit s'est activée",
           "it": "L'allarme notturno è stato attivato",
           "sv": "Nattlarmet aktiverat",
-          "no": "Nattalarmen ble aktivert",
+          "no": "Nattalarmen aktivert",
           "es": "La alarma nocturna se ha activado",
           "da": "Natalarmen blev aktiveret",
           "ru": "Ночной сигнал включен",
@@ -88,7 +88,7 @@
           "fr": "L'alarme nuit s'est désactivée",
           "it": "L'allarme notturno è stato disattivato",
           "sv": "Nattlarmet inaktiverat",
-          "no": "Nattalarmen ble deaktivert",
+          "no": "Nattalarmen deaktivert",
           "es": "La alarma nocturna se ha desactivado",
           "da": "Natalarmen blev deaktiveret",
           "ru": "Ночной сигнал выключен",
@@ -111,7 +111,7 @@
           "es": "La alarma nocturna está !{{activada|desactivada}}",
           "da": "Natalarmen er !{{tændt|slukket}}",
           "ru": "Ночной сигнал !{{вкл.|выкл.}}",
-          "pl": "Alarm nocy jest!{{włączony|wyłączony}}",
+          "pl": "Alarm nocny !{{włączony|wyłączony}}",
           "ko": "밤 알람 !{{켬|끔}}"
         }
       }

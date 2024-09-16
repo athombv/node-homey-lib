@@ -2,7 +2,7 @@
   "type": "boolean",
   "title": {
     "en": "CO2 alarm",
-    "nl": "CO2-waarschuwing",
+    "nl": "CO2-alarm",
     "de": "CO2-Alarm",
     "fr": "Alarme CO2",
     "it": "Allarme CO2",
@@ -15,7 +15,7 @@
   },
   "desc": {
     "en": "True when dangerous CO2 values have been detected",
-    "nl": "Wordt geactiveerd bij gevaarlijke CO2-concentraties",
+    "nl": "Gaat af bij gevaarlijke concentraties CO2",
     "de": "True, wenn gefährliche CO2-Werte erkannt wurden",
     "fr": "Vrai si des valeurs dangereuses de CO2 ont été détectées",
     "it": "Vero quando sono stati rilevati valori pericolosi di CO2",
@@ -29,7 +29,7 @@
   "insights": true,
   "insightsTitleTrue": {
     "en": "CO2 alarm turned on",
-    "nl": "CO2-waarschuwing geactiveerd",
+    "nl": "CO2-alarm ging af",
     "de": "CO2-Alarm ist angegangen",
     "fr": "L'alarme CO2 s'est activée",
     "it": "Allarme CO2 attivato",
@@ -43,7 +43,7 @@
   },
   "insightsTitleFalse": {
     "en": "CO2 alarm turned off",
-    "nl": "CO2-waarschuwing gedeactiveerd",
+    "nl": "CO2-alarm ging uit",
     "de": "CO2-Alarm ist ausgegangen",
     "fr": "L'alarme CO2 s'est désactivée",
     "it": "Allarme CO2 disattivato",
@@ -65,12 +65,12 @@
         "highlight": true,
         "title": {
           "en": "The CO2 alarm turned on",
-          "nl": "De CO2-waarschuwing is geactiveerd",
+          "nl": "Het CO2-alarm gaat aan",
           "de": "Der CO2-Alarm ist angegangen",
           "fr": "L'alarme CO2 s'est activée",
           "it": "L'allarme CO2 è stato attivato",
           "sv": "CO2-larmet på",
-          "no": "CO2-alarmen ble aktivert",
+          "no": "CO2-alarmen er aktivert",
           "es": "La alarma de CO2 se ha activado",
           "da": "CO2-alarmen blev aktiveret",
           "ru": "Сигнал CO2 включен",
@@ -82,12 +82,12 @@
         "id": "alarm_co2_false",
         "title": {
           "en": "The CO2 alarm turned off",
-          "nl": "De CO2-waarschuwing is gedeactiveerd",
+          "nl": "Het CO2-alarm gaat uit",
           "de": "Der CO2-Alarm ist ausgegangen",
           "fr": "L'alarme CO2 s'est désactivée",
           "it": "L'allarme CO2 è stato disattivato",
           "sv": "CO2-larmet av",
-          "no": "CO2-alarmen ble deaktivert",
+          "no": "CO2-alarmen er deaktivert",
           "es": "La alarma de CO2 se ha desactivado",
           "da": "CO2-alarmen blev deaktiveret",
           "ru": "Сигнал CO2 выключен",
@@ -101,7 +101,7 @@
         "id": "alarm_co2",
         "title": {
           "en": "The CO2 alarm is !{{on|off}}",
-          "nl": "De CO2-waarschuwing is !{{geactiveerd|gedeactiveerd}}",
+          "nl": "Het CO2-alarm is !{{aan|uit}}",
           "de": "Der CO2-Alarm ist !{{an|aus}}",
           "fr": "L'alarme CO2 est !{{en marche|arrêtée}}",
           "it": "L'allarme CO2 è !{{acceso|spento}}",
@@ -110,7 +110,7 @@
           "es": "La alarma de CO2 está !{{activada|desactivada}}",
           "da": "CO2-alarmen er !{{tændt|slukket}}",
           "ru": "Сигнал CO2 !{{вкл.|выкл.}}",
-          "pl": "Alarm CO2 jest !{{włączony|wyłączony}}",
+          "pl": "Alarm o CO2 !{{włączony|wyłączony}}",
           "ko": "CO2 알람 !{{켬|끔}}"
         }
       }

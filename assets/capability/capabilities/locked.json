@@ -111,7 +111,7 @@
           "es": "Una cerradura está !{{cerrada|abierta}}",
           "da": "En lås er blevet !{{låst|låst op}}",
           "ru": "Замок !{{закрыт|открыт}}",
-          "pl": "Zamek jest !{{zamknięty|otwarty}}",
+          "pl": "Zamek jest !{{zablokowany|odblokowany}}",
           "ko": "록 !{{잠김|잠금 해제됨}}"
         }
       }
