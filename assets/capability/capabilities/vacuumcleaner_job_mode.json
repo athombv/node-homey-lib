@@ -2,49 +2,91 @@
   "type": "enum",
   "title": {
     "en": "Vacuum cleaner job mode",
-    "nl": "Stofzuigermodus"
+    "nl": "Stofzuigermodus",
+    "da": "Støvsugerens jobtilstand",
+    "it": "Modalità di lavoro dell'aspirapolvere",
+    "ko": "진공 청소기 작동 모드",
+    "pl": "Tryb pracy odkurzacza",
+    "ru": "Режим работы пылесоса",
+    "sv": "Dammsugarens arbetsläge"
   },
   "values": [
     {
       "id": "off",
       "title": {
         "en": "Off",
-        "nl": "Uit"
+        "nl": "Uit",
+        "da": "Fra",
+        "it": "Off",
+        "ko": "끔",
+        "pl": "Wył",
+        "ru": "Выкл.",
+        "sv": "Av"
       }
     },
     {
       "id": "normal",
       "title": {
         "en": "Normal",
-        "nl": "Normaal"
+        "nl": "Normaal",
+        "da": "Normal",
+        "it": "Normale",
+        "ko": "보통",
+        "pl": "Normalny",
+        "ru": "Нормальный",
+        "sv": "Normal"
       }
     },
     {
       "id": "hight",
       "title": {
         "en": "High",
-        "nl": "Hoog"
+        "nl": "Hoog",
+        "da": "Høj",
+        "it": "Alto",
+        "ko": "높음",
+        "pl": "Wysoki",
+        "ru": "Интенсивный",
+        "sv": "Hög"
       }
     },
     {
       "id": "turbo",
       "title": {
         "en": "Turbo",
-        "nl": "Turbo"
+        "nl": "Turbo",
+        "da": "Turbo",
+        "it": "Turbo",
+        "ko": "터보",
+        "pl": "Turbo",
+        "ru": "Турбо",
+        "sv": "Turbo"
       }
     },
     {
       "id": "mop",
       "title": {
         "en": "Mop",
-        "nl": "Dweilen"
+        "nl": "Dweilen",
+        "da": "Moppe",
+        "it": "Lavaggio",
+        "ko": "물걸레",
+        "pl": "Mop",
+        "ru": "Швабра",
+        "sv": "Mopp"
       }
     },
     {
       "id": "auto",
       "title": {
         "en": "Auto",
-        "nl": "Automatisch"
+        "nl": "Automatisch",
+        "da": "Auto",
+        "it": "Auto",
+        "ko": "자동",
+        "pl": "Auto",
+        "ru": "Авто\n",
+        "sv": "Auto"
       }
     }
   ],
@@ -56,8 +98,15 @@
       {
         "id": "vacuumcleaner_job_mode_changed",
         "title": {
-          "en": "The job mode changed to",
-          "nl": "De modus is gewijzigd naar"
+          "en": "The vacuum cleaner job mode has changed",
+          "nl": "De stofzuigermodus is veranderd",
+          "da": "Støvsugerens jobtilstand er ændret",
+          "it": "La modalità di lavoro dell'aspirapolvere è cambiata",
+          "ko": "진공 청소기 작동 모드 변경됨",
+          "no": "Støvsugerens jobbmodus er endret",
+          "pl": "Zmienił się tryb pracy odkurzacza",
+          "ru": "Режим работы пылесоса изменен",
+          "sv": "Dammsugarens arbetsläge har ändrats"
         },
         "args": [
           {
@@ -72,8 +121,14 @@
       {
         "id": "vacuumcleaner_job_mode_is",
         "title": {
-          "en": "The job mode !{{is|is not}}",
-          "nl": "De modus !{{is|is not}}"
+          "en": "The vacuum cleaner job mode !{{is|is not}}",
+          "nl": "De stofzuigermodus !{{is|is niet}}",
+          "da": "Støvsugerens jobtilstand !{{er|er ikke}}",
+          "it": "La modalità di lavoro dell'aspirapolvere !{{è|non è}}",
+          "ko": "진공 청소기 작동 모드가 다음!{{과 같음| 아님}}",
+          "pl": "Tryb pracy odkurzacza !{{jest|nie jest}}",
+          "ru": "Режим работы пылесоса !{{is|is not}}",
+          "sv": "Dammsugarens arbetsläge !{{är|är inte}}"
         },
         "args": [
           {
@@ -88,8 +143,14 @@
       {
         "id": "set_vacuumcleaner_job_mode",
         "title": {
-          "en": "Set the job mode to",
-          "nl": "Stel de modus in op"
+          "en": "Set the vacuum cleaner job mode to",
+          "nl": "De stofzuigermodus instellen op",
+          "da": "Indstil støvsugerens jobtilstand til",
+          "it": "Imposta la modalità di lavoro dell'aspirapolvere su",
+          "ko": "진공 청소기 작동 모드를 다음으로 설정",
+          "pl": "Ustaw tryb pracy odkurzacza na",
+          "ru": "Установить режим работы пылесоса на",
+          "sv": "Ställ in dammsugarens arbetsläge på"
         },
         "args": [
           {

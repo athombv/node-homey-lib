@@ -2,15 +2,36 @@
   "type": "number",
   "title": {
     "en": "Odor",
-    "nl": "Geur"
+    "nl": "Geur",
+    "da": "Lugt",
+    "it": "Odore",
+    "ko": "냄새",
+    "no": "Lukt",
+    "pl": "Zapach",
+    "ru": "Запах",
+    "sv": "Lukt"
   },
   "units": {
     "en": "OU",
-    "nl": "GE"
+    "nl": "GE",
+    "da": "OU",
+    "it": "OU",
+    "ko": "OU",
+    "no": "OU",
+    "pl": "ou",
+    "ru": "Единицы интенсивности запаха",
+    "sv": "OU"
   },
   "desc": {
     "en": "Odor concentration in odor units.",
-    "nl": "Geurconcentratie in geureenheden."
+    "nl": "Geurconcentratie in geureenheden.",
+    "da": "Lugtkoncentration i lugtenheder.",
+    "it": "Concentrazione di odori in unità di odore.",
+    "ko": "OU(Odor Unit) 단위의 냄새 농도입니다.",
+    "no": "Luktkonsentrasjon i luktenheter.",
+    "pl": "Stężenie zapachowe w jednostkach zapachowych.",
+    "ru": "Концентрация запаха в единицах интенсивности запаха.",
+    "sv": "Luktkoncentration i luktenheter."
   },
   "insights": true,
   "chartType": "spline",
@@ -24,7 +45,13 @@
         "id": "measure_odor_changed",
         "title": {
           "en": "The odor concentration changed",
-          "nl": "De geurconcentratie is veranderd"
+          "nl": "De geurconcentratie is veranderd",
+          "da": "Lugtkoncentrationen ændrede sig",
+          "it": "La concentrazione di odori è cambiata",
+          "ko": "냄새 농도 변경됨",
+          "pl": "Zmieniło się stężenie zapachowe",
+          "ru": "Концентрация запаха изменилась",
+          "sv": "Luktkoncentrationen förändrades"
         },
         "tokens": [
           {

@@ -2,16 +2,34 @@
   "type": "number",
   "title": {
     "en": "Formaldehyde",
-    "nl": "Formaldehyde"
+    "nl": "Formaldehyde",
+    "da": "Formaldehyd",
+    "it": "Formaldeide",
+    "ko": "포름알데히드",
+    "pl": "Formaldehyd",
+    "ru": "Формальдегид",
+    "sv": "Formaldehyd"
   },
   "units": {
     "en": "μg/m³",
-    "nl": "μg/m³"
+    "nl": "μg/m³",
+    "da": "μg/m³",
+    "it": "μg/m³",
+    "ko": "μg/m³",
+    "pl": "μg/m³",
+    "ru": "мкг/м³",
+    "sv": "μg/m³"
   },
   "insights": true,
   "desc": {
     "en": "Formaldehyde in micrograms per cubic meter (μg/m³)",
-    "nl": "Formaldehyde in microgram per kubieke meter (μg/m³)"
+    "nl": "Formaldehyde in microgram per kubieke meter (μg/m³)",
+    "da": "Formaldehyd i mikrogram pr. kubikmeter (μg/m³)",
+    "it": "Formaldeide in microgrammi per metro cubo (μg/m³)",
+    "ko": "입방미터당 마이크로그램(μg/m³) 단위의 포름알데히드",
+    "pl": "Formaldehyd w mikrogramach na metr sześcienny (μg/m³)",
+    "ru": "Формальдегид в микрограммах на кубический метр (мкг/м³)",
+    "sv": "Formaldehyd i mikrogram per kubikmeter (μg/m³)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -23,8 +41,14 @@
       {
         "id": "measure_ch2o_changed",
         "title": {
-          "en": "The formaldehyde level changed",
-          "nl": "Het formaldehydeniveau is veranderd"
+          "en": "The Formaldehyde level changed",
+          "nl": "Het formaldehydeniveau is veranderd",
+          "da": "Formaldehydniveauet ændrede sig",
+          "it": "Il livello di formaldeide è cambiato",
+          "ko": "포름알데히드 수준 변경됨",
+          "pl": "Zmienił się poziom formaldehydu",
+          "ru": "Уровень формальдегида изменился",
+          "sv": "Formaldehydnivån ändrades"
         },
         "tokens": [
           {

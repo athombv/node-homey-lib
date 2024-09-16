@@ -2,53 +2,104 @@
   "type": "enum",
   "title": {
     "en": "Audio Output",
-    "nl": "Audio-uitgang"
+    "nl": "Audio-uitgang",
+    "da": "Lydudgang",
+    "it": "Uscita audio",
+    "ko": "오디오 출력",
+    "pl": "Wyjście audio",
+    "ru": "Аудиовыход",
+    "sv": "Ljudutgång"
   },
   "desc": {
     "en": "The audio output channel for a media player.",
-    "nl": "Het audio-uitgangskanaal voor een mediaspeler."
+    "nl": "Het audio-uitgangskanaal voor een mediaspeler.",
+    "da": "Lydudgangskanalen til en medieafspiller.",
+    "it": "Il canale di uscita audio di un lettore multimediale.",
+    "ko": "미디어 플레이어의 오디오 출력 채널입니다.",
+    "pl": "Kanał wyjściowy audio odtwarzacza multimedialnego.",
+    "ru": "Канал аудиовыхода для медиаплеера.",
+    "sv": "Ljudutgångskanalen för en mediaspelare."
   },
   "values": [
     {
       "id": "hdmi_1",
       "title": {
         "en": "HDMI 1",
-        "nl": "HDMI 1"
+        "nl": "HDMI 1",
+        "da": "HDMI 1",
+        "it": "HDMI 1",
+        "ko": "HDMI 1",
+        "no": "HDMI 1",
+        "pl": "HDMI 1",
+        "ru": "HDMI 1",
+        "sv": "HDMI 1"
       }
     },
     {
       "id": "hdmi_2",
       "title": {
         "en": "HDMI 2",
-        "nl": "HDMI 2"
+        "nl": "HDMI 2",
+        "da": "HDMI 2",
+        "it": "HDMI 2",
+        "ko": "HDMI 2",
+        "no": "HDMI 2",
+        "pl": "HDMI 2",
+        "ru": "HDMI 2",
+        "sv": "HDMI 2"
       }
     },
     {
       "id": "hdmi_3",
       "title": {
         "en": "HDMI 3",
-        "nl": "HDMI 3"
+        "nl": "HDMI 3",
+        "da": "HDMI 3",
+        "it": "HDMI 3",
+        "ko": "HDMI 3",
+        "no": "HDMI 3",
+        "pl": "HDMI 3",
+        "ru": "HDMI 3",
+        "sv": "HDMI 3"
       }
     },
     {
       "id": "line_out",
       "title": {
         "en": "Line Out",
-        "nl": "Lijnuitgang"
+        "nl": "Line out",
+        "da": "Linjeudgang",
+        "it": "Line out",
+        "ko": "라인아웃",
+        "pl": "Wyjście liniowe",
+        "ru": "Линейный выход",
+        "sv": "Linje ut"
       }
     },
     {
       "id": "optical",
       "title": {
         "en": "Optical",
-        "nl": "Optisch"
+        "nl": "Optisch",
+        "da": "Optisk",
+        "it": "Ottica",
+        "ko": "옵티컬",
+        "pl": "Optyczne",
+        "ru": "Оптический выход",
+        "sv": "Optisk"
       }
     },
     {
       "id": "usb",
       "title": {
         "en": "USB",
-        "nl": "USB"
+        "nl": "USB",
+        "da": "USB",
+        "it": "USB",
+        "ko": "USB",
+        "pl": "USB",
+        "ru": "USB",
+        "sv": "USB"
       }
     }
   ],
@@ -62,7 +113,13 @@
         "highlight": true,
         "title": {
           "en": "The audio output changed to",
-          "nl": "De audio-uitgang is veranderd naar"
+          "nl": "De audio-uitgang is veranderd naar",
+          "da": "Lydudgangen blev ændret til",
+          "it": "L'uscita audio è passata a",
+          "ko": "오디오 출력이 다음으로 변경됨",
+          "pl": "Wyjście audio zmieniło się na",
+          "ru": "Аудиовыход изменен на",
+          "sv": "Ljudutgången ändrades till"
         },
         "args": [
           {
@@ -78,7 +135,13 @@
         "id": "audio_output_is",
         "title": {
           "en": "The audio output !{{is|is not}}",
-          "nl": "De audio-uitgang !{{is|is niet}}"
+          "nl": "De audio-uitgang !{{is|is niet}}",
+          "da": "Lydudgangen !{{er|er ikke}}",
+          "it": "L'uscita audio !{{è|non è}}",
+          "ko": "오디오 출력이 다음!{{과 같음| 아님}}",
+          "pl": "Wyjście audio !{{jest|nie jest}}",
+          "ru": "Аудиовыход !{{is|is not}}",
+          "sv": "Ljudutgången !{{är|är inte}}"
         },
         "args": [
           {
@@ -94,7 +157,13 @@
         "id": "set_audio_output",
         "title": {
           "en": "Set audio output to",
-          "nl": "Stel audio-uitgang in op"
+          "nl": "Audio-uitgang instellen op",
+          "da": "Indstil lydudgang til",
+          "it": "Imposta l'uscita audio su",
+          "ko": "오디오 출력을 다음으로 설정",
+          "pl": "Ustaw wyjście audio na",
+          "ru": "Установить аудиовыход на",
+          "sv": "Ställ in ljudutgång till"
         },
         "args": [
           {

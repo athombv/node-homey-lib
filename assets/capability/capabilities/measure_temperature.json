@@ -54,8 +54,8 @@
           "no": "Temperaturen ble endret",
           "es": "La temperatura ha cambiado",
           "da": "Temperaturen ændrede sig",
-          "ru": "Температура изменена",
-          "pl": "Zmiana temperatury",
+          "ru": "Температура изменилась",
+          "pl": "Zmieniła się temperatura",
           "ko": "온도 변경됨"
         },
         "tokens": [

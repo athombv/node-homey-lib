@@ -2,32 +2,62 @@
   "type": "enum",
   "title": {
     "en": "Refrigerator Mode",
-    "nl": "Koelkastmodus"
+    "nl": "Koelkastmodus",
+    "da": "Køleskabstilstand",
+    "it": "Modalità frigorifero",
+    "ko": "냉장고 모드",
+    "pl": "Tryb lodówki",
+    "ru": "Режим холодильника",
+    "sv": "Kylskåpsläge"
   },
   "desc": {
     "en": "The mode of the refrigerator.",
-    "nl": "De modus van de koelkast."
+    "nl": "De modus van de koelkast.",
+    "da": "Køleskabets tilstand.",
+    "it": "La modalità del frigorifero.",
+    "ko": "냉장고의 모드입니다.",
+    "pl": "Tryb pracy lodówki.",
+    "ru": "Режим работы холодильника.",
+    "sv": "Läget för kylskåpet."
   },
   "values": [
     {
       "id": "normal",
       "title": {
         "en": "Normal",
-        "nl": "Normaal"
+        "nl": "Normaal",
+        "da": "Normal",
+        "it": "Normale",
+        "ko": "보통",
+        "pl": "Normalny",
+        "ru": "Нормальный",
+        "sv": "Normal"
       }
     },
     {
       "id": "rapid_cooling",
       "title": {
         "en": "Rapid Cooling",
-        "nl": "Snel koelen"
+        "nl": "Snel koelen",
+        "da": "Hurtig afkøling",
+        "it": "Raffreddamento rapido",
+        "ko": "신속 쿨링",
+        "pl": "Szybkie chłodzenie",
+        "ru": "Быстрое охлаждение",
+        "sv": "Snabbkylning"
       }
     },
     {
       "id": "rapid_freezing",
       "title": {
         "en": "Rapid Freezing",
-        "nl": "Snel vriezen"
+        "nl": "Snel vriezen",
+        "da": "Hurtig nedfrysning",
+        "it": "Congelamento rapido",
+        "ko": "신속 냉동",
+        "pl": "Szybkie zamrażanie",
+        "ru": "Быстрая заморозка",
+        "sv": "Snabbfrysning"
       }
     }
   ],
@@ -40,8 +70,14 @@
         "id": "refrigerator_mode_changed",
         "highlight": true,
         "title": {
-          "en": "The mode changed to",
-          "nl": "De modus is veranderd naar"
+          "en": "The refrigerator mode changed to",
+          "nl": "De koelkastmodus is veranderd naar",
+          "da": "Køleskabets tilstand ændrede sig til",
+          "it": "La modalità del frigorifero è passata a",
+          "ko": "냉장고 모드가 다음으로 변경됨",
+          "pl": "Tryb lodówki zmienił się na",
+          "ru": "Режим холодильника изменен на",
+          "sv": "Kylskåpsläget ändras till"
         },
         "args": [
           {
@@ -56,8 +92,14 @@
       {
         "id": "refrigerator_mode_is",
         "title": {
-          "en": "The mode !{{is|is not}}",
-          "nl": "De modus !{{is|is niet}}"
+          "en": "The refrigerator mode !{{is|is not}}",
+          "nl": "De koelkastmodus !{{is|is niet}}",
+          "da": "Køleskabstilstand !{{er|er ikke}}",
+          "it": "La modalità del frigorifero !{{è|non è}}",
+          "ko": "냉장고 모드가 다음!{{과 같음| 아님}}",
+          "pl": "Tryb lodówki !{{jest|nie jest}}",
+          "ru": "Режим холодильника !{{is|is not}}",
+          "sv": "Kylskåpsläget !{{är|är inte}}"
         },
         "args": [
           {
@@ -72,8 +114,14 @@
       {
         "id": "set_refrigerator_mode",
         "title": {
-          "en": "Set the mode to",
-          "nl": "Stel de modus in op"
+          "en": "Set the refrigerator mode to",
+          "nl": "De koelkastmodus instellen op",
+          "da": "Indstil køleskabstilstanden til",
+          "it": "Imposta la modalità del frigorifero su",
+          "ko": "냉장고 모드를 다음으로 설정",
+          "pl": "Ustaw tryb lodówki na",
+          "ru": "Установить режим холодильника на",
+          "sv": "Ställ in kylskåpsläget på"
         },
         "args": [
           {

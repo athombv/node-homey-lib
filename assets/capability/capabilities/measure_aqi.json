@@ -2,12 +2,24 @@
   "type": "number",
   "title": {
     "en": "Air Quality Index",
-    "nl": "Luchtkwaliteitsindex"
+    "nl": "Luchtkwaliteitsindex",
+    "da": "Indeks for luftkvalitet",
+    "it": "Indice di qualità dell'aria",
+    "ko": "공기질 지수",
+    "pl": "Wskaźnik jakości powietrza",
+    "ru": "Показатель качества воздуха",
+    "sv": "Index för luftkvalitet"
   },
   "insights": true,
   "desc": {
     "en": "Air Quality Index",
-    "nl": "Luchtkwaliteitsindex"
+    "nl": "Luchtkwaliteitsindex",
+    "da": "Indeks for luftkvalitet",
+    "it": "Indice di qualità dell'aria",
+    "ko": "공기질 지수",
+    "pl": "Wskaźnik jakości powietrza",
+    "ru": "Показатель качества воздуха",
+    "sv": "Index för luftkvalitet"
   },
   "chartType": "spline",
   "getable": true,
@@ -20,8 +32,14 @@
       {
         "id": "measure_aqi_changed",
         "title": {
-          "en": "The air quality index changed",
-          "nl": "De luchtkwaliteitsindex is veranderd"
+          "en": "The Air Quality Index changed",
+          "nl": "De luchtkwaliteitsindex is veranderd",
+          "da": "Luftkvalitetsindekset ændrede sig",
+          "it": "L'indice di qualità dell'aria è cambiato",
+          "ko": "공기질 지수 변경됨",
+          "pl": "Wskaźnik jakości powietrza zmienił się",
+          "ru": "Показатель качества воздуха изменился",
+          "sv": "Index för luftkvalitet ändrades"
         },
         "tokens": [
           {

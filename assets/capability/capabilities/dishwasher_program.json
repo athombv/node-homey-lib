@@ -2,32 +2,62 @@
   "type": "enum",
   "title": {
     "en": "Dishwasher program",
-    "nl": "Vaatwasprogramma"
+    "nl": "Vaatwasprogramma",
+    "da": "Program til opvaskemaskine",
+    "it": "Programma lavastoviglie",
+    "ko": "식기세척기 프로그램",
+    "pl": "Program zmywarki",
+    "ru": "Программа посудомоечной машины",
+    "sv": "Diskmaskinsprogram"
   },
   "desc": {
     "en": "The current program of the dishwasher.",
-    "nl": "Het huidige programma van de vaatwasser."
+    "nl": "Het huidige programma van de vaatwasser.",
+    "da": "Opvaskemaskinens aktuelle program.",
+    "it": "Il programma attuale della lavastoviglie.",
+    "ko": "식기세척기의 현재 프로그램입니다.",
+    "pl": "Bieżący program zmywarki.",
+    "ru": "Текущая программа посудомоечной машины.",
+    "sv": "Diskmaskinens aktuella program."
   },
   "values": [
     {
       "id": "normal",
       "title": {
         "en": "Normal",
-        "nl": "Normaal"
+        "nl": "Normaal",
+        "da": "Normalt",
+        "it": "Normale",
+        "ko": "보통",
+        "pl": "Normalny",
+        "ru": "Стандартная",
+        "sv": "Normal\n"
       }
     },
     {
       "id": "heavy",
       "title": {
         "en": "Heavy",
-        "nl": "Zwaar"
+        "nl": "Zwaar",
+        "da": "Tungt",
+        "it": "Pesante",
+        "ko": "강력",
+        "pl": "Intensywny",
+        "ru": "Интенсивная",
+        "sv": "Tung"
       }
     },
     {
       "id": "light",
       "title": {
         "en": "Light",
-        "nl": "Licht"
+        "nl": "Licht",
+        "da": "Let",
+        "it": "Leggero",
+        "ko": "약하게",
+        "pl": "Lekki",
+        "ru": "Легкая",
+        "sv": "Lätt"
       }
     }
   ],
@@ -40,8 +70,14 @@
         "id": "dishwasher_program_changed",
         "highlight": true,
         "title": {
-          "en": "The program changed to",
-          "nl": "Het programma is veranderd naar"
+          "en": "The dishwasher program changed to",
+          "nl": "Het vaatwasprogramma is veranderd naar",
+          "da": "Opvaskemaskinens program blev ændret til",
+          "it": "Il programma della lavastoviglie è passato a",
+          "ko": "식기세척기 프로그램이 다음으로 변경됨",
+          "pl": "Program zmywarki zmienił się na",
+          "ru": "Программа посудомоечной машины изменена на",
+          "sv": "Diskmaskinens program ändrades till"
         },
         "args": [
           {
@@ -56,8 +92,14 @@
       {
         "id": "dishwasher_program_is",
         "title": {
-          "en": "The program is",
-          "nl": "Het programma is"
+          "en": "The dishwasher program is",
+          "nl": "Het vaatwasprogramma is",
+          "da": "Opvaskemaskinens program er",
+          "it": "Il programma della lavastoviglie è",
+          "ko": "현재 식기세척기 프로그램",
+          "pl": "Program zmywarki to",
+          "ru": "Программа посудомоечной машины:",
+          "sv": "Diskmaskinens program är"
         },
         "args": [
           {

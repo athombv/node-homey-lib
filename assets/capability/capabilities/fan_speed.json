@@ -2,14 +2,36 @@
   "type": "number",
   "title": {
     "en": "Fan Speed",
-    "nl": "Ventilatorsnelheid"
+    "nl": "Ventilatorsnelheid",
+    "da": "Ventilatorhastighed",
+    "it": "Velocità della ventola",
+    "ko": "팬 속도",
+    "no": "Viftehastighet",
+    "pl": "Prędkość wentylatora",
+    "ru": "Скорость вентилятора",
+    "sv": "Fläkthastighet"
   },
   "units": {
-    "en": "%"
+    "en": "%",
+    "da": "%",
+    "it": "%",
+    "ko": "%",
+    "nl": "%",
+    "no": "%",
+    "pl": "%",
+    "ru": "\n",
+    "sv": "%"
   },
   "desc": {
     "en": "The fan speed in percentage.",
-    "nl": "De ventilatorsnelheid in procent."
+    "nl": "De ventilatorsnelheid in procenten.",
+    "da": "Ventilatorhastigheden i procent.",
+    "it": "La velocità della ventola in percentuale.",
+    "ko": "백분율로 표현한 팬 속도입니다.",
+    "no": "Viftehastigheten i prosent.",
+    "pl": "Prędkość wentylatora w procentach.",
+    "ru": "Скорость вентилятора в процентах.",
+    "sv": "Fläkthastigheten i procent."
   },
   "insights": true,
   "chartType": "spline",
@@ -25,7 +47,14 @@
         "id": "fan_speed_changed",
         "title": {
           "en": "The fan speed changed",
-          "nl": "De ventilatorsnelheid is veranderd"
+          "nl": "De ventilatorsnelheid is veranderd",
+          "da": "Ventilatorhastigheden ændrede sig",
+          "it": "La velocità della ventola è cambiata",
+          "ko": "팬 속도 변경됨",
+          "no": "Viftehastigheten ble endret",
+          "pl": "Prędkość wentylatora zmieniła się",
+          "ru": "Скорость вентилятора изменена",
+          "sv": "Fläkthastigheten ändrades"
         },
         "tokens": [
           {
@@ -42,7 +71,14 @@
         "id": "set_fan_speed",
         "title": {
           "en": "Set the fan speed to",
-          "nl": "Stel de ventilatorsnelheid in op"
+          "nl": "De ventilatorsnelheid instellen op",
+          "da": "Indstil ventilatorhastigheden til",
+          "it": "Imposta la velocità della ventola su",
+          "ko": "팬 속도를 다음으로 설정",
+          "no": "Sett viftehastigheten til",
+          "pl": "Ustaw prędkość wentylatora na",
+          "ru": "Установить скорость вентилятора на",
+          "sv": "Ställ in fläkthastigheten på"
         },
         "args": [
           {

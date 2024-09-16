@@ -2,15 +2,33 @@
   "type": "number",
   "title": {
     "en": "Target Humidity",
-    "nl": "Doelvochtigheid"
+    "nl": "Gewenste luchtvochtigheid",
+    "da": "Luftfugtighedsmål",
+    "it": "Umidità target",
+    "ko": "목표 습도",
+    "pl": "Docelowa wilgotność",
+    "ru": "Заданная влажность",
+    "sv": "Målfuktighet"
   },
   "units": {
     "en": "%",
-    "nl": "%"
+    "nl": "%",
+    "da": "%",
+    "it": "%",
+    "ko": "%",
+    "pl": "%",
+    "ru": "%",
+    "sv": "%"
   },
   "desc": {
     "en": "The target humidity level in percent.",
-    "nl": "Het doelvochtigheidsniveau in procent."
+    "nl": "Het gewenste vochtigheidsniveau in procenten.",
+    "da": "Den ønskede luftfugtighed i procent.",
+    "it": "Il livello di umidità target in percentuale.",
+    "ko": "백분율로 표현된 목표 습도 수준입니다.",
+    "pl": "Docelowy poziom wilgotności w procentach.",
+    "ru": "Заданный уровень влажности в процентах.",
+    "sv": "Den önskade luftfuktighetsnivån i procent."
   },
   "min": 0,
   "max": 1,
@@ -25,7 +43,13 @@
         "id": "target_humidity_changed",
         "title": {
           "en": "The target humidity changed",
-          "nl": "De doelvochtigheid is gewijzigd"
+          "nl": "De gewenste vochtigheid is veranderd",
+          "da": "Målfugtigheden ændrede sig",
+          "it": "L'umidità target è cambiata",
+          "ko": "목표 습도",
+          "pl": "Zmieniła się docelowa wilgotność",
+          "ru": "Заданная влажность изменена",
+          "sv": "Den önskade luftfuktigheten ändrades"
         },
         "tokens": [
           {
@@ -42,7 +66,13 @@
         "id": "set_target_humidity",
         "title": {
           "en": "Set the humidity",
-          "nl": "Stel de vochtigheid in"
+          "nl": "De vochtigheid instellen",
+          "da": "Indstil luftfugtigheden",
+          "it": "Imposta l'umidità",
+          "ko": "습도 설정",
+          "pl": "Ustaw wilgotność",
+          "ru": "Установить уровень влажности",
+          "sv": "Ställ in luftfuktigheten"
         },
         "args": [
           {

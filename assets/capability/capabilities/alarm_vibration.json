@@ -2,20 +2,48 @@
   "type": "boolean",
   "title": {
     "en": "Vibration alarm",
-    "nl": "Trilalarm"
+    "nl": "Trilwaarschuwing",
+    "da": "Vibrationsalarm",
+    "it": "Allarme vibrazione",
+    "ko": "진동 알람",
+    "no": "Vibrasjonsalarm",
+    "pl": "Alarm wibracji",
+    "ru": "Сигнал о вибрации",
+    "sv": "Vibrationslarm"
   },
   "desc": {
     "en": "True when vibration is detected.",
-    "nl": "Gaat af wanneer trilling wordt gedetecteerd."
+    "nl": "Wordt geactiveerd wanneer trilling wordt gedetecteerd.",
+    "da": "Sandt, når der registreres vibration.",
+    "it": "Vero quando viene rilevata una vibrazione.",
+    "ko": "진동이 감지되면 참입니다.",
+    "no": "Sann når vibrasjon registreres.",
+    "pl": "Prawda, gdy wykryta jest wibracja.",
+    "ru": "Значение «истина» при обнаружении вибрации.",
+    "sv": "Sant när vibrationer detekteras."
   },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Vibration alarm turned on",
-    "nl": "Trilalarm ging af"
+    "nl": "Trilwaarschuwing geactiveerd",
+    "da": "Vibrationsalarm slået til",
+    "it": "Allarme vibrazione acceso",
+    "ko": "진동 알람 켜짐",
+    "no": "Vibrasjonsalarm aktivert",
+    "pl": "Alarm wibracji włączony",
+    "ru": "Сигнал о вибрации включен",
+    "sv": "Vibrationslarmet aktiverat"
   },
   "insightsTitleFalse": {
     "en": "Vibration alarm turned off",
-    "nl": "Trilalarm ging uit"
+    "nl": "Trilwaarschuwing gedeactiveerd",
+    "da": "Vibrationsalarm slået fra",
+    "it": "Allarme vibrazione spento",
+    "ko": "진동 알람 꺼짐",
+    "no": "Vibrasjonsalarm deaktivert",
+    "pl": "Alarm wibracji wyłączony",
+    "ru": "Сигнал о вибрации выключен",
+    "sv": "Vibrationslarmet inaktiverat"
   },
   "getable": true,
   "setable": false,
@@ -27,14 +55,28 @@
         "highlight": true,
         "title": {
           "en": "The vibration alarm turned on",
-          "nl": "Het trilalarm gaat aan"
+          "nl": "De trilwaarschuwing is geactiveerd",
+          "da": "Vibrationsalarmen slået til",
+          "it": "L'allarme vibrazione si è acceso",
+          "ko": "진동 알람이 켜짐",
+          "no": "Vibrasjonsalarmen ble aktivert",
+          "pl": "Włączył się alarm wibracji",
+          "ru": "Сигнал о вибрации включен",
+          "sv": "Vibrationslarmet aktiverat"
         }
       },
       {
         "id": "alarm_vibration_false",
         "title": {
           "en": "The vibration alarm turned off",
-          "nl": "Het trilalarm gaat uit"
+          "nl": "De trilwaarschuwing is gedeactiveerd",
+          "da": "Vibrationsalarmen slået fra",
+          "it": "L'allarme vibrazione si è spento",
+          "ko": "진동 알람이 꺼짐",
+          "no": "Vibrasjonsalarmen ble deaktivert",
+          "pl": "Wyłączył się alarm wibracji",
+          "ru": "Сигнал о вибрации выключен",
+          "sv": "Vibrationslarmet inaktiverat"
         }
       }
     ],
@@ -43,7 +85,14 @@
         "id": "alarm_vibration",
         "title": {
           "en": "The vibration alarm is !{{on|off}}",
-          "nl": "Het trilalarm is !{{aan|uit}}"
+          "nl": "De trilwaarschuwing is !{{geactiveerd|gedeactiveerd}}",
+          "da": "Vibrationsalarmen er !{{tændt|slukket}}",
+          "it": "L'allarme vibrazione è !{{acceso|spento}}",
+          "ko": "진동 알람이 !{{켜짐|꺼짐}}",
+          "no": "Vibrasjonsalarmen er !{{på|av}}",
+          "pl": "Alarm wibracji jest !{{włączony|wyłączony}}",
+          "ru": "Сигнал о вибрации !{{включен|выключен}}",
+          "sv": "Vibrationslarmet är !{{av|på}}"
         }
       }
     ]

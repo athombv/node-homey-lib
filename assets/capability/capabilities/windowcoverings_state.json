@@ -1,7 +1,7 @@
 {
   "title": {
     "en": "Window coverings state",
-    "nl": "Raambekledingstatus",
+    "nl": "Staat van raambekleding",
     "de": "Jalousien-Status",
     "fr": "Etat des stores",
     "it": "Stato delle tapparelle",
@@ -112,7 +112,7 @@
           "es": "El estado !{{|no}} es",
           "da": "Status er !{{|ikke}}",
           "ru": "Состояние !{{|не}}",
-          "pl": "Stan to !{{|nie}}",
+          "pl": "Stan !{{jest|nie jest}}",
           "ko": "상태가 다음!{{임|아님}}"
         },
         "args": [

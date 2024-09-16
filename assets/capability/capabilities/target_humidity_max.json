@@ -2,15 +2,33 @@
   "type": "number",
   "title": {
     "en": "Maximum target humidity",
-    "nl": "Maximale doelvochtigheid"
+    "nl": "Maximale gewenste vochtigheid",
+    "da": "Maksimal målfugtighed",
+    "it": "Umidità target massima",
+    "ko": "최대 목표 습도",
+    "pl": "Maksymalna docelowa wilgotność",
+    "ru": "Максимальная заданная влажность",
+    "sv": "Maximal målfuktighet"
   },
   "units": {
     "en": "%",
-    "nl": "%"
+    "nl": "%",
+    "da": "%",
+    "it": "%",
+    "ko": "%",
+    "pl": "%",
+    "ru": "%",
+    "sv": "%"
   },
   "desc": {
     "en": "The high end of the target humidity level in percent.",
-    "nl": "Het bovenste uiteinde van het doelvochtigheidsniveau in procent."
+    "nl": "De hoogste waarde van het gewenste vochtigheidsniveau in procenten.",
+    "da": "Den høje ende af den ønskede luftfugtighed i procent.",
+    "it": "Il massimo livello di umidità target in percentuale.",
+    "ko": "백분율로 표현한 목표 습도의 최대치입니다.",
+    "pl": "Górna granica docelowego poziomu wilgotności w procentach.",
+    "ru": "Верхний предел заданного уровня влажности в процентах.",
+    "sv": "Den övre delen av den önskade luftfuktighetsnivån i procent."
   },
   "insights": true,
   "chartType": "stepLine",
@@ -26,7 +44,14 @@
         "id": "target_humidity_max_changed",
         "title": {
           "en": "The maximum target humidity has changed",
-          "nl": "De maximale doelvochtigheid is gewijzigd"
+          "nl": "De maximale gewenste vochtigheid is veranderd",
+          "da": "Den maksimale målfugtighed er ændret",
+          "it": "L'umidità target massima è cambiata",
+          "ko": "최대 목표 습도 변경됨",
+          "no": "Maksimum ønsket fuktighet er endret",
+          "pl": "Zmieniła się maksymalna docelowa wilgotność",
+          "ru": "Максимальная заданная влажность изменена",
+          "sv": "Den högsta önskade luftfuktigheten har ändrats"
         },
         "tokens": [
           {
@@ -43,7 +68,13 @@
         "id": "set_target_humidity_max",
         "title": {
           "en": "Set the maximum target humidity",
-          "nl": "Stel de maximale doelvochtigheid in"
+          "nl": "De maximale gewenste vochtigheid instellen",
+          "da": "Indstil den maksimale målfugtighed",
+          "it": "Imposta l'umidità target massima",
+          "ko": "최대 목표 습도 설정",
+          "pl": "Ustaw maksymalną docelową wilgotność",
+          "ru": "Установить максимальную заданную влажность",
+          "sv": "Ställ in den högsta önskade luftfuktigheten"
         },
         "args": [
           {

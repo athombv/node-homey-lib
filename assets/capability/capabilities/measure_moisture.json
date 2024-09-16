@@ -2,15 +2,36 @@
   "type": "number",
   "title": {
     "en": "Moisture",
-    "nl": "Vochtigheid"
+    "nl": "Vochtigheid",
+    "da": "Fugt",
+    "it": "Umidità",
+    "ko": "습기",
+    "no": "Fukt",
+    "pl": "Wilgoć",
+    "ru": "Влажность",
+    "sv": "Fukt"
   },
   "units": {
     "en": "%",
-    "nl": "%"
+    "nl": "%",
+    "da": "%",
+    "it": "%",
+    "ko": "%",
+    "no": "%",
+    "pl": "%",
+    "ru": "%",
+    "sv": "%"
   },
   "desc": {
     "en": "The moisture level in percentage.",
-    "nl": "Het vochtigheidsniveau in procent."
+    "nl": "Het vochtigheidsniveau in procenten.",
+    "da": "Fugtniveauet i procent.",
+    "it": "Il livello di umidità in percentuale.",
+    "ko": "백분율로 표현한 습기 수준입니다.",
+    "no": "Fuktnivået i prosent.",
+    "pl": "Poziom wilgoci w procentach.",
+    "ru": "Уровень влажности в процентах.",
+    "sv": "Fuktnivån i procent."
   },
   "insights": true,
   "chartType": "spline",
@@ -26,7 +47,14 @@
         "id": "measure_moisture_changed",
         "title": {
           "en": "The moisture level changed",
-          "nl": "Het vochtigheidsniveau is veranderd"
+          "nl": "Het vochtigheidsniveau is veranderd",
+          "da": "Fugtniveauet ændrede sig",
+          "it": "Il livello di umidità è cambiato",
+          "ko": "습기 수준 변경됨",
+          "no": "Fuktnivået ble endret",
+          "pl": "Zmienił się poziom wilgoci",
+          "ru": "Уровень влажности изменился",
+          "sv": "Fuktnivån ändrades"
         },
         "tokens": [
           {

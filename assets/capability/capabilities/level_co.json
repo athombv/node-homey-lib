@@ -2,39 +2,75 @@
   "type": "enum",
   "title": {
     "en": "CO level",
-    "nl": "CO-niveau"
+    "nl": "CO-niveau",
+    "da": "CO-niveau",
+    "it": "Livello di CO",
+    "ko": "CO 수준",
+    "pl": "Poziom CO",
+    "ru": "Уровень CO",
+    "sv": "CO-nivå"
   },
   "desc": {
     "en": "The level of CO in the air.",
-    "nl": "Het niveau van CO in de lucht."
+    "nl": "De mate van CO in de lucht.",
+    "da": "Niveauet af CO i luften.",
+    "it": "Il livello di CO nell'aria.",
+    "ko": "공기 중 CO의 수준입니다.",
+    "pl": "Poziom tlenku węgla w powietrzu.",
+    "ru": "Уровень содержания CO в воздухе.",
+    "sv": "Halten av CO i luften."
   },
   "values": [
     {
       "id": "low",
       "title": {
         "en": "Low",
-        "nl": "Laag"
+        "nl": "Laag",
+        "da": "Lavt",
+        "it": "Basso",
+        "ko": "낮음",
+        "pl": "Niski",
+        "ru": "Низкий",
+        "sv": "Låg"
       }
     },
     {
       "id": "medium",
       "title": {
         "en": "Medium",
-        "nl": "Middel"
+        "nl": "Gemiddeld",
+        "da": "Medium",
+        "it": "Medio",
+        "ko": "중간",
+        "pl": "Średni",
+        "ru": "Средний",
+        "sv": "Medium"
       }
     },
     {
       "id": "high",
       "title": {
         "en": "High",
-        "nl": "Hoog"
+        "nl": "Hoog",
+        "da": "Højt",
+        "it": "Alto",
+        "ko": "높음",
+        "pl": "Wysoki",
+        "ru": "Высокий",
+        "sv": "Hög"
       }
     },
     {
       "id": "critical",
       "title": {
         "en": "Critical",
-        "nl": "Kritiek"
+        "nl": "Kritiek",
+        "da": "Kritisk",
+        "it": "Critico",
+        "ko": "치명적",
+        "pl": "Krytyczny",
+        "ru": "Критический",
+        "sv": "Kritisk"
       }
     }
   ],
@@ -48,7 +84,13 @@
         "highlight": true,
         "title": {
           "en": "The CO level changed to",
-          "nl": "Het CO-niveau is veranderd naar"
+          "nl": "Het CO-niveau is veranderd naar",
+          "da": "CO-niveauet blev ændret til",
+          "it": "Il livello di CO è passato a",
+          "ko": "CO 수준이 다음으로 변경됨",
+          "pl": "Poziom CO zmienił się na",
+          "ru": "Уровень СО изменился на",
+          "sv": "CO-nivån ändrades till"
         },
         "args": [
           {
@@ -64,7 +106,13 @@
         "id": "level_co_is",
         "title": {
           "en": "The CO level !{{is|is not}}",
-          "nl": "Het CO-niveau !{{is|is niet}}"
+          "nl": "Het CO-niveau !{{is|is niet}}",
+          "da": "CO-niveauet !{{er|er ikke}}",
+          "it": "Il livello di CO !{{è|non è}}",
+          "ko": "CO 수준이 다음!{{과 같음| 아님}}",
+          "pl": "Poziom CO !{{jest|nie jest}}",
+          "ru": "Уровень CO !{{is|is not}}",
+          "sv": "CO-nivån !{{är|är inte}}"
         },
         "args": [
           {

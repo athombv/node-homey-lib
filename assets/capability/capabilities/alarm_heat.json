@@ -2,7 +2,7 @@
   "type": "boolean",
   "title": {
     "en": "Heat alarm",
-    "nl": "Hitte-alarm",
+    "nl": "Hittewaarschuwing",
     "de": "Hitze-Alarm",
     "fr": "Alarme chaleur",
     "it": "Allarme di calore",
@@ -21,7 +21,7 @@
     "fr": "Vrai si une chaleur extrême a été détectée",
     "it": "Vero quando è stato rilevato un calore estremo",
     "sv": "Sant när extrem hetta upptäckts",
-    "no": "Sant når ekstrem varme påvises",
+    "no": "Sann når ekstrem varme har blitt påvist",
     "es": "Verdadero cuando se ha detectado un calor extremo",
     "da": "Sandt, når ekstrem varme er blevet opdaget",
     "ru": "Верно при обнаружении экстремально высокой температуры",
@@ -67,12 +67,12 @@
         "highlight": true,
         "title": {
           "en": "The heat alarm turned on",
-          "nl": "Het hitte-alarm gaat aan",
+          "nl": "De hittewaarschuwing is geactiveerd",
           "de": "Der Hitze-Alarm ist angegangen",
           "fr": "L'alarme chaleur s'est activée",
           "it": "L'allarme di calore è stato attivato",
           "sv": "Värmelarmet aktiverat",
-          "no": "Varmealarmen aktivert",
+          "no": "Varmealarmen ble aktivert",
           "es": "La alarma de calor se ha activado",
           "da": "Varmealarmen blev aktiveret",
           "ru": "Сигнал перегрева включен",
@@ -84,12 +84,12 @@
         "id": "alarm_heat_false",
         "title": {
           "en": "The heat alarm turned off",
-          "nl": "Het hitte-alarm gaat uit",
+          "nl": "De hittewaarschuwing is gedeactiveerd",
           "de": "Der Hitze-Alarm ist ausgegangen",
           "fr": "L'alarme chaleur s'est désactivée",
           "it": "L'allarme di calore è stato disattivato",
           "sv": "Värmelarmet inaktiverat",
-          "no": "Varmealarmen deaktivert",
+          "no": "Varmealarmen ble deaktivert",
           "es": "La alarma de calor se ha desactivado",
           "da": "Varmealarmen blev deaktiveret",
           "ru": "Сигнал перегрева выключен",
@@ -103,7 +103,7 @@
         "id": "alarm_heat",
         "title": {
           "en": "The heat alarm is !{{on|off}}",
-          "nl": "Het hitte-alarm is !{{aan|uit}}",
+          "nl": "De hittewaarschuwing is !{{geactiveerd|gedeactiveerd}}",
           "de": "Der Hitze-Alarm ist !{{an|aus}}",
           "fr": "L'alarme chaleur est !{{en marche|arrêtée}}",
           "it": "L'allarme di calore è !{{acceso|spento}}",
@@ -112,7 +112,7 @@
           "es": "La alarma de calor está !{{activada|desactivada}}",
           "da": "Varmealarmen er !{{tændt|slukket}}",
           "ru": "Сигнал перегрева !{{вкл.|выкл.}}",
-          "pl": "Alarm termiczny !{{włączony|wyłączony}}",
+          "pl": "Alarm ciepła jest !{{włączony|wyłączony}}",
           "ko": "과열 알람 !{{켬|끔}}"
         }
       }

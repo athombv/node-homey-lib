@@ -2,28 +2,52 @@
   "type": "enum",
   "title": {
     "en": "Hot water mode",
-    "nl": "Warmwatermodus"
+    "nl": "Warmwatermodus",
+    "da": "Varmtvandstilstand",
+    "it": "Modalità acqua calda",
+    "ko": "온수 모드",
+    "pl": "Tryb ciepłej wody",
+    "ru": "Режим нагрева воды",
+    "sv": "Varmvattenläge"
   },
   "values": [
     {
       "id": "on",
       "title": {
         "en": "On",
-        "nl": "Aan"
+        "nl": "Aan",
+        "da": "Til",
+        "it": "On",
+        "ko": "켜짐",
+        "pl": "Wł",
+        "ru": "Включен",
+        "sv": "På"
       }
     },
     {
       "id": "off",
       "title": {
         "en": "Off",
-        "nl": "Uit"
+        "nl": "Uit",
+        "da": "Fra",
+        "it": "Off",
+        "ko": "꺼짐",
+        "pl": "Wył",
+        "ru": "Выключен",
+        "sv": "Av"
       }
     },
     {
       "id": "eco",
       "title": {
         "en": "Eco",
-        "nl": "Eco"
+        "nl": "Eco",
+        "da": "Øko",
+        "it": "Eco",
+        "ko": "에코",
+        "pl": "Eko",
+        "ru": "Эко",
+        "sv": "Eco"
       }
     }
   ],
@@ -35,8 +59,15 @@
       {
         "id": "hot_water_mode_changed",
         "title": {
-          "en": "The hot water mode changed to",
-          "nl": "De warmwatermodus veranderd naar"
+          "en": "The hot water mode has changed to",
+          "nl": "De warmwatermodus is veranderd naar",
+          "da": "Varmtvandstilstanden er ændret til",
+          "it": "La modalità acqua calda è passata a",
+          "ko": "온수 모드가 다음으로 변경됨",
+          "no": "Varmtvannsmodus er endret til",
+          "pl": "Tryb ciepłej wody zmienił się na",
+          "ru": "Режим нагрева воды изменен на",
+          "sv": "Varmvattenläget har ändrats till"
         },
         "args": [
           {
@@ -52,7 +83,13 @@
         "id": "hot_water_mode_is",
         "title": {
           "en": "The hot water mode !{{is|is not}}",
-          "nl": "De warmwatermodus !{{is|is niet}}"
+          "nl": "De warmwatermodus !{{is|is niet}}",
+          "da": "Tilstanden for varmt vand !{{er|er ikke}}!",
+          "it": "La modalità acqua calda !{{è|non è}}",
+          "ko": "온수 모드가 다음!{{과 같음| 아님}}",
+          "pl": "Tryb gorącej wody !{{jest|nie jest}}",
+          "ru": "Режим нагрева воды !{{is|is not}}",
+          "sv": "Varmvattenläge !{{är|är inte}}"
         },
         "args": [
           {
@@ -68,7 +105,13 @@
         "id": "set_hot_water_mode",
         "title": {
           "en": "Set the hot water mode to",
-          "nl": "Stel de warmwatermodus in op"
+          "nl": "De warmwatermodus instellen op",
+          "da": "Indstil varmtvandstilstanden til",
+          "it": "Imposta la modalità acqua calda su",
+          "ko": "온수 모드를 다음으로 설정",
+          "pl": "Ustaw tryb ciepłej wody na",
+          "ru": "Установить режим нагрева воды на",
+          "sv": "Ställ in varmvattenläget på"
         },
         "args": [
           {

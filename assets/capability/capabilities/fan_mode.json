@@ -2,28 +2,54 @@
   "type": "enum",
   "title": {
     "en": "Fan Mode",
-    "nl": "Ventilatorstand"
+    "nl": "Ventilatormodus",
+    "da": "Ventilatortilstand",
+    "it": "Modalità ventola",
+    "ko": "팬 모드",
+    "pl": "Tryb wentylatora",
+    "ru": "Режим вентилятора",
+    "sv": "Fläktläge"
   },
   "values": [
     {
       "id": "auto",
       "title": {
         "en": "Auto",
-        "nl": "Automatisch"
+        "nl": "Automatisch",
+        "da": "Auto",
+        "it": "Auto",
+        "ko": "자동",
+        "pl": "Auto",
+        "ru": "Авто",
+        "sv": "Auto"
       }
     },
     {
       "id": "on",
       "title": {
         "en": "On",
-        "nl": "Aan"
+        "nl": "Aan",
+        "da": "Til",
+        "it": "On",
+        "ko": "켜짐",
+        "no": "På",
+        "pl": "Wł",
+        "ru": "Включен",
+        "sv": "På"
       }
     },
     {
       "id": "off",
       "title": {
         "en": "Off",
-        "nl": "Uit"
+        "nl": "Uit",
+        "da": "Fra",
+        "it": "Off",
+        "ko": "꺼짐",
+        "no": "Av",
+        "pl": "Wył",
+        "ru": "Выключен",
+        "sv": "Av"
       }
     }
   ],
@@ -35,8 +61,15 @@
       {
         "id": "fan_mode_changed",
         "title": {
-          "en": "The fan mode changed to",
-          "nl": "De ventilatorstand veranderd naar"
+          "en": "The fan mode has changed to",
+          "nl": "De ventilatormodus is veranderd naar",
+          "da": "Ventilatortilstanden er ændret til",
+          "it": "La modalità ventola è passata a",
+          "ko": "팬 모드가 다음으로 변경됨",
+          "no": "Viftemodusen er endret til",
+          "pl": "Tryb wentylatora zmienił się na",
+          "ru": "Режим вентилятора изменен на",
+          "sv": "Fläktläget har ändrats till"
         },
         "args": [
           {
@@ -52,7 +85,14 @@
         "id": "fan_mode_is",
         "title": {
           "en": "The fan mode !{{is|is not}}",
-          "nl": "De ventilatorstand !{{is|is niet}}"
+          "nl": "De ventilatormodus !{{is|is niet}}",
+          "da": "Ventilatortilstand !{{er|er ikke}}",
+          "it": "La modalità ventola !{{è|non è}}",
+          "ko": "팬 모드가 다음!{{과 같음| 아님}}",
+          "no": "Viftemodusen !{{er|er ikke}}",
+          "pl": "Tryb wentylatora !{{jest|nie jest}}",
+          "ru": "Режим вентилятора !{{is|is not}}",
+          "sv": "Fläktläge !{{är|är inte}}"
         },
         "args": [
           {
@@ -68,7 +108,14 @@
         "id": "set_fan_mode",
         "title": {
           "en": "Set fan mode to",
-          "nl": "Stel ventilatorstand in op"
+          "nl": "Ventilatormodus instellen op",
+          "da": "Indstil ventilatortilstand til",
+          "it": "Imposta la modalità ventola su",
+          "ko": "팬 모드를 다음으로 설정",
+          "no": "Sett viftemodus til",
+          "pl": "Ustaw tryb wentylatora na",
+          "ru": "Установить режим вентилятора на",
+          "sv": "Ställ in fläktläget på"
         },
         "args": [
           {
