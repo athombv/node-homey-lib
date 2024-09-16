@@ -97,7 +97,7 @@
           "es": "Está !{{cerrado|abierto}}",
           "da": "Er !{{lukket|åben}}",
           "ru": "!{{закрыта|открыта}}",
-          "pl": "Są !{{zamknięte|otwarte}}",
+          "pl": "Jest !{{zamknięta|otwarta}}",
           "ko": "!{{닫힘|열림}}"
         }
       }

@@ -49,14 +49,14 @@
           "nl": "Het volume is veranderd",
           "de": "Lautstärke hat sich geändert",
           "fr": "Volume a été modifié",
-          "it": "Il volume è cambiato",
+          "it": "Volume modificato",
           "sv": "Volymen ändrades",
           "no": "Volumet ble endret",
           "es": "El volumen ha cambiado",
-          "da": "Lydstyrken ændrede sig",
-          "ru": "Объем изменен",
-          "pl": "Zmienił się poziom głośności",
-          "ko": "부피 변경됨"
+          "da": "Lydstyrke blev ændret",
+          "ru": "Объем изменился",
+          "pl": "Zmiana poziomu głośności",
+          "ko": "볼륨 변경됨"
         },
         "tokens": [
           {
@@ -87,17 +87,17 @@
         "highlight": true,
         "title": {
           "en": "Set the volume to",
-          "nl": "Het volume instellen op",
+          "nl": "Zet het volume naar",
           "de": "Lautstärke setzen auf",
           "fr": "Mettre le volume sur",
-          "it": "Imposta il volume a",
+          "it": "Imposta il volume al",
           "sv": "Ställ in volymen på",
           "no": "Sett volumet til",
           "es": "Configurar el volumen a",
           "da": "Indstil lydstyrke til",
-          "ru": "Установить громкость на",
+          "ru": "Установить громкость",
           "pl": "Ustaw poziom głośności na",
-          "ko": "부피를 다음으로 설정"
+          "ko": "볼륨을 다음으로 설정"
         },
         "args": [
           {

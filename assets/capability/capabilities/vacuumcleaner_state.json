@@ -144,7 +144,7 @@
           "es": "La aspiradora !{{está|no está}}",
           "da": "Støvsugeren !{{er|er ikke}}",
           "ru": "Пылесос !{{|не}}",
-          "pl": "Stan odkurzacza !{{jest|nie jest}}",
+          "pl": "Stan odkurzacza !{{to|to nie}}",
           "ko": "진공청소기가 다음으로 설정!{{됨|되지 않음}}"
         },
         "args": [
@@ -179,7 +179,7 @@
         "id": "spot_clean",
         "title": {
           "en": "Start spot cleaning",
-          "nl": "Vlekreiniging starten",
+          "nl": "Begin met pleksgewijs stofzuigen",
           "de": "Mit Spot-Reinigung anfangen",
           "fr": "Commencer le détachage",
           "it": "Avvia la pulizia delle macchie",
