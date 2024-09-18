@@ -85,6 +85,13 @@
         "ru": "Постоянная температура",
         "sv": "Konstant temperatur"
       }
+    },
+    {
+      "id": "automatic",
+      "title": {
+        "en": "Automatic",
+        "nl": "Automatisch"
+      }
     }
   ],
   "getable": true,
