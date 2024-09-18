@@ -70,8 +70,8 @@
         "id": "level_carbon_filter_changed",
         "highlight": true,
         "title": {
-          "en": "The carbon filter level changed to",
-          "nl": "Het koolstoffilterniveau is veranderd naar",
+          "en": "The carbon filter level changed",
+          "nl": "Het koolstoffilterniveau is veranderd",
           "da": "Kulfilterniveauet blev ændret til",
           "it": "Il livello del filtro al carbone è passato a",
           "ko": "카본 필터 수준이 다음으로 변경됨",

@@ -59,8 +59,8 @@
       {
         "id": "swing_mode_changed",
         "title": {
-          "en": "Swing mode has changed",
-          "nl": "Zwenkmodus is veranderd",
+          "en": "Swing mode has changed to",
+          "nl": "Zwenkmodus is veranderd naar",
           "da": "Svingtilstanden har ændret sig",
           "it": "La modalità swing è cambiata",
           "ko": "스윙 모드가 변경됨",

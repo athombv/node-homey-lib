@@ -41,8 +41,8 @@
       {
         "id": "measure_radon_changed",
         "title": {
-          "en": "The Radon value has changed",
-          "nl": "De radonwaarde is veranderd",
+          "en": "The radon level has changed",
+          "nl": "Het radon-niveau is veranderd",
           "da": "Radon-værdien har ændret sig",
           "it": "Il valore del Radon è cambiato",
           "ko": "라돈 값 변경됨",

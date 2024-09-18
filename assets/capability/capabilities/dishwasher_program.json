@@ -70,8 +70,8 @@
         "id": "dishwasher_program_changed",
         "highlight": true,
         "title": {
-          "en": "The dishwasher program changed to",
-          "nl": "Het vaatwasprogramma is veranderd naar",
+          "en": "The program changed to",
+          "nl": "Het programma is veranderd naar",
           "da": "Opvaskemaskinens program blev ændret til",
           "it": "Il programma della lavastoviglie è passato a",
           "ko": "식기세척기 프로그램이 다음으로 변경됨",
@@ -92,8 +92,8 @@
       {
         "id": "dishwasher_program_is",
         "title": {
-          "en": "The dishwasher program is",
-          "nl": "Het vaatwasprogramma is",
+          "en": "The program is",
+          "nl": "Het programma is",
           "da": "Opvaskemaskinens program er",
           "it": "Il programma della lavastoviglie è",
           "ko": "현재 식기세척기 프로그램",

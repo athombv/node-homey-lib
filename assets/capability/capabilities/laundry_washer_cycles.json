@@ -83,8 +83,8 @@
         "id": "laundry_washer_cycles_changed",
         "highlight": true,
         "title": {
-          "en": "The laundry washer cycles changed to",
-          "nl": "De wasmachinecycli zijn veranderd naar",
+          "en": "The cycles changed to",
+          "nl": "De cycli zijn veranderd naar",
           "da": "Vaskemaskinens cyklusser blev ændret til",
           "it": "I cicli della lavatrice sono passati a",
           "ko": "세탁기 사이클이 다음으로 변경됨",
@@ -105,8 +105,8 @@
       {
         "id": "laundry_washer_cycles_is",
         "title": {
-          "en": "The laundry washer cycles !{{is|is not}}",
-          "nl": "De wasmachinecycli !{{is|is niet}}",
+          "en": "The cycles !{{is|is not}}",
+          "nl": "De cycli !{{is|is niet}}",
           "da": "Vaskemaskinens cyklusser !{{er|er ikke}}",
           "it": "I cicli della lavatrice !{{sono|non sono}}",
           "ko": "세탁기 사이클이 다음!{{과 같음| 아님}}",
