@@ -41,7 +41,7 @@
       {
         "id": "measure_ch2o_changed",
         "title": {
-          "en": "The Formaldehyde level changed",
+          "en": "The formaldehyde level changed",
           "nl": "Het formaldehydeniveau is veranderd",
           "da": "Formaldehydniveauet ændrede sig",
           "it": "Il livello di formaldeide è cambiato",
@@ -61,5 +61,5 @@
       }
     ]
   },
-  "minCompatibility": "12.1.0"
+  "minCompatibility": "12.2.0"
 }

@@ -50,7 +50,7 @@
         "id": "oscillating_true",
         "highlight": true,
         "title": {
-          "en": "Oscillation enabled",
+          "en": "Oscillation turned on",
           "nl": "Oscillatie ingeschakeld",
           "da": "Oscillation aktiveret",
           "it": "Oscillazione abilitata",
@@ -63,7 +63,7 @@
       {
         "id": "oscillating_false",
         "title": {
-          "en": "Oscillation disabled",
+          "en": "Oscillation turned off",
           "nl": "Oscillatie uitgeschakeld",
           "da": "Oscillation deaktiveret",
           "it": "Oscillazione disabilitata",
@@ -131,5 +131,5 @@
       }
     ]
   },
-  "minCompatibility": "12.1.0"
+  "minCompatibility": "12.2.0"
 }

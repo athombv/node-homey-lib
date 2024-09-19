@@ -85,6 +85,13 @@
         "ru": "Постоянная температура",
         "sv": "Konstant temperatur"
       }
+    },
+    {
+      "id": "automatic",
+      "title": {
+        "en": "Automatic",
+        "nl": "Automatisch"
+      }
     }
   ],
   "getable": true,
@@ -159,5 +166,5 @@
       }
     ]
   },
-  "minCompatibility": "12.1.0"
+  "minCompatibility": "12.2.0"
 }

@@ -70,8 +70,8 @@
         "id": "refrigerator_mode_changed",
         "highlight": true,
         "title": {
-          "en": "The refrigerator mode changed to",
-          "nl": "De koelkastmodus is veranderd naar",
+          "en": "The mode changed to",
+          "nl": "De modus is veranderd naar",
           "da": "Køleskabets tilstand ændrede sig til",
           "it": "La modalità del frigorifero è passata a",
           "ko": "냉장고 모드가 다음으로 변경됨",
@@ -92,8 +92,8 @@
       {
         "id": "refrigerator_mode_is",
         "title": {
-          "en": "The refrigerator mode !{{is|is not}}",
-          "nl": "De koelkastmodus !{{is|is niet}}",
+          "en": "The mode !{{is|is not}}",
+          "nl": "De modus !{{is|is niet}}",
           "da": "Køleskabstilstand !{{er|er ikke}}",
           "it": "La modalità del frigorifero !{{è|non è}}",
           "ko": "냉장고 모드가 다음!{{과 같음| 아님}}",
@@ -114,8 +114,8 @@
       {
         "id": "set_refrigerator_mode",
         "title": {
-          "en": "Set the refrigerator mode to",
-          "nl": "De koelkastmodus instellen op",
+          "en": "Set the mode to",
+          "nl": "De modus instellen op",
           "da": "Indstil køleskabstilstanden til",
           "it": "Imposta la modalità del frigorifero su",
           "ko": "냉장고 모드를 다음으로 설정",
@@ -133,5 +133,5 @@
       }
     ]
   },
-  "minCompatibility": "12.1.0"
+  "minCompatibility": "12.2.0"
 }

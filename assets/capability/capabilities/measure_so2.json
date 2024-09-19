@@ -41,8 +41,8 @@
       {
         "id": "measure_so2_changed",
         "title": {
-          "en": "The SO2 value has changed",
-          "nl": "De SO2-waarde is veranderd",
+          "en": "The SO2 level has changed",
+          "nl": "Het SO2-niveau is veranderd",
           "da": "SO2-værdien har ændret sig",
           "it": "Il valore di SO2 è cambiato",
           "ko": "SO2 값 변경됨",
@@ -62,5 +62,5 @@
       }
     ]
   },
-  "minCompatibility": "12.1.0"
+  "minCompatibility": "12.2.0"
 }
