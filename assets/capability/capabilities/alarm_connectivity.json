@@ -58,7 +58,7 @@
         "id": "alarm_connectivity_true",
         "highlight": true,
         "title": {
-          "en": "Disconnected",
+          "en": "Is disconnected",
           "nl": "Niet verbonden",
           "da": "Afbrudt",
           "fr": "Déconnecté",
@@ -73,7 +73,7 @@
       {
         "id": "alarm_connectivity_false",
         "title": {
-          "en": "Connected",
+          "en": "Is connected",
           "nl": "Verbonden",
           "da": "Tilsluttet",
           "fr": "Connecté",
@@ -103,5 +103,5 @@
       }
     ]
   },
-  "minCompatibility": "12.1.0"
+  "minCompatibility": "12.2.0"
 }

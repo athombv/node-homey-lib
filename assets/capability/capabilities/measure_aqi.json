@@ -32,7 +32,7 @@
       {
         "id": "measure_aqi_changed",
         "title": {
-          "en": "The Air Quality Index changed",
+          "en": "The air quality index changed",
           "nl": "De luchtkwaliteitsindex is veranderd",
           "da": "Luftkvalitetsindekset ændrede sig",
           "it": "L'indice di qualità dell'aria è cambiato",
@@ -52,5 +52,5 @@
       }
     ]
   },
-  "minCompatibility": "12.1.0"
+  "minCompatibility": "12.2.0"
 }

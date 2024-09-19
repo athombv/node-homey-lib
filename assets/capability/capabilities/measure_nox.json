@@ -44,8 +44,8 @@
       {
         "id": "measure_nox_changed",
         "title": {
-          "en": "The NOx value changed",
-          "nl": "De NOx-waarde is veranderd",
+          "en": "The NOx level changed",
+          "nl": "Het NOx-niveau is veranderd",
           "da": "NOx-værdien ændrede sig",
           "it": "Il valore di NOx è cambiato",
           "ko": "NOx 값 변경됨",
@@ -65,5 +65,5 @@
       }
     ]
   },
-  "minCompatibility": "12.1.0"
+  "minCompatibility": "12.2.0"
 }

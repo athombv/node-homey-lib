@@ -84,7 +84,7 @@
       {
         "id": "alarm_tank_missing",
         "title": {
-          "en": "The tank is !{{missing|placed}}",
+          "en": "Tank !{{is|is not}} missing",
           "nl": "De tank !{{ontbreekt|is geplaatst}}",
           "da": "Tanken er !{{manglende|placeret}}",
           "it": "Il serbatoio è !{{assente|presente}}",
@@ -97,5 +97,5 @@
       }
     ]
   },
-  "minCompatibility": "12.1.0"
+  "minCompatibility": "12.2.0"
 }

@@ -30,8 +30,8 @@
       {
         "id": "measure_tvoc_index_changed",
         "title": {
-          "en": "The TVOC index value has changed",
-          "nl": "De VOS-indexwaarde is veranderd",
+          "en": "The TVOC index has changed",
+          "nl": "De VOS-index is veranderd",
           "da": "TVOC-indeksværdien har ændret sig",
           "it": "Il valore dell'indice TVOC è cambiato",
           "ko": "TVOC 지수 값이 변경됨",
@@ -51,5 +51,5 @@
       }
     ]
   },
-  "minCompatibility": "12.1.0"
+  "minCompatibility": "12.2.0"
 }

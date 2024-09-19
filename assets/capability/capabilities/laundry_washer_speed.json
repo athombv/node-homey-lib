@@ -70,8 +70,8 @@
         "id": "laundry_washer_speed_changed",
         "highlight": true,
         "title": {
-          "en": "The laundry washer speed changed to",
-          "nl": "Het toerental van de wasmachine is veranderd naar",
+          "en": "The speed changed to",
+          "nl": "Het toerental is veranderd naar",
           "da": "Vaskemaskinens hastighed blev ændret til",
           "it": "La velocità della lavatrice è passata a",
           "ko": "세탁기 속도가 다음으로 변경됨",
@@ -92,8 +92,8 @@
       {
         "id": "laundry_washer_speed_is",
         "title": {
-          "en": "The laundry washer speed !{{is|is not}}",
-          "nl": "Het toerental van de wasmachine !{{is|is niet}}",
+          "en": "The speed !{{is|is not}}",
+          "nl": "Het toerental !{{is|is niet}}",
           "da": "Vaskemaskinens hastighed !{{er|er ikke}}",
           "it": "La velocità della lavatrice !{{è|non è}}",
           "ko": "세탁기 속도가 다음!{{과 같음| 아님}}",
@@ -114,8 +114,8 @@
       {
         "id": "set_laundry_washer_speed",
         "title": {
-          "en": "Set the laundry washer speed to",
-          "nl": "Het toerental van de wasmachine instellen op",
+          "en": "Set the speed to",
+          "nl": "Het toerental instellen op",
           "da": "Indstil vaskemaskinens hastighed til",
           "it": "Imposta la velocità della lavatrice su",
           "ko": "세탁기 속도를 다음으로 설정",
@@ -133,5 +133,5 @@
       }
     ]
   },
-  "minCompatibility": "12.1.0"
+  "minCompatibility": "12.2.0"
 }

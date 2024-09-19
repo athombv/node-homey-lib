@@ -50,8 +50,8 @@
         "id": "docked_true",
         "highlight": true,
         "title": {
-          "en": "Docked",
-          "nl": "Gekoppeld",
+          "en": "Has docked",
+          "nl": "Is gekoppeld",
           "da": "Forankret",
           "it": "Alloggiato",
           "ko": "도킹됨",
@@ -63,8 +63,8 @@
       {
         "id": "docked_false",
         "title": {
-          "en": "Not docked",
-          "nl": "Niet gekoppeld",
+          "en": "Has undocked",
+          "nl": "Is losgekoppeld",
           "da": "Ikke forankret",
           "it": "Non alloggiato",
           "ko": "도킹되지 않음",
@@ -78,7 +78,7 @@
       {
         "id": "docked",
         "title": {
-          "en": "Is !{{Docked|Not docked}}",
+          "en": "Is !{{docked|not docked}}",
           "nl": "Is !{{gekoppeld|niet gekoppeld}}",
           "da": "Er !{{Forankret|Ikke forankret}}",
           "it": "È !{{alloggiato|non alloggiato}}",
@@ -90,5 +90,5 @@
       }
     ]
   },
-  "minCompatibility": "12.1.0"
+  "minCompatibility": "12.2.0"
 }
