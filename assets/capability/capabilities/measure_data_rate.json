@@ -8,7 +8,10 @@
     "ko": "데이터 전송률",
     "pl": "Szybkość transmisji danych",
     "ru": "Скорость передачи данных",
-    "sv": "Datahastighet"
+    "sv": "Datahastighet",
+    "es": "Velocidad de datos",
+    "fr": "Débits de données",
+    "no": "Bitrate"
   },
   "units": {
     "en": "b/s",
@@ -18,7 +21,10 @@
     "ko": "bps",
     "pl": "b/s",
     "ru": "бит/с",
-    "sv": "b/s"
+    "sv": "b/s",
+    "es": "b/s",
+    "fr": "b/s",
+    "no": "b/s"
   },
   "desc": {
     "en": "The data rate in bits per second.",
@@ -28,7 +34,10 @@
     "ko": "초당 비트 단위의 데이터 전송률입니다.",
     "pl": "Szybkość transmisji danych w bitach na sekundę.",
     "ru": "Скорость передачи данных в битах в секунду.",
-    "sv": "Datahastigheten i bitar per sekund."
+    "sv": "Datahastigheten i bitar per sekund.",
+    "es": "La velocidad de transmisión de datos en bits por segundo.",
+    "fr": "Le débit de données en bits par seconde.",
+    "no": "Bitrate i bits per sekund."
   },
   "insights": true,
   "chartType": "spline",
@@ -48,7 +57,10 @@
           "ko": "데이터 전송률 변경됨",
           "pl": "Zmieniła się szybkość transmisji danych",
           "ru": "Скорость передачи данных изменилась",
-          "sv": "Datahastigheten ändrades"
+          "sv": "Datahastigheten ändrades",
+          "es": "La velocidad de datos ha cambiado",
+          "fr": "Le débit de données a changé",
+          "no": "Bitraten ble endret"
         },
         "tokens": [
           {

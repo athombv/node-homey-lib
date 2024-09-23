@@ -8,7 +8,10 @@
     "ko": "카본 필터",
     "pl": "Filtr węglowy",
     "ru": "Угольный фильтр",
-    "sv": "Kolfilter"
+    "sv": "Kolfilter",
+    "es": "Filtro de carbono",
+    "fr": "Filtre à charbon",
+    "no": "Karbonfilter"
   },
   "units": {
     "en": "%",
@@ -18,7 +21,10 @@
     "ko": "%",
     "pl": "%",
     "ru": "%",
-    "sv": "%"
+    "sv": "%",
+    "es": "%",
+    "fr": " %",
+    "no": "%"
   },
   "desc": {
     "en": "The carbon filter level in percent.",
@@ -28,7 +34,10 @@
     "ko": "백분율로 표현한 카본 필터 수준입니다.",
     "pl": "Poziom filtra węglowego w procentach.",
     "ru": "Уровень угольного фильтра в процентах.",
-    "sv": "Kolfilternivån i procent."
+    "sv": "Kolfilternivån i procent.",
+    "es": "El nivel del filtro de carbono en porcentaje.",
+    "fr": "Le niveau du filtre à charbon en pourcentage.",
+    "no": "Karbonfilternivået i prosent."
   },
   "min": 0,
   "max": 100,
@@ -44,12 +53,15 @@
         "title": {
           "en": "The carbon filter level changed",
           "nl": "Het koolstoffilterniveau is veranderd",
-          "da": "Kulfilterniveauet blev ændret til",
-          "it": "Il livello del filtro al carbone è passato a",
-          "ko": "카본 필터 수준이 다음으로 변경됨",
-          "pl": "Poziom filtra węglowego zmienił się na",
+          "da": "Kulfilterniveauet ændrede sig",
+          "it": "Il livello del filtro a carbone è cambiato",
+          "ko": "카본 필터 수준 변경됨",
+          "pl": "Zmienił się poziom filtra węglowego",
           "ru": "Уровень угольного фильтра изменился на",
-          "sv": "Kolfilternivån ändrades till"
+          "sv": "Kolfilternivån ändrades",
+          "es": "El nivel del filtro de carbono ha cambiado",
+          "fr": "Le niveau du filtre à charbon est passé à",
+          "no": "Karbonfilternivået ble endret"
         },
         "tokens": [
           {

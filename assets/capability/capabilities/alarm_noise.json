@@ -9,7 +9,9 @@
     "no": "Støyalarm",
     "pl": "Alarm hałasu",
     "ru": "Сигнал шума",
-    "sv": "Bullerlarm"
+    "sv": "Bullerlarm",
+    "es": "Alarma de ruido",
+    "fr": "Alarme sonore"
   },
   "desc": {
     "en": "True when sound is detected.",
@@ -20,7 +22,9 @@
     "no": "Sann når lyd registreres.",
     "pl": "Prawda, gdy wykryty jest dźwięk.",
     "ru": "Значение «истина» при обнаружении звука.",
-    "sv": "Sant när ljud detekteras."
+    "sv": "Sant när ljud detekteras.",
+    "es": "Activado cuando se detecta sonido.",
+    "fr": "Se déclenche lorsque du son est détecté."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +36,9 @@
     "no": "Støyalarm aktivert",
     "pl": "Alarm hałasu włączony",
     "ru": "Сигнал шума включен",
-    "sv": "Bullerlarm aktiverat"
+    "sv": "Bullerlarm aktiverat",
+    "es": "Alarma de ruido activada",
+    "fr": "Alarme sonore activée"
   },
   "insightsTitleFalse": {
     "en": "Noise Alarm turned off",
@@ -43,7 +49,9 @@
     "no": "Støyalarm deaktivert",
     "pl": "Alarm hałasu wyłączony",
     "ru": "Сигнал шума выключен",
-    "sv": "Bullerlarm inaktiverat"
+    "sv": "Bullerlarm inaktiverat",
+    "es": "Alarma de ruido desactivada",
+    "fr": "Alarme sonore désactivée"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +70,9 @@
           "no": "Støyalarmen ble aktivert",
           "pl": "Włączył się alarm hałasu",
           "ru": "Сигнал шума включен",
-          "sv": "Bullerlarm aktiverat"
+          "sv": "Bullerlarm aktiverat",
+          "es": "La alarma de ruido se ha activado",
+          "fr": "L'alarme sonore s'est activée"
         }
       },
       {
@@ -76,7 +86,9 @@
           "no": "Støyalarmen ble deaktivert",
           "pl": "Wyłączył się alarm hałasu",
           "ru": "Сигнал шума выключен",
-          "sv": "Bullerlarm inaktiverat"
+          "sv": "Bullerlarm inaktiverat",
+          "es": "La alarma de ruido se ha desactivado",
+          "fr": "L'alarme sonore s'est désactivée"
         }
       }
     ],
@@ -92,7 +104,9 @@
           "no": "Støyalarmen er !{{på|av}}",
           "pl": "Alarm hałasu jest !{{włączony|wyłączony}}",
           "ru": "Сигнал шума !{{включен|выключен}}",
-          "sv": "Bullerlarmet är aktiverat !{{på|av}}"
+          "sv": "Bullerlarmet är aktiverat !{{på|av}}",
+          "es": "La alarma de ruido está !{{activada|desactivada}}",
+          "fr": "L'alarme sonore est !{{activée|désactivée}}"
         }
       }
     ]

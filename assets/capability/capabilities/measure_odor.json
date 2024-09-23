@@ -9,7 +9,9 @@
     "no": "Lukt",
     "pl": "Zapach",
     "ru": "Запах",
-    "sv": "Lukt"
+    "sv": "Lukt",
+    "es": "Olor",
+    "fr": "Odeur"
   },
   "units": {
     "en": "OU",
@@ -20,7 +22,9 @@
     "no": "OU",
     "pl": "ou",
     "ru": "Единицы интенсивности запаха",
-    "sv": "OU"
+    "sv": "OU",
+    "es": "OU",
+    "fr": "UO"
   },
   "desc": {
     "en": "Odor concentration in odor units.",
@@ -31,7 +35,9 @@
     "no": "Luktkonsentrasjon i luktenheter.",
     "pl": "Stężenie zapachowe w jednostkach zapachowych.",
     "ru": "Концентрация запаха в единицах интенсивности запаха.",
-    "sv": "Luktkoncentration i luktenheter."
+    "sv": "Luktkoncentration i luktenheter.",
+    "es": "Concentración de olor en unidades olfativas.",
+    "fr": "Concentration d'odeur en unités d'odeur."
   },
   "insights": true,
   "chartType": "spline",
@@ -51,7 +57,10 @@
           "ko": "냄새 농도 변경됨",
           "pl": "Zmieniło się stężenie zapachowe",
           "ru": "Концентрация запаха изменилась",
-          "sv": "Luktkoncentrationen förändrades"
+          "sv": "Luktkoncentrationen förändrades",
+          "es": "La concentración de olor ha cambiado",
+          "fr": "La concentration d'odeurs a changé",
+          "no": "Luktkonsentrasjonen ble endret"
         },
         "tokens": [
           {

@@ -9,7 +9,9 @@
     "no": "Alarm om tom tank",
     "pl": "Alarm pustego zbiornika",
     "ru": "Сигнал об опорожнении резервуара",
-    "sv": "Larm om tom tank"
+    "sv": "Larm om tom tank",
+    "es": "Alarma de depósito vacío",
+    "fr": "Alarme de réservoir vide"
   },
   "desc": {
     "en": "True when the tank is empty.",
@@ -20,7 +22,9 @@
     "no": "Sann når tanken er tom.",
     "pl": "Prawda, gdy zbiornik jest pusty.",
     "ru": "Значение «истина», когда резервуар пустой.",
-    "sv": "Sant när tanken är tom."
+    "sv": "Sant när tanken är tom.",
+    "es": "Activado cuando el depósito está vacío.",
+    "fr": "Se déclenche lorsque le réservoir est vide."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +36,9 @@
     "no": "Tanken var tom",
     "pl": "Zbiornik był pusty",
     "ru": "Резервуар был пуст",
-    "sv": "Tanken var tom"
+    "sv": "Tanken var tom",
+    "es": "El depósito estaba vacío",
+    "fr": "Le réservoir était vide"
   },
   "insightsTitleFalse": {
     "en": "Tank was not empty",
@@ -43,7 +49,9 @@
     "no": "Tanken var ikke tom",
     "pl": "Zbiornik nie był pusty",
     "ru": "Резервуар не был пуст",
-    "sv": "Tanken var inte tom"
+    "sv": "Tanken var inte tom",
+    "es": "El depósito no estaba vacío",
+    "fr": "Le réservoir n'était pas vide"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +70,9 @@
           "no": "Tanken er tom",
           "pl": "Zbiornik jest pusty",
           "ru": "Резервуар пуст",
-          "sv": "Tanken är tom"
+          "sv": "Tanken är tom",
+          "es": "El depósito está vacío",
+          "fr": "Le réservoir est vide"
         }
       },
       {
@@ -76,7 +86,9 @@
           "no": "Tanken er ikke lenger tom",
           "pl": "Zbiornik nie jest już pusty",
           "ru": "Резервуар больше не пуст",
-          "sv": "Tanken är inte längre tom"
+          "sv": "Tanken är inte längre tom",
+          "es": "El depósito ya no está vacío",
+          "fr": "Le réservoir n'est plus vide"
         }
       }
     ],
@@ -92,7 +104,9 @@
           "no": "Tanken er !{{tom|ikke tom}}",
           "pl": "Zbiornik !{{jest pusty|nie jest pusty}}",
           "ru": "Резервуар !{{пуст|не пуст}}",
-          "sv": "Tanken är !{{tom|inte tom}}"
+          "sv": "Tanken är !{{tom|inte tom}}",
+          "es": "El depósito !{{está vacío|no está vacío}}",
+          "fr": "Le réservoir !{{est rempli|n'est pas rempli}}"
         }
       }
     ]

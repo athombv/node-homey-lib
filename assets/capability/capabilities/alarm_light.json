@@ -9,7 +9,9 @@
     "no": "Lysalarm",
     "pl": "Alarm światła",
     "ru": "Сигнал об освещении",
-    "sv": "Ljuslarm"
+    "sv": "Ljuslarm",
+    "es": "Alarma de luz",
+    "fr": "Alarme de lumière"
   },
   "desc": {
     "en": "True when light is detected.",
@@ -20,7 +22,9 @@
     "no": "Sann når lys er registrert.",
     "pl": "Prawda, gdy wykryte jest światło.",
     "ru": "Значение «истина» при обнаружении элемента освещения.",
-    "sv": "Sant när ljus detekteras."
+    "sv": "Sant när ljus detekteras.",
+    "es": "Activado cuando se detecta luz.",
+    "fr": "Se déclenche lorsque de la lumière est détectée."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +36,9 @@
     "no": "Lys ble registrert",
     "pl": "Światło było wykryte",
     "ru": "Элемент освещения был обнаружен",
-    "sv": "Ljus detekterades"
+    "sv": "Ljus detekterades",
+    "es": "Se ha detectado luz",
+    "fr": "De la lumière a été détectée"
   },
   "insightsTitleFalse": {
     "en": "Light was no longer detected",
@@ -43,7 +49,9 @@
     "no": "Lys ble ikke lenger registrert",
     "pl": "Światło nie było już wykryte",
     "ru": "Элемент освещения больше не обнаруживался",
-    "sv": "Ljus detekterades inte längre"
+    "sv": "Ljus detekterades inte längre",
+    "es": "No hay luz detectada",
+    "fr": "La lumière n'est plus détectée"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +70,9 @@
           "no": "Lys er registrert",
           "pl": "Światło jest wykryte",
           "ru": "Элемент освещения обнаружен",
-          "sv": "Ljus detekteras"
+          "sv": "Ljus detekteras",
+          "es": "Se detecta luz",
+          "fr": "De la lumière est détectée"
         }
       },
       {
@@ -76,7 +86,9 @@
           "no": "Lys registreres ikke lenger",
           "pl": "Światło nie jest już wykryte",
           "ru": "Элемент освещения больше не обнаруживается",
-          "sv": "Ljus detekteras inte längre"
+          "sv": "Ljus detekteras inte längre",
+          "es": "Ya no se detecta luz",
+          "fr": "La lumière n'est plus détectée"
         }
       }
     ],
@@ -92,7 +104,9 @@
           "no": "Lys !{{er|er}} ikke registrert",
           "pl": "Światło !{{jest|nie jest}} wykryte",
           "ru": "Элемент освещения !{{обнаружен|не обнаружен}}",
-          "sv": "Ljus !{{har|har inte}} detekterats"
+          "sv": "Ljus !{{har|har inte}} detekterats",
+          "es": "!{{Se detecta|No se detecta}} luz",
+          "fr": "Lumière !{{détectée|non détectée}}"
         }
       }
     ]

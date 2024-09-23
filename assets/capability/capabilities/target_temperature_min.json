@@ -8,7 +8,10 @@
     "ko": "최소 목표 온도",
     "pl": "Minimalna temperatura docelowa",
     "ru": "Минимальная заданная температура",
-    "sv": "Lägsta måltemperatur"
+    "sv": "Lägsta måltemperatur",
+    "es": "Temperatura mínima deseada",
+    "fr": "Température minimale cible",
+    "no": "Minimum ønsket temperatur"
   },
   "units": {
     "en": "°C",
@@ -18,7 +21,10 @@
     "ko": "°C",
     "pl": "°C",
     "ru": "°C",
-    "sv": "°C"
+    "sv": "°C",
+    "es": "°C",
+    "fr": "°C",
+    "no": "°C"
   },
   "desc": {
     "en": "The low end of the temperature setpoint in degrees Celsius.",
@@ -28,7 +34,10 @@
     "ko": "섭씨 도 단위의 온도 설정값 최소치입니다.",
     "pl": "Dolna granica wartości zadanej temperatury w stopniach Celsjusza.",
     "ru": "Нижний предел уставки температуры в градусах Цельсия.",
-    "sv": "Den nedre delen av temperaturbörvärdet i grader Celsius."
+    "sv": "Den nedre delen av temperaturbörvärdet i grader Celsius.",
+    "es": "El valor inferior de ajuste de la temperatura en grados centígrados.\n",
+    "fr": "Le niveau minimal de la température en degrés Celsius.",
+    "no": "Minimum ønsket temperaturinnstilling i grader Celsius."
   },
   "insights": true,
   "chartType": "stepLine",
@@ -51,7 +60,9 @@
           "no": "Minimum ønsket temperatur er endret",
           "pl": "Zmieniła się minimalna temperatura docelowa",
           "ru": "Минимальная заданная температура изменена",
-          "sv": "Den lägsta måltemperaturen har ändrats"
+          "sv": "Den lägsta måltemperaturen har ändrats",
+          "es": "La temperatura mínima deseada ha cambiado",
+          "fr": "La température minimale cible a changé"
         },
         "tokens": [
           {
@@ -74,7 +85,10 @@
           "ko": "최소 목표 온도 설정",
           "pl": "Ustaw minimalną temperaturę docelową",
           "ru": "Установить минимальную заданную температуру",
-          "sv": "Ställ in lägsta önskade temperatur"
+          "sv": "Ställ in lägsta önskade temperatur",
+          "es": "Ajustar la temperatura mínima deseada",
+          "fr": "Définir la température minimale cible",
+          "no": "Sett minimum ønsket temperatur"
         },
         "args": [
           {

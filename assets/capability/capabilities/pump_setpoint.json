@@ -8,7 +8,10 @@
     "ko": "펌프 설정값",
     "pl": "Wartość zadana pompy",
     "ru": "Уставка насоса",
-    "sv": "Börvärde för pump"
+    "sv": "Börvärde för pump",
+    "es": "Valor de ajuste del bombeo",
+    "fr": "Point de réglage de la pompe",
+    "no": "Pumpens settepunkt"
   },
   "units": {
     "en": "%",
@@ -18,7 +21,10 @@
     "ko": "%",
     "pl": "%",
     "ru": "%",
-    "sv": "%"
+    "sv": "%",
+    "es": "%",
+    "fr": " %",
+    "no": "%"
   },
   "desc": {
     "en": "The pump setpoint in percentage.",
@@ -28,7 +34,10 @@
     "ko": "백분율로 표현된 펌프 설정값입니다.",
     "pl": "Wartość zadana pompy w procentach.",
     "ru": "Уставка насоса в процентах.",
-    "sv": "Pumpens börvärde i procent."
+    "sv": "Pumpens börvärde i procent.",
+    "es": "El valor de ajuste del bombeo en porcentaje.",
+    "fr": "Le point de réglage de la pompe en pourcentage.",
+    "no": "Pumpens settepunkt i prosent."
   },
   "insights": true,
   "chartType": "spline",
@@ -50,7 +59,10 @@
           "ko": "펌프 설정값 변경됨",
           "pl": "Zmieniła się wartość zadana pompy",
           "ru": "Уставка насоса изменена",
-          "sv": "Pumpens börvärde ändrades"
+          "sv": "Pumpens börvärde ändrades",
+          "es": "El valor de ajuste del bombeo ha cambiado",
+          "fr": "Le point de réglage de la pompe a changé",
+          "no": "Pumpens settpunkt ble endret"
         },
         "tokens": [
           {
@@ -73,7 +85,10 @@
           "ko": "펌프 설정값 설정",
           "pl": "Ustaw wartość zadaną pompy",
           "ru": "Определить уставку насоса",
-          "sv": "Ställ in pumpens börvärde"
+          "sv": "Ställ in pumpens börvärde",
+          "es": "Configurar el valor de ajuste del bombeo",
+          "fr": "Définir le point de réglage de la pompe",
+          "no": "Angi pumpens settepunkt"
         },
         "args": [
           {

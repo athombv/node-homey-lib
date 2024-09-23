@@ -9,7 +9,9 @@
     "no": "Mistet-alarm",
     "pl": "Alarm zgubienia",
     "ru": "Сигнал о потере",
-    "sv": "Förlorat-larm"
+    "sv": "Förlorat-larm",
+    "es": "Alarma de pérdida",
+    "fr": "Alarme de perte"
   },
   "desc": {
     "en": "True when the device is lost.",
@@ -20,7 +22,9 @@
     "no": "Sann når enheten er mistet.",
     "pl": "Prawda, gdy urządzenie jest zgubione.",
     "ru": "Значение «истина», когда устройство потеряно.",
-    "sv": "Sant när enheten förloras."
+    "sv": "Sant när enheten förloras.",
+    "es": "Activado cuando se ha perdido el dispositivo.",
+    "fr": "Se déclenche lorsque l'appareil est perdu."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +36,9 @@
     "no": "Ble mistet",
     "pl": "Było zgubione",
     "ru": "Было потеряно",
-    "sv": "Förlorades"
+    "sv": "Förlorades",
+    "es": "Estaba perdido",
+    "fr": "Était perdu"
   },
   "insightsTitleFalse": {
     "en": "Was no longer lost",
@@ -43,7 +49,9 @@
     "no": "Var ikke lenger mistet",
     "pl": "Nie było już zgubione",
     "ru": "Больше не потеряно",
-    "sv": "Var inte längre förlorad"
+    "sv": "Var inte längre förlorad",
+    "es": "Ya no estaba perdido",
+    "fr": "N'était plus perdu"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +70,9 @@
           "no": "Er mistet",
           "pl": "Jest zgubione",
           "ru": "Потеряно",
-          "sv": "Är förlorad"
+          "sv": "Är förlorad",
+          "es": "Se ha perdido",
+          "fr": "Est perdu"
         }
       },
       {
@@ -76,7 +86,9 @@
           "no": "Er ikke lenger mistet",
           "pl": "Nie jest już zgubione",
           "ru": "Больше не потеряно",
-          "sv": "Är inte längre förlorad"
+          "sv": "Är inte längre förlorad",
+          "es": "Ya no está perdido",
+          "fr": "N'est plus perdu"
         }
       }
     ],
@@ -92,7 +104,9 @@
           "no": "Er !{{mistet|ikke mistet}}",
           "pl": "!{{jest zgubione|nie jest zgubione}} ",
           "ru": "Устройство !{{потеряно|не потеряно}}",
-          "sv": "Är !{{förlorad|inte förlorad}}"
+          "sv": "Är !{{förlorad|inte förlorad}}",
+          "es": "{{Se ha perdido|Ya no esta perdido}}",
+          "fr": "Est !{{connectée|déconnectée}}"
         }
       }
     ]

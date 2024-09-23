@@ -22,9 +22,9 @@
     "it": "Vero quando sono stati rilevati valori pericolosi di CO",
     "sv": "Sant när farliga CO-värden upptäcks",
     "no": "Sant når farlige CO-verdier påvises",
-    "es": "Verdadero cuando se han detectado valores peligrosos de CO",
+    "es": "Activado cuando se han detectado valores peligrosos de CO",
     "da": "Sandt, når farlige CO-værdier er blevet opdaget",
-    "ru": "Верно при обнаружении опасных значений CO",
+    "ru": "Значение «истина» при обнаружении опасных значений CO",
     "pl": "Adekwatny, kiedy wykryty zostanie niebezpieczny poziom stężenia CO",
     "ko": "위험한 CO 값이 감지되면 참"
   },
@@ -72,7 +72,7 @@
           "fr": "L'alarme CO s'est activée",
           "it": "L'allarme CO è stato attivato",
           "sv": "CO-larmet aktiverades",
-          "no": "CO-alarmen aktivert",
+          "no": "CO-alarmen ble aktivert",
           "es": "La alarma de CO se ha activado",
           "da": "CO-alarmen blev aktiveredt",
           "ru": "Сигнал CO включен",
@@ -89,7 +89,7 @@
           "fr": "L'alarme CO s'est désactivée",
           "it": "L'allarme CO è stato disattivato",
           "sv": "CO-larmet inaktiverades",
-          "no": "CO-alarmen deaktivert",
+          "no": "CO-alarmen ble deaktivert",
           "es": "La alarma de CO se ha desactivado",
           "da": "CO-alarmen blev deaktiveret",
           "ru": "Сигнал CO выключен",
@@ -112,7 +112,7 @@
           "es": "La alarma de CO está !{{activada|desactivada}}",
           "da": "CO-alarmen er !{{på|af}}",
           "ru": "Сигнал CO !{{вкл.|выкл.}}",
-          "pl": "Alarm Alarm o CO !{{włączony|wyłączony}}",
+          "pl": "Alarm CO jest !{{włączony|wyłączony}}",
           "ko": "CO 알람 !{{켬|끔}}"
         }
       }

@@ -8,7 +8,10 @@
     "ko": "작동 상태",
     "pl": "Stan działania",
     "ru": "Рабочее состояние",
-    "sv": "Drifttillstånd"
+    "sv": "Drifttillstånd",
+    "es": "Estado operativo",
+    "fr": "État opérationnel",
+    "no": "Driftstilstand"
   },
   "desc": {
     "en": "The operational state of the appliance.",
@@ -18,7 +21,10 @@
     "ko": "가전의 작동 상태입니다.",
     "pl": "Stan działania urządzenia.",
     "ru": "Рабочее состояние прибора.",
-    "sv": "Apparatens drifttillstånd."
+    "sv": "Apparatens drifttillstånd.",
+    "es": "El estado operativo del dispositivo.",
+    "fr": "L'état de fonctionnement de l'appareil.",
+    "no": "Apparatets driftstilstand."
   },
   "values": [
     {
@@ -31,7 +37,10 @@
         "ko": "중지됨",
         "pl": "Urządzenie zatrzymane",
         "ru": "Остановлено",
-        "sv": "Stoppad"
+        "sv": "Stoppad",
+        "es": "Detenido",
+        "fr": "Arrêté",
+        "no": "Stoppet"
       }
     },
     {
@@ -44,7 +53,10 @@
         "ko": "작동 중",
         "pl": "Urządzenie pracuje",
         "ru": "Работает",
-        "sv": "Körs"
+        "sv": "Körs",
+        "es": "En uso",
+        "fr": "En cours d'exécution",
+        "no": "I gang"
       }
     },
     {
@@ -57,7 +69,10 @@
         "ko": "일시중지됨",
         "pl": "Urządzenie wstrzymane",
         "ru": "На паузе",
-        "sv": "Pausad"
+        "sv": "Pausad",
+        "es": "En pausa",
+        "fr": "En pause",
+        "no": "På pause"
       }
     },
     {
@@ -70,7 +85,10 @@
         "ko": "오류",
         "pl": "Błąd",
         "ru": "Ошибка",
-        "sv": "Fel"
+        "sv": "Fel",
+        "es": "Error",
+        "fr": "Erreur",
+        "no": "Feil"
       }
     }
   ],
@@ -90,7 +108,10 @@
           "ko": "작동 상태가 다음으로 변경됨",
           "pl": "Stan działania zmienił się na",
           "ru": "Рабочее состояние изменилось на",
-          "sv": "Drifttillståndet ändrades till"
+          "sv": "Drifttillståndet ändrades till",
+          "es": "El estado operativo ha cambiado a",
+          "fr": "L'état opérationnel est passé à",
+          "no": "Driftstilstanden ble endret til"
         },
         "args": [
           {
@@ -111,8 +132,11 @@
           "it": "Lo stato operativo !{{è|non è}}",
           "ko": "작동 상태가 다음!{{과 같음| 아님}}",
           "pl": "Stan działania !{{jest|nie jest}}",
-          "ru": "Рабочее состояние !{{is|is not}}",
-          "sv": "Drifttillståndet !{{är|är inte}}"
+          "ru": "Рабочее состояние !{{|не}}",
+          "sv": "Drifttillståndet !{{är|är inte}}",
+          "es": "El estado operativo !{{está|no está}}",
+          "fr": "L'état opérationnel !{{est|n'est pas}}",
+          "no": "Driftstilstanden !{{er|er ikke}}"
         },
         "args": [
           {

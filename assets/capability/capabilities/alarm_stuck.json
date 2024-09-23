@@ -4,12 +4,14 @@
     "en": "Stuck alarm",
     "nl": "Waarschuwing bij vastzitten",
     "da": "Fastlåst alarm",
-    "it": "Allarme blocco",
+    "it": "Allarme dispositivo bloccato",
     "ko": "막힘 알람",
     "no": "Fastkjøringsalarm",
     "pl": "Alarm zablokowania",
     "ru": "Сигнал о заклинивании",
-    "sv": "Larm om fastnat"
+    "sv": "Larm om fastnat",
+    "es": "Alarma de atasco",
+    "fr": "Alarme d'appareil bloqué"
   },
   "desc": {
     "en": "True when the device is stuck.",
@@ -20,7 +22,9 @@
     "no": "Sann når enheten sitter fast.",
     "pl": "Prawda, gdy urządzenie jest zablokowane.",
     "ru": "Значение «истина», когда устройство заклинило.",
-    "sv": "Sant när enheten har fastnat."
+    "sv": "Sant när enheten har fastnat.",
+    "es": "Activado cuando el dispositivo está atascado.",
+    "fr": "Se déclenche lorsque l'appareil est bloqué."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +36,9 @@
     "no": "Satt fast",
     "pl": "Było zablokowane",
     "ru": "Заклинило",
-    "sv": "Var fast"
+    "sv": "Var fast",
+    "es": "Estaba atascado",
+    "fr": "Était bloqué"
   },
   "insightsTitleFalse": {
     "en": "Was no longer stuck",
@@ -43,7 +49,9 @@
     "no": "Satt ikke lenger fast",
     "pl": "Nie było już zablokowane",
     "ru": "Больше не заклинено",
-    "sv": "Var inte längre fast"
+    "sv": "Var inte längre fast",
+    "es": "Ya no estaba atascado",
+    "fr": "N'était plus bloqué"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +70,9 @@
           "no": "Sitter fast",
           "pl": "Jest zablokowane",
           "ru": "Заклинено",
-          "sv": "Är fast"
+          "sv": "Är fast",
+          "es": "Está atascado",
+          "fr": "Est bloqué"
         }
       },
       {
@@ -76,7 +86,9 @@
           "no": "Sitter ikke lenger fast",
           "pl": "Nie jest już zablokowane",
           "ru": "Больше не заклинено",
-          "sv": "Är inte längre fast"
+          "sv": "Är inte längre fast",
+          "es": "Ya no está atascado",
+          "fr": "N'est plus bloqué"
         }
       }
     ],
@@ -92,7 +104,9 @@
           "no": "Sitter !{{fast|ikke fast}}",
           "pl": "Jest ! {{zablokowane|niezablokowane}}",
           "ru": "Устройство !{{заклинено|не заклинено}}",
-          "sv": "Är !{{fast|inte fast}}"
+          "sv": "Är !{{fast|inte fast}}",
+          "es": "!{{Está atascado|No está atascado}}",
+          "fr": "Est !{{connectée|déconnectée}}"
         }
       }
     ]

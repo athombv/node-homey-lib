@@ -8,7 +8,10 @@
     "ko": "밸브 위치",
     "pl": "Pozycja zaworu",
     "ru": "Положение клапана",
-    "sv": "Ventilposition"
+    "sv": "Ventilposition",
+    "es": "Posición de la válvula",
+    "fr": "Position de la vanne",
+    "no": "Ventilposisjon"
   },
   "units": {
     "en": "%",
@@ -18,7 +21,10 @@
     "ko": "%",
     "pl": "%",
     "ru": "%",
-    "sv": "%"
+    "sv": "%",
+    "es": "%",
+    "fr": " %",
+    "no": "%"
   },
   "desc": {
     "en": "The current position of the valve in percent.",
@@ -28,7 +34,10 @@
     "ko": "백분율로 표현한 밸브의 현재 위치입니다.",
     "pl": "Bieżąca pozycja zaworu w procentach.",
     "ru": "Текущее положение клапана в процентах.",
-    "sv": "Ventilens aktuella position i procent."
+    "sv": "Ventilens aktuella position i procent.",
+    "es": "La posición actual de la válvula en porcentaje.",
+    "fr": "Position actuelle de la vanne en pourcentage.",
+    "no": "Ventilens nåværende posisjon i prosent."
   },
   "insights": true,
   "chartType": "spline",
@@ -50,7 +59,10 @@
           "ko": "밸브 위치 변경됨",
           "pl": "Zmieniła się pozycja zaworu",
           "ru": "Положение клапана изменено",
-          "sv": "Ventilens position har ändrats"
+          "sv": "Ventilens position har ändrats",
+          "es": "La posición de la válvula la cambiado",
+          "fr": "La position de la vanne a changé",
+          "no": "Ventilposisjonen ble endret"
         },
         "tokens": [
           {
@@ -73,7 +85,10 @@
           "ko": "밸브 위치 설정",
           "pl": "Ustaw pozycję zaworu",
           "ru": "Установить положение клапана",
-          "sv": "Ställ in ventilens position"
+          "sv": "Ställ in ventilens position",
+          "es": "Ajustar la posición de la válvula",
+          "fr": "Définir la position de la vanne",
+          "no": "Innstill ventilposisjonen"
         },
         "args": [
           {

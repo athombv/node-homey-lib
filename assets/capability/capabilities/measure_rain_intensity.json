@@ -8,7 +8,10 @@
     "ko": "비 강도",
     "pl": "Intensywność deszczu",
     "ru": "Интенсивность дождя",
-    "sv": "Regnintensitet"
+    "sv": "Regnintensitet",
+    "es": "Intensidad de la lluvia",
+    "fr": "Intensité de la pluie",
+    "no": "Nedbørsmengde"
   },
   "units": {
     "en": "mm/h",
@@ -18,7 +21,10 @@
     "ko": "mm/h",
     "pl": "mm/h",
     "ru": "мм/ч",
-    "sv": "mm/h"
+    "sv": "mm/h",
+    "es": "mm/h",
+    "fr": "mm/h",
+    "no": "mm/t"
   },
   "desc": {
     "en": "The rain intensity in millimeters per hour.",
@@ -28,7 +34,10 @@
     "ko": "시간당 밀리미터 단위의 비 강도입니다.",
     "pl": "Intensywność deszczu w milimetrach na godzinę.",
     "ru": "Интенсивность дождя в миллиметрах в час.",
-    "sv": "Regnintensiteten i millimeter per timme."
+    "sv": "Regnintensiteten i millimeter per timme.",
+    "es": "La intensidad de la lluvia en milímetros por hora.",
+    "fr": "L'intensité de la pluie en millimètres par heure.",
+    "no": "Nedbørsmengden i millimeter per time."
   },
   "insights": true,
   "chartType": "spline",
@@ -48,7 +57,10 @@
           "ko": "비 강도 변경됨",
           "pl": "Zmieniła się Intensywność deszczu",
           "ru": "Интенсивность дождя изменилась",
-          "sv": "Regnintensiteten förändrades"
+          "sv": "Regnintensiteten förändrades",
+          "es": "La intensidad de la lluvia ha cambiado",
+          "fr": "L'intensité de la pluie a changé",
+          "no": "Nedbørsmengden ble endret"
         },
         "tokens": [
           {

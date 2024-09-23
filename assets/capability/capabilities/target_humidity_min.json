@@ -8,7 +8,10 @@
     "ko": "최소 목표 습도",
     "pl": "Minimalna docelowa wilgotność",
     "ru": "Минимальная заданная влажность",
-    "sv": "Lägsta önskade luftfuktighet"
+    "sv": "Lägsta önskade luftfuktighet",
+    "es": "Humedad mínima deseada",
+    "fr": "Humidité cible minimale",
+    "no": "Minimum ønsket fuktighet"
   },
   "units": {
     "en": "%",
@@ -18,7 +21,10 @@
     "ko": "%",
     "pl": "%",
     "ru": "%",
-    "sv": "%"
+    "sv": "%",
+    "es": "%",
+    "fr": " %",
+    "no": "%"
   },
   "desc": {
     "en": "The low end of the target humidity level in percent.",
@@ -27,7 +33,10 @@
     "it": "Il livello minimo di umidità target in percentuale.",
     "ko": "백분율로 표현한 목표 습도의 최소치입니다.",
     "pl": "Dolna granica docelowego poziomu wilgotności w procentach.",
-    "ru": "Нижний предел заданного уровня влажности в процентах."
+    "ru": "Нижний предел заданного уровня влажности в процентах.",
+    "es": "El valor inferior del nivel de humedad objetivo en porcentaje.",
+    "fr": "Le niveau minimal d'humidité cible en pourcentage.",
+    "no": "Minimum ønsket fuktighetsnivå i prosent."
   },
   "insights": true,
   "chartType": "stepLine",
@@ -50,7 +59,9 @@
           "no": "Minimum ønsket fuktighet er endret",
           "pl": "Zmieniła się minimalna docelowa wilgotność",
           "ru": "Минимальная заданная влажность изменена",
-          "sv": "Den lägsta önskade luftfuktigheten har ändrats"
+          "sv": "Den lägsta önskade luftfuktigheten har ändrats",
+          "es": "La humedad mínima deseada ha cambiado",
+          "fr": "L'humidité minimale cible a changé"
         },
         "tokens": [
           {
@@ -73,7 +84,10 @@
           "ko": "최소 목표 습도 설정",
           "pl": "Ustaw minimalną docelową wilgotność",
           "ru": "Установить минимальную заданную влажность",
-          "sv": "Ställ in lägsta önskade luftfuktighet"
+          "sv": "Ställ in lägsta önskade luftfuktighet",
+          "es": "Ajustar la humedad mínima deseada",
+          "fr": "Définir l'humidité minimale cible",
+          "no": "Angi minimum ønsket fuktighet"
         },
         "args": [
           {

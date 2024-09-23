@@ -9,7 +9,9 @@
     "no": "Strømalarm",
     "pl": "Alarm zasilania",
     "ru": "Сигнал питания",
-    "sv": "Strömlarm"
+    "sv": "Strömlarm",
+    "es": "Alarma de suministro eléctrico",
+    "fr": "Alarme d'alimentation électrique"
   },
   "desc": {
     "en": "True when power is detected.",
@@ -20,7 +22,9 @@
     "no": "Sann når strøm registreres.",
     "pl": "Prawda, gdy wykryte jest zasilanie.",
     "ru": "Значение «истина» при обнаружении питания.",
-    "sv": "Sant när strömförsörjning detekteras."
+    "sv": "Sant när strömförsörjning detekteras.",
+    "es": "Activado cuando se detecta suministro eléctrico.",
+    "fr": "Se déclenche lorsque une alimentation électrique est détectée."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +36,9 @@
     "no": "Strømalarm aktivert",
     "pl": "Alarm zasilania włączony",
     "ru": "Сигнал питания включен",
-    "sv": "Strömlarm aktiverat"
+    "sv": "Strömlarm aktiverat",
+    "es": "Alarma de suministro eléctrico activada",
+    "fr": "Alarme d'alimentation électrique activée"
   },
   "insightsTitleFalse": {
     "en": "Power alarm turned off",
@@ -43,7 +49,9 @@
     "no": "Strømalarm deaktivert",
     "pl": "Alarm zasilania wyłączony",
     "ru": "Сигнал питания выключен",
-    "sv": "Strömlarm inaktiverat"
+    "sv": "Strömlarm inaktiverat",
+    "es": "Alarma de suministro eléctrico desactivada",
+    "fr": "Alarme d'alimentation électrique désactivée"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +70,9 @@
           "no": "Strømalarmen ble aktivert",
           "pl": "Włączył się alarm zasilania",
           "ru": "Сигнал питания включен",
-          "sv": "Strömlarmet aktiverat"
+          "sv": "Strömlarmet aktiverat",
+          "es": "La alarma de suministro eléctrico está activada",
+          "fr": "L'alarme d'alimentation électrique s'est activée"
         }
       },
       {
@@ -76,7 +86,9 @@
           "no": "Strømalarmen ble deaktivert",
           "pl": "Wyłączył się alarm zasilania",
           "ru": "Сигнал питания выключен",
-          "sv": "Strömlarmet inaktiverat"
+          "sv": "Strömlarmet inaktiverat",
+          "es": "La alarma de suministro eléctrico está desactivada",
+          "fr": "L'alarme d'alimentation électrique s'est désactivée"
         }
       }
     ],
@@ -92,7 +104,9 @@
           "no": "Strømalarmen er !{{på|av}}",
           "pl": "Alarm zasilania jest !{{włączony|wyłączony}}",
           "ru": "Сигнал питания !{{включен|выключен}}",
-          "sv": "Strömlarmet är !{{på|av}}"
+          "sv": "Strömlarmet är !{{på|av}}",
+          "es": "La alarma de suministro eléctrico está !{{activada|desactivada}}",
+          "fr": "L'alarme d'alimentation électrique est !{{activée|désactivée}}"
         }
       }
     ]

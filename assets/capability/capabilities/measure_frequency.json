@@ -9,7 +9,9 @@
     "no": "Frekvens",
     "pl": "Częstotliwość",
     "ru": "Частота",
-    "sv": "Frekvens"
+    "sv": "Frekvens",
+    "es": "Frecuencia",
+    "fr": "Fréquence"
   },
   "units": {
     "en": "Hz",
@@ -20,7 +22,9 @@
     "no": "Hz",
     "pl": "Hz",
     "ru": "Гц",
-    "sv": "Hz"
+    "sv": "Hz",
+    "es": "Hz",
+    "fr": "Hz"
   },
   "desc": {
     "en": "The frequency in hertz.",
@@ -31,7 +35,9 @@
     "no": "Frekvensen i hertz.",
     "pl": "Częstotliwość w hercach.",
     "ru": "Частота в герцах.",
-    "sv": "Frekvensen i hertz."
+    "sv": "Frekvensen i hertz.",
+    "es": "La frecuencia en hercios.",
+    "fr": "La fréquence en hertz."
   },
   "insights": true,
   "chartType": "spline",
@@ -52,7 +58,9 @@
           "no": "Frekvensen ble endret",
           "pl": "Zmieniła się częstotliwość",
           "ru": "Частота изменилась",
-          "sv": "Frekvensen ändrades"
+          "sv": "Frekvensen ändrades",
+          "es": "La frecuencia ha cambiado",
+          "fr": "La fréquence a changé"
         },
         "tokens": [
           {

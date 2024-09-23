@@ -9,7 +9,9 @@
     "no": "Ozon",
     "pl": "Ozon",
     "ru": "Озон",
-    "sv": "Ozon"
+    "sv": "Ozon",
+    "es": "Ozono",
+    "fr": "Ozone"
   },
   "units": {
     "en": "μg/m³",
@@ -20,7 +22,9 @@
     "no": "μg/m³",
     "pl": "μg/m³",
     "ru": "мкг/м³",
-    "sv": "μg/m³"
+    "sv": "μg/m³",
+    "es": "μg/m³",
+    "fr": "μg/m³"
   },
   "insights": true,
   "desc": {
@@ -32,7 +36,9 @@
     "no": "Ozon i mikrogram per kubikkmeter (μg/m³)",
     "pl": "Ozon w mikrogramach na metr sześcienny (μg/m³)",
     "ru": "Озон в микрограммах на кубический метр (мкг/м³)",
-    "sv": "Ozon i mikrogram per kubikmeter (μg/m³)"
+    "sv": "Ozon i mikrogram per kubikmeter (μg/m³)",
+    "es": "Ozono en microgramos por metro cúbico (μg/m³)",
+    "fr": "Ozone en microgrammes par mètre cube (μg/m³)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -47,12 +53,14 @@
           "en": "The ozone level changed",
           "nl": "Het ozonniveau is veranderd",
           "da": "Ozonværdien ændrede sig",
-          "it": "Il valore dell'ozono è cambiato",
-          "ko": "오존 값 변경됨",
-          "no": "Ozonverdien ble endret",
-          "pl": "Zmieniła się wartość ozonu",
+          "it": "Il livello di ozono è cambiato",
+          "ko": "오존 수준 변경됨",
+          "no": "Ozonnivået ble endret",
+          "pl": "Zmienił się poziom ozonu",
           "ru": "Значение озона изменилось",
-          "sv": "Ozonvärdet ändrades"
+          "sv": "Ozonvärdet ändrades",
+          "es": "El nivel de ozono ha cambiado",
+          "fr": "La valeur de l'ozone a changé"
         },
         "tokens": [
           {

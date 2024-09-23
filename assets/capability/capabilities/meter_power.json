@@ -45,7 +45,8 @@
         "ru": "Этот флаг используется для определения того, что само устройство не имеет функции измерения электроэнергии, но драйвер рассчитывает потребление энергии.",
         "pl": "Flaga oznacza, że samo urządzenie nie ma funkcji pomiaru mocy, ale sterownik oblicza zużycie energii.",
         "ko": "이 플래그는 디바이스 자체에 전력 측정 기능이 없지만 드라이버가 에너지 사용량을 계산하는 경우에 사용됩니다.",
-        "no": "Dette flagget brukes til å anmerke at enheten i seg selv ikke har noen funksjon for effektmåling, men at sjåføren beregner energibruken."
+        "no": "Dette flagget brukes til å anmerke at enheten i seg selv ikke har noen funksjon for effektmåling, men at sjåføren beregner energibruken.",
+        "es": "Este aviso indica que el dispositivo no dispone de ninguna funcionalidad para medir la energía, sino que el controlador calcula el uso de energía."
       }
     }
   },

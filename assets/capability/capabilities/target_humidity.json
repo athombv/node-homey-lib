@@ -8,7 +8,10 @@
     "ko": "목표 습도",
     "pl": "Docelowa wilgotność",
     "ru": "Заданная влажность",
-    "sv": "Målfuktighet"
+    "sv": "Målfuktighet",
+    "es": "Humedad deseada",
+    "fr": "Humidité cible",
+    "no": "Ønsket fuktighet"
   },
   "units": {
     "en": "%",
@@ -18,7 +21,10 @@
     "ko": "%",
     "pl": "%",
     "ru": "%",
-    "sv": "%"
+    "sv": "%",
+    "es": "%",
+    "fr": " %",
+    "no": "%"
   },
   "desc": {
     "en": "The target humidity level in percent.",
@@ -28,7 +34,10 @@
     "ko": "백분율로 표현된 목표 습도 수준입니다.",
     "pl": "Docelowy poziom wilgotności w procentach.",
     "ru": "Заданный уровень влажности в процентах.",
-    "sv": "Den önskade luftfuktighetsnivån i procent."
+    "sv": "Den önskade luftfuktighetsnivån i procent.",
+    "es": "El nivel de humedad deseado en porcentaje.",
+    "fr": "Le taux d'humidité cible en pourcentage.",
+    "no": "Ønsket fuktighetsnivå i prosent."
   },
   "min": 0,
   "max": 1,
@@ -49,7 +58,10 @@
           "ko": "목표 습도",
           "pl": "Zmieniła się docelowa wilgotność",
           "ru": "Заданная влажность изменена",
-          "sv": "Den önskade luftfuktigheten ändrades"
+          "sv": "Den önskade luftfuktigheten ändrades",
+          "es": "La humedad deseada ha cambiado",
+          "fr": "L'humidité cible a changé",
+          "no": "Ønsket fuktighet ble endret"
         },
         "tokens": [
           {
@@ -72,7 +84,10 @@
           "ko": "습도 설정",
           "pl": "Ustaw wilgotność",
           "ru": "Установить уровень влажности",
-          "sv": "Ställ in luftfuktigheten"
+          "sv": "Ställ in luftfuktigheten",
+          "es": "Ajustar la humedad",
+          "fr": "Définir l'humidité",
+          "no": "Angi fuktigheten"
         },
         "args": [
           {

@@ -8,7 +8,10 @@
     "ko": "진자",
     "pl": "Oscylacja",
     "ru": "Колебание",
-    "sv": "Oscillerande"
+    "sv": "Oscillerande",
+    "es": "Oscilante",
+    "fr": "Oscillant",
+    "no": "Svingende"
   },
   "desc": {
     "en": "Enable or disable oscillation.",
@@ -18,7 +21,10 @@
     "ko": "진자를 활성화 또는 비활성화합니다.",
     "pl": "Włączenie lub wyłączenie oscylacji.",
     "ru": "Включить или отключить колебание.",
-    "sv": "Aktivera eller inaktivera oscillation."
+    "sv": "Aktivera eller inaktivera oscillation.",
+    "es": "Activa o desactiva la oscilación.",
+    "fr": "Active ou désactive l'oscillation.",
+    "no": "Aktiver eller deaktiver svingninger."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -29,7 +35,10 @@
     "ko": "진자 활성화됨",
     "pl": "Oscylacja włączona",
     "ru": "Колебание включено",
-    "sv": "Oscillation aktiverad"
+    "sv": "Oscillation aktiverad",
+    "es": "Oscilación activada",
+    "fr": "Oscillation activée",
+    "no": "Svingning aktivert"
   },
   "insightsTitleFalse": {
     "en": "Oscillation disabled",
@@ -39,7 +48,10 @@
     "ko": "진자 비활성화됨",
     "pl": "Oscylacja wyłączona",
     "ru": "Колебание выключено",
-    "sv": "Oscillation inaktiverad"
+    "sv": "Oscillation inaktiverad",
+    "es": "Oscilación desactivada",
+    "fr": "Oscillation désactivée",
+    "no": "Svingning deaktivert"
   },
   "getable": true,
   "setable": true,
@@ -52,12 +64,15 @@
         "title": {
           "en": "Oscillation turned on",
           "nl": "Oscillatie ingeschakeld",
-          "da": "Oscillation aktiveret",
+          "da": "Oscillation aktiverede",
           "it": "Oscillazione abilitata",
-          "ko": "진자 활성화됨",
+          "ko": "진자 켜짐",
           "pl": "Oscylacja włączona",
           "ru": "Колебание включено",
-          "sv": "Oscillation aktiverad"
+          "sv": "Oscillation aktiverad",
+          "es": "Oscilación activada",
+          "fr": "Oscillation activée",
+          "no": "Svingning aktivert"
         }
       },
       {
@@ -65,12 +80,15 @@
         "title": {
           "en": "Oscillation turned off",
           "nl": "Oscillatie uitgeschakeld",
-          "da": "Oscillation deaktiveret",
+          "da": "Oscillation deaktiverede",
           "it": "Oscillazione disabilitata",
-          "ko": "진자 비활성화됨",
+          "ko": "진자 꺼짐",
           "pl": "Oscylacja wyłączona",
           "ru": "Колебание выключено",
-          "sv": "Oscillation inaktiverad"
+          "sv": "Oscillation inaktiverad",
+          "es": "Oscilación desactivada",
+          "fr": "Oscillation désactivée",
+          "no": "Svingning deaktivert"
         }
       }
     ],
@@ -85,7 +103,10 @@
           "ko": "진자 !{{활성화됨|비활성화됨}}",
           "pl": "Oscylacja jest !{{włączona|wyłączona}}",
           "ru": "Колебание !{{включено|выключено}}",
-          "sv": "Oscillation är !{{aktiverad|inaktiverad}}"
+          "sv": "Oscillation är !{{aktiverad|inaktiverad}}",
+          "es": "La oscilación está !{{activada|desactivada}}",
+          "fr": "L'oscillation est !{{activée|désactivée}}",
+          "no": "Svingning er !{{aktivert|deaktivert}}"
         }
       }
     ],
@@ -100,7 +121,10 @@
           "ko": "진자 활성화",
           "pl": "Włącz oscylację",
           "ru": "Включить колебание",
-          "sv": "Aktivera oscillation"
+          "sv": "Aktivera oscillation",
+          "es": "Activar oscilación",
+          "fr": "Activer l'oscillation",
+          "no": "Aktiver svingning"
         }
       },
       {
@@ -113,7 +137,10 @@
           "ko": "진자 비활성화",
           "pl": "Wyłącz oscylację",
           "ru": "Отключить колебание",
-          "sv": "Inaktivera oscillation"
+          "sv": "Inaktivera oscillation",
+          "es": "Desactivar oscilación",
+          "fr": "Désactiver l'oscillation",
+          "no": "Deaktiver svingning"
         }
       },
       {
@@ -126,7 +153,10 @@
           "ko": "진자 켬 또는 끔 토글",
           "pl": "Przełącz oscylację między wł / wył",
           "ru": "Включить или выключить колебание",
-          "sv": "Aktivera eller inaktivera oscillation"
+          "sv": "Aktivera eller inaktivera oscillation",
+          "es": "Encender o apagar la oscilación",
+          "fr": "Activer ou désactiver l'oscillation",
+          "no": "Slå svingning på eller av"
         }
       }
     ]

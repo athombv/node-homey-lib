@@ -8,7 +8,10 @@
     "ko": "신호 강도",
     "pl": "Siła sygnału",
     "ru": "Мощность сигнала",
-    "sv": "Signalstyrka"
+    "sv": "Signalstyrka",
+    "es": "Intensidad de la señal",
+    "fr": "Intensité du signal",
+    "no": "Signalstyrke"
   },
   "units": {
     "en": "dB",
@@ -18,7 +21,10 @@
     "ko": "dB",
     "pl": "dB",
     "ru": "дБ",
-    "sv": "dB"
+    "sv": "dB",
+    "es": "dB",
+    "fr": "dB",
+    "no": "dB"
   },
   "desc": {
     "en": "The signal strength in decibels.",
@@ -28,7 +34,10 @@
     "ko": "데시벨 단위의 신호 강도입니다.",
     "pl": "Siła sygnału w decybelach.",
     "ru": "Мощность сигнала в децибелах.",
-    "sv": "Signalstyrkan i decibel."
+    "sv": "Signalstyrkan i decibel.",
+    "es": "La intensidad de la señal en decibelios.",
+    "fr": "L'intensité du signal en décibels.",
+    "no": "Signalstyrken i desibel."
   },
   "insights": true,
   "chartType": "spline",
@@ -48,7 +57,10 @@
           "ko": "신호 강도 변경됨",
           "pl": "Zmieniła się siła sygnału",
           "ru": "Мощность сигнала изменилась",
-          "sv": "Signalstyrkan har ändrats"
+          "sv": "Signalstyrkan har ändrats",
+          "es": "La intensidad de la señal ha cambiado",
+          "fr": "L'intensité du signal a changé",
+          "no": "Signalstyrken ble endret"
         },
         "tokens": [
           {

@@ -9,7 +9,9 @@
     "no": "Pengeverdi",
     "pl": "Wartość pieniężna",
     "ru": "Денежная стоимость",
-    "sv": "Monetärt värde"
+    "sv": "Monetärt värde",
+    "es": "Valor monetario",
+    "fr": "Valeur monétaire"
   },
   "units": {
     "en": "€",
@@ -20,7 +22,9 @@
     "no": "€",
     "pl": "€",
     "ru": "€",
-    "sv": "€"
+    "sv": "€",
+    "es": "€",
+    "fr": " €"
   },
   "desc": {
     "en": "The monetary value with a currency (default: €).",
@@ -31,7 +35,9 @@
     "no": "Pengeverdien med en valuta (standard: EUR).",
     "pl": "Wartość pieniężna z walutą (domyślnie: €).",
     "ru": "Денежная стоимость с указанием валюты (по умолчанию: евро).",
-    "sv": "Det monetära värdet med en valuta (standard: €)."
+    "sv": "Det monetära värdet med en valuta (standard: €).",
+    "es": "El valor monetario en una divisa (por omisión, €).",
+    "fr": "La valeur monétaire avec une devise (par défaut : €)."
   },
   "insights": true,
   "chartType": "spline",
@@ -52,7 +58,9 @@
           "no": "Pengeverdien ble endret",
           "pl": "Zmieniła się wartość pieniężna",
           "ru": "Денежная стоимость изменилась",
-          "sv": "Det monetära värdet ändrades"
+          "sv": "Det monetära värdet ändrades",
+          "es": "El valor monetario ha cambiado",
+          "fr": "La valeur monétaire a changé"
         },
         "tokens": [
           {

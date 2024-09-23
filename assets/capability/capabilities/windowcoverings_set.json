@@ -100,7 +100,7 @@
         },
         "hint": {
           "en": "Change the position to open (100%), closed (0%), or a value in between.",
-          "nl": "Verander de positie naar open (100%), gesloten (0%), of een een waarde daartussen.",
+          "nl": "Verander de positie naar open (100%), gesloten (0%), of een waarde daartussen.",
           "ru": "Измените позицию на открытую (100%), закрытую (0%) или между этими значениями.",
           "pl": "Zmień pozycję na rozchylone (100%), zasunięte (0%) lub wartość pomiędzy.",
           "ko": "위치를 열림(100%), 닫힘(0%) 또는 그 사이의 값으로 변경합니다.",

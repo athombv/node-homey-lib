@@ -8,7 +8,10 @@
     "ko": "배터리 충전 상태",
     "pl": "Stan ładowania baterii",
     "ru": "Состояние зарядки аккумулятора",
-    "sv": "Batteriets laddningsstatus"
+    "sv": "Batteriets laddningsstatus",
+    "es": "Estado de carga de la batería",
+    "fr": "État de charge de la batterie",
+    "no": "Batteriladingsstatus"
   },
   "desc": {
     "en": "The current charging state of the battery.",
@@ -18,7 +21,10 @@
     "ko": "배터리의 현재 충전 상태입니다.",
     "pl": "Bieżący stan naładowania baterii.",
     "ru": "Текущее состояние зарядки аккумулятора.",
-    "sv": "Batteriets aktuella laddningsstatus."
+    "sv": "Batteriets aktuella laddningsstatus.",
+    "es": "El estado de carga actual de la batería.",
+    "fr": "L'état de charge actuel de la batterie.",
+    "no": "Batteriets nåværende ladingsstatus."
   },
   "values": [
     {
@@ -31,7 +37,10 @@
         "ko": "충전 중",
         "pl": "Ładowanie",
         "ru": "Заряжается",
-        "sv": "Laddning"
+        "sv": "Laddning",
+        "es": "Cargando",
+        "fr": "Charge",
+        "no": "Lades"
       }
     },
     {
@@ -44,7 +53,10 @@
         "ko": "방전 중",
         "pl": "Rozładowanie",
         "ru": "Разряжается",
-        "sv": "Urladdning"
+        "sv": "Urladdning",
+        "es": "Descargando",
+        "fr": "Décharge",
+        "no": "Lades ut"
       }
     },
     {
@@ -57,7 +69,10 @@
         "ko": "유휴",
         "pl": "Bezczynność",
         "ru": "В ожидании",
-        "sv": "Viloläge"
+        "sv": "Viloläge",
+        "es": "Reposo",
+        "fr": "Inactif",
+        "no": "Inaktiv"
       }
     }
   ],
@@ -76,7 +91,10 @@
           "ko": "배터리 충전 상태 변경됨",
           "pl": "Stan ładowania baterii uległ zmianie",
           "ru": "Состояние зарядки батареи изменилось",
-          "sv": "Batteriets laddningsstatus har ändrats"
+          "sv": "Batteriets laddningsstatus har ändrats",
+          "es": "El estado de carga de la batería ha cambiado",
+          "fr": "L'état de charge de la batterie a changé",
+          "no": "Batteriladingsstatusen ble endret"
         },
         "args": [
           {
@@ -98,7 +116,10 @@
           "ko": "배터리 충전 상태",
           "pl": "Stan ładowania baterii to",
           "ru": "Состояние зарядки аккумулятора:",
-          "sv": "Batteriets laddningsstatus är"
+          "sv": "Batteriets laddningsstatus är",
+          "es": "El estado de carga de la batería es",
+          "fr": "L'état de charge de la batterie est",
+          "no": "Batteriladingsstatusen er"
         },
         "args": [
           {

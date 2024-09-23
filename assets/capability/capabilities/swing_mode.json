@@ -4,11 +4,14 @@
     "en": "Swing mode",
     "nl": "Zwenkmodus",
     "da": "Svingtilstand",
-    "it": "Modalità swing",
+    "it": "Modalità oscillazione",
     "ko": "스윙 모드",
     "pl": "Tryb wahania",
-    "ru": "Режим качания",
-    "sv": "Svängläge"
+    "ru": "Режим поворота",
+    "sv": "Svängläge",
+    "es": "Modo oscilante",
+    "fr": "Mode de balancement",
+    "no": "Svingmodus"
   },
   "values": [
     {
@@ -21,7 +24,10 @@
         "ko": "상하",
         "pl": "Pionowe",
         "ru": "Вертикальный",
-        "sv": "Vertikalt"
+        "sv": "Vertikalt",
+        "es": "Vertical",
+        "fr": "Vertical",
+        "no": "Vertikal"
       }
     },
     {
@@ -34,7 +40,10 @@
         "ko": "좌우",
         "pl": "Poziome",
         "ru": "Горизонтальный",
-        "sv": "Horisontellt"
+        "sv": "Horisontellt",
+        "es": "Horizontal",
+        "fr": "Horizontal",
+        "no": "Horisontal"
       }
     },
     {
@@ -47,7 +56,10 @@
         "ko": "상하좌우",
         "pl": "Oba",
         "ru": "Оба",
-        "sv": "Båda"
+        "sv": "Båda",
+        "es": "Ambos",
+        "fr": "Les deux",
+        "no": "Begge"
       }
     }
   ],
@@ -60,14 +72,16 @@
         "id": "swing_mode_changed",
         "title": {
           "en": "Swing mode has changed to",
-          "nl": "Zwenkmodus is veranderd naar",
-          "da": "Svingtilstanden har ændret sig",
-          "it": "La modalità swing è cambiata",
-          "ko": "스윙 모드가 변경됨",
-          "no": "Svingmodus er endret",
-          "pl": "Zmienił się tryb wahania",
-          "ru": "Режим качания изменен",
-          "sv": "Svängläget har förändrats"
+          "nl": "Zwenkmodus is veranderd in",
+          "da": "Svingtilstanden har ændret sig til",
+          "it": "La modalità oscillazione è cambiata",
+          "ko": "스윙 모드가 다음으로 변경됨",
+          "no": "Svingmodus er endret til",
+          "pl": "Tryb wahania zmienił się na",
+          "ru": "Режим поворота изменен",
+          "sv": "Svängläget har ändrats till",
+          "es": "El modo de giro ha cambiado a",
+          "fr": "Le mode de balancement a changé"
         },
         "args": [
           {
@@ -88,8 +102,11 @@
           "it": "La modalità swing !{{è|non è}}",
           "ko": "스윙 모드가 다음!{{과 같음| 아님}}",
           "pl": "Tryb wahania !{{jest|nie jest}}",
-          "ru": "Режим качания !{{is|is not}}",
-          "sv": "Svängläge !{{är|är inte}}"
+          "ru": "Режим поворота !{{|не}}",
+          "sv": "Svängläge !{{är|är inte}}",
+          "es": "El modo de oscilación !{{es|no es}}",
+          "fr": "Le mode de balancement !{{est|n'est pas}}",
+          "no": "Svingmodus !{{er|er ikke}}"
         },
         "args": [
           {
@@ -110,8 +127,11 @@
           "it": "Imposta la modalità swing su",
           "ko": "스윙 모드를 다음으로 설정",
           "pl": "Ustaw tryb wahania na",
-          "ru": "Установить режим качания на",
-          "sv": "Ställ in svängläge till"
+          "ru": "Установить режим поворота на",
+          "sv": "Ställ in svängläge till",
+          "es": "Ajustar el modo de oscilación en",
+          "fr": "Définir le mode de balancement sur",
+          "no": "Sett svingmodus til"
         },
         "args": [
           {

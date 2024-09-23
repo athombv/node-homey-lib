@@ -6,10 +6,12 @@
     "da": "Løbende alarm",
     "it": "Allarme elaborazione in corso",
     "ko": "동작 중 알람",
-    "no": "Kjøringsalarm ",
+    "no": "Kjøringsalarm",
     "pl": "Alarm pracy urządzenia",
     "ru": "Сигнал о процессе",
-    "sv": "Körlarm"
+    "sv": "Körlarm",
+    "es": "Alarma de funcionamiento",
+    "fr": "Alarme de fonctionnement"
   },
   "desc": {
     "en": "True when the device is busy (e.g., printer is printing).",
@@ -19,7 +21,10 @@
     "ko": "디바이스가 바쁜 상태(예: 프린터가 인쇄 중)면 참입니다.",
     "pl": "Prawda, gdy urządzenie jest zajęte (np. drukarka drukuje).",
     "ru": "Значение «истина», когда устройство занято (например, принтер печатает документ).",
-    "sv": "Sant när enheten är upptagen (t.ex. skrivaren skriver ut)."
+    "sv": "Sant när enheten är upptagen (t.ex. skrivaren skriver ut).",
+    "es": "Activado cuando el dispositivo está en funcionamiento (por ejemplo, la impresora está imprimiendo).",
+    "fr": "Se déclenche lorsque l'appareil est utilisé (par exemple, l'imprimante est en train d'imprimer).",
+    "no": "Sann når enheten er i bruk (f.eks. en skriver som skriver ut noe)."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -30,7 +35,10 @@
     "ko": "동작 중 알람 켜짐",
     "pl": "Alarm pracy urządzenia włączony",
     "ru": "Сигнал о процессе включен",
-    "sv": "Körlarm aktiverat"
+    "sv": "Körlarm aktiverat",
+    "es": "Alarma de funcionamiento activada",
+    "fr": "Alarme de fonctionnement activée",
+    "no": "Kjøringsalarm aktivert"
   },
   "insightsTitleFalse": {
     "en": "Running alarm turned off",
@@ -40,7 +48,10 @@
     "ko": "동작 중 알람 꺼짐",
     "pl": "Alarm pracy urządzenia wyłączony",
     "ru": "Сигнал о процессе выключен",
-    "sv": "Körlarm inaktiverat"
+    "sv": "Körlarm inaktiverat",
+    "es": "Alarma de funcionamiento desactivada",
+    "fr": "Alarme de fonctionnement désactivée",
+    "no": "Kjøringsalarm deaktivert"
   },
   "getable": true,
   "setable": false,
@@ -58,7 +69,10 @@
           "ko": "동작 중 알람이 켜짐",
           "pl": "Włączył się alarm pracy urządzenia",
           "ru": "Сигнал о процессе включен",
-          "sv": "Körlarmet aktiverat"
+          "sv": "Körlarmet aktiverat",
+          "es": "La alarma de funcionamiento se ha activado",
+          "fr": "L'alarme de fonctionnement s'est activée",
+          "no": "Kjøringsalarmen ble aktivert"
         }
       },
       {
@@ -71,7 +85,10 @@
           "ko": "동작 중 알람이 꺼짐",
           "pl": "Alarm pracy urządzenia wyłączony",
           "ru": "Сигнал о процессе выключен",
-          "sv": "Körlarmet inaktiverat"
+          "sv": "Körlarmet inaktiverat",
+          "es": "La alarma de funcionamiento se ha desactivado",
+          "fr": "L'alarme de fonctionnement s'est désactivée",
+          "no": "Kjøringsalarmen ble deaktivert"
         }
       }
     ],
@@ -86,7 +103,10 @@
           "ko": "!{{바쁨|바쁘지 않음}}",
           "pl": "!{{Jest zajęte|Nie jest zajęte}}",
           "ru": "Устройство !{{занято|не занято}}",
-          "sv": "Är !{{upptaget|inte upptaget}}"
+          "sv": "Är !{{upptaget|inte upptaget}}",
+          "es": "!{{Está en funcionamiento|No está en funcionamiento}}",
+          "fr": "Est !{{connectée|déconnectée}}",
+          "no": "Er !{{i bruk|ikke i bruk}}"
         }
       }
     ]

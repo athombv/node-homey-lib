@@ -18,7 +18,7 @@
     "nl": "Wordt geactiveerd wanneer de temperatuur te laag is.",
     "da": "Sandt, når temperaturen er for lav.",
     "es": "Activado cuando la temperatura es muy baja.",
-    "fr": "La valeur est true lorsque la température est trop basse.",
+    "fr": "Se déclenche lorsque la température est trop basse.",
     "it": "Vero quando la temperatura è troppo bassa.",
     "ko": "온도가 너무 낮으면 참입니다.",
     "no": "Sann når temperaturen er for lav.",
@@ -66,7 +66,7 @@
           "nl": "De waarschuwing bij kou is geactiveerd",
           "da": "Kuldealarm tændt",
           "es": "Alarma de frío activada",
-          "fr": "L'alarme de froid s'est déclenchée",
+          "fr": "L'alarme de froid s'est activée",
           "it": "L'allarme freddo si è acceso",
           "ko": "추움 알람이 켜짐",
           "no": "Kuldealarmen ble aktivert",
@@ -82,7 +82,7 @@
           "nl": "De waarschuwing bij kou is gedeactiveerd",
           "da": "Kuldealarm slukket",
           "es": "Alarma de frío desactivada",
-          "fr": "L'alarme de froid s'est arrêtée",
+          "fr": "L'alarme de froid s'est désactivée",
           "it": "L'allarme freddo si è spento",
           "ko": "추움 알람이 꺼짐",
           "no": "Kuldealarmen ble deaktivert",
@@ -99,13 +99,14 @@
           "en": "The cold alarm is !{{on|off}}",
           "nl": "De waarschuwing bij kou is !{{geactiveerd|gedeactiveerd}}",
           "da": "Kuldealarm er slået !{{til|fra}}",
-          "es": "La alarma de frío está {{activada|desactivada}}",
+          "es": "La alarma de frío está !{{activada|desactivada}}",
           "it": "L'allarme freddo è !{{acceso|spento}}",
           "ko": "추움 알람이 !{{켜짐|꺼짐}}",
           "no": "Kuldealarmen er !{{på|av}}",
           "pl": "Alarm zimna jest !{{włączony|wyłączony}}",
           "ru": "Сигнал холода !{{включен|выключен}}",
-          "sv": "Köldlarmet är !{{av|på}}"
+          "sv": "Köldlarmet är !{{av|på}}",
+          "fr": "L'alarme de froid est !{{activée|désactivée}}"
         }
       }
     ]
