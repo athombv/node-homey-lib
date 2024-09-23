@@ -11,7 +11,7 @@
     "es": "Alarma de PM2,5",
     "da": "PM2,5-alarm",
     "ru": "Сигнал ТЧ 2.5",
-    "pl": "Alarm o stężeniu PM2.5",
+    "pl": "Alarm PM2.5",
     "ko": "PM2.5 알람"
   },
   "desc": {
@@ -22,10 +22,10 @@
     "it": "Vero quando i valori PM2.5 superano la soglia",
     "sv": "Sant när PM2.5-värdena överstiger gränsvärdet",
     "no": "Sant når PM2.5-verdiene overskrider grenseverdien",
-    "es": "Verdadero cuando los valores de PM2,5 superan el límite",
+    "es": "Activado cuando los valores de PM2,5 superan el límite",
     "da": "Sandt, når PM2,5-værdier overskrider grænseværdien",
-    "ru": "Верно при превышении контрольного значения ТЧ 2.5",
-    "pl": "Adekwatny, kiedy wykryty zostanie niebezpieczny poziom stężenia PM2.5",
+    "ru": "Значение «истина» при превышении контрольного значения ТЧ 2.5",
+    "pl": "Prawda, gdy wartości PM2.5 przekaczają próg",
     "ko": "PM2.5 값이 임계값을 초과하면 참"
   },
   "insights": true,
@@ -40,7 +40,7 @@
     "es": "Alarma de PM2,5 activada",
     "da": "PM2,5-alarm blev aktiveret",
     "ru": "Сигнал ТЧ 2.5 включен",
-    "pl": "Alarm o stężeniu PM2.5 włączony",
+    "pl": "Alarm PM2.5 włączony",
     "ko": "PM2.5 알람 켜짐"
   },
   "insightsTitleFalse": {
@@ -54,7 +54,7 @@
     "es": "Alarma de PM2,5 desactivada",
     "da": "PM2,5-alarm blev deaktiveret",
     "ru": "Сигнал ТЧ 2.5 выключен",
-    "pl": "Alarm o stężeniu PM2.5 wyłączony",
+    "pl": "Alarm PM2.5 wyłączony",
     "ko": "PM2.5 알람 꺼짐"
   },
   "getable": true,
@@ -72,11 +72,11 @@
           "fr": "L'alarme PM2.5 s'est activée",
           "it": "L'allarme PM2.5 è stato attivato",
           "sv": "PM2.5-larmet aktiverat",
-          "no": "PM2.5-alarmen aktivert",
+          "no": "PM2.5-alarmen ble aktivert",
           "es": "La alarma de PM2,5 se ha activado",
           "da": "PM2,5-alarmen blev aktiveret",
           "ru": "Сигнал ТЧ 2.5 включен",
-          "pl": "Alarm o stężeniu PM2.5 włączony",
+          "pl": "Alarm PM2.5 włączony",
           "ko": "PM2.5 알람 켜짐"
         }
       },
@@ -89,11 +89,11 @@
           "fr": "L'alarme PM2.5 s'est désactivée",
           "it": "L'allarme PM2.5 è stato disattivato",
           "sv": "PM2.5-larmet inaktiverat",
-          "no": "PM2.5-alarmen deaktivert",
+          "no": "PM2.5-alarmen ble deaktivert",
           "es": "La alarma de PM2,5 se ha desactivado",
           "da": "PM2,5-alarmen blev deaktiveret",
           "ru": "Сигнал ТЧ 2.5 выключен",
-          "pl": "Alarm o stężeniu PM2.5 wyłączony",
+          "pl": "Alarm PM2.5 wyłączony",
           "ko": "PM2.5 알람 꺼짐"
         }
       }
@@ -112,7 +112,7 @@
           "es": "La alarma de PM2,5 está !{{activada|desactivada}}",
           "da": "PM2,5-alarmen er !{{tændt|slukket}}",
           "ru": "Сигнал ТЧ 2.5 !{{вкл.|выкл.}}",
-          "pl": "Alarm o stężeniu PM2.5 !{{włączony|wyłączony}}",
+          "pl": "Alarm PM2.5 jest !{{włączony|wyłączony}}",
           "ko": "PM2.5 알람 !{{켬|끔}}"
         }
       }
