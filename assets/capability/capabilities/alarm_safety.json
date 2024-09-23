@@ -9,7 +9,9 @@
     "no": "Trygghetsalarm",
     "pl": "Alarm bezpieczeństwa",
     "ru": "Сигнал тревоги",
-    "sv": "Säkerhetslarm"
+    "sv": "Säkerhetslarm",
+    "es": "Alarma de seguridad",
+    "fr": "Alarme de sécurité"
   },
   "desc": {
     "en": "True when unsafe.",
@@ -20,7 +22,9 @@
     "no": "Sann ved utrygge forhold.",
     "pl": "Prawda, gdy nie jest bezpieczne.",
     "ru": "Значение «истина» при возникновении опасности.",
-    "sv": "Sant när det är osäkert."
+    "sv": "Sant när det är osäkert.",
+    "es": "Activado cuando no es seguro.",
+    "fr": "Se déclenche en cas d'insécurité."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +36,9 @@
     "no": "Trygghetsalarm aktivert",
     "pl": "Alarm bezpieczeństwa włączony",
     "ru": "Сигнал тревоги включен",
-    "sv": "Säkerhetslarm aktiverat"
+    "sv": "Säkerhetslarm aktiverat",
+    "es": "Alarma de seguridad activada",
+    "fr": "Alarme de sécurité activée"
   },
   "insightsTitleFalse": {
     "en": "Safety alarm turned off",
@@ -43,7 +49,9 @@
     "no": "Trygghetsalarm deaktivert",
     "pl": "Alarm bezpieczeństwa wyłączony",
     "ru": "Сигнал тревоги выключен",
-    "sv": "Säkerhetslarm inaktiverat"
+    "sv": "Säkerhetslarm inaktiverat",
+    "es": "Alarma de seguridad desactivada",
+    "fr": "Alarme de sécurité désactivée"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +70,9 @@
           "no": "Trygghetsalarmen ble aktivert",
           "pl": "Włączył się alarm bezpieczeństwa",
           "ru": "Сигнал тревоги включен",
-          "sv": "Säkerhetslarmet aktiverat"
+          "sv": "Säkerhetslarmet aktiverat",
+          "es": "La alarma de seguridad se ha activado",
+          "fr": "L'alarme de sécurité s'est activée"
         }
       },
       {
@@ -76,7 +86,9 @@
           "no": "Trygghetsalarmen ble deaktivert",
           "pl": "Wyłączył się alarm bezpieczeństwa",
           "ru": "Сигнал тревоги выключен",
-          "sv": "Säkerhetslarmet inaktiverat"
+          "sv": "Säkerhetslarmet inaktiverat",
+          "es": "La alarma de seguridad se ha apagado",
+          "fr": "L'alarme de sécurité s'est désactivée"
         }
       }
     ],
@@ -92,7 +104,9 @@
           "no": "Trygghetsalarmen er !{{på|av}}",
           "pl": "Alarm bezpieczeństwa jest !{{włączony|wyłączony}}",
           "ru": "Сигнал тревоги !{{включен|выключен}}",
-          "sv": "Säkerhetslarmet är !{{på|av}}"
+          "sv": "Säkerhetslarmet är !{{på|av}}",
+          "es": "La alarma de seguridad está !{{activada|desactivada}}",
+          "fr": "L'alarme de sécurité est !{{activée|désactivée}}"
         }
       }
     ]

@@ -8,7 +8,10 @@
     "ko": "도킹됨",
     "pl": "Zadokowane",
     "ru": "Установлено в док-станцию",
-    "sv": "Dockad"
+    "sv": "Dockad",
+    "es": "En la base de carga",
+    "fr": "À la base",
+    "no": "I stasjonen"
   },
   "desc": {
     "en": "True when docked.",
@@ -18,7 +21,10 @@
     "ko": "도킹되면 참입니다.",
     "pl": "Prawda, gdy zadokowane.",
     "ru": "Значение «истина» при установке в док-станцию.",
-    "sv": "Sant när den är dockad."
+    "sv": "Sant när den är dockad.",
+    "es": "Activado cuando está en la base de carga.",
+    "fr": "Se déclenche lorsque l'appareil est à la base.",
+    "no": "Sann når den er i stasjonen."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -29,7 +35,10 @@
     "ko": "도킹됨",
     "pl": "Zadokowane",
     "ru": "Установлено в док-станцию",
-    "sv": "Dockad"
+    "sv": "Dockad",
+    "es": "En la base de carga",
+    "fr": "À la base",
+    "no": "I stasjonen"
   },
   "insightsTitleFalse": {
     "en": "Not docked",
@@ -39,7 +48,10 @@
     "ko": "도킹되지 않음",
     "pl": "Nie zadokowane",
     "ru": "Не установлено в док-станцию",
-    "sv": "Inte dockad"
+    "sv": "Inte dockad",
+    "es": "Fuera de la base de carga",
+    "fr": "Pas à la base",
+    "no": "Ikke i stasjonen"
   },
   "getable": true,
   "setable": false,
@@ -52,12 +64,15 @@
         "title": {
           "en": "Has docked",
           "nl": "Is gekoppeld",
-          "da": "Forankret",
+          "da": "Er forankret",
           "it": "Alloggiato",
           "ko": "도킹됨",
-          "pl": "Zadokowane",
+          "pl": "Jest zadokowane",
           "ru": "Установлено в док-станцию",
-          "sv": "Dockad"
+          "sv": "Dockad",
+          "es": "Está en la base de carga",
+          "fr": "À la base",
+          "no": "Har gått til stasjonen"
         }
       },
       {
@@ -65,12 +80,15 @@
         "title": {
           "en": "Has undocked",
           "nl": "Is losgekoppeld",
-          "da": "Ikke forankret",
+          "da": "Er ikke forankret",
           "it": "Non alloggiato",
           "ko": "도킹되지 않음",
-          "pl": "Nie zadokowane",
+          "pl": "Jest niezadokowane",
           "ru": "Не установлено в док-станцию",
-          "sv": "Inte dockad"
+          "sv": "Inte dockad",
+          "es": "Está fuera de la base de carga",
+          "fr": "Pas à la base",
+          "no": "Har gått ut av stasjonen"
         }
       }
     ],
@@ -83,9 +101,12 @@
           "da": "Er !{{Forankret|Ikke forankret}}",
           "it": "È !{{alloggiato|non alloggiato}}",
           "ko": "!{{도킹됨|도킹되지 않음}}",
-          "pl": "Jest !",
+          "pl": "Jest !{{zadokowane|niezadokowane}}",
           "ru": "!{{Установлено в док-станцию|Не установлено в док-станцию}}",
-          "sv": "Är !{{dockad|inte dockad}}"
+          "sv": "Är !{{dockad|inte dockad}}",
+          "es": "Está !{{en la base de carga|fuera de la base de carga}}",
+          "fr": "!{{Est à la base|N'est pas à la base}}",
+          "no": "Er !{{i stasjonen|ikke i stasjonen}}"
         }
       }
     ]

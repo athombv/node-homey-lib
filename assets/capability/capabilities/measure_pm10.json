@@ -23,7 +23,9 @@
     "it": "μg/m³",
     "nl": "μg/m³",
     "pl": "μg/m³",
-    "sv": "μg/m³"
+    "sv": "μg/m³",
+    "es": "μg/m³",
+    "fr": "μg/m³"
   },
   "insights": true,
   "desc": {
@@ -33,7 +35,7 @@
     "fr": "Particules en suspension (μg/m³)",
     "it": "Particolato atmosferico (μg/m³)",
     "sv": "Atmosfäriskt partikelämne (μg/m³)",
-    "no": "Atmosfæriske partikler (μg/m³)",
+    "no": "Svevestøv (μg/m³)",
     "es": "Partículas atmosféricas (μg/m³)",
     "da": "Atmosfæriske partikler (μg/m³)",
     "ru": "Твердые частицы в воздухе (мкг/м³)",

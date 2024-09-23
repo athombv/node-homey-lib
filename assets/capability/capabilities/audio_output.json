@@ -8,7 +8,10 @@
     "ko": "오디오 출력",
     "pl": "Wyjście audio",
     "ru": "Аудиовыход",
-    "sv": "Ljudutgång"
+    "sv": "Ljudutgång",
+    "es": "Salida de audio",
+    "fr": "Sortie audio",
+    "no": "Lydutgang"
   },
   "desc": {
     "en": "The audio output channel for a media player.",
@@ -18,7 +21,10 @@
     "ko": "미디어 플레이어의 오디오 출력 채널입니다.",
     "pl": "Kanał wyjściowy audio odtwarzacza multimedialnego.",
     "ru": "Канал аудиовыхода для медиаплеера.",
-    "sv": "Ljudutgångskanalen för en mediaspelare."
+    "sv": "Ljudutgångskanalen för en mediaspelare.",
+    "es": "Canal de salida de audio en un reproductor multimedia.",
+    "fr": "Canal de sortie audio d'un lecteur multimédia.",
+    "no": "Lydutgangskanalen for en mediespiller."
   },
   "values": [
     {
@@ -32,7 +38,9 @@
         "no": "HDMI 1",
         "pl": "HDMI 1",
         "ru": "HDMI 1",
-        "sv": "HDMI 1"
+        "sv": "HDMI 1",
+        "es": "HDMI 1",
+        "fr": "HDMI 1"
       }
     },
     {
@@ -46,7 +54,9 @@
         "no": "HDMI 2",
         "pl": "HDMI 2",
         "ru": "HDMI 2",
-        "sv": "HDMI 2"
+        "sv": "HDMI 2",
+        "es": "HDMI 2",
+        "fr": "HDMI 2"
       }
     },
     {
@@ -60,7 +70,9 @@
         "no": "HDMI 3",
         "pl": "HDMI 3",
         "ru": "HDMI 3",
-        "sv": "HDMI 3"
+        "sv": "HDMI 3",
+        "es": "HDMI 3",
+        "fr": "HDMI 3"
       }
     },
     {
@@ -73,7 +85,10 @@
         "ko": "라인아웃",
         "pl": "Wyjście liniowe",
         "ru": "Линейный выход",
-        "sv": "Linje ut"
+        "sv": "Linje ut",
+        "es": "Salida de línea",
+        "fr": "Sortie line",
+        "no": "Linje ut"
       }
     },
     {
@@ -86,7 +101,10 @@
         "ko": "옵티컬",
         "pl": "Optyczne",
         "ru": "Оптический выход",
-        "sv": "Optisk"
+        "sv": "Optisk",
+        "es": "Óptico",
+        "fr": "Optique",
+        "no": "Optisk"
       }
     },
     {
@@ -99,7 +117,10 @@
         "ko": "USB",
         "pl": "USB",
         "ru": "USB",
-        "sv": "USB"
+        "sv": "USB",
+        "es": "USB",
+        "fr": "USB",
+        "no": "USB"
       }
     }
   ],
@@ -119,7 +140,10 @@
           "ko": "오디오 출력이 다음으로 변경됨",
           "pl": "Wyjście audio zmieniło się na",
           "ru": "Аудиовыход изменен на",
-          "sv": "Ljudutgången ändrades till"
+          "sv": "Ljudutgången ändrades till",
+          "es": "La salida de audio ha cambiado a",
+          "fr": "La sortie audio passe à",
+          "no": "Lydutgangen ble endret til"
         },
         "args": [
           {
@@ -140,8 +164,11 @@
           "it": "L'uscita audio !{{è|non è}}",
           "ko": "오디오 출력이 다음!{{과 같음| 아님}}",
           "pl": "Wyjście audio !{{jest|nie jest}}",
-          "ru": "Аудиовыход !{{is|is not}}",
-          "sv": "Ljudutgången !{{är|är inte}}"
+          "ru": "Аудиовыход !{{|не}}",
+          "sv": "Ljudutgången !{{är|är inte}}",
+          "es": "La salida de audio !{{está|no está}}",
+          "fr": "La sortie audio !{{est|n'est pas}}",
+          "no": "Lydutgangen !{{er|er ikke}}"
         },
         "args": [
           {
@@ -163,7 +190,10 @@
           "ko": "오디오 출력을 다음으로 설정",
           "pl": "Ustaw wyjście audio na",
           "ru": "Установить аудиовыход на",
-          "sv": "Ställ in ljudutgång till"
+          "sv": "Ställ in ljudutgång till",
+          "es": "Configurar la salida de audio en",
+          "fr": "Définir la sortie audio sur",
+          "no": "Sett lydutgang til"
         },
         "args": [
           {

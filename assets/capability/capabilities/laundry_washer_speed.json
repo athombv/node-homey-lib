@@ -8,7 +8,10 @@
     "ko": "세탁기 속도",
     "pl": "Prędkość prania",
     "ru": "Скорость стиральной машины",
-    "sv": "Tvättmaskinens hastighet"
+    "sv": "Tvättmaskinens hastighet",
+    "es": "Velocidad de centrifugado",
+    "fr": "Vitesse du lave-linge",
+    "no": "Vaskehastighet"
   },
   "desc": {
     "en": "The spin speed of the laundry washer.",
@@ -18,7 +21,10 @@
     "ko": "세탁기의 회전 속도입니다.",
     "pl": "Prędkość obrotów pralki.",
     "ru": "Скорость отжима в стиральной машине.",
-    "sv": "Tvättmaskinens centrifugeringshastighet."
+    "sv": "Tvättmaskinens centrifugeringshastighet.",
+    "es": "La velocidad de centrifugado de la lavadora.",
+    "fr": "La vitesse d'essorage du lave-linge.",
+    "no": "Vaskemaskinens sentrifugehastighet."
   },
   "values": [
     {
@@ -31,7 +37,10 @@
         "ko": "저속",
         "pl": "Niska",
         "ru": "Низкая",
-        "sv": "Låg"
+        "sv": "Låg",
+        "es": "Baja",
+        "fr": "Lente",
+        "no": "Lav"
       }
     },
     {
@@ -44,7 +53,10 @@
         "ko": "중간",
         "pl": "Średnia",
         "ru": "Средняя",
-        "sv": "Medium"
+        "sv": "Medium",
+        "es": "Intermedia",
+        "fr": "Moyenne",
+        "no": "Middels"
       }
     },
     {
@@ -57,7 +69,10 @@
         "ko": "고속",
         "pl": "Wysoka",
         "ru": "Высокая",
-        "sv": "Hög"
+        "sv": "Hög",
+        "es": "Alta",
+        "fr": "Rapide",
+        "no": "Høy"
       }
     }
   ],
@@ -71,13 +86,16 @@
         "highlight": true,
         "title": {
           "en": "The speed changed to",
-          "nl": "Het toerental is veranderd naar",
-          "da": "Vaskemaskinens hastighed blev ændret til",
-          "it": "La velocità della lavatrice è passata a",
-          "ko": "세탁기 속도가 다음으로 변경됨",
-          "pl": "Prędkość prania zmieniła się na",
-          "ru": "Скорость стиральной машины изменена на",
-          "sv": "Tvättmaskinens hastighet ändrades till"
+          "nl": "Het toerental is veranderd in",
+          "da": "Hastigheden blev ændret til",
+          "it": "La velocità è passata a",
+          "ko": "속도가 다음으로 변경됨",
+          "pl": "Prędkość zmieniła się na",
+          "ru": "Скорость изменена на",
+          "sv": "Hastigheten ändrades till",
+          "es": "La velocidad ha cambiado a",
+          "fr": "La vitesse du lave-linge est passée à",
+          "no": "Hastigheten ble endret til"
         },
         "args": [
           {
@@ -94,12 +112,15 @@
         "title": {
           "en": "The speed !{{is|is not}}",
           "nl": "Het toerental !{{is|is niet}}",
-          "da": "Vaskemaskinens hastighed !{{er|er ikke}}",
-          "it": "La velocità della lavatrice !{{è|non è}}",
-          "ko": "세탁기 속도가 다음!{{과 같음| 아님}}",
-          "pl": "Prędkość pralki!{{jest|nie jest}}",
-          "ru": "Скорость стиральной машины !{{is|is not}}",
-          "sv": "Tvättmaskinens hastighet !{{är|är inte}}"
+          "da": "Hastigheden !{{er|er ikke}}",
+          "it": "La velocità !{{è|non è}}",
+          "ko": "속도가 다음!{{과 같음| 아님}}",
+          "pl": "Prędkość !{{jest|nie jest}}",
+          "ru": "Скорость !{{|не}}",
+          "sv": "Hastigheten !{{är|är inte}}",
+          "es": "La velocidad !{{está|no está}}",
+          "fr": "La vitesse du lave-linge !{{est|n'est pas}}",
+          "no": "Hastigheten !{{er|er ikke}}"
         },
         "args": [
           {
@@ -116,12 +137,15 @@
         "title": {
           "en": "Set the speed to",
           "nl": "Het toerental instellen op",
-          "da": "Indstil vaskemaskinens hastighed til",
-          "it": "Imposta la velocità della lavatrice su",
-          "ko": "세탁기 속도를 다음으로 설정",
-          "pl": "Ustaw prędkość prania na",
-          "ru": "Установить скорость стиральной машины на",
-          "sv": "Ställ in tvättmaskinens hastighet på"
+          "da": "Indstil hastigheden til",
+          "it": "Imposta la velocità su",
+          "ko": "속도를 다음으로 설정",
+          "pl": "Ustaw prędkość na",
+          "ru": "Установить скорость на",
+          "sv": "Ställ in hastigheten på",
+          "es": "Ajustar la velocidad a",
+          "fr": "Définir la vitesse du lave-linge sur",
+          "no": "Sett hastigheten til"
         },
         "args": [
           {

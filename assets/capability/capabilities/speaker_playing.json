@@ -69,7 +69,7 @@
           "es": "!{{Se está|No se está}} reproduciendo",
           "da": "Spiller !{{|ikke}}",
           "ru": "!{{|не}} воспроизводится",
-          "pl": "!{Trwa{|nie trwa}} odtwarzanie",
+          "pl": "!{{odtwarza|nie odtwarza}}",
           "ko": "이(가) 재생 중!{{임| 아님}}"
         }
       }
@@ -121,7 +121,7 @@
           "it": "Alterna riproduzione/pausa",
           "sv": "Växla spela/pausa",
           "no": "Veksle mellom avspilling/pause",
-          "es": "Reproducir/Pausar",
+          "es": "Reproducir o pausar",
           "da": "Skift mellem Afspil/Pause",
           "ru": "Переключатель Воспроизвести/Пауза",
           "pl": "Przełącz na Odtwórz/Pauza",

@@ -8,7 +8,10 @@
     "ko": "공기질 수준",
     "pl": "Poziom jakości powietrza",
     "ru": "Уровень качества воздуха",
-    "sv": "Luftkvalitetsnivå"
+    "sv": "Luftkvalitetsnivå",
+    "es": "Nivel de calidad del aire",
+    "fr": "Niveau de qualité de l'air",
+    "no": "Luftkvalitetsnivå"
   },
   "desc": {
     "en": "The air quality index represented as a level.",
@@ -19,7 +22,9 @@
     "ko": "수준으로 표현한 공기질 지수입니다.",
     "pl": "Wskaźnik jakości powietrza przedstawiony jako poziom.",
     "ru": "Показатель качества воздуха, представленный в виде уровня.",
-    "sv": "Luftkvalitetsindexet representeras som en nivå."
+    "sv": "Luftkvalitetsindexet representeras som en nivå.",
+    "fr": "L'indice de qualité de l'air représenté sous forme de niveau.",
+    "no": "Luftkvalitetsindeksen uttrykt som et nivå."
   },
   "values": [
     {
@@ -32,7 +37,10 @@
         "ko": "좋음",
         "pl": "Dobry",
         "ru": "Хороший",
-        "sv": "Bra"
+        "sv": "Bra",
+        "es": "Bueno",
+        "fr": "Bon",
+        "no": "God"
       }
     },
     {
@@ -45,7 +53,10 @@
         "ko": "나쁨",
         "pl": "Niski",
         "ru": "Плохой",
-        "sv": "Dålig"
+        "sv": "Dålig",
+        "es": "Deficiente",
+        "fr": "Mauvais",
+        "no": "Dårlig"
       }
     },
     {
@@ -58,7 +69,10 @@
         "ko": "매우 나쁨",
         "pl": "Bardzo niski",
         "ru": "Очень плохой",
-        "sv": "Mycket dålig"
+        "sv": "Mycket dålig",
+        "es": "Muy deficiente",
+        "fr": "Très mauvais",
+        "no": "Svært dårlig"
       }
     },
     {
@@ -71,7 +85,10 @@
         "ko": "극도로 나쁨",
         "pl": "Skrajnie niski",
         "ru": "Чрезвычайно плохой",
-        "sv": "Extremt dålig"
+        "sv": "Extremt dålig",
+        "es": "Extremadamente deficiente",
+        "fr": "Extrêmement mauvais",
+        "no": "Ekstremt dårlig"
       }
     }
   ],
@@ -91,7 +108,10 @@
           "ko": "공기질 수준이 다음으로 변경됨",
           "pl": "Poziom jakości powietrza zmienił się na",
           "ru": "Уровень качества воздуха изменился на",
-          "sv": "Luftkvalitetsnivån ändrades till"
+          "sv": "Luftkvalitetsnivån ändrades till",
+          "es": "El nivel de calidad del aire ha cambiado a",
+          "fr": "Le niveau de qualité de l'air est passé à",
+          "no": "Luftkvalitetsnivået ble endret til"
         },
         "args": [
           {
@@ -112,8 +132,11 @@
           "it": "La qualità dell'aria !{{è|non è}}",
           "ko": "공기질이 다음!{{과 같음| 아님}}",
           "pl": "Jakość powietrza !{{jest|nie jest}}",
-          "ru": "Качество воздуха !{{is|is not}}",
-          "sv": "Luftkvaliteten !{{är|är inte}}"
+          "ru": "Качество воздуха !{{|не}}",
+          "sv": "Luftkvaliteten !{{är|är inte}}",
+          "es": "La calidad del aire !{{es|no es}}",
+          "fr": "La qualité de l'air !{{est|n'est pas}}",
+          "no": "Luftkvaliteten !{{er|er ikke}}"
         },
         "args": [
           {

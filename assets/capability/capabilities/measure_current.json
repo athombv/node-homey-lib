@@ -17,7 +17,8 @@
   "units": {
     "en": "A",
     "ko": "A",
-    "no": "A"
+    "no": "A",
+    "ru": "A"
   },
   "insights": true,
   "desc": {

@@ -6,23 +6,25 @@
     "da": "Papirkurv fuld alarm",
     "es": "Alarma de cubo lleno",
     "fr": "Alarme de poubelle pleine",
-    "it": "Allarme cestino pieno",
+    "it": "Allarme contenitore pieno",
     "ko": "휴지통 가득 참 알람",
     "pl": "Alarm pełnego kosza",
-    "ru": "Сигнал о заполненности корзины",
-    "sv": "Larm om full behållare"
+    "ru": "Сигнал о заполненности контейнера",
+    "sv": "Larm om full behållare",
+    "no": "Alarm om full støvbeholder"
   },
   "desc": {
     "en": "True when the bin is full",
     "nl": "Wordt geactiveerd wanneer de afvalbak vol is",
     "da": "Sandt, når papirkurven er fuld",
     "es": "Activado cuando el cubo está lleno",
-    "fr": "La valeur est true lorsque la poubelle est pleine",
-    "it": "Vero quando il cestino è pieno",
+    "fr": "Se déclenche lorsque la poubelle est pleine",
+    "it": "Vero quando il contenitore è pieno",
     "ko": "휴지통이 가득 차면 참임",
     "pl": "Prawda, gdy kosz jest pełny",
-    "ru": "Значение «истина», когда корзина заполнена",
-    "sv": "Sant när behållaren är full"
+    "ru": "Значение «истина», когда контейнер заполнен",
+    "sv": "Sant när behållaren är full",
+    "no": "Sann når støvbeholderen er full"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -31,11 +33,12 @@
     "da": "Papirkurven var fuld",
     "es": "El cubo estaba lleno",
     "fr": "La poubelle était pleine",
-    "it": "Il cestino era pieno",
+    "it": "Il contenitore era pieno",
     "ko": "휴지통 가득 찼음",
     "pl": "Kosz był pełny",
-    "ru": "Корзина была заполнена",
-    "sv": "Behållaren var full"
+    "ru": "Контейнер был заполнен",
+    "sv": "Behållaren var full",
+    "no": "Støvbeholderen var full"
   },
   "insightsTitleFalse": {
     "en": "The bin was not full",
@@ -43,11 +46,12 @@
     "da": "Papirkurven var ikke fuld",
     "es": "El cubo no estaba lleno",
     "fr": "La poubelle n'était pas pleine",
-    "it": "Il cestino non era pieno",
+    "it": "Il contenitore non era pieno",
     "ko": "휴지통이 가득 차지 않음",
     "pl": "Kosz nie był pełny",
-    "ru": "Корзина не была заполнена",
-    "sv": "Behållaren var inte full"
+    "ru": "Контейнер не был заполнен",
+    "sv": "Behållaren var inte full",
+    "no": "Støvbeholderen var ikke full"
   },
   "getable": true,
   "setable": false,
@@ -63,11 +67,12 @@
           "da": "Papirkurven er fuld",
           "es": "El cubo está lleno",
           "fr": "La poubelle est pleine",
-          "it": "Il cestino è pieno",
+          "it": "Il contenitore è pieno",
           "ko": "휴지통이 가득 참",
           "pl": "Kosz jest pełny",
-          "ru": "Корзина заполнена",
-          "sv": "Behållaren är full"
+          "ru": "Контейнер заполнен",
+          "sv": "Behållaren är full",
+          "no": "Støvbeholderen er full"
         }
       },
       {
@@ -78,11 +83,12 @@
           "da": "Papirkurven er ikke længere fuld",
           "es": "El cubo ya no está lleno",
           "fr": "La poubelle n'est plus pleine",
-          "it": "Il cestino non è più pieno",
+          "it": "Il contenitore non è più pieno",
           "ko": "휴지통이 더 이상 가득 차지 않음",
           "pl": "Kosz nie jest już pełny",
-          "ru": "Корзина больше не заполнена",
-          "sv": "Behållaren är inte längre full"
+          "ru": "Контейнер больше не заполнен",
+          "sv": "Behållaren är inte längre full",
+          "no": "Støvbeholderen er ikke lenger full"
         }
       }
     ],
@@ -93,12 +99,14 @@
           "en": "The bin is !{{full|not full}}",
           "nl": "De afvalbak is !{{vol|niet vol}}",
           "da": "Papirkurven er !{{full|not full}}",
-          "es": "El cubo {{está lleno|no está lleno}} ",
-          "it": "Il cestino è !{{pieno|non pieno}}",
+          "es": "El cubo !{{está lleno|no está lleno}} ",
+          "it": "Il contenitore è !{{pieno|non pieno}}",
           "ko": "휴지통이 !{{가득 참|가득 차지 않음}}",
           "pl": "Kosz {{jest pełny|nie jest pełny}}",
-          "ru": "Корзина !{{заполнена|не заполнена}}",
-          "sv": "Behållaren är!{{full|inte full}}"
+          "ru": "Контейнер !{{заполнен|не заполнен}}",
+          "sv": "Behållaren är!{{full|inte full}}",
+          "fr": "La poubelle !{{est pleine|n'est pas pleine}}",
+          "no": "Støvbeholderen er !{{full|ikke full}}"
         }
       }
     ]

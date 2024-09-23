@@ -8,7 +8,10 @@
     "ko": "오존 수준",
     "pl": "Poziom ozonu",
     "ru": "Уровень озона",
-    "sv": "Ozonnivå"
+    "sv": "Ozonnivå",
+    "es": "Nivel de ozono",
+    "fr": "Niveau d'ozone",
+    "no": "Ozonnivå"
   },
   "desc": {
     "en": "The level of ozone in the air.",
@@ -18,7 +21,10 @@
     "ko": "공기 중 오존 수준입니다.",
     "pl": "Poziom ozonu w powietrzu.",
     "ru": "Уровень содержания озона в воздухе.",
-    "sv": "Halten av ozon i luften."
+    "sv": "Halten av ozon i luften.",
+    "es": "El nivel de ozono en el aire.",
+    "fr": "Le niveau d'ozone dans l'air.",
+    "no": "Nivået av ozon i luften."
   },
   "values": [
     {
@@ -31,7 +37,10 @@
         "ko": "낮음",
         "pl": "Niski",
         "ru": "Низкий",
-        "sv": "Låg"
+        "sv": "Låg",
+        "es": "Bajo",
+        "fr": "Faible",
+        "no": "Lavt"
       }
     },
     {
@@ -44,7 +53,10 @@
         "ko": "중간",
         "pl": "Średni",
         "ru": "Средний",
-        "sv": "Medium"
+        "sv": "Medium",
+        "es": "Intermedio",
+        "fr": "Moyen",
+        "no": "Middels"
       }
     },
     {
@@ -57,7 +69,10 @@
         "ko": "높음",
         "pl": "Wysoki",
         "ru": "Высокий",
-        "sv": "Hög"
+        "sv": "Hög",
+        "es": "Alto",
+        "fr": "Élevé",
+        "no": "Høyt"
       }
     },
     {
@@ -70,7 +85,10 @@
         "ko": "치명적",
         "pl": "Krytyczny",
         "ru": "Критический",
-        "sv": "Kritisk"
+        "sv": "Kritisk",
+        "es": "Crítico",
+        "fr": "Critique",
+        "no": "Kritisk\n"
       }
     }
   ],
@@ -90,7 +108,10 @@
           "ko": "오존 수준이 다음으로 변경됨",
           "pl": "Poziom ozonu zmienił się na",
           "ru": "Уровень озона изменился на",
-          "sv": "Ozonnivån ändrades till"
+          "sv": "Ozonnivån ändrades till",
+          "es": "El nivel de ozono ha cambiado a",
+          "fr": "Le niveau d'ozone est passé à",
+          "no": "Ozonnivået ble endret til"
         },
         "args": [
           {
@@ -111,8 +132,11 @@
           "it": "Il livello di ozono !{{è|non è}}",
           "ko": "오존 수준이 다음!{{과 같음| 아님}",
           "pl": "Poziom ozonu !{{jest|nie jest}}",
-          "ru": "Уровень озона !{{is|is not}}",
-          "sv": "Ozonnivån !{{är|är inte}}"
+          "ru": "Уровень озона !{{|не}}",
+          "sv": "Ozonnivån !{{är|är inte}}",
+          "es": "El nivel de ozono !{{es|no es}}",
+          "fr": "Le niveau d'ozone !{{est|n'est pas}}",
+          "no": "Ozonnivået !{{er|er ikke}}"
         },
         "args": [
           {

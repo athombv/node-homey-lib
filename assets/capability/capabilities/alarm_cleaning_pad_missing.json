@@ -6,23 +6,25 @@
     "da": "Rengøringspad mangler alarm",
     "es": "Alarma de almohadilla de limpieza no presente",
     "fr": "Alarme de lingette de nettoyage manquante",
-    "it": "Allarme spugna pulente mancante",
+    "it": "Allarme panno pulente mancante",
     "ko": "클리닝 패드 누락 알람",
     "pl": "Alarm braku podkładki czyszczącej",
     "ru": "Сигнал об отсутствии чистящей губки",
-    "sv": "Rengöringspad saknar larm"
+    "sv": "Rengöringspad saknar larm",
+    "no": "Alarm om manglende vaskeklut"
   },
   "desc": {
     "en": "True when the cleaning pad is missing.",
     "nl": "Wordt geactiveerd wanneer de reinigingspad ontbreekt.",
     "da": "Sandt, når rengøringspad mangler.",
     "es": "Activado cuando la almohadilla no está presente",
-    "fr": "La valeur est true lorsque la lingette de nettoyage est manquante.",
-    "it": "Vero quando manca la spugna pulente.",
+    "fr": "Se déclenche lorsque la lingette de nettoyage est manquante.",
+    "it": "Vero quando manca il panno pulente.",
     "ko": "클리닝 패드가 누락되면 참입니다.",
     "pl": "Prawda, gdy brakuje podkładki czyszczącej.",
     "ru": "Значение «истина», когда чистящая губка отсутствует.",
-    "sv": "Sant när rengöringsdynan saknas."
+    "sv": "Sant när rengöringsdynan saknas.",
+    "no": "Sann når vaskekluten mangler."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -31,11 +33,12 @@
     "da": "Rengøringspad blev fjernet",
     "es": "La almohadilla de limpieza se ha retirado",
     "fr": "La lingette de nettoyage a été enlevée",
-    "it": "La spugna pulente è stata rimossa",
+    "it": "Il panno pulente è stato rimosso",
     "ko": "클리닝 패드가 제거됨",
     "pl": "Podkładka czyszcząca została usunięta",
     "ru": "Чистящая губка была удалена",
-    "sv": "Rengöringsdynan togs bort"
+    "sv": "Rengöringsdynan togs bort",
+    "no": "Vaskekluten ble fjernet"
   },
   "insightsTitleFalse": {
     "en": "The cleaning pad was placed",
@@ -43,11 +46,12 @@
     "da": "Rengøringspad blev placeret",
     "es": "La almohadilla de limpieza se ha colocado",
     "fr": "La lingette de nettoyage a été placée",
-    "it": "La spugna pulente è stata posizionata",
+    "it": "Il panno pulente è stato posizionato",
     "ko": "클리닝 패드가 배치됨",
     "pl": "Podkładka czyszcząca została umieszczona",
     "ru": "Чистящая губка была размещена",
-    "sv": "Rengöringsdynan placerades"
+    "sv": "Rengöringsdynan placerades",
+    "no": "Vaskekluten ble satt på plass"
   },
   "getable": true,
   "setable": false,
@@ -63,11 +67,12 @@
           "da": "Rengøringspad blev fjernet",
           "es": "La almohadilla de limpieza se ha retirado",
           "fr": "La lingette de nettoyage a été enlevée",
-          "it": "La spugna pulente è stata rimossa",
+          "it": "Il panno pulente è stato rimosso",
           "ko": "클리닝 패드가 제거됨",
           "pl": "Podkładka czyszcząca została usunięta",
           "ru": "Чистящая губка была удалена",
-          "sv": "Rengöringsdynan togs bort"
+          "sv": "Rengöringsdynan togs bort",
+          "no": "Vaskekluten ble fjernet"
         }
       },
       {
@@ -78,11 +83,12 @@
           "da": "Rengøringspad blev placeret",
           "es": "La almohadilla de limpieza se ha colocado",
           "fr": "La lingette de nettoyage a été placée",
-          "it": "La spugna pulente è stata posizionata",
+          "it": "Il panno pulente è stato posizionato",
           "ko": "클리닝 패드가 배치됨",
           "pl": "Podkładka czyszcząca została umieszczona",
           "ru": "Чистящая губка была размещена",
-          "sv": "Rengöringsdynan placerades"
+          "sv": "Rengöringsdynan placerades",
+          "no": "Vaskekluten ble satt på plass"
         }
       }
     ],
@@ -93,12 +99,14 @@
           "en": "The cleaning pad is !{{missing|present}}",
           "nl": "De reiningingspad !{{ontbreekt|is aangebracht}}",
           "da": "Rengøringspad !{{mangler|er tilstede}}",
-          "es": "Almohadilla de limpieza {{no presente|presente}}",
-          "it": "La spugna pulente è !{{assente|presente}}",
+          "es": "Almohadilla de limpieza !{{no presente|presente}}",
+          "it": "Il panno pulente è !{{assente|presente}}",
           "ko": "클리닝 패드가 !{{누락됨|있음}}",
           "pl": "Podkładka czyszcząca jest !{{brakująca|obecna}}",
           "ru": "Чистящая губка !{{отсутствует|в наличии}}",
-          "sv": "Rengöringsdynan !{{saknas|är på plats}}"
+          "sv": "Rengöringsdynan !{{saknas|är på plats}}",
+          "fr": "La lingette de nettoyage est !{{manquante|présente}}",
+          "no": "Vaskekluten !{{mangler|er på plass}}"
         }
       }
     ]

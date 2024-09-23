@@ -8,7 +8,10 @@
     "ko": "PM1 수준",
     "pl": "Poziom PM1",
     "ru": "Уровень ТЧ1",
-    "sv": "PM1-nivå"
+    "sv": "PM1-nivå",
+    "es": "Nivel de PM1",
+    "fr": "Niveau de PM1",
+    "no": "PM1-nivå"
   },
   "desc": {
     "en": "The amount of PM1 particles in the air represented by a level.",
@@ -19,7 +22,9 @@
     "ko": "수준으로 표현한 공기 중 PM1 입자의 양입니다.",
     "pl": "Ilość cząstek PM1 w powietrzu przedstawiona jako poziom.",
     "ru": "Количество частиц ТЧ1 в воздухе, представленное в виде уровня.",
-    "sv": "Mängden PM1-partiklar i luften som representeras av en nivå."
+    "sv": "Mängden PM1-partiklar i luften som representeras av en nivå.",
+    "fr": "La quantité de particules PM1 dans l'air représentée sous forme de niveau.",
+    "no": "Mengden av PM1-partikler i luften uttrykt som et nivå."
   },
   "values": [
     {
@@ -32,7 +37,10 @@
         "ko": "낮음",
         "pl": "Niski",
         "ru": "Низкий",
-        "sv": "Låg"
+        "sv": "Låg",
+        "es": "Bajo",
+        "fr": "Faible",
+        "no": "Lavt"
       }
     },
     {
@@ -45,7 +53,10 @@
         "ko": "중간",
         "pl": "Średni",
         "ru": "Средний",
-        "sv": "Medium"
+        "sv": "Medium",
+        "es": "Intermedio",
+        "fr": "Moyen\n",
+        "no": "Middels"
       }
     },
     {
@@ -58,7 +69,10 @@
         "ko": "높음",
         "pl": "Wysoki",
         "ru": "Высокий",
-        "sv": "Hög"
+        "sv": "Hög",
+        "es": "Alto",
+        "fr": "Élevé",
+        "no": "Høyt"
       }
     },
     {
@@ -71,7 +85,10 @@
         "ko": "치명적",
         "pl": "Krytyczny",
         "ru": "Критический",
-        "sv": "Kritisk"
+        "sv": "Kritisk",
+        "es": "Crítico",
+        "fr": "Critique",
+        "no": "Kritisk"
       }
     }
   ],
@@ -91,7 +108,10 @@
           "ko": "PM1 수준이 다음으로 변경됨",
           "pl": "Poziom PM1 zmienił się na",
           "ru": "Уровень ТЧ1 изменился на",
-          "sv": "PM1-nivån ändrades till"
+          "sv": "PM1-nivån ändrades till",
+          "es": "El nivel de PM1 ha cambiado a",
+          "fr": "Le niveau PM1 est passé à",
+          "no": "PM1-nivået ble endret til"
         },
         "args": [
           {
@@ -112,8 +132,11 @@
           "it": "Il livello PM1 !{{è|non è}}",
           "ko": "PM1 수준이 다음!{{과 같음| 아님}}",
           "pl": "Poziom PM1 !{{jest|nie jest}}",
-          "ru": "Уровень ТЧ1 !{{is|is not}}",
-          "sv": "PM1-nivån !{{är|är inte}}"
+          "ru": "Уровень ТЧ1 !{{|не}}",
+          "sv": "PM1-nivån !{{är|är inte}}",
+          "es": "El nivel de PM1 !{{es|no es}}",
+          "fr": "Le niveau PM1 !{{est|n'est pas}}",
+          "no": "PM1-nivået !{{er|er ikke}}"
         },
         "args": [
           {

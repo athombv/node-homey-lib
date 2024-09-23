@@ -8,7 +8,10 @@
     "ko": "최대 목표 온도",
     "pl": "Maksymalna docelowa tempertura",
     "ru": "Максимальная заданная температура",
-    "sv": "Maximal måltemperatur"
+    "sv": "Maximal måltemperatur",
+    "es": "Temperatura máxima deseada",
+    "fr": "Température cible maximale",
+    "no": "Maksimum ønsket temperatur"
   },
   "units": {
     "en": "°C",
@@ -18,7 +21,10 @@
     "ko": "°C",
     "pl": "°C",
     "ru": "°C",
-    "sv": "°C"
+    "sv": "°C",
+    "es": "°C",
+    "fr": "°C",
+    "no": "°C"
   },
   "desc": {
     "en": "The high end of the temperature setpoint in degrees Celsius.",
@@ -28,7 +34,10 @@
     "ko": "섭씨 도 단위의 온도 설정값 최대치입니다.",
     "pl": "Górna granica wartości zadanej temperatury w stopniach Celsjusza.",
     "ru": "Верхний предел заданной температуры в градусах Цельсия.",
-    "sv": "Den övre delen av temperaturbörvärdet i grader Celsius."
+    "sv": "Den övre delen av temperaturbörvärdet i grader Celsius.",
+    "es": "El valor superior de ajuste de la temperatura en grados centígrados.",
+    "fr": "Le niveau maximal de la température en degrés Celsius.",
+    "no": "Maksimum ønsket temperaturinnstilling i grader Celsius."
   },
   "insights": true,
   "chartType": "stepLine",
@@ -51,7 +60,9 @@
           "no": "Maksimum ønsket temperatur er endret",
           "pl": "Zmieniła się maksymalna temperatura docelowa",
           "ru": "Максимальная заданная температура изменена",
-          "sv": "Den maximala måltemperaturen har ändrats"
+          "sv": "Den maximala måltemperaturen har ändrats",
+          "es": "La temperatura máxima deseada ha cambiado",
+          "fr": "La température maximale cible a changé"
         },
         "tokens": [
           {
@@ -74,7 +85,10 @@
           "ko": "최대 목표 온도 설정",
           "pl": "Ustaw maksymalną temperaturę docelową",
           "ru": "Установить максимальную заданную температуру",
-          "sv": "Ställ in den maximala måltemperaturen"
+          "sv": "Ställ in den maximala måltemperaturen",
+          "es": "Ajustar la temperatura máxima deseada",
+          "fr": "Définir la température maximale cible",
+          "no": "Sett maksimum ønsket temperatur"
         },
         "args": [
           {

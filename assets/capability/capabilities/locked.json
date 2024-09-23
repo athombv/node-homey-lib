@@ -22,9 +22,9 @@
     "it": "Vero quando la serratura è chiusa",
     "sv": "Sant när låset är låst",
     "no": "Sant når låsen er låst",
-    "es": "Verdadero cuando la cerradura está cerrada",
+    "es": "Activado cuando la cerradura está cerrada",
     "da": "Sandt, når låsen er låst",
-    "ru": "Истина, когда замок закрыт",
+    "ru": "Значение «истина», когда замок закрыт",
     "pl": "Adekwatne, kiedy zamek jest zablokowany",
     "ko": "록이 잠겨 있으면 참"
   },

@@ -8,7 +8,10 @@
     "ko": "회전각",
     "pl": "Rotacja",
     "ru": "Вращение",
-    "sv": "Rotation"
+    "sv": "Rotation",
+    "es": "Rotación",
+    "fr": "Rotation",
+    "no": "Rotasjon"
   },
   "units": {
     "en": "°",
@@ -18,7 +21,10 @@
     "ko": "°",
     "pl": "°",
     "ru": "°",
-    "sv": "°"
+    "sv": "°",
+    "es": "°",
+    "fr": "°",
+    "no": "°"
   },
   "desc": {
     "en": "The rotation in degrees.",
@@ -28,7 +34,10 @@
     "ko": "도 단위의 회전각입니다.",
     "pl": "Obrót w stopniach.",
     "ru": "Вращение в градусах.",
-    "sv": "Rotationen i grader."
+    "sv": "Rotationen i grader.",
+    "es": "La rotación en grados.",
+    "fr": "La rotation en degrés.",
+    "no": "Rotasjonen i grader."
   },
   "insights": true,
   "chartType": "spline",
@@ -48,7 +57,10 @@
           "ko": "회전각 변경됨",
           "pl": "Zmieniła się rotacja",
           "ru": "Вращение изменилось",
-          "sv": "Rotationen ändrades"
+          "sv": "Rotationen ändrades",
+          "es": "La rotación ha cambiado",
+          "fr": "La rotation a changé",
+          "no": "Rotasjonen ble endret"
         },
         "tokens": [
           {

@@ -9,7 +9,9 @@
     "no": "NOx",
     "pl": "NOx",
     "ru": "NOx",
-    "sv": "NOx"
+    "sv": "NOx",
+    "es": "NOx",
+    "fr": "NOx"
   },
   "units": {
     "en": "μg/m³",
@@ -20,7 +22,9 @@
     "no": "μg/m³",
     "pl": "μg/m³",
     "ru": "мкг/м³",
-    "sv": "μg/m³"
+    "sv": "μg/m³",
+    "es": "μg/m³",
+    "fr": "μg/m³"
   },
   "insights": true,
   "desc": {
@@ -32,7 +36,9 @@
     "no": "Nitrogenoksider i mikrogram per kubikkmeter (μg/m³)",
     "pl": "Tlenki azotu w mikrogramach na metr sześcienny (μg/m³)",
     "ru": "Оксиды азота в микрограммах на кубический метр (мкг/м³)",
-    "sv": "Kväveoxider i mikrogram per kubikmeter (μg/m³)"
+    "sv": "Kväveoxider i mikrogram per kubikmeter (μg/m³)",
+    "es": "Óxidos de nitrógeno en microgramos por metro cúbico (μg/m³)",
+    "fr": "Oxydes d'azote en microgrammes par mètre cube (μg/m³)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -47,12 +53,14 @@
           "en": "The NOx level changed",
           "nl": "Het NOx-niveau is veranderd",
           "da": "NOx-værdien ændrede sig",
-          "it": "Il valore di NOx è cambiato",
-          "ko": "NOx 값 변경됨",
+          "it": "Il livello di NOx è cambiato",
+          "ko": "NOx 수준 변경됨",
           "no": "NOx-verdien ble endret",
-          "pl": "Zmieniła się wartość NOx",
+          "pl": "Zmienił się poziom NOx",
           "ru": "Значение NOx изменилось",
-          "sv": "NOx-värdet ändrades"
+          "sv": "NOx-värdet ändrades",
+          "es": "El nivel de NOx ha cambiado",
+          "fr": "La valeur de NOx a changé"
         },
         "tokens": [
           {

@@ -8,7 +8,10 @@
     "ko": "데이터 크기",
     "pl": "Rozmiar danych",
     "ru": "Размер данных",
-    "sv": "Datastorlek"
+    "sv": "Datastorlek",
+    "es": "Tamaño de los datos",
+    "fr": "Taille des données",
+    "no": "Datastørrelse"
   },
   "units": {
     "en": "bytes",
@@ -18,7 +21,10 @@
     "ko": "바이트",
     "pl": "bajty",
     "ru": "байты",
-    "sv": "byte"
+    "sv": "byte",
+    "es": "bytes",
+    "fr": "octets",
+    "no": "byte"
   },
   "desc": {
     "en": "The data size in bytes.",
@@ -28,7 +34,10 @@
     "ko": "바이트 단위의 데이터 크기입니다.",
     "pl": "Rozmiar danych w bajtach.",
     "ru": "Размер данных в байтах.",
-    "sv": "Datastorlek i byte."
+    "sv": "Datastorlek i byte.",
+    "es": "El tamaño de los datos en bytes.",
+    "fr": "La taille des données en octets.",
+    "no": "Datastørrelsen i byte."
   },
   "insights": true,
   "chartType": "spline",
@@ -48,7 +57,10 @@
           "ko": "데이터 크기 변경됨",
           "pl": "Zmienił się rozmiar danych",
           "ru": "Размер данных изменился",
-          "sv": "Datastorleken ändrades"
+          "sv": "Datastorleken ändrades",
+          "es": "El tamaño de los datos ha cambiado",
+          "fr": "La taille des données a changé",
+          "no": "Datastørrelsen ble endret"
         },
         "tokens": [
           {
