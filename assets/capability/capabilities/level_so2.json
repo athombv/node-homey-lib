@@ -8,7 +8,10 @@
     "ko": "SO2 수준",
     "pl": "Poziom SO2",
     "ru": "Уровень SO2",
-    "sv": "SO2-nivå"
+    "sv": "SO2-nivå",
+    "es": "Nivel de SO2",
+    "fr": "Niveau de SO2",
+    "no": "SO2-nivå"
   },
   "desc": {
     "en": "The level of sulfur dioxide in the air.",
@@ -18,7 +21,10 @@
     "ko": "공기 중 이산화황의 수준입니다.",
     "pl": "Poziom dwutlenku siarki w powietrzu.",
     "ru": "Уровень содержания диоксида серы в воздухе.",
-    "sv": "Halten av svaveldioxid i luften."
+    "sv": "Halten av svaveldioxid i luften.",
+    "es": "El nivel de dióxido de azufre en el aire.",
+    "fr": "Le niveau de dioxyde de soufre dans l'air.",
+    "no": "Nivået av svoveldioksid i luften."
   },
   "values": [
     {
@@ -31,7 +37,10 @@
         "ko": "낮음",
         "pl": "Niski",
         "ru": "Низкий",
-        "sv": "Låg"
+        "sv": "Låg",
+        "es": "Bajo",
+        "fr": "Faible",
+        "no": "Lavt"
       }
     },
     {
@@ -44,7 +53,10 @@
         "ko": "중간",
         "pl": "Średni",
         "ru": "Средний",
-        "sv": "Medium"
+        "sv": "Medium",
+        "es": "Intermedio",
+        "fr": "Moyen",
+        "no": "Middels"
       }
     },
     {
@@ -57,7 +69,10 @@
         "ko": "높음",
         "pl": "Wysoki",
         "ru": "Высокий",
-        "sv": "Hög"
+        "sv": "Hög",
+        "es": "Alto",
+        "fr": "Élevé",
+        "no": "Høyt"
       }
     },
     {
@@ -70,7 +85,10 @@
         "ko": "치명적",
         "pl": "Krytyczny",
         "ru": "Критический",
-        "sv": "Kritisk"
+        "sv": "Kritisk",
+        "es": "Crítico",
+        "fr": "\n",
+        "no": "Kritisk"
       }
     }
   ],
@@ -90,7 +108,10 @@
           "ko": "SO2 수준이 다음으로 변경됨",
           "pl": "Poziom SO2 zmienił się na",
           "ru": "Уровень SO2 изменился yf",
-          "sv": "SO2-nivån ändrades till"
+          "sv": "SO2-nivån ändrades till",
+          "es": "El nivel de SO2",
+          "fr": "Le niveau de SO2 est passé à",
+          "no": "SO2-nivået ble endret til"
         },
         "args": [
           {
@@ -111,8 +132,11 @@
           "it": "Il livello di SO2 !{{è|non è}}",
           "ko": "SO2 수준이 다음!{{과 같음| 아님}}",
           "pl": "Poziom SO2 !{{jest|nie jest}}",
-          "ru": "Уровень SO2 !{{is|is not}}",
-          "sv": "SO2-nivån !{{är|är inte}}"
+          "ru": "Уровень SO2 !{{|не}}",
+          "sv": "SO2-nivån !{{är|är inte}}",
+          "es": "El nivel de SO2 !{{es|no es}}",
+          "fr": "Le niveau de SO2 !{{est|n'est pas}}",
+          "no": "SO2-nivået !{{er|er ikke}}"
         },
         "args": [
           {

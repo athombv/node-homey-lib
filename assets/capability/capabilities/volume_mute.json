@@ -63,9 +63,10 @@
           "it": "Attiva o disattiva il volume disattivato",
           "sv": "Slå på eller av avstängd volym",
           "no": "Slå dempet volum på eller av",
-          "es": "Activar o desactivar el volumen silenciado",
+          "es": "Activar el volumen o silenciar",
           "da": "Slå dæmpet lydstyrke til eller fra",
-          "ko": "볼륨 켬 또는 끔 토글"
+          "ko": "볼륨 켬 또는 끔 토글",
+          "ru": "Включить или выключить приглушенный звук"
         }
       }
     ]

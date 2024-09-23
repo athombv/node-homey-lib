@@ -8,7 +8,10 @@
     "ko": "공기질 지수",
     "pl": "Wskaźnik jakości powietrza",
     "ru": "Показатель качества воздуха",
-    "sv": "Index för luftkvalitet"
+    "sv": "Index för luftkvalitet",
+    "es": "Índice de calidad del aire",
+    "fr": "Indice de qualité de l'air",
+    "no": "Luftkvalitetsindeks"
   },
   "insights": true,
   "desc": {
@@ -19,7 +22,10 @@
     "ko": "공기질 지수",
     "pl": "Wskaźnik jakości powietrza",
     "ru": "Показатель качества воздуха",
-    "sv": "Index för luftkvalitet"
+    "sv": "Index för luftkvalitet",
+    "es": "Índice de calidad del aire",
+    "fr": "Indice de qualité de l'air",
+    "no": "Luftkvalitetsindeks"
   },
   "chartType": "spline",
   "getable": true,
@@ -37,9 +43,12 @@
           "da": "Luftkvalitetsindekset ændrede sig",
           "it": "L'indice di qualità dell'aria è cambiato",
           "ko": "공기질 지수 변경됨",
-          "pl": "Wskaźnik jakości powietrza zmienił się",
+          "pl": "Zmienił się wskaźnik jakości powietrza",
           "ru": "Показатель качества воздуха изменился",
-          "sv": "Index för luftkvalitet ändrades"
+          "sv": "Index för luftkvalitet ändrades",
+          "es": "El índice de calidad del aire ha cambiado",
+          "fr": "L'indice de qualité de l'air a changé",
+          "no": "Luftkvalitetsindeksen ble endret"
         },
         "tokens": [
           {

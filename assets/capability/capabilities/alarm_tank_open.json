@@ -9,7 +9,9 @@
     "no": "Alarm om åpen tank",
     "pl": "Alarm otwartego zbiornika",
     "ru": "Сигнал об открытии резервуара",
-    "sv": "Larm om öppen tank"
+    "sv": "Larm om öppen tank",
+    "es": "Alarma de depósito abierto",
+    "fr": "Alarme de réservoir ouvert"
   },
   "desc": {
     "en": "True when the tank is open.",
@@ -20,7 +22,9 @@
     "no": "Sann når tanken er åpen.",
     "pl": "Prawda, gdy zbiornik jest otwarty.",
     "ru": "Значение «истина», когда резервуар открыт.",
-    "sv": "Sant när tanken är öppen."
+    "sv": "Sant när tanken är öppen.",
+    "es": "Activado cuando el depósito está abierto.",
+    "fr": "Se déclenche lorsque le réservoir est ouvert."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +36,9 @@
     "no": "Tanken var åpen",
     "pl": "Zbiornik był otwarty",
     "ru": "Резервуар был открыт",
-    "sv": "Tanken var öppen"
+    "sv": "Tanken var öppen",
+    "es": "El depósito estaba abierto",
+    "fr": "Le réservoir était ouvert"
   },
   "insightsTitleFalse": {
     "en": "Tank was closed",
@@ -43,7 +49,9 @@
     "no": "Tanken var lukket",
     "pl": "Zbiornik był zamknięty",
     "ru": "Резервуар был закрыт",
-    "sv": "Tanken var stängd"
+    "sv": "Tanken var stängd",
+    "es": "El depósito estaba cerrado",
+    "fr": "Le réservoir était fermé"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +70,9 @@
           "no": "Tanken åpnes",
           "pl": "Zbiornik otwiera się",
           "ru": "Резервуар открывается",
-          "sv": "Tanken öppnas"
+          "sv": "Tanken öppnas",
+          "es": "El depósito está abierto",
+          "fr": "Le réservoir s'ouvre"
         }
       },
       {
@@ -76,7 +86,9 @@
           "no": "Tanken lukkes",
           "pl": "Zbiornik zamyka się",
           "ru": "Резервуар закрывается",
-          "sv": "Tanken stängs"
+          "sv": "Tanken stängs",
+          "es": "El depósito está cerrado",
+          "fr": "Le réservoir se ferme"
         }
       }
     ],
@@ -92,7 +104,9 @@
           "no": "Tanken er !{{åpen|lukket}}",
           "pl": "Zbiornik jest !{{otwarty|zamknięty}}",
           "ru": "Резервуар !{{открыт|закрыт}}",
-          "sv": "Tanken är !{{öppen|stängd}}"
+          "sv": "Tanken är !{{öppen|stängd}}",
+          "es": "El depósito está !{{abierto|cerrado}}",
+          "fr": "Le réservoir est !{{ouvert|fermé}}"
         }
       }
     ]

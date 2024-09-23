@@ -8,7 +8,10 @@
     "ko": "포름알데히드 수준",
     "pl": "Poziom formaldehydu",
     "ru": "Уровень формальдегида",
-    "sv": "Formaldehydnivå"
+    "sv": "Formaldehydnivå",
+    "es": "Nivel de formaldehído",
+    "fr": "Niveau de formaldéhyde",
+    "no": "Formaldehydnivå"
   },
   "desc": {
     "en": "The level of formaldehyde in the air.",
@@ -18,7 +21,10 @@
     "ko": "공기 중 포름알데히드의 수준입니다.",
     "pl": "Poziom formaldehydu w powietrzu.",
     "ru": "Уровень содержания формальдегида в воздухе.",
-    "sv": "Halten av formaldehyd i luften."
+    "sv": "Halten av formaldehyd i luften.",
+    "es": "El nivel de formaldehído en el aire.",
+    "fr": "Le niveau de formaldéhyde dans l'air.",
+    "no": "Nivået av formaldehyd i luften."
   },
   "values": [
     {
@@ -31,7 +37,10 @@
         "ko": "낮음",
         "pl": "Niski",
         "ru": "Низкий",
-        "sv": "Låg"
+        "sv": "Låg",
+        "es": "Bajo",
+        "fr": "Faible",
+        "no": "Lavt"
       }
     },
     {
@@ -44,7 +53,10 @@
         "ko": "중간",
         "pl": "Średni",
         "ru": "Средний",
-        "sv": "Medium"
+        "sv": "Medium",
+        "es": "Intermedio",
+        "fr": "Moyen",
+        "no": "Middels"
       }
     },
     {
@@ -57,7 +69,10 @@
         "ko": "높음",
         "pl": "Wysoki",
         "ru": "Высокий",
-        "sv": "Hög"
+        "sv": "Hög",
+        "es": "Alto",
+        "fr": "Élevé",
+        "no": "Høyt"
       }
     },
     {
@@ -70,7 +85,10 @@
         "ko": "치명적",
         "pl": "Krytyczny",
         "ru": "Критический",
-        "sv": "Kritisk"
+        "sv": "Kritisk",
+        "es": "Crítico",
+        "fr": "Critique",
+        "no": "Kritisk"
       }
     }
   ],
@@ -90,7 +108,10 @@
           "ko": "포름알데히드 수준이 다음으로 변경됨",
           "pl": "Poziom formaldehydu zmienił się na",
           "ru": "Уровень формальдегида изменился на",
-          "sv": "Formaldehydnivån ändrades till"
+          "sv": "Formaldehydnivån ändrades till",
+          "es": "El nivel de formaldehído ha cambiado a",
+          "fr": "Le niveau de formaldéhyde est passé à",
+          "no": "Formaldehydnivået ble endret til"
         },
         "args": [
           {
@@ -111,8 +132,11 @@
           "it": "Il livello di formaldeide !{{è|non è}}",
           "ko": "포름알데히드 수준이 다음!{{과 같음| 아님}}",
           "pl": "Poziom formaldehydu !{{jest|nie jest}}",
-          "ru": "Уровень формальдегида !{{is|is not}}",
-          "sv": "Nivån av formaldehyd !{{är|är inte}}"
+          "ru": "Уровень формальдегида !{{|не}}",
+          "sv": "Nivån av formaldehyd !{{är|är inte}}",
+          "es": "El nivel de formaldehído !{{es|no es}}",
+          "fr": "Le taux de formaldéhyde !{{est|n'est pas}}",
+          "no": "Formaldehydnivået !{{er|er ikke}}"
         },
         "args": [
           {

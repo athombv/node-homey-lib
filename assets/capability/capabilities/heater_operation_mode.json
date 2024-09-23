@@ -8,7 +8,10 @@
     "ko": "히터 작동 모드",
     "pl": "Tryb grzania",
     "ru": "Режим работы обогревателя",
-    "sv": "Driftläge för värmare"
+    "sv": "Driftläge för värmare",
+    "es": "Modo de calefacción",
+    "fr": "Mode de fonctionnement du chauffage",
+    "no": "Driftsmodus for varmeovn"
   },
   "values": [
     {
@@ -21,7 +24,10 @@
         "ko": "에코",
         "pl": "Eko",
         "ru": "Эко",
-        "sv": "Eco"
+        "sv": "Eco",
+        "es": "Eco",
+        "fr": "Économique",
+        "no": "Øko"
       }
     },
     {
@@ -34,7 +40,10 @@
         "ko": "전기",
         "pl": "Elektryczne",
         "ru": "Электричество",
-        "sv": "Elektrisk"
+        "sv": "Elektrisk",
+        "es": "Eléctrico",
+        "fr": "Électrique",
+        "no": "Elektrisk"
       }
     },
     {
@@ -46,8 +55,11 @@
         "it": "Prestazioni",
         "ko": "퍼포먼스",
         "pl": "Komfort",
-        "ru": "Производительность",
-        "sv": "Prestanda"
+        "ru": "Высокопроизводительный",
+        "sv": "Prestanda",
+        "es": "Rendimiento",
+        "fr": "Performance",
+        "no": "Ytelse"
       }
     },
     {
@@ -59,8 +71,11 @@
         "it": "Domanda elevata",
         "ko": "고수요",
         "pl": "Wysokie zapotrzebowanie",
-        "ru": "Высокое потребление",
-        "sv": "Hög efterfrågan"
+        "ru": "Интенсивный",
+        "sv": "Hög efterfrågan",
+        "es": "Alta demanda",
+        "fr": "Forte demande",
+        "no": "Høy etterspørsel"
       }
     },
     {
@@ -74,7 +89,9 @@
         "no": "Varmepumpe",
         "pl": "Pompa ciepła",
         "ru": "Тепловой насос",
-        "sv": "Värmepump"
+        "sv": "Värmepump",
+        "es": "Bomba de calor",
+        "fr": "Pompe à chaleur"
       }
     },
     {
@@ -88,7 +105,9 @@
         "no": "Gass",
         "pl": "Gazowe",
         "ru": "Газ",
-        "sv": "Gas"
+        "sv": "Gas",
+        "es": "Gas",
+        "fr": "Gaz"
       }
     },
     {
@@ -102,7 +121,9 @@
         "no": "Av",
         "pl": "Wył",
         "ru": "Выключен",
-        "sv": "Av"
+        "sv": "Av",
+        "es": "Desactivado",
+        "fr": "Désactivé"
       }
     }
   ],
@@ -122,7 +143,9 @@
           "no": "Varmeelementets driftsmodus er endret til",
           "pl": "Tryb grzania zmienił się na",
           "ru": "Режим работы обогревателя изменен на",
-          "sv": "Värmarens driftläge har ändrats till"
+          "sv": "Värmarens driftläge har ändrats till",
+          "es": "El modo de calefacción ha cambiado a",
+          "fr": "Le mode de fonctionnement du chauffage est passé à"
         },
         "args": [
           {
@@ -143,8 +166,11 @@
           "it": "La modalità di funzionamento del calorifero !{{è|non è}}",
           "ko": "히터 작동 모드가 다음!{{과 같음| 아님}}",
           "pl": "Tryb pracy ogrzewacza !{{jest|nie jest}}",
-          "ru": "Режим работы обогревателя !{{is|is not}}",
-          "sv": "Driftläge för värmaren !{{är|är inte}}"
+          "ru": "Режим работы обогревателя !{{|не}}",
+          "sv": "Driftläge för värmaren !{{är|är inte}}",
+          "es": "El modo de calefacción !{{está|no está}}",
+          "fr": "Le mode de fonctionnement du chauffage !{{est|n'est pas}}",
+          "no": "Varmeovnens driftsmodus !{{er|er ikke}}"
         },
         "args": [
           {
@@ -166,7 +192,10 @@
           "ko": "히터 작동 모드를 다음으로 설정",
           "pl": "Ustaw tryb grzania na",
           "ru": "Установить режим работы обогревателя на",
-          "sv": "Ställ in värmarens driftläge på"
+          "sv": "Ställ in värmarens driftläge på",
+          "es": "Ajustar el modo de calefacción en",
+          "fr": "Définir le mode de fonctionnement du chauffage sur",
+          "no": "Sett varmeovnens driftsmodus til"
         },
         "args": [
           {

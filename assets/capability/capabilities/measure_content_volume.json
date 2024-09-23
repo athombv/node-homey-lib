@@ -8,7 +8,10 @@
     "ko": "부피",
     "pl": "Objętość",
     "ru": "Объем",
-    "sv": "Volym"
+    "sv": "Volym",
+    "es": "Volumen",
+    "fr": "Volume",
+    "no": "Volum"
   },
   "units": {
     "en": "L",
@@ -18,7 +21,10 @@
     "ko": "L",
     "pl": "l",
     "ru": "Л",
-    "sv": "L"
+    "sv": "L",
+    "es": "L",
+    "fr": "L",
+    "no": "L"
   },
   "desc": {
     "en": "The volume of the content in liters.",
@@ -28,7 +34,10 @@
     "ko": "리터 단위의 내용물 부피입니다.",
     "pl": "Objętość zawartości w litrach.",
     "ru": "Объем содержимого в литрах.",
-    "sv": "Innehållets volym i liter."
+    "sv": "Innehållets volym i liter.",
+    "es": "El volumen del contenido en litros.",
+    "fr": "Le volume du contenu en litres.",
+    "no": "Volumet av innholdet i liter."
   },
   "insights": true,
   "chartType": "spline",
@@ -48,7 +57,10 @@
           "ko": "부피 변경됨",
           "pl": "Zmieniła się objętość",
           "ru": "Объем изменился",
-          "sv": "Volymen ändrades"
+          "sv": "Volymen ändrades",
+          "es": "El volumen ha cambiado",
+          "fr": "Le volume a changé\n",
+          "no": "Volumet ble endret"
         },
         "tokens": [
           {

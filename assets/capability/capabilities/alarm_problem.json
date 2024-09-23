@@ -9,7 +9,9 @@
     "no": "Problemalarm",
     "pl": "Alarm problemu",
     "ru": "Сигнал о проблеме",
-    "sv": "Problemlarm"
+    "sv": "Problemlarm",
+    "es": "Alarma de problema",
+    "fr": "Alarme de problème"
   },
   "desc": {
     "en": "True when a problem is detected.",
@@ -20,7 +22,9 @@
     "no": "Sann når et problem registreres.",
     "pl": "Prawda, gdy wykryty jest problem.",
     "ru": "Значение «истина» при обнаружении проблемы.",
-    "sv": "Sant när ett problem upptäcks."
+    "sv": "Sant när ett problem upptäcks.",
+    "es": "Activado cuando se detecta un problema.",
+    "fr": "Se déclenche lorsqu'un problème est détecté."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +36,9 @@
     "no": "Problem ble registrert",
     "pl": "Problem był wykryty",
     "ru": "Была обнаружена проблема",
-    "sv": "Ett problem har upptäckts"
+    "sv": "Ett problem har upptäckts",
+    "es": "Problema detectado",
+    "fr": "Un problème a été détecté"
   },
   "insightsTitleFalse": {
     "en": "Problem solved",
@@ -43,7 +49,9 @@
     "no": "Problem løst",
     "pl": "Problem rozwiązany",
     "ru": "Проблема решена",
-    "sv": "Problemet är löst"
+    "sv": "Problemet är löst",
+    "es": "Problema resuelto",
+    "fr": "Problème résolu"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +70,9 @@
           "no": "Et problem er registrert",
           "pl": "Problem jest wykryty",
           "ru": "Обнаружена проблема",
-          "sv": "Ett problem har upptäckts"
+          "sv": "Ett problem har upptäckts",
+          "es": "Se ha detectado un problema",
+          "fr": "Un problème est détecté"
         }
       },
       {
@@ -76,7 +86,9 @@
           "no": "Problemet er løst",
           "pl": "Problem jest rozwiązany",
           "ru": "Проблема решена",
-          "sv": "Problemet är löst"
+          "sv": "Problemet är löst",
+          "es": "Se ha resuelto el problema",
+          "fr": "Le problème est résolu"
         }
       }
     ],
@@ -92,7 +104,9 @@
           "no": "Det !{{er|er ikke}} et problem",
           "pl": "!{{Problem jest|Problemu nie ma}}",
           "ru": "!{{есть проблема|проблемы нет}}",
-          "sv": "Det !{{är|är inte}} ett problem"
+          "sv": "Det !{{är|är inte}} ett problem",
+          "es": "!{{Hay un problema|No hay ningún problema}}",
+          "fr": "Il !{{y a un problème|n'y a pas de problème}}"
         }
       }
     ]

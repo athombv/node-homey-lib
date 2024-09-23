@@ -7,7 +7,10 @@
     "ko": "중지",
     "pl": "Zatrzymaj",
     "ru": "Остановить",
-    "sv": "Stopp"
+    "sv": "Stopp",
+    "es": "Detener",
+    "fr": "Arrêter",
+    "no": "Stopp"
   },
   "type": "boolean",
   "getable": false,
@@ -25,7 +28,10 @@
           "ko": "중지",
           "pl": "Zatrzymaj",
           "ru": "Остановить",
-          "sv": "Stopp"
+          "sv": "Stopp",
+          "es": "Detener",
+          "fr": "Arrêter",
+          "no": "Stopp"
         }
       }
     ]

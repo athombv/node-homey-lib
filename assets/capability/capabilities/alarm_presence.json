@@ -9,7 +9,9 @@
     "no": "Tilstedeværelsesalarm",
     "pl": "Alarm obecności",
     "ru": "Сигнал присутствия",
-    "sv": "Närvarolarm"
+    "sv": "Närvarolarm",
+    "es": "Alarma de presencia",
+    "fr": "Alarme de présence"
   },
   "desc": {
     "en": "True when presence has been detected.",
@@ -17,10 +19,12 @@
     "da": "True, når der er registreret tilstedeværelse.",
     "it": "Vero quando viene rilevata una presenza.",
     "ko": "존재가 감지되면 참입니다.",
-    "no": "Sann når en tilstedeværelse har blitt påvist.",
+    "no": "Sann når tilstedeværelse har blitt påvist.",
     "pl": "Prawda, gdy wykryta została obecność.",
     "ru": "Значение «истина» при обнаружении присутствия.",
-    "sv": "True när närvaro har detekterats."
+    "sv": "True när närvaro har detekterats.",
+    "es": "Activado cuando se detecta presencia.",
+    "fr": "Se déclenche lorsqu'une présence a été détectée."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +36,9 @@
     "no": "Tilstedeværelsesalarm aktivert",
     "pl": "Alarm obecności włączony",
     "ru": "Сигнал присутствия включен",
-    "sv": "Närvarolarm aktiverat"
+    "sv": "Närvarolarm aktiverat",
+    "es": "Alarma de presencia activada",
+    "fr": "Alarme de présence activée"
   },
   "insightsTitleFalse": {
     "en": "Presence Alarm turned off",
@@ -43,7 +49,9 @@
     "no": "Tilstedeværelsesalarm deaktivert",
     "pl": "Alarm obecności wyłączony",
     "ru": "Сигнал присутствия выключен",
-    "sv": "Närvarolarm inaktiverat"
+    "sv": "Närvarolarm inaktiverat",
+    "es": "Alarma de presencia desactivada",
+    "fr": "Alarme de présence désactivée"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +70,9 @@
           "no": "Tilstedeværelsesalarmen ble aktivert",
           "pl": "Włączył się alarm obecności",
           "ru": "Сигнал присутствия включен",
-          "sv": "Närvarolarmet aktiverat"
+          "sv": "Närvarolarmet aktiverat",
+          "es": "La alarma de presencia se ha activado",
+          "fr": "L'alarme de présence s'est activée"
         }
       },
       {
@@ -76,7 +86,9 @@
           "no": "Tilstedeværelsesalarmen ble deaktivert",
           "pl": "Wyłączył się alarm obecności",
           "ru": "Сигнал присутствия выключен",
-          "sv": "Närvarolarmet inaktiverat"
+          "sv": "Närvarolarmet inaktiverat",
+          "es": "La alarma de presencia se ha desactivado",
+          "fr": "L'alarme de présence s'est désactivée"
         }
       }
     ],
@@ -92,7 +104,9 @@
           "no": "Tilstedeværelsesalarmen er !{{på|av}}",
           "pl": "Alarm obecności jest !{{włączony|wyłączony}}",
           "ru": "Сигнал присутствия !{{включен|выключен}}",
-          "sv": "Närvarolarmet är !{{på|av}}"
+          "sv": "Närvarolarmet är !{{på|av}}",
+          "es": "La alarma de presencia está !{{activada|desactivada}}",
+          "fr": "L'alarme de présence est !{{activée|désactivée}}"
         }
       }
     ]

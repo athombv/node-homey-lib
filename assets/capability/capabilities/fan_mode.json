@@ -8,7 +8,10 @@
     "ko": "팬 모드",
     "pl": "Tryb wentylatora",
     "ru": "Режим вентилятора",
-    "sv": "Fläktläge"
+    "sv": "Fläktläge",
+    "es": "Modo ventilador",
+    "fr": "Mode de ventilation",
+    "no": "Viftemodus"
   },
   "values": [
     {
@@ -21,7 +24,10 @@
         "ko": "자동",
         "pl": "Auto",
         "ru": "Авто",
-        "sv": "Auto"
+        "sv": "Auto",
+        "es": "Automático",
+        "fr": "Automatique",
+        "no": "Automatisk"
       }
     },
     {
@@ -35,7 +41,9 @@
         "no": "På",
         "pl": "Wł",
         "ru": "Включен",
-        "sv": "På"
+        "sv": "På",
+        "es": "Activado",
+        "fr": "Activé"
       }
     },
     {
@@ -49,7 +57,9 @@
         "no": "Av",
         "pl": "Wył",
         "ru": "Выключен",
-        "sv": "Av"
+        "sv": "Av",
+        "es": "Desactivado",
+        "fr": "Désactivé"
       }
     }
   ],
@@ -69,7 +79,9 @@
           "no": "Viftemodusen er endret til",
           "pl": "Tryb wentylatora zmienił się na",
           "ru": "Режим вентилятора изменен на",
-          "sv": "Fläktläget har ändrats till"
+          "sv": "Fläktläget har ändrats till",
+          "es": "El modo ventilador ha cambiado a",
+          "fr": "Le mode de ventilation est passé à=Le mode de ventilation est passé à"
         },
         "args": [
           {
@@ -91,8 +103,10 @@
           "ko": "팬 모드가 다음!{{과 같음| 아님}}",
           "no": "Viftemodusen !{{er|er ikke}}",
           "pl": "Tryb wentylatora !{{jest|nie jest}}",
-          "ru": "Режим вентилятора !{{is|is not}}",
-          "sv": "Fläktläge !{{är|är inte}}"
+          "ru": "Режим вентилятора !{{|не}}",
+          "sv": "Fläktläge !{{är|är inte}}",
+          "es": "El modo ventilador !{{está|no está}} ",
+          "fr": "Le mode de ventilation !{{est|n'est pas}}"
         },
         "args": [
           {
@@ -112,10 +126,12 @@
           "da": "Indstil ventilatortilstand til",
           "it": "Imposta la modalità ventola su",
           "ko": "팬 모드를 다음으로 설정",
-          "no": "Sett viftemodus til",
+          "no": "Sett viftemodusen til",
           "pl": "Ustaw tryb wentylatora na",
           "ru": "Установить режим вентилятора на",
-          "sv": "Ställ in fläktläget på"
+          "sv": "Ställ in fläktläget på",
+          "es": "Ajustar el modo de ventilador en",
+          "fr": "Définir le mode de ventilation sur"
         },
         "args": [
           {

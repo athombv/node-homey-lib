@@ -8,7 +8,10 @@
     "ko": "속도",
     "pl": "Prędkość",
     "ru": "Скорость",
-    "sv": "Hastighet"
+    "sv": "Hastighet",
+    "es": "Velocidad",
+    "fr": "Vitesse",
+    "no": "Hastighet"
   },
   "units": {
     "en": "m/s",
@@ -18,7 +21,10 @@
     "ko": "m/s",
     "pl": "m/s",
     "ru": "м/с",
-    "sv": "m/s"
+    "sv": "m/s",
+    "es": "m/s",
+    "fr": "m/s",
+    "no": "m/s"
   },
   "desc": {
     "en": "The speed in meters per second.",
@@ -28,7 +34,10 @@
     "ko": "초당 미터 단위의 속도입니다.",
     "pl": "Prędkość w metrach na sekundę.",
     "ru": "Скорость в метрах в секунду.",
-    "sv": "Hastigheten i meter per sekund."
+    "sv": "Hastigheten i meter per sekund.",
+    "es": "La velocidad en metros por segundo.",
+    "fr": "La vitesse en mètres par seconde.",
+    "no": "Hastigheten i meter per sekund."
   },
   "insights": true,
   "chartType": "spline",
@@ -48,7 +57,10 @@
           "ko": "속도 변경됨",
           "pl": "Zmieniła się prędkość",
           "ru": "Скорость изменилась",
-          "sv": "Hastigheten ändrades"
+          "sv": "Hastigheten ändrades",
+          "es": "La velocidad ha cambiado",
+          "fr": "La vitesse a changé",
+          "no": "Hastigheten ble endret"
         },
         "tokens": [
           {

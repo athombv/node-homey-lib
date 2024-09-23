@@ -8,7 +8,10 @@
     "ko": "세탁기 사이클",
     "pl": "Cykle prania",
     "ru": "Циклы стирки",
-    "sv": "Tvättmaskinscykler"
+    "sv": "Tvättmaskinscykler",
+    "es": "Ciclos de lavado",
+    "fr": "Cycles du lave-linge",
+    "no": "Vaskesykluser"
   },
   "desc": {
     "en": "The amount of cycles the laundry washer should perform.",
@@ -18,7 +21,10 @@
     "ko": "세탁기가 동작할 사이클의 수입니다.",
     "pl": "Liczba cykli, które powinna wykonać pralka.",
     "ru": "Количество циклов стирки, которые должна выполнять стиральная машина.",
-    "sv": "Antalet cykler som tvättmaskinen ska utföra."
+    "sv": "Antalet cykler som tvättmaskinen ska utföra.",
+    "es": "El número de ciclos que debe hacer la lavadora.",
+    "fr": "Le nombre de cycles que le lave-linge doit effectuer.",
+    "no": "Antall sykluser vaskemaskinen skal gjennomføre."
   },
   "values": [
     {
@@ -31,7 +37,10 @@
         "ko": "없음",
         "pl": "Brak",
         "ru": "Нет",
-        "sv": "Ingen"
+        "sv": "Ingen",
+        "es": "Ninguno",
+        "fr": "Aucun",
+        "no": "Ingen"
       }
     },
     {
@@ -44,7 +53,10 @@
         "ko": "보통",
         "pl": "Normalne",
         "ru": "Стандарт",
-        "sv": "Normal"
+        "sv": "Normal",
+        "es": "Normal",
+        "fr": "Normal",
+        "no": "Standard"
       }
     },
     {
@@ -57,7 +69,10 @@
         "ko": "더 많이",
         "pl": "Dodatkowe",
         "ru": "Дополнительно",
-        "sv": "Extra"
+        "sv": "Extra",
+        "es": "Extra",
+        "fr": "Extra",
+        "no": "Ekstra"
       }
     },
     {
@@ -70,7 +85,10 @@
         "ko": "최대",
         "pl": "Maksymalne",
         "ru": "Максимально",
-        "sv": "Max"
+        "sv": "Max",
+        "es": "Máximo",
+        "fr": "Max",
+        "no": "Maks."
       }
     }
   ],
@@ -84,13 +102,16 @@
         "highlight": true,
         "title": {
           "en": "The cycles changed to",
-          "nl": "De cycli zijn veranderd naar",
-          "da": "Vaskemaskinens cyklusser blev ændret til",
-          "it": "I cicli della lavatrice sono passati a",
-          "ko": "세탁기 사이클이 다음으로 변경됨",
+          "nl": "De cycli zijn veranderd in",
+          "da": "Cyklusserne blev ændret til",
+          "it": "I cicli sono passati a",
+          "ko": "사이클이 다음으로 변경됨",
           "pl": "Cykle prania zmieniły się na",
           "ru": "Циклы стирки изменены на",
-          "sv": "Tvättmaskinens cykler ändrades till"
+          "sv": "Cyklerna ändrade till",
+          "es": "Los ciclos han cambiado a",
+          "fr": "Les cycles du lave-linge sont passés à",
+          "no": "Syklusene ble endret til"
         },
         "args": [
           {
@@ -106,13 +127,16 @@
         "id": "laundry_washer_cycles_is",
         "title": {
           "en": "The cycles !{{is|is not}}",
-          "nl": "De cycli !{{is|is niet}}",
-          "da": "Vaskemaskinens cyklusser !{{er|er ikke}}",
-          "it": "I cicli della lavatrice !{{sono|non sono}}",
-          "ko": "세탁기 사이클이 다음!{{과 같음| 아님}}",
+          "nl": "De cycli !{{zijn|zijn niet}} ",
+          "da": "Cyklusserne !{{er|er ikke}}",
+          "it": "I cicli !{{sono|non sono}}",
+          "ko": "사이클이 다음!{{과 같음| 아님}}",
           "pl": "Cykle pralki !{{jest|nie jest}}",
-          "ru": "Циклы стирки !{{is|is not}}",
-          "sv": "Tvättmaskinscyklerna !{{är|är inte}}"
+          "ru": "Циклы стирки !{{|не}}",
+          "sv": "Cyklerna !{{är|är inte}}",
+          "es": "Los ciclos !{{están|no están}}",
+          "fr": "Les cycles de lave-linge !{{sont|ne sont pas}}",
+          "no": "Syklusene !{{er|er ikke}}"
         },
         "args": [
           {
@@ -134,7 +158,10 @@
           "ko": "세탁기 사이클을 다음으로 설정",
           "pl": "Ustaw cykle prania na",
           "ru": "Установить циклы стирки на",
-          "sv": "Ställ in tvättmaskinens cykler på"
+          "sv": "Ställ in tvättmaskinens cykler på",
+          "es": "Ajustar los ciclos de lavado a",
+          "fr": "Définir les cycles du lave-linge sur",
+          "no": "Sett vaskesyklusene til"
         },
         "args": [
           {

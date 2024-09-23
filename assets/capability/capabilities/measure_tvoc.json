@@ -8,7 +8,10 @@
     "ko": "TVOC",
     "pl": "Wszystkie LZO",
     "ru": "TVOC",
-    "sv": "TVOC"
+    "sv": "TVOC",
+    "es": "TVOC",
+    "fr": "TVOC",
+    "no": "TVOC"
   },
   "units": {
     "en": "μg/m³",
@@ -18,7 +21,10 @@
     "ko": "μg/m³",
     "pl": "μg/m³",
     "ru": "мкг/м³",
-    "sv": "μg/m³"
+    "sv": "μg/m³",
+    "es": "μg/m³",
+    "fr": "μg/m³",
+    "no": "μg/m³"
   },
   "insights": true,
   "desc": {
@@ -29,7 +35,10 @@
     "ko": "입방미터당 마이크로그램(μg/m³) 단위의 휘발성 유기 화합물 총량",
     "pl": "Całkowita ilość lotnych związków organicznych w mikrogramach na metr sześcienny (μg/m³)",
     "ru": "Общее количество летучих органических соединений в микрограммах на кубический метр (мкг/м³)",
-    "sv": "Totalt antal flyktiga organiska föreningar i mikrogram per kubikmeter (μg/m³)"
+    "sv": "Totalt antal flyktiga organiska föreningar i mikrogram per kubikmeter (μg/m³)",
+    "es": "Compuestos orgánicos volátiles totales en microgramos por metro cúbico (μg/m³)",
+    "fr": "Total des composés organiques volatils en microgrammes par mètre cube (μg/m³)",
+    "no": "Total mengde flyktige organiske forbindelser i mikrogram per kubikkmeter (μg/m³)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -44,12 +53,14 @@
           "en": "The TVOC level has changed",
           "nl": "Het VOS-niveau is veranderd",
           "da": "TVOC-værdien har ændret sig",
-          "it": "Il valore di TVOC è cambiato",
-          "ko": "TVOC 값이 변경됨",
-          "no": "TVOC-verdien er endret",
+          "it": "Il livello di TVOC è cambiato",
+          "ko": "TVOC 수준 변경됨",
+          "no": "TVOC-nivået er endret",
           "pl": "Zmieniła się wartość wszystkich LZO",
           "ru": "Значение TVOC изменилось",
-          "sv": "TVOC-värdet har ändrats"
+          "sv": "TVOC-värdet har ändrats",
+          "es": "El nivel de TVOC ha cambiado",
+          "fr": "La valeur du TVOC a changé"
         },
         "tokens": [
           {

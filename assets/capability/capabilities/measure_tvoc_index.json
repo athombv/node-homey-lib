@@ -8,7 +8,10 @@
     "ko": "TVOC 지수",
     "pl": "Wskaźnik wszystkich LZO",
     "ru": "Показатель TVOC",
-    "sv": "TVOC-index"
+    "sv": "TVOC-index",
+    "es": "Índice de COVT",
+    "fr": "Indice TVOC",
+    "no": "TVOC-indeks"
   },
   "insights": true,
   "desc": {
@@ -19,7 +22,10 @@
     "ko": "휘발성 유기 화합물 총량 지수",
     "pl": "Wskaźnik wszystkich lotnych związków organicznych",
     "ru": "Общий показатель летучих органических соединений",
-    "sv": "Index för totala mängden flyktiga organiska föreningar"
+    "sv": "Index för totala mängden flyktiga organiska föreningar",
+    "es": "Índice de compuestos orgánicos volátiles en total",
+    "fr": "Indice des composés organiques volatils totaux",
+    "no": "Indeks for total mengde flyktige organiske forbindelser"
   },
   "chartType": "spline",
   "getable": true,
@@ -33,12 +39,14 @@
           "en": "The TVOC index has changed",
           "nl": "De VOS-index is veranderd",
           "da": "TVOC-indeksværdien har ændret sig",
-          "it": "Il valore dell'indice TVOC è cambiato",
-          "ko": "TVOC 지수 값이 변경됨",
-          "no": "TVOC-indeksverdien er endret",
-          "pl": "Zmieniła się wartość wskaźnika wszystkich LZO",
+          "it": "L'indice TVOC è cambiato",
+          "ko": "TVOC 지수 수준 변경됨",
+          "no": "TVOC-indeksen er endret",
+          "pl": "Zmienił się wskaźnik wszystkich LZO",
           "ru": "Значение показателя TVOC изменилось",
-          "sv": "TVOC-indexvärdet har ändrats"
+          "sv": "TVOC-indexvärdet har ändrats",
+          "es": "El índice de TVOC ha cambiado",
+          "fr": "La valeur de l'indice TVOC a changé"
         },
         "tokens": [
           {

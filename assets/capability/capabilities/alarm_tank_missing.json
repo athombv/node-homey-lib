@@ -9,7 +9,9 @@
     "no": "Alarm om manglende tank",
     "pl": "Alarm braku zbiornika",
     "ru": "Сигнал об отсутствии резервуара",
-    "sv": "Larm för saknad tank"
+    "sv": "Larm för saknad tank",
+    "es": "Alarma de depósito no presente",
+    "fr": "Alarme de réservoir manquant"
   },
   "desc": {
     "en": "True when the tank is missing.",
@@ -20,7 +22,9 @@
     "no": "Sann når tanken mangler.",
     "pl": "Prawda, gdy brakuje zbiornika.",
     "ru": "Значение «истина», когда резервуар отсутствует.",
-    "sv": "Sant när tanken saknas."
+    "sv": "Sant när tanken saknas.",
+    "es": "Activado cuando el depósito no está presente.",
+    "fr": "Se déclenche lorsque le réservoir est manquant."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +36,9 @@
     "no": "Tanken manglet",
     "pl": "Brakowało zbiornika",
     "ru": "Резервуар отсутствовал",
-    "sv": "Tank saknades"
+    "sv": "Tank saknades",
+    "es": "El depósito no estaba presente",
+    "fr": "Le réservoir était manquant"
   },
   "insightsTitleFalse": {
     "en": "Tank was not missing",
@@ -43,7 +49,9 @@
     "no": "Tanken manglet ikke",
     "pl": "Nie brakowało zbiornika",
     "ru": "Резервуар не отсутствовал",
-    "sv": "Tanken saknades inte"
+    "sv": "Tanken saknades inte",
+    "es": "El depósito estaba colocado",
+    "fr": "Le réservoir n'était pas manquant"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +70,9 @@
           "no": "Tanken mangler",
           "pl": "Brakuje zbiornika",
           "ru": "Резервуар отсутствует",
-          "sv": "Tanken saknas"
+          "sv": "Tanken saknas",
+          "es": "El depósito no está presente",
+          "fr": "Le réservoir est manquant"
         }
       },
       {
@@ -76,7 +86,9 @@
           "no": "Tanken er på plass",
           "pl": "Zbiornik jest umieszczony",
           "ru": "Резервуар размещен",
-          "sv": "Tanken är på plats"
+          "sv": "Tanken är på plats",
+          "es": "El depósito está colocado",
+          "fr": "Le réservoir est placé"
         }
       }
     ],
@@ -86,13 +98,15 @@
         "title": {
           "en": "Tank !{{is|is not}} missing",
           "nl": "De tank !{{ontbreekt|is geplaatst}}",
-          "da": "Tanken er !{{manglende|placeret}}",
+          "da": "Tanken !{{er|er ikke}}  manglende",
           "it": "Il serbatoio è !{{assente|presente}}",
           "ko": "탱크가 !{{누락됨|배치됨}}",
-          "no": "Tanken !{{mangler|er på plass}}",
+          "no": "Tanken !{{er|er ikke}} borte",
           "pl": "Zbiornik jest !{{brakujący|obecny}}",
-          "ru": "Резервуар !{{отсутствует|размещен}}",
-          "sv": "Tanken !{{saknas|är på plats}}"
+          "ru": "Резервуар ! {{отсутствует|в наличии}}",
+          "sv": "Tanken !{{saknas|är på plats}}",
+          "es": "El depósito !{{está|no está}} presente",
+          "fr": "Le réservoir est !{{manquant|présent}}"
         }
       }
     ]

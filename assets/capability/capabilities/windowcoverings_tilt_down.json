@@ -29,7 +29,10 @@
           "nl": "Omlaag kantelen",
           "pl": "Odchylenie w dół",
           "ru": "Наклон вниз",
-          "sv": "Luta ner"
+          "sv": "Luta ner",
+          "es": "Inclinar hacia abajo",
+          "fr": "Inclinaison vers le bas",
+          "no": "Vipp ned"
         }
       }
     ]

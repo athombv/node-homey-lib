@@ -19,7 +19,8 @@
   "units": {
     "en": "%",
     "ko": "%",
-    "no": "%"
+    "no": "%",
+    "ru": "%"
   },
   "decimals": 2,
   "getable": true,
@@ -37,7 +38,10 @@
           "nl": "De kantelpositie is veranderd",
           "pl": "Zmieniła się pozycja odchylenia",
           "ru": "Положение наклона изменено",
-          "sv": "Lutningsläget ändrades"
+          "sv": "Lutningsläget ändrades",
+          "es": "La inclinación ha cambiado",
+          "fr": "La position d'inclinaison a changé",
+          "no": "Vippeposisjonen ble endret"
         },
         "tokens": [
           {
@@ -51,7 +55,10 @@
               "nl": "Positie",
               "pl": "Pozycja",
               "ru": "Положение",
-              "sv": "Position"
+              "sv": "Position",
+              "es": "Posición",
+              "fr": "Position",
+              "no": "Posisjon"
             },
             "example": 0.5
           }
@@ -70,7 +77,10 @@
           "nl": "De kantelpositie instellen op",
           "pl": "Ustaw pozycję odchylenia na",
           "ru": "Установить положение наклона на",
-          "sv": "Ställ in lutningsläget på"
+          "sv": "Ställ in lutningsläget på",
+          "es": "Ajustar la inclinación a",
+          "fr": "Définir la position d'inclinaison sur",
+          "no": "Sett vippeposisjonen til"
         },
         "hint": {
           "en": "Change the tilt position to open (100%), closed (0%), or a value in between.",
@@ -80,7 +90,10 @@
           "nl": "Wijzig de kantelpositie in open (100%), gesloten (0%) of een waarde ertussenin.",
           "pl": "Zmień pozycję odchylenia na otwartą (100%), zamkniętą (0%) lub wartość pośrednią.",
           "ru": "Изменить положение наклона на «открыто» (100%), «закрыто» (0%) или выбрать промежуточное значение.",
-          "sv": "Ändra lutningsläget till öppet (100 %), stängt (0 %) eller ett värde däremellan."
+          "sv": "Ändra lutningsläget till öppet (100 %), stängt (0 %) eller ett värde däremellan.",
+          "es": "Cambia la inclinación a abierta (100%), cerrada (0%) o un valor intermedio.",
+          "fr": "Modifier la position de l'inclinaison pour qu'elle soit ouverte (100 %), fermée (0 %) ou une valeur intermédiaire.",
+          "no": "Endre vippeposisjonen til åpen (100 %), lukket (0 %) eller en mellomliggende verdi."
         },
         "args": [
           {
