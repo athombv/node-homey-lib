@@ -21,10 +21,10 @@
     "fr": "Vrai si une chaleur extrême a été détectée",
     "it": "Vero quando è stato rilevato un calore estremo",
     "sv": "Sant när extrem hetta upptäckts",
-    "no": "Sann når ekstrem varme har blitt påvist",
-    "es": "Activado cuando se detecta calor extremo",
+    "no": "Sant når ekstrem varme påvises",
+    "es": "Verdadero cuando se ha detectado un calor extremo",
     "da": "Sandt, når ekstrem varme er blevet opdaget",
-    "ru": "Значение «истина» при обнаружении экстремально высокой температуры",
+    "ru": "Верно при обнаружении экстремально высокой температуры",
     "pl": "Adekwatny, kiedy wykryta zostanie ekstremalnie wysoka temperatura",
     "ko": "과도한 열이 감지되면 참"
   },
@@ -72,7 +72,7 @@
           "fr": "L'alarme chaleur s'est activée",
           "it": "L'allarme di calore è stato attivato",
           "sv": "Värmelarmet aktiverat",
-          "no": "Varmealarmen ble aktivert",
+          "no": "Varmealarmen aktivert",
           "es": "La alarma de calor se ha activado",
           "da": "Varmealarmen blev aktiveret",
           "ru": "Сигнал перегрева включен",
@@ -89,7 +89,7 @@
           "fr": "L'alarme chaleur s'est désactivée",
           "it": "L'allarme di calore è stato disattivato",
           "sv": "Värmelarmet inaktiverat",
-          "no": "Varmealarmen ble deaktivert",
+          "no": "Varmealarmen deaktivert",
           "es": "La alarma de calor se ha desactivado",
           "da": "Varmealarmen blev deaktiveret",
           "ru": "Сигнал перегрева выключен",
@@ -112,7 +112,7 @@
           "es": "La alarma de calor está !{{activada|desactivada}}",
           "da": "Varmealarmen er !{{tændt|slukket}}",
           "ru": "Сигнал перегрева !{{вкл.|выкл.}}",
-          "pl": "Alarm termiczny jest !{{włączony|wyłączony}}",
+          "pl": "Alarm termiczny !{{włączony|wyłączony}}",
           "ko": "과열 알람 !{{켬|끔}}"
         }
       }

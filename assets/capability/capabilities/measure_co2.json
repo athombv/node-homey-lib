@@ -17,8 +17,7 @@
     "en": "ppm",
     "ru": "ч./млн.",
     "ko": "ppm",
-    "no": "ppm",
-    "pl": "ppm"
+    "no": "ppm"
   },
   "insights": true,
   "desc": {
@@ -32,7 +31,7 @@
     "es": "CO2 en partes por millón (ppm)",
     "da": "CO2 i partikler-per-million (ppm)",
     "ru": "CO2 в частицах на миллион (ч./млн.)",
-    "pl": "Stężenie dwutlenku węgla w części na milion (ppm)",
+    "pl": "Stężenie CO2 w części na milion (ppm)",
     "ko": "CO2 백만분의일 농도(ppm)"
   },
   "chartType": "spline",
@@ -55,7 +54,7 @@
           "es": "El nivel de CO2 ha cambiado",
           "da": "CO2-niveauet har ændret sig",
           "ru": "CO2-уровень изменен",
-          "pl": "Zmienił się poziom CO2",
+          "pl": "Zmiana poziomu stężenia CO2",
           "ko": "CO2 수준 변경됨"
         },
         "tokens": [

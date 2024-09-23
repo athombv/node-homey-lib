@@ -17,8 +17,7 @@
   "units": {
     "en": "°C",
     "ko": "°C",
-    "no": "°C",
-    "ru": "°C"
+    "no": "°C"
   },
   "insights": true,
   "desc": {
@@ -52,10 +51,10 @@
           "fr": "La température a changé",
           "it": "La temperatura è cambiata",
           "sv": "Temperaturen ändrades",
-          "no": "Temperaturen endres",
+          "no": "Temperaturen ble endret",
           "es": "La temperatura ha cambiado",
           "da": "Temperaturen ændrede sig",
-          "ru": "Температура изменяется",
+          "ru": "Температура изменена",
           "pl": "Zmiana temperatury",
           "ko": "온도 변경됨"
         },

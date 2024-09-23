@@ -21,8 +21,7 @@
   "units": {
     "en": "%",
     "ko": "%",
-    "no": "%",
-    "ru": "%"
+    "no": "%"
   },
   "getable": true,
   "setable": true,
@@ -35,14 +34,14 @@
           "en": "The dim level changed",
           "nl": "Het dim-niveau is veranderd",
           "de": "Dimm-Niveau geändert",
-          "fr": "Intensité lumineuse modifiée",
-          "it": "L'intensità luminosa è cambiata",
+          "fr": "Intensité lumineuse a été modifiée",
+          "it": "Intensità luminosa modificata",
           "sv": "Dimningsnivå ändrades",
-          "no": "Dempingsnivået ble endret",
+          "no": "Dempingsnivå ble endret",
           "es": "La intensidad de la luz ha cambiado",
           "da": "Lysniveau ændret",
           "ru": "Уровень яркости изменен",
-          "pl": "Zmienił się poziom przygaszenia",
+          "pl": "Zmiana poziomu przygaszenia",
           "ko": "디밍 수준 변경됨"
         },
         "tokens": [
@@ -118,7 +117,7 @@
         "hint": {
           "en": "Dim or brighten with respect to the device's current dim-level.",
           "nl": "Verhoog of verlaag de helderheid ten opzichte van het huidige dim-niveau van het apparaat.",
-          "ru": "Уменьшить или увеличить яркость относительно текущего уровня яркости устройства.",
+          "ru": "Уменьшите или увеличьте яркость относительно текущего уровня яркости устройства.",
           "pl": "Przygaś lub rozjaśnij względem obecnego poziomu przygaszenia urządzenia.",
           "ko": "디바이스의 현재 디밍 수준에 따라 어둡게 또는 밝게 설정합니다.",
           "no": "Demp eller gjør lysere i forhold til enhetens gjeldende dimmingsnivå."

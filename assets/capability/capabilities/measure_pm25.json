@@ -50,11 +50,11 @@
           "fr": "La valeur PM2.5 a changé",
           "it": "Il valore di PM2.5 è cambiato",
           "sv": "PM2.5-värdet har ändrats",
-          "no": "PM2.5-verdien ble endret",
+          "no": "PM2.5-verdien er endret",
           "es": "El valor de PM2,5 ha cambiado",
           "da": "PM2.5-værdien har ændret sig",
           "ru": "Значение ТЧ 2.5 изменилось",
-          "pl": "Zmieniła się wartość PM2.5",
+          "pl": "Zmiana poziomu stężenia PM2.5",
           "ko": "PM2.5 값 변경됨"
         },
         "tokens": [

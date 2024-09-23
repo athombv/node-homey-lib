@@ -78,14 +78,14 @@
           "en": "Lock mode changed",
           "nl": "Slotmodus is veranderd",
           "de": "Schloss-Modus hat sich geändert",
-          "fr": "Le mode de verrouillage a été modifié",
-          "it": "La modalità di chiusura è cambiata",
+          "fr": "Mode verrou a été modifié",
+          "it": "La modalità di blocco è cambiata",
           "sv": "Låsläge har ändrats",
-          "no": "Låsemodus endret",
+          "no": "Låsemodusen er endret",
           "es": "El modo de la cerradura ha cambiado",
           "da": "Lås-tilstand er blevet ændret",
           "ru": "Режим замка изменен",
-          "pl": "Zmienił się tryb zamknięcia",
+          "pl": "Zmiana trybu zamknięcia",
           "ko": "록 모드 변경됨"
         },
         "args": [

@@ -17,8 +17,7 @@
   "units": {
     "en": "%",
     "ko": "%",
-    "no": "%",
-    "ru": "%"
+    "no": "%"
   },
   "insights": true,
   "min": 0,
@@ -57,7 +56,7 @@
           "es": "El nivel de la batería ha cambiado",
           "da": "Batteriniveauet har ændret sig",
           "ru": "Уровень аккумулятора изменен",
-          "pl": "Zmienił się poziom baterii",
+          "pl": "Zmiana poziomu naładowania baterii",
           "ko": "배터리 수준 변경됨"
         },
         "tokens": [

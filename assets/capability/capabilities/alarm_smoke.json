@@ -21,10 +21,10 @@
     "fr": "Vrai quand de la fumée a été détectée",
     "it": "Vero quando è stato rilevato del fumo",
     "sv": "Sant när rök upptäcks",
-    "no": "Sann når røyk har blitt påvist",
-    "es": "Activado cuando se detecta humo",
+    "no": "Sant når røyk har blitt påvist",
+    "es": "Verdadero cuando se ha detectado humo",
     "da": "Sandt, når røg er blevet opdaget",
-    "ru": "Значение «истина» при обнаружении дыма",
+    "ru": "Верно при обнаружении дыма",
     "pl": "Adekwatny, kiedy wykryty zostanie dym",
     "ko": "연기가 감지되면 참"
   },
@@ -72,7 +72,7 @@
           "fr": "L'alarme fumée s'est activée",
           "it": "L'allarme fumo è stato attivato",
           "sv": "Röklarmet aktiverat",
-          "no": "Røykalarmen ble aktivert",
+          "no": "Røykalarmen er aktivert",
           "es": "La alarma de humo se ha activado",
           "da": "Røgalarmen blev aktiveret",
           "ru": "Сигнал дыма включен",
@@ -89,7 +89,7 @@
           "fr": "L'alarme fumée s'est désactivée",
           "it": "L'allarme fumo è stato disattivato",
           "sv": "Röklarmet inaktiverat",
-          "no": "Røykalarmen ble deaktivert",
+          "no": "Røykalarmen er deaktivert",
           "es": "La alarma de humo se ha desactivado",
           "da": "Røgalarmen blev deaktiveret",
           "ru": "Сигнал дыма выключен",
@@ -112,7 +112,7 @@
           "es": "La alarma de humo está !{{activada|desactivada}}",
           "da": "Røgalarmen er !{{tændt|slukket}}",
           "ru": "Сигнал дыма !{{вкл.|выкл.}}",
-          "pl": "Alarm przeciwdymny jest !{{włączony|wyłączony}}",
+          "pl": "Alarm przeciwdymny !{{włączony|wyłączony}}",
           "ko": "연기 알람 !{{켬|끔}}"
         }
       }

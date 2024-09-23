@@ -34,8 +34,7 @@
   "units": {
     "en": "%",
     "ko": "%",
-    "no": "%",
-    "ru": "%"
+    "no": "%"
   },
   "getable": true,
   "setable": true,
@@ -48,14 +47,14 @@
           "en": "The position changed",
           "nl": "De positie is veranderd",
           "de": "Position hat sich geändert",
-          "fr": "La position a changé",
-          "it": "La posizione è cambiata",
+          "fr": "Position a été modifiée",
+          "it": "Posizione cambiata",
           "sv": "Position ändrad",
-          "no": "Posisjonen ble endret",
+          "no": "Posisjon endret",
           "es": "La posición ha cambiado",
           "da": "Position ændret",
-          "ru": "Позиция изменилась",
-          "pl": "Zmieniła się pozycja",
+          "ru": "Расположение изменилось",
+          "pl": "Zmiana pozycji",
           "ko": "위치 변경됨"
         },
         "tokens": [

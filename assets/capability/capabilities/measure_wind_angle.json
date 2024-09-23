@@ -16,8 +16,7 @@
   },
   "units": {
     "en": "°",
-    "ko": "°",
-    "ru": "°"
+    "ko": "°"
   },
   "desc": {
     "en": "Wind angle in degrees (°)",
