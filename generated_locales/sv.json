@@ -16,7 +16,7 @@
   "./assets/capability/capabilities/alarm_battery.json@title": "Batterialarm",
   "./assets/capability/capabilities/alarm_battery.json@desc": "Sant när det finns en batterivarning",
   "./assets/capability/capabilities/alarm_battery.json@insightsTitleTrue": "Batterialarm aktiverat",
-  "./assets/capability/capabilities/alarm_battery.json@insightsTitleFalse": "Batterialarm inaktiverat",
+  "./assets/capability/capabilities/alarm_battery.json@insightsTitleFalse": "Batterialarm avstängt",
   "./assets/capability/capabilities/alarm_battery.json@$flow.triggers.0.title": "Batterialarmet aktiverat",
   "./assets/capability/capabilities/alarm_battery.json@$flow.triggers.1.title": "Batterialarmet aktiverat",
   "./assets/capability/capabilities/alarm_battery.json@$flow.conditions.0.title": "Batterialarmet är !{{på|av}}",

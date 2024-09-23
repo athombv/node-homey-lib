@@ -920,7 +920,7 @@
   "./assets/capability/capabilities/volume_mute.json@$flow.actions.2.title": "Slå dæmpet lydstyrke til eller fra",
   "./assets/capability/capabilities/volume_set.json@title": "Indstil lydstyrken",
   "./assets/capability/capabilities/volume_set.json@desc": "Lydstyrke",
-  "./assets/capability/capabilities/volume_set.json@$flow.triggers.0.title": "Lydstyrke ændrede sig",
+  "./assets/capability/capabilities/volume_set.json@$flow.triggers.0.title": "Lydstyrke blev ændret",
   "./assets/capability/capabilities/volume_set.json@$flow.triggers.0.tokens.0.title": "Lydstyrke",
   "./assets/capability/capabilities/volume_set.json@$flow.actions.0.title": "Indstil lydstyrke til",
   "./assets/capability/capabilities/volume_up.json@title": "Op for lyden",
