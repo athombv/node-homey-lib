@@ -36,6 +36,18 @@
       }
     },
     {
+      "id": "fair",
+      "title": {
+        "en": "Fair"
+      }
+    },
+    {
+      "id": "moderate",
+      "title": {
+        "en": "Moderate"
+      }
+    },
+    {
       "id": "poor",
       "title": {
         "en": "Poor",
