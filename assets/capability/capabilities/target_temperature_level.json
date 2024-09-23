@@ -8,7 +8,10 @@
     "ko": "목표 온도 수준",
     "pl": "Docelowy poziom temperatury",
     "ru": "Уровень заданной температуры",
-    "sv": "Nivå för önskad temperatur"
+    "sv": "Nivå för önskad temperatur",
+    "es": "Nivel de temperatura deseado",
+    "fr": "Niveau de température cible",
+    "no": "Ønsket temperaturnivå"
   },
   "desc": {
     "en": "The target temperature level of the appliance.",
@@ -18,7 +21,10 @@
     "ko": "가전의 목표 온도 수준입니다.",
     "pl": "Docelowy poziom temperatury urządzenia.",
     "ru": "Уровень заданной температуры прибора.",
-    "sv": "Apparatens önskade temperaturnivå."
+    "sv": "Apparatens önskade temperaturnivå.",
+    "es": "El nivel de temperatura deseado del dispositivo.",
+    "fr": "Le niveau de température cible de l'appareil.",
+    "no": "Ønsket temperaturnivå for apparatet."
   },
   "values": [
     {
@@ -31,7 +37,10 @@
         "ko": "낮음",
         "pl": "Niski",
         "ru": "Низкий",
-        "sv": "Låg"
+        "sv": "Låg",
+        "es": "Bajo",
+        "fr": "Faible",
+        "no": "Lavt"
       }
     },
     {
@@ -44,7 +53,10 @@
         "ko": "중간",
         "pl": "Średni",
         "ru": "Средний",
-        "sv": "Medium"
+        "sv": "Medium",
+        "es": "Intermedio",
+        "fr": "Moyen",
+        "no": "Middels"
       }
     },
     {
@@ -57,7 +69,10 @@
         "ko": "높음",
         "pl": "Wysoki",
         "ru": "Высокий",
-        "sv": "Hög"
+        "sv": "Hög",
+        "es": "Alto",
+        "fr": "Élevé",
+        "no": "Høyt"
       }
     }
   ],
@@ -77,7 +92,10 @@
           "ko": "목표 온도 수준이 다음으로 변경됨",
           "pl": "Docelowy poziom temperatury zmienił się na",
           "ru": "Уровень заданной температуры изменен на",
-          "sv": "Den önskade temperaturnivån ändrades till"
+          "sv": "Den önskade temperaturnivån ändrades till",
+          "es": "El nivel de temperatura deseado ha cambiado a",
+          "fr": "Le niveau de température cible est passé à",
+          "no": "Ønsket temperaturnivå ble endret til"
         },
         "args": [
           {
@@ -98,8 +116,11 @@
           "it": "Il livello di temperatura target !{{è|non è}}",
           "ko": "목표 온도 수준이 다음!{{과 같음| 아님}}",
           "pl": "Docelowy poziom temperatury !{{jest|nie jest}}",
-          "ru": "Заданный уровень температуры !{{is|is not}}",
-          "sv": "Den önskade temperaturnivån !{{är|är inte}}"
+          "ru": "Заданный уровень температуры !{{|не}}",
+          "sv": "Den önskade temperaturnivån !{{är|är inte}}",
+          "es": "El nivel de temperatura deseado !{{es|no es}}",
+          "fr": "Le niveau de température cible !{{est|n'est pas}}",
+          "no": "Ønsket temperaturnivå !{{er|er ikke}}"
         },
         "args": [
           {
@@ -121,7 +142,10 @@
           "ko": "목표 온도 수준을 다음으로 설정",
           "pl": "Ustaw docelowy poziom temperatury na",
           "ru": "Установить уровень заданной температуры на",
-          "sv": "Ställ in önskad temperaturnivå till"
+          "sv": "Ställ in önskad temperaturnivå till",
+          "es": "Ajustar el nivel de temperatura deseado a",
+          "fr": "Définir le niveau de température cible sur",
+          "no": "Sett ønsket temperaturnivå til"
         },
         "args": [
           {

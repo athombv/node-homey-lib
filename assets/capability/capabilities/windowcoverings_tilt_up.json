@@ -29,7 +29,10 @@
           "nl": "Omhoog kantelen",
           "pl": "Odchylenie w górę",
           "ru": "Наклон вверх",
-          "sv": "Luta upp"
+          "sv": "Luta upp",
+          "es": "Inclinar hacia arriba",
+          "fr": "Inclinaison vers le haut",
+          "no": "Vipp opp"
         }
       }
     ]

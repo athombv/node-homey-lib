@@ -8,7 +8,10 @@
     "ko": "진공 청소기 작동 모드",
     "pl": "Tryb pracy odkurzacza",
     "ru": "Режим работы пылесоса",
-    "sv": "Dammsugarens arbetsläge"
+    "sv": "Dammsugarens arbetsläge",
+    "es": "Modo de trabajo del aspirador",
+    "fr": "Mode de fonctionnement de l'aspirateur",
+    "no": "Jobbmodus for støvsuger"
   },
   "values": [
     {
@@ -21,7 +24,10 @@
         "ko": "끔",
         "pl": "Wył",
         "ru": "Выкл.",
-        "sv": "Av"
+        "sv": "Av",
+        "es": "Desactivado",
+        "fr": "Désactivé",
+        "no": "Av"
       }
     },
     {
@@ -34,7 +40,10 @@
         "ko": "보통",
         "pl": "Normalny",
         "ru": "Нормальный",
-        "sv": "Normal"
+        "sv": "Normal",
+        "es": "Normal",
+        "fr": "Normal",
+        "no": "Normal"
       }
     },
     {
@@ -47,7 +56,10 @@
         "ko": "높음",
         "pl": "Wysoki",
         "ru": "Интенсивный",
-        "sv": "Hög"
+        "sv": "Hög",
+        "es": "Alto",
+        "fr": "Élevé",
+        "no": "Høy"
       }
     },
     {
@@ -60,7 +72,10 @@
         "ko": "터보",
         "pl": "Turbo",
         "ru": "Турбо",
-        "sv": "Turbo"
+        "sv": "Turbo",
+        "es": "Turbo",
+        "fr": "Turbo",
+        "no": "Turbo"
       }
     },
     {
@@ -73,7 +88,10 @@
         "ko": "물걸레",
         "pl": "Mop",
         "ru": "Швабра",
-        "sv": "Mopp"
+        "sv": "Mopp",
+        "es": "Fregado",
+        "fr": "Serpillère",
+        "no": "Mopping"
       }
     },
     {
@@ -86,7 +104,10 @@
         "ko": "자동",
         "pl": "Auto",
         "ru": "Авто\n",
-        "sv": "Auto"
+        "sv": "Auto",
+        "es": "Automático",
+        "fr": "Automatique",
+        "no": "Automatisk"
       }
     }
   ],
@@ -100,13 +121,15 @@
         "title": {
           "en": "The job mode has changed",
           "nl": "De modus is veranderd",
-          "da": "Støvsugerens jobtilstand er ændret",
-          "it": "La modalità di lavoro dell'aspirapolvere è cambiata",
-          "ko": "진공 청소기 작동 모드 변경됨",
-          "no": "Støvsugerens jobbmodus er endret",
-          "pl": "Zmienił się tryb pracy odkurzacza",
-          "ru": "Режим работы пылесоса изменен",
-          "sv": "Dammsugarens arbetsläge har ändrats"
+          "da": "Jobtilstanden er ændret",
+          "it": "La modalità di lavoro è cambiata",
+          "ko": "작동 모드 변경됨",
+          "no": "Jobbmodusen er endret",
+          "pl": "Zmienił się tryb pracy",
+          "ru": "Режим работы изменен",
+          "sv": "Arbetsläget har ändrats",
+          "es": "El modo de trabajo ha cambiado",
+          "fr": "Le mode de fonctionnement a changé"
         },
         "args": [
           {
@@ -123,12 +146,15 @@
         "title": {
           "en": "The job mode !{{is|is not}}",
           "nl": "De modus !{{is|is niet}}",
-          "da": "Støvsugerens jobtilstand !{{er|er ikke}}",
-          "it": "La modalità di lavoro dell'aspirapolvere !{{è|non è}}",
-          "ko": "진공 청소기 작동 모드가 다음!{{과 같음| 아님}}",
-          "pl": "Tryb pracy odkurzacza !{{jest|nie jest}}",
-          "ru": "Режим работы пылесоса !{{is|is not}}",
-          "sv": "Dammsugarens arbetsläge !{{är|är inte}}"
+          "da": "Jobtilstanden !{{er|er ikke}}",
+          "it": "La modalità di lavoro !{{è|non è}}",
+          "ko": "작동 모드가 다음!{{과 같음| 아님}}",
+          "pl": "Tryb pracy !{{to|to nie}}",
+          "ru": "Режим работы !{{|не}}",
+          "sv": "Arbetsläget !{{är|är inte}}",
+          "es": "El modo de trabajo !{{está|no está}}",
+          "fr": "Le mode fonctionnement !{{est|n'est pas}}",
+          "no": "Jobbmodusen !{{er|er ikke}}"
         },
         "args": [
           {
@@ -145,12 +171,15 @@
         "title": {
           "en": "Set the job mode to",
           "nl": "De modus instellen op",
-          "da": "Indstil støvsugerens jobtilstand til",
-          "it": "Imposta la modalità di lavoro dell'aspirapolvere su",
-          "ko": "진공 청소기 작동 모드를 다음으로 설정",
-          "pl": "Ustaw tryb pracy odkurzacza na",
-          "ru": "Установить режим работы пылесоса на",
-          "sv": "Ställ in dammsugarens arbetsläge på"
+          "da": "Indstil jobtilstanden til",
+          "it": "Imposta la modalità di lavoro su",
+          "ko": "작동 모드를 다음으로 설정",
+          "pl": "Ustaw tryb pracy na",
+          "ru": "Установить режим работы на",
+          "sv": "Ställ in arbetsläget på",
+          "es": "Ajustar el modo de trabajo en",
+          "fr": "Définir le mode de fonctionnement sur",
+          "no": "Sett jobbmodusen til"
         },
         "args": [
           {

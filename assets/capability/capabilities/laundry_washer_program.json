@@ -8,7 +8,10 @@
     "ko": "세탁기 프로그램",
     "pl": "Program prania",
     "ru": "Программы стирки",
-    "sv": "Tvättmaskinsprogram"
+    "sv": "Tvättmaskinsprogram",
+    "es": "Programa de lavado",
+    "fr": "Programme du lave-linge",
+    "no": "Vaskemaskinprogram"
   },
   "desc": {
     "en": "The current program of the laundry washer.",
@@ -18,7 +21,10 @@
     "ko": "세탁기의 현재 프로그램입니다.",
     "pl": "Bieżący program prania.",
     "ru": "Текущая программа стирки.",
-    "sv": "Tvättmaskinens aktuella program."
+    "sv": "Tvättmaskinens aktuella program.",
+    "es": "El programa actual de la lavadora.",
+    "fr": "Le programme actuel du lave-linge.",
+    "no": "Vaskemaskinens gjeldende program."
   },
   "values": [
     {
@@ -31,7 +37,10 @@
         "ko": "보통",
         "pl": "Normalne",
         "ru": "Стандартная",
-        "sv": "Normal"
+        "sv": "Normal",
+        "es": "Normal",
+        "fr": "Normal",
+        "no": "Normalt"
       }
     },
     {
@@ -44,7 +53,10 @@
         "ko": "자동",
         "pl": "Auto",
         "ru": "Авто",
-        "sv": "Auto"
+        "sv": "Auto",
+        "es": "Automático",
+        "fr": "Automatique",
+        "no": "Automatisk"
       }
     },
     {
@@ -57,7 +69,10 @@
         "ko": "신속",
         "pl": "Szybkie",
         "ru": "Быстрая",
-        "sv": "Snabbt"
+        "sv": "Snabbt",
+        "es": "Rápido",
+        "fr": "Rapide",
+        "no": "Hurtig"
       }
     },
     {
@@ -70,7 +85,10 @@
         "ko": "강력",
         "pl": "Intensywne",
         "ru": "Интенсивная",
-        "sv": "Tungt"
+        "sv": "Tungt",
+        "es": "Intensivo",
+        "fr": "Long",
+        "no": "Kraftig"
       }
     },
     {
@@ -83,7 +101,10 @@
         "ko": "표백",
         "pl": "Biel",
         "ru": "Белые вещи",
-        "sv": "Vittvätt"
+        "sv": "Vittvätt",
+        "es": "Blancos",
+        "fr": "Blancs",
+        "no": "Hvitvask"
       }
     }
   ],
@@ -97,13 +118,16 @@
         "highlight": true,
         "title": {
           "en": "The program changed to",
-          "nl": "Het programma is veranderd naar",
-          "da": "Vaskemaskinens program blev ændret til",
-          "it": "Il programma della lavatrice è passato a",
-          "ko": "세탁기 프로그램이 다음으로 변경됨",
-          "pl": "Program pralki zmienił się na",
-          "ru": "Программа стирки изменена на",
-          "sv": "Tvättmaskinsprogrammet ändrades till"
+          "nl": "Het programma is veranderd in",
+          "da": "Programmet blev ændret til",
+          "it": "Il programma è passato a",
+          "ko": "프로그램이 다음으로 변경됨",
+          "pl": "Program zmienił się na",
+          "ru": "Программа изменена на",
+          "sv": "Programmet ändrades till",
+          "es": "El programa ha cambiado a",
+          "fr": "Le programme du lave-linge est passé à",
+          "no": "Programmet ble endret til"
         },
         "args": [
           {
@@ -120,12 +144,15 @@
         "title": {
           "en": "The program !{{is|is not}}",
           "nl": "Het programma !{{is|is niet}}",
-          "da": "Vaskemaskineprogrammet !{{er|er ikke}}",
-          "it": "Il programma della lavatrice !{{è|non è}}",
-          "ko": "세탁기 프로그램이 다음!{{과 같음| 아님}}",
-          "pl": "Program pralki !{{jest|nie jest}}",
-          "ru": "Программа стирки !{{is|is not}}",
-          "sv": "Tvättmaskinsprogrammet !{{är|är inte}}"
+          "da": "Programmet !{{er|er ikke}}",
+          "it": "Il programma !{{è|non è}}",
+          "ko": "프로그램이 다음!{{과 같음| 아님}}",
+          "pl": "Program !{{jest|nie jest}}",
+          "ru": "Программа !{{|не}}",
+          "sv": "Programmet !{{är|är inte}}",
+          "es": "El programa !{{está|no está}}",
+          "fr": "Le programme du lave-linge !{{est|n'est pas}}",
+          "no": "Programmet !{{er|er ikke}}"
         },
         "args": [
           {

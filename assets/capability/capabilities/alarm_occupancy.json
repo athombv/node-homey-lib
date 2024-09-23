@@ -9,7 +9,9 @@
     "no": "Bruksalarm",
     "pl": "Alarm zajętości",
     "ru": "Сигнал о занятости",
-    "sv": "Närvarolarm"
+    "sv": "Närvarolarm",
+    "es": "Alarma de ocupación",
+    "fr": "Alarme d'occupation"
   },
   "desc": {
     "en": "True when occupancy is detected.",
@@ -20,7 +22,9 @@
     "no": "Sann når bruk er registrert.",
     "pl": "Prawda, gdy wykryta jest zajętość.",
     "ru": "Значение «истина» при обнаружении занятости.",
-    "sv": "Sant när närvaro detekteras."
+    "sv": "Sant när närvaro detekteras.",
+    "es": "Activado cuando se detecta ocupación.",
+    "fr": "Se déclenche lorsque une occupation est détectée."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -32,7 +36,9 @@
     "no": "Bruksalarm aktivert",
     "pl": "Alarm zajętości włączony",
     "ru": "Сигнал о занятости включен",
-    "sv": "Närvarolarm aktiverat"
+    "sv": "Närvarolarm aktiverat",
+    "es": "Alarma de ocupación activada",
+    "fr": "Alarme d'occupation activée"
   },
   "insightsTitleFalse": {
     "en": "Occupancy alarm turned off",
@@ -43,7 +49,9 @@
     "no": "Bruksalarm deaktivert",
     "pl": "Alarm zajętości wyłączony",
     "ru": "Сигнал о занятости выключен",
-    "sv": "Närvarolarm inaktiverat"
+    "sv": "Närvarolarm inaktiverat",
+    "es": "Alarma de ocupación desactivada",
+    "fr": "Alarme d'occupation désactivée"
   },
   "getable": true,
   "setable": false,
@@ -62,7 +70,9 @@
           "no": "Bruksalarmen ble aktivert",
           "pl": "Włączył się alarm zajętości",
           "ru": "Сигнал о занятости включен",
-          "sv": "Närvarolarmet aktiverat"
+          "sv": "Närvarolarmet aktiverat",
+          "es": "La alarma de ocupación se ha activado",
+          "fr": "L'alarme d'occupation s'est activée"
         }
       },
       {
@@ -76,7 +86,9 @@
           "no": "Bruksalarmen ble deaktivert",
           "pl": "Wyłączył się alarm zajętości",
           "ru": "Сигнал о занятости выключен",
-          "sv": "Närvarolarmet inaktiverat"
+          "sv": "Närvarolarmet inaktiverat",
+          "es": "La alarma de ocupación se ha desactivado",
+          "fr": "L'alarme d'occupation s'est désactivée"
         }
       }
     ],
@@ -92,7 +104,9 @@
           "no": "Er !{{i bruk|ikke i bruk}}",
           "pl": "Jest !{{zajęte|niezajęte}}",
           "ru": "Устройство !{{занято|не занято}}",
-          "sv": "Är !{{närvarande|inte närvarande}}"
+          "sv": "Är !{{närvarande|inte närvarande}}",
+          "es": "!{{Está ocupado|No está ocupado}}",
+          "fr": "Est !{{connectée|déconnectée}}"
         }
       }
     ]

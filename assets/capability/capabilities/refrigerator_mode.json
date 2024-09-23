@@ -8,7 +8,10 @@
     "ko": "냉장고 모드",
     "pl": "Tryb lodówki",
     "ru": "Режим холодильника",
-    "sv": "Kylskåpsläge"
+    "sv": "Kylskåpsläge",
+    "es": "Modo del frigorífico",
+    "fr": "Mode du réfrigérateur",
+    "no": "Kjøleskapsmodus"
   },
   "desc": {
     "en": "The mode of the refrigerator.",
@@ -18,7 +21,10 @@
     "ko": "냉장고의 모드입니다.",
     "pl": "Tryb pracy lodówki.",
     "ru": "Режим работы холодильника.",
-    "sv": "Läget för kylskåpet."
+    "sv": "Läget för kylskåpet.",
+    "es": "El modo del frigorífico.",
+    "fr": "Le mode de fonctionnement du réfrigérateur.",
+    "no": "Kjøleskapets modus."
   },
   "values": [
     {
@@ -31,7 +37,10 @@
         "ko": "보통",
         "pl": "Normalny",
         "ru": "Нормальный",
-        "sv": "Normal"
+        "sv": "Normal",
+        "es": "Normal",
+        "fr": "Normal",
+        "no": "Normal"
       }
     },
     {
@@ -44,7 +53,10 @@
         "ko": "신속 쿨링",
         "pl": "Szybkie chłodzenie",
         "ru": "Быстрое охлаждение",
-        "sv": "Snabbkylning"
+        "sv": "Snabbkylning",
+        "es": "Enfriado rápido",
+        "fr": "Refroidissement rapide",
+        "no": "Hurtigavkjøling"
       }
     },
     {
@@ -57,7 +69,10 @@
         "ko": "신속 냉동",
         "pl": "Szybkie zamrażanie",
         "ru": "Быстрая заморозка",
-        "sv": "Snabbfrysning"
+        "sv": "Snabbfrysning",
+        "es": "Congelación rápida",
+        "fr": "Congélation rapide",
+        "no": "Hurtigfrysing"
       }
     }
   ],
@@ -71,13 +86,16 @@
         "highlight": true,
         "title": {
           "en": "The mode changed to",
-          "nl": "De modus is veranderd naar",
-          "da": "Køleskabets tilstand ændrede sig til",
-          "it": "La modalità del frigorifero è passata a",
-          "ko": "냉장고 모드가 다음으로 변경됨",
-          "pl": "Tryb lodówki zmienił się na",
-          "ru": "Режим холодильника изменен на",
-          "sv": "Kylskåpsläget ändras till"
+          "nl": "De modus is veranderd in",
+          "da": "Tilstanden ændrede sig til",
+          "it": "La modalità è passata a",
+          "ko": "모드가 다음으로 변경됨",
+          "pl": "Tryb zmienił się na",
+          "ru": "Режим изменен на",
+          "sv": "Läget ändrades till",
+          "es": "El modo ha cambiado a",
+          "fr": "Le mode est passé à",
+          "no": "Modusen ble endret til"
         },
         "args": [
           {
@@ -94,12 +112,15 @@
         "title": {
           "en": "The mode !{{is|is not}}",
           "nl": "De modus !{{is|is niet}}",
-          "da": "Køleskabstilstand !{{er|er ikke}}",
-          "it": "La modalità del frigorifero !{{è|non è}}",
-          "ko": "냉장고 모드가 다음!{{과 같음| 아님}}",
-          "pl": "Tryb lodówki !{{jest|nie jest}}",
-          "ru": "Режим холодильника !{{is|is not}}",
-          "sv": "Kylskåpsläget !{{är|är inte}}"
+          "da": "Tilstanden !{{er|er ikke}}",
+          "it": "La modalità !{{è|non è}}",
+          "ko": "모드가 다음!{{과 같음| 아님}}",
+          "pl": "Tryb !{{jest|nie jest}}",
+          "ru": "Режим !{{|не}}",
+          "sv": "Läget !{{är|är inte}}",
+          "es": "El modo !{{está|no está}}",
+          "fr": "Le mode !{{est|n'est pas}}",
+          "no": "Modusen !{{er|er ikke}}"
         },
         "args": [
           {
@@ -116,12 +137,15 @@
         "title": {
           "en": "Set the mode to",
           "nl": "De modus instellen op",
-          "da": "Indstil køleskabstilstanden til",
-          "it": "Imposta la modalità del frigorifero su",
-          "ko": "냉장고 모드를 다음으로 설정",
-          "pl": "Ustaw tryb lodówki na",
-          "ru": "Установить режим холодильника на",
-          "sv": "Ställ in kylskåpsläget på"
+          "da": "Indstil tilstanden til",
+          "it": "Imposta la modalità su",
+          "ko": "모드를 다음으로 설정",
+          "pl": "Ustaw tryb na",
+          "ru": "Установить режим на",
+          "sv": "Ställ in läget på",
+          "es": "Ajustar el modo en",
+          "fr": "Définir le mode sur",
+          "no": "Sett modusen til"
         },
         "args": [
           {

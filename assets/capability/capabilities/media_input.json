@@ -8,7 +8,10 @@
     "ko": "미디어 입력",
     "pl": "Wejście multimedialne",
     "ru": "Вход для устройств мультимедиа",
-    "sv": "Mediaingång"
+    "sv": "Mediaingång",
+    "es": "Entrada de contenido multimedia",
+    "fr": "Entrée multimédia",
+    "no": "Medieinngang"
   },
   "desc": {
     "en": "The input channel for a media player",
@@ -18,7 +21,10 @@
     "ko": "미디어 플레이어의 입력 채널",
     "pl": "Kanał wejściowy dla odtwarzacza multimedialnego",
     "ru": "Канал ввода для медиаплеера",
-    "sv": "Ingångskanalen för en mediaspelare"
+    "sv": "Ingångskanalen för en mediaspelare",
+    "es": "El canal de entrada de un reproductor multimedia",
+    "fr": "Le canal d'entrée d'un lecteur multimédia",
+    "no": "Inngangskanalen for en mediespiller"
   },
   "values": [
     {
@@ -31,7 +37,10 @@
         "ko": "HDMI 1",
         "pl": "HDMI 1",
         "ru": "HDMI 1",
-        "sv": "HDMI 1"
+        "sv": "HDMI 1",
+        "es": "HDMI 1",
+        "fr": "HDMI 1",
+        "no": "HDMI 1"
       }
     },
     {
@@ -44,7 +53,10 @@
         "ko": "HDMI 2",
         "pl": "HDMI 2",
         "ru": "HDMI 2",
-        "sv": "HDMI 2"
+        "sv": "HDMI 2",
+        "es": "HDMI 2",
+        "fr": "HDMI 2",
+        "no": "HDMI 2"
       }
     },
     {
@@ -57,7 +69,10 @@
         "ko": "HDMI 3",
         "pl": "HDMI 3",
         "ru": "HDMI 3",
-        "sv": "HDMI 3"
+        "sv": "HDMI 3",
+        "es": "HDMI 3",
+        "fr": "HDMI 3",
+        "no": "HDMI 3"
       }
     },
     {
@@ -70,7 +85,10 @@
         "ko": "USB 1",
         "pl": "USB 1",
         "ru": "USB 1",
-        "sv": "USB 1"
+        "sv": "USB 1",
+        "es": "USB 1",
+        "fr": "USB 1",
+        "no": "USB 1"
       }
     },
     {
@@ -83,7 +101,10 @@
         "ko": "USB 2",
         "pl": "USB 2",
         "ru": "USB 2",
-        "sv": "USB 2"
+        "sv": "USB 2",
+        "es": "USB 2",
+        "fr": "USB 2",
+        "no": "USB 2"
       }
     },
     {
@@ -96,7 +117,10 @@
         "ko": "컴포넌트",
         "pl": "Komponent",
         "ru": "Компонент",
-        "sv": "Komponent"
+        "sv": "Komponent",
+        "es": "Componente",
+        "fr": "Composant",
+        "no": "Komponent"
       }
     }
   ],
@@ -116,7 +140,10 @@
           "ko": "미디어 입력이 다음으로 변경됨",
           "pl": "Wejście multimedialne zmieniło się na",
           "ru": "Вход для устройств мультимедиа был изменен на",
-          "sv": "Medieuppgifterna ändrades till"
+          "sv": "Medieuppgifterna ändrades till",
+          "es": "La entrada de contenido multimedia ha cambiado a",
+          "fr": "L'entrée multimédia est passée à",
+          "no": "Medieinngangen ble endret til"
         },
         "args": [
           {
@@ -137,8 +164,11 @@
           "it": "L'ingresso multimediale !{{è|non è}}",
           "ko": "미디어 입력이 다음!{{과 같음| 아님}}",
           "pl": "Wejście multimedialne !{{jest|nie jest}}",
-          "ru": "Вход для устройств мультимедиа !{{is|is not}}",
-          "sv": "Mediaingången !{{är|är inte}}"
+          "ru": "Вход для устройств мультимедиа !{{|не}}",
+          "sv": "Mediaingången !{{är|är inte}}",
+          "es": "La entrada de contenido multimedia !{{es|no es}}",
+          "fr": "L'entrée multimédia !{{est|n'est pas}}",
+          "no": "Medieinngangen !{{er|er ikke}}"
         },
         "args": [
           {
@@ -160,7 +190,10 @@
           "ko": "미디어 입력 설정",
           "pl": "Ustaw wejście multimedialne",
           "ru": "Установить вход для устройств мультимедиа ",
-          "sv": "Ställ in mediaingången"
+          "sv": "Ställ in mediaingången",
+          "es": "Configurar la entrada de contenido multimedia",
+          "fr": "Définir l'entrée multimédia",
+          "no": "Innstill medieinngangen"
         },
         "args": [
           {

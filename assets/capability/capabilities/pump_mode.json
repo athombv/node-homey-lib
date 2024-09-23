@@ -8,7 +8,10 @@
     "ko": "펌프 모드",
     "pl": "Tryb pompy",
     "ru": "Режим работы насоса",
-    "sv": "Pumpläge"
+    "sv": "Pumpläge",
+    "es": "Modo bombeo",
+    "fr": "Mode de pompage",
+    "no": "Pumpemodus"
   },
   "desc": {
     "en": "Used to set which setpoint regulates the pump.",
@@ -18,7 +21,10 @@
     "ko": "펌프를 조절하는 설정값을 설정하는 데 사용됩니다.",
     "pl": "Służy do ustawiania wartości zadanej regulującej pompę.",
     "ru": "Используется для выбора уставки, регулирующей работу насоса.",
-    "sv": "Används för att ställa in vilket börvärde som reglerar pumpen."
+    "sv": "Används för att ställa in vilket börvärde som reglerar pumpen.",
+    "es": "Sirve para establecer qué valor regula el bombeo.",
+    "fr": "Permet de définir le point de réglage qui régule la pompe.",
+    "no": "Brukes til å innstille hvilket settepunkt som skal regulere pumpen."
   },
   "values": [
     {
@@ -31,7 +37,10 @@
         "ko": "일정 압력",
         "pl": "Stałe ciśnienie",
         "ru": "Постоянное давление",
-        "sv": "Konstant tryck"
+        "sv": "Konstant tryck",
+        "es": "Presión constante",
+        "fr": "Pression constante",
+        "no": "Konstant trykk"
       }
     },
     {
@@ -44,7 +53,10 @@
         "ko": "보상 압력",
         "pl": "Kompensowane ciśnienie",
         "ru": "Компенсированное давление",
-        "sv": "Kompenserat tryck"
+        "sv": "Kompenserat tryck",
+        "es": "Presión compensada",
+        "fr": "Pression compensée",
+        "no": "Kompensert trykk"
       }
     },
     {
@@ -57,7 +69,10 @@
         "ko": "일정 유량",
         "pl": "Stały przepływ",
         "ru": "Постоянный Flow",
-        "sv": "Konstant Flow"
+        "sv": "Konstant Flow",
+        "es": "Flow constante",
+        "fr": "Flow constant",
+        "no": "Konstant strøm"
       }
     },
     {
@@ -70,7 +85,10 @@
         "ko": "일정 속도",
         "pl": "Stała prędkość",
         "ru": "Постоянная скорость",
-        "sv": "Konstant hastighet"
+        "sv": "Konstant hastighet",
+        "es": "Velocidad constante",
+        "fr": "Vitesse constante",
+        "no": "Konstant hastighet"
       }
     },
     {
@@ -83,14 +101,26 @@
         "ko": "일정 온도",
         "pl": "Stała temperatura",
         "ru": "Постоянная температура",
-        "sv": "Konstant temperatur"
+        "sv": "Konstant temperatur",
+        "es": "Temperatura constante",
+        "fr": "Température constante",
+        "no": "Konstant temperatur"
       }
     },
     {
       "id": "automatic",
       "title": {
         "en": "Automatic",
-        "nl": "Automatisch"
+        "nl": "Automatisch",
+        "da": "Automatisk",
+        "es": "Automático",
+        "fr": "Automatique",
+        "it": "Automatico",
+        "ko": "자동",
+        "no": "Automatisk",
+        "pl": "Automatyczny",
+        "ru": "Автоматический",
+        "sv": "Automatisk"
       }
     }
   ],
@@ -110,7 +140,10 @@
           "ko": "펌프 모드가 다음으로 변경됨",
           "pl": "Tryb pompy zmienił się na",
           "ru": "Режим работы насоса изменен на",
-          "sv": "Pumpläget ändrades till"
+          "sv": "Pumpläget ändrades till",
+          "es": "El modo bombeo ha cambiado a",
+          "fr": "Le mode de pompage est passé à",
+          "no": "Pumpemodus ble endret til"
         },
         "args": [
           {
@@ -131,8 +164,11 @@
           "it": "La modalità pompa !{{è|non è}}",
           "ko": "펌프 모드가 다음!{{과 같음| 아님}}",
           "pl": "Tryb pompy !{{jest|nie jest}}",
-          "ru": "Режим работы насоса !{{is|is not}}",
-          "sv": "Pumpens läge !{{är|är inte}}"
+          "ru": "Режим работы насоса !{{|не}}",
+          "sv": "Pumpens läge !{{är|är inte}}",
+          "es": "El modo bombeo !{{es|no es}}",
+          "fr": "Le mode de pompage !{{est|n'est pas}}",
+          "no": "Pumpemodusen !{{er|er ikke}}"
         },
         "args": [
           {
@@ -154,7 +190,10 @@
           "ko": "펌프 모드 설정",
           "pl": "Ustaw trybu pompy",
           "ru": "Установить режим работы насоса",
-          "sv": "Ställ in pumpläge"
+          "sv": "Ställ in pumpläge",
+          "es": "Configurar el modo bombeo",
+          "fr": "Définir le mode de pompage",
+          "no": "Angi pumpemodus"
         },
         "args": [
           {

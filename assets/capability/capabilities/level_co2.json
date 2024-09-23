@@ -8,7 +8,10 @@
     "ko": "CO2 수준",
     "pl": "Poziom CO2",
     "ru": "Уровень CO2",
-    "sv": "CO2-nivå"
+    "sv": "CO2-nivå",
+    "es": "Nivel de CO2",
+    "fr": "Niveau de CO2",
+    "no": "CO2-nivå"
   },
   "desc": {
     "en": "The level of CO2 in the air.",
@@ -18,7 +21,10 @@
     "ko": "공기 중 CO2의 수준입니다.",
     "pl": "Poziom dwutlenku węgla w powietrzu.",
     "ru": "Уровень содержания CO2 в воздухе.",
-    "sv": "Halten av CO2 i luften."
+    "sv": "Halten av CO2 i luften.",
+    "es": "El nivel de CO2 en el aire.",
+    "fr": "Le niveau de CO2 dans l'air.",
+    "no": "Nivået av CO2 i luften."
   },
   "values": [
     {
@@ -31,7 +37,10 @@
         "ko": "낮음",
         "pl": "Niski",
         "ru": "Низкий",
-        "sv": "Låg"
+        "sv": "Låg",
+        "es": "Bajo",
+        "fr": "Faible",
+        "no": "Lavt"
       }
     },
     {
@@ -44,7 +53,10 @@
         "ko": "중간",
         "pl": "Średni",
         "ru": "Средний",
-        "sv": "Medium"
+        "sv": "Medium",
+        "es": "Intermedio",
+        "fr": "Moyen",
+        "no": "Middels"
       }
     },
     {
@@ -57,7 +69,10 @@
         "ko": "높음",
         "pl": "Wysoki",
         "ru": "Высокий",
-        "sv": "Hög"
+        "sv": "Hög",
+        "es": "Alto",
+        "fr": "Élevé",
+        "no": "Høyt"
       }
     },
     {
@@ -70,7 +85,10 @@
         "ko": "치명적",
         "pl": "Krytyczny",
         "ru": "Критический",
-        "sv": "Kritisk"
+        "sv": "Kritisk",
+        "es": "Crítico",
+        "fr": "Critique",
+        "no": "Kritisk"
       }
     }
   ],
@@ -90,7 +108,10 @@
           "ko": "CO2 수준이 다음으로 변경됨",
           "pl": "Poziom CO2 zmienił się na",
           "ru": "Уровень CO2 изменился на",
-          "sv": "CO2-nivån ändrades till"
+          "sv": "CO2-nivån ändrades till",
+          "es": "El nivel de CO2 ha cambiado a",
+          "fr": "Le niveau de CO2 est passé à",
+          "no": "CO2-nivået ble endret til"
         },
         "args": [
           {
@@ -111,8 +132,11 @@
           "it": "Il livello di CO2 !{{è|non è}}",
           "ko": "CO2 수준이 다음!{{과 같음| 아님}}",
           "pl": "Poziom CO2 !{{jest|nie jest}}",
-          "ru": "Уровень CO2 !{{is|is not}}",
-          "sv": "CO2-nivån !{{är|är inte}}"
+          "ru": "Уровень CO2 !{{|не}}",
+          "sv": "CO2-nivån !{{är|är inte}}",
+          "es": "El nivel de CO2 !{{es|no es}}",
+          "fr": "Le taux de CO2 !{{est|n'est pas}}",
+          "no": "CO2-nivået !{{er|er ikke}}"
         },
         "args": [
           {

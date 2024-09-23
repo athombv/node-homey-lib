@@ -8,7 +8,10 @@
     "ko": "잔디깎이 상태",
     "pl": "Stan kosiarki",
     "ru": "Состояние косилки",
-    "sv": "Gräsllipparens tillstånd"
+    "sv": "Gräsllipparens tillstånd",
+    "es": "Estado del cortacésped",
+    "fr": "État de la tondeuse",
+    "no": "Gressklipperstatus"
   },
   "desc": {
     "en": "The current state of the lawnmower.",
@@ -18,7 +21,10 @@
     "nl": "De huidige staat van de grasmaaier.",
     "pl": "Aktualny stan kosiarki.",
     "ru": "Текущее состояние газонокосилки.",
-    "sv": "Det aktuella tillståndet för gräsklipparen."
+    "sv": "Det aktuella tillståndet för gräsklipparen.",
+    "es": "El estado actual del cortacésped.",
+    "fr": "L'état actuel de la tondeuse à gazon.",
+    "no": "Gressklipperens nåværende tilstand."
   },
   "values": [
     {
@@ -31,7 +37,10 @@
         "nl": "Maaien",
         "pl": "W trakcie koszenia",
         "ru": "Кошение",
-        "sv": "Klippning"
+        "sv": "Klippning",
+        "es": "Segando",
+        "fr": "Tonte",
+        "no": "Klipper gress"
       }
     },
     {
@@ -44,7 +53,10 @@
         "nl": "Gekoppeld",
         "pl": "Zadokowana",
         "ru": "На док-станции",
-        "sv": "Dockad"
+        "sv": "Dockad",
+        "es": "En la base de carga",
+        "fr": "À la base",
+        "no": "I stasjonen"
       }
     },
     {
@@ -57,7 +69,10 @@
         "nl": "Gepauzeerd",
         "pl": "Wstrzymana",
         "ru": "На паузе",
-        "sv": "Pausad"
+        "sv": "Pausad",
+        "es": "En pausa",
+        "fr": "En pause",
+        "no": "På pause"
       }
     },
     {
@@ -70,7 +85,10 @@
         "nl": "Fout",
         "pl": "Błąd",
         "ru": "Ошибка",
-        "sv": "Fel"
+        "sv": "Fel",
+        "es": "Error",
+        "fr": "Erreur",
+        "no": "Feil"
       }
     }
   ],
@@ -89,7 +107,10 @@
           "nl": "De staat van de grasmaaier is veranderd",
           "pl": "Zmienił się stan kosiarki",
           "ru": "Состояние газонокосилки изменилось",
-          "sv": "Läget för gräsklippare förändrades"
+          "sv": "Läget för gräsklippare förändrades",
+          "es": "El estado del cortacésped ha cambiado",
+          "fr": "L'état de la tondeuse à gazon a changé",
+          "no": "Gressklipperstatusen ble endret"
         },
         "args": [
           {
@@ -110,8 +131,11 @@
           "ko": "잔디깎이가 다음!{{과 같음| 아님}}",
           "nl": "De grasmaaier !{{is|is niet}}",
           "pl": "Kosiarka !{{jest|nie jest}}",
-          "ru": "Газонокосилка !{{is|is not}}",
-          "sv": "Gräsklipparen !{{är|är inte}}"
+          "ru": "Газонокосилка !{{|не}}",
+          "sv": "Gräsklipparen !{{är|är inte}}",
+          "es": "El cortacésped !{{está|no está}}",
+          "fr": "La tondeuse !{{est|n'est pas}}",
+          "no": "Gressklipperen !{{er|er ikke}}"
         },
         "args": [
           {
@@ -133,7 +157,10 @@
           "nl": "Beginnen met maaien",
           "pl": "Rozpocznij koszenie",
           "ru": "Начать косить",
-          "sv": "Börja klippa gräset"
+          "sv": "Börja klippa gräset",
+          "es": "Iniciar segado",
+          "fr": "Commencer à tondre",
+          "no": "Start gressklipping"
         }
       },
       {
@@ -146,7 +173,10 @@
           "nl": "Maaien onderbreken",
           "pl": "Wstrzymaj koszenie",
           "ru": "Приостановить кошение",
-          "sv": "Pausa klippningen"
+          "sv": "Pausa klippningen",
+          "es": "Pausar segado",
+          "fr": "Interrompre la tonte",
+          "no": "Sett gressklippingen på pause"
         }
       },
       {
@@ -159,7 +189,10 @@
           "nl": "Terug naar dok",
           "pl": "Powrót do doku",
           "ru": "Вернуться на док-станцию",
-          "sv": "Återgå till dockan"
+          "sv": "Återgå till dockan",
+          "es": "Volver a la base de carga",
+          "fr": "Retour à la base",
+          "no": "Gå tilbake til stasjonen"
         }
       }
     ]
