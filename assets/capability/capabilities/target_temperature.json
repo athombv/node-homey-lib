@@ -23,7 +23,7 @@
     "no": "°C"
   },
   "chartType": "stepLine",
-  "decimals": 2,
+  "decimals": 1,
   "insights": true,
   "getable": true,
   "setable": true,

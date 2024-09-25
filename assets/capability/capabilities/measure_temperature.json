@@ -34,7 +34,7 @@
     "pl": "Temperatura w stopniach Celsjusza (°C)",
     "ko": "온도 섭씨(°C)"
   },
-  "decimals": 2,
+  "decimals": 1,
   "chartType": "spline",
   "getable": true,
   "setable": false,
