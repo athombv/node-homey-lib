@@ -35,7 +35,8 @@
   "units": {
     "en": "%",
     "ko": "%",
-    "no": "%"
+    "no": "%",
+    "ru": "%"
   },
   "setable": true,
   "getable": true,
@@ -48,14 +49,14 @@
           "en": "The volume changed",
           "nl": "Het volume is veranderd",
           "de": "Lautstärke hat sich geändert",
-          "fr": "Volume a été modifié",
-          "it": "Volume modificato",
+          "fr": "Volume modifié",
+          "it": "Il volume è cambiato",
           "sv": "Volymen ändrades",
           "no": "Volumet ble endret",
           "es": "El volumen ha cambiado",
-          "da": "Lydstyrke blev ændret",
+          "da": "Lydstyrke ændrede sig",
           "ru": "Объем изменился",
-          "pl": "Zmiana poziomu głośności",
+          "pl": "Zmienił się poziom głośności",
           "ko": "볼륨 변경됨"
         },
         "tokens": [
@@ -89,13 +90,13 @@
           "en": "Set the volume to",
           "nl": "Zet het volume naar",
           "de": "Lautstärke setzen auf",
-          "fr": "Mettre le volume sur",
-          "it": "Imposta il volume al",
+          "fr": "Définir le volume sur",
+          "it": "Imposta il volume a",
           "sv": "Ställ in volymen på",
           "no": "Sett volumet til",
           "es": "Configurar el volumen a",
           "da": "Indstil lydstyrke til",
-          "ru": "Установить громкость",
+          "ru": "Установить громкость на",
           "pl": "Ustaw poziom głośności na",
           "ko": "볼륨을 다음으로 설정"
         },
@@ -122,14 +123,16 @@
           "ru": "Установить относительную громкость",
           "pl": "Ustaw względny poziom głośności",
           "ko": "상대 볼륨 설정",
-          "no": "Still inn relativt volum"
+          "no": "Still inn relativt volum",
+          "es": "Configurar volumen relativo"
         },
         "hint": {
           "en": "Change the volume with respect to the device's current volume.",
           "de": "Ändere die Lautstärke unter Berücksichtigung der aktuellen Lautstärke des Gerätes.",
           "nl": "Verhoog of verlaag het volume ten opzichte van het huidige volume van het apparaat.",
           "ko": "디바이스의 현재 볼륨을 기준으로 볼륨을 변경합니다.",
-          "no": "Endre volumet i forhold til enhetens gjeldende volum."
+          "no": "Endre volumet i forhold til enhetens gjeldende volum.",
+          "ru": "Изменить громкость по отношению к текущей громкости устройства."
         },
         "args": [
           {

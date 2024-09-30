@@ -20,9 +20,9 @@
     "fr": "Vrai si des valeurs dangereuses de CO2 ont été détectées",
     "it": "Vero quando sono stati rilevati valori pericolosi di CO2",
     "no": "Sant når farlige CO2-verdier har blitt oppdaget",
-    "es": "Verdadero cuando se han detectado valores peligrosos de CO2",
+    "es": "Activado cuando se han detectado valores peligrosos de CO2",
     "da": "Sandt, når farlige CO2-værdier er blevet opdaget",
-    "ru": "Верно при обнаружении опасных значений CO2",
+    "ru": "Значение «истина» при обнаружении опасных значений CO2",
     "pl": "Adekwatny, kiedy wykryty zostanie niebezpieczny poziom stężenia CO2",
     "ko": "위험한 CO2 값이 감지되면 참"
   },
@@ -70,7 +70,7 @@
           "fr": "L'alarme CO2 s'est activée",
           "it": "L'allarme CO2 è stato attivato",
           "sv": "CO2-larmet på",
-          "no": "CO2-alarmen er aktivert",
+          "no": "CO2-alarmen ble aktivert",
           "es": "La alarma de CO2 se ha activado",
           "da": "CO2-alarmen blev aktiveret",
           "ru": "Сигнал CO2 включен",
@@ -87,7 +87,7 @@
           "fr": "L'alarme CO2 s'est désactivée",
           "it": "L'allarme CO2 è stato disattivato",
           "sv": "CO2-larmet av",
-          "no": "CO2-alarmen er deaktivert",
+          "no": "CO2-alarmen ble deaktivert",
           "es": "La alarma de CO2 se ha desactivado",
           "da": "CO2-alarmen blev deaktiveret",
           "ru": "Сигнал CO2 выключен",
@@ -110,7 +110,7 @@
           "es": "La alarma de CO2 está !{{activada|desactivada}}",
           "da": "CO2-alarmen er !{{tændt|slukket}}",
           "ru": "Сигнал CO2 !{{вкл.|выкл.}}",
-          "pl": "Alarm o CO2 !{{włączony|wyłączony}}",
+          "pl": "Alarm CO2 jest !{{włączony|wyłączony}}",
           "ko": "CO2 알람 !{{켬|끔}}"
         }
       }

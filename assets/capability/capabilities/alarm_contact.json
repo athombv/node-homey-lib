@@ -75,7 +75,7 @@
           "fr": "L'alarme contact s'est activée",
           "it": "L'allarme di contatto è stato attivato",
           "sv": "Kontaktalarmet aktiverat",
-          "no": "Kontaktalarmen aktivert",
+          "no": "Kontaktalarmen ble aktivert",
           "es": "La alarma de contacto se ha activado",
           "da": "Kontaktalarmen blev aktiveret",
           "ru": "Контактный сигнал включен",
@@ -92,7 +92,7 @@
           "fr": "L'alarme contact s'est désactivée",
           "it": "L'allarme di contatto è stato disattivato",
           "sv": "Kontaktalarmet inaktiverat",
-          "no": "Kontaktalarmen deaktivert",
+          "no": "Kontaktalarmen ble deaktivert",
           "es": "La alarma de contacto se ha desactivado",
           "da": "Kontaktalarmen blev deaktiveret",
           "ru": "Контактный сигнал выключен",
@@ -115,7 +115,7 @@
           "es": "La alarma de contacto está !{{activada|desactivada}}",
           "da": "Kontaktalarmen er !{{tændt|slukket}}",
           "ru": "Контактный сигнал !{{вкл.|выкл.}}",
-          "pl": "Alarm otwarcia !{{włączony|wyłączony}}",
+          "pl": "Alarm otwarcia jest !{{włączony|wyłączony}}",
           "ko": "접촉 알람 !{{켬|끔}}"
         }
       }
