@@ -21,10 +21,10 @@
     "fr": "Vrai si de l'eau a été détectée",
     "it": "Vero quando è stata rilevata dell'acqua",
     "sv": "Sant när vatten upptäcks",
-    "no": "Sant når vann påvises",
-    "es": "Verdadero cuando se ha detectado agua",
+    "no": "Sant når vann har blitt påvist",
+    "es": "Activado cuando se detecta agua",
     "da": "Sandt, når vand er blevet opdaget",
-    "ru": "Верно при обнаружении протечки воды",
+    "ru": "Значение «истина» при обнаружении протечки воды",
     "pl": "Adekwatny, kiedy wykryta zostanie woda",
     "ko": "물이 감지되면 참"
   },
@@ -72,7 +72,7 @@
           "fr": "L'alarme eau s'est activée",
           "it": "L'allarme acqua è stato attivato",
           "sv": "Vattenalarmet aktiverat",
-          "no": "Vannalarmen aktivert",
+          "no": "Vannalarmen ble aktivert",
           "es": "La alarma de agua se ha activado",
           "da": "Vandalarmen blev aktiveret",
           "ru": "Сигнал аккумулятора включен",
@@ -89,7 +89,7 @@
           "fr": "L'alarme eau s'est désactivée",
           "it": "L'allarme acqua è stato disattivato",
           "sv": "Vattenalarmet inaktiverat",
-          "no": "Vannalarmen deaktivert",
+          "no": "Vannalarmen ble deaktivert",
           "es": "La alarma de agua se ha desactivado",
           "da": "Vandalarmen blev deaktiveret",
           "ru": "Сигнал аккумулятора выключен",
@@ -112,7 +112,7 @@
           "es": "La alarma de agua está !{{activada|desactivada}}",
           "da": "Vandalarmen er !{{tændt|slukket}}",
           "ru": "Сигнал протечки воды !{{вкл.|выкл.}}",
-          "pl": "Alarm zalania wodą !{{włączony|wyłączony}}",
+          "pl": "Alarm zalania wodą jest !{{włączony|wyłączony}}",
           "ko": "물 알람 !{{켬|끔}}"
         }
       }
