@@ -61,7 +61,7 @@
           "fr": "L'alarme mouvement s'est activée",
           "it": "L'allarme di movimento è stato attivato",
           "sv": "Rörelselarmet aktiverat",
-          "no": "Bevegelsesalarmen aktivert",
+          "no": "Bevegelsesalarmen ble aktivert",
           "es": "La alarma de movimiento se ha activado",
           "da": "Bevægelsesalarmen blev aktiveret",
           "ru": "Сигнал движения включен",
@@ -78,7 +78,7 @@
           "fr": "L'alarme mouvement s'est désactivée",
           "it": "L'allarme di movimento è stato disattivato",
           "sv": "Rörelselarmet inaktiverat",
-          "no": "Bevegelsesalarmen deaktivert",
+          "no": "Bevegelsesalarmen ble deaktivert",
           "es": "La alarma de movimiento se ha desactivado",
           "da": "Bevægelsesalarmen blev deaktiveret",
           "ru": "Сигнал движения выключен",
@@ -101,7 +101,7 @@
           "es": "La alarma de movimiento está !{{activada|desactivada}}",
           "da": "Bevægelsesalarmen er !{{tændt|slukket}}",
           "ru": "Сигнал движения !{{вкл.|выкл.}}",
-          "pl": "Czujnik ruchu !{{włączony|wyłączony}}",
+          "pl": "Czujnik ruchu jest !{{włączony|wyłączony}}",
           "ko": "모션 알람 !{{켬|끔}}"
         }
       }

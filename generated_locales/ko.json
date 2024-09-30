@@ -412,6 +412,8 @@
   "./assets/capability/capabilities/level_aqi.json@title": "공기질 수준",
   "./assets/capability/capabilities/level_aqi.json@desc": "수준으로 표현한 공기질 지수입니다.",
   "./assets/capability/capabilities/level_aqi.json@values.0.title": "좋음",
+  "./assets/capability/capabilities/level_aqi.json@values.1.title": "나쁨",
+  "./assets/capability/capabilities/level_aqi.json@values.2.title": "매우 나쁨",
   "./assets/capability/capabilities/level_aqi.json@values.3.title": "나쁨",
   "./assets/capability/capabilities/level_aqi.json@values.4.title": "매우 나쁨",
   "./assets/capability/capabilities/level_aqi.json@values.5.title": "극도로 나쁨",

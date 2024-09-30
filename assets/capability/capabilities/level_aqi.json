@@ -46,13 +46,33 @@
     {
       "id": "fair",
       "title": {
-        "en": "Fair"
+        "en": "Fair",
+        "da": "Dårligt",
+        "es": "Deficiente",
+        "fr": "Mauvais",
+        "it": "Scarso",
+        "ko": "나쁨",
+        "nl": "Slecht",
+        "no": "Dårlig",
+        "pl": "Niski",
+        "ru": "Плохой",
+        "sv": "Dålig"
       }
     },
     {
       "id": "moderate",
       "title": {
-        "en": "Moderate"
+        "en": "Moderate",
+        "da": "Meget dårligt",
+        "es": "Muy deficiente",
+        "fr": "Très mauvais",
+        "it": "Molto scarso",
+        "ko": "매우 나쁨",
+        "nl": "Zeer slecht",
+        "no": "Svært dårlig",
+        "pl": "Bardzo niski",
+        "ru": "Очень плохой",
+        "sv": "Mycket dålig"
       }
     },
     {
