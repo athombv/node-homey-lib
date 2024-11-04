@@ -11,7 +11,7 @@
     "da": "Status for vinduesdække",
     "ru": "Состояние оконных навесов",
     "pl": "Stan osłon okiennych",
-    "ko": "창문 덮개 상태"
+    "ko": "창문 가림 상태"
   },
   "type": "enum",
   "values": [
@@ -46,7 +46,7 @@
         "da": "Inaktiv",
         "ru": "В ожидании",
         "pl": "W spoczynku",
-        "ko": "유휴"
+        "ko": "대기"
       }
     },
     {
@@ -87,7 +87,7 @@
           "da": "Status blev ændret",
           "ru": "Состояние изменено",
           "pl": "Zmiana stanu",
-          "ko": "상태 변경됨"
+          "ko": "창문 가림 상태가 변경되면"
         },
         "args": [
           {
@@ -113,7 +113,7 @@
           "da": "Status er !{{|ikke}}",
           "ru": "Состояние !{{|не}}",
           "pl": "Stan to !{{|nie}}",
-          "ko": "상태가 다음!{{임|아님}}"
+          "ko": "창문 가림 상태가 다음!{{이면|이 아니면}}"
         },
         "args": [
           {
@@ -140,7 +140,7 @@
           "da": "Indstil status",
           "ru": "Установить состояние",
           "pl": "Ustaw stan",
-          "ko": "상태 설정"
+          "ko": "창문 가림 상태 설정"
         },
         "args": [
           {

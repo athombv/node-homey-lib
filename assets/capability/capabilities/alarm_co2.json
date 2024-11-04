@@ -11,7 +11,7 @@
     "da": "CO2-alarm",
     "ru": "Сигнал CO2",
     "pl": "Alarm o CO2",
-    "ko": "CO2 알람"
+    "ko": "이산화탄소(CO2) 알람"
   },
   "desc": {
     "en": "True when dangerous CO2 values have been detected",
@@ -39,7 +39,7 @@
     "da": "CO2-alarm aktiveret",
     "ru": "Сигнал CO2 включен",
     "pl": "Alarm o CO2 włączony",
-    "ko": "CO2 알람 켜짐"
+    "ko": "이산화탄소(CO2) 알람 켜짐"
   },
   "insightsTitleFalse": {
     "en": "CO2 alarm turned off",
@@ -53,7 +53,7 @@
     "da": "CO2-alarm deaktiveret",
     "ru": "Сигнал CO2 выключен",
     "pl": "Alarm o CO2 wyłączony",
-    "ko": "CO2 알람 꺼짐"
+    "ko": "이산화탄소(CO2) 알람 꺼짐"
   },
   "getable": true,
   "setable": false,
@@ -75,7 +75,7 @@
           "da": "CO2-alarmen blev aktiveret",
           "ru": "Сигнал CO2 включен",
           "pl": "Alarm o CO2 włączony",
-          "ko": "CO2 알람 켜짐"
+          "ko": "이산화탄소(CO2) 알람이 '예'이면"
         }
       },
       {
@@ -92,7 +92,7 @@
           "da": "CO2-alarmen blev deaktiveret",
           "ru": "Сигнал CO2 выключен",
           "pl": "Alarm o CO2 wyłączony",
-          "ko": "CO2 알람 꺼짐"
+          "ko": "이산화탄소(CO2) 알람이 '아니요'이면"
         }
       }
     ],
@@ -111,7 +111,7 @@
           "da": "CO2-alarmen er !{{tændt|slukket}}",
           "ru": "Сигнал CO2 !{{вкл.|выкл.}}",
           "pl": "Alarm CO2 jest !{{włączony|wyłączony}}",
-          "ko": "CO2 알람 !{{켬|끔}}"
+          "ko": "이산화탄소(CO2) 알람이 !{{'예'|'아니요'}}이면"
         }
       }
     ]

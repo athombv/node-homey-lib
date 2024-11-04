@@ -14,7 +14,7 @@
     "da": "Måltemperatur",
     "ru": "Целевая температура",
     "pl": "Cel temperatury",
-    "ko": "목표 온도"
+    "ko": "희망 온도"
   },
   "units": {
     "en": "°C",
@@ -44,7 +44,7 @@
           "da": "Måltemperaturen blev ændret",
           "ru": "Целевая температура изменена",
           "pl": "Zmiana celu temperatury",
-          "ko": "목표 온도 변경됨"
+          "ko": "희망 온도가 변경되면"
         },
         "tokens": [
           {
@@ -72,7 +72,7 @@
           "da": "Indstil temperaturen",
           "ru": "Установить температуру",
           "pl": "Ustaw temperaturę",
-          "ko": "온도 설정"
+          "ko": "희망 온도 설정"
         },
         "args": [
           {

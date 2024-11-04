@@ -12,7 +12,7 @@
     "da": "Energi",
     "ru": "Электроэнергия",
     "pl": "Energia",
-    "ko": "에너지"
+    "ko": "전력량"
   },
   "decimals": 2,
   "units": {
@@ -44,7 +44,7 @@
         "en": "This flag is used to determine that the device itself has no power measurement functionality, but that the driver calculates the energy use.",
         "ru": "Этот флаг используется для определения того, что само устройство не имеет функции измерения электроэнергии, но драйвер рассчитывает потребление энергии.",
         "pl": "Flaga oznacza, że samo urządzenie nie ma funkcji pomiaru mocy, ale sterownik oblicza zużycie energii.",
-        "ko": "이 플래그는 디바이스 자체에 전력 측정 기능이 없지만 드라이버가 에너지 사용량을 계산하는 경우에 사용됩니다.",
+        "ko": "이 플래그는 제품 자체에 전력 측정 기능이 없지만 드라이버가 전력량을 계산하는 경우에 사용돼요.",
         "no": "Dette flagget brukes til å anmerke at enheten i seg selv ikke har noen funksjon for effektmåling, men at sjåføren beregner energibruken.",
         "es": "Este aviso indica que el dispositivo no dispone de ninguna funcionalidad para medir la energía, sino que el controlador calcula el uso de energía."
       }
@@ -70,7 +70,7 @@
           "da": "Strømmåleren ændrede sig",
           "ru": "Измерения счетчика электроэнергии изменились",
           "pl": "Zmiana w liczniku mocy",
-          "ko": "전력 계량 변경됨"
+          "ko": "전력 계량이 변경되면"
         },
         "tokens": [
           {

@@ -12,7 +12,7 @@
     "da": "Kontaktalarm",
     "ru": "Контактный сигнал",
     "pl": "Alarm otwarcia",
-    "ko": "접촉 알람"
+    "ko": "열림 감지"
   },
   "desc": {
     "en": "Contact sensor, e.g. for windows (true/false)",
@@ -41,7 +41,7 @@
     "da": "Kontaktalarm blev aktiveret",
     "ru": "Контактный сигнал включен",
     "pl": "Alarm otwarcia włączony",
-    "ko": "접촉 알람 켜짐"
+    "ko": "열림"
   },
   "insightsTitleFalse": {
     "en": "Contact alarm turned off",
@@ -55,7 +55,7 @@
     "da": "Kontaktalarm blev deaktiveret",
     "ru": "Контактный сигнал выключен",
     "pl": "Alarm otwarcia wyłączony",
-    "ko": "접촉 알람 꺼짐"
+    "ko": "닫힘"
   },
   "getable": true,
   "setable": false,
@@ -80,7 +80,7 @@
           "da": "Kontaktalarmen blev aktiveret",
           "ru": "Контактный сигнал включен",
           "pl": "Alarm otwarcia włączony",
-          "ko": "접촉 알람 켜짐"
+          "ko": "열림 감지 열리면"
         }
       },
       {
@@ -97,7 +97,7 @@
           "da": "Kontaktalarmen blev deaktiveret",
           "ru": "Контактный сигнал выключен",
           "pl": "Alarm otwarcia wyłączony",
-          "ko": "접촉 알람 꺼짐"
+          "ko": "열림 감지 닫히면"
         }
       }
     ],
@@ -116,7 +116,7 @@
           "da": "Kontaktalarmen er !{{tændt|slukket}}",
           "ru": "Контактный сигнал !{{вкл.|выкл.}}",
           "pl": "Alarm otwarcia jest !{{włączony|wyłączony}}",
-          "ko": "접촉 알람 !{{켬|끔}}"
+          "ko": "열림 감지 !{{열리면|닫히면}}"
         }
       }
     ]

@@ -34,7 +34,7 @@
           "da": "Begyndte at spille",
           "ru": "Воспроизведение началось",
           "pl": "Odtwarzanie rozpoczęte",
-          "ko": "재생 시작됨"
+          "ko": "재생이 시작되면"
         }
       },
       {
@@ -51,7 +51,7 @@
           "da": "Stoppede med at spille",
           "ru": "Воспроизведение приостановлено",
           "pl": "Odtwarzanie zatrzymane",
-          "ko": "재생 중지됨"
+          "ko": "재생이 중지되면"
         }
       }
     ],
@@ -70,7 +70,7 @@
           "da": "Spiller !{{|ikke}}",
           "ru": "!{{|не}} воспроизводится",
           "pl": "!{{odtwarza|nie odtwarza}}",
-          "ko": "이(가) 재생 중!{{임| 아님}}"
+          "ko": "이(가) 재생 중!{{이면|이 아니면}}"
         }
       }
     ],
@@ -125,7 +125,7 @@
           "da": "Skift mellem Afspil/Pause",
           "ru": "Переключатель Воспроизвести/Пауза",
           "pl": "Przełącz na Odtwórz/Pauza",
-          "ko": "재생/일시중지 토글"
+          "ko": "재생/일시중지 상태 전환하기"
         }
       }
     ]

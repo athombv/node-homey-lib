@@ -38,7 +38,7 @@
     "da": "Hvad er tilkoblet?",
     "ru": "Что подключено?",
     "pl": "Co jest połączone?",
-    "ko": "어떤 것이 연결되어 있습니까?"
+    "ko": "어떤 것이 연결되어 있나요?"
   },
   "allowedVirtual": [
     "garagedoor",
