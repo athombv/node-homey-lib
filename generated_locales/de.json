@@ -221,7 +221,7 @@
   "./assets/capability/capabilities/measure_pm25.json@$flow.triggers.0.title": "Der PM2.5-Wert hat sich geändert",
   "./assets/capability/capabilities/measure_power.json@title": "Leistung",
   "./assets/capability/capabilities/measure_power.json@desc": "Leistung in Watt (W)",
-  "./assets/capability/capabilities/measure_power.json@$flow.triggers.0.title": "Der Verbrauch hat sich gändert",
+  "./assets/capability/capabilities/measure_power.json@$flow.triggers.0.title": "Der Verbrauch hat sich geändert",
   "./assets/capability/capabilities/measure_pressure.json@title": "Druck",
   "./assets/capability/capabilities/measure_pressure.json@desc": "Druck in Millibar (mbar)",
   "./assets/capability/capabilities/measure_pressure.json@$flow.triggers.0.title": "Der Druck hat sich geändert",
