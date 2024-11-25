@@ -7,21 +7,21 @@ This library contains shared code between Homey, Homey Apps, Athom CLI, Athom De
 
 This library can, among other things:
 
-* Validate a Homey App
-* Validate a Capability
-* Validate a Signal
-* Return supported device classes
-* Return supported device capabilities
-* Return supported media codecs
-* Return supported app permissions
-* Return supported app store categories
-
+- Validate a Homey App
+- Validate a Capability
+- Validate a Signal
+- Return supported device classes
+- Return supported device capabilities
+- Return supported media codecs
+- Return supported app permissions
+- Return supported app store categories
 
 See `/examples/` for how-to usage.
 
 ## Translations
 
 This library contains translations in the following files:
+
 - `./assets/app/permissions.json`
 - `./assets/capability/capabilities/<capability_id>.json`
 - `./assets/device/classes/<device_class_id>.json`
