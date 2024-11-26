@@ -1104,6 +1104,8 @@
   "./assets/device/classes/scooter.json@description": "Use this device class for scooters.",
   "./assets/device/classes/sensor.json@title": "Sensor",
   "./assets/device/classes/sensor.json@description": "Use this device class for sensors, e.g. a contact or motion sensor.",
+  "./assets/device/classes/service.json@title": "Service",
+  "./assets/device/classes/service.json@description": "Use this device class for devices that are not really physical devices, but (cloud) services.",
   "./assets/device/classes/settopbox.json@title": "Set-top Box",
   "./assets/device/classes/settopbox.json@description": "Use this device class for set-top boxes.",
   "./assets/device/classes/shutterblinds.json@title": "Shutter Blinds",

@@ -1049,6 +1049,7 @@
   "./assets/device/classes/scooter.json@title": "Scooter",
   "./assets/device/classes/scooter.json@description": "Gebruik deze apparaatklasse voor scooters.",
   "./assets/device/classes/sensor.json@title": "Sensor",
+  "./assets/device/classes/service.json@title": "Service",
   "./assets/device/classes/settopbox.json@title": "Settopbox",
   "./assets/device/classes/settopbox.json@description": "Gebruik deze apparaatklasse voor settopboxen.",
   "./assets/device/classes/shutterblinds.json@title": "Jaloezieën",
