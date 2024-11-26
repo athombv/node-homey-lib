@@ -204,6 +204,14 @@
                         "type": "object"
                       }
                     ]
+                  },
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "variable",
+                      "flow",
+                      "user"
+                    ]
                   }
                 }
               },
