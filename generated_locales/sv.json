@@ -1063,6 +1063,8 @@
   "./assets/device/classes/scooter.json@description": "Använd den här enhetsklassen för skotrar.",
   "./assets/device/classes/sensor.json@title": "Sensor",
   "./assets/device/classes/sensor.json@description": "Använd den här enhetsklassen för sensorer, t.ex. en kontakt eller rörelsesensor.",
+  "./assets/device/classes/service.json@title": "Service",
+  "./assets/device/classes/service.json@description": "Använd den här enhetsklassen för enheter som inte är fysiska enheter, utan (moln)tjänster.",
   "./assets/device/classes/settopbox.json@title": "Digitalbox",
   "./assets/device/classes/shutterblinds.json@title": "Persienner",
   "./assets/device/classes/shutterblinds.json@description": "Använd den här enhetsklassen för persienner.",
