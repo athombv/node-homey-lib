@@ -1,0 +1,29 @@
+{
+  "title": {
+    "en": "Service",
+    "nl": "Service",
+    "de": "Service",
+    "fr": "Service",
+    "it": "Servizio",
+    "sv": "Service",
+    "no": "Tjeneste",
+    "es": "Servicio",
+    "da": "Service",
+    "ru": "Сервис",
+    "pl": "Usługa",
+    "ko": "서비스"
+  },
+  "description": {
+    "en": "Use this device class for devices that are not really physical devices, but (cloud) services.",
+    "de": "Verwenden Sie diese Geräteklasse für Geräte, die keine physischen Geräte sind, sondern (Cloud-)Dienste.",
+    "fr": "Utilisez cette classe d'appareils pour les appareils qui ne sont pas vraiment physiques, mais des services (cloud).",
+    "it": "Utilizza questa classe di dispositivi per dispositivi che non sono realmente dispositivi fisici, ma servizi (cloud).",
+    "sv": "Använd den här enhetsklassen för enheter som inte är fysiska enheter, utan (moln)tjänster.",
+    "no": "Bruk denne enhetsklassen for enheter som ikke er fysiske enheter, men (sky)tjenester.",
+    "es": "Utiliza esta clase de dispositivo para los dispositivos que no son realmente dispositivos físicos, sino servicios (en la nube).",
+    "da": "Brug denne enhedsklasse til enheder, der ikke er fysiske enheder, men (cloud)tjenester.",
+    "ru": "Используйте этот класс устройств для устройств, которые не являются физическими устройствами, а (облачными) сервисами.",
+    "pl": "Użyj tej klasy urządzeń dla urządzeń, które nie są fizycznymi urządzeniami, lecz usługami (w chmurze).",
+    "ko": "이 디바이스 클래스는 실제 물리적 디바이스가 아닌 (클라우드) 서비스에 사용합니다."
+  }
+}
