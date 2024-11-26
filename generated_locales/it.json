@@ -1066,6 +1066,8 @@
   "./assets/device/classes/scooter.json@description": "Utilizza questa classe di dispositivi per gli scooter.",
   "./assets/device/classes/sensor.json@title": "Sensore",
   "./assets/device/classes/sensor.json@description": "Utilizza questa classe di dispositivi per i sensori, ad es. un sensore di contatto o di movimento.",
+  "./assets/device/classes/service.json@title": "Servizio",
+  "./assets/device/classes/service.json@description": "Utilizza questa classe di dispositivi per dispositivi che non sono realmente dispositivi fisici, ma servizi (cloud).",
   "./assets/device/classes/settopbox.json@title": "Set-top box",
   "./assets/device/classes/settopbox.json@description": "Utilizza questa classe di dispositivi per i set-top box.",
   "./assets/device/classes/shutterblinds.json@title": "Tapparelle",

@@ -1104,6 +1104,8 @@
   "./assets/device/classes/scooter.json@description": "이 디바이스 클래스는 스쿠터에 사용합니다.",
   "./assets/device/classes/sensor.json@title": "센서",
   "./assets/device/classes/sensor.json@description": "이 디바이스 클래스는 접촉 또는 모션 센서 등 센서류에 사용합니다.",
+  "./assets/device/classes/service.json@title": "서비스",
+  "./assets/device/classes/service.json@description": "이 디바이스 클래스는 실제 물리적 디바이스가 아닌 (클라우드) 서비스에 사용합니다.",
   "./assets/device/classes/settopbox.json@title": "셋톱박스",
   "./assets/device/classes/settopbox.json@description": "이 디바이스 클래스는 셋톱박스에 사용합니다.",
   "./assets/device/classes/shutterblinds.json@title": "셔터 블라인드",

@@ -1076,6 +1076,8 @@
   "./assets/device/classes/scooter.json@description": "Tej klasy urządzeń należy używać w przypadku skuterów.",
   "./assets/device/classes/sensor.json@title": "Czujnik",
   "./assets/device/classes/sensor.json@description": "Użyj tej klasy urządzeń dla czujników, np. czujnika otwarcia lub ruchu.",
+  "./assets/device/classes/service.json@title": "Usługa",
+  "./assets/device/classes/service.json@description": "Użyj tej klasy urządzeń dla urządzeń, które nie są fizycznymi urządzeniami, lecz usługami (w chmurze).",
   "./assets/device/classes/settopbox.json@title": "Dekoder",
   "./assets/device/classes/settopbox.json@description": "Tej klasy urządzeń należy używać w przypadku dekoderów.",
   "./assets/device/classes/shutterblinds.json@title": "Żaluzje",

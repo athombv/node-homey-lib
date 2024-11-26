@@ -1066,6 +1066,8 @@
   "./assets/device/classes/scooter.json@description": "Brug denne enhedsklasse til scootere.",
   "./assets/device/classes/sensor.json@title": "Sensor",
   "./assets/device/classes/sensor.json@description": "Brug denne enhedsklasse til sensorer, f-eks en kontakt- eller bevægelsessensor.",
+  "./assets/device/classes/service.json@title": "Service",
+  "./assets/device/classes/service.json@description": "Brug denne enhedsklasse til enheder, der ikke er fysiske enheder, men (cloud)tjenester.",
   "./assets/device/classes/settopbox.json@title": "Tv-modtagerboks",
   "./assets/device/classes/settopbox.json@description": "Brug denne enhedsklasse til tv-modtagerbokse.",
   "./assets/device/classes/shutterblinds.json@title": "Persienner",

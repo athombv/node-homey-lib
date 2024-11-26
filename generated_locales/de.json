@@ -470,6 +470,8 @@
   "./assets/device/classes/scooter.json@description": "Verwenden Sie diese Geräteklasse für Motorroller.",
   "./assets/device/classes/sensor.json@title": "Sensor",
   "./assets/device/classes/sensor.json@description": "Nutze diese Geräteklasse für Sensoren, z. B. ein Kontakt- oder Bewegungssensor.",
+  "./assets/device/classes/service.json@title": "Service",
+  "./assets/device/classes/service.json@description": "Verwenden Sie diese Geräteklasse für Geräte, die keine physischen Geräte sind, sondern (Cloud-)Dienste.",
   "./assets/device/classes/settopbox.json@title": "Set-Top-Box",
   "./assets/device/classes/settopbox.json@description": "Verwenden Sie diese Geräteklasse für Set-Top-Boxen.",
   "./assets/device/classes/shutterblinds.json@title": "Jalousien",

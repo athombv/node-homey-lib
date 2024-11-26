@@ -1104,6 +1104,8 @@
   "./assets/device/classes/scooter.json@description": "Используйте этот класс устройств для самокатов.",
   "./assets/device/classes/sensor.json@title": "Датчик",
   "./assets/device/classes/sensor.json@description": "Используйте этот класс устройства для датчиков, например датчиков контакта или движения.",
+  "./assets/device/classes/service.json@title": "Сервис",
+  "./assets/device/classes/service.json@description": "Используйте этот класс устройств для устройств, которые не являются физическими устройствами, а (облачными) сервисами.",
   "./assets/device/classes/settopbox.json@title": "Ресивер",
   "./assets/device/classes/settopbox.json@description": "Используйте этот класс устройств для ресиверов.",
   "./assets/device/classes/shutterblinds.json@title": "Жалюзи",
