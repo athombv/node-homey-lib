@@ -92,7 +92,7 @@
       "da": "Send, og modtag på 433 MHz-frekvensen",
       "ru": "Отправка и получение сигналов на частоте 433 МГц",
       "pl": "Wysyłaj i odbieraj sygnały o częstotliwości 433 MHz",
-      "ko": "433 MHz 주파수 송수신"
+      "ko": "433MHz 주파수 송수신"
     }
   },
   "homey:wireless:868": {
@@ -108,7 +108,7 @@
       "da": "Send, og modtag på 868 MHz-frekvensen",
       "ru": "Отправка и получение сигналов на частоте 868 МГц",
       "pl": "Wysyłaj i odbieraj sygnały o częstotliwości 868 MHz",
-      "ko": "868 MHz 주파수 송수신"
+      "ko": "868MHz 주파수 송수신"
     }
   },
   "homey:wireless:ir": {
@@ -140,7 +140,7 @@
       "da": "Send, og modtag på Z-Wave for specifikke enheder",
       "ru": "Отправлять и получать сигналы Z-Wave для определенных устройств",
       "pl": "Wysyłaj i odbieraj Z-Wave dla określonych urządzeń",
-      "ko": "특정 디바이스를 위해 Z-Wave 송수신"
+      "ko": "특정 제품용 Z-Wave 송수신"
     }
   },
   "homey:wireless:zigbee": {
@@ -156,7 +156,7 @@
       "da": "Send, og modtag på Zigbee for specifikke enheder",
       "ru": "Отправлять и получать сигналы Zigbee для определенных устройств",
       "pl": "Wysyłaj i odbieraj Zigbee dla określonych urządzeń",
-      "ko": "특정 디바이스를 위해 Zigbee 송수신"
+      "ko": "특정 제품용 Zigbee 송수신"
     }
   },
   "homey:wireless:nfc": {
@@ -188,7 +188,7 @@
       "da": "Få fuld adgang til Homey for at kontrollere alt på brugerens vegne",
       "ru": "Получите полный доступ к Homey, чтобы контролировать все от имени пользователя",
       "pl": "Zdobądź pełny dostęp do Homey, aby sterować wszystkim w imieniu użytkownika",
-      "ko": "사용자를 대신해 모든 것을 제어할 수 있도록 Homey에 대한 온전한 액세스 권한 얻기"
+      "ko": "사용자를 대신해 모든 것을 제어할 수 있도록 Homey에 대한 전체 액세스 권한 얻기"
     }
   },
   "homey:wireless:ble": {
@@ -204,7 +204,7 @@
       "da": "Kommuniker med Bluetooth low energy-enheder",
       "ru": "Связываться с устройствами Bluetooth с низким энергопотреблением",
       "pl": "Porozumiewaj się z urządzeniami Bluetooth Low Energy",
-      "ko": "블루투스 LE 디바이스와 통신"
+      "ko": "블루투스 LE 제품과 통신"
     }
   }
 }

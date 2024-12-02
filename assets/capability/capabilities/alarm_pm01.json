@@ -12,7 +12,7 @@
     "da": "PM0.1-alarm",
     "ru": "Сигнал ТЧ0.1",
     "pl": "Alarm PM0.1",
-    "ko": "PM0.1 알람"
+    "ko": "나노미세먼지(PM0.1) 알람"
   },
   "desc": {
     "en": "True when PM0.1 values exceeds threshold",
@@ -41,7 +41,7 @@
     "da": "PM0.1-alarm blev aktiveret",
     "ru": "Сигнал ТЧ0.1 включен",
     "pl": "Alarm PM0.1 włączony",
-    "ko": "PM0.1 알람 켜짐"
+    "ko": "나노미세먼지(PM0.1) 알람 켜짐"
   },
   "insightsTitleFalse": {
     "en": "PM0.1 alarm turned off",
@@ -55,7 +55,7 @@
     "da": "PM0.1-alarm blev deaktiveret",
     "ru": "Сигнал ТЧ0.1 выключен",
     "pl": "Alarm PM0.1 wyłączony",
-    "ko": "PM0.1 알람 꺼짐"
+    "ko": "나노미세먼지(PM0.1) 알람 꺼짐"
   },
   "getable": true,
   "setable": false,
@@ -77,7 +77,7 @@
           "da": "PM0.1-alarmen blev aktiveret",
           "ru": "Сигнал ТЧ0.1 включен",
           "pl": "Włączył się alarm PM0.1",
-          "ko": "PM0.1 알람이 켜짐"
+          "ko": "나노미세먼지(PM0.1) 알람이 '예'이면"
         }
       },
       {
@@ -94,7 +94,7 @@
           "da": "PM0.1-alarmen blev deaktiveret",
           "ru": "Сигнал ТЧ0.1 выключен",
           "pl": "Wyłączył się alarm PM0.1",
-          "ko": "PM0.1 알람이 꺼짐"
+          "ko": "나노미세먼지(PM0.1) 알람이 '아니요'이면"
         }
       }
     ],
@@ -113,7 +113,7 @@
           "da": "PM0.1-alarmen er !{{tændt|slukket}}",
           "ru": "Сигнал ТЧ0.1 !{{включен|выключен}}",
           "pl": "Alarm PM0.1 jest !{{włączony|wyłączony}}",
-          "ko": "PM0.1 알람이 !{{켜짐|꺼짐}}"
+          "ko": "나노미세먼지(PM0.1) 알람이 !{{'예'|'아니요'}}이면"
         }
       }
     ]

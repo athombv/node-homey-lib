@@ -12,7 +12,7 @@
     "da": "Tryk",
     "ru": "Давление",
     "pl": "Ciśnienie",
-    "ko": "압력"
+    "ko": "기압"
   },
   "units": {
     "en": "mbar",
@@ -56,7 +56,7 @@
           "da": "Trykkey ændrede sig",
           "ru": "Давление изменилось",
           "pl": "Zmiana ciśnienia",
-          "ko": "압력 변경됨"
+          "ko": "기압이 변경되면"
         },
         "tokens": [
           {

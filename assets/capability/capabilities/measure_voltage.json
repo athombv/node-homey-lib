@@ -55,7 +55,7 @@
           "da": "Den elektriske spænding ændrede sig",
           "ru": "Вольтаж изменен",
           "pl": "Zmiana poziomu napięcia",
-          "ko": "전압 변경됨"
+          "ko": "전압이 변경되면"
         },
         "tokens": [
           {

@@ -11,7 +11,7 @@
     "da": "Vinduesdække opad",
     "ru": "Приподнять оконные навесы",
     "pl": "Rozchylenie osłon okiennych",
-    "ko": "창문 덮개 위로 틸트"
+    "ko": "위로 틸트"
   },
   "type": "boolean",
   "getable": false,
@@ -25,7 +25,7 @@
           "en": "Tilt up",
           "da": "Vip op",
           "it": "Inclina verso l'alto",
-          "ko": "위로 틸팅",
+          "ko": "창문 가림 기울기 위로 틸팅",
           "nl": "Omhoog kantelen",
           "pl": "Odchylenie w górę",
           "ru": "Наклон вверх",

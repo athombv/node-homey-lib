@@ -11,7 +11,7 @@
     "da": "Vinduesdække nedad",
     "ru": "Наклонить вниз оконные навесы",
     "pl": "Zasunięcie osłon okiennych",
-    "ko": "창문 덮개 아래로 틸트"
+    "ko": "아래로 틸트"
   },
   "type": "boolean",
   "getable": false,
@@ -25,7 +25,7 @@
           "en": "Tilt down",
           "da": "Vip nedad",
           "it": "Inclina verso il basso",
-          "ko": "아래로 틸팅",
+          "ko": "창문 가림 기울기 아래로 틸팅",
           "nl": "Omlaag kantelen",
           "pl": "Odchylenie w dół",
           "ru": "Наклон вниз",
