@@ -11,7 +11,7 @@
     "da": "CO",
     "ru": "CO",
     "pl": "CO",
-    "ko": "CO"
+    "ko": "일산화탄소(CO)"
   },
   "units": {
     "en": "ppm",
@@ -56,7 +56,7 @@
           "da": "CO-niveauet har ændret sig",
           "ru": "CO-уровень изменен",
           "pl": "Zmienił się poziom CO",
-          "ko": "CO 수준 변경됨"
+          "ko": "일산화탄소(CO) 수준이 변경되면"
         },
         "tokens": [
           {

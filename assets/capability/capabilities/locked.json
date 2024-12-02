@@ -12,7 +12,7 @@
     "da": "Låst",
     "ru": "Закрыто",
     "pl": "Zablokowane",
-    "ko": "잠김"
+    "ko": "잠금 상태"
   },
   "desc": {
     "en": "True when the lock is locked",
@@ -55,7 +55,7 @@
     "da": "Ulåst",
     "ru": "Открыто",
     "pl": "Odblokowane",
-    "ko": "잠금 해제됨"
+    "ko": "열림"
   },
   "getable": true,
   "setable": true,
@@ -76,7 +76,7 @@
           "da": "Låst",
           "ru": "Закрыто",
           "pl": "Zablokowane",
-          "ko": "잠김"
+          "ko": "잠김이면"
         }
       },
       {
@@ -93,7 +93,7 @@
           "da": "Låst op",
           "ru": "Открыто",
           "pl": "Odblokowane",
-          "ko": "잠금 해제됨"
+          "ko": "열림이면"
         }
       }
     ],
@@ -112,7 +112,7 @@
           "da": "En lås er blevet !{{låst|låst op}}",
           "ru": "Замок !{{закрыт|открыт}}",
           "pl": "Zamek jest !{{zablokowany|odblokowany}}",
-          "ko": "록 !{{잠김|잠금 해제됨}}"
+          "ko": "!{{잠김|열림}}이면"
         }
       }
     ],

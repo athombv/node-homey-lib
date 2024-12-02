@@ -12,7 +12,7 @@
     "da": "Gasmåler",
     "ru": "Счетчик газа",
     "pl": "Licznik gazowy",
-    "ko": "가스 계량"
+    "ko": "가스량"
   },
   "min": 0,
   "decimals": 2,
@@ -57,7 +57,7 @@
           "da": "Gasmåleren ændrede sig",
           "ru": "Измерения счетчика газа изменились",
           "pl": "Zmiana w liczniku gazowym",
-          "ko": "가스 계량 변경됨"
+          "ko": "가스량이 변경되면"
         },
         "tokens": [
           {

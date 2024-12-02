@@ -11,7 +11,7 @@
     "da": "Ventilator",
     "ru": "Вентилятор",
     "pl": "Wentylator",
-    "ko": "선풍기"
+    "ko": "팬"
   },
   "description": {
     "en": "Use this device class for fans that cool your home.",

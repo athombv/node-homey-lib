@@ -12,7 +12,7 @@
     "da": "PM10-alarm",
     "ru": "Сигнал ТЧ10",
     "pl": "Alarm PM10",
-    "ko": "PM10 알람"
+    "ko": "미세먼지(PM10) 알람"
   },
   "desc": {
     "en": "True when PM10 values exceeds threshold",
@@ -41,7 +41,7 @@
     "da": "PM10-alarm blev aktiveret",
     "ru": "Сигнал ТЧ10 включен",
     "pl": "Alarm PM10 włączony",
-    "ko": "PM10 알람 켜짐"
+    "ko": "미세먼지(PM10) 알람 켜짐"
   },
   "insightsTitleFalse": {
     "en": "PM10 alarm turned off",
@@ -55,7 +55,7 @@
     "da": "PM10-alarm blev deaktiveret",
     "ru": "Сигнал ТЧ10 выключен",
     "pl": "Alarm PM10 wyłączony",
-    "ko": "PM10 알람 꺼짐"
+    "ko": "미세먼지(PM10) 알람 꺼짐"
   },
   "getable": true,
   "setable": false,
@@ -77,7 +77,7 @@
           "da": "PM10-alarmen blev aktiveret",
           "ru": "Сигнал ТЧ10 включен",
           "pl": "Włączył się alarm PM10",
-          "ko": "PM10 알람이 켜짐"
+          "ko": "미세먼지(PM10) 알람이 '예'이면"
         }
       },
       {
@@ -94,7 +94,7 @@
           "da": "PM10-alarmen blev deaktiveret",
           "ru": "Сигнал ТЧ10 выключен",
           "pl": "Wyłączył się alarm PM10",
-          "ko": "PM10 알람이 꺼짐"
+          "ko": "미세먼지(PM10) 알람이 '아니요'이면"
         }
       }
     ],
@@ -113,7 +113,7 @@
           "da": "PM10-alarmen er !{{tændt|slukket}}",
           "ru": "Сигнал ТЧ10 !{{включен|выключен}}",
           "pl": "Alarm PM10 jest !{{włączony|wyłączony}}",
-          "ko": "PM10 알람이 !{{켜짐|꺼짐}}"
+          "ko": "미세먼지(PM10) 알람이 !{{'예'|'아니요'}}이면"
         }
       }
     ]

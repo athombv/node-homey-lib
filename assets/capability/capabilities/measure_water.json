@@ -12,7 +12,7 @@
     "da": "Vandstrøm",
     "ru": "Поток воды",
     "pl": "Poziom przepływu wody",
-    "ko": "수량"
+    "ko": "유량"
   },
   "units": {
     "en": "L/min",
@@ -56,7 +56,7 @@
           "da": "Vandstrømmen har ændret sig",
           "ru": "Поток воды изменился",
           "pl": "Zmienił się przepływ wody",
-          "ko": "수량 변경됨"
+          "ko": "유량이 변경되면"
         },
         "tokens": [
           {

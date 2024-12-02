@@ -58,7 +58,7 @@
           "da": "Batteriniveauet har ændret sig",
           "ru": "Уровень аккумулятора изменен",
           "pl": "Zmienił się poziom baterii",
-          "ko": "배터리 수준 변경됨"
+          "ko": "배터리 수준이 변경되면"
         },
         "tokens": [
           {

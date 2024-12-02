@@ -11,7 +11,7 @@
     "da": "Dørklokke",
     "ru": "Дверной звонок",
     "pl": "Dzwonek do drzwi",
-    "ko": "초인종"
+    "ko": "도어벨"
   },
   "description": {
     "en": "Use this device class for doorbells, usually together with the `button` capability.",
