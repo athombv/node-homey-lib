@@ -12,7 +12,7 @@
     "da": "Natalarm",
     "ru": "Ночной сигнал",
     "pl": "Alarm nocny",
-    "ko": "밤 알람"
+    "ko": "야간 알람"
   },
   "desc": {
     "en": "True when it is night",
@@ -41,7 +41,7 @@
     "da": "Natalarm blev aktiveret",
     "ru": "Ночной сигнал включен",
     "pl": "Alarm nocny włączony",
-    "ko": "밤 알람 켜짐"
+    "ko": "야간 알람 켜짐"
   },
   "insightsTitleFalse": {
     "en": "Night alarm turned off",
@@ -55,7 +55,7 @@
     "da": "Natalarm blev deaktiveret",
     "ru": "Ночной сигнал выключен",
     "pl": "Alarm nocny wyłączony",
-    "ko": "밤 알람 꺼짐"
+    "ko": "야간 알람 꺼짐"
   },
   "getable": true,
   "setable": false,
@@ -76,7 +76,7 @@
           "da": "Natalarmen blev aktiveret",
           "ru": "Ночной сигнал включен",
           "pl": "Alarm nocny włączony",
-          "ko": "밤 알람 켜짐"
+          "ko": "야간이면"
         }
       },
       {
@@ -93,7 +93,7 @@
           "da": "Natalarmen blev deaktiveret",
           "ru": "Ночной сигнал выключен",
           "pl": "Alarm nocny wyłączony",
-          "ko": "밤 알람 꺼짐"
+          "ko": "야간이 아니면"
         }
       }
     ],
@@ -112,7 +112,7 @@
           "da": "Natalarmen er !{{tændt|slukket}}",
           "ru": "Ночной сигнал !{{вкл.|выкл.}}",
           "pl": "Alarm nocny jest !{{włączony|wyłączony}}",
-          "ko": "밤 알람 !{{켬|끔}}"
+          "ko": "야간!{{이면|이 아니면}}"
         }
       }
     ]

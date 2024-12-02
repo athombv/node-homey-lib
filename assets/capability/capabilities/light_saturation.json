@@ -12,7 +12,7 @@
     "da": "Farvemætning",
     "ru": "Насыщенность цвета",
     "pl": "Nasycenie barwy",
-    "ko": "색상 채도"
+    "ko": "채도"
   },
   "min": 0,
   "chartType": "stepLine",

@@ -12,7 +12,7 @@
     "da": "Lysniveau",
     "ru": "Уровень яркости",
     "pl": "Poziom przygaszenia",
-    "ko": "디밍 수준"
+    "ko": "밝기"
   },
   "chartType": "stepLine",
   "min": 0,
@@ -43,7 +43,7 @@
           "da": "Lysniveau ændret",
           "ru": "Уровень яркости изменен",
           "pl": "Zmienił się poziom przygaszenia",
-          "ko": "디밍 수준 변경됨"
+          "ko": "밝기가 변경되면"
         },
         "tokens": [
           {
@@ -61,7 +61,7 @@
               "da": "Niveau",
               "ru": "Уровень",
               "pl": "Poziom",
-              "ko": "수준"
+              "ko": "밝기"
             },
             "example": 0.5
           }
@@ -84,7 +84,7 @@
           "da": "Juster til",
           "ru": "Установить яркость",
           "pl": "Przygaś do",
-          "ko": "다음 디밍 수준으로"
+          "ko": "다음 밝기로 조절"
         },
         "args": [
           {
@@ -113,14 +113,14 @@
           "da": "Indstil relativt lysniveau",
           "ru": "Установить относительный уровень яркости",
           "pl": "Ustaw względny poziom przygaszenia",
-          "ko": "상대적 디밍 수준 설정"
+          "ko": "상대 밝기 설정"
         },
         "hint": {
           "en": "Dim or brighten with respect to the device's current dim-level.",
           "nl": "Verhoog of verlaag de helderheid ten opzichte van het huidige dim-niveau van het apparaat.",
           "ru": "Уменьшить или увеличить яркость относительно текущего уровня яркости устройства.",
           "pl": "Przygaś lub rozjaśnij względem obecnego poziomu przygaszenia urządzenia.",
-          "ko": "디바이스의 현재 디밍 수준에 따라 어둡게 또는 밝게 설정합니다.",
+          "ko": "제품의 현재 디밍 수준에 따라 어둡게 또는 밝게 설정돼요.",
           "no": "Demp eller gjør lysere i forhold til enhetens gjeldende dimmingsnivå."
         },
         "args": [

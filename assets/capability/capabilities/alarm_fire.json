@@ -12,7 +12,7 @@
     "da": "Brandalarm",
     "ru": "Пожарный сигнал",
     "pl": "Alarm przeciwpożarowy",
-    "ko": "화재 알람"
+    "ko": "화재 감지"
   },
   "desc": {
     "en": "True when fire has been detected",
@@ -41,7 +41,7 @@
     "da": "Brandalarm blev aktiveret",
     "ru": "Пожарный сигнал включен",
     "pl": "Adekwatny, kiedy wykryty zostanie pożar",
-    "ko": "화재 알람 켜짐"
+    "ko": "화재 감지됨"
   },
   "insightsTitleFalse": {
     "en": "Fire alarm turned off",
@@ -55,7 +55,7 @@
     "da": "Brandalarm blev deaktiveret",
     "ru": "Пожарный сигнал выключен",
     "pl": "Alarm przeciwpożarowy wyłączony",
-    "ko": "화재 알람 꺼짐"
+    "ko": "정상"
   },
   "getable": true,
   "setable": false,
@@ -77,7 +77,7 @@
           "da": "Brandalarmen blev aktiveret",
           "ru": "Пожарный сигнал включен",
           "pl": "Alarm przeciwpożarowy włączony",
-          "ko": "화재 알람 켜짐"
+          "ko": "화재가 감지되면"
         }
       },
       {
@@ -94,7 +94,7 @@
           "da": "Brandalarmen blev deaktiveret",
           "ru": "Пожарный сигнал выключен",
           "pl": "Alarm przeciwpożarowy wyłączony",
-          "ko": "화재 알람 꺼짐"
+          "ko": "화재 감지가 정상 상태이면"
         }
       }
     ],
@@ -113,7 +113,7 @@
           "da": "Brandalarmen er !{{tændt|slukket}}",
           "ru": "Пожарный сигнал !{{вкл.|выкл.}}",
           "pl": "Alarm przeciwpożarowy jest !{{włączony|wyłączony}}",
-          "ko": "화재 알람 !{{켬|끔}}"
+          "ko": "!{{화재가 감지되면|화재 감지가 정상 상태이면}}"
         }
       }
     ]

@@ -57,7 +57,7 @@
           "da": "Lydstyrke ændrede sig",
           "ru": "Объем изменился",
           "pl": "Zmienił się poziom głośności",
-          "ko": "볼륨 변경됨"
+          "ko": "볼륨이 변경되면"
         },
         "tokens": [
           {
@@ -75,7 +75,7 @@
               "da": "Lydstyrke",
               "ru": "Громкость",
               "pl": "Poziom głośności",
-              "ko": "볼륨"
+              "ko": "볼륨이 다음이면"
             },
             "example": 0.5
           }
@@ -130,7 +130,7 @@
           "en": "Change the volume with respect to the device's current volume.",
           "de": "Ändere die Lautstärke unter Berücksichtigung der aktuellen Lautstärke des Gerätes.",
           "nl": "Verhoog of verlaag het volume ten opzichte van het huidige volume van het apparaat.",
-          "ko": "디바이스의 현재 볼륨을 기준으로 볼륨을 변경합니다.",
+          "ko": "제품의 현재 볼륨을 기준으로 볼륨을 변경해요.",
           "no": "Endre volumet i forhold til enhetens gjeldende volum.",
           "ru": "Изменить громкость по отношению к текущей громкости устройства."
         },

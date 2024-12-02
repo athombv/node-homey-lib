@@ -12,7 +12,7 @@
     "da": "Lås-tilstand",
     "ru": "Режим замка",
     "pl": "Tryb zamknięcia",
-    "ko": "록 모드"
+    "ko": "잠금 모드"
   },
   "values": [
     {
@@ -63,7 +63,7 @@
         "da": "Låst indtil ulåst",
         "ru": "Закрыт, пока не будет открыт",
         "pl": "Zablokowane aż do odblokowania",
-        "ko": "잠금 해제할 떄까지 잠김"
+        "ko": "잠금 해제할 때까지 잠김"
       }
     }
   ],
@@ -86,7 +86,7 @@
           "da": "Lås-tilstand er blevet ændret",
           "ru": "Режим замка изменен",
           "pl": "Zmienił się tryb zamknięcia",
-          "ko": "록 모드 변경됨"
+          "ko": "잠금 모드가 변경되면"
         },
         "args": [
           {
@@ -112,7 +112,7 @@
           "da": "Lås-tilstand !{{er|er ikke}}",
           "ru": "Режим замка !{{|не}}",
           "pl": "Tryb zamknięcia !{{to|to nie}}",
-          "ko": "록 모드가 다음!{{임| 아님}}"
+          "ko": "잠금 모드가 다음!{{이면|이 아니면}}"
         },
         "args": [
           {
@@ -138,7 +138,7 @@
           "da": "Indstil tilstand",
           "ru": "Установить режим",
           "pl": "Ustaw tryb",
-          "ko": "모드 설정"
+          "ko": "잠금 모드 설정"
         },
         "args": [
           {
