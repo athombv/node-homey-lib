@@ -1070,7 +1070,7 @@
   "./assets/device/classes/sensor.json@title": "Sensor",
   "./assets/device/classes/sensor.json@description": "Utiliza esta clase de dispositivo para los sensores; p. ej., sensores de contacto  o movimiento.",
   "./assets/device/classes/service.json@title": "Servicio",
-  "./assets/device/classes/service.json@description": "Utiliza esta clase de dispositivo para los dispositivos que no son realmente dispositivos físicos, sino servicios (en la nube).",
+  "./assets/device/classes/service.json@description": "Utiliza esta clase para los dispositivos que no son físicos, sino servicios (en la nube).",
   "./assets/device/classes/settopbox.json@title": "Descodificador",
   "./assets/device/classes/settopbox.json@description": "Utiliza esta clase de dispositivo para decodificadores de televisión.",
   "./assets/device/classes/shutterblinds.json@title": "Persianas",
