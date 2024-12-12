@@ -12,7 +12,7 @@
     "da": "Strøm",
     "ru": "Текущее значение",
     "pl": "Prąd",
-    "ko": "현재"
+    "ko": "전류"
   },
   "units": {
     "en": "A",
@@ -56,7 +56,7 @@
           "da": "Den elektriske strøm ændrede sig",
           "ru": "Электрический ток изменился",
           "pl": "Zmiana prądu elektrycznego",
-          "ko": "전류 변경됨"
+          "ko": "전류가 변경되면"
         },
         "tokens": [
           {

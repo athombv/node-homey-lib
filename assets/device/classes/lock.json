@@ -11,7 +11,7 @@
     "da": "Lås",
     "ru": "Замок",
     "pl": "Zamek",
-    "ko": "록"
+    "ko": "잠금 장치"
   },
   "description": {
     "en": "Use this device class for lock devices, usually together with the `locked` and `lock_mode` capabilities.",

@@ -12,7 +12,7 @@
     "da": "Tændt",
     "ru": "Включено",
     "pl": "Włączone",
-    "ko": "켜짐"
+    "ko": "전원"
   },
   "getable": true,
   "setable": true,
@@ -29,7 +29,7 @@
     "da": "Tændt",
     "ru": "Включено",
     "pl": "Włączone",
-    "ko": "켜짐"
+    "ko": "전원 켜짐"
   },
   "insightsTitleFalse": {
     "en": "Turned off",
@@ -43,7 +43,7 @@
     "da": "Slukket",
     "ru": "Выключено",
     "pl": "Wyłączone",
-    "ko": "꺼짐"
+    "ko": "전원 꺼짐"
   },
   "options": {
     "setOnDim": {
@@ -60,7 +60,7 @@
         "da": "Når en enhed har både en `tænd/sluk`- og en `dæmpe`-funktion, og Homey vil tænde for enheden OG indstille til en specifik dæmpeværdi, skal denne funktion indstilles til  `falsk` for at forhindre, at Homey sender en indstillingskommando.",
         "ru": "Когда устройство имеет функции `onoff` и `dim`, и Homey хочет включить устройство ТАКЖЕ с определенным значением яркости, установите для этой функции значение `false`, чтобы Homey не отправил команду на установку.",
         "pl": "Jeśli urządzenie ma zdolności „wł.wył.” i „przygaś”, a urządzenie Homey chce włączyć produkt ORAZ ustawić konkretną wartość przygaszenia, ustaw tę zdolność jako „nieadekwatne” – w ten sposób Homey nie będzie wysyłać ustawionych poleceń.",
-        "ko": "디바이스에 'onoff' 및 'dim' 기능이 모두 있는데 Homey가 디바이스를 켜는 동시에 특정한 디밍 값으로 설정하길 원한다면 이 기능을 '거짓'으로 설정하여 Homey가 설정 명령을 보내지 않도록 해야 합니다."
+        "ko": "제품에 '전원' 및 '밝기' 기능이 모두 있는데 Homey가 제품을 켜는 동시에 특정한 조절값으로 설정하길 원한다면 이 기능을 '거짓'으로 설정해 Homey가 설정 명령을 보내지 않도록 하세요."
       }
     },
     "greyout": {
@@ -77,7 +77,7 @@
         "da": "Når denne funktion er falsk, skal du give et visuelt tip for at vise enheden i grå.",
         "ru": "Когда функция ложна, установите визуальную подсказку, чтобы выделить устройство серым цветом.",
         "pl": "Jeśli zdolność jest nieadekwatna, użyj wizualnej wskazówki, aby wyświetlić urządzenie na szaro.",
-        "ko": "이 기능이 거짓으로 설정되면 디바이스가 회색으로 표시되어 쉽게 식별할 수 있습니다."
+        "ko": "이 기능이 거짓으로 설정되면 제품이 회색으로 표시되어 쉽게 식별할 수 있어요."
       }
     }
   },
@@ -100,7 +100,7 @@
           "da": "Tændt",
           "ru": "Включено",
           "pl": "Włączone",
-          "ko": "켜짐"
+          "ko": "켜지면"
         }
       },
       {
@@ -118,7 +118,7 @@
           "da": "Slukket",
           "ru": "Выключено",
           "pl": "Wyłączone",
-          "ko": "꺼짐"
+          "ko": "꺼지면"
         }
       }
     ],
@@ -137,7 +137,7 @@
           "da": "Er !{{tændt|slukket}}",
           "ru": "!{{Вкл.|Выкл.}}",
           "pl": "Jest !{{włączone|wyłączone}}",
-          "ko": "이(가) !{{켜짐|꺼짐}}"
+          "ko": "!{{켜지면|꺼지면}}"
         }
       },
       {
@@ -154,7 +154,7 @@
           "da": "Er !{{åben|lukket}}",
           "ru": "!{{Открыто|Закрыто}}",
           "pl": "Jest !{{otwarte|zamknięte}}",
-          "ko": "이(가) !{{열림|닫힘}}"
+          "ko": "!{{열리면|닫히면}}"
         },
         "$filter": {
           "class": "windowcoverings|curtain|blinds|sunshade"
@@ -212,7 +212,7 @@
           "da": "Tænd eller sluk",
           "ru": "Переключатель включить/выключить",
           "pl": "Przełącz na wł. lub wył.",
-          "ko": "켬 또는 끔 토글"
+          "ko": "켬/끔 상태 전환하기"
         }
       },
       {

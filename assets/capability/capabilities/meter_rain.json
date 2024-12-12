@@ -12,7 +12,7 @@
     "da": "Regnmåler",
     "ru": "Счетчик дождя",
     "pl": "Licznik deszczu",
-    "ko": "강우량 계량"
+    "ko": "집수량"
   },
   "units": {
     "en": "m³",
@@ -56,7 +56,7 @@
           "da": "Regnmåleren ændrede sig",
           "ru": "Измерения дождя изменились",
           "pl": "Zmiana w liczniku deszczu",
-          "ko": "강우량 계량 변경됨"
+          "ko": "집수량이 변경되면"
         },
         "tokens": [
           {

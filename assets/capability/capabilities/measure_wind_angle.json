@@ -12,7 +12,7 @@
     "da": "Vindvinkel",
     "ru": "Угол ветра",
     "pl": "Kąt wiatru",
-    "ko": "풍향"
+    "ko": "풍향각"
   },
   "units": {
     "en": "°",
@@ -55,7 +55,7 @@
           "da": "Vindvinklen er skiftet",
           "ru": "Угол наклона ветра изменился",
           "pl": "Zmiana kąta wiatru",
-          "ko": "풍향 변경됨"
+          "ko": "풍향각이 변경되면"
         },
         "tokens": [
           {

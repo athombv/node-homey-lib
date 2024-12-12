@@ -1069,7 +1069,7 @@
   "./assets/device/classes/sensor.json@title": "Capteur",
   "./assets/device/classes/sensor.json@description": "Utilisez cette classe d'appareil pour les capteurs, par ex. un capteur de contact ou de mouvement.",
   "./assets/device/classes/service.json@title": "Service",
-  "./assets/device/classes/service.json@description": "Utilisez cette classe d'appareils pour les appareils qui ne sont pas vraiment physiques, mais des services (cloud).",
+  "./assets/device/classes/service.json@description": "Utilisez cette classe d'appareils pour les appareils qui ne sont pas vraiment des appareils physiques, mais plutôt des services (cloud).",
   "./assets/device/classes/settopbox.json@title": "Décodeur",
   "./assets/device/classes/settopbox.json@description": "Utilisez cette classe d'appareils pour les décodeurs.",
   "./assets/device/classes/shutterblinds.json@title": "Volets roulants",

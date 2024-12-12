@@ -12,7 +12,7 @@
     "da": "Position",
     "ru": "Позиция",
     "pl": "Pozycja",
-    "ko": "위치"
+    "ko": "동작 제어"
   },
   "desc": {
     "en": "Set the position of window coverings. 0% is closed, 100% is open",
@@ -25,7 +25,7 @@
     "da": "Indstil positionen af dækket for vinduet. 0% er lukket, 100% er åben",
     "ru": "Установите позицию оконных навесов. 0% означает закрыто, 100% означает открыто",
     "pl": "Ustaw pozycję osłon okiennych. 0% oznacza zasunięte, 100% rozchylone",
-    "ko": "창문 덮개 위치를 설정합니다. 0%는 닫힘, 100%는 열림입니다."
+    "ko": "창문 커버 위치를 설정합니다. 0%는 닫힘, 100%는 열림입니다."
   },
   "chartType": "stepLine",
   "min": 0,
@@ -56,7 +56,7 @@
           "da": "Position ændret",
           "ru": "Позиция изменилась",
           "pl": "Zmieniła się pozycja",
-          "ko": "위치 변경됨"
+          "ko": "창문 가림 %가 변경되면"
         },
         "tokens": [
           {
@@ -74,7 +74,7 @@
               "da": "Position",
               "ru": "Позиция",
               "pl": "Pozycja",
-              "ko": "위치"
+              "ko": "창문 가림 %가 다음이면"
             },
             "example": 0.5
           }
@@ -97,14 +97,14 @@
           "da": "Indstil positionen til",
           "ru": "Установите позицию на",
           "pl": "Ustaw pozycję na",
-          "ko": "위치를 다음으로 설정"
+          "ko": "창문 가림 %를 다음으로 설정"
         },
         "hint": {
           "en": "Change the position to open (100%), closed (0%), or a value in between.",
           "nl": "Verander de positie naar open (100%), gesloten (0%), of een waarde daartussen.",
           "ru": "Измените позицию на открытую (100%), закрытую (0%) или между этими значениями.",
           "pl": "Zmień pozycję na rozchylone (100%), zasunięte (0%) lub wartość pomiędzy.",
-          "ko": "위치를 열림(100%), 닫힘(0%) 또는 그 사이의 값으로 변경합니다.",
+          "ko": "위치를 열림(100%), 닫힘(0%) 또는 그 사이의 값으로 변경해요.",
           "no": "Endre posisjonen til åpen (100 %), lukket (0 %) eller en verdi mellom disse."
         },
         "args": [

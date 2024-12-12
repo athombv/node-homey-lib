@@ -12,7 +12,7 @@
     "da": "Vandmåler",
     "ru": "Счетчик воды",
     "pl": "Licznik wody",
-    "ko": "수도 계량"
+    "ko": "물 사용량"
   },
   "decimals": 3,
   "min": 0,
@@ -57,7 +57,7 @@
           "da": "Vandmåleren ændrede sig",
           "ru": "Измерения счетчика воды изменились",
           "pl": "Zmiana w liczniku wody",
-          "ko": "수도 계량 변경됨"
+          "ko": "물 사용량이 변경되면"
         },
         "tokens": [
           {

@@ -1050,6 +1050,7 @@
   "./assets/device/classes/scooter.json@description": "Gebruik deze apparaatklasse voor scooters.",
   "./assets/device/classes/sensor.json@title": "Sensor",
   "./assets/device/classes/service.json@title": "Service",
+  "./assets/device/classes/service.json@description": "Gebruik deze apparaatklasse voor apparaten die niet echt fysieke apparaten zijn, maar (cloud-)services.",
   "./assets/device/classes/settopbox.json@title": "Settopbox",
   "./assets/device/classes/settopbox.json@description": "Gebruik deze apparaatklasse voor settopboxen.",
   "./assets/device/classes/shutterblinds.json@title": "Jaloezieën",

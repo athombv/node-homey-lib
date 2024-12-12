@@ -11,7 +11,7 @@
     "es": "PM10",
     "ru": "ТЧ10",
     "pl": "PM10",
-    "ko": "PM10",
+    "ko": "미세먼지(PM10)",
     "da": "PM10"
   },
   "units": {
@@ -63,7 +63,7 @@
           "da": "PM10-værdien har ændret sig",
           "ru": "Значение ТЧ10 изменилось",
           "pl": "Zmieniła się wartość PM10",
-          "ko": "PM10 값 변경됨"
+          "ko": "미세먼지(PM10) 값이 변경되면"
         },
         "tokens": [
           {
