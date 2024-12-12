@@ -12,12 +12,12 @@
     "da": "Luminans",
     "ru": "Яркость",
     "pl": "Luminacja",
-    "ko": "휘도"
+    "ko": "조도"
   },
   "units": {
     "en": "lx",
     "ru": "лк",
-    "ko": "lx",
+    "ko": "lux",
     "no": "lx"
   },
   "insights": true,
@@ -57,7 +57,7 @@
           "da": "Luminansen ændrede sig",
           "ru": "Яркость изменилась",
           "pl": "Zmiana luminacji",
-          "ko": "휘도 변경됨"
+          "ko": "조도가 변경되면"
         },
         "tokens": [
           {

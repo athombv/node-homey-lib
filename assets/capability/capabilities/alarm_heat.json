@@ -12,7 +12,7 @@
     "da": "Varmealarm",
     "ru": "Сигнал перегрева",
     "pl": "Alarm termiczny",
-    "ko": "과열 알람"
+    "ko": "과열 감지"
   },
   "desc": {
     "en": "True when extreme heat has been detected",
@@ -41,7 +41,7 @@
     "da": "Varmealarm blev aktiveret",
     "ru": "Сигнал перегрева включен",
     "pl": "Alarm termiczny włączony",
-    "ko": "과열 알람 켜짐"
+    "ko": "과열 감지됨"
   },
   "insightsTitleFalse": {
     "en": "Heat alarm turned off",
@@ -55,7 +55,7 @@
     "da": "Varmealarm blev deaktiveret",
     "ru": "Сигнал перегрева выключен",
     "pl": "Alarm termiczny wyłączony",
-    "ko": "과열 알람 꺼짐"
+    "ko": "정상"
   },
   "getable": true,
   "setable": false,
@@ -77,7 +77,7 @@
           "da": "Varmealarmen blev aktiveret",
           "ru": "Сигнал перегрева включен",
           "pl": "Alarm termiczny włączony",
-          "ko": "과열 알람 켜짐"
+          "ko": "과열이 감지되면"
         }
       },
       {
@@ -94,7 +94,7 @@
           "da": "Varmealarmen blev deaktiveret",
           "ru": "Сигнал перегрева выключен",
           "pl": "Alarm termiczny wyłączony",
-          "ko": "과열 알람 꺼짐"
+          "ko": "과열 감지가 정상 상태이면"
         }
       }
     ],
@@ -113,7 +113,7 @@
           "da": "Varmealarmen er !{{tændt|slukket}}",
           "ru": "Сигнал перегрева !{{вкл.|выкл.}}",
           "pl": "Alarm termiczny jest !{{włączony|wyłączony}}",
-          "ko": "과열 알람 !{{켬|끔}}"
+          "ko": "!{{과열이 감지되면|과열 감지가 정상 상태이면}}"
         }
       }
     ]

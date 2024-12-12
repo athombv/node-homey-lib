@@ -11,7 +11,7 @@
     "es": "PM1",
     "ru": "ТЧ1",
     "pl": "PM1",
-    "ko": "PM1",
+    "ko": "극초미세먼지(PM1.0)",
     "da": "PM1"
   },
   "units": {
@@ -63,7 +63,7 @@
           "da": "PM1-værdien har ændret sig",
           "ru": "Значение ТЧ1 изменилось",
           "pl": "Zmieniła się wartość PM1",
-          "ko": "PM1 값 변경됨"
+          "ko": "극초미세먼지(PM1.0) 값이 변경되면"
         },
         "tokens": [
           {

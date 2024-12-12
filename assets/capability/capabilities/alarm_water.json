@@ -12,7 +12,7 @@
     "da": "Vandalarm",
     "ru": "Сигнал протечки воды",
     "pl": "Alarm zalania wodą",
-    "ko": "물 알람"
+    "ko": "누수 감지"
   },
   "desc": {
     "en": "True when water has been detected",
@@ -41,7 +41,7 @@
     "da": "Vandalarm blev aktiveret",
     "ru": "Сигнал протечки воды включен",
     "pl": "Alarm zalania wodą włączony",
-    "ko": "물 알람 켜짐"
+    "ko": "누수 감지됨"
   },
   "insightsTitleFalse": {
     "en": "Water alarm turned off",
@@ -55,7 +55,7 @@
     "da": "Vandalarm blev deaktiveret",
     "ru": "Сигнал протечки воды выключен",
     "pl": "Alarm zalania wodą wyłączony",
-    "ko": "물 알람 꺼짐"
+    "ko": "누수 감지되지 않음"
   },
   "getable": true,
   "setable": false,
@@ -77,7 +77,7 @@
           "da": "Vandalarmen blev aktiveret",
           "ru": "Сигнал аккумулятора включен",
           "pl": "Alarm zalania wodą włączony",
-          "ko": "물 알람 켜짐"
+          "ko": "누수가 감지되면"
         }
       },
       {
@@ -94,7 +94,7 @@
           "da": "Vandalarmen blev deaktiveret",
           "ru": "Сигнал аккумулятора выключен",
           "pl": "Alarm zalania wodą wyłączony",
-          "ko": "물 알람 꺼짐"
+          "ko": "누수가 감지되지 않으면"
         }
       }
     ],
@@ -113,7 +113,7 @@
           "da": "Vandalarmen er !{{tændt|slukket}}",
           "ru": "Сигнал протечки воды !{{вкл.|выкл.}}",
           "pl": "Alarm zalania wodą jest !{{włączony|wyłączony}}",
-          "ko": "물 알람 !{{켬|끔}}"
+          "ko": "누수가 감지!{{되면|되지 않으면}}"
         }
       }
     ]

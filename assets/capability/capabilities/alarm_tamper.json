@@ -12,7 +12,7 @@
     "da": "Sabotagealarm",
     "ru": "Противовзломный сигнал",
     "pl": "Alarm antyingerencyjny",
-    "ko": "변조 알람"
+    "ko": "변화 감지"
   },
   "desc": {
     "en": "True when tampering has been detected",
@@ -41,7 +41,7 @@
     "da": "Sabotagealarm blev aktiveret",
     "ru": "Противовзломный сигнал включен",
     "pl": "Alarm antyingerencyjny włączony",
-    "ko": "변조 알람 켜짐"
+    "ko": "변화 감지됨"
   },
   "insightsTitleFalse": {
     "en": "Tamper alarm turned off",
@@ -55,7 +55,7 @@
     "da": "Sabotagealarm blev deaktiveret",
     "ru": "Противовзломный сигнал выключен",
     "pl": "Alarm antyingerencyjny wyłączony",
-    "ko": "변조 알람 꺼짐"
+    "ko": "정상"
   },
   "getable": true,
   "setable": false,
@@ -77,7 +77,7 @@
           "da": "Sabotagealarmen blev aktiveret",
           "ru": "Противовзломный сигнал включен",
           "pl": "Alarm antyingerencyjny włączony",
-          "ko": "변조 알람 켜짐"
+          "ko": "변화가 감지되면"
         }
       },
       {
@@ -94,7 +94,7 @@
           "da": "Sabotagealarmen blev deaktiveret",
           "ru": "Противовзломный сигнал выключен",
           "pl": "Alarm antyingerencyjny wyłączony",
-          "ko": "변조 알람 꺼짐"
+          "ko": "변화 감지가 정상 상태이면"
         }
       }
     ],
@@ -113,7 +113,7 @@
           "da": "Sabotagealarmen er !{{tændt|slukket}}",
           "ru": "Противовзломный сигнал !{{вкл.|выкл.}}",
           "pl": "Alarm antyingerencyjny jest !{{włączony|wyłączony}}",
-          "ko": "변조 알람 !{{켬|끔}}"
+          "ko": "!{{변화가 감지되면|변화 감지가 정상 상태이면}}"
         }
       }
     ]

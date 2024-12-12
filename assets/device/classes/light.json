@@ -24,6 +24,6 @@
     "da": "Brug denne enhedsklasse til lys, normalt sammen med `onoff`, `dim` og `light_*` funktionerne.",
     "ru": "Используйте этот класс устройств для ламп, обычно вместе с функциями `onoff`,`dim` и `light_ *`.",
     "pl": "Użyj tej klasy urządzeń dla oświetlenia, zwykle razem ze zdolnościami `onoff`, `dim` oraz `light_*`.",
-    "ko": "이 디바이스 클래스는 보통 `onoff`, `dim`, `light_*` 기능을 갖춘 조명에 사용합니다."
+    "ko": "이 디바이스 클래스는 보통 'onoff', 'dim', 'light_*' 기능을 갖춘 조명에 사용합니다."
   }
 }

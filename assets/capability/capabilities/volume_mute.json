@@ -11,7 +11,7 @@
     "da": "Lyd slået fra",
     "ru": "Звук выключен",
     "pl": "Głośność wyciszona",
-    "ko": "볼륨 음소거됨"
+    "ko": "음소거"
   },
   "type": "boolean",
   "getable": true,
@@ -65,7 +65,7 @@
           "no": "Slå dempet volum på eller av",
           "es": "Activar el volumen o silenciar",
           "da": "Slå dæmpet lydstyrke til eller fra",
-          "ko": "볼륨 켬 또는 끔 토글",
+          "ko": "볼륨 켬/끔 상태 전환하기",
           "ru": "Включить или выключить приглушенный звук"
         }
       }

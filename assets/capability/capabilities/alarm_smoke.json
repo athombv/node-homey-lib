@@ -12,7 +12,7 @@
     "da": "Røgalarm",
     "ru": "Сигнал дыма",
     "pl": "Alarm przeciwdymny",
-    "ko": "연기 알람"
+    "ko": "연기 감지"
   },
   "desc": {
     "en": "True when smoke has been detected",
@@ -41,7 +41,7 @@
     "da": "Røgalarm blev aktiveret",
     "ru": "Сигнал дыма включен",
     "pl": "Alarm przeciwdymny włączony",
-    "ko": "연기 알람 켜짐"
+    "ko": "연기 감지됨"
   },
   "insightsTitleFalse": {
     "en": "Smoke alarm turned off",
@@ -55,7 +55,7 @@
     "da": "Røgalarm blev deaktiveret",
     "ru": "Сигнал дыма выключен",
     "pl": "Alarm przeciwdymny wyłączony",
-    "ko": "연기 알람 꺼짐"
+    "ko": "정상"
   },
   "getable": true,
   "setable": false,
@@ -77,7 +77,7 @@
           "da": "Røgalarmen blev aktiveret",
           "ru": "Сигнал дыма включен",
           "pl": "Alarm przeciwdymny włączony",
-          "ko": "연기 알람 켜짐"
+          "ko": "연기가 감지되면"
         }
       },
       {
@@ -94,7 +94,7 @@
           "da": "Røgalarmen blev deaktiveret",
           "ru": "Сигнал дыма выключен",
           "pl": "Alarm przeciwdymny wyłączony",
-          "ko": "연기 알람 꺼짐"
+          "ko": "연기 감지가 정상 상태이면"
         }
       }
     ],
@@ -113,7 +113,7 @@
           "da": "Røgalarmen er !{{tændt|slukket}}",
           "ru": "Сигнал дыма !{{вкл.|выкл.}}",
           "pl": "Alarm przeciwdymny jest !{{włączony|wyłączony}}",
-          "ko": "연기 알람 !{{켬|끔}}"
+          "ko": "!{{연기가 감지되면|연기 감지가 정상 상태이면}}"
         }
       }
     ]
