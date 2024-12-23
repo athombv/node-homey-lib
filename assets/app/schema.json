@@ -1453,6 +1453,9 @@
             "height": {
               "type": ["number", "string"]
             },
+            "transparent": {
+              "type": "boolean"
+            },
             "settings": {
               "type": "array"
             },
