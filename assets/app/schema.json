@@ -1462,7 +1462,7 @@
             "devices": {
               "type": "object",
               "properties": {
-                "type": { "type": "string", "enum": ["global", "local"] },
+                "type": { "type": "string", "enum": ["global", "app"] },
                 "singular": { "type": "boolean" },
                 "filter": {
                   "type": "object",
