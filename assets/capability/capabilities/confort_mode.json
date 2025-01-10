@@ -1,0 +1,201 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Comfort mode",
+    "nl": "Comfortmodus",
+    "de": "Komfort-modus",
+    "fr": "Mode confort",
+    "it": "Modalità comfort",
+    "sv": "Komfortläge",
+    "no": "Komfortmodus",
+    "es": "Modo confort",
+    "da": "Komforttilstand",
+    "ru": "Комфортный режим",
+    "pl": "Tryb komfortowy",
+    "ko": "컴포트 모드"
+  },
+  "desc": {
+    "en": "Comfort mode for heating, ventilation and air-conditioning",
+    "nl": "",
+    "de": "",
+    "fr": "Mode confort pour le chauffage, la ventilation et la climatisation",
+    "it": "",
+    "sv": "",
+    "no": "",
+    "es": "",
+    "da": "",
+    "ru": "",
+    "pl": "",
+    "ko": ""
+  },
+  "values": [
+    {
+      "id": "auto",
+      "title": {
+        "en": "Automatic",
+        "nl": "Automatisch",
+        "de": "Automatisch",
+        "fr": "Automatique",
+        "it": "Automatica",
+        "sv": "Automatiskt",
+        "no": "Automatisk",
+        "es": "Automático",
+        "da": "Automatisk",
+        "ru": "Автоматически",
+        "pl": "Automatyczny",
+        "ko": "자동"
+      }
+    },
+    {
+      "id": "comfort",
+      "title": {
+        "en": "Comfort",
+        "nl": "",
+        "de": "",
+        "fr": "Confort",
+        "it": "",
+        "sv": "",
+        "no": "",
+        "es": "",
+        "da": "",
+        "ru": "",
+        "pl": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": "standby",
+      "title": {
+        "en": "Standby / Absence",
+        "nl": "",
+        "de": "",
+        "fr": "Veille / Absence",
+        "it": "",
+        "sv": "",
+        "no": "",
+        "es": "",
+        "da": "",
+        "ru": "",
+        "pl": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": "economy",
+      "title": {
+        "en": "Economy / Night",
+        "nl": "",
+        "de": "",
+        "fr": "Economie / Nuit",
+        "it": "",
+        "sv": "",
+        "no": "",
+        "es": "",
+        "da": "",
+        "ru": "",
+        "pl": "",
+        "ko": ""
+      }
+    },
+    {
+      "id": "building_protection",
+      "title": {
+        "en": "Building protection",
+        "nl": "",
+        "de": "",
+        "fr": "Protection du bâtiment / Hors gel",
+        "it": "",
+        "sv": "",
+        "no": "",
+        "es": "",
+        "da": "",
+        "ru": "",
+        "pl": "",
+        "ko": ""
+      }
+    }
+  ],
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "confort_mode_changed",
+        "title": {
+          "en": "Confort mode changed",
+          "nl": "Comfortmodus is veranderd",
+          "de": "Komfort-Modus hat sich geändert",
+          "fr": "Le mode de confort a changé",
+          "it": "Modalità comfort modificata",
+          "sv": "Udobni način je spremenjen",
+          "no": "Komfortmodus er endret",
+          "es": "El modo confort ha cambiado",
+          "da": "Komforttilstand er ændret",
+          "ru": "Комфортный режим изменился",
+          "pl": "Tryb komfortowy uległ zmianie",
+          "ko": "컴포트 모드가 변경되었습니다"
+        },
+        "args": [
+          {
+            "name": "thermostat_mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "comfort_mode_is",
+        "title": {
+          "en": "Comfort mode !{{is|is not}}",
+          "nl": "Komfortmodus !{{is|is niet}}",
+          "de": "Komfort-Modus !{{ist|ist nicht}}",
+          "fr": "Mode confort !{{est|n'est pas}}",
+          "it": "La modalità Comfort !{{è|non è}}",
+          "sv": "Udobni način !{{är|är inte}}",
+          "no": "Komfortmodus !{{er|er ikke}}",
+          "es": "El modo confort es !{{está|no está}}",
+          "da": "Komforttilstand !{{er|er ikke}}",
+          "ru": "Комфортный режим !{{|не}}",
+          "pl": "Tryb komfortowy !{{to|to nie}}",
+          "ko": "컴포트 모드!{{이면|이 아니면}}"
+        },
+        "args": [
+          {
+            "name": "thermostat_mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "comfort_mode_set",
+        "title": {
+          "en": "Set the mode",
+          "nl": "Stel de modus in",
+          "de": "Modus setzen",
+          "fr": "Définir le mode",
+          "it": "Imposta la modalità",
+          "sv": "Ställ in läget",
+          "no": "Innstill modusen",
+          "es": "Configurar el modo",
+          "da": "Indstil tilstanden",
+          "ru": "Установить режим",
+          "pl": "Ustaw tryb",
+          "ko": "온도조절기 모드 설정"
+        },
+        "args": [
+          {
+            "name": "thermostat_mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}
