@@ -209,7 +209,7 @@
                     "type": "string",
                     "enum": [
                       "variable",
-                      "flow",
+                      "flow_or_advanced_flow",
                       "user"
                     ]
                   }
