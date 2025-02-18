@@ -65,6 +65,7 @@
       }
     }
   ],
+  "color": "#9033FC",
   "getable": true,
   "setable": true,
   "uiComponent": "media",

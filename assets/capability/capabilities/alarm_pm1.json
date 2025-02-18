@@ -57,6 +57,7 @@
     "pl": "Alarm PM1 wyłączony",
     "ko": "극초미세먼지(PM1.0) 알람 꺼짐"
   },
+  "color": "#E02020",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

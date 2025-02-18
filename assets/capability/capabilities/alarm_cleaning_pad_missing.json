@@ -53,6 +53,7 @@
     "sv": "Rengöringsdynan placerades",
     "no": "Vaskekluten ble satt på plass"
   },
+  "color": "#9033FC",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

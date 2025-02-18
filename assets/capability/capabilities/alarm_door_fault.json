@@ -53,6 +53,7 @@
     "sv": "Larm för dörrfel inaktiverat",
     "es": "Alarma de fallo en puerta desactivada"
   },
+  "color": "#0082FA",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

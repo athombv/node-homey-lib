@@ -53,6 +53,7 @@
     "es": "Alarma de humedad desactivada",
     "fr": "Alarme d'humidité désactivée"
   },
+  "color": "#0091FF",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

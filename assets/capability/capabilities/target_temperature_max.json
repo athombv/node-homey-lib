@@ -44,6 +44,7 @@
   "decimals": 2,
   "min": 4,
   "max": 35,
+  "color": "#FA6400",
   "getable": true,
   "setable": true,
   "uiComponent": "slider",

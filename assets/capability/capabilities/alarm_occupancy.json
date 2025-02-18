@@ -53,6 +53,7 @@
     "es": "Alarma de ocupación desactivada",
     "fr": "Alarme d'occupation désactivée"
   },
+  "color": "#32C5FF",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

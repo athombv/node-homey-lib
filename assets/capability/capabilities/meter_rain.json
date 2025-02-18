@@ -36,6 +36,7 @@
     "ko": "강우량 입방미터(m³)"
   },
   "decimals": 2,
+  "color": "#0091FF",
   "insights": true,
   "getable": true,
   "setable": false,

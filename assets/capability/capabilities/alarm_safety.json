@@ -53,6 +53,7 @@
     "es": "Alarma de seguridad desactivada",
     "fr": "Alarme de sécurité désactivée"
   },
+  "color": "#32C5FF",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

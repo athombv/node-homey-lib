@@ -57,6 +57,7 @@
     "pl": "Alarm antyingerencyjny wyłączony",
     "ko": "정상"
   },
+  "color": "#9033FC",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

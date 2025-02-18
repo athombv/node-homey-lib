@@ -53,6 +53,7 @@
     "es": "El depósito estaba colocado",
     "fr": "Le réservoir n'était pas manquant"
   },
+  "color": "#0091FF",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

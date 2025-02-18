@@ -53,6 +53,7 @@
     "es": "El depósito no estaba vacío",
     "fr": "Le réservoir n'était pas vide"
   },
+  "color": "#0091FF",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

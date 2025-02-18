@@ -53,6 +53,7 @@
     "es": "Ya no estaba perdido",
     "fr": "N'était plus perdu"
   },
+  "color": "#9033FC",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",
