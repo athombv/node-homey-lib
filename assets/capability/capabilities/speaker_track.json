@@ -14,6 +14,7 @@
     "ko": "트랙"
   },
   "type": "string",
+  "color": "#9033FC",
   "getable": true,
   "setable": false,
   "uiComponent": "media",

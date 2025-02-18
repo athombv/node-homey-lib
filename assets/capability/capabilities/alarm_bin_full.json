@@ -53,6 +53,7 @@
     "sv": "Behållaren var inte full",
     "no": "Støvbeholderen var ikke full"
   },
+  "color": "#9033FC",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

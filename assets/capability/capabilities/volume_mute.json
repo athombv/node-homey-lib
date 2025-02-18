@@ -14,6 +14,7 @@
     "ko": "음소거"
   },
   "type": "boolean",
+  "color": "#9033FC",
   "getable": true,
   "setable": true,
   "uiComponent": "button",

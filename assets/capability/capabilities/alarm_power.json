@@ -53,6 +53,7 @@
     "es": "Alarma de suministro eléctrico desactivada",
     "fr": "Alarme d'alimentation électrique désactivée"
   },
+  "color": "#6DD400",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

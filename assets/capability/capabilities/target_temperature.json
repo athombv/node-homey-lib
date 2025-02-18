@@ -24,6 +24,7 @@
   },
   "chartType": "stepLine",
   "decimals": 1,
+  "color": "#FA6400",
   "insights": true,
   "getable": true,
   "setable": true,

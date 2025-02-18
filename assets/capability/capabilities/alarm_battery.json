@@ -57,6 +57,7 @@
     "pl": "Alarm stanu baterii wyłączony",
     "ko": "배터리 알람 꺼짐"
   },
+  "color": "#6DD400",
   "getable": true,
   "setable": false,
   "uiComponent": "battery",

@@ -41,6 +41,7 @@
   },
   "min": 0,
   "max": 100,
+  "color": "#E02020",
   "insights": true,
   "getable": true,
   "setable": false,

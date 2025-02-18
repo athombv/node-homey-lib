@@ -42,6 +42,7 @@
   "insights": true,
   "chartType": "spline",
   "decimals": 2,
+  "color": "#6236FF",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

@@ -67,6 +67,7 @@
       }
     }
   ],
+  "color": "#F5B207",
   "getable": true,
   "setable": true,
   "uiComponent": "ternary",

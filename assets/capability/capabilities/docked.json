@@ -53,6 +53,7 @@
     "fr": "Pas à la base",
     "no": "Ikke i stasjonen"
   },
+  "color": "#9033FC",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

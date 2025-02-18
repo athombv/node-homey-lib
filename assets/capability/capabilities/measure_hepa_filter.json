@@ -41,6 +41,7 @@
   },
   "min": 0,
   "max": 100,
+  "color": "#6236FF",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

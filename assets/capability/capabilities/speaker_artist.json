@@ -14,6 +14,7 @@
     "ko": "아티스트"
   },
   "type": "string",
+  "color": "#9033FC",
   "getable": true,
   "setable": false,
   "uiComponent": "media",

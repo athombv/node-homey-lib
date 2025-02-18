@@ -53,6 +53,7 @@
     "es": "Alarma de presencia desactivada",
     "fr": "Alarme de présence désactivée"
   },
+  "color": "#32C5FF",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

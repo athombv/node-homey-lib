@@ -53,6 +53,7 @@
     "es": "Alarma de vibración desactivada",
     "fr": "Alarme de vibration désactivée"
   },
+  "color": "#32C5FF",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

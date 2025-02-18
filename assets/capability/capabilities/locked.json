@@ -57,6 +57,7 @@
     "pl": "Odblokowane",
     "ko": "열림"
   },
+  "color": "#9033FC",
   "getable": true,
   "setable": true,
   "uiComponent": "toggle",

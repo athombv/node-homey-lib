@@ -57,6 +57,7 @@
     "pl": "Alarm nocny wyłączony",
     "ko": "야간 알람 꺼짐"
   },
+  "color": "#9033FC",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

@@ -18,6 +18,7 @@
   "chartType": "stepLine",
   "max": 1,
   "decimals": 2,
+  "color": "#F7B500",
   "getable": true,
   "setable": true,
   "uiComponent": "color",

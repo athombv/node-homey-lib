@@ -24,6 +24,7 @@
     "no": "%",
     "ru": "%"
   },
+  "color": "#F7B500",
   "getable": true,
   "setable": true,
   "uiComponent": "slider",

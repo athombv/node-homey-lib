@@ -14,6 +14,7 @@
     "ko": "채널 아래로"
   },
   "type": "boolean",
+  "color": "#9033FC",
   "getable": false,
   "setable": true,
   "$flow": {

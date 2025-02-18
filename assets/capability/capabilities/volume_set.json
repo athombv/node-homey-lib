@@ -38,6 +38,7 @@
     "no": "%",
     "ru": "%"
   },
+  "color": "#9033FC",
   "setable": true,
   "getable": true,
   "uiComponent": "slider",

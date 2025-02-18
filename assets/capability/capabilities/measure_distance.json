@@ -41,6 +41,7 @@
   },
   "insights": true,
   "chartType": "spline",
+  "color": "#4682B4",
   "decimals": 2,
   "getable": true,
   "setable": false,

@@ -108,6 +108,7 @@
       }
     }
   ],
+  "color": "#0091FF",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

@@ -37,6 +37,7 @@
     "pl": "Zużycie gazu w metrach sześciennych (m³)",
     "ko": "가스 사용량 입방미터(m³)"
   },
+  "color": "#F9236C",
   "insights": true,
   "getable": true,
   "setable": false,

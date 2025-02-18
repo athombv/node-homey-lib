@@ -50,6 +50,7 @@
       }
     }
   },
+  "color": "#6DD400",
   "insights": true,
   "getable": true,
   "setable": false,

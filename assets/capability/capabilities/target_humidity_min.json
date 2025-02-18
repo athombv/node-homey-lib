@@ -43,6 +43,7 @@
   "decimals": 2,
   "min": 0,
   "max": 1,
+  "color": "#0091FF",
   "getable": true,
   "setable": true,
   "uiComponent": "slider",

@@ -92,6 +92,7 @@
       }
     }
   ],
+  "color": "#0091FF",
   "getable": true,
   "setable": true,
   "uiComponent": "picker",

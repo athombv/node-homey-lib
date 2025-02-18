@@ -53,6 +53,7 @@
     "sv": "Gaslarm inaktiverat",
     "es": "Alarma de gas desactivada"
   },
+  "color": "#F9236C",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",
