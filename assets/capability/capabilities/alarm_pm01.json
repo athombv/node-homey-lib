@@ -57,6 +57,7 @@
     "pl": "Alarm PM0.1 wyłączony",
     "ko": "나노미세먼지(PM0.1) 알람 꺼짐"
   },
+  "color": "#E02020",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

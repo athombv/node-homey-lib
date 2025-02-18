@@ -45,6 +45,7 @@
   },
   "getable": true,
   "setable": false,
+  "color": "#32C5FF",
   "uiComponent": "sensor",
   "options": {
     "zoneActivity": true

@@ -92,6 +92,7 @@
       }
     }
   ],
+  "color": "#FA6400",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

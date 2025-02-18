@@ -76,6 +76,7 @@
       }
     }
   ],
+  "color": "#32C5FF",
   "getable": true,
   "setable": true,
   "uiComponent": "picker",

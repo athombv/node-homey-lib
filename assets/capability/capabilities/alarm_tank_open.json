@@ -53,6 +53,7 @@
     "es": "El depósito estaba cerrado",
     "fr": "Le réservoir était fermé"
   },
+  "color": "#0091FF",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

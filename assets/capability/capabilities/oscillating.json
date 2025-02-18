@@ -53,6 +53,7 @@
     "fr": "Oscillation désactivée",
     "no": "Svingning deaktivert"
   },
+  "color": "#6236FF",
   "getable": true,
   "setable": true,
   "uiComponent": "toggle",

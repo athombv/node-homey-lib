@@ -57,6 +57,7 @@
     "pl": "Alarm zalania wodą wyłączony",
     "ko": "누수 감지되지 않음"
   },
+  "color": "#0091FF",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

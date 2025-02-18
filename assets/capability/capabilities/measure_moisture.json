@@ -44,6 +44,7 @@
   "decimals": 2,
   "min": 0,
   "max": 100,
+  "color": "#FFA07A",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

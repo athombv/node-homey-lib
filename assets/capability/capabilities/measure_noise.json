@@ -36,6 +36,7 @@
   },
   "chartType": "spline",
   "decimals": 2,
+  "color": "#F7B500",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

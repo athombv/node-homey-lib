@@ -42,6 +42,7 @@
   "min": 0,
   "max": 1,
   "decimals": 2,
+  "color": "#0091FF",
   "insights": true,
   "getable": true,
   "setable": true,

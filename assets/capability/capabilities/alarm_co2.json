@@ -55,6 +55,7 @@
     "pl": "Alarm o CO2 wyłączony",
     "ko": "이산화탄소(CO2) 알람 꺼짐"
   },
+  "color": "#E02020",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

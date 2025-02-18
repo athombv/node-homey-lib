@@ -14,6 +14,7 @@
     "ko": "이전"
   },
   "type": "boolean",
+  "color": "#9033FC",
   "getable": false,
   "setable": true,
   "uiComponent": "media",
