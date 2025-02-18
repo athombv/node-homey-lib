@@ -13,6 +13,7 @@
     "no": "Stopp"
   },
   "type": "boolean",
+  "color": "#9033FC",
   "getable": false,
   "setable": true,
   "uiComponent": "media",

@@ -53,6 +53,7 @@
     "fr": "Le problème d'alimentation de la pompe a été résolu",
     "no": "Problemet i pumpeforsyningen ble løst"
   },
+  "color": "#0091FF",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

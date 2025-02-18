@@ -14,6 +14,7 @@
     "ko": "아래로 틸트"
   },
   "type": "boolean",
+  "color": "#F5B207",
   "getable": false,
   "setable": true,
   "uiComponent": "button",

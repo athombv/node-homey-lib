@@ -39,6 +39,7 @@
   },
   "chartType": "spline",
   "decimals": 2,
+  "color": "#6DD400",
   "getable": true,
   "setable": false,
   "uiComponent": "battery",

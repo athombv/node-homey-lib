@@ -90,6 +90,7 @@
       }
     }
   ],
+  "color": "#E02020",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

@@ -55,6 +55,7 @@
   },
   "getable": true,
   "setable": false,
+  "color": "#F7B500",
   "uiComponent": "sensor",
   "$flow": {
     "triggers": [

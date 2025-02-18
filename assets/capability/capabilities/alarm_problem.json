@@ -53,6 +53,7 @@
     "es": "Problema resuelto",
     "fr": "Problème résolu"
   },
+  "color": "#9033FC",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

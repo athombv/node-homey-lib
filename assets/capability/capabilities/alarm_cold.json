@@ -53,6 +53,7 @@
     "ru": "Сигнал холода выключен",
     "sv": "Köldlarm inaktiverat"
   },
+  "color": "#0091FF",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

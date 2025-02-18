@@ -53,6 +53,7 @@
     "es": "Alarma de fallo en el dispositivo de bombeo desactivada",
     "fr": "Alarme de défaut de l'appareil de pompage désactivée"
   },
+  "color": "#0091FF",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

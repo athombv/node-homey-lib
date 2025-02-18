@@ -53,6 +53,7 @@
     "es": "Alarma de ruido desactivada",
     "fr": "Alarme sonore désactivée"
   },
+  "color": "#F7B500",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

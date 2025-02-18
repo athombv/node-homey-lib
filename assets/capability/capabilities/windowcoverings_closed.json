@@ -14,6 +14,7 @@
     "pl": "Zasunięte",
     "ko": "창문 커버"
   },
+  "color": "#F5B207",
   "getable": true,
   "setable": true,
   "uiComponent": "toggle",

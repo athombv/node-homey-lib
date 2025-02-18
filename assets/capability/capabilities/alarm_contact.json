@@ -57,6 +57,7 @@
     "pl": "Alarm otwarcia wyłączony",
     "ko": "닫힘"
   },
+  "color": "#32C5FF",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

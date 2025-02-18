@@ -28,6 +28,7 @@
     "no": "Indeks for total mengde flyktige organiske forbindelser"
   },
   "chartType": "spline",
+  "color": "#E02020",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

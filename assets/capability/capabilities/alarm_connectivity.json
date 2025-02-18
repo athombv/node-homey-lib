@@ -53,6 +53,7 @@
     "sv": "Ansluten",
     "es": "Conectado"
   },
+  "color": "#9033FC",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

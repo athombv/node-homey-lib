@@ -57,6 +57,7 @@
     "pl": "Alarm PM10 wyłączony",
     "ko": "미세먼지(PM10) 알람 꺼짐"
   },
+  "color": "#E02020",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

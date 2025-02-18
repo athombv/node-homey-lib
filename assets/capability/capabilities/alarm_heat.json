@@ -57,6 +57,7 @@
     "pl": "Alarm termiczny wyłączony",
     "ko": "정상"
   },
+  "color": "#FA6400",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

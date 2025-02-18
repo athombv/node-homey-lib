@@ -57,6 +57,7 @@
     "pl": "Alarm PM2.5 wyłączony",
     "ko": "초미세먼지(PM2.5) 알람 꺼짐"
   },
+  "color": "#E02020",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",

@@ -53,6 +53,7 @@
     "es": "Ya no estaba atascado",
     "fr": "N'était plus bloqué"
   },
+  "color": "#9033FC",
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",
