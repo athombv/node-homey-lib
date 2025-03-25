@@ -10,9 +10,13 @@ module.exports = {
     library: 'HomeyLib',
     libraryTarget: 'umd',
   },
-  node: {
-    fs: 'empty',
-    util: 'empty',
+  resolve: {
+    fallback: {
+      fs: false,
+      path: false,
+      util: false,
+      url: false,
+    },
   },
   mode: 'production',
 };
