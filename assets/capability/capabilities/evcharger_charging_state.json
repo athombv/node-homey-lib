@@ -1,7 +1,8 @@
 {
   "type": "enum",
   "title": {
-    "en": "EV charger charging state"
+    "en": "Charging state",
+    "nl": "Oplaadstatus"
   },
   "desc": {
     "en": "The current charging state of the EV charger."
