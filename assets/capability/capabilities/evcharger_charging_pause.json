@@ -1,0 +1,23 @@
+{
+  "title": {
+    "en": "Pause charging",
+    "nl": "Pauzeer opladen"
+  },
+  "type": "boolean",
+  "color": "#6DD400",
+  "getable": false,
+  "setable": true,
+  "uiComponent": "button",
+  "$flow": {
+    "actions": [
+      {
+        "id": "charging_pause",
+        "highlight": true,
+        "title": {
+          "en": "Pause charging",
+          "nl": "Pauzeer opladen"
+        }
+      }
+    ]
+  }
+}

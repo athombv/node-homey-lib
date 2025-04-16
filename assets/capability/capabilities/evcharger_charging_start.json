@@ -1,0 +1,23 @@
+{
+  "title": {
+    "en": "Start charging",
+    "nl": "Begin met opladen"
+  },
+  "type": "boolean",
+  "color": "#6DD400",
+  "getable": false,
+  "setable": true,
+  "uiComponent": "button",
+  "$flow": {
+    "actions": [
+      {
+        "id": "charging_start",
+        "highlight": true,
+        "title": {
+          "en": "Start charging",
+          "nl": "Begin met opladen"
+        }
+      }
+    ]
+  }
+}
