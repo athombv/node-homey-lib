@@ -7,6 +7,11 @@
   "desc": {
     "en": "The current charging state of the EV charger."
   },
+  "color": "#6DD400",
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "minCompatibility": "12.4.3",
   "values": [
     {
       "id": "plugged_in_charging",
@@ -89,10 +94,6 @@
       }
     }
   ],
-  "color": "#6DD400",
-  "getable": true,
-  "setable": false,
-  "uiComponent": "sensor",
   "$flow": {
     "triggers": [
       {
@@ -124,6 +125,5 @@
         ]
       }
     ]
-  },
-  "minCompatibility": "12.4.3"
+  }
 }
