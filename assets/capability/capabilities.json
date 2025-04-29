@@ -7,6 +7,7 @@
   "light_mode",
   "vacuumcleaner_state",
   "thermostat_mode",
+  "confort_mode",
   "target_temperature",
   "measure_temperature",
   "measure_co",
