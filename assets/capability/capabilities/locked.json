@@ -55,7 +55,7 @@
     "da": "Ulåst",
     "ru": "Открыто",
     "pl": "Odblokowane",
-    "ko": "열림"
+    "ko": "잠금 해제"
   },
   "color": "#9033FC",
   "getable": true,
@@ -94,7 +94,7 @@
           "da": "Låst op",
           "ru": "Открыто",
           "pl": "Odblokowane",
-          "ko": "열림이면"
+          "ko": "잠금 해제이면"
         }
       }
     ],
@@ -113,7 +113,7 @@
           "da": "En lås er blevet !{{låst|låst op}}",
           "ru": "Замок !{{закрыт|открыт}}",
           "pl": "Zamek jest !{{zablokowany|odblokowany}}",
-          "ko": "!{{잠김|열림}}이면"
+          "ko": "!{{잠김|잠금 해제}}이면"
         }
       }
     ],
