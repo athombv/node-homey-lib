@@ -167,5 +167,8 @@
   "target_temperature_max",
   "target_temperature_min",
   "vacuumcleaner_job_mode",
-  "valve_position"
+  "valve_position",
+  "ev_charging_state",
+  "evcharger_charging_state",
+  "evcharger_charging"
 ]

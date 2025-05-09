@@ -1195,6 +1195,24 @@
               "cumulativeExportedCapability": {
                 "type": "string"
               },
+              "electricCar": {
+                "type": "boolean",
+                "enum": [true]
+              },
+              "evCharger": {
+                "type": "boolean",
+                "enum": [true]
+              },
+              "homeBattery": {
+                "type": "boolean",
+                "enum": [true]
+              },
+              "meterPowerImportedCapability": {
+                "type": "string"
+              },
+              "meterPowerExportedCapability": {
+                "type": "string"
+              },
               "batteries": {
                 "type": "array",
                 "minItems": 1,

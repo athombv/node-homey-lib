@@ -1,0 +1,168 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Charging state",
+    "nl": "Oplaadstatus",
+    "da": "Batteriets opladningstilstand",
+    "it": "Stato di carica della batteria",
+    "ko": "배터리 충전 상태",
+    "pl": "Stan ładowania baterii",
+    "ru": "Состояние зарядки аккумулятора",
+    "sv": "Batteriets laddningsstatus",
+    "es": "Estado de carga de la batería",
+    "fr": "État de charge de la batterie",
+    "no": "Batteriladingsstatus"
+  },
+  "desc": {
+    "en": "The current charging state of the battery.",
+    "nl": "De huidige oplaadstatus van de batterij.",
+    "da": "Batteriets aktuelle opladningstilstand.",
+    "it": "Lo stato di carica attuale della batteria.",
+    "ko": "배터리의 현재 충전 상태입니다.",
+    "pl": "Bieżący stan naładowania baterii.",
+    "ru": "Текущее состояние зарядки аккумулятора.",
+    "sv": "Batteriets aktuella laddningsstatus.",
+    "es": "El estado de carga actual de la batería.",
+    "fr": "L'état de charge actuel de la batterie.",
+    "no": "Batteriets nåværende ladingsstatus."
+  },
+  "values": [
+    {
+      "id": "plugged_in_charging",
+      "title": {
+        "en": "Charging",
+        "nl": "Opladen",
+        "da": "Oplader",
+        "it": "In carica",
+        "ko": "충전 중",
+        "pl": "Ładowanie",
+        "ru": "Заряжается",
+        "sv": "Laddning",
+        "es": "Cargando",
+        "fr": "Charge",
+        "no": "Lades"
+      }
+    },
+    {
+      "id": "plugged_in_discharging",
+      "title": {
+        "en": "Discharging",
+        "nl": "Ontladen",
+        "da": "Aflader",
+        "it": "Scarica",
+        "ko": "충전 중이 아님",
+        "pl": "Rozładowanie",
+        "ru": "Разряжается",
+        "sv": "Urladdning",
+        "es": "Descargando",
+        "fr": "Décharge",
+        "no": "Lades ut"
+      }
+    },
+    {
+      "id": "plugged_in_paused",
+      "title": {
+        "en": "Paused",
+        "da": "På pause",
+        "it": "In pausa",
+        "ko": "일시 정지",
+        "nl": "Gepauzeerd",
+        "pl": "Wstrzymana",
+        "ru": "На паузе",
+        "sv": "Pausad",
+        "es": "En pausa",
+        "fr": "En pause",
+        "no": "På pause"
+      }
+    },
+    {
+      "id": "plugged_in",
+      "title": {
+        "en": "Plugged in",
+        "nl": "Ingeplugd",
+        "da": "Tilsluttet",
+        "it": "Collegato",
+        "ko": "연결됨",
+        "pl": "Podłączony",
+        "ru": "Подключено",
+        "sv": "Ansluten",
+        "es": "Conectado",
+        "fr": "Branché",
+        "no": "Tilkoblet"
+      }
+    },
+    {
+      "id": "plugged_out",
+      "title": {
+        "en": "Not plugged in",
+        "nl": "Niet ingeplugd",
+        "da": "Ikke tilsluttet",
+        "it": "Non collegato",
+        "ko": "연결되지 않음",
+        "pl": "Niepodłączony",
+        "ru": "Не подключено",
+        "sv": "Inte ansluten",
+        "es": "No enchufado",
+        "fr": "Non branché",
+        "no": "Ikke tilkoblet"
+      }
+    }
+  ],
+  "color": "#6DD400",
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "ev_charging_state_changed",
+        "title": {
+          "en": "The battery charging state changed",
+          "nl": "De oplaadstatus van de batterij is veranderd",
+          "da": "Batteriets opladningstilstand er ændret",
+          "it": "Lo stato di carica della batteria è cambiato",
+          "ko": "배터리 충전 상태가 변경되면",
+          "pl": "Stan ładowania baterii uległ zmianie",
+          "ru": "Состояние зарядки батареи изменилось",
+          "sv": "Batteriets laddningsstatus har ändrats",
+          "es": "El estado de carga de la batería ha cambiado",
+          "fr": "L'état de charge de la batterie a changé",
+          "no": "Batteriladingsstatusen ble endret"
+        },
+        "args": [
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "ev_charging_state_is",
+        "title": {
+          "en": "The battery charging state is",
+          "nl": "De oplaadstatus van de batterij is",
+          "da": "Batteriets opladningstilstand er",
+          "it": "Lo stato di carica della batteria è",
+          "ko": "배터리 충전 상태가 다음이면",
+          "pl": "Stan ładowania baterii to",
+          "ru": "Состояние зарядки аккумулятора:",
+          "sv": "Batteriets laddningsstatus är",
+          "es": "El estado de carga de la batería es",
+          "fr": "L'état de charge de la batterie est",
+          "no": "Batteriladingsstatusen er"
+        },
+        "args": [
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.4.5"
+}

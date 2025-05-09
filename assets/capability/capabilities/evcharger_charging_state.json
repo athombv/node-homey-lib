@@ -1,0 +1,129 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Charging state",
+    "nl": "Oplaadstatus"
+  },
+  "desc": {
+    "en": "The current charging state of the EV charger."
+  },
+  "color": "#6DD400",
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "minCompatibility": "12.4.5",
+  "values": [
+    {
+      "id": "plugged_in_charging",
+      "title": {
+        "en": "Charging",
+        "nl": "Opladen",
+        "da": "Oplader",
+        "it": "In carica",
+        "ko": "충전 중",
+        "pl": "Ładowanie",
+        "ru": "Заряжается",
+        "sv": "Laddning",
+        "es": "Cargando",
+        "fr": "Charge",
+        "no": "Lades"
+      }
+    },
+    {
+      "id": "plugged_in_discharging",
+      "title": {
+        "en": "Discharging",
+        "nl": "Ontladen",
+        "da": "Aflader",
+        "it": "Scarica",
+        "ko": "충전 중이 아님",
+        "pl": "Rozładowanie",
+        "ru": "Разряжается",
+        "sv": "Urladdning",
+        "es": "Descargando",
+        "fr": "Décharge",
+        "no": "Lades ut"
+      }
+    },
+    {
+      "id": "plugged_in_paused",
+      "title": {
+        "en": "Paused",
+        "da": "På pause",
+        "it": "In pausa",
+        "ko": "일시 정지",
+        "nl": "Gepauzeerd",
+        "pl": "Wstrzymana",
+        "ru": "На паузе",
+        "sv": "Pausad",
+        "es": "En pausa",
+        "fr": "En pause",
+        "no": "På pause"
+      }
+    },
+    {
+      "id": "plugged_in",
+      "title": {
+        "en": "Plugged in",
+        "nl": "Ingeplugd",
+        "da": "Tilsluttet",
+        "it": "Collegato",
+        "ko": "연결됨",
+        "pl": "Podłączony",
+        "ru": "Подключено",
+        "sv": "Ansluten",
+        "es": "Conectado",
+        "fr": "Branché",
+        "no": "Tilkoblet"
+      }
+    },
+    {
+      "id": "plugged_out",
+      "title": {
+        "en": "Not plugged in",
+        "nl": "Niet ingeplugd",
+        "da": "Ikke tilsluttet",
+        "it": "Non collegato",
+        "ko": "연결되지 않음",
+        "pl": "Niepodłączony",
+        "ru": "Не подключено",
+        "sv": "Inte ansluten",
+        "es": "No enchufado",
+        "fr": "Non branché",
+        "no": "Ikke tilkoblet"
+      }
+    }
+  ],
+  "$flow": {
+    "triggers": [
+      {
+        "id": "evcharger_charging_state_changed",
+        "title": {
+          "en": "The EV charger charging state changed"
+        },
+        "args": [
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "evcharger_charging_state_is",
+        "title": {
+          "en": "The EV charger charging state is"
+        },
+        "args": [
+          {
+            "name": "state",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}
