@@ -11,7 +11,7 @@
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",
-  "minCompatibility": "12.4.3",
+  "minCompatibility": "12.4.5",
   "values": [
     {
       "id": "plugged_in_charging",

@@ -8,7 +8,7 @@
   "getable": true,
   "setable": true,
   "insights": true,
-  "minCompatibility": "12.4.3",
+  "minCompatibility": "12.4.5",
   "insightsTitleTrue": {
     "en": "Started charging",
     "nl": "Begonnen met opladen"
