@@ -1,0 +1,68 @@
+{
+  "title": {
+    "en": "Charging",
+    "nl": "Opladen"
+  },
+  "type": "boolean",
+  "color": "#6DD400",
+  "getable": true,
+  "setable": true,
+  "insights": true,
+  "minCompatibility": "12.4.5",
+  "insightsTitleTrue": {
+    "en": "Started charging",
+    "nl": "Begonnen met opladen"
+  },
+  "insightsTitleFalse": {
+    "en": "Stopped charging",
+    "nl": "Gestopt met opladen"
+  },
+  "uiComponent": "toggle",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "evcharger_charging_true",
+        "highlight": true,
+        "title": {
+          "en": "Started charging",
+          "nl": "Begonnen met opladen"
+        }
+      },
+      {
+        "id": "evcharger_charging_false",
+        "highlight": true,
+        "title": {
+          "en": "Stopped charging",
+          "nl": "Gestopt met opladen"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "evcharger_charging",
+        "title": {
+          "en": "Is !{{|not}} charging",
+          "nl": "Is !{{|niet}} aan het opladen"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "evcharger_charging_start",
+        "highlight": true,
+        "title": {
+          "en": "Start charging",
+          "nl": "Begin met opladen"
+        }
+      },
+      {
+        "id": "evcharger_charging_stop",
+        "highlight": true,
+        "title": {
+          "en": "Stop charging",
+          "nl": "Stop met opladen"
+        }
+      }
+    ]
+  }
+}
