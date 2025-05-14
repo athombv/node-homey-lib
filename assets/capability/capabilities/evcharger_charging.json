@@ -1,7 +1,17 @@
 {
   "title": {
     "en": "Charging",
-    "nl": "Opladen"
+    "nl": "Opladen",
+    "da": "Oplader",
+    "de": "Wird aufgeladen",
+    "es": "Carga",
+    "fr": "Charge en cours",
+    "it": "In ricarica",
+    "ko": "충전 중",
+    "no": "Lader",
+    "pl": "Ładowanie",
+    "ru": "Заряжается",
+    "sv": "Laddning"
   },
   "type": "boolean",
   "color": "#6DD400",
@@ -11,11 +21,31 @@
   "minCompatibility": "12.4.5",
   "insightsTitleTrue": {
     "en": "Started charging",
-    "nl": "Begonnen met opladen"
+    "nl": "Begonnen met opladen",
+    "da": "Begyndte at oplade",
+    "de": "Ladevorgang hat begonnen",
+    "es": "Carga iniciada",
+    "fr": "Charge démarrée",
+    "it": "Ricarica avviata",
+    "ko": "충전 시작됨",
+    "no": "Startet lading",
+    "pl": "Rozpoczęto ładowanie",
+    "ru": "Зарядка началась",
+    "sv": "Började ladda"
   },
   "insightsTitleFalse": {
     "en": "Stopped charging",
-    "nl": "Gestopt met opladen"
+    "nl": "Gestopt met opladen",
+    "da": "Stoppede med at oplade",
+    "de": "Ladevorgang wurde gestoppt",
+    "es": "Carga detenida",
+    "fr": "Charge arrêtée",
+    "it": "Ricarica interrotta",
+    "ko": "충전 중지됨",
+    "no": "Stoppet lading",
+    "pl": "Zatrzymano ładowanie",
+    "ru": "Зарядка остановлена",
+    "sv": "Slutade ladda"
   },
   "uiComponent": "toggle",
   "$flow": {
@@ -25,7 +55,17 @@
         "highlight": true,
         "title": {
           "en": "Started charging",
-          "nl": "Begonnen met opladen"
+          "nl": "Begonnen met opladen",
+          "da": "Begyndte at oplade",
+          "de": "Ladevorgang hat begonnen",
+          "es": "Carga iniciada",
+          "fr": "Charge démarrée",
+          "it": "Ricarica avviata",
+          "ko": "충전 시작됨",
+          "no": "Startet lading",
+          "pl": "Rozpoczęto ładowanie",
+          "ru": "Зарядка началась",
+          "sv": "Började ladda"
         }
       },
       {
@@ -33,7 +73,17 @@
         "highlight": true,
         "title": {
           "en": "Stopped charging",
-          "nl": "Gestopt met opladen"
+          "nl": "Gestopt met opladen",
+          "da": "Stoppede med at oplade",
+          "de": "Ladevorgang wurde gestoppt",
+          "es": "Carga detenida",
+          "fr": "Charge arrêtée",
+          "it": "Ricarica interrotta",
+          "ko": "충전 중지됨",
+          "no": "Stoppet lading",
+          "pl": "Zatrzymano ładowanie",
+          "ru": "Зарядка остановлена",
+          "sv": "Slutade ladda"
         }
       }
     ],
@@ -42,7 +92,17 @@
         "id": "evcharger_charging",
         "title": {
           "en": "Is !{{|not}} charging",
-          "nl": "Is !{{|niet}} aan het opladen"
+          "nl": "Is !{{|not}} aan het opladen",
+          "da": "Oplader !{{|not}}",
+          "de": "Wird !{{|nicht}} geladen",
+          "es": "!{{|No}} está cargando",
+          "fr": "N'est !{{|pas}} en cours de charge",
+          "it": "È !{{|not}} in ricarica",
+          "ko": "충전 중 !{{|아님}}",
+          "no": "Lader !{{|ikke}}",
+          "pl": "!{{Jest|Nie jest}} w trakcie ładowania",
+          "ru": "!{{|не}} заряжается",
+          "sv": "Laddar !{{|not}}"
         }
       }
     ],
@@ -52,7 +112,17 @@
         "highlight": true,
         "title": {
           "en": "Start charging",
-          "nl": "Begin met opladen"
+          "nl": "Begin met opladen",
+          "da": "Begynd at oplade",
+          "de": "Ladevorgang starten",
+          "es": "Iniciar carga",
+          "fr": "Démarrer la charge",
+          "it": "Avvia la ricarica",
+          "ko": "충전 시작",
+          "no": "Start lading",
+          "pl": "Rozpoczęcie ładowania",
+          "ru": "Начать зарядку",
+          "sv": "Starta laddning"
         }
       },
       {
@@ -60,7 +130,17 @@
         "highlight": true,
         "title": {
           "en": "Stop charging",
-          "nl": "Stop met opladen"
+          "nl": "Stop met opladen",
+          "da": "Stop med at oplade",
+          "de": "Ladevorgang stoppen",
+          "es": "Detener carga",
+          "fr": "Arrêter la charge",
+          "it": "Interrompi la ricarica",
+          "ko": "충전 중지",
+          "no": "Stopp lading",
+          "pl": "Zatrzymanie ładowania",
+          "ru": "Остановить зарядку",
+          "sv": "Avsluta laddning"
         }
       }
     ]

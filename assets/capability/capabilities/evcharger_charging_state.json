@@ -2,10 +2,31 @@
   "type": "enum",
   "title": {
     "en": "Charging state",
-    "nl": "Oplaadstatus"
+    "nl": "Oplaadstatus",
+    "da": "Opladningstilstand",
+    "de": "Ladezustand",
+    "es": "Estado de carga",
+    "fr": "État de charge",
+    "it": "Stato di carica",
+    "ko": "충전 상태",
+    "no": "Ladestatus",
+    "pl": "Stan ładowania",
+    "ru": "Состояние зарядки",
+    "sv": "Laddningstillstånd"
   },
   "desc": {
-    "en": "The current charging state of the EV charger."
+    "en": "The current charging state of the EV charger.",
+    "da": "Elbilopladerens aktuelle opladningstilstand.",
+    "de": "Der aktuelle Ladezustand der Ladestation für Elektrofahrzeuge.",
+    "es": "El estado de carga actual del cargador del VE.",
+    "fr": "L'état de charge actuel du chargeur VE",
+    "it": "Lo stato di carica attuale dell’alimentatore per veicoli elettrici.",
+    "ko": "전기차 충전기의 현재 충전 상태입니다.",
+    "nl": "De huidige oplaadstatus van de EV-lader.",
+    "no": "Gjeldende ladestatus for elbilladeren.",
+    "pl": "Bieżący stan ładowania ładowarki EV.",
+    "ru": "Текущее состояние зарядки зарядного устройства для электромобилей.",
+    "sv": "EV-laddarens aktuella laddningsstatus."
   },
   "color": "#6DD400",
   "getable": true,
@@ -19,14 +40,15 @@
         "en": "Charging",
         "nl": "Opladen",
         "da": "Oplader",
-        "it": "In carica",
+        "it": "In ricarica",
         "ko": "충전 중",
         "pl": "Ładowanie",
         "ru": "Заряжается",
-        "sv": "Laddning",
-        "es": "Cargando",
-        "fr": "Charge",
-        "no": "Lades"
+        "sv": "Laddning\n",
+        "es": "Carga",
+        "fr": "Charge en cours",
+        "no": "Lader",
+        "de": "Wird aufgeladen"
       }
     },
     {
@@ -35,14 +57,15 @@
         "en": "Discharging",
         "nl": "Ontladen",
         "da": "Aflader",
-        "it": "Scarica",
-        "ko": "충전 중이 아님",
-        "pl": "Rozładowanie",
+        "it": "Si sta scaricando",
+        "ko": "방전 중",
+        "pl": "Rozładowywanie",
         "ru": "Разряжается",
-        "sv": "Urladdning",
-        "es": "Descargando",
-        "fr": "Décharge",
-        "no": "Lades ut"
+        "sv": "Urladdning\n",
+        "es": "Descarga",
+        "fr": "Décharge en cours",
+        "no": "Lades ut",
+        "de": "Wird entladen"
       }
     },
     {
@@ -51,46 +74,49 @@
         "en": "Paused",
         "da": "På pause",
         "it": "In pausa",
-        "ko": "일시 정지",
+        "ko": "일시 중지됨",
         "nl": "Gepauzeerd",
-        "pl": "Wstrzymana",
+        "pl": "Wstrzymane",
         "ru": "На паузе",
-        "sv": "Pausad",
+        "sv": "Pausad\n",
         "es": "En pausa",
         "fr": "En pause",
-        "no": "På pause"
+        "no": "Satt på pause",
+        "de": "Pausiert"
       }
     },
     {
       "id": "plugged_in",
       "title": {
         "en": "Plugged in",
-        "nl": "Ingeplugd",
+        "nl": "Aangesloten",
         "da": "Tilsluttet",
-        "it": "Collegato",
-        "ko": "연결됨",
-        "pl": "Podłączony",
+        "it": "Cavo collegato",
+        "ko": "충전구 연결됨",
+        "pl": "Podłączone do gniazdka",
         "ru": "Подключено",
         "sv": "Ansluten",
-        "es": "Conectado",
+        "es": "Enchufado",
         "fr": "Branché",
-        "no": "Tilkoblet"
+        "no": "Tilkoblet",
+        "de": "Eingesteckt"
       }
     },
     {
       "id": "plugged_out",
       "title": {
         "en": "Not plugged in",
-        "nl": "Niet ingeplugd",
+        "nl": "Niet aangesloten",
         "da": "Ikke tilsluttet",
-        "it": "Non collegato",
-        "ko": "연결되지 않음",
-        "pl": "Niepodłączony",
+        "it": "Cavo non collegato",
+        "ko": "충전구 연결되지 않음",
+        "pl": "Niepodłączone do gniazdka",
         "ru": "Не подключено",
         "sv": "Inte ansluten",
         "es": "No enchufado",
         "fr": "Non branché",
-        "no": "Ikke tilkoblet"
+        "no": "Ikke tilkoblet",
+        "de": "Nicht eingesteckt"
       }
     }
   ],
@@ -99,7 +125,18 @@
       {
         "id": "evcharger_charging_state_changed",
         "title": {
-          "en": "The EV charger charging state changed"
+          "en": "The EV charger charging state changed",
+          "da": "Elbilopladerens opladningstilstand er ændret",
+          "de": "Der Ladezustand der Ladestation für Elektrofahrzeuge hat sich geändert.",
+          "es": "El estado de carga del cargador del VE ha cambiado",
+          "fr": "L'état de charge du chargeur VE a changé",
+          "it": "Lo stato di carica dell’alimentatore per veicoli elettrici è cambiato",
+          "ko": "전기차 충전기 충전 상태 변경됨",
+          "nl": "De oplaadstatus van de EV-lader is veranderd",
+          "no": "Elbilladerens ladestatus ble endret",
+          "pl": "Stan ładowania ładowarki EV uległ zmianie",
+          "ru": "Состояние зарядки зарядного устройства для электромобилей изменилось",
+          "sv": "Laddningsstatus för EV-laddaren har ändrats"
         },
         "args": [
           {
@@ -114,7 +151,18 @@
       {
         "id": "evcharger_charging_state_is",
         "title": {
-          "en": "The EV charger charging state is"
+          "en": "The EV charger charging state is",
+          "da": "Elbilopladerens opladningstilstand er",
+          "de": "Der Ladezustand der Ladestation für Elektrofahrzeuge ist",
+          "es": "El estado de carga del cargador del VE es",
+          "fr": "L'état de charge du chargeur VE est",
+          "it": "Lo stato di carica dell’alimentatore per veicoli elettrici è",
+          "ko": "현재 전기차 충전기 충전 상태",
+          "nl": "De oplaadstatus van de EV-lader is",
+          "no": "Elbilladerens ladestatus er",
+          "pl": "Stan ładowania ładowarki EV to",
+          "ru": "Состояние зарядки зарядного устройства для электромобилей:",
+          "sv": "Laddningsstatus för EV-laddaren är"
         },
         "args": [
           {
