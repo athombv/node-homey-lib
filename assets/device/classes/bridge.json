@@ -1,0 +1,9 @@
+{
+  "title": {
+    "en": "Bridge"
+  },
+  "description": {
+    "en": "Use this device class for bridges or hubs that connect to other devices or ecosystems."
+  },
+  "minCompatibility": "12.5.0"
+}
