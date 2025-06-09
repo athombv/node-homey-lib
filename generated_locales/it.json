@@ -1000,6 +1000,8 @@
   "./assets/device/classes/blinds.json@description": "Utilizza questa classe di dispositivi per le tapparelle, orizzontali e verticali.",
   "./assets/device/classes/boiler.json@title": "Caldaia",
   "./assets/device/classes/boiler.json@description": "Utilizza questa classe di dispositivi per qualsiasi tipo di caldaia, es. caldaia a pompa di calore, caldaia a gas, caldaia ad acqua, caldaia con riscaldamento centralizzato.",
+  "./assets/device/classes/bridge.json@title": "Bridge",
+  "./assets/device/classes/bridge.json@description": "Usa questa classe di dispositivi per i bridge o gli hub che si connettono ad altri dispositivi o ecosistemi.",
   "./assets/device/classes/button.json@title": "Pulsante",
   "./assets/device/classes/button.json@description": "Utilizza questa classe di dispositivi per i pulsanti, come ad esempio un telecomando.",
   "./assets/device/classes/camera.json@title": "Telecamera",
