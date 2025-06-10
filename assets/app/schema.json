@@ -273,6 +273,39 @@
                     }
                   }
                 }
+              },
+              {
+                "type": "object",
+                "required": ["name", "type", "values"],
+                "properties": {
+                  "title": {
+                    "$ref": "#/definitions/i18nObject"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": ["multiselect"]
+                  },
+                  "conjunction": {
+                    "type": "string"
+                  },
+                  "values": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "label": {
+                          "$ref": "#/definitions/i18nObject"
+                        }
+                      }
+                    }
+                  }
+                }
               }
             ]
           }
