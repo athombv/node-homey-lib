@@ -1,0 +1,31 @@
+{
+  "title": {
+    "en": "Bridge",
+    "da": "Bridge",
+    "de": "Bridge",
+    "es": "Bridge",
+    "fr": "Pont",
+    "it": "Bridge",
+    "ko": "브릿지",
+    "nl": "Bridge",
+    "no": "Bro",
+    "pl": "Most",
+    "ru": "Bridge",
+    "sv": "Brygga"
+  },
+  "description": {
+    "en": "Use this device class for bridges or hubs that connect to other devices or ecosystems.",
+    "da": "Brug denne enhedsklasse til broer eller hubs, der forbinder til andre enheder eller økosystemer.",
+    "de": "Verwende diese Geräteklasse für Bridges oder Hubs, die mit anderen Geräten oder Ökosystemen verbunden sind.",
+    "es": "Utiliza esta clase de dispositivo para puentes o concentradores que se conectan a otros dispositivos o ecosistemas.",
+    "fr": "Utilisez cette classe d'appareils pour les ponts ou les concentrateurs qui se connectent à d'autres appareils ou écosystèmes.",
+    "it": "Usa questa classe di dispositivi per i bridge o gli hub che si connettono ad altri dispositivi o ecosistemi.",
+    "ko": "이 제품 클래스는 다른 제품 또는 에코시스템에 연결하는 브릿지 또는 허브에 사용하세요.",
+    "nl": "Gebruik deze apparaatklasse voor bridges of hubs die verbinding maken met andere apparaten of ecosystemen.",
+    "no": "Bruk denne enhetsklassen for broer eller huber som er koblet til andre enheter eller økosystemer.",
+    "pl": "Tej klasy urządzeń należy używać w przypadku mostków lub hubów, które łączą się z innymi urządzeniami lub ekosystemami.",
+    "ru": "Используйте этот класс устройств для мостов или концентраторов, которые подключаются к другим устройствам либо экосистемам.",
+    "sv": "Använd den här enhetsklassen för bryggor eller hubbar som ansluter till andra enheter eller ekosystem."
+  },
+  "minCompatibility": "12.5.0"
+}
