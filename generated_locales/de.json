@@ -405,6 +405,8 @@
   "./assets/device/classes/blinds.json@description": "Nutze diese Geräteklasse für Rolladen, sowohl horizontal als auch vertikal.",
   "./assets/device/classes/boiler.json@title": "Heizkessel",
   "./assets/device/classes/boiler.json@description": "Verwenden Sie diese Geräteklasse für jede Art von Heizkessel, z. B. Wärmepumpenkessel, Gaskessel, Warmwasserboiler, Zentralheizungskessel.",
+  "./assets/device/classes/bridge.json@title": "Bridge",
+  "./assets/device/classes/bridge.json@description": "Verwende diese Geräteklasse für Bridges oder Hubs, die mit anderen Geräten oder Ökosystemen verbunden sind.",
   "./assets/device/classes/button.json@title": "Taste",
   "./assets/device/classes/button.json@description": "Nutze diese Geräteklasse für Tasten wie z. B. eine Fernbedienung.",
   "./assets/device/classes/camera.json@title": "Kamera",

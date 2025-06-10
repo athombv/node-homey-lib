@@ -1003,6 +1003,8 @@
   "./assets/device/classes/blinds.json@description": "Utiliza esta clase de dispositivo para las persianas, tanto horizontales como verticales.",
   "./assets/device/classes/boiler.json@title": "Caldera",
   "./assets/device/classes/boiler.json@description": "Utiliza esta clase de dispositivo para cualquier tipo de calentador (por ej., caldera de bomba de calor, caldera de gas, caldera de agua caliente, caldera de calefacción central, etc.).",
+  "./assets/device/classes/bridge.json@title": "Bridge",
+  "./assets/device/classes/bridge.json@description": "Utiliza esta clase de dispositivo para puentes o concentradores que se conectan a otros dispositivos o ecosistemas.",
   "./assets/device/classes/button.json@title": "Botón",
   "./assets/device/classes/button.json@description": "Utiliza esta clase de dispositivo para los botones, p. ej., mandos a distancia.",
   "./assets/device/classes/camera.json@title": "Cámara",

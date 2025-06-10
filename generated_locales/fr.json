@@ -1002,6 +1002,8 @@
   "./assets/device/classes/blinds.json@description": "Utilisez cette classe d'appareil pour les stores, horizontaux et verticaux.",
   "./assets/device/classes/boiler.json@title": "Chaudière",
   "./assets/device/classes/boiler.json@description": "Utilisez cette classe d'appareils pour tout type de chaudière, par exemple une chaudière à pompe à chaleur, une chaudière à gaz, une chaudière à eau chaude, une chaudière de chauffage central.",
+  "./assets/device/classes/bridge.json@title": "Pont",
+  "./assets/device/classes/bridge.json@description": "Utilisez cette classe d'appareils pour les ponts ou les concentrateurs qui se connectent à d'autres appareils ou écosystèmes.",
   "./assets/device/classes/button.json@title": "Bouton",
   "./assets/device/classes/button.json@description": "Utilisez cette classe d'appareil pour les boutons, comme pour une télécommande.",
   "./assets/device/classes/camera.json@title": "Caméra",

@@ -1037,6 +1037,8 @@
   "./assets/device/classes/blinds.json@description": "Используйте этот класс устройств для жалюзи, как горизонтальных, так и вертикальных.",
   "./assets/device/classes/boiler.json@title": "Котел",
   "./assets/device/classes/boiler.json@description": "Используйте этот класс устройств для котлов любого типа, например, котла с тепловым насосом, газового котла, водонагревательного котла, котла центрального отопления.",
+  "./assets/device/classes/bridge.json@title": "Bridge",
+  "./assets/device/classes/bridge.json@description": "Используйте этот класс устройств для мостов или концентраторов, которые подключаются к другим устройствам либо экосистемам.",
   "./assets/device/classes/button.json@title": "Кнопка",
   "./assets/device/classes/button.json@description": "Используйте этот класс устройств для устройств с кнопками, например пультов.",
   "./assets/device/classes/camera.json@title": "Камера",

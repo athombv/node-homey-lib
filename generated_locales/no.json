@@ -1034,6 +1034,8 @@
   "./assets/device/classes/blinds.json@description": "Bruk denne enhetsklassen for persienner, både horisontale og vertikale.",
   "./assets/device/classes/boiler.json@title": "Varmtvannsbereder",
   "./assets/device/classes/boiler.json@description": "Bruk denne enhetsklassen for alle slags varmtvannsberedere, f.eks. varmepumpebereder, gassbereder, varmtvannsbereder, sentral storbereder.",
+  "./assets/device/classes/bridge.json@title": "Bro",
+  "./assets/device/classes/bridge.json@description": "Bruk denne enhetsklassen for broer eller huber som er koblet til andre enheter eller økosystemer.",
   "./assets/device/classes/button.json@title": "Knapp",
   "./assets/device/classes/button.json@description": "Bruk denne enhetsklassen for knapper, f.eks. en fjernkontroll.",
   "./assets/device/classes/camera.json@title": "Kamera",

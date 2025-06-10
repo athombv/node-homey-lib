@@ -1037,6 +1037,8 @@
   "./assets/device/classes/blinds.json@description": "이 디바이스 클래스는 가로형 및 세로형 블라인드에 사용합니다.",
   "./assets/device/classes/boiler.json@title": "보일러",
   "./assets/device/classes/boiler.json@description": "이 디바이스 클래스는 히트펌프 보일러, 가스 보일러, 온수 보일러, 중앙난방 보일러 등 모든 종류의 보일러에 사용합니다.",
+  "./assets/device/classes/bridge.json@title": "브릿지",
+  "./assets/device/classes/bridge.json@description": "이 제품 클래스는 다른 제품 또는 에코시스템에 연결하는 브릿지 또는 허브에 사용하세요.",
   "./assets/device/classes/button.json@title": "버튼",
   "./assets/device/classes/button.json@description": "이 디바이스 클래스는 리모컨 등 버튼이 있는 것에 사용합니다.",
   "./assets/device/classes/camera.json@title": "카메라",

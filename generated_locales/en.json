@@ -1037,6 +1037,8 @@
   "./assets/device/classes/blinds.json@description": "Use this device class for blinds, both horizontal and vertical.",
   "./assets/device/classes/boiler.json@title": "Boiler",
   "./assets/device/classes/boiler.json@description": "Use this device class for any kind of boiler, e.g. heatpump boiler, gas boiler, hot water boiler, central heating boiler.",
+  "./assets/device/classes/bridge.json@title": "Bridge",
+  "./assets/device/classes/bridge.json@description": "Use this device class for bridges or hubs that connect to other devices or ecosystems.",
   "./assets/device/classes/button.json@title": "Button",
   "./assets/device/classes/button.json@description": "Use this device class for buttons, such as a remote.",
   "./assets/device/classes/camera.json@title": "Camera",
