@@ -1000,6 +1000,8 @@
   "./assets/device/classes/blinds.json@description": "Brug denne enhedsklasse til persienner, både vandrette og lodrette.",
   "./assets/device/classes/boiler.json@title": "Kedel",
   "./assets/device/classes/boiler.json@description": "Brug denne enhedsklasse til enhver form for kedel, f.eks. varmepumpekedel, gaskedel, varmtvandskedel, centralvarmekedel.",
+  "./assets/device/classes/bridge.json@title": "Bridge",
+  "./assets/device/classes/bridge.json@description": "Brug denne enhedsklasse til broer eller hubs, der forbinder til andre enheder eller økosystemer.",
   "./assets/device/classes/button.json@title": "Knap",
   "./assets/device/classes/button.json@description": "Brug denne enhedsklasse til knapper, f-eks. en fjernbetjening.",
   "./assets/device/classes/camera.json@title": "Kamera",

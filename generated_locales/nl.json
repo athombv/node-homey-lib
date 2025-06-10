@@ -997,6 +997,8 @@
   "./assets/device/classes/blinds.json@title": "Jaloezieën & Lamellen",
   "./assets/device/classes/boiler.json@title": "Boiler",
   "./assets/device/classes/boiler.json@description": "Gebruik deze apparaatklasse voor elk type boiler, bijv. warmtepompboiler, gasketel, warmwaterboiler, cv-ketel.",
+  "./assets/device/classes/bridge.json@title": "Bridge",
+  "./assets/device/classes/bridge.json@description": "Gebruik deze apparaatklasse voor bridges of hubs die verbinding maken met andere apparaten of ecosystemen.",
   "./assets/device/classes/button.json@title": "Knop",
   "./assets/device/classes/camera.json@title": "Camera",
   "./assets/device/classes/camera.json@description": "Beveiligingscamera",

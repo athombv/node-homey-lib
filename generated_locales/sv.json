@@ -998,6 +998,8 @@
   "./assets/device/classes/blinds.json@description": "Använd den här enhetsklassen för persienner, både horisontella och vertikala.",
   "./assets/device/classes/boiler.json@title": "Värmepanna",
   "./assets/device/classes/boiler.json@description": "Använd den här enhetsklassen för alla typer av pannor, t.ex. värmepumpspannor, gaspannor, varmvattenpannor, centralvärmepannor.",
+  "./assets/device/classes/bridge.json@title": "Brygga",
+  "./assets/device/classes/bridge.json@description": "Använd den här enhetsklassen för bryggor eller hubbar som ansluter till andra enheter eller ekosystem.",
   "./assets/device/classes/button.json@title": "Knapp",
   "./assets/device/classes/button.json@description": "Använd den här enhetsklassen för knappar, som en fjärrkontroll.",
   "./assets/device/classes/camera.json@title": "Kamera",

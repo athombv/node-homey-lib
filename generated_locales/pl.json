@@ -1009,6 +1009,8 @@
   "./assets/device/classes/blinds.json@description": "Użyj tej klasy urządzeń dla rolet (poziomych i pionowych).",
   "./assets/device/classes/boiler.json@title": "Boiler",
   "./assets/device/classes/boiler.json@description": "Tej klasy urządzeń należy używać do każdego rodzaju boilera, np. z pompą ciepła, gazowego, na ciepłą wodę, centralnego ogrzewania.",
+  "./assets/device/classes/bridge.json@title": "Most",
+  "./assets/device/classes/bridge.json@description": "Tej klasy urządzeń należy używać w przypadku mostków lub hubów, które łączą się z innymi urządzeniami lub ekosystemami.",
   "./assets/device/classes/button.json@title": "Przycisk",
   "./assets/device/classes/button.json@description": "Użyj tej klasy urządzeń dla przycisków, np. pilota.",
   "./assets/device/classes/camera.json@title": "Kamera",
