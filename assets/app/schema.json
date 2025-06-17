@@ -262,11 +262,47 @@
                     "type": "array",
                     "items": {
                       "type": "object",
+                      "required": ["id"],
                       "properties": {
                         "id": {
                           "type": "string"
                         },
-                        "label": {
+                        "title": {
+                          "$ref": "#/definitions/i18nObject"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "required": ["name", "type", "values", "conjunction"],
+                "properties": {
+                  "title": {
+                    "$ref": "#/definitions/i18nObject"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": ["multiselect"]
+                  },
+                  "conjunction": {
+                    "type": "string",
+                    "enum": ["and", "or"]
+                  },
+                  "values": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "required": ["id", "title"],
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "title": {
                           "$ref": "#/definitions/i18nObject"
                         }
                       }
