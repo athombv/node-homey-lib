@@ -276,7 +276,7 @@
               },
               {
                 "type": "object",
-                "required": ["name", "type", "values"],
+                "required": ["name", "type", "values", "conjunction"],
                 "properties": {
                   "title": {
                     "$ref": "#/definitions/i18nObject"
@@ -289,7 +289,8 @@
                     "enum": ["multiselect"]
                   },
                   "conjunction": {
-                    "type": "string"
+                    "type": "string",
+                    "enum": ["and", "or"]
                   },
                   "values": {
                     "type": "array",
