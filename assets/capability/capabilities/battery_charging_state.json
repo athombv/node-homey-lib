@@ -11,7 +11,8 @@
     "sv": "Batteriets laddningsstatus",
     "es": "Estado de carga de la batería",
     "fr": "État de charge de la batterie",
-    "no": "Batteriladingsstatus"
+    "no": "Batteriladingsstatus",
+    "de": "Ladezustand der Batterie"
   },
   "desc": {
     "en": "The current charging state of the battery.",
@@ -95,7 +96,8 @@
           "sv": "Batteriets laddningsstatus har ändrats",
           "es": "El estado de carga de la batería ha cambiado",
           "fr": "L'état de charge de la batterie a changé",
-          "no": "Batteriladingsstatusen ble endret"
+          "no": "Batteriladingsstatusen ble endret",
+          "de": "Der Ladezustand der Batterie hat sich geändert"
         },
         "args": [
           {
@@ -120,7 +122,8 @@
           "sv": "Batteriets laddningsstatus är",
           "es": "El estado de carga de la batería es",
           "fr": "L'état de charge de la batterie est",
-          "no": "Batteriladingsstatusen er"
+          "no": "Batteriladingsstatusen er",
+          "de": "Der Ladezustand der Batterie ist"
         },
         "args": [
           {
