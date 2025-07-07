@@ -649,7 +649,7 @@
   "./assets/capability/capabilities/measure_humidity.json@desc": "습도(%)",
   "./assets/capability/capabilities/measure_humidity.json@$flow.triggers.0.title": "습도가 변경되면",
   "./assets/capability/capabilities/measure_luminance.json@title": "조도",
-  "./assets/capability/capabilities/measure_luminance.json@units": "lux",
+  "./assets/capability/capabilities/measure_luminance.json@units": "lx",
   "./assets/capability/capabilities/measure_luminance.json@desc": "휘도 럭스(lx)",
   "./assets/capability/capabilities/measure_luminance.json@$flow.triggers.0.title": "조도가 변경되면",
   "./assets/capability/capabilities/measure_moisture.json@title": "습기",
