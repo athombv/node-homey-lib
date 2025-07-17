@@ -151,18 +151,18 @@
       {
         "id": "evcharger_charging_state_is",
         "title": {
-          "en": "The EV charger charging state is",
-          "da": "Elbilopladerens opladningstilstand er",
-          "de": "Der Ladezustand der Ladestation für Elektrofahrzeuge ist",
-          "es": "El estado de carga del cargador del VE es",
-          "fr": "L'état de charge du chargeur VE est",
-          "it": "Lo stato di carica dell’alimentatore per veicoli elettrici è",
-          "ko": "현재 전기차 충전기 충전 상태",
-          "nl": "De oplaadstatus van de EV-lader is",
-          "no": "Elbilladerens ladestatus er",
-          "pl": "Stan ładowania ładowarki EV to",
-          "ru": "Состояние зарядки зарядного устройства для электромобилей:",
-          "sv": "Laddningsstatus för EV-laddaren är"
+          "en": "The EV charger charging state !{{is|is not}}",
+          "da": "Elbilopladerens opladningstilstand !{{er|er ikke}}",
+          "de": "Der Ladezustand der Ladestation für Elektrofahrzeuge !{{ist|ist nicht}}",
+          "es": "El estado de carga del cargador del VE !{{es|no es}}",
+          "fr": "L'état de charge du chargeur VE !{{est|n'est pas}}",
+          "it": "Lo stato di carica dell’alimentatore per veicoli elettrici !{{è|non è}}",
+          "ko": "현재 전기차 충전기 충전 상태가 !{{입니다|아닙니다}}",
+          "nl": "De oplaadstatus van de EV-lader !{{is|is niet}}",
+          "no": "Elbilladerens ladestatus !{{er|er ikke}}",
+          "pl": "Stan ładowania ładowarki EV !{{to|to nie}}",
+          "ru": "Состояние зарядки зарядного устройства для электромобилей !{{|не}}",
+          "sv": "Laddningsstatus för EV-laddaren !{{är|är inte}}"
         },
         "args": [
           {

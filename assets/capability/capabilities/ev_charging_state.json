@@ -150,18 +150,18 @@
       {
         "id": "ev_charging_state_is",
         "title": {
-          "en": "The battery charging state is",
-          "nl": "De oplaadstatus van de batterij is",
-          "da": "Batteriets opladningstilstand er",
-          "it": "Lo stato di carica della batteria è",
-          "ko": "현재 배터리 충전 상태",
-          "pl": "Stan ładowania akumulatora to",
-          "ru": "Состояние зарядки аккумулятора:",
-          "sv": "Batteriets laddningsstatus är",
-          "es": "El estado de carga de la batería es",
-          "fr": "L'état de charge de la batterie est",
-          "no": "Batteriladingsstatusen er",
-          "de": "Der Ladezustand des Akkus ist"
+          "en": "The battery charging state !{{is|is not}}",
+          "nl": "De oplaadstatus van de batterij !{{is|is niet}}",
+          "da": "Batteriets opladningstilstand !{{er|er ikke}}",
+          "it": "Lo stato di carica della batteria !{{è|non è}}",
+          "ko": "배터리 충전 상태가 !{{입니다|아닙니다}}",
+          "pl": "Stan ładowania baterii !{{to|to nie}}",
+          "ru": "Состояние зарядки аккумулятора !{{|не}}",
+          "sv": "Batteriets laddningsstatus !{{är|är inte}}",
+          "es": "El estado de carga de la batería !{{es|no es}}",
+          "fr": "L'état de charge de la batterie !{{est|n'est pas}}",
+          "no": "Batteriladingsstatusen !{{er|er ikke}}",
+          "de": "Der Ladezustand der Batterie !{{ist|ist nicht}}"
         },
         "args": [
           {
