@@ -1,17 +1,17 @@
 {
   "type": "number",
   "title": {
-    "en": "SO2",
-    "nl": "SO2",
-    "da": "SO2",
-    "it": "SO2",
+    "en": "SO₂",
+    "nl": "SO₂",
+    "da": "SO₂",
+    "it": "SO₂",
     "ko": "이산화황",
-    "pl": "SO2",
-    "ru": "SO2",
-    "sv": "SO2",
-    "es": "SO2",
-    "fr": "SO2",
-    "no": "SO2"
+    "pl": "SO₂",
+    "ru": "SO₂",
+    "sv": "SO₂",
+    "es": "SO₂",
+    "fr": "SO₂",
+    "no": "SO₂"
   },
   "units": {
     "en": "μg/m³",
@@ -51,17 +51,17 @@
       {
         "id": "measure_so2_changed",
         "title": {
-          "en": "The SO2 level has changed",
-          "nl": "Het SO2-niveau is veranderd",
-          "da": "SO2-værdien har ændret sig",
-          "it": "Il livello di SO2 è cambiato",
+          "en": "The SO₂ level has changed",
+          "nl": "Het SO₂-niveau is veranderd",
+          "da": "SO₂-værdien har ændret sig",
+          "it": "Il livello di SO₂ è cambiato",
           "ko": "이산화황 수준이 변경되면",
-          "no": "SO2-nivået er endret",
-          "pl": "Zmienił się poziom SO2",
-          "ru": "Значение SO2 изменилось",
-          "sv": "SO2-värdet har ändrats",
-          "es": "El nivel de SO2 ha cambiado",
-          "fr": "La valeur du SO2 a changé"
+          "no": "SO₂-nivået er endret",
+          "pl": "Zmienił się poziom SO₂",
+          "ru": "Значение SO₂ изменилось",
+          "sv": "SO₂-värdet har ändrats",
+          "es": "El nivel de SO₂ ha cambiado",
+          "fr": "La valeur du SO₂ a changé"
         },
         "tokens": [
           {
