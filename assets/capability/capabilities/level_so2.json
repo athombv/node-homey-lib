@@ -1,17 +1,17 @@
 {
   "type": "enum",
   "title": {
-    "en": "SO2 Level",
-    "nl": "SO2-Niveau",
-    "da": "SO2-niveau",
-    "it": "Livello di SO2",
+    "en": "SO₂ Level",
+    "nl": "SO₂-Niveau",
+    "da": "SO₂-niveau",
+    "it": "Livello di SO₂",
     "ko": "이산화황 수준",
-    "pl": "Poziom SO2",
-    "ru": "Уровень SO2",
-    "sv": "SO2-nivå",
-    "es": "Nivel de SO2",
-    "fr": "Niveau de SO2",
-    "no": "SO2-nivå"
+    "pl": "Poziom SO₂",
+    "ru": "Уровень SO₂",
+    "sv": "SO₂-nivå",
+    "es": "Nivel de SO₂",
+    "fr": "Niveau de SO₂",
+    "no": "SO₂-nivå"
   },
   "desc": {
     "en": "The level of sulfur dioxide in the air.",
@@ -102,17 +102,17 @@
         "id": "level_so2_changed",
         "highlight": true,
         "title": {
-          "en": "The SO2 level changed to",
-          "nl": "Het SO2-niveau is veranderd naar",
-          "da": "SO2-niveauet blev ændret til",
-          "it": "Il livello di SO2 è passato a",
+          "en": "The SO₂ level changed to",
+          "nl": "Het SO₂-niveau is veranderd naar",
+          "da": "SO₂-niveauet blev ændret til",
+          "it": "Il livello di SO₂ è passato a",
           "ko": "이산화황 수준이 다음으로 변경되면",
-          "pl": "Poziom SO2 zmienił się na",
-          "ru": "Уровень SO2 изменился yf",
-          "sv": "SO2-nivån ändrades till",
-          "es": "El nivel de SO2",
-          "fr": "Le niveau de SO2 est passé à",
-          "no": "SO2-nivået ble endret til"
+          "pl": "Poziom SO₂ zmienił się na",
+          "ru": "Уровень SO₂ изменился yf",
+          "sv": "SO₂-nivån ändrades till",
+          "es": "El nivel de SO₂",
+          "fr": "Le niveau de SO₂ est passé à",
+          "no": "SO₂-nivået ble endret til"
         },
         "args": [
           {
@@ -127,17 +127,17 @@
       {
         "id": "level_so2_is",
         "title": {
-          "en": "The SO2 level !{{is|is not}}",
-          "nl": "Het SO2-niveau !{{is|is niet}}",
-          "da": "SO2-niveauet !{{er|er ikke}}",
-          "it": "Il livello di SO2 !{{è|non è}}",
+          "en": "The SO₂ level !{{is|is not}}",
+          "nl": "Het SO₂-niveau !{{is|is niet}}",
+          "da": "SO₂-niveauet !{{er|er ikke}}",
+          "it": "Il livello di SO₂ !{{è|non è}}",
           "ko": "이산화황 수준이 다음!{{이면|이 아니면}}",
-          "pl": "Poziom SO2 !{{jest|nie jest}}",
-          "ru": "Уровень SO2 !{{|не}}",
-          "sv": "SO2-nivån !{{är|är inte}}",
-          "es": "El nivel de SO2 !{{es|no es}}",
-          "fr": "Le niveau de SO2 !{{est|n'est pas}}",
-          "no": "SO2-nivået !{{er|er ikke}}"
+          "pl": "Poziom SO₂ !{{jest|nie jest}}",
+          "ru": "Уровень SO₂ !{{|не}}",
+          "sv": "SO₂-nivån !{{är|är inte}}",
+          "es": "El nivel de SO₂ !{{es|no es}}",
+          "fr": "Le niveau de SO₂ !{{est|n'est pas}}",
+          "no": "SO₂-nivået !{{er|er ikke}}"
         },
         "args": [
           {

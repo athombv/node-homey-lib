@@ -1,30 +1,30 @@
 {
   "type": "enum",
   "title": {
-    "en": "CO2 Level",
-    "nl": "CO2-niveau",
-    "da": "CO2-niveau",
-    "it": "Livello di CO2",
-    "ko": "이산화탄소(CO2) 수준",
-    "pl": "Poziom CO2",
-    "ru": "Уровень CO2",
-    "sv": "CO2-nivå",
-    "es": "Nivel de CO2",
-    "fr": "Niveau de CO2",
-    "no": "CO2-nivå"
+    "en": "CO₂ Level",
+    "nl": "CO₂-niveau",
+    "da": "CO₂-niveau",
+    "it": "Livello di CO₂",
+    "ko": "이산화탄소(CO₂) 수준",
+    "pl": "Poziom CO₂",
+    "ru": "Уровень CO₂",
+    "sv": "CO₂-nivå",
+    "es": "Nivel de CO₂",
+    "fr": "Niveau de CO₂",
+    "no": "CO₂-nivå"
   },
   "desc": {
-    "en": "The level of CO2 in the air.",
-    "nl": "De mate van CO2 in de lucht.",
-    "da": "Niveauet af CO2 i luften.",
-    "it": "Il livello di CO2 nell'aria.",
-    "ko": "공기 중 CO2의 수준입니다.",
+    "en": "The level of CO₂ in the air.",
+    "nl": "De mate van CO₂ in de lucht.",
+    "da": "Niveauet af CO₂ i luften.",
+    "it": "Il livello di CO₂ nell'aria.",
+    "ko": "공기 중 CO₂의 수준입니다.",
     "pl": "Poziom dwutlenku węgla w powietrzu.",
-    "ru": "Уровень содержания CO2 в воздухе.",
-    "sv": "Halten av CO2 i luften.",
-    "es": "El nivel de CO2 en el aire.",
-    "fr": "Le niveau de CO2 dans l'air.",
-    "no": "Nivået av CO2 i luften."
+    "ru": "Уровень содержания CO₂ в воздухе.",
+    "sv": "Halten av CO₂ i luften.",
+    "es": "El nivel de CO₂ en el aire.",
+    "fr": "Le niveau de CO₂ dans l'air.",
+    "no": "Nivået av CO₂ i luften."
   },
   "values": [
     {
@@ -102,17 +102,17 @@
         "id": "level_co2_changed",
         "highlight": true,
         "title": {
-          "en": "The CO2 level changed to",
-          "nl": "Het CO2-niveau is veranderd naar",
-          "da": "CO2-niveauet blev ændret til",
-          "it": "Il livello di CO2 è passato a",
-          "ko": "이산화탄소(CO2) 수준이 다음으로 변경되면",
-          "pl": "Poziom CO2 zmienił się na",
-          "ru": "Уровень CO2 изменился на",
-          "sv": "CO2-nivån ändrades till",
-          "es": "El nivel de CO2 ha cambiado a",
-          "fr": "Le niveau de CO2 est passé à",
-          "no": "CO2-nivået ble endret til"
+          "en": "The CO₂ level changed to",
+          "nl": "Het CO₂-niveau is veranderd naar",
+          "da": "CO₂-niveauet blev ændret til",
+          "it": "Il livello di CO₂ è passato a",
+          "ko": "이산화탄소(CO₂) 수준이 다음으로 변경되면",
+          "pl": "Poziom CO₂ zmienił się na",
+          "ru": "Уровень CO₂ изменился на",
+          "sv": "CO₂-nivån ändrades till",
+          "es": "El nivel de CO₂ ha cambiado a",
+          "fr": "Le niveau de CO₂ est passé à",
+          "no": "CO₂-nivået ble endret til"
         },
         "args": [
           {
@@ -127,17 +127,17 @@
       {
         "id": "level_co2_is",
         "title": {
-          "en": "The CO2 level !{{is|is not}}",
-          "nl": "Het CO2-niveau !{{is|is niet}}",
-          "da": "CO2-niveauet !{{er|er ikke}}",
-          "it": "Il livello di CO2 !{{è|non è}}",
-          "ko": "이산화탄소(CO2) 수준이 다음!{{이면|이 아니면}}",
-          "pl": "Poziom CO2 !{{jest|nie jest}}",
-          "ru": "Уровень CO2 !{{|не}}",
-          "sv": "CO2-nivån !{{är|är inte}}",
-          "es": "El nivel de CO2 !{{es|no es}}",
-          "fr": "Le taux de CO2 !{{est|n'est pas}}",
-          "no": "CO2-nivået !{{er|er ikke}}"
+          "en": "The CO₂ level !{{is|is not}}",
+          "nl": "Het CO₂-niveau !{{is|is niet}}",
+          "da": "CO₂-niveauet !{{er|er ikke}}",
+          "it": "Il livello di CO₂ !{{è|non è}}",
+          "ko": "이산화탄소(CO₂) 수준이 다음!{{이면|이 아니면}}",
+          "pl": "Poziom CO₂ !{{jest|nie jest}}",
+          "ru": "Уровень CO₂ !{{|не}}",
+          "sv": "CO₂-nivån !{{är|är inte}}",
+          "es": "El nivel de CO₂ !{{es|no es}}",
+          "fr": "Le taux de CO₂ !{{est|n'est pas}}",
+          "no": "CO₂-nivået !{{er|er ikke}}"
         },
         "args": [
           {
