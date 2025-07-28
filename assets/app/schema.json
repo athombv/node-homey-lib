@@ -1022,6 +1022,13 @@
         "enum": ["nfc", "speaker", "ledring", "matter"]
       }
     },
+    "platformLocalOptionalFeatures": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["camerastreaming"]
+      }
+    },
     "tags": {
       "$ref": "#/definitions/i18nArray"
     },
