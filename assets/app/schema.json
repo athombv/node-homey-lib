@@ -1019,14 +1019,14 @@
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["nfc", "speaker", "ledring", "matter"]
+        "enum": ["nfc", "speaker", "ledring", "matter", "camera-streaming"]
       }
     },
     "platformLocalOptionalFeatures": {
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["camera-streaming"]
+        "enum": ["nfc", "speaker", "ledring", "matter", "camera-streaming"]
       }
     },
     "tags": {
