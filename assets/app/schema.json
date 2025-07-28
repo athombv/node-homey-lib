@@ -1026,7 +1026,7 @@
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["camerastreaming"]
+        "enum": ["camera-streaming"]
       }
     },
     "tags": {
