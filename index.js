@@ -1,11 +1,12 @@
 'use strict';
 
 module.exports.App = require('./lib/App');
-module.exports.Device = require('./lib/Device');
 module.exports.Capability = require('./lib/Capability');
-module.exports.Signal = require('./lib/Signal');
-module.exports.Media = require('./lib/Media');
+module.exports.Device = require('./lib/Device');
 module.exports.Energy = require('./lib/Energy');
+module.exports.Media = require('./lib/Media');
+module.exports.Signal = require('./lib/Signal');
+module.exports.Util = require('./lib/Util');
 
 module.exports.getDeviceClasses = module.exports.Device.getClasses.bind(module.exports.Device);
 module.exports.getDeviceClass = module.exports.Device.getClass.bind(module.exports.Device);
