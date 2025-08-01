@@ -16,7 +16,7 @@ This library can, among other things:
 - Return supported app permissions
 - Return supported app store categories
 
-See `/examples/` for how-to usage.
+See `/examples/` for how-to usage. 
 
 ## Translations
 
