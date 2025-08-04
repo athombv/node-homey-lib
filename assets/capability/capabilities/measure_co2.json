@@ -11,7 +11,7 @@
     "da": "CO₂",
     "ru": "CO₂",
     "pl": "CO₂",
-    "ko": "이산화탄소(CO₂)"
+    "ko": "CO₂"
   },
   "units": {
     "en": "ppm",
@@ -23,17 +23,17 @@
   "insights": true,
   "desc": {
     "en": "CO₂ in Parts-per-million (ppm)",
-    "nl": "CO₂ deeltjes per miljoen (ppm)",
-    "de": "CO₂ in Anteile pro Million (ppm)",
-    "fr": "Niveau de CO₂ en parts par million (ppm)",
+    "nl": "CO₂-deeltjes per miljoen (ppm)",
+    "de": "CO₂ in Parts per million (ppm)",
+    "fr": "CO₂ en parties par million (ppm)",
     "it": "Livello di CO₂ in parti per milione (ppm)",
-    "sv": "CO₂ i partiklar-per-miljon (ppm)",
+    "sv": "CO₂ i partiklar per miljon (ppm)",
     "no": "CO₂ i partikler per million (ppm)",
     "es": "CO₂ en partes por millón (ppm)",
     "da": "CO₂ i partikler-per-million (ppm)",
-    "ru": "CO₂ в частицах на миллион (ч./млн.)",
+    "ru": "CO₂ в частях на миллион (ч./млн)",
     "pl": "Stężenie dwutlenku węgla w części na milion (ppm)",
-    "ko": "CO₂ 백만분의일 농도(ppm)"
+    "ko": "CO₂ 백만분율(ppm)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -52,12 +52,12 @@
           "fr": "Le niveau de CO₂ a changé",
           "it": "Il livello di CO₂ è cambiato",
           "sv": "CO₂-nivån ändrades",
-          "no": "CO₂-nivet ble endret",
+          "no": "CO₂-nivået ble endret",
           "es": "El nivel de CO₂ ha cambiado",
           "da": "CO₂-niveauet har ændret sig",
-          "ru": "CO₂-уровень изменен",
+          "ru": "Уровень CO₂ изменился",
           "pl": "Zmienił się poziom CO₂",
-          "ko": "이산화탄소(CO₂) 수준 변경됨"
+          "ko": "CO₂ 수준이 변경되면"
         },
         "tokens": [
           {
