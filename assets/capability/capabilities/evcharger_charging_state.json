@@ -157,7 +157,7 @@
           "es": "El estado de carga del cargador del VE !{{es|no es}}",
           "fr": "L'état de charge du chargeur VE !{{est|n'est pas}}",
           "it": "Lo stato di carica dell’alimentatore per veicoli elettrici !{{è|non è}}",
-          "ko": "현재 전기차 충전기 충전 상태가 !{{입니다|아닙니다}}",
+          "ko": "전기차 충전기 충전 상태가 다음!{{과 같음|이 아님}}",
           "nl": "De oplaadstatus van de EV-lader !{{is|is niet}}",
           "no": "Elbilladerens ladestatus !{{er|er ikke}}",
           "pl": "Stan ładowania ładowarki EV !{{to|to nie}}",
