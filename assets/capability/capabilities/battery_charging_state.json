@@ -11,7 +11,7 @@
     "sv": "Batteriets laddningsstatus",
     "es": "Estado de carga de la batería",
     "fr": "État de charge de la batterie",
-    "no": "Batteriladingsstatus",
+    "no": "Batteriladestatus",
     "de": "Ladezustand der Batterie"
   },
   "desc": {
@@ -25,7 +25,7 @@
     "sv": "Batteriets aktuella laddningsstatus.",
     "es": "El estado de carga actual de la batería.",
     "fr": "L'état de charge actuel de la batterie.",
-    "no": "Batteriets nåværende ladingsstatus."
+    "no": "Batteriets nåværende ladestatus."
   },
   "values": [
     {
@@ -96,7 +96,7 @@
           "sv": "Batteriets laddningsstatus har ändrats",
           "es": "El estado de carga de la batería ha cambiado",
           "fr": "L'état de charge de la batterie a changé",
-          "no": "Batteriladingsstatusen ble endret",
+          "no": "Batteriladestatusen ble endret",
           "de": "Der Ladezustand der Batterie hat sich geändert"
         },
         "args": [
@@ -116,13 +116,13 @@
           "nl": "De oplaadstatus van de batterij !{{is|is niet}}",
           "da": "Batteriets opladningstilstand !{{er|er ikke}}",
           "it": "Lo stato di carica della batteria !{{è|non è}}",
-          "ko": "배터리 충전 상태가 !{{입니다|아닙니다}}",
+          "ko": "배터리 충전 상태가 다음!{{과 같음|이 아님}}",
           "pl": "Stan ładowania baterii !{{to|to nie}}",
           "ru": "Состояние зарядки аккумулятора !{{|не}}",
           "sv": "Batteriets laddningsstatus !{{är|är inte}}",
           "es": "El estado de carga de la batería !{{es|no es}}",
           "fr": "L'état de charge de la batterie !{{est|n'est pas}}",
-          "no": "Batteriladingsstatusen !{{er|er ikke}}",
+          "no": "Batteriladestatusen !{{er|er ikke}}",
           "de": "Der Ladezustand der Batterie !{{ist|ist nicht}}"
         },
         "args": [

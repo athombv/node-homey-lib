@@ -17,7 +17,7 @@
   "units": {
     "en": "lx",
     "ru": "лк",
-    "ko": "lux",
+    "ko": "lx",
     "no": "lx"
   },
   "insights": true,

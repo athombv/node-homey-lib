@@ -5,7 +5,7 @@
     "nl": "SO₂",
     "da": "SO₂",
     "it": "SO₂",
-    "ko": "이산화황",
+    "ko": "SO₂",
     "pl": "SO₂",
     "ru": "SO₂",
     "sv": "SO₂",
@@ -55,13 +55,13 @@
           "nl": "Het SO₂-niveau is veranderd",
           "da": "SO₂-værdien har ændret sig",
           "it": "Il livello di SO₂ è cambiato",
-          "ko": "이산화황 수준이 변경되면",
+          "ko": "SO₂ 수준이 변경되면",
           "no": "SO₂-nivået er endret",
           "pl": "Zmienił się poziom SO₂",
-          "ru": "Значение SO₂ изменилось",
-          "sv": "SO₂-värdet har ändrats",
+          "ru": "Уровень SO₂ изменился",
+          "sv": "SO₂-nivån har ändrats",
           "es": "El nivel de SO₂ ha cambiado",
-          "fr": "La valeur du SO₂ a changé"
+          "fr": "Le niveau de SO₂ a changé"
         },
         "tokens": [
           {
