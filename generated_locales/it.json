@@ -54,7 +54,7 @@
   "./assets/capability/capabilities/alarm_co2.json@insightsTitleFalse": "Allarme CO₂ disattivato",
   "./assets/capability/capabilities/alarm_co2.json@$flow.triggers.0.title": "L'allarme CO₂ è stato attivato",
   "./assets/capability/capabilities/alarm_co2.json@$flow.triggers.1.title": "L'allarme CO₂ è stato disattivato",
-  "./assets/capability/capabilities/alarm_co2.json@$flow.conditions.0.title": "L'allarme CO₂ è !{{acceso|spento}}",
+  "./assets/capability/capabilities/alarm_co2.json@$flow.conditions.0.title": "L'allarme CO₂ è !{{attivato|disattivato}}",
   "./assets/capability/capabilities/alarm_cold.json@title": "Allarme freddo",
   "./assets/capability/capabilities/alarm_cold.json@desc": "Vero quando la temperatura è troppo bassa.",
   "./assets/capability/capabilities/alarm_cold.json@insightsTitleTrue": "Allarme freddo acceso",
