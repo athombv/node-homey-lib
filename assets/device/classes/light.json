@@ -11,7 +11,8 @@
     "da": "Lys",
     "ru": "Лампа",
     "pl": "Oświetlenie",
-    "ko": "조명"
+    "ko": "조명",
+    "ar": "ضوء"
   },
   "description": {
     "en": "Use this device class for lights, usually together with the `onoff`, `dim` and `light_*` capabilities.",
@@ -24,6 +25,7 @@
     "da": "Brug denne enhedsklasse til lys, normalt sammen med `onoff`, `dim` og `light_*` funktionerne.",
     "ru": "Используйте этот класс устройств для ламп, обычно вместе с функциями `onoff`,`dim` и `light_ *`.",
     "pl": "Użyj tej klasy urządzeń dla oświetlenia, zwykle razem ze zdolnościami `onoff`, `dim` oraz `light_*`.",
-    "ko": "이 디바이스 클래스는 보통 'onoff', 'dim', 'light_*' 기능을 갖춘 조명에 사용합니다."
+    "ko": "이 디바이스 클래스는 보통 'onoff', 'dim', 'light_*' 기능을 갖춘 조명에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه للأضواء، عادةً مع إمكانيات 'onoff'، 'dim' و 'light_*'."
   }
 }

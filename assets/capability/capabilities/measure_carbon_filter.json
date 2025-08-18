@@ -11,7 +11,8 @@
     "sv": "Kolfilter",
     "es": "Filtro de carbono",
     "fr": "Filtre à charbon",
-    "no": "Karbonfilter"
+    "no": "Karbonfilter",
+    "ar": "فلتر الكربون"
   },
   "units": {
     "en": "%",
@@ -24,7 +25,8 @@
     "sv": "%",
     "es": "%",
     "fr": " %",
-    "no": "%"
+    "no": "%",
+    "ar": "%"
   },
   "desc": {
     "en": "The carbon filter level in percent.",
@@ -37,7 +39,8 @@
     "sv": "Kolfilternivån i procent.",
     "es": "El nivel del filtro de carbono en porcentaje.",
     "fr": "Le niveau du filtre à charbon en pourcentage.",
-    "no": "Karbonfilternivået i prosent."
+    "no": "Karbonfilternivået i prosent.",
+    "ar": "مستوى فلتر الكربون بالنسبة المئوية."
   },
   "min": 0,
   "max": 100,
@@ -62,7 +65,8 @@
           "sv": "Kolfilternivån ändrades",
           "es": "El nivel del filtro de carbono ha cambiado",
           "fr": "Le niveau du filtre à charbon est passé à",
-          "no": "Karbonfilternivået ble endret"
+          "no": "Karbonfilternivået ble endret",
+          "ar": "تم تغيير مستوى فلتر الكربون"
         },
         "tokens": [
           {

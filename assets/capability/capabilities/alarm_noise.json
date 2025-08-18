@@ -11,7 +11,8 @@
     "ru": "Сигнал шума",
     "sv": "Bullerlarm",
     "es": "Alarma de ruido",
-    "fr": "Alarme sonore"
+    "fr": "Alarme sonore",
+    "ar": "إنذار الضوضاء"
   },
   "desc": {
     "en": "True when sound is detected.",
@@ -24,7 +25,8 @@
     "ru": "Значение «истина» при обнаружении звука.",
     "sv": "Sant när ljud detekteras.",
     "es": "Activado cuando se detecta sonido.",
-    "fr": "Se déclenche lorsque du son est détecté."
+    "fr": "Se déclenche lorsque du son est détecté.",
+    "ar": "صحيح عند اكتشاف صوت."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "ru": "Сигнал шума включен",
     "sv": "Bullerlarm aktiverat",
     "es": "Alarma de ruido activada",
-    "fr": "Alarme sonore activée"
+    "fr": "Alarme sonore activée",
+    "ar": "تم تشغيل إنذار الضوضاء"
   },
   "insightsTitleFalse": {
     "en": "Noise Alarm turned off",
@@ -51,7 +54,8 @@
     "ru": "Сигнал шума выключен",
     "sv": "Bullerlarm inaktiverat",
     "es": "Alarma de ruido desactivada",
-    "fr": "Alarme sonore désactivée"
+    "fr": "Alarme sonore désactivée",
+    "ar": "تم إيقاف إنذار الضوضاء"
   },
   "color": "#F7B500",
   "getable": true,
@@ -73,7 +77,8 @@
           "ru": "Сигнал шума включен",
           "sv": "Bullerlarm aktiverat",
           "es": "La alarma de ruido se ha activado",
-          "fr": "L'alarme sonore s'est activée"
+          "fr": "L'alarme sonore s'est activée",
+          "ar": "تم تشغيل إنذار الضوضاء"
         }
       },
       {
@@ -89,7 +94,8 @@
           "ru": "Сигнал шума выключен",
           "sv": "Bullerlarm inaktiverat",
           "es": "La alarma de ruido se ha desactivado",
-          "fr": "L'alarme sonore s'est désactivée"
+          "fr": "L'alarme sonore s'est désactivée",
+          "ar": "تم إيقاف إنذار الضوضاء"
         }
       }
     ],
@@ -107,7 +113,8 @@
           "ru": "Сигнал шума !{{включен|выключен}}",
           "sv": "Bullerlarmet är aktiverat !{{på|av}}",
           "es": "La alarma de ruido está !{{activada|desactivada}}",
-          "fr": "L'alarme sonore est !{{activée|désactivée}}"
+          "fr": "L'alarme sonore est !{{activée|désactivée}}",
+          "ar": "إنذار الضوضاء !{{يعمل|لا يعمل}}"
         }
       }
     ]

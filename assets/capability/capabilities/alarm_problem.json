@@ -11,7 +11,8 @@
     "ru": "Сигнал о проблеме",
     "sv": "Problemlarm",
     "es": "Alarma de problema",
-    "fr": "Alarme de problème"
+    "fr": "Alarme de problème",
+    "ar": "إنذار وجود مشكلة"
   },
   "desc": {
     "en": "True when a problem is detected.",
@@ -24,7 +25,8 @@
     "ru": "Значение «истина» при обнаружении проблемы.",
     "sv": "Sant när ett problem upptäcks.",
     "es": "Activado cuando se detecta un problema.",
-    "fr": "Se déclenche lorsqu'un problème est détecté."
+    "fr": "Se déclenche lorsqu'un problème est détecté.",
+    "ar": "صحيح عند اكتشاف مشكلة."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "ru": "Была обнаружена проблема",
     "sv": "Ett problem har upptäckts",
     "es": "Problema detectado",
-    "fr": "Un problème a été détecté"
+    "fr": "Un problème a été détecté",
+    "ar": "تم اكتشاف مشكلة"
   },
   "insightsTitleFalse": {
     "en": "Problem solved",
@@ -51,7 +54,8 @@
     "ru": "Проблема решена",
     "sv": "Problemet är löst",
     "es": "Problema resuelto",
-    "fr": "Problème résolu"
+    "fr": "Problème résolu",
+    "ar": "تم حل المشكلة"
   },
   "color": "#9033FC",
   "getable": true,
@@ -73,7 +77,8 @@
           "ru": "Обнаружена проблема",
           "sv": "Ett problem har upptäckts",
           "es": "Se ha detectado un problema",
-          "fr": "Un problème est détecté"
+          "fr": "Un problème est détecté",
+          "ar": "تم اكتشاف مشكلة"
         }
       },
       {
@@ -89,7 +94,8 @@
           "ru": "Проблема решена",
           "sv": "Problemet är löst",
           "es": "Se ha resuelto el problema",
-          "fr": "Le problème est résolu"
+          "fr": "Le problème est résolu",
+          "ar": "تم حل المشكلة"
         }
       }
     ],
@@ -107,7 +113,8 @@
           "ru": "!{{есть проблема|проблемы нет}}",
           "sv": "Det !{{är|är inte}} ett problem",
           "es": "!{{Hay un problema|No hay ningún problema}}",
-          "fr": "Il !{{y a un problème|n'y a pas de problème}}"
+          "fr": "Il !{{y a un problème|n'y a pas de problème}}",
+          "ar": "يوجد !{{مشكلة|لا توجد مشكلة}}"
         }
       }
     ]

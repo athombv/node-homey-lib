@@ -11,7 +11,8 @@
     "ru": "Сигнал о заклинивании",
     "sv": "Larm om fastnat",
     "es": "Alarma de atasco",
-    "fr": "Alarme d'appareil bloqué"
+    "fr": "Alarme d'appareil bloqué",
+    "ar": "إنذار العالق"
   },
   "desc": {
     "en": "True when the device is stuck.",
@@ -24,7 +25,8 @@
     "ru": "Значение «истина», когда устройство заклинило.",
     "sv": "Sant när enheten har fastnat.",
     "es": "Activado cuando el dispositivo está atascado.",
-    "fr": "Se déclenche lorsque l'appareil est bloqué."
+    "fr": "Se déclenche lorsque l'appareil est bloqué.",
+    "ar": "صحيح عندما يكون الجهاز عالقاً."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "ru": "Заклинило",
     "sv": "Var fast",
     "es": "Estaba atascado",
-    "fr": "Était bloqué"
+    "fr": "Était bloqué",
+    "ar": "كان عالقاً"
   },
   "insightsTitleFalse": {
     "en": "Was no longer stuck",
@@ -51,7 +54,8 @@
     "ru": "Больше не заклинено",
     "sv": "Var inte längre fast",
     "es": "Ya no estaba atascado",
-    "fr": "N'était plus bloqué"
+    "fr": "N'était plus bloqué",
+    "ar": "لم يعد عالقاً"
   },
   "color": "#9033FC",
   "getable": true,
@@ -73,7 +77,8 @@
           "ru": "Заклинено",
           "sv": "Är fast",
           "es": "Está atascado",
-          "fr": "Est bloqué"
+          "fr": "Est bloqué",
+          "ar": "عالق"
         }
       },
       {
@@ -89,7 +94,8 @@
           "ru": "Больше не заклинено",
           "sv": "Är inte längre fast",
           "es": "Ya no está atascado",
-          "fr": "N'est plus bloqué"
+          "fr": "N'est plus bloqué",
+          "ar": "لم يعد عالقاً"
         }
       }
     ],
@@ -107,7 +113,8 @@
           "ru": "Устройство !{{заклинено|не заклинено}}",
           "sv": "Är !{{fast|inte fast}}",
           "es": "!{{Está atascado|No está atascado}}",
-          "fr": "Est !{{connectée|déconnectée}}"
+          "fr": "Est !{{connectée|déconnectée}}",
+          "ar": "هو !{{عالق|غير عالق}}"
         }
       }
     ]

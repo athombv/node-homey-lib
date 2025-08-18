@@ -11,7 +11,8 @@
     "sv": "SO₂-nivå",
     "es": "Nivel de SO₂",
     "fr": "Niveau de SO₂",
-    "no": "SO₂-nivå"
+    "no": "SO₂-nivå",
+    "ar": "مستوى SO₂"
   },
   "desc": {
     "en": "The level of sulfur dioxide in the air.",
@@ -24,7 +25,8 @@
     "sv": "Halten av svaveldioxid i luften.",
     "es": "El nivel de dióxido de azufre en el aire.",
     "fr": "Le niveau de dioxyde de soufre dans l'air.",
-    "no": "Nivået av svoveldioksid i luften."
+    "no": "Nivået av svoveldioksid i luften.",
+    "ar": "مستوى ثاني أكسيد الكبريت في الهواء."
   },
   "values": [
     {
@@ -40,7 +42,8 @@
         "sv": "Låg",
         "es": "Bajo",
         "fr": "Faible",
-        "no": "Lavt"
+        "no": "Lavt",
+        "ar": "منخفض"
       }
     },
     {
@@ -56,7 +59,8 @@
         "sv": "Medium",
         "es": "Intermedio",
         "fr": "Moyen",
-        "no": "Middels"
+        "no": "Middels",
+        "ar": "متوسط"
       }
     },
     {
@@ -72,7 +76,8 @@
         "sv": "Hög",
         "es": "Alto",
         "fr": "Élevé",
-        "no": "Høyt"
+        "no": "Høyt",
+        "ar": "عالي"
       }
     },
     {
@@ -88,7 +93,8 @@
         "sv": "Kritisk",
         "es": "Crítico",
         "fr": "\n",
-        "no": "Kritisk"
+        "no": "Kritisk",
+        "ar": "حرج"
       }
     }
   ],
@@ -112,7 +118,8 @@
           "sv": "SO₂-nivån ändrades till",
           "es": "El nivel de SO₂ ha cambiado a",
           "fr": "Le niveau de SO₂ est passé à",
-          "no": "SO₂-nivået ble endret til"
+          "no": "SO₂-nivået ble endret til",
+          "ar": "تم تغيير مستوى ثاني أكسيد الكبريت إلى"
         },
         "args": [
           {
@@ -137,7 +144,8 @@
           "sv": "SO₂-nivån !{{är|är inte}}",
           "es": "El nivel de SO₂ !{{es|no es}}",
           "fr": "Le niveau de SO₂ !{{est|n'est pas}}",
-          "no": "SO₂-nivået !{{er|er ikke}}"
+          "no": "SO₂-nivået !{{er|er ikke}}",
+          "ar": "مستوى ثاني أكسيد الكبريت !{{هو|ليس}}"
         },
         "args": [
           {

@@ -11,7 +11,8 @@
     "da": "Kunstner",
     "ru": "Исполнитель",
     "pl": "Wykonawca",
-    "ko": "아티스트"
+    "ko": "아티스트",
+    "ar": "الفنان"
   },
   "type": "string",
   "color": "#9033FC",
@@ -34,7 +35,8 @@
           "da": "Kunstneren skiftede",
           "ru": "Исполнитель изменен",
           "pl": "Zmiana wykonawcy",
-          "ko": "아티스트가 변경되면"
+          "ko": "아티스트가 변경되면",
+          "ar": "تم تغيير الفنان"
         },
         "tokens": [
           {

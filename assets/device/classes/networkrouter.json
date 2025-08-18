@@ -11,7 +11,8 @@
     "no": "Nettverksruter",
     "pl": "Router sieciowy",
     "ru": "Сетевой маршрутизатор",
-    "sv": "Nätverksrouter"
+    "sv": "Nätverksrouter",
+    "ar": "جهاز توجيه الشبكة"
   },
   "description": {
     "en": "Use this device class for routers or modems.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for rutere eller modemer.",
     "pl": "Tej klasy urządzeń należy używać w przypadku routerów lub modemów.",
     "ru": "Используйте этот класс устройств для маршрутизаторов или модемов.",
-    "sv": "Använd den här enhetsklassen för routrar eller modem."
+    "sv": "Använd den här enhetsklassen för routrar eller modem.",
+    "ar": "استخدم فئة الجهاز هذه لأجهزة التوجيه أو المودم."
   },
   "minCompatibility": "12.0.0"
 }

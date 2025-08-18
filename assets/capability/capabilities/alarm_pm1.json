@@ -12,7 +12,8 @@
     "da": "PM1-alarm",
     "ru": "Сигнал ТЧ1",
     "pl": "Alarm PM1",
-    "ko": "극초미세먼지(PM1.0) 알람"
+    "ko": "극초미세먼지(PM1.0) 알람",
+    "ar": "إنذار PM1"
   },
   "desc": {
     "en": "True when PM1 values exceeds threshold",
@@ -26,7 +27,8 @@
     "da": "Sandt, når PM1-værdier overskrider grænseværdien",
     "ru": "Значение «истина» при превышении контрольного значения ТЧ1",
     "pl": "Prawda, gdy wartości PM1 przekraczają próg",
-    "ko": "PM1 값이 임계값을 초과하면 참"
+    "ko": "PM1 값이 임계값을 초과하면 참",
+    "ar": "صحيح عندما تتجاوز قيم PM1 الحد"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "da": "PM1-alarm blev aktiveret",
     "ru": "Сигнал ТЧ1 включен",
     "pl": "Alarm PM1 włączony",
-    "ko": "극초미세먼지(PM1.0) 알람 켜짐"
+    "ko": "극초미세먼지(PM1.0) 알람 켜짐",
+    "ar": "تم تشغيل إنذار PM1"
   },
   "insightsTitleFalse": {
     "en": "PM1 alarm turned off",
@@ -55,7 +58,8 @@
     "da": "PM1-alarm blev deaktiveret",
     "ru": "Сигнал ТЧ1 выключен",
     "pl": "Alarm PM1 wyłączony",
-    "ko": "극초미세먼지(PM1.0) 알람 꺼짐"
+    "ko": "극초미세먼지(PM1.0) 알람 꺼짐",
+    "ar": "تم إيقاف إنذار PM1"
   },
   "color": "#E02020",
   "getable": true,
@@ -78,7 +82,8 @@
           "da": "PM1-alarmen blev aktiveret",
           "ru": "Сигнал ТЧ1 включен",
           "pl": "Włączył się alarm PM1",
-          "ko": "극초미세먼지(PM1.0) 알람이 '예'이면"
+          "ko": "극초미세먼지(PM1.0) 알람이 '예'이면",
+          "ar": "تم تشغيل إنذار PM1"
         }
       },
       {
@@ -95,7 +100,8 @@
           "da": "PM1-alarmen blev deaktiveret",
           "ru": "Сигнал ТЧ1 выключен",
           "pl": "Wyłączył się alarm PM1",
-          "ko": "극초미세먼지(PM1.0) 알람이 '아니요'이면"
+          "ko": "극초미세먼지(PM1.0) 알람이 '아니요'이면",
+          "ar": "تم إيقاف إنذار PM1"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "da": "PM1-alarmen er !{{tændt|slukket}}",
           "ru": "Сигнал ТЧ1 !{{включен|выключен}}",
           "pl": "Alarm PM1 jest !{{włączony|wyłączony}}",
-          "ko": "극초미세먼지(PM1.0) 알람이 !{{'예'|'아니요'}}이면"
+          "ko": "극초미세먼지(PM1.0) 알람이 !{{'예'|'아니요'}}이면",
+          "ar": "إنذار PM1 !{{يعمل|لا يعمل}}"
         }
       }
     ]

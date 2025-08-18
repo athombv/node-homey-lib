@@ -11,7 +11,8 @@
     "sv": "Tvättmaskinens hastighet",
     "es": "Velocidad de centrifugado",
     "fr": "Vitesse du lave-linge",
-    "no": "Vaskehastighet"
+    "no": "Vaskehastighet",
+    "ar": "سرعة الغسالة"
   },
   "desc": {
     "en": "The spin speed of the laundry washer.",
@@ -24,7 +25,8 @@
     "sv": "Tvättmaskinens centrifugeringshastighet.",
     "es": "La velocidad de centrifugado de la lavadora.",
     "fr": "La vitesse d'essorage du lave-linge.",
-    "no": "Vaskemaskinens sentrifugehastighet."
+    "no": "Vaskemaskinens sentrifugehastighet.",
+    "ar": "سرعة الدوران للغسالة."
   },
   "values": [
     {
@@ -40,7 +42,8 @@
         "sv": "Låg",
         "es": "Baja",
         "fr": "Lente",
-        "no": "Lav"
+        "no": "Lav",
+        "ar": "منخفض"
       }
     },
     {
@@ -56,7 +59,8 @@
         "sv": "Medium",
         "es": "Intermedia",
         "fr": "Moyenne",
-        "no": "Middels"
+        "no": "Middels",
+        "ar": "متوسط"
       }
     },
     {
@@ -72,7 +76,8 @@
         "sv": "Hög",
         "es": "Alta",
         "fr": "Rapide",
-        "no": "Høy"
+        "no": "Høy",
+        "ar": "عالي"
       }
     }
   ],
@@ -96,7 +101,8 @@
           "sv": "Hastigheten ändrades till",
           "es": "La velocidad ha cambiado a",
           "fr": "La vitesse du lave-linge est passée à",
-          "no": "Hastigheten ble endret til"
+          "no": "Hastigheten ble endret til",
+          "ar": "تم تغيير السرعة إلى"
         },
         "args": [
           {
@@ -121,7 +127,8 @@
           "sv": "Hastigheten !{{är|är inte}}",
           "es": "La velocidad !{{está|no está}}",
           "fr": "La vitesse du lave-linge !{{est|n'est pas}}",
-          "no": "Hastigheten !{{er|er ikke}}"
+          "no": "Hastigheten !{{er|er ikke}}",
+          "ar": "السرعة !{{هي|ليست}}"
         },
         "args": [
           {
@@ -146,7 +153,8 @@
           "sv": "Ställ in hastigheten på",
           "es": "Ajustar la velocidad a",
           "fr": "Définir la vitesse du lave-linge sur",
-          "no": "Sett hastigheten til"
+          "no": "Sett hastigheten til",
+          "ar": "ضبط السرعة إلى"
         },
         "args": [
           {

@@ -12,7 +12,8 @@
     "ru": "ТЧ0.1",
     "pl": "PM0.1",
     "ko": "나노미세먼지(PM0.1)",
-    "da": "PM0.1"
+    "da": "PM0.1",
+    "ar": "PM0.1"
   },
   "units": {
     "en": "μg/m³",
@@ -25,7 +26,8 @@
     "pl": "μg/m³",
     "sv": "μg/m³",
     "es": "μg/m³",
-    "fr": "μg/m³"
+    "fr": "μg/m³",
+    "ar": "μg/m³"
   },
   "insights": true,
   "desc": {
@@ -40,7 +42,8 @@
     "da": "Atmosfæriske partikler (μg/m³)",
     "ru": "Твердые частицы в воздухе (мкг/м³)",
     "pl": "Pył zawieszony w powietrzu (μg/m³)",
-    "ko": "대기 중 미세입자 수(μg/m³)"
+    "ko": "대기 중 미세입자 수(μg/m³)",
+    "ar": "الجسيمات المعلقة في الغلاف الجوي (μg/m³)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -64,7 +67,8 @@
           "da": "PM0.1-værdien har ændret sig",
           "ru": "Значение ТЧ0.1 изменилось",
           "pl": "Zmieniła się wartość PM0.1",
-          "ko": "나노미세먼지(PM0.1) 값이 변경되면"
+          "ko": "나노미세먼지(PM0.1) 값이 변경되면",
+          "ar": "تم تغيير قيمة PM0.1"
         },
         "tokens": [
           {

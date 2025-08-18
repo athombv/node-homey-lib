@@ -11,7 +11,8 @@
     "sv": "Tvättmaskinsprogram",
     "es": "Programa de lavado",
     "fr": "Programme du lave-linge",
-    "no": "Vaskemaskinprogram"
+    "no": "Vaskemaskinprogram",
+    "ar": "برنامج الغسالة"
   },
   "desc": {
     "en": "The current program of the laundry washer.",
@@ -24,7 +25,8 @@
     "sv": "Tvättmaskinens aktuella program.",
     "es": "El programa actual de la lavadora.",
     "fr": "Le programme actuel du lave-linge.",
-    "no": "Vaskemaskinens gjeldende program."
+    "no": "Vaskemaskinens gjeldende program.",
+    "ar": "البرنامج الحالي للغسالة."
   },
   "values": [
     {
@@ -40,7 +42,8 @@
         "sv": "Normal",
         "es": "Normal",
         "fr": "Normal",
-        "no": "Normalt"
+        "no": "Normalt",
+        "ar": "عادي"
       }
     },
     {
@@ -56,7 +59,8 @@
         "sv": "Auto",
         "es": "Automático",
         "fr": "Automatique",
-        "no": "Automatisk"
+        "no": "Automatisk",
+        "ar": "تلقائي"
       }
     },
     {
@@ -72,7 +76,8 @@
         "sv": "Snabbt",
         "es": "Rápido",
         "fr": "Rapide",
-        "no": "Hurtig"
+        "no": "Hurtig",
+        "ar": "سريع"
       }
     },
     {
@@ -88,7 +93,8 @@
         "sv": "Tungt",
         "es": "Intensivo",
         "fr": "Long",
-        "no": "Kraftig"
+        "no": "Kraftig",
+        "ar": "ثقيل"
       }
     },
     {
@@ -104,7 +110,8 @@
         "sv": "Vittvätt",
         "es": "Blancos",
         "fr": "Blancs",
-        "no": "Hvitvask"
+        "no": "Hvitvask",
+        "ar": "أبيض"
       }
     }
   ],
@@ -128,7 +135,8 @@
           "sv": "Programmet ändrades till",
           "es": "El programa ha cambiado a",
           "fr": "Le programme du lave-linge est passé à",
-          "no": "Programmet ble endret til"
+          "no": "Programmet ble endret til",
+          "ar": "تم تغيير البرنامج إلى"
         },
         "args": [
           {
@@ -153,7 +161,8 @@
           "sv": "Programmet !{{är|är inte}}",
           "es": "El programa !{{está|no está}}",
           "fr": "Le programme du lave-linge !{{est|n'est pas}}",
-          "no": "Programmet !{{er|er ikke}}"
+          "no": "Programmet !{{er|er ikke}}",
+          "ar": "البرنامج !{{هو|ليس}}"
         },
         "args": [
           {

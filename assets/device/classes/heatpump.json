@@ -11,7 +11,8 @@
     "no": "Varmepumpe",
     "pl": "Pompa ciepła",
     "ru": "Тепловой насос",
-    "sv": "Värmepump"
+    "sv": "Värmepump",
+    "ar": "مضخة حرارية"
   },
   "description": {
     "en": "Use this device class for heat pumps.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for varmepumper.",
     "pl": "Tej klasy urządzeń należy używać w przypadku pomp ciepła.",
     "ru": "Используйте этот класс устройств для тепловых насосов.",
-    "sv": "Använd den här enhetsklassen för värmepumpar."
+    "sv": "Använd den här enhetsklassen för värmepumpar.",
+    "ar": "استخدم فئة الجهاز هذه للمضخات الحرارية."
   },
   "minCompatibility": "12.0.0"
 }

@@ -11,7 +11,8 @@
     "da": "CO₂-alarm",
     "ru": "Сигнал CO₂",
     "pl": "Alarm CO₂",
-    "ko": "CO₂ 알람"
+    "ko": "CO₂ 알람",
+    "ar": "إنذار ثاني أكسيد الكربون"
   },
   "desc": {
     "en": "True when dangerous CO₂ values have been detected",
@@ -24,7 +25,8 @@
     "da": "Sandt, når farlige CO₂-værdier er blevet opdaget",
     "ru": "Значение «истина» при обнаружении опасных значений CO₂",
     "pl": "Prawda, gdy wykryto niebezpieczne wartości CO₂",
-    "ko": "위험한 CO₂ 값이 감지되면 참"
+    "ko": "위험한 CO₂ 값이 감지되면 참",
+    "ar": "صحيح عند اكتشاف قيم خطيرة لثاني أكسيد الكربون"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -39,7 +41,8 @@
     "da": "CO₂-alarm aktiveret",
     "ru": "Сигнал CO₂ включен",
     "pl": "Alarm CO₂ włączony",
-    "ko": "CO₂ 알람 켜짐"
+    "ko": "CO₂ 알람 켜짐",
+    "ar": "تم تشغيل إنذار ثاني أكسيد الكربون"
   },
   "insightsTitleFalse": {
     "en": "CO₂ alarm turned off",
@@ -53,7 +56,8 @@
     "da": "CO₂-alarm deaktiveret",
     "ru": "Сигнал CO₂ выключен",
     "pl": "Alarm CO₂ wyłączony",
-    "ko": "CO₂ 알람 꺼짐"
+    "ko": "CO₂ 알람 꺼짐",
+    "ar": "تم إيقاف إنذار ثاني أكسيد الكربون"
   },
   "color": "#E02020",
   "getable": true,
@@ -76,7 +80,8 @@
           "da": "CO₂-alarmen blev aktiveret",
           "ru": "Сигнал CO₂ включен",
           "pl": "Alarm CO₂ włączony",
-          "ko": "CO₂ 알람이 켜지면"
+          "ko": "CO₂ 알람이 켜지면",
+          "ar": "تم تشغيل إنذار ثاني أكسيد الكربون"
         }
       },
       {
@@ -93,7 +98,8 @@
           "da": "CO₂-alarmen blev deaktiveret",
           "ru": "Сигнал CO₂ выключен",
           "pl": "Alarm CO₂ wyłączony",
-          "ko": "CO₂ 알람이 꺼지면"
+          "ko": "CO₂ 알람이 꺼지면",
+          "ar": "تم إيقاف إنذار ثاني أكسيد الكربون"
         }
       }
     ],
@@ -112,7 +118,8 @@
           "da": "CO₂-alarmen er !{{tændt|slukket}}",
           "ru": "Сигнал CO₂ !{{вкл.|выкл.}}",
           "pl": "Alarm CO₂ jest !{{włączony|wyłączony}}",
-          "ko": "CO₂ 알람이 !{{켜져 있으면|꺼져 있으면}}"
+          "ko": "CO₂ 알람이 !{{켜져 있으면|꺼져 있으면}}",
+          "ar": "إنذار ثاني أكسيد الكربون !{{يعمل|لا يعمل}}"
         }
       }
     ]

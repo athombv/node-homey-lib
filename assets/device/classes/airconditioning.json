@@ -11,7 +11,8 @@
     "no": "Klimaanlegg",
     "pl": "Klimatyzacja",
     "ru": "Кондиционер",
-    "sv": "Luftkonditionerare"
+    "sv": "Luftkonditionerare",
+    "ar": "مكيف هواء"
   },
   "description": {
     "en": "Use this device class for airconditioners, either portable or split type units.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for klimaanlegg av både flyttbar og fastmontert type.",
     "pl": "Tej klasy urządzeń należy używać do klimatyzatorów, zarówno przenośnych, jak i typu split.",
     "ru": "Используйте этот класс устройств для кондиционеров, как переносных, так и сплит-систем.",
-    "sv": "Använd denna enhetsklass för luftkonditioneringsapparater, antingen portabla eller enheter av split-typ."
+    "sv": "Använd denna enhetsklass för luftkonditioneringsapparater, antingen portabla eller enheter av split-typ.",
+    "ar": "استخدم فئة الجهاز هذه لمكيفات الهواء، سواء كانت محمولة أو وحدات منفصلة."
   },
   "minCompatibility": "12.0.0"
 }

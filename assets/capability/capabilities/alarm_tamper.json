@@ -12,7 +12,8 @@
     "da": "Sabotagealarm",
     "ru": "Противовзломный сигнал",
     "pl": "Alarm antyingerencyjny",
-    "ko": "변화 감지"
+    "ko": "변화 감지",
+    "ar": "إنذار العبث"
   },
   "desc": {
     "en": "True when tampering has been detected",
@@ -26,7 +27,8 @@
     "da": "Sandt, når sabotage er blevet opdaget",
     "ru": "Значение «истина» при обнаружении попытки взлома",
     "pl": "Adekwatny, kiedy wykryta zostanie ingerencja",
-    "ko": "변조가 감지되면 참"
+    "ko": "변조가 감지되면 참",
+    "ar": "صحيح عند اكتشاف عبث"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "da": "Sabotagealarm blev aktiveret",
     "ru": "Противовзломный сигнал включен",
     "pl": "Alarm antyingerencyjny włączony",
-    "ko": "변화 감지됨"
+    "ko": "변화 감지됨",
+    "ar": "تم تشغيل إنذار العبث"
   },
   "insightsTitleFalse": {
     "en": "Tamper alarm turned off",
@@ -55,7 +58,8 @@
     "da": "Sabotagealarm blev deaktiveret",
     "ru": "Противовзломный сигнал выключен",
     "pl": "Alarm antyingerencyjny wyłączony",
-    "ko": "정상"
+    "ko": "정상",
+    "ar": "تم إيقاف إنذار العبث"
   },
   "color": "#9033FC",
   "getable": true,
@@ -78,7 +82,8 @@
           "da": "Sabotagealarmen blev aktiveret",
           "ru": "Противовзломный сигнал включен",
           "pl": "Alarm antyingerencyjny włączony",
-          "ko": "변화가 감지되면"
+          "ko": "변화가 감지되면",
+          "ar": "تم تشغيل إنذار العبث"
         }
       },
       {
@@ -95,7 +100,8 @@
           "da": "Sabotagealarmen blev deaktiveret",
           "ru": "Противовзломный сигнал выключен",
           "pl": "Alarm antyingerencyjny wyłączony",
-          "ko": "변화 감지가 정상 상태이면"
+          "ko": "변화 감지가 정상 상태이면",
+          "ar": "تم إيقاف إنذار العبث"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "da": "Sabotagealarmen er !{{tændt|slukket}}",
           "ru": "Противовзломный сигнал !{{вкл.|выкл.}}",
           "pl": "Alarm antyingerencyjny jest !{{włączony|wyłączony}}",
-          "ko": "!{{변화가 감지되면|변화 감지가 정상 상태이면}}"
+          "ko": "!{{변화가 감지되면|변화 감지가 정상 상태이면}}",
+          "ar": "إنذار العبث !{{يعمل|لا يعمل}}"
         }
       }
     ]

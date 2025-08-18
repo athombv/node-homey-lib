@@ -11,7 +11,8 @@
     "no": "Luftbehandling",
     "pl": "Oczyszczanie powietrza",
     "ru": "Обработка воздуха",
-    "sv": "Luftbehandling"
+    "sv": "Luftbehandling",
+    "ar": "معالجة الهواء"
   },
   "description": {
     "en": "Use this device class for any type of air treatment appliance, when the `dehumidifier`, `humidifier`, `diffuser` or `airpurifier` device class doesn't apply. Could be for combi units.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for alle typer luftbehandlingsapparater som ikke dekkes av enhetsklassene «luftavfukter», «luftfukter», «duftspreder» eller «luftrenser». Kan brukes for kombienheter.",
     "pl": "Użyj tej klasy urządzeń dla dowolnego typu urządzenia do uzdatniania powietrza, gdy klasa urządzeń „osuszacz\", „nawilżacz”, „dyfuzor” lub „oczyszczacz powietrza” nie ma zastosowania. Może dotyczyć jednostek combi.",
     "ru": "Используйте этот класс устройств для любых устройств обработки воздуха, которые не относятся к классу устройств «осушитель воздуха», «увлажнитель воздуха», «диффузор» или «очиститель воздуха». Может использоваться для комбинированных устройств.",
-    "sv": "Använd den här enhetsklassen för alla typer av luftbehandlingsapparater när apparatklasserna \"avfuktare\", \"luftavfuktare\", \"diffusor\" eller \"luftrenare\" inte är tillämpliga. Kan vara för kombienheter."
+    "sv": "Använd den här enhetsklassen för alla typer av luftbehandlingsapparater när apparatklasserna \"avfuktare\", \"luftavfuktare\", \"diffusor\" eller \"luftrenare\" inte är tillämpliga. Kan vara för kombienheter.",
+    "ar": "استخدم فئة الجهاز هذه لأي نوع من أجهزة معالجة الهواء، عندما لا تنطبق فئة الجهاز 'مزيل الرطوبة'، 'مرطب الهواء'، 'ناشر الرائحة' أو 'منقي الهواء'. يمكن أن يكون للوحدات المجمعة."
   },
   "virtualTitle": {
     "en": "What's the type?",
@@ -39,7 +41,8 @@
     "no": "Hvilken type er det?",
     "pl": "Jaki to typ?",
     "ru": "Какой тип?",
-    "sv": "Vad är det för typ?"
+    "sv": "Vad är det för typ?",
+    "ar": "ما هو النوع؟"
   },
   "allowedVirtual": [
     "airpurifier",

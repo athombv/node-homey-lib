@@ -11,7 +11,8 @@
     "no": "Batteri",
     "pl": "Bateria",
     "ru": "Аккумулятор",
-    "sv": "Batteri"
+    "sv": "Batteri",
+    "ar": "بطارية"
   },
   "description": {
     "en": "Use this device for batteries, e.g. home battery storage.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for batterier, f.eks. batterilagringsløsninger hjemme.",
     "pl": "Tego urządzenia należy używać do baterii, np. do przechowywania baterii w domu.",
     "ru": "Используйте этот класс устройств для аккумуляторов, например, для домашних накопителей энергии.",
-    "sv": "Använd den här enhetsklassen för batterier, t.ex. för batterilagring i hemmet."
+    "sv": "Använd den här enhetsklassen för batterier, t.ex. för batterilagring i hemmet.",
+    "ar": "استخدم هذا الجهاز للبطاريات، على سبيل المثال تخزين البطاريات المنزلية."
   },
   "minCompatibility": "12.0.0"
 }

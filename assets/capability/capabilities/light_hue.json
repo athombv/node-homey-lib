@@ -12,7 +12,8 @@
     "da": "Farvetone",
     "ru": "Оттенок",
     "pl": "Odcień",
-    "ko": "색상"
+    "ko": "색상",
+    "ar": "درجة اللون"
   },
   "min": 0,
   "chartType": "stepLine",
@@ -38,7 +39,8 @@
           "da": "Indstil farvetonen",
           "ru": "Установить оттенок",
           "pl": "Ustaw odcień",
-          "ko": "색조 설정"
+          "ko": "색조 설정",
+          "ar": "ضبط درجة اللون"
         },
         "hint": {
           "en": "Select a color from the hue scale, for example red (0°/360°), yellow (60°), or blue (180°).",
@@ -46,7 +48,8 @@
           "ru": "Выберите цвет из шкалы оттенков, например красный (0°/360°), желтый (60°) или синий (180°).",
           "pl": "Wybierz barwę ze skali odcieni: np. czerwień (0°/360°), żółty (60°) lub niebieski (180°).",
           "ko": "색조 스케일에서 색상을 선택하세요. 빨간색은 (0°/360°), 노란색은 (60°), 파란색은 (180°)이에요.",
-          "no": "Velg en farge fra fargeskalaen, for eksempel rød (0°/360°), gul (60°) eller blå (180°)."
+          "no": "Velg en farge fra fargeskalaen, for eksempel rød (0°/360°), gul (60°) eller blå (180°).",
+          "ar": "اختر لوناً من مقياس درجات الألوان، على سبيل المثال أحمر (0°/360°)، أصفر (60°)، أو أزرق (180°)."
         },
         "args": [
           {
@@ -76,7 +79,8 @@
           "da": "Indstil en farve",
           "ru": "Установить цвет",
           "pl": "Ustaw barwę",
-          "ko": "색상 설정"
+          "ko": "색상 설정",
+          "ar": "ضبط لون"
         },
         "args": [
           {
@@ -99,7 +103,8 @@
           "da": "Indstil en tilfældig farve",
           "ru": "Установить случайный цвет",
           "pl": "Ustaw losową barwę",
-          "ko": "무작위 색상 설정"
+          "ko": "무작위 색상 설정",
+          "ar": "ضبط لون عشوائي"
         }
       }
     ]

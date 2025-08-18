@@ -11,7 +11,8 @@
     "no": "Vannventil",
     "pl": "Zawór wodny",
     "ru": "Водяной клапан",
-    "sv": "Vattenventil"
+    "sv": "Vattenventil",
+    "ar": "صمام مياه"
   },
   "description": {
     "en": "Use this device class for mechanical water valves.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for mekaniske vannventiler.",
     "pl": "Tej klasy urządzeń należy używać w przypadku mechanicznych zaworów wodnych.",
     "ru": "Используйте этот класс устройств для механических водяных клапанов.",
-    "sv": "Använd den här apparatklassen för mekaniska vattenventiler."
+    "sv": "Använd den här apparatklassen för mekaniska vattenventiler.",
+    "ar": "استخدم فئة الجهاز هذه لصمامات المياه الميكانيكية."
   },
   "minCompatibility": "12.0.0"
 }

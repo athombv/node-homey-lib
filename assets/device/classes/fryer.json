@@ -11,7 +11,8 @@
     "no": "Frityrkoker",
     "pl": "Frytkownica",
     "ru": "Фритюрница",
-    "sv": "Fritös"
+    "sv": "Fritös",
+    "ar": "مقلاة"
   },
   "description": {
     "en": "Use this device class for fryers.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for frityrkokere.",
     "pl": "Tej klasy urządzeń należy używać w przypadku frytkownic.",
     "ru": "Используйте этот класс устройств для фритюрниц.",
-    "sv": "Använd den här enhetsklassen för fritöser."
+    "sv": "Använd den här enhetsklassen för fritöser.",
+    "ar": "استخدم فئة الجهاز هذه للمقالي."
   },
   "minCompatibility": "12.0.0"
 }

@@ -11,7 +11,8 @@
     "no": "Varmtvannsbereder",
     "pl": "Podgrzewacz wody",
     "ru": "Водонагреватель",
-    "sv": "Varmvattenberedare"
+    "sv": "Varmvattenberedare",
+    "ar": "سخان مياه"
   },
   "description": {
     "en": "Use this device class for water heaters.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for varmtvannsberedere.",
     "pl": "Tej klasy urządzeń należy używać do podgrzewaczy wody.",
     "ru": "Используйте этот класс устройств для водонагревателей.",
-    "sv": "Använd den här enhetsklassen för varmvattenberedare."
+    "sv": "Använd den här enhetsklassen för varmvattenberedare.",
+    "ar": "استخدم فئة الجهاز هذه لسخانات المياه."
   },
   "minCompatibility": "12.0.0"
 }

@@ -12,7 +12,8 @@
     "es": "Estado de carga",
     "fr": "État de charge",
     "no": "Ladestatus",
-    "de": "Ladezustand"
+    "de": "Ladezustand",
+    "ar": "حالة الشحن"
   },
   "desc": {
     "en": "The current charging state of the battery.",
@@ -26,7 +27,8 @@
     "es": "El estado de carga actual de la batería.",
     "fr": "L'état de charge actuel de la batterie.",
     "no": "Batteriets nåværende ladestatus.",
-    "de": "Der aktuelle Ladezustand des Akkus."
+    "de": "Der aktuelle Ladezustand des Akkus.",
+    "ar": "حالة الشحن الحالية للبطارية."
   },
   "values": [
     {
@@ -43,7 +45,8 @@
         "es": "Carga",
         "fr": "Charge en cours",
         "no": "Lader",
-        "de": "Wird geladen"
+        "de": "Wird geladen",
+        "ar": "يشحن"
       }
     },
     {
@@ -60,7 +63,8 @@
         "es": "Descarga",
         "fr": "Décharge en cours",
         "no": "Lades ut",
-        "de": "Wird entladen"
+        "de": "Wird entladen",
+        "ar": "يفرغ"
       }
     },
     {
@@ -77,7 +81,8 @@
         "es": "En pausa",
         "fr": "En pause",
         "no": "Satt på pause",
-        "de": "Pausiert"
+        "de": "Pausiert",
+        "ar": "متوقف مؤقتاً"
       }
     },
     {
@@ -94,7 +99,8 @@
         "es": "Enchufado",
         "fr": "Branché",
         "no": "Tilkoblet",
-        "de": "Eingesteckt"
+        "de": "Eingesteckt",
+        "ar": "موصل"
       }
     },
     {
@@ -111,7 +117,8 @@
         "es": "No enchufado",
         "fr": "Non branché",
         "no": "Ikke tilkoblet",
-        "de": "Nicht eingesteckt"
+        "de": "Nicht eingesteckt",
+        "ar": "غير موصل"
       }
     }
   ],
@@ -135,7 +142,8 @@
           "es": "El estado de carga de la batería ha cambiado",
           "fr": "L'état de charge de la batterie a changé",
           "no": "Batteriladestatusen ble endret",
-          "de": "Der Ladezustand des Akkus hat sich geändert"
+          "de": "Der Ladezustand des Akkus hat sich geändert",
+          "ar": "تم تغيير حالة شحن البطارية"
         },
         "args": [
           {
@@ -161,7 +169,8 @@
           "es": "El estado de carga de la batería !{{es|no es}}",
           "fr": "L'état de charge de la batterie !{{est|n'est pas}}",
           "no": "Batteriladestatusen !{{er|er ikke}}",
-          "de": "Der Ladezustand der Batterie !{{ist|ist nicht}}"
+          "de": "Der Ladezustand der Batterie !{{ist|ist nicht}}",
+          "ar": "حالة شحن البطارية !{{هي|ليست}}"
         },
         "args": [
           {

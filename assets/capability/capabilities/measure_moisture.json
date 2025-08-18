@@ -11,7 +11,8 @@
     "ru": "Влажность",
     "sv": "Fukt",
     "es": "Humedad",
-    "fr": "Humidité"
+    "fr": "Humidité",
+    "ar": "الرطوبة"
   },
   "units": {
     "en": "%",
@@ -24,7 +25,8 @@
     "ru": "%",
     "sv": "%",
     "es": "%",
-    "fr": " %"
+    "fr": " %",
+    "ar": "%"
   },
   "desc": {
     "en": "The moisture level in percentage.",
@@ -37,7 +39,8 @@
     "ru": "Уровень влажности в процентах.",
     "sv": "Fuktnivån i procent.",
     "es": "El nivel de humedad en porcentaje.",
-    "fr": "Le niveau d'humidité en pourcentage."
+    "fr": "Le niveau d'humidité en pourcentage.",
+    "ar": "مستوى الرطوبة بالنسبة المئوية."
   },
   "insights": true,
   "chartType": "spline",
@@ -63,7 +66,8 @@
           "ru": "Уровень влажности изменился",
           "sv": "Fuktnivån ändrades",
           "es": "El nivel de humedad ha cambiado",
-          "fr": "Le niveau d'humidité a changé"
+          "fr": "Le niveau d'humidité a changé",
+          "ar": "تم تغيير مستوى الرطوبة"
         },
         "tokens": [
           {

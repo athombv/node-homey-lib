@@ -12,7 +12,8 @@
     "da": "Varmealarm",
     "ru": "Сигнал перегрева",
     "pl": "Alarm termiczny",
-    "ko": "과열 감지"
+    "ko": "과열 감지",
+    "ar": "إنذار الحرارة"
   },
   "desc": {
     "en": "True when extreme heat has been detected",
@@ -26,7 +27,8 @@
     "da": "Sandt, når ekstrem varme er blevet opdaget",
     "ru": "Значение «истина» при обнаружении экстремально высокой температуры",
     "pl": "Adekwatny, kiedy wykryta zostanie ekstremalnie wysoka temperatura",
-    "ko": "과도한 열이 감지되면 참"
+    "ko": "과도한 열이 감지되면 참",
+    "ar": "صحيح عند اكتشاف حرارة شديدة"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "da": "Varmealarm blev aktiveret",
     "ru": "Сигнал перегрева включен",
     "pl": "Alarm termiczny włączony",
-    "ko": "과열 감지됨"
+    "ko": "과열 감지됨",
+    "ar": "تم تشغيل إنذار الحرارة"
   },
   "insightsTitleFalse": {
     "en": "Heat alarm turned off",
@@ -55,7 +58,8 @@
     "da": "Varmealarm blev deaktiveret",
     "ru": "Сигнал перегрева выключен",
     "pl": "Alarm termiczny wyłączony",
-    "ko": "정상"
+    "ko": "정상",
+    "ar": "تم إيقاف إنذار الحرارة"
   },
   "color": "#FA6400",
   "getable": true,
@@ -78,7 +82,8 @@
           "da": "Varmealarmen blev aktiveret",
           "ru": "Сигнал перегрева включен",
           "pl": "Alarm termiczny włączony",
-          "ko": "과열이 감지되면"
+          "ko": "과열이 감지되면",
+          "ar": "تم تشغيل إنذار الحرارة"
         }
       },
       {
@@ -95,7 +100,8 @@
           "da": "Varmealarmen blev deaktiveret",
           "ru": "Сигнал перегрева выключен",
           "pl": "Alarm termiczny wyłączony",
-          "ko": "과열 감지가 정상 상태이면"
+          "ko": "과열 감지가 정상 상태이면",
+          "ar": "تم إيقاف إنذار الحرارة"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "da": "Varmealarmen er !{{tændt|slukket}}",
           "ru": "Сигнал перегрева !{{вкл.|выкл.}}",
           "pl": "Alarm termiczny jest !{{włączony|wyłączony}}",
-          "ko": "!{{과열이 감지되면|과열 감지가 정상 상태이면}}"
+          "ko": "!{{과열이 감지되면|과열 감지가 정상 상태이면}}",
+          "ar": "إنذار الحرارة !{{يعمل|لا يعمل}}"
         }
       }
     ]

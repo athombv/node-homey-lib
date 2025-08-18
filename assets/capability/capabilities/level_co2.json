@@ -11,7 +11,8 @@
     "sv": "CO₂-nivå",
     "es": "Nivel de CO₂",
     "fr": "Niveau de CO₂",
-    "no": "CO₂-nivå"
+    "no": "CO₂-nivå",
+    "ar": "مستوى ثاني أكسيد الكربون"
   },
   "desc": {
     "en": "The level of CO₂ in the air.",
@@ -24,7 +25,8 @@
     "sv": "Halten av CO₂ i luften.",
     "es": "El nivel de CO₂ en el aire.",
     "fr": "Le niveau de CO₂ dans l'air.",
-    "no": "Nivået av CO₂ i luften."
+    "no": "Nivået av CO₂ i luften.",
+    "ar": "مستوى ثاني أكسيد الكربون في الهواء."
   },
   "values": [
     {
@@ -40,7 +42,8 @@
         "sv": "Låg",
         "es": "Bajo",
         "fr": "Faible",
-        "no": "Lavt"
+        "no": "Lavt",
+        "ar": "منخفض"
       }
     },
     {
@@ -56,7 +59,8 @@
         "sv": "Medium",
         "es": "Intermedio",
         "fr": "Moyen",
-        "no": "Middels"
+        "no": "Middels",
+        "ar": "متوسط"
       }
     },
     {
@@ -72,7 +76,8 @@
         "sv": "Hög",
         "es": "Alto",
         "fr": "Élevé",
-        "no": "Høyt"
+        "no": "Høyt",
+        "ar": "عالي"
       }
     },
     {
@@ -88,7 +93,8 @@
         "sv": "Kritisk",
         "es": "Crítico",
         "fr": "Critique",
-        "no": "Kritisk"
+        "no": "Kritisk",
+        "ar": "حرج"
       }
     }
   ],
@@ -112,7 +118,8 @@
           "sv": "CO₂-nivån ändrades till",
           "es": "El nivel de CO₂ ha cambiado a",
           "fr": "Le niveau de CO₂ est passé à",
-          "no": "CO₂-nivået ble endret til"
+          "no": "CO₂-nivået ble endret til",
+          "ar": "تم تغيير مستوى ثاني أكسيد الكربون إلى"
         },
         "args": [
           {
@@ -137,7 +144,8 @@
           "sv": "CO₂-nivån !{{är|är inte}}",
           "es": "El nivel de CO₂ !{{es|no es}}",
           "fr": "Le niveau de CO₂ !{{est|n'est pas}}",
-          "no": "CO₂-nivået !{{er|er ikke}}"
+          "no": "CO₂-nivået !{{er|er ikke}}",
+          "ar": "مستوى ثاني أكسيد الكربون !{{هو|ليس}}"
         },
         "args": [
           {

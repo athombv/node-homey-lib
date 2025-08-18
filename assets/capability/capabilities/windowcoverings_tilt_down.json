@@ -11,7 +11,8 @@
     "da": "Vinduesdække nedad",
     "ru": "Наклонить вниз оконные навесы",
     "pl": "Zasunięcie osłon okiennych",
-    "ko": "아래로 틸트"
+    "ko": "아래로 틸트",
+    "ar": "إمالة أغطية النوافذ للأسفل"
   },
   "type": "boolean",
   "color": "#F5B207",
@@ -33,7 +34,8 @@
           "sv": "Luta ner",
           "es": "Inclinar hacia abajo",
           "fr": "Inclinaison vers le bas",
-          "no": "Vipp ned"
+          "no": "Vipp ned",
+          "ar": "الإمالة للأسفل"
         }
       }
     ]

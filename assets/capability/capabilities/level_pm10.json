@@ -11,7 +11,8 @@
     "sv": "PM10-nivå",
     "es": "Nivel de PM10",
     "fr": "Niveau de PM10",
-    "no": "PM10-nivå"
+    "no": "PM10-nivå",
+    "ar": "مستوى PM10"
   },
   "desc": {
     "en": "The level of PM10 particles in the air.",
@@ -24,7 +25,8 @@
     "sv": "Halten av PM10-partiklar i luften.",
     "es": "El nivel de partículas PM10 en el aire.",
     "fr": "Le niveau de particules PM10 dans l'air.",
-    "no": "Nivået av PM10-partikler i luften."
+    "no": "Nivået av PM10-partikler i luften.",
+    "ar": "مستوى جزيئات PM10 في الهواء."
   },
   "values": [
     {
@@ -40,7 +42,8 @@
         "sv": "Låg",
         "es": "Bajo",
         "fr": "Faible",
-        "no": "Lavt"
+        "no": "Lavt",
+        "ar": "منخفض"
       }
     },
     {
@@ -56,7 +59,8 @@
         "sv": "Medium",
         "es": "Intermedio",
         "fr": "Moyen",
-        "no": "Middels"
+        "no": "Middels",
+        "ar": "متوسط"
       }
     },
     {
@@ -72,7 +76,8 @@
         "sv": "Hög",
         "es": "Alto",
         "fr": "Élevé",
-        "no": "Høyt"
+        "no": "Høyt",
+        "ar": "عالي"
       }
     },
     {
@@ -88,7 +93,8 @@
         "sv": "Kritisk",
         "es": "Crítico",
         "fr": "Critique",
-        "no": "Kritisk"
+        "no": "Kritisk",
+        "ar": "حرج"
       }
     }
   ],
@@ -112,7 +118,8 @@
           "sv": "PM10-nivån ändrades till",
           "es": "El nivel de PM10 ha cambiado a",
           "fr": "Le niveau de PM10 est passé à",
-          "no": "PM10-nivået ble endret til"
+          "no": "PM10-nivået ble endret til",
+          "ar": "تم تغيير مستوى PM10 إلى"
         },
         "args": [
           {
@@ -137,7 +144,8 @@
           "sv": "PM10-nivån !{{är|är inte}}",
           "es": "El nivel de PM10 !{{es|no es}}",
           "fr": "Le niveau de PM10 !{{est|n'est pas}}",
-          "no": "PM10-nivået !{{er|er ikke}}"
+          "no": "PM10-nivået !{{er|er ikke}}",
+          "ar": "مستوى PM10 !{{هو|ليس}}"
         },
         "args": [
           {

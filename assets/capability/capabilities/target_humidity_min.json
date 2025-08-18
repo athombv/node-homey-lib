@@ -11,7 +11,8 @@
     "sv": "Lägsta önskade luftfuktighet",
     "es": "Humedad mínima deseada",
     "fr": "Humidité cible minimale",
-    "no": "Minimum ønsket fuktighet"
+    "no": "Minimum ønsket fuktighet",
+    "ar": "الحد الأدنى للرطوبة المستهدفة"
   },
   "units": {
     "en": "%",
@@ -24,7 +25,8 @@
     "sv": "%",
     "es": "%",
     "fr": " %",
-    "no": "%"
+    "no": "%",
+    "ar": "%"
   },
   "desc": {
     "en": "The low end of the target humidity level in percent.",
@@ -36,7 +38,8 @@
     "ru": "Нижний предел заданного уровня влажности в процентах.",
     "es": "El valor inferior del nivel de humedad objetivo en porcentaje.",
     "fr": "Le niveau minimal d'humidité cible en pourcentage.",
-    "no": "Minimum ønsket fuktighetsnivå i prosent."
+    "no": "Minimum ønsket fuktighetsnivå i prosent.",
+    "ar": "الحد الأدنى لمستوى الرطوبة المستهدف بالنسبة المئوية."
   },
   "insights": true,
   "chartType": "stepLine",
@@ -62,7 +65,8 @@
           "ru": "Минимальная заданная влажность изменена",
           "sv": "Den lägsta önskade luftfuktigheten har ändrats",
           "es": "La humedad mínima deseada ha cambiado",
-          "fr": "L'humidité minimale cible a changé"
+          "fr": "L'humidité minimale cible a changé",
+          "ar": "تم تغيير الحد الأدنى للرطوبة المستهدفة"
         },
         "tokens": [
           {
@@ -88,7 +92,8 @@
           "sv": "Ställ in lägsta önskade luftfuktighet",
           "es": "Ajustar la humedad mínima deseada",
           "fr": "Définir l'humidité minimale cible",
-          "no": "Angi minimum ønsket fuktighet"
+          "no": "Angi minimum ønsket fuktighet",
+          "ar": "ضبط الحد الأدنى للرطوبة المستهدفة"
         },
         "args": [
           {

@@ -11,7 +11,8 @@
     "no": "Luftavfukter",
     "pl": "Osuszacz powietrza",
     "ru": "Осушитель воздуха",
-    "sv": "Avfuktare"
+    "sv": "Avfuktare",
+    "ar": "مزيل الرطوبة"
   },
   "description": {
     "en": "Use this device class for dehumidifiers.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for luftavfuktere.",
     "pl": "Tej klasy urządzeń należy używać w przypadku osuszaczy powietrza.",
     "ru": "Используйте этот класс устройств для осушителей воздуха.",
-    "sv": "Använd den här enhetsklassen för avfuktare."
+    "sv": "Använd den här enhetsklassen för avfuktare.",
+    "ar": "استخدم فئة الجهاز هذه لأجهزة إزالة الرطوبة."
   },
   "minCompatibility": "12.0.0"
 }

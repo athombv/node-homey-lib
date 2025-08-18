@@ -11,7 +11,8 @@
     "no": "Lader",
     "pl": "Ładowanie",
     "ru": "Заряжается",
-    "sv": "Laddning"
+    "sv": "Laddning",
+    "ar": "الشحن"
   },
   "type": "boolean",
   "color": "#6DD400",
@@ -31,7 +32,8 @@
     "no": "Startet lading",
     "pl": "Rozpoczęto ładowanie",
     "ru": "Зарядка началась",
-    "sv": "Började ladda"
+    "sv": "Började ladda",
+    "ar": "بدأ الشحن"
   },
   "insightsTitleFalse": {
     "en": "Stopped charging",
@@ -45,7 +47,8 @@
     "no": "Stoppet lading",
     "pl": "Zatrzymano ładowanie",
     "ru": "Зарядка остановлена",
-    "sv": "Slutade ladda"
+    "sv": "Slutade ladda",
+    "ar": "أوقف الشحن"
   },
   "uiComponent": "toggle",
   "$flow": {
@@ -65,7 +68,8 @@
           "no": "Startet lading",
           "pl": "Rozpoczęto ładowanie",
           "ru": "Зарядка началась",
-          "sv": "Började ladda"
+          "sv": "Började ladda",
+          "ar": "بدأ الشحن"
         }
       },
       {
@@ -83,7 +87,8 @@
           "no": "Stoppet lading",
           "pl": "Zatrzymano ładowanie",
           "ru": "Зарядка остановлена",
-          "sv": "Slutade ladda"
+          "sv": "Slutade ladda",
+          "ar": "أوقف الشحن"
         }
       }
     ],
@@ -102,7 +107,8 @@
           "no": "Lader !{{|ikke}}",
           "pl": "!{{Jest|Nie jest}} w trakcie ładowania",
           "ru": "!{{|не}} заряжается",
-          "sv": "Laddar !{{|not}}"
+          "sv": "Laddar !{{|not}}",
+          "ar": "هو !{{|ليس}} في حالة شحن"
         }
       }
     ],
@@ -122,7 +128,8 @@
           "no": "Start lading",
           "pl": "Rozpoczęcie ładowania",
           "ru": "Начать зарядку",
-          "sv": "Starta laddning"
+          "sv": "Starta laddning",
+          "ar": "بدء الشحن"
         }
       },
       {
@@ -140,7 +147,8 @@
           "no": "Stopp lading",
           "pl": "Zatrzymanie ładowania",
           "ru": "Остановить зарядку",
-          "sv": "Avsluta laddning"
+          "sv": "Avsluta laddning",
+          "ar": "إيقاف الشحن"
         }
       }
     ]

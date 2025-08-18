@@ -12,13 +12,15 @@
     "da": "Regnmåler",
     "ru": "Счетчик дождя",
     "pl": "Licznik deszczu",
-    "ko": "집수량"
+    "ko": "집수량",
+    "ar": "عداد المطر"
   },
   "units": {
     "en": "m³",
     "ru": "м³",
     "ko": "m³",
-    "no": "m³"
+    "no": "m³",
+    "ar": "m³"
   },
   "chartType": "spline",
   "desc": {
@@ -33,7 +35,8 @@
     "da": "Regn i kubikmeter (m³)",
     "ru": "Дождь в кубометрах (м³)",
     "pl": "Deszcz w metrach sześciennych (m³)",
-    "ko": "강우량 입방미터(m³)"
+    "ko": "강우량 입방미터(m³)",
+    "ar": "المطر بالمتر المكعب (m³)"
   },
   "decimals": 2,
   "color": "#0091FF",
@@ -57,7 +60,8 @@
           "da": "Regnmåleren ændrede sig",
           "ru": "Измерения дождя изменились",
           "pl": "Zmiana w liczniku deszczu",
-          "ko": "집수량이 변경되면"
+          "ko": "집수량이 변경되면",
+          "ar": "تم تغيير عداد المطر"
         },
         "tokens": [
           {

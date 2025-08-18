@@ -11,7 +11,8 @@
     "sv": "Varmvattenläge",
     "es": "Modo de agua caliente",
     "fr": "Mode eau chaude",
-    "no": "Varmtvannsmodus"
+    "no": "Varmtvannsmodus",
+    "ar": "وضع الماء الساخن"
   },
   "values": [
     {
@@ -27,7 +28,8 @@
         "sv": "På",
         "es": "Activado",
         "fr": "Activé",
-        "no": "På"
+        "no": "På",
+        "ar": "يعمل"
       }
     },
     {
@@ -43,7 +45,8 @@
         "sv": "Av",
         "es": "Desactivado",
         "fr": "Désactivé",
-        "no": "Av"
+        "no": "Av",
+        "ar": "متوقف"
       }
     },
     {
@@ -59,7 +62,8 @@
         "sv": "Eco",
         "es": "Eco",
         "fr": "Économique",
-        "no": "Øko"
+        "no": "Øko",
+        "ar": "اقتصادي"
       }
     }
   ],
@@ -82,7 +86,8 @@
           "ru": "Режим нагрева воды изменен на",
           "sv": "Varmvattenläget har ändrats till",
           "es": "El modo de agua caliente ha cambiado a",
-          "fr": "Le mode eau chaude est passé à"
+          "fr": "Le mode eau chaude est passé à",
+          "ar": "تم تغيير وضع الماء الساخن إلى"
         },
         "args": [
           {
@@ -107,7 +112,8 @@
           "sv": "Varmvattenläge !{{är|är inte}}",
           "es": "El modo de agua caliente !{{está activado|está desactivado}}",
           "fr": "Le mode eau chaude !{{est|n'est pas}}",
-          "no": "Varmtvannsmodusen !{{er|er ikke}}"
+          "no": "Varmtvannsmodusen !{{er|er ikke}}",
+          "ar": "وضع الماء الساخن !{{هو|ليس}}"
         },
         "args": [
           {
@@ -132,7 +138,8 @@
           "sv": "Ställ in varmvattenläget på",
           "es": "Ajustar el modo de agua caliente en",
           "fr": "Définir le mode eau chaude sur",
-          "no": "Sett varmtvannsmodusen til"
+          "no": "Sett varmtvannsmodusen til",
+          "ar": "ضبط وضع الماء الساخن إلى"
         },
         "args": [
           {

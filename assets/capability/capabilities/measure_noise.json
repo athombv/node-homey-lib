@@ -11,13 +11,15 @@
     "es": "Ruido",
     "ru": "Шум",
     "pl": "Hałas",
-    "ko": "소음"
+    "ko": "소음",
+    "ar": "الضوضاء"
   },
   "units": {
     "en": "dB",
     "ru": "дБ",
     "ko": "dB",
-    "no": "dB"
+    "no": "dB",
+    "ar": "dB"
   },
   "insights": true,
   "desc": {
@@ -32,7 +34,8 @@
     "da": "Støj i decibel (dB)",
     "ru": "Шум в децибелах (дБ)",
     "pl": "Poziom hałasu w decybelach (dB)",
-    "ko": "소음 데시벨(dB)"
+    "ko": "소음 데시벨(dB)",
+    "ar": "الضوضاء بالديسيبل (dB)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -56,7 +59,8 @@
           "da": "Støjniveauet ændrede sig",
           "ru": "Шум изменился",
           "pl": "Zmiana poziomu hałasu",
-          "ko": "소음이 변경되면"
+          "ko": "소음이 변경되면",
+          "ar": "تم تغيير الضوضاء"
         },
         "tokens": [
           {

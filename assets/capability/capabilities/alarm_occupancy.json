@@ -11,7 +11,8 @@
     "ru": "Сигнал о занятости",
     "sv": "Närvarolarm",
     "es": "Alarma de ocupación",
-    "fr": "Alarme d'occupation"
+    "fr": "Alarme d'occupation",
+    "ar": "إنذار الإشغال"
   },
   "desc": {
     "en": "True when occupancy is detected.",
@@ -24,7 +25,8 @@
     "ru": "Значение «истина» при обнаружении занятости.",
     "sv": "Sant när närvaro detekteras.",
     "es": "Activado cuando se detecta ocupación.",
-    "fr": "Se déclenche lorsque une occupation est détectée."
+    "fr": "Se déclenche lorsque une occupation est détectée.",
+    "ar": "صحيح عند اكتشاف إشغال."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "ru": "Сигнал о занятости включен",
     "sv": "Närvarolarm aktiverat",
     "es": "Alarma de ocupación activada",
-    "fr": "Alarme d'occupation activée"
+    "fr": "Alarme d'occupation activée",
+    "ar": "تم تشغيل إنذار الإشغال"
   },
   "insightsTitleFalse": {
     "en": "Occupancy alarm turned off",
@@ -51,7 +54,8 @@
     "ru": "Сигнал о занятости выключен",
     "sv": "Närvarolarm inaktiverat",
     "es": "Alarma de ocupación desactivada",
-    "fr": "Alarme d'occupation désactivée"
+    "fr": "Alarme d'occupation désactivée",
+    "ar": "تم إيقاف إنذار الإشغال"
   },
   "color": "#32C5FF",
   "getable": true,
@@ -73,7 +77,8 @@
           "ru": "Сигнал о занятости включен",
           "sv": "Närvarolarmet aktiverat",
           "es": "La alarma de ocupación se ha activado",
-          "fr": "L'alarme d'occupation s'est activée"
+          "fr": "L'alarme d'occupation s'est activée",
+          "ar": "تم تشغيل إنذار الإشغال"
         }
       },
       {
@@ -89,7 +94,8 @@
           "ru": "Сигнал о занятости выключен",
           "sv": "Närvarolarmet inaktiverat",
           "es": "La alarma de ocupación se ha desactivado",
-          "fr": "L'alarme d'occupation s'est désactivée"
+          "fr": "L'alarme d'occupation s'est désactivée",
+          "ar": "تم إيقاف إنذار الإشغال"
         }
       }
     ],
@@ -107,7 +113,8 @@
           "ru": "Устройство !{{занято|не занято}}",
           "sv": "Är !{{närvarande|inte närvarande}}",
           "es": "!{{Está ocupado|No está ocupado}}",
-          "fr": "Est !{{connectée|déconnectée}}"
+          "fr": "Est !{{connectée|déconnectée}}",
+          "ar": "هو !{{مشغول|غير مشغول}}"
         }
       }
     ]

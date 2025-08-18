@@ -12,7 +12,8 @@
     "da": "Termostattilstand",
     "ru": "Режим термостата",
     "pl": "Tryb termostatu",
-    "ko": "온도조절기 모드"
+    "ko": "온도조절기 모드",
+    "ar": "وضع الثرموستات"
   },
   "desc": {
     "en": "Mode of the thermostat",
@@ -26,7 +27,8 @@
     "da": "Tilstand for termostat",
     "ru": "Режим термостата",
     "pl": "Tryb termostatu",
-    "ko": "온도조절기의 모드"
+    "ko": "온도조절기의 모드",
+    "ar": "وضع الثرموستات"
   },
   "values": [
     {
@@ -43,7 +45,8 @@
         "da": "Automatisk",
         "ru": "Автоматически",
         "pl": "Automatyczny",
-        "ko": "자동"
+        "ko": "자동",
+        "ar": "تلقائي"
       }
     },
     {
@@ -60,7 +63,8 @@
         "da": "Opvarm",
         "ru": "Обогрев",
         "pl": "Ogrzewanie",
-        "ko": "난방"
+        "ko": "난방",
+        "ar": "تسخين"
       }
     },
     {
@@ -77,7 +81,8 @@
         "da": "Køl ned",
         "ru": "Охлаждение",
         "pl": "Chłodzenie",
-        "ko": "냉방"
+        "ko": "냉방",
+        "ar": "تبريد"
       }
     },
     {
@@ -94,7 +99,8 @@
         "da": "Deaktiveret",
         "ru": "Выкл",
         "pl": "Wył",
-        "ko": "꺼짐"
+        "ko": "꺼짐",
+        "ar": "إيقاف التشغيل"
       }
     }
   ],
@@ -118,7 +124,8 @@
           "da": "Termostattilstand er blevet ændret",
           "ru": "Режим термостата изменен",
           "pl": "Zmiana trybu termostatu",
-          "ko": "온도조절기 모드가 변경되면"
+          "ko": "온도조절기 모드가 변경되면",
+          "ar": "تم تغيير وضع الثرموستات"
         },
         "args": [
           {
@@ -144,7 +151,8 @@
           "da": "Termostattilstand !{{er|er ikke}}",
           "ru": "Режим термостата !{{|не}}",
           "pl": "Tryb termostatu !{{to|to nie}}",
-          "ko": "온도조절기 모드가 다음!{{이면|이 아니면}}"
+          "ko": "온도조절기 모드가 다음!{{이면|이 아니면}}",
+          "ar": "وضع الثرموستات !{{هو|ليس}}"
         },
         "args": [
           {
@@ -170,7 +178,8 @@
           "da": "Indstil tilstanden",
           "ru": "Установить режим",
           "pl": "Ustaw tryb",
-          "ko": "온도조절기 모드 설정"
+          "ko": "온도조절기 모드 설정",
+          "ar": "ضبط الوضع"
         },
         "args": [
           {

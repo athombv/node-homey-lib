@@ -12,7 +12,8 @@
     "da": "Generisk alarm",
     "ru": "Общий сигнал",
     "pl": "Alarm ogólny",
-    "ko": "알람"
+    "ko": "알람",
+    "ar": "إنذار عام"
   },
   "desc": {
     "en": "Generic alarm",
@@ -26,7 +27,8 @@
     "da": "Generisk alarm",
     "ru": "Общий сигнал",
     "pl": "Alarm ogólny",
-    "ko": "일반 알람"
+    "ko": "일반 알람",
+    "ar": "إنذار عام"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "da": "Generisk alarm blev aktiveret",
     "ru": "Общий сигнал включен",
     "pl": "Alarm ogólny włączony",
-    "ko": "알람 켜짐"
+    "ko": "알람 켜짐",
+    "ar": "تم تشغيل الإنذار العام"
   },
   "insightsTitleFalse": {
     "en": "Generic alarm turned off",
@@ -55,7 +58,8 @@
     "da": "Generisk alarm blev deaktiveret",
     "ru": "Общий сигнал выключен",
     "pl": "Alarm ogólny wyłączony",
-    "ko": "알람 꺼짐"
+    "ko": "알람 꺼짐",
+    "ar": "تم إيقاف الإنذار العام"
   },
   "color": "#9033FC",
   "getable": true,
@@ -77,7 +81,8 @@
           "da": "Den generiske alarm blev aktiveret",
           "ru": "Общий сигнал включен",
           "pl": "Alarm ogólny włączony",
-          "ko": "알람이 켜지면"
+          "ko": "알람이 켜지면",
+          "ar": "تم تشغيل الإنذار العام"
         }
       },
       {
@@ -94,7 +99,8 @@
           "da": "Den generiske alarm blev deaktiveret",
           "ru": "Общий сигнал выключен",
           "pl": "Alarm ogólny wyłączony",
-          "ko": "알람이 꺼지면"
+          "ko": "알람이 꺼지면",
+          "ar": "تم إيقاف الإنذار العام"
         }
       }
     ],
@@ -113,7 +119,8 @@
           "da": "Den generiske alarm er !{{tændt|slukket}}",
           "ru": "Общий сигнал !{{вкл.|выкл.}}",
           "pl": "Alarm ogólny jest !{{włączony|wyłączony}}",
-          "ko": "알람이 !{{켜지면|꺼지면}}"
+          "ko": "알람이 !{{켜지면|꺼지면}}",
+          "ar": "الإنذار العام !{{يعمل|لا يعمل}}"
         }
       }
     ]

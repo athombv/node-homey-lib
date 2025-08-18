@@ -12,7 +12,8 @@
     "da": "Tændt",
     "ru": "Включено",
     "pl": "Włączone",
-    "ko": "전원"
+    "ko": "전원",
+    "ar": "تم التشغيل"
   },
   "color": "#9033FC",
   "getable": true,
@@ -30,7 +31,8 @@
     "da": "Tændt",
     "ru": "Включено",
     "pl": "Włączone",
-    "ko": "전원 켜짐"
+    "ko": "전원 켜짐",
+    "ar": "تم التشغيل"
   },
   "insightsTitleFalse": {
     "en": "Turned off",
@@ -44,7 +46,8 @@
     "da": "Slukket",
     "ru": "Выключено",
     "pl": "Wyłączone",
-    "ko": "전원 꺼짐"
+    "ko": "전원 꺼짐",
+    "ar": "تم الإيقاف"
   },
   "options": {
     "setOnDim": {
@@ -61,7 +64,8 @@
         "da": "Når en enhed har både en `tænd/sluk`- og en `dæmpe`-funktion, og Homey vil tænde for enheden OG indstille til en specifik dæmpeværdi, skal denne funktion indstilles til  `falsk` for at forhindre, at Homey sender en indstillingskommando.",
         "ru": "Когда устройство имеет функции `onoff` и `dim`, и Homey хочет включить устройство ТАКЖЕ с определенным значением яркости, установите для этой функции значение `false`, чтобы Homey не отправил команду на установку.",
         "pl": "Jeśli urządzenie ma zdolności „wł.wył.” i „przygaś”, a urządzenie Homey chce włączyć produkt ORAZ ustawić konkretną wartość przygaszenia, ustaw tę zdolność jako „nieadekwatne” – w ten sposób Homey nie będzie wysyłać ustawionych poleceń.",
-        "ko": "제품에 '전원' 및 '밝기' 기능이 모두 있는데 Homey가 제품을 켜는 동시에 특정한 조절값으로 설정하길 원한다면 이 기능을 '거짓'으로 설정해 Homey가 설정 명령을 보내지 않도록 하세요."
+        "ko": "제품에 '전원' 및 '밝기' 기능이 모두 있는데 Homey가 제품을 켜는 동시에 특정한 조절값으로 설정하길 원한다면 이 기능을 '거짓'으로 설정해 Homey가 설정 명령을 보내지 않도록 하세요.",
+        "ar": "عندما يحتوي الجهاز على كل من إمكانية 'onoff' و 'dim'، وتريد Homey تشغيل الجهاز وضبط قيمة تعتيم محددة، قم بضبط هذه الإمكانية على 'false' لمنع Homey من إرسال أمر ضبط."
       }
     },
     "greyout": {
@@ -78,7 +82,8 @@
         "da": "Når denne funktion er falsk, skal du give et visuelt tip for at vise enheden i grå.",
         "ru": "Когда функция ложна, установите визуальную подсказку, чтобы выделить устройство серым цветом.",
         "pl": "Jeśli zdolność jest nieadekwatna, użyj wizualnej wskazówki, aby wyświetlić urządzenie na szaro.",
-        "ko": "이 기능이 거짓으로 설정되면 제품이 회색으로 표시되어 쉽게 식별할 수 있어요."
+        "ko": "이 기능이 거짓으로 설정되면 제품이 회색으로 표시되어 쉽게 식별할 수 있어요.",
+        "ar": "عندما تكون هذه الإمكانية خاطئة، أعط تلميحًا مرئيًا لتغميق الجهاز."
       }
     }
   },
@@ -101,7 +106,8 @@
           "da": "Tændt",
           "ru": "Включено",
           "pl": "Włączone",
-          "ko": "켜지면"
+          "ko": "켜지면",
+          "ar": "تم التشغيل"
         }
       },
       {
@@ -119,7 +125,8 @@
           "da": "Slukket",
           "ru": "Выключено",
           "pl": "Wyłączone",
-          "ko": "꺼지면"
+          "ko": "꺼지면",
+          "ar": "تم الإيقاف"
         }
       }
     ],
@@ -138,7 +145,8 @@
           "da": "Er !{{tændt|slukket}}",
           "ru": "!{{Вкл.|Выкл.}}",
           "pl": "Jest !{{włączone|wyłączone}}",
-          "ko": "!{{켜지면|꺼지면}}"
+          "ko": "!{{켜지면|꺼지면}}",
+          "ar": "هو !{{قيد التشغيل|متوقف عن التشغيل}}"
         }
       },
       {
@@ -155,7 +163,8 @@
           "da": "Er !{{åben|lukket}}",
           "ru": "!{{Открыто|Закрыто}}",
           "pl": "Jest !{{otwarte|zamknięte}}",
-          "ko": "!{{열리면|닫히면}}"
+          "ko": "!{{열리면|닫히면}}",
+          "ar": "هو !{{مفتوح|مغلق}}"
         },
         "$filter": {
           "class": "windowcoverings|curtain|blinds|sunshade"
@@ -178,7 +187,8 @@
           "da": "Tændt",
           "ru": "Включить",
           "pl": "Włącz",
-          "ko": "켜기"
+          "ko": "켜기",
+          "ar": "تشغيل"
         }
       },
       {
@@ -196,7 +206,8 @@
           "da": "Slukket",
           "ru": "Выключить",
           "pl": "Wyłącz",
-          "ko": "끄기"
+          "ko": "끄기",
+          "ar": "إيقاف التشغيل"
         }
       },
       {
@@ -213,7 +224,8 @@
           "da": "Tænd eller sluk",
           "ru": "Переключатель включить/выключить",
           "pl": "Przełącz na wł. lub wył.",
-          "ko": "켬/끔 상태 전환하기"
+          "ko": "켬/끔 상태 전환하기",
+          "ar": "تبديل التشغيل أو الإيقاف"
         }
       },
       {
@@ -230,7 +242,8 @@
           "da": "Åbn gardiner eller persienner",
           "ru": "Открыть штору или жалюзи",
           "pl": "Rozchyl zasłonę lub roletę",
-          "ko": "커튼 또는 블라인드 열기"
+          "ko": "커튼 또는 블라인드 열기",
+          "ar": "فتح الستارة أو الستارة الدوارة"
         },
         "$filter": {
           "class": "windowcoverings|curtain|blinds|sunshade"
@@ -250,7 +263,8 @@
           "da": "Luk gardiner eller persienner",
           "ru": "Закрыть штору или жалюзи",
           "pl": "Zasuń zasłonę lub roletę",
-          "ko": "커튼 또는 블라인드 닫기"
+          "ko": "커튼 또는 블라인드 닫기",
+          "ar": "إغلاق الستارة أو الستارة الدوارة"
         },
         "$filter": {
           "class": "windowcoverings|curtain|blinds|sunshade"

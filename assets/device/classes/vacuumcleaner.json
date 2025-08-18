@@ -11,7 +11,8 @@
     "da": "Støvsuger",
     "ru": "Пылесос",
     "pl": "Odkurzacz",
-    "ko": "진공청소기"
+    "ko": "진공청소기",
+    "ar": "مكنسة كهربائية"
   },
   "description": {
     "en": "Use this device class for vacuum cleaners, usually together with the `vacuumcleaner_state` capability.",
@@ -24,6 +25,7 @@
     "da": "Brug denne enhedsklasse til støvsugere, normalt sammen med `vacuumcleaner_state` funktionen.",
     "ru": "Используйте этот класс устройств для пылесосов, обычно вместе с функцией `vacuumcleaner_state`.",
     "pl": "Użyj tej klasy urządzeń dla odkurzaczy, zwykle razem ze zdolnością `vacuumcleaner_state`.",
-    "ko": "이 디바이스 클래스는 보통 'vacuumcleaner_state' 기능을 갖춘 진공청소기에 사용합니다."
+    "ko": "이 디바이스 클래스는 보통 'vacuumcleaner_state' 기능을 갖춘 진공청소기에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه للمكانس الكهربائية، عادةً مع إمكانية 'vacuumcleaner_state'."
   }
 }

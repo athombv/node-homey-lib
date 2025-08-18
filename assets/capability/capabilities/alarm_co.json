@@ -12,7 +12,8 @@
     "da": "CO-alarm",
     "ru": "Сигнал CO",
     "pl": "Alarm o CO",
-    "ko": "일산화탄소(CO) 알람"
+    "ko": "일산화탄소(CO) 알람",
+    "ar": "إنذار أول أكسيد الكربون"
   },
   "desc": {
     "en": "True when dangerous CO values have been detected",
@@ -26,7 +27,8 @@
     "da": "Sandt, når farlige CO-værdier er blevet opdaget",
     "ru": "Значение «истина» при обнаружении опасных значений CO",
     "pl": "Adekwatny, kiedy wykryty zostanie niebezpieczny poziom stężenia CO",
-    "ko": "위험한 CO 값이 감지되면 참"
+    "ko": "위험한 CO 값이 감지되면 참",
+    "ar": "صحيح عند اكتشاف قيم خطيرة لأول أكسيد الكربون"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "da": "CO-alarm aktiveret",
     "ru": "Сигнал CO включен",
     "pl": "Alarm o CO włączony",
-    "ko": "일산화탄소(CO) 알람 켜짐"
+    "ko": "일산화탄소(CO) 알람 켜짐",
+    "ar": "تم تشغيل إنذار أول أكسيد الكربون"
   },
   "insightsTitleFalse": {
     "en": "CO alarm turned off",
@@ -55,7 +58,8 @@
     "da": "CO-alarm deaktiveret",
     "ru": "Сигнал CO выключен",
     "pl": "Alarm o CO wyłączony",
-    "ko": "일산화탄소(CO) 알람 꺼짐"
+    "ko": "일산화탄소(CO) 알람 꺼짐",
+    "ar": "تم إيقاف إنذار أول أكسيد الكربون"
   },
   "color": "#E02020",
   "getable": true,
@@ -78,7 +82,8 @@
           "da": "CO-alarmen blev aktiveredt",
           "ru": "Сигнал CO включен",
           "pl": "Alarm o CO włączony",
-          "ko": "일산화탄소(CO) 알람이 '예'이면"
+          "ko": "일산화탄소(CO) 알람이 '예'이면",
+          "ar": "تم تشغيل إنذار أول أكسيد الكربون"
         }
       },
       {
@@ -95,7 +100,8 @@
           "da": "CO-alarmen blev deaktiveret",
           "ru": "Сигнал CO выключен",
           "pl": "Alarm o CO wyłączony",
-          "ko": "일산화탄소(CO) 알람이 '아니요'이면"
+          "ko": "일산화탄소(CO) 알람이 '아니요'이면",
+          "ar": "تم إيقاف إنذار أول أكسيد الكربون"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "da": "CO-alarmen er !{{på|af}}",
           "ru": "Сигнал CO !{{вкл.|выкл.}}",
           "pl": "Alarm CO jest !{{włączony|wyłączony}}",
-          "ko": "일산화탄소(CO) 알람이 !{{'예'|'아니요'}}이면"
+          "ko": "일산화탄소(CO) 알람이 !{{'예'|'아니요'}}이면",
+          "ar": "إنذار أول أكسيد الكربون !{{يعمل|لا يعمل}}"
         }
       }
     ]

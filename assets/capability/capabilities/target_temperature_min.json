@@ -11,7 +11,8 @@
     "sv": "Lägsta måltemperatur",
     "es": "Temperatura mínima deseada",
     "fr": "Température minimale cible",
-    "no": "Minimum ønsket temperatur"
+    "no": "Minimum ønsket temperatur",
+    "ar": "الحد الأدنى لدرجة الحرارة المستهدفة"
   },
   "units": {
     "en": "°C",
@@ -24,7 +25,8 @@
     "sv": "°C",
     "es": "°C",
     "fr": "°C",
-    "no": "°C"
+    "no": "°C",
+    "ar": "°C"
   },
   "desc": {
     "en": "The low end of the temperature setpoint in degrees Celsius.",
@@ -37,7 +39,8 @@
     "sv": "Den nedre delen av temperaturbörvärdet i grader Celsius.",
     "es": "El valor inferior de ajuste de la temperatura en grados centígrados.\n",
     "fr": "Le niveau minimal de la température en degrés Celsius.",
-    "no": "Minimum ønsket temperaturinnstilling i grader Celsius."
+    "no": "Minimum ønsket temperaturinnstilling i grader Celsius.",
+    "ar": "الحد الأدنى لدرجة الحرارة المستهدفة بالدرجات المئوية."
   },
   "insights": true,
   "chartType": "stepLine",
@@ -63,7 +66,8 @@
           "ru": "Минимальная заданная температура изменена",
           "sv": "Den lägsta måltemperaturen har ändrats",
           "es": "La temperatura mínima deseada ha cambiado",
-          "fr": "La température minimale cible a changé"
+          "fr": "La température minimale cible a changé",
+          "ar": "تم تغيير الحد الأدنى لدرجة الحرارة المستهدفة"
         },
         "tokens": [
           {
@@ -89,7 +93,8 @@
           "sv": "Ställ in lägsta önskade temperatur",
           "es": "Ajustar la temperatura mínima deseada",
           "fr": "Définir la température minimale cible",
-          "no": "Sett minimum ønsket temperatur"
+          "no": "Sett minimum ønsket temperatur",
+          "ar": "ضبط الحد الأدنى لدرجة الحرارة المستهدفة"
         },
         "args": [
           {

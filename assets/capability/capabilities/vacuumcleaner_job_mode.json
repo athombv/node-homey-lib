@@ -11,7 +11,8 @@
     "sv": "Dammsugarens arbetsläge",
     "es": "Modo de trabajo del aspirador",
     "fr": "Mode de fonctionnement de l'aspirateur",
-    "no": "Jobbmodus for støvsuger"
+    "no": "Jobbmodus for støvsuger",
+    "ar": "وضع مهمة المكنسة الكهربائية"
   },
   "values": [
     {
@@ -27,7 +28,8 @@
         "sv": "Av",
         "es": "Desactivado",
         "fr": "Désactivé",
-        "no": "Av"
+        "no": "Av",
+        "ar": "إيقاف التشغيل"
       }
     },
     {
@@ -43,7 +45,8 @@
         "sv": "Normal",
         "es": "Normal",
         "fr": "Normal",
-        "no": "Normal"
+        "no": "Normal",
+        "ar": "عادي"
       }
     },
     {
@@ -59,7 +62,8 @@
         "sv": "Hög",
         "es": "Alto",
         "fr": "Élevé",
-        "no": "Høy"
+        "no": "Høy",
+        "ar": "عالي"
       }
     },
     {
@@ -75,7 +79,8 @@
         "sv": "Turbo",
         "es": "Turbo",
         "fr": "Turbo",
-        "no": "Turbo"
+        "no": "Turbo",
+        "ar": "توربو"
       }
     },
     {
@@ -91,7 +96,8 @@
         "sv": "Mopp",
         "es": "Fregado",
         "fr": "Serpillère",
-        "no": "Mopping"
+        "no": "Mopping",
+        "ar": "مسح"
       }
     },
     {
@@ -107,7 +113,8 @@
         "sv": "Auto",
         "es": "Automático",
         "fr": "Automatique",
-        "no": "Automatisk"
+        "no": "Automatisk",
+        "ar": "تلقائي"
       }
     }
   ],
@@ -130,7 +137,8 @@
           "ru": "Режим работы изменен",
           "sv": "Arbetsläget har ändrats",
           "es": "El modo de trabajo ha cambiado",
-          "fr": "Le mode de fonctionnement a changé"
+          "fr": "Le mode de fonctionnement a changé",
+          "ar": "تم تغيير وضع المهمة"
         },
         "args": [
           {
@@ -155,7 +163,8 @@
           "sv": "Arbetsläget !{{är|är inte}}",
           "es": "El modo de trabajo !{{está|no está}}",
           "fr": "Le mode fonctionnement !{{est|n'est pas}}",
-          "no": "Jobbmodusen !{{er|er ikke}}"
+          "no": "Jobbmodusen !{{er|er ikke}}",
+          "ar": "وضع المهمة !{{هو|ليس}}"
         },
         "args": [
           {
@@ -180,7 +189,8 @@
           "sv": "Ställ in arbetsläget på",
           "es": "Ajustar el modo de trabajo en",
           "fr": "Définir le mode de fonctionnement sur",
-          "no": "Sett jobbmodusen til"
+          "no": "Sett jobbmodusen til",
+          "ar": "ضبط وضع المهمة إلى"
         },
         "args": [
           {

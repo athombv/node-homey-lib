@@ -11,7 +11,8 @@
     "sv": "Kylskåpsläge",
     "es": "Modo del frigorífico",
     "fr": "Mode du réfrigérateur",
-    "no": "Kjøleskapsmodus"
+    "no": "Kjøleskapsmodus",
+    "ar": "وضع الثلاجة"
   },
   "desc": {
     "en": "The mode of the refrigerator.",
@@ -24,7 +25,8 @@
     "sv": "Läget för kylskåpet.",
     "es": "El modo del frigorífico.",
     "fr": "Le mode de fonctionnement du réfrigérateur.",
-    "no": "Kjøleskapets modus."
+    "no": "Kjøleskapets modus.",
+    "ar": "وضع الثلاجة."
   },
   "values": [
     {
@@ -40,7 +42,8 @@
         "sv": "Normal",
         "es": "Normal",
         "fr": "Normal",
-        "no": "Normal"
+        "no": "Normal",
+        "ar": "عادي"
       }
     },
     {
@@ -56,7 +59,8 @@
         "sv": "Snabbkylning",
         "es": "Enfriado rápido",
         "fr": "Refroidissement rapide",
-        "no": "Hurtigavkjøling"
+        "no": "Hurtigavkjøling",
+        "ar": "تبريد سريع"
       }
     },
     {
@@ -72,7 +76,8 @@
         "sv": "Snabbfrysning",
         "es": "Congelación rápida",
         "fr": "Congélation rapide",
-        "no": "Hurtigfrysing"
+        "no": "Hurtigfrysing",
+        "ar": "تجميد سريع"
       }
     }
   ],
@@ -96,7 +101,8 @@
           "sv": "Läget ändrades till",
           "es": "El modo ha cambiado a",
           "fr": "Le mode est passé à",
-          "no": "Modusen ble endret til"
+          "no": "Modusen ble endret til",
+          "ar": "تم تغيير الوضع إلى"
         },
         "args": [
           {
@@ -121,7 +127,8 @@
           "sv": "Läget !{{är|är inte}}",
           "es": "El modo !{{está|no está}}",
           "fr": "Le mode !{{est|n'est pas}}",
-          "no": "Modusen !{{er|er ikke}}"
+          "no": "Modusen !{{er|er ikke}}",
+          "ar": "الوضع !{{هو|ليس}}"
         },
         "args": [
           {
@@ -146,7 +153,8 @@
           "sv": "Ställ in läget på",
           "es": "Ajustar el modo en",
           "fr": "Définir le mode sur",
-          "no": "Sett modusen til"
+          "no": "Sett modusen til",
+          "ar": "ضبط الوضع إلى"
         },
         "args": [
           {

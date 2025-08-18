@@ -11,7 +11,8 @@
     "no": "Spillkonsoll",
     "pl": "Konsola do gier",
     "ru": "Игровая консоль",
-    "sv": "Spelkonsol"
+    "sv": "Spelkonsol",
+    "ar": "وحدة تحكم ألعاب"
   },
   "description": {
     "en": "Use this device class for any type of game console.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for alle typer spillkonsoller.",
     "pl": "Tej klasy urządzeń należy używać w przypadku dowolnego typu konsoli do gier.",
     "ru": "Используйте этот класс устройств для игровых консолей любого типа.",
-    "sv": "Använd den här enhetsklassen för alla typer av spelkonsoler."
+    "sv": "Använd den här enhetsklassen för alla typer av spelkonsoler.",
+    "ar": "استخدم فئة الجهاز هذه لأي نوع من وحدات تحكم الألعاب."
   },
   "minCompatibility": "12.0.0"
 }

@@ -11,7 +11,8 @@
     "da": "Op for lyden",
     "ru": "Звук громче",
     "pl": "Zwiększ głośność",
-    "ko": "볼륨 크게"
+    "ko": "볼륨 크게",
+    "ar": "رفع الصوت"
   },
   "type": "boolean",
   "color": "#9033FC",
@@ -35,7 +36,8 @@
           "da": "Skru op for lyden",
           "ru": "Сделать звук громче",
           "pl": "Zwiększ poziom głośności",
-          "ko": "볼륨 높이기"
+          "ko": "볼륨 높이기",
+          "ar": "رفع الصوت"
         }
       }
     ]
