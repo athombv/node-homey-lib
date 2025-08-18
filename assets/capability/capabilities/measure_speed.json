@@ -11,7 +11,8 @@
     "sv": "Hastighet",
     "es": "Velocidad",
     "fr": "Vitesse",
-    "no": "Hastighet"
+    "no": "Hastighet",
+    "ar": "السرعة"
   },
   "units": {
     "en": "m/s",
@@ -24,7 +25,8 @@
     "sv": "m/s",
     "es": "m/s",
     "fr": "m/s",
-    "no": "m/s"
+    "no": "m/s",
+    "ar": "m/s"
   },
   "desc": {
     "en": "The speed in meters per second.",
@@ -37,7 +39,8 @@
     "sv": "Hastigheten i meter per sekund.",
     "es": "La velocidad en metros por segundo.",
     "fr": "La vitesse en mètres par seconde.",
-    "no": "Hastigheten i meter per sekund."
+    "no": "Hastigheten i meter per sekund.",
+    "ar": "السرعة بالمتر في الثانية."
   },
   "insights": true,
   "chartType": "spline",
@@ -61,7 +64,8 @@
           "sv": "Hastigheten ändrades",
           "es": "La velocidad ha cambiado",
           "fr": "La vitesse a changé",
-          "no": "Hastigheten ble endret"
+          "no": "Hastigheten ble endret",
+          "ar": "تم تغيير السرعة"
         },
         "tokens": [
           {

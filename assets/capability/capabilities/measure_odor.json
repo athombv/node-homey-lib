@@ -11,7 +11,8 @@
     "ru": "Запах",
     "sv": "Lukt",
     "es": "Olor",
-    "fr": "Odeur"
+    "fr": "Odeur",
+    "ar": "الرائحة"
   },
   "units": {
     "en": "OU",
@@ -24,7 +25,8 @@
     "ru": "Единицы интенсивности запаха",
     "sv": "OU",
     "es": "OU",
-    "fr": "UO"
+    "fr": "UO",
+    "ar": "OU"
   },
   "desc": {
     "en": "Odor concentration in odor units.",
@@ -37,7 +39,8 @@
     "ru": "Концентрация запаха в единицах интенсивности запаха.",
     "sv": "Luktkoncentration i luktenheter.",
     "es": "Concentración de olor en unidades olfativas.",
-    "fr": "Concentration d'odeur en unités d'odeur."
+    "fr": "Concentration d'odeur en unités d'odeur.",
+    "ar": "تركيز الرائحة بوحدات الرائحة."
   },
   "insights": true,
   "chartType": "spline",
@@ -61,7 +64,8 @@
           "sv": "Luktkoncentrationen förändrades",
           "es": "La concentración de olor ha cambiado",
           "fr": "La concentration d'odeurs a changé",
-          "no": "Luktkonsentrasjonen ble endret"
+          "no": "Luktkonsentrasjonen ble endret",
+          "ar": "تم تغيير تركيز الرائحة"
         },
         "tokens": [
           {

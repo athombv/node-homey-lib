@@ -11,7 +11,8 @@
     "sv": "Ozonnivå",
     "es": "Nivel de ozono",
     "fr": "Niveau d'ozone",
-    "no": "Ozonnivå"
+    "no": "Ozonnivå",
+    "ar": "مستوى الأوزون"
   },
   "desc": {
     "en": "The level of ozone in the air.",
@@ -24,7 +25,8 @@
     "sv": "Halten av ozon i luften.",
     "es": "El nivel de ozono en el aire.",
     "fr": "Le niveau d'ozone dans l'air.",
-    "no": "Nivået av ozon i luften."
+    "no": "Nivået av ozon i luften.",
+    "ar": "مستوى الأوزون في الهواء."
   },
   "values": [
     {
@@ -40,7 +42,8 @@
         "sv": "Låg",
         "es": "Bajo",
         "fr": "Faible",
-        "no": "Lavt"
+        "no": "Lavt",
+        "ar": "منخفض"
       }
     },
     {
@@ -56,7 +59,8 @@
         "sv": "Medium",
         "es": "Intermedio",
         "fr": "Moyen",
-        "no": "Middels"
+        "no": "Middels",
+        "ar": "متوسط"
       }
     },
     {
@@ -72,7 +76,8 @@
         "sv": "Hög",
         "es": "Alto",
         "fr": "Élevé",
-        "no": "Høyt"
+        "no": "Høyt",
+        "ar": "عالي"
       }
     },
     {
@@ -88,7 +93,8 @@
         "sv": "Kritisk",
         "es": "Crítico",
         "fr": "Critique",
-        "no": "Kritisk\n"
+        "no": "Kritisk\n",
+        "ar": "حرج"
       }
     }
   ],
@@ -112,7 +118,8 @@
           "sv": "Ozonnivån ändrades till",
           "es": "El nivel de ozono ha cambiado a",
           "fr": "Le niveau d'ozone est passé à",
-          "no": "Ozonnivået ble endret til"
+          "no": "Ozonnivået ble endret til",
+          "ar": "تم تغيير مستوى الأوزون إلى"
         },
         "args": [
           {
@@ -137,7 +144,8 @@
           "sv": "Ozonnivån !{{är|är inte}}",
           "es": "El nivel de ozono !{{es|no es}}",
           "fr": "Le niveau d'ozone !{{est|n'est pas}}",
-          "no": "Ozonnivået !{{er|er ikke}}"
+          "no": "Ozonnivået !{{er|er ikke}}",
+          "ar": "مستوى الأوزون !{{هو|ليس}}"
         },
         "args": [
           {

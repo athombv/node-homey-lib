@@ -11,7 +11,8 @@
     "ru": "Сигнал питания",
     "sv": "Strömlarm",
     "es": "Alarma de suministro eléctrico",
-    "fr": "Alarme d'alimentation électrique"
+    "fr": "Alarme d'alimentation électrique",
+    "ar": "إنذار الطاقة"
   },
   "desc": {
     "en": "True when power is detected.",
@@ -24,7 +25,8 @@
     "ru": "Значение «истина» при обнаружении питания.",
     "sv": "Sant när strömförsörjning detekteras.",
     "es": "Activado cuando se detecta suministro eléctrico.",
-    "fr": "Se déclenche lorsque une alimentation électrique est détectée."
+    "fr": "Se déclenche lorsque une alimentation électrique est détectée.",
+    "ar": "صحيح عند اكتشاف طاقة."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "ru": "Сигнал питания включен",
     "sv": "Strömlarm aktiverat",
     "es": "Alarma de suministro eléctrico activada",
-    "fr": "Alarme d'alimentation électrique activée"
+    "fr": "Alarme d'alimentation électrique activée",
+    "ar": "تم تشغيل إنذار الطاقة"
   },
   "insightsTitleFalse": {
     "en": "Power alarm turned off",
@@ -51,7 +54,8 @@
     "ru": "Сигнал питания выключен",
     "sv": "Strömlarm inaktiverat",
     "es": "Alarma de suministro eléctrico desactivada",
-    "fr": "Alarme d'alimentation électrique désactivée"
+    "fr": "Alarme d'alimentation électrique désactivée",
+    "ar": "تم إيقاف إنذار الطاقة"
   },
   "color": "#6DD400",
   "getable": true,
@@ -73,7 +77,8 @@
           "ru": "Сигнал питания включен",
           "sv": "Strömlarmet aktiverat",
           "es": "La alarma de suministro eléctrico está activada",
-          "fr": "L'alarme d'alimentation électrique s'est activée"
+          "fr": "L'alarme d'alimentation électrique s'est activée",
+          "ar": "تم تشغيل إنذار الطاقة"
         }
       },
       {
@@ -89,7 +94,8 @@
           "ru": "Сигнал питания выключен",
           "sv": "Strömlarmet inaktiverat",
           "es": "La alarma de suministro eléctrico está desactivada",
-          "fr": "L'alarme d'alimentation électrique s'est désactivée"
+          "fr": "L'alarme d'alimentation électrique s'est désactivée",
+          "ar": "تم إيقاف إنذار الطاقة"
         }
       }
     ],
@@ -107,7 +113,8 @@
           "ru": "Сигнал питания !{{включен|выключен}}",
           "sv": "Strömlarmet är !{{på|av}}",
           "es": "La alarma de suministro eléctrico está !{{activada|desactivada}}",
-          "fr": "L'alarme d'alimentation électrique est !{{activée|désactivée}}"
+          "fr": "L'alarme d'alimentation électrique est !{{activée|désactivée}}",
+          "ar": "إنذار الطاقة !{{يعمل|لا يعمل}}"
         }
       }
     ]

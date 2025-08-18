@@ -12,7 +12,8 @@
     "da": "Brandalarm",
     "ru": "Пожарный сигнал",
     "pl": "Alarm przeciwpożarowy",
-    "ko": "화재 감지"
+    "ko": "화재 감지",
+    "ar": "إنذار الحريق"
   },
   "desc": {
     "en": "True when fire has been detected",
@@ -26,7 +27,8 @@
     "da": "Sandt, når brand er blevet opdaget",
     "ru": "Значение «истина» при обнаружении огня",
     "pl": "Alarm przeciwpożarowy",
-    "ko": "화재가 감지되면 참"
+    "ko": "화재가 감지되면 참",
+    "ar": "صحيح عند اكتشاف حريق"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "da": "Brandalarm blev aktiveret",
     "ru": "Пожарный сигнал включен",
     "pl": "Adekwatny, kiedy wykryty zostanie pożar",
-    "ko": "화재 감지됨"
+    "ko": "화재 감지됨",
+    "ar": "تم تشغيل إنذار الحريق"
   },
   "insightsTitleFalse": {
     "en": "Fire alarm turned off",
@@ -55,7 +58,8 @@
     "da": "Brandalarm blev deaktiveret",
     "ru": "Пожарный сигнал выключен",
     "pl": "Alarm przeciwpożarowy wyłączony",
-    "ko": "정상"
+    "ko": "정상",
+    "ar": "تم إيقاف إنذار الحريق"
   },
   "color": "#FA6400",
   "getable": true,
@@ -78,7 +82,8 @@
           "da": "Brandalarmen blev aktiveret",
           "ru": "Пожарный сигнал включен",
           "pl": "Alarm przeciwpożarowy włączony",
-          "ko": "화재가 감지되면"
+          "ko": "화재가 감지되면",
+          "ar": "تم تشغيل إنذار الحريق"
         }
       },
       {
@@ -95,7 +100,8 @@
           "da": "Brandalarmen blev deaktiveret",
           "ru": "Пожарный сигнал выключен",
           "pl": "Alarm przeciwpożarowy wyłączony",
-          "ko": "화재 감지가 정상 상태이면"
+          "ko": "화재 감지가 정상 상태이면",
+          "ar": "تم إيقاف إنذار الحريق"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "da": "Brandalarmen er !{{tændt|slukket}}",
           "ru": "Пожарный сигнал !{{вкл.|выкл.}}",
           "pl": "Alarm przeciwpożarowy jest !{{włączony|wyłączony}}",
-          "ko": "!{{화재가 감지되면|화재 감지가 정상 상태이면}}"
+          "ko": "!{{화재가 감지되면|화재 감지가 정상 상태이면}}",
+          "ar": "إنذار الحريق !{{يعمل|لا يعمل}}"
         }
       }
     ]

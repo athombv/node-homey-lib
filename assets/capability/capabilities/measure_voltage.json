@@ -12,12 +12,14 @@
     "da": "Elektrisk spænding",
     "ru": "Вольтаж",
     "pl": "Napięcie",
-    "ko": "전압"
+    "ko": "전압",
+    "ar": "الجهد"
   },
   "units": {
     "en": "V",
     "ru": "Вольт",
-    "ko": "V"
+    "ko": "V",
+    "ar": "V"
   },
   "desc": {
     "en": "Voltage (V)",
@@ -31,7 +33,8 @@
     "da": "Volt (V)",
     "ru": "Вольтаж (Вольт)",
     "pl": "Napięcie (V)",
-    "ko": "전압 볼트(V)"
+    "ko": "전압 볼트(V)",
+    "ar": "الجهد (V)"
   },
   "insights": true,
   "chartType": "stepLine",
@@ -56,7 +59,8 @@
           "da": "Den elektriske spænding ændrede sig",
           "ru": "Вольтаж изменен",
           "pl": "Zmiana poziomu napięcia",
-          "ko": "전압이 변경되면"
+          "ko": "전압이 변경되면",
+          "ar": "تم تغيير الجهد"
         },
         "tokens": [
           {

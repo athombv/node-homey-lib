@@ -12,13 +12,15 @@
     "da": "Vandstrøm",
     "ru": "Поток воды",
     "pl": "Poziom przepływu wody",
-    "ko": "유량"
+    "ko": "유량",
+    "ar": "تدفق المياه"
   },
   "units": {
     "en": "L/min",
     "ru": "Л/мин",
     "ko": "L/min",
-    "no": "L/min"
+    "no": "L/min",
+    "ar": "L/min"
   },
   "desc": {
     "en": "Water flow in liters per minute (L/min)",
@@ -32,7 +34,8 @@
     "da": "Vandstrøm i liter per minut (L/min)",
     "ru": "Поток воды в литрах в минуту (л/мин)",
     "pl": "Poziom przepływu wody w litrach na minutę (L/min)",
-    "ko": "수량 분당 리터(L/min)"
+    "ko": "수량 분당 리터(L/min)",
+    "ar": "تدفق المياه باللتر في الدقيقة (L/min)"
   },
   "insights": true,
   "chartType": "stepLine",
@@ -57,7 +60,8 @@
           "da": "Vandstrømmen har ændret sig",
           "ru": "Поток воды изменился",
           "pl": "Zmienił się przepływ wody",
-          "ko": "유량이 변경되면"
+          "ko": "유량이 변경되면",
+          "ar": "تم تغيير تدفق المياه"
         },
         "tokens": [
           {

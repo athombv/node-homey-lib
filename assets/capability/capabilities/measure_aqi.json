@@ -11,7 +11,8 @@
     "sv": "Index för luftkvalitet",
     "es": "Índice de calidad del aire",
     "fr": "Indice de qualité de l'air",
-    "no": "Luftkvalitetsindeks"
+    "no": "Luftkvalitetsindeks",
+    "ar": "مؤشر جودة الهواء"
   },
   "insights": true,
   "desc": {
@@ -25,7 +26,8 @@
     "sv": "Index för luftkvalitet",
     "es": "Índice de calidad del aire",
     "fr": "Indice de qualité de l'air",
-    "no": "Luftkvalitetsindeks"
+    "no": "Luftkvalitetsindeks",
+    "ar": "مؤشر جودة الهواء"
   },
   "chartType": "spline",
   "color": "#6DD400",
@@ -49,7 +51,8 @@
           "sv": "Index för luftkvalitet ändrades",
           "es": "El índice de calidad del aire ha cambiado",
           "fr": "L'indice de qualité de l'air a changé",
-          "no": "Luftkvalitetsindeksen ble endret"
+          "no": "Luftkvalitetsindeksen ble endret",
+          "ar": "تم تغيير مؤشر جودة الهواء"
         },
         "tokens": [
           {

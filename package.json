@@ -7,7 +7,9 @@
     "build": "npm ci; npm run pack",
     "pack": "webpack",
     "lint": "eslint .",
-    "test": "mocha --parallel"
+    "test": "mocha --parallel",
+    "locales:apply": "node scripts/apply-locale-files.js",
+    "locales:generate": "node scripts/generate-locale-files.js"
   },
   "engines": {
     "node": ">=12.13.0"

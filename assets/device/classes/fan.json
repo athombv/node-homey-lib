@@ -11,7 +11,8 @@
     "da": "Ventilator",
     "ru": "Вентилятор",
     "pl": "Wentylator",
-    "ko": "팬"
+    "ko": "팬",
+    "ar": "مروحة"
   },
   "description": {
     "en": "Use this device class for fans that cool your home.",
@@ -24,6 +25,7 @@
     "da": "Brug denne enhedsklasse til ventilatorer, der køler dit hjem ned.",
     "ru": "Используйте этот класс устройств для вентиляторов, которые охлаждают ваш дом.",
     "pl": "Użyj tej klasy urządzeń dla wentylatorów, które chłodzą dom.",
-    "ko": "이 디바이스 클래스는 집에서 시원하게 지내게 해주는 선풍기에 사용합니다."
+    "ko": "이 디바이스 클래스는 집에서 시원하게 지내게 해주는 선풍기에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه للمراوح التي تبرّد منزلك."
   }
 }

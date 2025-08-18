@@ -11,7 +11,8 @@
     "sv": "Kolfilternivå",
     "es": "Nivel de filtro de carbono",
     "fr": "Niveau du filtre à charbon",
-    "no": "Karbonfilternivå"
+    "no": "Karbonfilternivå",
+    "ar": "مستوى فلتر الكربون"
   },
   "desc": {
     "en": "The level of degredation on the active carbon filter.",
@@ -24,7 +25,8 @@
     "sv": "Graden av nedbrytning på det aktiva kolfiltret.",
     "es": "El nivel de degradación del filtro de carbón activo.",
     "fr": "Le niveau de dégradation du filtre à charbon actif.",
-    "no": "Nedbrytingsnivået for filteret med aktivt kull."
+    "no": "Nedbrytingsnivået for filteret med aktivt kull.",
+    "ar": "مستوى التدهور في فلتر الكربون النشط."
   },
   "values": [
     {
@@ -40,7 +42,8 @@
         "sv": "OK",
         "es": "Correcto",
         "fr": "OK",
-        "no": "OK"
+        "no": "OK",
+        "ar": "موافق"
       }
     },
     {
@@ -56,7 +59,8 @@
         "sv": "Varning",
         "es": "Advertencia",
         "fr": "Avertissement",
-        "no": "Advarsel"
+        "no": "Advarsel",
+        "ar": "تحذير"
       }
     },
     {
@@ -72,7 +76,8 @@
         "sv": "Kritisk",
         "es": "Crítico",
         "fr": "Critique",
-        "no": "Kritisk"
+        "no": "Kritisk",
+        "ar": "حرج"
       }
     }
   ],
@@ -96,7 +101,8 @@
           "sv": "Kolfilternivån ändrades till",
           "es": "El nivel del filtro de carbón ha cambiado a",
           "fr": "Le niveau du filtre à charbon est passé à",
-          "no": "Karbonfilternivået ble endret til"
+          "no": "Karbonfilternivået ble endret til",
+          "ar": "تم تغيير مستوى فلتر الكربون إلى"
         },
         "args": [
           {
@@ -121,7 +127,8 @@
           "sv": "Kolfilternivån !{{är|är inte}}",
           "es": "El nivel del filtro de carbono !{{es|no es}}",
           "fr": "Le niveau du filtre à charbon !{{est|n'est pas}}",
-          "no": "Karbonfilternivået !{{er|er ikke}}"
+          "no": "Karbonfilternivået !{{er|er ikke}}",
+          "ar": "مستوى فلتر الكربون !{{هو|ليس}}"
         },
         "args": [
           {

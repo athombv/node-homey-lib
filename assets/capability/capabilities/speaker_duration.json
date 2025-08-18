@@ -11,7 +11,8 @@
     "da": "Varighed",
     "ru": "Продолжительность",
     "pl": "Czas trwania",
-    "ko": "기간"
+    "ko": "기간",
+    "ar": "المدة"
   },
   "type": "number",
   "color": "#9033FC",

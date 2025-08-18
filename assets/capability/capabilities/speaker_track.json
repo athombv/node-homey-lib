@@ -11,7 +11,8 @@
     "da": "Spor",
     "ru": "Трек",
     "pl": "Utwór",
-    "ko": "트랙"
+    "ko": "트랙",
+    "ar": "المسار"
   },
   "type": "string",
   "color": "#9033FC",
@@ -34,7 +35,8 @@
           "da": "Sporet skiftede",
           "ru": "Трек изменен",
           "pl": "Zmiana utworu",
-          "ko": "트랙이 변경되면"
+          "ko": "트랙이 변경되면",
+          "ar": "تم تغيير المسار"
         },
         "tokens": [
           {

@@ -12,7 +12,8 @@
     "da": "PM0.1-alarm",
     "ru": "Сигнал ТЧ0.1",
     "pl": "Alarm PM0.1",
-    "ko": "나노미세먼지(PM0.1) 알람"
+    "ko": "나노미세먼지(PM0.1) 알람",
+    "ar": "إنذار PM0.1"
   },
   "desc": {
     "en": "True when PM0.1 values exceeds threshold",
@@ -26,7 +27,8 @@
     "da": "Sandt, når PM0.1-værdier overskrider grænseværdien",
     "ru": "Значение «истина» при превышении контрольного значения ТЧ0.1",
     "pl": "Prawda, gdy wartości PM0.1 przekraczają próg",
-    "ko": "PM0.1 값이 임계값을 초과하면 참"
+    "ko": "PM0.1 값이 임계값을 초과하면 참",
+    "ar": "صحيح عندما تتجاوز قيم PM0.1 الحد"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "da": "PM0.1-alarm blev aktiveret",
     "ru": "Сигнал ТЧ0.1 включен",
     "pl": "Alarm PM0.1 włączony",
-    "ko": "나노미세먼지(PM0.1) 알람 켜짐"
+    "ko": "나노미세먼지(PM0.1) 알람 켜짐",
+    "ar": "تم تشغيل إنذار PM0.1"
   },
   "insightsTitleFalse": {
     "en": "PM0.1 alarm turned off",
@@ -55,7 +58,8 @@
     "da": "PM0.1-alarm blev deaktiveret",
     "ru": "Сигнал ТЧ0.1 выключен",
     "pl": "Alarm PM0.1 wyłączony",
-    "ko": "나노미세먼지(PM0.1) 알람 꺼짐"
+    "ko": "나노미세먼지(PM0.1) 알람 꺼짐",
+    "ar": "تم إيقاف إنذار PM0.1"
   },
   "color": "#E02020",
   "getable": true,
@@ -78,7 +82,8 @@
           "da": "PM0.1-alarmen blev aktiveret",
           "ru": "Сигнал ТЧ0.1 включен",
           "pl": "Włączył się alarm PM0.1",
-          "ko": "나노미세먼지(PM0.1) 알람이 '예'이면"
+          "ko": "나노미세먼지(PM0.1) 알람이 '예'이면",
+          "ar": "تم تشغيل إنذار PM0.1"
         }
       },
       {
@@ -95,7 +100,8 @@
           "da": "PM0.1-alarmen blev deaktiveret",
           "ru": "Сигнал ТЧ0.1 выключен",
           "pl": "Wyłączył się alarm PM0.1",
-          "ko": "나노미세먼지(PM0.1) 알람이 '아니요'이면"
+          "ko": "나노미세먼지(PM0.1) 알람이 '아니요'이면",
+          "ar": "تم إيقاف إنذار PM0.1"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "da": "PM0.1-alarmen er !{{tændt|slukket}}",
           "ru": "Сигнал ТЧ0.1 !{{включен|выключен}}",
           "pl": "Alarm PM0.1 jest !{{włączony|wyłączony}}",
-          "ko": "나노미세먼지(PM0.1) 알람이 !{{'예'|'아니요'}}이면"
+          "ko": "나노미세먼지(PM0.1) 알람이 !{{'예'|'아니요'}}이면",
+          "ar": "إنذار PM0.1 !{{يعمل|لا يعمل}}"
         }
       }
     ]

@@ -11,7 +11,8 @@
     "no": "Bro",
     "pl": "Most",
     "ru": "Bridge",
-    "sv": "Brygga"
+    "sv": "Brygga",
+    "ar": "جسر"
   },
   "description": {
     "en": "Use this device class for bridges or hubs that connect to other devices or ecosystems.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for broer eller huber som er koblet til andre enheter eller økosystemer.",
     "pl": "Tej klasy urządzeń należy używać w przypadku mostków lub hubów, które łączą się z innymi urządzeniami lub ekosystemami.",
     "ru": "Используйте этот класс устройств для мостов или концентраторов, которые подключаются к другим устройствам либо экосистемам.",
-    "sv": "Använd den här enhetsklassen för bryggor eller hubbar som ansluter till andra enheter eller ekosystem."
+    "sv": "Använd den här enhetsklassen för bryggor eller hubbar som ansluter till andra enheter eller ekosystem.",
+    "ar": "استخدم فئة الجهاز هذه للجسور أو المحاور التي تتصل بأجهزة أو أنظمة بيئية أخرى."
   },
   "minCompatibility": "12.5.0"
 }

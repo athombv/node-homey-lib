@@ -11,7 +11,8 @@
     "no": "Sprinkler",
     "pl": "Zraszacz",
     "ru": "Спринклер",
-    "sv": "Sprinkler"
+    "sv": "Sprinkler",
+    "ar": "رشاش"
   },
   "description": {
     "en": "Use this device class for sprinkler systems.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for sprinkleranlegg.",
     "pl": "Tej klasy urządzeń należy używać w instalacjach zraszaczy.",
     "ru": "Используйте этот класс устройств для спринклерных систем.",
-    "sv": "Använd den här enhetsklassen för sprinklersystem."
+    "sv": "Använd den här enhetsklassen för sprinklersystem.",
+    "ar": "استخدم فئة الجهاز هذه لأنظمة الرشاشات."
   },
   "minCompatibility": "12.0.0"
 }

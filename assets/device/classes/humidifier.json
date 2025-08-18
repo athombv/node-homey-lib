@@ -11,7 +11,8 @@
     "no": "Luftfukter",
     "pl": "Nawilżacz",
     "ru": "Увлажнитель воздуха",
-    "sv": "Luftfuktare"
+    "sv": "Luftfuktare",
+    "ar": "مرطب هواء"
   },
   "description": {
     "en": "Use this device class for humidifiers.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for luftfuktere.",
     "pl": "Tej klasy urządzeń należy używać w przypadku nawilżaczy powietrza.",
     "ru": "Используйте этот класс устройств для увлажнителей воздуха.",
-    "sv": "Använd den här enhetsklassen för luftfuktare."
+    "sv": "Använd den här enhetsklassen för luftfuktare.",
+    "ar": "استخدم فئة الجهاز هذه لأجهزة ترطيب الهواء."
   },
   "minCompatibility": "12.0.0"
 }

@@ -11,7 +11,8 @@
     "no": "Persienner",
     "pl": "Żaluzje",
     "ru": "Жалюзи",
-    "sv": "Persienner"
+    "sv": "Persienner",
+    "ar": "ستائر متحركة"
   },
   "description": {
     "en": "Use this device class for shutter blinds.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for persienner.",
     "pl": "Tej klasy urządzeń należy używać w przypadku żaluzji.",
     "ru": "Используйте этот класс устройств для жалюзи.",
-    "sv": "Använd den här enhetsklassen för persienner."
+    "sv": "Använd den här enhetsklassen för persienner.",
+    "ar": "استخدم فئة الجهاز هذه للستائر المتحركة."
   },
   "minCompatibility": "12.0.0"
 }

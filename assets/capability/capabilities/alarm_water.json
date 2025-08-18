@@ -12,7 +12,8 @@
     "da": "Vandalarm",
     "ru": "Сигнал протечки воды",
     "pl": "Alarm zalania wodą",
-    "ko": "누수 감지"
+    "ko": "누수 감지",
+    "ar": "إنذار المياه"
   },
   "desc": {
     "en": "True when water has been detected",
@@ -26,7 +27,8 @@
     "da": "Sandt, når vand er blevet opdaget",
     "ru": "Значение «истина» при обнаружении протечки воды",
     "pl": "Adekwatny, kiedy wykryta zostanie woda",
-    "ko": "물이 감지되면 참"
+    "ko": "물이 감지되면 참",
+    "ar": "صحيح عند اكتشاف مياه"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "da": "Vandalarm blev aktiveret",
     "ru": "Сигнал протечки воды включен",
     "pl": "Alarm zalania wodą włączony",
-    "ko": "누수 감지됨"
+    "ko": "누수 감지됨",
+    "ar": "تم تشغيل إنذار المياه"
   },
   "insightsTitleFalse": {
     "en": "Water alarm turned off",
@@ -55,7 +58,8 @@
     "da": "Vandalarm blev deaktiveret",
     "ru": "Сигнал протечки воды выключен",
     "pl": "Alarm zalania wodą wyłączony",
-    "ko": "누수 감지되지 않음"
+    "ko": "누수 감지되지 않음",
+    "ar": "تم إيقاف إنذار المياه"
   },
   "color": "#0091FF",
   "getable": true,
@@ -78,7 +82,8 @@
           "da": "Vandalarmen blev aktiveret",
           "ru": "Сигнал аккумулятора включен",
           "pl": "Alarm zalania wodą włączony",
-          "ko": "누수가 감지되면"
+          "ko": "누수가 감지되면",
+          "ar": "تم تشغيل إنذار المياه"
         }
       },
       {
@@ -95,7 +100,8 @@
           "da": "Vandalarmen blev deaktiveret",
           "ru": "Сигнал аккумулятора выключен",
           "pl": "Alarm zalania wodą wyłączony",
-          "ko": "누수가 감지되지 않으면"
+          "ko": "누수가 감지되지 않으면",
+          "ar": "تم إيقاف إنذار المياه"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "da": "Vandalarmen er !{{tændt|slukket}}",
           "ru": "Сигнал протечки воды !{{вкл.|выкл.}}",
           "pl": "Alarm zalania wodą jest !{{włączony|wyłączony}}",
-          "ko": "누수가 감지!{{되면|되지 않으면}}"
+          "ko": "누수가 감지!{{되면|되지 않으면}}",
+          "ar": "إنذار المياه !{{يعمل|لا يعمل}}"
         }
       }
     ]

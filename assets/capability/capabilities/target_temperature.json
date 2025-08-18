@@ -14,13 +14,15 @@
     "da": "Måltemperatur",
     "ru": "Целевая температура",
     "pl": "Cel temperatury",
-    "ko": "희망 온도"
+    "ko": "희망 온도",
+    "ar": "درجة الحرارة المستهدفة"
   },
   "units": {
     "en": "°C",
     "ru": "°C",
     "ko": "°C",
-    "no": "°C"
+    "no": "°C",
+    "ar": "°C"
   },
   "chartType": "stepLine",
   "decimals": 1,
@@ -45,7 +47,8 @@
           "da": "Måltemperaturen blev ændret",
           "ru": "Целевая температура изменена",
           "pl": "Zmiana celu temperatury",
-          "ko": "희망 온도가 변경되면"
+          "ko": "희망 온도가 변경되면",
+          "ar": "تم تغيير درجة الحرارة المستهدفة"
         },
         "tokens": [
           {
@@ -73,7 +76,8 @@
           "da": "Indstil temperaturen",
           "ru": "Установить температуру",
           "pl": "Ustaw temperaturę",
-          "ko": "희망 온도 설정"
+          "ko": "희망 온도 설정",
+          "ar": "ضبط درجة الحرارة"
         },
         "args": [
           {

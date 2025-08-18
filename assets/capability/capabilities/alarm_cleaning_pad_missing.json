@@ -11,7 +11,8 @@
     "pl": "Alarm braku podkładki czyszczącej",
     "ru": "Сигнал об отсутствии чистящей губки",
     "sv": "Rengöringspad saknar larm",
-    "no": "Alarm om manglende vaskeklut"
+    "no": "Alarm om manglende vaskeklut",
+    "ar": "إنذار فقدان وسادة التنظيف"
   },
   "desc": {
     "en": "True when the cleaning pad is missing.",
@@ -24,7 +25,8 @@
     "pl": "Prawda, gdy brakuje podkładki czyszczącej.",
     "ru": "Значение «истина», когда чистящая губка отсутствует.",
     "sv": "Sant när rengöringsdynan saknas.",
-    "no": "Sann når vaskekluten mangler."
+    "no": "Sann når vaskekluten mangler.",
+    "ar": "صحيح عندما تكون وسادة التنظيف مفقودة."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "pl": "Podkładka czyszcząca została usunięta",
     "ru": "Чистящая губка была удалена",
     "sv": "Rengöringsdynan togs bort",
-    "no": "Vaskekluten ble fjernet"
+    "no": "Vaskekluten ble fjernet",
+    "ar": "تمت إزالة وسادة التنظيف"
   },
   "insightsTitleFalse": {
     "en": "The cleaning pad was placed",
@@ -51,7 +54,8 @@
     "pl": "Podkładka czyszcząca została umieszczona",
     "ru": "Чистящая губка была размещена",
     "sv": "Rengöringsdynan placerades",
-    "no": "Vaskekluten ble satt på plass"
+    "no": "Vaskekluten ble satt på plass",
+    "ar": "تم وضع وسادة التنظيف"
   },
   "color": "#9033FC",
   "getable": true,
@@ -73,7 +77,8 @@
           "pl": "Podkładka czyszcząca została usunięta",
           "ru": "Чистящая губка была удалена",
           "sv": "Rengöringsdynan togs bort",
-          "no": "Vaskekluten ble fjernet"
+          "no": "Vaskekluten ble fjernet",
+          "ar": "تمت إزالة وسادة التنظيف"
         }
       },
       {
@@ -89,7 +94,8 @@
           "pl": "Podkładka czyszcząca została umieszczona",
           "ru": "Чистящая губка была размещена",
           "sv": "Rengöringsdynan placerades",
-          "no": "Vaskekluten ble satt på plass"
+          "no": "Vaskekluten ble satt på plass",
+          "ar": "تم وضع وسادة التنظيف"
         }
       }
     ],
@@ -107,7 +113,8 @@
           "ru": "Чистящая губка !{{отсутствует|в наличии}}",
           "sv": "Rengöringsdynan !{{saknas|är på plats}}",
           "fr": "La lingette de nettoyage est !{{manquante|présente}}",
-          "no": "Vaskekluten !{{mangler|er på plass}}"
+          "no": "Vaskekluten !{{mangler|er på plass}}",
+          "ar": "وسادة التنظيف !{{مفقودة|موجودة}}"
         }
       }
     ]

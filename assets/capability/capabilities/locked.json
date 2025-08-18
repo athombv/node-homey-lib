@@ -12,7 +12,8 @@
     "da": "Låst",
     "ru": "Закрыто",
     "pl": "Zablokowane",
-    "ko": "잠금 상태"
+    "ko": "잠금 상태",
+    "ar": "مغلق"
   },
   "desc": {
     "en": "True when the lock is locked",
@@ -26,7 +27,8 @@
     "da": "Sandt, når låsen er låst",
     "ru": "Значение «истина», когда замок закрыт",
     "pl": "Adekwatne, kiedy zamek jest zablokowany",
-    "ko": "록이 잠겨 있으면 참"
+    "ko": "록이 잠겨 있으면 참",
+    "ar": "صحيح عندما يكون القفل مغلقاً"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "da": "Låst",
     "ru": "Закрыто",
     "pl": "Zablokowane",
-    "ko": "잠김"
+    "ko": "잠김",
+    "ar": "مغلق"
   },
   "insightsTitleFalse": {
     "en": "Unlocked",
@@ -55,7 +58,8 @@
     "da": "Ulåst",
     "ru": "Открыто",
     "pl": "Odblokowane",
-    "ko": "잠금 해제"
+    "ko": "잠금 해제",
+    "ar": "مفتوح"
   },
   "color": "#9033FC",
   "getable": true,
@@ -77,7 +81,8 @@
           "da": "Låst",
           "ru": "Закрыто",
           "pl": "Zablokowane",
-          "ko": "잠김이면"
+          "ko": "잠김이면",
+          "ar": "مغلق"
         }
       },
       {
@@ -94,7 +99,8 @@
           "da": "Låst op",
           "ru": "Открыто",
           "pl": "Odblokowane",
-          "ko": "잠금 해제이면"
+          "ko": "잠금 해제이면",
+          "ar": "مفتوح"
         }
       }
     ],
@@ -113,7 +119,8 @@
           "da": "En lås er blevet !{{låst|låst op}}",
           "ru": "Замок !{{закрыт|открыт}}",
           "pl": "Zamek jest !{{zablokowany|odblokowany}}",
-          "ko": "!{{잠김|잠금 해제}}이면"
+          "ko": "!{{잠김|잠금 해제}}이면",
+          "ar": "القفل !{{مغلق|مفتوح}}"
         }
       }
     ],
@@ -133,7 +140,8 @@
           "da": "Lås",
           "ru": "Закрыть",
           "pl": "Zablokuj",
-          "ko": "잠금"
+          "ko": "잠금",
+          "ar": "قفل"
         }
       },
       {
@@ -151,7 +159,8 @@
           "da": "Lås op",
           "ru": "Открыть",
           "pl": "Odblokuj",
-          "ko": "잠금 해제"
+          "ko": "잠금 해제",
+          "ar": "فتح"
         }
       }
     ]

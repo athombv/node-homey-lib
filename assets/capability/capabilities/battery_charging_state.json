@@ -12,7 +12,8 @@
     "es": "Estado de carga de la batería",
     "fr": "État de charge de la batterie",
     "no": "Batteriladestatus",
-    "de": "Ladezustand der Batterie"
+    "de": "Ladezustand der Batterie",
+    "ar": "حالة شحن البطارية"
   },
   "desc": {
     "en": "The current charging state of the battery.",
@@ -25,7 +26,8 @@
     "sv": "Batteriets aktuella laddningsstatus.",
     "es": "El estado de carga actual de la batería.",
     "fr": "L'état de charge actuel de la batterie.",
-    "no": "Batteriets nåværende ladestatus."
+    "no": "Batteriets nåværende ladestatus.",
+    "ar": "حالة الشحن الحالية للبطارية."
   },
   "values": [
     {
@@ -41,7 +43,8 @@
         "sv": "Laddning",
         "es": "Cargando",
         "fr": "Charge",
-        "no": "Lades"
+        "no": "Lades",
+        "ar": "يشحن"
       }
     },
     {
@@ -57,7 +60,8 @@
         "sv": "Urladdning",
         "es": "Descargando",
         "fr": "Décharge",
-        "no": "Lades ut"
+        "no": "Lades ut",
+        "ar": "يفرغ"
       }
     },
     {
@@ -73,7 +77,8 @@
         "sv": "Viloläge",
         "es": "Reposo",
         "fr": "Inactif",
-        "no": "Inaktiv"
+        "no": "Inaktiv",
+        "ar": "خامل"
       }
     }
   ],
@@ -97,7 +102,8 @@
           "es": "El estado de carga de la batería ha cambiado",
           "fr": "L'état de charge de la batterie a changé",
           "no": "Batteriladestatusen ble endret",
-          "de": "Der Ladezustand der Batterie hat sich geändert"
+          "de": "Der Ladezustand der Batterie hat sich geändert",
+          "ar": "تم تغيير حالة شحن البطارية"
         },
         "args": [
           {
@@ -123,7 +129,8 @@
           "es": "El estado de carga de la batería !{{es|no es}}",
           "fr": "L'état de charge de la batterie !{{est|n'est pas}}",
           "no": "Batteriladestatusen !{{er|er ikke}}",
-          "de": "Der Ladezustand der Batterie !{{ist|ist nicht}}"
+          "de": "Der Ladezustand der Batterie !{{ist|ist nicht}}",
+          "ar": "حالة شحن البطارية !{{هي|ليست}}"
         },
         "args": [
           {

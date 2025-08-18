@@ -11,7 +11,8 @@
     "da": "Ned for lyden",
     "ru": "Звук тише",
     "pl": "Zmniejsz głośność",
-    "ko": "볼륨 작게"
+    "ko": "볼륨 작게",
+    "ar": "خفض الصوت"
   },
   "type": "boolean",
   "color": "#9033FC",
@@ -35,7 +36,8 @@
           "da": "Skru ned for lyden",
           "ru": "Сделать звук тише",
           "pl": "Zmniejsz poziom głośności",
-          "ko": "볼륨 낮추기"
+          "ko": "볼륨 낮추기",
+          "ar": "خفض الصوت"
         }
       }
     ]

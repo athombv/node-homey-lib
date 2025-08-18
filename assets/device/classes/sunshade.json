@@ -11,7 +11,8 @@
     "da": "Markise",
     "ru": "Навес",
     "pl": "Markiza",
-    "ko": "햇빛 가리개"
+    "ko": "햇빛 가리개",
+    "ar": "مظلة شمسية"
   },
   "description": {
     "en": "Use this device class for sunshades (window coverings against the sun).",
@@ -24,6 +25,7 @@
     "da": "Brug denne enhedsklasse til markiser (vinduesdække mod solen).",
     "ru": "Используйте этот класс устройств для навесов (оконных навесов от солнца).",
     "pl": "Użyj tej klasy urządzeń dla markiz (osłony okienne chroniące przed słońcem).",
-    "ko": "이 디바이스 클래스는 선셰이드(햇빛을 막아주는 창문 덮개)에 사용합니다."
+    "ko": "이 디바이스 클래스는 선셰이드(햇빛을 막아주는 창문 덮개)에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه للمظلات الشمسية (أغطية النوافذ ضد الشمس)."
   }
 }

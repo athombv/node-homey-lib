@@ -11,7 +11,8 @@
     "pl": "Alarm braku kosza",
     "ru": "Сигнал об отсутствии контейнера",
     "sv": "Larm om att behållaren saknas",
-    "no": "Alarm om manglende støvbeholder"
+    "no": "Alarm om manglende støvbeholder",
+    "ar": "إنذار فقدان سلة المهملات"
   },
   "desc": {
     "en": "True when the bin is missing.",
@@ -24,7 +25,8 @@
     "pl": "Prawda, gdy brakuje kosza.",
     "ru": "Значение «истина», когда контейнер отсутствует.",
     "sv": "Sant när behållaren saknas.",
-    "no": "Sann når støvbeholderen mangler."
+    "no": "Sann når støvbeholderen mangler.",
+    "ar": "صحيح عندما تكون سلة المهملات مفقودة."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "pl": "Kosz został usunięty",
     "ru": "Контейнер был удален",
     "sv": "Behållaren togs bort",
-    "no": "Støvbeholderen ble fjernet"
+    "no": "Støvbeholderen ble fjernet",
+    "ar": "تمت إزالة سلة المهملات"
   },
   "insightsTitleFalse": {
     "en": "The bin was placed",
@@ -51,7 +54,8 @@
     "pl": "Kosz został umieszczony",
     "ru": "Контейнер был размещен",
     "sv": "Behållaren placerades",
-    "no": "Støvbeholderen ble satt på plass"
+    "no": "Støvbeholderen ble satt på plass",
+    "ar": "تم وضع سلة المهملات"
   },
   "color": "#9033FC",
   "getable": true,
@@ -73,7 +77,8 @@
           "pl": "Kosz został usunięty",
           "ru": "Контейнер был удален",
           "sv": "Behållaren togs bort",
-          "no": "Støvbeholderen ble fjernet"
+          "no": "Støvbeholderen ble fjernet",
+          "ar": "تمت إزالة سلة المهملات"
         }
       },
       {
@@ -89,7 +94,8 @@
           "pl": "Kosz został umieszczony",
           "ru": "Контейнер был размещен",
           "sv": "Behållaren placerades",
-          "no": "Støvbeholderen ble satt på plass"
+          "no": "Støvbeholderen ble satt på plass",
+          "ar": "تم وضع سلة المهملات"
         }
       }
     ],
@@ -107,7 +113,8 @@
           "ru": "Контейнер !{{отсутствует|в наличии}}",
           "sv": "Behållaren !{{saknas|är på plats}}",
           "fr": "La poubelle est !{{manquante|présente}}",
-          "no": "Støvbeholderen !{{mangler|mangler ikke}}"
+          "no": "Støvbeholderen !{{mangler|mangler ikke}}",
+          "ar": "سلة المهملات !{{مفقودة|موجودة}}"
         }
       }
     ]

@@ -11,7 +11,8 @@
     "no": "Tørketrommel",
     "pl": "Suszarka",
     "ru": "Сушилка",
-    "sv": "Torktumlare"
+    "sv": "Torktumlare",
+    "ar": "مجفف"
   },
   "description": {
     "en": "Use this device class for dryers, if it is a combination washer/dryer use 'washer_and_dryer'.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for tørketromler. For en kombinert vaskemaskin/tørketrommel, bruk «washer_and_dryer».",
     "pl": "Użyj tej klasy urządzeń dla suszarek, jeśli jest to pralko-suszarka, użyj „washer_and_dryer”.",
     "ru": "Используйте этот класс устройств для сушилок; в случае стиральной машины-сушилки используйте washer_and_dryer.",
-    "sv": "Använd den här enhetsklassen för torktumlare, om det är en kombinerad tvättmaskin/torktumlare ska du använda 'washer_and_dryer'."
+    "sv": "Använd den här enhetsklassen för torktumlare, om det är en kombinerad tvättmaskin/torktumlare ska du använda 'washer_and_dryer'.",
+    "ar": "استخدم فئة الجهاز هذه للمجففات، إذا كانت غسالة/مجفف مدمج، فاستخدم 'washer_and_dryer'."
   },
   "minCompatibility": "12.0.0"
 }

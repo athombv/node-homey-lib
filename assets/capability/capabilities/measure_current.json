@@ -12,13 +12,15 @@
     "da": "Strøm",
     "ru": "Текущее значение",
     "pl": "Prąd",
-    "ko": "전류"
+    "ko": "전류",
+    "ar": "التيار"
   },
   "units": {
     "en": "A",
     "ko": "A",
     "no": "A",
-    "ru": "A"
+    "ru": "A",
+    "ar": "A"
   },
   "insights": true,
   "desc": {
@@ -33,7 +35,8 @@
     "da": "Elektrisk strøm (A)",
     "ru": "Электрический ток (А)",
     "pl": "Prąd elektryczny (A)",
-    "ko": "전류(A)"
+    "ko": "전류(A)",
+    "ar": "التيار الكهربائي (A)"
   },
   "chartType": "stepLine",
   "decimals": 2,
@@ -57,7 +60,8 @@
           "da": "Den elektriske strøm ændrede sig",
           "ru": "Электрический ток изменился",
           "pl": "Zmiana prądu elektrycznego",
-          "ko": "전류가 변경되면"
+          "ko": "전류가 변경되면",
+          "ar": "تم تغيير التيار الكهربائي"
         },
         "tokens": [
           {

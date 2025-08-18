@@ -11,7 +11,8 @@
     "no": "Kran",
     "pl": "Kran",
     "ru": "Смеситель",
-    "sv": "Kran"
+    "sv": "Kran",
+    "ar": "صنبور"
   },
   "description": {
     "en": "Use this device class for faucets.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for kraner.",
     "pl": "Tej klasy urządzeń należy używać w przypadku kranów.",
     "ru": "Используйте этот класс устройств для смесителей.",
-    "sv": "Använd den här enhetsklassen för kranar."
+    "sv": "Använd den här enhetsklassen för kranar.",
+    "ar": "استخدم فئة الجهاز هذه للحنفيات."
   },
   "minCompatibility": "12.0.0"
 }

@@ -12,13 +12,15 @@
     "da": "Ultraviolet",
     "ru": "Ультрафиолетовое излучение",
     "pl": "Promieniowanie UV",
-    "ko": "자외선"
+    "ko": "자외선",
+    "ar": "الأشعة فوق البنفسجية"
   },
   "units": {
     "en": "UVI",
     "ru": "Индекс УФ-излучения",
     "ko": "UVI",
-    "no": "UVI"
+    "no": "UVI",
+    "ar": "UVI"
   },
   "desc": {
     "en": "Ultraviolet in UV index (UVI)",
@@ -31,7 +33,8 @@
     "da": "Ultraviolet i UV-indeks (UV)",
     "ru": "Индекс ультрафиолетового излучения",
     "pl": "Promieniowanie UV w indeksie UV (UVI)",
-    "ko": "자외선 UV 지수(UVI)"
+    "ko": "자외선 UV 지수(UVI)",
+    "ar": "الأشعة فوق البنفسجية بمؤشر الأشعة فوق البنفسجية (UVI)"
   },
   "insights": true,
   "chartType": "spline",
@@ -56,7 +59,8 @@
           "da": "UV-værdien ændrede sig",
           "ru": "Значение УФ-излучения изменилось",
           "pl": "Zmiana poziomu promieniowania UV",
-          "ko": "자외선 값이 변경되면"
+          "ko": "자외선 값이 변경되면",
+          "ar": "تم تغيير قيمة الأشعة فوق البنفسجية"
         },
         "tokens": [
           {

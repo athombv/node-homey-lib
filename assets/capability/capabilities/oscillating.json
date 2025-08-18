@@ -11,7 +11,8 @@
     "sv": "Oscillerande",
     "es": "Oscilante",
     "fr": "Oscillant",
-    "no": "Svingende"
+    "no": "Svingende",
+    "ar": "الاهتزاز"
   },
   "desc": {
     "en": "Enable or disable oscillation.",
@@ -24,7 +25,8 @@
     "sv": "Aktivera eller inaktivera oscillation.",
     "es": "Activa o desactiva la oscilación.",
     "fr": "Active ou désactive l'oscillation.",
-    "no": "Aktiver eller deaktiver svingninger."
+    "no": "Aktiver eller deaktiver svingninger.",
+    "ar": "تمكين أو تعطيل الاهتزاز."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "sv": "Oscillation aktiverad",
     "es": "Oscilación activada",
     "fr": "Oscillation activée",
-    "no": "Svingning aktivert"
+    "no": "Svingning aktivert",
+    "ar": "تم تمكين الاهتزاز"
   },
   "insightsTitleFalse": {
     "en": "Oscillation disabled",
@@ -51,7 +54,8 @@
     "sv": "Oscillation inaktiverad",
     "es": "Oscilación desactivada",
     "fr": "Oscillation désactivée",
-    "no": "Svingning deaktivert"
+    "no": "Svingning deaktivert",
+    "ar": "تم تعطيل الاهتزاز"
   },
   "color": "#6236FF",
   "getable": true,
@@ -73,7 +77,8 @@
           "sv": "Oscillation aktiverad",
           "es": "Oscilación activada",
           "fr": "Oscillation activée",
-          "no": "Svingning aktivert"
+          "no": "Svingning aktivert",
+          "ar": "تم تشغيل الاهتزاز"
         }
       },
       {
@@ -89,7 +94,8 @@
           "sv": "Oscillation inaktiverad",
           "es": "Oscilación desactivada",
           "fr": "Oscillation désactivée",
-          "no": "Svingning deaktivert"
+          "no": "Svingning deaktivert",
+          "ar": "تم إيقاف الاهتزاز"
         }
       }
     ],
@@ -107,7 +113,8 @@
           "sv": "Oscillation är !{{aktiverad|inaktiverad}}",
           "es": "La oscilación está !{{activada|desactivada}}",
           "fr": "L'oscillation est !{{activée|désactivée}}",
-          "no": "Svingning er !{{aktivert|deaktivert}}"
+          "no": "Svingning er !{{aktivert|deaktivert}}",
+          "ar": "الاهتزاز !{{ممكّن|معطّل}}"
         }
       }
     ],
@@ -125,7 +132,8 @@
           "sv": "Aktivera oscillation",
           "es": "Activar oscilación",
           "fr": "Activer l'oscillation",
-          "no": "Aktiver svingning"
+          "no": "Aktiver svingning",
+          "ar": "تمكين الاهتزاز"
         }
       },
       {
@@ -141,7 +149,8 @@
           "sv": "Inaktivera oscillation",
           "es": "Desactivar oscilación",
           "fr": "Désactiver l'oscillation",
-          "no": "Deaktiver svingning"
+          "no": "Deaktiver svingning",
+          "ar": "تعطيل الاهتزاز"
         }
       },
       {
@@ -157,7 +166,8 @@
           "sv": "Aktivera eller inaktivera oscillation",
           "es": "Encender o apagar la oscilación",
           "fr": "Activer ou désactiver l'oscillation",
-          "no": "Slå svingning på eller av"
+          "no": "Slå svingning på eller av",
+          "ar": "تبديل الاهتزاز بين التشغيل والإيقاف"
         }
       }
     ]

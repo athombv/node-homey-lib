@@ -11,7 +11,8 @@
     "no": "Kjøleskap",
     "pl": "Lodówka",
     "ru": "Холодильник",
-    "sv": "Kylskåp"
+    "sv": "Kylskåp",
+    "ar": "ثلاجة"
   },
   "description": {
     "en": "Use this device class for any kind of fridge, if it is a fridge/freezer use 'fridge_and_freezer'.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for alle slags kjøleskap. For kombinert kjøleskap/fryser, bruk «fridge_and_freezer».",
     "pl": "Tej klasy urządzeń należy używać dla każdego rodzaju lodówki, jeśli jest to lodówka/zamrażarka, należy użyć klasy „fridge_and_freezer”.",
     "ru": "Используйте этот класс устройств для холодильников любого типа; в случае холодильника-морозильника используйте fridge_and_freezer.",
-    "sv": "Använd den här enhetsklassen för alla typer av kylskåp, om det är en kyl/frys ska du använda 'fridge_and_freezer'."
+    "sv": "Använd den här enhetsklassen för alla typer av kylskåp, om det är en kyl/frys ska du använda 'fridge_and_freezer'.",
+    "ar": "استخدم فئة الجهاز هذه لأي نوع من الثلاجات، إذا كانت ثلاجة/مجمد مدمج، فاستخدم 'fridge_and_freezer'."
   },
   "minCompatibility": "12.0.0"
 }

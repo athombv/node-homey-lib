@@ -12,7 +12,8 @@
     "da": "Farvemætning",
     "ru": "Насыщенность цвета",
     "pl": "Nasycenie barwy",
-    "ko": "채도"
+    "ko": "채도",
+    "ar": "تشبع اللون"
   },
   "min": 0,
   "chartType": "stepLine",
@@ -37,7 +38,8 @@
           "da": "Indstil farvemætningen",
           "ru": "Установить насыщенность",
           "pl": "Ustaw nasycenie",
-          "ko": "채도 설정"
+          "ko": "채도 설정",
+          "ar": "ضبط التشبع"
         },
         "args": [
           {

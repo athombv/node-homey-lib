@@ -12,7 +12,8 @@
     "da": "Lysniveau",
     "ru": "Уровень яркости",
     "pl": "Poziom przygaszenia",
-    "ko": "밝기"
+    "ko": "밝기",
+    "ar": "مستوى التعتيم"
   },
   "chartType": "stepLine",
   "min": 0,
@@ -22,7 +23,8 @@
     "en": "%",
     "ko": "%",
     "no": "%",
-    "ru": "%"
+    "ru": "%",
+    "ar": "%"
   },
   "color": "#F7B500",
   "getable": true,
@@ -44,7 +46,8 @@
           "da": "Lysniveau ændret",
           "ru": "Уровень яркости изменен",
           "pl": "Zmienił się poziom przygaszenia",
-          "ko": "밝기가 변경되면"
+          "ko": "밝기가 변경되면",
+          "ar": "تم تغيير مستوى التعتيم"
         },
         "tokens": [
           {
@@ -62,7 +65,8 @@
               "da": "Niveau",
               "ru": "Уровень",
               "pl": "Poziom",
-              "ko": "밝기"
+              "ko": "밝기",
+              "ar": "المستوى"
             },
             "example": 0.5
           }
@@ -85,7 +89,8 @@
           "da": "Juster til",
           "ru": "Установить яркость",
           "pl": "Przygaś do",
-          "ko": "다음 밝기로 조절"
+          "ko": "다음 밝기로 조절",
+          "ar": "التعتيم إلى"
         },
         "args": [
           {
@@ -114,7 +119,8 @@
           "da": "Indstil relativt lysniveau",
           "ru": "Установить относительный уровень яркости",
           "pl": "Ustaw względny poziom przygaszenia",
-          "ko": "상대 밝기 설정"
+          "ko": "상대 밝기 설정",
+          "ar": "ضبط مستوى التعتيم النسبي"
         },
         "hint": {
           "en": "Dim or brighten with respect to the device's current dim-level.",
@@ -122,7 +128,8 @@
           "ru": "Уменьшить или увеличить яркость относительно текущего уровня яркости устройства.",
           "pl": "Przygaś lub rozjaśnij względem obecnego poziomu przygaszenia urządzenia.",
           "ko": "제품의 현재 디밍 수준에 따라 어둡게 또는 밝게 설정돼요.",
-          "no": "Demp eller gjør lysere i forhold til enhetens gjeldende dimmingsnivå."
+          "no": "Demp eller gjør lysere i forhold til enhetens gjeldende dimmingsnivå.",
+          "ar": "التعتيم أو الإضاءة بالنسبة إلى مستوى التعتيم الحالي للجهاز."
         },
         "args": [
           {

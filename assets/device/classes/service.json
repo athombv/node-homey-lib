@@ -11,7 +11,8 @@
     "da": "Tjeneste",
     "ru": "Сервис",
     "pl": "Usługa",
-    "ko": "서비스"
+    "ko": "서비스",
+    "ar": "خدمة"
   },
   "description": {
     "en": "Use this device class for devices that are not really physical devices, but (cloud) services.",
@@ -25,7 +26,8 @@
     "ru": "Используйте этот класс устройств для устройств, которые являются не физическими устройствами, а (облачными) сервисами.",
     "pl": "Użyj tej klasy urządzeń dla urządzeń, które nie są fizycznymi urządzeniami, lecz usługami (w chmurze).",
     "ko": "이 디바이스 클래스는 실제 물리적 디바이스가 아닌 (클라우드) 서비스에 사용하세요.",
-    "nl": "Gebruik deze apparaatklasse voor apparaten die niet echt fysieke apparaten zijn, maar (cloud-)services."
+    "nl": "Gebruik deze apparaatklasse voor apparaten die niet echt fysieke apparaten zijn, maar (cloud-)services.",
+    "ar": "استخدم فئة الجهاز هذه للأجهزة التي ليست أجهزة فيزيائية حقيقية، ولكنها خدمات (سحابية)."
   },
   "minCompatibility": "12.3.0"
 }
