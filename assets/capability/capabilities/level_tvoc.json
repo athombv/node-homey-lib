@@ -12,7 +12,7 @@
     "es": "Nivel de TVOC",
     "fr": "Niveau de COVT",
     "no": "TVOC-nivå",
-    "ar": "مستوى المركبات العضوية المتطايرة الإجمالية"
+    "ar": "مستوى TVOC"
   },
   "desc": {
     "en": "The level of total volatile organic compounds in the air.",

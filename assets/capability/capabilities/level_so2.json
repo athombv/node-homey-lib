@@ -12,7 +12,7 @@
     "es": "Nivel de SO₂",
     "fr": "Niveau de SO₂",
     "no": "SO₂-nivå",
-    "ar": "مستوى ثاني أكسيد الكبريت"
+    "ar": "مستوى SO₂"
   },
   "desc": {
     "en": "The level of sulfur dioxide in the air.",
