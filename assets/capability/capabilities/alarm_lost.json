@@ -11,7 +11,8 @@
     "ru": "Сигнал о потере",
     "sv": "Förlorat-larm",
     "es": "Alarma de pérdida",
-    "fr": "Alarme de perte"
+    "fr": "Alarme de perte",
+    "ar": "إنذار الفقدان"
   },
   "desc": {
     "en": "True when the device is lost.",
@@ -24,7 +25,8 @@
     "ru": "Значение «истина», когда устройство потеряно.",
     "sv": "Sant när enheten förloras.",
     "es": "Activado cuando se ha perdido el dispositivo.",
-    "fr": "Se déclenche lorsque l'appareil est perdu."
+    "fr": "Se déclenche lorsque l'appareil est perdu.",
+    "ar": "صحيح عندما يكون الجهاز مفقودًا."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "ru": "Было потеряно",
     "sv": "Förlorades",
     "es": "Estaba perdido",
-    "fr": "Était perdu"
+    "fr": "Était perdu",
+    "ar": "كان مفقوداً"
   },
   "insightsTitleFalse": {
     "en": "Was no longer lost",
@@ -51,7 +54,8 @@
     "ru": "Больше не потеряно",
     "sv": "Var inte längre förlorad",
     "es": "Ya no estaba perdido",
-    "fr": "N'était plus perdu"
+    "fr": "N'était plus perdu",
+    "ar": "لم يعد مفقوداً"
   },
   "color": "#9033FC",
   "getable": true,
@@ -73,7 +77,8 @@
           "ru": "Потеряно",
           "sv": "Är förlorad",
           "es": "Se ha perdido",
-          "fr": "Est perdu"
+          "fr": "Est perdu",
+          "ar": "مفقود"
         }
       },
       {
@@ -89,7 +94,8 @@
           "ru": "Больше не потеряно",
           "sv": "Är inte längre förlorad",
           "es": "Ya no está perdido",
-          "fr": "N'est plus perdu"
+          "fr": "N'est plus perdu",
+          "ar": "لم يعد مفقوداً"
         }
       }
     ],
@@ -107,7 +113,8 @@
           "ru": "Устройство !{{потеряно|не потеряно}}",
           "sv": "Är !{{förlorad|inte förlorad}}",
           "es": "{{Se ha perdido|Ya no esta perdido}}",
-          "fr": "Est !{{connectée|déconnectée}}"
+          "fr": "Est !{{connectée|déconnectée}}",
+          "ar": "هو !{{مفقود|غير مفقود}}"
         }
       }
     ]

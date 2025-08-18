@@ -11,7 +11,8 @@
     "no": "Vifte",
     "pl": "Okap",
     "ru": "Вытяжка",
-    "sv": "Fläkt"
+    "sv": "Fläkt",
+    "ar": "شفاط"
   },
   "description": {
     "en": "User this device class for any kind of extractor hood.",
@@ -25,7 +26,8 @@
     "pl": "Tej klasy urządzeń należy używać w przypadku każdego rodzaju okapu.",
     "ru": "Используйте этот класс устройств для вытяжек любого типа.",
     "sv": "Använd den här enhetsklassen för alla typer av köksfläktar.",
-    "ko": "이 디바이스 클래스는 모든 종류의 환풍기 후드에 사용합니다."
+    "ko": "이 디바이스 클래스는 모든 종류의 환풍기 후드에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لأي نوع من شفاطات المطبخ."
   },
   "minCompatibility": "12.0.0"
 }

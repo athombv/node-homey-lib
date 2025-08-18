@@ -11,7 +11,8 @@
     "sv": "Gräsllipparens tillstånd",
     "es": "Estado del cortacésped",
     "fr": "État de la tondeuse",
-    "no": "Gressklipperstatus"
+    "no": "Gressklipperstatus",
+    "ar": "حالة الجزازة"
   },
   "desc": {
     "en": "The current state of the lawnmower.",
@@ -24,7 +25,8 @@
     "sv": "Det aktuella tillståndet för gräsklipparen.",
     "es": "El estado actual del cortacésped.",
     "fr": "L'état actuel de la tondeuse à gazon.",
-    "no": "Gressklipperens nåværende tilstand."
+    "no": "Gressklipperens nåværende tilstand.",
+    "ar": "الحالة الحالية لجزازة العشب."
   },
   "values": [
     {
@@ -40,7 +42,8 @@
         "sv": "Klippning",
         "es": "Segando",
         "fr": "Tonte",
-        "no": "Klipper gress"
+        "no": "Klipper gress",
+        "ar": "القص"
       }
     },
     {
@@ -56,7 +59,8 @@
         "sv": "Dockad",
         "es": "En la base de carga",
         "fr": "À la base",
-        "no": "I stasjonen"
+        "no": "I stasjonen",
+        "ar": "مرسى"
       }
     },
     {
@@ -72,7 +76,8 @@
         "sv": "Pausad",
         "es": "En pausa",
         "fr": "En pause",
-        "no": "På pause"
+        "no": "På pause",
+        "ar": "متوقف مؤقتاً"
       }
     },
     {
@@ -88,7 +93,8 @@
         "sv": "Fel",
         "es": "Error",
         "fr": "Erreur",
-        "no": "Feil"
+        "no": "Feil",
+        "ar": "خطأ"
       }
     }
   ],
@@ -111,7 +117,8 @@
           "sv": "Läget för gräsklippare förändrades",
           "es": "El estado del cortacésped ha cambiado",
           "fr": "L'état de la tondeuse à gazon a changé",
-          "no": "Gressklipperstatusen ble endret"
+          "no": "Gressklipperstatusen ble endret",
+          "ar": "تم تغيير حالة جزازة العشب"
         },
         "args": [
           {
@@ -136,7 +143,8 @@
           "sv": "Gräsklipparen !{{är|är inte}}",
           "es": "El cortacésped !{{está|no está}}",
           "fr": "La tondeuse !{{est|n'est pas}}",
-          "no": "Gressklipperen !{{er|er ikke}}"
+          "no": "Gressklipperen !{{er|er ikke}}",
+          "ar": "جزازة العشب !{{هي|ليست}}"
         },
         "args": [
           {
@@ -161,7 +169,8 @@
           "sv": "Börja klippa gräset",
           "es": "Iniciar segado",
           "fr": "Commencer à tondre",
-          "no": "Start gressklipping"
+          "no": "Start gressklipping",
+          "ar": "بدء القص"
         }
       },
       {
@@ -177,7 +186,8 @@
           "sv": "Pausa klippningen",
           "es": "Pausar segado",
           "fr": "Interrompre la tonte",
-          "no": "Sett gressklippingen på pause"
+          "no": "Sett gressklippingen på pause",
+          "ar": "إيقاف القص مؤقتاً"
         }
       },
       {
@@ -193,7 +203,8 @@
           "sv": "Återgå till dockan",
           "es": "Volver a la base de carga",
           "fr": "Retour à la base",
-          "no": "Gå tilbake til stasjonen"
+          "no": "Gå tilbake til stasjonen",
+          "ar": "العودة إلى المرساة"
         }
       }
     ]

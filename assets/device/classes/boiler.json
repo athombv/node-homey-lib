@@ -11,7 +11,8 @@
     "no": "Varmtvannsbereder",
     "pl": "Boiler",
     "ru": "Котел",
-    "sv": "Värmepanna"
+    "sv": "Värmepanna",
+    "ar": "سخان مياه"
   },
   "description": {
     "en": "Use this device class for any kind of boiler, e.g. heatpump boiler, gas boiler, hot water boiler, central heating boiler.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for alle slags varmtvannsberedere, f.eks. varmepumpebereder, gassbereder, varmtvannsbereder, sentral storbereder.",
     "pl": "Tej klasy urządzeń należy używać do każdego rodzaju boilera, np. z pompą ciepła, gazowego, na ciepłą wodę, centralnego ogrzewania.",
     "ru": "Используйте этот класс устройств для котлов любого типа, например, котла с тепловым насосом, газового котла, водонагревательного котла, котла центрального отопления.",
-    "sv": "Använd den här enhetsklassen för alla typer av pannor, t.ex. värmepumpspannor, gaspannor, varmvattenpannor, centralvärmepannor."
+    "sv": "Använd den här enhetsklassen för alla typer av pannor, t.ex. värmepumpspannor, gaspannor, varmvattenpannor, centralvärmepannor.",
+    "ar": "استخدم فئة الجهاز هذه لأي نوع من سخانات المياه، مثل سخان مياه بمضخة حرارية، سخان غاز، سخان مياه ساخنة، سخان تدفئة مركزية."
   },
   "minCompatibility": "12.0.0"
 }

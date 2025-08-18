@@ -11,7 +11,8 @@
     "sv": "Rotation",
     "es": "Rotación",
     "fr": "Rotation",
-    "no": "Rotasjon"
+    "no": "Rotasjon",
+    "ar": "الدوران"
   },
   "units": {
     "en": "°",
@@ -24,7 +25,8 @@
     "sv": "°",
     "es": "°",
     "fr": "°",
-    "no": "°"
+    "no": "°",
+    "ar": "°"
   },
   "desc": {
     "en": "The rotation in degrees.",
@@ -37,7 +39,8 @@
     "sv": "Rotationen i grader.",
     "es": "La rotación en grados.",
     "fr": "La rotation en degrés.",
-    "no": "Rotasjonen i grader."
+    "no": "Rotasjonen i grader.",
+    "ar": "الدوران بالدرجات."
   },
   "insights": true,
   "chartType": "spline",
@@ -61,7 +64,8 @@
           "sv": "Rotationen ändrades",
           "es": "La rotación ha cambiado",
           "fr": "La rotation a changé",
-          "no": "Rotasjonen ble endret"
+          "no": "Rotasjonen ble endret",
+          "ar": "تم تغيير الدوران"
         },
         "tokens": [
           {

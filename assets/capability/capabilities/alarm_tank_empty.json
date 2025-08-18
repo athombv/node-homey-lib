@@ -11,7 +11,8 @@
     "ru": "Сигнал об опорожнении резервуара",
     "sv": "Larm om tom tank",
     "es": "Alarma de depósito vacío",
-    "fr": "Alarme de réservoir vide"
+    "fr": "Alarme de réservoir vide",
+    "ar": "إنذار الخزان الفارغ"
   },
   "desc": {
     "en": "True when the tank is empty.",
@@ -24,7 +25,8 @@
     "ru": "Значение «истина», когда резервуар пустой.",
     "sv": "Sant när tanken är tom.",
     "es": "Activado cuando el depósito está vacío.",
-    "fr": "Se déclenche lorsque le réservoir est vide."
+    "fr": "Se déclenche lorsque le réservoir est vide.",
+    "ar": "صحيح عندما يكون الخزان فارغًا."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "ru": "Резервуар был пуст",
     "sv": "Tanken var tom",
     "es": "El depósito estaba vacío",
-    "fr": "Le réservoir était vide"
+    "fr": "Le réservoir était vide",
+    "ar": "كان الخزان فارغاً"
   },
   "insightsTitleFalse": {
     "en": "Tank was not empty",
@@ -51,7 +54,8 @@
     "ru": "Резервуар не был пуст",
     "sv": "Tanken var inte tom",
     "es": "El depósito no estaba vacío",
-    "fr": "Le réservoir n'était pas vide"
+    "fr": "Le réservoir n'était pas vide",
+    "ar": "لم يكن الخزان فارغاً"
   },
   "color": "#0091FF",
   "getable": true,
@@ -73,7 +77,8 @@
           "ru": "Резервуар пуст",
           "sv": "Tanken är tom",
           "es": "El depósito está vacío",
-          "fr": "Le réservoir est vide"
+          "fr": "Le réservoir est vide",
+          "ar": "الخزان فارغ"
         }
       },
       {
@@ -89,7 +94,8 @@
           "ru": "Резервуар больше не пуст",
           "sv": "Tanken är inte längre tom",
           "es": "El depósito ya no está vacío",
-          "fr": "Le réservoir n'est plus vide"
+          "fr": "Le réservoir n'est plus vide",
+          "ar": "لم يعد الخزان فارغاً"
         }
       }
     ],
@@ -107,7 +113,8 @@
           "ru": "Резервуар !{{пуст|не пуст}}",
           "sv": "Tanken är !{{tom|inte tom}}",
           "es": "El depósito !{{está vacío|no está vacío}}",
-          "fr": "Le réservoir !{{est rempli|n'est pas rempli}}"
+          "fr": "Le réservoir !{{est rempli|n'est pas rempli}}",
+          "ar": "الخزان !{{فارغ|ليس فارغاً}}"
         }
       }
     ]

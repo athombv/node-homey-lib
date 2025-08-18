@@ -11,7 +11,8 @@
     "no": "Røykvarsler",
     "pl": "Alarm przeciwdymny",
     "ru": "Датчик дыма",
-    "sv": "Rökalarm"
+    "sv": "Rökalarm",
+    "ar": "إنذار الدخان"
   },
   "description": {
     "en": "Use this device class for any smoke- or CO-alarm, could also be used for combo units.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for alle slags røyk- eller kullosvarslere. Kan også brukes for kombienheter.",
     "pl": "Tej klasy urządzeń można używać w przypadku dowolnego alarmu dymnego lub CO, a także w przypadku urządzeń typu combo.",
     "ru": "Используйте этот класс устройств для датчиков дыма или угарного газа любого типа; также можно использовать для комбинированных устройств.",
-    "sv": "Använd den här enhetsklassen för alla rök- eller CO-larm, kan även användas för kombienheter."
+    "sv": "Använd den här enhetsklassen för alla rök- eller CO-larm, kan även användas för kombienheter.",
+    "ar": "استخدم فئة الجهاز هذه لأي إنذار دخان أو أول أكسيد الكربون، ويمكن استخدامها أيضًا للوحدات المدمجة."
   },
   "minCompatibility": "12.0.0"
 }

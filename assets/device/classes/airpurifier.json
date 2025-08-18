@@ -11,7 +11,8 @@
     "no": "Luftrenser",
     "pl": "Oczyszczacz powietrza",
     "ru": "Очиститель воздуха",
-    "sv": "Luftrenare"
+    "sv": "Luftrenare",
+    "ar": "جهاز تنقية الهواء"
   },
   "description": {
     "en": "Use this device class for air purifiers.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for luftrensere.",
     "pl": "Tej klasy urządzeń należy używać w przypadku oczyszczaczy powietrza.",
     "ru": "Используйте этот класс устройств для очистителей воздуха.",
-    "sv": "Använd den häe enhetsklassen för luftrenare."
+    "sv": "Använd den häe enhetsklassen för luftrenare.",
+    "ar": "استخدم فئة الجهاز هذه لأجهزة تنقية الهواء."
   },
   "minCompatibility": "12.0.0"
 }

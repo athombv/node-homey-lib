@@ -12,7 +12,8 @@
     "da": "Gasmåler",
     "ru": "Счетчик газа",
     "pl": "Licznik gazowy",
-    "ko": "가스량"
+    "ko": "가스량",
+    "ar": "عداد الغاز"
   },
   "min": 0,
   "decimals": 2,
@@ -21,7 +22,8 @@
     "en": "m³",
     "ru": "м³",
     "ko": "m³",
-    "no": "m³"
+    "no": "m³",
+    "ar": "m³"
   },
   "desc": {
     "en": "Gas usage in cubic meter (m³)",
@@ -35,7 +37,8 @@
     "da": "Gasforbrug i kubikmeter (m³)",
     "ru": "Использование газа в кубометрах (м³)",
     "pl": "Zużycie gazu w metrach sześciennych (m³)",
-    "ko": "가스 사용량 입방미터(m³)"
+    "ko": "가스 사용량 입방미터(m³)",
+    "ar": "استهلاك الغاز بالمتر المكعب (m³)"
   },
   "color": "#F9236C",
   "insights": true,
@@ -58,7 +61,8 @@
           "da": "Gasmåleren ændrede sig",
           "ru": "Измерения счетчика газа изменились",
           "pl": "Zmiana w liczniku gazowym",
-          "ko": "가스량이 변경되면"
+          "ko": "가스량이 변경되면",
+          "ar": "تم تغيير عداد الغاز"
         },
         "tokens": [
           {

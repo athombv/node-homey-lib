@@ -11,7 +11,8 @@
     "da": "Hjemmesikkerhed",
     "ru": "Домашняя безопасность",
     "pl": "Bezpieczeństwo domowe",
-    "ko": "홈 시큐리티"
+    "ko": "홈 시큐리티",
+    "ar": "أمن المنزل"
   },
   "description": {
     "en": "Use this device class for home alarm systems.",
@@ -24,6 +25,7 @@
     "da": "Brug denne enhedsklasse til alarmsystemer til hjemmet.",
     "ru": "Используйте этот класс устройств для домашних систем сигнализации.",
     "pl": "Użyj tej klasy urządzeń dla alarmów domowych.",
-    "ko": "이 디바이스 클래스는 가정용 알람 시스템에 사용합니다."
+    "ko": "이 디바이스 클래스는 가정용 알람 시스템에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لأنظمة إنذار المنزل."
   }
 }

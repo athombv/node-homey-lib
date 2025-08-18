@@ -10,7 +10,8 @@
     "sv": "Stopp",
     "es": "Detener",
     "fr": "Arrêter",
-    "no": "Stopp"
+    "no": "Stopp",
+    "ar": "إيقاف"
   },
   "type": "boolean",
   "color": "#9033FC",
@@ -32,7 +33,8 @@
           "sv": "Stopp",
           "es": "Detener",
           "fr": "Arrêter",
-          "no": "Stopp"
+          "no": "Stopp",
+          "ar": "إيقاف"
         }
       }
     ]

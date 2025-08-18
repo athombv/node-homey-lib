@@ -11,7 +11,8 @@
     "da": "Indstil lydstyrken",
     "ru": "Установить громкость",
     "pl": "Ustaw głośność",
-    "ko": "볼륨 설정"
+    "ko": "볼륨 설정",
+    "ar": "ضبط مستوى الصوت"
   },
   "type": "number",
   "desc": {
@@ -26,7 +27,8 @@
     "da": "Lydstyrke",
     "ru": "Громкость",
     "pl": "Poziom głośności",
-    "ko": "볼륨"
+    "ko": "볼륨",
+    "ar": "مستوى الصوت"
   },
   "chartType": "stepLine",
   "min": 0,
@@ -36,7 +38,8 @@
     "en": "%",
     "ko": "%",
     "no": "%",
-    "ru": "%"
+    "ru": "%",
+    "ar": "%"
   },
   "color": "#9033FC",
   "setable": true,
@@ -58,7 +61,8 @@
           "da": "Lydstyrke ændrede sig",
           "ru": "Объем изменился",
           "pl": "Zmienił się poziom głośności",
-          "ko": "볼륨이 변경되면"
+          "ko": "볼륨이 변경되면",
+          "ar": "تم تغيير مستوى الصوت"
         },
         "tokens": [
           {
@@ -76,7 +80,8 @@
               "da": "Lydstyrke",
               "ru": "Громкость",
               "pl": "Poziom głośności",
-              "ko": "볼륨이 다음이면"
+              "ko": "볼륨이 다음이면",
+              "ar": "مستوى الصوت"
             },
             "example": 0.5
           }
@@ -99,7 +104,8 @@
           "da": "Indstil lydstyrke til",
           "ru": "Установить громкость на",
           "pl": "Ustaw poziom głośności na",
-          "ko": "볼륨을 다음으로 설정"
+          "ko": "볼륨을 다음으로 설정",
+          "ar": "ضبط مستوى الصوت إلى"
         },
         "args": [
           {
@@ -125,7 +131,8 @@
           "pl": "Ustaw względny poziom głośności",
           "ko": "상대 볼륨 설정",
           "no": "Still inn relativt volum",
-          "es": "Configurar volumen relativo"
+          "es": "Configurar volumen relativo",
+          "ar": "ضبط مستوى الصوت النسبي"
         },
         "hint": {
           "en": "Change the volume with respect to the device's current volume.",
@@ -133,7 +140,8 @@
           "nl": "Verhoog of verlaag het volume ten opzichte van het huidige volume van het apparaat.",
           "ko": "제품의 현재 볼륨을 기준으로 볼륨을 변경해요.",
           "no": "Endre volumet i forhold til enhetens gjeldende volum.",
-          "ru": "Изменить громкость по отношению к текущей громкости устройства."
+          "ru": "Изменить громкость по отношению к текущей громкости устройства.",
+          "ar": "تغيير مستوى الصوت بالنسبة إلى مستوى الصوت الحالي للجهاز."
         },
         "args": [
           {

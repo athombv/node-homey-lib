@@ -12,13 +12,15 @@
     "da": "Vindstyrke",
     "ru": "Сила ветра",
     "pl": "Siła wiatru",
-    "ko": "풍속"
+    "ko": "풍속",
+    "ar": "شدة الرياح"
   },
   "units": {
     "en": "km/h",
     "ru": "км/ч",
     "ko": "km/h",
-    "no": "km/t"
+    "no": "km/t",
+    "ar": "km/h"
   },
   "desc": {
     "en": "Wind Strength in kilometer per hour (km/h)",
@@ -32,7 +34,8 @@
     "da": "Vindstyrke i kilometer i timen (km/t)",
     "ru": "Сила ветра в км в час (км/ч)",
     "pl": "Siła wiatru w kilometrach na godzinę (km/h)",
-    "ko": "풍속 시간당 킬로미터(km/h)"
+    "ko": "풍속 시간당 킬로미터(km/h)",
+    "ar": "شدة الرياح بالكيلومتر في الساعة (km/h)"
   },
   "insights": true,
   "chartType": "spline",
@@ -57,7 +60,8 @@
           "da": "Vindstyrken ændrede sig",
           "ru": "Сила ветра изменилась",
           "pl": "Zmiana siły wiatru",
-          "ko": "풍속이 변경되면"
+          "ko": "풍속이 변경되면",
+          "ar": "تم تغيير شدة الرياح"
         },
         "tokens": [
           {

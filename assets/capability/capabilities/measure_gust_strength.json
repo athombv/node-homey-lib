@@ -12,13 +12,15 @@
     "da": "Vindstyrke",
     "ru": "Сила порывов ветра",
     "pl": "Siła porywu wiatru",
-    "ko": "돌풍 세기"
+    "ko": "돌풍 세기",
+    "ar": "شدة العاصفة"
   },
   "units": {
     "en": "km/h",
     "ru": "км/ч",
     "ko": "km/h",
-    "no": "km/t"
+    "no": "km/t",
+    "ar": "km/h"
   },
   "insights": true,
   "desc": {
@@ -33,7 +35,8 @@
     "da": "Vindstyrke i kilometer i timen (km/t)",
     "ru": "Сила порывов ветра в км в час (км/ч)",
     "pl": "Siła porywu wiatru w kilometrach na godzinę (km/h)",
-    "ko": "돌풍 세기 시간당 킬로미터(km/h)"
+    "ko": "돌풍 세기 시간당 킬로미터(km/h)",
+    "ar": "شدة العاصفة بالكيلومتر في الساعة (km/h)"
   },
   "chartType": "stepLine",
   "decimals": 2,
@@ -57,7 +60,8 @@
           "da": "Vindstyrken skiftede",
           "ru": "Сила порывов ветра изменилась",
           "pl": "Zmiana siły porywu wiatru",
-          "ko": "돌풍 세기가 변경되면"
+          "ko": "돌풍 세기가 변경되면",
+          "ar": "تم تغيير شدة العاصفة"
         },
         "tokens": [
           {

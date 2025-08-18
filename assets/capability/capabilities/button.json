@@ -11,7 +11,8 @@
     "da": "Knap",
     "ru": "Кнопка",
     "pl": "Przycisk",
-    "ko": "버튼"
+    "ko": "버튼",
+    "ar": "زر"
   },
   "type": "boolean",
   "color": "#9033FC",
@@ -35,7 +36,8 @@
           "da": "Tryk på knappen",
           "ru": "Нажмите кнопку",
           "pl": "Naciśnij przycisk",
-          "ko": "버튼 누르기"
+          "ko": "버튼 누르기",
+          "ar": "اضغط على الزر"
         }
       }
     ]

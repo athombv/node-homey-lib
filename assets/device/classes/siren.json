@@ -11,7 +11,8 @@
     "no": "Sirene",
     "pl": "Syrena",
     "ru": "Сирена",
-    "sv": "Siren"
+    "sv": "Siren",
+    "ar": "صفارة إنذار"
   },
   "description": {
     "en": "Use this device class for sirens.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for sirener.",
     "pl": "Tej klasy urządzeń należy używać w przypadku syren.",
     "ru": "Используйте этот класс устройств для сирен.",
-    "sv": "Använd den här enhetsklassen för sirener."
+    "sv": "Använd den här enhetsklassen för sirener.",
+    "ar": "استخدم فئة الجهاز هذه لصفارات الإنذار."
   },
   "minCompatibility": "12.0.0"
 }

@@ -11,7 +11,8 @@
     "no": "Elbillader",
     "pl": "Ładowarka pojazdów elektrycznych",
     "ru": "Зарядное устройство для электромобилей",
-    "sv": "Laddare för elfordon"
+    "sv": "Laddare för elfordon",
+    "ar": "شاحن سيارة كهربائية"
   },
   "description": {
     "en": "Use this device class for EV chargers.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for elbilladere.",
     "pl": "Ta klasa urządzeń jest przeznaczona dla ładowarek pojazdów elektrycznych.",
     "ru": "Используйте этот класс устройств для зарядных устройств для электромобилей.",
-    "sv": "Använd den hät enhetsklassen för elfordonsladdare."
+    "sv": "Använd den hät enhetsklassen för elfordonsladdare.",
+    "ar": "استخدم فئة الجهاز هذه لشواحن السيارات الكهربائية."
   },
   "minCompatibility": "12.0.0"
 }

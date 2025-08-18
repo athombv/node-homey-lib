@@ -11,7 +11,8 @@
     "sv": "Mediaingång",
     "es": "Entrada de contenido multimedia",
     "fr": "Entrée multimédia",
-    "no": "Medieinngang"
+    "no": "Medieinngang",
+    "ar": "مدخل الوسائط"
   },
   "desc": {
     "en": "The input channel for a media player",
@@ -24,7 +25,8 @@
     "sv": "Ingångskanalen för en mediaspelare",
     "es": "El canal de entrada de un reproductor multimedia",
     "fr": "Le canal d'entrée d'un lecteur multimédia",
-    "no": "Inngangskanalen for en mediespiller"
+    "no": "Inngangskanalen for en mediespiller",
+    "ar": "قناة الإدخال لمشغل الوسائط"
   },
   "values": [
     {
@@ -40,7 +42,8 @@
         "sv": "HDMI 1",
         "es": "HDMI 1",
         "fr": "HDMI 1",
-        "no": "HDMI 1"
+        "no": "HDMI 1",
+        "ar": "HDMI 1"
       }
     },
     {
@@ -56,7 +59,8 @@
         "sv": "HDMI 2",
         "es": "HDMI 2",
         "fr": "HDMI 2",
-        "no": "HDMI 2"
+        "no": "HDMI 2",
+        "ar": "HDMI 2"
       }
     },
     {
@@ -72,7 +76,8 @@
         "sv": "HDMI 3",
         "es": "HDMI 3",
         "fr": "HDMI 3",
-        "no": "HDMI 3"
+        "no": "HDMI 3",
+        "ar": "HDMI 3"
       }
     },
     {
@@ -88,7 +93,8 @@
         "sv": "USB 1",
         "es": "USB 1",
         "fr": "USB 1",
-        "no": "USB 1"
+        "no": "USB 1",
+        "ar": "USB 1"
       }
     },
     {
@@ -104,7 +110,8 @@
         "sv": "USB 2",
         "es": "USB 2",
         "fr": "USB 2",
-        "no": "USB 2"
+        "no": "USB 2",
+        "ar": "USB 2"
       }
     },
     {
@@ -120,7 +127,8 @@
         "sv": "Komponent",
         "es": "Componente",
         "fr": "Composant",
-        "no": "Komponent"
+        "no": "Komponent",
+        "ar": "مركب"
       }
     }
   ],
@@ -144,7 +152,8 @@
           "sv": "Medieuppgifterna ändrades till",
           "es": "La entrada de contenido multimedia ha cambiado a",
           "fr": "L'entrée multimédia est passée à",
-          "no": "Medieinngangen ble endret til"
+          "no": "Medieinngangen ble endret til",
+          "ar": "تم تغيير مدخل الوسائط إلى"
         },
         "args": [
           {
@@ -169,7 +178,8 @@
           "sv": "Mediaingången !{{är|är inte}}",
           "es": "La entrada de contenido multimedia !{{es|no es}}",
           "fr": "L'entrée multimédia !{{est|n'est pas}}",
-          "no": "Medieinngangen !{{er|er ikke}}"
+          "no": "Medieinngangen !{{er|er ikke}}",
+          "ar": "مدخل الوسائط !{{هو|ليس}}"
         },
         "args": [
           {
@@ -194,7 +204,8 @@
           "sv": "Ställ in mediaingången",
           "es": "Configurar la entrada de contenido multimedia",
           "fr": "Définir l'entrée multimédia",
-          "no": "Innstill medieinngangen"
+          "no": "Innstill medieinngangen",
+          "ar": "ضبط مدخل الوسائط"
         },
         "args": [
           {

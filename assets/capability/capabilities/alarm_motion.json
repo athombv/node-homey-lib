@@ -12,7 +12,8 @@
     "da": "Bevægelsesalarm",
     "ru": "Сигнал движения",
     "pl": "Czujnik ruchu",
-    "ko": "움직임 감지"
+    "ko": "움직임 감지",
+    "ar": "إنذار الحركة"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -27,7 +28,8 @@
     "da": "Bevægelsesalarm blev aktiveret",
     "ru": "Сигнал движения включен",
     "pl": "Czujnik ruchu włączony",
-    "ko": "움직임 감지됨"
+    "ko": "움직임 감지됨",
+    "ar": "تم تشغيل إنذار الحركة"
   },
   "insightsTitleFalse": {
     "en": "Motion alarm turned off",
@@ -41,7 +43,8 @@
     "da": "Bevægelsesalarm blev deaktiveret",
     "ru": "Сигнал движения выключен",
     "pl": "Czujnik ruchu wyłączony",
-    "ko": "움직임 없음"
+    "ko": "움직임 없음",
+    "ar": "تم إيقاف إنذار الحركة"
   },
   "getable": true,
   "setable": false,
@@ -67,7 +70,8 @@
           "da": "Bevægelsesalarmen blev aktiveret",
           "ru": "Сигнал движения включен",
           "pl": "Czujnik ruchu włączony",
-          "ko": "움직임이 감지되면"
+          "ko": "움직임이 감지되면",
+          "ar": "تم تشغيل إنذار الحركة"
         }
       },
       {
@@ -84,7 +88,8 @@
           "da": "Bevægelsesalarmen blev deaktiveret",
           "ru": "Сигнал движения выключен",
           "pl": "Czujnik ruchu wyłączony",
-          "ko": "움직임이 없으면"
+          "ko": "움직임이 없으면",
+          "ar": "تم إيقاف إنذار الحركة"
         }
       }
     ],
@@ -103,7 +108,8 @@
           "da": "Bevægelsesalarmen er !{{tændt|slukket}}",
           "ru": "Сигнал движения !{{вкл.|выкл.}}",
           "pl": "Czujnik ruchu jest !{{włączony|wyłączony}}",
-          "ko": "움직임이 !{{감지되면|없으면}}"
+          "ko": "움직임이 !{{감지되면|없으면}}",
+          "ar": "إنذار الحركة !{{يعمل|لا يعمل}}"
         }
       }
     ]

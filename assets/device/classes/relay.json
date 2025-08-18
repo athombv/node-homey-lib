@@ -11,7 +11,8 @@
     "da": "Relæ",
     "ru": "Узел",
     "pl": "Przekaźnik",
-    "ko": "릴레이"
+    "ko": "릴레이",
+    "ar": "ريلاي"
   },
   "description": {
     "en": "Use this device class for relays, which are connected to another device.",
@@ -24,7 +25,8 @@
     "da": "Brug denne enhedsklasse til relæer, som er koblet til en anden enhed.",
     "ru": "Используйте этот класс устройств для узлов, которые подключены к другому устройству.",
     "pl": "Użyj tej klasy urządzeń dla przekaźników niepołączonych z żadnym innym urządzeniem.",
-    "ko": "이 디바이스 클래스는 다른 디바이스에 연결된 릴레이에 사용합니다."
+    "ko": "이 디바이스 클래스는 다른 디바이스에 연결된 릴레이에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه للريلاي، والتي تتصل بجهاز آخر."
   },
   "virtualTitle": {
     "en": "What's connected?",
@@ -38,7 +40,8 @@
     "da": "Hvad er tilkoblet?",
     "ru": "Что подключено?",
     "pl": "Co jest połączone?",
-    "ko": "어떤 것이 연결되어 있나요?"
+    "ko": "어떤 것이 연결되어 있나요?",
+    "ar": "ما هو المتصل؟"
   },
   "allowedVirtual": [
     "garagedoor",

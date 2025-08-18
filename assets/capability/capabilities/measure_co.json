@@ -11,14 +11,16 @@
     "da": "CO",
     "ru": "CO",
     "pl": "CO",
-    "ko": "일산화탄소(CO)"
+    "ko": "일산화탄소(CO)",
+    "ar": "أول أكسيد الكربون"
   },
   "units": {
     "en": "ppm",
     "ru": "ч./млн.",
     "ko": "ppm",
     "no": "ppm",
-    "pl": "ppm"
+    "pl": "ppm",
+    "ar": "ppm"
   },
   "insights": true,
   "desc": {
@@ -33,7 +35,8 @@
     "da": "CO i partikler-per-million (ppm)",
     "ru": "CO в частицах на миллион (ч./млн.)",
     "pl": "Stężenie tlenku węgla w części na milion (ppm)",
-    "ko": "CO 백만분의일 농도(ppm)"
+    "ko": "CO 백만분의일 농도(ppm)",
+    "ar": "أول أكسيد الكربون بجزء في المليون (ppm)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -57,7 +60,8 @@
           "da": "CO-niveauet har ændret sig",
           "ru": "CO-уровень изменен",
           "pl": "Zmienił się poziom CO",
-          "ko": "일산화탄소(CO) 수준이 변경되면"
+          "ko": "일산화탄소(CO) 수준이 변경되면",
+          "ar": "تم تغيير مستوى أول أكسيد الكربون"
         },
         "tokens": [
           {

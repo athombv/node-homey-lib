@@ -11,7 +11,8 @@
     "sv": "Drifttillstånd",
     "es": "Estado operativo",
     "fr": "État opérationnel",
-    "no": "Driftstilstand"
+    "no": "Driftstilstand",
+    "ar": "حالة التشغيل"
   },
   "desc": {
     "en": "The operational state of the appliance.",
@@ -24,7 +25,8 @@
     "sv": "Apparatens drifttillstånd.",
     "es": "El estado operativo del dispositivo.",
     "fr": "L'état de fonctionnement de l'appareil.",
-    "no": "Apparatets driftstilstand."
+    "no": "Apparatets driftstilstand.",
+    "ar": "حالة التشغيل للجهاز."
   },
   "values": [
     {
@@ -40,7 +42,8 @@
         "sv": "Stoppad",
         "es": "Detenido",
         "fr": "Arrêté",
-        "no": "Stoppet"
+        "no": "Stoppet",
+        "ar": "متوقف"
       }
     },
     {
@@ -56,7 +59,8 @@
         "sv": "Körs",
         "es": "En uso",
         "fr": "En cours d'exécution",
-        "no": "I gang"
+        "no": "I gang",
+        "ar": "قيد التشغيل"
       }
     },
     {
@@ -72,7 +76,8 @@
         "sv": "Pausad",
         "es": "En pausa",
         "fr": "En pause",
-        "no": "På pause"
+        "no": "På pause",
+        "ar": "متوقف مؤقتاً"
       }
     },
     {
@@ -88,7 +93,8 @@
         "sv": "Fel",
         "es": "Error",
         "fr": "Erreur",
-        "no": "Feil"
+        "no": "Feil",
+        "ar": "خطأ"
       }
     }
   ],
@@ -112,7 +118,8 @@
           "sv": "Drifttillståndet ändrades till",
           "es": "El estado operativo ha cambiado a",
           "fr": "L'état opérationnel est passé à",
-          "no": "Driftstilstanden ble endret til"
+          "no": "Driftstilstanden ble endret til",
+          "ar": "تم تغيير حالة التشغيل إلى"
         },
         "args": [
           {
@@ -137,7 +144,8 @@
           "sv": "Drifttillståndet !{{är|är inte}}",
           "es": "El estado operativo !{{está|no está}}",
           "fr": "L'état opérationnel !{{est|n'est pas}}",
-          "no": "Driftstilstanden !{{er|er ikke}}"
+          "no": "Driftstilstanden !{{er|er ikke}}",
+          "ar": "حالة التشغيل !{{هي|ليست}}"
         },
         "args": [
           {

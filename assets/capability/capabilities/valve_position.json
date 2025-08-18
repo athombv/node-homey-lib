@@ -11,7 +11,8 @@
     "sv": "Ventilposition",
     "es": "Posición de la válvula",
     "fr": "Position de la vanne",
-    "no": "Ventilposisjon"
+    "no": "Ventilposisjon",
+    "ar": "وضع الصمام"
   },
   "units": {
     "en": "%",
@@ -24,7 +25,8 @@
     "sv": "%",
     "es": "%",
     "fr": " %",
-    "no": "%"
+    "no": "%",
+    "ar": "%"
   },
   "desc": {
     "en": "The current position of the valve in percent.",
@@ -37,7 +39,8 @@
     "sv": "Ventilens aktuella position i procent.",
     "es": "La posición actual de la válvula en porcentaje.",
     "fr": "Position actuelle de la vanne en pourcentage.",
-    "no": "Ventilens nåværende posisjon i prosent."
+    "no": "Ventilens nåværende posisjon i prosent.",
+    "ar": "الوضع الحالي للصمام بالنسبة المئوية."
   },
   "insights": true,
   "chartType": "spline",
@@ -63,7 +66,8 @@
           "sv": "Ventilens position har ändrats",
           "es": "La posición de la válvula la cambiado",
           "fr": "La position de la vanne a changé",
-          "no": "Ventilposisjonen ble endret"
+          "no": "Ventilposisjonen ble endret",
+          "ar": "تم تغيير وضع الصمام"
         },
         "tokens": [
           {
@@ -89,7 +93,8 @@
           "sv": "Ställ in ventilens position",
           "es": "Ajustar la posición de la válvula",
           "fr": "Définir la position de la vanne",
-          "no": "Innstill ventilposisjonen"
+          "no": "Innstill ventilposisjonen",
+          "ar": "ضبط وضع الصمام"
         },
         "args": [
           {

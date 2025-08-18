@@ -11,7 +11,8 @@
     "sv": "Pumpläge",
     "es": "Modo bombeo",
     "fr": "Mode de pompage",
-    "no": "Pumpemodus"
+    "no": "Pumpemodus",
+    "ar": "وضع المضخة"
   },
   "desc": {
     "en": "Used to set which setpoint regulates the pump.",
@@ -24,7 +25,8 @@
     "sv": "Används för att ställa in vilket börvärde som reglerar pumpen.",
     "es": "Sirve para establecer qué valor regula el bombeo.",
     "fr": "Permet de définir le point de réglage qui régule la pompe.",
-    "no": "Brukes til å innstille hvilket settepunkt som skal regulere pumpen."
+    "no": "Brukes til å innstille hvilket settepunkt som skal regulere pumpen.",
+    "ar": "يُستخدم لضبط نقطة الضبط التي تنظم المضخة."
   },
   "values": [
     {
@@ -40,7 +42,8 @@
         "sv": "Konstant tryck",
         "es": "Presión constante",
         "fr": "Pression constante",
-        "no": "Konstant trykk"
+        "no": "Konstant trykk",
+        "ar": "ضغط ثابت"
       }
     },
     {
@@ -56,7 +59,8 @@
         "sv": "Kompenserat tryck",
         "es": "Presión compensada",
         "fr": "Pression compensée",
-        "no": "Kompensert trykk"
+        "no": "Kompensert trykk",
+        "ar": "ضغط معوّض"
       }
     },
     {
@@ -72,7 +76,8 @@
         "sv": "Konstant Flow",
         "es": "Flow constante",
         "fr": "Flow constant",
-        "no": "Konstant Flow"
+        "no": "Konstant Flow",
+        "ar": "تدفق ثابت"
       }
     },
     {
@@ -88,7 +93,8 @@
         "sv": "Konstant hastighet",
         "es": "Velocidad constante",
         "fr": "Vitesse constante",
-        "no": "Konstant hastighet"
+        "no": "Konstant hastighet",
+        "ar": "سرعة ثابتة"
       }
     },
     {
@@ -104,7 +110,8 @@
         "sv": "Konstant temperatur",
         "es": "Temperatura constante",
         "fr": "Température constante",
-        "no": "Konstant temperatur"
+        "no": "Konstant temperatur",
+        "ar": "درجة حرارة ثابتة"
       }
     },
     {
@@ -120,7 +127,8 @@
         "no": "Automatisk",
         "pl": "Automatyczny",
         "ru": "Автоматический",
-        "sv": "Automatisk"
+        "sv": "Automatisk",
+        "ar": "تلقائي"
       }
     }
   ],
@@ -144,7 +152,8 @@
           "sv": "Pumpläget ändrades till",
           "es": "El modo bombeo ha cambiado a",
           "fr": "Le mode de pompage est passé à",
-          "no": "Pumpemodus ble endret til"
+          "no": "Pumpemodus ble endret til",
+          "ar": "تم تغيير وضع المضخة إلى"
         },
         "args": [
           {
@@ -169,7 +178,8 @@
           "sv": "Pumpens läge !{{är|är inte}}",
           "es": "El modo bombeo !{{es|no es}}",
           "fr": "Le mode de pompage !{{est|n'est pas}}",
-          "no": "Pumpemodusen !{{er|er ikke}}"
+          "no": "Pumpemodusen !{{er|er ikke}}",
+          "ar": "وضع المضخة !{{هو|ليس}}"
         },
         "args": [
           {
@@ -194,7 +204,8 @@
           "sv": "Ställ in pumpläge",
           "es": "Configurar el modo bombeo",
           "fr": "Définir le mode de pompage",
-          "no": "Angi pumpemodus"
+          "no": "Angi pumpemodus",
+          "ar": "ضبط وضع المضخة"
         },
         "args": [
           {

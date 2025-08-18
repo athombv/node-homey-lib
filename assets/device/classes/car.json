@@ -11,7 +11,8 @@
     "no": "Bil",
     "pl": "Samochód",
     "ru": "Автомобиль",
-    "sv": "Bil"
+    "sv": "Bil",
+    "ar": "سيارة"
   },
   "description": {
     "en": "Use this device class for any kind of car.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for alle slags biler.",
     "pl": "Ta klasa urządzeń jest przeznaczona do każdego rodzaju samochodu.",
     "ru": "Используйте этот класс устройств для автомобилей любого типа.",
-    "sv": "Använd den här enhetsklassen för alla typer av bilar."
+    "sv": "Använd den här enhetsklassen för alla typer av bilar.",
+    "ar": "استخدم فئة الجهاز هذه لأي نوع من السيارات."
   },
   "minCompatibility": "12.0.0"
 }

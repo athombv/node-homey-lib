@@ -11,7 +11,8 @@
     "da": "Varmeapparat",
     "ru": "Обогреватель",
     "pl": "Grzejnik",
-    "ko": "히터"
+    "ko": "히터",
+    "ar": "سخان"
   },
   "description": {
     "en": "Use this device class for heaters, that warm your home.",
@@ -24,7 +25,8 @@
     "da": "Brug denne enhedsklasse til varmeapparater, som opvarmer dit hjem.",
     "ru": "Используйте этот класс устройств для обогревателей, которые обогревают ваш дом.",
     "pl": "Użyj tej klasy urządzeń dla grzejników, które ogrzewają dom.",
-    "ko": "이 디바이스 클래스는 집을 따뜻하게 해주는 히터에 사용합니다."
+    "ko": "이 디바이스 클래스는 집을 따뜻하게 해주는 히터에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه للسخانات التي تدفئ منزلك."
   },
   "virtualTitle": {
     "en": "What's the type?",
@@ -38,7 +40,8 @@
     "no": "Hvilken type er det?",
     "pl": "Jaki to typ?",
     "ru": "Какой тип?",
-    "sv": "Vad är det för typ?"
+    "sv": "Vad är det för typ?",
+    "ar": "ما هو النوع؟"
   },
   "allowedVirtual": [
     "radiator"

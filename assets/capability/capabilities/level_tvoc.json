@@ -11,7 +11,8 @@
     "sv": "TVOC-nivå",
     "es": "Nivel de TVOC",
     "fr": "Niveau de COVT",
-    "no": "TVOC-nivå"
+    "no": "TVOC-nivå",
+    "ar": "مستوى المركبات العضوية المتطايرة الإجمالية"
   },
   "desc": {
     "en": "The level of total volatile organic compounds in the air.",
@@ -24,7 +25,8 @@
     "sv": "Halten av totala mängden flyktiga organiska föreningar i luften.",
     "es": "El nivel de compuestos orgánicos volátiles totales en el aire.",
     "fr": "Le niveau de composés organiques volatils totaux dans l'air.",
-    "no": "Nivået av total mengde flyktige organiske forbindelser i luften."
+    "no": "Nivået av total mengde flyktige organiske forbindelser i luften.",
+    "ar": "مستوى المركبات العضوية المتطايرة الإجمالية في الهواء."
   },
   "values": [
     {
@@ -40,7 +42,8 @@
         "sv": "Låg",
         "es": "Bajo",
         "fr": "Faible",
-        "no": "Lavt"
+        "no": "Lavt",
+        "ar": "منخفض"
       }
     },
     {
@@ -56,7 +59,8 @@
         "sv": "Medium",
         "es": "Intermedio",
         "fr": "Moyen",
-        "no": "Middels"
+        "no": "Middels",
+        "ar": "متوسط"
       }
     },
     {
@@ -72,7 +76,8 @@
         "sv": "Hög",
         "es": "Alto",
         "fr": "Élevé",
-        "no": "Høyt"
+        "no": "Høyt",
+        "ar": "عالي"
       }
     },
     {
@@ -88,7 +93,8 @@
         "sv": "Kritisk",
         "es": "Crítico",
         "fr": "Critique",
-        "no": "Kritisk"
+        "no": "Kritisk",
+        "ar": "حرج"
       }
     }
   ],
@@ -112,7 +118,8 @@
           "sv": "TVOC-nivån ändrades till",
           "es": "El nivel de COVT ha cambiado a",
           "fr": "Le niveau en COVT est passé à",
-          "no": "TVOC-nivået ble endret til"
+          "no": "TVOC-nivået ble endret til",
+          "ar": "تم تغيير مستوى المركبات العضوية المتطايرة الإجمالية إلى"
         },
         "args": [
           {
@@ -137,7 +144,8 @@
           "sv": "TVOC-nivån !{{är|är inte}}",
           "es": "El nivel de TVOC !{{es|no es}}",
           "fr": "Le niveau de COVT !{{est|n'est pas}}",
-          "no": "TVOC-nivået !{{er|er ikke}}"
+          "no": "TVOC-nivået !{{er|er ikke}}",
+          "ar": "مستوى المركبات العضوية المتطايرة الإجمالية !{{هو|ليس}}"
         },
         "args": [
           {

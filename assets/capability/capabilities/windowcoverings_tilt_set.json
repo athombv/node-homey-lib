@@ -11,7 +11,8 @@
     "da": "Indstil hældning for vinduesdække",
     "ru": "Угол наклона оконных навесов установлен",
     "pl": "Ustawienie osłon okiennych",
-    "ko": "기울기"
+    "ko": "기울기",
+    "ar": "ضبط إمالة أغطية النوافذ"
   },
   "type": "number",
   "min": 0,
@@ -20,7 +21,8 @@
     "en": "%",
     "ko": "%",
     "no": "%",
-    "ru": "%"
+    "ru": "%",
+    "ar": "%"
   },
   "decimals": 2,
   "color": "#F5B207",
@@ -42,7 +44,8 @@
           "sv": "Lutningsläget ändrades",
           "es": "La inclinación ha cambiado",
           "fr": "La position d'inclinaison a changé",
-          "no": "Vippeposisjonen ble endret"
+          "no": "Vippeposisjonen ble endret",
+          "ar": "تم تغيير موضع الإمالة"
         },
         "tokens": [
           {
@@ -59,7 +62,8 @@
               "sv": "Position",
               "es": "Posición",
               "fr": "Position",
-              "no": "Posisjon"
+              "no": "Posisjon",
+              "ar": "الموضع"
             },
             "example": 0.5
           }
@@ -81,7 +85,8 @@
           "sv": "Ställ in lutningsläget på",
           "es": "Ajustar la inclinación a",
           "fr": "Définir la position d'inclinaison sur",
-          "no": "Sett vippeposisjonen til"
+          "no": "Sett vippeposisjonen til",
+          "ar": "ضبط موضع الإمالة إلى"
         },
         "hint": {
           "en": "Change the tilt position to open (100%), closed (0%), or a value in between.",
@@ -94,7 +99,8 @@
           "sv": "Ändra lutningsläget till öppet (100 %), stängt (0 %) eller ett värde däremellan.",
           "es": "Cambia la inclinación a abierta (100%), cerrada (0%) o un valor intermedio.",
           "fr": "Modifier la position de l'inclinaison pour qu'elle soit ouverte (100 %), fermée (0 %) ou une valeur intermédiaire.",
-          "no": "Endre vippeposisjonen til åpen (100 %), lukket (0 %) eller en mellomliggende verdi."
+          "no": "Endre vippeposisjonen til åpen (100 %), lukket (0 %) eller en mellomliggende verdi.",
+          "ar": "تغيير موضع الإمالة إلى مفتوح (100%)، مغلق (0%)، أو قيمة بينهما."
         },
         "args": [
           {

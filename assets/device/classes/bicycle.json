@@ -11,7 +11,8 @@
     "no": "Sykkel",
     "pl": "Rower",
     "ru": "Велосипед",
-    "sv": "Cykel"
+    "sv": "Cykel",
+    "ar": "دراجة هوائية"
   },
   "description": {
     "en": "Use this device class for bicycles.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for sykler.",
     "pl": "Ta klasa urządzeń jest przeznaczona dla rowerów.",
     "ru": "Используйте этот класс устройств для велосипедов.",
-    "sv": "Använd den här enhetsklassen för cyklar."
+    "sv": "Använd den här enhetsklassen för cyklar.",
+    "ar": "استخدم فئة الجهاز هذه للدراجات الهوائية."
   },
   "minCompatibility": "12.0.0"
 }

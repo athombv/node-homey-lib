@@ -11,7 +11,8 @@
     "da": "Andet",
     "ru": "Другое",
     "pl": "Inne",
-    "ko": "기타"
+    "ko": "기타",
+    "ar": "أخرى"
   },
   "description": {
     "en": "Use this device class for devices that do not fit any other device class.",
@@ -24,6 +25,7 @@
     "da": "Brug denne enhedsklasse til enheder, der ikke hører til i andre enhedsklasse.",
     "ru": "Используйте этот класс устройств для устройств, которые не подходят ни к одному другому классу.",
     "pl": "Użyj tej klasy urządzeń dla produktów, które nie odpowiadają żadnej klasie urządzeń.",
-    "ko": "이 디바이스 클래스는 다른 디바이스 클래스에 속하지 않은 디바이스에 사용합니다."
+    "ko": "이 디바이스 클래스는 다른 디바이스 클래스에 속하지 않은 디바이스에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه للأجهزة التي لا تناسب أي فئة جهاز أخرى."
   }
 }

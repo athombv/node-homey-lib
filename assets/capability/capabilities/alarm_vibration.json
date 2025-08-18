@@ -11,7 +11,8 @@
     "ru": "Сигнал о вибрации",
     "sv": "Vibrationslarm",
     "es": "Alarma de vibración",
-    "fr": "Alarme de vibration"
+    "fr": "Alarme de vibration",
+    "ar": "إنذار الاهتزاز"
   },
   "desc": {
     "en": "True when vibration is detected.",
@@ -24,7 +25,8 @@
     "ru": "Значение «истина» при обнаружении вибрации.",
     "sv": "Sant när vibrationer detekteras.",
     "es": "Activado cuando se detecta vibración.",
-    "fr": "Se déclenche lorsque des vibrations sont détectées."
+    "fr": "Se déclenche lorsque des vibrations sont détectées.",
+    "ar": "صحيح عند اكتشاف اهتزاز."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "ru": "Сигнал о вибрации включен",
     "sv": "Vibrationslarmet aktiverat",
     "es": "Alarma de vibración activada",
-    "fr": "Alarme de vibration activée"
+    "fr": "Alarme de vibration activée",
+    "ar": "تم تشغيل إنذار الاهتزاز"
   },
   "insightsTitleFalse": {
     "en": "Vibration alarm turned off",
@@ -51,7 +54,8 @@
     "ru": "Сигнал о вибрации выключен",
     "sv": "Vibrationslarmet inaktiverat",
     "es": "Alarma de vibración desactivada",
-    "fr": "Alarme de vibration désactivée"
+    "fr": "Alarme de vibration désactivée",
+    "ar": "تم إيقاف إنذار الاهتزاز"
   },
   "color": "#32C5FF",
   "getable": true,
@@ -73,7 +77,8 @@
           "ru": "Сигнал о вибрации включен",
           "sv": "Vibrationslarmet aktiverat",
           "es": "La alarma de vibración se ha activado",
-          "fr": "L'alarme de vibration s'est activée"
+          "fr": "L'alarme de vibration s'est activée",
+          "ar": "تم تشغيل إنذار الاهتزاز"
         }
       },
       {
@@ -89,7 +94,8 @@
           "ru": "Сигнал о вибрации выключен",
           "sv": "Vibrationslarmet inaktiverat",
           "es": "La alarma de vibración se ha desactivado",
-          "fr": "L'alarme de vibration s'est désactivée"
+          "fr": "L'alarme de vibration s'est désactivée",
+          "ar": "تم إيقاف إنذار الاهتزاز"
         }
       }
     ],
@@ -107,7 +113,8 @@
           "ru": "Сигнал о вибрации !{{включен|выключен}}",
           "sv": "Vibrationslarmet är !{{av|på}}",
           "es": "La alarma de vibración está !{{activada|desactivada}}",
-          "fr": "L'alarme de vibration est !{{activée|désactivée}}"
+          "fr": "L'alarme de vibration est !{{activée|désactivée}}",
+          "ar": "إنذار الاهتزاز !{{يعمل|لا يعمل}}"
         }
       }
     ]

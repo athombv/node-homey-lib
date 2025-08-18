@@ -11,7 +11,8 @@
     "no": "Duftspreder",
     "pl": "Dyfuzor",
     "ru": "Диффузор",
-    "sv": "Diffusör"
+    "sv": "Diffusör",
+    "ar": "ناشر رائحة"
   },
   "description": {
     "en": "User this device class for diffusers.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for duftspredere.",
     "pl": "Tej klasy urządzeń należy używać w przypadku dyfuzorów.",
     "ru": "Используйте этот класс устройств для диффузоров.",
-    "sv": "Använd den här enhetsklassen för diffusörer."
+    "sv": "Använd den här enhetsklassen för diffusörer.",
+    "ar": "استخدم فئة الجهاز هذه لناشرات الرائحة."
   },
   "minCompatibility": "12.0.0"
 }

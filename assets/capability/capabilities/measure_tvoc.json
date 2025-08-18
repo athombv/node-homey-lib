@@ -11,7 +11,8 @@
     "sv": "TVOC",
     "es": "TVOC",
     "fr": "TVOC",
-    "no": "TVOC"
+    "no": "TVOC",
+    "ar": "المركبات العضوية المتطايرة الإجمالية"
   },
   "units": {
     "en": "μg/m³",
@@ -24,7 +25,8 @@
     "sv": "μg/m³",
     "es": "μg/m³",
     "fr": "μg/m³",
-    "no": "μg/m³"
+    "no": "μg/m³",
+    "ar": "μg/m³"
   },
   "insights": true,
   "desc": {
@@ -38,7 +40,8 @@
     "sv": "Totalt antal flyktiga organiska föreningar i mikrogram per kubikmeter (μg/m³)",
     "es": "Compuestos orgánicos volátiles totales en microgramos por metro cúbico (μg/m³)",
     "fr": "Total des composés organiques volatils en microgrammes par mètre cube (μg/m³)",
-    "no": "Total mengde flyktige organiske forbindelser i mikrogram per kubikkmeter (μg/m³)"
+    "no": "Total mengde flyktige organiske forbindelser i mikrogram per kubikkmeter (μg/m³)",
+    "ar": "المركبات العضوية المتطايرة الإجمالية بالميكروجرام لكل متر مكعب (μg/m³)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -61,7 +64,8 @@
           "ru": "Значение TVOC изменилось",
           "sv": "TVOC-värdet har ändrats",
           "es": "El nivel de TVOC ha cambiado",
-          "fr": "La valeur du TVOC a changé"
+          "fr": "La valeur du TVOC a changé",
+          "ar": "تم تغيير مستوى المركبات العضوية المتطايرة الإجمالية"
         },
         "tokens": [
           {

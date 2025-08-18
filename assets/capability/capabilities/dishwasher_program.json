@@ -11,7 +11,8 @@
     "sv": "Diskmaskinsprogram",
     "es": "Programa del lavavajillas",
     "fr": "Programme lave-vaisselle",
-    "no": "Oppvaskmaskinprogram"
+    "no": "Oppvaskmaskinprogram",
+    "ar": "برنامج غسالة الصحون"
   },
   "desc": {
     "en": "The current program of the dishwasher.",
@@ -24,7 +25,8 @@
     "sv": "Diskmaskinens aktuella program.",
     "es": "El programa actual del lavavajillas.",
     "fr": "Le programme actuel du lave-vaisselle.",
-    "no": "Oppvaskmaskinens gjeldende program."
+    "no": "Oppvaskmaskinens gjeldende program.",
+    "ar": "البرنامج الحالي لغسالة الصحون."
   },
   "values": [
     {
@@ -40,7 +42,8 @@
         "sv": "Normal\n",
         "es": "Normal",
         "fr": "Normal",
-        "no": "Normal"
+        "no": "Normal",
+        "ar": "عادي"
       }
     },
     {
@@ -56,7 +59,8 @@
         "sv": "Tung",
         "es": "Intensivo",
         "fr": "Intensif",
-        "no": "Kraftig"
+        "no": "Kraftig",
+        "ar": "ثقيل"
       }
     },
     {
@@ -72,7 +76,8 @@
         "sv": "Lätt",
         "es": "Rápido",
         "fr": "Rapide",
-        "no": "Lett"
+        "no": "Lett",
+        "ar": "خفيف"
       }
     }
   ],
@@ -96,7 +101,8 @@
           "sv": "Programmet ändrades till",
           "es": "El programa ha cambiado a",
           "fr": "Le programme du lave-vaisselle est passé à",
-          "no": "Programmet ble endret til"
+          "no": "Programmet ble endret til",
+          "ar": "تم تغيير البرنامج إلى"
         },
         "args": [
           {
@@ -121,7 +127,8 @@
           "sv": "Programmet är",
           "es": "El programa es",
           "fr": "Le programme est",
-          "no": "Programmet er"
+          "no": "Programmet er",
+          "ar": "البرنامج هو"
         },
         "args": [
           {
