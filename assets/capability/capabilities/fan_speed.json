@@ -11,7 +11,8 @@
     "ru": "Скорость вентилятора",
     "sv": "Fläkthastighet",
     "es": "Velocidad del ventilador",
-    "fr": "Vitesse de ventilation"
+    "fr": "Vitesse de ventilation",
+    "ar": "سرعة المروحة"
   },
   "units": {
     "en": "%",
@@ -24,7 +25,8 @@
     "ru": "%",
     "sv": "%",
     "es": "%",
-    "fr": " %"
+    "fr": " %",
+    "ar": "%"
   },
   "desc": {
     "en": "The fan speed in percentage.",
@@ -37,7 +39,8 @@
     "ru": "Скорость работы вентилятора в процентах.",
     "sv": "Fläkthastigheten i procent.",
     "es": "La velocidad del ventilador en porcentaje.",
-    "fr": "Vitesse de ventilation en pourcentage."
+    "fr": "Vitesse de ventilation en pourcentage.",
+    "ar": "سرعة المروحة بالنسبة المئوية."
   },
   "insights": true,
   "chartType": "spline",
@@ -63,7 +66,8 @@
           "ru": "Скорость вентилятора изменена",
           "sv": "Fläkthastigheten ändrades",
           "es": "La velocidad del ventilador ha cambiado",
-          "fr": "La vitesse de ventilation a changé"
+          "fr": "La vitesse de ventilation a changé",
+          "ar": "تم تغيير سرعة المروحة"
         },
         "tokens": [
           {
@@ -89,7 +93,8 @@
           "ru": "Установить скорость вентилятора на",
           "sv": "Ställ in fläkthastigheten på",
           "es": "Ajustar la velocidad del ventilador a",
-          "fr": "Définir la vitesse de ventilation sur"
+          "fr": "Définir la vitesse de ventilation sur",
+          "ar": "ضبط سرعة المروحة إلى"
         },
         "args": [
           {

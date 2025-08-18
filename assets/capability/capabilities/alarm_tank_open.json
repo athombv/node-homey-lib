@@ -11,7 +11,8 @@
     "ru": "Сигнал об открытии резервуара",
     "sv": "Larm om öppen tank",
     "es": "Alarma de depósito abierto",
-    "fr": "Alarme de réservoir ouvert"
+    "fr": "Alarme de réservoir ouvert",
+    "ar": "إنذار الخزان المفتوح"
   },
   "desc": {
     "en": "True when the tank is open.",
@@ -24,7 +25,8 @@
     "ru": "Значение «истина», когда резервуар открыт.",
     "sv": "Sant när tanken är öppen.",
     "es": "Activado cuando el depósito está abierto.",
-    "fr": "Se déclenche lorsque le réservoir est ouvert."
+    "fr": "Se déclenche lorsque le réservoir est ouvert.",
+    "ar": "صحيح عندما يكون الخزان مفتوحًا."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "ru": "Резервуар был открыт",
     "sv": "Tanken var öppen",
     "es": "El depósito estaba abierto",
-    "fr": "Le réservoir était ouvert"
+    "fr": "Le réservoir était ouvert",
+    "ar": "كان الخزان مفتوحاً"
   },
   "insightsTitleFalse": {
     "en": "Tank was closed",
@@ -51,7 +54,8 @@
     "ru": "Резервуар был закрыт",
     "sv": "Tanken var stängd",
     "es": "El depósito estaba cerrado",
-    "fr": "Le réservoir était fermé"
+    "fr": "Le réservoir était fermé",
+    "ar": "كان الخزان مغلقاً"
   },
   "color": "#0091FF",
   "getable": true,
@@ -73,7 +77,8 @@
           "ru": "Резервуар открывается",
           "sv": "Tanken öppnas",
           "es": "El depósito está abierto",
-          "fr": "Le réservoir s'ouvre"
+          "fr": "Le réservoir s'ouvre",
+          "ar": "الخزان يفتح"
         }
       },
       {
@@ -89,7 +94,8 @@
           "ru": "Резервуар закрывается",
           "sv": "Tanken stängs",
           "es": "El depósito está cerrado",
-          "fr": "Le réservoir se ferme"
+          "fr": "Le réservoir se ferme",
+          "ar": "الخزان يغلق"
         }
       }
     ],
@@ -107,7 +113,8 @@
           "ru": "Резервуар !{{открыт|закрыт}}",
           "sv": "Tanken är !{{öppen|stängd}}",
           "es": "El depósito está !{{abierto|cerrado}}",
-          "fr": "Le réservoir est !{{ouvert|fermé}}"
+          "fr": "Le réservoir est !{{ouvert|fermé}}",
+          "ar": "الخزان !{{مفتوح|مغلق}}"
         }
       }
     ]

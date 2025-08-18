@@ -11,7 +11,8 @@
     "da": "Højttaler",
     "ru": "Колонка",
     "pl": "Głośnik",
-    "ko": "스피커"
+    "ko": "스피커",
+    "ar": "سماعة"
   },
   "description": {
     "en": "Use this device class for devices that can play music, usually together with the `speaker_*` capabilities.",
@@ -24,6 +25,7 @@
     "da": "Brug denne enhedsklasse til enheder, der kan afspille musik, normalt sammen med `speaker_*` funktionerne.",
     "ru": "Используйте этот класс устройств для устройств, воспроизводящих музыку, обычно вместе с функцией `speaker_*`.",
     "pl": "Użyj tej klasy urządzeń dla produktów, które mogą odtwarzać muzykę, zwykle razem ze zdolnością `speaker_*`.",
-    "ko": "이 디바이스 클래스는 음악을 재생할 수 있고 보통 'speaker_*' 기능을 갖춘 디바이스에 사용합니다."
+    "ko": "이 디바이스 클래스는 음악을 재생할 수 있고 보통 'speaker_*' 기능을 갖춘 디바이스에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه للأجهزة التي يمكنها تشغيل الموسيقى، عادةً مع إمكانيات 'speaker_*'."
   }
 }

@@ -12,7 +12,8 @@
     "da": "PM2,5-alarm",
     "ru": "Сигнал ТЧ 2.5",
     "pl": "Alarm PM2.5",
-    "ko": "초미세먼지(PM2.5) 알람"
+    "ko": "초미세먼지(PM2.5) 알람",
+    "ar": "إنذار PM2.5"
   },
   "desc": {
     "en": "True when PM2.5 values exceeds threshold",
@@ -26,7 +27,8 @@
     "da": "Sandt, når PM2,5-værdier overskrider grænseværdien",
     "ru": "Значение «истина» при превышении контрольного значения ТЧ 2.5",
     "pl": "Prawda, gdy wartości PM2.5 przekaczają próg",
-    "ko": "PM2.5 값이 임계값을 초과하면 참"
+    "ko": "PM2.5 값이 임계값을 초과하면 참",
+    "ar": "صحيح عندما تتجاوز قيم PM2.5 الحد"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "da": "PM2,5-alarm blev aktiveret",
     "ru": "Сигнал ТЧ 2.5 включен",
     "pl": "Alarm PM2.5 włączony",
-    "ko": "초미세먼지(PM2.5) 알람 켜짐"
+    "ko": "초미세먼지(PM2.5) 알람 켜짐",
+    "ar": "تم تشغيل إنذار PM2.5"
   },
   "insightsTitleFalse": {
     "en": "PM2.5 alarm turned off",
@@ -55,7 +58,8 @@
     "da": "PM2,5-alarm blev deaktiveret",
     "ru": "Сигнал ТЧ 2.5 выключен",
     "pl": "Alarm PM2.5 wyłączony",
-    "ko": "초미세먼지(PM2.5) 알람 꺼짐"
+    "ko": "초미세먼지(PM2.5) 알람 꺼짐",
+    "ar": "تم إيقاف إنذار PM2.5"
   },
   "color": "#E02020",
   "getable": true,
@@ -78,7 +82,8 @@
           "da": "PM2,5-alarmen blev aktiveret",
           "ru": "Сигнал ТЧ 2.5 включен",
           "pl": "Alarm PM2.5 włączony",
-          "ko": "초미세먼지(PM2.5) 알람이 '예'이면"
+          "ko": "초미세먼지(PM2.5) 알람이 '예'이면",
+          "ar": "تم تشغيل إنذار PM2.5"
         }
       },
       {
@@ -95,7 +100,8 @@
           "da": "PM2,5-alarmen blev deaktiveret",
           "ru": "Сигнал ТЧ 2.5 выключен",
           "pl": "Alarm PM2.5 wyłączony",
-          "ko": "초미세먼지(PM2.5) 알람이 '아니요'이면"
+          "ko": "초미세먼지(PM2.5) 알람이 '아니요'이면",
+          "ar": "تم إيقاف إنذار PM2.5"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "da": "PM2,5-alarmen er !{{tændt|slukket}}",
           "ru": "Сигнал ТЧ 2.5 !{{вкл.|выкл.}}",
           "pl": "Alarm PM2.5 jest !{{włączony|wyłączony}}",
-          "ko": "초미세먼지(PM2.5) 알람이 !{{'예'|'아니요'}}이면"
+          "ko": "초미세먼지(PM2.5) 알람이 !{{'예'|'아니요'}}이면",
+          "ar": "إنذار PM2.5 !{{يعمل|لا يعمل}}"
         }
       }
     ]

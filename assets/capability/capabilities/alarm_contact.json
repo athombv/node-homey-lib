@@ -12,7 +12,8 @@
     "da": "Kontaktalarm",
     "ru": "Контактный сигнал",
     "pl": "Alarm otwarcia",
-    "ko": "열림 감지"
+    "ko": "열림 감지",
+    "ar": "إنذار الاتصال"
   },
   "desc": {
     "en": "Contact sensor, e.g. for windows (true/false)",
@@ -26,7 +27,8 @@
     "da": "Kontaktsensor, f.eks. til vinduer (sandt/falsk)",
     "ru": "Контактный датчик, например для окон (истина/ложь)",
     "pl": "Czujnik otwarcia, np. okien (adekwatny/nieadekwatny)",
-    "ko": "접촉 센서, 예: 창문(참/거짓)"
+    "ko": "접촉 센서, 예: 창문(참/거짓)",
+    "ar": "مستشعر اتصال، على سبيل المثال للنوافذ (صحيح/خطأ)"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "da": "Kontaktalarm blev aktiveret",
     "ru": "Контактный сигнал включен",
     "pl": "Alarm otwarcia włączony",
-    "ko": "열림"
+    "ko": "열림",
+    "ar": "تم تشغيل إنذار الاتصال"
   },
   "insightsTitleFalse": {
     "en": "Contact alarm turned off",
@@ -55,7 +58,8 @@
     "da": "Kontaktalarm blev deaktiveret",
     "ru": "Контактный сигнал выключен",
     "pl": "Alarm otwarcia wyłączony",
-    "ko": "닫힘"
+    "ko": "닫힘",
+    "ar": "تم إيقاف إنذار الاتصال"
   },
   "color": "#32C5FF",
   "getable": true,
@@ -81,7 +85,8 @@
           "da": "Kontaktalarmen blev aktiveret",
           "ru": "Контактный сигнал включен",
           "pl": "Alarm otwarcia włączony",
-          "ko": "열림 감지 열리면"
+          "ko": "열림 감지 열리면",
+          "ar": "تم تشغيل إنذار الاتصال"
         }
       },
       {
@@ -98,7 +103,8 @@
           "da": "Kontaktalarmen blev deaktiveret",
           "ru": "Контактный сигнал выключен",
           "pl": "Alarm otwarcia wyłączony",
-          "ko": "열림 감지 닫히면"
+          "ko": "열림 감지 닫히면",
+          "ar": "تم إيقاف إنذار الاتصال"
         }
       }
     ],
@@ -117,7 +123,8 @@
           "da": "Kontaktalarmen er !{{tændt|slukket}}",
           "ru": "Контактный сигнал !{{вкл.|выкл.}}",
           "pl": "Alarm otwarcia jest !{{włączony|wyłączony}}",
-          "ko": "열림 감지 !{{열리면|닫히면}}"
+          "ko": "열림 감지 !{{열리면|닫히면}}",
+          "ar": "إنذار الاتصال !{{يعمل|لا يعمل}}"
         }
       }
     ]

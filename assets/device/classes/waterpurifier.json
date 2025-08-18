@@ -11,7 +11,8 @@
     "no": "Vannrenser",
     "pl": "Oczyszczacz wody",
     "ru": "Очиститель воды",
-    "sv": "Vattenrenare"
+    "sv": "Vattenrenare",
+    "ar": "جهاز تنقية المياه"
   },
   "description": {
     "en": "Use this device class for water purifiers.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for vannrensere.",
     "pl": "Tej klasy urządzeń należy używać w przypadku oczyszczaczy wody.",
     "ru": "Используйте этот класс устройств для очистителей воды.",
-    "sv": "Använd den här enhetsklassen för vattenrenare."
+    "sv": "Använd den här enhetsklassen för vattenrenare.",
+    "ar": "استخدم فئة الجهاز هذه لأجهزة تنقية المياه."
   },
   "minCompatibility": "12.0.0"
 }

@@ -11,7 +11,8 @@
     "no": "Kjøretøy",
     "pl": "Pojazd",
     "ru": "Транспортное средство",
-    "sv": "Fordon"
+    "sv": "Fordon",
+    "ar": "مركبة"
   },
   "description": {
     "en": "Use this device class for any type of vehicle, when the `car`, `bicycle` or `scooter` device class doesn't apply.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for alle typer kjøretøy som ikke dekkes av enhetsklassene\n«bil», «sykkel» eller «scooter».",
     "pl": "Tej klasy urządzeń należy używać dla dowolnego typu pojazdu, gdy klasa urządzeń „samochód”, „rower” lub „skuter” nie ma zastosowania.",
     "ru": "Используйте этот класс устройств для транспортных средств любого типа, которые не относятся к классу устройств «автомобиль», «велосипед» или «самокат».",
-    "sv": "Använd den här enhetsklassen för alla typer av fordon, när enhetsklassen \"bil\", \"cykel\" eller \"skoter\" inte är tillämplig."
+    "sv": "Använd den här enhetsklassen för alla typer av fordon, när enhetsklassen \"bil\", \"cykel\" eller \"skoter\" inte är tillämplig.",
+    "ar": "استخدم فئة الجهاز هذه لأي نوع من المركبات، عندما لا تنطبق فئة الجهاز 'سيارة'، 'دراجة هوائية' أو 'سكوتر'."
   },
   "virtualTitle": {
     "en": "What's the type?",
@@ -39,7 +41,8 @@
     "no": "Hvilken type er det?",
     "pl": "Jaki to typ?",
     "ru": "Какой тип?",
-    "sv": "Vad är det för typ?"
+    "sv": "Vad är det för typ?",
+    "ar": "ما هو النوع؟"
   },
   "allowedVirtual": [
     "bicycle",

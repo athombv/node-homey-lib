@@ -11,7 +11,8 @@
     "no": "Peis",
     "pl": "Kominek",
     "ru": "Камин",
-    "sv": "Öppen spis"
+    "sv": "Öppen spis",
+    "ar": "مدفأة"
   },
   "description": {
     "en": "Use this device class for fireplaces.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for peiser.",
     "pl": "Tej klasy urządzeń należy używać w przypadku kominków.",
     "ru": "Используйте этот класс устройств для каминов.",
-    "sv": "Använd den här enhetsklassen för öppna spisar."
+    "sv": "Använd den här enhetsklassen för öppna spisar.",
+    "ar": "استخدم فئة الجهاز هذه للمدافئ."
   },
   "minCompatibility": "12.0.0"
 }

@@ -11,7 +11,8 @@
     "no": "Fryser",
     "pl": "Zamrażarka",
     "ru": "Морозильная камера",
-    "sv": "Frys"
+    "sv": "Frys",
+    "ar": "مجمد"
   },
   "description": {
     "en": "Use this device class for any kind of freezer, if it is a frigde/freezer use 'fridge_and_freezer'.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for alle slags frysere. For kombinert kjøleskap/fryser, bruk «fridge_and_freezer».",
     "pl": "Tej klasy urządzeń należy używać dla każdego rodzaju zamrażarki, jeśli jest to lodówka/zamrażarka, należy użyć klasy „fridge_and_freezer”.",
     "ru": "Используйте этот класс устройств для морозильных камер любого типа; в случае холодильника-морозильника используйте fridge_and_freezer.",
-    "sv": "Använd den här enhetsklassen för alla typer av frysar, om det är en kyl/frys ska du använda 'fridge_and_freezer'."
+    "sv": "Använd den här enhetsklassen för alla typer av frysar, om det är en kyl/frys ska du använda 'fridge_and_freezer'.",
+    "ar": "استخدم فئة الجهاز هذه لأي نوع من المجمدات، إذا كانت ثلاجة/مجمد مدمج، فاستخدم 'fridge_and_freezer'."
   },
   "minCompatibility": "12.0.0"
 }

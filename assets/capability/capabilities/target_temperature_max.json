@@ -11,7 +11,8 @@
     "sv": "Maximal måltemperatur",
     "es": "Temperatura máxima deseada",
     "fr": "Température cible maximale",
-    "no": "Maksimum ønsket temperatur"
+    "no": "Maksimum ønsket temperatur",
+    "ar": "الحد الأقصى لدرجة الحرارة المستهدفة"
   },
   "units": {
     "en": "°C",
@@ -24,7 +25,8 @@
     "sv": "°C",
     "es": "°C",
     "fr": "°C",
-    "no": "°C"
+    "no": "°C",
+    "ar": "°C"
   },
   "desc": {
     "en": "The high end of the temperature setpoint in degrees Celsius.",
@@ -37,7 +39,8 @@
     "sv": "Den övre delen av temperaturbörvärdet i grader Celsius.",
     "es": "El valor superior de ajuste de la temperatura en grados centígrados.",
     "fr": "Le niveau maximal de la température en degrés Celsius.",
-    "no": "Maksimum ønsket temperaturinnstilling i grader Celsius."
+    "no": "Maksimum ønsket temperaturinnstilling i grader Celsius.",
+    "ar": "الحد الأعلى لدرجة الحرارة المستهدفة بالدرجات المئوية."
   },
   "insights": true,
   "chartType": "stepLine",
@@ -63,7 +66,8 @@
           "ru": "Максимальная заданная температура изменена",
           "sv": "Den maximala måltemperaturen har ändrats",
           "es": "La temperatura máxima deseada ha cambiado",
-          "fr": "La température maximale cible a changé"
+          "fr": "La température maximale cible a changé",
+          "ar": "تم تغيير الحد الأقصى لدرجة الحرارة المستهدفة"
         },
         "tokens": [
           {
@@ -89,7 +93,8 @@
           "sv": "Ställ in den maximala måltemperaturen",
           "es": "Ajustar la temperatura máxima deseada",
           "fr": "Définir la température maximale cible",
-          "no": "Sett maksimum ønsket temperatur"
+          "no": "Sett maksimum ønsket temperatur",
+          "ar": "ضبط الحد الأقصى لدرجة الحرارة المستهدفة"
         },
         "args": [
           {

@@ -12,7 +12,8 @@
     "no": "Ladestatus",
     "pl": "Stan ładowania",
     "ru": "Состояние зарядки",
-    "sv": "Laddningstillstånd"
+    "sv": "Laddningstillstånd",
+    "ar": "حالة الشحن"
   },
   "desc": {
     "en": "The current charging state of the EV charger.",
@@ -26,7 +27,8 @@
     "no": "Gjeldende ladestatus for elbilladeren.",
     "pl": "Bieżący stan ładowania ładowarki EV.",
     "ru": "Текущее состояние зарядки зарядного устройства для электромобилей.",
-    "sv": "EV-laddarens aktuella laddningsstatus."
+    "sv": "EV-laddarens aktuella laddningsstatus.",
+    "ar": "حالة الشحن الحالية لشاحن السيارة الكهربائية."
   },
   "color": "#6DD400",
   "getable": true,
@@ -48,7 +50,8 @@
         "es": "Carga",
         "fr": "Charge en cours",
         "no": "Lader",
-        "de": "Wird aufgeladen"
+        "de": "Wird aufgeladen",
+        "ar": "يشحن"
       }
     },
     {
@@ -65,7 +68,8 @@
         "es": "Descarga",
         "fr": "Décharge en cours",
         "no": "Lades ut",
-        "de": "Wird entladen"
+        "de": "Wird entladen",
+        "ar": "يفرغ"
       }
     },
     {
@@ -82,7 +86,8 @@
         "es": "En pausa",
         "fr": "En pause",
         "no": "Satt på pause",
-        "de": "Pausiert"
+        "de": "Pausiert",
+        "ar": "متوقف مؤقتاً"
       }
     },
     {
@@ -99,7 +104,8 @@
         "es": "Enchufado",
         "fr": "Branché",
         "no": "Tilkoblet",
-        "de": "Eingesteckt"
+        "de": "Eingesteckt",
+        "ar": "موصل"
       }
     },
     {
@@ -116,7 +122,8 @@
         "es": "No enchufado",
         "fr": "Non branché",
         "no": "Ikke tilkoblet",
-        "de": "Nicht eingesteckt"
+        "de": "Nicht eingesteckt",
+        "ar": "غير موصل"
       }
     }
   ],
@@ -136,7 +143,8 @@
           "no": "Elbilladerens ladestatus ble endret",
           "pl": "Stan ładowania ładowarki EV uległ zmianie",
           "ru": "Состояние зарядки зарядного устройства для электромобилей изменилось",
-          "sv": "Laddningsstatus för EV-laddaren har ändrats"
+          "sv": "Laddningsstatus för EV-laddaren har ändrats",
+          "ar": "تم تغيير حالة شحن شاحن السيارة الكهربائية"
         },
         "args": [
           {
@@ -162,7 +170,8 @@
           "no": "Elbilladerens ladestatus !{{er|er ikke}}",
           "pl": "Stan ładowania ładowarki EV !{{to|to nie}}",
           "ru": "Состояние зарядки зарядного устройства для электромобилей !{{|не}}",
-          "sv": "Laddningsstatus för EV-laddaren !{{är|är inte}}"
+          "sv": "Laddningsstatus för EV-laddaren !{{är|är inte}}",
+          "ar": "حالة شحن شاحن السيارة الكهربائية !{{هي|ليست}}"
         },
         "args": [
           {

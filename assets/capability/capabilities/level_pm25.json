@@ -11,7 +11,8 @@
     "sv": "PM2.5-nivå",
     "es": "Nivel de PM2,5",
     "fr": "Niveau de PM2.5",
-    "no": "PM2.5-nivå"
+    "no": "PM2.5-nivå",
+    "ar": "مستوى PM2.5"
   },
   "desc": {
     "en": "The level of PM2.5 particles in the air.",
@@ -24,7 +25,8 @@
     "sv": "Halten av PM2.5-partiklar i luften.",
     "es": "El nivel de partículas PM2,5 en el aire.",
     "fr": "Le niveau de particules PM2.5 dans l'air.",
-    "no": "Nivået av PM2.5-partikler i luften."
+    "no": "Nivået av PM2.5-partikler i luften.",
+    "ar": "مستوى جزيئات PM2.5 في الهواء."
   },
   "values": [
     {
@@ -39,7 +41,8 @@
         "sv": "Låg",
         "es": "Bajo",
         "fr": "Faible",
-        "no": "Lavt"
+        "no": "Lavt",
+        "ar": "منخفض"
       }
     },
     {
@@ -54,7 +57,8 @@
         "sv": "Medium",
         "es": "Intermedio",
         "fr": "Moyen",
-        "no": "Middels"
+        "no": "Middels",
+        "ar": "متوسط"
       }
     },
     {
@@ -70,7 +74,8 @@
         "sv": "Hög",
         "es": "Alto",
         "fr": "Élevé",
-        "no": "Høyt"
+        "no": "Høyt",
+        "ar": "عالي"
       }
     },
     {
@@ -86,7 +91,8 @@
         "sv": "Kritisk",
         "es": "Crítico",
         "fr": "Critique",
-        "no": "Kritisk"
+        "no": "Kritisk",
+        "ar": "حرج"
       }
     }
   ],
@@ -110,7 +116,8 @@
           "sv": "PM2.5-nivån ändrades till",
           "es": "El nivel de PM2,5 ha cambiado a",
           "fr": "Le niveau de PM2.5 est passé à",
-          "no": "PM2.5-nivået ble endret til"
+          "no": "PM2.5-nivået ble endret til",
+          "ar": "تم تغيير مستوى PM2.5 إلى"
         },
         "args": [
           {
@@ -135,7 +142,8 @@
           "sv": "PM2.5-nivån !{{är|är inte}}",
           "es": "El nivel de PM2,5 !{{es|no es}}",
           "fr": "Le niveau de PM2.5 !{{est|n'est pas}}",
-          "no": "PM2.5-nivået !{{er|er ikke}}"
+          "no": "PM2.5-nivået !{{er|er ikke}}",
+          "ar": "مستوى PM2.5 !{{هو|ليس}}"
         },
         "args": [
           {

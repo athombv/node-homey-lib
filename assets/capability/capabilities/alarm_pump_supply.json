@@ -11,7 +11,8 @@
     "sv": "Larm om fel i pumptillförseln",
     "es": "Alarma de fallo en el suministro eléctrico del bombeo",
     "fr": "Alarme de défaut d'alimentation de la pompe",
-    "no": "Feilalarm for pumpeforsyning"
+    "no": "Feilalarm for pumpeforsyning",
+    "ar": "إنذار عطل إمداد المضخة"
   },
   "desc": {
     "en": "True when a fault is detected in the pump supply.",
@@ -24,7 +25,8 @@
     "sv": "Sant när ett fel upptäcks i pumptillförseln.",
     "es": "Activado cuando se detecta un fallo en el suministro eléctrico del bombeo.",
     "fr": "Se déclenche lorsqu'un défaut est détecté dans l'alimentation de la pompe.",
-    "no": "Sann når en feil er påvist i pumpeforsyningen."
+    "no": "Sann når en feil er påvist i pumpeforsyningen.",
+    "ar": "صحيح عند اكتشاف عطل في إمداد المضخة."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "sv": "Problem upptäcktes i pumptillförseln",
     "es": "Se ha detectado un problema en el suministro eléctrico del bombeo",
     "fr": "Un problème a été détecté dans l'alimentation de la pompe",
-    "no": "Et problem i pumpeforsyningen ble påvist"
+    "no": "Et problem i pumpeforsyningen ble påvist",
+    "ar": "تم اكتشاف مشكلة في إمداد المضخة"
   },
   "insightsTitleFalse": {
     "en": "Problem in the pump supply was solved",
@@ -51,7 +54,8 @@
     "sv": "Problem med pumptillförseln löstes",
     "es": "Se ha resuelto el problema en el suministro eléctrico del bombeo",
     "fr": "Le problème d'alimentation de la pompe a été résolu",
-    "no": "Problemet i pumpeforsyningen ble løst"
+    "no": "Problemet i pumpeforsyningen ble løst",
+    "ar": "تم حل المشكلة في إمداد المضخة"
   },
   "color": "#0091FF",
   "getable": true,
@@ -73,7 +77,8 @@
           "sv": "Ett problem har upptäckts i pumptillförseln",
           "es": "Se ha detectado un problema en el suministro eléctrico del bombeo",
           "fr": "Un problème est détecté dans l'alimentation de la pompe",
-          "no": "Et problem i pumpeforsyningen er påvist"
+          "no": "Et problem i pumpeforsyningen er påvist",
+          "ar": "تم اكتشاف مشكلة في إمداد المضخة"
         }
       },
       {
@@ -89,7 +94,8 @@
           "sv": "Problemet med pumptillförseln är löst",
           "es": "Se ha resuelto el problema en el suministro eléctrico del bombeo",
           "fr": "Le problème de l'alimentation de la pompe est résolu",
-          "no": "Problemet i pumpeforsyningen er løst"
+          "no": "Problemet i pumpeforsyningen er løst",
+          "ar": "تم حل المشكلة في إمداد المضخة"
         }
       }
     ],
@@ -107,7 +113,8 @@
           "sv": "Det !{{är|är inte}} ett problem i pumpförsörjningen",
           "es": "!{{Hay un problema|No hay ningún problema}} en el suministro eléctrico del bombeo",
           "fr": "Il !{{y a un problème|n'y a pas de problème}} concernant l'alimentation de la pompe",
-          "no": "Det !{{er|er ikke}} et problem i pumpeforsyningen"
+          "no": "Det !{{er|er ikke}} et problem i pumpeforsyningen",
+          "ar": "يوجد !{{مشكلة|لا توجد مشكلة}} في إمداد المضخة"
         }
       }
     ]

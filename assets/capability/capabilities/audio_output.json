@@ -11,7 +11,8 @@
     "sv": "Ljudutgång",
     "es": "Salida de audio",
     "fr": "Sortie audio",
-    "no": "Lydutgang"
+    "no": "Lydutgang",
+    "ar": "مخرج الصوت"
   },
   "desc": {
     "en": "The audio output channel for a media player.",
@@ -24,7 +25,8 @@
     "sv": "Ljudutgångskanalen för en mediaspelare.",
     "es": "Canal de salida de audio en un reproductor multimedia.",
     "fr": "Canal de sortie audio d'un lecteur multimédia.",
-    "no": "Lydutgangskanalen for en mediespiller."
+    "no": "Lydutgangskanalen for en mediespiller.",
+    "ar": "قناة إخراج الصوت لمشغل الوسائط."
   },
   "values": [
     {
@@ -40,7 +42,8 @@
         "ru": "HDMI 1",
         "sv": "HDMI 1",
         "es": "HDMI 1",
-        "fr": "HDMI 1"
+        "fr": "HDMI 1",
+        "ar": "HDMI 1"
       }
     },
     {
@@ -56,7 +59,8 @@
         "ru": "HDMI 2",
         "sv": "HDMI 2",
         "es": "HDMI 2",
-        "fr": "HDMI 2"
+        "fr": "HDMI 2",
+        "ar": "HDMI 2"
       }
     },
     {
@@ -72,7 +76,8 @@
         "ru": "HDMI 3",
         "sv": "HDMI 3",
         "es": "HDMI 3",
-        "fr": "HDMI 3"
+        "fr": "HDMI 3",
+        "ar": "HDMI 3"
       }
     },
     {
@@ -88,7 +93,8 @@
         "sv": "Linje ut",
         "es": "Salida de línea",
         "fr": "Sortie line",
-        "no": "Linje ut"
+        "no": "Linje ut",
+        "ar": "مخرج الخط"
       }
     },
     {
@@ -104,7 +110,8 @@
         "sv": "Optisk",
         "es": "Óptico",
         "fr": "Optique",
-        "no": "Optisk"
+        "no": "Optisk",
+        "ar": "بصري"
       }
     },
     {
@@ -120,7 +127,8 @@
         "sv": "USB",
         "es": "USB",
         "fr": "USB",
-        "no": "USB"
+        "no": "USB",
+        "ar": "USB"
       }
     }
   ],
@@ -144,7 +152,8 @@
           "sv": "Ljudutgången ändrades till",
           "es": "La salida de audio ha cambiado a",
           "fr": "La sortie audio passe à",
-          "no": "Lydutgangen ble endret til"
+          "no": "Lydutgangen ble endret til",
+          "ar": "تغيير مخرج الصوت إلى"
         },
         "args": [
           {
@@ -169,7 +178,8 @@
           "sv": "Ljudutgången !{{är|är inte}}",
           "es": "La salida de audio !{{está|no está}}",
           "fr": "La sortie audio !{{est|n'est pas}}",
-          "no": "Lydutgangen !{{er|er ikke}}"
+          "no": "Lydutgangen !{{er|er ikke}}",
+          "ar": "مخرج الصوت !{{هو|ليس}}"
         },
         "args": [
           {
@@ -194,7 +204,8 @@
           "sv": "Ställ in ljudutgång till",
           "es": "Configurar la salida de audio en",
           "fr": "Définir la sortie audio sur",
-          "no": "Sett lydutgang til"
+          "no": "Sett lydutgang til",
+          "ar": "ضبط مخرج الصوت إلى"
         },
         "args": [
           {

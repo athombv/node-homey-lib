@@ -12,7 +12,8 @@
       "da": "Læs Homeys placering",
       "ru": "Читать местонахождение Homey",
       "pl": "Odczytaj lokalizację Homey",
-      "ko": "Homey 위치 읽기"
+      "ko": "Homey 위치 읽기",
+      "ar": "قراءة موقع Homey"
     }
   },
   "homey:manager:ledring": {
@@ -28,7 +29,8 @@
       "da": "Kontroller Homeys LED-ring",
       "ru": "Управлять светодиодным кольцом Homey",
       "pl": "Steruj lampą pierścieniową Homey",
-      "ko": "Homey LED 링 제어"
+      "ko": "Homey LED 링 제어",
+      "ar": "التحكم في حلقة LED الخاصة بـ Homey"
     }
   },
   "homey:manager:media": {
@@ -44,7 +46,8 @@
       "da": "Kontroller Homeys musik",
       "ru": "Управлять музыкой Homey",
       "pl": "Steruj muzyką Homey",
-      "ko": "Homey의 음악 제어"
+      "ko": "Homey의 음악 제어",
+      "ar": "التحكم في موسيقى Homey"
     }
   },
   "homey:manager:speech-input": {
@@ -60,7 +63,8 @@
       "da": "Reager på tale",
       "ru": "Реагировать на голос",
       "pl": "Reaguj na mowę",
-      "ko": "음성에 반응"
+      "ko": "음성에 반응",
+      "ar": "الاستجابة للكلام"
     }
   },
   "homey:manager:speech-output": {
@@ -76,7 +80,8 @@
       "da": "Lad Homey tale",
       "ru": "Разрешить Homey говорить",
       "pl": "Pozwól Homey mówić",
-      "ko": "Homey의 음성 안내"
+      "ko": "Homey의 음성 안내",
+      "ar": "جعل Homey يتكلم"
     }
   },
   "homey:wireless:433": {
@@ -92,7 +97,8 @@
       "da": "Send, og modtag på 433 MHz-frekvensen",
       "ru": "Отправка и получение сигналов на частоте 433 МГц",
       "pl": "Wysyłaj i odbieraj sygnały o częstotliwości 433 MHz",
-      "ko": "433MHz 주파수 송수신"
+      "ko": "433MHz 주파수 송수신",
+      "ar": "إرسال واستقبال على تردد 433 MHz"
     }
   },
   "homey:wireless:868": {
@@ -108,7 +114,8 @@
       "da": "Send, og modtag på 868 MHz-frekvensen",
       "ru": "Отправка и получение сигналов на частоте 868 МГц",
       "pl": "Wysyłaj i odbieraj sygnały o częstotliwości 868 MHz",
-      "ko": "868MHz 주파수 송수신"
+      "ko": "868MHz 주파수 송수신",
+      "ar": "إرسال واستقبال على تردد 868 MHz"
     }
   },
   "homey:wireless:ir": {
@@ -124,7 +131,8 @@
       "da": "Send, og modtag på infrarød",
       "ru": "Отправка и получение ИК-сигналов",
       "pl": "Wysyłaj i odbieraj podczerwień",
-      "ko": "적외선 송수신"
+      "ko": "적외선 송수신",
+      "ar": "إرسال واستقبال الأشعة تحت الحمراء"
     }
   },
   "homey:wireless:zwave": {
@@ -140,7 +148,8 @@
       "da": "Send, og modtag på Z-Wave for specifikke enheder",
       "ru": "Отправлять и получать сигналы Z-Wave для определенных устройств",
       "pl": "Wysyłaj i odbieraj Z-Wave dla określonych urządzeń",
-      "ko": "특정 제품용 Z-Wave 송수신"
+      "ko": "특정 제품용 Z-Wave 송수신",
+      "ar": "إرسال واستقبال Z-Wave لأجهزة محددة"
     }
   },
   "homey:wireless:zigbee": {
@@ -156,7 +165,8 @@
       "da": "Send, og modtag på Zigbee for specifikke enheder",
       "ru": "Отправлять и получать сигналы Zigbee для определенных устройств",
       "pl": "Wysyłaj i odbieraj Zigbee dla określonych urządzeń",
-      "ko": "특정 제품용 Zigbee 송수신"
+      "ko": "특정 제품용 Zigbee 송수신",
+      "ar": "إرسال واستقبال Zigbee لأجهزة محددة"
     }
   },
   "homey:wireless:nfc": {
@@ -172,7 +182,8 @@
       "da": "Læs, og skriv NFC-tags",
       "ru": "Чтение и запись тегов NFC",
       "pl": "Odczytuj i twórz tagi NFC",
-      "ko": "NFC 태그 읽기 및 쓰기"
+      "ko": "NFC 태그 읽기 및 쓰기",
+      "ar": "قراءة وكتابة علامات NFC"
     }
   },
   "homey:manager:api": {
@@ -188,7 +199,8 @@
       "da": "Få fuld adgang til Homey for at kontrollere alt på brugerens vegne",
       "ru": "Получите полный доступ к Homey, чтобы контролировать все от имени пользователя",
       "pl": "Zdobądź pełny dostęp do Homey, aby sterować wszystkim w imieniu użytkownika",
-      "ko": "사용자를 대신해 모든 것을 제어할 수 있도록 Homey에 대한 전체 액세스 권한 얻기"
+      "ko": "사용자를 대신해 모든 것을 제어할 수 있도록 Homey에 대한 전체 액세스 권한 얻기",
+      "ar": "الحصول على وصول كامل إلى Homey للتحكم في كل شيء نيابة عن المستخدم"
     }
   },
   "homey:wireless:ble": {
@@ -204,7 +216,8 @@
       "da": "Kommuniker med Bluetooth low energy-enheder",
       "ru": "Связываться с устройствами Bluetooth с низким энергопотреблением",
       "pl": "Porozumiewaj się z urządzeniami Bluetooth Low Energy",
-      "ko": "블루투스 LE 제품과 통신"
+      "ko": "블루투스 LE 제품과 통신",
+      "ar": "التواصل مع أجهزة Bluetooth Low Energy"
     }
   }
 }

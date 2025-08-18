@@ -11,7 +11,8 @@
     "no": "Mikrobølgeovn",
     "pl": "Mikrofalówka",
     "ru": "Микроволновая печь",
-    "sv": "Mikrovågsugn"
+    "sv": "Mikrovågsugn",
+    "ar": "ميكروويف"
   },
   "description": {
     "en": "Use this device class for any kind of microwave, if it is a combi unit use 'oven_and_microwave'.",
@@ -25,7 +26,8 @@
     "pl": "Tej klasy urządzeń należy używać dla każdego rodzaju kuchenki mikrofalowej, jeśli jest to urządzenie combi, należy użyć klasy \"oven_and_microwave\".",
     "ru": "Используйте этот класс устройств для микроволновых печей любого типа; в случае комбинированного устройства используйте oven_and_microwave.",
     "sv": "Använd den här enhetsklassen för alla typer av mikrovågsugnar, om det är en kombienhet ska du använda 'oven_and_microwave'.",
-    "ko": "이 디바이스 클래스는 모든 종류의 전자레인지에 사용하되, 콤비오븐의 경우 'combi_microwave'를 사용합니다."
+    "ko": "이 디바이스 클래스는 모든 종류의 전자레인지에 사용하되, 콤비오븐의 경우 'combi_microwave'를 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لأي نوع من أجهزة الميكروويف، إذا كانت وحدة مدمجة فاستخدم 'oven_and_microwave'."
   },
   "minCompatibility": "12.0.0"
 }

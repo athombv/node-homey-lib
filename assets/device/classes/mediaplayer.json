@@ -11,7 +11,8 @@
     "no": "Mediespiller",
     "pl": "Odtwarzacz multimedialny",
     "ru": "Медиаплеер",
-    "sv": "Mediaspelare"
+    "sv": "Mediaspelare",
+    "ar": "مشغل وسائط"
   },
   "description": {
     "en": "Use this device class for media players, when the `Set-top box` device class doesn't apply.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for mediespillere som ikke dekkes av enhetsklassen «TV-mottaker».",
     "pl": "Tej klasy urządzeń należy używać dla odtwarzaczy multimedialnych, gdy klasa urządzeń „dekoder” nie ma zastosowania.",
     "ru": "Используйте этот класс устройств для медиаплееров, которые не относятся к классу устройств «ресивер».",
-    "sv": "Använd den här enhetsklassen för mediaspelare när enhetsklassen \"digitalbox\" inte är tillämplig."
+    "sv": "Använd den här enhetsklassen för mediaspelare när enhetsklassen \"digitalbox\" inte är tillämplig.",
+    "ar": "استخدم فئة الجهاز هذه لمشغلات الوسائط، عندما لا تنطبق فئة الجهاز 'جهاز استقبال'."
   },
   "virtualTitle": {
     "en": "What's the type?",
@@ -39,7 +41,8 @@
     "no": "Hvilken type er det?",
     "pl": "Jaki to typ?",
     "ru": "Какой тип?",
-    "sv": "Vad är det för typ?"
+    "sv": "Vad är det för typ?",
+    "ar": "ما هو النوع؟"
   },
   "allowedVirtual": [
     "settopbox"

@@ -11,7 +11,8 @@
     "sv": "Börvärde för pump",
     "es": "Valor de ajuste del bombeo",
     "fr": "Point de réglage de la pompe",
-    "no": "Pumpens settepunkt"
+    "no": "Pumpens settepunkt",
+    "ar": "نقطة ضبط المضخة"
   },
   "units": {
     "en": "%",
@@ -24,7 +25,8 @@
     "sv": "%",
     "es": "%",
     "fr": " %",
-    "no": "%"
+    "no": "%",
+    "ar": "%"
   },
   "desc": {
     "en": "The pump setpoint in percentage.",
@@ -37,7 +39,8 @@
     "sv": "Pumpens börvärde i procent.",
     "es": "El valor de ajuste del bombeo en porcentaje.",
     "fr": "Le point de réglage de la pompe en pourcentage.",
-    "no": "Pumpens settepunkt i prosent."
+    "no": "Pumpens settepunkt i prosent.",
+    "ar": "نقطة ضبط المضخة بالنسبة المئوية."
   },
   "insights": true,
   "chartType": "spline",
@@ -63,7 +66,8 @@
           "sv": "Pumpens börvärde ändrades",
           "es": "El valor de ajuste del bombeo ha cambiado",
           "fr": "Le point de réglage de la pompe a changé",
-          "no": "Pumpens settpunkt ble endret"
+          "no": "Pumpens settpunkt ble endret",
+          "ar": "تم تغيير نقطة ضبط المضخة"
         },
         "tokens": [
           {
@@ -89,7 +93,8 @@
           "sv": "Ställ in pumpens börvärde",
           "es": "Configurar el valor de ajuste del bombeo",
           "fr": "Définir le point de réglage de la pompe",
-          "no": "Angi pumpens settepunkt"
+          "no": "Angi pumpens settepunkt",
+          "ar": "ضبط نقطة ضبط المضخة"
         },
         "args": [
           {

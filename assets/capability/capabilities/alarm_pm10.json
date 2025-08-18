@@ -12,7 +12,8 @@
     "da": "PM10-alarm",
     "ru": "Сигнал ТЧ10",
     "pl": "Alarm PM10",
-    "ko": "미세먼지(PM10) 알람"
+    "ko": "미세먼지(PM10) 알람",
+    "ar": "إنذار PM10"
   },
   "desc": {
     "en": "True when PM10 values exceeds threshold",
@@ -26,7 +27,8 @@
     "da": "Sandt, når PM10-værdier overskrider grænseværdien",
     "ru": "Значение «истина» при превышении контрольного значения ТЧ10",
     "pl": "Prawda, gdy wartości PM10 przekraczają próg",
-    "ko": "PM10 값이 임계값을 초과하면 참"
+    "ko": "PM10 값이 임계값을 초과하면 참",
+    "ar": "صحيح عندما تتجاوز قيم PM10 الحد"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "da": "PM10-alarm blev aktiveret",
     "ru": "Сигнал ТЧ10 включен",
     "pl": "Alarm PM10 włączony",
-    "ko": "미세먼지(PM10) 알람 켜짐"
+    "ko": "미세먼지(PM10) 알람 켜짐",
+    "ar": "تم تشغيل إنذار PM10"
   },
   "insightsTitleFalse": {
     "en": "PM10 alarm turned off",
@@ -55,7 +58,8 @@
     "da": "PM10-alarm blev deaktiveret",
     "ru": "Сигнал ТЧ10 выключен",
     "pl": "Alarm PM10 wyłączony",
-    "ko": "미세먼지(PM10) 알람 꺼짐"
+    "ko": "미세먼지(PM10) 알람 꺼짐",
+    "ar": "تم إيقاف إنذار PM10"
   },
   "color": "#E02020",
   "getable": true,
@@ -78,7 +82,8 @@
           "da": "PM10-alarmen blev aktiveret",
           "ru": "Сигнал ТЧ10 включен",
           "pl": "Włączył się alarm PM10",
-          "ko": "미세먼지(PM10) 알람이 '예'이면"
+          "ko": "미세먼지(PM10) 알람이 '예'이면",
+          "ar": "تم تشغيل إنذار PM10"
         }
       },
       {
@@ -95,7 +100,8 @@
           "da": "PM10-alarmen blev deaktiveret",
           "ru": "Сигнал ТЧ10 выключен",
           "pl": "Wyłączył się alarm PM10",
-          "ko": "미세먼지(PM10) 알람이 '아니요'이면"
+          "ko": "미세먼지(PM10) 알람이 '아니요'이면",
+          "ar": "تم إيقاف إنذار PM10"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "da": "PM10-alarmen er !{{tændt|slukket}}",
           "ru": "Сигнал ТЧ10 !{{включен|выключен}}",
           "pl": "Alarm PM10 jest !{{włączony|wyłączony}}",
-          "ko": "미세먼지(PM10) 알람이 !{{'예'|'아니요'}}이면"
+          "ko": "미세먼지(PM10) 알람이 !{{'예'|'아니요'}}이면",
+          "ar": "إنذار PM10 !{{يعمل|لا يعمل}}"
         }
       }
     ]

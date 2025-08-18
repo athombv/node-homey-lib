@@ -11,7 +11,8 @@
     "da": "Position",
     "ru": "Позиция",
     "pl": "Pozycja",
-    "ko": "위치"
+    "ko": "위치",
+    "ar": "الموضع"
   },
   "type": "number",
   "color": "#9033FC",

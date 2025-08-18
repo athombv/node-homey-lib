@@ -11,7 +11,8 @@
     "da": "Persienner",
     "ru": "Жалюзи",
     "pl": "Rolety",
-    "ko": "블라인드"
+    "ko": "블라인드",
+    "ar": "ستائر دوارة"
   },
   "description": {
     "en": "Use this device class for blinds, both horizontal and vertical.",
@@ -24,6 +25,7 @@
     "da": "Brug denne enhedsklasse til persienner, både vandrette og lodrette.",
     "ru": "Используйте этот класс устройств для жалюзи, как горизонтальных, так и вертикальных.",
     "pl": "Użyj tej klasy urządzeń dla rolet (poziomych i pionowych).",
-    "ko": "이 디바이스 클래스는 가로형 및 세로형 블라인드에 사용합니다."
+    "ko": "이 디바이스 클래스는 가로형 및 세로형 블라인드에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه للستائر الدوارة، الأفقية والعمودية على حد سواء."
   }
 }

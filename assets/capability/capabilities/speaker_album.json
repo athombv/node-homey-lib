@@ -11,7 +11,8 @@
     "da": "Album",
     "ru": "Альбом",
     "pl": "Album",
-    "ko": "앨범"
+    "ko": "앨범",
+    "ar": "الألبوم"
   },
   "type": "string",
   "color": "#9033FC",
@@ -34,7 +35,8 @@
           "da": "Albummet skiftede",
           "ru": "Альбом изменен",
           "pl": "Zmiana albumu",
-          "ko": "앨범이 변경되면"
+          "ko": "앨범이 변경되면",
+          "ar": "تم تغيير الألبوم"
         },
         "tokens": [
           {

@@ -12,7 +12,8 @@
     "da": "Batterialarm",
     "ru": "Сигнал аккумулятора",
     "pl": "Alarm stanu baterii",
-    "ko": "배터리 알람"
+    "ko": "배터리 알람",
+    "ar": "إنذار البطارية"
   },
   "desc": {
     "en": "True when there is a battery warning",
@@ -26,7 +27,8 @@
     "da": "Sandt, når der er en batterialarm",
     "ru": "Значение «истина», когда есть предупреждение об аккумуляторе",
     "pl": "Adekwatny, kiedy włączy się ostrzeżenie o stanie baterii",
-    "ko": "배터리 경고가 있으면 참"
+    "ko": "배터리 경고가 있으면 참",
+    "ar": "صحيح عند وجود تحذير من البطارية"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "da": "Batterialarm aktiveret",
     "ru": "Сигнал аккумулятора включен",
     "pl": "Alarm stanu baterii włączony",
-    "ko": "배터리 알람 켜짐"
+    "ko": "배터리 알람 켜짐",
+    "ar": "تم تشغيل إنذار البطارية"
   },
   "insightsTitleFalse": {
     "en": "Battery alarm turned off",
@@ -55,7 +58,8 @@
     "da": "Batterialarm deaktiveret",
     "ru": "Сигнал аккумулятора выключен",
     "pl": "Alarm stanu baterii wyłączony",
-    "ko": "배터리 알람 꺼짐"
+    "ko": "배터리 알람 꺼짐",
+    "ar": "تم إيقاف إنذار البطارية"
   },
   "color": "#6DD400",
   "getable": true,
@@ -78,7 +82,8 @@
           "da": "Batterialarm aktiverede",
           "ru": "Сигнал аккумулятора включен",
           "pl": "Alarm stanu baterii włączony",
-          "ko": "배터리 알람이 '예'이면"
+          "ko": "배터리 알람이 '예'이면",
+          "ar": "تم تشغيل إنذار البطارية"
         }
       },
       {
@@ -95,7 +100,8 @@
           "da": "Batterialarm deaktiverede",
           "ru": "Сигнал аккумулятора выключен",
           "pl": "Alarm stanu baterii wyłączony",
-          "ko": "배터리 알람이 '아니요'이면"
+          "ko": "배터리 알람이 '아니요'이면",
+          "ar": "تم إيقاف إنذار البطارية"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "da": "Batterialarmen er !{{tændt|slukket}}",
           "ko": "배터리 알람이 !{{'예'이면|'아니요'이면}}",
           "pl": "Alarm stanu baterii jest !{{włączony|wyłączony}}",
-          "ru": "Сигнал аккумулятора !{{включен|выключен}}"
+          "ru": "Сигнал аккумулятора !{{включен|выключен}}",
+          "ar": "إنذار البطارية !{{يعمل|لا يعمل}}"
         }
       }
     ]

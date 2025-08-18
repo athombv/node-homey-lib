@@ -11,7 +11,8 @@
     "sv": "Vikt",
     "es": "Peso",
     "fr": "Poids",
-    "no": "Vekt"
+    "no": "Vekt",
+    "ar": "الوزن"
   },
   "units": {
     "en": "g",
@@ -24,7 +25,8 @@
     "sv": "g",
     "es": "g",
     "fr": "g",
-    "no": "g"
+    "no": "g",
+    "ar": "g"
   },
   "desc": {
     "en": "Generic mass in grams; weight is used instead of mass to fit with everyday language.",
@@ -37,7 +39,8 @@
     "sv": "Generisk massa i gram; vikt används i stället för massa för att passa in i vardagsspråket.",
     "es": "Masa genérica en gramos; se utiliza el peso en lugar de la masa para facilitar la comprensión.",
     "fr": "Masse générique en grammes ; le terme \"poids\" est utilisé au lieu de \"masse\" pour s'ajuster au langage courant.",
-    "no": "Generisk masse i gram – vekt brukes i stedet for masse siden det brukes i dagligtalen."
+    "no": "Generisk masse i gram – vekt brukes i stedet for masse siden det brukes i dagligtalen.",
+    "ar": "الكتلة العامة بالجرام؛ يتم استخدام الوزن بدلاً من الكتلة ليتناسب مع اللغة اليومية."
   },
   "insights": true,
   "chartType": "spline",
@@ -61,7 +64,8 @@
           "sv": "Vikten ändrades",
           "es": "El peso ha cambiado",
           "fr": "Le poids a changé",
-          "no": "Vekten ble endret"
+          "no": "Vekten ble endret",
+          "ar": "تم تغيير الوزن"
         },
         "tokens": [
           {

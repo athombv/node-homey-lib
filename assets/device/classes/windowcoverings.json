@@ -11,7 +11,8 @@
     "da": "Vinduesdække",
     "ru": "Оконные навесы",
     "pl": "Osłony okienne",
-    "ko": "창문 커버"
+    "ko": "창문 커버",
+    "ar": "أغطية النوافذ"
   },
   "description": {
     "en": "Use this device class for window coverings, when the `curtains`, `blinds` or `sunshade` device class doesn't apply.",
@@ -24,7 +25,8 @@
     "da": "Brug denne enhedsklasse til vinduesdække, når enhedsklasserne `curtains`, `blinds` og `sunshade` ikke er gældende.",
     "ru": "Используйте этот класс устройств для оконных навесов, когда классы устройств `curtains`, `blinds` или `sunshade` не подходят.",
     "pl": "Użyj tej klasy urządzeń dla osłon okiennych o innej klasie urządzenia niż `curtains`, `blinds` lub `sunshade`.",
-    "ko": "이 디바이스 클래스는 'curtains', 'blinds', 'sunshade' 디바이스 클래스가 적용되지 않는 창문 덮개에 사용합니다."
+    "ko": "이 디바이스 클래스는 'curtains', 'blinds', 'sunshade' 디바이스 클래스가 적용되지 않는 창문 덮개에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لأغطية النوافذ، عندما لا تنطبق فئة الجهاز 'ستائر'، 'ستائر دوارة' أو 'مظلة شمسية'."
   },
   "virtualTitle": {
     "en": "What's the type?",
@@ -38,7 +40,8 @@
     "da": "Hvad er typen?",
     "ru": "Какой тип?",
     "pl": "Wybierz rodzaj?",
-    "ko": "어떤 유형인가요?"
+    "ko": "어떤 유형인가요?",
+    "ar": "ما هو النوع؟"
   },
   "allowedVirtual": [
     "sunshade",

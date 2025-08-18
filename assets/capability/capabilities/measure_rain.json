@@ -12,13 +12,15 @@
     "da": "Regn",
     "ru": "Дождь",
     "pl": "Deszcz",
-    "ko": "강우량"
+    "ko": "강우량",
+    "ar": "المطر"
   },
   "units": {
     "en": "mm",
     "ru": "мм",
     "ko": "mm",
-    "no": "mm"
+    "no": "mm",
+    "ar": "mm"
   },
   "insights": true,
   "desc": {
@@ -33,7 +35,8 @@
     "da": "Regn i millimeter (mm)",
     "ru": "Дождь в миллиметрах (мм)",
     "pl": "Deszcz w milimetrach (mm)",
-    "ko": "강우량 밀리미터(mm)"
+    "ko": "강우량 밀리미터(mm)",
+    "ar": "المطر بالمليمتر (mm)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -57,7 +60,8 @@
           "da": "Regnen ændrede sig",
           "ru": "Дождь изменился",
           "pl": "Zmiana poziomu deszczu",
-          "ko": "강우량이 변경되면"
+          "ko": "강우량이 변경되면",
+          "ar": "تم تغيير المطر"
         },
         "tokens": [
           {

@@ -11,7 +11,8 @@
     "no": "Airfryer",
     "pl": "Frytkownica beztłuszczowa",
     "ru": "Аэрогриль",
-    "sv": "Luftfritös"
+    "sv": "Luftfritös",
+    "ar": "مقلاة هوائية"
   },
   "description": {
     "en": "Use this device class for air fryers.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for airfryere.",
     "pl": "Ta klasa urządzeń jest przeznaczona dla frytkownic beztłuszczowych.",
     "ru": "Используйте этот класс устройств для аэрогрилей.",
-    "sv": "Använd den här enhetsklassen för luftfritöser."
+    "sv": "Använd den här enhetsklassen för luftfritöser.",
+    "ar": "استخدم فئة الجهاز هذه للمقالي الهوائية."
   },
   "minCompatibility": "12.0.0"
 }

@@ -11,7 +11,8 @@
     "da": "Kamera",
     "ru": "Камера",
     "pl": "Kamera",
-    "ko": "카메라"
+    "ko": "카메라",
+    "ar": "كاميرا"
   },
   "description": {
     "en": "Security camera",
@@ -25,6 +26,7 @@
     "da": "Overvågningskamera",
     "ru": "Камера наблюдения",
     "pl": "Kamera bezpieczeństwa",
-    "ko": "보안 카메라"
+    "ko": "보안 카메라",
+    "ar": "كاميرا أمنية"
   }
 }

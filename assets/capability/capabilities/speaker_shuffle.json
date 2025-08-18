@@ -11,7 +11,8 @@
     "da": "Shuffle",
     "ru": "В случайном порядке",
     "pl": "Odtwarzaj losowo",
-    "ko": "셔플"
+    "ko": "셔플",
+    "ar": "خلط"
   },
   "type": "boolean",
   "color": "#9033FC",
@@ -34,7 +35,8 @@
           "da": "Shufflet slået til",
           "ru": "В случайном порядке",
           "pl": "Włącz odtwarzanie losowe",
-          "ko": "셔플 켬"
+          "ko": "셔플 켬",
+          "ar": "تشغيل الخلط"
         }
       },
       {
@@ -51,7 +53,8 @@
           "da": "Shuffle slået fra",
           "ru": "По порядку",
           "pl": "Wyłącz odtwarzanie losowe",
-          "ko": "셔플 끔"
+          "ko": "셔플 끔",
+          "ar": "إيقاف الخلط"
         }
       }
     ]

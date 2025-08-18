@@ -11,7 +11,8 @@
     "no": "Stekeovn",
     "pl": "Piekarnik",
     "ru": "Духовой шкаф",
-    "sv": "Ugn"
+    "sv": "Ugn",
+    "ar": "فرن"
   },
   "description": {
     "en": "Use this device class for ovens.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for stekeovner.",
     "pl": "Tej klasy urządzeń należy używać w przypadku piekarników.",
     "ru": "Используйте этот класс устройств для духовых шкафов.",
-    "sv": "Använd den här enhetsklassen för ugnar."
+    "sv": "Använd den här enhetsklassen för ugnar.",
+    "ar": "استخدم فئة الجهاز هذه للأفران."
   },
   "minCompatibility": "12.0.0"
 }

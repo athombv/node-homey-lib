@@ -11,7 +11,8 @@
     "ru": "Сигнал об освещении",
     "sv": "Ljuslarm",
     "es": "Alarma de luz",
-    "fr": "Alarme de lumière"
+    "fr": "Alarme de lumière",
+    "ar": "إنذار الضوء"
   },
   "desc": {
     "en": "True when light is detected.",
@@ -24,7 +25,8 @@
     "ru": "Значение «истина» при обнаружении элемента освещения.",
     "sv": "Sant när ljus detekteras.",
     "es": "Activado cuando se detecta luz.",
-    "fr": "Se déclenche lorsque de la lumière est détectée."
+    "fr": "Se déclenche lorsque de la lumière est détectée.",
+    "ar": "صحيح عند اكتشاف ضوء."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "ru": "Элемент освещения был обнаружен",
     "sv": "Ljus detekterades",
     "es": "Se ha detectado luz",
-    "fr": "De la lumière a été détectée"
+    "fr": "De la lumière a été détectée",
+    "ar": "تم اكتشاف ضوء"
   },
   "insightsTitleFalse": {
     "en": "Light was no longer detected",
@@ -51,7 +54,8 @@
     "ru": "Элемент освещения больше не обнаруживался",
     "sv": "Ljus detekterades inte längre",
     "es": "No hay luz detectada",
-    "fr": "La lumière n'est plus détectée"
+    "fr": "La lumière n'est plus détectée",
+    "ar": "لم يعد يتم اكتشاف ضوء"
   },
   "getable": true,
   "setable": false,
@@ -73,7 +77,8 @@
           "ru": "Элемент освещения обнаружен",
           "sv": "Ljus detekteras",
           "es": "Se detecta luz",
-          "fr": "De la lumière est détectée"
+          "fr": "De la lumière est détectée",
+          "ar": "تم اكتشاف ضوء"
         }
       },
       {
@@ -89,7 +94,8 @@
           "ru": "Элемент освещения больше не обнаруживается",
           "sv": "Ljus detekteras inte längre",
           "es": "Ya no se detecta luz",
-          "fr": "La lumière n'est plus détectée"
+          "fr": "La lumière n'est plus détectée",
+          "ar": "لم يعد يتم اكتشاف ضوء"
         }
       }
     ],
@@ -107,7 +113,8 @@
           "ru": "Элемент освещения !{{обнаружен|не обнаружен}}",
           "sv": "Ljus !{{har|har inte}} detekterats",
           "es": "!{{Se detecta|No se detecta}} luz",
-          "fr": "Lumière !{{détectée|non détectée}}"
+          "fr": "Lumière !{{détectée|non détectée}}",
+          "ar": "الضوء !{{تم|لم يتم}} اكتشافه"
         }
       }
     ]

@@ -11,7 +11,8 @@
     "da": "Forstærker",
     "ru": "Усилитель",
     "pl": "Wzmacniacz",
-    "ko": "앰프"
+    "ko": "앰프",
+    "ar": "مضخم صوت"
   },
   "description": {
     "en": "Use this device class for audio amplifier devices.",
@@ -24,6 +25,7 @@
     "da": "Brug denne enhedsklasse til lydforstærkerenheder.",
     "ru": "Используйте этот класс устройств для усилителей звука.",
     "pl": "Użyj tej klasy urządzeń dla wzmacniaczy audio.",
-    "ko": "이 디바이스 클래스는 오디오 앰프 디바이스에 사용합니다."
+    "ko": "이 디바이스 클래스는 오디오 앰프 디바이스에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لأجهزة مضخم الصوت."
   }
 }

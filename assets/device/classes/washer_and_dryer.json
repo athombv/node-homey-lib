@@ -11,7 +11,8 @@
     "no": "Vaskemaskin og tørketrommel",
     "pl": "Pralko-suszarka",
     "ru": "Стиральная машина и сушилка",
-    "sv": "Tvättmaskin och torktumlare"
+    "sv": "Tvättmaskin och torktumlare",
+    "ar": "غسالة ومجفف"
   },
   "description": {
     "en": "Use this device class for any kind of washer and dryer combination.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for alle slags kombinasjoner av vaskemaskin og tørketrommel.",
     "pl": "Tej klasy urządzenia należy używać do każdego rodzaju pralko-suszarki.",
     "ru": "Используйте этот класс устройств для любой комбинации стиральной и сушильной машин.",
-    "sv": "Använd den här enhetsklassen för alla typer av tvättmaskin och torktumlare."
+    "sv": "Använd den här enhetsklassen för alla typer av tvättmaskin och torktumlare.",
+    "ar": "استخدم فئة الجهاز هذه لأي نوع من الغسالات والمجففات المدمجة."
   },
   "minCompatibility": "12.0.0"
 }

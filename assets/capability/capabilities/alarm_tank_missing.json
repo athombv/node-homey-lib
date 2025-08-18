@@ -11,7 +11,8 @@
     "ru": "Сигнал об отсутствии резервуара",
     "sv": "Larm för saknad tank",
     "es": "Alarma de depósito no presente",
-    "fr": "Alarme de réservoir manquant"
+    "fr": "Alarme de réservoir manquant",
+    "ar": "إنذار الخزان المفقود"
   },
   "desc": {
     "en": "True when the tank is missing.",
@@ -24,7 +25,8 @@
     "ru": "Значение «истина», когда резервуар отсутствует.",
     "sv": "Sant när tanken saknas.",
     "es": "Activado cuando el depósito no está presente.",
-    "fr": "Se déclenche lorsque le réservoir est manquant."
+    "fr": "Se déclenche lorsque le réservoir est manquant.",
+    "ar": "صحيح عندما يكون الخزان مفقودًا."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -38,7 +40,8 @@
     "ru": "Резервуар отсутствовал",
     "sv": "Tank saknades",
     "es": "El depósito no estaba presente",
-    "fr": "Le réservoir était manquant"
+    "fr": "Le réservoir était manquant",
+    "ar": "كان الخزان مفقوداً"
   },
   "insightsTitleFalse": {
     "en": "Tank was not missing",
@@ -51,7 +54,8 @@
     "ru": "Резервуар не отсутствовал",
     "sv": "Tanken saknades inte",
     "es": "El depósito estaba colocado",
-    "fr": "Le réservoir n'était pas manquant"
+    "fr": "Le réservoir n'était pas manquant",
+    "ar": "لم يكن الخزان مفقوداً"
   },
   "color": "#0091FF",
   "getable": true,
@@ -73,7 +77,8 @@
           "ru": "Резервуар отсутствует",
           "sv": "Tanken saknas",
           "es": "El depósito no está presente",
-          "fr": "Le réservoir est manquant"
+          "fr": "Le réservoir est manquant",
+          "ar": "الخزان مفقود"
         }
       },
       {
@@ -89,7 +94,8 @@
           "ru": "Резервуар размещен",
           "sv": "Tanken är på plats",
           "es": "El depósito está colocado",
-          "fr": "Le réservoir est placé"
+          "fr": "Le réservoir est placé",
+          "ar": "تم وضع الخزان"
         }
       }
     ],
@@ -107,7 +113,8 @@
           "ru": "Резервуар ! {{отсутствует|в наличии}}",
           "sv": "Tanken !{{saknas|är på plats}}",
           "es": "El depósito !{{está|no está}} presente",
-          "fr": "Le réservoir est !{{manquant|présent}}"
+          "fr": "Le réservoir est !{{manquant|présent}}",
+          "ar": "الخزان !{{مفقود|غير مفقود}}"
         }
       }
     ]

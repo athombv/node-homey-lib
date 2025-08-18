@@ -11,7 +11,8 @@
     "no": "Radiator",
     "pl": "Grzejnik",
     "ru": "Обогреватель",
-    "sv": "Element"
+    "sv": "Element",
+    "ar": "رادياتير"
   },
   "description": {
     "en": "Use this device class for radiators.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for radiatorer.",
     "pl": "Tej klasy urządzeń należy używać w przypadku grzejników.",
     "ru": "Используйте этот класс устройств для обогревателей.",
-    "sv": "Använd den här enhetsklassen för element."
+    "sv": "Använd den här enhetsklassen för element.",
+    "ar": "استخدم فئة الجهاز هذه للرادياتيرات."
   },
   "minCompatibility": "12.0.0"
 }

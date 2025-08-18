@@ -11,7 +11,8 @@
     "da": "Knap",
     "ru": "Кнопка",
     "pl": "Przycisk",
-    "ko": "버튼"
+    "ko": "버튼",
+    "ar": "زر"
   },
   "description": {
     "en": "Use this device class for buttons, such as a remote.",
@@ -24,6 +25,7 @@
     "da": "Brug denne enhedsklasse til knapper, f-eks. en fjernbetjening.",
     "ru": "Используйте этот класс устройств для устройств с кнопками, например пультов.",
     "pl": "Użyj tej klasy urządzeń dla przycisków, np. pilota.",
-    "ko": "이 디바이스 클래스는 리모컨 등 버튼이 있는 것에 사용합니다."
+    "ko": "이 디바이스 클래스는 리모컨 등 버튼이 있는 것에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه للأزرار، مثل جهاز التحكم عن بعد."
   }
 }

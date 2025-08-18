@@ -11,7 +11,8 @@
     "sv": "Datastorlek",
     "es": "Tamaño de los datos",
     "fr": "Taille des données",
-    "no": "Datastørrelse"
+    "no": "Datastørrelse",
+    "ar": "حجم البيانات"
   },
   "units": {
     "en": "bytes",
@@ -24,7 +25,8 @@
     "sv": "byte",
     "es": "bytes",
     "fr": "octets",
-    "no": "byte"
+    "no": "byte",
+    "ar": "bytes"
   },
   "desc": {
     "en": "The data size in bytes.",
@@ -37,7 +39,8 @@
     "sv": "Datastorlek i byte.",
     "es": "El tamaño de los datos en bytes.",
     "fr": "La taille des données en octets.",
-    "no": "Datastørrelsen i byte."
+    "no": "Datastørrelsen i byte.",
+    "ar": "حجم البيانات بالبايت."
   },
   "insights": true,
   "chartType": "spline",
@@ -61,7 +64,8 @@
           "sv": "Datastorleken ändrades",
           "es": "El tamaño de los datos ha cambiado",
           "fr": "La taille des données a changé",
-          "no": "Datastørrelsen ble endret"
+          "no": "Datastørrelsen ble endret",
+          "ar": "تم تغيير حجم البيانات"
         },
         "tokens": [
           {

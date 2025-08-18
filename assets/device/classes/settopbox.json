@@ -11,7 +11,8 @@
     "no": "TV-mottaker",
     "pl": "Dekoder",
     "ru": "Ресивер",
-    "sv": "Digitalbox"
+    "sv": "Digitalbox",
+    "ar": "جهاز استقبال"
   },
   "description": {
     "en": "Use this device class for set-top boxes.",
@@ -24,7 +25,8 @@
     "nl": "Gebruik deze apparaatklasse voor settopboxen.",
     "no": "Bruk denne enhetsklassen for TV-mottakere.",
     "pl": "Tej klasy urządzeń należy używać w przypadku dekoderów.",
-    "ru": "Используйте этот класс устройств для ресиверов."
+    "ru": "Используйте этот класс устройств для ресиверов.",
+    "ar": "استخدم فئة الجهاز هذه لأجهزة الاستقبال."
   },
   "minCompatibility": "12.0.0"
 }

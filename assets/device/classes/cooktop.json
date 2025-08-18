@@ -11,7 +11,8 @@
     "no": "Koketopp",
     "pl": "Płyta grzewcza",
     "ru": "Варочная панель",
-    "sv": "Spishäll"
+    "sv": "Spishäll",
+    "ar": "موقد"
   },
   "description": {
     "en": "Use this device class for cooktops.",
@@ -25,7 +26,8 @@
     "no": "Bruk denne enhetsklassen for koketopper.",
     "pl": "Tej klasy urządzeń należy używać w przypadku płyt grzewczych.",
     "ru": "Используйте этот класс устройств для варочных панелей.",
-    "sv": "Använd den här enhetsklassen för spishällar."
+    "sv": "Använd den här enhetsklassen för spishällar.",
+    "ar": "استخدم فئة الجهاز هذه للمواقد."
   },
   "minCompatibility": "12.0.0"
 }

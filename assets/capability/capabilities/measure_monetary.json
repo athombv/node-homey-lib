@@ -11,7 +11,8 @@
     "ru": "Денежная стоимость",
     "sv": "Monetärt värde",
     "es": "Valor monetario",
-    "fr": "Valeur monétaire"
+    "fr": "Valeur monétaire",
+    "ar": "قيمة مالية"
   },
   "units": {
     "en": "€",
@@ -24,7 +25,8 @@
     "ru": "€",
     "sv": "€",
     "es": "€",
-    "fr": " €"
+    "fr": " €",
+    "ar": "€"
   },
   "desc": {
     "en": "The monetary value with a currency (default: €).",
@@ -37,7 +39,8 @@
     "ru": "Денежная стоимость с указанием валюты (по умолчанию: евро).",
     "sv": "Det monetära värdet med en valuta (standard: €).",
     "es": "El valor monetario en una divisa (por omisión, €).",
-    "fr": "La valeur monétaire avec une devise (par défaut : €)."
+    "fr": "La valeur monétaire avec une devise (par défaut : €).",
+    "ar": "القيمة النقدية مع عملة (الافتراضي: €)."
   },
   "insights": true,
   "chartType": "spline",
@@ -61,7 +64,8 @@
           "ru": "Денежная стоимость изменилась",
           "sv": "Det monetära värdet ändrades",
           "es": "El valor monetario ha cambiado",
-          "fr": "La valeur monétaire a changé"
+          "fr": "La valeur monétaire a changé",
+          "ar": "تم تغيير القيمة المالية"
         },
         "tokens": [
           {
