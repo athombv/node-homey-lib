@@ -1,0 +1,31 @@
+{
+  "title": {
+    "en": "Air Quality Sensor",
+    "nl": "Luchtkwaliteitsensor",
+    "de": "Luftqualitätssensor",
+    "fr": "Capteur de qualité de l'air",
+    "it": "Sensore di qualità dell'aria",
+    "sv": "Luftkvalitetssensor",
+    "no": "Luftkvalitetssensor",
+    "es": "Sensor de calidad del aire",
+    "da": "Luftkvalitetssensor",
+    "ru": "Датчик качества воздуха",
+    "pl": "Czujnik jakości powietrza",
+    "ko": "공기질 센서",
+    "ar": "مستشعر جودة الهواء"
+  },
+  "description": {
+    "en": "Use this device class for air quality sensors that monitor pollutants, VOCs, CO2, or other air quality metrics.",
+    "de": "Nutze diese Geräteklasse für Luftqualitätssensoren, die Schadstoffe, VOCs, CO2 oder andere Luftqualitätsmetriken überwachen.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs de qualité de l'air qui surveillent les polluants, les COV, le CO2 ou d'autres métriques de qualité de l'air.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di qualità dell'aria che monitorano inquinanti, COV, CO2 o altre metriche di qualità dell'aria.",
+    "sv": "Använd den här enhetsklassen för luftkvalitetssensorer som övervakar föroreningar, VOC, CO2 eller andra luftkvalitetsmått.",
+    "no": "Bruk denne enhetsklassen for luftkvalitetssensorer som overvåker forurensning, VOC, CO2 eller andre luftkvalitetsmålinger.",
+    "es": "Utiliza esta clase de dispositivo para los sensores de calidad del aire que monitorizan contaminantes, COV, CO2 u otras métricas de calidad del aire.",
+    "da": "Brug denne enhedsklasse til luftkvalitetssensorer der overvåger forurenende stoffer, VOC, CO2 eller andre luftkvalitetsmålinger.",
+    "ru": "Используйте этот класс устройств для датчиков качества воздуха, которые контролируют загрязняющие вещества, ЛОС, CO2 или другие показатели качества воздуха.",
+    "pl": "Użyj tej klasy urządzeń dla czujników jakości powietrza, które monitorują zanieczyszczenia, LOC, CO2 lub inne wskaźniki jakości powietrza.",
+    "ko": "이 디바이스 클래스는 오염물질, VOC, CO2 또는 기타 공기질 지표를 모니터링하는 공기질 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات جودة الهواء التي تراقب الملوثات أو المركبات العضوية المتطايرة أو ثاني أكسيد الكربون أو مقاييس جودة الهواء الأخرى."
+  }
+}

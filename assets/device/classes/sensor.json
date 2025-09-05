@@ -15,17 +15,17 @@
     "ar": "مستشعر"
   },
   "description": {
-    "en": "Use this device class for sensors, e.g. a contact or motion sensor.",
-    "de": "Nutze diese Geräteklasse für Sensoren, z. B. ein Kontakt- oder Bewegungssensor.",
-    "fr": "Utilisez cette classe d'appareil pour les capteurs, par ex. un capteur de contact ou de mouvement.",
-    "it": "Utilizza questa classe di dispositivi per i sensori, ad es. un sensore di contatto o di movimento.",
-    "sv": "Använd den här enhetsklassen för sensorer, t.ex. en kontakt eller rörelsesensor.",
-    "no": "Bruk denne enhetsklassen for sensorer, f.eks. en kontakt- eller bevegelsessensor.",
-    "es": "Utiliza esta clase de dispositivo para los sensores; p. ej., sensores de contacto  o movimiento.",
-    "da": "Brug denne enhedsklasse til sensorer, f-eks en kontakt- eller bevægelsessensor.",
-    "ru": "Используйте этот класс устройства для датчиков, например датчиков контакта или движения.",
-    "pl": "Użyj tej klasy urządzeń dla czujników, np. czujnika otwarcia lub ruchu.",
-    "ko": "이 디바이스 클래스는 접촉 또는 모션 센서 등 센서류에 사용합니다.",
-    "ar": "استخدم فئة الجهاز هذه للمستشعرات، مثل مستشعر الاتصال أو الحركة."
+    "en": "Use this device class when a device is composed of multiple sensors, e.g. humidity + temperature. For specific sensor types, use the dedicated sensor_* classes.",
+    "de": "Nutze diese Geräteklasse, wenn ein Gerät aus mehreren Sensoren besteht, z. B. Feuchtigkeit + Temperatur. Für spezielle Sensortypen verwende die dedizierten sensor_*-Klassen.",
+    "fr": "Utilisez cette classe d'appareil lorsqu'un appareil est composé de plusieurs capteurs, par ex. humidité + température. Pour des types de capteurs spécifiques, utilisez les classes sensor_* dédiées.",
+    "it": "Utilizza questa classe di dispositivi quando un dispositivo è composto da più sensori, ad es. umidità + temperatura. Per tipi di sensori specifici, utilizza le classi sensor_* dedicate.",
+    "sv": "Använd den här enhetsklassen när en enhet består av flera sensorer, t.ex. fuktighet + temperatur. För specifika sensortyper, använd de dedikerade sensor_*-klasserna.",
+    "no": "Bruk denne enhetsklassen når en enhet består av flere sensorer, f.eks. fuktighet + temperatur. For spesifikke sensortyper, bruk de dedikerte sensor_*-klassene.",
+    "es": "Utiliza esta clase de dispositivo cuando un dispositivo esté compuesto de varios sensores; p. ej., humedad + temperatura. Para tipos específicos de sensores, utiliza las clases sensor_* dedicadas.",
+    "da": "Brug denne enhedsklasse når en enhed består af flere sensorer, f.eks. fugtighed + temperatur. For specifikke sensortyper, brug de dedikerede sensor_*-klasser.",
+    "ru": "Используйте этот класс устройства, когда устройство состоит из нескольких датчиков, например влажности + температуры. Для конкретных типов датчиков используйте выделенные классы sensor_*.",
+    "pl": "Użyj tej klasy urządzeń, gdy urządzenie składa się z wielu czujników, np. wilgotności + temperatury. Dla konkretnych typów czujników użyj dedykowanych klas sensor_*.",
+    "ko": "이 디바이스 클래스는 습도 + 온도 등 여러 센서로 구성된 디바이스에 사용합니다. 특정 센서 유형의 경우 전용 sensor_* 클래스를 사용하십시오.",
+    "ar": "استخدم فئة الجهاز هذه عندما يتكون الجهاز من عدة مستشعرات، مثل الرطوبة + درجة الحرارة. للأنواع المحددة من المستشعرات، استخدم فئات sensor_* المخصصة."
   }
 }

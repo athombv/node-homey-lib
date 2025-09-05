@@ -1,0 +1,31 @@
+{
+  "title": {
+    "en": "Temperature Sensor",
+    "nl": "Temperatuursensor",
+    "de": "Temperatursensor",
+    "fr": "Capteur de température",
+    "it": "Sensore di temperatura",
+    "sv": "Temperatursensor",
+    "no": "Temperatursensor",
+    "es": "Sensor de temperatura",
+    "da": "Temperatursensor",
+    "ru": "Датчик температуры",
+    "pl": "Czujnik temperatury",
+    "ko": "온도 센서",
+    "ar": "مستشعر درجة الحرارة"
+  },
+  "description": {
+    "en": "Use this device class for temperature sensors that measure ambient or specific temperature readings.",
+    "de": "Nutze diese Geräteklasse für Temperatursensoren, die Umgebungs- oder spezifische Temperaturmessungen durchführen.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs de température qui mesurent la température ambiante ou des lectures de température spécifiques.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di temperatura che misurano la temperatura ambiente o letture di temperatura specifiche.",
+    "sv": "Använd den här enhetsklassen för temperatursensorer som mäter omgivande eller specifika temperaturavläsningar.",
+    "no": "Bruk denne enhetsklassen for temperatursensorer som måler omgivende eller spesifikke temperaturavlesninger.",
+    "es": "Utiliza esta clase de dispositivo para los sensores de temperatura que miden lecturas de temperatura ambiente o específica.",
+    "da": "Brug denne enhedsklasse til temperatursensorer der måler omgivende eller specifikke temperaturmålinger.",
+    "ru": "Используйте этот класс устройств для датчиков температуры, которые измеряют температуру окружающей среды или конкретные показания температуры.",
+    "pl": "Użyj tej klasy urządzeń dla czujników temperatury, które mierzą temperaturę otoczenia lub konkretne odczyty temperatury.",
+    "ko": "이 디바이스 클래스는 주변 온도나 특정 온도를 측정하는 온도 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات درجة الحرارة التي تقيس درجة الحرارة المحيطة أو قراءات درجة حرارة معينة."
+  }
+}

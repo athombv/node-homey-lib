@@ -1,0 +1,31 @@
+{
+  "title": {
+    "en": "Pressure Sensor",
+    "nl": "Druksensor",
+    "de": "Drucksensor",
+    "fr": "Capteur de pression",
+    "it": "Sensore di pressione",
+    "sv": "Trycksensor",
+    "no": "Trykksensor",
+    "es": "Sensor de presión",
+    "da": "Tryksensor",
+    "ru": "Датчик давления",
+    "pl": "Czujnik ciśnienia",
+    "ko": "압력 센서",
+    "ar": "مستشعر الضغط"
+  },
+  "description": {
+    "en": "Use this device class for pressure sensors that measure atmospheric pressure or other pressure readings.",
+    "de": "Nutze diese Geräteklasse für Drucksensoren, die atmosphärischen Druck oder andere Druckmessungen durchführen.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs de pression qui mesurent la pression atmosphérique ou d'autres lectures de pression.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di pressione che misurano la pressione atmosferica o altre letture di pressione.",
+    "sv": "Använd den här enhetsklassen för trycksensorer som mäter atmosfärstryck eller andra tryckavläsningar.",
+    "no": "Bruk denne enhetsklassen for trykksensorer som måler atmosfærisk trykk eller andre trykkavlesninger.",
+    "es": "Utiliza esta clase de dispositivo para los sensores de presión que miden presión atmosférica u otras lecturas de presión.",
+    "da": "Brug denne enhedsklasse til tryksensorer der måler atmosfærisk tryk eller andre trykmålinger.",
+    "ru": "Используйте этот класс устройств для датчиков давления, которые измеряют атмосферное давление или другие показания давления.",
+    "pl": "Użyj tej klasy urządzeń dla czujników ciśnienia, które mierzą ciśnienie atmosferyczne lub inne odczyty ciśnienia.",
+    "ko": "이 디바이스 클래스는 대기압이나 다른 압력을 측정하는 압력 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات الضغط التي تقيس الضغط الجوي أو قراءات ضغط أخرى."
+  }
+}
