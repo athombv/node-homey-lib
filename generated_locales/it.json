@@ -1137,7 +1137,7 @@
   "./assets/device/classes/smokealarm.json@title": "Rilevatore di fumo",
   "./assets/device/classes/smokealarm.json@description": "Utilizza questa classe di dispositivi per qualsiasi rilevatore di fumo o di monossido di carbonio. Può essere utilizzata anche per unità combinate.",
   "./assets/device/classes/socket.json@title": "Presa a muro",
-  "./assets/device/classes/socket.json@description": "Utilizza questa classe di dispositivi per le prese (prese integrate o interruttori). Aggiungendo il modello di abbinamento `choose_slave`, viene chiesto all'utente `Cosa è collegato?`.",
+  "./assets/device/classes/socket.json@description": "Utilizza questa classe di dispositivi per le prese (prese integrate o interruttori) o interruttori fissi, ad esempio quelli collegati a una luce.",
   "./assets/device/classes/socket.json@virtualTitle": "Collegato",
   "./assets/device/classes/speaker.json@title": "Altoparlante",
   "./assets/device/classes/speaker.json@description": "Utilizza questa classe di dispositivi per i dispositivi che possono riprodurre musica, generalmente insieme alla funzione `speaker_*`.",

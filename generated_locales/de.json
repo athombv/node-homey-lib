@@ -544,7 +544,7 @@
   "./assets/device/classes/smokealarm.json@title": "Rauchmelder",
   "./assets/device/classes/smokealarm.json@description": "Verwenden Sie diese Geräteklasse für jeden Rauch- oder CO-Alarm. Sie kann auch für Kombi-Geräte verwendet werden.",
   "./assets/device/classes/socket.json@title": "Steckdose",
-  "./assets/device/classes/socket.json@description": "Nutze diese Geräteklasse für Sockel (eingebaut oder zum zum Einstecken). Wenn das `choose_slave`-Paar-Template hinzugefügt wird, wird dem Benutzer eine `Was ist eingesteckt?`-Frage gestellt.",
+  "./assets/device/classes/socket.json@description": "Nutze diese Geräteklasse für Sockel (eingebaut oder zum Einstecken) oder feste Schalter, z.B. die an eine Lampe angeschlossen sind.",
   "./assets/device/classes/socket.json@virtualTitle": "Angeschlossen",
   "./assets/device/classes/speaker.json@title": "Lautsprecher",
   "./assets/device/classes/speaker.json@description": "Nutze diese Geräteklasse für Geräte, die Musik spielen können - normalerweise zusammen mit den `speaker_*`-Fähigkeiten.",

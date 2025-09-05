@@ -1175,7 +1175,7 @@
   "./assets/device/classes/smokealarm.json@title": "إنذار الدخان",
   "./assets/device/classes/smokealarm.json@description": "استخدم فئة الجهاز هذه لأي إنذار دخان أو أول أكسيد الكربون، ويمكن استخدامها أيضًا للوحدات المدمجة.",
   "./assets/device/classes/socket.json@title": "قابس الحائط",
-  "./assets/device/classes/socket.json@description": "استخدم فئة الجهاز هذه للمقابس (المدمجة أو قوابس التبديل). عند إضافة قالب الاقتران 'choose_slave'، يتم عرض سؤال 'ما هو الموصل؟' للمستخدم.",
+  "./assets/device/classes/socket.json@description": "استخدم فئة الجهاز هذه للمقابس (المدمجة أو قوابس التبديل) أو المفاتيح الثابتة، مثل تلك المتصلة بضوء.",
   "./assets/device/classes/socket.json@virtualTitle": "موصل",
   "./assets/device/classes/solarpanel.json@title": "لوحة شمسية",
   "./assets/device/classes/solarpanel.json@description": "استخدم فئة الجهاز هذه للألواح الشمسية.",

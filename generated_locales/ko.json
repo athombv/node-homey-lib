@@ -1175,7 +1175,7 @@
   "./assets/device/classes/smokealarm.json@title": "연기 감지기",
   "./assets/device/classes/smokealarm.json@description": "이 디바이스 클래스는 연기 및 CO 알람 경보기에 사용하며, 콤보 유닛에도 사용할 수 있습니다.",
   "./assets/device/classes/socket.json@title": "벽면 콘센트",
-  "./assets/device/classes/socket.json@description": "이 디바이스 클래스는 (빌트인 및 플러그인 방식 소켓 스위치 등) 콘센트에 사용합니다. 'choose_slave' 페어링 템플릿을 추가하면 사용자에게 '무엇을 꽂으셨습니까?' 질문이 표시됩니다.",
+  "./assets/device/classes/socket.json@description": "이 디바이스 클래스는 (빌트인 및 플러그인 방식 소켓 스위치 등) 콘센트나 고정 스위치(예: 조명에 연결된 스위치)에 사용합니다.",
   "./assets/device/classes/socket.json@virtualTitle": "꽂힘",
   "./assets/device/classes/solarpanel.json@title": "태양광 패널",
   "./assets/device/classes/solarpanel.json@description": "이 디바이스 클래스는 태양광 패널에 사용합니다.",

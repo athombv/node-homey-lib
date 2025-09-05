@@ -1133,7 +1133,7 @@
   "./assets/device/classes/smokealarm.json@title": "Rökalarm",
   "./assets/device/classes/smokealarm.json@description": "Använd den här enhetsklassen för alla rök- eller CO-larm, kan även användas för kombienheter.",
   "./assets/device/classes/socket.json@title": "Väggkontakt",
-  "./assets/device/classes/socket.json@description": "Använd den här enhetsklassen för uttag (inbyggda eller stickkontakter). När parmallen `choose_slave` får användaren en `Vad är inkopplat?`-fråga.",
+  "./assets/device/classes/socket.json@description": "Använd den här enhetsklassen för uttag (inbyggda eller stickkontakter) eller fasta brytare, t.ex. de som är anslutna till en lampa.",
   "./assets/device/classes/socket.json@virtualTitle": "Inkopplad",
   "./assets/device/classes/solarpanel.json@title": "Solpanel",
   "./assets/device/classes/speaker.json@title": "Högtalare",

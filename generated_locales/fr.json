@@ -1139,7 +1139,7 @@
   "./assets/device/classes/smokealarm.json@title": "Détecteur de fumée",
   "./assets/device/classes/smokealarm.json@description": "Cette classe d'appareils peut être utilisée pour n'importe quel détecteur de fumée ou de CO, ainsi que pour les unités combinées.",
   "./assets/device/classes/socket.json@title": "Prise murale",
-  "./assets/device/classes/socket.json@description": "Utilisez cette classe d'appareil pour les prises (intégrées ou prises d'interrupteurs). En ajoutant le modèle d'appairage `choose_slave`, il est demandé à l'utilisteur `Qu'est-ce qui est connecté ?`.",
+  "./assets/device/classes/socket.json@description": "Utilisez cette classe d'appareil pour les prises (intégrées ou prises d'interrupteurs) ou les interrupteurs fixes, par exemple ceux connectés à une lumière.",
   "./assets/device/classes/socket.json@virtualTitle": "Branché",
   "./assets/device/classes/speaker.json@title": "Haut-parleur",
   "./assets/device/classes/speaker.json@description": "Utilisez cette classe d'appareil pour les appareils qui peuvent jouer de la musique, généralement avec la capacité `speaker_*`.",

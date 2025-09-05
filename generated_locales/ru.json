@@ -1175,7 +1175,7 @@
   "./assets/device/classes/smokealarm.json@title": "Датчик дыма",
   "./assets/device/classes/smokealarm.json@description": "Используйте этот класс устройств для датчиков дыма или угарного газа любого типа; также можно использовать для комбинированных устройств.",
   "./assets/device/classes/socket.json@title": "Настенная розетка",
-  "./assets/device/classes/socket.json@description": "Используйте этот класс устройства для розеток (встроенных или вставных выключателей). При добавлении шаблона сопряжения `choose_slave` пользователю предлагается ответить на вопрос: `Что подключено?`.",
+  "./assets/device/classes/socket.json@description": "Используйте этот класс устройства для розеток (встроенных или вставных выключателей) или стационарных выключателей, например, подключенных к светильнику.",
   "./assets/device/classes/socket.json@virtualTitle": "Подключено",
   "./assets/device/classes/solarpanel.json@title": "Солнечная панель",
   "./assets/device/classes/solarpanel.json@description": "Используйте этот класс устройств для солнечных панелей.",

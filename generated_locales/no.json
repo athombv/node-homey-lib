@@ -1172,7 +1172,7 @@
   "./assets/device/classes/smokealarm.json@title": "Røykvarsler",
   "./assets/device/classes/smokealarm.json@description": "Bruk denne enhetsklassen for alle slags røyk- eller kullosvarslere. Kan også brukes for kombienheter.",
   "./assets/device/classes/socket.json@title": "Veggkontakt",
-  "./assets/device/classes/socket.json@description": "Bruk denne enhetsklassen for kontakter (innebygde eller eksterne kontaktenheter). Når sammenkoblingsmalen `choose_slave` legges til, får brukeren et `Hva er koblet til?`-spørsmål.",
+  "./assets/device/classes/socket.json@description": "Bruk denne enhetsklassen for kontakter (innebygde eller eksterne kontaktenheter) eller faste brytere, f.eks. de som er koblet til en lampe.",
   "./assets/device/classes/socket.json@virtualTitle": "Plugget inn",
   "./assets/device/classes/solarpanel.json@title": "Solpanel",
   "./assets/device/classes/solarpanel.json@description": "Bruk denne enhetsklassen for solpaneler.",

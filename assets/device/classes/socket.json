@@ -15,18 +15,19 @@
     "ar": "قابس الحائط"
   },
   "description": {
-    "en": "Use this device class for sockets (built-in or plug-in socket switches). When adding the `choose_slave` pair template, the user is presented a `What's plugged in?` question.",
-    "de": "Nutze diese Geräteklasse für Sockel (eingebaut oder zum zum Einstecken). Wenn das `choose_slave`-Paar-Template hinzugefügt wird, wird dem Benutzer eine `Was ist eingesteckt?`-Frage gestellt.",
-    "fr": "Utilisez cette classe d'appareil pour les prises (intégrées ou prises d'interrupteurs). En ajoutant le modèle d'appairage `choose_slave`, il est demandé à l'utilisteur `Qu'est-ce qui est connecté ?`.",
-    "it": "Utilizza questa classe di dispositivi per le prese (prese integrate o interruttori). Aggiungendo il modello di abbinamento `choose_slave`, viene chiesto all'utente `Cosa è collegato?`.",
-    "sv": "Använd den här enhetsklassen för uttag (inbyggda eller stickkontakter). När parmallen `choose_slave` får användaren en `Vad är inkopplat?`-fråga.",
-    "no": "Bruk denne enhetsklassen for kontakter (innebygde eller eksterne kontaktenheter). Når sammenkoblingsmalen `choose_slave` legges til, får brukeren et `Hva er koblet til?`-spørsmål.",
-    "es": "Utiliza esta clase de dispositivo para los enchufes (interruptores de enchufe integrados o enchufables). Al añadir la plantilla de emparejamiento `choose_slave`, al usuario se le pregunta `¿Qué está enchufado?`.",
-    "da": "Brug denne enhedsklasse til kontakter (indbyggede eller eksterne kontaktenheder). Når `choose_slave` parskabelonen tilføjes, bliver brugeren præsenteret for et `Hvad er sat til?` spørgsmål.",
-    "ru": "Используйте этот класс устройства для розеток (встроенных или вставных выключателей). При добавлении шаблона сопряжения `choose_slave` пользователю предлагается ответить на вопрос: `Что подключено?`.",
-    "pl": "Użyj tej klasy urządzeń dla gniazdek elektrycznych (wbudowanych lub wtyczek). Podczas dodawania szablonu parowania `choose_slave` pojawi się pytanie: `Co jest podłączone?`.",
-    "ko": "이 디바이스 클래스는 (빌트인 및 플러그인 방식 소켓 스위치 등) 콘센트에 사용합니다. 'choose_slave' 페어링 템플릿을 추가하면 사용자에게 '무엇을 꽂으셨습니까?' 질문이 표시됩니다.",
-    "ar": "استخدم فئة الجهاز هذه للمقابس (المدمجة أو قوابس التبديل). عند إضافة قالب الاقتران 'choose_slave'، يتم عرض سؤال 'ما هو الموصل؟' للمستخدم."
+    "en": "Use this device class for sockets (built-in or plug-in socket switches) or fixed switches, e.g. those connected to a light.",
+    "nl": "Gebruik deze apparaatklasse voor stopcontacten (ingebouwde of plug-in contactschakelaars) of vaste schakelaars, bijvoorbeeld die verbonden zijn met een lamp.",
+    "de": "Nutze diese Geräteklasse für Sockel (eingebaut oder zum Einstecken) oder feste Schalter, z.B. die an eine Lampe angeschlossen sind.",
+    "fr": "Utilisez cette classe d'appareil pour les prises (intégrées ou prises d'interrupteurs) ou les interrupteurs fixes, par exemple ceux connectés à une lumière.",
+    "it": "Utilizza questa classe di dispositivi per le prese (prese integrate o interruttori) o interruttori fissi, ad esempio quelli collegati a una luce.",
+    "sv": "Använd den här enhetsklassen för uttag (inbyggda eller stickkontakter) eller fasta brytare, t.ex. de som är anslutna till en lampa.",
+    "no": "Bruk denne enhetsklassen for kontakter (innebygde eller eksterne kontaktenheter) eller faste brytere, f.eks. de som er koblet til en lampe.",
+    "es": "Utiliza esta clase de dispositivo para los enchufes (interruptores de enchufe integrados o enchufables) o interruptores fijos, por ejemplo, los conectados a una luz.",
+    "da": "Brug denne enhedsklasse til kontakter (indbyggede eller eksterne kontaktenheder) eller faste afbrydere, f.eks. dem, der er forbundet til en lampe.",
+    "ru": "Используйте этот класс устройства для розеток (встроенных или вставных выключателей) или стационарных выключателей, например, подключенных к светильнику.",
+    "pl": "Użyj tej klasy urządzeń dla gniazdek elektrycznych (wbudowanych lub wtyczek) lub stałych przełączników, np. podłączonych do światła.",
+    "ko": "이 디바이스 클래스는 (빌트인 및 플러그인 방식 소켓 스위치 등) 콘센트나 고정 스위치(예: 조명에 연결된 스위치)에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه للمقابس (المدمجة أو قوابس التبديل) أو المفاتيح الثابتة، مثل تلك المتصلة بضوء."
   },
   "virtualTitle": {
     "en": "Plugged in",

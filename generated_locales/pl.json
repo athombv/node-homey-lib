@@ -1147,7 +1147,7 @@
   "./assets/device/classes/smokealarm.json@title": "Alarm przeciwdymny",
   "./assets/device/classes/smokealarm.json@description": "Tej klasy urządzeń można używać w przypadku dowolnego alarmu dymnego lub CO, a także w przypadku urządzeń typu combo.",
   "./assets/device/classes/socket.json@title": "Wtyczka",
-  "./assets/device/classes/socket.json@description": "Użyj tej klasy urządzeń dla gniazdek elektrycznych (wbudowanych lub wtyczek). Podczas dodawania szablonu parowania `choose_slave` pojawi się pytanie: `Co jest podłączone?`.",
+  "./assets/device/classes/socket.json@description": "Użyj tej klasy urządzeń dla gniazdek elektrycznych (wbudowanych lub wtyczek) lub stałych przełączników, np. podłączonych do światła.",
   "./assets/device/classes/socket.json@virtualTitle": "Podłączone",
   "./assets/device/classes/solarpanel.json@title": "Panel fotowoltaiczny",
   "./assets/device/classes/solarpanel.json@description": "Użyj tej klasy urządzeń dla paneli fotowoltaicznych.",

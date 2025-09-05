@@ -1137,7 +1137,7 @@
   "./assets/device/classes/smokealarm.json@title": "Røgalarm",
   "./assets/device/classes/smokealarm.json@description": "Brug denne enhedsklasse til enhver røg- eller kuliltealarm, kan også bruges til kombinationsenheder.",
   "./assets/device/classes/socket.json@title": "Stikkontakt",
-  "./assets/device/classes/socket.json@description": "Brug denne enhedsklasse til kontakter (indbyggede eller eksterne kontaktenheder). Når `choose_slave` parskabelonen tilføjes, bliver brugeren præsenteret for et `Hvad er sat til?` spørgsmål.",
+  "./assets/device/classes/socket.json@description": "Brug denne enhedsklasse til kontakter (indbyggede eller eksterne kontaktenheder) eller faste afbrydere, f.eks. dem, der er forbundet til en lampe.",
   "./assets/device/classes/socket.json@virtualTitle": "Tilsluttet",
   "./assets/device/classes/solarpanel.json@title": "Solpanel",
   "./assets/device/classes/solarpanel.json@description": "Brug denne enhedsklasse til solpaneler.",

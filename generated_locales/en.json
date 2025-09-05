@@ -1175,7 +1175,7 @@
   "./assets/device/classes/smokealarm.json@title": "Smoke Alarm",
   "./assets/device/classes/smokealarm.json@description": "Use this device class for any smoke- or CO-alarm, could also be used for combo units.",
   "./assets/device/classes/socket.json@title": "Wall Plug",
-  "./assets/device/classes/socket.json@description": "Use this device class for sockets (built-in or plug-in socket switches). When adding the `choose_slave` pair template, the user is presented a `What's plugged in?` question.",
+  "./assets/device/classes/socket.json@description": "Use this device class for sockets (built-in or plug-in socket switches) or fixed switches, e.g. those connected to a light.",
   "./assets/device/classes/socket.json@virtualTitle": "Plugged in",
   "./assets/device/classes/solarpanel.json@title": "Solar Panel",
   "./assets/device/classes/solarpanel.json@description": "Use this device class for solar panels.",
