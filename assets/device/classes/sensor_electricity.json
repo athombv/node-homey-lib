@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Electricity Sensor",
+    "nl": "Elektriciteitssensor",
+    "de": "Stromsensor",
+    "fr": "Capteur d'électricité",
+    "it": "Sensore di elettricità",
+    "sv": "Elsensor",
+    "no": "Strømsensor",
+    "es": "Sensor de electricidad",
+    "da": "Elscensor",
+    "ru": "Датчик электричества",
+    "pl": "Czujnik elektryczności",
+    "ko": "전력 센서",
+    "ar": "مستشعر الكهرباء"
+  },
+  "description": {
+    "en": "Use this device class for electricity sensors that measure electrical consumption, voltage, current, or power in electrical systems.",
+    "nl": "Gebruik deze apparaatklasse voor elektriciteitssensoren die elektrisch verbruik, spanning, stroom of vermogen in elektrische systemen meten.",
+    "de": "Verwenden Sie diese Geräteklasse für Stromsensoren, die elektrischen Verbrauch, Spannung, Strom oder Leistung in elektrischen Systemen messen.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs d'électricité qui mesurent la consommation électrique, la tension, le courant ou la puissance dans les systèmes électriques.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di elettricità che misurano il consumo elettrico, la tensione, la corrente o la potenza nei sistemi elettrici.",
+    "sv": "Använd den här enhetsklassen för elsensorer som mäter elförbrukning, spänning, ström eller effekt i elektriska system.",
+    "no": "Bruk denne enhetsklassen for strømsensorer som måler elektrisk forbruk, spenning, strøm eller effekt i elektriske systemer.",
+    "es": "Utiliza esta clase de dispositivo para sensores de electricidad que miden el consumo eléctrico, voltaje, corriente o potencia en sistemas eléctricos.",
+    "da": "Brug denne enhedsklasse til elsensorer, der måler elforbrug, spænding, strøm eller effekt i elektriske systemer.",
+    "ru": "Используйте этот класс устройств для датчиков электричества, которые измеряют потребление электроэнергии, напряжение, ток или мощность в электрических системах.",
+    "pl": "Użyj tej klasy urządzeń dla czujników elektryczności, które mierzą zużycie energii elektrycznej, napięcie, prąd lub moc w systemach elektrycznych.",
+    "ko": "이 디바이스 클래스는 전기 시스템에서 전력 소비, 전압, 전류 또는 전력을 측정하는 전력 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات الكهرباء التي تقيس استهلاك الكهرباء أو الجهد أو التيار أو القدرة في الأنظمة الكهربائية."
+  }
+}

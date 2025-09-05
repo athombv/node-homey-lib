@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Water Leak Sensor",
+    "nl": "Waterleksensor",
+    "de": "Wasserlecksensor",
+    "fr": "Capteur de fuite d'eau",
+    "it": "Sensore di perdita d'acqua",
+    "sv": "Vattenläckagesensor",
+    "no": "Vannlekkasjesensor",
+    "es": "Sensor de fuga de agua",
+    "da": "Vandlækagesensor",
+    "ru": "Датчик протечки воды",
+    "pl": "Czujnik wycieku wody",
+    "ko": "물 누출 센서",
+    "ar": "مستشعر تسرب المياه"
+  },
+  "description": {
+    "en": "Use this device class for water leak sensors that detect the presence of water where it shouldn't be, such as near appliances or in basements.",
+    "nl": "Gebruik deze apparaatklasse voor waterleksensoren die de aanwezigheid van water detecteren waar het niet hoort, zoals bij apparaten of in kelders.",
+    "de": "Verwenden Sie diese Geräteklasse für Wasserlecksensoren, die das Vorhandensein von Wasser erkennen, wo es nicht sein sollte, wie in der Nähe von Geräten oder in Kellern.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs de fuite d'eau qui détectent la présence d'eau là où elle ne devrait pas être, comme près d'appareils ou dans les sous-sols.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di perdita d'acqua che rilevano la presenza di acqua dove non dovrebbe esserci, come vicino agli elettrodomestici o nei seminterrati.",
+    "sv": "Använd den här enhetsklassen för vattenläckagesensorer som upptäcker närvaron av vatten där det inte borde vara, som nära apparater eller i källare.",
+    "no": "Bruk denne enhetsklassen for vannlekkasjesensorer som oppdager tilstedeværelsen av vann der det ikke skal være, som nær apparater eller i kjellere.",
+    "es": "Utiliza esta clase de dispositivo para sensores de fuga de agua que detectan la presencia de agua donde no debería estar, como cerca de electrodomésticos o en sótanos.",
+    "da": "Brug denne enhedsklasse til vandlækagesensorer, der registrerer tilstedeværelsen af vand, hvor det ikke bør være, såsom nær apparater eller i kældre.",
+    "ru": "Используйте этот класс устройств для датчиков протечки воды, которые обнаруживают присутствие воды там, где её не должно быть, например, рядом с приборами или в подвалах.",
+    "pl": "Użyj tej klasy urządzeń dla czujników wycieku wody, które wykrywają obecność wody tam, gdzie jej nie powinno być, na przykład w pobliżu urządzeń lub w piwnicach.",
+    "ko": "이 디바이스 클래스는 가전제품 근처나 지하실과 같이 물이 있어서는 안 되는 곳에서 물의 존재를 감지하는 물 누출 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات تسرب المياه التي تكشف وجود المياه حيث لا يجب أن تكون، مثل بالقرب من الأجهزة أو في الأقبية."
+  }
+}

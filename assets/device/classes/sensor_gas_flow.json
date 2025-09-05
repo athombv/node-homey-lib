@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Gas Flow Sensor",
+    "nl": "Gasstroomsensor",
+    "de": "Gasflusssensor",
+    "fr": "Capteur de débit de gaz",
+    "it": "Sensore di flusso gas",
+    "sv": "Gasflödessensor",
+    "no": "Gassstrømsensor",
+    "es": "Sensor de flujo de gas",
+    "da": "Gasstrømssensor",
+    "ru": "Датчик расхода газа",
+    "pl": "Czujnik przepływu gazu",
+    "ko": "가스 유량 센서",
+    "ar": "مستشعر تدفق الغاز"
+  },
+  "description": {
+    "en": "Use this device class for gas flow sensors that measure the rate of gas flow in pipes or systems, typically in cubic meters per hour.",
+    "nl": "Gebruik deze apparaatklasse voor gasstroomsensoren die de snelheid van gasstroom in leidingen of systemen meten, meestal in kubieke meters per uur.",
+    "de": "Verwenden Sie diese Geräteklasse für Gasflusssensoren, die die Geschwindigkeit des Gasflusses in Rohren oder Systemen messen, typischerweise in Kubikmetern pro Stunde.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs de débit de gaz qui mesurent le taux de débit de gaz dans les tuyaux ou systèmes, généralement en mètres cubes par heure.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di flusso gas che misurano la velocità del flusso di gas in tubi o sistemi, tipicamente in metri cubi all'ora.",
+    "sv": "Använd den här enhetsklassen för gasflödessensorer som mäter hastigheten på gasflödet i rör eller system, vanligtvis i kubikmeter per timme.",
+    "no": "Bruk denne enhetsklassen for gassstrømsensorer som måler hastigheten på gassstrøm i rør eller systemer, vanligvis i kubikkmeter per time.",
+    "es": "Utiliza esta clase de dispositivo para sensores de flujo de gas que miden la velocidad del flujo de gas en tuberías o sistemas, típicamente en metros cúbicos por hora.",
+    "da": "Brug denne enhedsklasse til gasstrømssensorer, der måler hastigheden af gasstrøm i rør eller systemer, typisk i kubikmeter per time.",
+    "ru": "Используйте этот класс устройств для датчиков расхода газа, которые измеряют скорость потока газа в трубах или системах, обычно в кубических метрах в час.",
+    "pl": "Użyj tej klasy urządzeń dla czujników przepływu gazu, które mierzą szybkość przepływu gazu w rurach lub systemach, zwykle w metrach sześciennych na godzinę.",
+    "ko": "이 디바이스 클래스는 파이프나 시스템에서 가스의 유량을 일반적으로 시간당 세제곱미터 단위로 측정하는 가스 유량 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات تدفق الغاز التي تقيس معدل تدفق الغاز في الأنابيب أو الأنظمة، عادةً بالمتر المكعب في الساعة."
+  }
+}

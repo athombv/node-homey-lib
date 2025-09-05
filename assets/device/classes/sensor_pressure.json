@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Pressure Sensor",
+    "nl": "Druksensor",
+    "de": "Drucksensor",
+    "fr": "Capteur de pression",
+    "it": "Sensore di pressione",
+    "sv": "Trycksensor",
+    "no": "Trykksensor",
+    "es": "Sensor de presión",
+    "da": "Tryksensor",
+    "ru": "Датчик давления",
+    "pl": "Czujnik ciśnienia",
+    "ko": "압력 센서",
+    "ar": "مستشعر الضغط"
+  },
+  "description": {
+    "en": "Use this device class for pressure sensors that measure atmospheric pressure, usually in hectopascals (hPa) or millibars.",
+    "nl": "Gebruik deze apparaatklasse voor druksensoren die atmosferische druk meten, meestal in hectopascal (hPa) of millibar.",
+    "de": "Verwenden Sie diese Geräteklasse für Drucksensoren, die Atmosphärendruck messen, normalerweise in Hektopascal (hPa) oder Millibar.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs de pression qui mesurent la pression atmosphérique, généralement en hectopascals (hPa) ou millibars.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di pressione che misurano la pressione atmosferica, solitamente in ettopascal (hPa) o millibar.",
+    "sv": "Använd den här enhetsklassen för trycksensorer som mäter atmosfärstryck, vanligtvis i hektopascal (hPa) eller millibar.",
+    "no": "Bruk denne enhetsklassen for trykksensorer som måler atmosfærisk trykk, vanligvis i hektopascal (hPa) eller millibar.",
+    "es": "Utiliza esta clase de dispositivo para sensores de presión que miden la presión atmosférica, generalmente en hectopascales (hPa) o milibares.",
+    "da": "Brug denne enhedsklasse til tryksensorer, der måler atmosfærisk tryk, normalt i hektopascal (hPa) eller millibar.",
+    "ru": "Используйте этот класс устройств для датчиков давления, которые измеряют атмосферное давление, обычно в гектопаскалях (гПа) или миллибарах.",
+    "pl": "Użyj tej klasy urządzeń dla czujników ciśnienia, które mierzą ciśnienie atmosferyczne, zwykle w hektopaskalach (hPa) lub milibarach.",
+    "ko": "이 디바이스 클래스는 일반적으로 헥토파스칼(hPa) 또는 밀리바 단위로 대기압을 측정하는 압력 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات الضغط التي تقيس الضغط الجوي، عادةً بوحدة الهكتوباسكال (hPa) أو الميليبار."
+  }
+}

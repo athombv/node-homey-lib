@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Occupancy Sensor",
+    "nl": "Aanwezigheidssensor",
+    "de": "Anwesenheitssensor",
+    "fr": "Capteur d'occupation",
+    "it": "Sensore di presenza",
+    "sv": "Närvarosensor",
+    "no": "Tilstedeværelsessensor",
+    "es": "Sensor de ocupación",
+    "da": "Tilstedeværelsessensor",
+    "ru": "Датчик присутствия",
+    "pl": "Czujnik obecności",
+    "ko": "재실 센서",
+    "ar": "مستشعر الإشغال"
+  },
+  "description": {
+    "en": "Use this device class for occupancy sensors that detect human presence or movement in a space.",
+    "nl": "Gebruik deze apparaatklasse voor aanwezigheidssensoren die menselijke aanwezigheid of beweging in een ruimte detecteren.",
+    "de": "Verwenden Sie diese Geräteklasse für Anwesenheitssensoren, die menschliche Anwesenheit oder Bewegung in einem Raum erkennen.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs d'occupation qui détectent la présence humaine ou le mouvement dans un espace.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di presenza che rilevano la presenza umana o il movimento in uno spazio.",
+    "sv": "Använd den här enhetsklassen för närvarosensorer som upptäcker mänsklig närvaro eller rörelse i ett utrymme.",
+    "no": "Bruk denne enhetsklassen for tilstedeværelsessensorer som oppdager menneskelig tilstedeværelse eller bevegelse i et rom.",
+    "es": "Utiliza esta clase de dispositivo para sensores de ocupación que detectan presencia humana o movimiento en un espacio.",
+    "da": "Brug denne enhedsklasse til tilstedeværelsessensorer, der registrerer menneskelig tilstedeværelse eller bevægelse i et rum.",
+    "ru": "Используйте этот класс устройств для датчиков присутствия, которые обнаруживают присутствие человека или движение в помещении.",
+    "pl": "Użyj tej klasy urządzeń dla czujników obecności, które wykrywają obecność człowieka lub ruch w przestrzeni.",
+    "ko": "이 디바이스 클래스는 공간에서 사람의 존재나 움직임을 감지하는 재실 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات الإشغال التي تكشف الوجود البشري أو الحركة في المكان."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Rain Sensor",
+    "nl": "Regensensor",
+    "de": "Regensensor",
+    "fr": "Capteur de pluie",
+    "it": "Sensore di pioggia",
+    "sv": "Regnsensor",
+    "no": "Regnsensor",
+    "es": "Sensor de lluvia",
+    "da": "Regnsensor",
+    "ru": "Датчик дождя",
+    "pl": "Czujnik deszczu",
+    "ko": "강우 센서",
+    "ar": "مستشعر المطر"
+  },
+  "description": {
+    "en": "Use this device class for rain sensors that detect precipitation and measure rainfall intensity or accumulated rainfall.",
+    "nl": "Gebruik deze apparaatklasse voor regensensoren die neerslag detecteren en regenintensiteit of opgehoopte regenval meten.",
+    "de": "Verwenden Sie diese Geräteklasse für Regensensoren, die Niederschlag erkennen und Regenintensität oder akkumulierten Regenfall messen.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs de pluie qui détectent les précipitations et mesurent l'intensité des précipitations ou les précipitations accumulées.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di pioggia che rilevano le precipitazioni e misurano l'intensità delle precipitazioni o le precipitazioni accumulate.",
+    "sv": "Använd den här enhetsklassen för regnsensorer som upptäcker nederbörd och mäter regnintensitet eller ackumulerad nederbörd.",
+    "no": "Bruk denne enhetsklassen for regnsensorer som oppdager nedbør og måler regnintensitet eller akkumulert nedbør.",
+    "es": "Utiliza esta clase de dispositivo para sensores de lluvia que detectan precipitaciones y miden la intensidad de lluvia o lluvia acumulada.",
+    "da": "Brug denne enhedsklasse til regnsensorer, der registrerer nedbør og måler regnintensitet eller akkumuleret nedbør.",
+    "ru": "Используйте этот класс устройств для датчиков дождя, которые обнаруживают осадки и измеряют интенсивность дождя или накопленные осадки.",
+    "pl": "Użyj tej klasy urządzeń dla czujników deszczu, które wykrywają opady i mierzą intensywność deszczu lub skumulowane opady.",
+    "ko": "이 디바이스 클래스는 강수를 감지하고 강우 강도나 누적 강우량을 측정하는 강우 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات المطر التي تكشف الهطول وتقيس شدة المطر أو المطر المتراكم."
+  }
+}

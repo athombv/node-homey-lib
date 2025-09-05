@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Humidity Sensor",
+    "nl": "Vochtigheidssensor",
+    "de": "Feuchtigkeitssensor",
+    "fr": "Capteur d'humidité",
+    "it": "Sensore di umidità",
+    "sv": "Fuktighetssensor",
+    "no": "Fuktighetssensor",
+    "es": "Sensor de humedad",
+    "da": "Fugtighedssensor",
+    "ru": "Датчик влажности",
+    "pl": "Czujnik wilgotności",
+    "ko": "습도 센서",
+    "ar": "مستشعر الرطوبة"
+  },
+  "description": {
+    "en": "Use this device class for humidity sensors that measure relative humidity levels in the air as a percentage.",
+    "nl": "Gebruik deze apparaatklasse voor vochtigheidssensoren die relatieve luchtvochtigheidsniveaus in de lucht meten als percentage.",
+    "de": "Verwenden Sie diese Geräteklasse für Feuchtigkeitssensoren, die relative Luftfeuchtigkeit in der Luft als Prozentsatz messen.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs d'humidité qui mesurent les niveaux d'humidité relative dans l'air en pourcentage.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di umidità che misurano i livelli di umidità relativa nell'aria come percentuale.",
+    "sv": "Använd den här enhetsklassen för fuktighetssensorer som mäter relativa luftfuktighetsnivåer i luften som en procentsats.",
+    "no": "Bruk denne enhetsklassen for fuktighetssensorer som måler relative fuktighetsnivåer i luften som en prosentandel.",
+    "es": "Utiliza esta clase de dispositivo para sensores de humedad que miden los niveles de humedad relativa en el aire como porcentaje.",
+    "da": "Brug denne enhedsklasse til fugtighedssensorer, der måler relative fugtighedsniveauer i luften som en procentdel.",
+    "ru": "Используйте этот класс устройств для датчиков влажности, которые измеряют уровни относительной влажности в воздухе в процентах.",
+    "pl": "Użyj tej klasy urządzeń dla czujników wilgotności, które mierzą poziomy wilgotności względnej w powietrzu jako procent.",
+    "ko": "이 디바이스 클래스는 공기 중 상대 습도를 백분율로 측정하는 습도 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات الرطوبة التي تقيس مستويات الرطوبة النسبية في الهواء كنسبة مئوية."
+  }
+}

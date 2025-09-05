@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Temperature Sensor",
+    "nl": "Temperatuursensor",
+    "de": "Temperatursensor",
+    "fr": "Capteur de température",
+    "it": "Sensore di temperatura",
+    "sv": "Temperatursensor",
+    "no": "Temperatursensor",
+    "es": "Sensor de temperatura",
+    "da": "Temperatursensor",
+    "ru": "Датчик температуры",
+    "pl": "Czujnik temperatury",
+    "ko": "온도 센서",
+    "ar": "مستشعر درجة الحرارة"
+  },
+  "description": {
+    "en": "Use this device class for temperature sensors that measure ambient temperature in Celsius or Fahrenheit.",
+    "nl": "Gebruik deze apparaatklasse voor temperatuursensoren die omgevingstemperatuur meten in Celsius of Fahrenheit.",
+    "de": "Verwenden Sie diese Geräteklasse für Temperatursensoren, die Umgebungstemperatur in Celsius oder Fahrenheit messen.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs de température qui mesurent la température ambiante en Celsius ou Fahrenheit.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di temperatura che misurano la temperatura ambientale in Celsius o Fahrenheit.",
+    "sv": "Använd den här enhetsklassen för temperatursensorer som mäter omgivningstemperatur i Celsius eller Fahrenheit.",
+    "no": "Bruk denne enhetsklassen for temperatursensorer som måler omgivelsestemperatur i Celsius eller Fahrenheit.",
+    "es": "Utiliza esta clase de dispositivo para sensores de temperatura que miden la temperatura ambiente en Celsius o Fahrenheit.",
+    "da": "Brug denne enhedsklasse til temperatursensorer, der måler omgivelsestemperatur i Celsius eller Fahrenheit.",
+    "ru": "Используйте этот класс устройств для датчиков температуры, которые измеряют температуру окружающей среды в градусах Цельсия или Фаренгейта.",
+    "pl": "Użyj tej klasy urządzeń dla czujników temperatury, które mierzą temperaturę otoczenia w stopniach Celsjusza lub Fahrenheita.",
+    "ko": "이 디바이스 클래스는 섭씨 또는 화씨로 주변 온도를 측정하는 온도 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات درجة الحرارة التي تقيس درجة الحرارة المحيطة بالدرجة المئوية أو الفهرنهايت."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Luminance Sensor",
+    "nl": "Lichtintensiteitssensor",
+    "de": "Helligkeitssensor",
+    "fr": "Capteur de luminosité",
+    "it": "Sensore di luminosità",
+    "sv": "Ljussensor",
+    "no": "Lyssensor",
+    "es": "Sensor de luminancia",
+    "da": "Lysstyrke sensor",
+    "ru": "Датчик освещенности",
+    "pl": "Czujnik natężenia światła",
+    "ko": "조도 센서",
+    "ar": "مستشعر الإضاءة"
+  },
+  "description": {
+    "en": "Use this device class for luminance sensors that measure ambient light levels in lux or similar units.",
+    "nl": "Gebruik deze apparaatklasse voor lichtintensiteitssensoren die omgevingslichtsniveaus meten in lux of vergelijkbare eenheden.",
+    "de": "Verwenden Sie diese Geräteklasse für Helligkeitssensoren, die Umgebungslichtstärken in Lux oder ähnlichen Einheiten messen.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs de luminosité qui mesurent les niveaux de lumière ambiante en lux ou unités similaires.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di luminosità che misurano i livelli di luce ambientale in lux o unità simili.",
+    "sv": "Använd den här enhetsklassen för ljussensorer som mäter omgivande ljusnivåer i lux eller liknande enheter.",
+    "no": "Bruk denne enhetsklassen for lyssensorer som måler omgivende lysnivåer i lux eller lignende enheter.",
+    "es": "Utiliza esta clase de dispositivo para sensores de luminancia que miden niveles de luz ambiental en lux o unidades similares.",
+    "da": "Brug denne enhedsklasse til lysstyrke sensorer, der måler omgivende lysniveauer i lux eller lignende enheder.",
+    "ru": "Используйте этот класс устройств для датчиков освещенности, которые измеряют уровни окружающего света в люксах или подобных единицах.",
+    "pl": "Użyj tej klasy urządzeń dla czujników natężenia światła, które mierzą poziomy światła otoczenia w luksach lub podobnych jednostkach.",
+    "ko": "이 디바이스 클래스는 룩스 또는 이와 유사한 단위로 주변 조도를 측정하는 조도 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات الإضاءة التي تقيس مستويات الضوء المحيط بوحدة اللوكس أو وحدات مماثلة."
+  }
+}

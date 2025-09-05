@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Gas Leak Sensor",
+    "nl": "Gasleksensor",
+    "de": "Gaslecksensor",
+    "fr": "Capteur de fuite de gaz",
+    "it": "Sensore di perdita gas",
+    "sv": "Gasläckagesensor",
+    "no": "Gasslekkasjesensor",
+    "es": "Sensor de fuga de gas",
+    "da": "Gaslækagesensor",
+    "ru": "Датчик утечки газа",
+    "pl": "Czujnik wycieku gazu",
+    "ko": "가스 누출 센서",
+    "ar": "مستشعر تسرب الغاز"
+  },
+  "description": {
+    "en": "Use this device class for gas leak sensors that detect the presence of potentially dangerous gas leaks in homes or buildings.",
+    "nl": "Gebruik deze apparaatklasse voor gasleksensoren die de aanwezigheid van potentieel gevaarlijke gaslekken in huizen of gebouwen detecteren.",
+    "de": "Verwenden Sie diese Geräteklasse für Gaslecksensoren, die das Vorhandensein von potenziell gefährlichen Gaslecks in Häusern oder Gebäuden erkennen.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs de fuite de gaz qui détectent la présence de fuites de gaz potentiellement dangereuses dans les maisons ou bâtiments.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di perdita gas che rilevano la presenza di perdite di gas potenzialmente pericolose in case o edifici.",
+    "sv": "Använd den här enhetsklassen för gasläckagesensorer som upptäcker närvaron av potentiellt farliga gasläckor i hem eller byggnader.",
+    "no": "Bruk denne enhetsklassen for gasslekkasjesensorer som oppdager tilstedeværelsen av potensielt farlige gasslekkasjer i hjem eller bygninger.",
+    "es": "Utiliza esta clase de dispositivo para sensores de fuga de gas que detectan la presencia de fugas de gas potencialmente peligrosas en hogares o edificios.",
+    "da": "Brug denne enhedsklasse til gaslækagesensorer, der registrerer tilstedeværelsen af potentielt farlige gaslækager i hjem eller bygninger.",
+    "ru": "Используйте этот класс устройств для датчиков утечки газа, которые обнаруживают присутствие потенциально опасных утечек газа в домах или зданиях.",
+    "pl": "Użyj tej klasy urządzeń dla czujników wycieku gazu, które wykrywają obecność potencjalnie niebezpiecznych wycieków gazu w domach lub budynkach.",
+    "ko": "이 디바이스 클래스는 가정이나 건물에서 잠재적으로 위험한 가스 누출의 존재를 감지하는 가스 누출 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات تسرب الغاز التي تكشف وجود تسربات غاز خطيرة محتملة في المنازل أو المباني."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Contact Sensor",
+    "nl": "Contactsensor",
+    "de": "Kontaktsensor",
+    "fr": "Capteur de contact",
+    "it": "Sensore di contatto",
+    "sv": "Kontaktsensor",
+    "no": "Kontaktsensor",
+    "es": "Sensor de contacto",
+    "da": "Kontaktsensor",
+    "ru": "Датчик контакта",
+    "pl": "Czujnik kontaktu",
+    "ko": "접촉 센서",
+    "ar": "مستشعر الاتصال"
+  },
+  "description": {
+    "en": "Use this device class for contact sensors, such as door or window sensors that detect open/closed states.",
+    "nl": "Gebruik deze apparaatklasse voor contactsensoren, zoals deur- of raamsensoren die open/gesloten toestanden detecteren.",
+    "de": "Verwenden Sie diese Geräteklasse für Kontaktsensoren, wie Tür- oder Fenstersensoren, die offene/geschlossene Zustände erkennen.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs de contact, tels que les capteurs de porte ou de fenêtre qui détectent les états ouvert/fermé.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di contatto, come i sensori per porte o finestre che rilevano stati aperti/chiusi.",
+    "sv": "Använd den här enhetsklassen för kontaktsensorer, som dörr- eller fönstersensorer som upptäcker öppna/stängda tillstånd.",
+    "no": "Bruk denne enhetsklassen for kontaktsensorer, som dør- eller vindussensorer som oppdager åpne/lukkede tilstander.",
+    "es": "Utiliza esta clase de dispositivo para sensores de contacto, como sensores de puertas o ventanas que detectan estados abierto/cerrado.",
+    "da": "Brug denne enhedsklasse til kontaktsensorer, såsom dør- eller vinduesensorer, der registrerer åbne/lukkede tilstande.",
+    "ru": "Используйте этот класс устройств для датчиков контакта, таких как датчики дверей или окон, которые определяют состояние открыто/закрыто.",
+    "pl": "Użyj tej klasy urządzeń dla czujników kontaktu, takich jak czujniki drzwi lub okien, które wykrywają stany otwarte/zamknięte.",
+    "ko": "이 디바이스 클래스는 열림/닫힘 상태를 감지하는 문이나 창 센서와 같은 접촉 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات الاتصال، مثل مستشعرات الأبواب أو النوافذ التي تكشف حالات الفتح/الإغلاق."
+  }
+}

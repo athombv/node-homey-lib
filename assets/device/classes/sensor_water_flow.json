@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Water Flow Sensor",
+    "nl": "Waterstroomsensor",
+    "de": "Wasserflusssensor",
+    "fr": "Capteur de débit d'eau",
+    "it": "Sensore di flusso d'acqua",
+    "sv": "Vattenflödessensor",
+    "no": "Vannstrømsensor",
+    "es": "Sensor de flujo de agua",
+    "da": "Vandstrømssensor",
+    "ru": "Датчик расхода воды",
+    "pl": "Czujnik przepływu wody",
+    "ko": "물 유량 센서",
+    "ar": "مستشعر تدفق المياه"
+  },
+  "description": {
+    "en": "Use this device class for water flow sensors that measure the rate of water flow in pipes or systems, typically in liters per minute.",
+    "nl": "Gebruik deze apparaatklasse voor waterstroomsensoren die de snelheid van waterstroom in leidingen of systemen meten, meestal in liters per minuut.",
+    "de": "Verwenden Sie diese Geräteklasse für Wasserflusssensoren, die die Geschwindigkeit des Wasserflusses in Rohren oder Systemen messen, typischerweise in Litern pro Minute.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs de débit d'eau qui mesurent le taux de débit d'eau dans les tuyaux ou systèmes, généralement en litres par minute.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di flusso d'acqua che misurano la velocità del flusso d'acqua in tubi o sistemi, tipicamente in litri al minuto.",
+    "sv": "Använd den här enhetsklassen för vattenflödessensorer som mäter hastigheten på vattenflödet i rör eller system, vanligtvis i liter per minut.",
+    "no": "Bruk denne enhetsklassen for vannstrømsensorer som måler hastigheten på vannstrøm i rør eller systemer, vanligvis i liter per minutt.",
+    "es": "Utiliza esta clase de dispositivo para sensores de flujo de agua que miden la velocidad del flujo de agua en tuberías o sistemas, típicamente en litros por minuto.",
+    "da": "Brug denne enhedsklasse til vandstrømssensorer, der måler hastigheden af vandstrøm i rør eller systemer, typisk i liter per minut.",
+    "ru": "Используйте этот класс устройств для датчиков расхода воды, которые измеряют скорость потока воды в трубах или системах, обычно в литрах в минуту.",
+    "pl": "Użyj tej klasy urządzeń dla czujników przepływu wody, które mierzą szybkość przepływu wody w rurach lub systemach, zwykle w litrach na minutę.",
+    "ko": "이 디바이스 클래스는 파이프나 시스템에서 물의 유량을 일반적으로 분당 리터 단위로 측정하는 물 유량 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات تدفق المياه التي تقيس معدل تدفق المياه في الأنابيب أو الأنظمة، عادةً باللتر في الدقيقة."
+  }
+}

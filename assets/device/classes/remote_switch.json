@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Switch Remote",
+    "nl": "Schakelaar afstandsbediening",
+    "de": "Schalter-Fernbedienung",
+    "fr": "Télécommande d'interrupteur",
+    "it": "Telecomando interruttore",
+    "sv": "Strömbrytarfjärrkontroll",
+    "no": "Bryter fjernkontroll",
+    "es": "Mando de interruptor",
+    "da": "Kontakt fjernbetjening",
+    "ru": "Пульт выключателя",
+    "pl": "Pilot przełącznika",
+    "ko": "스위치 리모컨",
+    "ar": "جهاز تحكم عن بعد للمفتاح"
+  },
+  "description": {
+    "en": "Use this device class for switch remote controls that can turn devices on/off or control switches wirelessly.",
+    "nl": "Gebruik deze apparaatklasse voor schakelaar afstandsbedieningen die apparaten aan/uit kunnen zetten of schakelaars draadloos kunnen bedienen.",
+    "de": "Verwenden Sie diese Geräteklasse für Schalter-Fernbedienungen, die Geräte ein-/ausschalten oder Schalter drahtlos steuern können.",
+    "fr": "Utilisez cette classe d'appareil pour les télécommandes d'interrupteur qui peuvent allumer/éteindre des appareils ou contrôler des interrupteurs sans fil.",
+    "it": "Utilizza questa classe di dispositivi per i telecomandi interruttore che possono accendere/spegnere dispositivi o controllare interruttori in modalità wireless.",
+    "sv": "Använd den här enhetsklassen för strömbrytarfjärrkontroller som kan slå på/av enheter eller kontrollera strömbrytare trådlöst.",
+    "no": "Bruk denne enhetsklassen for bryter fjernkontroller som kan slå enheter på/av eller kontrollere brytere trådløst.",
+    "es": "Utiliza esta clase de dispositivo para mandos de interruptor que pueden encender/apagar dispositivos o controlar interruptores de forma inalámbrica.",
+    "da": "Brug denne enhedsklasse til kontakt fjernbetjeninger, der kan tænde/slukke for enheder eller styre kontakter trådløst.",
+    "ru": "Используйте этот класс устройств для пультов выключателей, которые могут включать/выключать устройства или управлять выключателями беспроводным способом.",
+    "pl": "Użyj tej klasy urządzeń dla pilotów przełączników, które mogą włączać/wyłączać urządzenia lub sterować przełącznikami bezprzewodowo.",
+    "ko": "이 디바이스 클래스는 디바이스를 켜고 끄거나 스위치를 무선으로 제어할 수 있는 스위치 리모컨에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لأجهزة التحكم عن بعد للمفاتيح التي يمكنها تشغيل/إيقاف الأجهزة أو التحكم في المفاتيح لاسلكياً."
+  }
+}

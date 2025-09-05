@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Water Freeze Sensor",
+    "nl": "Watervriessensor",
+    "de": "Wasserfrieresensor",
+    "fr": "Capteur de gel d'eau",
+    "it": "Sensore di congelamento dell'acqua",
+    "sv": "Vattenfrysningssensor",
+    "no": "Vannfrysesensor",
+    "es": "Sensor de congelación de agua",
+    "da": "Vandfrysesensor",
+    "ru": "Датчик замерзания воды",
+    "pl": "Czujnik zamarzania wody",
+    "ko": "물 결빙 센서",
+    "ar": "مستشعر تجمد المياه"
+  },
+  "description": {
+    "en": "Use this device class for water freeze sensors that detect when water in pipes or systems is at risk of freezing or has frozen.",
+    "nl": "Gebruik deze apparaatklasse voor watervriessensoren die detecteren wanneer water in leidingen of systemen risico loopt te bevriezen of is bevroren.",
+    "de": "Verwenden Sie diese Geräteklasse für Wasserfrieresensoren, die erkennen, wenn Wasser in Rohren oder Systemen Gefahr läuft zu frieren oder gefroren ist.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs de gel d'eau qui détectent quand l'eau dans les tuyaux ou systèmes risque de geler ou a gelé.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di congelamento dell'acqua che rilevano quando l'acqua nei tubi o sistemi rischia di congelare o si è congelata.",
+    "sv": "Använd den här enhetsklassen för vattenfrysningssensorer som upptäcker när vatten i rör eller system riskerar att frysa eller har fryst.",
+    "no": "Bruk denne enhetsklassen for vannfrysesensorer som oppdager når vann i rør eller systemer er i fare for å fryse eller har fryst.",
+    "es": "Utiliza esta clase de dispositivo para sensores de congelación de agua que detectan cuando el agua en tuberías o sistemas está en riesgo de congelarse o se ha congelado.",
+    "da": "Brug denne enhedsklasse til vandfrysesensorer, der registrerer, når vand i rør eller systemer risikerer at fryse eller er frosset.",
+    "ru": "Используйте этот класс устройств для датчиков замерзания воды, которые обнаруживают, когда вода в трубах или системах рискует замерзнуть или замерзла.",
+    "pl": "Użyj tej klasy urządzeń dla czujników zamarzania wody, które wykrywają, kiedy woda w rurach lub systemach jest zagrożona zamarzaniem lub zamarzła.",
+    "ko": "이 디바이스 클래스는 파이프나 시스템의 물이 결빙의 위험이 있거나 결빙된 상태를 감지하는 물 결빙 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات تجمد المياه التي تكشف عندما تكون المياه في الأنابيب أو الأنظمة معرضة لخطر التجمد أو تجمدت."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Air Quality Sensor",
+    "nl": "Luchtkwaliteitssensor",
+    "de": "Luftqualitätssensor",
+    "fr": "Capteur de qualité de l'air",
+    "it": "Sensore di qualità dell'aria",
+    "sv": "Luftkvalitetssensor",
+    "no": "Luftkvalitetssensor",
+    "es": "Sensor de calidad del aire",
+    "da": "Luftkvalitetssensor",
+    "ru": "Датчик качества воздуха",
+    "pl": "Czujnik jakości powietrza",
+    "ko": "공기질 센서",
+    "ar": "مستشعر جودة الهواء"
+  },
+  "description": {
+    "en": "Use this device class for air quality sensors that measure pollutants like PM2.5, PM10, CO2, VOCs, or general air quality indices.",
+    "nl": "Gebruik deze apparaatklasse voor luchtkwaliteitssensoren die verontreinigende stoffen meten zoals PM2.5, PM10, CO2, VOS of algemene luchtkwaliteitsindices.",
+    "de": "Verwenden Sie diese Geräteklasse für Luftqualitätssensoren, die Schadstoffe wie PM2.5, PM10, CO2, VOCs oder allgemeine Luftqualitätsindizes messen.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs de qualité de l'air qui mesurent les polluants comme les PM2.5, PM10, CO2, COV ou les indices généraux de qualité de l'air.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di qualità dell'aria che misurano inquinanti come PM2.5, PM10, CO2, COV o indici generali di qualità dell'aria.",
+    "sv": "Använd den här enhetsklassen för luftkvalitetssensorer som mäter föroreningar som PM2.5, PM10, CO2, VOC eller allmänna luftkvalitetsindex.",
+    "no": "Bruk denne enhetsklassen for luftkvalitetssensorer som måler forurensende stoffer som PM2.5, PM10, CO2, VOC eller generelle luftkvalitetsindekser.",
+    "es": "Utiliza esta clase de dispositivo para sensores de calidad del aire que miden contaminantes como PM2.5, PM10, CO2, COV o índices generales de calidad del aire.",
+    "da": "Brug denne enhedsklasse til luftkvalitetssensorer, der måler forurenende stoffer som PM2.5, PM10, CO2, VOC'er eller generelle luftkvalitetsindeks.",
+    "ru": "Используйте этот класс устройств для датчиков качества воздуха, которые измеряют загрязнители, такие как PM2.5, PM10, CO2, ЛОС или общие индексы качества воздуха.",
+    "pl": "Użyj tej klasy urządzeń dla czujników jakości powietrza, które mierzą zanieczyszczenia takie jak PM2.5, PM10, CO2, LZO lub ogólne wskaźniki jakości powietrza.",
+    "ko": "이 디바이스 클래스는 PM2.5, PM10, CO2, VOC 또는 일반 공기질 지수와 같은 오염물질을 측정하는 공기질 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات جودة الهواء التي تقيس الملوثات مثل PM2.5 و PM10 و CO2 و VOCs أو مؤشرات جودة الهواء العامة."
+  }
+}

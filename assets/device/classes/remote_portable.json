@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Portable Remote",
+    "nl": "Draagbare afstandsbediening",
+    "de": "Tragbare Fernbedienung",
+    "fr": "Télécommande portable",
+    "it": "Telecomando portatile",
+    "sv": "Bärbar fjärrkontroll",
+    "no": "Bærbar fjernkontroll",
+    "es": "Mando portátil",
+    "da": "Bærbar fjernbetjening",
+    "ru": "Портативный пульт",
+    "pl": "Przenośny pilot",
+    "ko": "휴대용 리모컨",
+    "ar": "جهاز تحكم عن بعد محمول"
+  },
+  "description": {
+    "en": "Use this device class for portable remote controls like key fobs, handheld remotes, or battery-powered wireless controllers.",
+    "nl": "Gebruik deze apparaatklasse voor draagbare afstandsbedieningen zoals sleutelhangers, handheld remotes of batterij-aangedreven draadloze controllers.",
+    "de": "Verwenden Sie diese Geräteklasse für tragbare Fernbedienungen wie Schlüsselanhänger, Handheld-Fernbedienungen oder batteriebetriebene drahtlose Controller.",
+    "fr": "Utilisez cette classe d'appareil pour les télécommandes portables comme les porte-clés, télécommandes portables ou contrôleurs sans fil alimentés par batterie.",
+    "it": "Utilizza questa classe di dispositivi per i telecomandi portatili come portachiavi, telecomandi palmari o controller wireless alimentati a batteria.",
+    "sv": "Använd den här enhetsklassen för bärbara fjärrkontroller som nyckelringar, handhållna fjärrkontroller eller batteridrivna trådlösa kontroller.",
+    "no": "Bruk denne enhetsklassen for bærbare fjernkontroller som nøkkelringer, håndholdte fjernkontroller eller batteridrevne trådløse kontrollere.",
+    "es": "Utiliza esta clase de dispositivo para mandos portátiles como llaveros, mandos de mano o controladores inalámbricos alimentados por batería.",
+    "da": "Brug denne enhedsklasse til bærbare fjernbetjeninger som nøgleringe, håndholdte fjernbetjeninger eller batteridrevne trådløse controllere.",
+    "ru": "Используйте этот класс устройств для портативных пультов дистанционного управления, таких как брелоки, карманные пульты или беспроводные контроллеры на батарейках.",
+    "pl": "Użyj tej klasy urządzeń dla przenośnych pilotów, takich jak breloczki, piloty ręczne lub bezprzewodowe kontrolery zasilane baterią.",
+    "ko": "이 디바이스 클래스는 키 포브, 핸드헬드 리모컨 또는 배터리로 작동하는 무선 컨트롤러와 같은 휴대용 리모컨에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لأجهزة التحكم عن بعد المحمولة مثل سلاسل المفاتيح أو أجهزة التحكم عن بعد المحمولة أو أجهزة التحكم اللاسلكية التي تعمل بالبطارية."
+  }
+}
