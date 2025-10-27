@@ -2,17 +2,17 @@
   "type": "boolean",
   "title": {
     "en": "Generic Alarm",
-    "nl": "Algemeen alarm",
+    "nl": "Algemene waarschuwing",
     "de": "Allgemeiner Alarm",
     "fr": "Alarme générique",
     "it": "Allarme generico",
     "sv": "Generiskt larm",
     "no": "Generell alarm",
-    "es": "Alarma general",
+    "es": "Alarma genérica",
     "da": "Generisk alarm",
     "ru": "Общий сигнал",
     "pl": "Alarm ogólny",
-    "ko": "알람",
+    "ko": "일반 알람",
     "ar": "إنذار عام"
   },
   "desc": {

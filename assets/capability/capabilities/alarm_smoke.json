@@ -3,8 +3,8 @@
   "title": {
     "en": "Smoke Alarm",
     "nl": "Rookmelder",
-    "de": "Rauch-Alarm",
-    "fr": "Alarme fumée",
+    "de": "Rauchalarm",
+    "fr": "Alarme de fumée",
     "it": "Allarme fumo",
     "sv": "Röklarm",
     "no": "Røykalarm",
@@ -12,7 +12,7 @@
     "da": "Røgalarm",
     "ru": "Сигнал дыма",
     "pl": "Alarm przeciwdymny",
-    "ko": "연기 감지",
+    "ko": "연기 알람",
     "ar": "إنذار الدخان"
   },
   "desc": {

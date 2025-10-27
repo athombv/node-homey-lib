@@ -2,14 +2,14 @@
   "type": "boolean",
   "title": {
     "en": "Stuck Alarm",
-    "nl": "Waarschuwing bij vastzitten",
+    "nl": "Waarschuwing voor vastzitten",
     "da": "Fastlåst alarm",
     "it": "Allarme dispositivo bloccato",
-    "ko": "기기 막힘 감지",
+    "ko": "막힘 알람",
     "no": "Fastkjøringsalarm",
     "pl": "Alarm zablokowania",
     "ru": "Сигнал о заклинивании",
-    "sv": "Larm om fastnat",
+    "sv": "Larm om att något fastnat",
     "es": "Alarma de atasco",
     "fr": "Alarme d'appareil bloqué",
     "ar": "إنذار العالق"

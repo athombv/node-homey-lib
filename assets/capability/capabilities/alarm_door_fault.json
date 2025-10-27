@@ -2,11 +2,11 @@
   "type": "boolean",
   "title": {
     "en": "Door Fault Alarm",
-    "nl": "Waarschuwing bij defect aan deur",
+    "nl": "Waarschuwing voor defect aan deur",
     "da": "Alarm for dørfejl",
     "fr": "Alarme de défaut de porte",
     "it": "Allarme guasto porta",
-    "ko": "도어 에러 감지",
+    "ko": "도어 고장 알람",
     "no": "Dørfeilalarm",
     "pl": "Alarm usterki drzwi",
     "ru": "Сигнал о неисправности двери",
