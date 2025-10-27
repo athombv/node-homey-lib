@@ -1,0 +1,31 @@
+{
+  "title": {
+    "en": "Electricity Sensor",
+    "nl": "Elektriciteitssensor",
+    "de": "Stromsensor",
+    "fr": "Capteur d'électricité",
+    "it": "Sensore di elettricità",
+    "sv": "Elsensor",
+    "no": "Strømsensor",
+    "es": "Sensor de electricidad",
+    "da": "Strømsensor",
+    "ru": "Датчик электричества",
+    "pl": "Czujnik elektryczności",
+    "ko": "전기 센서",
+    "ar": "مستشعر الكهرباء"
+  },
+  "description": {
+    "en": "Use this device class for electricity sensors that monitor electrical parameters like voltage, current, or power consumption.",
+    "de": "Nutze diese Geräteklasse für Stromsensoren, die elektrische Parameter wie Spannung, Strom oder Stromverbrauch überwachen.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs d'électricité qui surveillent les paramètres électriques comme la tension, le courant ou la consommation d'énergie.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di elettricità che monitorano parametri elettrici come tensione, corrente o consumo energetico.",
+    "sv": "Använd den här enhetsklassen för elsensorer som övervakar elektriska parametrar som spänning, ström eller strömförbrukning.",
+    "no": "Bruk denne enhetsklassen for strømsensorer som overvåker elektriske parametere som spenning, strøm eller strømforbruk.",
+    "es": "Utiliza esta clase de dispositivo para los sensores de electricidad que monitorizan parámetros eléctricos como voltaje, corriente o consumo de energía.",
+    "da": "Brug denne enhedsklasse til strømsensorer der overvåger elektriske parametre som spænding, strøm eller strømforbrug.",
+    "ru": "Используйте этот класс устройств для датчиков электричества, которые контролируют электрические параметры, такие как напряжение, ток или потребление энергии.",
+    "pl": "Użyj tej klasy urządzeń dla czujników elektryczności, które monitorują parametry elektryczne, takie jak napięcie, prąd lub zużycie energii.",
+    "ko": "이 디바이스 클래스는 전압, 전류 또는 전력 소비와 같은 전기적 매개변수를 모니터링하는 전기 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات الكهرباء التي تراقب المعايير الكهربائية مثل الجهد أو التيار أو استهلاك الطاقة."
+  }
+}

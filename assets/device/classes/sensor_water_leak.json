@@ -1,0 +1,31 @@
+{
+  "title": {
+    "en": "Water Leak Sensor",
+    "nl": "Waterleksensor",
+    "de": "Wasserlecksensor",
+    "fr": "Capteur de fuite d'eau",
+    "it": "Sensore di perdita d'acqua",
+    "sv": "Vattenläckagesensor",
+    "no": "Vannlekkasjesensor",
+    "es": "Sensor de fuga de agua",
+    "da": "Vandlækagesensor",
+    "ru": "Датчик утечки воды",
+    "pl": "Czujnik wycieku wody",
+    "ko": "누수 센서",
+    "ar": "مستشعر تسرب المياه"
+  },
+  "description": {
+    "en": "Use this device class for water leak sensors that detect water leaks and flooding.",
+    "de": "Nutze diese Geräteklasse für Wasserlecksensoren, die Wasserlecks und Überschwemmungen erkennen.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs de fuite d'eau qui détectent les fuites d'eau et les inondations.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di perdita d'acqua che rilevano perdite d'acqua e allagamenti.",
+    "sv": "Använd den här enhetsklassen för vattenläckagesensorer som upptäcker vattenläckage och översvämning.",
+    "no": "Bruk denne enhetsklassen for vannlekkasjesensorer som oppdager vannlekkasjer og oversvømmelse.",
+    "es": "Utiliza esta clase de dispositivo para los sensores de fuga de agua que detectan fugas de agua e inundaciones.",
+    "da": "Brug denne enhedsklasse til vandlækagesensorer der registrerer vandlækager og oversvømmelse.",
+    "ru": "Используйте этот класс устройств для датчиков утечки воды, которые обнаруживают утечки воды и наводнения.",
+    "pl": "Użyj tej klasy urządzeń dla czujników wycieku wody, które wykrywają wycieki wody i powodzie.",
+    "ko": "이 디바이스 클래스는 누수와 홍수를 감지하는 누수 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات تسرب المياه التي تكتشف تسربات المياه والفيضانات."
+  }
+}
