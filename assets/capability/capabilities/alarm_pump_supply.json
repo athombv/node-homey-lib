@@ -1,7 +1,7 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Pump supply fault alarm",
+    "en": "Pump Supply Fault Alarm",
     "nl": "Waarschuwing van fout bij pomptoevoer",
     "da": "Alarm for fejl i pumpeforsyningen",
     "it": "Allarme guasto alimentazione pompa",
