@@ -2,14 +2,14 @@
   "type": "boolean",
   "title": {
     "en": "Gas Alarm",
-    "nl": "Gaswaarschuwing",
+    "nl": "Gasalarm",
     "da": "Gasalarm",
     "fr": "Alarme de gaz",
     "it": "Allarme gas",
-    "ko": "가스 감지",
+    "ko": "가스 알람",
     "no": "Gassalarm",
     "pl": "Alarm gazu",
-    "ru": "Сигнал об утечке газа",
+    "ru": "Сигнал газа",
     "sv": "Gaslarm",
     "es": "Alarma de gas",
     "ar": "إنذار الغاز"

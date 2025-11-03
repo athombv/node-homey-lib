@@ -2,16 +2,16 @@
   "type": "boolean",
   "title": {
     "en": "Pump Device Fault Alarm",
-    "nl": "Waarschuwing van fout bij pompapparaat",
+    "nl": "Waarschuwing voor fout bij pompapparaat",
     "da": "Alarm for fejl i pumpeenhed",
     "it": "Allarme guasto del dispositivo di pompaggio",
-    "ko": "펌프 기기 결함 감지",
+    "ko": "펌프 장치 고장 알람",
     "no": "Feilalarm for pumpeenhet",
     "pl": "Alarm usterki pompy",
     "ru": "Сигнал о неисправности насосного устройства",
     "sv": "Larm om fel på pumpenhet",
     "es": "Alarma de fallo en el dispositivo de bombeo",
-    "fr": "Alarme de défaut de l'appareil de pompage",
+    "fr": "Alarme de défaillance du dispositif de pompage",
     "ar": "إنذار عطل جهاز المضخة"
   },
   "desc": {

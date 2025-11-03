@@ -2,14 +2,14 @@
   "type": "boolean",
   "title": {
     "en": "Running Alarm",
-    "nl": "Werkzaamheidswaarschuwing",
+    "nl": "Waarschuwing voor uitvoering",
     "da": "Løbende alarm",
-    "it": "Allarme elaborazione in corso",
-    "ko": "작동 감지",
+    "it": "Allarme in esecuzione",
+    "ko": "작동 알람",
     "no": "Kjøringsalarm",
     "pl": "Alarm pracy urządzenia",
     "ru": "Сигнал о процессе",
-    "sv": "Körlarm",
+    "sv": "Larm körs",
     "es": "Alarma de funcionamiento",
     "fr": "Alarme de fonctionnement",
     "ar": "إنذار التشغيل"

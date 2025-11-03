@@ -3,16 +3,16 @@
   "title": {
     "en": "Water Alarm",
     "nl": "Wateralarm",
-    "de": "Wasser-Alarm",
-    "fr": "Alarme eau",
+    "de": "Wasseralarm",
+    "fr": "Alarme d'eau",
     "it": "Allarme acqua",
-    "sv": "Vattenalarm",
+    "sv": "Vattenlarm",
     "no": "Vannalarm",
     "es": "Alarma de agua",
     "da": "Vandalarm",
-    "ru": "Сигнал протечки воды",
+    "ru": "Сигнал воды",
     "pl": "Alarm zalania wodą",
-    "ko": "누수 감지",
+    "ko": "물 알람",
     "ar": "إنذار المياه"
   },
   "desc": {
