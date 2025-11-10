@@ -152,7 +152,7 @@
   "./assets/capability/capabilities/alarm_noise.json@$flow.triggers.0.title": "Støjalarmen er slået til",
   "./assets/capability/capabilities/alarm_noise.json@$flow.triggers.1.title": "Støjalarmen slået fra",
   "./assets/capability/capabilities/alarm_noise.json@$flow.conditions.0.title": "Støjalarmen er slået !{{til|fra}}",
-  "./assets/capability/capabilities/alarm_occupancy.json@title": "Tilstedeværelsesalarm",
+  "./assets/capability/capabilities/alarm_occupancy.json@title": "Beboelsesalarm",
   "./assets/capability/capabilities/alarm_occupancy.json@desc": "Sandt, når tilstedeværelse registreres.",
   "./assets/capability/capabilities/alarm_occupancy.json@insightsTitleTrue": "Tilstedeværelsesalarm slået til",
   "./assets/capability/capabilities/alarm_occupancy.json@insightsTitleFalse": "Tilstedeværelsesalarm slået fra",
