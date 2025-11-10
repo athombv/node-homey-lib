@@ -3,16 +3,16 @@
   "title": {
     "en": "Heat Alarm",
     "nl": "Hitte-alarm",
-    "de": "Hitze-Alarm",
-    "fr": "Alarme chaleur",
-    "it": "Allarme di calore",
+    "de": "Hitzealarm",
+    "fr": "Alarme de chaleur",
+    "it": "Allarme calore",
     "sv": "Värmelarm",
     "no": "Varmealarm",
     "es": "Alarma de calor",
     "da": "Varmealarm",
-    "ru": "Сигнал перегрева",
-    "pl": "Alarm termiczny",
-    "ko": "과열 감지",
+    "ru": "Сигнал тепла",
+    "pl": "Alarm gorąca",
+    "ko": "과열 알람",
     "ar": "إنذار الحرارة"
   },
   "desc": {
