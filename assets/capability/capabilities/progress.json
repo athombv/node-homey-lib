@@ -1,0 +1,40 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Progress"
+  },
+  "units": {
+    "en": "%"
+  },
+  "desc": {
+    "en": "The % the current task is complete. When the task is currently not active the capability should be set to `null`"
+  },
+  "insights": true,
+  "chartType": "stepLine",
+  "min": 0,
+  "max": 100,
+  "decimals": 2,
+  "color": "#6DD400",
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "progress_changed",
+        "title": {
+          "en": "The progress changed"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 0.5
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.11.0"
+}

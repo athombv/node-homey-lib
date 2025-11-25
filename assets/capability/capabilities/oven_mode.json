@@ -1,0 +1,124 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Oven Mode"
+  },
+  "desc": {
+    "en": "The oven mode."
+  },
+  "values": [
+    {
+      "id": "bake",
+      "title": {
+        "en": "Bake"
+      }
+    },
+    {
+      "id": "convection",
+      "title": {
+        "en": "Convection"
+      }
+    },
+    {
+      "id": "grill",
+      "title": {
+        "en": "Grill"
+      }
+    },
+    {
+      "id": "roast",
+      "title": {
+        "en": "Roast"
+      }
+    },
+    {
+      "id": "clean",
+      "title": {
+        "en": "Clean"
+      }
+    },
+    {
+      "id": "convection_bake",
+      "title": {
+        "en": "Convection Bake"
+      }
+    },
+    {
+      "id": "convection_roast",
+      "title": {
+        "en": "Convection Roast"
+      }
+    },
+    {
+      "id": "warming",
+      "title": {
+        "en": "Warming"
+      }
+    },
+    {
+      "id": "proofing",
+      "title": {
+        "en": "Proofing"
+      }
+    },
+    {
+      "id": "steam",
+      "title": {
+        "en": "Steam"
+      }
+    }
+  ],
+  "color": "#FA6400",
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "oven_mode_changed",
+        "highlight": true,
+        "title": {
+          "en": "The oven mode changed to"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "oven_mode_is",
+        "title": {
+          "en": "The oven mode !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_oven_mode",
+        "title": {
+          "en": "Set the oven mode to"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.11.0"
+}

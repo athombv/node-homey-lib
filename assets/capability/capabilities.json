@@ -170,5 +170,15 @@
   "valve_position",
   "ev_charging_state",
   "evcharger_charging_state",
-  "evcharger_charging"
+  "evcharger_charging",
+  "oven_mode",
+  "microwave_mode",
+  "laundry_dryer_dryness",
+  "alarm_freeze_risk",
+  "alarm_rain",
+  "alarm_open",
+  "cooking_time",
+  "power_level",
+  "power_boost",
+  "progress"
 ]

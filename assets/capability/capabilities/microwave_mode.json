@@ -1,0 +1,93 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Microwave Mode"
+  },
+  "desc": {
+    "en": "The microwave mode."
+  },
+  "values": [
+    {
+      "id": "normal",
+      "title": {
+        "en": "Normal",
+        "nl": "Normaal",
+        "da": "Normal",
+        "it": "Normale",
+        "ko": "보통",
+        "pl": "Normalne",
+        "ru": "Стандарт",
+        "sv": "Normal",
+        "es": "Normal",
+        "fr": "Normal",
+        "no": "Standard",
+        "ar": "عادي"
+      }
+    },
+    {
+      "id": "defrost",
+      "title": {
+        "en": "Defrost"
+      }
+    },
+    {
+      "id": "reheat",
+      "title": {
+        "en": "Reheat"
+      }
+    }
+  ],
+  "color": "#FA6400",
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "microwave_mode_changed",
+        "highlight": true,
+        "title": {
+          "en": "The microwave mode changed to"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "microwave_mode_is",
+        "title": {
+          "en": "The microwave mode !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_microwave_mode",
+        "title": {
+          "en": "Set the microwave mode to"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.11.0"
+}
