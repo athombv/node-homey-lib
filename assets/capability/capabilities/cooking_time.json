@@ -1,0 +1,58 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Cooking Time"
+  },
+  "units": {
+    "en": "s"
+  },
+  "desc": {
+    "en": "The cooking time in seconds that is set. When no cooking time is set, the capability should be set to `null`."
+  },
+  "insights": true,
+  "chartType": "spline",
+  "min": 0,
+  "decimals": 0,
+  "color": "#FA6400",
+  "getable": true,
+  "setable": true,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "cooking_time_changed",
+        "highlight": true,
+        "title": {
+          "en": "The cooking time changed"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 100
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_cooking_time",
+        "title": {
+          "en": "Set the cooking time to [[cooking_time]]"
+        },
+        "args": [
+          {
+            "name": "cooking_time",
+            "type": "time",
+            "title": {
+              "en": "Cooking time"
+            },
+            "placeholder": "00:30"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.11.0"
+}

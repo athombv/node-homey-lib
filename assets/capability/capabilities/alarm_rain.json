@@ -1,0 +1,46 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Rain Alarm"
+  },
+  "desc": {
+    "en": "True when rain is detected."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Rain alarm turned on"
+  },
+  "insightsTitleFalse": {
+    "en": "Rain alarm turned off"
+  },
+  "color": "#0091FF",
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_rain_true",
+        "highlight": true,
+        "title": {
+          "en": "The rain alarm turned on"
+        }
+      },
+      {
+        "id": "alarm_rain_false",
+        "title": {
+          "en": "The rain alarm turned off"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_rain",
+        "title": {
+          "en": "The rain alarm is !{{on|off}}"
+        }
+      }
+    ]
+  },
+  "minCompatibility": "12.11.0"
+}

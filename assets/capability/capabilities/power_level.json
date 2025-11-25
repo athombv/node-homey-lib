@@ -1,0 +1,98 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Power level"
+  },
+  "chartType": "stepLine",
+  "min": 0,
+  "max": 1,
+  "decimals": 2,
+  "units": {
+    "en": "%",
+    "ko": "%",
+    "no": "%",
+    "ru": "%",
+    "ar": "%"
+  },
+  "color": "#6DD400",
+  "getable": true,
+  "setable": true,
+  "uiComponent": "slider",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "power_level_changed",
+        "title": {
+          "en": "The power level changed"
+        },
+        "tokens": [
+          {
+            "name": "power_level",
+            "type": "number",
+            "title": {
+              "en": "Level",
+              "nl": "Niveau",
+              "de": "Niveau",
+              "fr": "Niveau",
+              "it": "Livello",
+              "sv": "Nivå",
+              "no": "Nivå",
+              "es": "Nivel",
+              "da": "Niveau",
+              "ru": "Уровень",
+              "pl": "Poziom",
+              "ko": "밝기",
+              "ar": "المستوى"
+            },
+            "example": 0.5
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "power_level",
+        "highlight": true,
+        "title": {
+          "en": "Set the power level to"
+        },
+        "args": [
+          {
+            "name": "power_level",
+            "type": "range",
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "value": 0.5,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
+          }
+        ]
+      },
+      {
+        "id": "power_level_relative",
+        "title": {
+          "en": "Set relative power level"
+        },
+        "hint": {
+          "en": "Increase or decrease with respect to the device's current power level."
+        },
+        "args": [
+          {
+            "name": "power_level",
+            "type": "range",
+            "min": -1,
+            "max": 1,
+            "step": 0.01,
+            "value": 0.5,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.11.0"
+}

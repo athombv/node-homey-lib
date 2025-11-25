@@ -1,0 +1,131 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Laundry dryer dryness"
+  },
+  "desc": {
+    "en": "The dryness setting of the laundry dryer."
+  },
+  "values": [
+    {
+      "id": "low",
+      "title": {
+        "en": "Low",
+        "nl": "Laag",
+        "da": "Lavt",
+        "it": "Basso",
+        "ko": "낮음",
+        "pl": "Niski",
+        "ru": "Низкий",
+        "sv": "Låg",
+        "es": "Bajo",
+        "fr": "Faible",
+        "no": "Lavt",
+        "ar": "منخفض"
+      }
+    },
+    {
+      "id": "normal",
+      "title": {
+        "en": "Normal",
+        "nl": "Normaal",
+        "da": "Normal",
+        "it": "Normale",
+        "ko": "보통",
+        "pl": "Normalne",
+        "ru": "Стандарт",
+        "sv": "Normal",
+        "es": "Normal",
+        "fr": "Normal",
+        "no": "Standard",
+        "ar": "عادي"
+      }
+    },
+    {
+      "id": "extra",
+      "title": {
+        "en": "Extra",
+        "nl": "Extra",
+        "da": "Ekstra",
+        "it": "Extra",
+        "ko": "많이",
+        "pl": "Dodatkowe",
+        "ru": "Дополнительно",
+        "sv": "Extra",
+        "es": "Extra",
+        "fr": "Extra",
+        "no": "Ekstra",
+        "ar": "إضافي"
+      }
+    },
+    {
+      "id": "max",
+      "title": {
+        "en": "Max",
+        "nl": "Max",
+        "da": "Maks",
+        "it": "Max",
+        "ko": "최대",
+        "pl": "Maksymalne",
+        "ru": "Максимально",
+        "sv": "Max",
+        "es": "Máximo",
+        "fr": "Max",
+        "no": "Maks.",
+        "ar": "الحد الأقصى"
+      }
+    }
+  ],
+  "color": "#0091FF",
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "laundry_dryer_dryness_changed",
+        "title": {
+          "en": "The dryness changed to"
+        },
+        "args": [
+          {
+            "name": "dryness",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "laundry_dryer_dryness_is",
+        "title": {
+          "en": "The dryness !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "dryness",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_laundry_dryer_dryness",
+        "title": {
+          "en": "Set the laundry dryer dryness to"
+        },
+        "args": [
+          {
+            "name": "dryness",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.11.0"
+}

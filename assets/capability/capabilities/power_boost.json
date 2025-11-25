@@ -1,0 +1,70 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Power Boost"
+  },
+  "desc": {
+    "en": "When enabled, power boost mode is active. The device may use more energy to reach its target."
+  },
+  "color": "#6DD400",
+  "getable": true,
+  "setable": true,
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Power Boost enabled"
+  },
+  "insightsTitleFalse": {
+    "en": "Power Boost disabled"
+  },
+  "uiComponent": "toggle",
+  "uiQuickAction": false,
+  "$flow": {
+    "triggers": [
+      {
+        "id": "power_boost_true",
+        "highlight": true,
+        "title": {
+          "en": "Power boost enabled"
+        }
+      },
+      {
+        "id": "power_boost_false",
+        "highlight": true,
+        "title": {
+          "en": "Power boost disabled"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "power_boost",
+        "title": {
+          "en": "Power boost is !{{enabled|disabled}}"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "enable",
+        "highlight": true,
+        "title": {
+          "en": "Enable power boost"
+        }
+      },
+      {
+        "id": "disable",
+        "highlight": true,
+        "title": {
+          "en": "Disable power boost"
+        }
+      },
+      {
+        "id": "toggle",
+        "title": {
+          "en": "Toggle power boost"
+        }
+      }
+    ]
+  },
+  "minCompatibility": "12.11.0"
+}
