@@ -301,6 +301,7 @@
   "./assets/capability/capabilities/onoff.json@$flow.actions.2.title": "Ein- oder ausschalten",
   "./assets/capability/capabilities/onoff.json@$flow.actions.3.title": "Vorhang oder Rollladen öffnen",
   "./assets/capability/capabilities/onoff.json@$flow.actions.4.title": "Vorhang oder Rollladen schließen",
+  "./assets/capability/capabilities/power_level.json@$flow.triggers.0.tokens.0.title": "Niveau",
   "./assets/capability/capabilities/speaker_album.json@title": "Album",
   "./assets/capability/capabilities/speaker_album.json@$flow.triggers.0.title": "Das Album hat sich geändert",
   "./assets/capability/capabilities/speaker_artist.json@title": "Künstler",
