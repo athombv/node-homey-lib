@@ -84,7 +84,6 @@
     "triggers": [
       {
         "id": "laundry_dryer_dryness_changed",
-        "highlight": true,
         "title": {
           "en": "The dryness changed to"
         },
