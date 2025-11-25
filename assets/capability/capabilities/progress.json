@@ -7,7 +7,7 @@
     "en": "%"
   },
   "desc": {
-    "en": "The % the current task is complete. When the task is currently not active the capability should be set to `null`"
+    "en": "The the percentage of the current task that is completed. When the task is currently not active the capability should be set to `null`"
   },
   "insights": true,
   "chartType": "stepLine",
