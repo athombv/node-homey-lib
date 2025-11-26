@@ -1,0 +1,31 @@
+{
+  "title": {
+    "en": "Occupancy Sensor",
+    "nl": "Aanwezigheidssensor",
+    "de": "Anwesenheitssensor",
+    "fr": "Capteur d'occupation",
+    "it": "Sensore di occupazione",
+    "sv": "Närvarosensor",
+    "no": "Tilstedeværelsessensor",
+    "es": "Sensor de ocupación",
+    "da": "Tilstedeværelsessensor",
+    "ru": "Датчик присутствия",
+    "pl": "Czujnik obecności",
+    "ko": "점유 센서",
+    "ar": "مستشعر الإشغال"
+  },
+  "description": {
+    "en": "Use this device class for occupancy and presence sensors that detect if people are present in a space.",
+    "de": "Nutze diese Geräteklasse für Anwesenheits- und Präsenzsensoren, die erkennen, ob Personen in einem Raum anwesend sind.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs d'occupation et de présence qui détectent si des personnes sont présentes dans un espace.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di occupazione e presenza che rilevano se ci sono persone in uno spazio.",
+    "sv": "Använd den här enhetsklassen för närvaro- och närvarosensorer som upptäcker om personer finns i ett utrymme.",
+    "no": "Bruk denne enhetsklassen for tilstedeværelse- og nærvarsensorer som oppdager om personer er til stede i et rom.",
+    "es": "Utiliza esta clase de dispositivo para los sensores de ocupación y presencia que detectan si hay personas presentes en un espacio.",
+    "da": "Brug denne enhedsklasse til tilstedeværelses- og præsensensorer der registrerer om der er personer til stede i et rum.",
+    "ru": "Используйте этот класс устройств для датчиков присутствия, которые определяют, находятся ли люди в помещении.",
+    "pl": "Użyj tej klasy urządzeń dla czujników obecności, które wykrywają, czy w pomieszczeniu znajdują się ludzie.",
+    "ko": "이 디바이스 클래스는 공간에 사람이 있는지 감지하는 점유 및 인체감지 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات الإشغال والحضور التي تكتشف وجود أشخاص في المكان."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": {
+    "en": "Portable Remote",
+    "nl": "Draagbare afstandsbediening",
+    "de": "Tragbare Fernbedienung",
+    "fr": "Télécommande portable",
+    "it": "Telecomando portatile",
+    "sv": "Bärbar fjärrkontroll",
+    "no": "Bærbar fjernkontroll",
+    "es": "Mando a distancia portátil",
+    "da": "Bærbar fjernbetjening",
+    "ru": "Портативный пульт",
+    "pl": "Przenośny pilot",
+    "ko": "휴대용 리모컨",
+    "ar": "جهاز تحكم عن بعد محمول"
+  },
+  "description": {
+    "en": "Use this device class for portable remote controls like handheld remotes, keyfobs, and mobile remote devices.",
+    "de": "Nutze diese Geräteklasse für tragbare Fernbedienungen wie Handfernbedienungen, Schlüsselanhänger und mobile Fernbedienungsgeräte.",
+    "fr": "Utilisez cette classe d'appareil pour les télécommandes portables comme les télécommandes de poche, les porte-clés et les appareils de télécommande mobiles.",
+    "it": "Utilizza questa classe di dispositivi per telecomandi portatili come telecomandi palmari, portachiavi e dispositivi di controllo remoto mobili.",
+    "sv": "Använd den här enhetsklassen för bärbara fjärrkontroller som handhållna fjärrkontroller, nyckelbrickor och mobila fjärrkontrollsenheter.",
+    "no": "Bruk denne enhetsklassen for bærbare fjernkontroller som håndholdte fjernkontroller, nøkkelbrikker og mobile fjernkontrollenheter.",
+    "es": "Utiliza esta clase de dispositivo para los mandos a distancia portátiles como mandos de mano, llaveros y dispositivos de control remoto móviles.",
+    "da": "Brug denne enhedsklasse til bærbare fjernbetjeninger som håndholdte fjernbetjeninger, nøgleringe og mobile fjernbetjeningsenheder.",
+    "ru": "Используйте этот класс устройств для портативных пультов дистанционного управления, таких как ручные пульты, брелки и мобильные устройства дистанционного управления.",
+    "pl": "Użyj tej klasy urządzeń dla przenośnych pilotów, takich jak piloty ręczne, breloki i mobilne urządzenia zdalnego sterowania.",
+    "ko": "이 디바이스 클래스는 핸드헬드 리모컨, 키포브, 모바일 원격 장치와 같은 휴대용 리모컨에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لأجهزة التحكم عن بعد المحمولة مثل أجهزة التحكم اليدوية وسلاسل المفاتيح وأجهزة التحكم عن بعد المحمولة."
+  }
+}

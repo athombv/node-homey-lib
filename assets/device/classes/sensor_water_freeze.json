@@ -1,0 +1,31 @@
+{
+  "title": {
+    "en": "Water Freeze Sensor",
+    "nl": "Watervriessensor",
+    "de": "Wassergefrierungssensor",
+    "fr": "Capteur de gel d'eau",
+    "it": "Sensore di congelamento dell'acqua",
+    "sv": "Vattenfrysningssensor",
+    "no": "Vannfrysesensor",
+    "es": "Sensor de congelación de agua",
+    "da": "Vandfrysesensor",
+    "ru": "Датчик замерзания воды",
+    "pl": "Czujnik zamarzania wody",
+    "ko": "물 동결 센서",
+    "ar": "مستشعر تجمد المياه"
+  },
+  "description": {
+    "en": "Use this device class for water freeze sensors that detect freezing conditions and pipe freeze risks.",
+    "de": "Nutze diese Geräteklasse für Wassergefrierungssensoren, die Gefrierungsbedingungen und Rohrgefrierpunkte erkennen.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs de gel d'eau qui détectent les conditions de gel et les risques de gel des tuyaux.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di congelamento dell'acqua che rilevano le condizioni di congelamento e i rischi di congelamento delle tubature.",
+    "sv": "Använd den här enhetsklassen för vattenfrysningssensorer som upptäcker frysförhållanden och rörfrysningsrisker.",
+    "no": "Bruk denne enhetsklassen for vannfrysesensorer som oppdager fryseforhold og rørfrysningsrisiko.",
+    "es": "Utiliza esta clase de dispositivo para los sensores de congelación de agua que detectan condiciones de congelación y riesgos de congelación de tuberías.",
+    "da": "Brug denne enhedsklasse til vandfrysesensorer der registrerer fryseforhold og rørfrysningsrisici.",
+    "ru": "Используйте этот класс устройств для датчиков замерзания воды, которые обнаруживают условия замерзания и риски замерзания труб.",
+    "pl": "Użyj tej klasy urządzeń dla czujników zamarzania wody, które wykrywają warunki zamarzania i ryzyko zamarzania rur.",
+    "ko": "이 디바이스 클래스는 동결 조건과 파이프 동결 위험을 감지하는 물 동결 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات تجمد المياه التي تكتشف ظروف التجمد ومخاطر تجمد الأنابيب."
+  }
+}

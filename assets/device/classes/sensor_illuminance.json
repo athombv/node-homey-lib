@@ -1,0 +1,31 @@
+{
+  "title": {
+    "en": "Illuminance Sensor",
+    "nl": "Verlichtingssensor",
+    "de": "Beleuchtungsstärkesensor",
+    "fr": "Capteur d'éclairement",
+    "it": "Sensore di illuminamento",
+    "sv": "Ljussensor",
+    "no": "Lyssensor",
+    "es": "Sensor de iluminación",
+    "da": "Lyssensor",
+    "ru": "Датчик освещенности",
+    "pl": "Czujnik natężenia światła",
+    "ko": "조도 센서",
+    "ar": "مستشعر الإضاءة"
+  },
+  "description": {
+    "en": "Use this device class for illuminance sensors that measure light levels and brightness.",
+    "de": "Nutze diese Geräteklasse für Beleuchtungsstärkesensoren, die Lichtstärke und Helligkeit messen.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs d'éclairement qui mesurent les niveaux de lumière et la luminosité.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di illuminamento che misurano i livelli di luce e la luminosità.",
+    "sv": "Använd den här enhetsklassen för ljussensorer som mäter ljusnivåer och ljusstyrka.",
+    "no": "Bruk denne enhetsklassen for lyssensorer som måler lysnivåer og lysstyrke.",
+    "es": "Utiliza esta clase de dispositivo para los sensores de iluminación que miden niveles de luz y brillo.",
+    "da": "Brug denne enhedsklasse til lyssensorer der måler lysniveauer og lysstyrke.",
+    "ru": "Используйте этот класс устройств для датчиков освещенности, которые измеряют уровни света и яркость.",
+    "pl": "Użyj tej klasy urządzeń dla czujników natężenia światła, które mierzą poziomy światła i jasność.",
+    "ko": "이 디바이스 클래스는 조도와 밝기를 측정하는 조도 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات الإضاءة التي تقيس مستويات الضوء والسطوع."
+  }
+}
