@@ -1,7 +1,18 @@
 {
   "type": "number",
   "title": {
-    "en": "Power level"
+    "en": "Power level",
+    "da": "Strømniveau",
+    "de": "Leistungsstufe",
+    "es": "Nivel de potencia",
+    "fr": "Niveau de puissance",
+    "it": "Livello di potenza",
+    "ko": "전력 수준",
+    "nl": "Vermogensniveau",
+    "no": "Effektnivå",
+    "pl": "Poziom mocy",
+    "ru": "Уровень мощности",
+    "sv": "Effektnivå"
   },
   "chartType": "stepLine",
   "min": 0,
@@ -10,9 +21,17 @@
   "units": {
     "en": "%",
     "ko": "%",
-    "no": "%",
+    "no": " %",
     "ru": "%",
-    "ar": "%"
+    "ar": "%",
+    "da": "%",
+    "de": "%",
+    "es": "%",
+    "fr": " %",
+    "it": "%",
+    "nl": "%",
+    "pl": "%",
+    "sv": "%"
   },
   "color": "#6DD400",
   "getable": true,
@@ -23,7 +42,18 @@
       {
         "id": "power_level_changed",
         "title": {
-          "en": "The power level changed"
+          "en": "The power level changed",
+          "da": "Strømniveauet ændrede sig",
+          "de": "Die Leistungsstufe hat sich geändert",
+          "es": "El nivel de potencia ha cambiado",
+          "fr": "Le niveau de puissance a changé",
+          "it": "Il livello di potenza è cambiato",
+          "ko": "전력 수준이 변경되면",
+          "nl": "Het vermogensniveau veranderde",
+          "no": "Effektnivået ble endret",
+          "pl": "Poziom mocy uległ zmianie",
+          "ru": "Уровень мощности изменен",
+          "sv": "Effektnivån förändrades"
         },
         "tokens": [
           {
@@ -32,7 +62,7 @@
             "title": {
               "en": "Level",
               "nl": "Niveau",
-              "de": "Niveau",
+              "de": "Stufe",
               "fr": "Niveau",
               "it": "Livello",
               "sv": "Nivå",
@@ -54,7 +84,18 @@
         "id": "power_level",
         "highlight": true,
         "title": {
-          "en": "Set the power level to"
+          "en": "Set the power level to",
+          "da": "Indstil strømniveauet til",
+          "de": "Stellen Sie die Leistungsstufe auf",
+          "es": "Establece el nivel de potencia en",
+          "fr": "Réglez le niveau de puissance sur",
+          "it": "Imposta il livello di potenza su",
+          "ko": "전력 수준을 다음으로 설정",
+          "nl": "Stel het vermogensniveau in op",
+          "no": "Sett effektnivået til",
+          "pl": "Ustaw poziom mocy na",
+          "ru": "Установить уровень мощности на",
+          "sv": "Ställ in effektnivån till"
         },
         "args": [
           {
@@ -73,10 +114,32 @@
       {
         "id": "power_level_relative",
         "title": {
-          "en": "Set relative power level"
+          "en": "Set relative power level",
+          "da": "Indstil relativt strømniveau",
+          "de": "Relative Leistungsstufe einstellen",
+          "es": "Establecer nivel de potencia relativo",
+          "fr": "Définir le niveau de puissance relative",
+          "it": "Imposta il livello di potenza relativo",
+          "ko": "상대 전력 수준 설정",
+          "nl": "Relatief vermogensniveau instellen",
+          "no": "Angi relativt effektnivå",
+          "pl": "Ustaw względny poziom mocy",
+          "ru": "Установить относительный уровень мощности",
+          "sv": "Ställ in relativ effektnivå"
         },
         "hint": {
-          "en": "Increase or decrease with respect to the device's current power level."
+          "en": "Increase or decrease with respect to the device's current power level.",
+          "da": "Øges eller mindskes i forhold til enhedens aktuelle strømniveau.",
+          "de": "Erhöhen oder verringern in Bezug auf die aktuelle Leistungsstufe des Geräts.",
+          "es": "Aumenta o disminuye con respecto al nivel de potencia actual del dispositivo.",
+          "fr": "Augmentez ou diminuez en fonction du niveau de puissance actuel de l'appareil.",
+          "it": "Aumenta o diminuisci rispetto al livello di potenza attuale del dispositivo.",
+          "ko": "제품의 현재 전원 수준에 맞춰 증가 또는 감소합니다.",
+          "nl": "Verhoog of verlaag ten opzichte van het huidige vermogensniveau van het apparaat.",
+          "no": "Øk eller reduser i forhold til enhetens gjeldende effektnivå.",
+          "pl": "Zwiększ lub zmniejsz zależnie od bieżącego poziomu mocy urządzenia.",
+          "ru": "Увеличивайте или уменьшайте относительно текущего уровня мощности устройства.",
+          "sv": "Öka eller minska i förhållande till enhetens aktuella effektnivå."
         },
         "args": [
           {

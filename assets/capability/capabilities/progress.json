@@ -1,13 +1,46 @@
 {
   "type": "number",
   "title": {
-    "en": "Progress"
+    "en": "Progress",
+    "da": "Fremskridt",
+    "de": "Fortschritt",
+    "es": "Progreso",
+    "fr": "En cours",
+    "it": "Avanzamento",
+    "ko": "진행률",
+    "nl": "Voortgang",
+    "no": "Fremdrift",
+    "pl": "Postęp",
+    "ru": "Ход выполнения",
+    "sv": "Förlopp"
   },
   "units": {
-    "en": "%"
+    "en": "%",
+    "da": "%",
+    "de": "%",
+    "es": "%",
+    "fr": " %",
+    "it": "%",
+    "ko": "%",
+    "nl": "%",
+    "no": " %",
+    "pl": "%",
+    "ru": "%",
+    "sv": "%"
   },
   "desc": {
-    "en": "The the percentage of the current task that is completed. When the task is currently not active the capability should be set to `null`"
+    "en": "The the percentage of the current task that is completed. When the task is currently not active the capability should be set to `null`",
+    "da": "Den procentdel af den aktuelle opgave, der er afsluttet. Når opgaven ikke er aktiv i øjeblikket, skal kapaciteten sættes til `null`",
+    "de": "Der Prozentsatz der aktuellen Aufgabe, der schon erledigt ist. Wenn die Aufgabe gerade nicht aktiv ist, sollte die Funktion auf „null“ gesetzt werden.",
+    "es": "El porcentaje de la tarea actual que se ha completado. Si la tarea no está activa en ese momento, el valor ha de ser \"nulo\".",
+    "fr": "Pourcentage de la tâche en cours qui est terminé. Lorsque la tâche n'est pas active, la fonctionnalité doit être définie sur « null ».",
+    "it": "La percentuale dell'attività corrente che è stata completata. Quando l'attività non è attiva, la capacità deve essere impostata a \"null\"",
+    "ko": "현재 작업에서 완료된 비율입니다. 작업이 현재 활성이 아니라면 기능이 'null'로 설정되어야 합니다.",
+    "nl": "Het percentage van de huidige taak die is voltooid. Als de taak momenteel niet actief is, moet de functie worden ingesteld op `null`",
+    "no": "Fullført prosentandel av den aktuelle oppgaven. Når oppgaven ikke er aktiv, skal funksjonen settes til `null`",
+    "pl": "Procent ukończenia bieżącego zadania. Gdy zadanie nie jest aktualnie aktywne, właściwość powinna być ustawiona na „brak”",
+    "ru": "Процент выполнения текущей задачи. Если задача в данный момент не активна, значение параметра следует установить на null",
+    "sv": "Den procentandel av den aktuella uppgiften som är slutförd. När uppgiften för närvarande inte är aktiv bör kapaciteten sättas till `null`"
   },
   "insights": true,
   "chartType": "stepLine",
@@ -23,7 +56,18 @@
       {
         "id": "progress_changed",
         "title": {
-          "en": "The progress changed"
+          "en": "The progress changed",
+          "da": "Fremskridtet ændrede sig",
+          "de": "Der Fortschritt hat sich verändert",
+          "es": "El progreso ha cambiado",
+          "fr": "La progression a changé",
+          "it": "L'avanzamento è cambiato",
+          "ko": "진행률이 변경되면",
+          "nl": "De voortgang is veranderd",
+          "no": "Fremdriften ble endret",
+          "pl": "Postęp się zmienił",
+          "ru": "Значение хода выполнения изменилось",
+          "sv": "Förloppet förändrades"
         },
         "tokens": [
           {

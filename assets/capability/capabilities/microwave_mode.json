@@ -1,10 +1,32 @@
 {
   "type": "enum",
   "title": {
-    "en": "Microwave Mode"
+    "en": "Microwave Mode",
+    "da": "Mikrobølgetilstand",
+    "de": "Mikrowellen-Modus",
+    "es": "Modo microondas",
+    "fr": "Mode du micro-ondes",
+    "it": "Modalità microonde",
+    "ko": "전자레인지 모드",
+    "nl": "Magnetronstand",
+    "no": "Mikrobølgemodus",
+    "pl": "Tryb mikrofalówki",
+    "ru": "Режим микроволновой печи",
+    "sv": "Mikrovågsläge"
   },
   "desc": {
-    "en": "The microwave mode."
+    "en": "The microwave mode.",
+    "da": "Mikrobølgetilstanden.",
+    "de": "Der Mikrowellen-Modus.",
+    "es": "El modo microondas.",
+    "fr": "Le mode du micro-ondes.",
+    "it": "La modalità del microonde.",
+    "ko": "전자레인지 모드입니다.\n",
+    "nl": "De magnetronstand.",
+    "no": "Mikrobølgemodusen.",
+    "pl": "Tryb mikrofalówki.",
+    "ru": "Режим микроволновой печи.",
+    "sv": "Mikrovågsläget."
   },
   "values": [
     {
@@ -15,25 +37,48 @@
         "da": "Normal",
         "it": "Normale",
         "ko": "보통",
-        "pl": "Normalne",
+        "pl": "Normalny",
         "ru": "Стандарт",
         "sv": "Normal",
         "es": "Normal",
         "fr": "Normal",
         "no": "Standard",
-        "ar": "عادي"
+        "ar": "عادي",
+        "de": "Normal"
       }
     },
     {
       "id": "defrost",
       "title": {
-        "en": "Defrost"
+        "en": "Defrost",
+        "da": "Optøning",
+        "de": "Auftauen",
+        "es": "Descongelar",
+        "fr": "Décongélation",
+        "it": "Scongelare",
+        "ko": "해동",
+        "nl": "Ontdooien",
+        "no": "Tining",
+        "pl": "Rozmrażanie",
+        "ru": "Размораживание",
+        "sv": "Upptining"
       }
     },
     {
       "id": "reheat",
       "title": {
-        "en": "Reheat"
+        "en": "Reheat",
+        "da": "Genopvarmning",
+        "de": "Aufwärmen",
+        "es": "Recalentar",
+        "fr": "Réchauffer",
+        "it": "Riscaldare",
+        "ko": "재가열",
+        "nl": "Opwarmen",
+        "no": "Oppvarming",
+        "pl": "Odgrzewanie",
+        "ru": "Подогрев",
+        "sv": "Återuppvärmning"
       }
     }
   ],
@@ -47,7 +92,18 @@
         "id": "microwave_mode_changed",
         "highlight": true,
         "title": {
-          "en": "The microwave mode changed to"
+          "en": "The microwave mode changed to",
+          "da": "Mikrobølgetilstanden skiftede til",
+          "de": "Der Mikrowellen-Modus wurde geändert auf",
+          "es": "El modo microondas ha cambiado a",
+          "fr": "Le mode du micro-ondes est passé à",
+          "it": "La modalità del microonde è passata a",
+          "ko": "전자레인지 모드가 다음으로 변경되면",
+          "nl": "De magnetronstand veranderde naar",
+          "no": "Mikrobølgemodusen ble endret til",
+          "pl": "Tryb mikrofalówki zmienił się na",
+          "ru": "Режим микроволновой печи изменен на",
+          "sv": "Mikrovågsläget ändrades till"
         },
         "args": [
           {
@@ -62,7 +118,18 @@
       {
         "id": "microwave_mode_is",
         "title": {
-          "en": "The microwave mode !{{is|is not}}"
+          "en": "The microwave mode !{{is|is not}}",
+          "da": "Mikrobølgetilstanden !{{is|is not}}",
+          "de": "Der Mikrowellenmodus !{{an|aus}}",
+          "es": "El modo microondas !{{está|no está}}",
+          "fr": "Le mode du micro-ondes {{est|n'est pas}}",
+          "it": "La modalità de microonde !{{è|non è}}",
+          "ko": "전자레인지 모드가 다음!{{이면|이 아니면}}",
+          "nl": "De magnetronstand !{{is|is niet}}",
+          "no": "Mikrobølgemodusen !{{er|er ikke}}",
+          "pl": "Tryb mikrofalówki !{{jest|nie jest}}",
+          "ru": "Режим микроволновой печи !{{is|is not}}",
+          "sv": "Mikrovågsläget !{{is|is not}}"
         },
         "args": [
           {
@@ -77,7 +144,18 @@
       {
         "id": "set_microwave_mode",
         "title": {
-          "en": "Set the microwave mode to"
+          "en": "Set the microwave mode to",
+          "da": "Indstil mikrobølgetilstanden til",
+          "de": "Stellen Sie den Mikrowellen-Modus auf",
+          "es": "Establece el modo microondas en",
+          "fr": "Réglez le mode du micro-ondes sur",
+          "it": "Imposta la modalità del microonde su",
+          "ko": "전자레인지 모드를 다음으로 설정",
+          "nl": "Stel de magnetronstand in op",
+          "no": "Sett mikrobølgemodusen til",
+          "pl": "Ustaw tryb mikrofalówki na",
+          "ru": "Установить режим микроволновой печи на",
+          "sv": "Ställ in mikrovågsläget på"
         },
         "args": [
           {

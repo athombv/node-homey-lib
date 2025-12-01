@@ -1,17 +1,61 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Freeze Risk Alarm"
+    "en": "Freeze Risk Alarm",
+    "da": "Fryserisikoalarm",
+    "de": "Alarm für Einfriergefahr",
+    "es": "Alarma de riesgo de congelación",
+    "fr": "Alarme de risque de gel",
+    "it": "Allarme rischio di congelamento",
+    "ko": "동파 위험 알람",
+    "nl": "Vriesgevaaralarm",
+    "no": "Frostrisikoalarm",
+    "pl": "Alarm ryzyka zamarznięcia",
+    "ru": "Сигнализация риска замораживания",
+    "sv": "Frysrisklarm"
   },
   "desc": {
-    "en": "True when in the current ambient conditions water could potentially freeze."
+    "en": "True when in the current ambient conditions water could potentially freeze.",
+    "da": "Sandt, når vandet under de nuværende forhold potentielt kan fryse.",
+    "de": "Wahr, wenn bei den aktuellen Umgebungsbedingungen Wasser gefrieren könnte.",
+    "es": "Verdadero cuando el agua podría congelarse debido a las condiciones ambientales.",
+    "fr": "Se déclenche lorsque, dans les conditions ambiantes actuelles, l'eau peut potentiellement geler.",
+    "it": "È vero quando nelle attuali condizioni ambientali l'acqua potrebbe potenzialmente congelare.",
+    "ko": "현재 주변 조건에서 물이 얼 가능성이 있을 때 참입니다.",
+    "nl": "Waar als in de huidige omgevingsomstandigheden water zou kunnen bevriezen.",
+    "no": "Sann når vann under de nåværende miljøforholdene potensielt kan fryse.",
+    "pl": "Prawda, gdy w obecnych warunkach otoczenia woda mogłaby zamarznąć.",
+    "ru": "Истина, когда при текущих условиях окружающей среды вода потенциально может замерзнуть.",
+    "sv": "Sant när vattnet under de rådande förhållandena potentiellt kan frysa."
   },
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Freeze risk alarm turned on"
+    "en": "Freeze risk alarm turned on",
+    "da": "Fryserisikoalarm slået til",
+    "de": "Alarm für Einfriergefahr ist aktiviert",
+    "es": "Alarma de riesgo de congelación activada",
+    "fr": "Alarme de risque de gel activée",
+    "it": "Allarme rischio di congelamento attivato",
+    "ko": "동파 위험 알람 켜짐",
+    "nl": "Vriesgevaaralarm ingeschakeld",
+    "no": "Frostrisikoalarm aktivert",
+    "pl": "Alarm ryzyka zamarznięcia włączony",
+    "ru": "Сигнализация риска замораживания включена",
+    "sv": "Larmet för frysrisk aktiverat"
   },
   "insightsTitleFalse": {
-    "en": "Freeze risk alarm turned off"
+    "en": "Freeze risk alarm turned off",
+    "da": "Fryserisikoalarm slået fra",
+    "de": "Alarm für Einfriergefahr ausgeschaltet",
+    "es": "Alarma de riesgo de congelación desactivada",
+    "fr": "Alarme de risque de gel désactivée",
+    "it": "Allarme rischio di congelamento disattivato",
+    "ko": "동파 위험 알람 꺼짐",
+    "nl": "Vriesgevaaralarm uitgeschakeld",
+    "no": "Frostrisikoalarm deaktivert",
+    "pl": "Alarm ryzyka zamarznięcia wyłączony",
+    "ru": "Сигнализация риска замораживания выключена",
+    "sv": "Larmet för frysrisk avstängt"
   },
   "color": "#0091FF",
   "getable": true,
@@ -23,13 +67,35 @@
         "id": "alarm_freeze_risk_true",
         "highlight": true,
         "title": {
-          "en": "The freeze risk alarm turned on"
+          "en": "The freeze risk alarm turned on",
+          "da": "Fryserisikoalarmen er slået til",
+          "de": "Der Alarm für Einfriergefahr wurde aktiviert",
+          "es": "La alarma de riesgo de congelación se ha activado",
+          "fr": "L'alarme de risque de gel s'est activée",
+          "it": "L'allarme di rischio di congelamento si è attivato",
+          "ko": "동파 위험 알람이 켜져 있으면",
+          "nl": "Het vriesgevaaralarm aan gaat",
+          "no": "Frostrisikoalarmen ble aktivert",
+          "pl": "Włączył się alarm ryzyka zamarznięcia",
+          "ru": "Сигнализация риска замораживания включена",
+          "sv": "Larmet för frysrisk aktiverat"
         }
       },
       {
         "id": "alarm_freeze_risk_false",
         "title": {
-          "en": "The freeze risk alarm turned off"
+          "en": "The freeze risk alarm turned off",
+          "da": "Fryserisikoalarmen er slået fra",
+          "de": "Der Alarm für Einfriergefahr ist ausgeschaltet",
+          "es": "La alarma de riesgo de congelación se ha desactivado",
+          "fr": "L'alarme de risque de gel s'est désactivée",
+          "it": "L'allarme di rischio di congelamento si è disattivato",
+          "ko": "동파 위험 알람이 꺼져 있으면",
+          "nl": "Het vriesgevaaralarm uit gaat",
+          "no": "Frostrisikoalarmen ble deaktivert",
+          "pl": "Wyłączył się alarm ryzyka zamarznięcia",
+          "ru": "Сигнализация риска замораживания выключена",
+          "sv": "Larmet för frysrisk avstängt"
         }
       }
     ],
@@ -37,7 +103,18 @@
       {
         "id": "alarm_freeze_risk",
         "title": {
-          "en": "The freeze risk alarm is !{{on|off}}"
+          "en": "The freeze risk alarm is !{{on|off}}",
+          "da": "Fryserisikoalarmen er !{{on|off}}",
+          "de": "Alarm für Einfriergefahr ist !{{an|aus}}",
+          "es": "La alarma de riesgo de congelación está !{{activada|desactivada}}",
+          "fr": "L'alarme de risque de gel est {{activée|désactivée}}",
+          "it": "L'allarme di rischio di congelamento è !{{attivo|non attivo}}",
+          "ko": "동파 위험 알람이 !{{켜져|꺼져}} 있으면",
+          "nl": "Het vriesgevaaralarm staat !{{aan|uit}}",
+          "no": "Frostrisikoalarmen er !{{på|av}}",
+          "pl": "Alarm ryzyka zamarznięcia jest !{{włączony|wyłączony}}",
+          "ru": "Сигнализация риска замораживания !{{on|off}}",
+          "sv": "Larmet för frysrisk är !{{on|off}}"
         }
       }
     ]

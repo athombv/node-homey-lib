@@ -2,10 +2,10 @@
   "type": "boolean",
   "title": {
     "en": "Pump Supply Fault Alarm",
-    "nl": "Waarschuwing van fout bij pomptoevoer",
+    "nl": "Waarschuwing voor fout bij pomptoevoer",
     "da": "Alarm for fejl i pumpeforsyningen",
     "it": "Allarme guasto alimentazione pompa",
-    "ko": "펌프 공급 결함 감지",
+    "ko": "펌프 공급 고장 알람",
     "pl": "Alarm usterki zasilania pompy",
     "ru": "Сигнал о неисправности в питании насоса",
     "sv": "Larm om fel i pumptillförseln",
