@@ -905,7 +905,7 @@
   "./assets/capability/capabilities/power_boost.json@$flow.actions.1.title": "Deaktiver effektboost",
   "./assets/capability/capabilities/power_boost.json@$flow.actions.2.title": "Slå effektboost på/av",
   "./assets/capability/capabilities/power_level.json@title": "Effektnivå",
-  "./assets/capability/capabilities/power_level.json@units": " %",
+  "./assets/capability/capabilities/power_level.json@units": "%",
   "./assets/capability/capabilities/power_level.json@$flow.triggers.0.title": "Effektnivået ble endret",
   "./assets/capability/capabilities/power_level.json@$flow.triggers.0.tokens.0.title": "Nivå",
   "./assets/capability/capabilities/power_level.json@$flow.actions.0.title": "Sett effektnivået til",

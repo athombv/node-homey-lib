@@ -867,7 +867,7 @@
   "./assets/capability/capabilities/oven_mode.json@values.8.title": "Fermentación",
   "./assets/capability/capabilities/oven_mode.json@values.9.title": "Vapor",
   "./assets/capability/capabilities/oven_mode.json@$flow.triggers.0.title": "El modo horno ha cambiado a",
-  "./assets/capability/capabilities/oven_mode.json@$flow.conditions.0.title": "El modo horno !{{está|no está",
+  "./assets/capability/capabilities/oven_mode.json@$flow.conditions.0.title": "El modo horno !{{está|no está}}",
   "./assets/capability/capabilities/oven_mode.json@$flow.actions.0.title": "Establece el modo horno en",
   "./assets/capability/capabilities/power_boost.json@title": "Aumento de potencia",
   "./assets/capability/capabilities/power_boost.json@desc": "Cuando está activado, el modo de aumento de potencia está activo. El dispositivo puede emplear más energía para alcanzar su objetivo.",
