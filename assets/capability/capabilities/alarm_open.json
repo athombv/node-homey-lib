@@ -107,7 +107,7 @@
           "da": "Den åbne alarm er !{{on|off}}",
           "de": "Der Alarm „Geöffnet“ ist !{{an|aus}}",
           "es": "La alarma de apertura está !{{activada|desactivada}}",
-          "fr": "L'alarme de détection d'ouverture est {{activée|désactivée}}",
+          "fr": "L'alarme de détection d'ouverture est !{{activée|désactivée}}",
           "it": "L'allarme apertura è !{{attivo|non attivo}}",
           "ko": "열림 알람이 !{{켜져|꺼져}} 있으면",
           "nl": "Het open-alarm staat !{{aan|uit}}",

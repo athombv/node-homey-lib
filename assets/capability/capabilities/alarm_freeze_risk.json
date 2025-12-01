@@ -107,7 +107,7 @@
           "da": "Fryserisikoalarmen er !{{on|off}}",
           "de": "Alarm für Einfriergefahr ist !{{an|aus}}",
           "es": "La alarma de riesgo de congelación está !{{activada|desactivada}}",
-          "fr": "L'alarme de risque de gel est {{activée|désactivée}}",
+          "fr": "L'alarme de risque de gel est !{{activée|désactivée}}",
           "it": "L'allarme di rischio di congelamento è !{{attivo|non attivo}}",
           "ko": "동파 위험 알람이 !{{켜져|꺼져}} 있으면",
           "nl": "Het vriesgevaaralarm staat !{{aan|uit}}",

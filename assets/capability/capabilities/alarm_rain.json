@@ -107,7 +107,7 @@
           "da": "Regnalarmen er !{{on|off}}",
           "de": "Der Regenalarm ist !{{an|aus}}",
           "es": "La alarma de lluvia está !{{activada|desactivada}}",
-          "fr": "L'alarme de pluie est {{activée|désactivée}}",
+          "fr": "L'alarme de pluie est !{{activée|désactivée}}",
           "it": "L'allarme pioggia è!{{attivo|non attivo}}",
           "ko": "강우 알람이 !{{켜져|꺼져}} 있으면",
           "nl": "Het regenalarm staat !{{aan|uit}}",
