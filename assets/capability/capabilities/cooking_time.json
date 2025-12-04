@@ -1,13 +1,49 @@
 {
   "type": "number",
   "title": {
-    "en": "Cooking Time"
+    "en": "Cooking Time",
+    "ar": "وقت الطهي",
+    "da": "Tilberedningstid",
+    "de": "Garzeit",
+    "es": "Tiempo de cocción",
+    "fr": "Temps de cuisson",
+    "it": "Tempo di cottura",
+    "ko": "조리 시간",
+    "nl": "Kooktijd",
+    "no": "Tilberedningstid",
+    "pl": "Czas gotowania",
+    "ru": "Время приготовления",
+    "sv": "Tillagningstid"
   },
   "units": {
-    "en": "s"
+    "en": "s",
+    "ar": "s",
+    "da": "s",
+    "de": "s",
+    "es": "s",
+    "fr": "sec",
+    "it": "s",
+    "ko": "초",
+    "nl": "s",
+    "no": "s",
+    "pl": "s",
+    "ru": "с",
+    "sv": "s"
   },
   "desc": {
-    "en": "The cooking time in seconds that is set. When no cooking time is set, the capability should be set to `null`."
+    "en": "The cooking time in seconds that is set. When no cooking time is set, the capability should be set to `null`.",
+    "ar": "وقت الطهي بالثواني الذي تم تعيينه. عند عدم ضبط وقت الطهي على \"لا شيء\".",
+    "da": "Den indstillede tilberedningstid i sekunder. Når der ikke er indstillet nogen tilberedningstid, skal kapaciteten indstilles til `null`.",
+    "de": "Die eingestellte Garzeit in Sekunden. Wenn keine Garzeit eingestellt ist, sollte die Funktion auf „null“ gesetzt werden.",
+    "es": "El tiempo de cocción en segundos que está establecido. Si no se desea ningún tiempo de cocción, el valor ha de ser \"nulo\".",
+    "fr": "Le temps de cuisson en secondes qui est défini. Si aucun temps de cuisson n'est défini, la fonctionnalité doit être réglée sur « null ».",
+    "it": "Il tempo di cottura in secondi impostato. Se non viene impostato alcun tempo di cottura, la capacità deve essere impostata su \"null\".",
+    "ko": "조리 시간은 설정된 초 값입니다. 조리 시간이 설정되어 있지 않으면 기능이 'null'로 설정되어야 합니다.",
+    "nl": "De kooktijd in seconden die is ingesteld. Als er geen kooktijd is ingesteld, moet de functie worden ingesteld op `null`.",
+    "no": "Den innstilte tilberedningstiden i sekunder. Når ingen tilberedningstid er angitt, skal funksjonen settes til `null`.",
+    "pl": "Ustawiony czas gotowania w sekundach. Jeśli nie ustawiono czasu gotowania, właściwość powinna być ustawiona na „brak”.",
+    "ru": "Установленное время приготовления в секундах. Если время приготовления не задано, для параметра следует установить значение null.",
+    "sv": "Den tillagningstid i sekunder som är inställd. Om ingen tillagningstid har ställts in ska funktionen ställas in på `null`."
   },
   "insights": true,
   "chartType": "spline",
@@ -23,7 +59,19 @@
         "id": "cooking_time_changed",
         "highlight": true,
         "title": {
-          "en": "The cooking time changed"
+          "en": "The cooking time changed",
+          "ar": "تغير وقت الطهي",
+          "da": "Tilberedningstiden ændrede sig",
+          "de": "Die Garzeit hat sich geändert",
+          "es": "El tiempo de cocción ha cambiado",
+          "fr": "Le temps de cuisson a changé",
+          "it": "Il tempo di cottura è cambiato",
+          "ko": "조리 시간 변경됨",
+          "nl": "De kooktijd is veranderd",
+          "no": "Tilberedningstiden ble endret",
+          "pl": "Czas gotowania uległ zmianie",
+          "ru": "Время приготовления изменено",
+          "sv": "Tillagningstiden ändrades"
         },
         "tokens": [
           {
@@ -39,14 +87,38 @@
       {
         "id": "set_cooking_time",
         "title": {
-          "en": "Set the cooking time to [[cooking_time]]"
+          "en": "Set the cooking time to [[cooking_time]]",
+          "ar": "اضبط وقت الطهي على [[وقت_الطهي]]",
+          "da": "Indstil tilberedningstiden til [[cooking_time]]",
+          "de": "Stellen Sie die Garzeit auf [[cooking_time]]",
+          "es": "Establece el tiempo de cocción en [[cooking_time]]",
+          "fr": "Réglez le temps de cuisson sur [[cooking_time]]",
+          "it": "Imposta il tempo di cottura su [[cooking_time]]",
+          "ko": "조리 시간을 [[cooking_time]]로 설정",
+          "nl": "Stel de kooktijd in op [[cooking_time]]",
+          "no": "Sett tilberedningstiden til [[cooking_time]]",
+          "pl": "Ustaw czas gotowania na [[cooking_time]]",
+          "ru": "Установить время приготовления на [[cooking_time]]",
+          "sv": "Ställ in tillagningstiden på [[cooking_time]]"
         },
         "args": [
           {
             "name": "cooking_time",
             "type": "time",
             "title": {
-              "en": "Cooking time"
+              "en": "Cooking time",
+              "ar": "وقت الطهي",
+              "da": "Tilberedningstid",
+              "de": "Garzeit",
+              "es": "Tiempo de cocción",
+              "fr": "Temps de cuisson",
+              "it": "Tempo di cottura",
+              "ko": "조리 시간",
+              "nl": "Kooktijd",
+              "no": "Tilberedningstid",
+              "pl": "Czas gotowania",
+              "ru": "Время приготовления",
+              "sv": "Tillagningstid"
             },
             "placeholder": "00:30"
           }

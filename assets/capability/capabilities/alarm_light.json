@@ -2,14 +2,14 @@
   "type": "boolean",
   "title": {
     "en": "Light Alarm",
-    "nl": "Lichtwaarschuwing",
+    "nl": "Lichtalarm",
     "da": "Lysalarm",
     "it": "Allarme luce",
     "ko": "빛 감지",
     "no": "Lysalarm",
     "pl": "Alarm światła",
-    "ru": "Сигнал об освещении",
-    "sv": "Ljuslarm",
+    "ru": "Сигнал освещения",
+    "sv": "Belysningslarm",
     "es": "Alarma de luz",
     "fr": "Alarme de lumière",
     "ar": "إنذار الضوء"

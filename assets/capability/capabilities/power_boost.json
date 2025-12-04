@@ -1,20 +1,68 @@
 {
   "type": "boolean",
   "title": {
-    "en": "Power Boost"
+    "en": "Power Boost",
+    "ar": "تعزيز الطاقة",
+    "da": "Strøm-boost",
+    "de": "Power Boost",
+    "es": "Aumento de potencia",
+    "fr": "Power Boost",
+    "it": "Aumento di potenza",
+    "ko": "전력 부스트",
+    "nl": "Extra vermogen",
+    "no": "Effektboost",
+    "pl": "Zwiększenie mocy",
+    "ru": "Усиление мощности",
+    "sv": "Effektökning"
   },
   "desc": {
-    "en": "When enabled, power boost mode is active. The device may use more energy to reach its target."
+    "en": "When enabled, power boost mode is active. The device may use more energy to reach its target.",
+    "ar": "عند التمكين، يكون وضع تعزيز الطاقة نشطاً. قد يستخدم الجهاز المزيد من الطاقة للوصول إلى هدفه.",
+    "da": "Når den er aktiveret, er strøm-boost-tilstand aktiv. Enheden kan bruge mere energi på at nå sit mål.",
+    "de": "Wenn aktiviert, ist der Power Boost-Modus eingeschaltet. Das Gerät verbraucht möglicherweise mehr Energie, um das Ziel zu erreichen.",
+    "es": "Cuando está activado, el modo de aumento de potencia está activo. El dispositivo puede emplear más energía para alcanzar su objetivo.",
+    "fr": "Lorsque cette option est activée, Power Boost est activé. L'appareil peut consommer davantage d'énergie pour atteindre son objectif.",
+    "it": "Quando è abilitata, la modalità di aumento di potenza è attiva. Il dispositivo può utilizzare più energia per raggiungere l'obiettivo.",
+    "ko": "활성화하면 전력 부스트가 활성 상태가 됩니다. 제품이 목표에 도달하기 위해 더 많은 에너지를 사용할 수 있습니다.",
+    "nl": "Wanneer ingeschakeld, is de stand met extra vermogen actief. Het apparaat kan meer energie gebruiken om zijn doel te bereiken.",
+    "no": "Når dette er aktivert, er effektboostmodusen aktiv. Enheten kan bruke mer energi for å nå målet.",
+    "pl": "Po włączeniu aktywny jest tryb zwiększenia mocy. Urządzenie może zużywać więcej energii, aby osiągnąć docelowe parametry.",
+    "ru": "При включении активируется режим усиления мощности. Устройство может использовать больше энергии для достижения поставленной цели.",
+    "sv": "När det är aktiverat är energiökningsläget aktivt. Enheten kan använda mer energi för att nå sitt mål."
   },
   "color": "#6DD400",
   "getable": true,
   "setable": true,
   "insights": true,
   "insightsTitleTrue": {
-    "en": "Power Boost enabled"
+    "en": "Power Boost enabled",
+    "ar": "تم تمكين تعزيز الطاقة",
+    "da": "Strøm-boost aktiveret",
+    "de": "Power Boost aktiviert",
+    "es": "Aumento de potencia activado",
+    "fr": "Power Boost activé",
+    "it": "Aumento di potenza abilitato",
+    "ko": "전력 부스트 활성화됨",
+    "nl": "Extra vermogen ingeschakeld",
+    "no": "Effektboost aktivert",
+    "pl": "Zwiększenie mocy włączone",
+    "ru": "Усиление мощности включено",
+    "sv": "Energiökning aktiverat"
   },
   "insightsTitleFalse": {
-    "en": "Power Boost disabled"
+    "en": "Power Boost disabled",
+    "ar": "تم تعطيل تعزيز الطاقة المعزز",
+    "da": "Strøm-boost deaktiveret",
+    "de": "Power Boost deaktiviert",
+    "es": "Aumento de potencia desactivado",
+    "fr": "Power Boost désactivé",
+    "it": "Aumento di potenza disabilitato",
+    "ko": "전력 부스트 비활성화됨",
+    "nl": "Extra vermogen uitgeschakeld",
+    "no": "Effektboost deaktivert",
+    "pl": "Zwiększenie mocy wyłączone",
+    "ru": "Усиление мощности выключено",
+    "sv": "Energiökning inaktiverat"
   },
   "uiComponent": "toggle",
   "uiQuickAction": false,
@@ -24,14 +72,38 @@
         "id": "power_boost_true",
         "highlight": true,
         "title": {
-          "en": "Power boost enabled"
+          "en": "Power boost enabled",
+          "ar": "تم تمكين تعزيز الطاقة",
+          "da": "Strøm-boost aktiveret",
+          "de": "Power Boost aktiviert",
+          "es": "Aumento de potencia activado",
+          "fr": "Power Boost activé",
+          "it": "Aumento di potenza abilitato",
+          "ko": "전력 부스트가 활성화되면",
+          "nl": "Extra vermogen ingeschakeld",
+          "no": "Effektboost aktivert",
+          "pl": "Zwiększenie mocy włączone",
+          "ru": "Усиление мощности включено",
+          "sv": "Energiökning aktiverat"
         }
       },
       {
         "id": "power_boost_false",
         "highlight": true,
         "title": {
-          "en": "Power boost disabled"
+          "en": "Power boost disabled",
+          "ar": "تم تعطيل تعزيز الطاقة",
+          "da": "Strøm-boost deaktiveret",
+          "de": "Power Boost deaktiviert",
+          "es": "Aumento de potencia desactivado",
+          "fr": "Power Boost désactivé",
+          "it": "Aumento di potenza disattivato",
+          "ko": "전력 부스트가 비활성화되어 있으면",
+          "nl": "Extra vermogen uitgeschakeld",
+          "no": "Effektboost deaktivert",
+          "pl": "Zwiększenie mocy wyłączone",
+          "ru": "Усиление мощности отключено",
+          "sv": "Effektökning inaktiverat"
         }
       }
     ],
@@ -39,7 +111,19 @@
       {
         "id": "power_boost",
         "title": {
-          "en": "Power boost is !{{enabled|disabled}}"
+          "en": "Power boost is !{{enabled|disabled}}",
+          "ar": "تعزيز الطاقة هو !{{enabled|disabled}}",
+          "da": "Strøm-boost er!{{enabled|disabled}}",
+          "de": "Power Boost ist !{{aktiviert|deaktiviert}}",
+          "es": "El aumento de potencia está !{{activado|desactivado}}",
+          "fr": "Power Boost est !{{activé|désactivé}}",
+          "it": "L'aumento di potenza è !{{abilitato|disabilitato}}",
+          "ko": "전력 부스트가 !{{활성화|비활성화}}되어 있으면",
+          "nl": "Extra vermogen is !{{ingeschakeld|uitgeschakeld}}",
+          "no": "Effektboost er !{{aktivert|deaktivert}}",
+          "pl": "Zwiększenie mocy jest !{{włączone|wyłączone}}",
+          "ru": "Усиление мощности !{{enabled|disabled}}",
+          "sv": "Effektökning är!{{enabled|disabled}}"
         }
       }
     ],
@@ -48,20 +132,56 @@
         "id": "enable",
         "highlight": true,
         "title": {
-          "en": "Enable power boost"
+          "en": "Enable power boost",
+          "ar": "تمكين تعزيز الطاقة",
+          "da": "Aktiver strøm-boost",
+          "de": "Power Boost aktivieren",
+          "es": "Activar aumento de potencia",
+          "fr": "Activer Power Boost",
+          "it": "Abilita aumento di potenza",
+          "ko": "전력 부스트 활성화",
+          "nl": "Extra vermogen inschakelen",
+          "no": "Aktiver effektboost",
+          "pl": "Włącz zwiększenie mocy",
+          "ru": "Включить усиление мощности",
+          "sv": "Aktivera effektökning"
         }
       },
       {
         "id": "disable",
         "highlight": true,
         "title": {
-          "en": "Disable power boost"
+          "en": "Disable power boost",
+          "ar": "تعطيل تعزيز الطاقة",
+          "da": "Deaktiver strøm-boost",
+          "de": "Power Boost deaktivieren",
+          "es": "Desactivar aumento de potencia",
+          "fr": "Désactiver Power Boost",
+          "it": "Disabilita aumento di potenza",
+          "ko": "전력 부스트 비활성화",
+          "nl": "Extra vermogen uitschakelen",
+          "no": "Deaktiver effektboost",
+          "pl": "Wyłącz zwiększenie mocy",
+          "ru": "Отключить усиление мощности",
+          "sv": "Inaktivera effektökning"
         }
       },
       {
         "id": "toggle",
         "title": {
-          "en": "Toggle power boost"
+          "en": "Toggle power boost",
+          "ar": "تبديل تعزيز الطاقة",
+          "da": "Slå strøm-boost til/fra",
+          "de": "Power Boost ein-/ausschalten",
+          "es": "Conmutador de aumento de potencia",
+          "fr": "Activer/Désactiver Power Boost",
+          "it": "Attiva/disattiva aumento di potenza",
+          "ko": "전력 부스트 토글",
+          "nl": "Extra vermogen in-/uitschakelen",
+          "no": "Slå effektboost på/av",
+          "pl": "Przełącz zwiększenie mocy",
+          "ru": "Включить/выключить усиление мощности",
+          "sv": "Växla effektökning"
         }
       }
     ]
