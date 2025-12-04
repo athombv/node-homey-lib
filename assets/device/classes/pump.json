@@ -1,0 +1,33 @@
+{
+  "title": {
+    "en": "Pump",
+    "ar": "المضخة",
+    "da": "Pumpe",
+    "de": "Pumpe",
+    "es": "Bomba",
+    "fr": "Pompe",
+    "it": "Pompa",
+    "ko": "펌프",
+    "nl": "Pompen",
+    "no": "Pumpe",
+    "pl": "Pompa",
+    "ru": "Насос",
+    "sv": "Pump"
+  },
+  "description": {
+    "en": "Use this device class for pumps.",
+    "ar": "استخدم فئة الجهاز هذه للمضخات.",
+    "da": "Brug denne enhedsklasse til pumper.",
+    "de": "Verwende diese Geräteklasse für Pumpen.",
+    "es": "Usa esta clase de dispositivo para las bombas.",
+    "fr": "Utilisez cette classe d'appareils pour les pompes.",
+    "it": "Utilizza questa classe di dispositivi per le pompe.",
+    "ko": "펌프에 이 제품 클래스를 사용합니다.",
+    "nl": "Gebruik deze apparaatklasse voor pompen.",
+    "no": "Bruk denne enhetsklassen for pumper.",
+    "pl": "Tej klasy urządzeń należy używać dla pomp.",
+    "ru": "Используйте этот класс устройств для насосов.",
+    "sv": "Använd denna enhetsklass för pumpar."
+  },
+  "minCompatibility": "12.11.0"
+}
