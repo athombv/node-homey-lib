@@ -3,15 +3,15 @@
   "title": {
     "en": "Motion Alarm",
     "nl": "Bewegingsalarm",
-    "de": "Bewegungs-Alarm",
-    "fr": "Alarme mouvement",
+    "de": "Bewegungsalarm",
+    "fr": "Alarme de mouvement",
     "it": "Allarme di movimento",
     "sv": "Rörelselarm",
     "no": "Bevegelsesalarm",
     "es": "Alarma de movimiento",
     "da": "Bevægelsesalarm",
     "ru": "Сигнал движения",
-    "pl": "Czujnik ruchu",
+    "pl": "Alarm ruchu",
     "ko": "움직임 감지",
     "ar": "إنذار الحركة"
   },
