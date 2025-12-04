@@ -1,0 +1,195 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Laundry dryer dryness",
+    "ar": "مجفف الغسيل الجاف",
+    "da": "Tørretumblerens tørhed",
+    "de": "Trocknung des Wäschetrockners",
+    "es": "Secado en secadora",
+    "fr": "Séchage du linge",
+    "it": "Asciugatura del bucato",
+    "ko": "건조기 건조도",
+    "nl": "Droogte van wasdroger",
+    "no": "Tørkenivå for tørketrommel",
+    "pl": "Suchość suszarki do prania",
+    "ru": "Степень сухости сушильной машины",
+    "sv": "Torktumlarens torrhet"
+  },
+  "desc": {
+    "en": "The dryness setting of the laundry dryer.",
+    "ar": "إعداد الجفاف في مجفف الغسيل.",
+    "da": "Tørretumblerens indstilling af tørhed.",
+    "de": "Die Trocknungseinstellung des Wäschetrockners.",
+    "es": "El ajuste de secado de la secadora.",
+    "fr": "Le réglage de séchage du sèche-linge.",
+    "it": "L'impostazione di asciugatura dell'asciugatrice.",
+    "ko": "건조기의 건조도 설정입니다.",
+    "nl": "De droogte-instelling van de wasdroger.",
+    "no": "Tørkeinnstillingen på tørketrommelen.",
+    "pl": "Ustawienie suchości suszarki do prania",
+    "ru": "Настройка степени сухости сушильной машины.",
+    "sv": "Torktumlarens inställning för torrhet."
+  },
+  "values": [
+    {
+      "id": "low",
+      "title": {
+        "en": "Low",
+        "nl": "Laag",
+        "da": "Lavt",
+        "it": "Basso",
+        "ko": "낮음",
+        "pl": "Niski",
+        "ru": "Низкая",
+        "sv": "Låg",
+        "es": "Bajo",
+        "fr": "Faible",
+        "no": "Lav",
+        "ar": "منخفض",
+        "de": "Niedrig"
+      }
+    },
+    {
+      "id": "normal",
+      "title": {
+        "en": "Normal",
+        "nl": "Normaal",
+        "da": "Normal",
+        "it": "Normale",
+        "ko": "보통",
+        "pl": "Normalny",
+        "ru": "Стандарт",
+        "sv": "Normal",
+        "es": "Normal",
+        "fr": "Normal",
+        "no": "Standard",
+        "ar": "عادي",
+        "de": "Normal"
+      }
+    },
+    {
+      "id": "extra",
+      "title": {
+        "en": "Extra",
+        "nl": "Extra",
+        "da": "Ekstra",
+        "it": "Extra",
+        "ko": "많이",
+        "pl": "Wyższy",
+        "ru": "Повышенная",
+        "sv": "Extra",
+        "es": "Extra",
+        "fr": "Extra",
+        "no": "Ekstra",
+        "ar": "إضافي",
+        "de": "Extra"
+      }
+    },
+    {
+      "id": "max",
+      "title": {
+        "en": "Max",
+        "nl": "Max",
+        "da": "Maks",
+        "it": "Max",
+        "ko": "최대",
+        "pl": "Maksymalny",
+        "ru": "Максимальная",
+        "sv": "Max",
+        "es": "Máximo",
+        "fr": "Max",
+        "no": "Maks.",
+        "ar": "الحد الأقصى",
+        "de": "Max."
+      }
+    }
+  ],
+  "color": "#0091FF",
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "laundry_dryer_dryness_changed",
+        "title": {
+          "en": "The dryness changed to",
+          "ar": "تغير الجفاف إلى",
+          "da": "Tørheden ændrede sig til",
+          "de": "Die Trocknung wurde gestellt auf",
+          "es": "El secado ha cambiado a",
+          "fr": "Le séchage a changé pour",
+          "it": "L'asciugatura è cambiata in",
+          "ko": "건조도가 다음으로 변경되면",
+          "nl": "De droogte veranderde naar",
+          "no": "Tørkenivået ble endret til",
+          "pl": "Suchość zmieniła się na",
+          "ru": "Степень сухости изменена на",
+          "sv": "Torrheten ändrades till"
+        },
+        "args": [
+          {
+            "name": "dryness",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "laundry_dryer_dryness_is",
+        "title": {
+          "en": "The dryness !{{is|is not}}",
+          "ar": "الجفاف!{{is|is not}}",
+          "da": "Tørheden !{{is|is not}}",
+          "de": "Die Trocknung !{{ist|ist nicht}}",
+          "es": "El secado !{{está|no está}}",
+          "fr": "Le séchage {{est|n'est pas}}",
+          "it": "L'asciugatura !{{è|non è}}",
+          "ko": "건조도가 다음!{{이면|이 아니면}}",
+          "nl": "De droogte !{{is|is niet}}",
+          "no": "Tørkenivået !{{er|er ikke}}",
+          "pl": "Suchość !{{jest|nie jest}}",
+          "ru": "Степень сухости !{{is|is not}}",
+          "sv": "Torrheten !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "dryness",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_laundry_dryer_dryness",
+        "title": {
+          "en": "Set the laundry dryer dryness to",
+          "ar": "اضبط درجة جفاف مجفف الغسيل على",
+          "da": "Indstil tørretumblerens tørhed til",
+          "de": "Stellen Sie den Trocknungsgrad des Wäschetrockners auf",
+          "es": "Establece el secado de la secadora en",
+          "fr": "Règlez le séchage du sèche-linge sur",
+          "it": "Imposta l'asciugatura dell'asciugatrice su",
+          "ko": "건조기 건조도를 다음으로 설정",
+          "nl": "Stel de droogte van de wasdroger in op",
+          "no": "Sett tørkenivået for tørketrommelen til",
+          "pl": "Ustaw suchość suszarki na",
+          "ru": "Установить степень сухости сушильной машины на",
+          "sv": "Ställ in torktumlarens torrhet på"
+        },
+        "args": [
+          {
+            "name": "dryness",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.11.0"
+}

@@ -1,0 +1,130 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Rain Alarm",
+    "ar": "إنذار المطر",
+    "da": "Regnalarm",
+    "de": "Regenalarm",
+    "es": "Alarma de lluvia",
+    "fr": "Alarme de pluie",
+    "it": "Allarme pioggia",
+    "ko": "강우 알람",
+    "nl": "Regenalarm",
+    "no": "Regnalarm",
+    "pl": "Alarm deszczu",
+    "ru": "Сигнализация дождя",
+    "sv": "Regnlarm"
+  },
+  "desc": {
+    "en": "True when rain is detected.",
+    "ar": "صحيح عند اكتشاف هطول الأمطار.",
+    "da": "Sandt, når der registreres regn.",
+    "de": "Wahr, wenn Regen erkannt wird.",
+    "es": "Verdadero cuando se detecta lluvia.",
+    "fr": "Se déclenche lorsque de la pluie est détectée.",
+    "it": "Vero quando viene rilevata la pioggia.",
+    "ko": "비가 감지되면 참입니다.",
+    "nl": "Waar wanneer regen wordt gedetecteerd.",
+    "no": "Sann når regn er påvist.",
+    "pl": "Prawda, gdy wykryto deszcz.",
+    "ru": "Истина, когда обнаружен дождь.",
+    "sv": "Sant när regn detekteras."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Rain alarm turned on",
+    "ar": "تم تشغيل إنذار المطر",
+    "da": "Regnalarm slået til",
+    "de": "Regenalarm ist eingeschaltet",
+    "es": "Alarma de lluvia desactivada",
+    "fr": "Alarme de pluie activée",
+    "it": "Allarme pioggia attivato",
+    "ko": "강우 알람 켜짐",
+    "nl": "Regenalarm ingeschakeld",
+    "no": "Regnalarm aktivert",
+    "pl": "Alarm deszczu włączony",
+    "ru": "Сигнализация дождя включена",
+    "sv": "Regnlarmet aktiverat"
+  },
+  "insightsTitleFalse": {
+    "en": "Rain alarm turned off",
+    "ar": "تم إيقاف تشغيل إنذار المطر",
+    "da": "Regnalarm slået fra",
+    "de": "Regenalarm ausgeschaltet",
+    "es": "Alarma de lluvia desactivada",
+    "fr": "Alarme de pluie désactivée",
+    "it": "Allarme pioggia disattivato",
+    "ko": "강우 알람 꺼짐",
+    "nl": "Regenalarm uitgeschakeld",
+    "no": "Regnalarm deaktivert",
+    "pl": "Alarm deszczu wyłączony",
+    "ru": "Сигнализация дождя выключена",
+    "sv": "Regnlarmet avstängt"
+  },
+  "color": "#0091FF",
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_rain_true",
+        "highlight": true,
+        "title": {
+          "en": "The rain alarm turned on",
+          "ar": "تم تشغيل إنذار المطر",
+          "da": "Regnalarmen blev slået til",
+          "de": "Der Regenalarm hat sich eingeschaltet",
+          "es": "La alarma de lluvia se ha activado",
+          "fr": "L'alarme de pluie s'est activée",
+          "it": "L'allarme pioggia si è attivato",
+          "ko": "강우 알람이 켜져 있으면",
+          "nl": "Het regenalarm aan gaat",
+          "no": "Regnalarmen ble aktivert",
+          "pl": "Alarm deszczu włączył się",
+          "ru": "Сигнализация дождя включена",
+          "sv": "Regnlarmet aktiverat"
+        }
+      },
+      {
+        "id": "alarm_rain_false",
+        "title": {
+          "en": "The rain alarm turned off",
+          "ar": "تم إيقاف تشغيل إنذار المطر",
+          "da": "Regnalarmen er slået fra",
+          "de": "Der Regenalarm wurde ausgeschaltet",
+          "es": "La alarma de lluvia se ha desactivado",
+          "fr": "L'alarme de pluie s'est désactivée",
+          "it": "L'allarme pioggia si è disattivato",
+          "ko": "강우 알람이 꺼져 있으면",
+          "nl": "Het regenalarm uit gaat",
+          "no": "Regnalarmen ble deaktivert",
+          "pl": "Alarm deszczu wyłączył się",
+          "ru": "Сигнализация дождя выключена",
+          "sv": "Regnlarmet avstängt"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_rain",
+        "title": {
+          "en": "The rain alarm is !{{on|off}}",
+          "ar": "إنذار المطر !{{on|off}}",
+          "da": "Regnalarmen er !{{on|off}}",
+          "de": "Der Regenalarm ist !{{an|aus}}",
+          "es": "La alarma de lluvia está !{{activada|desactivada}}",
+          "fr": "L'alarme de pluie est !{{activée|désactivée}}",
+          "it": "L'allarme pioggia è!{{attivo|non attivo}}",
+          "ko": "강우 알람이 !{{켜져|꺼져}} 있으면",
+          "nl": "Het regenalarm staat !{{aan|uit}}",
+          "no": "Regnalarmen er !{{på|av}}",
+          "pl": "Alarm deszczu jest!{{włączony|wyłączony}}",
+          "ru": "Сигнализация дождя !{{on|off}}",
+          "sv": "Regnlarmet är !{{on|off}}"
+        }
+      }
+    ]
+  },
+  "minCompatibility": "12.11.0"
+}

@@ -1,0 +1,130 @@
+{
+  "type": "boolean",
+  "title": {
+    "en": "Open Alarm",
+    "ar": "فتح الإنذار",
+    "da": "Åben alarm",
+    "de": "Alarm „Geöffnet“",
+    "es": "Alarma de apertura",
+    "fr": "Alarme de détection d'ouverture",
+    "it": "Allarme apertura",
+    "ko": "열림 알람",
+    "nl": "Open-alarm",
+    "no": "Åpen-alarm",
+    "pl": "Alarm otwarcia",
+    "ru": "Сигнализация открытия",
+    "sv": "Öppet larm"
+  },
+  "desc": {
+    "en": "True when a door/window/etc... is open.",
+    "ar": "صحيح عندما يكون الباب/النافذة/... إلخ... مفتوحاً.",
+    "da": "Sandt, når en dør/et vindue/etc... er åben.",
+    "de": "Wahr, wenn eine Tür/ein Fenster/etc… offen ist.",
+    "es": "Verdadero cuando una puerta/ventana/etc. está abierta.",
+    "fr": "Se déclenche lorsque une porte/fenêtre/etc. est ouverte.",
+    "it": "Vero quando una porta/finestra ecc. è aperta.",
+    "ko": "문/창문 등이 열려 있을 때 참입니다.",
+    "nl": "Waar als een deur/raam/etc... open is.",
+    "no": "Sann når en dør, et vindu o.l. er åpen(t).",
+    "pl": "Prawda, gdy drzwi/okno/etc... są otwarte.",
+    "ru": "Истина, когда дверь/окно и т. д. открыты.",
+    "sv": "Sant när en dörr/ett fönster/mm... är öppen."
+  },
+  "insights": true,
+  "insightsTitleTrue": {
+    "en": "Open alarm turned on",
+    "ar": "تم تشغيل الإنذار المفتوح",
+    "da": "Åben alarm slået til",
+    "de": "Alarm „Geöffnet“ ist eingeschaltet",
+    "es": "Alarma de apertura activada",
+    "fr": "Alarme de détection d'ouverture activée",
+    "it": "Allarme apertura attivato",
+    "ko": "열림 알람 켜짐",
+    "nl": "Open-alarm ingeschakeld",
+    "no": "Åpen-alarm aktivert",
+    "pl": "Alarm otwarcia włączony",
+    "ru": "Сигнализация открытия включена",
+    "sv": "Öppet larm aktiverat"
+  },
+  "insightsTitleFalse": {
+    "en": "Open alarm turned off",
+    "ar": "تم إيقاف تشغيل المنبه المفتوح",
+    "da": "Åben alarm slået fra",
+    "de": "Alarm „Geöffnet“ ausgeschaltet",
+    "es": "Alarma de apertura desactivada",
+    "fr": "Alarme de détection d'ouverture désactivée",
+    "it": "Allarme apertura disattivato",
+    "ko": "열림 알람 꺼짐",
+    "nl": "Open-alarm uitgeschakeld",
+    "no": "Åpen-alarm deaktivert",
+    "pl": "Alarm otwarcia wyłączony",
+    "ru": "Сигнализация открытия выключена",
+    "sv": "Öppet larm avstängt"
+  },
+  "color": "#0091FF",
+  "getable": true,
+  "setable": false,
+  "uiComponent": "sensor",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "alarm_open_true",
+        "highlight": true,
+        "title": {
+          "en": "The open alarm turned on",
+          "ar": "تم تشغيل الإنذار المفتوح",
+          "da": "Den åbne alarm er slået til",
+          "de": "Der Alarm „Geöffnet“ hat sich eingeschaltet",
+          "es": "La alarma de apertura se ha activado",
+          "fr": "L'alarme de détection d'ouverture s'est activée",
+          "it": "L'allarme apertura si è attivato",
+          "ko": "열림 알람이 켜져 있으면",
+          "nl": "Het open-alarm aan gaat",
+          "no": "Åpen-alarmen ble aktivert",
+          "pl": "Alarm otwarcia włączył się",
+          "ru": "Сигнализация открытия включена",
+          "sv": "Det öppna larmet aktiverat"
+        }
+      },
+      {
+        "id": "alarm_open_false",
+        "title": {
+          "en": "The open alarm turned off",
+          "ar": "تم إيقاف تشغيل المنبه المفتوح",
+          "da": "Den åbne alarm er slået fra",
+          "de": "Der Alarm „Geöffnet“ wurde ausgeschaltet",
+          "es": "La alarma de apertura se ha desactivado",
+          "fr": "L'alarme de détection d'ouverture s'est désactivée",
+          "it": "L'allarme apertura si è disattivato",
+          "ko": "열림 알람이 꺼져 있으면",
+          "nl": "Het open-alarm uit gaat",
+          "no": "Åpen-alarmen ble deaktivert",
+          "pl": "Alarm otwarcia wyłączył się",
+          "ru": "Сигнализация открытия выключена",
+          "sv": "Det öppna larmet avstängt"
+        }
+      }
+    ],
+    "conditions": [
+      {
+        "id": "alarm_open",
+        "title": {
+          "en": "The open alarm is !{{on|off}}",
+          "ar": "الإنذار المفتوح هو !{{on|off}}",
+          "da": "Den åbne alarm er !{{on|off}}",
+          "de": "Der Alarm „Geöffnet“ ist !{{an|aus}}",
+          "es": "La alarma de apertura está !{{activada|desactivada}}",
+          "fr": "L'alarme de détection d'ouverture est !{{activée|désactivée}}",
+          "it": "L'allarme apertura è !{{attivo|non attivo}}",
+          "ko": "열림 알람이 !{{켜져|꺼져}} 있으면",
+          "nl": "Het open-alarm staat !{{aan|uit}}",
+          "no": "Åpen-alarmen er !{{på|av}}",
+          "pl": "Alarm otwarcia jest !{{włączony|wyłączony}}",
+          "ru": "Сигнализация открытия !{{on|off}}",
+          "sv": "Det öppna larmet är !{{on|off}}"
+        }
+      }
+    ]
+  },
+  "minCompatibility": "12.11.0"
+}

@@ -3,7 +3,7 @@
   "title": {
     "en": "Fire Alarm",
     "nl": "Brandalarm",
-    "de": "Feuer-Alarm",
+    "de": "Feueralarm",
     "fr": "Alarme incendie",
     "it": "Allarme antincendio",
     "sv": "Brandlarm",
@@ -11,7 +11,7 @@
     "es": "Alarma de incendios",
     "da": "Brandalarm",
     "ru": "Пожарный сигнал",
-    "pl": "Alarm przeciwpożarowy",
+    "pl": "Alarm pożarowy",
     "ko": "화재 감지",
     "ar": "إنذار الحريق"
   },

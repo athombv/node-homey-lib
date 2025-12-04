@@ -5,13 +5,13 @@
     "nl": "Verbindingswaarschuwing",
     "da": "Tilslutningsalarm",
     "fr": "Alarme de connectivité",
-    "it": "Allarme connettività",
+    "it": "Allarme connessione",
     "ko": "연결 해제 감지",
     "no": "Tilkoblingsalarm",
     "pl": "Alarm łączności",
-    "ru": "Сигнал о подключении",
+    "ru": "Сигнал подключения",
     "sv": "Anslutningslarm",
-    "es": "Alarma de conexión",
+    "es": "Alarma de conectividad",
     "ar": "إنذار الاتصال"
   },
   "desc": {

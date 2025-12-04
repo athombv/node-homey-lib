@@ -3,14 +3,14 @@
   "title": {
     "en": "Tamper Alarm",
     "nl": "Sabotagealarm",
-    "de": "Sabotage-Alarm",
-    "fr": "Alarme sabotage",
+    "de": "Manipulationsalarm",
+    "fr": "Alarme de sabotage",
     "it": "Allarme manomissione",
     "sv": "Sabotagelarm",
     "no": "Sabotasjealarm",
     "es": "Alarma de manipulación",
     "da": "Sabotagealarm",
-    "ru": "Противовзломный сигнал",
+    "ru": "Сигнал о несанкционированном доступе",
     "pl": "Alarm antyingerencyjny",
     "ko": "변화 감지",
     "ar": "إنذار العبث"

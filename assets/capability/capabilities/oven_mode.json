@@ -1,0 +1,304 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Oven Mode",
+    "ar": "وضع الفرن",
+    "da": "Ovntilstand",
+    "de": "Backofen-Modus",
+    "es": "Modo horno",
+    "fr": "Mode de cuisson du four",
+    "it": "Modalità forno",
+    "ko": "오븐 모드",
+    "nl": "Ovenstand",
+    "no": "Ovnsmodus",
+    "pl": "Tryb piekarnika",
+    "ru": "Режим духовки",
+    "sv": "Ugnsläge"
+  },
+  "desc": {
+    "en": "The oven mode.",
+    "ar": "وضع الفرن.",
+    "da": "Ovntilstanden.",
+    "de": "Der Ofenmodus.",
+    "es": "El modo horno.",
+    "fr": "Le mode de cuisson du four.",
+    "it": "La modalità del forno.",
+    "ko": "오븐 모드입니다.",
+    "nl": "De ovenstand.",
+    "no": "Ovnsmodusen.",
+    "pl": "Tryb piekarnika.",
+    "ru": "Режим духовки.",
+    "sv": "Ugnsläget."
+  },
+  "values": [
+    {
+      "id": "bake",
+      "title": {
+        "en": "Bake",
+        "ar": "خبز",
+        "da": "Bage",
+        "de": "Backen",
+        "es": "Hornear",
+        "fr": "Cuire",
+        "it": "Cuocere",
+        "ko": "베이킹",
+        "nl": "Bakken",
+        "no": "Baking",
+        "pl": "Pieczenie",
+        "ru": "Выпечка",
+        "sv": "Baka"
+      }
+    },
+    {
+      "id": "convection",
+      "title": {
+        "en": "Convection",
+        "ar": "الحمل الحراري",
+        "da": "Konvektion",
+        "de": "Umluft",
+        "es": "Convección",
+        "fr": "Convection",
+        "it": "Convezione",
+        "ko": "컨벡션",
+        "nl": "Hetelucht",
+        "no": "Varmluft",
+        "pl": "Konwekcja",
+        "ru": "Конвекция",
+        "sv": "Konvektion"
+      }
+    },
+    {
+      "id": "grill",
+      "title": {
+        "en": "Grill",
+        "ar": "الشواية",
+        "da": "Grill",
+        "de": "Grill",
+        "es": "Gratinar",
+        "fr": "Gril",
+        "it": "Grigliare",
+        "ko": "그릴",
+        "nl": "Grillen",
+        "no": "Grilling",
+        "pl": "Grill",
+        "ru": "Гриль",
+        "sv": "Grill"
+      }
+    },
+    {
+      "id": "roast",
+      "title": {
+        "en": "Roast",
+        "ar": "الشواء",
+        "da": "Stegt",
+        "de": "Braten",
+        "es": "Asar",
+        "fr": "Rôtir",
+        "it": "Cuocere arrosto",
+        "ko": "로스트",
+        "nl": "Braden",
+        "no": "Steking",
+        "pl": "Pieczenie",
+        "ru": "Обжарка",
+        "sv": "Stekning"
+      }
+    },
+    {
+      "id": "clean",
+      "title": {
+        "en": "Clean",
+        "ar": "نظيفة",
+        "da": "Ren",
+        "de": "Reinigen",
+        "es": "Limpiar",
+        "fr": "Nettoyage",
+        "it": "Pulire",
+        "ko": "세척",
+        "nl": "Reinigen",
+        "no": "Rengjøring",
+        "pl": "Czyszczenie",
+        "ru": "Очистка",
+        "sv": "Ren"
+      }
+    },
+    {
+      "id": "convection_bake",
+      "title": {
+        "en": "Convection Bake",
+        "ar": "الخَبز الحراري",
+        "da": "Konvektionsbagning",
+        "de": "Backen mit Umluft",
+        "es": "Horneado por convección",
+        "fr": "Cuisson par convection",
+        "it": "Cottura a convezione",
+        "ko": "컨벡션 베이킹",
+        "nl": "Hetelucht bakken",
+        "no": "Varmluftsbaking",
+        "pl": "Pieczenie konwekcyjne (bez tłuszczu)",
+        "ru": "Выпечка с конвекцией",
+        "sv": "Konvektionsbakning"
+      }
+    },
+    {
+      "id": "convection_roast",
+      "title": {
+        "en": "Convection Roast",
+        "ar": "التحميص الحراري",
+        "da": "Konvektionsstegning",
+        "de": "Braten mit Umluft",
+        "es": "Asado por convección",
+        "fr": "Rôti par convection",
+        "it": "Cottura arrosto a convezione",
+        "ko": "컨벡션 로스트",
+        "nl": "Hetelucht braden",
+        "no": "Varmluftssteking",
+        "pl": "Pieczenie konwekcyjne (z tłuszczem)",
+        "ru": "Обжарка с конвекцией",
+        "sv": "Konvektionsstekning"
+      }
+    },
+    {
+      "id": "warming",
+      "title": {
+        "en": "Warming",
+        "ar": "الاحترار",
+        "da": "Varmer op",
+        "de": "Erwärmen",
+        "es": "Calentamiento",
+        "fr": "Réchauffage",
+        "it": "Riscaldamento",
+        "ko": "보온",
+        "nl": "Verwarmen",
+        "no": "Oppvarming",
+        "pl": "Grzanie",
+        "ru": "Прогрев",
+        "sv": "Uppvärmning"
+      }
+    },
+    {
+      "id": "proofing",
+      "title": {
+        "en": "Proofing",
+        "ar": "التدقيق",
+        "da": "Hæver",
+        "de": "Garen/gehen lassen",
+        "es": "Fermentación",
+        "fr": "Étuve",
+        "it": "Lievitazione",
+        "ko": "발효",
+        "nl": "Rijzen",
+        "no": "Heving",
+        "pl": "Odpoczywanie",
+        "ru": "Расстойка",
+        "sv": "Preparera"
+      }
+    },
+    {
+      "id": "steam",
+      "title": {
+        "en": "Steam",
+        "ar": "البخار",
+        "da": "Damp",
+        "de": "Dampf",
+        "es": "Vapor",
+        "fr": "Vapeur",
+        "it": "Vapore",
+        "ko": "스팀",
+        "nl": "Stomen",
+        "no": "Damping",
+        "pl": "Parowanie",
+        "ru": "Пар",
+        "sv": "Ånga"
+      }
+    }
+  ],
+  "color": "#FA6400",
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "oven_mode_changed",
+        "highlight": true,
+        "title": {
+          "en": "The oven mode changed to",
+          "ar": "تغير وضع الفرن إلى",
+          "da": "Ovntilstanden ændrede sig til",
+          "de": "Der Ofenmodus wurde geändert auf",
+          "es": "El modo horno ha cambiado a",
+          "fr": "Le mode de cuisson du four est passé à",
+          "it": "La modalità del forno è passata a",
+          "ko": "오븐 모드가 다음으로 변경되면",
+          "nl": "De ovenstand veranderde naar",
+          "no": "Ovnsmodusen ble endret til",
+          "pl": "Tryb piekarnika zmienił się na",
+          "ru": "Режим духовки изменен на",
+          "sv": "Ugnsläget ändrades till"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "oven_mode_is",
+        "title": {
+          "en": "The oven mode !{{is|is not}}",
+          "ar": "وضع الفرن !{{is|is not}}",
+          "da": "Ovnilstanden !{{is|is not}}",
+          "de": "Der Ofenmodus !{{ist|ist nicht}}",
+          "es": "El modo horno !{{está|no está}}",
+          "fr": "Le mode de cuisson du four {{est|n'est pas}}",
+          "it": "La modalità del forno !{{è|non è}}",
+          "ko": "오븐 모드가 다음!{{이면|이 아니면}}",
+          "nl": "De ovenstand !{{is|is niet}}",
+          "no": "Ovnsmodusen !{{er|er ikke}}",
+          "pl": "Tryb piekarnika !{{jest|nie jest}}",
+          "ru": "Режим духовки !{{is|is not}}",
+          "sv": "Ugnsläget !{{is|is not}}"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "set_oven_mode",
+        "title": {
+          "en": "Set the oven mode to",
+          "ar": "اضبط وضع الفرن على",
+          "da": "Indstil ovntilstand til",
+          "de": "Stellen Sie den Ofenmodus auf",
+          "es": "Establece el modo horno en",
+          "fr": "Réglez le mode de cuisson du four sur",
+          "it": "Imposta la modalità del forno su",
+          "ko": "오븐 모드를 다음으로 설정",
+          "nl": "Stel de ovenstand in op",
+          "no": "Sett ovnsmodusen til",
+          "pl": "Ustaw tryb piekarnika na",
+          "ru": "Установить режим духовки на",
+          "sv": "Ställ in ugnsläget på"
+        },
+        "args": [
+          {
+            "name": "mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  },
+  "minCompatibility": "12.11.0"
+}

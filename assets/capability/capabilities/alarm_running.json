@@ -2,21 +2,21 @@
   "type": "boolean",
   "title": {
     "en": "Running Alarm",
-    "nl": "Werkzaamheidswaarschuwing",
+    "nl": "Werkzaamheidsalarm",
     "da": "Løbende alarm",
-    "it": "Allarme elaborazione in corso",
+    "it": "Allarme in esecuzione",
     "ko": "작동 감지",
     "no": "Kjøringsalarm",
     "pl": "Alarm pracy urządzenia",
     "ru": "Сигнал о процессе",
-    "sv": "Körlarm",
+    "sv": "Larm körs",
     "es": "Alarma de funcionamiento",
     "fr": "Alarme de fonctionnement",
     "ar": "إنذار التشغيل"
   },
   "desc": {
     "en": "True when the device is busy (e.g., printer is printing).",
-    "nl": "Wordt geactiveerd wanneer het apparaat bezig is (bijv. printer is aan het printen).",
+    "nl": "Waar wanneer het apparaat bezig is (bijv. printer is aan het printen).",
     "da": "Sandt, når enheden er optaget (f.eks. printeren er i gang med at udskrive).",
     "it": "Vero quando il dispositivo è occupato (ad esempio, la stampante sta stampando).",
     "ko": "디바이스가 바쁜 상태(예: 프린터가 인쇄 중)면 참입니다.",
@@ -31,7 +31,7 @@
   "insights": true,
   "insightsTitleTrue": {
     "en": "Running alarm turned on",
-    "nl": "Werkzaamheidswaarschuwing geactiveerd",
+    "nl": "Werkzaamheidsalarm ging aan",
     "da": "Løbende alarm slået til",
     "it": "Allarme elaborazione in corso acceso",
     "ko": "작동 감지됨",
@@ -45,7 +45,7 @@
   },
   "insightsTitleFalse": {
     "en": "Running alarm turned off",
-    "nl": "Werkzaamheidswaarschuwing gedeactiveerd",
+    "nl": "Werkzaamheidsalarm ging uit",
     "da": "Løbende alarm slået fra",
     "it": "Allarme elaborazione in corso spento",
     "ko": "작동 안 함",
@@ -68,7 +68,7 @@
         "highlight": true,
         "title": {
           "en": "The running alarm turned on",
-          "nl": "De werkzaamheidswaarschuwing is geactiveerd",
+          "nl": "Het werkzaamheidsalarm gaat aan",
           "da": "Den løbende alarm er slået til",
           "it": "L'allarme di elaborazione in corso si è acceso",
           "ko": "작동 중이면",
@@ -85,7 +85,7 @@
         "id": "alarm_running_false",
         "title": {
           "en": "The running alarm turned off",
-          "nl": "De werkzaamheidswaarschuwing is gedeactiveerd",
+          "nl": "Het werkzaamheidsalarm gaat uit",
           "da": "Den løbende alarm er slået fra",
           "it": "L'allarme di elaborazione in corso si è spento",
           "ko": "작동하지 않으면",
