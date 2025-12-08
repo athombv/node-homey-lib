@@ -12,7 +12,8 @@
     "es": "SO₂",
     "fr": "SO₂",
     "no": "SO₂",
-    "ar": "SO₂"
+    "ar": "SO₂",
+    "de": "SO₂"
   },
   "units": {
     "en": "μg/m³",
@@ -26,7 +27,8 @@
     "es": "μg/m³",
     "fr": "μg/m³",
     "no": "μg/m³",
-    "ar": "μg/m³"
+    "ar": "μg/m³",
+    "de": "μg/m³"
   },
   "insights": true,
   "desc": {
@@ -41,7 +43,8 @@
     "es": "Dióxido de azufre en microgramos por metro cúbico (μg/m³)",
     "fr": "Dioxyde de soufre en microgrammes par mètre cube (μg/m³)",
     "no": "Svoveldioksid i mikrogram per kubikkmeter (μg/m³)",
-    "ar": "ثاني أكسيد الكبريت بالميكروجرام لكل متر مكعب (μg/m³)"
+    "ar": "ثاني أكسيد الكبريت بالميكروجرام لكل متر مكعب (μg/m³)",
+    "de": "Schwefeldioxid in Mikrogramm pro Kubikmeter (μg/m³)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -65,7 +68,8 @@
           "sv": "SO₂-nivån har ändrats",
           "es": "El nivel de SO₂ ha cambiado",
           "fr": "Le niveau de SO₂ a changé",
-          "ar": "تم تغيير مستوى ثاني أكسيد الكبريت"
+          "ar": "تم تغيير مستوى ثاني أكسيد الكبريت",
+          "de": "Der SO₂-Gehalt hat sich geändert"
         },
         "tokens": [
           {

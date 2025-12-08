@@ -12,7 +12,8 @@
     "es": "Nivel de PM2,5",
     "fr": "Niveau de PM2.5",
     "no": "PM2.5-nivå",
-    "ar": "مستوى PM2.5"
+    "ar": "مستوى PM2.5",
+    "de": "PM2.5-Wert"
   },
   "desc": {
     "en": "The level of PM2.5 particles in the air.",
@@ -26,7 +27,8 @@
     "es": "El nivel de partículas PM2,5 en el aire.",
     "fr": "Le niveau de particules PM2.5 dans l'air.",
     "no": "Nivået av PM2.5-partikler i luften.",
-    "ar": "مستوى جزيئات PM2.5 في الهواء."
+    "ar": "مستوى جزيئات PM2.5 في الهواء.",
+    "de": "Der Gehalt an PM2,5-Partikeln in der Luft."
   },
   "values": [
     {
@@ -42,7 +44,9 @@
         "es": "Bajo",
         "fr": "Faible",
         "no": "Lavt",
-        "ar": "منخفض"
+        "ar": "منخفض",
+        "de": "Niedrig",
+        "it": "Basso"
       }
     },
     {
@@ -58,7 +62,9 @@
         "es": "Intermedio",
         "fr": "Moyen",
         "no": "Middels",
-        "ar": "متوسط"
+        "ar": "متوسط",
+        "de": "Mittel",
+        "it": "Medio"
       }
     },
     {
@@ -75,7 +81,8 @@
         "es": "Alto",
         "fr": "Élevé",
         "no": "Høyt",
-        "ar": "عالي"
+        "ar": "عالي",
+        "de": "Hoch"
       }
     },
     {
@@ -92,7 +99,8 @@
         "es": "Crítico",
         "fr": "Critique",
         "no": "Kritisk",
-        "ar": "حرج"
+        "ar": "حرج",
+        "de": "Kritisch"
       }
     }
   ],
@@ -117,7 +125,8 @@
           "es": "El nivel de PM2,5 ha cambiado a",
           "fr": "Le niveau de PM2.5 est passé à",
           "no": "PM2.5-nivået ble endret til",
-          "ar": "تم تغيير مستوى PM2.5 إلى"
+          "ar": "تم تغيير مستوى PM2.5 إلى",
+          "de": "Der PM2,5-Wert hat sich geändert auf"
         },
         "args": [
           {
@@ -143,7 +152,8 @@
           "es": "El nivel de PM2,5 !{{es|no es}}",
           "fr": "Le niveau de PM2.5 !{{est|n'est pas}}",
           "no": "PM2.5-nivået !{{er|er ikke}}",
-          "ar": "مستوى PM2.5 !{{هو|ليس}}"
+          "ar": "مستوى PM2.5 !{{هو|ليس}}",
+          "de": "Der PM2.5-Wert !{{ist|ist nicht}}"
         },
         "args": [
           {

@@ -12,7 +12,8 @@
     "sv": "Fuktlarm",
     "es": "Alarma de humedad",
     "fr": "Alarme d'humidité",
-    "ar": "إنذار الرطوبة"
+    "ar": "إنذار الرطوبة",
+    "de": "Feuchtigkeitsalarm"
   },
   "desc": {
     "en": "True when moisture is detected.",
@@ -26,7 +27,8 @@
     "sv": "Sant när fukt detekteras.",
     "es": "Activado cuando se detecta humedad.",
     "fr": "Se déclenche lorsque de l'humidité est détectée.",
-    "ar": "صحيح عند اكتشاف رطوبة."
+    "ar": "صحيح عند اكتشاف رطوبة.",
+    "de": "Wahr, wenn Feuchtigkeit erkannt wird."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "sv": "Fuktlarm aktiverat",
     "es": "Alarma de humedad activada",
     "fr": "Alarme d'humidité activée",
-    "ar": "تم تشغيل إنذار الرطوبة"
+    "ar": "تم تشغيل إنذار الرطوبة",
+    "de": "Feuchtigkeitsalarm eingeschaltet"
   },
   "insightsTitleFalse": {
     "en": "Moisture Alarm turned off",
@@ -55,7 +58,8 @@
     "sv": "Fuktlarmet inaktiverat",
     "es": "Alarma de humedad desactivada",
     "fr": "Alarme d'humidité désactivée",
-    "ar": "تم إيقاف إنذار الرطوبة"
+    "ar": "تم إيقاف إنذار الرطوبة",
+    "de": "Feuchtigkeitsalarm ausgeschaltet"
   },
   "color": "#0091FF",
   "getable": true,
@@ -78,7 +82,8 @@
           "sv": "Fuktlarmet är aktiverat",
           "es": "La alarma de humedad se ha activado",
           "fr": "L'alarme d'humidité s'est activée",
-          "ar": "تم تشغيل إنذار الرطوبة"
+          "ar": "تم تشغيل إنذار الرطوبة",
+          "de": "Der Feuchtigkeitsalarm hat sich eingeschaltet"
         }
       },
       {
@@ -95,7 +100,8 @@
           "sv": "Fuktlarmet inaktiverat",
           "es": "La alarma de humedad se ha desactivado",
           "fr": "L'alarme d'humidité s'est désactivée",
-          "ar": "تم إيقاف إنذار الرطوبة"
+          "ar": "تم إيقاف إنذار الرطوبة",
+          "de": "Der Feuchtigkeitsalarm hat sich ausgeschaltet"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "sv": "Fuktlarmet är aktiverat !{{på|av}}",
           "es": "La alarma de humedad está !{{activada|desactivada}}",
           "fr": "L'alarme d'humidité est !{{activée|désactivée}}",
-          "ar": "إنذار الرطوبة !{{يعمل|لا يعمل}}"
+          "ar": "إنذار الرطوبة !{{يعمل|لا يعمل}}",
+          "de": "Der Feuchtigkeitsalarm ist !{{an|aus}}"
         }
       }
     ]

@@ -12,7 +12,8 @@
     "es": "Nivel de SO₂",
     "fr": "Niveau de SO₂",
     "no": "SO₂-nivå",
-    "ar": "مستوى SO₂"
+    "ar": "مستوى SO₂",
+    "de": "SO₂-Gehalt"
   },
   "desc": {
     "en": "The level of sulfur dioxide in the air.",
@@ -26,7 +27,8 @@
     "es": "El nivel de dióxido de azufre en el aire.",
     "fr": "Le niveau de dioxyde de soufre dans l'air.",
     "no": "Nivået av svoveldioksid i luften.",
-    "ar": "مستوى ثاني أكسيد الكبريت في الهواء."
+    "ar": "مستوى ثاني أكسيد الكبريت في الهواء.",
+    "de": "Der Schwefeldioxidgehalt in der Luft."
   },
   "values": [
     {
@@ -43,7 +45,8 @@
         "es": "Bajo",
         "fr": "Faible",
         "no": "Lavt",
-        "ar": "منخفض"
+        "ar": "منخفض",
+        "de": "Niedrig"
       }
     },
     {
@@ -60,7 +63,8 @@
         "es": "Intermedio",
         "fr": "Moyen",
         "no": "Middels",
-        "ar": "متوسط"
+        "ar": "متوسط",
+        "de": "Mittel"
       }
     },
     {
@@ -77,7 +81,8 @@
         "es": "Alto",
         "fr": "Élevé",
         "no": "Høyt",
-        "ar": "عالي"
+        "ar": "عالي",
+        "de": "Hoch"
       }
     },
     {
@@ -94,7 +99,8 @@
         "es": "Crítico",
         "fr": "\n",
         "no": "Kritisk",
-        "ar": "حرج"
+        "ar": "حرج",
+        "de": "Kritisch"
       }
     }
   ],
@@ -119,7 +125,8 @@
           "es": "El nivel de SO₂ ha cambiado a",
           "fr": "Le niveau de SO₂ est passé à",
           "no": "SO₂-nivået ble endret til",
-          "ar": "تم تغيير مستوى ثاني أكسيد الكبريت إلى"
+          "ar": "تم تغيير مستوى ثاني أكسيد الكبريت إلى",
+          "de": "Der SO₂-Gehalt hat sich geändert auf"
         },
         "args": [
           {
@@ -145,7 +152,8 @@
           "es": "El nivel de SO₂ !{{es|no es}}",
           "fr": "Le niveau de SO₂ !{{est|n'est pas}}",
           "no": "SO₂-nivået !{{er|er ikke}}",
-          "ar": "مستوى ثاني أكسيد الكبريت !{{هو|ليس}}"
+          "ar": "مستوى ثاني أكسيد الكبريت !{{هو|ليس}}",
+          "de": "Der SO₂-Gehalt !{{ist|ist nicht}}"
         },
         "args": [
           {

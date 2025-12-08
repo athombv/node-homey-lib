@@ -12,7 +12,8 @@
     "sv": "Säkerhetslarm",
     "es": "Alarma de seguridad",
     "fr": "Alarme de sécurité",
-    "ar": "إنذار الأمان"
+    "ar": "إنذار الأمان",
+    "de": "Sicherheitsalarm"
   },
   "desc": {
     "en": "True when unsafe.",
@@ -26,7 +27,8 @@
     "sv": "Sant när det är osäkert.",
     "es": "Activado cuando no es seguro.",
     "fr": "Se déclenche en cas d'insécurité.",
-    "ar": "صحيح عندما يكون غير آمن."
+    "ar": "صحيح عندما يكون غير آمن.",
+    "de": "Wahr, wenn unsicher."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "sv": "Säkerhetslarm aktiverat",
     "es": "Alarma de seguridad activada",
     "fr": "Alarme de sécurité activée",
-    "ar": "تم تشغيل إنذار الأمان"
+    "ar": "تم تشغيل إنذار الأمان",
+    "de": "Sicherheitsalarm eingeschaltet"
   },
   "insightsTitleFalse": {
     "en": "Safety alarm turned off",
@@ -55,7 +58,8 @@
     "sv": "Säkerhetslarm inaktiverat",
     "es": "Alarma de seguridad desactivada",
     "fr": "Alarme de sécurité désactivée",
-    "ar": "تم إيقاف إنذار الأمان"
+    "ar": "تم إيقاف إنذار الأمان",
+    "de": "Sicherheitsalarm ausgeschaltet"
   },
   "color": "#32C5FF",
   "getable": true,
@@ -78,7 +82,8 @@
           "sv": "Säkerhetslarmet aktiverat",
           "es": "La alarma de seguridad se ha activado",
           "fr": "L'alarme de sécurité s'est activée",
-          "ar": "تم تشغيل إنذار الأمان"
+          "ar": "تم تشغيل إنذار الأمان",
+          "de": "Der Sicherheitsalarm wurde eingeschaltet"
         }
       },
       {
@@ -95,7 +100,8 @@
           "sv": "Säkerhetslarmet inaktiverat",
           "es": "La alarma de seguridad se ha apagado",
           "fr": "L'alarme de sécurité s'est désactivée",
-          "ar": "تم إيقاف إنذار الأمان"
+          "ar": "تم إيقاف إنذار الأمان",
+          "de": "Der Sicherheitsalarm wurde ausgeschaltet"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "sv": "Säkerhetslarmet är !{{på|av}}",
           "es": "La alarma de seguridad está !{{activada|desactivada}}",
           "fr": "L'alarme de sécurité est !{{activée|désactivée}}",
-          "ar": "إنذار الأمان !{{يعمل|لا يعمل}}"
+          "ar": "إنذار الأمان !{{يعمل|لا يعمل}}",
+          "de": "Der Sicherheitsalarm ist !{{an|aus}}"
         }
       }
     ]

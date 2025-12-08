@@ -19,7 +19,16 @@
     "en": "V",
     "ru": "Вольт",
     "ko": "V",
-    "ar": "V"
+    "ar": "V",
+    "da": "V",
+    "de": "V",
+    "es": "V",
+    "fr": "V",
+    "it": "V",
+    "nl": "V",
+    "no": "V",
+    "pl": "V",
+    "sv": "V"
   },
   "desc": {
     "en": "Voltage (V)",

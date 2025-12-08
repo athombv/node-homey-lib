@@ -12,7 +12,8 @@
     "ru": "Сигнал подключения",
     "sv": "Anslutningslarm",
     "es": "Alarma de conectividad",
-    "ar": "إنذار الاتصال"
+    "ar": "إنذار الاتصال",
+    "de": "Verbindungsalarm"
   },
   "desc": {
     "en": "True when disconnected from the network.",
@@ -26,7 +27,8 @@
     "ru": "Значение «истина», когда устройство отключено от сети.",
     "sv": "Sant när den är frånkopplad från nätverket.",
     "es": "Activado cuando se desconecta de la red.",
-    "ar": "صحيح عند قطع الاتصال بالشبكة."
+    "ar": "صحيح عند قطع الاتصال بالشبكة.",
+    "de": "Wahr, wenn die Verbindung zum Netz getrennt ist."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "ru": "Отключено",
     "sv": "Frånkopplad",
     "es": "Desconectado",
-    "ar": "تم قطع الاتصال"
+    "ar": "تم قطع الاتصال",
+    "de": "Getrennt"
   },
   "insightsTitleFalse": {
     "en": "Connected",
@@ -55,7 +58,8 @@
     "ru": "Подключено",
     "sv": "Ansluten",
     "es": "Conectado",
-    "ar": "تم الاتصال"
+    "ar": "تم الاتصال",
+    "de": "Verbunden"
   },
   "color": "#9033FC",
   "getable": true,
@@ -78,7 +82,8 @@
           "ru": "Отключено",
           "sv": "Frånkopplad",
           "es": "Está desconectado",
-          "ar": "تم قطع الاتصال"
+          "ar": "تم قطع الاتصال",
+          "de": "Ist nicht verbunden"
         }
       },
       {
@@ -95,7 +100,8 @@
           "ru": "Подключено",
           "sv": "Ansluten",
           "es": "Está conectado",
-          "ar": "تم الاتصال"
+          "ar": "تم الاتصال",
+          "de": "Ist verbunden"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "sv": "Är !{{ansluten|frånkopplad}}",
           "es": "Está !{{conectado|desconectado}}",
           "fr": "Est !{{connectée|déconnectée}}",
-          "ar": "هو !{{متصل|غير متصل}}"
+          "ar": "هو !{{متصل|غير متصل}}",
+          "de": "Ist !{{verbunden|nicht verbunden}}"
         }
       }
     ]
