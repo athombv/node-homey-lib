@@ -12,7 +12,8 @@
     "es": "Velocidad de centrifugado",
     "fr": "Vitesse du lave-linge",
     "no": "Vaskehastighet",
-    "ar": "سرعة الغسالة"
+    "ar": "سرعة الغسالة",
+    "de": "Geschwindigkeit der Waschmaschine"
   },
   "desc": {
     "en": "The spin speed of the laundry washer.",
@@ -26,7 +27,8 @@
     "es": "La velocidad de centrifugado de la lavadora.",
     "fr": "La vitesse d'essorage du lave-linge.",
     "no": "Vaskemaskinens sentrifugehastighet.",
-    "ar": "سرعة الدوران للغسالة."
+    "ar": "سرعة الدوران للغسالة.",
+    "de": "Die Schleuderdrehzahl der Waschmaschine."
   },
   "values": [
     {
@@ -43,7 +45,8 @@
         "es": "Baja",
         "fr": "Lente",
         "no": "Lav",
-        "ar": "منخفض"
+        "ar": "منخفض",
+        "de": "Niedrig"
       }
     },
     {
@@ -60,7 +63,8 @@
         "es": "Intermedia",
         "fr": "Moyenne",
         "no": "Middels",
-        "ar": "متوسط"
+        "ar": "متوسط",
+        "de": "Mittel"
       }
     },
     {
@@ -77,7 +81,8 @@
         "es": "Alta",
         "fr": "Rapide",
         "no": "Høy",
-        "ar": "عالي"
+        "ar": "عالي",
+        "de": "Hoch"
       }
     }
   ],
@@ -102,7 +107,8 @@
           "es": "La velocidad ha cambiado a",
           "fr": "La vitesse du lave-linge est passée à",
           "no": "Hastigheten ble endret til",
-          "ar": "تم تغيير السرعة إلى"
+          "ar": "تم تغيير السرعة إلى",
+          "de": "Die Geschwindigkeit wurde geändert auf"
         },
         "args": [
           {
@@ -128,7 +134,8 @@
           "es": "La velocidad !{{está|no está}}",
           "fr": "La vitesse du lave-linge !{{est|n'est pas}}",
           "no": "Hastigheten !{{er|er ikke}}",
-          "ar": "السرعة !{{هي|ليست}}"
+          "ar": "السرعة !{{هي|ليست}}",
+          "de": "Die Geschwindigkeit !{{ist|ist nicht}}"
         },
         "args": [
           {
@@ -154,7 +161,8 @@
           "es": "Ajustar la velocidad a",
           "fr": "Définir la vitesse du lave-linge sur",
           "no": "Sett hastigheten til",
-          "ar": "ضبط السرعة إلى"
+          "ar": "ضبط السرعة إلى",
+          "de": "Stelle die Geschwindigkeit auf"
         },
         "args": [
           {

@@ -122,8 +122,8 @@
           "nl": "Extra vermogen is !{{ingeschakeld|uitgeschakeld}}",
           "no": "Effektboost er !{{aktivert|deaktivert}}",
           "pl": "Zwiększenie mocy jest !{{włączone|wyłączone}}",
-          "ru": "Усиление мощности !{{enabled|disabled}}",
-          "sv": "Effektökning är!{{enabled|disabled}}"
+          "ru": "Усиление мощности !{{включено|выключено}}",
+          "sv": "Effektökning är !{{aktiverad|inaktiverad}}"
         }
       }
     ],

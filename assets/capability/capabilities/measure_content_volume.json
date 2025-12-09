@@ -12,7 +12,8 @@
     "es": "Volumen",
     "fr": "Volume",
     "no": "Volum",
-    "ar": "الحجم"
+    "ar": "الحجم",
+    "de": "Volumen"
   },
   "units": {
     "en": "L",
@@ -26,7 +27,8 @@
     "es": "L",
     "fr": "L",
     "no": "L",
-    "ar": "L"
+    "ar": "L",
+    "de": "L"
   },
   "desc": {
     "en": "The volume of the content in liters.",
@@ -40,7 +42,8 @@
     "es": "El volumen del contenido en litros.",
     "fr": "Le volume du contenu en litres.",
     "no": "Volumet av innholdet i liter.",
-    "ar": "حجم المحتوى باللتر."
+    "ar": "حجم المحتوى باللتر.",
+    "de": "Das Volumen des Inhalts in Litern."
   },
   "insights": true,
   "chartType": "spline",
@@ -65,7 +68,8 @@
           "es": "El volumen ha cambiado",
           "fr": "Le volume a changé\n",
           "no": "Volumet ble endret",
-          "ar": "تم تغيير الحجم"
+          "ar": "تم تغيير الحجم",
+          "de": "Das Volumen hat sich geändert"
         },
         "tokens": [
           {

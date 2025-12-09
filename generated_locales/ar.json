@@ -341,7 +341,7 @@
   "./assets/capability/capabilities/cooking_time.json@units": "s",
   "./assets/capability/capabilities/cooking_time.json@desc": "وقت الطهي بالثواني الذي تم تعيينه. عند عدم ضبط وقت الطهي على \"لا شيء\".",
   "./assets/capability/capabilities/cooking_time.json@$flow.triggers.0.title": "تغير وقت الطهي",
-  "./assets/capability/capabilities/cooking_time.json@$flow.actions.0.title": "اضبط وقت الطهي على [[وقت_الطهي]]",
+  "./assets/capability/capabilities/cooking_time.json@$flow.actions.0.title": "اضبط وقت الطهي على [[cooking_time]]",
   "./assets/capability/capabilities/cooking_time.json@$flow.actions.0.args.0.title": "وقت الطهي",
   "./assets/capability/capabilities/dim.json@title": "مستوى التعتيم",
   "./assets/capability/capabilities/dim.json@units": "%",

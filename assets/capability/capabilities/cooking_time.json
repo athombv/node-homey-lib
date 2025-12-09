@@ -88,7 +88,7 @@
         "id": "set_cooking_time",
         "title": {
           "en": "Set the cooking time to [[cooking_time]]",
-          "ar": "اضبط وقت الطهي على [[وقت_الطهي]]",
+          "ar": "اضبط وقت الطهي على [[cooking_time]]",
           "da": "Indstil tilberedningstiden til [[cooking_time]]",
           "de": "Stellen Sie die Garzeit auf [[cooking_time]]",
           "es": "Establece el tiempo de cocción en [[cooking_time]]",

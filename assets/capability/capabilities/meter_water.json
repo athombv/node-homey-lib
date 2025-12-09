@@ -22,7 +22,15 @@
     "ru": "м³",
     "ko": "m³",
     "no": "m³",
-    "ar": "m³"
+    "ar": "m³",
+    "da": "m³",
+    "de": "m³",
+    "es": "m³",
+    "fr": "m³",
+    "it": "m³",
+    "nl": "m³",
+    "pl": "m³",
+    "sv": "m³"
   },
   "chartType": "spline",
   "desc": {

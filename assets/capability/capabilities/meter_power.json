@@ -21,7 +21,15 @@
     "ru": "кВтч",
     "ko": "kWh",
     "no": "kWh",
-    "ar": "kWh"
+    "ar": "kWh",
+    "da": "kWh",
+    "de": "kWh",
+    "es": "kWh",
+    "fr": "kWh",
+    "it": "kWh",
+    "nl": "kWh",
+    "pl": "kWh",
+    "sv": "kWh"
   },
   "desc": {
     "en": "Energy usage in kilowatt-hour (kWh)",
@@ -50,7 +58,13 @@
         "ko": "이 플래그는 제품 자체에 전력 측정 기능이 없지만 드라이버가 전력량을 계산하는 경우에 사용돼요.",
         "no": "Dette flagget brukes til å anmerke at enheten i seg selv ikke har noen funksjon for effektmåling, men at sjåføren beregner energibruken.",
         "es": "Este aviso indica que el dispositivo no dispone de ninguna funcionalidad para medir la energía, sino que el controlador calcula el uso de energía.",
-        "ar": "تُستخدم هذه العلامة لتحديد أن الجهاز نفسه لا يحتوي على وظيفة قياس الطاقة، ولكن برنامج التشغيل يحسب استهلاك الطاقة."
+        "ar": "تُستخدم هذه العلامة لتحديد أن الجهاز نفسه لا يحتوي على وظيفة قياس الطاقة، ولكن برنامج التشغيل يحسب استهلاك الطاقة.",
+        "da": "Dette flag bruges til at bestemme, at enheden ikke selv har nogen strømmålingsfunktionalitet, men at driveren beregner energiforbruget.",
+        "de": "Dieses Flag wird verwendet, um festzustellen, dass das Gerät selbst keine Strommessfunktion hat, sondern dass der Treiber den Energieverbrauch berechnet.",
+        "fr": "Cet indicateur sert à signaler que l'appareil n'intègre pas de fonction de mesure de la puissance et la consommation d'énergie est calculée par le pilote.",
+        "it": "Questo flag viene utilizzato per indicare che il dispositivo in sé non dispone di una funzionalità di misurazione dell'energia, ma che il driver calcola il consumo energetico.",
+        "nl": "Deze vlag wordt gebruikt om aan te geven dat het apparaat zelf geen functionaliteit voor vermogensmeting heeft, maar dat het stuurprogramma het energieverbruik berekent.",
+        "sv": "Denna flagga används för att fastställa att enheten i sig inte har någon funktion för effektmätning, men att drivrutinen beräknar energianvändningen."
       }
     }
   },

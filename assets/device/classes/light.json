@@ -26,6 +26,7 @@
     "ru": "Используйте этот класс устройств для ламп, обычно вместе с функциями `onoff`,`dim` и `light_ *`.",
     "pl": "Użyj tej klasy urządzeń dla oświetlenia, zwykle razem ze zdolnościami `onoff`, `dim` oraz `light_*`.",
     "ko": "이 디바이스 클래스는 보통 'onoff', 'dim', 'light_*' 기능을 갖춘 조명에 사용합니다.",
-    "ar": "استخدم فئة الجهاز هذه للأضواء، عادةً مع إمكانيات 'onoff'، 'dim' و 'light_*'."
+    "ar": "استخدم فئة الجهاز هذه للأضواء، عادةً مع إمكانيات 'onoff'، 'dim' و 'light_*'.",
+    "nl": "Gebruik deze apparaatklasse voor lichten, meestal samen met de opties 'onoff', 'dim' en 'light_*'."
   }
 }

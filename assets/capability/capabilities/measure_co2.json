@@ -12,7 +12,8 @@
     "ru": "CO₂",
     "pl": "CO₂",
     "ko": "CO₂",
-    "ar": "ثاني أكسيد الكربون"
+    "ar": "ثاني أكسيد الكربون",
+    "es": "CO₂"
   },
   "units": {
     "en": "ppm",
@@ -20,7 +21,14 @@
     "ko": "ppm",
     "no": "ppm",
     "pl": "ppm",
-    "ar": "ppm"
+    "ar": "ppm",
+    "da": "ppm",
+    "de": "ppm",
+    "es": "ppm",
+    "fr": "ppm",
+    "it": "ppm",
+    "nl": "ppm",
+    "sv": "ppm"
   },
   "insights": true,
   "desc": {

@@ -22,7 +22,15 @@
     "ru": "°C",
     "ko": "°C",
     "no": "°C",
-    "ar": "°C"
+    "ar": "°C",
+    "da": "°C",
+    "de": "°C",
+    "es": "°C",
+    "fr": "°C",
+    "it": "°C",
+    "nl": "°C",
+    "pl": "°C",
+    "sv": "°C"
   },
   "chartType": "stepLine",
   "decimals": 1,

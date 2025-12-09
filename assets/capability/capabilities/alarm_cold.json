@@ -12,7 +12,8 @@
     "pl": "Alarm zimna",
     "ru": "Сигнал холода",
     "sv": "Köldlarm",
-    "ar": "إنذار البرودة"
+    "ar": "إنذار البرودة",
+    "de": "Kältealarm"
   },
   "desc": {
     "en": "True when the temperature is too low.",
@@ -26,7 +27,8 @@
     "pl": "Prawda, gdy temperatura jest zbyt niska.",
     "ru": "Значение «истина», когда температура слишком низкая.",
     "sv": "Sant när temperaturen är för låg.",
-    "ar": "صحيح عندما تكون درجة الحرارة منخفضة جداً."
+    "ar": "صحيح عندما تكون درجة الحرارة منخفضة جداً.",
+    "de": "Wahr, wenn die Temperatur zu niedrig ist."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "pl": "Alarm zimna włączony",
     "ru": "Сигнал холода включен",
     "sv": "Köldlarm aktiverat",
-    "ar": "تم تشغيل إنذار البرودة"
+    "ar": "تم تشغيل إنذار البرودة",
+    "de": "Kältealarm eingeschaltet"
   },
   "insightsTitleFalse": {
     "en": "Cold alarm turned off",
@@ -55,7 +58,8 @@
     "pl": "Alarm zimna wyłączony",
     "ru": "Сигнал холода выключен",
     "sv": "Köldlarm inaktiverat",
-    "ar": "تم إيقاف إنذار البرودة"
+    "ar": "تم إيقاف إنذار البرودة",
+    "de": "Kältealarm ausgeschaltet"
   },
   "color": "#0091FF",
   "getable": true,
@@ -78,7 +82,8 @@
           "pl": "Włączył się alarm zimna",
           "ru": "Сигнал холода включен",
           "sv": "Köldlarmet aktiverat",
-          "ar": "تم تشغيل إنذار البرودة"
+          "ar": "تم تشغيل إنذار البرودة",
+          "de": "Der Kältealarm wurde eingeschaltet"
         }
       },
       {
@@ -95,7 +100,8 @@
           "pl": "Wyłączył się alarm zimna",
           "ru": "Сигнал холода выключен",
           "sv": "Köldlarmet inaktiverat",
-          "ar": "تم إيقاف إنذار البرودة"
+          "ar": "تم إيقاف إنذار البرودة",
+          "de": "Der Kältealarm ist ausgeschaltet"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "ru": "Сигнал холода !{{включен|выключен}}",
           "sv": "Köldlarmet är !{{av|på}}",
           "fr": "L'alarme de froid est !{{activée|désactivée}}",
-          "ar": "إنذار البرودة !{{يعمل|لا يعمل}}"
+          "ar": "إنذار البرودة !{{يعمل|لا يعمل}}",
+          "de": "Der Kältealarm ist !{{an|aus}}"
         }
       }
     ]

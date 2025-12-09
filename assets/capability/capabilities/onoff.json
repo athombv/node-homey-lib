@@ -65,7 +65,8 @@
         "ru": "Когда устройство имеет функции `onoff` и `dim`, и Homey хочет включить устройство ТАКЖЕ с определенным значением яркости, установите для этой функции значение `false`, чтобы Homey не отправил команду на установку.",
         "pl": "Jeśli urządzenie ma zdolności „wł.wył.” i „przygaś”, a urządzenie Homey chce włączyć produkt ORAZ ustawić konkretną wartość przygaszenia, ustaw tę zdolność jako „nieadekwatne” – w ten sposób Homey nie będzie wysyłać ustawionych poleceń.",
         "ko": "제품에 '전원' 및 '밝기' 기능이 모두 있는데 Homey가 제품을 켜는 동시에 특정한 조절값으로 설정하길 원한다면 이 기능을 '거짓'으로 설정해 Homey가 설정 명령을 보내지 않도록 하세요.",
-        "ar": "عندما يحتوي الجهاز على كل من إمكانية 'onoff' و 'dim'، وتريد Homey تشغيل الجهاز وضبط قيمة تعتيم محددة، قم بضبط هذه الإمكانية على 'false' لمنع Homey من إرسال أمر ضبط."
+        "ar": "عندما يحتوي الجهاز على كل من إمكانية 'onoff' و 'dim'، وتريد Homey تشغيل الجهاز وضبط قيمة تعتيم محددة، قم بضبط هذه الإمكانية على 'false' لمنع Homey من إرسال أمر ضبط.",
+        "nl": "Wanneer een apparaat een mogelijkheid voor zowel 'onoff' als 'dim' heeft, en Homey wil het apparaat aanzetten EN op een specifieke dimwaarde instellen, stel deze mogelijkheid dan in op 'false' om te voorkomen dat Homey een vast commando stuurt."
       }
     },
     "greyout": {
@@ -83,7 +84,8 @@
         "ru": "Когда функция ложна, установите визуальную подсказку, чтобы выделить устройство серым цветом.",
         "pl": "Jeśli zdolność jest nieadekwatna, użyj wizualnej wskazówki, aby wyświetlić urządzenie na szaro.",
         "ko": "이 기능이 거짓으로 설정되면 제품이 회색으로 표시되어 쉽게 식별할 수 있어요.",
-        "ar": "عندما تكون هذه الإمكانية خاطئة، أعط تلميحًا مرئيًا لتغميق الجهاز."
+        "ar": "عندما تكون هذه الإمكانية خاطئة، أعط تلميحًا مرئيًا لتغميق الجهاز.",
+        "nl": "Als deze mogelijkheid 'false' is, geef dan een visuele hint om het apparaat grijs te maken."
       }
     }
   },

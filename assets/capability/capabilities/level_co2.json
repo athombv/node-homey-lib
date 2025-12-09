@@ -12,7 +12,8 @@
     "es": "Nivel de CO₂",
     "fr": "Niveau de CO₂",
     "no": "CO₂-nivå",
-    "ar": "مستوى ثاني أكسيد الكربون"
+    "ar": "مستوى ثاني أكسيد الكربون",
+    "de": "CO₂-Gehalt"
   },
   "desc": {
     "en": "The level of CO₂ in the air.",
@@ -26,7 +27,8 @@
     "es": "El nivel de CO₂ en el aire.",
     "fr": "Le niveau de CO₂ dans l'air.",
     "no": "Nivået av CO₂ i luften.",
-    "ar": "مستوى ثاني أكسيد الكربون في الهواء."
+    "ar": "مستوى ثاني أكسيد الكربون في الهواء.",
+    "de": "Der CO₂-Gehalt in der Luft."
   },
   "values": [
     {
@@ -43,7 +45,8 @@
         "es": "Bajo",
         "fr": "Faible",
         "no": "Lavt",
-        "ar": "منخفض"
+        "ar": "منخفض",
+        "de": "Niedrig"
       }
     },
     {
@@ -60,7 +63,8 @@
         "es": "Intermedio",
         "fr": "Moyen",
         "no": "Middels",
-        "ar": "متوسط"
+        "ar": "متوسط",
+        "de": "Mittel"
       }
     },
     {
@@ -77,7 +81,8 @@
         "es": "Alto",
         "fr": "Élevé",
         "no": "Høyt",
-        "ar": "عالي"
+        "ar": "عالي",
+        "de": "Hoch"
       }
     },
     {
@@ -94,7 +99,8 @@
         "es": "Crítico",
         "fr": "Critique",
         "no": "Kritisk",
-        "ar": "حرج"
+        "ar": "حرج",
+        "de": "Kritisch"
       }
     }
   ],
@@ -119,7 +125,8 @@
           "es": "El nivel de CO₂ ha cambiado a",
           "fr": "Le niveau de CO₂ est passé à",
           "no": "CO₂-nivået ble endret til",
-          "ar": "تم تغيير مستوى ثاني أكسيد الكربون إلى"
+          "ar": "تم تغيير مستوى ثاني أكسيد الكربون إلى",
+          "de": "Der CO₂-Gehalt hat sich geändert auf"
         },
         "args": [
           {
@@ -145,7 +152,8 @@
           "es": "El nivel de CO₂ !{{es|no es}}",
           "fr": "Le niveau de CO₂ !{{est|n'est pas}}",
           "no": "CO₂-nivået !{{er|er ikke}}",
-          "ar": "مستوى ثاني أكسيد الكربون !{{هو|ليس}}"
+          "ar": "مستوى ثاني أكسيد الكربون !{{هو|ليس}}",
+          "de": "Der CO₂-Gehalt !{{ist|ist nicht}}"
         },
         "args": [
           {

@@ -12,7 +12,8 @@
     "es": "Índice de COVT",
     "fr": "Indice TVOC",
     "no": "TVOC-indeks",
-    "ar": "مؤشر المركبات العضوية المتطايرة الإجمالية"
+    "ar": "مؤشر المركبات العضوية المتطايرة الإجمالية",
+    "de": "TVOC-Index"
   },
   "insights": true,
   "desc": {
@@ -27,7 +28,8 @@
     "es": "Índice de compuestos orgánicos volátiles en total",
     "fr": "Indice des composés organiques volatils totaux",
     "no": "Indeks for total mengde flyktige organiske forbindelser",
-    "ar": "مؤشر المركبات العضوية المتطايرة الإجمالية"
+    "ar": "مؤشر المركبات العضوية المتطايرة الإجمالية",
+    "de": "Index der gesamten flüchtigen organischen Verbindungen"
   },
   "chartType": "spline",
   "color": "#E02020",
@@ -50,7 +52,8 @@
           "sv": "TVOC-indexvärdet har ändrats",
           "es": "El índice de TVOC ha cambiado",
           "fr": "La valeur de l'indice TVOC a changé",
-          "ar": "تم تغيير مؤشر المركبات العضوية المتطايرة الإجمالية"
+          "ar": "تم تغيير مؤشر المركبات العضوية المتطايرة الإجمالية",
+          "de": "Der TVOC-Index hat sich geändert"
         },
         "tokens": [
           {

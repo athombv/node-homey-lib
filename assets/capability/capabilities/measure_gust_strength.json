@@ -20,7 +20,15 @@
     "ru": "км/ч",
     "ko": "km/h",
     "no": "km/t",
-    "ar": "km/h"
+    "ar": "km/h",
+    "da": "km/t",
+    "de": "km/h",
+    "es": "km/h",
+    "fr": "km/h",
+    "it": "km/h",
+    "nl": "km/u",
+    "pl": "km/h",
+    "sv": "km/h"
   },
   "insights": true,
   "desc": {

@@ -12,7 +12,8 @@
     "sv": "Belysningslarm",
     "es": "Alarma de luz",
     "fr": "Alarme de lumière",
-    "ar": "إنذار الضوء"
+    "ar": "إنذار الضوء",
+    "de": "Lichtalarm"
   },
   "desc": {
     "en": "True when light is detected.",
@@ -26,7 +27,8 @@
     "sv": "Sant när ljus detekteras.",
     "es": "Activado cuando se detecta luz.",
     "fr": "Se déclenche lorsque de la lumière est détectée.",
-    "ar": "صحيح عند اكتشاف ضوء."
+    "ar": "صحيح عند اكتشاف ضوء.",
+    "de": "Wahr, wenn Licht erkannt wird."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "sv": "Ljus detekterades",
     "es": "Se ha detectado luz",
     "fr": "De la lumière a été détectée",
-    "ar": "تم اكتشاف ضوء"
+    "ar": "تم اكتشاف ضوء",
+    "de": "Licht wurde erkannt"
   },
   "insightsTitleFalse": {
     "en": "Light was no longer detected",
@@ -55,7 +58,8 @@
     "sv": "Ljus detekterades inte längre",
     "es": "No hay luz detectada",
     "fr": "La lumière n'est plus détectée",
-    "ar": "لم يعد يتم اكتشاف ضوء"
+    "ar": "لم يعد يتم اكتشاف ضوء",
+    "de": "Licht wurde nicht mehr erkannt"
   },
   "getable": true,
   "setable": false,
@@ -78,7 +82,8 @@
           "sv": "Ljus detekteras",
           "es": "Se detecta luz",
           "fr": "De la lumière est détectée",
-          "ar": "تم اكتشاف ضوء"
+          "ar": "تم اكتشاف ضوء",
+          "de": "Licht wird erkannt"
         }
       },
       {
@@ -95,7 +100,8 @@
           "sv": "Ljus detekteras inte längre",
           "es": "Ya no se detecta luz",
           "fr": "La lumière n'est plus détectée",
-          "ar": "لم يعد يتم اكتشاف ضوء"
+          "ar": "لم يعد يتم اكتشاف ضوء",
+          "de": "Licht wird nicht mehr erkannt"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "sv": "Ljus !{{har|har inte}} detekterats",
           "es": "!{{Se detecta|No se detecta}} luz",
           "fr": "Lumière !{{détectée|non détectée}}",
-          "ar": "الضوء !{{تم|لم يتم}} اكتشافه"
+          "ar": "الضوء !{{تم|لم يتم}} اكتشافه",
+          "de": "Licht !{{wird|wird nicht}} erkannt"
         }
       }
     ]

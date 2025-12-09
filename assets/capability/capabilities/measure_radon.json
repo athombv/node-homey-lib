@@ -12,7 +12,8 @@
     "es": "Radón",
     "fr": "Radon",
     "no": "Radon",
-    "ar": "الرادون"
+    "ar": "الرادون",
+    "de": "Radon"
   },
   "units": {
     "en": "Bq/m³",
@@ -26,7 +27,8 @@
     "es": "Bq/m³",
     "fr": "Bq/m³",
     "no": "Bq/m³",
-    "ar": "Bq/m³"
+    "ar": "Bq/m³",
+    "de": "Bq/m³"
   },
   "insights": true,
   "desc": {
@@ -41,7 +43,8 @@
     "es": "Radón en becquerelios por metro cúbico (Bq/m³)",
     "fr": "Radon en Becquerel par mètre cube (Bq/m³)",
     "no": "Radon i becquerel per kubikkmeter (Bq/m³)",
-    "ar": "الرادون بالبيكيريل لكل متر مكعب (Bq/m³)"
+    "ar": "الرادون بالبيكيريل لكل متر مكعب (Bq/m³)",
+    "de": "Radon in Becquerel pro Kubikmeter (Bq/m³)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -65,7 +68,8 @@
           "sv": "Radonvärdet har ändrats",
           "es": "El nivel de radón ha cambiado",
           "fr": "La valeur du radon a changé",
-          "ar": "تم تغيير مستوى الرادون"
+          "ar": "تم تغيير مستوى الرادون",
+          "de": "Der Radonwert hat sich geändert"
         },
         "tokens": [
           {

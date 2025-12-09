@@ -12,7 +12,8 @@
     "ru": "Сигнал о заполненности контейнера",
     "sv": "Larm om full behållare",
     "no": "Alarm om full støvbeholder",
-    "ar": "إنذار امتلاء سلة المهملات"
+    "ar": "إنذار امتلاء سلة المهملات",
+    "de": "Alarm bei vollem Behälter"
   },
   "desc": {
     "en": "True when the bin is full",
@@ -26,7 +27,8 @@
     "ru": "Значение «истина», когда контейнер заполнен",
     "sv": "Sant när behållaren är full",
     "no": "Sann når støvbeholderen er full",
-    "ar": "صحيح عندما تكون سلة المهملات ممتلئة"
+    "ar": "صحيح عندما تكون سلة المهملات ممتلئة",
+    "de": "Wahr, wenn der Behälter voll ist"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "ru": "Контейнер был заполнен",
     "sv": "Behållaren var full",
     "no": "Støvbeholderen var full",
-    "ar": "سلة المهملات كانت ممتلئة"
+    "ar": "سلة المهملات كانت ممتلئة",
+    "de": "Der Behälter war voll"
   },
   "insightsTitleFalse": {
     "en": "The bin was not full",
@@ -55,7 +58,8 @@
     "ru": "Контейнер не был заполнен",
     "sv": "Behållaren var inte full",
     "no": "Støvbeholderen var ikke full",
-    "ar": "سلة المهملات لم تكن ممتلئة"
+    "ar": "سلة المهملات لم تكن ممتلئة",
+    "de": "Der Behälter war nicht voll"
   },
   "color": "#9033FC",
   "getable": true,
@@ -78,7 +82,8 @@
           "ru": "Контейнер заполнен",
           "sv": "Behållaren är full",
           "no": "Støvbeholderen er full",
-          "ar": "سلة المهملات ممتلئة"
+          "ar": "سلة المهملات ممتلئة",
+          "de": "Der Behälter ist voll"
         }
       },
       {
@@ -95,7 +100,8 @@
           "ru": "Контейнер больше не заполнен",
           "sv": "Behållaren är inte längre full",
           "no": "Støvbeholderen er ikke lenger full",
-          "ar": "لم تعد سلة المهملات ممتلئة"
+          "ar": "لم تعد سلة المهملات ممتلئة",
+          "de": "Der Behälter ist nicht mehr voll"
         }
       }
     ],
@@ -105,16 +111,17 @@
         "title": {
           "en": "The bin is !{{full|not full}}",
           "nl": "De afvalbak is !{{vol|niet vol}}",
-          "da": "Papirkurven er !{{full|not full}}",
+          "da": "Papirkurven er !{{fuld|ikke fuld}}",
           "es": "El cubo !{{está lleno|no está lleno}} ",
           "it": "Il contenitore è !{{pieno|non pieno}}",
           "ko": "먼지통이 !{{가득 차면|정상 상태이면}}",
-          "pl": "Kosz {{jest pełny|nie jest pełny}}",
+          "pl": "Kosz !{{jest pełny|nie jest pełny}}",
           "ru": "Контейнер !{{заполнен|не заполнен}}",
           "sv": "Behållaren är!{{full|inte full}}",
           "fr": "La poubelle !{{est pleine|n'est pas pleine}}",
           "no": "Støvbeholderen er !{{full|ikke full}}",
-          "ar": "سلة المهملات !{{ممتلئة|ليست ممتلئة}}"
+          "ar": "سلة المهملات !{{ممتلئة|ليست ممتلئة}}",
+          "de": "Der Behälter ist !{{voll|nicht voll}}"
         }
       }
     ]

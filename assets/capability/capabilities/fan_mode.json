@@ -12,7 +12,8 @@
     "es": "Modo ventilador",
     "fr": "Mode de ventilation",
     "no": "Viftemodus",
-    "ar": "وضع المروحة"
+    "ar": "وضع المروحة",
+    "de": "Lüftermodus"
   },
   "values": [
     {
@@ -29,7 +30,8 @@
         "es": "Automático",
         "fr": "Automatique",
         "no": "Automatisk",
-        "ar": "تلقائي"
+        "ar": "تلقائي",
+        "de": "Automatisch"
       }
     },
     {
@@ -46,7 +48,8 @@
         "sv": "På",
         "es": "Activado",
         "fr": "Activé",
-        "ar": "يعمل"
+        "ar": "يعمل",
+        "de": "Ein"
       }
     },
     {
@@ -63,7 +66,8 @@
         "sv": "Av",
         "es": "Desactivado",
         "fr": "Désactivé",
-        "ar": "متوقف"
+        "ar": "متوقف",
+        "de": "Aus"
       }
     }
   ],
@@ -87,7 +91,8 @@
           "sv": "Fläktläget har ändrats till",
           "es": "El modo ventilador ha cambiado a",
           "fr": "Le mode de ventilation est passé à=Le mode de ventilation est passé à",
-          "ar": "تم تغيير وضع المروحة إلى"
+          "ar": "تم تغيير وضع المروحة إلى",
+          "de": "Der Lüftermodus wurde geändert auf"
         },
         "args": [
           {
@@ -113,7 +118,8 @@
           "sv": "Fläktläge !{{är|är inte}}",
           "es": "El modo ventilador !{{está|no está}} ",
           "fr": "Le mode de ventilation !{{est|n'est pas}}",
-          "ar": "وضع المروحة !{{هو|ليس}}"
+          "ar": "وضع المروحة !{{هو|ليس}}",
+          "de": "Der Lüftermodus !{{ist|ist nicht}}"
         },
         "args": [
           {
@@ -139,7 +145,8 @@
           "sv": "Ställ in fläktläget på",
           "es": "Ajustar el modo de ventilador en",
           "fr": "Définir le mode de ventilation sur",
-          "ar": "ضبط وضع المروحة إلى"
+          "ar": "ضبط وضع المروحة إلى",
+          "de": "Stelle den Lüftermodus auf"
         },
         "args": [
           {

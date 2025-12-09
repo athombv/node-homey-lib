@@ -12,7 +12,8 @@
     "sv": "Förlorat larm",
     "es": "Alarma de pérdida",
     "fr": "Alarme de perte",
-    "ar": "إنذار الفقدان"
+    "ar": "إنذار الفقدان",
+    "de": "Alarm für „Verloren“"
   },
   "desc": {
     "en": "True when the device is lost.",
@@ -26,7 +27,8 @@
     "sv": "Sant när enheten förloras.",
     "es": "Activado cuando se ha perdido el dispositivo.",
     "fr": "Se déclenche lorsque l'appareil est perdu.",
-    "ar": "صحيح عندما يكون الجهاز مفقودًا."
+    "ar": "صحيح عندما يكون الجهاز مفقودًا.",
+    "de": "Wahr, wenn das Gerät verloren gegangen ist."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "sv": "Förlorades",
     "es": "Estaba perdido",
     "fr": "Était perdu",
-    "ar": "كان مفقوداً"
+    "ar": "كان مفقوداً",
+    "de": "War verloren"
   },
   "insightsTitleFalse": {
     "en": "Was no longer lost",
@@ -55,7 +58,8 @@
     "sv": "Var inte längre förlorad",
     "es": "Ya no estaba perdido",
     "fr": "N'était plus perdu",
-    "ar": "لم يعد مفقوداً"
+    "ar": "لم يعد مفقوداً",
+    "de": "War nicht mehr verloren"
   },
   "color": "#9033FC",
   "getable": true,
@@ -78,7 +82,8 @@
           "sv": "Är förlorad",
           "es": "Se ha perdido",
           "fr": "Est perdu",
-          "ar": "مفقود"
+          "ar": "مفقود",
+          "de": "Ist verloren"
         }
       },
       {
@@ -95,7 +100,8 @@
           "sv": "Är inte längre förlorad",
           "es": "Ya no está perdido",
           "fr": "N'est plus perdu",
-          "ar": "لم يعد مفقوداً"
+          "ar": "لم يعد مفقوداً",
+          "de": "Ist nicht mehr verloren"
         }
       }
     ],
@@ -112,9 +118,10 @@
           "pl": "!{{jest zgubione|nie jest zgubione}} ",
           "ru": "Устройство !{{потеряно|не потеряно}}",
           "sv": "Är !{{förlorad|inte förlorad}}",
-          "es": "{{Se ha perdido|Ya no esta perdido}}",
+          "es": "!{{Se ha perdido|Ya no esta perdido}}",
           "fr": "Est !{{connectée|déconnectée}}",
-          "ar": "هو !{{مفقود|غير مفقود}}"
+          "ar": "هو !{{مفقود|غير مفقود}}",
+          "de": "Ist !{{verloren|nicht verloren}}"
         }
       }
     ]

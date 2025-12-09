@@ -20,6 +20,13 @@
     "pl": "Użyj tej klasy urządzeń dla bram garażowych, zwykle razem ze zdolnością „garagedoor_closed”.",
     "ko": "이 디바이스 클래스는 보통 'garagedoor_closed' 기능을 갖춘 차고 문에 사용합니다.",
     "no": "Bruk denne enhetsklassen for garasjeporter, vanligvis sammen med funksjonen «garagedoor_closed».",
-    "ar": "استخدم فئة الجهاز هذه لأبواب المرآب، عادةً مع إمكانية 'garagedoor_closed'."
+    "ar": "استخدم فئة الجهاز هذه لأبواب المرآب، عادةً مع إمكانية 'garagedoor_closed'.",
+    "da": "Brug denne enhedsklasse til garageporte, normalt sammen med funktionen `garagedoor_closed`.",
+    "de": "Verwende diese Geräteklasse für Garagentore, in der Regel in Verbindung mit der Funktion „garagedoor_closed“.",
+    "es": "Utiliza esta clase de dispositivos para puertas de garaje (generalmente junto con la capacidad \"garagedoor_closed\").",
+    "fr": "Utilisez cette classe d'appareils pour les portes de garage, généralement en association avec la fonctionnalité `garagedoor_closed`.",
+    "it": "Utilizza questa classe di dispositivi per le porte del garage, di solito insieme alla funzionalità `garagedoor_closed`.",
+    "nl": "Gebruik deze apparaatklasse voor garagedeuren, meestal samen met de optie 'garagedoor_closed'.",
+    "sv": "Använd den här enhetsklassen för garageportar, vanligtvis tillsammans med funktionen `garagedoor_closed`."
   }
 }

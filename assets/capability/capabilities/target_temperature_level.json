@@ -12,7 +12,8 @@
     "es": "Nivel de temperatura deseado",
     "fr": "Niveau de température cible",
     "no": "Ønsket temperaturnivå",
-    "ar": "مستوى درجة الحرارة المستهدف"
+    "ar": "مستوى درجة الحرارة المستهدف",
+    "de": "Zieltemperaturniveau"
   },
   "desc": {
     "en": "The target temperature level of the appliance.",
@@ -26,7 +27,8 @@
     "es": "El nivel de temperatura deseado del dispositivo.",
     "fr": "Le niveau de température cible de l'appareil.",
     "no": "Ønsket temperaturnivå for apparatet.",
-    "ar": "مستوى درجة الحرارة المستهدف للجهاز."
+    "ar": "مستوى درجة الحرارة المستهدف للجهاز.",
+    "de": "Das Zieltemperaturniveau des Geräts."
   },
   "values": [
     {
@@ -43,7 +45,8 @@
         "es": "Bajo",
         "fr": "Faible",
         "no": "Lavt",
-        "ar": "منخفض"
+        "ar": "منخفض",
+        "de": "Niedrig"
       }
     },
     {
@@ -60,7 +63,8 @@
         "es": "Intermedio",
         "fr": "Moyen",
         "no": "Middels",
-        "ar": "متوسط"
+        "ar": "متوسط",
+        "de": "Mittel"
       }
     },
     {
@@ -77,7 +81,8 @@
         "es": "Alto",
         "fr": "Élevé",
         "no": "Høyt",
-        "ar": "عالي"
+        "ar": "عالي",
+        "de": "Hoch"
       }
     }
   ],
@@ -102,7 +107,8 @@
           "es": "El nivel de temperatura deseado ha cambiado a",
           "fr": "Le niveau de température cible est passé à",
           "no": "Ønsket temperaturnivå ble endret til",
-          "ar": "تم تغيير مستوى درجة الحرارة المستهدف إلى"
+          "ar": "تم تغيير مستوى درجة الحرارة المستهدف إلى",
+          "de": "Das Zieltemperaturniveau wurde geändert auf"
         },
         "args": [
           {
@@ -128,7 +134,8 @@
           "es": "El nivel de temperatura deseado !{{es|no es}}",
           "fr": "Le niveau de température cible !{{est|n'est pas}}",
           "no": "Ønsket temperaturnivå !{{er|er ikke}}",
-          "ar": "مستوى درجة الحرارة المستهدف !{{هو|ليس}}"
+          "ar": "مستوى درجة الحرارة المستهدف !{{هو|ليس}}",
+          "de": "Das Zieltemperaturniveau !{{ist|ist nicht}}"
         },
         "args": [
           {
@@ -154,7 +161,8 @@
           "es": "Ajustar el nivel de temperatura deseado a",
           "fr": "Définir le niveau de température cible sur",
           "no": "Sett ønsket temperaturnivå til",
-          "ar": "ضبط مستوى درجة الحرارة المستهدف إلى"
+          "ar": "ضبط مستوى درجة الحرارة المستهدف إلى",
+          "de": "Stelle das Zieltemperaturniveau auf"
         },
         "args": [
           {

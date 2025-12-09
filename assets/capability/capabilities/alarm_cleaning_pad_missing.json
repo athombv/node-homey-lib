@@ -12,7 +12,8 @@
     "ru": "Сигнал об отсутствии чистящей губки",
     "sv": "Rengöringsdyna saknar larm",
     "no": "Alarm om manglende vaskeklut",
-    "ar": "إنذار فقدان وسادة التنظيف"
+    "ar": "إنذار فقدان وسادة التنظيف",
+    "de": "Alarm bei fehlendem Reinigungspad"
   },
   "desc": {
     "en": "True when the cleaning pad is missing.",
@@ -26,7 +27,8 @@
     "ru": "Значение «истина», когда чистящая губка отсутствует.",
     "sv": "Sant när rengöringsdynan saknas.",
     "no": "Sann når vaskekluten mangler.",
-    "ar": "صحيح عندما تكون وسادة التنظيف مفقودة."
+    "ar": "صحيح عندما تكون وسادة التنظيف مفقودة.",
+    "de": "Wahr, wenn das Reinigungspad fehlt."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "ru": "Чистящая губка была удалена",
     "sv": "Rengöringsdynan togs bort",
     "no": "Vaskekluten ble fjernet",
-    "ar": "تمت إزالة وسادة التنظيف"
+    "ar": "تمت إزالة وسادة التنظيف",
+    "de": "Das Reinigungspad wurde entfernt"
   },
   "insightsTitleFalse": {
     "en": "The cleaning pad was placed",
@@ -55,7 +58,8 @@
     "ru": "Чистящая губка была размещена",
     "sv": "Rengöringsdynan placerades",
     "no": "Vaskekluten ble satt på plass",
-    "ar": "تم وضع وسادة التنظيف"
+    "ar": "تم وضع وسادة التنظيف",
+    "de": "Das Reinigungspad wurde platziert"
   },
   "color": "#9033FC",
   "getable": true,
@@ -78,7 +82,8 @@
           "ru": "Чистящая губка была удалена",
           "sv": "Rengöringsdynan togs bort",
           "no": "Vaskekluten ble fjernet",
-          "ar": "تمت إزالة وسادة التنظيف"
+          "ar": "تمت إزالة وسادة التنظيف",
+          "de": "Das Reinigungspad wurde entfernt"
         }
       },
       {
@@ -95,7 +100,8 @@
           "ru": "Чистящая губка была размещена",
           "sv": "Rengöringsdynan placerades",
           "no": "Vaskekluten ble satt på plass",
-          "ar": "تم وضع وسادة التنظيف"
+          "ar": "تم وضع وسادة التنظيف",
+          "de": "Das Reinigungspad wurde platziert"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "sv": "Rengöringsdynan !{{saknas|är på plats}}",
           "fr": "La lingette de nettoyage est !{{manquante|présente}}",
           "no": "Vaskekluten !{{mangler|er på plass}}",
-          "ar": "وسادة التنظيف !{{مفقودة|موجودة}}"
+          "ar": "وسادة التنظيف !{{مفقودة|موجودة}}",
+          "de": "Das Reinigungspad !{{fehlt|ist vorhanden}}"
         }
       }
     ]

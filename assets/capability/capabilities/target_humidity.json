@@ -12,7 +12,8 @@
     "es": "Humedad deseada",
     "fr": "Humidité cible",
     "no": "Ønsket fuktighet",
-    "ar": "الرطوبة المستهدفة"
+    "ar": "الرطوبة المستهدفة",
+    "de": "Ziel-Feuchtigkeit"
   },
   "units": {
     "en": "%",
@@ -26,7 +27,8 @@
     "es": "%",
     "fr": " %",
     "no": "%",
-    "ar": "%"
+    "ar": "%",
+    "de": "%"
   },
   "desc": {
     "en": "The target humidity level in percent.",
@@ -40,7 +42,8 @@
     "es": "El nivel de humedad deseado en porcentaje.",
     "fr": "Le taux d'humidité cible en pourcentage.",
     "no": "Ønsket fuktighetsnivå i prosent.",
-    "ar": "مستوى الرطوبة المستهدف بالنسبة المئوية."
+    "ar": "مستوى الرطوبة المستهدف بالنسبة المئوية.",
+    "de": "Der Zielwert für die Feuchtigkeit in Prozent."
   },
   "min": 0,
   "max": 1,
@@ -66,7 +69,8 @@
           "es": "La humedad deseada ha cambiado",
           "fr": "L'humidité cible a changé",
           "no": "Ønsket fuktighet ble endret",
-          "ar": "تم تغيير الرطوبة المستهدفة"
+          "ar": "تم تغيير الرطوبة المستهدفة",
+          "de": "Die Zielfeuchtigkeit hat sich geändert"
         },
         "tokens": [
           {
@@ -93,7 +97,8 @@
           "es": "Ajustar la humedad",
           "fr": "Définir l'humidité",
           "no": "Angi fuktigheten",
-          "ar": "ضبط الرطوبة"
+          "ar": "ضبط الرطوبة",
+          "de": "Einstellen der Feuchtigkeit"
         },
         "args": [
           {

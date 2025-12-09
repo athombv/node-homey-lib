@@ -12,7 +12,8 @@
     "sv": "Larm för saknad tank",
     "es": "Alarma de depósito no instalado",
     "fr": "Alarme de réservoir manquant",
-    "ar": "إنذار الخزان المفقود"
+    "ar": "إنذار الخزان المفقود",
+    "de": "Alarm bei fehlendem Tank"
   },
   "desc": {
     "en": "True when the tank is missing.",
@@ -26,7 +27,8 @@
     "sv": "Sant när tanken saknas.",
     "es": "Activado cuando el depósito no está presente.",
     "fr": "Se déclenche lorsque le réservoir est manquant.",
-    "ar": "صحيح عندما يكون الخزان مفقودًا."
+    "ar": "صحيح عندما يكون الخزان مفقودًا.",
+    "de": "Richtig, wenn der Tank fehlt."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "sv": "Tank saknades",
     "es": "El depósito no estaba presente",
     "fr": "Le réservoir était manquant",
-    "ar": "كان الخزان مفقوداً"
+    "ar": "كان الخزان مفقوداً",
+    "de": "Tank fehlte"
   },
   "insightsTitleFalse": {
     "en": "Tank was not missing",
@@ -55,7 +58,8 @@
     "sv": "Tanken saknades inte",
     "es": "El depósito estaba colocado",
     "fr": "Le réservoir n'était pas manquant",
-    "ar": "لم يكن الخزان مفقوداً"
+    "ar": "لم يكن الخزان مفقوداً",
+    "de": "Tank fehlte nicht"
   },
   "color": "#0091FF",
   "getable": true,
@@ -78,7 +82,8 @@
           "sv": "Tanken saknas",
           "es": "El depósito no está presente",
           "fr": "Le réservoir est manquant",
-          "ar": "الخزان مفقود"
+          "ar": "الخزان مفقود",
+          "de": "Der Tank fehlt"
         }
       },
       {
@@ -95,7 +100,8 @@
           "sv": "Tanken är på plats",
           "es": "El depósito está colocado",
           "fr": "Le réservoir est placé",
-          "ar": "تم وضع الخزان"
+          "ar": "تم وضع الخزان",
+          "de": "Der Tank wird platziert"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "sv": "Tanken !{{saknas|är på plats}}",
           "es": "El depósito !{{está|no está}} presente",
           "fr": "Le réservoir est !{{manquant|présent}}",
-          "ar": "الخزان !{{مفقود|غير مفقود}}"
+          "ar": "الخزان !{{مفقود|غير مفقود}}",
+          "de": "Tank !{{fehlt|fehlt nicht}}"
         }
       }
     ]
