@@ -12,7 +12,8 @@
     "es": "Valor de ajuste del bombeo",
     "fr": "Point de réglage de la pompe",
     "no": "Pumpens settepunkt",
-    "ar": "نقطة ضبط المضخة"
+    "ar": "نقطة ضبط المضخة",
+    "de": "Sollwert der Pumpe"
   },
   "units": {
     "en": "%",
@@ -26,7 +27,8 @@
     "es": "%",
     "fr": " %",
     "no": "%",
-    "ar": "%"
+    "ar": "%",
+    "de": "%"
   },
   "desc": {
     "en": "The pump setpoint in percentage.",
@@ -40,7 +42,8 @@
     "es": "El valor de ajuste del bombeo en porcentaje.",
     "fr": "Le point de réglage de la pompe en pourcentage.",
     "no": "Pumpens settepunkt i prosent.",
-    "ar": "نقطة ضبط المضخة بالنسبة المئوية."
+    "ar": "نقطة ضبط المضخة بالنسبة المئوية.",
+    "de": "Der Pumpensollwert in Prozent."
   },
   "insights": true,
   "chartType": "spline",
@@ -67,7 +70,8 @@
           "es": "El valor de ajuste del bombeo ha cambiado",
           "fr": "Le point de réglage de la pompe a changé",
           "no": "Pumpens settpunkt ble endret",
-          "ar": "تم تغيير نقطة ضبط المضخة"
+          "ar": "تم تغيير نقطة ضبط المضخة",
+          "de": "Der Sollwert der Pumpe wurde geändert"
         },
         "tokens": [
           {
@@ -94,7 +98,8 @@
           "es": "Configurar el valor de ajuste del bombeo",
           "fr": "Définir le point de réglage de la pompe",
           "no": "Angi pumpens settepunkt",
-          "ar": "ضبط نقطة ضبط المضخة"
+          "ar": "ضبط نقطة ضبط المضخة",
+          "de": "Einstellen des Pumpensollwerts"
         },
         "args": [
           {

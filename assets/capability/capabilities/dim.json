@@ -24,7 +24,15 @@
     "ko": "%",
     "no": "%",
     "ru": "%",
-    "ar": "%"
+    "ar": "%",
+    "da": "%",
+    "de": "%",
+    "es": "%",
+    "fr": "%",
+    "it": "%",
+    "nl": "%",
+    "pl": "%",
+    "sv": "%"
   },
   "color": "#F7B500",
   "getable": true,
@@ -120,7 +128,8 @@
           "ru": "Установить относительный уровень яркости",
           "pl": "Ustaw względny poziom przygaszenia",
           "ko": "상대 밝기 설정",
-          "ar": "ضبط مستوى التعتيم النسبي"
+          "ar": "ضبط مستوى التعتيم النسبي",
+          "sv": "Ställ in relativ dimnivå"
         },
         "hint": {
           "en": "Dim or brighten with respect to the device's current dim-level.",
@@ -129,7 +138,13 @@
           "pl": "Przygaś lub rozjaśnij względem obecnego poziomu przygaszenia urządzenia.",
           "ko": "제품의 현재 디밍 수준에 따라 어둡게 또는 밝게 설정돼요.",
           "no": "Demp eller gjør lysere i forhold til enhetens gjeldende dimmingsnivå.",
-          "ar": "التعتيم أو الإضاءة بالنسبة إلى مستوى التعتيم الحالي للجهاز."
+          "ar": "التعتيم أو الإضاءة بالنسبة إلى مستوى التعتيم الحالي للجهاز.",
+          "da": "Dæmp eller lys op i forhold til enhedens aktuelle dæmpningsniveau.",
+          "de": "Dimmen oder Aufhellen in Bezug auf die aktuelle Dimmstufe des Geräts.",
+          "es": "Atenúa o ilumina con respecto al nivel de atenuación actual del dispositivo.",
+          "fr": "Diminuez ou augmentez la luminosité par rapport au niveau actuel de l'appareil.",
+          "it": "Attenua o aumenta rispetto all'attuale livello di intensità luminosa del dispositivo",
+          "sv": "Dimma eller ljusa upp med avseende på enhetens aktuella dimnivå."
         },
         "args": [
           {

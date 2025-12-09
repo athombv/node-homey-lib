@@ -38,7 +38,7 @@
         "nl": "Laag",
         "da": "Lavt",
         "it": "Basso",
-        "ko": "낮음",
+        "ko": "약하게",
         "pl": "Niski",
         "ru": "Низкая",
         "sv": "Låg",
@@ -74,7 +74,7 @@
         "nl": "Extra",
         "da": "Ekstra",
         "it": "Extra",
-        "ko": "많이",
+        "ko": "강력",
         "pl": "Wyższy",
         "ru": "Повышенная",
         "sv": "Extra",
@@ -151,8 +151,8 @@
           "nl": "De droogte !{{is|is niet}}",
           "no": "Tørkenivået !{{er|er ikke}}",
           "pl": "Suchość !{{jest|nie jest}}",
-          "ru": "Степень сухости !{{is|is not}}",
-          "sv": "Torrheten !{{is|is not}}"
+          "ru": "Степень сухости !{{ | не}}",
+          "sv": "Torrheten !{{är|är inte}}"
         },
         "args": [
           {

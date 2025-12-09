@@ -12,7 +12,8 @@
     "sv": "Närvarolarm",
     "es": "Alarma de presencia",
     "fr": "Alarme de présence",
-    "ar": "إنذار الوجود"
+    "ar": "إنذار الوجود",
+    "de": "Anwesenheitsalarm"
   },
   "desc": {
     "en": "True when presence has been detected.",
@@ -26,7 +27,8 @@
     "sv": "True när närvaro har detekterats.",
     "es": "Activado cuando se detecta presencia.",
     "fr": "Se déclenche lorsqu'une présence a été détectée.",
-    "ar": "صحيح عند اكتشاف وجود."
+    "ar": "صحيح عند اكتشاف وجود.",
+    "de": "Wahr, wenn Anwesenheit erkannt wurde."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "sv": "Närvarolarm aktiverat",
     "es": "Alarma de presencia activada",
     "fr": "Alarme de présence activée",
-    "ar": "تم تشغيل إنذار الوجود"
+    "ar": "تم تشغيل إنذار الوجود",
+    "de": "Anwesenheitsalarm eingeschaltet"
   },
   "insightsTitleFalse": {
     "en": "Presence Alarm turned off",
@@ -55,7 +58,8 @@
     "sv": "Närvarolarm inaktiverat",
     "es": "Alarma de presencia desactivada",
     "fr": "Alarme de présence désactivée",
-    "ar": "تم إيقاف إنذار الوجود"
+    "ar": "تم إيقاف إنذار الوجود",
+    "de": "Anwesenheitsalarm ausgeschaltet"
   },
   "color": "#32C5FF",
   "getable": true,
@@ -78,7 +82,8 @@
           "sv": "Närvarolarmet aktiverat",
           "es": "La alarma de presencia se ha activado",
           "fr": "L'alarme de présence s'est activée",
-          "ar": "تم تشغيل إنذار الوجود"
+          "ar": "تم تشغيل إنذار الوجود",
+          "de": "Der Anwesenheitsalarm ist eingeschaltet"
         }
       },
       {
@@ -95,7 +100,8 @@
           "sv": "Närvarolarmet inaktiverat",
           "es": "La alarma de presencia se ha desactivado",
           "fr": "L'alarme de présence s'est désactivée",
-          "ar": "تم إيقاف إنذار الوجود"
+          "ar": "تم إيقاف إنذار الوجود",
+          "de": "Der Anwesenheitsalarm ist ausgeschaltet"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "sv": "Närvarolarmet är !{{på|av}}",
           "es": "La alarma de presencia está !{{activada|desactivada}}",
           "fr": "L'alarme de présence est !{{activée|désactivée}}",
-          "ar": "إنذار الوجود !{{يعمل|لا يعمل}}"
+          "ar": "إنذار الوجود !{{يعمل|لا يعمل}}",
+          "de": "Der Anwesenheitsalarm ist !{{an|aus}}"
         }
       }
     ]

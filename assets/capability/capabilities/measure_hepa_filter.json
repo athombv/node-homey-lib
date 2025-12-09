@@ -12,7 +12,8 @@
     "sv": "HEPA-filter",
     "es": "Filtro HEPA",
     "fr": "Filtre HEPA",
-    "ar": "فلتر HEPA"
+    "ar": "فلتر HEPA",
+    "de": "HEPA-Filter"
   },
   "units": {
     "en": "%",
@@ -26,7 +27,8 @@
     "sv": "%",
     "es": "%",
     "fr": " %",
-    "ar": "%"
+    "ar": "%",
+    "de": "%"
   },
   "desc": {
     "en": "The HEPA filter level in percent.",
@@ -40,7 +42,8 @@
     "sv": "HEPA-filtrets nivå i procent.",
     "es": "El nivel del filtro HEPA en porcentaje.",
     "fr": "Le niveau du filtre HEPA en pourcentage.",
-    "ar": "مستوى فلتر HEPA بالنسبة المئوية."
+    "ar": "مستوى فلتر HEPA بالنسبة المئوية.",
+    "de": "Der HEPA-Filterwert in Prozent."
   },
   "min": 0,
   "max": 100,
@@ -65,7 +68,8 @@
           "sv": "HEPA-filternivån ändrades",
           "es": "El nivel del filtro HEPA ha cambiado",
           "fr": "Le niveau du filtre HEPA est passé à",
-          "ar": "تم تغيير مستوى فلتر HEPA"
+          "ar": "تم تغيير مستوى فلتر HEPA",
+          "de": "Der HEPA-Filterwert hat sich geändert"
         },
         "tokens": [
           {

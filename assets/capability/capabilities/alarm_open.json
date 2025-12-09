@@ -111,7 +111,7 @@
         "title": {
           "en": "The open alarm is !{{on|off}}",
           "ar": "الإنذار المفتوح هو !{{on|off}}",
-          "da": "Den åbne alarm er !{{on|off}}",
+          "da": "Den åbne alarm er !{{tændt|slukket}}",
           "de": "Der Alarm „Geöffnet“ ist !{{an|aus}}",
           "es": "La alarma de apertura está !{{activada|desactivada}}",
           "fr": "L'alarme de détection d'ouverture est !{{activée|désactivée}}",
@@ -120,8 +120,8 @@
           "nl": "Het open-alarm staat !{{aan|uit}}",
           "no": "Åpen-alarmen er !{{på|av}}",
           "pl": "Alarm otwarcia jest !{{włączony|wyłączony}}",
-          "ru": "Сигнализация открытия !{{on|off}}",
-          "sv": "Det öppna larmet är !{{on|off}}"
+          "ru": "Сигнализация открытия !{{включена|выключена}}",
+          "sv": "Det öppna larmet är !{{på|av}}"
         }
       }
     ]

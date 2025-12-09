@@ -12,7 +12,8 @@
     "es": "Humedad máxima deseada",
     "fr": "Humidité cible maximale",
     "no": "Maksimum ønsket fuktighet",
-    "ar": "الحد الأقصى للرطوبة المستهدفة"
+    "ar": "الحد الأقصى للرطوبة المستهدفة",
+    "de": "Maximale Zielfeuchtigkeit"
   },
   "units": {
     "en": "%",
@@ -26,7 +27,8 @@
     "es": "%",
     "fr": " %",
     "no": "%",
-    "ar": "%"
+    "ar": "%",
+    "de": "%"
   },
   "desc": {
     "en": "The high end of the target humidity level in percent.",
@@ -40,7 +42,8 @@
     "es": "El valor superior del nivel de humedad deseada en porcentaje.",
     "fr": "Le niveau maximal de l'humidité cible en pourcentage.",
     "no": "Maksimum ønsket fuktighetsnivå i prosent.",
-    "ar": "الحد الأعلى لمستوى الرطوبة المستهدف بالنسبة المئوية."
+    "ar": "الحد الأعلى لمستوى الرطوبة المستهدف بالنسبة المئوية.",
+    "de": "Das obere Ende der angestrebten Feuchtigkeit in Prozent."
   },
   "insights": true,
   "chartType": "stepLine",
@@ -67,7 +70,8 @@
           "sv": "Den högsta önskade luftfuktigheten har ändrats",
           "es": "La humedad máxima deseada ha cambiado",
           "fr": "L'humidité cible maximale a changé",
-          "ar": "تم تغيير الحد الأقصى للرطوبة المستهدفة"
+          "ar": "تم تغيير الحد الأقصى للرطوبة المستهدفة",
+          "de": "Die maximale Zielfeuchtigkeit wurde geändert"
         },
         "tokens": [
           {
@@ -94,7 +98,8 @@
           "es": "Ajustar la humedad máxima deseada",
           "fr": "Définir l'humidité cible maximale",
           "no": "Angi maksimum ønsket fuktighet",
-          "ar": "ضبط الحد الأقصى للرطوبة المستهدفة"
+          "ar": "ضبط الحد الأقصى للرطوبة المستهدفة",
+          "de": "Einstellung der maximalen Zielfeuchtigkeit"
         },
         "args": [
           {
