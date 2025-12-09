@@ -27,7 +27,8 @@
     "ru": "Установите позицию оконных навесов. 0% означает закрыто, 100% означает открыто",
     "pl": "Ustaw pozycję osłon okiennych. 0% oznacza zasunięte, 100% rozchylone",
     "ko": "창문 커버 위치를 설정합니다. 0%는 닫힘, 100%는 열림입니다.",
-    "ar": "ضبط موضع أغطية النوافذ. 0% مغلق، 100% مفتوح"
+    "ar": "ضبط موضع أغطية النوافذ. 0% مغلق، 100% مفتوح",
+    "nl": "Stel de positie van de raambekleding in. 0% is gesloten, 100% is open"
   },
   "chartType": "stepLine",
   "min": 0,
@@ -38,7 +39,15 @@
     "ko": "%",
     "no": "%",
     "ru": "%",
-    "ar": "%"
+    "ar": "%",
+    "da": "%",
+    "de": "%",
+    "es": "%",
+    "fr": "%",
+    "it": "%",
+    "nl": "%",
+    "pl": "%",
+    "sv": "%"
   },
   "color": "#F5B207",
   "getable": true,
@@ -113,7 +122,13 @@
           "pl": "Zmień pozycję na rozchylone (100%), zasunięte (0%) lub wartość pomiędzy.",
           "ko": "위치를 열림(100%), 닫힘(0%) 또는 그 사이의 값으로 변경해요.",
           "no": "Endre posisjonen til åpen (100 %), lukket (0 %) eller en verdi mellom disse.",
-          "ar": "تغيير الموضع إلى مفتوح (100%)، مغلق (0%)، أو قيمة بينهما."
+          "ar": "تغيير الموضع إلى مفتوح (100%)، مغلق (0%)، أو قيمة بينهما.",
+          "da": "Skift position til åben (100 %), lukket (0 %) eller en værdi midt imellem.",
+          "de": "Ändere die Position auf offen (100 %), geschlossen (0 %) oder einen Wert dazwischen.",
+          "es": "Cambia la posición a abierto (100 %), cerrado (0 %) o un valor intermedio.",
+          "fr": "Réglez la position sur ouvert (100 %), fermé (0 %) ou une valeur intermédiaire.",
+          "it": "Modifica la posizione su aperto (100%), chiuso (0%) o su un valore intermedio.",
+          "sv": "Ändra positionen till öppen (100 %), stängd (0 %) eller ett värde däremellan."
         },
         "args": [
           {

@@ -260,8 +260,8 @@
           "nl": "De ovenstand !{{is|is niet}}",
           "no": "Ovnsmodusen !{{er|er ikke}}",
           "pl": "Tryb piekarnika !{{jest|nie jest}}",
-          "ru": "Режим духовки !{{is|is not}}",
-          "sv": "Ugnsläget !{{is|is not}}"
+          "ru": "Режим духовки !{{ | не}}",
+          "sv": "Ugnsläget !{{är|är inte}}"
         },
         "args": [
           {

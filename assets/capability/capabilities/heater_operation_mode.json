@@ -12,7 +12,8 @@
     "es": "Modo de calefacción",
     "fr": "Mode de fonctionnement du chauffage",
     "no": "Driftsmodus for varmeovn",
-    "ar": "وضع تشغيل السخان"
+    "ar": "وضع تشغيل السخان",
+    "de": "Betriebsmodus des Heizgeräts"
   },
   "values": [
     {
@@ -29,7 +30,8 @@
         "es": "Eco",
         "fr": "Économique",
         "no": "Øko",
-        "ar": "اقتصادي"
+        "ar": "اقتصادي",
+        "de": "Öko"
       }
     },
     {
@@ -46,7 +48,8 @@
         "es": "Eléctrico",
         "fr": "Électrique",
         "no": "Elektrisk",
-        "ar": "كهربائي"
+        "ar": "كهربائي",
+        "de": "Elektrisch"
       }
     },
     {
@@ -63,7 +66,8 @@
         "es": "Rendimiento",
         "fr": "Performance",
         "no": "Ytelse",
-        "ar": "أداء"
+        "ar": "أداء",
+        "de": "Leistung"
       }
     },
     {
@@ -80,7 +84,8 @@
         "es": "Alta demanda",
         "fr": "Forte demande",
         "no": "Høy etterspørsel",
-        "ar": "طلب عالٍ"
+        "ar": "طلب عالٍ",
+        "de": "Hoher Bedarf"
       }
     },
     {
@@ -97,7 +102,8 @@
         "sv": "Värmepump",
         "es": "Bomba de calor",
         "fr": "Pompe à chaleur",
-        "ar": "مضخة حرارية"
+        "ar": "مضخة حرارية",
+        "de": "Wärmepumpe"
       }
     },
     {
@@ -114,7 +120,8 @@
         "sv": "Gas",
         "es": "Gas",
         "fr": "Gaz",
-        "ar": "غاز"
+        "ar": "غاز",
+        "de": "Gas"
       }
     },
     {
@@ -131,7 +138,8 @@
         "sv": "Av",
         "es": "Desactivado",
         "fr": "Désactivé",
-        "ar": "إيقاف التشغيل"
+        "ar": "إيقاف التشغيل",
+        "de": "Aus"
       }
     }
   ],
@@ -155,7 +163,8 @@
           "sv": "Värmarens driftläge har ändrats till",
           "es": "El modo de calefacción ha cambiado a",
           "fr": "Le mode de fonctionnement du chauffage est passé à",
-          "ar": "تم تغيير وضع تشغيل السخان إلى"
+          "ar": "تم تغيير وضع تشغيل السخان إلى",
+          "de": "Der Betriebsmodus des Heizgeräts wurde geändert auf"
         },
         "args": [
           {
@@ -181,7 +190,8 @@
           "es": "El modo de calefacción !{{está|no está}}",
           "fr": "Le mode de fonctionnement du chauffage !{{est|n'est pas}}",
           "no": "Varmeovnens driftsmodus !{{er|er ikke}}",
-          "ar": "وضع تشغيل السخان !{{هو|ليس}}"
+          "ar": "وضع تشغيل السخان !{{هو|ليس}}",
+          "de": "Der Betriebsmodus des Heizgeräts !{{ist|ist nicht}}"
         },
         "args": [
           {
@@ -207,7 +217,8 @@
           "es": "Ajustar el modo de calefacción en",
           "fr": "Définir le mode de fonctionnement du chauffage sur",
           "no": "Sett varmeovnens driftsmodus til",
-          "ar": "ضبط وضع تشغيل السخان إلى"
+          "ar": "ضبط وضع تشغيل السخان إلى",
+          "de": "Stelle den Betriebsmodus des Heizgeräts auf"
         },
         "args": [
           {

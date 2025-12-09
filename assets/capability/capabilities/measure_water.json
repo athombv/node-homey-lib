@@ -20,7 +20,15 @@
     "ru": "Л/мин",
     "ko": "L/min",
     "no": "L/min",
-    "ar": "L/min"
+    "ar": "L/min",
+    "da": "L/min",
+    "de": "L/min",
+    "es": "L/min",
+    "fr": "L/min",
+    "it": "L/min",
+    "nl": "L/min",
+    "pl": "L/min",
+    "sv": "L/min"
   },
   "desc": {
     "en": "Water flow in liters per minute (L/min)",

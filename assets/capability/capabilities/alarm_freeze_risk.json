@@ -111,7 +111,7 @@
         "title": {
           "en": "The freeze risk alarm is !{{on|off}}",
           "ar": "إنذار خطر التجميد هو !{{on|off}}",
-          "da": "Fryserisikoalarmen er !{{on|off}}",
+          "da": "Fryserisikoalarmen er !{{tændt|slukket}}",
           "de": "Alarm für Einfriergefahr ist !{{an|aus}}",
           "es": "La alarma de riesgo de congelación está !{{activada|desactivada}}",
           "fr": "L'alarme de risque de gel est !{{activée|désactivée}}",
@@ -120,8 +120,8 @@
           "nl": "Het vriesgevaaralarm staat !{{aan|uit}}",
           "no": "Frostrisikoalarmen er !{{på|av}}",
           "pl": "Alarm ryzyka zamarznięcia jest !{{włączony|wyłączony}}",
-          "ru": "Сигнализация риска замораживания !{{on|off}}",
-          "sv": "Larmet för frysrisk är !{{on|off}}"
+          "ru": "Сигнализация риска замораживания !{{включена|выключена}}",
+          "sv": "Larmet för frysrisk är !{{på|av}}"
         }
       }
     ]
