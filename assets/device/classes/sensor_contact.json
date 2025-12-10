@@ -1,0 +1,31 @@
+{
+  "title": {
+    "en": "Contact Sensor",
+    "nl": "Contactsensor",
+    "de": "Kontaktsensor",
+    "fr": "Capteur de contact",
+    "it": "Sensore di contatto",
+    "sv": "Kontaktsensor",
+    "no": "Kontaktsensor",
+    "es": "Sensor de contacto",
+    "da": "Kontaktsensor",
+    "ru": "Датчик контакта",
+    "pl": "Czujnik otwarcia",
+    "ko": "접촉 센서",
+    "ar": "مستشعر الاتصال"
+  },
+  "description": {
+    "en": "Use this device class for contact sensors that detect open/close states, such as door and window sensors.",
+    "de": "Nutze diese Geräteklasse für Kontaktsensoren, die Offen/Geschlossen-Zustände erkennen, wie z. B. Tür- und Fenstersensoren.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs de contact qui détectent les états ouvert/fermé, comme les capteurs de porte et de fenêtre.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di contatto che rilevano gli stati aperto/chiuso, come i sensori per porte e finestre.",
+    "sv": "Använd den här enhetsklassen för kontaktsensorer som upptäcker öppna/stängda tillstånd, som dörr- och fönstersensorer.",
+    "no": "Bruk denne enhetsklassen for kontaktsensorer som oppdager åpen/lukket tilstand, som dør- og vindussensorer.",
+    "es": "Utiliza esta clase de dispositivo para los sensores de contacto que detectan estados abierto/cerrado, como sensores de puertas y ventanas.",
+    "da": "Brug denne enhedsklasse til kontaktsensorer der registrerer åben/lukket tilstande, som dør- og vinduesensorer.",
+    "ru": "Используйте этот класс устройств для датчиков контакта, которые определяют состояния открыто/закрыто, например для датчиков дверей и окон.",
+    "pl": "Użyj tej klasy urządzeń dla czujników otwarcia, które wykrywają stany otwarte/zamknięte, takich jak czujniki drzwi i okien.",
+    "ko": "이 디바이스 클래스는 문과 창문 센서 등 열림/닫힘 상태를 감지하는 접촉 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات الاتصال التي تكتشف حالات الفتح/الإغلاق، مثل مستشعرات الأبواب والنوافذ."
+  }
+}

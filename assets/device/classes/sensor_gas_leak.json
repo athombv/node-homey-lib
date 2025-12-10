@@ -1,0 +1,31 @@
+{
+  "title": {
+    "en": "Gas Leak Sensor",
+    "nl": "Gasleksensor",
+    "de": "Gaslecksensor",
+    "fr": "Capteur de fuite de gaz",
+    "it": "Sensore di perdita gas",
+    "sv": "Gasläckagesensor",
+    "no": "Gasslekkasjesensor",
+    "es": "Sensor de fuga de gas",
+    "da": "Gaslækagesensor",
+    "ru": "Датчик утечки газа",
+    "pl": "Czujnik wycieku gazu",
+    "ko": "가스 누출 센서",
+    "ar": "مستشعر تسرب الغاز"
+  },
+  "description": {
+    "en": "Use this device class for gas leak sensors that detect gas leaks and dangerous gas concentrations.",
+    "de": "Nutze diese Geräteklasse für Gaslecksensoren, die Gaslecks und gefährliche Gaskonzentrationen erkennen.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs de fuite de gaz qui détectent les fuites de gaz et les concentrations dangereuses de gaz.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di perdita gas che rilevano perdite di gas e concentrazioni pericolose di gas.",
+    "sv": "Använd den här enhetsklassen för gasläckagesensorer som upptäcker gasläckage och farliga gaskoncentrationer.",
+    "no": "Bruk denne enhetsklassen for gasslekkasjesensorer som oppdager gasslekkasjer og farlige gasskonsentrasjoner.",
+    "es": "Utiliza esta clase de dispositivo para los sensores de fuga de gas que detectan fugas de gas y concentraciones peligrosas de gas.",
+    "da": "Brug denne enhedsklasse til gaslækagesensorer der registrerer gaslækager og farlige gaskoncentrationer.",
+    "ru": "Используйте этот класс устройств для датчиков утечки газа, которые обнаруживают утечки газа и опасные концентрации газа.",
+    "pl": "Użyj tej klasy urządzeń dla czujników wycieku gazu, które wykrywają wycieki gazu i niebezpieczne stężenia gazu.",
+    "ko": "이 디바이스 클래스는 가스 누출과 위험한 가스 농도를 감지하는 가스 누출 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات تسرب الغاز التي تكتشف تسربات الغاز وتركيزات الغاز الخطيرة."
+  }
+}
