@@ -12,7 +12,8 @@
     "sv": "Strömlarm",
     "es": "Alarma de suministro eléctrico",
     "fr": "Alarme d'alimentation électrique",
-    "ar": "إنذار الطاقة"
+    "ar": "إنذار الطاقة",
+    "de": "Stromalarm"
   },
   "desc": {
     "en": "True when power is detected.",
@@ -26,7 +27,8 @@
     "sv": "Sant när strömförsörjning detekteras.",
     "es": "Activado cuando se detecta suministro eléctrico.",
     "fr": "Se déclenche lorsque une alimentation électrique est détectée.",
-    "ar": "صحيح عند اكتشاف طاقة."
+    "ar": "صحيح عند اكتشاف طاقة.",
+    "de": "Wahr, wenn Strom erkannt wird."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "sv": "Strömlarm aktiverat",
     "es": "Alarma de suministro eléctrico activada",
     "fr": "Alarme d'alimentation électrique activée",
-    "ar": "تم تشغيل إنذار الطاقة"
+    "ar": "تم تشغيل إنذار الطاقة",
+    "de": "Stromalarm ist aktiviert"
   },
   "insightsTitleFalse": {
     "en": "Power alarm turned off",
@@ -55,7 +58,8 @@
     "sv": "Strömlarm inaktiverat",
     "es": "Alarma de suministro eléctrico desactivada",
     "fr": "Alarme d'alimentation électrique désactivée",
-    "ar": "تم إيقاف إنذار الطاقة"
+    "ar": "تم إيقاف إنذار الطاقة",
+    "de": "Stromalarm ausgeschaltet"
   },
   "color": "#6DD400",
   "getable": true,
@@ -78,7 +82,8 @@
           "sv": "Strömlarmet aktiverat",
           "es": "La alarma de suministro eléctrico está activada",
           "fr": "L'alarme d'alimentation électrique s'est activée",
-          "ar": "تم تشغيل إنذار الطاقة"
+          "ar": "تم تشغيل إنذار الطاقة",
+          "de": "Der Stromalarm ist aktiviert"
         }
       },
       {
@@ -95,7 +100,8 @@
           "sv": "Strömlarmet inaktiverat",
           "es": "La alarma de suministro eléctrico está desactivada",
           "fr": "L'alarme d'alimentation électrique s'est désactivée",
-          "ar": "تم إيقاف إنذار الطاقة"
+          "ar": "تم إيقاف إنذار الطاقة",
+          "de": "Der Stromalarm wurde ausgeschaltet"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "sv": "Strömlarmet är !{{på|av}}",
           "es": "La alarma de suministro eléctrico está !{{activada|desactivada}}",
           "fr": "L'alarme d'alimentation électrique est !{{activée|désactivée}}",
-          "ar": "إنذار الطاقة !{{يعمل|لا يعمل}}"
+          "ar": "إنذار الطاقة !{{يعمل|لا يعمل}}",
+          "de": "Der Stromalarm ist !{{an|aus}}"
         }
       }
     ]

@@ -11,7 +11,8 @@
     "es": "Detener",
     "fr": "Arrêter",
     "no": "Stopp",
-    "ar": "إيقاف"
+    "ar": "إيقاف",
+    "de": "Stopp"
   },
   "type": "boolean",
   "color": "#9033FC",
@@ -34,7 +35,8 @@
           "es": "Detener",
           "fr": "Arrêter",
           "no": "Stopp",
-          "ar": "إيقاف"
+          "ar": "إيقاف",
+          "de": "Stopp"
         }
       }
     ]

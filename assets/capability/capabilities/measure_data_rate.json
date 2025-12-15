@@ -12,7 +12,8 @@
     "es": "Velocidad de datos",
     "fr": "Débits de données",
     "no": "Bitrate",
-    "ar": "معدل البيانات"
+    "ar": "معدل البيانات",
+    "de": "Datenrate"
   },
   "units": {
     "en": "b/s",
@@ -26,7 +27,8 @@
     "es": "b/s",
     "fr": "b/s",
     "no": "b/s",
-    "ar": "b/s"
+    "ar": "b/s",
+    "de": "b/s"
   },
   "desc": {
     "en": "The data rate in bits per second.",
@@ -40,7 +42,8 @@
     "es": "La velocidad de transmisión de datos en bits por segundo.",
     "fr": "Le débit de données en bits par seconde.",
     "no": "Bitrate i bits per sekund.",
-    "ar": "معدل البيانات بالبت في الثانية."
+    "ar": "معدل البيانات بالبت في الثانية.",
+    "de": "Die Datenrate in Bits pro Sekunde."
   },
   "insights": true,
   "chartType": "spline",
@@ -65,7 +68,8 @@
           "es": "La velocidad de datos ha cambiado",
           "fr": "Le débit de données a changé",
           "no": "Bitraten ble endret",
-          "ar": "تم تغيير معدل البيانات"
+          "ar": "تم تغيير معدل البيانات",
+          "de": "Die Datenrate hat sich geändert"
         },
         "tokens": [
           {

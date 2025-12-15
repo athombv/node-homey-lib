@@ -12,7 +12,8 @@
     "sv": "Vibrationslarm",
     "es": "Alarma de vibración",
     "fr": "Alarme de vibration",
-    "ar": "إنذار الاهتزاز"
+    "ar": "إنذار الاهتزاز",
+    "de": "Vibrationsalarm"
   },
   "desc": {
     "en": "True when vibration is detected.",
@@ -26,7 +27,8 @@
     "sv": "Sant när vibrationer detekteras.",
     "es": "Activado cuando se detecta vibración.",
     "fr": "Se déclenche lorsque des vibrations sont détectées.",
-    "ar": "صحيح عند اكتشاف اهتزاز."
+    "ar": "صحيح عند اكتشاف اهتزاز.",
+    "de": "Wahr, wenn eine Vibration erkannt wird."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "sv": "Vibrationslarmet aktiverat",
     "es": "Alarma de vibración activada",
     "fr": "Alarme de vibration activée",
-    "ar": "تم تشغيل إنذار الاهتزاز"
+    "ar": "تم تشغيل إنذار الاهتزاز",
+    "de": "Vibrationsalarm eingeschaltet"
   },
   "insightsTitleFalse": {
     "en": "Vibration alarm turned off",
@@ -55,7 +58,8 @@
     "sv": "Vibrationslarmet inaktiverat",
     "es": "Alarma de vibración desactivada",
     "fr": "Alarme de vibration désactivée",
-    "ar": "تم إيقاف إنذار الاهتزاز"
+    "ar": "تم إيقاف إنذار الاهتزاز",
+    "de": "Vibrationsalarm ausgeschaltet"
   },
   "color": "#32C5FF",
   "getable": true,
@@ -78,7 +82,8 @@
           "sv": "Vibrationslarmet aktiverat",
           "es": "La alarma de vibración se ha activado",
           "fr": "L'alarme de vibration s'est activée",
-          "ar": "تم تشغيل إنذار الاهتزاز"
+          "ar": "تم تشغيل إنذار الاهتزاز",
+          "de": "Der Vibrationsalarm wurde eingeschaltet"
         }
       },
       {
@@ -95,7 +100,8 @@
           "sv": "Vibrationslarmet inaktiverat",
           "es": "La alarma de vibración se ha desactivado",
           "fr": "L'alarme de vibration s'est désactivée",
-          "ar": "تم إيقاف إنذار الاهتزاز"
+          "ar": "تم إيقاف إنذار الاهتزاز",
+          "de": "Der Vibrationsalarm wurde ausgeschaltet"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "sv": "Vibrationslarmet är !{{av|på}}",
           "es": "La alarma de vibración está !{{activada|desactivada}}",
           "fr": "L'alarme de vibration est !{{activée|désactivée}}",
-          "ar": "إنذار الاهتزاز !{{يعمل|لا يعمل}}"
+          "ar": "إنذار الاهتزاز !{{يعمل|لا يعمل}}",
+          "de": "Der Vibrationsalarm ist !{{an|aus}}"
         }
       }
     ]

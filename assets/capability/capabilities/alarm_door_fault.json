@@ -12,7 +12,8 @@
     "ru": "Сигнал о неисправности двери",
     "sv": "Larm för dörrfel",
     "es": "Alarma de fallo en puerta",
-    "ar": "إنذار عطل الباب"
+    "ar": "إنذار عطل الباب",
+    "de": "Türstörungsalarm"
   },
   "desc": {
     "en": "True when there is an issue with the door or lock.",
@@ -26,7 +27,8 @@
     "ru": "Значение «истина», когда обнаружена проблема с дверью или замком.",
     "sv": "Sant när det finns ett problem med dörren eller låset.",
     "es": "Activado cuando hay un problema con la puerta o la cerradura.",
-    "ar": "صحيح عند وجود مشكلة في الباب أو القفل."
+    "ar": "صحيح عند وجود مشكلة في الباب أو القفل.",
+    "de": "Wahr, wenn es ein Problem mit der Tür oder dem Schloss gibt."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "ru": "Сигнал о неисправности двери включен",
     "sv": "Larm för dörrfel aktiverat",
     "es": "Alarma  de fallo en puerta activada",
-    "ar": "تم تشغيل إنذار عطل الباب"
+    "ar": "تم تشغيل إنذار عطل الباب",
+    "de": "Türstörungsalarm eingeschaltet"
   },
   "insightsTitleFalse": {
     "en": "Door fault alarm turned off",
@@ -55,7 +58,8 @@
     "ru": "Сигнал о неисправности двери выключен",
     "sv": "Larm för dörrfel inaktiverat",
     "es": "Alarma de fallo en puerta desactivada",
-    "ar": "تم إيقاف إنذار عطل الباب"
+    "ar": "تم إيقاف إنذار عطل الباب",
+    "de": "Türstörungsalarm ausgeschaltet"
   },
   "color": "#0082FA",
   "getable": true,
@@ -78,7 +82,8 @@
           "ru": "Сигнал о неисправности двери включен",
           "sv": "Dörrlarmet aktiverat",
           "es": "La alarma de la puerta se ha activado",
-          "ar": "تم تشغيل إنذار الباب"
+          "ar": "تم تشغيل إنذار الباب",
+          "de": "Der Türalarm wurde eingeschaltet"
         }
       },
       {
@@ -95,7 +100,8 @@
           "ru": "Сигнал о неисправности двери выключен",
           "sv": "Dörrlarmet inaktiverat",
           "es": "La alarma de la puerta se ha desactivado",
-          "ar": "تم إيقاف إنذار الباب"
+          "ar": "تم إيقاف إنذار الباب",
+          "de": "Der Türalarm wurde ausgeschaltet"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "sv": "Dörrlarmet är aktiverat !{{på|av}}",
           "es": "La alarma de la puerta está !{{activada|desactivada}}",
           "fr": "L'alarme de porte est !{{activée|désactivée}}",
-          "ar": "إنذار الباب !{{يعمل|لا يعمل}}"
+          "ar": "إنذار الباب !{{يعمل|لا يعمل}}",
+          "de": "Der Türalarm ist !{{an|aus}}"
         }
       }
     ]

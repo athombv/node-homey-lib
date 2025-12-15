@@ -12,7 +12,8 @@
     "sv": "Larm om fel på pumpenhet",
     "es": "Alarma de fallo en el dispositivo de bombeo",
     "fr": "Alarme de défaillance du dispositif de pompage",
-    "ar": "إنذار عطل جهاز المضخة"
+    "ar": "إنذار عطل جهاز المضخة",
+    "de": "Fehleralarm der Pumpvorrichtung"
   },
   "desc": {
     "en": "True when a fault is detected in the pump device.",
@@ -26,7 +27,8 @@
     "sv": "Sant när ett fel har upptäckts i pumpenheten.",
     "es": "Activado cuando se detecta un fallo en el dispositivo de bombeo.",
     "fr": "Se déclenche lorsqu'un défaut est détecté dans l'appareil de pompage.",
-    "ar": "صحيح عند اكتشاف عطل في جهاز المضخة."
+    "ar": "صحيح عند اكتشاف عطل في جهاز المضخة.",
+    "de": "Wahr, wenn ein Fehler in der Pumpvorrichtung erkannt wird."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "sv": "Larm för fel på pumpenheten aktiverat",
     "es": "Alarma de fallo en el dispositivo de bombeo activada",
     "fr": "Alarme de défaut de l'appareil de pompage activée",
-    "ar": "تم تشغيل إنذار عطل جهاز المضخة"
+    "ar": "تم تشغيل إنذار عطل جهاز المضخة",
+    "de": "Fehleralarm der Pumpvorrichtung aktiviert"
   },
   "insightsTitleFalse": {
     "en": "Pump device fault alarm turned off",
@@ -55,7 +58,8 @@
     "sv": "Larmet för fel på pumpenheten inaktiverat",
     "es": "Alarma de fallo en el dispositivo de bombeo desactivada",
     "fr": "Alarme de défaut de l'appareil de pompage désactivée",
-    "ar": "تم إيقاف إنذار عطل جهاز المضخة"
+    "ar": "تم إيقاف إنذار عطل جهاز المضخة",
+    "de": "Fehleralarm der Pumpvorrichtung deaktiviert"
   },
   "color": "#0091FF",
   "getable": true,
@@ -78,7 +82,8 @@
           "sv": "Larmet för fel på pumpenheten aktiverat",
           "es": "Se ha activado la alarma de fallo en el dispositivo de bombeo",
           "fr": "L'alarme de défaut de l'appareil de pompage s'est activée",
-          "ar": "تم تشغيل إنذار عطل جهاز المضخة"
+          "ar": "تم تشغيل إنذار عطل جهاز المضخة",
+          "de": "Der Fehleralarm der Pumpvorrichtung wurde aktiviert."
         }
       },
       {
@@ -95,7 +100,8 @@
           "sv": "Larmet för fel på pumpenheten inaktiverat",
           "es": "La alarma de fallo en el dispositivo de bombeo se ha desactivado",
           "fr": "L'alarme de défaut de l'appareil de pompage s'est désactivée",
-          "ar": "تم إيقاف إنذار عطل جهاز المضخة"
+          "ar": "تم إيقاف إنذار عطل جهاز المضخة",
+          "de": "Der Fehleralarm der Pumpvorrichtung wurde deaktiviert."
         }
       }
     ],
@@ -114,7 +120,8 @@
           "sv": "Larmet för fel på pumpenheten är !{{på|av}}",
           "es": "La alarma de fallo en el dispositivo de bombeo está !{{activada|desactivada}}",
           "fr": "L'alarme de défaut de l'appareil de pompage est !{{activé|désactivé}}",
-          "ar": "إنذار عطل جهاز المضخة !{{يعمل|لا يعمل}}"
+          "ar": "إنذار عطل جهاز المضخة !{{يعمل|لا يعمل}}",
+          "de": "Der Fehleralarm der Pumpvorrichtung ist !{{aktiviert|deaktiviert}}."
         }
       }
     ]
