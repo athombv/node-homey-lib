@@ -12,7 +12,8 @@
     "es": "Nivel de NOx",
     "fr": "Niveau de NOx",
     "no": "NOx-nivå",
-    "ar": "مستوى أكسيد النيتروجين"
+    "ar": "مستوى أكسيد النيتروجين",
+    "de": "NOx-Wert"
   },
   "desc": {
     "en": "The level of nitrogen oxides in the air.",
@@ -26,7 +27,8 @@
     "es": "El nivel de óxidos de nitrógeno en el aire.",
     "fr": "Le niveau d'oxydes d'azote dans l'air.",
     "no": "Nitrogenoksidnivået i luften.",
-    "ar": "مستوى أكسيد النيتروجين في الهواء."
+    "ar": "مستوى أكسيد النيتروجين في الهواء.",
+    "de": "Der Gehalt an Stickoxiden in der Luft."
   },
   "values": [
     {
@@ -43,7 +45,8 @@
         "es": "Bajo",
         "fr": "Faible",
         "no": "Lavt",
-        "ar": "منخفض"
+        "ar": "منخفض",
+        "de": "Niedrig"
       }
     },
     {
@@ -60,7 +63,8 @@
         "es": "Intermedio",
         "fr": "Moyen",
         "no": "Middels",
-        "ar": "متوسط"
+        "ar": "متوسط",
+        "de": "Mittel"
       }
     },
     {
@@ -94,7 +98,8 @@
         "es": "Crítico",
         "fr": "Critique",
         "no": "Kritisk",
-        "ar": "حرج"
+        "ar": "حرج",
+        "de": "Kritisch"
       }
     }
   ],
@@ -119,7 +124,8 @@
           "es": "El nivel de NOx ha cambiado a",
           "fr": "Le niveau de NOx est passé à",
           "no": "NOx-nivået ble endret til",
-          "ar": "تم تغيير مستوى أكسيد النيتروجين إلى"
+          "ar": "تغير مستوى أكسيد النيتروجين إلى",
+          "de": "Der NOx-Wert hat sich geändert auf"
         },
         "args": [
           {
@@ -145,7 +151,8 @@
           "es": "El nivel de NOx !{{es|no es}}",
           "fr": "Le niveau de NOx !{{est|n'est pas}}",
           "no": "NOx-nivået !{{er|er ikke}}",
-          "ar": "مستوى أكسيد النيتروجين !{{هو|ليس}}"
+          "ar": "مستوى أكسيد النيتروجين !{{هو|ليس}}",
+          "de": "Der NOx-Wert !{{ist|ist nicht}}"
         },
         "args": [
           {

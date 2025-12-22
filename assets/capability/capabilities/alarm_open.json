@@ -2,7 +2,7 @@
   "type": "boolean",
   "title": {
     "en": "Open Alarm",
-    "ar": "فتح الإنذار",
+    "ar": "إنذار الفتح",
     "da": "Åben alarm",
     "de": "Alarm „Geöffnet“",
     "es": "Alarma de apertura",
@@ -17,7 +17,7 @@
   },
   "desc": {
     "en": "True when a door/window/etc... is open.",
-    "ar": "صحيح عندما يكون الباب/النافذة/... إلخ... مفتوحاً.",
+    "ar": "صحيح عند فتح الباب/النافذة/... إلخ....",
     "da": "Sandt, når en dør/et vindue/etc... er åben.",
     "de": "Wahr, wenn eine Tür/ein Fenster/etc… offen ist.",
     "es": "Verdadero cuando una puerta/ventana/etc. está abierta.",
@@ -33,7 +33,7 @@
   "insights": true,
   "insightsTitleTrue": {
     "en": "Open alarm turned on",
-    "ar": "تم تشغيل الإنذار المفتوح",
+    "ar": "تم تشغيل إنذار الفتح",
     "da": "Åben alarm slået til",
     "de": "Alarm „Geöffnet“ ist eingeschaltet",
     "es": "Alarma de apertura activada",
@@ -48,7 +48,7 @@
   },
   "insightsTitleFalse": {
     "en": "Open alarm turned off",
-    "ar": "تم إيقاف تشغيل المنبه المفتوح",
+    "ar": "تم إيقاف تشغيل إنذار الفتح",
     "da": "Åben alarm slået fra",
     "de": "Alarm „Geöffnet“ ausgeschaltet",
     "es": "Alarma de apertura desactivada",
@@ -72,7 +72,7 @@
         "highlight": true,
         "title": {
           "en": "The open alarm turned on",
-          "ar": "تم تشغيل الإنذار المفتوح",
+          "ar": "تم تشغيل إنذار الفتح",
           "da": "Den åbne alarm er slået til",
           "de": "Der Alarm „Geöffnet“ hat sich eingeschaltet",
           "es": "La alarma de apertura se ha activado",
@@ -90,7 +90,7 @@
         "id": "alarm_open_false",
         "title": {
           "en": "The open alarm turned off",
-          "ar": "تم إيقاف تشغيل المنبه المفتوح",
+          "ar": "تم إيقاف تشغيل إنذار الفتح",
           "da": "Den åbne alarm er slået fra",
           "de": "Der Alarm „Geöffnet“ wurde ausgeschaltet",
           "es": "La alarma de apertura se ha desactivado",
@@ -110,8 +110,8 @@
         "id": "alarm_open",
         "title": {
           "en": "The open alarm is !{{on|off}}",
-          "ar": "الإنذار المفتوح هو !{{on|off}}",
-          "da": "Den åbne alarm er !{{on|off}}",
+          "ar": "إنذار الفتح  !{{يعمل|لا يعمل}}",
+          "da": "Den åbne alarm er !{{tændt|slukket}}",
           "de": "Der Alarm „Geöffnet“ ist !{{an|aus}}",
           "es": "La alarma de apertura está !{{activada|desactivada}}",
           "fr": "L'alarme de détection d'ouverture est !{{activée|désactivée}}",
@@ -120,8 +120,8 @@
           "nl": "Het open-alarm staat !{{aan|uit}}",
           "no": "Åpen-alarmen er !{{på|av}}",
           "pl": "Alarm otwarcia jest !{{włączony|wyłączony}}",
-          "ru": "Сигнализация открытия !{{on|off}}",
-          "sv": "Det öppna larmet är !{{on|off}}"
+          "ru": "Сигнализация открытия !{{включена|выключена}}",
+          "sv": "Det öppna larmet är !{{på|av}}"
         }
       }
     ]

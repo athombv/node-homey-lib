@@ -12,7 +12,8 @@
     "sv": "Ozon",
     "es": "Ozono",
     "fr": "Ozone",
-    "ar": "الأوزون"
+    "ar": "الأوزون",
+    "de": "Ozon"
   },
   "units": {
     "en": "μg/m³",
@@ -26,7 +27,8 @@
     "sv": "μg/m³",
     "es": "μg/m³",
     "fr": "μg/m³",
-    "ar": "μg/m³"
+    "ar": "ميكروجرام/م³",
+    "de": "μg/m³"
   },
   "insights": true,
   "desc": {
@@ -41,7 +43,8 @@
     "sv": "Ozon i mikrogram per kubikmeter (μg/m³)",
     "es": "Ozono en microgramos por metro cúbico (μg/m³)",
     "fr": "Ozone en microgrammes par mètre cube (μg/m³)",
-    "ar": "الأوزون بالميكروجرام لكل متر مكعب (μg/m³)"
+    "ar": "الأوزون بالميكروجرام لكل متر مكعب (μg/m³)",
+    "de": "Ozon in Mikrogramm pro Kubikmeter (μg/m³)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -65,7 +68,8 @@
           "sv": "Ozonvärdet ändrades",
           "es": "El nivel de ozono ha cambiado",
           "fr": "La valeur de l'ozone a changé",
-          "ar": "تم تغيير مستوى الأوزون"
+          "ar": "تغير مستوى الأوزون",
+          "de": "Der Ozonwert hat sich geändert"
         },
         "tokens": [
           {

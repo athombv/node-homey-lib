@@ -12,7 +12,8 @@
     "ru": "Сигнал CO₂",
     "pl": "Alarm CO₂",
     "ko": "CO₂ 알람",
-    "ar": "إنذار ثاني أكسيد الكربون"
+    "ar": "إنذار ثاني أكسيد الكربون",
+    "sv": "CO₂-larm"
   },
   "desc": {
     "en": "True when dangerous CO₂ values have been detected",
@@ -26,7 +27,8 @@
     "ru": "Значение «истина» при обнаружении опасных значений CO₂",
     "pl": "Prawda, gdy wykryto niebezpieczne wartości CO₂",
     "ko": "위험한 CO₂ 값이 감지되면 참",
-    "ar": "صحيح عند اكتشاف قيم خطيرة لثاني أكسيد الكربون"
+    "ar": "صحيح عند اكتشاف قيم خطيرة لثاني أكسيد الكربون",
+    "sv": "Sant när farliga CO₂-värden har detekterats"
   },
   "insights": true,
   "insightsTitleTrue": {

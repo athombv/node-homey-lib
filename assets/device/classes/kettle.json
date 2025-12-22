@@ -26,6 +26,7 @@
     "ru": "Используйте этот класс устройств для чайников, которые могут нагревать воду.",
     "pl": "Użyj tej klasy urządzeń dla czajników, które ogrzewają wodę.",
     "ko": "이 디바이스 클래스는 물을 데울 수 있는 주전자에 사용합니다.",
-    "ar": "استخدم فئة الجهاز هذه لأجهزة الغلاية التي يمكنها تسخين الماء."
+    "ar": "استخدم فئة الجهاز هذه لأجهزة الغلاية التي يمكنها تسخين الماء.",
+    "nl": "Gebruik deze apparaatklasse voor waterkokers die water kunnen verwarmen."
   }
 }

@@ -12,7 +12,8 @@
     "sv": "Monetärt värde",
     "es": "Valor monetario",
     "fr": "Valeur monétaire",
-    "ar": "قيمة مالية"
+    "ar": "القيمة المالية",
+    "de": "Monetärer Wert"
   },
   "units": {
     "en": "€",
@@ -26,7 +27,8 @@
     "sv": "€",
     "es": "€",
     "fr": " €",
-    "ar": "€"
+    "ar": "يورو",
+    "de": "€"
   },
   "desc": {
     "en": "The monetary value with a currency (default: €).",
@@ -40,7 +42,8 @@
     "sv": "Det monetära värdet med en valuta (standard: €).",
     "es": "El valor monetario en una divisa (por omisión, €).",
     "fr": "La valeur monétaire avec une devise (par défaut : €).",
-    "ar": "القيمة النقدية مع عملة (الافتراضي: €)."
+    "ar": "القيمة النقدية بعملة (الافتراضي: اليورو).",
+    "de": "Der monetäre Wert mit einer Währung (Standard: €)."
   },
   "insights": true,
   "chartType": "spline",
@@ -65,7 +68,8 @@
           "sv": "Det monetära värdet ändrades",
           "es": "El valor monetario ha cambiado",
           "fr": "La valeur monétaire a changé",
-          "ar": "تم تغيير القيمة المالية"
+          "ar": "تغيرت القيمة المالية",
+          "de": "Der monetäre Wert hat sich geändert"
         },
         "tokens": [
           {

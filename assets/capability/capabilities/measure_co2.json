@@ -12,7 +12,8 @@
     "ru": "CO₂",
     "pl": "CO₂",
     "ko": "CO₂",
-    "ar": "ثاني أكسيد الكربون"
+    "ar": "ثاني أكسيد الكربون",
+    "es": "CO₂"
   },
   "units": {
     "en": "ppm",
@@ -20,7 +21,14 @@
     "ko": "ppm",
     "no": "ppm",
     "pl": "ppm",
-    "ar": "ppm"
+    "ar": "جزء في المليون",
+    "da": "ppm",
+    "de": "ppm",
+    "es": "ppm",
+    "fr": "ppm",
+    "it": "ppm",
+    "nl": "ppm",
+    "sv": "ppm"
   },
   "insights": true,
   "desc": {
@@ -36,7 +44,7 @@
     "ru": "CO₂ в частях на миллион (ч./млн)",
     "pl": "Stężenie dwutlenku węgla w części na milion (ppm)",
     "ko": "CO₂ 백만분율(ppm)",
-    "ar": "ثاني أكسيد الكربون بجزء في المليون (ppm)"
+    "ar": "ثاني أكسيد الكربون بالجزء في المليون (ppm)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -61,7 +69,7 @@
           "ru": "Уровень CO₂ изменился",
           "pl": "Zmienił się poziom CO₂",
           "ko": "CO₂ 수준이 변경되면",
-          "ar": "تم تغيير مستوى ثاني أكسيد الكربون"
+          "ar": "تغير مستوى ثاني أكسيد الكربون"
         },
         "tokens": [
           {

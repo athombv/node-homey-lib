@@ -12,7 +12,8 @@
     "sv": "NOx",
     "es": "NOx",
     "fr": "NOx",
-    "ar": "أكسيد النيتروجين"
+    "ar": "أكسيد النيتروجين",
+    "de": "NOx"
   },
   "units": {
     "en": "μg/m³",
@@ -26,7 +27,8 @@
     "sv": "μg/m³",
     "es": "μg/m³",
     "fr": "μg/m³",
-    "ar": "μg/m³"
+    "ar": "ميكروجرام/م³",
+    "de": "μg/m³"
   },
   "insights": true,
   "desc": {
@@ -41,7 +43,8 @@
     "sv": "Kväveoxider i mikrogram per kubikmeter (μg/m³)",
     "es": "Óxidos de nitrógeno en microgramos por metro cúbico (μg/m³)",
     "fr": "Oxydes d'azote en microgrammes par mètre cube (μg/m³)",
-    "ar": "أكسيد النيتروجين بالميكروجرام لكل متر مكعب (μg/m³)"
+    "ar": "أكسيد النيتروجين بالميكروجرام لكل متر مكعب (μg/m³)",
+    "de": "Stickstoffoxide in Mikrogramm pro Kubikmeter (μg/m³)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -65,7 +68,8 @@
           "sv": "NOx-värdet ändrades",
           "es": "El nivel de NOx ha cambiado",
           "fr": "La valeur de NOx a changé",
-          "ar": "تم تغيير مستوى أكسيد النيتروجين"
+          "ar": "تغير مستوى أكسيد النيتروجين",
+          "de": "Der NOx-Gehalt hat sich geändert"
         },
         "tokens": [
           {

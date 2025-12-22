@@ -12,7 +12,7 @@
     "ru": "Узел",
     "pl": "Przekaźnik",
     "ko": "릴레이",
-    "ar": "ريلاي"
+    "ar": "مرحل"
   },
   "description": {
     "en": "Use this device class for relays, which are connected to another device.",
@@ -26,7 +26,8 @@
     "ru": "Используйте этот класс устройств для узлов, которые подключены к другому устройству.",
     "pl": "Użyj tej klasy urządzeń dla przekaźników niepołączonych z żadnym innym urządzeniem.",
     "ko": "이 디바이스 클래스는 다른 디바이스에 연결된 릴레이에 사용합니다.",
-    "ar": "استخدم فئة الجهاز هذه للريلاي، والتي تتصل بجهاز آخر."
+    "ar": "استخدم فئة الجهاز هذه للمرحلات، والتي تتصل بجهاز آخر.",
+    "nl": "Gebruik deze apparaatklasse voor relais die verbonden zijn met een ander apparaat."
   },
   "virtualTitle": {
     "en": "What's connected?",

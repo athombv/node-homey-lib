@@ -12,7 +12,8 @@
     "ru": "Сигнал об отсутствии контейнера",
     "sv": "Larm om att behållaren saknas",
     "no": "Alarm om manglende støvbeholder",
-    "ar": "إنذار فقدان سلة المهملات"
+    "ar": "إنذار فقد سلة المهملات",
+    "de": "Alarm bei fehlendem Behälter"
   },
   "desc": {
     "en": "True when the bin is missing.",
@@ -26,7 +27,8 @@
     "ru": "Значение «истина», когда контейнер отсутствует.",
     "sv": "Sant när behållaren saknas.",
     "no": "Sann når støvbeholderen mangler.",
-    "ar": "صحيح عندما تكون سلة المهملات مفقودة."
+    "ar": "صحيح عندما تكون سلة المهملات مفقودة.",
+    "de": "Wahr, wenn der Behälter fehlt."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "ru": "Контейнер был удален",
     "sv": "Behållaren togs bort",
     "no": "Støvbeholderen ble fjernet",
-    "ar": "تمت إزالة سلة المهملات"
+    "ar": "تمت إزالة سلة المهملات",
+    "de": "Der Behälter wurde entfernt"
   },
   "insightsTitleFalse": {
     "en": "The bin was placed",
@@ -55,7 +58,8 @@
     "ru": "Контейнер был размещен",
     "sv": "Behållaren placerades",
     "no": "Støvbeholderen ble satt på plass",
-    "ar": "تم وضع سلة المهملات"
+    "ar": "تم وضع سلة المهملات",
+    "de": "Der Behälter wurde platziert"
   },
   "color": "#9033FC",
   "getable": true,
@@ -78,7 +82,8 @@
           "ru": "Контейнер был удален",
           "sv": "Behållaren togs bort",
           "no": "Støvbeholderen ble fjernet",
-          "ar": "تمت إزالة سلة المهملات"
+          "ar": "تمت إزالة سلة المهملات",
+          "de": "Der Behälter wurde entfernt"
         }
       },
       {
@@ -95,7 +100,8 @@
           "ru": "Контейнер был размещен",
           "sv": "Behållaren placerades",
           "no": "Støvbeholderen ble satt på plass",
-          "ar": "تم وضع سلة المهملات"
+          "ar": "تم وضع سلة المهملات",
+          "de": "Der Behälter wurde platziert"
         }
       }
     ],
@@ -105,7 +111,7 @@
         "title": {
           "en": "The bin is !{{missing|present}}",
           "nl": "De afvalbak !{{ontbreekt|staat er}}",
-          "da": "Papirkurven !{{missing|present}}",
+          "da": "Papirkurven !{{mangler|er til stede}}",
           "es": "Cubo !{{no presente|presente}}",
           "it": "Il contenitore è !{{assente|presente}}",
           "ko": "먼지통이 !{{없으면|장착되면}}",
@@ -114,7 +120,8 @@
           "sv": "Behållaren !{{saknas|är på plats}}",
           "fr": "La poubelle est !{{manquante|présente}}",
           "no": "Støvbeholderen !{{mangler|mangler ikke}}",
-          "ar": "سلة المهملات !{{مفقودة|موجودة}}"
+          "ar": "سلة المهملات !{{مفقودة|موجودة}}",
+          "de": "Der Behälter !{{fehlt|ist vorhanden}}"
         }
       }
     ]

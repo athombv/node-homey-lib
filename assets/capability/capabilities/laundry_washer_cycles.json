@@ -12,7 +12,8 @@
     "es": "Ciclos de lavado",
     "fr": "Cycles du lave-linge",
     "no": "Vaskesykluser",
-    "ar": "دورات الغسالة"
+    "ar": "دورات الغسالة",
+    "de": "Waschmaschinenprogramme"
   },
   "desc": {
     "en": "The amount of cycles the laundry washer should perform.",
@@ -26,7 +27,8 @@
     "es": "El número de ciclos que debe hacer la lavadora.",
     "fr": "Le nombre de cycles que le lave-linge doit effectuer.",
     "no": "Antall sykluser vaskemaskinen skal gjennomføre.",
-    "ar": "عدد الدورات التي يجب أن تقوم بها الغسالة."
+    "ar": "عدد الدورات التي يجب أن تقوم بها الغسالة.",
+    "de": "Die Anzahl der Waschgänge, die die Waschmaschine durchführen soll."
   },
   "values": [
     {
@@ -43,7 +45,8 @@
         "es": "Ninguno",
         "fr": "Aucun",
         "no": "Ingen",
-        "ar": "لا شيء"
+        "ar": "لا شيء",
+        "de": "Keine"
       }
     },
     {
@@ -60,7 +63,8 @@
         "es": "Normal",
         "fr": "Normal",
         "no": "Standard",
-        "ar": "عادي"
+        "ar": "عادي",
+        "de": "Normal"
       }
     },
     {
@@ -77,7 +81,8 @@
         "es": "Extra",
         "fr": "Extra",
         "no": "Ekstra",
-        "ar": "إضافي"
+        "ar": "إضافي",
+        "de": "Extra"
       }
     },
     {
@@ -94,7 +99,8 @@
         "es": "Máximo",
         "fr": "Max",
         "no": "Maks.",
-        "ar": "الحد الأقصى"
+        "ar": "الحد الأقصى",
+        "de": "Max"
       }
     }
   ],
@@ -119,7 +125,8 @@
           "es": "Los ciclos han cambiado a",
           "fr": "Les cycles du lave-linge sont passés à",
           "no": "Syklusene ble endret til",
-          "ar": "تم تغيير الدورات إلى"
+          "ar": "تم تغيير الدورات إلى",
+          "de": "Die Programme wurden geändert auf"
         },
         "args": [
           {
@@ -145,7 +152,8 @@
           "es": "Los ciclos !{{están|no están}}",
           "fr": "Les cycles de lave-linge !{{sont|ne sont pas}}",
           "no": "Syklusene !{{er|er ikke}}",
-          "ar": "الدورات !{{هي|ليست}}"
+          "ar": "الدورات !{{هي|ليست}}",
+          "de": "Die Programme !{{sind|sind nicht}}"
         },
         "args": [
           {
@@ -171,7 +179,8 @@
           "es": "Ajustar los ciclos de lavado a",
           "fr": "Définir les cycles du lave-linge sur",
           "no": "Sett vaskesyklusene til",
-          "ar": "ضبط دورات الغسالة إلى"
+          "ar": "ضبط دورات الغسالة على",
+          "de": "Stelle die Programme der Waschmaschine auf"
         },
         "args": [
           {

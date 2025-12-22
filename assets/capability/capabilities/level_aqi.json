@@ -12,7 +12,8 @@
     "es": "Nivel de calidad del aire",
     "fr": "Niveau de qualité de l'air",
     "no": "Luftkvalitetsnivå",
-    "ar": "مستوى جودة الهواء"
+    "ar": "مستوى جودة الهواء",
+    "de": "Wert für die Luftqualität"
   },
   "desc": {
     "en": "The air quality index represented as a level.",
@@ -26,7 +27,8 @@
     "sv": "Luftkvalitetsindexet representeras som en nivå.",
     "fr": "L'indice de qualité de l'air représenté sous forme de niveau.",
     "no": "Luftkvalitetsindeksen uttrykt som et nivå.",
-    "ar": "مؤشر جودة الهواء ممثلًا كمستوى."
+    "ar": "مؤشر جودة الهواء ممثلًا كمستوى.",
+    "de": "Der Luftqualitätsindex, dargestellt als Wert."
   },
   "values": [
     {
@@ -43,7 +45,8 @@
         "es": "Bueno",
         "fr": "Bon",
         "no": "God",
-        "ar": "جيد"
+        "ar": "جيد",
+        "de": "Gut"
       }
     },
     {
@@ -60,7 +63,8 @@
         "pl": "Niski",
         "ru": "Плохой",
         "sv": "Dålig",
-        "ar": "متوسط"
+        "ar": "متوسط",
+        "de": "Angemessen"
       }
     },
     {
@@ -77,7 +81,8 @@
         "pl": "Bardzo niski",
         "ru": "Очень плохой",
         "sv": "Mycket dålig",
-        "ar": "معتدل"
+        "ar": "معتدل",
+        "de": "Mäßig"
       }
     },
     {
@@ -94,7 +99,8 @@
         "es": "Deficiente",
         "fr": "Mauvais",
         "no": "Dårlig",
-        "ar": "ضعيف"
+        "ar": "ضعيف",
+        "de": "Schlecht"
       }
     },
     {
@@ -111,7 +117,8 @@
         "es": "Muy deficiente",
         "fr": "Très mauvais",
         "no": "Svært dårlig",
-        "ar": "ضعيف جداً"
+        "ar": "ضعيف جدًا",
+        "de": "Sehr schlecht"
       }
     },
     {
@@ -128,7 +135,8 @@
         "es": "Extremadamente deficiente",
         "fr": "Extrêmement mauvais",
         "no": "Ekstremt dårlig",
-        "ar": "ضعيف للغاية"
+        "ar": "ضعيف للغاية",
+        "de": "Extrem schlecht"
       }
     }
   ],
@@ -153,7 +161,8 @@
           "es": "El nivel de calidad del aire ha cambiado a",
           "fr": "Le niveau de qualité de l'air est passé à",
           "no": "Luftkvalitetsnivået ble endret til",
-          "ar": "تم تغيير مستوى جودة الهواء إلى"
+          "ar": "تغير مستوى جودة الهواء إلى",
+          "de": "Die Luftqualitätswert hat gewechselt auf"
         },
         "args": [
           {
@@ -179,7 +188,8 @@
           "es": "La calidad del aire !{{es|no es}}",
           "fr": "La qualité de l'air !{{est|n'est pas}}",
           "no": "Luftkvaliteten !{{er|er ikke}}",
-          "ar": "جودة الهواء !{{هي|ليست}}"
+          "ar": "جودة الهواء !{{هي|ليست}}",
+          "de": "Die Luftqualität !{{ist|ist nicht}}"
         },
         "args": [
           {

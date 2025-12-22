@@ -73,7 +73,7 @@
               "da": "Niveau",
               "ru": "Уровень",
               "pl": "Poziom",
-              "ko": "밝기",
+              "ko": "수준",
               "ar": "المستوى"
             },
             "example": 0.5
@@ -87,7 +87,7 @@
         "highlight": true,
         "title": {
           "en": "Set the power level to",
-          "ar": "اضبط مستوى الطاقة على",
+          "ar": "ضبط مستوى الطاقة على",
           "da": "Indstil strømniveauet til",
           "de": "Stellen Sie die Leistungsstufe auf",
           "es": "Establece el nivel de potencia en",

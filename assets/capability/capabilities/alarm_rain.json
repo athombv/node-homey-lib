@@ -110,8 +110,8 @@
         "id": "alarm_rain",
         "title": {
           "en": "The rain alarm is !{{on|off}}",
-          "ar": "إنذار المطر !{{on|off}}",
-          "da": "Regnalarmen er !{{on|off}}",
+          "ar": "إنذار المطر  !{{يعمل|لا يعمل}}",
+          "da": "Regnalarmen er !{{tændt|slukket}}",
           "de": "Der Regenalarm ist !{{an|aus}}",
           "es": "La alarma de lluvia está !{{activada|desactivada}}",
           "fr": "L'alarme de pluie est !{{activée|désactivée}}",
@@ -120,7 +120,7 @@
           "nl": "Het regenalarm staat !{{aan|uit}}",
           "no": "Regnalarmen er !{{på|av}}",
           "pl": "Alarm deszczu jest!{{włączony|wyłączony}}",
-          "ru": "Сигнализация дождя !{{on|off}}",
+          "ru": "Сигнализация дождя !{{включена|выключена}}",
           "sv": "Regnlarmet är !{{on|off}}"
         }
       }
