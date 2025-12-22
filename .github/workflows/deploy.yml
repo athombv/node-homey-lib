@@ -23,6 +23,10 @@ on:
   push:
     branches:
       - production
+      
+permissions:
+  id-token: write
+  contents: read
 
 jobs:
   deploy_to_npm:
@@ -48,18 +52,16 @@ jobs:
           git config --local user.name "Homey Github Actions Bot"
 
       # Configures a Node.js environment.
-      - name: Set up node 12 environment
-        uses: actions/setup-node@v1
+      - uses: actions/setup-node@v4
         with:
-          node-version: '12'
-          # Needed for publishing to npm
+          node-version: '24'
           registry-url: 'https://registry.npmjs.org'
 
       # Run `npm ci && npm run build` to re-create your local environment (make sure to commit your - package-lock.json!).
       - name: Build
         run: |
           npm ci
-          npm run build
+          npm run build --if-present
           
       - name: Commit and push webpack build artefact
         run: |
@@ -97,8 +99,6 @@ jobs:
           npm publish
           VERSION="$(node -p "require('./package.json').version")"
           echo package_version=${VERSION} >> $GITHUB_ENV
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
 
   trigger-repository-dispatch-event:
     needs: deploy_to_npm
