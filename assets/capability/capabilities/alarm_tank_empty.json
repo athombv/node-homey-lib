@@ -12,7 +12,8 @@
     "sv": "Larm om tom tank",
     "es": "Alarma de depósito vacío",
     "fr": "Alarme de réservoir vide",
-    "ar": "إنذار الخزان الفارغ"
+    "ar": "إنذار الخزان الفارغ",
+    "de": "Alarm Tank leer"
   },
   "desc": {
     "en": "True when the tank is empty.",
@@ -26,7 +27,8 @@
     "sv": "Sant när tanken är tom.",
     "es": "Activado cuando el depósito está vacío.",
     "fr": "Se déclenche lorsque le réservoir est vide.",
-    "ar": "صحيح عندما يكون الخزان فارغًا."
+    "ar": "صحيح عندما يكون الخزان فارغًا.",
+    "de": "Wahr, wenn der Tank leer ist."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "sv": "Tanken var tom",
     "es": "El depósito estaba vacío",
     "fr": "Le réservoir était vide",
-    "ar": "كان الخزان فارغاً"
+    "ar": "كان الخزان فارغًا",
+    "de": "Tank war leer"
   },
   "insightsTitleFalse": {
     "en": "Tank was not empty",
@@ -55,7 +58,8 @@
     "sv": "Tanken var inte tom",
     "es": "El depósito no estaba vacío",
     "fr": "Le réservoir n'était pas vide",
-    "ar": "لم يكن الخزان فارغاً"
+    "ar": "لم يكن الخزان فارغًا",
+    "de": "Tank war nicht leer"
   },
   "color": "#0091FF",
   "getable": true,
@@ -78,7 +82,8 @@
           "sv": "Tanken är tom",
           "es": "El depósito está vacío",
           "fr": "Le réservoir est vide",
-          "ar": "الخزان فارغ"
+          "ar": "الخزان فارغ",
+          "de": "Der Tank ist leer"
         }
       },
       {
@@ -95,7 +100,8 @@
           "sv": "Tanken är inte längre tom",
           "es": "El depósito ya no está vacío",
           "fr": "Le réservoir n'est plus vide",
-          "ar": "لم يعد الخزان فارغاً"
+          "ar": "لم يعد الخزان فارغًا",
+          "de": "Der Tank ist nicht mehr leer"
         }
       }
     ],
@@ -105,7 +111,7 @@
         "title": {
           "en": "The tank is !{{empty|not empty}}",
           "nl": "De tank is !{{leeg|niet leeg}}",
-          "da": "Tanken er!{{tom ikke tom}}",
+          "da": "Tanken er !{{tom|ikke tom}}",
           "it": "Il serbatoio !{{è vuoto|non è vuoto}}",
           "ko": "!{{물 보충이 필요하면|물이 보충되어 있으면}}",
           "no": "Tanken er !{{tom|ikke tom}}",
@@ -114,7 +120,8 @@
           "sv": "Tanken är !{{tom|inte tom}}",
           "es": "El depósito !{{está vacío|no está vacío}}",
           "fr": "Le réservoir !{{est rempli|n'est pas rempli}}",
-          "ar": "الخزان !{{فارغ|ليس فارغاً}}"
+          "ar": "الخزان !{{فارغ|ليس فارغاً}}",
+          "de": "Der Tank ist !{{leer|nicht leer}}"
         }
       }
     ]

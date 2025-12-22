@@ -12,7 +12,8 @@
     "es": "Nivel de filtro de carbono",
     "fr": "Niveau du filtre à charbon",
     "no": "Karbonfilternivå",
-    "ar": "مستوى فلتر الكربون"
+    "ar": "مستوى فلتر الكربون",
+    "de": "Niveau des Kohlefilters"
   },
   "desc": {
     "en": "The level of degredation on the active carbon filter.",
@@ -26,7 +27,8 @@
     "es": "El nivel de degradación del filtro de carbón activo.",
     "fr": "Le niveau de dégradation du filtre à charbon actif.",
     "no": "Nedbrytingsnivået for filteret med aktivt kull.",
-    "ar": "مستوى التدهور في فلتر الكربون النشط."
+    "ar": "مستوى التدهور في فلتر الكربون النشط.",
+    "de": "Der Verschleißgrad des Aktivkohlefilters."
   },
   "values": [
     {
@@ -43,7 +45,8 @@
         "es": "Correcto",
         "fr": "OK",
         "no": "OK",
-        "ar": "موافق"
+        "ar": "جيد",
+        "de": "OK"
       }
     },
     {
@@ -60,7 +63,8 @@
         "es": "Advertencia",
         "fr": "Avertissement",
         "no": "Advarsel",
-        "ar": "تحذير"
+        "ar": "تحذير",
+        "de": "Warnung"
       }
     },
     {
@@ -77,7 +81,8 @@
         "es": "Crítico",
         "fr": "Critique",
         "no": "Kritisk",
-        "ar": "حرج"
+        "ar": "حرج",
+        "de": "Kritisch"
       }
     }
   ],
@@ -102,7 +107,8 @@
           "es": "El nivel del filtro de carbón ha cambiado a",
           "fr": "Le niveau du filtre à charbon est passé à",
           "no": "Karbonfilternivået ble endret til",
-          "ar": "تم تغيير مستوى فلتر الكربون إلى"
+          "ar": "تم تغيير مستوى فلتر الكربون إلى",
+          "de": "Das Niveau des Aktivkohlefilters wurde geändert auf"
         },
         "args": [
           {
@@ -128,7 +134,8 @@
           "es": "El nivel del filtro de carbono !{{es|no es}}",
           "fr": "Le niveau du filtre à charbon !{{est|n'est pas}}",
           "no": "Karbonfilternivået !{{er|er ikke}}",
-          "ar": "مستوى فلتر الكربون !{{هو|ليس}}"
+          "ar": "مستوى فلتر الكربون !{{هو|ليس}}",
+          "de": "Das Niveau des Aktivkohlefilters !{{ist|ist nicht}}"
         },
         "args": [
           {

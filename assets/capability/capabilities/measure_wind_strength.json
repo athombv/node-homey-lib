@@ -20,7 +20,15 @@
     "ru": "км/ч",
     "ko": "km/h",
     "no": "km/t",
-    "ar": "km/h"
+    "ar": "كم/ساعة",
+    "da": "km/t",
+    "de": "km/h",
+    "es": "km/h",
+    "fr": "km/h",
+    "it": "km/h",
+    "nl": "km/u",
+    "pl": "km/h",
+    "sv": "km/h"
   },
   "desc": {
     "en": "Wind Strength in kilometer per hour (km/h)",
@@ -61,7 +69,7 @@
           "ru": "Сила ветра изменилась",
           "pl": "Zmiana siły wiatru",
           "ko": "풍속이 변경되면",
-          "ar": "تم تغيير شدة الرياح"
+          "ar": "تغيرت شدة الرياح"
         },
         "tokens": [
           {

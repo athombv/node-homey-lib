@@ -12,7 +12,8 @@
     "sv": "Frekvens",
     "es": "Frecuencia",
     "fr": "Fréquence",
-    "ar": "التردد"
+    "ar": "التردد",
+    "de": "Frequenz"
   },
   "units": {
     "en": "Hz",
@@ -26,7 +27,8 @@
     "sv": "Hz",
     "es": "Hz",
     "fr": "Hz",
-    "ar": "Hz"
+    "ar": "هرتز",
+    "de": "Hz"
   },
   "desc": {
     "en": "The frequency in hertz.",
@@ -40,7 +42,8 @@
     "sv": "Frekvensen i hertz.",
     "es": "La frecuencia en hercios.",
     "fr": "La fréquence en hertz.",
-    "ar": "التردد بالهرتز."
+    "ar": "التردد بالهرتز.",
+    "de": "Die Frequenz in Hertz."
   },
   "insights": true,
   "chartType": "spline",
@@ -65,7 +68,8 @@
           "sv": "Frekvensen ändrades",
           "es": "La frecuencia ha cambiado",
           "fr": "La fréquence a changé",
-          "ar": "تم تغيير التردد"
+          "ar": "تغير التردد",
+          "de": "Die Frequenz hat sich geändert"
         },
         "tokens": [
           {

@@ -260,8 +260,8 @@
           "nl": "De ovenstand !{{is|is niet}}",
           "no": "Ovnsmodusen !{{er|er ikke}}",
           "pl": "Tryb piekarnika !{{jest|nie jest}}",
-          "ru": "Режим духовки !{{is|is not}}",
-          "sv": "Ugnsläget !{{is|is not}}"
+          "ru": "Режим духовки — !{{ | не}}",
+          "sv": "Ugnsläget !{{är|är inte}}"
         },
         "args": [
           {
@@ -277,7 +277,7 @@
         "id": "set_oven_mode",
         "title": {
           "en": "Set the oven mode to",
-          "ar": "اضبط وضع الفرن على",
+          "ar": "ضبط وضع الفرن على",
           "da": "Indstil ovntilstand til",
           "de": "Stellen Sie den Ofenmodus auf",
           "es": "Establece el modo horno en",
