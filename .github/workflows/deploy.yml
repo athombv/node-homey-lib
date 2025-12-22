@@ -148,18 +148,10 @@ jobs:
             -H 'Authorization: token ${{ secrets.HOMEY_GITHUB_ACTIONS_BOT_PERSONAL_ACCESS_TOKEN }}' \
             -d '{"event_type": "update-homey-lib"}'
 
-      - name: Trigger repository dispatch event athombv/node-homey-core
+      - name: Trigger repository dispatch event athombv/node-homey-os
         run: |
           curl -X POST \
-            https://api.github.com/repos/athombv/node-homey-core/dispatches \
-            -H 'Accept: application/vnd.github.everest-preview+json' \
-            -H 'Authorization: token ${{ secrets.HOMEY_GITHUB_ACTIONS_BOT_PERSONAL_ACCESS_TOKEN }}' \
-            -d '{"event_type": "update-homey-lib"}'
-
-      - name: Trigger repository dispatch event athombv/node-homey-pro
-        run: |
-          curl -X POST \
-            https://api.github.com/repos/athombv/node-homey-pro/dispatches \
+            https://api.github.com/repos/athombv/node-homey-os/dispatches \
             -H 'Accept: application/vnd.github.everest-preview+json' \
             -H 'Authorization: token ${{ secrets.HOMEY_GITHUB_ACTIONS_BOT_PERSONAL_ACCESS_TOKEN }}' \
             -d '{"event_type": "update-homey-lib"}'

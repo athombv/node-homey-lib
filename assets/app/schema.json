@@ -1029,6 +1029,10 @@
         "enum": ["nfc", "speaker", "ledring", "matter", "camera-streaming"]
       }
     },
+    "runtime": {
+      "type": "string",
+      "enum": ["nodejs", "python"]
+    },
     "tags": {
       "$ref": "#/definitions/i18nArray"
     },
