@@ -1,0 +1,31 @@
+{
+  "title": {
+    "en": "Gas Flow Sensor",
+    "nl": "Gasstroomsensor",
+    "de": "Gasflusssensor",
+    "fr": "Capteur de débit de gaz",
+    "it": "Sensore di flusso gas",
+    "sv": "Gasflödessensor",
+    "no": "Gassstrømsensor",
+    "es": "Sensor de flujo de gas",
+    "da": "Gasstrømssensor",
+    "ru": "Датчик потока газа",
+    "pl": "Czujnik przepływu gazu",
+    "ko": "가스 흐름 센서",
+    "ar": "مستشعر تدفق الغاز"
+  },
+  "description": {
+    "en": "Use this device class for gas flow sensors that monitor gas flow rates and consumption.",
+    "de": "Nutze diese Geräteklasse für Gasflusssensoren, die Gasdurchflussraten und -verbrauch überwachen.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs de débit de gaz qui surveillent les débits de gaz et la consommation.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di flusso gas che monitorano le portate di gas e il consumo.",
+    "sv": "Använd den här enhetsklassen för gasflödessensorer som övervakar gasflödeshastigheter och förbrukning.",
+    "no": "Bruk denne enhetsklassen for gassstrømsensorer som overvåker gassstrømshastighet og forbruk.",
+    "es": "Utiliza esta clase de dispositivo para los sensores de flujo de gas que monitorizan las tasas de flujo de gas y el consumo.",
+    "da": "Brug denne enhedsklasse til gasstrømssensorer der overvåger gasstrømshastigheder og forbrug.",
+    "ru": "Используйте этот класс устройств для датчиков потока газа, которые контролируют скорость потока газа и потребление.",
+    "pl": "Użyj tej klasy urządzeń dla czujników przepływu gazu, które monitorują szybkość przepływu gazu i zużycie.",
+    "ko": "이 디바이스 클래스는 가스 유속과 소비량을 모니터링하는 가스 흐름 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات تدفق الغاز التي تراقب معدلات تدفق الغاز والاستهلاك."
+  }
+}

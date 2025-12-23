@@ -1,0 +1,31 @@
+{
+  "title": {
+    "en": "Rain Sensor",
+    "nl": "Regensensor",
+    "de": "Regensensor",
+    "fr": "Capteur de pluie",
+    "it": "Sensore di pioggia",
+    "sv": "Regnsensor",
+    "no": "Regnsensor",
+    "es": "Sensor de lluvia",
+    "da": "Regnsensor",
+    "ru": "Датчик дождя",
+    "pl": "Czujnik deszczu",
+    "ko": "강우 센서",
+    "ar": "مستشعر المطر"
+  },
+  "description": {
+    "en": "Use this device class for rain sensors that detect rainfall and precipitation levels.",
+    "de": "Nutze diese Geräteklasse für Regensensoren, die Niederschlag und Niederschlagsmengen erkennen.",
+    "fr": "Utilisez cette classe d'appareil pour les capteurs de pluie qui détectent les précipitations et les niveaux de précipitation.",
+    "it": "Utilizza questa classe di dispositivi per i sensori di pioggia che rilevano le precipitazioni e i livelli di precipitazione.",
+    "sv": "Använd den här enhetsklassen för regnsensorer som upptäcker nederbörd och nederbördsnivåer.",
+    "no": "Bruk denne enhetsklassen for regnsensorer som oppdager nedbør og nedbørsnivåer.",
+    "es": "Utiliza esta clase de dispositivo para los sensores de lluvia que detectan precipitaciones y niveles de precipitación.",
+    "da": "Brug denne enhedsklasse til regnsensorer der registrerer nedbør og nedbørsniveauer.",
+    "ru": "Используйте этот класс устройств для датчиков дождя, которые обнаруживают осадки и уровни осадков.",
+    "pl": "Użyj tej klasy urządzeń dla czujników deszczu, które wykrywają opady deszczu i poziomy opadów.",
+    "ko": "이 디바이스 클래스는 강우량과 강수량을 감지하는 강우 센서에 사용합니다.",
+    "ar": "استخدم فئة الجهاز هذه لمستشعرات المطر التي تكتشف هطول الأمطار ومستويات الهطول."
+  }
+}
