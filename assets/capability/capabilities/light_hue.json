@@ -49,7 +49,13 @@
           "pl": "Wybierz barwę ze skali odcieni: np. czerwień (0°/360°), żółty (60°) lub niebieski (180°).",
           "ko": "색조 스케일에서 색상을 선택하세요. 빨간색은 (0°/360°), 노란색은 (60°), 파란색은 (180°)이에요.",
           "no": "Velg en farge fra fargeskalaen, for eksempel rød (0°/360°), gul (60°) eller blå (180°).",
-          "ar": "اختر لوناً من مقياس درجات الألوان، على سبيل المثال أحمر (0°/360°)، أصفر (60°)، أو أزرق (180°)."
+          "ar": "اختر لونًا من مقياس درجات الألوان، على سبيل المثال أحمر (0°/360°)، أصفر (60°)، أو أزرق (180°).",
+          "da": "Vælg en farve fra nuanceskalaen, f.eks. rød (0°/360°), gul (60°) eller blå (180°).",
+          "de": "Wähle eine Farbe aus der Farbtonskala aus, zum Beispiel Rot (0°/360°), Gelb (60°) oder Blau (180°).",
+          "es": "Selecciona un color de la escala cromática [por ej.: rojo (0°/360°), amarillo (60°) o azul (180°)].",
+          "fr": "Sélectionnez une couleur dans l'échelle des teintes, par exemple rouge (0°/360°), jaune (60°) ou bleu (180°).",
+          "it": "Seleziona un colore dalla scala di tonalità, ad esempio rosso (0°/360°), giallo (60°) o blu (180°).",
+          "sv": "Välj en färg från nyansskalan, t.ex. röd (0°/360°), gul (60°) eller blå (180°)."
         },
         "args": [
           {

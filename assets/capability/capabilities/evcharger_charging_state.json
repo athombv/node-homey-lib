@@ -51,7 +51,7 @@
         "fr": "Charge en cours",
         "no": "Lader",
         "de": "Wird aufgeladen",
-        "ar": "يشحن"
+        "ar": "قيد الشحن"
       }
     },
     {
@@ -69,7 +69,7 @@
         "fr": "Décharge en cours",
         "no": "Lades ut",
         "de": "Wird entladen",
-        "ar": "يفرغ"
+        "ar": "قيد التفريغ"
       }
     },
     {
@@ -87,7 +87,7 @@
         "fr": "En pause",
         "no": "Satt på pause",
         "de": "Pausiert",
-        "ar": "متوقف مؤقتاً"
+        "ar": "متوقف مؤقتًا"
       }
     },
     {
@@ -105,7 +105,7 @@
         "fr": "Branché",
         "no": "Tilkoblet",
         "de": "Eingesteckt",
-        "ar": "موصل"
+        "ar": "موصول"
       }
     },
     {
@@ -123,7 +123,7 @@
         "fr": "Non branché",
         "no": "Ikke tilkoblet",
         "de": "Nicht eingesteckt",
-        "ar": "غير موصل"
+        "ar": "غير موصول"
       }
     }
   ],

@@ -12,7 +12,8 @@
     "es": "Nivel de formaldehído",
     "fr": "Niveau de formaldéhyde",
     "no": "Formaldehydnivå",
-    "ar": "مستوى الفورمالديهايد"
+    "ar": "مستوى الفورمالديهيد",
+    "de": "Formaldehydgehalt"
   },
   "desc": {
     "en": "The level of formaldehyde in the air.",
@@ -26,7 +27,8 @@
     "es": "El nivel de formaldehído en el aire.",
     "fr": "Le niveau de formaldéhyde dans l'air.",
     "no": "Nivået av formaldehyd i luften.",
-    "ar": "مستوى الفورمالديهايد في الهواء."
+    "ar": "مستوى الفورمالديهيد في الهواء.",
+    "de": "Der Formaldehydgehalt in der Luft."
   },
   "values": [
     {
@@ -43,7 +45,8 @@
         "es": "Bajo",
         "fr": "Faible",
         "no": "Lavt",
-        "ar": "منخفض"
+        "ar": "منخفض",
+        "de": "Niedrig"
       }
     },
     {
@@ -60,7 +63,8 @@
         "es": "Intermedio",
         "fr": "Moyen",
         "no": "Middels",
-        "ar": "متوسط"
+        "ar": "متوسط",
+        "de": "Mittel"
       }
     },
     {
@@ -77,7 +81,8 @@
         "es": "Alto",
         "fr": "Élevé",
         "no": "Høyt",
-        "ar": "عالي"
+        "ar": "عالي",
+        "de": "Hoch"
       }
     },
     {
@@ -94,7 +99,8 @@
         "es": "Crítico",
         "fr": "Critique",
         "no": "Kritisk",
-        "ar": "حرج"
+        "ar": "حرج",
+        "de": "Kritisch"
       }
     }
   ],
@@ -119,7 +125,8 @@
           "es": "El nivel de formaldehído ha cambiado a",
           "fr": "Le niveau de formaldéhyde est passé à",
           "no": "Formaldehydnivået ble endret til",
-          "ar": "تم تغيير مستوى الفورمالديهايد إلى"
+          "ar": "تم تغيير مستوى الفورمالديهيد إلى",
+          "de": "Der Formaldehydgehalt hat sich geändert auf"
         },
         "args": [
           {
@@ -145,7 +152,8 @@
           "es": "El nivel de formaldehído !{{es|no es}}",
           "fr": "Le taux de formaldéhyde !{{est|n'est pas}}",
           "no": "Formaldehydnivået !{{er|er ikke}}",
-          "ar": "مستوى الفورمالديهايد !{{هو|ليس}}"
+          "ar": "مستوى الفورمالديهيد !{{هو|ليس}}",
+          "de": "Der Formaldehydgehalt !{{ist|ist nicht}}"
         },
         "args": [
           {

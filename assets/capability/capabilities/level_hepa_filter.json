@@ -12,7 +12,8 @@
     "es": "Nivel del filtro HEPA",
     "fr": "Niveau du filtre HEPA",
     "no": "HEPA-filternivå",
-    "ar": "مستوى فلتر HEPA"
+    "ar": "مستوى فلتر HEPA",
+    "de": "HEPA-Filterwert"
   },
   "desc": {
     "en": "The level of degredation on the HEPA filter.",
@@ -26,7 +27,8 @@
     "es": "El nivel de degradación del filtro HEPA.",
     "fr": "Le niveau de dégradation du filtre HEPA.",
     "no": "Nedbrytingsnivået for HEPA-filteret.",
-    "ar": "مستوى التدهور في فلتر HEPA."
+    "ar": "مستوى التدهور في فلتر HEPA.",
+    "de": "Der Verschleißgrad des HEPA-Filters."
   },
   "values": [
     {
@@ -43,7 +45,8 @@
         "es": "Correcto",
         "fr": "OK",
         "no": "OK",
-        "ar": "موافق"
+        "ar": "جيد",
+        "de": "OK"
       }
     },
     {
@@ -60,7 +63,8 @@
         "es": "Advertencia",
         "fr": "Avertissement",
         "no": "Advarsel",
-        "ar": "تحذير"
+        "ar": "تحذير",
+        "de": "Warnung"
       }
     },
     {
@@ -77,7 +81,8 @@
         "es": "Crítico",
         "fr": "Critique",
         "no": "Kritisk",
-        "ar": "حرج"
+        "ar": "حرج",
+        "de": "Kritisch"
       }
     }
   ],
@@ -102,7 +107,8 @@
           "es": "El filtro HEPA ha cambiado a",
           "fr": "Le niveau du filtre HEPA est passé à",
           "no": "HEPA-filternivået ble endret til",
-          "ar": "تم تغيير مستوى فلتر HEPA إلى"
+          "ar": "تغير مستوى فلتر HEPA إلى",
+          "de": "Der HEPA-Filterwert hat sich geändert auf"
         },
         "args": [
           {
@@ -128,7 +134,8 @@
           "es": "El nivel del filtro HEPA !{{es|no es}}",
           "fr": "Le niveau du filtre HEPA !{{est|n'est pas}}",
           "no": "HEPA-filternivået !{{er|er ikke}}",
-          "ar": "مستوى فلتر HEPA !{{هو|ليس}}"
+          "ar": "مستوى فلتر HEPA !{{هو|ليس}}",
+          "de": "Der HEPA-Filterwert !{{ist|ist nicht}}"
         },
         "args": [
           {

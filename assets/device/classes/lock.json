@@ -26,6 +26,7 @@
     "ru": "Используйте этот класс устройств для замков, обычно вместе с функциями `locked` и `lock_mode`.",
     "pl": "Użyj tej klasy urządzeń dla produktów z zamkiem, zwykle razem ze zdolnościami `locked` i `lock_mode`.",
     "ko": "이 디바이스 클래스는 보통 'locked' 및 'lock_mode' 기능을 갖춘 잠금장치인 록 디바이스에 사용합니다.",
-    "ar": "استخدم فئة الجهاز هذه لأجهزة القفل، عادةً مع إمكانيات 'locked' و 'lock_mode'."
+    "ar": "استخدم فئة الجهاز هذه لأجهزة القفل، عادةً مع إمكانيات 'locked' (مقفل) و'lock_mode' (وضع القفل).",
+    "nl": "Gebruik deze apparaatklasse voor vergrendelde apparaten, meestal samen met de opties 'locked' en 'lock_mode'."
   }
 }

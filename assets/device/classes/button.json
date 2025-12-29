@@ -26,6 +26,7 @@
     "ru": "Используйте этот класс устройств для устройств с кнопками, например пультов.",
     "pl": "Użyj tej klasy urządzeń dla przycisków, np. pilota.",
     "ko": "이 디바이스 클래스는 리모컨 등 버튼이 있는 것에 사용합니다.",
-    "ar": "استخدم فئة الجهاز هذه للأزرار، مثل جهاز التحكم عن بعد."
+    "ar": "استخدم فئة الجهاز هذه للأزرار، مثل جهاز التحكم عن بعد.",
+    "nl": "Gebruik deze apparaatklasse voor knoppen, zoals een afstandsbediening."
   }
 }

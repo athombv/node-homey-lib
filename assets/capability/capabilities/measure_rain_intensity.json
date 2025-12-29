@@ -12,7 +12,8 @@
     "es": "Intensidad de la lluvia",
     "fr": "Intensité de la pluie",
     "no": "Nedbørsmengde",
-    "ar": "شدة المطر"
+    "ar": "شدة المطر",
+    "de": "Regenintensität"
   },
   "units": {
     "en": "mm/h",
@@ -26,7 +27,8 @@
     "es": "mm/h",
     "fr": "mm/h",
     "no": "mm/t",
-    "ar": "mm/h"
+    "ar": "مم/س",
+    "de": "mm/h"
   },
   "desc": {
     "en": "The rain intensity in millimeters per hour.",
@@ -40,7 +42,8 @@
     "es": "La intensidad de la lluvia en milímetros por hora.",
     "fr": "L'intensité de la pluie en millimètres par heure.",
     "no": "Nedbørsmengden i millimeter per time.",
-    "ar": "شدة المطر بالمليمتر لكل ساعة."
+    "ar": "شدة المطر بالمليمتر لكل ساعة.",
+    "de": "Die Regenintensität in Millimetern pro Stunde."
   },
   "insights": true,
   "chartType": "spline",
@@ -65,7 +68,8 @@
           "es": "La intensidad de la lluvia ha cambiado",
           "fr": "L'intensité de la pluie a changé",
           "no": "Nedbørsmengden ble endret",
-          "ar": "تم تغيير شدة المطر"
+          "ar": "تغيرت شدة المطر",
+          "de": "Die Regenintensität hat sich geändert"
         },
         "tokens": [
           {

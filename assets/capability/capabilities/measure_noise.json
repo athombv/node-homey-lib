@@ -12,14 +12,23 @@
     "ru": "Шум",
     "pl": "Hałas",
     "ko": "소음",
-    "ar": "الضوضاء"
+    "ar": "الضوضاء",
+    "da": "Støj"
   },
   "units": {
     "en": "dB",
     "ru": "дБ",
     "ko": "dB",
     "no": "dB",
-    "ar": "dB"
+    "ar": "ديسيبل",
+    "da": "dB",
+    "de": "dB",
+    "es": "dB",
+    "fr": "dB",
+    "it": "dB",
+    "nl": "dB",
+    "pl": "dB",
+    "sv": "dB"
   },
   "insights": true,
   "desc": {
@@ -60,7 +69,7 @@
           "ru": "Шум изменился",
           "pl": "Zmiana poziomu hałasu",
           "ko": "소음이 변경되면",
-          "ar": "تم تغيير الضوضاء"
+          "ar": "تغيرت الضوضاء"
         },
         "tokens": [
           {

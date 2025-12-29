@@ -12,7 +12,7 @@
     "ru": "Обогреватель",
     "pl": "Grzejnik",
     "ko": "히터",
-    "ar": "سخان"
+    "ar": "مدفأة"
   },
   "description": {
     "en": "Use this device class for heaters, that warm your home.",
@@ -26,7 +26,8 @@
     "ru": "Используйте этот класс устройств для обогревателей, которые обогревают ваш дом.",
     "pl": "Użyj tej klasy urządzeń dla grzejników, które ogrzewają dom.",
     "ko": "이 디바이스 클래스는 집을 따뜻하게 해주는 히터에 사용합니다.",
-    "ar": "استخدم فئة الجهاز هذه للسخانات التي تدفئ منزلك."
+    "ar": "استخدم فئة الجهاز هذه للمدافئ التي تدفئ منزلك.",
+    "nl": "Gebruik deze apparaatklasse voor verwarmingen die je huis verwarmen."
   },
   "virtualTitle": {
     "en": "What's the type?",

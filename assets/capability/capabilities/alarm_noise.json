@@ -12,7 +12,8 @@
     "sv": "Bullerlarm",
     "es": "Alarma de ruido",
     "fr": "Alarme sonore",
-    "ar": "إنذار الضوضاء"
+    "ar": "إنذار الضوضاء",
+    "de": "Geräuschalarm"
   },
   "desc": {
     "en": "True when sound is detected.",
@@ -26,7 +27,8 @@
     "sv": "Sant när ljud detekteras.",
     "es": "Activado cuando se detecta sonido.",
     "fr": "Se déclenche lorsque du son est détecté.",
-    "ar": "صحيح عند اكتشاف صوت."
+    "ar": "صحيح عند اكتشاف صوت.",
+    "de": "Wahr, wenn Ton erkannt wird."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "sv": "Bullerlarm aktiverat",
     "es": "Alarma de ruido activada",
     "fr": "Alarme sonore activée",
-    "ar": "تم تشغيل إنذار الضوضاء"
+    "ar": "تم تشغيل إنذار الضوضاء",
+    "de": "Geräuschalarm eingeschaltet"
   },
   "insightsTitleFalse": {
     "en": "Noise Alarm turned off",
@@ -55,7 +58,8 @@
     "sv": "Bullerlarm inaktiverat",
     "es": "Alarma de ruido desactivada",
     "fr": "Alarme sonore désactivée",
-    "ar": "تم إيقاف إنذار الضوضاء"
+    "ar": "تم إيقاف إنذار الضوضاء",
+    "de": "Geräuschalarm ausgeschaltet"
   },
   "color": "#F7B500",
   "getable": true,
@@ -78,7 +82,8 @@
           "sv": "Bullerlarm aktiverat",
           "es": "La alarma de ruido se ha activado",
           "fr": "L'alarme sonore s'est activée",
-          "ar": "تم تشغيل إنذار الضوضاء"
+          "ar": "تم تشغيل إنذار الضوضاء",
+          "de": "Der Lärmalarm hat sich eingeschaltet"
         }
       },
       {
@@ -95,7 +100,8 @@
           "sv": "Bullerlarm inaktiverat",
           "es": "La alarma de ruido se ha desactivado",
           "fr": "L'alarme sonore s'est désactivée",
-          "ar": "تم إيقاف إنذار الضوضاء"
+          "ar": "تم إيقاف إنذار الضوضاء",
+          "de": "Der Lärmalarm hat sich ausgeschaltet"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "sv": "Bullerlarmet är aktiverat !{{på|av}}",
           "es": "La alarma de ruido está !{{activada|desactivada}}",
           "fr": "L'alarme sonore est !{{activée|désactivée}}",
-          "ar": "إنذار الضوضاء !{{يعمل|لا يعمل}}"
+          "ar": "إنذار الضوضاء !{{يعمل|لا يعمل}}",
+          "de": "Der Geräuschalarm ist !{{an|aus}}"
         }
       }
     ]

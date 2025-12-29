@@ -12,7 +12,8 @@
     "es": "Nivel de PM1",
     "fr": "Niveau de PM1",
     "no": "PM1-nivå",
-    "ar": "مستوى PM1"
+    "ar": "مستوى PM1",
+    "de": "PM1-Wert"
   },
   "desc": {
     "en": "The amount of PM1 particles in the air represented by a level.",
@@ -26,7 +27,8 @@
     "sv": "Mängden PM1-partiklar i luften som representeras av en nivå.",
     "fr": "La quantité de particules PM1 dans l'air représentée sous forme de niveau.",
     "no": "Mengden av PM1-partikler i luften uttrykt som et nivå.",
-    "ar": "كمية جزيئات PM1 في الهواء ممثلة كمستوى."
+    "ar": "كمية جزيئات PM1 في الهواء ممثلة كمستوى.",
+    "de": "Die Menge der PM1-Partikel in der Luft, dargestellt durch einen Wert."
   },
   "values": [
     {
@@ -43,7 +45,8 @@
         "es": "Bajo",
         "fr": "Faible",
         "no": "Lavt",
-        "ar": "منخفض"
+        "ar": "منخفض",
+        "de": "Niedrig"
       }
     },
     {
@@ -60,7 +63,8 @@
         "es": "Intermedio",
         "fr": "Moyen\n",
         "no": "Middels",
-        "ar": "متوسط"
+        "ar": "متوسط",
+        "de": "Mittel"
       }
     },
     {
@@ -77,7 +81,8 @@
         "es": "Alto",
         "fr": "Élevé",
         "no": "Høyt",
-        "ar": "عالي"
+        "ar": "عالي",
+        "de": "Hoch"
       }
     },
     {
@@ -94,7 +99,8 @@
         "es": "Crítico",
         "fr": "Critique",
         "no": "Kritisk",
-        "ar": "حرج"
+        "ar": "حرج",
+        "de": "Kritisch"
       }
     }
   ],
@@ -119,7 +125,8 @@
           "es": "El nivel de PM1 ha cambiado a",
           "fr": "Le niveau PM1 est passé à",
           "no": "PM1-nivået ble endret til",
-          "ar": "تم تغيير مستوى PM1 إلى"
+          "ar": "تغير مستوى PM1 إلى",
+          "de": "Der PM1-Wert hat sich geändert auf"
         },
         "args": [
           {
@@ -145,7 +152,8 @@
           "es": "El nivel de PM1 !{{es|no es}}",
           "fr": "Le niveau PM1 !{{est|n'est pas}}",
           "no": "PM1-nivået !{{er|er ikke}}",
-          "ar": "مستوى PM1 !{{هو|ليس}}"
+          "ar": "مستوى PM1 !{{هو|ليس}}",
+          "de": "Der PM1-Wert !{{ist|ist nicht}}"
         },
         "args": [
           {

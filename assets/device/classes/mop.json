@@ -27,7 +27,7 @@
     "pl": "Tej klasy urządzeń należy używać w przypadku mopów, np. mopów-robotów.",
     "sv": "Använd den här enhetsklassen för moppar, t.ex. en robotmopp.",
     "ru": "Используйте этот класс устройств для швабр, например, роботов-швабр.",
-    "ar": "استخدم فئة الجهاز هذه للمماسح، على سبيل المثال ممسحة روبوتية."
+    "ar": "استخدم فئة الجهاز هذه للممسحات، مثل الممسحة الآلية."
   },
   "minCompatibility": "12.0.0"
 }

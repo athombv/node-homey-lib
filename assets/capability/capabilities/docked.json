@@ -12,7 +12,8 @@
     "es": "En la base de carga",
     "fr": "À la base",
     "no": "I stasjonen",
-    "ar": "مرسى"
+    "ar": "قيد الإرساء",
+    "de": "Angedockt"
   },
   "desc": {
     "en": "True when docked.",
@@ -26,7 +27,8 @@
     "es": "Activado cuando está en la base de carga.",
     "fr": "Se déclenche lorsque l'appareil est à la base.",
     "no": "Sann når den er i stasjonen.",
-    "ar": "صحيح عندما يكون الجهاز في وضع الإرساء."
+    "ar": "صحيح عندما يكون الجهاز في وضع الإرساء.",
+    "de": "Wahr, wenn angedockt."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "es": "En la base de carga",
     "fr": "À la base",
     "no": "I stasjonen",
-    "ar": "مرسى"
+    "ar": "قيد الإرساء",
+    "de": "Angedockt"
   },
   "insightsTitleFalse": {
     "en": "Not docked",
@@ -55,7 +58,8 @@
     "es": "Fuera de la base de carga",
     "fr": "Pas à la base",
     "no": "Ikke i stasjonen",
-    "ar": "غير مرسى"
+    "ar": "لم يتم إرساؤه",
+    "de": "Nicht angedockt"
   },
   "color": "#9033FC",
   "getable": true,
@@ -78,7 +82,8 @@
           "es": "Está en la base de carga",
           "fr": "À la base",
           "no": "Har gått til stasjonen",
-          "ar": "تم الإرساء"
+          "ar": "تم إرساؤه",
+          "de": "Hat angedockt"
         }
       },
       {
@@ -95,7 +100,8 @@
           "es": "Está fuera de la base de carga",
           "fr": "Pas à la base",
           "no": "Har gått ut av stasjonen",
-          "ar": "تم فك الإرساء"
+          "ar": "تم فك الإرساء",
+          "de": "Hat abgedockt"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "es": "Está !{{en la base de carga|fuera de la base de carga}}",
           "fr": "!{{Est à la base|N'est pas à la base}}",
           "no": "Er !{{i stasjonen|ikke i stasjonen}}",
-          "ar": "هو !{{مرسى|غير مرسى}}"
+          "ar": "!{{قيد الإرساء|ليس قيد الإرساء}}",
+          "de": "Ist !{{angedockt|abgedockt}}"
         }
       }
     ]

@@ -12,7 +12,8 @@
     "sv": "Avstånd",
     "es": "Distancia",
     "fr": "\n",
-    "ar": "المسافة"
+    "ar": "المسافة",
+    "de": "Entfernung"
   },
   "units": {
     "en": "m",
@@ -26,7 +27,8 @@
     "sv": "m",
     "es": "m",
     "fr": "m",
-    "ar": "m"
+    "ar": "م",
+    "de": "m"
   },
   "desc": {
     "en": "The distance in meters.",
@@ -40,7 +42,8 @@
     "sv": "Avståndet i meter.",
     "es": "La distancia en metros.",
     "fr": "La distance en mètres.",
-    "ar": "المسافة بالمتر."
+    "ar": "المسافة بالمتر.",
+    "de": "Die Entfernung in Metern."
   },
   "insights": true,
   "chartType": "spline",
@@ -65,7 +68,8 @@
           "sv": "Avståndet ändrades",
           "es": "La distancia ha cambiado",
           "fr": "La distance a changé",
-          "ar": "تم تغيير المسافة"
+          "ar": "تغيرت المسافة",
+          "de": "Die Entfernung hat sich geändert"
         },
         "tokens": [
           {

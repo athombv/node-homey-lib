@@ -12,7 +12,8 @@
     "es": "Intensidad de la señal",
     "fr": "Intensité du signal",
     "no": "Signalstyrke",
-    "ar": "قوة الإشارة"
+    "ar": "قوة الإشارة",
+    "de": "Signalstärke"
   },
   "units": {
     "en": "dB",
@@ -26,7 +27,8 @@
     "es": "dB",
     "fr": "dB",
     "no": "dB",
-    "ar": "dB"
+    "ar": "دييسيبل",
+    "de": "dB"
   },
   "desc": {
     "en": "The signal strength in decibels.",
@@ -40,7 +42,8 @@
     "es": "La intensidad de la señal en decibelios.",
     "fr": "L'intensité du signal en décibels.",
     "no": "Signalstyrken i desibel.",
-    "ar": "قوة الإشارة بالديسيبل."
+    "ar": "قوة الإشارة بالديسيبل.",
+    "de": "Die Signalstärke in Dezibel."
   },
   "insights": true,
   "chartType": "spline",
@@ -65,7 +68,8 @@
           "es": "La intensidad de la señal ha cambiado",
           "fr": "L'intensité du signal a changé",
           "no": "Signalstyrken ble endret",
-          "ar": "تم تغيير قوة الإشارة"
+          "ar": "تغيرت قوة الإشارة",
+          "de": "Die Signalstärke hat sich geändert"
         },
         "tokens": [
           {

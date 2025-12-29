@@ -12,7 +12,8 @@
     "es": "Modo oscilante",
     "fr": "Mode de balancement",
     "no": "Svingmodus",
-    "ar": "وضع التأرجح"
+    "ar": "وضع التأرجح",
+    "de": "Schwenkmodus"
   },
   "values": [
     {
@@ -29,7 +30,8 @@
         "es": "Vertical",
         "fr": "Vertical",
         "no": "Vertikal",
-        "ar": "عمودي"
+        "ar": "عمودي",
+        "de": "Vertikal"
       }
     },
     {
@@ -46,7 +48,8 @@
         "es": "Horizontal",
         "fr": "Horizontal",
         "no": "Horisontal",
-        "ar": "أفقي"
+        "ar": "أفقي",
+        "de": "Horizontal"
       }
     },
     {
@@ -63,7 +66,8 @@
         "es": "Ambos",
         "fr": "Les deux",
         "no": "Begge",
-        "ar": "كلاهما"
+        "ar": "كلاهما",
+        "de": "Beide"
       }
     }
   ],
@@ -87,7 +91,8 @@
           "sv": "Svängläget har ändrats till",
           "es": "El modo de giro ha cambiado a",
           "fr": "Le mode de balancement a changé",
-          "ar": "تم تغيير وضع التأرجح إلى"
+          "ar": "تغير وضع التأرجح إلى",
+          "de": "Der Schwenkmodus wurde geändert in"
         },
         "args": [
           {
@@ -113,7 +118,8 @@
           "es": "El modo de oscilación !{{es|no es}}",
           "fr": "Le mode de balancement !{{est|n'est pas}}",
           "no": "Svingmodus !{{er|er ikke}}",
-          "ar": "وضع التأرجح !{{هو|ليس}}"
+          "ar": "وضع التأرجح !{{هو|ليس}}",
+          "de": "Schwenkmodus !{{ist|ist nicht}}"
         },
         "args": [
           {
@@ -139,7 +145,8 @@
           "es": "Ajustar el modo de oscilación en",
           "fr": "Définir le mode de balancement sur",
           "no": "Sett svingmodus til",
-          "ar": "ضبط وضع التأرجح إلى"
+          "ar": "ضبط وضع التأرجح على",
+          "de": "Stelle den Schwenkmodus auf"
         },
         "args": [
           {

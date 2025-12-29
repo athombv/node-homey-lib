@@ -26,6 +26,7 @@
     "ru": "Используйте этот класс устройств для пылесосов, обычно вместе с функцией `vacuumcleaner_state`.",
     "pl": "Użyj tej klasy urządzeń dla odkurzaczy, zwykle razem ze zdolnością `vacuumcleaner_state`.",
     "ko": "이 디바이스 클래스는 보통 'vacuumcleaner_state' 기능을 갖춘 진공청소기에 사용합니다.",
-    "ar": "استخدم فئة الجهاز هذه للمكانس الكهربائية، عادةً مع إمكانية 'vacuumcleaner_state'."
+    "ar": "استخدم فئة الجهاز هذه للمكانس الكهربائية، عادةً مع إمكانية 'vacuumcleaner_state'.",
+    "nl": "Gebruik deze apparaatklasse voor stofzuigers, meestal samen met de optie 'vacuumcleaner_state'."
   }
 }

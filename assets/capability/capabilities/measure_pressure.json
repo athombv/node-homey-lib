@@ -20,7 +20,15 @@
     "ru": "мбар",
     "ko": "mbar",
     "no": "mbar",
-    "ar": "mbar"
+    "ar": "مللي بار",
+    "da": "mbar",
+    "de": "mbar",
+    "es": "mbar",
+    "fr": "mbar",
+    "it": "mbar",
+    "nl": "mbar",
+    "pl": "mbar",
+    "sv": "mbar"
   },
   "insights": true,
   "desc": {
@@ -36,7 +44,7 @@
     "ru": "Давление (мбар)",
     "pl": "Ciśnienie w milibarach (mbar)",
     "ko": "압력 밀리바(mbar)",
-    "ar": "الضغط بالمليبار (mbar)"
+    "ar": "الضغط بالمللي بار (mbar)"
   },
   "chartType": "spline",
   "decimals": 0,
@@ -61,7 +69,7 @@
           "ru": "Давление изменилось",
           "pl": "Zmiana ciśnienia",
           "ko": "기압이 변경되면",
-          "ar": "تم تغيير الضغط"
+          "ar": "تغير الضغط"
         },
         "tokens": [
           {

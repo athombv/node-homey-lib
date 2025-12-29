@@ -32,7 +32,7 @@
   },
   "desc": {
     "en": "The cooking time in seconds that is set. When no cooking time is set, the capability should be set to `null`.",
-    "ar": "وقت الطهي بالثواني الذي تم تعيينه. عند عدم ضبط وقت الطهي على \"لا شيء\".",
+    "ar": "وقت الطهي بالثواني الذي تم ضبطه. عند عدم ضبط وقت الطهي، يجب ضبكط الميزة على \"لا شيء\".",
     "da": "Den indstillede tilberedningstid i sekunder. Når der ikke er indstillet nogen tilberedningstid, skal kapaciteten indstilles til `null`.",
     "de": "Die eingestellte Garzeit in Sekunden. Wenn keine Garzeit eingestellt ist, sollte die Funktion auf „null“ gesetzt werden.",
     "es": "El tiempo de cocción en segundos que está establecido. Si no se desea ningún tiempo de cocción, el valor ha de ser \"nulo\".",
@@ -88,7 +88,7 @@
         "id": "set_cooking_time",
         "title": {
           "en": "Set the cooking time to [[cooking_time]]",
-          "ar": "اضبط وقت الطهي على [[وقت_الطهي]]",
+          "ar": "اضبط وقت الطهي على [[cooking_time]]",
           "da": "Indstil tilberedningstiden til [[cooking_time]]",
           "de": "Stellen Sie die Garzeit auf [[cooking_time]]",
           "es": "Establece el tiempo de cocción en [[cooking_time]]",

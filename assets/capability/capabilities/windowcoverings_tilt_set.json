@@ -22,7 +22,15 @@
     "ko": "%",
     "no": "%",
     "ru": "%",
-    "ar": "%"
+    "ar": "%",
+    "da": "%",
+    "de": "%",
+    "es": "%",
+    "fr": "%",
+    "it": "%",
+    "nl": "%",
+    "pl": "%",
+    "sv": "%"
   },
   "decimals": 2,
   "color": "#F5B207",
@@ -45,7 +53,8 @@
           "es": "La inclinación ha cambiado",
           "fr": "La position d'inclinaison a changé",
           "no": "Vippeposisjonen ble endret",
-          "ar": "تم تغيير موضع الإمالة"
+          "ar": "تم تغيير موضع الإمالة",
+          "de": "Die Neigungsposition wurde geändert"
         },
         "tokens": [
           {
@@ -63,7 +72,8 @@
               "es": "Posición",
               "fr": "Position",
               "no": "Posisjon",
-              "ar": "الموضع"
+              "ar": "الموضع",
+              "de": "Position"
             },
             "example": 0.5
           }
@@ -86,7 +96,8 @@
           "es": "Ajustar la inclinación a",
           "fr": "Définir la position d'inclinaison sur",
           "no": "Sett vippeposisjonen til",
-          "ar": "ضبط موضع الإمالة إلى"
+          "ar": "ضبط موضع الإمالة على",
+          "de": "Stelle die Neigungsposition auf"
         },
         "hint": {
           "en": "Change the tilt position to open (100%), closed (0%), or a value in between.",
@@ -100,7 +111,8 @@
           "es": "Cambia la inclinación a abierta (100%), cerrada (0%) o un valor intermedio.",
           "fr": "Modifier la position de l'inclinaison pour qu'elle soit ouverte (100 %), fermée (0 %) ou une valeur intermédiaire.",
           "no": "Endre vippeposisjonen til åpen (100 %), lukket (0 %) eller en mellomliggende verdi.",
-          "ar": "تغيير موضع الإمالة إلى مفتوح (100%)، مغلق (0%)، أو قيمة بينهما."
+          "ar": "تغيير موضع الإمالة إلى مفتوح (100%) أو مغلق (0%)، أو قيمة بينهما.",
+          "de": "Ändere die Neigungsposition auf offen (100 %), geschlossen (0 %) oder einen Wert dazwischen."
         },
         "args": [
           {

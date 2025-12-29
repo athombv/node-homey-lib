@@ -12,7 +12,8 @@
     "ru": "Сигнал газа",
     "sv": "Gaslarm",
     "es": "Alarma de gas",
-    "ar": "إنذار الغاز"
+    "ar": "إنذار الغاز",
+    "de": "Gasalarm"
   },
   "description": {
     "en": "True when gas is detected",
@@ -26,7 +27,8 @@
     "ru": "Значение «истина» при обнаружении газа",
     "sv": "Sant när gas detekteras",
     "es": "Activado cuando se detecta gas",
-    "ar": "صحيح عند اكتشاف غاز"
+    "ar": "صحيح عند اكتشاف غاز",
+    "de": "Wahr, wenn Gas erkannt wird"
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "ru": "Сигнал об утечке газа включен",
     "sv": "Gaslarm aktiverat",
     "es": "Alarma de gas activada",
-    "ar": "تم تشغيل إنذار الغاز"
+    "ar": "تم تشغيل إنذار الغاز",
+    "de": "Gasalarm eingeschaltet"
   },
   "insightsTitleFalse": {
     "en": "Gas alarm turned off",
@@ -55,7 +58,8 @@
     "ru": "Сигнал об утечке газа выключен",
     "sv": "Gaslarm inaktiverat",
     "es": "Alarma de gas desactivada",
-    "ar": "تم إيقاف إنذار الغاز"
+    "ar": "تم إيقاف إنذار الغاز",
+    "de": "Gasalarm ausgeschaltet"
   },
   "color": "#F9236C",
   "getable": true,
@@ -78,7 +82,8 @@
           "ru": "Сигнал об утечке газа включен",
           "sv": "Gaslarmet aktiveras",
           "es": "La alarma de gas se ha activado",
-          "ar": "تم تشغيل إنذار الغاز"
+          "ar": "تم تشغيل إنذار الغاز",
+          "de": "Der Gasalarm wurde eingeschaltet"
         }
       },
       {
@@ -95,7 +100,8 @@
           "sv": "Gaslarmet inaktiverat",
           "es": "La alarma de gas se ha desactivado",
           "fr": "L'alarme de gaz s'est désactivée",
-          "ar": "تم إيقاف إنذار الغاز"
+          "ar": "تم إيقاف إنذار الغاز",
+          "de": "Der Gasalarm wurde ausgeschaltet"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "sv": "Gaslarmet är !{{på|av}}",
           "es": "La alarma de gas está !{{activada|desactivada}}",
           "fr": "L'alarme de gaz est !{{activée|désactivée}}",
-          "ar": "إنذار الغاز !{{يعمل|لا يعمل}}"
+          "ar": "إنذار الغاز !{{يعمل|لا يعمل}}",
+          "de": "Der Gasalarm ist !{{an|aus}}"
         }
       }
     ]

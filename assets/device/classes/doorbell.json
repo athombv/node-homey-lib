@@ -26,6 +26,7 @@
     "ru": "Используйте этот класс устройств для дверных звонков, обычно вместе с возможностью использовать «кнопку».",
     "pl": "Użyj tej klasy urządzeń dla dzwonków do drzwi, zwykle razem ze zdolnością „przycisk”.",
     "ko": "이 디바이스 클래스는 보통 '버튼' 기능이 있는 초인종에 사용합니다.",
-    "ar": "استخدم فئة الجهاز هذه لأجراس الأبواب، عادةً مع إمكانية 'زر'."
+    "ar": "استخدم فئة الجهاز هذه لأجراس الأبواب، عادةً مع إمكانية 'زر'.",
+    "nl": "Gebruik deze apparaatklasse voor deurbellen, meestal samen met de optie 'button'."
   }
 }

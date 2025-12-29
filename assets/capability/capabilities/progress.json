@@ -32,7 +32,7 @@
   },
   "desc": {
     "en": "The the percentage of the current task that is completed. When the task is currently not active the capability should be set to `null`",
-    "ar": "النسبة المئوية للمهمة الحالية التي اكتملت. عندما تكون المهمة غير نشطة حاليًا يجب تعيين الإمكانية إلى 'لاغية'",
+    "ar": "النسبة المئوية للمهمة الحالية التي اكتملت. عندما تكون المهمة غير نشطة حاليًا يجب تعيين الإمكانية على 'null' (لاغية)",
     "da": "Den procentdel af den aktuelle opgave, der er afsluttet. Når opgaven ikke er aktiv i øjeblikket, skal kapaciteten sættes til `null`",
     "de": "Der Prozentsatz der aktuellen Aufgabe, der schon erledigt ist. Wenn die Aufgabe gerade nicht aktiv ist, sollte die Funktion auf „null“ gesetzt werden.",
     "es": "El porcentaje de la tarea actual que se ha completado. Si la tarea no está activa en ese momento, el valor ha de ser \"nulo\".",

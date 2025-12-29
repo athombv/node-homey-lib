@@ -27,7 +27,7 @@
     "pl": "Tej klasy urządzeń należy używać w przypadku kranów.",
     "ru": "Используйте этот класс устройств для смесителей.",
     "sv": "Använd den här enhetsklassen för kranar.",
-    "ar": "استخدم فئة الجهاز هذه للحنفيات."
+    "ar": "استخدم فئة الجهاز هذه لصنابير المياه."
   },
   "minCompatibility": "12.0.0"
 }

@@ -26,6 +26,7 @@
     "ru": "Используйте этот класс устройств для пультов дистанционного управления (телевизоры/жалюзи/брелки и т.п.).",
     "pl": "Użyj tej klasy urządzeń dla pilotów (od telewizora/od markizy/klucza zbliżeniowego itp.).",
     "ko": "이 디바이스 클래스는 (TV/선블라인드/스마트키 등) 리모컨에 사용합니다.",
-    "ar": "استخدم فئة الجهاز هذه لأجهزة التحكم عن بعد (تلفزيون/ستارة شمسية/مفتاح تشغيل، إلخ)."
+    "ar": "استخدم فئة الجهاز هذه لأجهزة التحكم عن بعد (تلفزيون/ستارة شمسية/مفتاح تشغيل، إلخ).",
+    "nl": "Gebruik deze apparaatklasse voor afstandsbedieningen (tv/zonwering/keyfob etc.)."
   }
 }

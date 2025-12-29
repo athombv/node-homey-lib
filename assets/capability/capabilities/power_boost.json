@@ -17,7 +17,7 @@
   },
   "desc": {
     "en": "When enabled, power boost mode is active. The device may use more energy to reach its target.",
-    "ar": "عند التمكين، يكون وضع تعزيز الطاقة نشطاً. قد يستخدم الجهاز المزيد من الطاقة للوصول إلى هدفه.",
+    "ar": "عند التمكين، يكون وضع تعزيز الطاقة نشطًا. وقد يستخدم الجهاز المزيد من الطاقة للوصول إلى هدفه.",
     "da": "Når den er aktiveret, er strøm-boost-tilstand aktiv. Enheden kan bruge mere energi på at nå sit mål.",
     "de": "Wenn aktiviert, ist der Power Boost-Modus eingeschaltet. Das Gerät verbraucht möglicherweise mehr Energie, um das Ziel zu erreichen.",
     "es": "Cuando está activado, el modo de aumento de potencia está activo. El dispositivo puede emplear más energía para alcanzar su objetivo.",
@@ -51,7 +51,7 @@
   },
   "insightsTitleFalse": {
     "en": "Power Boost disabled",
-    "ar": "تم تعطيل تعزيز الطاقة المعزز",
+    "ar": "تم تعطيل تعزيز الطاقة",
     "da": "Strøm-boost deaktiveret",
     "de": "Power Boost deaktiviert",
     "es": "Aumento de potencia desactivado",
@@ -112,7 +112,7 @@
         "id": "power_boost",
         "title": {
           "en": "Power boost is !{{enabled|disabled}}",
-          "ar": "تعزيز الطاقة هو !{{enabled|disabled}}",
+          "ar": "تعزيز الطاقة !{{ممكّن|معطّل}}",
           "da": "Strøm-boost er!{{enabled|disabled}}",
           "de": "Power Boost ist !{{aktiviert|deaktiviert}}",
           "es": "El aumento de potencia está !{{activado|desactivado}}",
@@ -122,8 +122,8 @@
           "nl": "Extra vermogen is !{{ingeschakeld|uitgeschakeld}}",
           "no": "Effektboost er !{{aktivert|deaktivert}}",
           "pl": "Zwiększenie mocy jest !{{włączone|wyłączone}}",
-          "ru": "Усиление мощности !{{enabled|disabled}}",
-          "sv": "Effektökning är!{{enabled|disabled}}"
+          "ru": "Усиление мощности !{{включено|выключено}}",
+          "sv": "Effektökning är !{{aktiverad|inaktiverad}}"
         }
       }
     ],

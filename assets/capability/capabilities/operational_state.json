@@ -12,7 +12,8 @@
     "es": "Estado operativo",
     "fr": "État opérationnel",
     "no": "Driftstilstand",
-    "ar": "حالة التشغيل"
+    "ar": "حالة التشغيل",
+    "de": "Betriebszustand"
   },
   "desc": {
     "en": "The operational state of the appliance.",
@@ -26,7 +27,8 @@
     "es": "El estado operativo del dispositivo.",
     "fr": "L'état de fonctionnement de l'appareil.",
     "no": "Apparatets driftstilstand.",
-    "ar": "حالة التشغيل للجهاز."
+    "ar": "حالة التشغيل للجهاز.",
+    "de": "Der Betriebszustand des Geräts."
   },
   "values": [
     {
@@ -43,7 +45,8 @@
         "es": "Detenido",
         "fr": "Arrêté",
         "no": "Stoppet",
-        "ar": "متوقف"
+        "ar": "متوقف",
+        "de": "Angehalten"
       }
     },
     {
@@ -60,7 +63,8 @@
         "es": "En uso",
         "fr": "En cours d'exécution",
         "no": "I gang",
-        "ar": "قيد التشغيل"
+        "ar": "قيد التشغيل",
+        "de": "Läuft"
       }
     },
     {
@@ -77,7 +81,8 @@
         "es": "En pausa",
         "fr": "En pause",
         "no": "På pause",
-        "ar": "متوقف مؤقتاً"
+        "ar": "متوقف مؤقتًا",
+        "de": "Pausiert"
       }
     },
     {
@@ -94,7 +99,8 @@
         "es": "Error",
         "fr": "Erreur",
         "no": "Feil",
-        "ar": "خطأ"
+        "ar": "خطأ",
+        "de": "Fehler"
       }
     }
   ],
@@ -119,7 +125,8 @@
           "es": "El estado operativo ha cambiado a",
           "fr": "L'état opérationnel est passé à",
           "no": "Driftstilstanden ble endret til",
-          "ar": "تم تغيير حالة التشغيل إلى"
+          "ar": "تغيرت حالة التشغيل إلى",
+          "de": "Der Betriebszustand hat sich geändert in"
         },
         "args": [
           {
@@ -145,7 +152,8 @@
           "es": "El estado operativo !{{está|no está}}",
           "fr": "L'état opérationnel !{{est|n'est pas}}",
           "no": "Driftstilstanden !{{er|er ikke}}",
-          "ar": "حالة التشغيل !{{هي|ليست}}"
+          "ar": "حالة التشغيل !{{هي|ليست}}",
+          "de": "Der Betriebszustand !{{ist|ist nicht}}"
         },
         "args": [
           {
