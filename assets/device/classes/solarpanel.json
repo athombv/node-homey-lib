@@ -9,7 +9,10 @@
     "ru": "Солнечная панель",
     "pl": "Panel fotowoltaiczny",
     "ko": "태양광 패널",
-    "ar": "لوحة شمسية"
+    "ar": "لوحة شمسية",
+    "de": "Solarpanel",
+    "fr": "Panneau solaire",
+    "it": "Pannello solare"
   },
   "description": {
     "en": "Use this device class for solar panels.",
@@ -19,6 +22,11 @@
     "pl": "Użyj tej klasy urządzeń dla paneli fotowoltaicznych.",
     "ko": "이 디바이스 클래스는 태양광 패널에 사용합니다.",
     "no": "Bruk denne enhetsklassen for solpaneler.",
-    "ar": "استخدم فئة الجهاز هذه للألواح الشمسية."
+    "ar": "استخدم فئة الجهاز هذه للألواح الشمسية.",
+    "de": "Verwende diese Geräteklasse für Solarpanele.",
+    "fr": "Utilisez cette classe d'appareils pour les panneaux solaires.",
+    "it": "Utilizza questa classe di dispositivi per i pannelli solari.",
+    "nl": "Gebruik deze apparaatklasse voor zonnepanelen.",
+    "sv": "Använd den här enhetsklassen för solpaneler."
   }
 }

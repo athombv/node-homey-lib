@@ -27,7 +27,7 @@
     "pl": "Tej klasy urządzeń należy używać dla dowolnego typu pojazdu, gdy klasa urządzeń „samochód”, „rower” lub „skuter” nie ma zastosowania.",
     "ru": "Используйте этот класс устройств для транспортных средств любого типа, которые не относятся к классу устройств «автомобиль», «велосипед» или «самокат».",
     "sv": "Använd den här enhetsklassen för alla typer av fordon, när enhetsklassen \"bil\", \"cykel\" eller \"skoter\" inte är tillämplig.",
-    "ar": "استخدم فئة الجهاز هذه لأي نوع من المركبات، عندما لا تنطبق فئة الجهاز 'سيارة'، 'دراجة هوائية' أو 'سكوتر'."
+    "ar": "استخدم فئة الجهاز هذه لأي نوع من المركبات، عندما لا تنطبق فئة الجهاز 'سيارة' أو 'دراجة هوائية' أو 'سكوتر'."
   },
   "virtualTitle": {
     "en": "What's the type?",

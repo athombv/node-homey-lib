@@ -27,7 +27,7 @@
     "pl": "Ta klasa urządzeń jest przeznaczona do każdego rodzaju lodówki z zamrażalnikiem.",
     "ru": "Используйте этот класс устройств для любого холодильника, в котором также есть морозильная камера.",
     "sv": "Använd den här enhetsklassen för alla typer av kylskåp som också har en frys.",
-    "ar": "استخدم فئة الجهاز هذه لأي نوع من الثلاجات التي تحتوي أيضاً على مجمد."
+    "ar": "استخدم فئة الجهاز هذه لأي نوع من الثلاجات التي تحتوي أيضًا على مجمد."
   },
   "minCompatibility": "12.0.0"
 }
