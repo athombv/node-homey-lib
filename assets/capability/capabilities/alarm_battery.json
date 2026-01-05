@@ -28,7 +28,7 @@
     "ru": "Значение «истина», когда есть предупреждение об аккумуляторе",
     "pl": "Adekwatny, kiedy włączy się ostrzeżenie o stanie baterii",
     "ko": "배터리 경고가 있으면 참",
-    "ar": "صحيح عند وجود تحذير من البطارية"
+    "ar": "صحيح عند وجود تحذير البطارية"
   },
   "insights": true,
   "insightsTitleTrue": {

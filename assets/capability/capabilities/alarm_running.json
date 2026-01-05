@@ -12,7 +12,8 @@
     "sv": "Larm körs",
     "es": "Alarma de funcionamiento",
     "fr": "Alarme de fonctionnement",
-    "ar": "إنذار التشغيل"
+    "ar": "إنذار التشغيل",
+    "de": "Laufender Alarm"
   },
   "desc": {
     "en": "True when the device is busy (e.g., printer is printing).",
@@ -26,7 +27,8 @@
     "es": "Activado cuando el dispositivo está en funcionamiento (por ejemplo, la impresora está imprimiendo).",
     "fr": "Se déclenche lorsque l'appareil est utilisé (par exemple, l'imprimante est en train d'imprimer).",
     "no": "Sann når enheten er i bruk (f.eks. en skriver som skriver ut noe).",
-    "ar": "صحيح عندما يكون الجهاز مشغولاً (مثلاً، الطابعة تطبع)."
+    "ar": "صحيح عندما يكون الجهاز مشغولًا (مثل، قيام الطابعة بالطباعة).",
+    "de": "Wahr, wenn das Gerät arbeitet (z. B. wenn der Drucker druckt)."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "es": "Alarma de funcionamiento activada",
     "fr": "Alarme de fonctionnement activée",
     "no": "Kjøringsalarm aktivert",
-    "ar": "تم تشغيل إنذار التشغيل"
+    "ar": "تم تشغيل إنذار التشغيل",
+    "de": "Laufender Alarm eingeschaltet"
   },
   "insightsTitleFalse": {
     "en": "Running alarm turned off",
@@ -55,7 +58,8 @@
     "es": "Alarma de funcionamiento desactivada",
     "fr": "Alarme de fonctionnement désactivée",
     "no": "Kjøringsalarm deaktivert",
-    "ar": "تم إيقاف إنذار التشغيل"
+    "ar": "تم إيقاف إنذار التشغيل",
+    "de": "Laufender Alarm ausgeschaltet"
   },
   "color": "#32C5FF",
   "getable": true,
@@ -78,7 +82,8 @@
           "es": "La alarma de funcionamiento se ha activado",
           "fr": "L'alarme de fonctionnement s'est activée",
           "no": "Kjøringsalarmen ble aktivert",
-          "ar": "تم تشغيل إنذار التشغيل"
+          "ar": "تم تشغيل إنذار التشغيل",
+          "de": "Der Laufende Alarm wurde eingeschaltet"
         }
       },
       {
@@ -95,7 +100,8 @@
           "es": "La alarma de funcionamiento se ha desactivado",
           "fr": "L'alarme de fonctionnement s'est désactivée",
           "no": "Kjøringsalarmen ble deaktivert",
-          "ar": "تم إيقاف إنذار التشغيل"
+          "ar": "تم إيقاف إنذار التشغيل",
+          "de": "Der laufende Alarm wurde ausgeschaltet"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "es": "!{{Está en funcionamiento|No está en funcionamiento}}",
           "fr": "Est !{{connectée|déconnectée}}",
           "no": "Er !{{i bruk|ikke i bruk}}",
-          "ar": "هو !{{مشغول|غير مشغول}}"
+          "ar": "!{{مشغول|غير مشغول}}",
+          "de": "!{{Arbeitet|Arbeitet nicht}}"
         }
       }
     ]

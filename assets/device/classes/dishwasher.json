@@ -12,7 +12,7 @@
     "pl": "Zmywarka",
     "ru": "Посудомоечная машина",
     "sv": "Diskmaskin",
-    "ar": "غسالة صحون"
+    "ar": "غسالة أطباق"
   },
   "description": {
     "en": "Use this device class for dishwashers.",
@@ -27,7 +27,7 @@
     "pl": "Tej klasy urządzeń należy używać w przypadku zmywarek do naczyń.",
     "ru": "Используйте этот класс устройств для посудомоечных машин.",
     "sv": "Använd den här enhetsklassen för diskmaskiner.",
-    "ar": "استخدم فئة الجهاز هذه لغسالات الصحون."
+    "ar": "استخدم فئة الجهاز هذه لغسالات الأطباق."
   },
   "minCompatibility": "12.0.0"
 }

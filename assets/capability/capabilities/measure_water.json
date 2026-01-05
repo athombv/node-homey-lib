@@ -20,7 +20,15 @@
     "ru": "Л/мин",
     "ko": "L/min",
     "no": "L/min",
-    "ar": "L/min"
+    "ar": "لتر/دقيقة",
+    "da": "L/min",
+    "de": "L/min",
+    "es": "L/min",
+    "fr": "L/min",
+    "it": "L/min",
+    "nl": "L/min",
+    "pl": "L/min",
+    "sv": "L/min"
   },
   "desc": {
     "en": "Water flow in liters per minute (L/min)",
@@ -61,7 +69,7 @@
           "ru": "Поток воды изменился",
           "pl": "Zmienił się przepływ wody",
           "ko": "유량이 변경되면",
-          "ar": "تم تغيير تدفق المياه"
+          "ar": "تغير تدفق المياه"
         },
         "tokens": [
           {

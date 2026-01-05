@@ -27,7 +27,7 @@
     "pl": "Tej klasy urządzeń należy używać dla odtwarzaczy multimedialnych, gdy klasa urządzeń „dekoder” nie ma zastosowania.",
     "ru": "Используйте этот класс устройств для медиаплееров, которые не относятся к классу устройств «ресивер».",
     "sv": "Använd den här enhetsklassen för mediaspelare när enhetsklassen \"digitalbox\" inte är tillämplig.",
-    "ar": "استخدم فئة الجهاز هذه لمشغلات الوسائط، عندما لا تنطبق فئة الجهاز 'جهاز استقبال'."
+    "ar": "استخدم فئة الجهاز هذه لمشغلات الوسائط، عندما لا تنطبق فئة الجهاز 'Set-top box' (جهاز استقبال)."
   },
   "virtualTitle": {
     "en": "What's the type?",

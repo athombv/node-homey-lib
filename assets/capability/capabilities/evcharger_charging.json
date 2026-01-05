@@ -12,7 +12,7 @@
     "pl": "Ładowanie",
     "ru": "Заряжается",
     "sv": "Laddning",
-    "ar": "الشحن"
+    "ar": "قيد الشحن"
   },
   "type": "boolean",
   "color": "#6DD400",
@@ -48,7 +48,7 @@
     "pl": "Zatrzymano ładowanie",
     "ru": "Зарядка остановлена",
     "sv": "Slutade ladda",
-    "ar": "أوقف الشحن"
+    "ar": "توقف الشحن"
   },
   "uiComponent": "toggle",
   "$flow": {
@@ -88,7 +88,7 @@
           "pl": "Zatrzymano ładowanie",
           "ru": "Зарядка остановлена",
           "sv": "Slutade ladda",
-          "ar": "أوقف الشحن"
+          "ar": "توقف الشحن"
         }
       }
     ],
@@ -97,17 +97,17 @@
         "id": "evcharger_charging",
         "title": {
           "en": "Is !{{|not}} charging",
-          "nl": "Is !{{|not}} aan het opladen",
-          "da": "Oplader !{{|not}}",
+          "nl": "Is !{{|niet}} aan het opladen",
+          "da": "Oplader !{{|ikke}}",
           "de": "Wird !{{|nicht}} geladen",
           "es": "!{{|No}} está cargando",
           "fr": "N'est !{{|pas}} en cours de charge",
-          "it": "È !{{|not}} in ricarica",
+          "it": "!{{|Non}} è in ricarica",
           "ko": "충전 중!{{이면|이 아니면}}",
           "no": "Lader !{{|ikke}}",
           "pl": "!{{Jest|Nie jest}} w trakcie ładowania",
           "ru": "!{{|не}} заряжается",
-          "sv": "Laddar !{{|not}}",
+          "sv": "Laddar !{{|inte}}",
           "ar": "هو !{{|ليس}} في حالة شحن"
         }
       }
