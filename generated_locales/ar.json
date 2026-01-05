@@ -1,5 +1,5 @@
 {
-  "__comment": "تم إنشاء هذا الملف. لا تقم بتعديله مباشرةَ.",
+  "__comment": "This file is generated. Do not edit it directly.",
   "./assets/app/permissions.json@homey:manager:geolocation.title": "قراءة موقع Homey",
   "./assets/app/permissions.json@homey:manager:ledring.title": "التحكم في حلقة LED الخاصة بـ Homey",
   "./assets/app/permissions.json@homey:manager:media.title": "التحكم في موسيقى Homey",
