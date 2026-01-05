@@ -26,7 +26,8 @@
     "ru": "Используйте этот класс устройств для оконных навесов, когда классы устройств `curtains`, `blinds` или `sunshade` не подходят.",
     "pl": "Użyj tej klasy urządzeń dla osłon okiennych o innej klasie urządzenia niż `curtains`, `blinds` lub `sunshade`.",
     "ko": "이 디바이스 클래스는 'curtains', 'blinds', 'sunshade' 디바이스 클래스가 적용되지 않는 창문 덮개에 사용합니다.",
-    "ar": "استخدم فئة الجهاز هذه لأغطية النوافذ، عندما لا تنطبق فئة الجهاز 'ستائر'، 'ستائر دوارة' أو 'مظلة شمسية'."
+    "ar": "استخدم فئة الجهاز هذه لأغطية النوافذ، عندما لا تنطبق فئة الجهاز 'ستائر'، 'ستائر دوارة' أو 'مظلة شمسية'.",
+    "nl": "Gebruik deze apparaatklasse voor raambekleding wanneer de apparaatklasse 'gordijnen', 'jaloezieën' of 'zonnescherm' niet van toepassing is."
   },
   "virtualTitle": {
     "en": "What's the type?",

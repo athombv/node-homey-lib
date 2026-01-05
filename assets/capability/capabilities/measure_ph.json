@@ -12,7 +12,8 @@
     "sv": "pH-nivå",
     "es": "nivel de PH",
     "fr": "Niveau de pH",
-    "ar": "مستوى الحموضة"
+    "ar": "مستوى الحموضة",
+    "de": "pH-Wert"
   },
   "desc": {
     "en": "The pH level of a aqueous solution.",
@@ -26,7 +27,8 @@
     "es": "El nivel de pH de una solución acuosa.",
     "fr": "Le pH d'une solution aqueuse.",
     "no": "pH-nivå for en vandig løsning.",
-    "ar": "مستوى الحموضة للمحلول المائي."
+    "ar": "مستوى الحموضة للمحلول المائي.",
+    "de": "Der pH-Wert einer wässrigen Lösung."
   },
   "insights": true,
   "chartType": "spline",
@@ -51,7 +53,8 @@
           "es": "El nivel de pH ha cambiado",
           "fr": "Le niveau de pH a changé",
           "no": "pH-nivået ble endret",
-          "ar": "تم تغيير مستوى الحموضة"
+          "ar": "تغير مستوى الحموضة",
+          "de": "Der pH-Wert hat sich geändert"
         },
         "tokens": [
           {
