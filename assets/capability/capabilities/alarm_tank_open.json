@@ -12,7 +12,8 @@
     "sv": "Larm om öppen tank",
     "es": "Alarma de depósito abierto",
     "fr": "Alarme de réservoir ouvert",
-    "ar": "إنذار الخزان المفتوح"
+    "ar": "إنذار فتح الخزان",
+    "de": "Alarm Tank offen"
   },
   "desc": {
     "en": "True when the tank is open.",
@@ -26,7 +27,8 @@
     "sv": "Sant när tanken är öppen.",
     "es": "Activado cuando el depósito está abierto.",
     "fr": "Se déclenche lorsque le réservoir est ouvert.",
-    "ar": "صحيح عندما يكون الخزان مفتوحًا."
+    "ar": "صحيح عندما يكون الخزان مفتوحًا.",
+    "de": "Wahr, wenn der Tank geöffnet ist."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "sv": "Tanken var öppen",
     "es": "El depósito estaba abierto",
     "fr": "Le réservoir était ouvert",
-    "ar": "كان الخزان مفتوحاً"
+    "ar": "كان الخزان مفتوحًا",
+    "de": "Tank war offen"
   },
   "insightsTitleFalse": {
     "en": "Tank was closed",
@@ -55,7 +58,8 @@
     "sv": "Tanken var stängd",
     "es": "El depósito estaba cerrado",
     "fr": "Le réservoir était fermé",
-    "ar": "كان الخزان مغلقاً"
+    "ar": "كان الخزان مغلقًا",
+    "de": "Tank wurde geschlossen"
   },
   "color": "#0091FF",
   "getable": true,
@@ -78,7 +82,8 @@
           "sv": "Tanken öppnas",
           "es": "El depósito está abierto",
           "fr": "Le réservoir s'ouvre",
-          "ar": "الخزان يفتح"
+          "ar": "الخزان يفتح",
+          "de": "Der Tank öffnet"
         }
       },
       {
@@ -95,7 +100,8 @@
           "sv": "Tanken stängs",
           "es": "El depósito está cerrado",
           "fr": "Le réservoir se ferme",
-          "ar": "الخزان يغلق"
+          "ar": "الخزان يغلق",
+          "de": "Der Tank schließt"
         }
       }
     ],
@@ -114,7 +120,8 @@
           "sv": "Tanken är !{{öppen|stängd}}",
           "es": "El depósito está !{{abierto|cerrado}}",
           "fr": "Le réservoir est !{{ouvert|fermé}}",
-          "ar": "الخزان !{{مفتوح|مغلق}}"
+          "ar": "الخزان !{{مفتوح|مغلق}}",
+          "de": "Der Tank ist !{{offen|gesclossen}}"
         }
       }
     ]

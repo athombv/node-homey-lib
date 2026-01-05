@@ -13,14 +13,22 @@
     "ru": "Дождь",
     "pl": "Deszcz",
     "ko": "강우량",
-    "ar": "المطر"
+    "ar": "مطر"
   },
   "units": {
     "en": "mm",
     "ru": "мм",
     "ko": "mm",
     "no": "mm",
-    "ar": "mm"
+    "ar": "مم",
+    "da": "mm",
+    "de": "mm",
+    "es": "mm",
+    "fr": "mm",
+    "it": "mm",
+    "nl": "mm",
+    "pl": "mm",
+    "sv": "mm"
   },
   "insights": true,
   "desc": {
@@ -61,7 +69,7 @@
           "ru": "Дождь изменился",
           "pl": "Zmiana poziomu deszczu",
           "ko": "강우량이 변경되면",
-          "ar": "تم تغيير المطر"
+          "ar": "تغير المطر"
         },
         "tokens": [
           {

@@ -27,7 +27,8 @@
     "es": "El estado de carga actual de la batería.",
     "fr": "L'état de charge actuel de la batterie.",
     "no": "Batteriets nåværende ladestatus.",
-    "ar": "حالة الشحن الحالية للبطارية."
+    "ar": "حالة الشحن الحالية للبطارية.",
+    "de": "Der aktuelle Ladezustand des Akkus."
   },
   "values": [
     {
@@ -44,7 +45,8 @@
         "es": "Cargando",
         "fr": "Charge",
         "no": "Lades",
-        "ar": "يشحن"
+        "ar": "قيد الشحن",
+        "de": "Wird geladen"
       }
     },
     {
@@ -61,7 +63,8 @@
         "es": "Descargando",
         "fr": "Décharge",
         "no": "Lades ut",
-        "ar": "يفرغ"
+        "ar": "قيد التفريغ",
+        "de": "Entladen"
       }
     },
     {
@@ -78,7 +81,8 @@
         "es": "Reposo",
         "fr": "Inactif",
         "no": "Inaktiv",
-        "ar": "خامل"
+        "ar": "خامل",
+        "de": "Leerlauf"
       }
     }
   ],

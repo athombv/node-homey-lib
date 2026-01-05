@@ -20,7 +20,15 @@
     "ru": "лк",
     "ko": "lx",
     "no": "lx",
-    "ar": "lx"
+    "ar": "lx",
+    "da": "lx",
+    "de": "lx",
+    "es": "lx",
+    "fr": "lx",
+    "it": "lx",
+    "nl": "lx",
+    "pl": "lx",
+    "sv": "lx"
   },
   "insights": true,
   "desc": {
@@ -62,7 +70,7 @@
           "ru": "Яркость изменилась",
           "pl": "Zmiana luminacji",
           "ko": "조도가 변경되면",
-          "ar": "تم تغيير السطوع"
+          "ar": "تغير السطوع"
         },
         "tokens": [
           {
