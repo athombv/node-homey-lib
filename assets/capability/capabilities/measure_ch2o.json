@@ -12,7 +12,8 @@
     "es": "Formaldehído",
     "fr": "Formaldéhyde",
     "no": "Formaldehyd",
-    "ar": "الفورمالديهايد"
+    "ar": "الفورمالديهيد",
+    "de": "Formaldehyd"
   },
   "units": {
     "en": "μg/m³",
@@ -26,7 +27,8 @@
     "es": "μg/m³",
     "fr": "μg/m³",
     "no": "μg/m³",
-    "ar": "μg/m³"
+    "ar": "ميكروجرام/م³",
+    "de": "μg/m³"
   },
   "insights": true,
   "desc": {
@@ -41,7 +43,8 @@
     "es": "Formaldehído en microgramos por metro cúbico (μg/m³)",
     "fr": "Formaldéhyde en microgrammes par mètre cube (μg/m³)",
     "no": "Formaldehyd i mikrogram per kubikkmeter (μg/m³)",
-    "ar": "الفورمالديهايد بالميكروجرام لكل متر مكعب (μg/m³)"
+    "ar": "الفورمالديهيد بالميكروجرام لكل متر مكعب (μg/m³)",
+    "de": "Formaldehyd in Mikrogramm pro Kubikmeter (μg/m³)"
   },
   "chartType": "spline",
   "decimals": 2,
@@ -65,7 +68,8 @@
           "es": "El nivel de formaldehído ha cambiado",
           "fr": "Le niveau de formaldéhyde a changé",
           "no": "Formaldehydnivået ble endret",
-          "ar": "تم تغيير مستوى الفورمالديهايد"
+          "ar": "تم تغيير مستوى الفورمالديهيد",
+          "de": "Der Formaldehydgehalt hat sich geändert"
         },
         "tokens": [
           {

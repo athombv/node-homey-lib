@@ -12,7 +12,8 @@
     "sv": "Larm om att något fastnat",
     "es": "Alarma de atasco",
     "fr": "Alarme d'appareil bloqué",
-    "ar": "إنذار العالق"
+    "ar": "إنذار التعلق",
+    "de": "„Blockiert“-Alarm"
   },
   "desc": {
     "en": "True when the device is stuck.",
@@ -26,7 +27,8 @@
     "sv": "Sant när enheten har fastnat.",
     "es": "Activado cuando el dispositivo está atascado.",
     "fr": "Se déclenche lorsque l'appareil est bloqué.",
-    "ar": "صحيح عندما يكون الجهاز عالقاً."
+    "ar": "صحيح عندما يكون الجهاز عالقًا.",
+    "de": "Wahr, wenn das Gerät blockiert ist."
   },
   "insights": true,
   "insightsTitleTrue": {
@@ -41,7 +43,8 @@
     "sv": "Var fast",
     "es": "Estaba atascado",
     "fr": "Était bloqué",
-    "ar": "كان عالقاً"
+    "ar": "كان عالقًا",
+    "de": "War blockiert"
   },
   "insightsTitleFalse": {
     "en": "Was no longer stuck",
@@ -55,7 +58,8 @@
     "sv": "Var inte längre fast",
     "es": "Ya no estaba atascado",
     "fr": "N'était plus bloqué",
-    "ar": "لم يعد عالقاً"
+    "ar": "لم يعد عالقًا",
+    "de": "War nicht mehr blockiert"
   },
   "color": "#9033FC",
   "getable": true,
@@ -78,7 +82,8 @@
           "sv": "Är fast",
           "es": "Está atascado",
           "fr": "Est bloqué",
-          "ar": "عالق"
+          "ar": "عالق",
+          "de": "Ist blockiert"
         }
       },
       {
@@ -95,7 +100,8 @@
           "sv": "Är inte längre fast",
           "es": "Ya no está atascado",
           "fr": "N'est plus bloqué",
-          "ar": "لم يعد عالقاً"
+          "ar": "لم يعد عالقًا",
+          "de": "Ist nicht mehr blockiert"
         }
       }
     ],
@@ -109,12 +115,13 @@
           "it": "È !{{bloccato|sbloccato}}",
           "ko": "!{{기기 막힘이 감지되면|기기 막힘 감지가 정상 상태이면}}",
           "no": "Sitter !{{fast|ikke fast}}",
-          "pl": "Jest ! {{zablokowane|niezablokowane}}",
+          "pl": "Jest !{{zablokowane|niezablokowane}}",
           "ru": "Устройство !{{заклинено|не заклинено}}",
           "sv": "Är !{{fast|inte fast}}",
           "es": "!{{Está atascado|No está atascado}}",
           "fr": "Est !{{connectée|déconnectée}}",
-          "ar": "هو !{{عالق|غير عالق}}"
+          "ar": "هو !{{عالق|غير عالق}}",
+          "de": "Ist !{{blockiert|nicht blockiert}}"
         }
       }
     ]

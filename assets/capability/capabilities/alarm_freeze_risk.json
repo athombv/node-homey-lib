@@ -2,7 +2,7 @@
   "type": "boolean",
   "title": {
     "en": "Freeze Risk Alarm",
-    "ar": "إنذار مخاطر التجميد",
+    "ar": "إنذار خطر التجمد",
     "da": "Fryserisikoalarm",
     "de": "Alarm für Einfriergefahr",
     "es": "Alarma de riesgo de congelación",
@@ -17,7 +17,7 @@
   },
   "desc": {
     "en": "True when in the current ambient conditions water could potentially freeze.",
-    "ar": "صحيح أنه في الظروف المحيطة الحالية يمكن أن يتجمد الماء في الظروف المحيطة الحالية.",
+    "ar": "صحيح عند إمكانية تجمد الماء في الظروف المحيطة الحالية.",
     "da": "Sandt, når vandet under de nuværende forhold potentielt kan fryse.",
     "de": "Wahr, wenn bei den aktuellen Umgebungsbedingungen Wasser gefrieren könnte.",
     "es": "Verdadero cuando el agua podría congelarse debido a las condiciones ambientales.",
@@ -33,7 +33,7 @@
   "insights": true,
   "insightsTitleTrue": {
     "en": "Freeze risk alarm turned on",
-    "ar": "تم تشغيل إنذار خطر التجميد",
+    "ar": "تم تشغيل إنذار خطر التجمد",
     "da": "Fryserisikoalarm slået til",
     "de": "Alarm für Einfriergefahr ist aktiviert",
     "es": "Alarma de riesgo de congelación activada",
@@ -48,7 +48,7 @@
   },
   "insightsTitleFalse": {
     "en": "Freeze risk alarm turned off",
-    "ar": "تم إيقاف تشغيل إنذار خطر التجميد",
+    "ar": "تم إيقاف تشغيل إنذار خطر التجمد",
     "da": "Fryserisikoalarm slået fra",
     "de": "Alarm für Einfriergefahr ausgeschaltet",
     "es": "Alarma de riesgo de congelación desactivada",
@@ -72,7 +72,7 @@
         "highlight": true,
         "title": {
           "en": "The freeze risk alarm turned on",
-          "ar": "تم تشغيل إنذار خطر التجميد",
+          "ar": "تم تشغيل إنذار خطر التجمد",
           "da": "Fryserisikoalarmen er slået til",
           "de": "Der Alarm für Einfriergefahr wurde aktiviert",
           "es": "La alarma de riesgo de congelación se ha activado",
@@ -90,7 +90,7 @@
         "id": "alarm_freeze_risk_false",
         "title": {
           "en": "The freeze risk alarm turned off",
-          "ar": "تم إيقاف تشغيل إنذار خطر التجميد",
+          "ar": "تم إيقاف تشغيل إنذار خطر التجمد",
           "da": "Fryserisikoalarmen er slået fra",
           "de": "Der Alarm für Einfriergefahr ist ausgeschaltet",
           "es": "La alarma de riesgo de congelación se ha desactivado",
@@ -110,8 +110,8 @@
         "id": "alarm_freeze_risk",
         "title": {
           "en": "The freeze risk alarm is !{{on|off}}",
-          "ar": "إنذار خطر التجميد هو !{{on|off}}",
-          "da": "Fryserisikoalarmen er !{{on|off}}",
+          "ar": "إنذار خطر التجميد !{{يعمل|لا يعمل}}",
+          "da": "Fryserisikoalarmen er !{{tændt|slukket}}",
           "de": "Alarm für Einfriergefahr ist !{{an|aus}}",
           "es": "La alarma de riesgo de congelación está !{{activada|desactivada}}",
           "fr": "L'alarme de risque de gel est !{{activée|désactivée}}",
@@ -120,8 +120,8 @@
           "nl": "Het vriesgevaaralarm staat !{{aan|uit}}",
           "no": "Frostrisikoalarmen er !{{på|av}}",
           "pl": "Alarm ryzyka zamarznięcia jest !{{włączony|wyłączony}}",
-          "ru": "Сигнализация риска замораживания !{{on|off}}",
-          "sv": "Larmet för frysrisk är !{{on|off}}"
+          "ru": "Сигнализация риска замораживания !{{включена|выключена}}",
+          "sv": "Larmet för frysrisk är !{{på|av}}"
         }
       }
     ]

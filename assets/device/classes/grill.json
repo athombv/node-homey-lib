@@ -11,7 +11,8 @@
     "pl": "Grill",
     "ru": "Гриль",
     "sv": "Grill",
-    "ar": "شواية"
+    "ar": "شواية",
+    "de": "Grill"
   },
   "description": {
     "en": "Use this device class for grills.",

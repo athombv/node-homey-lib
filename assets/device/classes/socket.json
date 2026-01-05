@@ -26,7 +26,8 @@
     "ru": "Используйте этот класс устройства для розеток (встроенных или вставных выключателей). При добавлении шаблона сопряжения `choose_slave` пользователю предлагается ответить на вопрос: `Что подключено?`.",
     "pl": "Użyj tej klasy urządzeń dla gniazdek elektrycznych (wbudowanych lub wtyczek). Podczas dodawania szablonu parowania `choose_slave` pojawi się pytanie: `Co jest podłączone?`.",
     "ko": "이 디바이스 클래스는 (빌트인 및 플러그인 방식 소켓 스위치 등) 콘센트에 사용합니다. 'choose_slave' 페어링 템플릿을 추가하면 사용자에게 '무엇을 꽂으셨습니까?' 질문이 표시됩니다.",
-    "ar": "استخدم فئة الجهاز هذه للمقابس (المدمجة أو قوابس التبديل). عند إضافة قالب الاقتران 'choose_slave'، يتم عرض سؤال 'ما هو الموصل؟' للمستخدم."
+    "ar": "استخدم فئة الجهاز هذه للمقابس (المدمجة أو قوابس التبديل). عند إضافة قالب الاقتران 'choose_slave'، يتم عرض سؤال 'ما هو الموصل؟' للمستخدم.",
+    "nl": "Gebruik deze apparaatklasse voor stopcontacten (ingebouwde of stopcontacten met schakelaar). Bij het toevoegen van het koppelsjabloon 'choose_slave', krijgt de gebruiker de vraag 'Wat is ingestoken?' te zien."
   },
   "virtualTitle": {
     "en": "Plugged in",
@@ -41,7 +42,7 @@
     "ru": "Подключено",
     "pl": "Podłączone",
     "ko": "꽂힘",
-    "ar": "موصل"
+    "ar": "موصول"
   },
   "allowedVirtual": [
     "light",

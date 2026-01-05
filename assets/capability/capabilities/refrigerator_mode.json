@@ -12,7 +12,8 @@
     "es": "Modo del frigorífico",
     "fr": "Mode du réfrigérateur",
     "no": "Kjøleskapsmodus",
-    "ar": "وضع الثلاجة"
+    "ar": "وضع الثلاجة",
+    "de": "Kühlschrankmodus"
   },
   "desc": {
     "en": "The mode of the refrigerator.",
@@ -26,7 +27,8 @@
     "es": "El modo del frigorífico.",
     "fr": "Le mode de fonctionnement du réfrigérateur.",
     "no": "Kjøleskapets modus.",
-    "ar": "وضع الثلاجة."
+    "ar": "وضع الثلاجة.",
+    "de": "Der Modus des Kühlschranks."
   },
   "values": [
     {
@@ -43,7 +45,8 @@
         "es": "Normal",
         "fr": "Normal",
         "no": "Normal",
-        "ar": "عادي"
+        "ar": "عادي",
+        "de": "Normal"
       }
     },
     {
@@ -60,7 +63,8 @@
         "es": "Enfriado rápido",
         "fr": "Refroidissement rapide",
         "no": "Hurtigavkjøling",
-        "ar": "تبريد سريع"
+        "ar": "تبريد سريع",
+        "de": "Schnelles Abkühlen"
       }
     },
     {
@@ -77,7 +81,8 @@
         "es": "Congelación rápida",
         "fr": "Congélation rapide",
         "no": "Hurtigfrysing",
-        "ar": "تجميد سريع"
+        "ar": "تجميد سريع",
+        "de": "Schnelles Einfrieren"
       }
     }
   ],
@@ -102,7 +107,8 @@
           "es": "El modo ha cambiado a",
           "fr": "Le mode est passé à",
           "no": "Modusen ble endret til",
-          "ar": "تم تغيير الوضع إلى"
+          "ar": "تغير الوضع إلى",
+          "de": "Der Modus wurde geändert auf"
         },
         "args": [
           {
@@ -128,7 +134,8 @@
           "es": "El modo !{{está|no está}}",
           "fr": "Le mode !{{est|n'est pas}}",
           "no": "Modusen !{{er|er ikke}}",
-          "ar": "الوضع !{{هو|ليس}}"
+          "ar": "الوضع !{{هو|ليس}}",
+          "de": "Der Modus !{{ist|ist nicht}}"
         },
         "args": [
           {
@@ -154,7 +161,8 @@
           "es": "Ajustar el modo en",
           "fr": "Définir le mode sur",
           "no": "Sett modusen til",
-          "ar": "ضبط الوضع إلى"
+          "ar": "ضبط الوضع على",
+          "de": "Stelle den Modus auf"
         },
         "args": [
           {

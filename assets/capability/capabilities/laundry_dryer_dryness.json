@@ -2,7 +2,7 @@
   "type": "enum",
   "title": {
     "en": "Laundry dryer dryness",
-    "ar": "مجفف الغسيل الجاف",
+    "ar": "جفاف مجفف الغسيل",
     "da": "Tørretumblerens tørhed",
     "de": "Trocknung des Wäschetrockners",
     "es": "Secado en secadora",
@@ -38,7 +38,7 @@
         "nl": "Laag",
         "da": "Lavt",
         "it": "Basso",
-        "ko": "낮음",
+        "ko": "약하게",
         "pl": "Niski",
         "ru": "Низкая",
         "sv": "Låg",
@@ -74,7 +74,7 @@
         "nl": "Extra",
         "da": "Ekstra",
         "it": "Extra",
-        "ko": "많이",
+        "ko": "강력",
         "pl": "Wyższy",
         "ru": "Повышенная",
         "sv": "Extra",
@@ -114,7 +114,7 @@
         "id": "laundry_dryer_dryness_changed",
         "title": {
           "en": "The dryness changed to",
-          "ar": "تغير الجفاف إلى",
+          "ar": "تم تغيير الجفاف إلى",
           "da": "Tørheden ændrede sig til",
           "de": "Die Trocknung wurde gestellt auf",
           "es": "El secado ha cambiado a",
@@ -141,7 +141,7 @@
         "id": "laundry_dryer_dryness_is",
         "title": {
           "en": "The dryness !{{is|is not}}",
-          "ar": "الجفاف!{{is|is not}}",
+          "ar": "الجفاف  !{{هو|ليس}}",
           "da": "Tørheden !{{is|is not}}",
           "de": "Die Trocknung !{{ist|ist nicht}}",
           "es": "El secado !{{está|no está}}",
@@ -151,8 +151,8 @@
           "nl": "De droogte !{{is|is niet}}",
           "no": "Tørkenivået !{{er|er ikke}}",
           "pl": "Suchość !{{jest|nie jest}}",
-          "ru": "Степень сухости !{{is|is not}}",
-          "sv": "Torrheten !{{is|is not}}"
+          "ru": "Степень сухости — !{{ | не}}",
+          "sv": "Torrheten !{{är|är inte}}"
         },
         "args": [
           {
