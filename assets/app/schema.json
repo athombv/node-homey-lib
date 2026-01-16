@@ -1033,6 +1033,10 @@
       "type": "string",
       "enum": ["nodejs", "python"]
     },
+    "pythonVersion": {
+      "type": "string",
+      "enum": ["3.13"]
+    },
     "tags": {
       "$ref": "#/definitions/i18nArray"
     },
