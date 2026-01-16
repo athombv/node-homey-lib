@@ -1037,6 +1037,12 @@
       "type": "string",
       "enum": ["3.13"]
     },
+    "pythonDependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "tags": {
       "$ref": "#/definitions/i18nArray"
     },
