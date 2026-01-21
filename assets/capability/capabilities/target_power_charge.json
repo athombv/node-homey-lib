@@ -1,0 +1,121 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Target charging power",
+    "nl": "Doel laadvermogen",
+    "de": "Ziel-Ladeleistung",
+    "fr": "Puissance de charge cible",
+    "it": "Potenza di ricarica target",
+    "sv": "Mål-laddeffekt",
+    "no": "Mål-ladeeffekt",
+    "es": "Potencia de carga objetivo",
+    "da": "Mål-ladeeffekt",
+    "ru": "Целевая мощность зарядки",
+    "pl": "Docelowa moc ładowania",
+    "ko": "목표 충전 전력",
+    "ar": "طاقة الشحن المستهدفة"
+  },
+  "desc": {
+    "en": "Target charging power in watt",
+    "nl": "Doel laadvermogen in watt",
+    "de": "Ziel-Ladeleistung in Watt",
+    "fr": "Puissance de charge cible en watt",
+    "it": "Potenza di ricarica target in watt",
+    "sv": "Mål-laddeffekt i watt",
+    "no": "Mål-ladeeffekt i watt",
+    "es": "Potencia de carga objetivo en vatios",
+    "da": "Mål-ladeeffekt i watt",
+    "ru": "Целевая мощность зарядки в ваттах",
+    "pl": "Docelowa moc ładowania w watach",
+    "ko": "목표 충전 전력 와트",
+    "ar": "طاقة الشحن المستهدفة بالواط"
+  },
+  "units": {
+    "en": "W",
+    "nl": "W",
+    "de": "W",
+    "fr": "W",
+    "it": "W",
+    "sv": "W",
+    "no": "W",
+    "es": "W",
+    "da": "W",
+    "ru": "Вт",
+    "pl": "W",
+    "ko": "W",
+    "ar": "واط"
+  },
+  "insights": true,
+  "chartType": "stepLine",
+  "min": 0,
+  "max": 50000,
+  "step": 1,
+  "decimals": 0,
+  "color": "#6DD400",
+  "getable": true,
+  "setable": true,
+  "uiComponent": "slider",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "target_power_charge_changed",
+        "highlight": true,
+        "title": {
+          "en": "The target charging power changed",
+          "nl": "Het doel laadvermogen is veranderd",
+          "de": "Die Ziel-Ladeleistung hat sich geändert",
+          "fr": "La puissance de charge cible a changé",
+          "it": "La potenza di ricarica target è cambiata",
+          "sv": "Mål-laddeffekten ändrades",
+          "no": "Mål-ladeeffekten ble endret",
+          "es": "La potencia de carga objetivo ha cambiado",
+          "da": "Mål-ladeeffekten blev ændret",
+          "ru": "Целевая мощность зарядки изменена",
+          "pl": "Docelowa moc ładowania uległa zmianie",
+          "ko": "목표 충전 전력이 변경되면",
+          "ar": "تغيرت طاقة الشحن المستهدفة"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2500
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "target_power_charge_set",
+        "highlight": true,
+        "title": {
+          "en": "Set the target charging power",
+          "nl": "Stel het doel laadvermogen in",
+          "de": "Ziel-Ladeleistung setzen",
+          "fr": "Définir la puissance de charge cible",
+          "it": "Imposta la potenza di ricarica target",
+          "sv": "Ställ in mål-laddeffekten",
+          "no": "Angi mål-ladeeffekten",
+          "es": "Establecer la potencia de carga objetivo",
+          "da": "Indstil mål-ladeeffekten",
+          "ru": "Установить целевую мощность зарядки",
+          "pl": "Ustaw docelową moc ładowania",
+          "ko": "목표 충전 전력 설정",
+          "ar": "ضبط طاقة الشحن المستهدفة"
+        },
+        "args": [
+          {
+            "name": "target_power_charge",
+            "type": "range",
+            "min": 0,
+            "max": 50000,
+            "step": 1,
+            "label": "W",
+            "labelDecimals": 0
+          }
+        ]
+      }
+    ]
+  }
+}

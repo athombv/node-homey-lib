@@ -1,0 +1,121 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Target power",
+    "nl": "Doelvermogen",
+    "de": "Ziel-Leistung",
+    "fr": "Puissance cible",
+    "it": "Potenza target",
+    "sv": "Måleffekt",
+    "no": "Måleffekt",
+    "es": "Potencia objetivo",
+    "da": "Måleffekt",
+    "ru": "Целевая мощность",
+    "pl": "Moc docelowa",
+    "ko": "목표 전력",
+    "ar": "الطاقة المستهدفة"
+  },
+  "desc": {
+    "en": "Target power in watt",
+    "nl": "Doelvermogen in watt",
+    "de": "Ziel-Leistung in Watt",
+    "fr": "Puissance cible en watt",
+    "it": "Potenza target in watt",
+    "sv": "Måleffekt i watt",
+    "no": "Måleffekt i watt",
+    "es": "Potencia objetivo en vatios",
+    "da": "Måleffekt i watt",
+    "ru": "Целевая мощность в ваттах",
+    "pl": "Moc docelowa w watach",
+    "ko": "목표 전력 와트",
+    "ar": "الطاقة المستهدفة بالواط"
+  },
+  "units": {
+    "en": "W",
+    "nl": "W",
+    "de": "W",
+    "fr": "W",
+    "it": "W",
+    "sv": "W",
+    "no": "W",
+    "es": "W",
+    "da": "W",
+    "ru": "Вт",
+    "pl": "W",
+    "ko": "W",
+    "ar": "واط"
+  },
+  "insights": true,
+  "chartType": "stepLine",
+  "min": 0,
+  "max": 50000,
+  "step": 1,
+  "decimals": 0,
+  "color": "#6DD400",
+  "getable": true,
+  "setable": true,
+  "uiComponent": "slider",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "target_power_changed",
+        "highlight": true,
+        "title": {
+          "en": "The target power changed",
+          "nl": "Het doelvermogen is veranderd",
+          "de": "Die Ziel-Leistung hat sich geändert",
+          "fr": "La puissance cible a changé",
+          "it": "La potenza target è cambiata",
+          "sv": "Måleffekten ändrades",
+          "no": "Måleffekten ble endret",
+          "es": "La potencia objetivo ha cambiado",
+          "da": "Måleffekten blev ændret",
+          "ru": "Целевая мощность изменена",
+          "pl": "Moc docelowa uległa zmianie",
+          "ko": "목표 전력이 변경되면",
+          "ar": "تغيرت الطاقة المستهدفة"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2500
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "target_power_set",
+        "highlight": true,
+        "title": {
+          "en": "Set the target power",
+          "nl": "Stel het doelvermogen in",
+          "de": "Ziel-Leistung setzen",
+          "fr": "Définir la puissance cible",
+          "it": "Imposta la potenza target",
+          "sv": "Ställ in måleffekten",
+          "no": "Angi måleffekten",
+          "es": "Establecer la potencia objetivo",
+          "da": "Indstil måleffekten",
+          "ru": "Установить целевую мощность",
+          "pl": "Ustaw moc docelową",
+          "ko": "목표 전력 설정",
+          "ar": "ضبط الطاقة المستهدفة"
+        },
+        "args": [
+          {
+            "name": "target_power",
+            "type": "range",
+            "min": 0,
+            "max": 50000,
+            "step": 1,
+            "label": "W",
+            "labelDecimals": 0
+          }
+        ]
+      }
+    ]
+  }
+}
