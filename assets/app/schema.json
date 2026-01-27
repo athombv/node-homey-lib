@@ -1143,9 +1143,15 @@
             "paypal": {
               "type": "object",
               "additionalProperties": false,
-              "patternProperties": {
-                "^(username|email)$": {
+              "properties": {
+                "username": {
                   "type": "string"
+                },
+                "email": {
+                  "type": "string"
+                },
+                "fundraiserCharityId": {
+                  "type": "number"
                 },
                 "currency": {
                   "type": "string"
