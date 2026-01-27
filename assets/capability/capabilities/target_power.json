@@ -47,8 +47,8 @@
   },
   "insights": true,
   "chartType": "stepLine",
-  "min": 0,
-  "max": 50000,
+  "min": -25000,
+  "max": 25000,
   "step": 1,
   "decimals": 0,
   "color": "#6DD400",
@@ -108,8 +108,8 @@
           {
             "name": "target_power",
             "type": "range",
-            "min": 0,
-            "max": 50000,
+            "min": -25000,
+            "max": 25000,
             "step": 1,
             "label": "W",
             "labelDecimals": 0
