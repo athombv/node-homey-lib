@@ -590,4 +590,106 @@ describe('HomeyLib.App#validate() driver manifest', function() {
       verified: /zigbee\.endpoints\['1'].bindings\[0] should be number/i,
     });
   });
+
+  /*
+   * Home Battery target_power min/max validation
+   */
+
+  it('home battery `target_power` min/max must include 0 (min > 0 should fail)', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power'],
+        capabilitiesOptions: {
+          target_power: {
+            min: 100, // Invalid: min > 0
+            max: 5000,
+          },
+        },
+        energy: {
+          homeBattery: true,
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
+      publish: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
+      verified: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
+    });
+  });
+
+  it('home battery `target_power` min/max must include 0 (max < 0 should fail)', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power'],
+        capabilitiesOptions: {
+          target_power: {
+            min: -5000,
+            max: -100, // Invalid: max < 0
+          },
+        },
+        energy: {
+          homeBattery: true,
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
+      publish: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
+      verified: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
+    });
+  });
+
+  it('home battery `target_power` valid min/max that includes 0 should pass', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power'],
+        capabilitiesOptions: {
+          target_power: {
+            min: -5000,
+            max: 5000, // Valid: includes 0
+          },
+        },
+        energy: {
+          homeBattery: true,
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
+
+  it('non-home-battery `target_power` min/max should not be validated', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power'],
+        capabilitiesOptions: {
+          target_power: {
+            min: 1000, // Would be invalid for home battery
+            max: 5000,
+          },
+        },
+        // No energy.homeBattery = true
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
 });
