@@ -32,39 +32,39 @@
   },
   "values": [
     {
-      "id": "automatic",
+      "id": "device",
       "title": {
-        "en": "Automatic",
-        "nl": "Automatisch",
-        "de": "Automatisch",
-        "fr": "Automatique",
-        "it": "Automatico",
-        "sv": "Automatisk",
-        "no": "Automatisk",
-        "es": "Automático",
-        "da": "Automatisk",
-        "ru": "Автоматически",
-        "pl": "Automatyczny",
-        "ko": "자동",
-        "ar": "تلقائي"
+        "en": "Device",
+        "nl": "Apparaat",
+        "de": "Gerät",
+        "fr": "Appareil",
+        "it": "Dispositivo",
+        "sv": "Enhet",
+        "no": "Enhet",
+        "es": "Dispositivo",
+        "da": "Enhed",
+        "ru": "Устройство",
+        "pl": "Urządzenie",
+        "ko": "기기",
+        "ar": "الجهاز"
       }
     },
     {
-      "id": "override",
+      "id": "homey",
       "title": {
-        "en": "Override",
-        "nl": "Overschrijven",
-        "de": "Überschreiben",
-        "fr": "Remplacer",
-        "it": "Sovrascrivi",
-        "sv": "Åsidosätt",
-        "no": "Overstyr",
-        "es": "Anular",
-        "da": "Tilsidesæt",
-        "ru": "Переопределить",
-        "pl": "Nadpisz",
-        "ko": "재정의",
-        "ar": "تجاوز"
+        "en": "Homey",
+        "nl": "Homey",
+        "de": "Homey",
+        "fr": "Homey",
+        "it": "Homey",
+        "sv": "Homey",
+        "no": "Homey",
+        "es": "Homey",
+        "da": "Homey",
+        "ru": "Homey",
+        "pl": "Homey",
+        "ko": "Homey",
+        "ar": "Homey"
       }
     }
   ],
