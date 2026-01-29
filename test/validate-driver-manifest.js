@@ -592,73 +592,64 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   });
 
   /*
-   * Home Battery target_power min/max validation
+   * target_power exclude validation
    */
 
-  it('home battery `target_power` min/max must include 0 (min > 0 should fail)', async function() {
+  it('`target_power` exclude must include 0 (exclude.min > 0 should fail)', async function() {
     const app = mockApp({
       ...baseAppManifest,
+      compatibility: '>=12.12.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['target_power'],
         capabilitiesOptions: {
           target_power: {
-            min: 100, // Invalid: min > 0
-            max: 5000,
+            exclude: { min: 100, max: 1380 }, // Invalid: exclude.min > 0
           },
-        },
-        energy: {
-          homeBattery: true,
         },
       }],
     });
 
     await assertValidates(app, {
-      debug: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
-      publish: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
-      verified: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
+      debug: /capabilitiesOptions\.target_power\.exclude must include 0/i,
+      publish: /capabilitiesOptions\.target_power\.exclude must include 0/i,
+      verified: /capabilitiesOptions\.target_power\.exclude must include 0/i,
     });
   });
 
-  it('home battery `target_power` min/max must include 0 (max < 0 should fail)', async function() {
+  it('`target_power` exclude must include 0 (exclude.max < 0 should fail)', async function() {
     const app = mockApp({
       ...baseAppManifest,
+      compatibility: '>=12.12.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['target_power'],
         capabilitiesOptions: {
           target_power: {
-            min: -5000,
-            max: -100, // Invalid: max < 0
+            exclude: { min: -1380, max: -100 }, // Invalid: exclude.max < 0
           },
-        },
-        energy: {
-          homeBattery: true,
         },
       }],
     });
 
     await assertValidates(app, {
-      debug: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
-      publish: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
-      verified: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
+      debug: /capabilitiesOptions\.target_power\.exclude must include 0/i,
+      publish: /capabilitiesOptions\.target_power\.exclude must include 0/i,
+      verified: /capabilitiesOptions\.target_power\.exclude must include 0/i,
     });
   });
 
-  it('home battery `target_power` valid min/max that includes 0 should pass', async function() {
+  it('`target_power` valid exclude that includes 0 should pass', async function() {
     const app = mockApp({
       ...baseAppManifest,
+      compatibility: '>=12.12.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['target_power'],
         capabilitiesOptions: {
           target_power: {
-            min: -5000,
-            max: 5000, // Valid: includes 0
+            exclude: { min: 0, max: 1380 }, // Valid: includes 0
           },
-        },
-        energy: {
-          homeBattery: true,
         },
       }],
     });
@@ -670,19 +661,116 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
   });
 
-  it('non-home-battery `target_power` min/max should not be validated', async function() {
+  it('`target_power` valid bidirectional exclude should pass', async function() {
     const app = mockApp({
       ...baseAppManifest,
+      compatibility: '>=12.12.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['target_power'],
         capabilitiesOptions: {
           target_power: {
-            min: 1000, // Would be invalid for home battery
+            min: -11000,
+            max: 22000,
+            exclude: { min: -1380, max: 1380 }, // Valid: symmetric around 0
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
+
+  it('`target_power` without exclude should pass', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.12.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power'],
+        capabilitiesOptions: {
+          target_power: {
+            min: -5000,
             max: 5000,
           },
         },
-        // No energy.homeBattery = true
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
+
+  /*
+   * target_power min/max validation (all devices)
+   */
+
+  it('`target_power` min/max must include 0 (min > 0 should fail)', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.12.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power'],
+        capabilitiesOptions: {
+          target_power: {
+            min: 100, // Invalid: min > 0
+            max: 5000,
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
+      publish: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
+      verified: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
+    });
+  });
+
+  it('`target_power` min/max must include 0 (max < 0 should fail)', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.12.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power'],
+        capabilitiesOptions: {
+          target_power: {
+            min: -5000,
+            max: -100, // Invalid: max < 0
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
+      publish: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
+      verified: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
+    });
+  });
+
+  it('`target_power` valid min/max that includes 0 should pass', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.12.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power'],
+        capabilitiesOptions: {
+          target_power: {
+            min: -5000,
+            max: 5000, // Valid: includes 0
+          },
+        },
       }],
     });
 
