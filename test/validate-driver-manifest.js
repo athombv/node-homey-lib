@@ -701,7 +701,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
    * target_power exclude validation
    */
 
-  it('`target_power` exclude must include 0 (exclude.min > 0 should fail)', async function() {
+  it('`target_power` exclude must include 0 (excludeMin > 0 should fail)', async function() {
     const app = mockApp({
       ...baseAppManifest,
       compatibility: '>=12.12.0',
@@ -710,20 +710,20 @@ describe('HomeyLib.App#validate() driver manifest', function() {
         capabilities: ['target_power'],
         capabilitiesOptions: {
           target_power: {
-            exclude: { min: 100, max: 1380 }, // Invalid: exclude.min > 0
+            excludeMin: 100, excludeMax: 1380, // Invalid: excludeMin > 0
           },
         },
       }],
     });
 
     await assertValidates(app, {
-      debug: /capabilitiesOptions\.target_power\.exclude must include 0/i,
-      publish: /capabilitiesOptions\.target_power\.exclude must include 0/i,
-      verified: /capabilitiesOptions\.target_power\.exclude must include 0/i,
+      debug: /capabilitiesOptions\.target_power\.excludeMin\/excludeMax must include 0/i,
+      publish: /capabilitiesOptions\.target_power\.excludeMin\/excludeMax must include 0/i,
+      verified: /capabilitiesOptions\.target_power\.excludeMin\/excludeMax must include 0/i,
     });
   });
 
-  it('`target_power` exclude must include 0 (exclude.max < 0 should fail)', async function() {
+  it('`target_power` exclude must include 0 (excludeMax < 0 should fail)', async function() {
     const app = mockApp({
       ...baseAppManifest,
       compatibility: '>=12.12.0',
@@ -732,16 +732,16 @@ describe('HomeyLib.App#validate() driver manifest', function() {
         capabilities: ['target_power'],
         capabilitiesOptions: {
           target_power: {
-            exclude: { min: -1380, max: -100 }, // Invalid: exclude.max < 0
+            excludeMin: -1380, excludeMax: -100, // Invalid: excludeMax < 0
           },
         },
       }],
     });
 
     await assertValidates(app, {
-      debug: /capabilitiesOptions\.target_power\.exclude must include 0/i,
-      publish: /capabilitiesOptions\.target_power\.exclude must include 0/i,
-      verified: /capabilitiesOptions\.target_power\.exclude must include 0/i,
+      debug: /capabilitiesOptions\.target_power\.excludeMin\/excludeMax must include 0/i,
+      publish: /capabilitiesOptions\.target_power\.excludeMin\/excludeMax must include 0/i,
+      verified: /capabilitiesOptions\.target_power\.excludeMin\/excludeMax must include 0/i,
     });
   });
 
@@ -754,7 +754,8 @@ describe('HomeyLib.App#validate() driver manifest', function() {
         capabilities: ['target_power'],
         capabilitiesOptions: {
           target_power: {
-            exclude: { min: 0, max: 1380 }, // Valid: includes 0
+            excludeMin: 0, // Valid: includes 0
+            excludeMax: 1380,
           },
         },
       }],
@@ -778,7 +779,8 @@ describe('HomeyLib.App#validate() driver manifest', function() {
           target_power: {
             min: -11000,
             max: 22000,
-            exclude: { min: -1380, max: 1380 }, // Valid: symmetric around 0
+            excludeMin: -1380,
+            excludeMax: 1380, // Valid: symmetric around 0
           },
         },
       }],
@@ -791,7 +793,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
   });
 
-  it('`target_power` without exclude should pass', async function() {
+  it('`target_power` without excludeMin/excludeMax should pass', async function() {
     const app = mockApp({
       ...baseAppManifest,
       compatibility: '>=12.12.0',
