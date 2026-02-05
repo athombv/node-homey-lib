@@ -595,7 +595,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
    * target_power_mode values validation
    */
 
-  it('`target_power_mode` values must include device', async function() {
+  it('`target_power_mode` with custom values should pass (values are silently replaced)', async function() {
     const app = mockApp({
       ...baseAppManifest,
       compatibility: '>=12.12.0',
@@ -605,7 +605,6 @@ describe('HomeyLib.App#validate() driver manifest', function() {
         capabilitiesOptions: {
           target_power_mode: {
             values: [
-              { id: 'homey', title: { en: 'Homey' } },
               { id: 'custom', title: { en: 'Custom' } },
             ],
           },
@@ -614,13 +613,13 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
 
     await assertValidates(app, {
-      debug: /must include value with id 'device'/i,
-      publish: /must include value with id 'device'/i,
-      verified: /must include value with id 'device'/i,
+      debug: true,
+      publish: true,
+      verified: true,
     });
   });
 
-  it('`target_power_mode` values must include homey', async function() {
+  it('`target_power_mode` without values array should pass', async function() {
     const app = mockApp({
       ...baseAppManifest,
       compatibility: '>=12.12.0',
@@ -629,62 +628,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
         capabilities: ['target_power', 'target_power_mode'],
         capabilitiesOptions: {
           target_power_mode: {
-            values: [
-              { id: 'device', title: { en: 'Device' } },
-              { id: 'custom', title: { en: 'Custom' } },
-            ],
-          },
-        },
-      }],
-    });
-
-    await assertValidates(app, {
-      debug: /must include value with id 'homey'/i,
-      publish: /must include value with id 'homey'/i,
-      verified: /must include value with id 'homey'/i,
-    });
-  });
-
-  it('`target_power_mode` custom value IDs must not start with reserved prefix "homey"', async function() {
-    const app = mockApp({
-      ...baseAppManifest,
-      compatibility: '>=12.12.0',
-      drivers: [{
-        ...baseDriverManifest,
-        capabilities: ['target_power', 'target_power_mode'],
-        capabilitiesOptions: {
-          target_power_mode: {
-            values: [
-              { id: 'device', title: { en: 'Device' } },
-              { id: 'homey', title: { en: 'Homey' } },
-              { id: 'homey_solar', title: { en: 'Homey Solar' } },
-            ],
-          },
-        },
-      }],
-    });
-
-    await assertValidates(app, {
-      debug: /custom value id\(s\) starting with reserved prefix 'homey': homey_solar/i,
-      publish: /custom value id\(s\) starting with reserved prefix 'homey': homey_solar/i,
-      verified: /custom value id\(s\) starting with reserved prefix 'homey': homey_solar/i,
-    });
-  });
-
-  it('`target_power_mode` valid values with custom IDs should pass', async function() {
-    const app = mockApp({
-      ...baseAppManifest,
-      compatibility: '>=12.12.0',
-      drivers: [{
-        ...baseDriverManifest,
-        capabilities: ['target_power', 'target_power_mode'],
-        capabilitiesOptions: {
-          target_power_mode: {
-            values: [
-              { id: 'device', title: { en: 'Device' } },
-              { id: 'homey', title: { en: 'Homey' } },
-              { id: 'solar_self_consumption', title: { en: 'Solar Self-Consumption' } },
-            ],
+            title: { en: 'Power Mode' },
           },
         },
       }],

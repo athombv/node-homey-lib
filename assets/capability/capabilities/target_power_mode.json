@@ -34,19 +34,19 @@
     {
       "id": "device",
       "title": {
-        "en": "Device",
-        "nl": "Apparaat",
-        "de": "Gerät",
-        "fr": "Appareil",
-        "it": "Dispositivo",
-        "sv": "Enhet",
-        "no": "Enhet",
-        "es": "Dispositivo",
-        "da": "Enhed",
-        "ru": "Устройство",
-        "pl": "Urządzenie",
-        "ko": "기기",
-        "ar": "الجهاز"
+        "en": "Automatic",
+        "nl": "Automatisch",
+        "de": "Automatisch",
+        "fr": "Automatique",
+        "it": "Automatico",
+        "sv": "Automatisk",
+        "no": "Automatisk",
+        "es": "Automático",
+        "da": "Automatisk",
+        "ru": "Автоматический",
+        "pl": "Automatyczny",
+        "ko": "자동",
+        "ar": "تلقائي"
       }
     },
     {
@@ -93,19 +93,19 @@
           "ar": "تم تغيير وضع الطاقة المستهدفة إلى"
         },
         "hint": {
-          "en": "\"Homey\" means Homey controls the device's target power. \"Device\" means the device controls its own power.",
-          "nl": "\"Homey\" betekent dat Homey het doelvermogen van het apparaat regelt. \"Apparaat\" betekent dat het apparaat zelf het vermogen regelt.",
-          "de": "\"Homey\" bedeutet, dass Homey die Zielleistung des Geräts steuert. \"Gerät\" bedeutet, dass das Gerät seine eigene Leistung steuert.",
-          "fr": "« Homey » signifie que Homey contrôle la puissance cible de l'appareil. « Appareil » signifie que l'appareil contrôle lui-même sa puissance.",
-          "it": "\"Homey\" significa che Homey controlla la potenza target del dispositivo. \"Dispositivo\" significa che il dispositivo controlla autonomamente la propria potenza.",
-          "sv": "\"Homey\" innebär att Homey styr enhetens måleffekt. \"Enhet\" innebär att enheten styr sin egen effekt.",
-          "no": "\"Homey\" betyr at Homey styrer enhetens måleffekt. \"Enhet\" betyr at enheten styrer sin egen effekt.",
-          "es": "\"Homey\" significa que Homey controla la potencia objetivo del dispositivo. \"Dispositivo\" significa que el dispositivo controla su propia potencia.",
-          "da": "\"Homey\" betyder, at Homey styrer enhedens måleffekt. \"Enhed\" betyder, at enheden styrer sin egen effekt.",
-          "ru": "«Homey» означает, что Homey управляет целевой мощностью устройства. «Устройство» означает, что устройство само управляет своей мощностью.",
-          "pl": "\"Homey\" oznacza, że Homey steruje mocą docelową urządzenia. \"Urządzenie\" oznacza, że urządzenie samo steruje swoją mocą.",
-          "ko": "\"Homey\"는 Homey가 기기의 목표 전력을 제어함을 의미합니다. \"기기\"는 기기가 자체적으로 전력을 제어함을 의미합니다.",
-          "ar": "\"Homey\" يعني أن Homey يتحكم في الطاقة المستهدفة للجهاز. \"الجهاز\" يعني أن الجهاز يتحكم في طاقته بنفسه."
+          "en": "\"Homey\" means Homey controls the device's target power. \"Automatic\" means the device controls its own power.",
+          "nl": "\"Homey\" betekent dat Homey het doelvermogen van het apparaat regelt. \"Automatisch\" betekent dat het apparaat zelf het vermogen regelt.",
+          "de": "\"Homey\" bedeutet, dass Homey die Zielleistung des Geräts steuert. \"Automatisch\" bedeutet, dass das Gerät seine eigene Leistung steuert.",
+          "fr": "« Homey » signifie que Homey contrôle la puissance cible de l'appareil. « Automatique » signifie que l'appareil contrôle lui-même sa puissance.",
+          "it": "\"Homey\" significa che Homey controlla la potenza target del dispositivo. \"Automatico\" significa che il dispositivo controlla autonomamente la propria potenza.",
+          "sv": "\"Homey\" innebär att Homey styr enhetens måleffekt. \"Automatisk\" innebär att enheten styr sin egen effekt.",
+          "no": "\"Homey\" betyr at Homey styrer enhetens måleffekt. \"Automatisk\" betyr at enheten styrer sin egen effekt.",
+          "es": "\"Homey\" significa que Homey controla la potencia objetivo del dispositivo. \"Automático\" significa que el dispositivo controla su propia potencia.",
+          "da": "\"Homey\" betyder, at Homey styrer enhedens måleffekt. \"Automatisk\" betyder, at enheden styrer sin egen effekt.",
+          "ru": "«Homey» означает, что Homey управляет целевой мощностью устройства. «Автоматический» означает, что устройство само управляет своей мощностью.",
+          "pl": "\"Homey\" oznacza, że Homey steruje mocą docelową urządzenia. \"Automatyczny\" oznacza, że urządzenie samo steruje swoją mocą.",
+          "ko": "\"Homey\"는 Homey가 기기의 목표 전력을 제어함을 의미합니다. \"자동\"은 기기가 자체적으로 전력을 제어함을 의미합니다.",
+          "ar": "\"Homey\" يعني أن Homey يتحكم في الطاقة المستهدفة للجهاز. \"تلقائي\" يعني أن الجهاز يتحكم في طاقته بنفسه."
         },
         "args": [
           {
@@ -135,19 +135,19 @@
           "ar": "وضع الطاقة المستهدفة !{{هو|ليس}}"
         },
         "hint": {
-          "en": "\"Homey\" means Homey controls the device's target power. \"Device\" means the device controls its own power.",
-          "nl": "\"Homey\" betekent dat Homey het doelvermogen van het apparaat regelt. \"Apparaat\" betekent dat het apparaat zelf het vermogen regelt.",
-          "de": "\"Homey\" bedeutet, dass Homey die Zielleistung des Geräts steuert. \"Gerät\" bedeutet, dass das Gerät seine eigene Leistung steuert.",
-          "fr": "« Homey » signifie que Homey contrôle la puissance cible de l'appareil. « Appareil » signifie que l'appareil contrôle lui-même sa puissance.",
-          "it": "\"Homey\" significa che Homey controlla la potenza target del dispositivo. \"Dispositivo\" significa che il dispositivo controlla autonomamente la propria potenza.",
-          "sv": "\"Homey\" innebär att Homey styr enhetens måleffekt. \"Enhet\" innebär att enheten styr sin egen effekt.",
-          "no": "\"Homey\" betyr at Homey styrer enhetens måleffekt. \"Enhet\" betyr at enheten styrer sin egen effekt.",
-          "es": "\"Homey\" significa que Homey controla la potencia objetivo del dispositivo. \"Dispositivo\" significa que el dispositivo controla su propia potencia.",
-          "da": "\"Homey\" betyder, at Homey styrer enhedens måleffekt. \"Enhed\" betyder, at enheden styrer sin egen effekt.",
-          "ru": "«Homey» означает, что Homey управляет целевой мощностью устройства. «Устройство» означает, что устройство само управляет своей мощностью.",
-          "pl": "\"Homey\" oznacza, że Homey steruje mocą docelową urządzenia. \"Urządzenie\" oznacza, że urządzenie samo steruje swoją mocą.",
-          "ko": "\"Homey\"는 Homey가 기기의 목표 전력을 제어함을 의미합니다. \"기기\"는 기기가 자체적으로 전력을 제어함을 의미합니다.",
-          "ar": "\"Homey\" يعني أن Homey يتحكم في الطاقة المستهدفة للجهاز. \"الجهاز\" يعني أن الجهاز يتحكم في طاقته بنفسه."
+          "en": "\"Homey\" means Homey controls the device's target power. \"Automatic\" means the device controls its own power.",
+          "nl": "\"Homey\" betekent dat Homey het doelvermogen van het apparaat regelt. \"Automatisch\" betekent dat het apparaat zelf het vermogen regelt.",
+          "de": "\"Homey\" bedeutet, dass Homey die Zielleistung des Geräts steuert. \"Automatisch\" bedeutet, dass das Gerät seine eigene Leistung steuert.",
+          "fr": "« Homey » signifie que Homey contrôle la puissance cible de l'appareil. « Automatique » signifie que l'appareil contrôle lui-même sa puissance.",
+          "it": "\"Homey\" significa che Homey controlla la potenza target del dispositivo. \"Automatico\" significa che il dispositivo controlla autonomamente la propria potenza.",
+          "sv": "\"Homey\" innebär att Homey styr enhetens måleffekt. \"Automatisk\" innebär att enheten styr sin egen effekt.",
+          "no": "\"Homey\" betyr at Homey styrer enhetens måleffekt. \"Automatisk\" betyr at enheten styrer sin egen effekt.",
+          "es": "\"Homey\" significa que Homey controla la potencia objetivo del dispositivo. \"Automático\" significa que el dispositivo controla su propia potencia.",
+          "da": "\"Homey\" betyder, at Homey styrer enhedens måleffekt. \"Automatisk\" betyder, at enheden styrer sin egen effekt.",
+          "ru": "«Homey» означает, что Homey управляет целевой мощностью устройства. «Автоматический» означает, что устройство само управляет своей мощностью.",
+          "pl": "\"Homey\" oznacza, że Homey steruje mocą docelową urządzenia. \"Automatyczny\" oznacza, że urządzenie samo steruje swoją mocą.",
+          "ko": "\"Homey\"는 Homey가 기기의 목표 전력을 제어함을 의미합니다. \"자동\"은 기기가 자체적으로 전력을 제어함을 의미합니다.",
+          "ar": "\"Homey\" يعني أن Homey يتحكم في الطاقة المستهدفة للجهاز. \"تلقائي\" يعني أن الجهاز يتحكم في طاقته بنفسه."
         },
         "args": [
           {
@@ -177,19 +177,19 @@
           "ar": "ضبط وضع الطاقة المستهدفة على"
         },
         "hint": {
-          "en": "To control the target power of this device via Homey, select \"Homey\". To let the device determine its own target power, select \"Device\".",
-          "nl": "Wil je via Homey het doelvermogen van dit apparaat aanpassen, gebruik dan \"Homey\". Wil je dat het apparaat zelf het doelvermogen bepaalt, gebruik dan \"Apparaat\".",
-          "de": "Um die Zielleistung dieses Geräts über Homey zu steuern, wähle \"Homey\". Um das Gerät seine eigene Zielleistung bestimmen zu lassen, wähle \"Gerät\".",
-          "fr": "Pour contrôler la puissance cible de cet appareil via Homey, sélectionnez « Homey ». Pour laisser l'appareil déterminer sa propre puissance cible, sélectionnez « Appareil ».",
-          "it": "Per controllare la potenza target di questo dispositivo tramite Homey, seleziona \"Homey\". Per lasciare che il dispositivo determini la propria potenza target, seleziona \"Dispositivo\".",
-          "sv": "För att styra måleffekten för denna enhet via Homey, välj \"Homey\". För att låta enheten bestämma sin egen måleffekt, välj \"Enhet\".",
-          "no": "For å styre måleffekten til denne enheten via Homey, velg \"Homey\". For å la enheten bestemme sin egen måleffekt, velg \"Enhet\".",
-          "es": "Para controlar la potencia objetivo de este dispositivo a través de Homey, selecciona \"Homey\". Para dejar que el dispositivo determine su propia potencia objetivo, selecciona \"Dispositivo\".",
-          "da": "For at styre måleffekten for denne enhed via Homey, vælg \"Homey\". For at lade enheden bestemme sin egen måleffekt, vælg \"Enhed\".",
-          "ru": "Чтобы управлять целевой мощностью этого устройства через Homey, выберите «Homey». Чтобы устройство само определяло целевую мощность, выберите «Устройство».",
-          "pl": "Aby sterować mocą docelową tego urządzenia przez Homey, wybierz \"Homey\". Aby urządzenie samo określało moc docelową, wybierz \"Urządzenie\".",
-          "ko": "Homey를 통해 이 기기의 목표 전력을 제어하려면 \"Homey\"를 선택하세요. 기기가 자체적으로 목표 전력을 결정하게 하려면 \"기기\"를 선택하세요.",
-          "ar": "للتحكم في الطاقة المستهدفة لهذا الجهاز عبر Homey، اختر \"Homey\". لترك الجهاز يحدد الطاقة المستهدفة بنفسه، اختر \"الجهاز\"."
+          "en": "To control the target power of this device via Homey, select \"Homey\". To let the device determine its own target power, select \"Automatic\".",
+          "nl": "Wil je via Homey het doelvermogen van dit apparaat aanpassen, gebruik dan \"Homey\". Wil je dat het apparaat zelf het doelvermogen bepaalt, gebruik dan \"Automatisch\".",
+          "de": "Um die Zielleistung dieses Geräts über Homey zu steuern, wähle \"Homey\". Um das Gerät seine eigene Zielleistung bestimmen zu lassen, wähle \"Automatisch\".",
+          "fr": "Pour contrôler la puissance cible de cet appareil via Homey, sélectionnez « Homey ». Pour laisser l'appareil déterminer sa propre puissance cible, sélectionnez « Automatique ».",
+          "it": "Per controllare la potenza target di questo dispositivo tramite Homey, seleziona \"Homey\". Per lasciare che il dispositivo determini la propria potenza target, seleziona \"Automatico\".",
+          "sv": "För att styra måleffekten för denna enhet via Homey, välj \"Homey\". För att låta enheten bestämma sin egen måleffekt, välj \"Automatisk\".",
+          "no": "For å styre måleffekten til denne enheten via Homey, velg \"Homey\". For å la enheten bestemme sin egen måleffekt, velg \"Automatisk\".",
+          "es": "Para controlar la potencia objetivo de este dispositivo a través de Homey, selecciona \"Homey\". Para dejar que el dispositivo determine su propia potencia objetivo, selecciona \"Automático\".",
+          "da": "For at styre måleffekten for denne enhed via Homey, vælg \"Homey\". For at lade enheden bestemme sin egen måleffekt, vælg \"Automatisk\".",
+          "ru": "Чтобы управлять целевой мощностью этого устройства через Homey, выберите «Homey». Чтобы устройство само определяло целевую мощность, выберите «Автоматический».",
+          "pl": "Aby sterować mocą docelową tego urządzenia przez Homey, wybierz \"Homey\". Aby urządzenie samo określało moc docelową, wybierz \"Automatyczny\".",
+          "ko": "Homey를 통해 이 기기의 목표 전력을 제어하려면 \"Homey\"를 선택하세요. 기기가 자체적으로 목표 전력을 결정하게 하려면 \"자동\"을 선택하세요.",
+          "ar": "للتحكم في الطاقة المستهدفة لهذا الجهاز عبر Homey، اختر \"Homey\". لترك الجهاز يحدد الطاقة المستهدفة بنفسه، اختر \"تلقائي\"."
         },
         "args": [
           {
