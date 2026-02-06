@@ -1034,8 +1034,7 @@
       "enum": ["nodejs", "python"]
     },
     "pythonVersion": {
-      "type": "string",
-      "enum": ["3.13"]
+      "type": "string"
     },
     "pythonDependencies": {
       "type": "array",
