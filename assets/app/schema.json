@@ -1034,8 +1034,7 @@
       "enum": ["nodejs", "python"]
     },
     "pythonVersion": {
-      "type": "string",
-      "enum": ["3.13"]
+      "type": "string"
     },
     "pythonDependencies": {
       "type": "array",
@@ -1143,9 +1142,15 @@
             "paypal": {
               "type": "object",
               "additionalProperties": false,
-              "patternProperties": {
-                "^(username|email)$": {
+              "properties": {
+                "username": {
                   "type": "string"
+                },
+                "email": {
+                  "type": "string"
+                },
+                "fundraiserCharityId": {
+                  "type": "number"
                 },
                 "currency": {
                   "type": "string"
