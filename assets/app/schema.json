@@ -1036,7 +1036,7 @@
     "pythonVersion": {
       "type": "string"
     },
-    "pythonDependencies": {
+    "pythonPackages": {
       "type": "array",
       "items": {
         "type": "string"
