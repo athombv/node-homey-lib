@@ -163,6 +163,8 @@
   "target_humidity_max",
   "target_humidity_min",
   "target_humidity",
+  "target_power",
+  "target_power_mode",
   "target_temperature_level",
   "target_temperature_max",
   "target_temperature_min",

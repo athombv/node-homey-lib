@@ -1,0 +1,204 @@
+{
+  "type": "enum",
+  "title": {
+    "en": "Target power mode",
+    "nl": "Doelvermogenmodus",
+    "de": "Zielleistungsmodus",
+    "fr": "Mode de puissance cible",
+    "it": "Modalità potenza target",
+    "sv": "Måleffektläge",
+    "no": "Måleffektmodus",
+    "es": "Modo de potencia objetivo",
+    "da": "Måleffekttilstand",
+    "ru": "Режим целевой мощности",
+    "pl": "Tryb mocy docelowej",
+    "ko": "목표 전력 모드",
+    "ar": "وضع الطاقة المستهدفة"
+  },
+  "desc": {
+    "en": "The target power control mode",
+    "nl": "De doelvermogen besturingsmodus",
+    "de": "Der Zielleistungs-Steuermodus",
+    "fr": "Le mode de contrôle de puissance cible",
+    "it": "La modalità di controllo della potenza target",
+    "sv": "Måleffektens styrläge",
+    "no": "Måleffektens kontrollmodus",
+    "es": "El modo de control de potencia objetivo",
+    "da": "Måleffektens kontroltilstand",
+    "ru": "Режим управления целевой мощностью",
+    "pl": "Tryb sterowania mocą docelową",
+    "ko": "목표 전력 제어 모드",
+    "ar": "وضع التحكم في الطاقة المستهدفة"
+  },
+  "values": [
+    {
+      "id": "device",
+      "title": {
+        "en": "Automatic",
+        "nl": "Automatisch",
+        "de": "Automatisch",
+        "fr": "Automatique",
+        "it": "Automatico",
+        "sv": "Automatisk",
+        "no": "Automatisk",
+        "es": "Automático",
+        "da": "Automatisk",
+        "ru": "Автоматический",
+        "pl": "Automatyczny",
+        "ko": "자동",
+        "ar": "تلقائي"
+      }
+    },
+    {
+      "id": "homey",
+      "title": {
+        "en": "Homey",
+        "nl": "Homey",
+        "de": "Homey",
+        "fr": "Homey",
+        "it": "Homey",
+        "sv": "Homey",
+        "no": "Homey",
+        "es": "Homey",
+        "da": "Homey",
+        "ru": "Homey",
+        "pl": "Homey",
+        "ko": "Homey",
+        "ar": "Homey"
+      }
+    }
+  ],
+  "color": "#6DD400",
+  "getable": true,
+  "setable": true,
+  "uiComponent": "picker",
+  "minCompatibility": "12.13.0",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "target_power_mode_changed",
+        "title": {
+          "en": "Target power mode changed to",
+          "nl": "Doelvermogenmodus is veranderd naar",
+          "de": "Zielleistungsmodus hat sich geändert zu",
+          "fr": "Le mode de puissance cible est passé à",
+          "it": "La modalità potenza target è cambiata in",
+          "sv": "Måleffektläge ändrades till",
+          "no": "Måleffektmodus ble endret til",
+          "es": "El modo de potencia objetivo cambió a",
+          "da": "Måleffekttilstand blev ændret til",
+          "ru": "Режим целевой мощности изменен на",
+          "pl": "Tryb mocy docelowej zmieniono na",
+          "ko": "목표 전력 모드가 변경되면",
+          "ar": "تم تغيير وضع الطاقة المستهدفة إلى"
+        },
+        "hint": {
+          "en": "\"Homey\" means Homey controls the device's target power. \"Automatic\" means the device controls its own power.",
+          "nl": "\"Homey\" betekent dat Homey het doelvermogen van het apparaat regelt. \"Automatisch\" betekent dat het apparaat zelf het vermogen regelt.",
+          "de": "\"Homey\" bedeutet, dass Homey die Zielleistung des Geräts steuert. \"Automatisch\" bedeutet, dass das Gerät seine eigene Leistung steuert.",
+          "fr": "« Homey » signifie que Homey contrôle la puissance cible de l'appareil. « Automatique » signifie que l'appareil contrôle lui-même sa puissance.",
+          "it": "\"Homey\" significa che Homey controlla la potenza target del dispositivo. \"Automatico\" significa che il dispositivo controlla autonomamente la propria potenza.",
+          "sv": "\"Homey\" innebär att Homey styr enhetens måleffekt. \"Automatisk\" innebär att enheten styr sin egen effekt.",
+          "no": "\"Homey\" betyr at Homey styrer enhetens måleffekt. \"Automatisk\" betyr at enheten styrer sin egen effekt.",
+          "es": "\"Homey\" significa que Homey controla la potencia objetivo del dispositivo. \"Automático\" significa que el dispositivo controla su propia potencia.",
+          "da": "\"Homey\" betyder, at Homey styrer enhedens måleffekt. \"Automatisk\" betyder, at enheden styrer sin egen effekt.",
+          "ru": "«Homey» означает, что Homey управляет целевой мощностью устройства. «Автоматический» означает, что устройство само управляет своей мощностью.",
+          "pl": "\"Homey\" oznacza, że Homey steruje mocą docelową urządzenia. \"Automatyczny\" oznacza, że urządzenie samo steruje swoją mocą.",
+          "ko": "\"Homey\"는 Homey가 기기의 목표 전력을 제어함을 의미합니다. \"자동\"은 기기가 자체적으로 전력을 제어함을 의미합니다.",
+          "ar": "\"Homey\" يعني أن Homey يتحكم في الطاقة المستهدفة للجهاز. \"تلقائي\" يعني أن الجهاز يتحكم في طاقته بنفسه."
+        },
+        "args": [
+          {
+            "name": "target_power_mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "conditions": [
+      {
+        "id": "target_power_mode_is",
+        "title": {
+          "en": "Target power mode !{{is|is not}}",
+          "nl": "Doelvermogenmodus !{{is|is niet}}",
+          "de": "Zielleistungsmodus !{{ist|ist nicht}}",
+          "fr": "Mode de puissance cible !{{est|n'est pas}}",
+          "it": "La modalità potenza target !{{è|non è}}",
+          "sv": "Måleffektläge !{{är|är inte}}",
+          "no": "Måleffektmodus !{{er|er ikke}}",
+          "es": "El modo de potencia objetivo !{{está|no está}}",
+          "da": "Måleffekttilstand !{{er|er ikke}}",
+          "ru": "Режим целевой мощности !{{|не}}",
+          "pl": "Tryb mocy docelowej !{{to|to nie}}",
+          "ko": "목표 전력 모드가 다음!{{이면|이 아니면}}",
+          "ar": "وضع الطاقة المستهدفة !{{هو|ليس}}"
+        },
+        "hint": {
+          "en": "\"Homey\" means Homey controls the device's target power. \"Automatic\" means the device controls its own power.",
+          "nl": "\"Homey\" betekent dat Homey het doelvermogen van het apparaat regelt. \"Automatisch\" betekent dat het apparaat zelf het vermogen regelt.",
+          "de": "\"Homey\" bedeutet, dass Homey die Zielleistung des Geräts steuert. \"Automatisch\" bedeutet, dass das Gerät seine eigene Leistung steuert.",
+          "fr": "« Homey » signifie que Homey contrôle la puissance cible de l'appareil. « Automatique » signifie que l'appareil contrôle lui-même sa puissance.",
+          "it": "\"Homey\" significa che Homey controlla la potenza target del dispositivo. \"Automatico\" significa che il dispositivo controlla autonomamente la propria potenza.",
+          "sv": "\"Homey\" innebär att Homey styr enhetens måleffekt. \"Automatisk\" innebär att enheten styr sin egen effekt.",
+          "no": "\"Homey\" betyr at Homey styrer enhetens måleffekt. \"Automatisk\" betyr at enheten styrer sin egen effekt.",
+          "es": "\"Homey\" significa que Homey controla la potencia objetivo del dispositivo. \"Automático\" significa que el dispositivo controla su propia potencia.",
+          "da": "\"Homey\" betyder, at Homey styrer enhedens måleffekt. \"Automatisk\" betyder, at enheden styrer sin egen effekt.",
+          "ru": "«Homey» означает, что Homey управляет целевой мощностью устройства. «Автоматический» означает, что устройство само управляет своей мощностью.",
+          "pl": "\"Homey\" oznacza, że Homey steruje mocą docelową urządzenia. \"Automatyczny\" oznacza, że urządzenie samo steruje swoją mocą.",
+          "ko": "\"Homey\"는 Homey가 기기의 목표 전력을 제어함을 의미합니다. \"자동\"은 기기가 자체적으로 전력을 제어함을 의미합니다.",
+          "ar": "\"Homey\" يعني أن Homey يتحكم في الطاقة المستهدفة للجهاز. \"تلقائي\" يعني أن الجهاز يتحكم في طاقته بنفسه."
+        },
+        "args": [
+          {
+            "name": "target_power_mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "target_power_mode_set",
+        "title": {
+          "en": "Set target power mode to",
+          "nl": "Stel doelvermogenmodus in op",
+          "de": "Zielleistungsmodus setzen auf",
+          "fr": "Définir le mode de puissance cible sur",
+          "it": "Imposta la modalità potenza target su",
+          "sv": "Ställ in måleffektläge på",
+          "no": "Sett måleffektmodus til",
+          "es": "Establecer el modo de potencia objetivo en",
+          "da": "Indstil måleffekttilstand til",
+          "ru": "Установить режим целевой мощности на",
+          "pl": "Ustaw tryb mocy docelowej na",
+          "ko": "목표 전력 모드 설정",
+          "ar": "ضبط وضع الطاقة المستهدفة على"
+        },
+        "hint": {
+          "en": "To control the target power of this device via Homey, select \"Homey\". To let the device determine its own target power, select \"Automatic\".",
+          "nl": "Wil je via Homey het doelvermogen van dit apparaat aanpassen, gebruik dan \"Homey\". Wil je dat het apparaat zelf het doelvermogen bepaalt, gebruik dan \"Automatisch\".",
+          "de": "Um die Zielleistung dieses Geräts über Homey zu steuern, wähle \"Homey\". Um das Gerät seine eigene Zielleistung bestimmen zu lassen, wähle \"Automatisch\".",
+          "fr": "Pour contrôler la puissance cible de cet appareil via Homey, sélectionnez « Homey ». Pour laisser l'appareil déterminer sa propre puissance cible, sélectionnez « Automatique ».",
+          "it": "Per controllare la potenza target di questo dispositivo tramite Homey, seleziona \"Homey\". Per lasciare che il dispositivo determini la propria potenza target, seleziona \"Automatico\".",
+          "sv": "För att styra måleffekten för denna enhet via Homey, välj \"Homey\". För att låta enheten bestämma sin egen måleffekt, välj \"Automatisk\".",
+          "no": "For å styre måleffekten til denne enheten via Homey, velg \"Homey\". For å la enheten bestemme sin egen måleffekt, velg \"Automatisk\".",
+          "es": "Para controlar la potencia objetivo de este dispositivo a través de Homey, selecciona \"Homey\". Para dejar que el dispositivo determine su propia potencia objetivo, selecciona \"Automático\".",
+          "da": "For at styre måleffekten for denne enhed via Homey, vælg \"Homey\". For at lade enheden bestemme sin egen måleffekt, vælg \"Automatisk\".",
+          "ru": "Чтобы управлять целевой мощностью этого устройства через Homey, выберите «Homey». Чтобы устройство само определяло целевую мощность, выберите «Автоматический».",
+          "pl": "Aby sterować mocą docelową tego urządzenia przez Homey, wybierz \"Homey\". Aby urządzenie samo określało moc docelową, wybierz \"Automatyczny\".",
+          "ko": "Homey를 통해 이 기기의 목표 전력을 제어하려면 \"Homey\"를 선택하세요. 기기가 자체적으로 목표 전력을 결정하게 하려면 \"자동\"을 선택하세요.",
+          "ar": "للتحكم في الطاقة المستهدفة لهذا الجهاز عبر Homey، اختر \"Homey\". لترك الجهاز يحدد الطاقة المستهدفة بنفسه، اختر \"تلقائي\"."
+        },
+        "args": [
+          {
+            "name": "target_power_mode",
+            "type": "dropdown",
+            "values": "$values"
+          }
+        ]
+      }
+    ]
+  }
+}

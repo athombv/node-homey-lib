@@ -590,4 +590,246 @@ describe('HomeyLib.App#validate() driver manifest', function() {
       verified: /zigbee\.endpoints\['1'].bindings\[0] should be number/i,
     });
   });
+
+  /*
+   * target_power_mode values validation
+   */
+
+  it('`target_power_mode` with custom values should pass (values are silently replaced)', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.13.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power', 'target_power_mode'],
+        capabilitiesOptions: {
+          target_power_mode: {
+            values: [
+              { id: 'custom', title: { en: 'Custom' } },
+            ],
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
+
+  it('`target_power_mode` without values array should pass', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.13.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power', 'target_power_mode'],
+        capabilitiesOptions: {
+          target_power_mode: {
+            title: { en: 'Power Mode' },
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
+
+  /*
+   * target_power exclude validation
+   */
+
+  it('`target_power` exclude must include 0 (excludeMin > 0 should fail)', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.13.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power'],
+        capabilitiesOptions: {
+          target_power: {
+            excludeMin: 100, excludeMax: 1380, // Invalid: excludeMin > 0
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /capabilitiesOptions\.target_power\.excludeMin\/excludeMax must include 0/i,
+      publish: /capabilitiesOptions\.target_power\.excludeMin\/excludeMax must include 0/i,
+      verified: /capabilitiesOptions\.target_power\.excludeMin\/excludeMax must include 0/i,
+    });
+  });
+
+  it('`target_power` exclude must include 0 (excludeMax < 0 should fail)', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.13.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power'],
+        capabilitiesOptions: {
+          target_power: {
+            excludeMin: -1380, excludeMax: -100, // Invalid: excludeMax < 0
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /capabilitiesOptions\.target_power\.excludeMin\/excludeMax must include 0/i,
+      publish: /capabilitiesOptions\.target_power\.excludeMin\/excludeMax must include 0/i,
+      verified: /capabilitiesOptions\.target_power\.excludeMin\/excludeMax must include 0/i,
+    });
+  });
+
+  it('`target_power` valid exclude that includes 0 should pass', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.13.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power'],
+        capabilitiesOptions: {
+          target_power: {
+            excludeMin: 0, // Valid: includes 0
+            excludeMax: 1380,
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
+
+  it('`target_power` valid bidirectional exclude should pass', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.13.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power'],
+        capabilitiesOptions: {
+          target_power: {
+            min: -11000,
+            max: 22000,
+            excludeMin: -1380,
+            excludeMax: 1380, // Valid: symmetric around 0
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
+
+  it('`target_power` without excludeMin/excludeMax should pass', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.13.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power'],
+        capabilitiesOptions: {
+          target_power: {
+            min: -5000,
+            max: 5000,
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
+
+  /*
+   * target_power min/max validation (all devices)
+   */
+
+  it('`target_power` min/max must include 0 (min > 0 should fail)', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.13.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power'],
+        capabilitiesOptions: {
+          target_power: {
+            min: 100, // Invalid: min > 0
+            max: 5000,
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
+      publish: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
+      verified: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
+    });
+  });
+
+  it('`target_power` min/max must include 0 (max < 0 should fail)', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.13.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power'],
+        capabilitiesOptions: {
+          target_power: {
+            min: -5000,
+            max: -100, // Invalid: max < 0
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
+      publish: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
+      verified: /capabilitiesOptions\.target_power\.min\/max must include 0/i,
+    });
+  });
+
+  it('`target_power` valid min/max that includes 0 should pass', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.13.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power'],
+        capabilitiesOptions: {
+          target_power: {
+            min: -5000,
+            max: 5000, // Valid: includes 0
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
 });
