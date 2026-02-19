@@ -55,7 +55,7 @@
   "getable": true,
   "setable": true,
   "uiComponent": "slider",
-  "minCompatibility": "12.12.0",
+  "minCompatibility": "12.13.0",
   "$flow": {
     "triggers": [
       {
