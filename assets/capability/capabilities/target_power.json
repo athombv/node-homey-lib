@@ -1,0 +1,137 @@
+{
+  "type": "number",
+  "title": {
+    "en": "Target power",
+    "nl": "Doelvermogen",
+    "de": "Ziel-Leistung",
+    "fr": "Puissance cible",
+    "it": "Potenza target",
+    "sv": "Måleffekt",
+    "no": "Måleffekt",
+    "es": "Potencia objetivo",
+    "da": "Måleffekt",
+    "ru": "Целевая мощность",
+    "pl": "Moc docelowa",
+    "ko": "목표 전력",
+    "ar": "الطاقة المستهدفة"
+  },
+  "desc": {
+    "en": "Target power in watt",
+    "nl": "Doelvermogen in watt",
+    "de": "Ziel-Leistung in Watt",
+    "fr": "Puissance cible en watt",
+    "it": "Potenza target in watt",
+    "sv": "Måleffekt i watt",
+    "no": "Måleffekt i watt",
+    "es": "Potencia objetivo en vatios",
+    "da": "Måleffekt i watt",
+    "ru": "Целевая мощность в ваттах",
+    "pl": "Moc docelowa w watach",
+    "ko": "목표 전력 와트",
+    "ar": "الطاقة المستهدفة بالواط"
+  },
+  "units": {
+    "en": "W",
+    "nl": "W",
+    "de": "W",
+    "fr": "W",
+    "it": "W",
+    "sv": "W",
+    "no": "W",
+    "es": "W",
+    "da": "W",
+    "ru": "Вт",
+    "pl": "W",
+    "ko": "W",
+    "ar": "واط"
+  },
+  "insights": true,
+  "chartType": "stepLine",
+  "min": -25000,
+  "max": 25000,
+  "step": 1,
+  "decimals": 0,
+  "color": "#6DD400",
+  "getable": true,
+  "setable": true,
+  "uiComponent": "slider",
+  "minCompatibility": "12.13.0",
+  "$flow": {
+    "triggers": [
+      {
+        "id": "target_power_changed",
+        "highlight": true,
+        "title": {
+          "en": "The target power changed",
+          "nl": "Het doelvermogen is veranderd",
+          "de": "Die Ziel-Leistung hat sich geändert",
+          "fr": "La puissance cible a changé",
+          "it": "La potenza target è cambiata",
+          "sv": "Måleffekten ändrades",
+          "no": "Måleffekten ble endret",
+          "es": "La potencia objetivo ha cambiado",
+          "da": "Måleffekten blev ændret",
+          "ru": "Целевая мощность изменена",
+          "pl": "Moc docelowa uległa zmianie",
+          "ko": "목표 전력이 변경되면",
+          "ar": "تغيرت الطاقة المستهدفة"
+        },
+        "tokens": [
+          {
+            "name": "$id",
+            "title": "$title",
+            "type": "$type",
+            "example": 2500
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "id": "target_power_set",
+        "highlight": true,
+        "title": {
+          "en": "Set the target power",
+          "nl": "Stel het doelvermogen in",
+          "de": "Ziel-Leistung setzen",
+          "fr": "Définir la puissance cible",
+          "it": "Imposta la potenza target",
+          "sv": "Ställ in måleffekten",
+          "no": "Angi måleffekten",
+          "es": "Establecer la potencia objetivo",
+          "da": "Indstil måleffekten",
+          "ru": "Установить целевую мощность",
+          "pl": "Ustaw moc docelową",
+          "ko": "목표 전력 설정",
+          "ar": "ضبط الطاقة المستهدفة"
+        },
+        "hint": {
+          "en": "This also switches the target power mode to Homey. For EV chargers, charging is automatically started or stopped.",
+          "nl": "Dit schakelt ook de doelvermogenmodus naar Homey. Bij een EV-lader wordt het laden automatisch gestart of gestopt.",
+          "de": "Dies schaltet auch den Zielleistungsmodus auf Homey um. Bei EV-Ladegeräten wird der Ladevorgang automatisch gestartet oder gestoppt.",
+          "fr": "Ceci bascule également le mode de puissance cible sur Homey. Pour les bornes de recharge, la charge est automatiquement démarrée ou arrêtée.",
+          "it": "Questo imposta anche la modalità potenza target su Homey. Per i caricatori EV, la ricarica viene avviata o interrotta automaticamente.",
+          "sv": "Detta växlar även måleffektläget till Homey. För EV-laddare startas eller stoppas laddningen automatiskt.",
+          "no": "Dette bytter også måleffektmodus til Homey. For EV-ladere startes eller stoppes ladingen automatisk.",
+          "es": "Esto también cambia el modo de potencia objetivo a Homey. Para cargadores de vehículos eléctricos, la carga se inicia o detiene automáticamente.",
+          "da": "Dette skifter også måleffekttilstanden til Homey. For EV-ladere startes eller stoppes opladningen automatisk.",
+          "ru": "Это также переключает режим целевой мощности на Homey. Для зарядных станций зарядка автоматически запускается или останавливается.",
+          "pl": "To również przełącza tryb mocy docelowej na Homey. W przypadku ładowarek EV ładowanie jest automatycznie uruchamiane lub zatrzymywane.",
+          "ko": "이 작업은 목표 전력 모드도 Homey로 전환합니다. EV 충전기의 경우 충전이 자동으로 시작되거나 중지됩니다.",
+          "ar": "يؤدي هذا أيضًا إلى تبديل وضع الطاقة المستهدفة إلى Homey. بالنسبة لشواحن السيارات الكهربائية، يتم بدء الشحن أو إيقافه تلقائيًا."
+        },
+        "args": [
+          {
+            "name": "target_power",
+            "type": "range",
+            "min": -25000,
+            "max": 25000,
+            "step": 1,
+            "label": "W",
+            "labelDecimals": 0
+          }
+        ]
+      }
+    ]
+  }
+}
