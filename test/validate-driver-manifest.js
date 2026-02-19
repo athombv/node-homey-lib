@@ -598,7 +598,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`target_power_mode` with custom values should pass (values are silently replaced)', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=12.12.0',
+      compatibility: '>=12.13.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['target_power', 'target_power_mode'],
@@ -622,7 +622,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`target_power_mode` without values array should pass', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=12.12.0',
+      compatibility: '>=12.13.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['target_power', 'target_power_mode'],
@@ -648,7 +648,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`target_power` exclude must include 0 (excludeMin > 0 should fail)', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=12.12.0',
+      compatibility: '>=12.13.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['target_power'],
@@ -670,7 +670,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`target_power` exclude must include 0 (excludeMax < 0 should fail)', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=12.12.0',
+      compatibility: '>=12.13.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['target_power'],
@@ -692,7 +692,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`target_power` valid exclude that includes 0 should pass', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=12.12.0',
+      compatibility: '>=12.13.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['target_power'],
@@ -715,7 +715,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`target_power` valid bidirectional exclude should pass', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=12.12.0',
+      compatibility: '>=12.13.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['target_power'],
@@ -740,7 +740,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`target_power` without excludeMin/excludeMax should pass', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=12.12.0',
+      compatibility: '>=12.13.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['target_power'],
@@ -767,7 +767,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`target_power` min/max must include 0 (min > 0 should fail)', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=12.12.0',
+      compatibility: '>=12.13.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['target_power'],
@@ -790,7 +790,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`target_power` min/max must include 0 (max < 0 should fail)', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=12.12.0',
+      compatibility: '>=12.13.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['target_power'],
@@ -813,7 +813,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`target_power` valid min/max that includes 0 should pass', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=12.12.0',
+      compatibility: '>=12.13.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['target_power'],
