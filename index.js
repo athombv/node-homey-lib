@@ -44,3 +44,6 @@ module.exports.getMediaCodecs = Media.getCodecs.bind(Media);
 module.exports.getCurrencies = Energy.getCurrencies.bind(Energy);
 /** @type {typeof Energy.getBatteries} */
 module.exports.getBatteries = Energy.getBatteries.bind(Energy);
+
+/** @typedef {import('./lib/App').AppManifest} AppManifest */
+/** @typedef {import('./lib/Capability').CapabilityDefinition} CapabilityDefinition */
