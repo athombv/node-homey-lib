@@ -2,14 +2,16 @@
   "name": "homey-lib",
   "version": "2.45.1",
   "description": "Shared Library for Homey",
+  "types": "types/index.d.ts",
   "main": "index.js",
   "scripts": {
-    "build": "npm ci; npm run pack",
+    "build": "npm ci; npm run types:generate; npm run pack",
     "pack": "webpack",
     "lint": "eslint .",
     "test": "mocha --parallel",
     "locales:apply": "node scripts/apply-locale-files.js",
-    "locales:generate": "node scripts/generate-locale-files.js"
+    "locales:generate": "node scripts/generate-locale-files.js",
+    "types:generate": "tsc --project tsconfig.types.json"
   },
   "engines": {
     "node": ">=12.13.0"
@@ -38,6 +40,7 @@
     "mock-fs": "^5.1.2",
     "object-path": "^0.11.8",
     "set-value": "^4.1.0",
+    "typescript": "^5.9.3",
     "webpack": "^5.98.0",
     "webpack-cli": "^5.1.4"
   }
