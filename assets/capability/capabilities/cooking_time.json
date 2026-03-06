@@ -48,6 +48,7 @@
   "insights": true,
   "chartType": "spline",
   "min": 0,
+  "max": 86400,
   "decimals": 0,
   "color": "#FA6400",
   "getable": true,
