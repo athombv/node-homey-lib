@@ -595,7 +595,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
    * target_power_mode values validation
    */
 
-  it('`target_power_mode` with custom values should pass (values are silently replaced)', async function() {
+  it('`target_power_mode` with custom values should pass (extras appended to canonical values)', async function() {
     const app = mockApp({
       ...baseAppManifest,
       compatibility: '>=12.13.0',
@@ -606,6 +606,32 @@ describe('HomeyLib.App#validate() driver manifest', function() {
           target_power_mode: {
             values: [
               { id: 'custom', title: { en: 'Custom' } },
+            ],
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
+
+  it('`target_power_mode` with duplicate custom values should pass (deduped)', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.13.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power', 'target_power_mode'],
+        capabilitiesOptions: {
+          target_power_mode: {
+            values: [
+              { id: 'device', title: { en: 'My Device' } },
+              { id: 'custom', title: { en: 'Custom' } },
+              { id: 'custom', title: { en: 'Custom Dupe' } },
             ],
           },
         },
@@ -638,6 +664,54 @@ describe('HomeyLib.App#validate() driver manifest', function() {
       debug: true,
       publish: true,
       verified: true,
+    });
+  });
+
+  it('`target_power_mode` with reserved prefix homey_ should fail', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.13.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power', 'target_power_mode'],
+        capabilitiesOptions: {
+          target_power_mode: {
+            values: [
+              { id: 'homey_auto', title: { en: 'Homey Auto' } },
+            ],
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /reserved prefixes/i,
+      publish: /reserved prefixes/i,
+      verified: /reserved prefixes/i,
+    });
+  });
+
+  it('`target_power_mode` with reserved prefix device_ should fail', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.13.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power', 'target_power_mode'],
+        capabilitiesOptions: {
+          target_power_mode: {
+            values: [
+              { id: 'device_eco', title: { en: 'Device Eco' } },
+            ],
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /reserved prefixes/i,
+      publish: /reserved prefixes/i,
+      verified: /reserved prefixes/i,
     });
   });
 
