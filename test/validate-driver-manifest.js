@@ -641,6 +641,54 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
   });
 
+  it('`target_power_mode` with reserved prefix homey_ should fail', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.13.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power', 'target_power_mode'],
+        capabilitiesOptions: {
+          target_power_mode: {
+            values: [
+              { id: 'homey_auto', title: { en: 'Homey Auto' } },
+            ],
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /reserved prefixes/i,
+      publish: /reserved prefixes/i,
+      verified: /reserved prefixes/i,
+    });
+  });
+
+  it('`target_power_mode` with reserved prefix device_ should fail', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.13.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power', 'target_power_mode'],
+        capabilitiesOptions: {
+          target_power_mode: {
+            values: [
+              { id: 'device_eco', title: { en: 'Device Eco' } },
+            ],
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /reserved prefixes/i,
+      publish: /reserved prefixes/i,
+      verified: /reserved prefixes/i,
+    });
+  });
+
   /*
    * target_power exclude validation
    */
