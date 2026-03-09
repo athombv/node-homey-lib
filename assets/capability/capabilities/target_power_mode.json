@@ -103,7 +103,7 @@
           "es": "\"Homey\" significa que Homey controla la potencia objetivo del dispositivo. \"Automático\" significa que el dispositivo controla su propia potencia.",
           "da": "\"Homey\" betyder, at Homey styrer enhedens måleffekt. \"Automatisk\" betyder, at enheden styrer sin egen effekt.",
           "ru": "Режим «Homey» означает, что Homey управляет целевой мощностью устройства. Режим «Автоматический» означает, что устройство само управляет своей мощностью.",
-          "pl": "\"Homey\" oznacza, że Homey steruje mocą docelową urządzenia. \"Automatyczny\" oznacza, że urządzenie samo steruje swoją mocą.",
+          "pl": "„Homey” oznacza, że Homey steruje mocą docelową urządzenia. „Automatyczny” oznacza, że urządzenie samodzielnie steruje mocą.",
           "ko": "\"Homey\"는 Homey가 제품의 충전전력 제한을 제어한다는 의미예요. \"자동\"은 제품이 자체적으로 충전전력 제한을 제어한다는 의미이고요.",
           "ar": "\"Homey\" يعني أن Homey يتحكم في الطاقة المستهدفة للجهاز. أما \"تلقائي\" يعني أن الجهاز يتحكم في طاقته بنفسه."
         },
@@ -145,7 +145,7 @@
           "es": "\"Homey\" significa que Homey controla la potencia objetivo del dispositivo. \"Automático\" significa que el dispositivo controla su propia potencia.",
           "da": "\"Homey\" betyder, at Homey styrer enhedens måleffekt. \"Automatisk\" betyder, at enheden styrer sin egen effekt.",
           "ru": "Режим «Homey» означает, что Homey управляет целевой мощностью устройства. Режим «Автоматический» означает, что устройство само управляет своей мощностью.",
-          "pl": "\"Homey\" oznacza, że Homey steruje mocą docelową urządzenia. \"Automatyczny\" oznacza, że urządzenie samo steruje swoją mocą.",
+          "pl": "„Homey” oznacza, że Homey steruje mocą docelową urządzenia. „Automatyczny” oznacza, że urządzenie samodzielnie steruje mocą.",
           "ko": "\"Homey\"는 Homey가 제품의 충전전력 제한을 제어한다는 의미예요. \"자동\"은 제품이 자체적으로 충전전력 제한을 제어한다는 의미이고요.",
           "ar": "\"Homey\" يعني أن Homey يتحكم في الطاقة المستهدفة للجهاز. أما \"تلقائي\" يعني أن الجهاز يتحكم في طاقته بنفسه."
         },
@@ -167,7 +167,7 @@
           "de": "Zielleistungsmodus setzen auf",
           "fr": "Définir le mode de puissance cible sur",
           "it": "Imposta la modalità potenza target su",
-          "sv": "Ställ in måleffektläge på",
+          "sv": "Ställ in måleffektläge till",
           "no": "Sett ønsket effekt-modus til",
           "es": "Establecer el modo de potencia objetivo en",
           "da": "Indstil måleffekttilstand til",
@@ -187,7 +187,7 @@
           "es": "Si deseas controlar la potencia objetivo de este dispositivo a través de Homey, selecciona \"Homey\". Si, en cambio, prefieres que el dispositivo determine su propia potencia objetivo, selecciona \"Automático\".",
           "da": "For at styre måleffekten for denne enhed via Homey skal du vælge \"Homey\". For at lade enheden bestemme sin egen måleffekt skal du vælge \"Automatisk\".",
           "ru": "Чтобы управлять целевой мощностью этого устройства через Homey, выберите «Homey». Чтобы устройство само определяло целевую мощность, выберите режим «Автоматический».",
-          "pl": "Aby sterować mocą docelową tego urządzenia przez Homey, wybierz \"Homey\". Aby urządzenie samo określało moc docelową, wybierz \"Automatyczny\".",
+          "pl": "Aby sterować mocą docelową tego urządzenia przez Homey, wybierz „Homey”. Aby urządzenie samo określało moc docelową, wybierz „Automatyczny”.",
           "ko": "이 제품의 충전전력 제한을 Homey를 통해 제어하려면 \"Homey\"를 선택하세요. 제품이 자체적으로 충전전력 제한을 결정할 수 있게 하려면 \"자동\"을 선택하세요.",
           "ar": "للتحكم في الطاقة المستهدفة لهذا الجهاز عبر Homey، اختر \"Homey\". ولترك الجهاز يحدد الطاقة المستهدفة بنفسه، اختر \"تلقائي\"."
         },
