@@ -619,6 +619,32 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
   });
 
+  it('`target_power_mode` with duplicate custom values should pass (deduped)', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.13.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power', 'target_power_mode'],
+        capabilitiesOptions: {
+          target_power_mode: {
+            values: [
+              { id: 'device', title: { en: 'My Device' } },
+              { id: 'custom', title: { en: 'Custom' } },
+              { id: 'custom', title: { en: 'Custom Dupe' } },
+            ],
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
+
   it('`target_power_mode` without values array should pass', async function() {
     const app = mockApp({
       ...baseAppManifest,
