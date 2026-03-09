@@ -32,6 +32,133 @@
       },
       "additionalProperties": false
     },
+    "integrity": {
+      "type": "string",
+      "pattern": "^(blake2b512|blake2s256|sha256|sha384|sha512|sha512-256|sha3-256|sha3-384|sha3-512):[0-9a-fA-F]+$"
+    },
+    "zigbee-firmware-update-device": {
+      "type": "object",
+      "required": ["manufacturerName", "productId"],
+      "additionalProperties": false,
+      "properties": {
+        "manufacturerName": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          ]
+        },
+        "productId": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "zigbee-firmware-update-file": {
+      "type": "object",
+      "required": ["fileVersion", "size", "imageType", "manufacturerCode", "name", "integrity"],
+      "additionalProperties": false,
+      "properties": {
+        "fileVersion": {
+          "type": "number"
+        },
+        "imageType": {
+          "type": "number"
+        },
+        "manufacturerCode": {
+          "type": "number"
+        },
+        "minFileVersion": {
+          "type": "number"
+        },
+        "maxFileVersion": {
+          "type": "number"
+        },
+        "minHardwareVersion": {
+          "type": "number"
+        },
+        "maxHardwareVersion": {
+          "type": "number"
+        },
+        "size": {
+          "type": "number"
+        },
+        "name": {
+          "type": "string"
+        },
+        "integrity": {
+          "$ref": "#/definitions/integrity"
+        }
+      }
+    },
+    "zigbee-firmware-update": {
+      "type": "object",
+      "required": ["changelog", "device", "files"],
+      "additionalProperties": false,
+      "properties": {
+        "changelog": {
+          "$ref": "#/definitions/i18nObject"
+        },
+        "device": {
+          "$ref": "#/definitions/zigbee-firmware-update-device"
+        },
+        "files": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/zigbee-firmware-update-file"
+          }
+        }
+      }
+    },
+    "zigbee-firmware-updates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["updates"],
+      "properties": {
+        "queryNextImageTimeout": {
+          "type": "number"
+        },
+        "minImageBlockPeriod": {
+          "type": "number"
+        },
+        "maxImageBlockSize": {
+          "type": "number"
+        },
+        "imageBlockRequestTimeout": {
+          "type": "number"
+        },
+        "upgradeEndRequestTimeout": {
+          "type": "number"
+        },
+        "upgradeEndDelay": {
+          "type": "number"
+        },
+        "postUpgradeAnnounceTimeout": {
+          "type": "number"
+        },
+        "updates": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/zigbee-firmware-update"
+          }
+        }
+      }
+    },
     "author": {
       "required": ["name"],
       "properties": {
@@ -1315,6 +1442,13 @@
           },
           "settings": {
             "$ref": "#/definitions/driverSettings"
+          },
+          "firmwareUpdates": {
+            "oneOf": [
+              {
+                "$ref": "#/definitions/zigbee-firmware-updates"
+              }
+            ]
           },
           "gtin": {
             "oneOf": [

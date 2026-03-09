@@ -2,13 +2,33 @@
 
 'use strict';
 
+const crypto = require('crypto');
+
 const {
   mockApp,
   clearMockApp,
   assertValidates,
   baseAppManifest,
   baseDriverManifest,
+  createFakePng,
 } = require('./fixtures/mock-app');
+
+const {
+  OTA_HEADER_LENGTH,
+  buildOtaHeader,
+} = require('./fixtures/zigbee-ota');
+
+function createOtaFileBuffer(options = {}) {
+  const payload = Buffer.from([0xde, 0xad, 0xbe, 0xef]);
+  const totalImageSize = OTA_HEADER_LENGTH + payload.length;
+  const header = buildOtaHeader({ totalImageSize, ...options });
+  return Buffer.concat([header, payload]);
+}
+
+function createIntegrity(buffer, hashName = 'sha256') {
+  const digest = crypto.createHash(hashName).update(buffer).digest('hex');
+  return `${hashName}:${digest}`;
+}
 
 describe('HomeyLib.App#validate() driver manifest', function() {
   this.slow(500);
@@ -830,6 +850,357 @@ describe('HomeyLib.App#validate() driver manifest', function() {
       debug: true,
       publish: true,
       verified: true,
+    });
+  });
+
+  /*
+   * Zigbee Firmware Updates
+   */
+
+  it('`firmwareUpdates.updates[].files` needs at least one entry', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zigbee: {
+          productId: 'dummyProduct',
+          manufacturerName: 'dummyManufacturer',
+          endpoints: {},
+        },
+        firmwareUpdates: {
+          updates: [{
+            changelog: { en: 'Initial' },
+            device: { manufacturerName: 'dummyManufacturer', productId: 'dummyProduct' },
+            files: [],
+          }],
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /drivers.test.firmwareUpdates.update\[0\].files must include at least one file/i,
+      publish: /drivers.test firmwareUpdates can only be included in debug mode validation./i,
+      verified: /drivers.test firmwareUpdates can only be included in debug mode validation./i,
+    });
+  });
+
+  it('`firmwareUpdates.updates[].device` is mandatory', async function() {
+    const otaBuffer = createOtaFileBuffer();
+    const integrity = createIntegrity(otaBuffer);
+
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zigbee: {
+          productId: 'dummyProduct',
+          manufacturerName: 'dummyManufacturer',
+          endpoints: {},
+        },
+        firmwareUpdates: {
+          updates: [{
+            changelog: { en: 'Initial' },
+            files: [{
+              name: 'ota.bin',
+              integrity,
+              fileVersion: 0x01020304,
+              imageType: 0x5678,
+              manufacturerCode: 0x1234,
+            }],
+          }],
+        },
+      }],
+    }, {
+      files: {
+        drivers: {
+          test: {
+            assets: {
+              firmware: {
+                'ota.bin': otaBuffer,
+              },
+            },
+          },
+        },
+      },
+    });
+
+    await assertValidates(app, {
+      debug: /firmwareUpdates\.updates\[0\] should have required property 'device'/i,
+      publish: /firmwareUpdates\.updates\[0\] should have required property 'device'/i,
+      verified: /firmwareUpdates\.updates\[0\] should have required property 'device'/i,
+    });
+  });
+
+  it('`firmwareUpdates` validates that update.device.manufacturerName matches the Zigbee driver', async function() {
+    const otaBuffer = createOtaFileBuffer();
+    const integrity = createIntegrity(otaBuffer);
+
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zigbee: {
+          productId: ['dummyProduct'],
+          manufacturerName: ['dummyManufacturer'],
+          endpoints: {},
+        },
+        firmwareUpdates: {
+          updates: [{
+            changelog: { en: 'Initial' },
+            device: { manufacturerName: 'otherManufacturer', productId: 'dummyProduct' },
+            files: [{
+              name: 'ota.bin',
+              integrity,
+              fileVersion: 0x01020304,
+              imageType: 0x5678,
+              manufacturerCode: 0x1234,
+              size: otaBuffer.length,
+            }],
+          }],
+        },
+      }],
+    }, {
+      files: {
+        drivers: {
+          test: {
+            assets: {
+              images: {
+                'small.png': createFakePng({ width: 75, height: 75 }),
+                'large.png': createFakePng({ width: 500, height: 500 }),
+                'xlarge.png': createFakePng({ width: 1000, height: 1000 }),
+              },
+              firmware: {
+                'ota.bin': otaBuffer,
+              },
+            },
+          },
+        },
+      },
+    });
+
+    await assertValidates(app, {
+      debug: /drivers\.test\.firmwareUpdates\.update\[0\] has a manufacturerName that does not match the driver zigbee\.manufacturerName/i,
+      publish: /drivers\.test firmwareUpdates can only be included in debug mode validation./i,
+      verified: /drivers\.test firmwareUpdates can only be included in debug mode validation./i,
+    });
+  });
+
+  it('`firmwareUpdates` validates that update.device.productId matches the Zigbee driver', async function() {
+    const otaBuffer = createOtaFileBuffer();
+    const integrity = createIntegrity(otaBuffer);
+
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zigbee: {
+          productId: ['dummyProduct'],
+          manufacturerName: ['dummyManufacturer'],
+          endpoints: {},
+        },
+        firmwareUpdates: {
+          updates: [{
+            changelog: { en: 'Initial' },
+            device: { manufacturerName: 'dummyManufacturer', productId: 'otherProduct' },
+            files: [{
+              name: 'ota.bin',
+              integrity,
+              fileVersion: 0x01020304,
+              imageType: 0x5678,
+              manufacturerCode: 0x1234,
+              size: otaBuffer.length,
+            }],
+          }],
+        },
+      }],
+    }, {
+      files: {
+        drivers: {
+          test: {
+            assets: {
+              images: {
+                'small.png': createFakePng({ width: 75, height: 75 }),
+                'large.png': createFakePng({ width: 500, height: 500 }),
+                'xlarge.png': createFakePng({ width: 1000, height: 1000 }),
+              },
+              firmware: {
+                'ota.bin': otaBuffer,
+              },
+            },
+          },
+        },
+      },
+    });
+
+    await assertValidates(app, {
+      debug: /drivers\.test\.firmwareUpdates\.update\[0\] has a productId that does not match the driver zigbee\.productId/i,
+      publish: /drivers\.test firmwareUpdates can only be included in debug mode validation./i,
+      verified: /drivers\.test firmwareUpdates can only be included in debug mode validation./i,
+    });
+  });
+
+  it('`firmwareUpdates` validates integrity', async function() {
+    const otaBuffer = createOtaFileBuffer();
+
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zigbee: {
+          productId: 'dummyProduct',
+          manufacturerName: 'dummyManufacturer',
+          endpoints: {},
+        },
+        firmwareUpdates: {
+          updates: [{
+            changelog: { en: 'Initial' },
+            device: { manufacturerName: 'dummyManufacturer', productId: 'dummyProduct' },
+            files: [{
+              name: 'ota.bin',
+              integrity: 'sha256:deadbeef',
+              fileVersion: 0x01020304,
+              imageType: 0x5678,
+              manufacturerCode: 0x1234,
+              size: otaBuffer.length,
+            }],
+          }],
+        },
+      }],
+    }, {
+      files: {
+        drivers: {
+          test: {
+            assets: {
+              images: {
+                'small.png': createFakePng({ width: 75, height: 75 }),
+                'large.png': createFakePng({ width: 500, height: 500 }),
+                'xlarge.png': createFakePng({ width: 1000, height: 1000 }),
+              },
+              firmware: {
+                'ota.bin': otaBuffer,
+              },
+            },
+          },
+        },
+      },
+    });
+
+    await assertValidates(app, {
+      debug: /drivers.test.firmwareUpdates.update\[0\].files\[0\] integrity mismatch/i,
+      publish: /drivers.test firmwareUpdates can only be included in debug mode validation./i,
+      verified: /drivers.test firmwareUpdates can only be included in debug mode validation./i,
+    });
+  });
+
+  it('`firmwareUpdates` validates OTA header manufacturerCode', async function() {
+    const otaBuffer = createOtaFileBuffer({ manufacturerCode: 0x1234 });
+    const integrity = createIntegrity(otaBuffer);
+
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zigbee: {
+          productId: 'dummyProduct',
+          manufacturerName: 'dummyManufacturer',
+          endpoints: {},
+        },
+        firmwareUpdates: {
+          updates: [{
+            changelog: { en: 'Initial' },
+            device: { manufacturerName: 'dummyManufacturer', productId: 'dummyProduct' },
+            files: [{
+              name: 'ota.bin',
+              integrity,
+              fileVersion: 0x01020304,
+              imageType: 0x5678,
+              manufacturerCode: 0x9999,
+              size: otaBuffer.length,
+            }],
+          }],
+        },
+      }],
+    }, {
+      files: {
+        drivers: {
+          test: {
+            assets: {
+              images: {
+                'small.png': createFakePng({ width: 75, height: 75 }),
+                'large.png': createFakePng({ width: 500, height: 500 }),
+                'xlarge.png': createFakePng({ width: 1000, height: 1000 }),
+              },
+              firmware: {
+                'ota.bin': otaBuffer,
+              },
+            },
+          },
+        },
+      },
+    });
+
+    await assertValidates(app, {
+      debug: /invalid Zigbee OTA header/i,
+      publish: /drivers.test firmwareUpdates can only be included in debug mode validation./i,
+      verified: /drivers.test firmwareUpdates can only be included in debug mode validation./i,
+    });
+  });
+
+  it('`firmwareUpdates` validates when OTA metadata matches', async function() {
+    const otaBuffer = createOtaFileBuffer({
+      manufacturerCode: 0x1234,
+      imageType: 0x5678,
+      fileVersion: 0x01020304,
+    });
+    const integrity = createIntegrity(otaBuffer);
+
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zigbee: {
+          productId: 'dummyProduct',
+          manufacturerName: 'dummyManufacturer',
+          endpoints: {},
+        },
+        firmwareUpdates: {
+          updates: [{
+            changelog: { en: 'Initial' },
+            device: { manufacturerName: 'dummyManufacturer', productId: 'dummyProduct' },
+            files: [{
+              name: 'ota.bin',
+              integrity,
+              fileVersion: 0x01020304,
+              imageType: 0x5678,
+              manufacturerCode: 0x1234,
+              size: otaBuffer.length,
+            }],
+          }],
+        },
+      }],
+    }, {
+      files: {
+        drivers: {
+          test: {
+            assets: {
+              images: {
+                'small.png': createFakePng({ width: 75, height: 75 }),
+                'large.png': createFakePng({ width: 500, height: 500 }),
+                'xlarge.png': createFakePng({ width: 1000, height: 1000 }),
+              },
+              firmware: {
+                'ota.bin': otaBuffer,
+              },
+            },
+          },
+        },
+      },
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: /drivers.test firmwareUpdates can only be included in debug mode validation./i,
+      verified: /drivers.test firmwareUpdates can only be included in debug mode validation./i,
     });
   });
 });

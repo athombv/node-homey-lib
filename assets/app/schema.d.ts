@@ -80,6 +80,7 @@ export type DriverSettings = (
       [k: string]: unknown;
     }
 )[];
+export type Integrity = string;
 export type AppSettings = (
   | {
       type: "text" | "password" | "textarea" | "label";
@@ -247,6 +248,7 @@ export interface App {
       [k: string]: unknown;
     }[];
     settings?: DriverSettings;
+    firmwareUpdates?: ZigbeeFirmwareUpdates;
     gtin?: string | string[];
     matter?: MatterDevice;
     zwave?: ZwaveDevice;
@@ -372,6 +374,37 @@ export interface ZwaveSetting {
   size: 1 | 2 | 4;
   signed?: boolean;
   [k: string]: unknown;
+}
+export interface ZigbeeFirmwareUpdates {
+  queryNextImageTimeout?: number;
+  minImageBlockPeriod?: number;
+  maxImageBlockSize?: number;
+  imageBlockRequestTimeout?: number;
+  upgradeEndRequestTimeout?: number;
+  upgradeEndDelay?: number;
+  postUpgradeAnnounceTimeout?: number;
+  updates: ZigbeeFirmwareUpdate[];
+}
+export interface ZigbeeFirmwareUpdate {
+  changelog: I18NObject;
+  device: ZigbeeFirmwareUpdateDevice;
+  files: ZigbeeFirmwareUpdateFile[];
+}
+export interface ZigbeeFirmwareUpdateDevice {
+  manufacturerName: string | string[];
+  productId: string | string[];
+}
+export interface ZigbeeFirmwareUpdateFile {
+  fileVersion: number;
+  imageType: number;
+  manufacturerCode: number;
+  minFileVersion?: number;
+  maxFileVersion?: number;
+  minHardwareVersion?: number;
+  maxHardwareVersion?: number;
+  size: number;
+  name: string;
+  integrity: Integrity;
 }
 export interface MatterDevice {
   vendorId: number | number[];
