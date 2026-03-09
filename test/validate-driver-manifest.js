@@ -595,7 +595,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
    * target_power_mode values validation
    */
 
-  it('`target_power_mode` with custom values should pass (values are silently replaced)', async function() {
+  it('`target_power_mode` with custom values should pass (extras appended to canonical values)', async function() {
     const app = mockApp({
       ...baseAppManifest,
       compatibility: '>=12.13.0',
