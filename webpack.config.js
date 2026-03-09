@@ -19,6 +19,7 @@ module.exports = {
   ],
   resolve: {
     fallback: {
+      crypto: false,
       fs: false,
       path: false,
       util: false,

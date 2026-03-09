@@ -62,7 +62,7 @@ describe('Util Zigbee OTA header helpers', function() {
 
     const parsed = await HomeyLib.Util.validateZigbeeOTAHeader({
       filePath,
-      manufacturerId: 0x1234,
+      manufacturerCode: 0x1234,
       imageType: 0x5678,
       fileVersion: 0x01020304,
     });

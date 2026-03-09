@@ -878,7 +878,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
 
     await assertValidates(app, {
-      debug: /drivers.test.firmwareUpdates.update\[0\].files must include at least one file/i,
+      debug: /drivers.test.firmwareUpdates.updates\[0\].files must include at least one file/i,
       publish: /drivers.test firmwareUpdates can only be included in debug mode validation./i,
       verified: /drivers.test firmwareUpdates can only be included in debug mode validation./i,
     });
@@ -979,7 +979,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
 
     await assertValidates(app, {
-      debug: /drivers\.test\.firmwareUpdates\.update\[0\] has a manufacturerName that does not match the driver zigbee\.manufacturerName/i,
+      debug: /drivers\.test\.firmwareUpdates\.updates\[0\] has a manufacturerName that does not match the driver zigbee\.manufacturerName/i,
       publish: /drivers\.test firmwareUpdates can only be included in debug mode validation./i,
       verified: /drivers\.test firmwareUpdates can only be included in debug mode validation./i,
     });
@@ -1033,7 +1033,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
 
     await assertValidates(app, {
-      debug: /drivers\.test\.firmwareUpdates\.update\[0\] has a productId that does not match the driver zigbee\.productId/i,
+      debug: /drivers\.test\.firmwareUpdates\.updates\[0\] has a productId that does not match the driver zigbee\.productId/i,
       publish: /drivers\.test firmwareUpdates can only be included in debug mode validation./i,
       verified: /drivers\.test firmwareUpdates can only be included in debug mode validation./i,
     });
@@ -1086,7 +1086,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
 
     await assertValidates(app, {
-      debug: /drivers.test.firmwareUpdates.update\[0\].files\[0\] integrity mismatch/i,
+      debug: /drivers.test.firmwareUpdates.updates\[0\].files\[0\] integrity mismatch/i,
       publish: /drivers.test firmwareUpdates can only be included in debug mode validation./i,
       verified: /drivers.test firmwareUpdates can only be included in debug mode validation./i,
     });
