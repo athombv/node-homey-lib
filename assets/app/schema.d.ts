@@ -383,12 +383,18 @@ export interface ZigbeeFirmwareUpdates {
   upgradeEndRequestTimeout?: number;
   upgradeEndDelay?: number;
   postUpgradeAnnounceTimeout?: number;
-  updates: ZigbeeFirmwareUpdate[];
+  /**
+   * @minItems 1
+   */
+  updates: [ZigbeeFirmwareUpdate, ...ZigbeeFirmwareUpdate[]];
 }
 export interface ZigbeeFirmwareUpdate {
   changelog: I18NObject;
   device: ZigbeeFirmwareUpdateDevice;
-  files: ZigbeeFirmwareUpdateFile[];
+  /**
+   * @minItems 1
+   */
+  files: [ZigbeeFirmwareUpdateFile, ...ZigbeeFirmwareUpdateFile[]];
 }
 export interface ZigbeeFirmwareUpdateDevice {
   manufacturerName: string | string[];
