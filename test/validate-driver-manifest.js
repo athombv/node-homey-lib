@@ -643,9 +643,9 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
 
     await assertValidates(app, {
-      debug: /must include canonical value "device"/i,
-      publish: /must include canonical value "device"/i,
-      verified: /must include canonical value "device"/i,
+      debug: /\.values must include canonical value "device"/i,
+      publish: /\.values must include canonical value "device"/i,
+      verified: /\.values must include canonical value "device"/i,
     });
   });
 
@@ -670,9 +670,9 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
 
     await assertValidates(app, {
-      debug: /must include canonical value "homey"/i,
-      publish: /must include canonical value "homey"/i,
-      verified: /must include canonical value "homey"/i,
+      debug: /\.values must include canonical value "homey"/i,
+      publish: /\.values must include canonical value "homey"/i,
+      verified: /\.values must include canonical value "homey"/i,
     });
   });
 
