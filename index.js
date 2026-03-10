@@ -1,26 +1,49 @@
 'use strict';
 
-module.exports.App = require('./lib/App');
-module.exports.Capability = require('./lib/Capability');
-module.exports.Device = require('./lib/Device');
-module.exports.Energy = require('./lib/Energy');
-module.exports.Media = require('./lib/Media');
-module.exports.Signal = require('./lib/Signal');
-module.exports.Util = require('./lib/Util');
+const App = require('./lib/App');
+const Capability = require('./lib/Capability');
+const Device = require('./lib/Device');
+const Energy = require('./lib/Energy');
+const Media = require('./lib/Media');
+const Signal = require('./lib/Signal');
+const Util = require('./lib/Util');
 
-module.exports.getDeviceClasses = module.exports.Device.getClasses.bind(module.exports.Device);
-module.exports.getDeviceClass = module.exports.Device.getClass.bind(module.exports.Device);
+module.exports.App = App;
+module.exports.Capability = Capability;
+module.exports.Device = Device;
+module.exports.Energy = Energy;
+module.exports.Media = Media;
+module.exports.Signal = Signal;
+module.exports.Util = Util;
 
-module.exports.getCapabilities = module.exports.Capability.getCapabilities.bind(module.exports.Capability);
-module.exports.getCapability = module.exports.Capability.getCapability.bind(module.exports.Capability);
-module.exports.hasCapability = module.exports.Capability.hasCapability.bind(module.exports.Capability);
+/** @type {typeof Device.getClasses} */
+module.exports.getDeviceClasses = Device.getClasses.bind(Device);
+/** @type {typeof Device.getClass} */
+module.exports.getDeviceClass = Device.getClass.bind(Device);
 
-module.exports.getAppLocales = module.exports.App.getLocales.bind(module.exports.App);
-module.exports.getAppCategories = module.exports.App.getCategories.bind(module.exports.App);
-module.exports.getAppPermissions = module.exports.App.getPermissions.bind(module.exports.App);
-module.exports.getAppBrandColor = module.exports.App.getBrandColor.bind(module.exports.App);
+/** @type {typeof Capability.getCapabilities} */
+module.exports.getCapabilities = Capability.getCapabilities.bind(Capability);
+/** @type {typeof Capability.getCapability} */
+module.exports.getCapability = Capability.getCapability.bind(Capability);
+/** @type {typeof Capability.hasCapability} */
+module.exports.hasCapability = Capability.hasCapability.bind(Capability);
 
-module.exports.getMediaCodecs = module.exports.Media.getCodecs.bind(module.exports.Media);
+/** @type {typeof App.getLocales} */
+module.exports.getAppLocales = App.getLocales.bind(App);
+/** @type {typeof App.getCategories} */
+module.exports.getAppCategories = App.getCategories.bind(App);
+/** @type {typeof App.getPermissions} */
+module.exports.getAppPermissions = App.getPermissions.bind(App);
+/** @type {typeof App.getBrandColor} */
+module.exports.getAppBrandColor = App.getBrandColor.bind(App);
 
-module.exports.getCurrencies = module.exports.Energy.getCurrencies.bind(module.exports.Energy);
-module.exports.getBatteries = module.exports.Energy.getBatteries.bind(module.exports.Energy);
+/** @type {typeof Media.getCodecs} */
+module.exports.getMediaCodecs = Media.getCodecs.bind(Media);
+
+/** @type {typeof Energy.getCurrencies} */
+module.exports.getCurrencies = Energy.getCurrencies.bind(Energy);
+/** @type {typeof Energy.getBatteries} */
+module.exports.getBatteries = Energy.getBatteries.bind(Energy);
+
+/** @typedef {import('./assets/app/schema').App} AppManifest */
+/** @typedef {import('./assets/capability/schema').Capability} CapabilityDefinition */

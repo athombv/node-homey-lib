@@ -2,14 +2,20 @@
   "name": "homey-lib",
   "version": "2.45.1",
   "description": "Shared Library for Homey",
+  "types": "types/index.d.ts",
   "main": "index.js",
   "scripts": {
-    "build": "npm ci; npm run pack",
+    "build": "npm ci; npm run types:generate; npm run schema:generate; npm run schema:copy; npm run pack",
     "pack": "webpack",
     "lint": "eslint .",
     "test": "mocha --parallel",
     "locales:apply": "node scripts/apply-locale-files.js",
-    "locales:generate": "node scripts/generate-locale-files.js"
+    "locales:generate": "node scripts/generate-locale-files.js",
+    "types:generate": "tsc --project tsconfig.types.json",
+    "schema:generate": "npm run capability-schema:generate && npm run app-schema:generate",
+    "schema:copy": "mkdir -p types/assets/app types/assets/capability && cp assets/app/schema.d.ts types/assets/app/schema.d.ts && cp assets/capability/schema.d.ts types/assets/capability/schema.d.ts",
+    "capability-schema:generate": "json2ts -i assets/capability/schema.json -o assets/capability/schema.d.ts --unknownAny",
+    "app-schema:generate": "json2ts -i assets/app/schema.json -o assets/app/schema.d.ts --unknownAny"
   },
   "engines": {
     "node": ">=12.13.0"
@@ -34,10 +40,12 @@
   "devDependencies": {
     "eslint": "^7.31.0",
     "eslint-config-athom": "^2.1.1",
+    "json-schema-to-typescript": "^15.0.4",
     "mocha": "^9.1.3",
     "mock-fs": "^5.1.2",
     "object-path": "^0.11.8",
     "set-value": "^4.1.0",
+    "typescript": "^5.9.3",
     "webpack": "^5.98.0",
     "webpack-cli": "^5.1.4"
   }
