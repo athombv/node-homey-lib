@@ -12,6 +12,7 @@ const {
   baseDriverManifest,
   createFakePng,
 } = require('./fixtures/mock-app');
+const { Capability } = require('../index');
 
 const {
   OTA_HEADER_LENGTH,
@@ -615,7 +616,8 @@ describe('HomeyLib.App#validate() driver manifest', function() {
    * target_power_mode values validation
    */
 
-  it('`target_power_mode` with custom values should pass (extras appended to canonical values)', async function() {
+  it('`target_power_mode` with custom values should pass', async function() {
+    const canonicalValues = Capability.getCapability('target_power_mode').values;
     const app = mockApp({
       ...baseAppManifest,
       compatibility: '>=12.13.0',
@@ -625,6 +627,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
         capabilitiesOptions: {
           target_power_mode: {
             values: [
+              ...canonicalValues,
               { id: 'custom', title: { en: 'Custom' } },
             ],
           },
@@ -639,7 +642,9 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
   });
 
-  it('`target_power_mode` with duplicate custom values should pass (deduped)', async function() {
+  it('`target_power_mode` should fail when canonical value `device` is missing', async function() {
+    const canonicalValues = Capability.getCapability('target_power_mode').values;
+    const homeyValue = canonicalValues.find(v => v.id === 'homey');
     const app = mockApp({
       ...baseAppManifest,
       compatibility: '>=12.13.0',
@@ -649,9 +654,62 @@ describe('HomeyLib.App#validate() driver manifest', function() {
         capabilitiesOptions: {
           target_power_mode: {
             values: [
-              { id: 'device', title: { en: 'My Device' } },
+              homeyValue,
               { id: 'custom', title: { en: 'Custom' } },
-              { id: 'custom', title: { en: 'Custom Dupe' } },
+            ],
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /\.values must include canonical value "device"/i,
+      publish: /\.values must include canonical value "device"/i,
+      verified: /\.values must include canonical value "device"/i,
+    });
+  });
+
+  it('`target_power_mode` should fail when canonical value `homey` is missing', async function() {
+    const canonicalValues = Capability.getCapability('target_power_mode').values;
+    const deviceValue = canonicalValues.find(v => v.id === 'device');
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.13.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power', 'target_power_mode'],
+        capabilitiesOptions: {
+          target_power_mode: {
+            values: [
+              deviceValue,
+              { id: 'custom', title: { en: 'Custom' } },
+            ],
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /\.values must include canonical value "homey"/i,
+      publish: /\.values must include canonical value "homey"/i,
+      verified: /\.values must include canonical value "homey"/i,
+    });
+  });
+
+  it('`target_power_mode` with custom titles for canonical values should pass', async function() {
+    const canonicalValues = Capability.getCapability('target_power_mode').values;
+    const homeyValue = canonicalValues.find(v => v.id === 'homey');
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.13.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power', 'target_power_mode'],
+        capabilitiesOptions: {
+          target_power_mode: {
+            values: [
+              { id: 'device', title: { en: 'Custom Device Title' } },
+              homeyValue,
             ],
           },
         },
@@ -688,6 +746,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   });
 
   it('`target_power_mode` with reserved prefix homey_ should fail', async function() {
+    const canonicalValues = Capability.getCapability('target_power_mode').values;
     const app = mockApp({
       ...baseAppManifest,
       compatibility: '>=12.13.0',
@@ -697,6 +756,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
         capabilitiesOptions: {
           target_power_mode: {
             values: [
+              ...canonicalValues,
               { id: 'homey_auto', title: { en: 'Homey Auto' } },
             ],
           },
@@ -705,33 +765,9 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
 
     await assertValidates(app, {
-      debug: /reserved prefixes/i,
-      publish: /reserved prefixes/i,
-      verified: /reserved prefixes/i,
-    });
-  });
-
-  it('`target_power_mode` with reserved prefix device_ should fail', async function() {
-    const app = mockApp({
-      ...baseAppManifest,
-      compatibility: '>=12.13.0',
-      drivers: [{
-        ...baseDriverManifest,
-        capabilities: ['target_power', 'target_power_mode'],
-        capabilitiesOptions: {
-          target_power_mode: {
-            values: [
-              { id: 'device_eco', title: { en: 'Device Eco' } },
-            ],
-          },
-        },
-      }],
-    });
-
-    await assertValidates(app, {
-      debug: /reserved prefixes/i,
-      publish: /reserved prefixes/i,
-      verified: /reserved prefixes/i,
+      debug: /reserved prefix/i,
+      publish: /reserved prefix/i,
+      verified: /reserved prefix/i,
     });
   });
 
