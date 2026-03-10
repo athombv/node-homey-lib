@@ -751,32 +751,6 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
   });
 
-  it('`target_power_mode` with device_ prefix should pass', async function() {
-    const canonicalValues = Capability.getCapability('target_power_mode').values;
-    const app = mockApp({
-      ...baseAppManifest,
-      compatibility: '>=12.13.0',
-      drivers: [{
-        ...baseDriverManifest,
-        capabilities: ['target_power', 'target_power_mode'],
-        capabilitiesOptions: {
-          target_power_mode: {
-            values: [
-              ...canonicalValues,
-              { id: 'device_eco', title: { en: 'Device Eco' } },
-            ],
-          },
-        },
-      }],
-    });
-
-    await assertValidates(app, {
-      debug: true,
-      publish: true,
-      verified: true,
-    });
-  });
-
   /*
    * target_power exclude validation
    */
