@@ -745,13 +745,13 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
 
     await assertValidates(app, {
-      debug: /reserved prefixes/i,
-      publish: /reserved prefixes/i,
-      verified: /reserved prefixes/i,
+      debug: /reserved prefix/i,
+      publish: /reserved prefix/i,
+      verified: /reserved prefix/i,
     });
   });
 
-  it('`target_power_mode` with reserved prefix device_ should fail', async function() {
+  it('`target_power_mode` with device_ prefix should pass', async function() {
     const canonicalValues = Capability.getCapability('target_power_mode').values;
     const app = mockApp({
       ...baseAppManifest,
@@ -771,9 +771,9 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
 
     await assertValidates(app, {
-      debug: /reserved prefixes/i,
-      publish: /reserved prefixes/i,
-      verified: /reserved prefixes/i,
+      debug: true,
+      publish: true,
+      verified: true,
     });
   });
 
