@@ -38,3 +38,13 @@ try {
   }
 } catch (err) {
 }
+
+function toArray(value) {
+  if (value) {
+    return Array.isArray(value) ? value : [value];
+  }
+
+  return [];
+}
+
+module.exports.toArray = toArray;
