@@ -333,6 +333,14 @@
                         "type": "object"
                       }
                     ]
+                  },
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "variable",
+                      "flow_or_advanced_flow",
+                      "user"
+                    ]
                   }
                 }
               },
