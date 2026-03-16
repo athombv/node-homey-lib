@@ -504,6 +504,7 @@ export interface FlowCard {
           | {
               [k: string]: unknown;
             };
+        items?: "variable" | "flow_or_advanced_flow" | "user";
         [k: string]: unknown;
       }
     | {
