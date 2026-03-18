@@ -642,7 +642,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
   });
 
-  it('`target_power_mode` should fail when canonical value `device` is missing', async function() {
+  it('`target_power_mode` without `device` but with custom value should pass', async function() {
     const canonicalValues = Capability.getCapability('target_power_mode').values;
     const homeyValue = canonicalValues.find(v => v.id === 'homey');
     const app = mockApp({
@@ -663,13 +663,13 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
 
     await assertValidates(app, {
-      debug: /\.values must include canonical value "device"/i,
-      publish: /\.values must include canonical value "device"/i,
-      verified: /\.values must include canonical value "device"/i,
+      debug: true,
+      publish: true,
+      verified: true,
     });
   });
 
-  it('`target_power_mode` should fail when canonical value `homey` is missing', async function() {
+  it('`target_power_mode` should fail when `homey` value is missing', async function() {
     const canonicalValues = Capability.getCapability('target_power_mode').values;
     const deviceValue = canonicalValues.find(v => v.id === 'device');
     const app = mockApp({
@@ -690,9 +690,35 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
 
     await assertValidates(app, {
-      debug: /\.values must include canonical value "homey"/i,
-      publish: /\.values must include canonical value "homey"/i,
-      verified: /\.values must include canonical value "homey"/i,
+      debug: /\.values must include "homey" value/i,
+      publish: /\.values must include "homey" value/i,
+      verified: /\.values must include "homey" value/i,
+    });
+  });
+
+  it('`target_power_mode` should fail when only `homey` value is present', async function() {
+    const canonicalValues = Capability.getCapability('target_power_mode').values;
+    const homeyValue = canonicalValues.find(v => v.id === 'homey');
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.13.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power', 'target_power_mode'],
+        capabilitiesOptions: {
+          target_power_mode: {
+            values: [
+              homeyValue,
+            ],
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /\.values must include at least one non-homey value/i,
+      publish: /\.values must include at least one non-homey value/i,
+      verified: /\.values must include at least one non-homey value/i,
     });
   });
 
