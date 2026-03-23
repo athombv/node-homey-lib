@@ -722,6 +722,32 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
   });
 
+  it('`target_power_mode` should reject malformed entries as non-homey values', async function() {
+    const canonicalValues = Capability.getCapability('target_power_mode').values;
+    const homeyValue = canonicalValues.find(v => v.id === 'homey');
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=12.13.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['target_power', 'target_power_mode'],
+        capabilitiesOptions: {
+          target_power_mode: {
+            values: [
+              homeyValue,
+              {},
+            ],
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      publish: /\.values must include at least one non-homey value/i,
+      verified: /\.values must include at least one non-homey value/i,
+    });
+  });
+
   it('`target_power_mode` with custom titles for canonical values should pass', async function() {
     const canonicalValues = Capability.getCapability('target_power_mode').values;
     const homeyValue = canonicalValues.find(v => v.id === 'homey');
