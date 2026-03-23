@@ -56,7 +56,7 @@ function writeTranslations(translations, outputDir) {
         existingTranslations = JSON.parse(fs.readFileSync(filePath, 'utf8'));
       }
       translationObj = { ...existingTranslations, ...translationObj };
-      fs.writeFileSync(filePath, JSON.stringify(translationObj, null, 2));
+      fs.writeFileSync(filePath, `${JSON.stringify(translationObj, null, 2)}\n`);
     }
   });
 }
