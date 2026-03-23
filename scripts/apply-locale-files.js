@@ -34,7 +34,7 @@ fs.readdirSync(INPUT_DIR).forEach(inputFile => {
       // Write updated content back to file
       fs.writeFileSync(
         sourceFilePath,
-        JSON.stringify(originalContent, null, 2),
+        `${JSON.stringify(originalContent, null, 2)}\n`,
       );
     });
   }
