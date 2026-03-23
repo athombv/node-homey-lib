@@ -1250,7 +1250,7 @@
   "./assets/device/classes/sprinkler.json@title": "Sprinkler",
   "./assets/device/classes/sprinkler.json@description": "Bruk denne enhetsklassen for sprinkleranlegg.",
   "./assets/device/classes/sunshade.json@title": "Markise",
-  "./assets/device/classes/sunshade.json@description": "Bruk denne enhetsklassen for markiser (vindusbeskyttelse mot solen).",
+  "./assets/device/classes/sunshade.json@description": "Bruk denne enhetsklassen for markiser (vindusskjerming mot solen).",
   "./assets/device/classes/thermostat.json@title": "Termostat",
   "./assets/device/classes/thermostat.json@description": "Bruk denne enhetsklassen for termostater, enten for hele hjemmet eller monterte på varmeelement, ofte sammen med funksjonene `measure_temperature`, `target_temperature` og `thermostat_mode`.",
   "./assets/device/classes/tv.json@title": "TV",
@@ -1270,7 +1270,7 @@
   "./assets/device/classes/waterpurifier.json@description": "Bruk denne enhetsklassen for vannrensere.",
   "./assets/device/classes/watervalve.json@title": "Vannventil",
   "./assets/device/classes/watervalve.json@description": "Bruk denne enhetsklassen for mekaniske vannventiler.",
-  "./assets/device/classes/windowcoverings.json@title": "Vindusbeskyttelse",
+  "./assets/device/classes/windowcoverings.json@title": "Vindusskjerming",
   "./assets/device/classes/windowcoverings.json@description": "Bruk denne enhetsklassen for vindusskjerming som ikke dekkes av enhetsklassene «gardiner», «persienner» eller «markise».",
   "./assets/device/classes/windowcoverings.json@virtualTitle": "Hvilken type er det?"
 }
