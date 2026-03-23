@@ -1,6 +1,6 @@
 {
   "name": "homey-lib",
-  "version": "2.48.0",
+  "version": "2.48.1",
   "description": "Shared Library for Homey",
   "types": "types/index.d.ts",
   "main": "index.js",
