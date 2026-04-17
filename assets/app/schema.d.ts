@@ -376,6 +376,7 @@ export interface ZwaveSetting {
   [k: string]: unknown;
 }
 export interface ZigbeeFirmwareUpdates {
+  wakeInstruction?: I18NObject;
   queryNextImageTimeout?: number;
   minImageBlockPeriod?: number;
   maxImageBlockSize?: number;
