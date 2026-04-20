@@ -436,9 +436,9 @@ export interface ZwaveFirmwareUpdate {
   files: [ZwaveFirmwareUpdateFile, ...ZwaveFirmwareUpdateFile[]];
 }
 export interface ZwaveFirmwareUpdateDevice {
-  manufacturerId?: number | number[];
-  productId?: number | number[];
-  productTypeId?: number | number[];
+  manufacturerId: number | number[];
+  productId: number | number[];
+  productTypeId: number | number[];
   hardwareVersion?: number | number[];
 }
 export interface ZwaveFirmwareUpdateFile {

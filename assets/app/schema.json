@@ -166,6 +166,7 @@
     },
     "zwave-firmware-update-device": {
       "type": "object",
+      "required": ["manufacturerId", "productTypeId", "productId"],
       "additionalProperties": false,
       "properties": {
         "manufacturerId": {
