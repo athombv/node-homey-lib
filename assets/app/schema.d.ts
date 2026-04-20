@@ -248,7 +248,7 @@ export interface App {
       [k: string]: unknown;
     }[];
     settings?: DriverSettings;
-    firmwareUpdates?: ZigbeeFirmwareUpdates;
+    firmwareUpdates?: ZigbeeFirmwareUpdates | ZwaveFirmwareUpdates;
     gtin?: string | string[];
     matter?: MatterDevice;
     zwave?: ZwaveDevice;
@@ -411,6 +411,41 @@ export interface ZigbeeFirmwareUpdateFile {
   maxHardwareVersion?: number;
   size: number;
   name: string;
+  integrity: Integrity;
+}
+export interface ZwaveFirmwareUpdates {
+  wakeInstruction?: I18NObject;
+  reportTimeout?: number;
+  minWaitTime?: number;
+  verifyPostUpdateWithNop?: false;
+  nopRetryInterval?: number;
+  nopMaxRetries?: number;
+  /**
+   * @minItems 1
+   */
+  updates: [ZwaveFirmwareUpdate, ...ZwaveFirmwareUpdate[]];
+}
+export interface ZwaveFirmwareUpdate {
+  version: string;
+  changelog: I18NObject;
+  applicableTo?: string;
+  device: ZwaveFirmwareUpdateDevice;
+  /**
+   * @minItems 1
+   */
+  files: [ZwaveFirmwareUpdateFile, ...ZwaveFirmwareUpdateFile[]];
+}
+export interface ZwaveFirmwareUpdateDevice {
+  manufacturerId?: number | number[];
+  productId?: number | number[];
+  productTypeId?: number | number[];
+  hardwareVersion?: number | number[];
+}
+export interface ZwaveFirmwareUpdateFile {
+  region?: string;
+  targetId: number;
+  name: string;
+  size: number;
   integrity: Integrity;
 }
 export interface MatterDevice {

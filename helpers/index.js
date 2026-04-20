@@ -40,7 +40,7 @@ try {
 }
 
 function toArray(value) {
-  if (value) {
+  if (value !== undefined && value !== null) {
     return Array.isArray(value) ? value : [value];
   }
 
