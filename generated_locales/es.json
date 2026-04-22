@@ -1008,7 +1008,7 @@
   "./assets/capability/capabilities/target_power_mode.json@$flow.conditions.0.title": "El modo de potencia objetivo !{{es|no es}}",
   "./assets/capability/capabilities/target_power_mode.json@$flow.conditions.0.hint": "\"Homey\" significa que Homey controla la potencia objetivo del dispositivo. Los demás modos los determina el dispositivo.",
   "./assets/capability/capabilities/target_power_mode.json@$flow.actions.0.title": "Establecer el modo de potencia objetivo en",
-  "./assets/capability/capabilities/target_power_mode.json@$flow.actions.0.hint": "Para controlar la potencia objetivo de este dispositivo a través de Homey, selecciona \"Homey\". Los demás modos los determina el dispositivo.",
+  "./assets/capability/capabilities/target_power_mode.json@$flow.actions.0.hint": "Selecciona \"Homey\" para controlar la potencia objetivo de este dispositivo a través de Homey. Los demás modos los determina el dispositivo.",
   "./assets/capability/capabilities/target_temperature.json@title": "Temperatura deseada",
   "./assets/capability/capabilities/target_temperature.json@units": "°C",
   "./assets/capability/capabilities/target_temperature.json@$flow.triggers.0.title": "La temperatura deseada ha cambiado",
