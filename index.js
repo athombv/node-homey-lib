@@ -48,3 +48,4 @@ module.exports.getBatteries = Energy.getBatteries.bind(Energy);
 /** @typedef {import('./assets/app/schema').App} AppManifest */
 /** @typedef {import('./assets/capability/schema').Capability} CapabilityDefinition */
 /** @typedef {import('./assets/app/schema').ZigbeeFirmwareUpdates} ZigbeeFirmwareUpdates */
+/** @typedef {import('./assets/app/schema').ZwaveFirmwareUpdates} ZwaveFirmwareUpdates */
