@@ -1019,7 +1019,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
    * Zigbee Firmware Updates
    */
 
-  it('`firmwareUpdates.updates[].files` needs at least one entry', async function() {
+  it('`zigbee firmwareUpdates.updates[].files` needs at least one entry', async function() {
     const app = mockApp({
       ...baseAppManifest,
       drivers: [{
@@ -1046,7 +1046,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
   });
 
-  it('`firmwareUpdates.updates[].device` is mandatory', async function() {
+  it('`zigbee firmwareUpdates.updates[].device` is mandatory', async function() {
     const otaBuffer = createZigbeeOtaFileBuffer();
     const integrity = createIntegrity(otaBuffer);
 
@@ -1093,7 +1093,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
   });
 
-  it('`firmwareUpdates` validates that update.device.manufacturerName matches the Zigbee driver', async function() {
+  it('`zigbee firmwareUpdates` validates that update.device.manufacturerName matches the Zigbee driver', async function() {
     const otaBuffer = createZigbeeOtaFileBuffer();
     const integrity = createIntegrity(otaBuffer);
 
@@ -1142,12 +1142,12 @@ describe('HomeyLib.App#validate() driver manifest', function() {
 
     await assertValidates(app, {
       debug: /drivers\.test\.firmwareUpdates\.updates\[0\] has a manufacturerName that does not match the driver zigbee\.manufacturerName/i,
-      publish: /drivers\.test firmwareUpdates can only be included in debug mode validation./i,
-      verified: /drivers\.test firmwareUpdates can only be included in debug mode validation./i,
+      publish: /drivers\.test\.firmwareUpdates\.updates\[0\] has a manufacturerName that does not match the driver zigbee\.manufacturerName/i,
+      verified: /drivers\.test\.firmwareUpdates\.updates\[0\] has a manufacturerName that does not match the driver zigbee\.manufacturerName/i,
     });
   });
 
-  it('`firmwareUpdates` validates that update.device.productId matches the Zigbee driver', async function() {
+  it('`zigbee firmwareUpdates` validates that update.device.productId matches the Zigbee driver', async function() {
     const otaBuffer = createZigbeeOtaFileBuffer();
     const integrity = createIntegrity(otaBuffer);
 
@@ -1196,12 +1196,12 @@ describe('HomeyLib.App#validate() driver manifest', function() {
 
     await assertValidates(app, {
       debug: /drivers\.test\.firmwareUpdates\.updates\[0\] has a productId that does not match the driver zigbee\.productId/i,
-      publish: /drivers\.test firmwareUpdates can only be included in debug mode validation./i,
-      verified: /drivers\.test firmwareUpdates can only be included in debug mode validation./i,
+      publish: /drivers\.test\.firmwareUpdates\.updates\[0\] has a productId that does not match the driver zigbee\.productId/i,
+      verified: /drivers\.test\.firmwareUpdates\.updates\[0\] has a productId that does not match the driver zigbee\.productId/i,
     });
   });
 
-  it('`firmwareUpdates` validates integrity', async function() {
+  it('`zigbee firmwareUpdates` validates integrity', async function() {
     const otaBuffer = createZigbeeOtaFileBuffer();
 
     const app = mockApp({
@@ -1249,12 +1249,12 @@ describe('HomeyLib.App#validate() driver manifest', function() {
 
     await assertValidates(app, {
       debug: /drivers.test.firmwareUpdates.updates\[0\].files\[0\] integrity mismatch/i,
-      publish: /drivers.test firmwareUpdates can only be included in debug mode validation./i,
-      verified: /drivers.test firmwareUpdates can only be included in debug mode validation./i,
+      publish: /drivers.test.firmwareUpdates.updates\[0\].files\[0\] integrity mismatch/i,
+      verified: /drivers.test.firmwareUpdates.updates\[0\].files\[0\] integrity mismatch/i,
     });
   });
 
-  it('`firmwareUpdates` validates OTA header manufacturerCode', async function() {
+  it('`zigbee firmwareUpdates` validates OTA header manufacturerCode', async function() {
     const otaBuffer = createZigbeeOtaFileBuffer({ manufacturerCode: 0x1234 });
     const integrity = createIntegrity(otaBuffer);
 
@@ -1303,12 +1303,12 @@ describe('HomeyLib.App#validate() driver manifest', function() {
 
     await assertValidates(app, {
       debug: /invalid Zigbee OTA header/i,
-      publish: /drivers.test firmwareUpdates can only be included in debug mode validation./i,
-      verified: /drivers.test firmwareUpdates can only be included in debug mode validation./i,
+      publish: /invalid Zigbee OTA header/i,
+      verified: /invalid Zigbee OTA header/i,
     });
   });
 
-  it('`firmwareUpdates` validates when OTA metadata matches', async function() {
+  it('`zigbee firmwareUpdates` validates when OTA metadata matches', async function() {
     const otaBuffer = createZigbeeOtaFileBuffer({
       manufacturerCode: 0x1234,
       imageType: 0x5678,
@@ -1361,12 +1361,576 @@ describe('HomeyLib.App#validate() driver manifest', function() {
 
     await assertValidates(app, {
       debug: true,
-      publish: /drivers.test firmwareUpdates can only be included in debug mode validation./i,
-      verified: /drivers.test firmwareUpdates can only be included in debug mode validation./i,
+      publish: true,
+      verified: true,
     });
   });
 
-  it('`firmwareUpdates` only allowed on drivers with zigbee property', async function () {
+  /*
+   * Z-Wave Firmware Updates
+   */
+
+  it('`zwave firmwareUpdates.updates[].files` needs at least one entry', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zwave: {
+          manufacturerId: 0x1234,
+          productTypeId: 0x5678,
+          productId: 0x9abc,
+        },
+        firmwareUpdates: {
+          updates: [{
+            version: '1.0.0',
+            changelog: { en: 'Initial' },
+            device: { manufacturerId: 0x1234, productTypeId: 0x5678, productId: 0x9abc },
+            files: [],
+          }],
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /firmwareUpdates.updates\[0\].files should NOT have fewer than 1 items/i,
+      publish: /firmwareUpdates.updates\[0\].files should NOT have fewer than 1 items/i,
+      verified: /firmwareUpdates.updates\[0\].files should NOT have fewer than 1 items/i,
+    });
+  });
+
+  it('`zwave firmwareUpdates.updates[].device` is mandatory', async function() {
+    const zwaveBuffer = Buffer.from([0xde, 0xad, 0xbe, 0xef]);
+    const integrity = createIntegrity(zwaveBuffer);
+
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zwave: {
+          manufacturerId: 0x1234,
+          productTypeId: 0x5678,
+          productId: 0x9abc,
+        },
+        firmwareUpdates: {
+          updates: [{
+            version: '1.0.0',
+            changelog: { en: 'Initial' },
+            files: [{
+              targetId: 0,
+              name: 'firmware.bin',
+              size: zwaveBuffer.length,
+              integrity,
+            }],
+          }],
+        },
+      }],
+    }, {
+      files: {
+        drivers: {
+          test: {
+            assets: {
+              firmware: {
+                'firmware.bin': zwaveBuffer,
+              },
+            },
+          },
+        },
+      },
+    });
+
+    await assertValidates(app, {
+      debug: /firmwareUpdates\.updates\[0\] should have required property 'device'/i,
+      publish: /firmwareUpdates\.updates\[0\] should have required property 'device'/i,
+      verified: /firmwareUpdates\.updates\[0\] should have required property 'device'/i,
+    });
+  });
+
+  it('`zwave firmwareUpdates` validates that update.device.manufacturerId matches the zwave driver', async function() {
+    const zwaveBuffer = Buffer.from([0xde, 0xad, 0xbe, 0xef]);
+    const integrity = createIntegrity(zwaveBuffer);
+
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zwave: {
+          manufacturerId: [0x1234],
+          productTypeId: [0x5678],
+          productId: [0x9abc],
+        },
+        firmwareUpdates: {
+          updates: [{
+            version: '1.0.0',
+            changelog: { en: 'Initial' },
+            device: { manufacturerId: 0x9999, productTypeId: 0x5678, productId: 0x9abc },
+            files: [{
+              targetId: 0,
+              name: 'firmware.bin',
+              size: zwaveBuffer.length,
+              integrity,
+            }],
+          }],
+        },
+      }],
+    }, {
+      files: {
+        drivers: {
+          test: {
+            assets: {
+              images: {
+                'small.png': createFakePng({ width: 75, height: 75 }),
+                'large.png': createFakePng({ width: 500, height: 500 }),
+                'xlarge.png': createFakePng({ width: 1000, height: 1000 }),
+              },
+              firmware: {
+                'firmware.bin': zwaveBuffer,
+              },
+            },
+          },
+        },
+      },
+    });
+
+    await assertValidates(app, {
+      debug: /drivers\.test\.firmwareUpdates\.updates\[0\] has a manufacturerId that does not match the driver zwave\.manufacturerId/i,
+      publish: /drivers\.test\.firmwareUpdates\.updates\[0\] has a manufacturerId that does not match the driver zwave\.manufacturerId/i,
+      verified: /drivers\.test\.firmwareUpdates\.updates\[0\] has a manufacturerId that does not match the driver zwave\.manufacturerId/i,
+    });
+  });
+
+  it('`zwave firmwareUpdates` validates that update.device.productTypeId matches the zwave driver', async function() {
+    const zwaveBuffer = Buffer.from([0xde, 0xad, 0xbe, 0xef]);
+    const integrity = createIntegrity(zwaveBuffer);
+
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zwave: {
+          manufacturerId: [0x1234],
+          productTypeId: [0x5678],
+          productId: [0x9abc],
+        },
+        firmwareUpdates: {
+          updates: [{
+            version: '1.0.0',
+            changelog: { en: 'Initial' },
+            device: { manufacturerId: 0x1234, productTypeId: 0x9999, productId: 0x9abc },
+            files: [{
+              targetId: 0,
+              name: 'firmware.bin',
+              size: zwaveBuffer.length,
+              integrity,
+            }],
+          }],
+        },
+      }],
+    }, {
+      files: {
+        drivers: {
+          test: {
+            assets: {
+              images: {
+                'small.png': createFakePng({ width: 75, height: 75 }),
+                'large.png': createFakePng({ width: 500, height: 500 }),
+                'xlarge.png': createFakePng({ width: 1000, height: 1000 }),
+              },
+              firmware: {
+                'firmware.bin': zwaveBuffer,
+              },
+            },
+          },
+        },
+      },
+    });
+
+    await assertValidates(app, {
+      debug: /drivers\.test\.firmwareUpdates\.updates\[0\] has a productTypeId that does not match the driver zwave\.productTypeId/i,
+      publish: /drivers\.test\.firmwareUpdates\.updates\[0\] has a productTypeId that does not match the driver zwave\.productTypeId/i,
+      verified: /drivers\.test\.firmwareUpdates\.updates\[0\] has a productTypeId that does not match the driver zwave\.productTypeId/i,
+    });
+  });
+
+  it('`zwave firmwareUpdates` validates that update.device.productId matches the zwave driver', async function() {
+    const zwaveBuffer = Buffer.from([0xde, 0xad, 0xbe, 0xef]);
+    const integrity = createIntegrity(zwaveBuffer);
+
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zwave: {
+          manufacturerId: [0x1234],
+          productTypeId: [0x5678],
+          productId: [0x9abc],
+        },
+        firmwareUpdates: {
+          updates: [{
+            version: '1.0.0',
+            changelog: { en: 'Initial' },
+            device: { manufacturerId: 0x1234, productTypeId: 0x5678, productId: 0x9999 },
+            files: [{
+              targetId: 0,
+              name: 'firmware.bin',
+              size: zwaveBuffer.length,
+              integrity,
+            }],
+          }],
+        },
+      }],
+    }, {
+      files: {
+        drivers: {
+          test: {
+            assets: {
+              images: {
+                'small.png': createFakePng({ width: 75, height: 75 }),
+                'large.png': createFakePng({ width: 500, height: 500 }),
+                'xlarge.png': createFakePng({ width: 1000, height: 1000 }),
+              },
+              firmware: {
+                'firmware.bin': zwaveBuffer,
+              },
+            },
+          },
+        },
+      },
+    });
+
+    await assertValidates(app, {
+      debug: /drivers\.test\.firmwareUpdates\.updates\[0\] has a productId that does not match the driver zwave\.productId/i,
+      publish: /drivers\.test\.firmwareUpdates\.updates\[0\] has a productId that does not match the driver zwave\.productId/i,
+      verified: /drivers\.test\.firmwareUpdates\.updates\[0\] has a productId that does not match the driver zwave\.productId/i,
+    });
+  });
+
+  it('`zwave firmwareUpdates` validates integrity', async function() {
+    const zwaveBuffer = Buffer.from([0xde, 0xad, 0xbe, 0xef]);
+
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zwave: {
+          manufacturerId: 0x1234,
+          productTypeId: 0x5678,
+          productId: 0x9abc,
+        },
+        firmwareUpdates: {
+          updates: [{
+            version: '1.0.0',
+            changelog: { en: 'Initial' },
+            device: { manufacturerId: 0x1234, productTypeId: 0x5678, productId: 0x9abc },
+            files: [{
+              targetId: 0,
+              name: 'firmware.bin',
+              size: zwaveBuffer.length,
+              integrity: 'sha256:deadbeef',
+            }],
+          }],
+        },
+      }],
+    }, {
+      files: {
+        drivers: {
+          test: {
+            assets: {
+              images: {
+                'small.png': createFakePng({ width: 75, height: 75 }),
+                'large.png': createFakePng({ width: 500, height: 500 }),
+                'xlarge.png': createFakePng({ width: 1000, height: 1000 }),
+              },
+              firmware: {
+                'firmware.bin': zwaveBuffer,
+              },
+            },
+          },
+        },
+      },
+    });
+
+    await assertValidates(app, {
+      debug: /drivers.test.firmwareUpdates.updates\[0\].files\[0\] integrity mismatch/i,
+      publish: /drivers.test.firmwareUpdates.updates\[0\].files\[0\] integrity mismatch/i,
+      verified: /drivers.test.firmwareUpdates.updates\[0\].files\[0\] integrity mismatch/i,
+    });
+  });
+
+  it('`zwave firmwareUpdates` validates file size', async function() {
+    const zwaveBuffer = Buffer.from([0xde, 0xad, 0xbe, 0xef]);
+    const integrity = createIntegrity(zwaveBuffer);
+
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zwave: {
+          manufacturerId: 0x1234,
+          productTypeId: 0x5678,
+          productId: 0x9abc,
+        },
+        firmwareUpdates: {
+          updates: [{
+            version: '1.0.0',
+            changelog: { en: 'Initial' },
+            device: { manufacturerId: 0x1234, productTypeId: 0x5678, productId: 0x9abc },
+            files: [{
+              targetId: 0,
+              name: 'firmware.bin',
+              size: zwaveBuffer.length + 1, // Wrong size
+              integrity,
+            }],
+          }],
+        },
+      }],
+    }, {
+      files: {
+        drivers: {
+          test: {
+            assets: {
+              images: {
+                'small.png': createFakePng({ width: 75, height: 75 }),
+                'large.png': createFakePng({ width: 500, height: 500 }),
+                'xlarge.png': createFakePng({ width: 1000, height: 1000 }),
+              },
+              firmware: {
+                'firmware.bin': zwaveBuffer,
+              },
+            },
+          },
+        },
+      },
+    });
+
+    await assertValidates(app, {
+      debug: /drivers.test.firmwareUpdates.updates\[0\].files\[0\] size mismatch/i,
+      publish: /drivers.test.firmwareUpdates.updates\[0\].files\[0\] size mismatch/i,
+      verified: /drivers.test.firmwareUpdates.updates\[0\].files\[0\] size mismatch/i,
+    });
+  });
+
+  it('`zwave firmwareUpdates` validates when metadata matches', async function() {
+    const zwaveBuffer = Buffer.from([0xde, 0xad, 0xbe, 0xef]);
+    const integrity = createIntegrity(zwaveBuffer);
+
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zwave: {
+          manufacturerId: 0x1234,
+          productTypeId: 0x5678,
+          productId: 0x9abc,
+        },
+        firmwareUpdates: {
+          updates: [{
+            version: '1.0.0',
+            changelog: { en: 'Initial' },
+            device: { manufacturerId: 0x1234, productTypeId: 0x5678, productId: 0x9abc },
+            files: [{
+              targetId: 0,
+              name: 'firmware.bin',
+              size: zwaveBuffer.length,
+              integrity,
+            }],
+          }],
+        },
+      }],
+    }, {
+      files: {
+        drivers: {
+          test: {
+            assets: {
+              images: {
+                'small.png': createFakePng({ width: 75, height: 75 }),
+                'large.png': createFakePng({ width: 500, height: 500 }),
+                'xlarge.png': createFakePng({ width: 1000, height: 1000 }),
+              },
+              firmware: {
+                'firmware.bin': zwaveBuffer,
+              },
+            },
+          },
+        },
+      },
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
+
+  it('`zwave firmwareUpdates` rejects duplicate files with same targetId and region', async function() {
+    const zwaveBuffer = Buffer.from([0xde, 0xad, 0xbe, 0xef]);
+    const integrity = createIntegrity(zwaveBuffer);
+
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zwave: {
+          manufacturerId: 0x1234,
+          productTypeId: 0x5678,
+          productId: 0x9abc,
+        },
+        firmwareUpdates: {
+          updates: [{
+            version: '1.0.0',
+            changelog: { en: 'Initial' },
+            device: { manufacturerId: 0x1234, productTypeId: 0x5678, productId: 0x9abc },
+            files: [
+              {
+                targetId: 0,
+                name: 'firmware.bin',
+                size: zwaveBuffer.length,
+                integrity,
+              },
+              {
+                targetId: 0,
+                name: 'firmware.bin',
+                size: zwaveBuffer.length,
+                integrity,
+              },
+            ],
+          }],
+        },
+      }],
+    }, {
+      files: {
+        drivers: {
+          test: {
+            assets: {
+              images: {
+                'small.png': createFakePng({ width: 75, height: 75 }),
+                'large.png': createFakePng({ width: 500, height: 500 }),
+                'xlarge.png': createFakePng({ width: 1000, height: 1000 }),
+              },
+              firmware: {
+                'firmware.bin': zwaveBuffer,
+              },
+            },
+          },
+        },
+      },
+    });
+
+    await assertValidates(app, {
+      debug: /has multiple files with the same targetId and region/i,
+      publish: /has multiple files with the same targetId and region/i,
+      verified: /has multiple files with the same targetId and region/i,
+    });
+  });
+
+  it('`zwave firmwareUpdates` rejects invalid version', async function() {
+    const zwaveBuffer = Buffer.from([0xde, 0xad, 0xbe, 0xef]);
+    const integrity = createIntegrity(zwaveBuffer);
+
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zwave: {
+          manufacturerId: 0x1234,
+          productTypeId: 0x5678,
+          productId: 0x9abc,
+        },
+        firmwareUpdates: {
+          updates: [{
+            version: 'not-a-version',
+            changelog: { en: 'Initial' },
+            device: { manufacturerId: 0x1234, productTypeId: 0x5678, productId: 0x9abc },
+            files: [{
+              targetId: 0,
+              name: 'firmware.bin',
+              size: zwaveBuffer.length,
+              integrity,
+            }],
+          }],
+        },
+      }],
+    }, {
+      files: {
+        drivers: {
+          test: {
+            assets: {
+              images: {
+                'small.png': createFakePng({ width: 75, height: 75 }),
+                'large.png': createFakePng({ width: 500, height: 500 }),
+                'xlarge.png': createFakePng({ width: 1000, height: 1000 }),
+              },
+              firmware: {
+                'firmware.bin': zwaveBuffer,
+              },
+            },
+          },
+        },
+      },
+    });
+
+    await assertValidates(app, {
+      debug: /firmwareUpdates\.updates\[0\]\.version is not a valid semver version/i,
+      publish: /firmwareUpdates\.updates\[0\]\.version is not a valid semver version/i,
+      verified: /firmwareUpdates\.updates\[0\]\.version is not a valid semver version/i,
+    });
+  });
+
+  it('`zwave firmwareUpdates` rejects invalid applicableTo', async function() {
+    const zwaveBuffer = Buffer.from([0xde, 0xad, 0xbe, 0xef]);
+    const integrity = createIntegrity(zwaveBuffer);
+
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        zwave: {
+          manufacturerId: 0x1234,
+          productTypeId: 0x5678,
+          productId: 0x9abc,
+        },
+        firmwareUpdates: {
+          updates: [{
+            version: '1.0.0',
+            changelog: { en: 'Initial' },
+            applicableTo: 'not-a-range',
+            device: { manufacturerId: 0x1234, productTypeId: 0x5678, productId: 0x9abc },
+            files: [{
+              targetId: 0,
+              name: 'firmware.bin',
+              size: zwaveBuffer.length,
+              integrity,
+            }],
+          }],
+        },
+      }],
+    }, {
+      files: {
+        drivers: {
+          test: {
+            assets: {
+              images: {
+                'small.png': createFakePng({ width: 75, height: 75 }),
+                'large.png': createFakePng({ width: 500, height: 500 }),
+                'xlarge.png': createFakePng({ width: 1000, height: 1000 }),
+              },
+              firmware: {
+                'firmware.bin': zwaveBuffer,
+              },
+            },
+          },
+        },
+      },
+    });
+
+    await assertValidates(app, {
+      debug: /firmwareUpdates\.updates\[0\]\.applicableTo is not a valid semver range/i,
+      publish: /firmwareUpdates\.updates\[0\]\.applicableTo is not a valid semver range/i,
+      verified: /firmwareUpdates\.updates\[0\]\.applicableTo is not a valid semver range/i,
+    });
+  });
+
+  it('`firmwareUpdates` only allowed on drivers with zigbee or zwave property', async function() {
     const otaBuffer = createZigbeeOtaFileBuffer({
       manufacturerCode: 0x1234,
       imageType: 0x5678,
@@ -1413,9 +1977,9 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
 
     await assertValidates(app, {
-      debug: /firmwareUpdates are only supported for Zigbee drivers/i,
-      publish: /drivers\.test firmwareUpdates can only be included in debug mode validation./i,
-      verified: /drivers\.test firmwareUpdates can only be included in debug mode validation./i,
+      debug: /drivers.test firmwareUpdates are only supported for Zigbee and Zwave drivers/i,
+      publish: /drivers.test firmwareUpdates are only supported for Zigbee and Zwave drivers/i,
+      verified: /drivers.test firmwareUpdates are only supported for Zigbee and Zwave drivers/i,
     });
   });
 });

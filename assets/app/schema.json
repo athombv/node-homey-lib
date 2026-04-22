@@ -164,6 +164,146 @@
         }
       }
     },
+    "zwave-firmware-update-device": {
+      "type": "object",
+      "required": ["manufacturerId", "productTypeId", "productId"],
+      "additionalProperties": false,
+      "properties": {
+        "manufacturerId": {
+          "oneOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          ]
+        },
+        "productId": {
+          "oneOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          ]
+        },
+        "productTypeId": {
+          "oneOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          ]
+        },
+        "hardwareVersion": {
+          "oneOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "zwave-firmware-update-file": {
+      "type": "object",
+      "required": ["targetId", "name", "size", "integrity"],
+      "additionalProperties": false,
+      "properties": {
+        "region": {
+          "type": "string"
+        },
+        "targetId": {
+          "type": "number"
+        },
+        "name": {
+          "type": "string"
+        },
+        "size": {
+          "type": "number"
+        },
+        "integrity": {
+          "$ref": "#/definitions/integrity"
+        }
+      }
+    },
+    "zwave-firmware-update": {
+      "type": "object",
+      "required": ["version", "changelog", "device", "files"],
+      "additionalProperties": false,
+      "properties": {
+        "version": {
+          "type": "string"
+        },
+        "changelog": {
+          "$ref": "#/definitions/i18nObject"
+        },
+        "applicableTo": {
+          "type": "string"
+        },
+        "device": {
+          "$ref": "#/definitions/zwave-firmware-update-device"
+        },
+        "files": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/zwave-firmware-update-file"
+          }
+        }
+      }
+    },
+    "zwave-firmware-updates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["updates"],
+      "properties": {
+        "wakeInstruction": {
+          "$ref": "#/definitions/i18nObject"
+        },
+        "reportTimeout": {
+          "type": "number"
+        },
+        "minWaitTime": {
+          "type": "number"
+        },
+        "verifyPostUpdateWithNop": {
+          "type": "boolean",
+          "enum": [false]
+        },
+        "nopRetryInterval": {
+          "type": "number"
+        },
+        "nopMaxRetries": {
+          "type": "number"
+        },
+        "updates": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/zwave-firmware-update"
+          }
+        }
+      }
+    },
     "author": {
       "required": ["name"],
       "properties": {
@@ -1460,6 +1600,9 @@
             "oneOf": [
               {
                 "$ref": "#/definitions/zigbee-firmware-updates"
+              },
+              {
+                "$ref": "#/definitions/zwave-firmware-updates"
               }
             ]
           },
