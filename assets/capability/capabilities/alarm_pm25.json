@@ -72,7 +72,7 @@
         "highlight": true,
         "title": {
           "en": "The PM2.5 alarm turned on",
-          "nl": "Het PM2,5 gaat aan",
+          "nl": "Het PM2,5 alarm gaat aan",
           "de": "Der PM2.5-Alarm ist angegangen",
           "fr": "L'alarme PM2.5 s'est activée",
           "it": "L'allarme PM2.5 è stato attivato",
@@ -90,7 +90,7 @@
         "id": "alarm_pm25_false",
         "title": {
           "en": "The PM2.5 alarm turned off",
-          "nl": "Het PM2,5 gaat uit",
+          "nl": "Het PM2,5 alarm gaat uit",
           "de": "Der PM2.5-Alarm ist ausgegangen",
           "fr": "L'alarme PM2.5 s'est désactivée",
           "it": "L'allarme PM2.5 è stato disattivato",
