@@ -15,6 +15,21 @@
     "ko": "초미세먼지(PM2.5) 알람",
     "ar": "إنذار PM2.5"
   },
+  "titleShort": {
+    "en": "PM2.5",
+    "nl": "PM2,5",
+    "de": "PM2.5",
+    "fr": "PM2.5",
+    "it": "PM2.5",
+    "sv": "PM2.5",
+    "no": "PM2.5",
+    "es": "PM2,5",
+    "da": "PM2,5",
+    "ru": "ТЧ2.5",
+    "pl": "PM2.5",
+    "ko": "초미세먼지(PM2.5)",
+    "ar": "PM2.5"
+  },
   "desc": {
     "en": "True when PM2.5 values exceeds threshold",
     "nl": "Gaat af wanneer de PM2,5 waarde overschreden wordt",

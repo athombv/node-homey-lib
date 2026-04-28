@@ -15,6 +15,21 @@
     "ar": "إنذار ثاني أكسيد الكربون",
     "sv": "CO₂-larm"
   },
+  "titleShort": {
+    "en": "CO₂",
+    "nl": "CO₂",
+    "de": "CO₂",
+    "fr": "CO₂",
+    "it": "CO₂",
+    "no": "CO₂",
+    "es": "CO₂",
+    "da": "CO₂",
+    "ru": "CO₂",
+    "pl": "CO₂",
+    "ko": "CO₂",
+    "ar": "ثاني أكسيد الكربون",
+    "sv": "CO₂"
+  },
   "desc": {
     "en": "True when dangerous CO₂ values have been detected",
     "nl": "Gaat af bij gevaarlijke concentraties CO₂",

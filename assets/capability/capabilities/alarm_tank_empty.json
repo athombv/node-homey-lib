@@ -15,6 +15,21 @@
     "ar": "إنذار الخزان الفارغ",
     "de": "Alarm Tank leer"
   },
+  "titleShort": {
+    "en": "Tank Empty",
+    "nl": "Lege tank",
+    "da": "Tom tank",
+    "it": "Serbatoio vuoto",
+    "ko": "물통 물 부족",
+    "no": "Tom tank",
+    "pl": "Pusty zbiornik",
+    "ru": "Пустой резервуар",
+    "sv": "Tom tank",
+    "es": "Depósito vacío",
+    "fr": "Réservoir vide",
+    "ar": "الخزان الفارغ",
+    "de": "Tank leer"
+  },
   "desc": {
     "en": "True when the tank is empty.",
     "nl": "Wordt geactiveerd wanneer de tank leeg is.",

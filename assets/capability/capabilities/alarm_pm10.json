@@ -15,6 +15,21 @@
     "ko": "미세먼지(PM10) 알람",
     "ar": "إنذار PM10"
   },
+  "titleShort": {
+    "en": "PM10",
+    "nl": "PM10",
+    "de": "PM10",
+    "fr": "PM10",
+    "it": "PM10",
+    "sv": "PM10",
+    "no": "PM10",
+    "es": "PM10",
+    "da": "PM10",
+    "ru": "ТЧ10",
+    "pl": "PM10",
+    "ko": "미세먼지(PM10)",
+    "ar": "PM10"
+  },
   "desc": {
     "en": "True when PM10 values exceeds threshold",
     "nl": "Wordt geactiveerd wanneer PM10-waarden de drempel overschrijden",

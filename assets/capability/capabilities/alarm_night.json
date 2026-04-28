@@ -15,6 +15,21 @@
     "ko": "야간 알람",
     "ar": "إنذار الليل"
   },
+  "titleShort": {
+    "en": "Night",
+    "nl": "Nacht",
+    "de": "Nacht",
+    "fr": "Nuit",
+    "it": "Notturno",
+    "sv": "Natt",
+    "no": "Natt",
+    "es": "Nocturna",
+    "da": "Nat",
+    "ru": "Ночь",
+    "pl": "Noc",
+    "ko": "야간",
+    "ar": "الليل"
+  },
   "desc": {
     "en": "True when it is night",
     "nl": "Gaat af als het nacht is",

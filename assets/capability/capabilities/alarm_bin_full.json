@@ -15,6 +15,21 @@
     "ar": "إنذار امتلاء سلة المهملات",
     "de": "Alarm bei vollem Behälter"
   },
+  "titleShort": {
+    "en": "Bin Full",
+    "nl": "Afvalbak vol",
+    "da": "Papirkurv fuld",
+    "es": "Depósito lleno",
+    "fr": "Poubelle pleine",
+    "it": "Cestino pieno",
+    "ko": "먼지통 가득 참",
+    "pl": "Pełny kosz",
+    "ru": "Заполненность контейнера",
+    "sv": "Full behållare",
+    "no": "Full støvbeholder",
+    "ar": "امتلاء سلة المهملات",
+    "de": "Voller Behälter"
+  },
   "desc": {
     "en": "True when the bin is full",
     "nl": "Wordt geactiveerd wanneer de afvalbak vol is",

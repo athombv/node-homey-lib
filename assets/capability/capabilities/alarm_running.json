@@ -15,6 +15,21 @@
     "ar": "إنذار التشغيل",
     "de": "Laufender Alarm"
   },
+  "titleShort": {
+    "en": "Running",
+    "nl": "Werkzaamheid",
+    "da": "Løbende",
+    "it": "In esecuzione",
+    "ko": "작동",
+    "no": "Kjøring",
+    "pl": "Praca urządzenia",
+    "ru": "Процесс",
+    "sv": "Körs",
+    "es": "Funcionamiento",
+    "fr": "Fonctionnement",
+    "ar": "التشغيل",
+    "de": "Läuft"
+  },
   "desc": {
     "en": "True when the device is busy (e.g., printer is printing).",
     "nl": "Waar wanneer het apparaat bezig is (bijv. printer is aan het printen).",

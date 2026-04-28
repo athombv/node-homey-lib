@@ -15,6 +15,21 @@
     "ar": "إنذار الضوضاء",
     "de": "Geräuschalarm"
   },
+  "titleShort": {
+    "en": "Noise",
+    "nl": "Geluid",
+    "da": "Støj",
+    "it": "Rumore",
+    "ko": "소음",
+    "no": "Støy",
+    "pl": "Hałas",
+    "ru": "Шум",
+    "sv": "Buller",
+    "es": "Ruido",
+    "fr": "Son",
+    "ar": "الضوضاء",
+    "de": "Geräusch"
+  },
   "desc": {
     "en": "True when sound is detected.",
     "nl": "Wordt geactiveerd wanneer geluid wordt gedetecteerd.",
