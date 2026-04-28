@@ -15,6 +15,21 @@
     "ar": "إنذار التواجد",
     "de": "Anwesenheitsalarm"
   },
+  "shortTitle": {
+    "en": "Presence",
+    "nl": "Aanwezigheid",
+    "da": "Tilstedeværelse",
+    "it": "Presenza",
+    "ko": "재실",
+    "no": "Tilstedeværelse",
+    "pl": "Obecność",
+    "ru": "Присутствие",
+    "sv": "Närvaro",
+    "es": "Presencia",
+    "fr": "Présence",
+    "ar": "التواجد",
+    "de": "Anwesenheit"
+  },
   "desc": {
     "en": "True when presence has been detected.",
     "nl": "Wordt geactiveerd wanneer aanwezigheid wordt gedetecteerd",

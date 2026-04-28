@@ -15,6 +15,21 @@
     "ar": "إنذار عطل إمداد المضخة",
     "de": "Fehleralarm der Pumpenversorgung"
   },
+  "shortTitle": {
+    "en": "Pump Supply Fault",
+    "nl": "Fout bij pomptoevoer",
+    "da": "Fejl i pumpeforsyningen",
+    "it": "Guasto alimentazione pompa",
+    "ko": "펌프 공급 결함",
+    "pl": "Usterka zasilania pompy",
+    "ru": "Неисправность в питании насоса",
+    "sv": "Fel i pumptillförseln",
+    "es": "Fallo en el suministro eléctrico del bombeo",
+    "fr": "Défaut d'alimentation de la pompe",
+    "no": "Feil for pumpeforsyning",
+    "ar": "عطل إمداد المضخة",
+    "de": "Fehler der Pumpenversorgung"
+  },
   "desc": {
     "en": "True when a fault is detected in the pump supply.",
     "nl": "Wordt geactiveerd wanneer een fout wordt gedetecteerd in de pomptoevoer.",

@@ -15,6 +15,21 @@
     "ko": "과열 감지",
     "ar": "إنذار الحرارة"
   },
+  "shortTitle": {
+    "en": "Heat",
+    "nl": "Hitte",
+    "de": "Hitze",
+    "fr": "Chaleur",
+    "it": "Calore",
+    "sv": "Värme",
+    "no": "Varme",
+    "es": "Calor",
+    "da": "Varme",
+    "ru": "Тепло",
+    "pl": "Gorąco",
+    "ko": "과열",
+    "ar": "الحرارة"
+  },
   "desc": {
     "en": "True when extreme heat has been detected",
     "nl": "Gaat af als er extreme hitte gedetecteerd wordt",

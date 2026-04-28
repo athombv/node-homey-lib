@@ -15,6 +15,21 @@
     "ru": "Сигнализация открытия",
     "sv": "Öppet larm"
   },
+  "shortTitle": {
+    "en": "Open",
+    "ar": "الفتح",
+    "da": "Åben",
+    "de": "Geöffnet",
+    "es": "Apertura",
+    "fr": "Ouverture",
+    "it": "Apertura",
+    "ko": "열림",
+    "nl": "Open",
+    "no": "Åpen",
+    "pl": "Otwarcie",
+    "ru": "Открытие",
+    "sv": "Öppet"
+  },
   "desc": {
     "en": "True when a door/window/etc... is open.",
     "ar": "صحيح عند فتح الباب/النافذة/... إلخ....",

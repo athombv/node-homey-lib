@@ -15,6 +15,21 @@
     "ar": "إنذار الأمان",
     "de": "Sicherheitsalarm"
   },
+  "shortTitle": {
+    "en": "Safety",
+    "nl": "Veiligheid",
+    "da": "Sikkerhed",
+    "it": "Sicurezza",
+    "ko": "위험",
+    "no": "Trygghet",
+    "pl": "Bezpieczeństwo",
+    "ru": "Тревога",
+    "sv": "Säkerhet",
+    "es": "Seguridad",
+    "fr": "Sécurité",
+    "ar": "الأمان",
+    "de": "Sicherheit"
+  },
   "desc": {
     "en": "True when unsafe.",
     "nl": "Wordt geactiveerd wanneer het onveilig is.",

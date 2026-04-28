@@ -15,6 +15,21 @@
     "ar": "إنذار الإشغال",
     "de": "Belegungsalarm"
   },
+  "shortTitle": {
+    "en": "Occupancy",
+    "nl": "Bezetting",
+    "da": "Beboelse",
+    "it": "Occupazione",
+    "ko": "점유",
+    "no": "Bruk",
+    "pl": "Aktywność",
+    "ru": "Активность",
+    "sv": "Närvaro",
+    "es": "Ocupación",
+    "fr": "Occupation",
+    "ar": "الإشغال",
+    "de": "Belegung"
+  },
   "desc": {
     "en": "True when occupancy is detected.",
     "nl": "Wordt geactiveerd wanneer gebruik wordt gedetecteerd.",

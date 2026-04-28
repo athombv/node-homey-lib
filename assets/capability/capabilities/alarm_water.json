@@ -15,6 +15,21 @@
     "ko": "누수 감지",
     "ar": "إنذار المياه"
   },
+  "shortTitle": {
+    "en": "Water",
+    "nl": "Water",
+    "de": "Wasser",
+    "fr": "Eau",
+    "it": "Acqua",
+    "sv": "Vatten",
+    "no": "Vann",
+    "es": "Agua",
+    "da": "Vand",
+    "ru": "Вода",
+    "pl": "Zalanie wodą",
+    "ko": "누수",
+    "ar": "المياه"
+  },
   "desc": {
     "en": "True when water has been detected",
     "nl": "Gaat af als er water gedetecteerd wordt",

@@ -15,6 +15,21 @@
     "ko": "열림 감지",
     "ar": "إنذار الاتصال"
   },
+  "shortTitle": {
+    "en": "Contact",
+    "nl": "Contact",
+    "de": "Kontakt",
+    "fr": "Contact",
+    "it": "Contatto",
+    "sv": "Kontakt",
+    "no": "Kontakt",
+    "es": "Contacto",
+    "da": "Kontakt",
+    "ru": "Контакт",
+    "pl": "Kontakt",
+    "ko": "열림",
+    "ar": "الاتصال"
+  },
   "desc": {
     "en": "Contact sensor, e.g. for windows (true/false)",
     "nl": "Contact sensor, bijvoorbeeld voor ramen",

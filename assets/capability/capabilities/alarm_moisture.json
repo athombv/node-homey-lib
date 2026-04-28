@@ -15,6 +15,21 @@
     "ar": "إنذار الرطوبة",
     "de": "Feuchtigkeitsalarm"
   },
+  "shortTitle": {
+    "en": "Moisture",
+    "nl": "Vocht",
+    "da": "Fugt",
+    "it": "Umidità",
+    "ko": "습기",
+    "no": "Fukt",
+    "pl": "Wilgoć",
+    "ru": "Влага",
+    "sv": "Fukt",
+    "es": "Humedad",
+    "fr": "Humidité",
+    "ar": "الرطوبة",
+    "de": "Feuchtigkeit"
+  },
   "desc": {
     "en": "True when moisture is detected.",
     "nl": "Wordt geactiveerd wanneer vocht wordt gedetecteerd.",

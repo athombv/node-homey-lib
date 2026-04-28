@@ -15,6 +15,21 @@
     "ko": "나노미세먼지(PM0.1) 알람",
     "ar": "إنذار PM0.1"
   },
+  "shortTitle": {
+    "en": "PM0.1",
+    "nl": "PM0.1",
+    "de": "PM0.1",
+    "fr": "PM0.1",
+    "it": "PM0.1",
+    "sv": "PM0.1",
+    "no": "PM0.1",
+    "es": "PM0,1",
+    "da": "PM0.1",
+    "ru": "ТЧ0.1",
+    "pl": "PM0.1",
+    "ko": "나노미세먼지(PM0.1)",
+    "ar": "PM0.1"
+  },
   "desc": {
     "en": "True when PM0.1 values exceeds threshold",
     "nl": "Wordt geactiveerd wanneer PM0.1-waarden de drempel overschrijden",

@@ -15,6 +15,21 @@
     "ar": "إنذار الضوء",
     "de": "Lichtalarm"
   },
+  "shortTitle": {
+    "en": "Light",
+    "nl": "Licht",
+    "da": "Lys",
+    "it": "Luce",
+    "ko": "빛",
+    "no": "Lys",
+    "pl": "Światło",
+    "ru": "Освещение",
+    "sv": "Belysning",
+    "es": "Luz",
+    "fr": "Lumière",
+    "ar": "الضوء",
+    "de": "Licht"
+  },
   "desc": {
     "en": "True when light is detected.",
     "nl": "Wordt geactiveerd wanneer licht wordt gedetecteerd.",

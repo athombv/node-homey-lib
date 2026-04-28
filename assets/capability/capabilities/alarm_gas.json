@@ -15,6 +15,21 @@
     "ar": "إنذار الغاز",
     "de": "Gasalarm"
   },
+  "shortTitle": {
+    "en": "Gas",
+    "nl": "Gas",
+    "da": "Gas",
+    "fr": "Gaz",
+    "it": "Gas",
+    "ko": "가스",
+    "no": "Gass",
+    "pl": "Gaz",
+    "ru": "Газ",
+    "sv": "Gas",
+    "es": "Gas",
+    "ar": "الغاز",
+    "de": "Gas"
+  },
   "description": {
     "en": "True when gas is detected",
     "nl": "Wordt geactiveerd wanneer gas wordt gedetecteerd",

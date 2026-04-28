@@ -43,6 +43,9 @@
     "title": {
       "$ref": "#/definitions/i18nObject"
     },
+    "shortTitle": {
+      "$ref": "#/definitions/i18nObject"
+    },
     "desc": {
       "$ref": "#/definitions/i18nObject"
     },

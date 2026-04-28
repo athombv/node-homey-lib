@@ -15,6 +15,21 @@
     "ru": "Сигнализация риска замораживания",
     "sv": "Frysrisklarm"
   },
+  "shortTitle": {
+    "en": "Freeze Risk",
+    "ar": "خطر التجمد",
+    "da": "Fryserisiko",
+    "de": "Einfriergefahr",
+    "es": "Riesgo de congelación",
+    "fr": "Risque de gel",
+    "it": "Rischio di congelamento",
+    "ko": "동파 위험",
+    "nl": "Vriesgevaar",
+    "no": "Frostrisiko",
+    "pl": "Ryzyko zamarznięcia",
+    "ru": "Риск замораживания",
+    "sv": "Frysrisk"
+  },
   "desc": {
     "en": "True when in the current ambient conditions water could potentially freeze.",
     "ar": "صحيح عند إمكانية تجمد الماء في الظروف المحيطة الحالية.",

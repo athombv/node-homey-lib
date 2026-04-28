@@ -15,6 +15,21 @@
     "ar": "إنذار فقد سلة المهملات",
     "de": "Alarm bei fehlendem Behälter"
   },
+  "shortTitle": {
+    "en": "Bin Missing",
+    "nl": "Afvalbak ontbreekt",
+    "da": "Papirkurv mangler",
+    "es": "Depósito no instalado",
+    "fr": "Poubelle manquante",
+    "it": "Cestino mancante",
+    "ko": "먼지통 미장착",
+    "pl": "Brak kosza",
+    "ru": "Отсутствие контейнера",
+    "sv": "Behållaren saknas",
+    "no": "Manglende støvbeholder",
+    "ar": "فقد سلة المهملات",
+    "de": "Fehlender Behälter"
+  },
   "desc": {
     "en": "True when the bin is missing.",
     "nl": "Wordt geactiveerd wanneer de afvalbak ontbreekt.",

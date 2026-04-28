@@ -15,6 +15,21 @@
     "ar": "إنذار فتح الخزان",
     "de": "Alarm Tank offen"
   },
+  "shortTitle": {
+    "en": "Tank Open",
+    "nl": "Open tank",
+    "da": "Åben tank",
+    "it": "Serbatoio aperto",
+    "ko": "물통 열림",
+    "no": "Åpen tank",
+    "pl": "Otwarty zbiornik",
+    "ru": "Открытие резервуара",
+    "sv": "Öppen tank",
+    "es": "Depósito abierto",
+    "fr": "Réservoir ouvert",
+    "ar": "فتح الخزان",
+    "de": "Tank offen"
+  },
   "desc": {
     "en": "True when the tank is open.",
     "nl": "Wordt geactiveerd wanneer de tank open is.",

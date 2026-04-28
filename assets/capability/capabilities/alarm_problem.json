@@ -15,6 +15,21 @@
     "ar": "إنذار وجود مشكلة",
     "de": "Problem-Alarm"
   },
+  "shortTitle": {
+    "en": "Problem",
+    "nl": "Probleem",
+    "da": "Problem",
+    "it": "Problema",
+    "ko": "이상",
+    "no": "Problem",
+    "pl": "Problem",
+    "ru": "Проблема",
+    "sv": "Problem",
+    "es": "Problema",
+    "fr": "Problème",
+    "ar": "وجود مشكلة",
+    "de": "Problem"
+  },
   "desc": {
     "en": "True when a problem is detected.",
     "nl": "Wordt geactiveerd wanneer een probleem wordt gedetecteerd.",

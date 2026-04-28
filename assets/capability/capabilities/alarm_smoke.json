@@ -15,6 +15,21 @@
     "ko": "연기 감지",
     "ar": "إنذار الدخان"
   },
+  "shortTitle": {
+    "en": "Smoke",
+    "nl": "Rook",
+    "de": "Rauch",
+    "fr": "Fumée",
+    "it": "Fumo",
+    "sv": "Rök",
+    "no": "Røyk",
+    "es": "Humo",
+    "da": "Røg",
+    "ru": "Дым",
+    "pl": "Dym",
+    "ko": "연기",
+    "ar": "الدخان"
+  },
   "desc": {
     "en": "True when smoke has been detected",
     "nl": "Gaat af als er rook gedetecteerd wordt",

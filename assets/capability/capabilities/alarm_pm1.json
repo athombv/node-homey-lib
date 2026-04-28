@@ -15,6 +15,21 @@
     "ko": "극초미세먼지(PM1.0) 알람",
     "ar": "إنذار PM1"
   },
+  "shortTitle": {
+    "en": "PM1",
+    "nl": "PM1",
+    "de": "PM1",
+    "fr": "PM1",
+    "it": "PM1",
+    "sv": "PM1",
+    "no": "PM1",
+    "es": "PM1",
+    "da": "PM1",
+    "ru": "ТЧ1",
+    "pl": "PM1",
+    "ko": "극초미세먼지(PM1.0)",
+    "ar": "PM1"
+  },
   "desc": {
     "en": "True when PM1 values exceeds threshold",
     "nl": "Wordt geactiveerd wanneer PM1-waarden de drempel overschrijden",

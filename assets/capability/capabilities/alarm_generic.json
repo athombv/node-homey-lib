@@ -15,6 +15,21 @@
     "ko": "알람",
     "ar": "إنذار عام"
   },
+  "shortTitle": {
+    "en": "Generic",
+    "nl": "Algemeen",
+    "de": "Allgemein",
+    "fr": "Générique",
+    "it": "Generico",
+    "sv": "Generiskt",
+    "no": "Generell",
+    "es": "Genérica",
+    "da": "Generisk",
+    "ru": "Общий",
+    "pl": "Ogólny",
+    "ko": "일반",
+    "ar": "عام"
+  },
   "desc": {
     "en": "Generic alarm",
     "nl": "Algemeen alarm",

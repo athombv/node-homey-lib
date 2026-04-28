@@ -15,6 +15,21 @@
     "ar": "إنذار عطل جهاز المضخة",
     "de": "Fehleralarm der Pumpvorrichtung"
   },
+  "shortTitle": {
+    "en": "Pump Device Fault",
+    "nl": "Fout bij pompapparaat",
+    "da": "Fejl i pumpeenhed",
+    "it": "Guasto del dispositivo di pompaggio",
+    "ko": "펌프 기기 결함",
+    "no": "Feil for pumpeenhet",
+    "pl": "Usterka pompy",
+    "ru": "Неисправность насосного устройства",
+    "sv": "Fel på pumpenhet",
+    "es": "Fallo en el dispositivo de bombeo",
+    "fr": "Défaillance du dispositif de pompage",
+    "ar": "عطل جهاز المضخة",
+    "de": "Fehler der Pumpvorrichtung"
+  },
   "desc": {
     "en": "True when a fault is detected in the pump device.",
     "nl": "Wordt geactiveerd wanneer een fout wordt gedetecteerd in het pompapparaat.",

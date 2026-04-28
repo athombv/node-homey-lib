@@ -15,6 +15,21 @@
     "ar": "إنذار البرودة",
     "de": "Kältealarm"
   },
+  "shortTitle": {
+    "en": "Cold",
+    "nl": "Kou",
+    "da": "Kulde",
+    "es": "Frío",
+    "fr": "Froid",
+    "it": "Freddo",
+    "ko": "한파",
+    "no": "Kulde",
+    "pl": "Zimno",
+    "ru": "Холод",
+    "sv": "Köld",
+    "ar": "البرودة",
+    "de": "Kälte"
+  },
   "desc": {
     "en": "True when the temperature is too low.",
     "nl": "Wordt geactiveerd wanneer de temperatuur te laag is.",

@@ -15,6 +15,21 @@
     "ar": "إنذار التعلق",
     "de": "„Blockiert“-Alarm"
   },
+  "shortTitle": {
+    "en": "Stuck",
+    "nl": "Vastgelopen",
+    "da": "Fastlåst",
+    "it": "Dispositivo bloccato",
+    "ko": "기기 막힘",
+    "no": "Fastkjøring",
+    "pl": "Zablokowanie",
+    "ru": "Заклинивание",
+    "sv": "Något fastnat",
+    "es": "Atasco",
+    "fr": "Appareil bloqué",
+    "ar": "التعلق",
+    "de": "Blockiert"
+  },
   "desc": {
     "en": "True when the device is stuck.",
     "nl": "Gaat af als het apparaat is vastgelopen.",

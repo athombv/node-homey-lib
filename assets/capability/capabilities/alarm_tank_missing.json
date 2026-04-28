@@ -15,6 +15,21 @@
     "ar": "إنذار فقد الخزان",
     "de": "Alarm bei fehlendem Tank"
   },
+  "shortTitle": {
+    "en": "Tank Missing",
+    "nl": "Ontbrekende tank",
+    "da": "Manglende tank",
+    "it": "Serbatoio mancante",
+    "ko": "물통 분리",
+    "no": "Manglende tank",
+    "pl": "Brak zbiornika",
+    "ru": "Отсутствие резервуара",
+    "sv": "Saknad tank",
+    "es": "Depósito no instalado",
+    "fr": "Réservoir manquant",
+    "ar": "فقد الخزان",
+    "de": "Fehlender Tank"
+  },
   "desc": {
     "en": "True when the tank is missing.",
     "nl": "Wordt geactiveerd wanneer de tank ontbreekt.",

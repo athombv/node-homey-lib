@@ -15,6 +15,21 @@
     "ru": "Сигнализация дождя",
     "sv": "Regnlarm"
   },
+  "shortTitle": {
+    "en": "Rain",
+    "ar": "المطر",
+    "da": "Regn",
+    "de": "Regen",
+    "es": "Lluvia",
+    "fr": "Pluie",
+    "it": "Pioggia",
+    "ko": "강우",
+    "nl": "Regen",
+    "no": "Regn",
+    "pl": "Deszcz",
+    "ru": "Дождь",
+    "sv": "Regn"
+  },
   "desc": {
     "en": "True when rain is detected.",
     "ar": "صحيح عند اكتشاف هطول الأمطار.",
