@@ -15,7 +15,7 @@
     "ar": "إنذار فقد سلة المهملات",
     "de": "Alarm bei fehlendem Behälter"
   },
-  "shortTitle": {
+  "titleShort": {
     "en": "Bin Missing",
     "nl": "Afvalbak ontbreekt",
     "da": "Papirkurv mangler",

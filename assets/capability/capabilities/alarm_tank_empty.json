@@ -15,7 +15,7 @@
     "ar": "إنذار الخزان الفارغ",
     "de": "Alarm Tank leer"
   },
-  "shortTitle": {
+  "titleShort": {
     "en": "Tank Empty",
     "nl": "Lege tank",
     "da": "Tom tank",

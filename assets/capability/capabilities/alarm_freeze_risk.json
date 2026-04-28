@@ -15,7 +15,7 @@
     "ru": "Сигнализация риска замораживания",
     "sv": "Frysrisklarm"
   },
-  "shortTitle": {
+  "titleShort": {
     "en": "Freeze Risk",
     "ar": "خطر التجمد",
     "da": "Fryserisiko",

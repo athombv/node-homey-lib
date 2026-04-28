@@ -15,7 +15,7 @@
     "ko": "미세먼지(PM10) 알람",
     "ar": "إنذار PM10"
   },
-  "shortTitle": {
+  "titleShort": {
     "en": "PM10",
     "nl": "PM10",
     "de": "PM10",

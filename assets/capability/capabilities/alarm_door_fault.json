@@ -15,7 +15,7 @@
     "ar": "إنذار عطل الباب",
     "de": "Türstörungsalarm"
   },
-  "shortTitle": {
+  "titleShort": {
     "en": "Door Fault",
     "nl": "Deur-probleem",
     "da": "Dørfejl",

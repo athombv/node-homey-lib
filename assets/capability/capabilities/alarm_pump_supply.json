@@ -15,7 +15,7 @@
     "ar": "إنذار عطل إمداد المضخة",
     "de": "Fehleralarm der Pumpenversorgung"
   },
-  "shortTitle": {
+  "titleShort": {
     "en": "Pump Supply Fault",
     "nl": "Fout bij pomptoevoer",
     "da": "Fejl i pumpeforsyningen",

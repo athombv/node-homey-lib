@@ -15,7 +15,7 @@
     "ar": "إنذار الاتصال",
     "de": "Verbindungsalarm"
   },
-  "shortTitle": {
+  "titleShort": {
     "en": "Connectivity",
     "nl": "Verbinding",
     "da": "Tilslutning",

@@ -15,7 +15,7 @@
     "ar": "إنذار فتح الخزان",
     "de": "Alarm Tank offen"
   },
-  "shortTitle": {
+  "titleShort": {
     "en": "Tank Open",
     "nl": "Open tank",
     "da": "Åben tank",

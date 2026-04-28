@@ -15,7 +15,7 @@
     "ko": "일산화탄소(CO) 알람",
     "ar": "إنذار أول أكسيد الكربون"
   },
-  "shortTitle": {
+  "titleShort": {
     "en": "CO",
     "nl": "CO",
     "de": "CO",

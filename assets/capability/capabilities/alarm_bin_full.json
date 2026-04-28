@@ -15,7 +15,7 @@
     "ar": "إنذار امتلاء سلة المهملات",
     "de": "Alarm bei vollem Behälter"
   },
-  "shortTitle": {
+  "titleShort": {
     "en": "Bin Full",
     "nl": "Afvalbak vol",
     "da": "Papirkurv fuld",

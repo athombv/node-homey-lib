@@ -15,7 +15,7 @@
     "ko": "초미세먼지(PM2.5) 알람",
     "ar": "إنذار PM2.5"
   },
-  "shortTitle": {
+  "titleShort": {
     "en": "PM2.5",
     "nl": "PM2,5",
     "de": "PM2.5",

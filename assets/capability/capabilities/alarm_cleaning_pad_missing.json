@@ -15,7 +15,7 @@
     "ar": "إنذار فقد وسادة التنظيف",
     "de": "Alarm bei fehlendem Reinigungspad"
   },
-  "shortTitle": {
+  "titleShort": {
     "en": "Cleaning Pad Missing",
     "nl": "Reinigingspad ontbreekt",
     "da": "Rengøringspad mangler",

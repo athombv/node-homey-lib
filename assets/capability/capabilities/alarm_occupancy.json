@@ -15,7 +15,7 @@
     "ar": "إنذار الإشغال",
     "de": "Belegungsalarm"
   },
-  "shortTitle": {
+  "titleShort": {
     "en": "Occupancy",
     "nl": "Bezetting",
     "da": "Beboelse",

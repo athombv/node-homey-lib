@@ -15,7 +15,7 @@
     "ar": "إنذار عطل جهاز المضخة",
     "de": "Fehleralarm der Pumpvorrichtung"
   },
-  "shortTitle": {
+  "titleShort": {
     "en": "Pump Device Fault",
     "nl": "Fout bij pompapparaat",
     "da": "Fejl i pumpeenhed",

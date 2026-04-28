@@ -15,7 +15,7 @@
     "ko": "변화 감지",
     "ar": "إنذار التلاعب"
   },
-  "shortTitle": {
+  "titleShort": {
     "en": "Tamper",
     "nl": "Sabotage",
     "de": "Manipulation",

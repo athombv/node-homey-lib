@@ -15,7 +15,7 @@
     "ar": "إنذار فقد الخزان",
     "de": "Alarm bei fehlendem Tank"
   },
-  "shortTitle": {
+  "titleShort": {
     "en": "Tank Missing",
     "nl": "Ontbrekende tank",
     "da": "Manglende tank",

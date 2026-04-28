@@ -15,7 +15,7 @@
     "ko": "연기 감지",
     "ar": "إنذار الدخان"
   },
-  "shortTitle": {
+  "titleShort": {
     "en": "Smoke",
     "nl": "Rook",
     "de": "Rauch",

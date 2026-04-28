@@ -15,7 +15,7 @@
     "ko": "나노미세먼지(PM0.1) 알람",
     "ar": "إنذار PM0.1"
   },
-  "shortTitle": {
+  "titleShort": {
     "en": "PM0.1",
     "nl": "PM0.1",
     "de": "PM0.1",

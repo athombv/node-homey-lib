@@ -15,7 +15,7 @@
     "ko": "화재 감지",
     "ar": "إنذار الحريق"
   },
-  "shortTitle": {
+  "titleShort": {
     "en": "Fire",
     "nl": "Brand",
     "de": "Feuer",

@@ -15,7 +15,7 @@
     "ko": "배터리 알람",
     "ar": "إنذار البطارية"
   },
-  "shortTitle": {
+  "titleShort": {
     "en": "Battery",
     "nl": "Batterij",
     "de": "Batterie",
