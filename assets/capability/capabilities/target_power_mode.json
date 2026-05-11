@@ -94,18 +94,18 @@
         },
         "hint": {
           "en": "\"Homey\" means Homey controls the device’s target power. Other modes are determined by the device.",
-          "nl": "'Homey' betekent dat Homey het doelvermogen van het apparaat regelt. Andere modi worden bepaald door het apparaat.",
-          "de": "„Homey“ bedeutet, dass Homey die Zielleistung des Geräts steuert. Andere Modi werden vom Gerät bestimmt.",
-          "fr": "« Homey » signifie que Homey contrôle la puissance cible de l’appareil. Les autres modes sont déterminés par l’appareil.",
+          "nl": "'Homey' betekent dat Homey het actief vermogen van het apparaat regelt. Andere modi worden bepaald door het apparaat.",
+          "de": "„Homey“ bedeutet, dass Homey die Sollleistung des Geräts steuert. Andere Modi werden vom Gerät selbst festgelegt.",
+          "fr": "« Homey » signifie que Homey contrôle la puissance cible de l'appareil. Les autres modes sont déterminés par l'appareil.",
           "it": "\"Homey\" significa che Homey controlla la potenza target del dispositivo. Le altre modalità sono determinate dal dispositivo.",
           "sv": "\"Homey\" innebär att Homey styr enhetens måleffekt. Andra lägen bestäms av enheten.",
-          "no": "«Homey» betyr at Homey styrer ønsket effekt for enheten. Andre modi bestemmes av enheten.",
+          "no": "«Homey» betyr at Homey styrer ønsket effekt for enheten. Andre moduser bestemmes av enheten.",
           "es": "\"Homey\" significa que Homey controla la potencia objetivo del dispositivo. Los demás modos los determina el dispositivo.",
           "da": "\"Homey\" betyder, at Homey styrer enhedens måleffekt. Andre tilstande bestemmes af enheden.",
           "ru": "Режим «Homey» означает, что Homey управляет целевой мощностью устройства. Другие режимы определяются устройством.",
           "pl": "„Homey“ oznacza, że Homey steruje mocą docelową urządzenia. Pozostałe tryby są określane przez urządzenie.",
-          "ko": "\"Homey\"는 Homey가 제품의 충전전력 제한을 제어한다는 의미예요. 다른 모드는 제품에 의해 결정돼요.",
-          "ar": "\"Homey\" يعني أن Homey يتحكم في الطاقة المستهدفة للجهاز. الأوضاع الأخرى يحددها الجهاز."
+          "ko": "\"Homey\"는 Homey가 제품의 충전전력 제한을 제어한다는 의미예요. 다른 모드는 제품에 의해 결정됩니다.",
+          "ar": "\"Homey\" يعني أن Homey يتحكم في الطاقة المستهدفة للجهاز. والأوضاع الأخرى يحددها الجهاز."
         },
         "args": [
           {
@@ -136,18 +136,18 @@
         },
         "hint": {
           "en": "\"Homey\" means Homey controls the device’s target power. Other modes are determined by the device.",
-          "nl": "'Homey' betekent dat Homey het doelvermogen van het apparaat regelt. Andere modi worden bepaald door het apparaat.",
-          "de": "„Homey“ bedeutet, dass Homey die Zielleistung des Geräts steuert. Andere Modi werden vom Gerät bestimmt.",
-          "fr": "« Homey » signifie que Homey contrôle la puissance cible de l’appareil. Les autres modes sont déterminés par l’appareil.",
+          "nl": "'Homey' betekent dat Homey het actief vermogen van het apparaat regelt. Andere modi worden bepaald door het apparaat.",
+          "de": "„Homey“ bedeutet, dass Homey die Sollleistung des Geräts steuert. Andere Modi werden vom Gerät selbst festgelegt.",
+          "fr": "« Homey » signifie que Homey contrôle la puissance cible de l'appareil. Les autres modes sont déterminés par l'appareil.",
           "it": "\"Homey\" significa che Homey controlla la potenza target del dispositivo. Le altre modalità sono determinate dal dispositivo.",
           "sv": "\"Homey\" innebär att Homey styr enhetens måleffekt. Andra lägen bestäms av enheten.",
-          "no": "«Homey» betyr at Homey styrer ønsket effekt for enheten. Andre modi bestemmes av enheten.",
+          "no": "«Homey» betyr at Homey styrer ønsket effekt for enheten. Andre moduser bestemmes av enheten.",
           "es": "\"Homey\" significa que Homey controla la potencia objetivo del dispositivo. Los demás modos los determina el dispositivo.",
           "da": "\"Homey\" betyder, at Homey styrer enhedens måleffekt. Andre tilstande bestemmes af enheden.",
           "ru": "Режим «Homey» означает, что Homey управляет целевой мощностью устройства. Другие режимы определяются устройством.",
           "pl": "„Homey“ oznacza, że Homey steruje mocą docelową urządzenia. Pozostałe tryby są określane przez urządzenie.",
-          "ko": "\"Homey\"는 Homey가 제품의 충전전력 제한을 제어한다는 의미예요. 다른 모드는 제품에 의해 결정돼요.",
-          "ar": "\"Homey\" يعني أن Homey يتحكم في الطاقة المستهدفة للجهاز. الأوضاع الأخرى يحددها الجهاز."
+          "ko": "\"Homey\"는 Homey가 제품의 충전전력 제한을 제어한다는 의미예요. 다른 모드는 제품에 의해 결정됩니다.",
+          "ar": "\"Homey\" يعني أن Homey يتحكم في الطاقة المستهدفة للجهاز. والأوضاع الأخرى يحددها الجهاز."
         },
         "args": [
           {
@@ -178,18 +178,18 @@
         },
         "hint": {
           "en": "To control the target power of this device via Homey, select \"Homey\". Other modes are determined by the device.",
-          "nl": "Selecteer 'Homey' om het doelvermogen van dit apparaat via Homey te regelen. Andere modi worden bepaald door het apparaat.",
-          "de": "Um die Zielleistung dieses Geräts über Homey zu steuern, wähle „Homey“ aus. Andere Modi werden vom Gerät bestimmt.",
-          "fr": "Pour contrôler la puissance cible de cet appareil via Homey, sélectionnez « Homey ». Les autres modes sont déterminés par l’appareil.",
+          "nl": "Selecteer 'Homey' om het actief vermogen van dit apparaat via Homey te regelen. Andere modi worden bepaald door het apparaat.",
+          "de": "Um die Sollleistung dieses Geräts über Homey zu steuern, wählen Sie „Homey“ aus. Andere Modi werden vom Gerät selbst festgelegt.",
+          "fr": "Pour contrôler la puissance cible de cet appareil via Homey, sélectionnez « Homey ». Les autres modes sont déterminés par l'appareil.",
           "it": "Per controllare la potenza target di questo dispositivo tramite Homey, seleziona \"Homey\". Le altre modalità sono determinate dal dispositivo.",
           "sv": "För att styra måleffekten för denna enhet via Homey, välj \"Homey\". Andra lägen bestäms av enheten.",
-          "no": "For å styre ønsket effekt for denne enheten via Homey, velg «Homey». Andre modi bestemmes av enheten.",
-          "es": "Para controlar la potencia objetivo de este dispositivo a través de Homey, selecciona \"Homey\". Los demás modos los determina el dispositivo.",
-          "da": "For at styre måleffekten for denne enhed via Homey skal du vælge \"Homey\". Andre tilstande bestemmes af enheden.",
-          "ru": "Чтобы управлять целевой мощностью этого устройства через Homey, выберите «Homey». Другие режимы определяются устройством.",
+          "no": "For å styre ønsket effekt for denne enheten med Homey, velg «Homey». Andre moduser bestemmes av enheten.",
+          "es": "Selecciona \"Homey\" para controlar la potencia objetivo de este dispositivo a través de Homey. Los demás modos los determina el dispositivo.",
+          "da": "For at styre denne enheds måleffekt via Homey skal du vælge \"Homey\". Andre tilstande bestemmes af enheden.",
+          "ru": "Чтобы управлять целевой мощностью этого устройства через Homey, выберите режим «Homey». Другие режимы определяются устройством.",
           "pl": "Aby sterować mocą docelową tego urządzenia przez Homey, wybierz „Homey“. Pozostałe tryby są określane przez urządzenie.",
-          "ko": "이 제품의 충전전력 제한을 Homey를 통해 제어하려면 \"Homey\"를 선택하세요. 다른 모드는 제품에 의해 결정돼요.",
-          "ar": "للتحكم في الطاقة المستهدفة لهذا الجهاز عبر Homey، اختر \"Homey\". الأوضاع الأخرى يحددها الجهاز."
+          "ko": "이 제품의 충전전력 제한을 Homey를 통해 제어하려면 \"Homey\"를 선택하세요. 다른 모드는 제품에 의해 결정됩니다.",
+          "ar": "للتحكم في الطاقة المستهدفة لهذا الجهاز عبر Homey، اختر \"Homey\". والأوضاع الأخرى يحددها الجهاز."
         },
         "args": [
           {
