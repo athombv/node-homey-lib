@@ -80,19 +80,19 @@
       {
         "id": "swing_mode_changed",
         "title": {
-          "en": "Swing mode has changed to",
-          "nl": "Zwenkmodus is veranderd in",
+          "en": "The swing mode changed to",
+          "nl": "De zwenkmodus is veranderd naar",
           "da": "Svingtilstanden har ændret sig til",
-          "it": "La modalità oscillazione è cambiata",
+          "it": "La modalità oscillazione è cambiata a",
           "ko": "스윙 모드가 다음으로 변경되면",
           "no": "Svingmodus er endret til",
           "pl": "Tryb wahania zmienił się na",
-          "ru": "Режим поворота изменен",
+          "ru": "Режим поворота изменен на",
           "sv": "Svängläget har ändrats till",
           "es": "El modo de giro ha cambiado a",
-          "fr": "Le mode de balancement a changé",
+          "fr": "Le mode de balancement est passé à",
           "ar": "تغير وضع التأرجح إلى",
-          "de": "Der Schwenkmodus wurde geändert in"
+          "de": "Der Schwenkmodus wurde geändert auf"
         },
         "args": [
           {
@@ -107,19 +107,19 @@
       {
         "id": "swing_mode_is",
         "title": {
-          "en": "Swing mode !{{is|is not}}",
-          "nl": "Zwenkmodus !{{is|is niet}}",
-          "da": "Svingtilstand !{{er|er ikke}}",
-          "it": "La modalità swing !{{è|non è}}",
+          "en": "The swing mode !{{is|is not}}",
+          "nl": "De zwenkmodus !{{is|is niet}}",
+          "da": "Svingtilstanden !{{er|er ikke}}",
+          "it": "La modalità oscillazione !{{è|non è}}",
           "ko": "스윙 모드가 다음!{{이면|이 아니면}}",
           "pl": "Tryb wahania !{{jest|nie jest}}",
           "ru": "Режим поворота !{{|не}}",
-          "sv": "Svängläge !{{är|är inte}}",
+          "sv": "Svängläget !{{är|är inte}}",
           "es": "El modo de oscilación !{{es|no es}}",
           "fr": "Le mode de balancement !{{est|n'est pas}}",
-          "no": "Svingmodus !{{er|er ikke}}",
+          "no": "Svingmodusen !{{er|er ikke}}",
           "ar": "وضع التأرجح !{{هو|ليس}}",
-          "de": "Schwenkmodus !{{ist|ist nicht}}"
+          "de": "Der Schwenkmodus !{{ist|ist nicht}}"
         },
         "args": [
           {
@@ -134,17 +134,17 @@
       {
         "id": "set_swing_mode",
         "title": {
-          "en": "Set swing mode to",
-          "nl": "Zwenkmodus instellen op",
-          "da": "Indstil svingtilstand til",
-          "it": "Imposta la modalità swing su",
+          "en": "Set the swing mode to",
+          "nl": "De zwenkmodus instellen op",
+          "da": "Indstil svingtilstanden til",
+          "it": "Imposta la modalità oscillazione su",
           "ko": "스윙 모드를 다음으로 설정",
           "pl": "Ustaw tryb wahania na",
           "ru": "Установить режим поворота на",
-          "sv": "Ställ in svängläge till",
+          "sv": "Ställ in svängläget på",
           "es": "Ajustar el modo de oscilación en",
           "fr": "Définir le mode de balancement sur",
-          "no": "Sett svingmodus til",
+          "no": "Sett svingmodusen til",
           "ar": "ضبط وضع التأرجح على",
           "de": "Stelle den Schwenkmodus auf"
         },

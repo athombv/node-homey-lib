@@ -134,19 +134,19 @@
       {
         "id": "vacuumcleaner_job_mode_changed",
         "title": {
-          "en": "The job mode has changed",
-          "nl": "De modus is veranderd",
-          "da": "Jobtilstanden er ændret",
-          "it": "La modalità di lavoro è cambiata",
-          "ko": "작동 모드가 변경되면",
-          "no": "Jobbmodusen er endret",
-          "pl": "Zmienił się tryb pracy",
-          "ru": "Режим работы изменен",
-          "sv": "Arbetsläget har ändrats",
-          "es": "El modo de trabajo ha cambiado",
-          "fr": "Le mode de fonctionnement a changé",
-          "ar": "تم تغيير وضع المهمة",
-          "de": "Der Auftragsmodus hat sich geändert"
+          "en": "The job mode changed to",
+          "nl": "De modus is veranderd naar",
+          "da": "Jobtilstanden er ændret til",
+          "it": "La modalità di lavoro è passata a",
+          "ko": "작동 모드가 다음으로 변경되면",
+          "no": "Jobbmodusen er endret til",
+          "pl": "Tryb pracy zmienił się na",
+          "ru": "Режим работы изменен на",
+          "sv": "Arbetsläget har ändrats till",
+          "es": "El modo de trabajo ha cambiado a",
+          "fr": "Le mode de fonctionnement est passé à",
+          "ar": "تم تغيير وضع المهمة إلى",
+          "de": "Der Auftragsmodus wurde geändert auf"
         },
         "args": [
           {

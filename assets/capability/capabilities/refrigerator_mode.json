@@ -96,19 +96,19 @@
         "id": "refrigerator_mode_changed",
         "highlight": true,
         "title": {
-          "en": "The mode changed to",
-          "nl": "De modus is veranderd in",
-          "da": "Tilstanden ændrede sig til",
-          "it": "La modalità è passata a",
-          "ko": "냉장 모드가 다음으로 변경되면",
-          "pl": "Tryb zmienił się na",
-          "ru": "Режим изменен на",
-          "sv": "Läget ändrades till",
-          "es": "El modo ha cambiado a",
-          "fr": "Le mode est passé à",
-          "no": "Modusen ble endret til",
-          "ar": "تغير الوضع إلى",
-          "de": "Der Modus wurde geändert auf"
+          "en": "The refrigerator mode changed to",
+          "nl": "De koelkastmodus is veranderd naar",
+          "da": "Køleskabstilstanden ændrede sig til",
+          "it": "La modalità del frigorifero è passata a",
+          "ko": "냉장고 모드가 다음으로 변경되면",
+          "pl": "Tryb lodówki zmienił się na",
+          "ru": "Режим холодильника изменен на",
+          "sv": "Kylskåpsläget ändrades till",
+          "es": "El modo del frigorífico ha cambiado a",
+          "fr": "Le mode du réfrigérateur est passé à",
+          "no": "Kjøleskapsmodusen ble endret til",
+          "ar": "تغير وضع الثلاجة إلى",
+          "de": "Der Kühlschrankmodus wurde geändert auf"
         },
         "args": [
           {
@@ -123,19 +123,19 @@
       {
         "id": "refrigerator_mode_is",
         "title": {
-          "en": "The mode !{{is|is not}}",
-          "nl": "De modus !{{is|is niet}}",
-          "da": "Tilstanden !{{er|er ikke}}",
-          "it": "La modalità !{{è|non è}}",
-          "ko": "냉장 모드가 다음!{{이면|이 아니면}}",
-          "pl": "Tryb !{{jest|nie jest}}",
-          "ru": "Режим !{{|не}}",
-          "sv": "Läget !{{är|är inte}}",
-          "es": "El modo !{{está|no está}}",
-          "fr": "Le mode !{{est|n'est pas}}",
-          "no": "Modusen !{{er|er ikke}}",
-          "ar": "الوضع !{{هو|ليس}}",
-          "de": "Der Modus !{{ist|ist nicht}}"
+          "en": "The refrigerator mode !{{is|is not}}",
+          "nl": "De koelkastmodus !{{is|is niet}}",
+          "da": "Køleskabstilstanden !{{er|er ikke}}",
+          "it": "La modalità del frigorifero !{{è|non è}}",
+          "ko": "냉장고 모드가 다음!{{이면|이 아니면}}",
+          "pl": "Tryb lodówki !{{jest|nie jest}}",
+          "ru": "Режим холодильника !{{|не}}",
+          "sv": "Kylskåpsläget !{{är|är inte}}",
+          "es": "El modo del frigorífico !{{está|no está}}",
+          "fr": "Le mode du réfrigérateur !{{est|n'est pas}}",
+          "no": "Kjøleskapsmodusen !{{er|er ikke}}",
+          "ar": "وضع الثلاجة !{{هو|ليس}}",
+          "de": "Der Kühlschrankmodus !{{ist|ist nicht}}"
         },
         "args": [
           {
@@ -150,19 +150,19 @@
       {
         "id": "set_refrigerator_mode",
         "title": {
-          "en": "Set the mode to",
-          "nl": "De modus instellen op",
-          "da": "Indstil tilstanden til",
-          "it": "Imposta la modalità su",
-          "ko": "냉장 모드를 다음으로 설정",
-          "pl": "Ustaw tryb na",
-          "ru": "Установить режим на",
-          "sv": "Ställ in läget på",
-          "es": "Ajustar el modo en",
-          "fr": "Définir le mode sur",
-          "no": "Sett modusen til",
-          "ar": "ضبط الوضع على",
-          "de": "Stelle den Modus auf"
+          "en": "Set the refrigerator mode to",
+          "nl": "De koelkastmodus instellen op",
+          "da": "Indstil køleskabstilstanden til",
+          "it": "Imposta la modalità del frigorifero su",
+          "ko": "냉장고 모드를 다음으로 설정",
+          "pl": "Ustaw tryb lodówki na",
+          "ru": "Установить режим холодильника на",
+          "sv": "Ställ in kylskåpsläget på",
+          "es": "Ajustar el modo del frigorífico en",
+          "fr": "Définir le mode du réfrigérateur sur",
+          "no": "Sett kjøleskapsmodusen til",
+          "ar": "ضبط وضع الثلاجة على",
+          "de": "Stelle den Kühlschrankmodus auf"
         },
         "args": [
           {
