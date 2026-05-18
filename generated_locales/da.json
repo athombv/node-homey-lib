@@ -1008,7 +1008,7 @@
   "./assets/capability/capabilities/target_power_mode.json@$flow.conditions.0.title": "Måleffekttilstand !{{er|er ikke}}",
   "./assets/capability/capabilities/target_power_mode.json@$flow.conditions.0.hint": "\"Homey\" betyder, at Homey styrer enhedens måleffekt. Andre tilstande bestemmes af enheden.",
   "./assets/capability/capabilities/target_power_mode.json@$flow.actions.0.title": "Indstil måleffekttilstand til",
-  "./assets/capability/capabilities/target_power_mode.json@$flow.actions.0.hint": "For at styre måleffekten for denne enhed via Homey skal du vælge \"Homey\". Andre tilstande bestemmes af enheden.",
+  "./assets/capability/capabilities/target_power_mode.json@$flow.actions.0.hint": "For at styre denne enheds måleffekt via Homey skal du vælge \"Homey\". Andre tilstande bestemmes af enheden.",
   "./assets/capability/capabilities/target_temperature.json@title": "Måltemperatur",
   "./assets/capability/capabilities/target_temperature.json@units": "°C",
   "./assets/capability/capabilities/target_temperature.json@$flow.triggers.0.title": "Måltemperaturen blev ændret",
