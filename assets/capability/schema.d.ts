@@ -9,6 +9,7 @@ export type Capability = {
   [k: string]: unknown;
 } & {
   title: I18NObject;
+  titleShort?: I18NObject;
   desc?: I18NObject;
   type: "boolean" | "number" | "string" | "enum";
   getable?: boolean;
