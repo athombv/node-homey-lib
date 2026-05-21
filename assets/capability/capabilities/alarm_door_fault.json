@@ -15,6 +15,21 @@
     "ar": "إنذار عطل الباب",
     "de": "Türstörungsalarm"
   },
+  "titleShort": {
+    "en": "Door Fault",
+    "nl": "Deur-probleem",
+    "da": "Dørfejl",
+    "fr": "Défaut de porte",
+    "it": "Guasto porta",
+    "ko": "도어 에러",
+    "no": "Dørfeil",
+    "pl": "Usterka drzwi",
+    "ru": "Неисправность двери",
+    "sv": "Dörrfel",
+    "es": "Fallo en puerta",
+    "ar": "عطل الباب",
+    "de": "Türstörung"
+  },
   "desc": {
     "en": "True when there is an issue with the door or lock.",
     "nl": "Wordt geactiveerd wanneer er een probleem is met de deur of het slot.",

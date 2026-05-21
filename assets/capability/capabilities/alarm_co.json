@@ -15,6 +15,21 @@
     "ko": "일산화탄소(CO) 알람",
     "ar": "إنذار أول أكسيد الكربون"
   },
+  "titleShort": {
+    "en": "CO",
+    "nl": "CO",
+    "de": "CO",
+    "fr": "CO",
+    "it": "CO",
+    "sv": "CO",
+    "no": "CO",
+    "es": "CO",
+    "da": "CO",
+    "ru": "CO",
+    "pl": "CO",
+    "ko": "일산화탄소(CO)",
+    "ar": "أول أكسيد الكربون"
+  },
   "desc": {
     "en": "True when dangerous CO values have been detected",
     "nl": "Gaat af bij gevaarlijke concentraties CO",

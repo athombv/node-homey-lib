@@ -15,6 +15,21 @@
     "ko": "움직임 감지",
     "ar": "إنذار الحركة"
   },
+  "titleShort": {
+    "en": "Motion",
+    "nl": "Beweging",
+    "de": "Bewegung",
+    "fr": "Mouvement",
+    "it": "Movimento",
+    "sv": "Rörelse",
+    "no": "Bevegelse",
+    "es": "Movimiento",
+    "da": "Bevægelse",
+    "ru": "Движение",
+    "pl": "Ruch",
+    "ko": "움직임",
+    "ar": "الحركة"
+  },
   "insights": true,
   "insightsTitleTrue": {
     "en": "Motion alarm turned on",

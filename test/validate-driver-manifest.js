@@ -121,6 +121,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
         test: {
           type: 'boolean',
           title: 'Test capability',
+          titleShort: 'Test',
           getable: true,
           setable: true,
         },

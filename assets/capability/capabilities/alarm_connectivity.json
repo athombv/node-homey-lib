@@ -15,6 +15,21 @@
     "ar": "إنذار الاتصال",
     "de": "Verbindungsalarm"
   },
+  "titleShort": {
+    "en": "Connectivity",
+    "nl": "Verbinding",
+    "da": "Tilslutning",
+    "fr": "Connectivité",
+    "it": "Connessione",
+    "ko": "연결 해제",
+    "no": "Tilkobling",
+    "pl": "Łączność",
+    "ru": "Подключение",
+    "sv": "Anslutning",
+    "es": "Conectividad",
+    "ar": "الاتصال",
+    "de": "Verbindung"
+  },
   "desc": {
     "en": "True when disconnected from the network.",
     "nl": "Wordt geactiveerd wanneer het apparaat niet meer verbonden is met het netwerk.",
