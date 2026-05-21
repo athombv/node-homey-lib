@@ -15,6 +15,21 @@
     "ar": "إنذار الاهتزاز",
     "de": "Vibrationsalarm"
   },
+  "titleShort": {
+    "en": "Vibration",
+    "nl": "Trilling",
+    "da": "Vibration",
+    "it": "Vibrazione",
+    "ko": "진동",
+    "no": "Vibrasjon",
+    "pl": "Wibracje",
+    "ru": "Вибрация",
+    "sv": "Vibration",
+    "es": "Vibración",
+    "fr": "Vibration",
+    "ar": "الاهتزاز",
+    "de": "Vibration"
+  },
   "desc": {
     "en": "True when vibration is detected.",
     "nl": "Wordt geactiveerd wanneer trilling wordt gedetecteerd.",

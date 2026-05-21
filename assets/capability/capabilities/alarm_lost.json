@@ -15,6 +15,21 @@
     "ar": "إنذار الفقد",
     "de": "Alarm für „Verloren“"
   },
+  "titleShort": {
+    "en": "Lost",
+    "nl": "Zoekraking",
+    "da": "Forsvundet",
+    "it": "Oggetto smarrito",
+    "ko": "기기 분실",
+    "no": "Mistet",
+    "pl": "Zgubienie",
+    "ru": "Потеря",
+    "sv": "Förlorat",
+    "es": "Pérdida",
+    "fr": "Perte",
+    "ar": "الفقد",
+    "de": "Verloren"
+  },
   "desc": {
     "en": "True when the device is lost.",
     "nl": "Wordt geactiveerd wanneer het apparaat zoek is.",

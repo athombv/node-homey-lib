@@ -15,6 +15,21 @@
     "ko": "화재 감지",
     "ar": "إنذار الحريق"
   },
+  "titleShort": {
+    "en": "Fire",
+    "nl": "Brand",
+    "de": "Feuer",
+    "fr": "Incendie",
+    "it": "Antincendio",
+    "sv": "Brand",
+    "no": "Brann",
+    "es": "Incendios",
+    "da": "Brand",
+    "ru": "Пожар",
+    "pl": "Pożar",
+    "ko": "화재",
+    "ar": "الحريق"
+  },
   "desc": {
     "en": "True when fire has been detected",
     "nl": "Gaat af als er brand gedetecteerd wordt",
