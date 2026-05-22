@@ -183,6 +183,24 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
   });
 
+  it('`capabilitiesOptions` entries need to be objects', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        capabilitiesOptions: {
+          onoff: null,
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /drivers\.test\.capabilitiesOptions\.onoff must be an object/i,
+      publish: /drivers\.test\.capabilitiesOptions\.onoff must be an object/i,
+      verified: /drivers\.test\.capabilitiesOptions\.onoff must be an object/i,
+    });
+  });
+
   it('`capabilities` custom sub-capabilities are validated', async function() {
     const app = mockApp({
       ...baseAppManifest,
