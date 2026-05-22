@@ -80,7 +80,7 @@
       {
         "id": "fan_mode_changed",
         "title": {
-          "en": "The fan mode has changed to",
+          "en": "The fan mode changed to",
           "nl": "De ventilatormodus is veranderd naar",
           "da": "Ventilatortilstanden er ændret til",
           "it": "La modalità ventola è passata a",
@@ -90,7 +90,7 @@
           "ru": "Режим вентилятора изменен на",
           "sv": "Fläktläget har ändrats till",
           "es": "El modo ventilador ha cambiado a",
-          "fr": "Le mode de ventilation est passé à=Le mode de ventilation est passé à",
+          "fr": "Le mode de ventilation est passé à",
           "ar": "تم تغيير وضع المروحة إلى",
           "de": "Der Lüftermodus wurde geändert auf"
         },
@@ -116,7 +116,7 @@
           "pl": "Tryb wentylatora !{{jest|nie jest}}",
           "ru": "Режим вентилятора !{{|не}}",
           "sv": "Fläktläge !{{är|är inte}}",
-          "es": "El modo ventilador !{{está|no está}} ",
+          "es": "El modo ventilador !{{está|no está}}",
           "fr": "Le mode de ventilation !{{est|n'est pas}}",
           "ar": "وضع المروحة !{{هو|ليس}}",
           "de": "Der Lüftermodus !{{ist|ist nicht}}"
@@ -134,8 +134,8 @@
       {
         "id": "set_fan_mode",
         "title": {
-          "en": "Set fan mode to",
-          "nl": "Ventilatormodus instellen op",
+          "en": "Set the fan mode to",
+          "nl": "De ventilatormodus instellen op",
           "da": "Indstil ventilatortilstand til",
           "it": "Imposta la modalità ventola su",
           "ko": "팬 모드를 다음으로 설정",

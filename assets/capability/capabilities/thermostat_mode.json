@@ -113,19 +113,19 @@
       {
         "id": "thermostat_mode_changed",
         "title": {
-          "en": "Thermostat mode changed",
-          "nl": "Thermostaatmodus is veranderd",
-          "de": "Thermostat-Modus hat sich geändert",
-          "fr": "Le mode du thermostat a changé",
-          "it": "La modalità del termostato è cambiata",
-          "sv": "Termostatläge ändrades",
-          "no": "Termostatmodus ble endret",
-          "es": "El modo del termostato ha cambiado",
-          "da": "Termostattilstand er blevet ændret",
-          "ru": "Режим термостата изменен",
-          "pl": "Zmiana trybu termostatu",
-          "ko": "온도조절기 모드가 변경되면",
-          "ar": "تم تغيير وضع الثرموستات"
+          "en": "The thermostat mode changed to",
+          "nl": "De thermostaatmodus is veranderd naar",
+          "de": "Der Thermostat-Modus wurde geändert auf",
+          "fr": "Le mode du thermostat est passé à",
+          "it": "La modalità del termostato è passata a",
+          "sv": "Termostatläget ändrades till",
+          "no": "Termostatmodusen ble endret til",
+          "es": "El modo del termostato ha cambiado a",
+          "da": "Termostattilstanden er ændret til",
+          "ru": "Режим термостата изменен на",
+          "pl": "Tryb termostatu zmienił się na",
+          "ko": "온도조절기 모드가 다음으로 변경되면",
+          "ar": "تم تغيير وضع الثرموستات إلى"
         },
         "args": [
           {
@@ -140,17 +140,17 @@
       {
         "id": "thermostat_mode_is",
         "title": {
-          "en": "Thermostat mode !{{is|is not}}",
-          "nl": "Thermostaatmodus !{{is|is niet}}",
-          "de": "Thermostat-Modus !{{ist|ist nicht}}",
-          "fr": "Mode thermostat !{{est|n'est pas}}",
+          "en": "The thermostat mode !{{is|is not}}",
+          "nl": "De thermostaatmodus !{{is|is niet}}",
+          "de": "Der Thermostat-Modus !{{ist|ist nicht}}",
+          "fr": "Le mode du thermostat !{{est|n'est pas}}",
           "it": "La modalità del termostato !{{è|non è}}",
-          "sv": "Termostatläge !{{är|är inte}}",
-          "no": "Termostatmodus !{{er|er ikke}}",
+          "sv": "Termostatläget !{{är|är inte}}",
+          "no": "Termostatmodusen !{{er|er ikke}}",
           "es": "El modo del termostato !{{está|no está}}",
-          "da": "Termostattilstand !{{er|er ikke}}",
+          "da": "Termostattilstanden !{{er|er ikke}}",
           "ru": "Режим термостата !{{|не}}",
-          "pl": "Tryb termostatu !{{to|to nie}}",
+          "pl": "Tryb termostatu !{{jest|nie jest}}",
           "ko": "온도조절기 모드가 다음!{{이면|이 아니면}}",
           "ar": "وضع الثرموستات !{{هو|ليس}}"
         },
@@ -167,19 +167,19 @@
       {
         "id": "thermostat_mode_set",
         "title": {
-          "en": "Set the mode",
-          "nl": "Stel de modus in",
-          "de": "Modus setzen",
-          "fr": "Définir le mode",
-          "it": "Imposta la modalità",
-          "sv": "Ställ in läget",
-          "no": "Innstill modusen",
-          "es": "Configurar el modo",
-          "da": "Indstil tilstanden",
-          "ru": "Установить режим",
-          "pl": "Ustaw tryb",
-          "ko": "온도조절기 모드 설정",
-          "ar": "ضبط الوضع"
+          "en": "Set the thermostat mode to",
+          "nl": "De thermostaatmodus instellen op",
+          "de": "Stelle den Thermostat-Modus auf",
+          "fr": "Définir le mode du thermostat sur",
+          "it": "Imposta la modalità del termostato su",
+          "sv": "Ställ in termostatläget på",
+          "no": "Sett termostatmodusen til",
+          "es": "Ajustar el modo del termostato en",
+          "da": "Indstil termostattilstanden til",
+          "ru": "Установить режим термостата на",
+          "pl": "Ustaw tryb termostatu na",
+          "ko": "온도조절기 모드를 다음으로 설정",
+          "ar": "ضبط وضع الثرموستات على"
         },
         "args": [
           {

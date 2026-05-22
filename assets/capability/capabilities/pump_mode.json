@@ -204,19 +204,19 @@
       {
         "id": "set_pump_mode",
         "title": {
-          "en": "Set the pump mode",
-          "nl": "De pompmodus instellen",
-          "da": "Indstil pumpetilstand",
-          "it": "Imposta la modalità della pompa",
-          "ko": "펌프 모드 설정",
-          "pl": "Ustaw trybu pompy",
-          "ru": "Установить режим работы насоса",
-          "sv": "Ställ in pumpläge",
-          "es": "Configurar el modo bombeo",
-          "fr": "Définir le mode de pompage",
-          "no": "Angi pumpemodus",
-          "ar": "ضبط وضع المضخة",
-          "de": "Einstellen des Pumpenmodus"
+          "en": "Set the pump mode to",
+          "nl": "De pompmodus instellen op",
+          "da": "Indstil pumpetilstanden til",
+          "it": "Imposta la modalità della pompa su",
+          "ko": "펌프 모드를 다음으로 설정",
+          "pl": "Ustaw tryb pompy na",
+          "ru": "Установить режим работы насоса на",
+          "sv": "Ställ in pumpläget på",
+          "es": "Ajustar el modo bombeo en",
+          "fr": "Définir le mode de pompage sur",
+          "no": "Sett pumpemodusen til",
+          "ar": "ضبط وضع المضخة على",
+          "de": "Stelle den Pumpenmodus auf"
         },
         "args": [
           {

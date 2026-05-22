@@ -80,7 +80,7 @@
       {
         "id": "hot_water_mode_changed",
         "title": {
-          "en": "The hot water mode has changed to",
+          "en": "The hot water mode changed to",
           "nl": "De warmwatermodus is veranderd naar",
           "da": "Varmtvandstilstanden er ændret til",
           "it": "La modalità acqua calda è passata a",
@@ -109,13 +109,13 @@
         "title": {
           "en": "The hot water mode !{{is|is not}}",
           "nl": "De warmwatermodus !{{is|is niet}}",
-          "da": "Tilstanden for varmt vand !{{er|er ikke}}!",
+          "da": "Varmtvandstilstanden !{{er|er ikke}}",
           "it": "La modalità acqua calda !{{è|non è}}",
           "ko": "온수 모드가 다음!{{이면|이 아니면}}",
           "pl": "Tryb gorącej wody !{{jest|nie jest}}",
           "ru": "Режим нагрева воды !{{|не}}",
           "sv": "Varmvattenläge !{{är|är inte}}",
-          "es": "El modo de agua caliente !{{está activado|está desactivado}}",
+          "es": "El modo de agua caliente !{{está|no está}}",
           "fr": "Le mode eau chaude !{{est|n'est pas}}",
           "no": "Varmtvannsmodusen !{{er|er ikke}}",
           "ar": "وضع الماء الساخن !{{هو|ليس}}",
