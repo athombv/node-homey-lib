@@ -113,6 +113,7 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`capabilities` custom capabilities are validated', async function() {
     const app = mockApp({
       ...baseAppManifest,
+      compatibility: '>=13.2.1',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['test'],
@@ -132,6 +133,71 @@ describe('HomeyLib.App#validate() driver manifest', function() {
       debug: true,
       publish: true,
       verified: true,
+    });
+  });
+
+  it('`capabilities` titleShort requires compatibility >=13.2.1', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=13.2.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['test'],
+      }],
+      capabilities: {
+        test: {
+          type: 'boolean',
+          title: 'Test capability',
+          titleShort: 'Test',
+          getable: true,
+          setable: true,
+        },
+      },
+    });
+
+    await assertValidates(app, {
+      debug: /capabilities\.test\.titleShort requires a compatibility of at least >=13\.2\.1/i,
+      publish: /capabilities\.test\.titleShort requires a compatibility of at least >=13\.2\.1/i,
+      verified: /capabilities\.test\.titleShort requires a compatibility of at least >=13\.2\.1/i,
+    });
+  });
+
+  it('`capabilitiesOptions` titleShort requires compatibility >=13.2.1', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=13.2.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilitiesOptions: {
+          onoff: {
+            titleShort: { en: 'Power' },
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /drivers\.test\.capabilitiesOptions\.onoff\.titleShort requires a compatibility of at least >=13\.2\.1/i,
+      publish: /drivers\.test\.capabilitiesOptions\.onoff\.titleShort requires a compatibility of at least >=13\.2\.1/i,
+      verified: /drivers\.test\.capabilitiesOptions\.onoff\.titleShort requires a compatibility of at least >=13\.2\.1/i,
+    });
+  });
+
+  it('`capabilitiesOptions` entries need to be objects', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        capabilitiesOptions: {
+          onoff: null,
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /drivers\.test\.capabilitiesOptions\.onoff must be an object/i,
+      publish: /drivers\.test\.capabilitiesOptions\.onoff must be an object/i,
+      verified: /drivers\.test\.capabilitiesOptions\.onoff must be an object/i,
     });
   });
 
