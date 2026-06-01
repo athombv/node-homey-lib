@@ -189,7 +189,7 @@
         "id": "set_vacuumcleaner_job_mode",
         "title": {
           "en": "Set the job mode to",
-          "nl": "De modus instellen op",
+          "nl": "Stel de modus in op",
           "da": "Indstil jobtilstanden til",
           "it": "Imposta la modalità di lavoro su",
           "ko": "작동 모드를 다음으로 설정",

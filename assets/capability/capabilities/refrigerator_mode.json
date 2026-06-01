@@ -151,7 +151,7 @@
         "id": "set_refrigerator_mode",
         "title": {
           "en": "Set the refrigerator mode to",
-          "nl": "De koelkastmodus instellen op",
+          "nl": "Stel de koelkastmodus in op",
           "da": "Indstil køleskabstilstanden til",
           "it": "Imposta la modalità del frigorifero su",
           "ko": "냉장고 모드를 다음으로 설정",

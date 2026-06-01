@@ -135,7 +135,7 @@
         "id": "set_fan_mode",
         "title": {
           "en": "Set the fan mode to",
-          "nl": "De ventilatormodus instellen op",
+          "nl": "Stel de ventilatormodus in op",
           "da": "Indstil ventilatortilstand til",
           "it": "Imposta la modalità ventola su",
           "ko": "팬 모드를 다음으로 설정",

@@ -205,7 +205,7 @@
         "id": "set_pump_mode",
         "title": {
           "en": "Set the pump mode to",
-          "nl": "De pompmodus instellen op",
+          "nl": "Stel de pompmodus in op",
           "da": "Indstil pumpetilstanden til",
           "it": "Imposta la modalità della pompa su",
           "ko": "펌프 모드를 다음으로 설정",

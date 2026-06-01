@@ -163,7 +163,7 @@
         "id": "target_power_mode_set",
         "title": {
           "en": "Set the target power mode to",
-          "nl": "De doelvermogensmodus instellen op",
+          "nl": "Stel de doelvermogensmodus in op",
           "de": "Stelle den Zielleistungsmodus auf",
           "fr": "Définir le mode de puissance cible sur",
           "it": "Imposta la modalità potenza target su",
