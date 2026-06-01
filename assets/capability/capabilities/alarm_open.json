@@ -17,9 +17,9 @@
   },
   "titleShort": {
     "en": "Open",
-    "ar": "الفتح",
+    "ar": "فتح",
     "da": "Åben",
-    "de": "Geöffnet",
+    "de": "Öffnen",
     "es": "Apertura",
     "fr": "Ouverture",
     "it": "Apertura",
@@ -28,7 +28,7 @@
     "no": "Åpen",
     "pl": "Otwarcie",
     "ru": "Открытие",
-    "sv": "Öppet"
+    "sv": "Öppen"
   },
   "desc": {
     "en": "True when a door/window/etc... is open.",

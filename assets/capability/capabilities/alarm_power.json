@@ -20,15 +20,15 @@
     "nl": "Stroom",
     "da": "Strøm",
     "it": "Alimentazione",
-    "ko": "전원",
+    "ko": "전력",
     "no": "Strøm",
-    "pl": "Zasilanie",
+    "pl": "Moc",
     "ru": "Питание",
     "sv": "Ström",
-    "es": "Suministro eléctrico",
+    "es": "Potencia",
     "fr": "Alimentation électrique",
     "ar": "الطاقة",
-    "de": "Strom"
+    "de": "Leistung"
   },
   "desc": {
     "en": "True when power is detected.",

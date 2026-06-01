@@ -17,18 +17,18 @@
   },
   "titleShort": {
     "en": "Door Fault",
-    "nl": "Deur-probleem",
+    "nl": "Deurfout",
     "da": "Dørfejl",
     "fr": "Défaut de porte",
     "it": "Guasto porta",
-    "ko": "도어 에러",
+    "ko": "도어 결함",
     "no": "Dørfeil",
     "pl": "Usterka drzwi",
     "ru": "Неисправность двери",
     "sv": "Dörrfel",
     "es": "Fallo en puerta",
-    "ar": "عطل الباب",
-    "de": "Türstörung"
+    "ar": "عطل بالباب",
+    "de": "Störung der Tür"
   },
   "desc": {
     "en": "True when there is an issue with the door or lock.",

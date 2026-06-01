@@ -17,18 +17,18 @@
   },
   "titleShort": {
     "en": "Tank Missing",
-    "nl": "Ontbrekende tank",
+    "nl": "Tank ontbreekt",
     "da": "Manglende tank",
     "it": "Serbatoio mancante",
-    "ko": "물통 분리",
+    "ko": "물통 누락",
     "no": "Manglende tank",
     "pl": "Brak zbiornika",
-    "ru": "Отсутствие резервуара",
-    "sv": "Saknad tank",
+    "ru": "Резервуар отсутствует",
+    "sv": "Tank saknas",
     "es": "Depósito no instalado",
     "fr": "Réservoir manquant",
-    "ar": "فقد الخزان",
-    "de": "Fehlender Tank"
+    "ar": "الخزان غير موجود",
+    "de": "Tank fehlt"
   },
   "desc": {
     "en": "True when the tank is missing.",

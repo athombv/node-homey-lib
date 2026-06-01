@@ -20,15 +20,15 @@
     "nl": "Fout bij pompapparaat",
     "da": "Fejl i pumpeenhed",
     "it": "Guasto del dispositivo di pompaggio",
-    "ko": "펌프 기기 결함",
-    "no": "Feil for pumpeenhet",
+    "ko": "펌프 제품 결함",
+    "no": "Feil på pumpeenhet",
     "pl": "Usterka pompy",
     "ru": "Неисправность насосного устройства",
     "sv": "Fel på pumpenhet",
     "es": "Fallo en el dispositivo de bombeo",
     "fr": "Défaillance du dispositif de pompage",
-    "ar": "عطل جهاز المضخة",
-    "de": "Fehler der Pumpvorrichtung"
+    "ar": "عطل بجهاز المضخة",
+    "de": "Fehler an der Pumpe"
   },
   "desc": {
     "en": "True when a fault is detected in the pump device.",
@@ -41,7 +41,7 @@
     "ru": "Значение «истина» при обнаружении неисправности насосного устройства.",
     "sv": "Sant när ett fel har upptäckts i pumpenheten.",
     "es": "Activado cuando se detecta un fallo en el dispositivo de bombeo.",
-    "fr": "Se déclenche lorsqu'un défaut est détecté dans l'appareil de pompage.",
+    "fr": "Se déclenche lorsqu'un défaut est détecté dans l’appareil de pompage.",
     "ar": "صحيح عند اكتشاف عطل في جهاز المضخة.",
     "de": "Wahr, wenn ein Fehler in der Pumpvorrichtung erkannt wird."
   },
@@ -57,7 +57,7 @@
     "ru": "Сигнал о неисправности насосного устройства включен",
     "sv": "Larm för fel på pumpenheten aktiverat",
     "es": "Alarma de fallo en el dispositivo de bombeo activada",
-    "fr": "Alarme de défaut de l'appareil de pompage activée",
+    "fr": "Alarme de défaut de l’appareil de pompage activée",
     "ar": "تم تشغيل إنذار عطل جهاز المضخة",
     "de": "Fehleralarm der Pumpvorrichtung aktiviert"
   },
@@ -72,7 +72,7 @@
     "ru": "Сигнал о неисправности насосного устройства выключен",
     "sv": "Larmet för fel på pumpenheten inaktiverat",
     "es": "Alarma de fallo en el dispositivo de bombeo desactivada",
-    "fr": "Alarme de défaut de l'appareil de pompage désactivée",
+    "fr": "Alarme de défaut de l’appareil de pompage désactivée",
     "ar": "تم إيقاف إنذار عطل جهاز المضخة",
     "de": "Fehleralarm der Pumpvorrichtung deaktiviert"
   },
