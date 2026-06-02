@@ -17,17 +17,17 @@
   },
   "titleShort": {
     "en": "Cold",
-    "nl": "Kou",
+    "nl": "Koud",
     "da": "Kulde",
     "es": "Frío",
     "fr": "Froid",
     "it": "Freddo",
-    "ko": "한파",
+    "ko": "추움",
     "no": "Kulde",
     "pl": "Zimno",
     "ru": "Холод",
-    "sv": "Köld",
-    "ar": "البرودة",
+    "sv": "Kyla",
+    "ar": "برودة",
     "de": "Kälte"
   },
   "desc": {

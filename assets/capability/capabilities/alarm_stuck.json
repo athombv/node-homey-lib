@@ -17,17 +17,17 @@
   },
   "titleShort": {
     "en": "Stuck",
-    "nl": "Vastgelopen",
+    "nl": "Vast",
     "da": "Fastlåst",
     "it": "Dispositivo bloccato",
-    "ko": "기기 막힘",
+    "ko": "막힘",
     "no": "Fastkjøring",
     "pl": "Zablokowanie",
     "ru": "Заклинивание",
-    "sv": "Något fastnat",
+    "sv": "Fastnat",
     "es": "Atasco",
     "fr": "Appareil bloqué",
-    "ar": "التعلق",
+    "ar": "عالق",
     "de": "Blockiert"
   },
   "desc": {

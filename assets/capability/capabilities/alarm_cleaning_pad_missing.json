@@ -18,17 +18,17 @@
   "titleShort": {
     "en": "Cleaning Pad Missing",
     "nl": "Reinigingspad ontbreekt",
-    "da": "Rengøringspad mangler",
+    "da": "Rengøringspude mangler",
     "es": "Mopa de limpieza no instalada",
     "fr": "Lingette de nettoyage manquante",
     "it": "Panno pulente mancante",
-    "ko": "물걸레 분리",
+    "ko": "물걸레 누락",
     "pl": "Brak podkładki czyszczącej",
-    "ru": "Отсутствие чистящей губки",
+    "ru": "Чистящая губка отсутствует",
     "sv": "Rengöringsdyna saknas",
     "no": "Manglende vaskeklut",
-    "ar": "فقد وسادة التنظيف",
-    "de": "Fehlendes Reinigungspad"
+    "ar": "وسادة التنظيف غير موجودة",
+    "de": "Reinigungspad fehlt"
   },
   "desc": {
     "en": "True when the cleaning pad is missing.",

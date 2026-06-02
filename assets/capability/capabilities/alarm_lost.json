@@ -17,17 +17,17 @@
   },
   "titleShort": {
     "en": "Lost",
-    "nl": "Zoekraking",
+    "nl": "Kwijt",
     "da": "Forsvundet",
-    "it": "Oggetto smarrito",
-    "ko": "기기 분실",
+    "it": "Smarrito",
+    "ko": "분실",
     "no": "Mistet",
     "pl": "Zgubienie",
     "ru": "Потеря",
     "sv": "Förlorat",
     "es": "Pérdida",
-    "fr": "Perte",
-    "ar": "الفقد",
+    "fr": "Perdu",
+    "ar": "مفقود",
     "de": "Verloren"
   },
   "desc": {

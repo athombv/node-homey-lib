@@ -23,12 +23,12 @@
     "it": "Antincendio",
     "sv": "Brand",
     "no": "Brann",
-    "es": "Incendios",
+    "es": "Fuego",
     "da": "Brand",
     "ru": "Пожар",
     "pl": "Pożar",
     "ko": "화재",
-    "ar": "الحريق"
+    "ar": "حريق"
   },
   "desc": {
     "en": "True when fire has been detected",

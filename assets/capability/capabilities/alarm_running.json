@@ -17,17 +17,17 @@
   },
   "titleShort": {
     "en": "Running",
-    "nl": "Werkzaamheid",
-    "da": "Løbende",
+    "nl": "Actief",
+    "da": "I gang",
     "it": "In esecuzione",
-    "ko": "작동",
+    "ko": "작동 중",
     "no": "Kjøring",
     "pl": "Praca urządzenia",
-    "ru": "Процесс",
+    "ru": "Выполняется",
     "sv": "Körs",
     "es": "Funcionamiento",
-    "fr": "Fonctionnement",
-    "ar": "التشغيل",
+    "fr": "En marche",
+    "ar": "قيد التشغيل",
     "de": "Läuft"
   },
   "desc": {
