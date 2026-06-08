@@ -229,7 +229,7 @@
   "./assets/capability/capabilities/alarm_pm25.json@$flow.triggers.1.title": "Alarm PM2.5 wyłączony",
   "./assets/capability/capabilities/alarm_pm25.json@$flow.conditions.0.title": "Alarm PM2.5 jest !{{włączony|wyłączony}}",
   "./assets/capability/capabilities/alarm_power.json@title": "Alarm zasilania",
-  "./assets/capability/capabilities/alarm_power.json@titleShort": "Moc",
+  "./assets/capability/capabilities/alarm_power.json@titleShort": "Zasilanie",
   "./assets/capability/capabilities/alarm_power.json@desc": "Prawda, gdy wykryte jest zasilanie.",
   "./assets/capability/capabilities/alarm_power.json@insightsTitleTrue": "Alarm zasilania włączony",
   "./assets/capability/capabilities/alarm_power.json@insightsTitleFalse": "Alarm zasilania wyłączony",
