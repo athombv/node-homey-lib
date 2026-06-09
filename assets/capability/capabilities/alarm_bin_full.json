@@ -24,11 +24,11 @@
     "it": "Cestino pieno",
     "ko": "먼지통 가득 참",
     "pl": "Pełny kosz",
-    "ru": "Заполненность контейнера",
+    "ru": "Контейнер заполнен",
     "sv": "Full behållare",
     "no": "Full støvbeholder",
-    "ar": "امتلاء سلة المهملات",
-    "de": "Voller Behälter"
+    "ar": "سلة المهملات ممتلئة",
+    "de": "Behälter voll"
   },
   "desc": {
     "en": "True when the bin is full",

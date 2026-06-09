@@ -20,14 +20,14 @@
     "nl": "Lege tank",
     "da": "Tom tank",
     "it": "Serbatoio vuoto",
-    "ko": "물통 물 부족",
+    "ko": "물통 비어 있음",
     "no": "Tom tank",
     "pl": "Pusty zbiornik",
-    "ru": "Пустой резервуар",
+    "ru": "Резервуар пустой",
     "sv": "Tom tank",
     "es": "Depósito vacío",
     "fr": "Réservoir vide",
-    "ar": "الخزان الفارغ",
+    "ar": "الخزان فارغ",
     "de": "Tank leer"
   },
   "desc": {

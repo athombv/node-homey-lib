@@ -27,8 +27,8 @@
     "da": "Kontakt",
     "ru": "Контакт",
     "pl": "Kontakt",
-    "ko": "열림",
-    "ar": "الاتصال"
+    "ko": "접촉",
+    "ar": "اتصال"
   },
   "desc": {
     "en": "Contact sensor, e.g. for windows (true/false)",
