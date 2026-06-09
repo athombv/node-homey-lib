@@ -17,18 +17,18 @@
   },
   "titleShort": {
     "en": "Connectivity",
-    "nl": "Verbinding",
+    "nl": "Connectiviteit",
     "da": "Tilslutning",
     "fr": "Connectivité",
-    "it": "Connessione",
-    "ko": "연결 해제",
+    "it": "Connettività",
+    "ko": "연결성",
     "no": "Tilkobling",
     "pl": "Łączność",
     "ru": "Подключение",
     "sv": "Anslutning",
     "es": "Conectividad",
     "ar": "الاتصال",
-    "de": "Verbindung"
+    "de": "Konnektivität"
   },
   "desc": {
     "en": "True when disconnected from the network.",
