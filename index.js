@@ -7,6 +7,7 @@ const Energy = require('./lib/Energy');
 const Media = require('./lib/Media');
 const Signal = require('./lib/Signal');
 const Util = require('./lib/Util');
+const Zone = require('./lib/Zone');
 
 module.exports.App = App;
 module.exports.Capability = Capability;
@@ -15,6 +16,7 @@ module.exports.Energy = Energy;
 module.exports.Media = Media;
 module.exports.Signal = Signal;
 module.exports.Util = Util;
+module.exports.Zone = Zone;
 
 /** @type {typeof Device.getClasses} */
 module.exports.getDeviceClasses = Device.getClasses.bind(Device);
@@ -44,6 +46,11 @@ module.exports.getMediaCodecs = Media.getCodecs.bind(Media);
 module.exports.getCurrencies = Energy.getCurrencies.bind(Energy);
 /** @type {typeof Energy.getBatteries} */
 module.exports.getBatteries = Energy.getBatteries.bind(Energy);
+
+/** @type {typeof Zone.getIcons} */
+module.exports.getZoneIcons = Zone.getIcons.bind(Zone);
+/** @type {typeof Zone.resolveIcon} */
+module.exports.resolveZoneIcon = Zone.resolveIcon.bind(Zone);
 
 /** @typedef {import('./assets/app/schema').App} AppManifest */
 /** @typedef {import('./assets/capability/schema').Capability} CapabilityDefinition */
