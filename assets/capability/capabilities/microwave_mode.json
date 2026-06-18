@@ -126,16 +126,16 @@
           "en": "The microwave mode !{{is|is not}}",
           "ar": "وضع الميكروويف !{{هو|ليس}}",
           "da": "Mikrobølgetilstanden !{{er|er ikke}}",
-          "de": "Der Mikrowellenmodus !{{an|aus}}",
+          "de": "Der Mikrowellen-Modus !{{ist|ist nicht}}",
           "es": "El modo microondas !{{está|no está}}",
           "fr": "Le mode du micro-ondes !{{est|n'est pas}}",
-          "it": "La modalità de microonde !{{è|non è}}",
+          "it": "La modalità del microonde !{{è|non è}}",
           "ko": "전자레인지 모드가 다음!{{이면|이 아니면}}",
           "nl": "De magnetronstand !{{is|is niet}}",
           "no": "Mikrobølgemodusen !{{er|er ikke}}",
           "pl": "Tryb mikrofalówki !{{jest|nie jest}}",
           "ru": "Режим микроволновой печи — !{{ | не}}",
-          "sv": "Mikrovågsläget !{{is|is not}}"
+          "sv": "Mikrovågsläget !{{är|är inte}}"
         },
         "args": [
           {
