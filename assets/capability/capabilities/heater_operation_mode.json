@@ -152,7 +152,7 @@
       {
         "id": "heater_operation_mode_changed",
         "title": {
-          "en": "The heater operation mode has changed to",
+          "en": "The heater operation mode changed to",
           "nl": "De verwarmingsmodus is veranderd naar",
           "da": "Varmeapparatets driftstilstand er ændret til",
           "it": "La modalità di funzionamento del calorifero è passata a",
@@ -207,7 +207,7 @@
         "id": "set_heater_operation_mode",
         "title": {
           "en": "Set the heater operation mode to",
-          "nl": "De verwarmingsmodus instellen op",
+          "nl": "Stel de verwarmingsmodus in op",
           "da": "Indstil varmeapparatets driftstilstand til",
           "it": "Imposta la modalità di funzionamento del calorifero su",
           "ko": "히터 작동 모드를 다음으로 설정",
