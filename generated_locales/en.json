@@ -440,7 +440,7 @@
   "./assets/capability/capabilities/fan_mode.json@$flow.triggers.0.title": "The fan mode changed to",
   "./assets/capability/capabilities/fan_mode.json@$flow.conditions.0.title": "The fan mode !{{is|is not}}",
   "./assets/capability/capabilities/fan_mode.json@$flow.actions.0.title": "Set the fan mode to",
-  "./assets/capability/capabilities/fan_speed.json@title": "Fan Speed",
+  "./assets/capability/capabilities/fan_speed.json@title": "Fan speed",
   "./assets/capability/capabilities/fan_speed.json@units": "%",
   "./assets/capability/capabilities/fan_speed.json@desc": "The fan speed in percentage.",
   "./assets/capability/capabilities/fan_speed.json@$flow.triggers.0.title": "The fan speed changed",

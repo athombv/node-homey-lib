@@ -1073,7 +1073,7 @@
   "./assets/capability/capabilities/target_temperature_min.json@desc": "Le niveau minimal de la température en degrés Celsius.",
   "./assets/capability/capabilities/target_temperature_min.json@$flow.triggers.0.title": "La température minimale cible a changé",
   "./assets/capability/capabilities/target_temperature_min.json@$flow.actions.0.title": "Définir la température minimale cible",
-  "./assets/capability/capabilities/thermostat_mode.json@title": "Mode thermostat",
+  "./assets/capability/capabilities/thermostat_mode.json@title": "Mode du thermostat",
   "./assets/capability/capabilities/thermostat_mode.json@desc": "Mode du thermostat",
   "./assets/capability/capabilities/thermostat_mode.json@values.0.title": "Automatique",
   "./assets/capability/capabilities/thermostat_mode.json@values.1.title": "Chauffer",
