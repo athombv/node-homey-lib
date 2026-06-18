@@ -251,10 +251,10 @@
         "title": {
           "en": "The oven mode !{{is|is not}}",
           "ar": "وضع الفرن !{{هو|ليس}}",
-          "da": "Ovnilstanden !{{is|is not}}",
+          "da": "Ovntilstanden !{{er|er ikke}}",
           "de": "Der Ofenmodus !{{ist|ist nicht}}",
           "es": "El modo horno !{{está|no está}}",
-          "fr": "Le mode de cuisson du four {{est|n'est pas}}",
+          "fr": "Le mode de cuisson du four !{{est|n'est pas}}",
           "it": "La modalità del forno !{{è|non è}}",
           "ko": "오븐 모드가 다음!{{이면|이 아니면}}",
           "nl": "De ovenstand !{{is|is niet}}",

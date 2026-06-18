@@ -80,19 +80,19 @@
       {
         "id": "lock_mode_changed",
         "title": {
-          "en": "Lock mode changed",
-          "nl": "Slotmodus is veranderd",
-          "de": "Schloss-Modus hat sich geändert",
-          "fr": "Le mode de verrouillage a été modifié",
-          "it": "La modalità di chiusura è cambiata",
-          "sv": "Låsläge har ändrats",
-          "no": "Låsemodus endret",
-          "es": "El modo de la cerradura ha cambiado",
-          "da": "Lås-tilstand er blevet ændret",
-          "ru": "Режим замка изменен",
-          "pl": "Zmienił się tryb zamknięcia",
-          "ko": "잠금 모드가 변경되면",
-          "ar": "تم تغيير وضع القفل"
+          "en": "The lock mode changed to",
+          "nl": "De slotmodus is veranderd naar",
+          "de": "Der Schloss-Modus wurde geändert auf",
+          "fr": "Le mode de verrouillage est passé à",
+          "it": "La modalità di chiusura è passata a",
+          "sv": "Låsläget har ändrats till",
+          "no": "Låsemodusen er endret til",
+          "es": "El modo de la cerradura ha cambiado a",
+          "da": "Låstilstanden er ændret til",
+          "ru": "Режим замка изменен на",
+          "pl": "Tryb zamknięcia zmienił się na",
+          "ko": "잠금 모드가 다음으로 변경되면",
+          "ar": "تم تغيير وضع القفل إلى"
         },
         "args": [
           {
@@ -107,17 +107,17 @@
       {
         "id": "lock_mode_is",
         "title": {
-          "en": "Lock mode !{{is|is not}}",
-          "nl": "Slotmodus !{{is|is niet}}",
-          "de": "Schloss-Modus !{{ist|ist nicht}}",
-          "fr": "Mode verrou !{{est|n'est pas}}",
-          "it": "La modalità di blocco !{{è|non è}}",
-          "sv": "Låsläge !{{är|är inte}}",
-          "no": "Låsemodus !{{er|er ikke}}",
+          "en": "The lock mode !{{is|is not}}",
+          "nl": "De slotmodus !{{is|is niet}}",
+          "de": "Der Schloss-Modus !{{ist|ist nicht}}",
+          "fr": "Le mode de verrouillage !{{est|n'est pas}}",
+          "it": "La modalità di chiusura !{{è|non è}}",
+          "sv": "Låsläget !{{är|är inte}}",
+          "no": "Låsemodusen !{{er|er ikke}}",
           "es": "El modo de la cerradura !{{está|no está}}",
-          "da": "Lås-tilstand !{{er|er ikke}}",
+          "da": "Låstilstanden !{{er|er ikke}}",
           "ru": "Режим замка !{{|не}}",
-          "pl": "Tryb zamknięcia !{{to|to nie}}",
+          "pl": "Tryb zamknięcia !{{jest|nie jest}}",
           "ko": "잠금 모드가 다음!{{이면|이 아니면}}",
           "ar": "وضع القفل !{{هو|ليس}}"
         },
@@ -134,19 +134,19 @@
       {
         "id": "mode",
         "title": {
-          "en": "Set mode",
-          "nl": "Stel modus in",
-          "de": "Modus setzen",
-          "fr": "Définir le mode",
-          "it": "Imposta la modalità",
-          "sv": "Ställ in läge",
-          "no": "Innstill modus",
-          "es": "Configurar modo",
-          "da": "Indstil tilstand",
-          "ru": "Установить режим",
-          "pl": "Ustaw tryb",
-          "ko": "잠금 모드 설정",
-          "ar": "ضبط الوضع"
+          "en": "Set the lock mode to",
+          "nl": "Stel de slotmodus in op",
+          "de": "Stelle den Schloss-Modus auf",
+          "fr": "Définir le mode de verrouillage sur",
+          "it": "Imposta la modalità di chiusura su",
+          "sv": "Ställ in låsläget på",
+          "no": "Sett låsemodusen til",
+          "es": "Ajustar el modo de la cerradura en",
+          "da": "Indstil låstilstanden til",
+          "ru": "Установить режим замка на",
+          "pl": "Ustaw tryb zamknięcia na",
+          "ko": "잠금 모드를 다음으로 설정",
+          "ar": "ضبط وضع القفل على"
         },
         "args": [
           {
