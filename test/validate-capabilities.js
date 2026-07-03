@@ -2,10 +2,10 @@
 
 const HomeyLib = require('..');
 
-describe('Capabilities', function () {
+describe('Capabilities', function() {
   const capabilities = {};
 
-  before(function () {
+  before(function() {
     const allCapabilities = HomeyLib.getCapabilities();
 
     for (const [capabilityId, capability] of Object.entries(allCapabilities)) {
@@ -19,7 +19,7 @@ describe('Capabilities', function () {
 
   // The mobile app will convert this to a 0-100 percentage slider. If the capability would have a
   // higher maximum, the slider would go to over 100%. For the capabilities we currently have, this doesn't make sense.
-  it('Percentage capabilities are from 0-1 when settable', function () {
+  it('Percentage capabilities are from 0-1 when settable', function() {
     const errors = [];
 
     for (const [capabilityId, capability] of Object.entries(capabilities)) {
@@ -46,7 +46,7 @@ describe('Capabilities', function () {
   });
 
   // The mobile app will not convert this to a percentage slider, as it is not settable. It will show the value as is.
-  it('Percentage capabilities are from 0-100 when not settable', function () {
+  it('Percentage capabilities are from 0-100 when not settable', function() {
     const errors = [];
 
     for (const [capabilityId, capability] of Object.entries(capabilities)) {
@@ -69,14 +69,14 @@ describe('Capabilities', function () {
   });
 
   const defaultTriggerSuffix = {
-    'boolean': ['_true', '_false'],
-    'number': ['_changed'],
-    'string': ['_changed'],
-    'enum': ['_changed'],
+    boolean: ['_true', '_false'],
+    number: ['_changed'],
+    string: ['_changed'],
+    enum: ['_changed'],
   };
 
   // Homey Core will have default handlers for these triggers if they are named correctly.
-  it('Trigger capabilities with a default suffix are valid', function () {
+  it('Trigger capabilities with a default suffix are valid', function() {
     const capabilities = HomeyLib.getCapabilities();
 
     const errors = [];
