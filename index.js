@@ -18,6 +18,11 @@ try {
   AIReviewer = require('./lib/AIReviewer');
   // eslint-disable-next-line global-require
   AIReviewerEnums = require('./lib/AIReviewer/enums');
+
+  if (typeof AIReviewer !== 'function') AIReviewer = undefined;
+  if (!AIReviewerEnums || typeof AIReviewerEnums !== 'object' || !Array.isArray(AIReviewerEnums.SEVERITIES)) {
+    AIReviewerEnums = undefined;
+  }
 } catch (err) {
   // Not available in this environment.
 }
