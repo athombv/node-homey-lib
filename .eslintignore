@@ -2,3 +2,5 @@
 /webpack
 /react-native
 /types
+/scripts
+webpack.config.js
