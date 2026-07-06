@@ -6,9 +6,11 @@
 >
 > Update the public site first (via the developer-docs repo), then re-derive this file. Direct edits drift away from what developers actually see and read.
 >
+> **Known drift (pending developer-docs sync):** the following are enforced by reviewers but not yet on the public site — the donation-links clarification in 1.3, the default-rocket-icon rule in 1.5, section 1.14 (SDK Version), and section 1.15 (Permissions). These need to be back-ported to the public guidelines page.
+>
 > **Severity wording is load-bearing.** The AI parses verbs literally: "must" / "is not allowed" / "will be rejected" → blocker; "should" / "avoid" / "make sure" → warning; "ideally" / "consider" → suggestion. When the public site says "should", do not write "must" here.
 >
-> This file is the **developer-facing** spec. The internal reviewer practice (see \`checklist.md\`) may be more lenient. **When the two conflict, reviewer practice wins for AI severity** — the AI follows what reviewers actually do, not aspirational developer guidance.
+> This file is the **developer-facing** spec. Reviewer practice (see \`checklist.md\`) may be more lenient in edge cases. **When the two conflict, reviewer practice wins for AI severity** — the AI follows what reviewers actually do, not aspirational developer guidance.
 
 Last synced: 2026-06-29.
 
@@ -30,7 +32,7 @@ Last synced: 2026-06-29.
 - Keep the text short and concise — one to two paragraphs maximum.
 - Do not list all the different features, capabilities, and Flow cards available.
 - Markdown format in the readme is not allowed and will not be rendered.
-- URLs in the readme are not allowed.
+- URLs in the readme are not allowed. This includes donation/sponsorship links (PayPal, Ko-fi, Buy Me a Coffee, GitHub Sponsors, etc.); use the `contributing.donate` field in `app.json` instead.
 - Don't create a changelog in the readme.
 
 ### 1.4 Images
@@ -56,6 +58,7 @@ Last synced: 2026-06-29.
 - Always use the full canvas (960×960px).
 - Don't use a driver icon as the app icon.
 - Don't use a background color in the icon.
+- The default Homey rocket icon (the placeholder shipped by `homey app create`) is not allowed as the final app icon.
 
 ### 1.6 Driver Icons
 - Canvas size should be 960×960px.
@@ -104,6 +107,14 @@ Last synced: 2026-06-29.
 ### 1.13 Account
 - A developer account name cannot contain emojis, special characters, or inappropriate language.
 - For verified developers: the account name should be the name of the company publishing the app.
+
+### 1.14 SDK Version
+- New apps must be built on Homey Apps SDK v3. Submissions on older SDK versions will be rejected.
+- Existing apps already live on an older SDK may keep their SDK, but new development should target v3.
+
+### 1.15 Permissions
+- Permissions in `app.json` must be justified by the app's core functionality. Do not request more than the app actually needs.
+- The `manager:homey:api` permission is a broad grant and is only appropriate for apps whose primary purpose requires programmatic access to Homey (e.g. tooling, automations that inspect Homey state). It is not needed to control devices via drivers, and requests that are not clearly justified will be rejected.
 
 ## 2. Legal
 
