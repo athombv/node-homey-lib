@@ -153,18 +153,18 @@
         "id": "heater_operation_mode_changed",
         "title": {
           "en": "The heater operation mode changed to",
-          "nl": "De verwarmingsmodus is veranderd naar",
+          "nl": "De verwarmingsstand is veranderd naar",
           "da": "Varmeapparatets driftstilstand er ændret til",
           "it": "La modalità di funzionamento del calorifero è passata a",
           "ko": "히터 작동 모드가 다음으로 변경되면",
-          "no": "Varmeelementets driftsmodus er endret til",
-          "pl": "Tryb grzania zmienił się na",
-          "ru": "Режим работы обогревателя изменен на",
+          "no": "Driftsmodus for varmeovnen ble endret til",
+          "pl": "Tryb pracy grzejnika zmienił się na",
+          "ru": "Режим работы обогревателя изменен на:",
           "sv": "Värmarens driftläge har ändrats till",
           "es": "El modo de calefacción ha cambiado a",
           "fr": "Le mode de fonctionnement du chauffage est passé à",
           "ar": "تم تغيير وضع تشغيل المدفأة إلى",
-          "de": "Der Betriebsmodus des Heizgeräts wurde geändert auf"
+          "de": "Der Betriebsmodus der Heizung wurde geändert auf"
         },
         "args": [
           {
@@ -207,7 +207,7 @@
         "id": "set_heater_operation_mode",
         "title": {
           "en": "Set the heater operation mode to",
-          "nl": "Stel de verwarmingsmodus in op",
+          "nl": "Stel de verwarmingsstand in op",
           "da": "Indstil varmeapparatets driftstilstand til",
           "it": "Imposta la modalità di funzionamento del calorifero su",
           "ko": "히터 작동 모드를 다음으로 설정",
