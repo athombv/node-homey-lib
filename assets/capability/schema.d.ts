@@ -32,6 +32,7 @@ export type Capability = {
   uiComponent?:
     | ("thermostat" | "media" | "toggle" | "slider" | "ternary" | "button" | "color" | "picker" | "sensor" | "battery")
     | null;
+  uiState?: boolean;
   [k: string]: unknown;
 } & (
     | {
