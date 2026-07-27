@@ -982,7 +982,7 @@
   "./assets/capability/capabilities/refrigerator_mode.json@values.0.title": "Normal",
   "./assets/capability/capabilities/refrigerator_mode.json@values.1.title": "Hurtig afkøling",
   "./assets/capability/capabilities/refrigerator_mode.json@values.2.title": "Hurtig nedfrysning",
-  "./assets/capability/capabilities/refrigerator_mode.json@$flow.triggers.0.title": "Køleskabstilstanden ændrede sig til",
+  "./assets/capability/capabilities/refrigerator_mode.json@$flow.triggers.0.title": "Køleskabstilstanden er ændret til",
   "./assets/capability/capabilities/refrigerator_mode.json@$flow.conditions.0.title": "Køleskabstilstanden !{{er|er ikke}}",
   "./assets/capability/capabilities/refrigerator_mode.json@$flow.actions.0.title": "Indstil køleskabstilstanden til",
   "./assets/capability/capabilities/speaker_album.json@title": "Album",
