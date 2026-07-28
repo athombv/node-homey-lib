@@ -78,7 +78,7 @@
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.triggers.1.title": "Ansluten",
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.conditions.0.title": "Är !{{ansluten|frånkopplad}}",
   "./assets/capability/capabilities/alarm_contact.json@title": "Kontaktlarm",
-  "./assets/capability/capabilities/alarm_contact.json@titleShort": "Kontakt",
+  "./assets/capability/capabilities/alarm_contact.json@titleShort": "Ingen kontakt",
   "./assets/capability/capabilities/alarm_contact.json@desc": "Kontaktsensor, t.ex. för fönster (sant/falskt)",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleTrue": "Kontaktalarm aktiverat",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleFalse": "Kontaktalarm inaktiverat",

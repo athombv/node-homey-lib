@@ -78,7 +78,7 @@
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.triggers.1.title": "Is connected",
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.conditions.0.title": "Is !{{connected|disconnected}}",
   "./assets/capability/capabilities/alarm_contact.json@title": "Contact Alarm",
-  "./assets/capability/capabilities/alarm_contact.json@titleShort": "Contact",
+  "./assets/capability/capabilities/alarm_contact.json@titleShort": "No Contact",
   "./assets/capability/capabilities/alarm_contact.json@desc": "Contact sensor, e.g. for windows (true/false)",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleTrue": "Contact alarm turned on",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleFalse": "Contact alarm turned off",

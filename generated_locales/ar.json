@@ -78,7 +78,7 @@
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.triggers.1.title": "متصل",
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.conditions.0.title": "هو !{{متصل|غير متصل}}",
   "./assets/capability/capabilities/alarm_contact.json@title": "إنذار الاتصال",
-  "./assets/capability/capabilities/alarm_contact.json@titleShort": "اتصال",
+  "./assets/capability/capabilities/alarm_contact.json@titleShort": "لا يوجد اتصال",
   "./assets/capability/capabilities/alarm_contact.json@desc": "مستشعر اتصال، على سبيل المثال للنوافذ (صحيح/خطأ)",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleTrue": "تم تشغيل إنذار الاتصال",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleFalse": "تم إيقاف إنذار الاتصال",

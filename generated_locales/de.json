@@ -78,7 +78,7 @@
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.triggers.1.title": "Ist verbunden",
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.conditions.0.title": "Ist !{{verbunden|nicht verbunden}}",
   "./assets/capability/capabilities/alarm_contact.json@title": "Kontaktalarm",
-  "./assets/capability/capabilities/alarm_contact.json@titleShort": "Kontakt",
+  "./assets/capability/capabilities/alarm_contact.json@titleShort": "Kein Kontakt",
   "./assets/capability/capabilities/alarm_contact.json@desc": "Kontaktsensor, z.B. für Windows (true/false)",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleTrue": "Kontakt-Alarm ist angegangen",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleFalse": "Kontakt-Alarm ist ausgegangen",

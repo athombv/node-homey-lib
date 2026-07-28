@@ -78,7 +78,7 @@
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.triggers.1.title": "Is verbonden",
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.conditions.0.title": "Is !{{verbonden|niet verbonden}}",
   "./assets/capability/capabilities/alarm_contact.json@title": "Contactalarm",
-  "./assets/capability/capabilities/alarm_contact.json@titleShort": "Contact",
+  "./assets/capability/capabilities/alarm_contact.json@titleShort": "Geen contact",
   "./assets/capability/capabilities/alarm_contact.json@desc": "Contact sensor, bijvoorbeeld voor ramen",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleTrue": "Contact alarm ging af",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleFalse": "Contact alarm ging uit",

@@ -78,7 +78,7 @@
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.triggers.1.title": "Подключено",
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.conditions.0.title": "Устройство !{{подключено|отключено}}",
   "./assets/capability/capabilities/alarm_contact.json@title": "Сигнал контакта",
-  "./assets/capability/capabilities/alarm_contact.json@titleShort": "Контакт",
+  "./assets/capability/capabilities/alarm_contact.json@titleShort": "Нет контакта",
   "./assets/capability/capabilities/alarm_contact.json@desc": "Контактный датчик, например для окон (истина/ложь)",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleTrue": "Контактный сигнал включен",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleFalse": "Контактный сигнал выключен",

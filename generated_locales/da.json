@@ -78,7 +78,7 @@
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.triggers.1.title": "Er tilsluttet",
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.conditions.0.title": "Er !{{tilsluttet|afbrudt}}",
   "./assets/capability/capabilities/alarm_contact.json@title": "Kontaktalarm",
-  "./assets/capability/capabilities/alarm_contact.json@titleShort": "Kontakt",
+  "./assets/capability/capabilities/alarm_contact.json@titleShort": "Ingen kontakt",
   "./assets/capability/capabilities/alarm_contact.json@desc": "Kontaktsensor, f.eks. til vinduer (sandt/falsk)",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleTrue": "Kontaktalarm blev aktiveret",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleFalse": "Kontaktalarm blev deaktiveret",

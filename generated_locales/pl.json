@@ -78,7 +78,7 @@
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.triggers.1.title": "Połączony",
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.conditions.0.title": "Jest !{{połączony|niepołączony}}",
   "./assets/capability/capabilities/alarm_contact.json@title": "Alarm kontaktu",
-  "./assets/capability/capabilities/alarm_contact.json@titleShort": "Kontakt",
+  "./assets/capability/capabilities/alarm_contact.json@titleShort": "Brak kontaktu",
   "./assets/capability/capabilities/alarm_contact.json@desc": "Czujnik otwarcia, np. okien (adekwatny/nieadekwatny)",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleTrue": "Alarm otwarcia włączony",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleFalse": "Alarm otwarcia wyłączony",

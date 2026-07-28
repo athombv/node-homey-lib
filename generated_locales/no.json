@@ -78,7 +78,7 @@
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.triggers.1.title": "Er tilkoblet",
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.conditions.0.title": "Er !{{frakoblet|tilkoblet}}",
   "./assets/capability/capabilities/alarm_contact.json@title": "Kontaktalarm",
-  "./assets/capability/capabilities/alarm_contact.json@titleShort": "Kontakt",
+  "./assets/capability/capabilities/alarm_contact.json@titleShort": "Ingen kontakt",
   "./assets/capability/capabilities/alarm_contact.json@desc": "Kontaktsensor, f.eks. for vindu (sant/usant)",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleTrue": "Kontaktalarm aktivert",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleFalse": "Kontaktalarm deaktivert",

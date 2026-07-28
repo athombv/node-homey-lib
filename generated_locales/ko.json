@@ -78,7 +78,7 @@
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.triggers.1.title": "연결되면",
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.conditions.0.title": "!{{연결되면|연결이 해제되면}}",
   "./assets/capability/capabilities/alarm_contact.json@title": "열림 감지",
-  "./assets/capability/capabilities/alarm_contact.json@titleShort": "접촉",
+  "./assets/capability/capabilities/alarm_contact.json@titleShort": "접촉 없음",
   "./assets/capability/capabilities/alarm_contact.json@desc": "접촉 센서, 예: 창문(참/거짓)",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleTrue": "열림",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleFalse": "닫힘",

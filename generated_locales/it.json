@@ -78,7 +78,7 @@
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.triggers.1.title": "È connesso",
   "./assets/capability/capabilities/alarm_connectivity.json@$flow.conditions.0.title": "È !{{connesso|disconnesso}}",
   "./assets/capability/capabilities/alarm_contact.json@title": "Allarme contatto",
-  "./assets/capability/capabilities/alarm_contact.json@titleShort": "Contatto",
+  "./assets/capability/capabilities/alarm_contact.json@titleShort": "Nessun contatto",
   "./assets/capability/capabilities/alarm_contact.json@desc": "Sensore di contatto, ad es. per le finestre (vero/falso)",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleTrue": "Allarme di contatto attivato",
   "./assets/capability/capabilities/alarm_contact.json@insightsTitleFalse": "Allarme di contatto disattivato",
