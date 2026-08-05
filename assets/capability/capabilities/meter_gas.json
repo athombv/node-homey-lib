@@ -16,7 +16,7 @@
     "ar": "عداد الغاز"
   },
   "min": 0,
-  "decimals": 2,
+  "decimals": 3,
   "chartType": "spline",
   "units": {
     "en": "m³",
