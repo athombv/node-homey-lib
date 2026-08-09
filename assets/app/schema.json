@@ -2213,7 +2213,7 @@
     },
     "apiScopes": {
       "type": "array",
-      "required": false,
+      "uniqueItems": true,
       "items": {
         "type": "string",
         "enum": [
@@ -2235,8 +2235,7 @@
           "homey.mood.readonly",
           "homey.logic.readonly"
         ]
-      },
-      "uniqueItems": true
+      }
     }
   }
 }
