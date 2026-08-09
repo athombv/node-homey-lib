@@ -1,87 +1,291 @@
 {
   "homey.alarm": {
     "title": {
-      "en": "Manage Alarms"
+      "en": "Manage Alarms",
+      "nl": "Alarmen beheren",
+      "de": "Alarme verwalten",
+      "fr": "Gérer les alarmes",
+      "it": "Gestisci gli allarmi",
+      "sv": "Hantera larm",
+      "no": "Administrer alarmer",
+      "es": "Gestionar alarmas",
+      "da": "Administrer alarmer",
+      "ru": "Управлять будильниками",
+      "pl": "Zarządzaj alarmami",
+      "ko": "알람 관리",
+      "ar": "إدارة الإنذارات"
     }
   },
   "homey.system.readonly": {
     "title": {
-      "en": "Read System Information"
+      "en": "Read System Information",
+      "nl": "Systeeminformatie lezen",
+      "de": "Systeminformationen lesen",
+      "fr": "Lire les informations système",
+      "it": "Leggi le informazioni di sistema",
+      "sv": "Läs systeminformation",
+      "no": "Les systeminformasjon",
+      "es": "Leer la información del sistema",
+      "da": "Læs systemoplysninger",
+      "ru": "Читать информацию о системе",
+      "pl": "Odczytuj informacje o systemie",
+      "ko": "시스템 정보 읽기",
+      "ar": "قراءة معلومات النظام"
     }
   },
   "homey.updates.readonly": {
     "title": {
-      "en": "View System Updates Information"
+      "en": "View System Updates Information",
+      "nl": "Informatie over systeemupdates bekijken",
+      "de": "Informationen zu Systemaktualisierungen anzeigen",
+      "fr": "Afficher les informations sur les mises à jour du système",
+      "it": "Visualizza le informazioni sugli aggiornamenti di sistema",
+      "sv": "Visa information om systemuppdateringar",
+      "no": "Vis informasjon om systemoppdateringer",
+      "es": "Ver información sobre las actualizaciones del sistema",
+      "da": "Se oplysninger om systemopdateringer",
+      "ru": "Просматривать информацию об обновлениях системы",
+      "pl": "Wyświetlaj informacje o aktualizacjach systemu",
+      "ko": "시스템 업데이트 정보 보기",
+      "ar": "عرض معلومات تحديثات النظام"
     }
   },
   "homey.geolocation.readonly": {
     "title": {
-      "en": "View Homey's Location"
+      "en": "View Homey's Location",
+      "nl": "Homey's locatie bekijken",
+      "de": "Homeys Standort anzeigen",
+      "fr": "Afficher la position de Homey",
+      "it": "Visualizza la posizione di Homey",
+      "sv": "Visa Homeys plats",
+      "no": "Vis Homeys posisjon",
+      "es": "Ver la ubicación de Homey",
+      "da": "Se Homeys placering",
+      "ru": "Просматривать местонахождение Homey",
+      "pl": "Wyświetlaj lokalizację Homey",
+      "ko": "Homey 위치 보기",
+      "ar": "عرض موقع Homey"
     }
   },
   "homey.zone.readonly": {
     "title": {
-      "en": "View Zones"
+      "en": "View Zones",
+      "nl": "Zones bekijken",
+      "de": "Zonen anzeigen",
+      "fr": "Afficher les zones",
+      "it": "Visualizza le zone",
+      "sv": "Visa zoner",
+      "no": "Vis soner",
+      "es": "Ver las zonas",
+      "da": "Se zoner",
+      "ru": "Просматривать зоны",
+      "pl": "Wyświetlaj strefy",
+      "ko": "영역 보기",
+      "ar": "عرض المناطق"
     }
   },
   "homey.device.readonly": {
     "title": {
-      "en": "View Devices"
+      "en": "View Devices",
+      "nl": "Apparaten bekijken",
+      "de": "Geräte anzeigen",
+      "fr": "Afficher les appareils",
+      "it": "Visualizza i dispositivi",
+      "sv": "Visa enheter",
+      "no": "Vis enheter",
+      "es": "Ver los dispositivos",
+      "da": "Se enheder",
+      "ru": "Просматривать устройства",
+      "pl": "Wyświetlaj urządzenia",
+      "ko": "제품 보기",
+      "ar": "عرض الأجهزة"
     }
   },
   "homey.device.control": {
     "title": {
-      "en": "Control Devices"
+      "en": "Control Devices",
+      "nl": "Apparaten bedienen",
+      "de": "Geräte steuern",
+      "fr": "Contrôler les appareils",
+      "it": "Controlla i dispositivi",
+      "sv": "Styr enheter",
+      "no": "Kontroller enheter",
+      "es": "Controlar los dispositivos",
+      "da": "Kontroller enheder",
+      "ru": "Управлять устройствами",
+      "pl": "Steruj urządzeniami",
+      "ko": "제품 제어",
+      "ar": "التحكم في الأجهزة"
     }
   },
   "homey.flow.readonly": {
     "title": {
-      "en": "View Flows"
+      "en": "View Flows",
+      "nl": "Flows bekijken",
+      "de": "Flows anzeigen",
+      "fr": "Afficher les Flows",
+      "it": "Visualizza i Flow",
+      "sv": "Visa flöden",
+      "no": "Vis flows",
+      "es": "Ver los Flows",
+      "da": "Se flows",
+      "ru": "Просматривать сценарии",
+      "pl": "Wyświetlaj przepływy",
+      "ko": "Flow 보기",
+      "ar": "عرض التدفقات"
     }
   },
   "homey.user.readonly": {
     "title": {
-      "en": "View Users"
+      "en": "View Users",
+      "nl": "Gebruikers bekijken",
+      "de": "Benutzer anzeigen",
+      "fr": "Afficher les utilisateurs",
+      "it": "Visualizza gli utenti",
+      "sv": "Visa användare",
+      "no": "Vis brukere",
+      "es": "Ver los usuarios",
+      "da": "Se brugere",
+      "ru": "Просматривать пользователей",
+      "pl": "Wyświetlaj użytkowników",
+      "ko": "사용자 보기",
+      "ar": "عرض المستخدمين"
     }
   },
   "homey.user.self": {
     "title": {
-      "en": "View Your Own User"
+      "en": "View Your Own User",
+      "nl": "Je eigen gebruikersaccount bekijken",
+      "de": "Eigenes Benutzerkonto anzeigen",
+      "fr": "Afficher votre propre compte utilisateur",
+      "it": "Visualizza il tuo account utente",
+      "sv": "Visa ditt eget användarkonto",
+      "no": "Vis din egen brukerkonto",
+      "es": "Ver tu propia cuenta de usuario",
+      "da": "Se din egen brugerkonto",
+      "ru": "Просматривать собственную учетную запись пользователя",
+      "pl": "Wyświetlaj własne konto użytkownika",
+      "ko": "내 사용자 계정 보기",
+      "ar": "عرض حساب المستخدم الخاص بك"
     }
   },
   "homey.app.readonly": {
     "title": {
-      "en": "View Apps"
+      "en": "View Apps",
+      "nl": "Apps bekijken",
+      "de": "Apps anzeigen",
+      "fr": "Afficher les apps",
+      "it": "Visualizza le app",
+      "sv": "Visa appar",
+      "no": "Vis apper",
+      "es": "Ver las aplicaciones",
+      "da": "Se apps",
+      "ru": "Просматривать приложения",
+      "pl": "Wyświetlaj aplikacje",
+      "ko": "앱 보기",
+      "ar": "عرض التطبيقات"
     }
   },
   "homey.app.control": {
     "title": {
-      "en": "Control Apps"
+      "en": "Control Apps",
+      "nl": "Apps bedienen",
+      "de": "Apps steuern",
+      "fr": "Contrôler les apps",
+      "it": "Controlla le app",
+      "sv": "Styr appar",
+      "no": "Kontroller apper",
+      "es": "Controlar las aplicaciones",
+      "da": "Styr apps",
+      "ru": "Управлять приложениями",
+      "pl": "Steruj aplikacjami",
+      "ko": "앱 제어",
+      "ar": "التحكم في التطبيقات"
     }
   },
   "homey.presence.readonly": {
     "title": {
-      "en": "View Presence"
+      "en": "View Presence",
+      "nl": "Aanwezigheid bekijken",
+      "de": "Anwesenheit anzeigen",
+      "fr": "Afficher les présences",
+      "it": "Visualizza le presenze",
+      "sv": "Visa närvaro",
+      "no": "Vis tilstedeværelse",
+      "es": "Ver la presencia",
+      "da": "Se tilstedeværelse",
+      "ru": "Просматривать данные о присутствии",
+      "pl": "Wyświetlaj obecność",
+      "ko": "재실 상태 보기",
+      "ar": "عرض حالة التواجد"
     }
   },
   "homey.insights.readonly": {
     "title": {
-      "en": "View Insights"
+      "en": "View Insights",
+      "nl": "Inzichten bekijken",
+      "de": "Einblicke anzeigen",
+      "fr": "Afficher les analyses",
+      "it": "Visualizza le analisi",
+      "sv": "Visa insikter",
+      "no": "Vis innsikt",
+      "es": "Ver los análisis",
+      "da": "Se indsigt",
+      "ru": "Просматривать аналитику",
+      "pl": "Wyświetlaj statystyki",
+      "ko": "분석 보기",
+      "ar": "عرض الرؤى"
     }
   },
   "homey.energy.readonly": {
     "title": {
-      "en": "View Energy-related Information"
+      "en": "View Energy-related Information",
+      "nl": "Energiegerelateerde informatie bekijken",
+      "de": "Energiebezogene Informationen anzeigen",
+      "fr": "Afficher les informations relatives à l'énergie",
+      "it": "Visualizza le informazioni relative all'energia",
+      "sv": "Visa energirelaterad information",
+      "no": "Vis energirelatert informasjon",
+      "es": "Ver información relacionada con la energía",
+      "da": "Se energirelaterede oplysninger",
+      "ru": "Просматривать информацию об энергопотреблении",
+      "pl": "Wyświetlaj informacje związane z energią",
+      "ko": "에너지 관련 정보 보기",
+      "ar": "عرض المعلومات المتعلقة بالطاقة"
     }
   },
   "homey.mood.readonly": {
     "title": {
-      "en": "View Moods"
+      "en": "View Moods",
+      "nl": "Sferen bekijken",
+      "de": "Stimmungen anzeigen",
+      "fr": "Afficher les ambiances",
+      "it": "Visualizza le atmosfere",
+      "sv": "Visa stämningar",
+      "no": "Vis stemninger",
+      "es": "Ver los ambientes",
+      "da": "Se stemninger",
+      "ru": "Просматривать настроения",
+      "pl": "Wyświetlaj nastroje",
+      "ko": "분위기 보기",
+      "ar": "عرض الأجواء"
     }
   },
   "homey.logic.readonly": {
     "title": {
-      "en": "View Logic Variables"
+      "en": "View Logic Variables",
+      "nl": "Logica-variabelen bekijken",
+      "de": "Logikvariablen anzeigen",
+      "fr": "Afficher les variables logiques",
+      "it": "Visualizza le variabili logiche",
+      "sv": "Visa logikvariabler",
+      "no": "Vis logikkvariabler",
+      "es": "Ver las variables lógicas",
+      "da": "Se logikvariabler",
+      "ru": "Просматривать логические переменные",
+      "pl": "Wyświetlaj zmienne logiczne",
+      "ko": "논리 변수 보기",
+      "ar": "عرض المتغيرات المنطقية"
     }
   }
 }
