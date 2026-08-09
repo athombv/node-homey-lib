@@ -55,6 +55,8 @@ module.exports.getAppLocales = App.getLocales.bind(App);
 module.exports.getAppCategories = App.getCategories.bind(App);
 /** @type {typeof App.getPermissions} */
 module.exports.getAppPermissions = App.getPermissions.bind(App);
+/** @type {typeof App.getAPIScopes} */
+module.exports.getAppAPIScopes = App.getAPIScopes.bind(App);
 /** @type {typeof App.getBrandColor} */
 module.exports.getAppBrandColor = App.getBrandColor.bind(App);
 

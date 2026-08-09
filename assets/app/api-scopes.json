@@ -1,0 +1,87 @@
+{
+  "homey.alarm": {
+    "title": {
+      "en": "Manage Alarms"
+    }
+  },
+  "homey.system.readonly": {
+    "title": {
+      "en": "Read System Information"
+    }
+  },
+  "homey.updates.readonly": {
+    "title": {
+      "en": "View System Updates Information"
+    }
+  },
+  "homey.geolocation.readonly": {
+    "title": {
+      "en": "View Homey's Location"
+    }
+  },
+  "homey.zone.readonly": {
+    "title": {
+      "en": "View Zones"
+    }
+  },
+  "homey.device.readonly": {
+    "title": {
+      "en": "View Devices"
+    }
+  },
+  "homey.device.control": {
+    "title": {
+      "en": "Control Devices"
+    }
+  },
+  "homey.flow.readonly": {
+    "title": {
+      "en": "View Flows"
+    }
+  },
+  "homey.user.readonly": {
+    "title": {
+      "en": "View Users"
+    }
+  },
+  "homey.user.self": {
+    "title": {
+      "en": "View Your Own User"
+    }
+  },
+  "homey.app.readonly": {
+    "title": {
+      "en": "View Apps"
+    }
+  },
+  "homey.app.control": {
+    "title": {
+      "en": "Control Apps"
+    }
+  },
+  "homey.presence.readonly": {
+    "title": {
+      "en": "View Presence"
+    }
+  },
+  "homey.insights.readonly": {
+    "title": {
+      "en": "View Insights"
+    }
+  },
+  "homey.energy.readonly": {
+    "title": {
+      "en": "View Energy-related Information"
+    }
+  },
+  "homey.mood.readonly": {
+    "title": {
+      "en": "View Moods"
+    }
+  },
+  "homey.logic.readonly": {
+    "title": {
+      "en": "View Logic Variables"
+    }
+  }
+}
