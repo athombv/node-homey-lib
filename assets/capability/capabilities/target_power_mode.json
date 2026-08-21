@@ -79,17 +79,17 @@
         "id": "target_power_mode_changed",
         "title": {
           "en": "The target power mode changed to",
-          "nl": "De doelvermogensmodus is veranderd naar",
+          "nl": "De doelvermogensmodus is veranderd in",
           "de": "Der Zielleistungsmodus wurde geändert auf",
           "fr": "Le mode de puissance cible est passé à",
           "it": "La modalità potenza target è passata a",
           "sv": "Måleffektläget ändrades till",
-          "no": "Ønsket effekt-modus ble endret til",
+          "no": "Ønsket effekt-modusen ble endret til",
           "es": "El modo de potencia objetivo ha cambiado a",
           "da": "Måleffekttilstanden blev ændret til",
-          "ru": "Режим целевой мощности изменен на",
+          "ru": "Режим целевой мощности изменен на:",
           "pl": "Tryb mocy docelowej zmienił się na",
-          "ko": "충전전력 제한 모드가 다음으로 변경되면",
+          "ko": "충전전력 제한값 모드가 다음으로 변경되면",
           "ar": "تم تغيير وضع الطاقة المستهدفة إلى"
         },
         "hint": {
@@ -127,11 +127,11 @@
           "it": "La modalità potenza target !{{è|non è}}",
           "sv": "Måleffektläget !{{är|är inte}}",
           "no": "Ønsket effekt-modus !{{er|er ikke}}",
-          "es": "El modo de potencia objetivo !{{es|no es}}",
+          "es": "El modo de potencia objetivo !{{está!no está}}",
           "da": "Måleffekttilstanden !{{er|er ikke}}",
           "ru": "Режим целевой мощности !{{|не}}",
           "pl": "Tryb mocy docelowej !{{jest|nie jest}}",
-          "ko": "충전전력 제한 모드가 다음!{{이면|이 아니면}}",
+          "ko": "충전전력 제한값 모드가 다음!{{과 같으면|이 아니면}}",
           "ar": "وضع الطاقة المستهدفة !{{هو|ليس}}"
         },
         "hint": {
@@ -167,13 +167,13 @@
           "de": "Stelle den Zielleistungsmodus auf",
           "fr": "Définir le mode de puissance cible sur",
           "it": "Imposta la modalità potenza target su",
-          "sv": "Ställ in måleffektläget på",
+          "sv": "Ställ in måleffektläget till",
           "no": "Sett ønsket effekt-modus til",
           "es": "Ajustar el modo de potencia objetivo en",
           "da": "Indstil måleffekttilstanden til",
-          "ru": "Установить режим целевой мощности на",
+          "ru": "Установить режим целевой мощности на:",
           "pl": "Ustaw tryb mocy docelowej na",
-          "ko": "충전전력 제한 모드를 다음으로 설정",
+          "ko": "충전전력 제한값 모드를 다음으로 설정",
           "ar": "ضبط وضع الطاقة المستهدفة على"
         },
         "hint": {

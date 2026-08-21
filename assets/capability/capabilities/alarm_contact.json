@@ -16,19 +16,19 @@
     "ar": "إنذار الاتصال"
   },
   "titleShort": {
-    "en": "Contact",
-    "nl": "Contact",
-    "de": "Kontakt",
-    "fr": "Contact",
-    "it": "Contatto",
-    "sv": "Kontakt",
-    "no": "Kontakt",
-    "es": "Contacto",
-    "da": "Kontakt",
-    "ru": "Контакт",
-    "pl": "Kontakt",
-    "ko": "접촉",
-    "ar": "اتصال"
+    "en": "No Contact",
+    "nl": "Geen contact",
+    "de": "Kein Kontakt",
+    "fr": "Aucun contact",
+    "it": "Nessun contatto",
+    "sv": "Ingen kontakt",
+    "no": "Ingen kontakt",
+    "es": "No hay contacto",
+    "da": "Ingen kontakt",
+    "ru": "Нет контакта",
+    "pl": "Brak kontaktu",
+    "ko": "접촉 없음",
+    "ar": "لا يوجد اتصال"
   },
   "desc": {
     "en": "Contact sensor, e.g. for windows (true/false)",
