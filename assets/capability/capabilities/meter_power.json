@@ -15,7 +15,7 @@
     "ko": "전력량",
     "ar": "الطاقة"
   },
-  "decimals": 2,
+  "decimals": 3,
   "units": {
     "en": "kWh",
     "ru": "кВтч",
