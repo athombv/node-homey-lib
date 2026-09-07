@@ -68,6 +68,33 @@ describe('Capabilities', function() {
     }
   });
 
+  // Homey decides whether to convert a value to Fahrenheit by comparing a capability's resolved
+  // units against the literal '°C'. Units are resolved per language, so translating the symbol
+  // silently disables the conversion for that language. Add a unit here once Homey matches on it.
+  const unitsMatchedByHomey = ['°C'];
+
+  it('Units that Homey matches on are not translated', function() {
+    const capabilities = HomeyLib.getCapabilities();
+
+    const errors = [];
+
+    for (const [capabilityId, capability] of Object.entries(capabilities)) {
+      const unit = capability.units ? capability.units.en : undefined;
+
+      if (!unitsMatchedByHomey.includes(unit)) continue;
+
+      for (const [language, translation] of Object.entries(capability.units)) {
+        if (translation === unit) continue;
+
+        errors.push(`The capability ${capabilityId} has units "${translation}" for language "${language}", which must stay "${unit}" for Homey to convert it`);
+      }
+    }
+
+    if (errors.length > 0) {
+      throw new Error(errors.join('\n'));
+    }
+  });
+
   const defaultTriggerSuffix = {
     boolean: ['_true', '_false'],
     number: ['_changed'],
