@@ -1257,6 +1257,22 @@
           "type": "boolean"
         }
       }
+    },
+    "energyPhase": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["currentCapability", "voltageCapability", "powerCapability"],
+      "properties": {
+        "currentCapability": {
+          "type": "string"
+        },
+        "voltageCapability": {
+          "type": "string"
+        },
+        "powerCapability": {
+          "type": "string"
+        }
+      }
     }
   },
   "required": ["id", "name", "version", "compatibility", "author"],
@@ -1545,6 +1561,10 @@
                 "type": "boolean",
                 "enum": [true]
               },
+              "gridConnection": {
+                "type": "boolean",
+                "enum": [true]
+              },
               "homeBattery": {
                 "type": "boolean",
                 "enum": [true]
@@ -1554,6 +1574,21 @@
               },
               "meterPowerExportedCapability": {
                 "type": "string"
+              },
+              "phases": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "l1": {
+                    "$ref": "#/definitions/energyPhase"
+                  },
+                  "l2": {
+                    "$ref": "#/definitions/energyPhase"
+                  },
+                  "l3": {
+                    "$ref": "#/definitions/energyPhase"
+                  }
+                }
               },
               "batteries": {
                 "type": "array",

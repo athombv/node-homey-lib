@@ -31,6 +31,14 @@ function createIntegrity(buffer, hashName = 'sha256') {
   return `${hashName}:${digest}`;
 }
 
+function phase(suffix) {
+  return {
+    currentCapability: `measure_current.${suffix}`,
+    voltageCapability: `measure_voltage.${suffix}`,
+    powerCapability: `measure_power.${suffix}`,
+  };
+}
+
 describe('HomeyLib.App#validate() driver manifest', function() {
   this.slow(500);
 
@@ -2125,6 +2133,409 @@ describe('HomeyLib.App#validate() driver manifest', function() {
       debug: /drivers.test firmwareUpdates are only supported for Zigbee and Zwave drivers/i,
       publish: /drivers.test firmwareUpdates are only supported for Zigbee and Zwave drivers/i,
       verified: /drivers.test firmwareUpdates are only supported for Zigbee and Zwave drivers/i,
+    });
+  });
+  /*
+   * Driver energy
+   */
+
+  it('`energy.phases` accepts `.l1` capability names', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=13.6.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: [
+          'measure_current.l1', 'measure_voltage.l1', 'measure_power.l1',
+          'measure_current.l2', 'measure_voltage.l2', 'measure_power.l2',
+          'measure_current.l3', 'measure_voltage.l3', 'measure_power.l3',
+        ],
+        energy: {
+          gridConnection: true,
+          phases: {
+            l1: phase('l1'),
+            l2: phase('l2'),
+            l3: phase('l3'),
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
+
+  it('`energy.phases` accepts `.phase1` capability names', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=13.6.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: [
+          'measure_current.phase1', 'measure_voltage.phase1', 'measure_power.phase1',
+          'measure_current.phase2', 'measure_voltage.phase2', 'measure_power.phase2',
+          'measure_current.phase3', 'measure_voltage.phase3', 'measure_power.phase3',
+        ],
+        energy: {
+          gridConnection: true,
+          phases: {
+            l1: phase('phase1'),
+            l2: phase('phase2'),
+            l3: phase('phase3'),
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
+
+  it('`energy.phases` accepts a single-phase meter', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=13.6.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
+        energy: {
+          gridConnection: true,
+          phases: {
+            l1: phase('l1'),
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
+
+  it('`energy.phases` accepts unsuffixed capability names', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=13.6.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['measure_current', 'measure_voltage', 'measure_power'],
+        energy: {
+          gridConnection: true,
+          phases: {
+            l1: {
+              currentCapability: 'measure_current',
+              voltageCapability: 'measure_voltage',
+              powerCapability: 'measure_power',
+            },
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
+
+  it('`energy.gridConnection` requires compatibility >=13.6.0', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=13.5.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
+        energy: {
+          gridConnection: true,
+          phases: {
+            l1: phase('l1'),
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /drivers\.test\.energy\.gridConnection requires a compatibility of at least >=13\.6\.0/i,
+      publish: /drivers\.test\.energy\.gridConnection requires a compatibility of at least >=13\.6\.0/i,
+      verified: /drivers\.test\.energy\.gridConnection requires a compatibility of at least >=13\.6\.0/i,
+    });
+  });
+
+  it('`energy.phases` requires compatibility >=13.6.0', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=13.5.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
+        energy: {
+          phases: {
+            l1: phase('l1'),
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /drivers\.test\.energy\.phases requires a compatibility of at least >=13\.6\.0/i,
+      publish: /drivers\.test\.energy\.phases requires a compatibility of at least >=13\.6\.0/i,
+      verified: /drivers\.test\.energy\.phases requires a compatibility of at least >=13\.6\.0/i,
+    });
+  });
+
+  it('`energy.gridConnection` requires `energy.phases.l1`', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=13.6.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
+        energy: {
+          gridConnection: true,
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /drivers\.test has 'energy\.gridConnection' set to true, but is missing 'energy\.phases\.l1'\./i,
+      publish: /drivers\.test has 'energy\.gridConnection' set to true, but is missing 'energy\.phases\.l1'\./i,
+      verified: /drivers\.test has 'energy\.gridConnection' set to true, but is missing 'energy\.phases\.l1'\./i,
+    });
+  });
+
+  it('`energy.gridConnection` requires `energy.phases.l1` when `phases` is empty', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=13.6.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
+        energy: {
+          gridConnection: true,
+          phases: {},
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /drivers\.test has 'energy\.gridConnection' set to true, but is missing 'energy\.phases\.l1'\./i,
+      publish: /drivers\.test has 'energy\.gridConnection' set to true, but is missing 'energy\.phases\.l1'\./i,
+      verified: /drivers\.test has 'energy\.gridConnection' set to true, but is missing 'energy\.phases\.l1'\./i,
+    });
+  });
+
+  it('`energy.phases.l2` requires `energy.phases.l1`', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=13.6.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['measure_current.l2', 'measure_voltage.l2', 'measure_power.l2'],
+        energy: {
+          phases: {
+            l2: phase('l2'),
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /drivers\.test has 'energy\.phases\.l2' but is missing 'energy\.phases\.l1'\./i,
+      publish: /drivers\.test has 'energy\.phases\.l2' but is missing 'energy\.phases\.l1'\./i,
+      verified: /drivers\.test has 'energy\.phases\.l2' but is missing 'energy\.phases\.l1'\./i,
+    });
+  });
+
+  it('`energy.phases.l3` requires `energy.phases.l2`', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=13.6.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: [
+          'measure_current.l1', 'measure_voltage.l1', 'measure_power.l1',
+          'measure_current.l3', 'measure_voltage.l3', 'measure_power.l3',
+        ],
+        energy: {
+          phases: {
+            l1: phase('l1'),
+            l3: phase('l3'),
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: /drivers\.test has 'energy\.phases\.l3' but is missing 'energy\.phases\.l2'\./i,
+      publish: /drivers\.test has 'energy\.phases\.l3' but is missing 'energy\.phases\.l2'\./i,
+      verified: /drivers\.test has 'energy\.phases\.l3' but is missing 'energy\.phases\.l2'\./i,
+    });
+  });
+
+  it('`energy.phases.l1.currentCapability` must be an instance of `measure_current`', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=13.6.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
+        energy: {
+          gridConnection: true,
+          phases: {
+            l1: {
+              currentCapability: 'measure_power.l1',
+              voltageCapability: 'measure_voltage.l1',
+              powerCapability: 'measure_power.l1',
+            },
+          },
+        },
+      }],
+    });
+
+    const message = /drivers\.test has 'energy\.phases\.l1\.currentCapability': 'measure_power\.l1' but only instances of 'measure_current' are allowed\./i;
+
+    await assertValidates(app, {
+      debug: message,
+      publish: message,
+      verified: message,
+    });
+  });
+
+  it('`energy.phases.l1.voltageCapability` must be an instance of `measure_voltage`', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=13.6.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
+        energy: {
+          gridConnection: true,
+          phases: {
+            l1: {
+              currentCapability: 'measure_current.l1',
+              voltageCapability: 'measure_current.l1',
+              powerCapability: 'measure_power.l1',
+            },
+          },
+        },
+      }],
+    });
+
+    const message = /drivers\.test has 'energy\.phases\.l1\.voltageCapability': 'measure_current\.l1' but only instances of 'measure_voltage' are allowed\./i;
+
+    await assertValidates(app, {
+      debug: message,
+      publish: message,
+      verified: message,
+    });
+  });
+
+  it('`energy.phases.l1.powerCapability` must be an instance of `measure_power`', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=13.6.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['measure_current.l1', 'measure_voltage.l1', 'meter_power.l1'],
+        energy: {
+          gridConnection: true,
+          phases: {
+            l1: {
+              currentCapability: 'measure_current.l1',
+              voltageCapability: 'measure_voltage.l1',
+              powerCapability: 'meter_power.l1',
+            },
+          },
+        },
+      }],
+    });
+
+    const message = /drivers\.test has 'energy\.phases\.l1\.powerCapability': 'meter_power\.l1' but only instances of 'measure_power' are allowed\./i;
+
+    await assertValidates(app, {
+      debug: message,
+      publish: message,
+      verified: message,
+    });
+  });
+
+  it('`energy.phases` rejects an unknown phase key', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=13.6.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['measure_current.l4', 'measure_voltage.l4', 'measure_power.l4'],
+        energy: {
+          phases: {
+            l4: phase('l4'),
+          },
+        },
+      }],
+    });
+
+    const message = /drivers\['test'\]\.energy\.phases should NOT have additional properties/i;
+
+    await assertValidates(app, {
+      debug: message,
+      publish: message,
+      verified: message,
+    });
+  });
+
+  it('`energy.phases.l1` requires all three capability references', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      compatibility: '>=13.6.0',
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
+        energy: {
+          phases: {
+            l1: {
+              currentCapability: 'measure_current.l1',
+            },
+          },
+        },
+      }],
+    });
+
+    const message = /drivers\['test'\]\.energy\.phases\.l1 should have required property 'voltageCapability'/i;
+
+    await assertValidates(app, {
+      debug: message,
+      publish: message,
+      verified: message,
+    });
+  });
+
+  it('app-owned capability ids may not contain a `.`', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [baseDriverManifest],
+      capabilities: {
+        'mycap.l1': {
+          type: 'number',
+          title: 'Test',
+          getable: true,
+          setable: false,
+        },
+      },
+    });
+
+    await assertValidates(app, {
+      debug: /Character '\.' is reserved for subcapabilities\./i,
+      publish: /Character '\.' is reserved for subcapabilities\./i,
+      verified: /Character '\.' is reserved for subcapabilities\./i,
     });
   });
 });
