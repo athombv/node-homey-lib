@@ -2142,7 +2142,6 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`energy.phases` accepts `.l1` capability names', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=13.6.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: [
@@ -2171,7 +2170,6 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`energy.phases` accepts `.phase1` capability names', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=13.6.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: [
@@ -2200,7 +2198,6 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`energy.phases` accepts a single-phase meter', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=13.6.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
@@ -2223,7 +2220,6 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`energy.phases` accepts unsuffixed capability names', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=13.6.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['measure_current', 'measure_voltage', 'measure_power'],
@@ -2247,55 +2243,9 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
   });
 
-  it('`energy.gridConnection` requires compatibility >=13.6.0', async function() {
-    const app = mockApp({
-      ...baseAppManifest,
-      compatibility: '>=13.5.0',
-      drivers: [{
-        ...baseDriverManifest,
-        capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
-        energy: {
-          gridConnection: true,
-          phases: {
-            l1: phase('l1'),
-          },
-        },
-      }],
-    });
-
-    await assertValidates(app, {
-      debug: /drivers\.test\.energy\.gridConnection requires a compatibility of at least >=13\.6\.0/i,
-      publish: /drivers\.test\.energy\.gridConnection requires a compatibility of at least >=13\.6\.0/i,
-      verified: /drivers\.test\.energy\.gridConnection requires a compatibility of at least >=13\.6\.0/i,
-    });
-  });
-
-  it('`energy.phases` requires compatibility >=13.6.0', async function() {
-    const app = mockApp({
-      ...baseAppManifest,
-      compatibility: '>=13.5.0',
-      drivers: [{
-        ...baseDriverManifest,
-        capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
-        energy: {
-          phases: {
-            l1: phase('l1'),
-          },
-        },
-      }],
-    });
-
-    await assertValidates(app, {
-      debug: /drivers\.test\.energy\.phases requires a compatibility of at least >=13\.6\.0/i,
-      publish: /drivers\.test\.energy\.phases requires a compatibility of at least >=13\.6\.0/i,
-      verified: /drivers\.test\.energy\.phases requires a compatibility of at least >=13\.6\.0/i,
-    });
-  });
-
   it('`energy.gridConnection` requires `energy.phases.l1`', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=13.6.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
@@ -2315,7 +2265,6 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`energy.gridConnection` requires `energy.phases.l1` when `phases` is empty', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=13.6.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
@@ -2336,7 +2285,6 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`energy.phases.l2` requires `energy.phases.l1`', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=13.6.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['measure_current.l2', 'measure_voltage.l2', 'measure_power.l2'],
@@ -2358,7 +2306,6 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`energy.phases.l3` requires `energy.phases.l2`', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=13.6.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: [
@@ -2384,7 +2331,6 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`energy.phases.l1.currentCapability` must be an instance of `measure_current`', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=13.6.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
@@ -2413,7 +2359,6 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`energy.phases.l1.voltageCapability` must be an instance of `measure_voltage`', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=13.6.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
@@ -2442,7 +2387,6 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`energy.phases.l1.powerCapability` must be an instance of `measure_power`', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=13.6.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['measure_current.l1', 'measure_voltage.l1', 'meter_power.l1'],
@@ -2471,7 +2415,6 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`energy.phases` rejects an unknown phase key', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=13.6.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['measure_current.l4', 'measure_voltage.l4', 'measure_power.l4'],
@@ -2495,7 +2438,6 @@ describe('HomeyLib.App#validate() driver manifest', function() {
   it('`energy.phases.l1` requires all three capability references', async function() {
     const app = mockApp({
       ...baseAppManifest,
-      compatibility: '>=13.6.0',
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
