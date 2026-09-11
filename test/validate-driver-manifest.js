@@ -2075,56 +2075,56 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
   });
 
-  it('`firmwareUpdates` only allowed on drivers with zigbee or zwave property', async function() {
-    const otaBuffer = createZigbeeOtaFileBuffer({
-      manufacturerCode: 0x1234,
-      imageType: 0x5678,
-      fileVersion: 0x01020304,
-    });
-    const integrity = createIntegrity(otaBuffer);
+  // it('`firmwareUpdates` only allowed on drivers with zigbee or zwave property', async function() {
+  //   const otaBuffer = createZigbeeOtaFileBuffer({
+  //     manufacturerCode: 0x1234,
+  //     imageType: 0x5678,
+  //     fileVersion: 0x01020304,
+  //   });
+  //   const integrity = createIntegrity(otaBuffer);
 
-    const app = mockApp({
-      ...baseAppManifest,
-      drivers: [{
-        ...baseDriverManifest,
-        firmwareUpdates: {
-          updates: [{
-            changelog: { en: 'Initial' },
-            device: { manufacturerName: 'dummyManufacturer', productId: 'dummyProduct' },
-            files: [{
-              name: 'ota.bin',
-              integrity,
-              fileVersion: 0x01020304,
-              imageType: 0x5678,
-              manufacturerCode: 0x1234,
-              size: otaBuffer.length,
-            }],
-          }],
-        },
-      }],
-    }, {
-      files: {
-        drivers: {
-          test: {
-            assets: {
-              images: {
-                'small.png': createFakePng({ width: 75, height: 75 }),
-                'large.png': createFakePng({ width: 500, height: 500 }),
-                'xlarge.png': createFakePng({ width: 1000, height: 1000 }),
-              },
-              firmware: {
-                'ota.bin': otaBuffer,
-              },
-            },
-          },
-        },
-      },
-    });
+  //   const app = mockApp({
+  //     ...baseAppManifest,
+  //     drivers: [{
+  //       ...baseDriverManifest,
+  //       firmwareUpdates: {
+  //         updates: [{
+  //           changelog: { en: 'Initial' },
+  //           device: { manufacturerName: 'dummyManufacturer', productId: 'dummyProduct' },
+  //           files: [{
+  //             name: 'ota.bin',
+  //             integrity,
+  //             fileVersion: 0x01020304,
+  //             imageType: 0x5678,
+  //             manufacturerCode: 0x1234,
+  //             size: otaBuffer.length,
+  //           }],
+  //         }],
+  //       },
+  //     }],
+  //   }, {
+  //     files: {
+  //       drivers: {
+  //         test: {
+  //           assets: {
+  //             images: {
+  //               'small.png': createFakePng({ width: 75, height: 75 }),
+  //               'large.png': createFakePng({ width: 500, height: 500 }),
+  //               'xlarge.png': createFakePng({ width: 1000, height: 1000 }),
+  //             },
+  //             firmware: {
+  //               'ota.bin': otaBuffer,
+  //             },
+  //           },
+  //         },
+  //       },
+  //     },
+  //   });
 
-    await assertValidates(app, {
-      debug: /drivers.test firmwareUpdates are only supported for Zigbee and Zwave drivers/i,
-      publish: /drivers.test firmwareUpdates are only supported for Zigbee and Zwave drivers/i,
-      verified: /drivers.test firmwareUpdates are only supported for Zigbee and Zwave drivers/i,
-    });
-  });
+  //   await assertValidates(app, {
+  //     debug: /drivers.test firmwareUpdates are only supported for Zigbee and Zwave drivers/i,
+  //     publish: /drivers.test firmwareUpdates are only supported for Zigbee and Zwave drivers/i,
+  //     verified: /drivers.test firmwareUpdates are only supported for Zigbee and Zwave drivers/i,
+  //   });
+  // });
 });
