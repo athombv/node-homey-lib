@@ -1261,15 +1261,15 @@
     "energyPhase": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["currentCapability", "voltageCapability", "powerCapability"],
+      "required": ["measureCurrentCapability", "measureVoltageCapability", "measurePowerCapability"],
       "properties": {
-        "currentCapability": {
+        "measureCurrentCapability": {
           "type": "string"
         },
-        "voltageCapability": {
+        "measureVoltageCapability": {
           "type": "string"
         },
-        "powerCapability": {
+        "measurePowerCapability": {
           "type": "string"
         }
       }
@@ -1558,10 +1558,6 @@
                 "enum": [true]
               },
               "evCharger": {
-                "type": "boolean",
-                "enum": [true]
-              },
-              "gridConnection": {
                 "type": "boolean",
                 "enum": [true]
               },

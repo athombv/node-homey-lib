@@ -33,9 +33,9 @@ function createIntegrity(buffer, hashName = 'sha256') {
 
 function phase(suffix) {
   return {
-    currentCapability: `measure_current.${suffix}`,
-    voltageCapability: `measure_voltage.${suffix}`,
-    powerCapability: `measure_power.${suffix}`,
+    measureCurrentCapability: `measure_current.${suffix}`,
+    measureVoltageCapability: `measure_voltage.${suffix}`,
+    measurePowerCapability: `measure_power.${suffix}`,
   };
 }
 
@@ -2150,7 +2150,6 @@ describe('HomeyLib.App#validate() driver manifest', function() {
           'measure_current.l3', 'measure_voltage.l3', 'measure_power.l3',
         ],
         energy: {
-          gridConnection: true,
           phases: {
             l1: phase('l1'),
             l2: phase('l2'),
@@ -2178,7 +2177,6 @@ describe('HomeyLib.App#validate() driver manifest', function() {
           'measure_current.phase3', 'measure_voltage.phase3', 'measure_power.phase3',
         ],
         energy: {
-          gridConnection: true,
           phases: {
             l1: phase('phase1'),
             l2: phase('phase2'),
@@ -2202,7 +2200,6 @@ describe('HomeyLib.App#validate() driver manifest', function() {
         ...baseDriverManifest,
         capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
         energy: {
-          gridConnection: true,
           phases: {
             l1: phase('l1'),
           },
@@ -2224,12 +2221,11 @@ describe('HomeyLib.App#validate() driver manifest', function() {
         ...baseDriverManifest,
         capabilities: ['measure_current', 'measure_voltage', 'measure_power'],
         energy: {
-          gridConnection: true,
           phases: {
             l1: {
-              currentCapability: 'measure_current',
-              voltageCapability: 'measure_voltage',
-              powerCapability: 'measure_power',
+              measureCurrentCapability: 'measure_current',
+              measureVoltageCapability: 'measure_voltage',
+              measurePowerCapability: 'measure_power',
             },
           },
         },
@@ -2240,45 +2236,6 @@ describe('HomeyLib.App#validate() driver manifest', function() {
       debug: true,
       publish: true,
       verified: true,
-    });
-  });
-
-  it('`energy.gridConnection` requires `energy.phases.l1`', async function() {
-    const app = mockApp({
-      ...baseAppManifest,
-      drivers: [{
-        ...baseDriverManifest,
-        capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
-        energy: {
-          gridConnection: true,
-        },
-      }],
-    });
-
-    await assertValidates(app, {
-      debug: /drivers\.test has 'energy\.gridConnection' set to true, but is missing 'energy\.phases\.l1'\./i,
-      publish: /drivers\.test has 'energy\.gridConnection' set to true, but is missing 'energy\.phases\.l1'\./i,
-      verified: /drivers\.test has 'energy\.gridConnection' set to true, but is missing 'energy\.phases\.l1'\./i,
-    });
-  });
-
-  it('`energy.gridConnection` requires `energy.phases.l1` when `phases` is empty', async function() {
-    const app = mockApp({
-      ...baseAppManifest,
-      drivers: [{
-        ...baseDriverManifest,
-        capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
-        energy: {
-          gridConnection: true,
-          phases: {},
-        },
-      }],
-    });
-
-    await assertValidates(app, {
-      debug: /drivers\.test has 'energy\.gridConnection' set to true, but is missing 'energy\.phases\.l1'\./i,
-      publish: /drivers\.test has 'energy\.gridConnection' set to true, but is missing 'energy\.phases\.l1'\./i,
-      verified: /drivers\.test has 'energy\.gridConnection' set to true, but is missing 'energy\.phases\.l1'\./i,
     });
   });
 
@@ -2328,26 +2285,25 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
   });
 
-  it('`energy.phases.l1.currentCapability` must be an instance of `measure_current`', async function() {
+  it('`energy.phases.l1.measureCurrentCapability` must be an instance of `measure_current`', async function() {
     const app = mockApp({
       ...baseAppManifest,
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
         energy: {
-          gridConnection: true,
           phases: {
             l1: {
-              currentCapability: 'measure_power.l1',
-              voltageCapability: 'measure_voltage.l1',
-              powerCapability: 'measure_power.l1',
+              measureCurrentCapability: 'measure_power.l1',
+              measureVoltageCapability: 'measure_voltage.l1',
+              measurePowerCapability: 'measure_power.l1',
             },
           },
         },
       }],
     });
 
-    const message = /drivers\.test has 'energy\.phases\.l1\.currentCapability': 'measure_power\.l1' but only instances of 'measure_current' are allowed\./i;
+    const message = /drivers\.test has 'energy\.phases\.l1\.measureCurrentCapability': 'measure_power\.l1' but only instances of 'measure_current' are allowed\./i;
 
     await assertValidates(app, {
       debug: message,
@@ -2356,26 +2312,25 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
   });
 
-  it('`energy.phases.l1.voltageCapability` must be an instance of `measure_voltage`', async function() {
+  it('`energy.phases.l1.measureVoltageCapability` must be an instance of `measure_voltage`', async function() {
     const app = mockApp({
       ...baseAppManifest,
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
         energy: {
-          gridConnection: true,
           phases: {
             l1: {
-              currentCapability: 'measure_current.l1',
-              voltageCapability: 'measure_current.l1',
-              powerCapability: 'measure_power.l1',
+              measureCurrentCapability: 'measure_current.l1',
+              measureVoltageCapability: 'measure_current.l1',
+              measurePowerCapability: 'measure_power.l1',
             },
           },
         },
       }],
     });
 
-    const message = /drivers\.test has 'energy\.phases\.l1\.voltageCapability': 'measure_current\.l1' but only instances of 'measure_voltage' are allowed\./i;
+    const message = /drivers\.test has 'energy\.phases\.l1\.measureVoltageCapability': 'measure_current\.l1' but only instances of 'measure_voltage' are allowed\./i;
 
     await assertValidates(app, {
       debug: message,
@@ -2384,26 +2339,25 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
   });
 
-  it('`energy.phases.l1.powerCapability` must be an instance of `measure_power`', async function() {
+  it('`energy.phases.l1.measurePowerCapability` must be an instance of `measure_power`', async function() {
     const app = mockApp({
       ...baseAppManifest,
       drivers: [{
         ...baseDriverManifest,
         capabilities: ['measure_current.l1', 'measure_voltage.l1', 'meter_power.l1'],
         energy: {
-          gridConnection: true,
           phases: {
             l1: {
-              currentCapability: 'measure_current.l1',
-              voltageCapability: 'measure_voltage.l1',
-              powerCapability: 'meter_power.l1',
+              measureCurrentCapability: 'measure_current.l1',
+              measureVoltageCapability: 'measure_voltage.l1',
+              measurePowerCapability: 'meter_power.l1',
             },
           },
         },
       }],
     });
 
-    const message = /drivers\.test has 'energy\.phases\.l1\.powerCapability': 'meter_power\.l1' but only instances of 'measure_power' are allowed\./i;
+    const message = /drivers\.test has 'energy\.phases\.l1\.measurePowerCapability': 'meter_power\.l1' but only instances of 'measure_power' are allowed\./i;
 
     await assertValidates(app, {
       debug: message,
@@ -2444,14 +2398,14 @@ describe('HomeyLib.App#validate() driver manifest', function() {
         energy: {
           phases: {
             l1: {
-              currentCapability: 'measure_current.l1',
+              measureCurrentCapability: 'measure_current.l1',
             },
           },
         },
       }],
     });
 
-    const message = /drivers\['test'\]\.energy\.phases\.l1 should have required property 'voltageCapability'/i;
+    const message = /drivers\['test'\]\.energy\.phases\.l1 should have required property 'measureVoltageCapability'/i;
 
     await assertValidates(app, {
       debug: message,

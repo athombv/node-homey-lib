@@ -225,7 +225,6 @@ export interface App {
       cumulativeExportedCapability?: string;
       electricCar?: true;
       evCharger?: true;
-      gridConnection?: true;
       homeBattery?: true;
       meterPowerImportedCapability?: string;
       meterPowerExportedCapability?: string;
@@ -376,9 +375,9 @@ export interface I18NArray {
   [k: string]: string[];
 }
 export interface EnergyPhase {
-  currentCapability: string;
-  voltageCapability: string;
-  powerCapability: string;
+  measureCurrentCapability: string;
+  measureVoltageCapability: string;
+  measurePowerCapability: string;
 }
 export interface ZwaveSetting {
   index: number;
