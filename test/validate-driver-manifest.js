@@ -2414,6 +2414,78 @@ describe('HomeyLib.App#validate() driver manifest', function() {
     });
   });
 
+  it('`energy.currentLimitCapability` accepts an instance of `current_limit`', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: [
+          'measure_current.l1', 'measure_voltage.l1', 'measure_power.l1',
+          'measure_current.l2', 'measure_voltage.l2', 'measure_power.l2',
+          'measure_current.l3', 'measure_voltage.l3', 'measure_power.l3',
+          'current_limit',
+        ],
+        energy: {
+          currentLimitCapability: 'current_limit',
+          phases: {
+            l1: phase('l1'),
+            l2: phase('l2'),
+            l3: phase('l3'),
+          },
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
+
+  it('`energy.currentLimitCapability` does not require `energy.phases`', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['current_limit'],
+        energy: {
+          currentLimitCapability: 'current_limit',
+        },
+      }],
+    });
+
+    await assertValidates(app, {
+      debug: true,
+      publish: true,
+      verified: true,
+    });
+  });
+
+  it('`energy.currentLimitCapability` must be an instance of `current_limit`', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      drivers: [{
+        ...baseDriverManifest,
+        capabilities: ['measure_current.l1', 'measure_voltage.l1', 'measure_power.l1'],
+        energy: {
+          currentLimitCapability: 'measure_current.l1',
+          phases: {
+            l1: phase('l1'),
+          },
+        },
+      }],
+    });
+
+    const message = /drivers\.test has 'energy\.currentLimitCapability': 'measure_current\.l1' but only instances of 'current_limit' are allowed\./i;
+
+    await assertValidates(app, {
+      debug: message,
+      publish: message,
+      verified: message,
+    });
+  });
+
   it('app-owned capability ids may not contain a `.`', async function() {
     const app = mockApp({
       ...baseAppManifest,

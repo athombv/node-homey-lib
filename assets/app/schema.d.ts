@@ -228,6 +228,7 @@ export interface App {
       homeBattery?: true;
       meterPowerImportedCapability?: string;
       meterPowerExportedCapability?: string;
+      currentLimitCapability?: string;
       phases?: {
         l1?: EnergyPhase;
         l2?: EnergyPhase;
