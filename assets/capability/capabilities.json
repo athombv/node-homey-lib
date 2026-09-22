@@ -182,5 +182,6 @@
   "cooking_time",
   "power_level",
   "power_boost",
-  "progress"
+  "progress",
+  "current_limit"
 ]
