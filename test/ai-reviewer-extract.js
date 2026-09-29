@@ -109,6 +109,16 @@ describe('AIReviewer extract() secret filtering', function() {
     }
   });
 
+  it('does not let a negation in one ignore file re-include what the other excludes', async function() {
+    const extracted = await extractDirectory(app({
+      '.homeyignore': 'secret.txt\n',
+      '.gitignore': '!secret.txt\n',
+      'secret.txt': 'do not send',
+    }));
+
+    assert.ok(!extracted.files.some(f => f.path === 'secret.txt'), 'secret.txt must not be collected');
+  });
+
   it('redacts secret-shaped literals in source but keeps the finding visible', async function() {
     const extracted = await extractDirectory(app({
       'lib/Api.js': `'use strict';\n\nconst API_KEY = '${SOURCE_SECRET}';\n\nmodule.exports = API_KEY;\n`,
