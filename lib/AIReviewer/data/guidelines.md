@@ -114,7 +114,7 @@ Last synced: 2026-06-29.
 
 ### 1.15 Permissions
 - Permissions in `app.json` must be justified by the app's core functionality. Do not request more than the app actually needs.
-- The `manager:homey:api` permission is a broad grant and is only appropriate for apps whose primary purpose requires programmatic access to Homey (e.g. tooling, automations that inspect Homey state). It is not needed to control devices via drivers, and requests that are not clearly justified will be rejected.
+- The `homey:manager:api` permission is a broad grant and is only appropriate for apps whose primary purpose requires programmatic access to Homey (e.g. tooling, automations that inspect Homey state). It is not needed to control devices via drivers, and requests that are not clearly justified will be rejected.
 
 ## 2. Legal
 
