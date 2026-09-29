@@ -130,6 +130,15 @@ describe('AIReviewer extract() secret filtering', function() {
     assert.ok(output.includes('const API_KEY ='), 'surrounding source must be preserved');
   });
 
+  it('redacts AWS secret access keys, which have no recognisable prefix', async function() {
+    const awsSecret = 'wJalrXUtnFEMIK7MDENGbPxRfiCYEXAMPLEKEY';
+    const extracted = await extractDirectory(app({
+      'lib/aws.js': `const AWS_SECRET_ACCESS_KEY = '${awsSecret}';\nmodule.exports = { secretAccessKey: '${awsSecret}' };\n`,
+    }));
+
+    assert.ok(!formatAppSource(extracted).includes(awsSecret), 'AWS secret must not reach the prompt');
+  });
+
   it('reports what will be sent before anything leaves the machine', async function() {
     const appPath = app({ '.env': ENV_SECRET });
     const reviewer = new AIReviewer({ modelString: 'openai/gpt-5.4' });
