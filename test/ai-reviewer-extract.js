@@ -94,6 +94,21 @@ describe('AIReviewer extract() secret filtering', function() {
     assert.ok(collected.includes('keep.js'), 'unignored source must still be collected');
   });
 
+  it('lets `**/` in ignore rules match zero directories', async function() {
+    const extracted = await extractDirectory(app({
+      '.gitignore': '**/secrets.json\nconfig/**/secret.json\n',
+      'secrets.json': '{}',
+      'lib/secrets.json': '{}',
+      'config/secret.json': '{}',
+      'config/prod/secret.json': '{}',
+    }));
+
+    const collected = extracted.files.map(f => f.path);
+    for (const ignored of ['secrets.json', 'lib/secrets.json', 'config/secret.json', 'config/prod/secret.json']) {
+      assert.ok(!collected.includes(ignored), `${ignored} must not be collected`);
+    }
+  });
+
   it('redacts secret-shaped literals in source but keeps the finding visible', async function() {
     const extracted = await extractDirectory(app({
       'lib/Api.js': `'use strict';\n\nconst API_KEY = '${SOURCE_SECRET}';\n\nmodule.exports = API_KEY;\n`,
