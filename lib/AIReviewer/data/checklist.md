@@ -152,10 +152,10 @@ Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-4-i
 
 - Driver image is required. Should depict the device itself on a **white or transparent** background. Backgrounds that are neither white nor transparent (colored, photographic, scene-based) are not appropriate — flag as warning, not blocker.
 
-### Flow conditions
+### Flow cards (triggers, conditions, actions)
 Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-9-flow-cards
 
-- **Title**: required, must not be too long. "When", "And", "Then" must not appear in the title.
+- **Title**: required, must not be too long. "When", "And", "Then" must not appear in the title. Do not use parentheses in the title.
 - **Formatted title**: must read as a short sentence with the arguments incorporated.
 - **Hint**: explanation of what the Flow card does.
 - **Arguments**: validate types and titles.
@@ -249,10 +249,10 @@ Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-4-i
 
 - Required. Should depict the device itself on a **white or transparent** background. Backgrounds that are neither white nor transparent (colored, photographic, scene-based) are not appropriate — flag as warning, not blocker.
 
-### Flow conditions (update)
+### Flow cards (triggers, conditions, actions) (update)
 Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-9-flow-cards
 
-- **Title**: required, not too long, no "When/And/Then".
+- **Title**: required, not too long, no "When/And/Then", no parentheses.
 - **Formatted title**: short sentence with arguments incorporated.
 - **Hint**: explanation of what the Flow card does.
 
