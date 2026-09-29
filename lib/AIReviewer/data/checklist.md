@@ -138,7 +138,7 @@ Guideline reference: https://apps.developer.homey.app/app-store/guidelines
 #### Driver: Capabilities
 Guideline reference: https://apps.developer.homey.app/the-basics/devices/best-practices/battery-status
 
-- The functions of the driver. Watch out for double UI capabilities such as:
+- The functions of the driver. Capability pairs that result in a double UI component are not allowed:
   - `alarm_battery` AND `measure_battery` together (see https://apps.developer.homey.app/the-basics/devices/best-practices/battery-status)
   - `windowcoverings_state` AND `windowcoverings_set` together (see https://apps.developer.homey.app/the-basics/devices/best-practices/window-coverings)
 
@@ -237,7 +237,7 @@ Guideline reference: https://apps.developer.homey.app/app-store/guidelines
 #### Driver: Capabilities (update)
 Guideline reference: https://apps.developer.homey.app/the-basics/devices/best-practices/battery-status
 
-- The functions of the driver. Watch for double UI capabilities (see new-app section).
+- The functions of the driver. Capability pairs that result in a double UI component are not allowed (see new-app section).
 
 #### Driver: Icon (update)
 Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-5-icons
