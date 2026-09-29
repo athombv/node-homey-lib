@@ -21,6 +21,7 @@ Last synced: 2026-06-29.
 - May not use the trademarks "Homey" or "Athom" in the app name.
 - May not include protocol names (Zigbee, Z-Wave, 433 MHz, Infrared, BLE, Thread or Matter) in the app name.
 - Names longer than 4 words are not allowed.
+- Do: "Philips Hue", "tado°". Don't: "Lights by Philips Hue", "Tado Gmbh".
 
 ### 1.2 Description
 - Using the app's name or repeating text from the readme in the description is not allowed.

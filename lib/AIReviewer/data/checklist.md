@@ -50,7 +50,7 @@ Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.
 Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.1.-app-name
 
 - "Homey" and "Athom" in the app name is not allowed.
-- Company names are not permitted; **brand names** are encouraged.
+- Company names are not permitted; **brand names** are encouraged. A company name is the legal entity, usually recognisable by a legal form (GmbH, B.V., Inc., Ltd, LLC, A/S): "Tado GmbH" is not allowed, "tado°" is. A brand name that contains the company's name is a brand name and is allowed (e.g. "Philips Hue", "Google Nest").
 - Names of 5 or more words are not allowed. Exactly 4 words is at the limit and allowed.
 - (Cross-reference: guidelines section 1.1.)
 
