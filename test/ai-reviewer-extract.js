@@ -39,7 +39,13 @@ describe('AIReviewer extract() secret filtering', function() {
   };
 
   after(function() {
-    for (const dir of dirs) fs.rmSync(dir, { recursive: true, force: true });
+    for (const dir of dirs) {
+      if (typeof fs.rmSync === 'function') {
+        fs.rmSync(dir, { recursive: true, force: true });
+      } else {
+        fs.rmdirSync(dir, { recursive: true });
+      }
+    }
   });
 
   it('never sends a .env file, by name or content', async function() {
