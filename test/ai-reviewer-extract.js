@@ -150,8 +150,8 @@ describe('AIReviewer extract() secret filtering', function() {
         appPath,
         manifest: { id: 'com.test.app', version: '1.0.0' },
         onExtracted: extraction => {
- reported = extraction;
-},
+          reported = extraction;
+        },
       }).catch(() => {}); // the dry run aborts before the model call
     } finally {
       delete process.env.HOMEY_AI_REVIEW_DRY_RUN;
