@@ -78,6 +78,9 @@ The readme is a summary that describes and sells the app.
 - A donation link in the readme — **reject**
 - Other URLs (these belong in app.json: bugs/support/homepage/source) — **reject**
 
+**Translations** (Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.11.-language-and-translations):
+- For every language the description is translated to (e.g. `description.nl` in app.json), a readme in that language should exist (`README.nl.txt`). Check which `README.*.txt` files appear in the app source: a missing translated readme is easy to overlook because the file is absent, not wrong.
+
 ### Description
 Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-2-description
 
@@ -186,6 +189,8 @@ Same rejection triggers as for new apps:
 - Description and readme identical — **reject**
 - Donation link — **reject**
 - URLs that belong in app.json — **reject**
+
+Translations: same rule as for new apps — every description language should have a matching `README.<lang>.txt`.
 
 ### Description (update)
 Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-2-description
