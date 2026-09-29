@@ -18,7 +18,7 @@ The submission's **type** is provided in the user message header. Use the matchi
 ## 1. Checklist for NEW apps
 
 ### Official Badge (verified developer)
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#3-2-testing-verified-developers
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-3.2.-testing-your-app-verified-developers-only
 
 - If the developer has a blue checkmark (verified), check whether sample devices have been received for testing.
 - If devices cannot be provided (too large, etc.), the developer must instead submit a screen recording of:
@@ -29,33 +29,33 @@ Guideline reference: https://apps.developer.homey.app/app-store/guidelines#3-2-t
   - Custom Flow cards (if available)
 
 ### Duplicate
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#2-1-1-duplicate-apps
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-2.1.-duplicate
 
 - Check whether a similar app already exists in the App Store (see guidelines 2.1.1).
 - If one exists: the developer should reach out to the existing developer first to cooperate or submit a PR. Submissions that resemble an existing app without explanation are rejected.
 - Exception: a community app **and** a verified app for the same brand may coexist.
 
 ### App ID
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-1-app-name
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.1.-app-name
 
 - Must not contain "Athom" or "Homey". If so, reject.
 - Apps approved in the past that contain either name are exempt (grandfathered).
 
 ### Account Name
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-13-account
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.13.-account
 
 - For Official-badge apps: the publishing account name must be the company name.
 
 ### App Name
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-1-app-name
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.1.-app-name
 
 - "Homey" and "Athom" in the app name is not allowed.
-- Company names are not permitted; **brand names** are encouraged.
+- Company names are not permitted; **brand names** are encouraged. A company name is the legal entity, usually recognisable by a legal form (GmbH, B.V., Inc., Ltd, LLC, A/S): "Tado GmbH" is not allowed, "tado°" is. A brand name that contains the company's name is a brand name and is allowed (e.g. "Philips Hue", "Google Nest").
 - Names of 5 or more words are not allowed. Exactly 4 words is at the limit and allowed.
 - (Cross-reference: guidelines section 1.1.)
 
 ### SDK
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-14-sdk-version
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.14.-sdk-version
 
 - New apps **must** use SDK v3. Reject if SDK v2 or older.
 
@@ -67,7 +67,7 @@ Guideline reference: https://apps.developer.homey.app/app-store/guidelines
 - Local = works on Homey Pro. Cloud = works on Homey Cloud.
 
 ### Readme (`README.txt` per locale)
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-3-readme
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.3.-readme
 
 The readme is a summary that describes and sells the app.
 
@@ -78,8 +78,11 @@ The readme is a summary that describes and sells the app.
 - A donation link in the readme — **reject**
 - Other URLs (these belong in app.json: bugs/support/homepage/source) — **reject**
 
+**Translations** (Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.11.-language-and-translations):
+- For every language the description is translated to (e.g. `description.nl` in app.json), a readme in that language should exist (`README.nl.txt`). Check which `README.*.txt` files appear in the app source: a missing translated readme is easy to overlook because the file is absent, not wrong.
+
 ### Description
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-2-description
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.2.-description
 
 Short subtitle shown above the readme in the App Store. Avoid repetition.
 
@@ -89,12 +92,12 @@ Short subtitle shown above the readme in the App Store. Avoid repetition.
 - Obvious filler like "Adds support for …" — **reject**
 
 ### Permissions
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-15-permissions
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.15.-permissions
 
-- If `manager:homey:api` is requested, the app must be a tool whose primary function justifies it. It is **not** needed to switch on a light bulb. Reject if usage doesn't justify the permission.
+- If `homey:manager:api` is requested, the app must be a tool whose primary function justifies it. It is **not** needed to switch on a light bulb. Reject if usage doesn't justify the permission.
 
 ### URLs (in app.json)
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-8-urls
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.8.-urls
 
 - **Bugs URL**: if present, verify it works.
 - **Homepage URL**: if present, must be a working URL.
@@ -103,7 +106,7 @@ Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-8-u
 - **Community Topic ID**: if present, must be a working URL to a Homey Community Topic page.
 
 ### Icon
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-5-icons
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.5.-app-icons
 
 - App icon is required.
 - Icon should have a transparent background.
@@ -111,7 +114,7 @@ Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-5-i
 - App icon cannot be the same as a driver icon — reject.
 
 ### Images
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-4-images
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.4.-images
 
 - The app itself requires an image.
 - Images must be clear, not pixelated, well-designed, and recognizable for the brand/app.
@@ -126,7 +129,7 @@ Guideline reference: https://apps.developer.homey.app/app-store/guidelines
 - Usually local. Official apps add cloud (unless infeasible).
 
 #### Driver: Name
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-1-app-name
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.1.-app-name
 
 - Required. "Homey" in the driver name is not allowed.
 
@@ -138,24 +141,24 @@ Guideline reference: https://apps.developer.homey.app/app-store/guidelines
 #### Driver: Capabilities
 Guideline reference: https://apps.developer.homey.app/the-basics/devices/best-practices/battery-status
 
-- The functions of the driver. Watch out for double UI capabilities such as:
+- The functions of the driver. Capability pairs that result in a double UI component are not allowed:
   - `alarm_battery` AND `measure_battery` together (see https://apps.developer.homey.app/the-basics/devices/best-practices/battery-status)
   - `windowcoverings_state` AND `windowcoverings_set` together (see https://apps.developer.homey.app/the-basics/devices/best-practices/window-coverings)
 
 #### Driver: Icon
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-5-icons
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.6.-driver-icons
 
 - Driver icon is required. Should resemble the driver and should have a transparent background.
 
 #### Driver: Images
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-4-images
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.4.-images
 
 - Driver image is required. Should depict the device itself on a **white or transparent** background. Backgrounds that are neither white nor transparent (colored, photographic, scene-based) are not appropriate — flag as warning, not blocker.
 
-### Flow conditions
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-9-flow-cards
+### Flow cards (triggers, conditions, actions)
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.9.-flow
 
-- **Title**: required, must not be too long. "When", "And", "Then" must not appear in the title.
+- **Title**: required, must not be too long. "When", "And", "Then" must not appear in the title. Do not use parentheses in the title.
 - **Formatted title**: must read as a short sentence with the arguments incorporated.
 - **Hint**: explanation of what the Flow card does.
 - **Arguments**: validate types and titles.
@@ -167,7 +170,7 @@ Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-9-f
 Mainly check the **difference** between the current live version and the new submission. Quickly scan the rest to confirm overall standards are met.
 
 ### App Name (update)
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-1-app-name
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.1.-app-name
 
 - Same rules as new apps: "Homey"/"Athom" not allowed, company names not permitted, brand names encouraged, 5+ words not allowed.
 
@@ -178,7 +181,7 @@ Guideline reference: https://apps.developer.homey.app/app-store/guidelines
 - If cloud is **newly added** to an existing app, the app has recently become Official — **the app must be tested** before approval.
 
 ### Readme (update)
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-3-readme
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.3.-readme
 
 Same rejection triggers as for new apps:
 - Changelog in readme — **reject**
@@ -187,8 +190,10 @@ Same rejection triggers as for new apps:
 - Donation link — **reject**
 - URLs that belong in app.json — **reject**
 
+Translations: same rule as for new apps — every description language should have a matching `README.<lang>.txt`.
+
 ### Description (update)
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-2-description
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.2.-description
 
 Same rejection triggers:
 - App name **is** the description — **reject**
@@ -196,12 +201,12 @@ Same rejection triggers:
 - Obvious "Adds support for …" filler — **reject**
 
 ### Permissions (update)
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-15-permissions
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.15.-permissions
 
-- If a **new** permission has been added (especially `manager:homey:api`), verify with the developer why. Flag for follow-up rather than auto-reject.
+- If a **new** permission has been added (especially `homey:manager:api`), verify with the developer why. Flag for follow-up rather than auto-reject.
 
 ### URLs in app.json (update)
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-8-urls
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.8.-urls
 
 - **Bugs URL**: if newly added, check it works.
 - **Homepage URL**: if newly added, must work.
@@ -210,7 +215,7 @@ Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-8-u
 - **Community Topic ID**: if newly added, must work.
 
 ### Icon (update)
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-5-icons
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.5.-app-icons
 
 - App icon is required.
 - Icon should have a transparent background.
@@ -218,14 +223,14 @@ Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-5-i
 - App icon cannot be the same as a driver icon — reject.
 
 ### Images (update)
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-4-images
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.4.-images
 
 - Same rules as new apps: clear, not pixelated, recognizable, no white/transparent background, no Homey name/logo in the image.
 
 ### Driver (update)
 
 #### Driver: Name (update)
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-1-app-name
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.1.-app-name
 
 - Required. "Homey" not allowed in name.
 
@@ -237,22 +242,22 @@ Guideline reference: https://apps.developer.homey.app/app-store/guidelines
 #### Driver: Capabilities (update)
 Guideline reference: https://apps.developer.homey.app/the-basics/devices/best-practices/battery-status
 
-- The functions of the driver. Watch for double UI capabilities (see new-app section).
+- The functions of the driver. Capability pairs that result in a double UI component are not allowed (see new-app section).
 
 #### Driver: Icon (update)
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-5-icons
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.6.-driver-icons
 
 - Required. Should resemble the driver and should have a transparent background.
 
 #### Driver: Images (update)
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-4-images
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.4.-images
 
 - Required. Should depict the device itself on a **white or transparent** background. Backgrounds that are neither white nor transparent (colored, photographic, scene-based) are not appropriate — flag as warning, not blocker.
 
-### Flow conditions (update)
-Guideline reference: https://apps.developer.homey.app/app-store/guidelines#1-9-flow-cards
+### Flow cards (triggers, conditions, actions) (update)
+Guideline reference: https://apps.developer.homey.app/app-store/guidelines#id-1.9.-flow
 
-- **Title**: required, not too long, no "When/And/Then".
+- **Title**: required, not too long, no "When/And/Then", no parentheses.
 - **Formatted title**: short sentence with arguments incorporated.
 - **Hint**: explanation of what the Flow card does.
 
