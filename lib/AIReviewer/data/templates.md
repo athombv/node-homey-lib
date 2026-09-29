@@ -43,26 +43,26 @@
 ## App name
 
 - Your app's name contains the company/brand name Athom/Homey, please change your app's name. An app's name should be easy to remember and hint to what your app does.
-- Your app's name [LIST MISTAKE], please change your app's name. An app's name should be easy to remember and hint to what your app does. For more information on this topic have a look at our App Store Guidelines section 1.1. App Name: https://apps.developer.homey.app/app-store/guidelines#1-1-app-name
+- Your app's name [LIST MISTAKE], please change your app's name. An app's name should be easy to remember and hint to what your app does. For more information on this topic have a look at our App Store Guidelines section 1.1. App Name: https://apps.developer.homey.app/app-store/guidelines#id-1.1.-app-name
 
 ## Readme
 
-- Your app's readme contains an unclear description of your app. Please add more information for your users so they know what your app can do for them. Keep it short and simple, preferably one or two paragraphs. Check out our App Store Guidelines for more information on this topic: https://apps.developer.homey.app/app-store/guidelines#1-3-readme
+- Your app's readme contains an unclear description of your app. Please add more information for your users so they know what your app can do for them. Keep it short and simple, preferably one or two paragraphs. Check out our App Store Guidelines for more information on this topic: https://apps.developer.homey.app/app-store/guidelines#id-1.3.-readme
 - Your app's readme starts with the app name as a title. Please remove the title from the readme. The name of your app will be shown at the top of your App Store page.
 - Your app's readme starts with a header that contains the same text as in your Description. Please remove this from the readme or change the Description field. The Description will be shown above your readme in the App Store, therefore repetition should be avoided.
 - Your app's readme contains a list of all the Flow options. Please delete this from the readme. The available Flow cards will be visible on your app page in the new section Flow Cards.
-- Your app's readme contains a lot of technical information and is too long. The readme is meant to provide a short summary of the app's features and its purpose. Ideally the text is around 1 to 2 paragraphs. If you wish to provide additional information consider creating a Homey Community topic to which you can link in the App Manifest. For more information check out the App Store Guidelines section 1.3. Readme: https://apps.developer.homey.app/app-store/guidelines#1-3-readme
+- Your app's readme contains a lot of technical information and is too long. The readme is meant to provide a short summary of the app's features and its purpose. Ideally the text is around 1 to 2 paragraphs. If you wish to provide additional information consider creating a Homey Community topic to which you can link in the App Manifest. For more information check out the App Store Guidelines section 1.3. Readme: https://apps.developer.homey.app/app-store/guidelines#id-1.3.-readme
 - Your app's readme contains a donation URL, this is not allowed. Please remove this URL from the readme. You can add a donation button to the app.json which will appear as a clickable button on your App Store page.
 - In your app's readme there is a lot of white spacing between sentences/paragraphs. Please remove the extra white spacing, stick to a single white space per paragraph. This will make it easier to read for the user.
 - Your app's readme seems to be in [LANGUAGE]. Please use English language in your main `readme.txt` and add a translated file `readme.[LANGUAGECODE].txt` to add [LANGUAGE] translations to your app. For more information have a look at our documentation: https://apps.developer.homey.app/the-basics/app/internationalization
-- Your app's readme currently contains setup instructions. These are not needed in the readme, as the pairing views within the app should be clear enough to guide users through the setup process. The readme should be a short, engaging summary of the app's purpose in one to two plain text paragraphs. Check out our App Store Guidelines for more information: https://apps.developer.homey.app/app-store/guidelines#1-3-readme
+- Your app's readme currently contains setup instructions. These are not needed in the readme, as the pairing views within the app should be clear enough to guide users through the setup process. The readme should be a short, engaging summary of the app's purpose in one to two plain text paragraphs. Check out our App Store Guidelines for more information: https://apps.developer.homey.app/app-store/guidelines#id-1.3.-readme
 
 ## Description
 
-- The text in your app's Description property (`app.json`) is not up to our standards, it's identical to your `readme.txt`. The description is shown above your readme in the App Store, therefore repetition should be avoided. Please sell your app in one short sentence, think of it as the slogan or tagline of your app. Check out our App Store Guidelines for more information on this topic: https://apps.developer.homey.app/app-store/guidelines#1-2-description
-- The text in your app's Description property (`app.json`) is identical to your app's name. Please use the description property to describe your app's purpose in one short sentence. For example "[GIVE EXAMPLE]". Check out our Guidelines for more information on this topic: https://apps.developer.homey.app/app-store/guidelines#1-2-description
-- The text in your app's Description property (`app.json`) is not up to our standards. Please sell your app's purpose in one short sentence. Apps for a specific brand often use the brand slogan or tagline as the Description. Check out our App Store Guidelines for more information on this topic: https://apps.developer.homey.app/app-store/guidelines#1-2-description
-- Your app's Description (`app.json`) is not up to our standards, avoid descriptions such as: "Adds support for [XXXXX]". Please sell your app in one short sentence, think of it as the slogan or tagline of your app. Check out our App Store Guidelines for more information on this topic: https://apps.developer.homey.app/app-store/guidelines#1-2-description
+- The text in your app's Description property (`app.json`) is not up to our standards, it's identical to your `readme.txt`. The description is shown above your readme in the App Store, therefore repetition should be avoided. Please sell your app in one short sentence, think of it as the slogan or tagline of your app. Check out our App Store Guidelines for more information on this topic: https://apps.developer.homey.app/app-store/guidelines#id-1.2.-description
+- The text in your app's Description property (`app.json`) is identical to your app's name. Please use the description property to describe your app's purpose in one short sentence. For example "[GIVE EXAMPLE]". Check out our Guidelines for more information on this topic: https://apps.developer.homey.app/app-store/guidelines#id-1.2.-description
+- The text in your app's Description property (`app.json`) is not up to our standards. Please sell your app's purpose in one short sentence. Apps for a specific brand often use the brand slogan or tagline as the Description. Check out our App Store Guidelines for more information on this topic: https://apps.developer.homey.app/app-store/guidelines#id-1.2.-description
+- Your app's Description (`app.json`) is not up to our standards, avoid descriptions such as: "Adds support for [XXXXX]". Please sell your app in one short sentence, think of it as the slogan or tagline of your app. Check out our App Store Guidelines for more information on this topic: https://apps.developer.homey.app/app-store/guidelines#id-1.2.-description
 
 ## URLs
 
@@ -71,23 +71,23 @@
 
 ## App icons
 
-- Your app does not have an icon. Please add an icon that represents your app. For more information and help on this topic check out our App Store Guidelines: https://apps.developer.homey.app/app-store/guidelines#1-5-icons
-- The app icon is [LIST WHAT IS WRONG]. Please add an icon that represents your app; in case of a brand app consider using the logo for the icon. For more information and examples check out our App Store Guidelines: https://apps.developer.homey.app/app-store/guidelines#1-5-icons
-- The app icon is an image rather than an icon. This makes it appear as a solid shape and is therefore not recognizable. Please add an icon that represents your app; in case of a brand app consider using the logo for the icon. For more information and examples check out our App Store Guidelines: https://apps.developer.homey.app/app-store/guidelines#1-5-icons
+- Your app does not have an icon. Please add an icon that represents your app. For more information and help on this topic check out our App Store Guidelines: https://apps.developer.homey.app/app-store/guidelines#id-1.5.-app-icons
+- The app icon is [LIST WHAT IS WRONG]. Please add an icon that represents your app; in case of a brand app consider using the logo for the icon. For more information and examples check out our App Store Guidelines: https://apps.developer.homey.app/app-store/guidelines#id-1.5.-app-icons
+- The app icon is an image rather than an icon. This makes it appear as a solid shape and is therefore not recognizable. Please add an icon that represents your app; in case of a brand app consider using the logo for the icon. For more information and examples check out our App Store Guidelines: https://apps.developer.homey.app/app-store/guidelines#id-1.5.-app-icons
 
 ## Driver icons
 
-- Some of your app's driver icons are identical to the app icon. Please make sure each driver has its own icon so users can easily recognize the driver they need. For more information and help on this topic check out our App Store Guidelines: https://apps.developer.homey.app/app-store/guidelines#1-5-icons
-- The driver icons do not meet our design standards. [LIST WHAT IS WRONG] Have a look at our App Store Guidelines section 1.5.2 Driver icons for more information and examples: https://apps.developer.homey.app/app-store/guidelines#1-5-icons Consider putting in a request for custom icons on the Homey Vector page.
+- Some of your app's driver icons are identical to the app icon. Please make sure each driver has its own icon so users can easily recognize the driver they need. For more information and help on this topic check out our App Store Guidelines: https://apps.developer.homey.app/app-store/guidelines#id-1.6.-driver-icons
+- The driver icons do not meet our design standards. [LIST WHAT IS WRONG] Have a look at our App Store Guidelines section 1.6 Driver icons for more information and examples: https://apps.developer.homey.app/app-store/guidelines#id-1.6.-driver-icons Consider putting in a request for custom icons on the Homey Vector page.
 
 ## Images
 
-- Your app's images contain the Homey logo; this is not allowed. Please make sure your images are visually appealing and represent your app. Check out our App Store Guidelines for more information: https://apps.developer.homey.app/app-store/guidelines#1-4-images
-- Your app's images are mainly white with a black shape, unfortunately this won't look appealing in the Homey App Store. Please make sure your images are visually appealing and represent your app; consider using images similar to those used on the [BRAND NAME] website. Check out our App Store Guidelines for more information: https://apps.developer.homey.app/app-store/guidelines#1-4-images
-- Your app image is an image of the brand logo, this is not up to our standards. Please have a look at our App Store Guidelines and adjust the image accordingly: https://apps.developer.homey.app/app-store/guidelines#1-4-images
-- Your driver images are identical to your app's image. Please provide a unique driver image that depicts the device or service it supports on a white background. Check out our App Store Guidelines for more information: https://apps.developer.homey.app/app-store/guidelines#1-4-images
-- Your driver image shows the driver icon. Please provide a unique driver image that depicts the device it supports on a white background. Check out our App Store Guidelines for more information: https://apps.developer.homey.app/app-store/guidelines#1-4-images
-- Your driver image does not have a white or transparent background. Please provide a unique driver image that depicts the device or service it supports on a white background. Check out our App Store Guidelines for more information: https://apps.developer.homey.app/app-store/guidelines#1-4-images
+- Your app's images contain the Homey logo; this is not allowed. Please make sure your images are visually appealing and represent your app. Check out our App Store Guidelines for more information: https://apps.developer.homey.app/app-store/guidelines#id-1.4.-images
+- Your app's images are mainly white with a black shape, unfortunately this won't look appealing in the Homey App Store. Please make sure your images are visually appealing and represent your app; consider using images similar to those used on the [BRAND NAME] website. Check out our App Store Guidelines for more information: https://apps.developer.homey.app/app-store/guidelines#id-1.4.-images
+- Your app image is an image of the brand logo, this is not up to our standards. Please have a look at our App Store Guidelines and adjust the image accordingly: https://apps.developer.homey.app/app-store/guidelines#id-1.4.-images
+- Your driver images are identical to your app's image. Please provide a unique driver image that depicts the device or service it supports on a white background. Check out our App Store Guidelines for more information: https://apps.developer.homey.app/app-store/guidelines#id-1.4.-images
+- Your driver image shows the driver icon. Please provide a unique driver image that depicts the device it supports on a white background. Check out our App Store Guidelines for more information: https://apps.developer.homey.app/app-store/guidelines#id-1.4.-images
+- Your driver image does not have a white or transparent background. Please provide a unique driver image that depicts the device or service it supports on a white background. Check out our App Store Guidelines for more information: https://apps.developer.homey.app/app-store/guidelines#id-1.4.-images
 
 ## Flow
 
@@ -100,10 +100,10 @@
 
 ## Widget previews
 
-- Your Widget preview seems to be a screenshot of the Widget. This is not allowed. Please check out our App Store Guidelines for more information: https://apps.developer.homey.app/app-store/guidelines#1-10-widget-previews
-- Your Widget preview contains text. This is not allowed. Please check out our App Store Guidelines for more information: https://apps.developer.homey.app/app-store/guidelines#1-10-widget-previews
-- The Widget preview for all widgets seems to be identical. Please make sure each preview represents the widget itself. Please check out our App Store Guidelines for more information: https://apps.developer.homey.app/app-store/guidelines#1-10-widget-previews
-- The Widget preview seems to be missing or empty. A widget preview is required. Please check out our App Store Guidelines for more information and add them to your app: https://apps.developer.homey.app/app-store/guidelines#1-10-widget-previews
+- Your Widget preview seems to be a screenshot of the Widget. This is not allowed. Please check out our App Store Guidelines for more information: https://apps.developer.homey.app/app-store/guidelines#id-1.10.-widget-previews
+- Your Widget preview contains text. This is not allowed. Please check out our App Store Guidelines for more information: https://apps.developer.homey.app/app-store/guidelines#id-1.10.-widget-previews
+- The Widget preview for all widgets seems to be identical. Please make sure each preview represents the widget itself. Please check out our App Store Guidelines for more information: https://apps.developer.homey.app/app-store/guidelines#id-1.10.-widget-previews
+- The Widget preview seems to be missing or empty. A widget preview is required. Please check out our App Store Guidelines for more information and add them to your app: https://apps.developer.homey.app/app-store/guidelines#id-1.10.-widget-previews
 
 ## Other
 
