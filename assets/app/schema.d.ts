@@ -228,6 +228,12 @@ export interface App {
       homeBattery?: true;
       meterPowerImportedCapability?: string;
       meterPowerExportedCapability?: string;
+      currentLimitCapability?: string;
+      phases?: {
+        l1?: EnergyPhase;
+        l2?: EnergyPhase;
+        l3?: EnergyPhase;
+      };
       /**
        * @minItems 1
        */
@@ -368,6 +374,11 @@ export interface I18NArray {
    * via the `patternProperty` "^.*$".
    */
   [k: string]: string[];
+}
+export interface EnergyPhase {
+  measureCurrentCapability: string;
+  measureVoltageCapability: string;
+  measurePowerCapability: string;
 }
 export interface ZwaveSetting {
   index: number;
