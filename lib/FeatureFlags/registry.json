@@ -1,6 +1,18 @@
-{
-  "POC_HOMEY_FEATURE": { "key": "poc.homey-feature", "bit": 0 },
-  "POC_ENERGY_NEW_EXPERIENCE": { "key": "poc.energy-new-experience", "bit": 1 },
-  "POC_FLOW_EDITOR": { "key": "poc.flow-editor", "bit": 2 },
-  "POC_DEVICE_INSIGHTS": { "key": "poc.device-insights", "bit": 3 }
-}
+[
+  "test.basic",
+  "test.rollout",
+  "test.compatibility",
+  "test.released",
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+]

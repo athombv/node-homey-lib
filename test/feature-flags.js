@@ -2,36 +2,34 @@
 
 const assert = require('assert').strict;
 const {
-  FEATURE_BITS, HomeyFeature, decode, encode, fromKeys, hasFeature, merge, parseHeaders,
+  FEATURE_BITS, decode, encode, fromKeys, hasFeature, merge, parseHeaders,
 } = require('../lib/FeatureFlags');
 const registry = require('../lib/FeatureFlags/registry.json');
 
-it('registry keeps published assignments and contains unique names and bits', function() {
-  // Published assignments are permanent; only append new entries.
-  for (const [key, bit] of Object.entries({
-    'poc.homey-feature': 0,
-    'poc.energy-new-experience': 1,
-    'poc.flow-editor': 2,
-    'poc.device-insights': 3,
-  })) assert.equal(FEATURE_BITS[key], bit);
-  const entries = Object.values(registry);
-  assert.equal(new Set(entries.map(({ key }) => key)).size, entries.length);
-  assert.equal(new Set(entries.map(({ bit }) => bit)).size, entries.length);
-  for (const { key, bit } of entries) {
+describe('Feature flags', function() {
+it('registry reserves two bytes for tests and contains unique names', function() {
+  assert.deepEqual(registry.slice(0, 4), [
+    'test.basic', 'test.rollout', 'test.compatibility', 'test.released',
+  ]);
+  assert.deepEqual(registry.slice(4, 16), Array(12).fill(null));
+  const names = registry.filter(key => key !== null);
+  assert.equal(new Set(names).size, names.length);
+  assert.ok(registry.length <= 8192);
+  for (const key of names) {
     assert.match(key, /^[a-z][a-z0-9-]*(\.[a-z0-9-]+)+$/);
-    assert.ok(Number.isSafeInteger(bit) && bit >= 0 && bit <= 8191);
+    assert.ok(!key.startsWith('poc.'));
   }
 });
 
 it('canonical codec covers byte boundaries and the highest bit', function() {
   assert.equal(encode(Uint8Array.of(5, 0)), 'BQ');
-  assert.equal(encode(fromKeys([HomeyFeature.POC_HOMEY_FEATURE, HomeyFeature.POC_FLOW_EDITOR])), 'BQ');
-  for (const { key, bit } of Object.values(registry)) {
+  assert.equal(encode(fromKeys(['test.basic', 'test.compatibility'])), 'BQ');
+  for (const [key, bit] of Object.entries(FEATURE_BITS)) {
     assert.equal(hasFeature(decode('BQ'), key), bit === 0 || bit === 2);
     assert.equal(hasFeature(decode(encode(fromKeys([key]))), key), true);
   }
   assert.equal(encode(new Uint8Array()), 'AA');
-  for (const bit of [0, 2, 7, 8, 31, 32, 8191]) {
+  for (const bit of [0, 2, 7, 8, 15, 16, 31, 32, 8191]) {
     const bytes = new Uint8Array(Math.floor(bit / 8) + 1);
     bytes[Math.floor(bit / 8)] = 1 << (bit % 8);
     assert.deepEqual(decode(encode(bytes)), bytes);
@@ -42,26 +40,24 @@ it('canonical codec covers byte boundaries and the highest bit', function() {
 });
 
 it('released features stay on while experimental features remain reversible', function() {
-  const released = fromKeys([HomeyFeature.POC_HOMEY_FEATURE]);
-  assert.equal(hasFeature(merge(decode('AA'), released), HomeyFeature.POC_HOMEY_FEATURE), true);
-  assert.equal(hasFeature(decode('AA'), HomeyFeature.POC_HOMEY_FEATURE), false);
+  const released = fromKeys(['test.released']);
+  assert.equal(hasFeature(merge(decode('AA'), released), 'test.released'), true);
+  assert.equal(hasFeature(decode('AA'), 'test.released'), false);
   assert.equal(hasFeature(released, 'toString'), false);
   assert.throws(() => fromKeys(['unknown.feature']));
 });
 
-it('invalid or unknown headers fail closed', function() {
+it('missing or invalid feature headers fail closed', function() {
+  assert.equal(hasFeature(parseHeaders({ get: () => 'AQ' }), 'test.basic'), true);
   for (const values of [
     {},
-    { 'X-Homey-Features-Version': '2' },
-    {
-      'X-Homey-Features-Version': '1',
-      'X-Homey-Features-Revision': '-1',
-      'X-Homey-Features': 'AQ',
-    },
+    { 'X-Homey-Features': '' },
+    { 'X-Homey-Features': 'invalid!' },
   ]) {
     assert.equal(
-      hasFeature(parseHeaders({ get: name => values[name] || null }).features, HomeyFeature.POC_HOMEY_FEATURE),
+      hasFeature(parseHeaders({ get: name => values[name] || null }), 'test.basic'),
       false,
     );
   }
+});
 });
