@@ -15,6 +15,21 @@
     "ar": "إنذار الطاقة",
     "de": "Stromalarm"
   },
+  "titleShort": {
+    "en": "Power",
+    "nl": "Stroom",
+    "da": "Strøm",
+    "it": "Alimentazione",
+    "ko": "전력",
+    "no": "Strøm",
+    "pl": "Zasilanie",
+    "ru": "Питание",
+    "sv": "Ström",
+    "es": "Potencia",
+    "fr": "Alimentation électrique",
+    "ar": "الطاقة",
+    "de": "Leistung"
+  },
   "desc": {
     "en": "True when power is detected.",
     "nl": "Wordt geactiveerd wanneer stroom wordt gedetecteerd.",

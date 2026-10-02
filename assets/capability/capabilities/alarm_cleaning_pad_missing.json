@@ -15,6 +15,21 @@
     "ar": "إنذار فقد وسادة التنظيف",
     "de": "Alarm bei fehlendem Reinigungspad"
   },
+  "titleShort": {
+    "en": "Cleaning Pad Missing",
+    "nl": "Reinigingspad ontbreekt",
+    "da": "Rengøringspude mangler",
+    "es": "Mopa de limpieza no instalada",
+    "fr": "Lingette de nettoyage manquante",
+    "it": "Panno pulente mancante",
+    "ko": "물걸레 누락",
+    "pl": "Brak podkładki czyszczącej",
+    "ru": "Чистящая губка отсутствует",
+    "sv": "Rengöringsdyna saknas",
+    "no": "Manglende vaskeklut",
+    "ar": "وسادة التنظيف غير موجودة",
+    "de": "Reinigungspad fehlt"
+  },
   "desc": {
     "en": "True when the cleaning pad is missing.",
     "nl": "Wordt geactiveerd wanneer de reinigingspad ontbreekt.",

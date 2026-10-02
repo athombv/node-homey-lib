@@ -15,6 +15,21 @@
     "ko": "배터리 알람",
     "ar": "إنذار البطارية"
   },
+  "titleShort": {
+    "en": "Battery",
+    "nl": "Batterij",
+    "de": "Batterie",
+    "fr": "Batterie",
+    "it": "Batteria",
+    "sv": "Batteri",
+    "no": "Batteri",
+    "es": "Batería",
+    "da": "Batteri",
+    "ru": "Аккумулятор",
+    "pl": "Stan baterii",
+    "ko": "배터리",
+    "ar": "البطارية"
+  },
   "desc": {
     "en": "True when there is a battery warning",
     "nl": "Geeft een batterijwaarschuwing",

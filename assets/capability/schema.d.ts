@@ -9,6 +9,7 @@ export type Capability = {
   [k: string]: unknown;
 } & {
   title: I18NObject;
+  titleShort?: I18NObject;
   desc?: I18NObject;
   type: "boolean" | "number" | "string" | "enum";
   getable?: boolean;
@@ -31,6 +32,7 @@ export type Capability = {
   uiComponent?:
     | ("thermostat" | "media" | "toggle" | "slider" | "ternary" | "button" | "color" | "picker" | "sensor" | "battery")
     | null;
+  uiState?: boolean;
   [k: string]: unknown;
 } & (
     | {

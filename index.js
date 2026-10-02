@@ -9,6 +9,25 @@ const Signal = require('./lib/Signal');
 const Util = require('./lib/Util');
 const Zone = require('./lib/Zone');
 
+// AIReviewer is Node-only (fs, child_process, tar CLI, openai/anthropic SDKs).
+// The webpack/RN bundle strips it via IgnorePlugin — the try/catch keeps the
+// bundle loadable there and `AIReviewer` simply resolves to undefined.
+let AIReviewer;
+let AIReviewerEnums;
+try {
+  // eslint-disable-next-line global-require
+  AIReviewer = require('./lib/AIReviewer');
+  // eslint-disable-next-line global-require
+  AIReviewerEnums = require('./lib/AIReviewer/enums');
+
+  if (typeof AIReviewer !== 'function') AIReviewer = undefined;
+  if (!AIReviewerEnums || typeof AIReviewerEnums !== 'object' || !Array.isArray(AIReviewerEnums.SEVERITIES)) {
+    AIReviewerEnums = undefined;
+  }
+} catch (err) {
+  // Not available in this environment.
+}
+
 module.exports.App = App;
 module.exports.Capability = Capability;
 module.exports.Device = Device;
@@ -17,6 +36,8 @@ module.exports.Media = Media;
 module.exports.Signal = Signal;
 module.exports.Util = Util;
 module.exports.Zone = Zone;
+module.exports.AIReviewer = AIReviewer;
+module.exports.AIReviewerEnums = AIReviewerEnums;
 
 /** @type {typeof Device.getClasses} */
 module.exports.getDeviceClasses = Device.getClasses.bind(Device);

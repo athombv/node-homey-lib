@@ -16,6 +16,13 @@ module.exports = {
     new webpack.ProvidePlugin({
       Buffer: ['buffer', 'Buffer'],
     }),
+    // AIReviewer is Node-only (fs, child_process, tar CLI, openai/anthropic SDKs).
+    // Ignore it entirely in the browser/RN bundle — consumers of that bundle
+    // get `undefined` for `require('homey-lib').AIReviewer`, which is the
+    // expected behavior for a server-side feature.
+    new webpack.IgnorePlugin({
+      resourceRegExp: /^\.\/lib\/AIReviewer/,
+    }),
   ],
   resolve: {
     fallback: {

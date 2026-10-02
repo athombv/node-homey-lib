@@ -43,6 +43,9 @@
     "title": {
       "$ref": "#/definitions/i18nObject"
     },
+    "titleShort": {
+      "$ref": "#/definitions/i18nObject"
+    },
     "desc": {
       "$ref": "#/definitions/i18nObject"
     },
@@ -142,6 +145,9 @@
           "type": "null"
         }
       ]
+    },
+    "uiState": {
+      "type": "boolean"
     }
   },
   "_comment": "Require `values` array when `type` is `enum`",

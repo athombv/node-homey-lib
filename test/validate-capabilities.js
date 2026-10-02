@@ -2,10 +2,10 @@
 
 const HomeyLib = require('..');
 
-describe('Capabilities', function () {
+describe('Capabilities', function() {
   const capabilities = {};
 
-  before(function () {
+  before(function() {
     const allCapabilities = HomeyLib.getCapabilities();
 
     for (const [capabilityId, capability] of Object.entries(allCapabilities)) {
@@ -19,7 +19,7 @@ describe('Capabilities', function () {
 
   // The mobile app will convert this to a 0-100 percentage slider. If the capability would have a
   // higher maximum, the slider would go to over 100%. For the capabilities we currently have, this doesn't make sense.
-  it('Percentage capabilities are from 0-1 when settable', function () {
+  it('Percentage capabilities are from 0-1 when settable', function() {
     const errors = [];
 
     for (const [capabilityId, capability] of Object.entries(capabilities)) {
@@ -46,7 +46,7 @@ describe('Capabilities', function () {
   });
 
   // The mobile app will not convert this to a percentage slider, as it is not settable. It will show the value as is.
-  it('Percentage capabilities are from 0-100 when not settable', function () {
+  it('Percentage capabilities are from 0-100 when not settable', function() {
     const errors = [];
 
     for (const [capabilityId, capability] of Object.entries(capabilities)) {
@@ -68,15 +68,42 @@ describe('Capabilities', function () {
     }
   });
 
+  // Homey decides whether to convert a value to Fahrenheit by comparing a capability's resolved
+  // units against the literal '°C'. Units are resolved per language, so translating the symbol
+  // silently disables the conversion for that language. Add a unit here once Homey matches on it.
+  const unitsMatchedByHomey = ['°C'];
+
+  it('Units that Homey matches on are not translated', function() {
+    const capabilities = HomeyLib.getCapabilities();
+
+    const errors = [];
+
+    for (const [capabilityId, capability] of Object.entries(capabilities)) {
+      const unit = capability.units ? capability.units.en : undefined;
+
+      if (!unitsMatchedByHomey.includes(unit)) continue;
+
+      for (const [language, translation] of Object.entries(capability.units)) {
+        if (translation === unit) continue;
+
+        errors.push(`The capability ${capabilityId} has units "${translation}" for language "${language}", which must stay "${unit}" for Homey to convert it`);
+      }
+    }
+
+    if (errors.length > 0) {
+      throw new Error(errors.join('\n'));
+    }
+  });
+
   const defaultTriggerSuffix = {
-    'boolean': ['_true', '_false'],
-    'number': ['_changed'],
-    'string': ['_changed'],
-    'enum': ['_changed'],
+    boolean: ['_true', '_false'],
+    number: ['_changed'],
+    string: ['_changed'],
+    enum: ['_changed'],
   };
 
   // Homey Core will have default handlers for these triggers if they are named correctly.
-  it('Trigger capabilities with a default suffix are valid', function () {
+  it('Trigger capabilities with a default suffix are valid', function() {
     const capabilities = HomeyLib.getCapabilities();
 
     const errors = [];

@@ -15,6 +15,21 @@
     "ko": "변화 감지",
     "ar": "إنذار التلاعب"
   },
+  "titleShort": {
+    "en": "Tamper",
+    "nl": "Sabotage",
+    "de": "Manipulation",
+    "fr": "Sabotage",
+    "it": "Manomissione",
+    "sv": "Sabotage",
+    "no": "Sabotasje",
+    "es": "Manipulación",
+    "da": "Forstyr",
+    "ru": "Несанкционированный доступ",
+    "pl": "Niepożądana ingerencja",
+    "ko": "탬퍼",
+    "ar": "التلاعب"
+  },
   "desc": {
     "en": "True when tampering has been detected",
     "nl": "Gaat af als sabotage gedetecteerd wordt",
