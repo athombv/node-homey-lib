@@ -25,7 +25,7 @@ describe('Zone icons', function() {
   it('resolves active, legacy, and unknown zone icons', function() {
     assert.strictEqual(HomeyLib.resolveZoneIcon('default').fileName, 'zone.svg');
     assert.strictEqual(HomeyLib.resolveZoneIcon('bed').id, 'bedroomDouble');
-    assert.strictEqual(HomeyLib.resolveZoneIcon('hallwayDoor').fileName, 'hallway_door.svg');
+    assert.strictEqual(HomeyLib.resolveZoneIcon('hallwayDoor').fileName, 'hallway-door.svg');
     assert.strictEqual(HomeyLib.resolveZoneIcon('unknown').id, 'default');
   });
 });
