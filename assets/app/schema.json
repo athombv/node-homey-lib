@@ -1257,6 +1257,22 @@
           "type": "boolean"
         }
       }
+    },
+    "energyPhase": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["measureCurrentCapability", "measureVoltageCapability", "measurePowerCapability"],
+      "properties": {
+        "measureCurrentCapability": {
+          "type": "string"
+        },
+        "measureVoltageCapability": {
+          "type": "string"
+        },
+        "measurePowerCapability": {
+          "type": "string"
+        }
+      }
     }
   },
   "required": ["id", "name", "version", "compatibility", "author"],
@@ -1554,6 +1570,24 @@
               },
               "meterPowerExportedCapability": {
                 "type": "string"
+              },
+              "currentLimitCapability": {
+                "type": "string"
+              },
+              "phases": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "l1": {
+                    "$ref": "#/definitions/energyPhase"
+                  },
+                  "l2": {
+                    "$ref": "#/definitions/energyPhase"
+                  },
+                  "l3": {
+                    "$ref": "#/definitions/energyPhase"
+                  }
+                }
               },
               "batteries": {
                 "type": "array",
