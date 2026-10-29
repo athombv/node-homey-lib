@@ -1,12 +1,12 @@
 'use strict';
 
 if (typeof global !== 'undefined') {
-  global.window = global.window || {};
+  const browserGlobal = global.window || {};
   const wp = require('../webpack');
   if (wp) {
     module.exports = wp;
   } else {
-    module.exports = global.window.HomeyLib;
+    module.exports = browserGlobal.HomeyLib;
   }
 } else {
   module.exports = undefined;
