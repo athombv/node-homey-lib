@@ -36,6 +36,8 @@ jobs:
     if: github.actor != 'homey-bot'
 
     runs-on: ubuntu-latest
+    outputs:
+      package_version: ${{ steps.publish.outputs.package_version }}
     steps:
 
       # Checks out the current repository.
@@ -95,16 +97,31 @@ jobs:
      
       # Publish when this action is running on branch production
       - name: Publish
+        id: publish
         run: |
           npm publish
           VERSION="$(node -p "require('./package.json').version")"
           echo package_version=${VERSION} >> $GITHUB_ENV
+          echo package_version=${VERSION} >> $GITHUB_OUTPUT
 
   trigger-repository-dispatch-event:
     needs: deploy_to_npm
     name: Update dependent repositories
     runs-on: ubuntu-latest
     steps:
+
+      # The dependent repositories install homey-lib@latest, which npm can still resolve to the
+      # previous version shortly after publishing. Wait until npm serves the new version.
+      - name: Wait until npm serves the published version
+        run: |
+          for i in $(seq 1 30); do
+            if [ "$(npm view homey-lib version)" = "${{ needs.deploy_to_npm.outputs.package_version }}" ]; then
+              exit 0
+            fi
+            sleep 20
+          done
+          echo "npm does not serve homey-lib@${{ needs.deploy_to_npm.outputs.package_version }} as latest after 10 minutes"
+          exit 1
 
       # Note: insert '<org>/<repo>' below (e.g. athombv/create-nodejs), and specify "event_type"
       - name: Trigger repository dispatch event athombv/node-homey
