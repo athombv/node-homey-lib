@@ -2,6 +2,10 @@
 
 'use strict';
 
+const assert = require('assert');
+const HomeyLib = require('..');
+const appSchema = require('../assets/app/schema.json');
+
 const {
   baseAppManifest,
   mockApp,
@@ -456,6 +460,83 @@ describe('HomeyLib.App#validate() base manifest', function() {
       publish: /invalid permission/i,
       verified: /invalid permission/i,
     });
+  });
+
+  /*
+   * App API Scopes
+   */
+
+  it('`apiScopes` can be an array, empty array or null', async function() {
+    for (const apiScopes of [['homey.device.readonly', 'homey.zone.readonly'], [], null]) {
+      const app = mockApp({
+        ...baseAppManifest,
+        permissions: ['homey:manager:api'],
+        apiScopes,
+      });
+
+      await assertValidates(app, {
+        debug: true,
+        publish: true,
+        verified: true,
+      });
+
+      clearMockApp();
+    }
+  });
+
+  it('`apiScopes` needs to contain valid scopes', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      permissions: ['homey:manager:api'],
+      apiScopes: ['homey.device.readonly', 'homey'],
+    });
+
+    await assertValidates(app, {
+      debug: /should be equal to one of the allowed values/i,
+      publish: /should be equal to one of the allowed values/i,
+      verified: /should be equal to one of the allowed values/i,
+    });
+  });
+
+  it('`apiScopes` cannot contain duplicate scopes', async function() {
+    const app = mockApp({
+      ...baseAppManifest,
+      permissions: ['homey:manager:api'],
+      apiScopes: ['homey.device.readonly', 'homey.device.readonly'],
+    });
+
+    await assertValidates(app, {
+      debug: /should NOT have duplicate items/i,
+      publish: /should NOT have duplicate items/i,
+      verified: /should NOT have duplicate items/i,
+    });
+  });
+
+  it('`apiScopes` requires the `homey:manager:api` permission', async function() {
+    for (const permissions of [['homey:wireless:ble'], undefined]) {
+      for (const apiScopes of [['homey.device.readonly'], null]) {
+        const app = mockApp({
+          ...baseAppManifest,
+          permissions,
+          apiScopes,
+        });
+
+        await assertValidates(app, {
+          debug: /apiScopes.*homey:manager:api/i,
+          publish: /apiScopes.*homey:manager:api/i,
+          verified: /apiScopes.*homey:manager:api/i,
+        });
+
+        clearMockApp();
+      }
+    }
+  });
+
+  it('`apiScopes` schema enum matches the known API scopes', function() {
+    assert.deepStrictEqual(
+      [...appSchema.properties.apiScopes.items.enum].sort(),
+      Object.keys(HomeyLib.getAppAPIScopes()).sort(),
+    );
   });
 
   /*

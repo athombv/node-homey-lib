@@ -349,6 +349,27 @@ export interface App {
     };
   };
   settings?: AppSettings;
+  apiScopes?:
+    | (
+        | "homey.alarm"
+        | "homey.system.readonly"
+        | "homey.updates.readonly"
+        | "homey.geolocation.readonly"
+        | "homey.zone.readonly"
+        | "homey.device.readonly"
+        | "homey.device.control"
+        | "homey.flow.readonly"
+        | "homey.user.readonly"
+        | "homey.user.self"
+        | "homey.app.readonly"
+        | "homey.app.control"
+        | "homey.presence.readonly"
+        | "homey.insights.readonly"
+        | "homey.energy.readonly"
+        | "homey.mood.readonly"
+        | "homey.logic.readonly"
+      )[]
+    | null;
   [k: string]: unknown;
 }
 export interface Author {
