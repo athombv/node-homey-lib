@@ -248,7 +248,7 @@ export interface App {
       [k: string]: unknown;
     }[];
     settings?: DriverSettings;
-    firmwareUpdates?: ZigbeeFirmwareUpdates | ZwaveFirmwareUpdates;
+    firmwareUpdates?: ZigbeeFirmwareUpdates | ZwaveFirmwareUpdates | GenericFirmwareUpdates;
     gtin?: string | string[];
     matter?: MatterDevice;
     zwave?: ZwaveDevice;
@@ -468,6 +468,10 @@ export interface ZwaveFirmwareUpdateFile {
   name: string;
   size: number;
   integrity: Integrity;
+}
+export interface GenericFirmwareUpdates {
+  enabled: boolean;
+  wakeInstruction?: I18NObject;
 }
 export interface MatterDevice {
   vendorId: number | number[];
