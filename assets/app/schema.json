@@ -549,8 +549,15 @@
                         },
                         "title": {
                           "$ref": "#/definitions/i18nObject"
+                        },
+                        "label": {
+                          "$ref": "#/definitions/i18nObject"
                         }
-                      }
+                      },
+                      "anyOf": [
+                        { "required": ["title"] },
+                        { "required": ["label"] }
+                      ]
                     }
                   }
                 }
