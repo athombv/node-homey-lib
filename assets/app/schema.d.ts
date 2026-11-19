@@ -225,6 +225,7 @@ export interface App {
       cumulativeExportedCapability?: string;
       electricCar?: true;
       evCharger?: true;
+      excludedByDefault?: boolean;
       homeBattery?: true;
       meterPowerImportedCapability?: string;
       meterPowerExportedCapability?: string;
