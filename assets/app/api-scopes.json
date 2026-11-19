@@ -124,15 +124,15 @@
       "nl": "Flows bekijken",
       "de": "Flows anzeigen",
       "fr": "Afficher les Flows",
-      "it": "Visualizza i Flow",
-      "sv": "Visa flöden",
-      "no": "Vis flows",
+      "it": "Visualizza i Flows",
+      "sv": "Visa Flows",
+      "no": "Vis Flows",
       "es": "Ver los Flows",
-      "da": "Se flows",
-      "ru": "Просматривать сценарии",
-      "pl": "Wyświetlaj przepływy",
-      "ko": "Flow 보기",
-      "ar": "عرض التدفقات"
+      "da": "Se Flows",
+      "ru": "Просматривать Flows",
+      "pl": "Wyświetlaj Flows",
+      "ko": "Flows 보기",
+      "ar": "عرض Flows"
     }
   },
   "homey.user.readonly": {
@@ -223,18 +223,18 @@
   "homey.insights.readonly": {
     "title": {
       "en": "View Insights",
-      "nl": "Inzichten bekijken",
-      "de": "Einblicke anzeigen",
-      "fr": "Afficher les analyses",
-      "it": "Visualizza le analisi",
-      "sv": "Visa insikter",
-      "no": "Vis innsikt",
-      "es": "Ver los análisis",
-      "da": "Se indsigt",
-      "ru": "Просматривать аналитику",
-      "pl": "Wyświetlaj statystyki",
-      "ko": "분석 보기",
-      "ar": "عرض الرؤى"
+      "nl": "Insights bekijken",
+      "de": "Insights anzeigen",
+      "fr": "Afficher les Insights",
+      "it": "Visualizza gli Insights",
+      "sv": "Visa Insights",
+      "no": "Vis Insights",
+      "es": "Ver los Insights",
+      "da": "Se Insights",
+      "ru": "Просматривать Insights",
+      "pl": "Wyświetlaj Insights",
+      "ko": "Insights 보기",
+      "ar": "عرض Insights"
     }
   },
   "homey.energy.readonly": {
@@ -257,35 +257,35 @@
   "homey.mood.readonly": {
     "title": {
       "en": "View Moods",
-      "nl": "Sferen bekijken",
-      "de": "Stimmungen anzeigen",
-      "fr": "Afficher les ambiances",
-      "it": "Visualizza le atmosfere",
-      "sv": "Visa stämningar",
-      "no": "Vis stemninger",
-      "es": "Ver los ambientes",
-      "da": "Se stemninger",
-      "ru": "Просматривать настроения",
-      "pl": "Wyświetlaj nastroje",
-      "ko": "분위기 보기",
-      "ar": "عرض الأجواء"
+      "nl": "Moods bekijken",
+      "de": "Moods anzeigen",
+      "fr": "Afficher les Moods",
+      "it": "Visualizza i Moods",
+      "sv": "Visa Moods",
+      "no": "Vis Moods",
+      "es": "Ver los Moods",
+      "da": "Se Moods",
+      "ru": "Просматривать Moods",
+      "pl": "Wyświetlaj Moods",
+      "ko": "Moods 보기",
+      "ar": "عرض Moods"
     }
   },
   "homey.logic.readonly": {
     "title": {
       "en": "View Logic Variables",
-      "nl": "Logica-variabelen bekijken",
-      "de": "Logikvariablen anzeigen",
-      "fr": "Afficher les variables logiques",
-      "it": "Visualizza le variabili logiche",
-      "sv": "Visa logikvariabler",
-      "no": "Vis logikkvariabler",
-      "es": "Ver las variables lógicas",
-      "da": "Se logikvariabler",
-      "ru": "Просматривать логические переменные",
-      "pl": "Wyświetlaj zmienne logiczne",
-      "ko": "논리 변수 보기",
-      "ar": "عرض المتغيرات المنطقية"
+      "nl": "Logic-variabelen bekijken",
+      "de": "Logic-Variablen anzeigen",
+      "fr": "Afficher les variables Logic",
+      "it": "Visualizza le variabili Logic",
+      "sv": "Visa Logic-variabler",
+      "no": "Vis Logic-variabler",
+      "es": "Ver las variables de Logic",
+      "da": "Se Logic-variabler",
+      "ru": "Просматривать переменные Logic",
+      "pl": "Wyświetlaj zmienne Logic",
+      "ko": "Logic 변수 보기",
+      "ar": "عرض متغيرات Logic"
     }
   }
 }

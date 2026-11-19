@@ -1545,6 +1545,9 @@
                 "type": "boolean",
                 "enum": [true]
               },
+              "excludedByDefault": {
+                "type": "boolean"
+              },
               "homeBattery": {
                 "type": "boolean",
                 "enum": [true]
